@@ -10,7 +10,7 @@ Original file is located at
 # import the requests package and set your token in a variable for later use
 import requests
 
-token="GlBIHOAHes7BPcdGqyanZKAuwXcmNVziwDlBdJgK"
+token="insert_token_value_here"
 
 from urllib.parse import urlencode, quote_plus
 
