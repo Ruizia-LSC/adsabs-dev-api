@@ -3,7 +3,7 @@ import sys
 import requests
 
 
-API_URL = "https://api.adsabs.harvard.edu/v1/search/query"
+API_URL = "https://api.adsabs.harvard.edu/v1/search/query?q=star&fl=bibcode"
 
 
 def fetch_by_doi(doi, doctype=None):
