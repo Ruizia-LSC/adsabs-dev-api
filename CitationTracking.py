@@ -3,7 +3,7 @@ import sys
 import requests
 
 
-API_URL = "https://api.adsabs.harvard.edu/v1/search/query?q=star&fl=bibcode"
+API_URL = "https://api.adsabs.harvard.edu/v1/search/query"
 
 
 def fetch_by_doi(doi, doctype=None):
@@ -21,7 +21,7 @@ def fetch_by_doi(doi, doctype=None):
 
     params = {
         "q": query,
-        "fl": "id,title,doi,citation_count"
+        "fl": "id,title,doi,doctype,citation_count,bibcode,identifier"
     }
 
     response = requests.get(API_URL, headers=headers, params=params, timeout=30)
@@ -35,7 +35,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
     doi = sys.argv[1]
-    doctype = sys.argv[2] if len(sys.argv) > 2 else None
+    doctype = sys.argv[2] if len(sys.argv) > 2 else "dataset"
 
     result = fetch_by_doi(doi, doctype)
     print(result)
