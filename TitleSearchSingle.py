@@ -1,47 +1,76 @@
 import requests
 
-
-def get_dataset_title_from_doi(doi: str, timeout: int = 10) -> str | None:
+def doi_metadata_contains_phrase(
+    doi: str,
+    phrase: str,
+    timeout: int = 10,
+    case_sensitive: bool = False,
+) -> tuple[bool, str | None]:
     """
-    Look up a DOI in the Crossref works API and return the dataset title.
+    Query Crossref metadata for a DOI and check whether a phrase exists anywhere
+    in the returned metadata JSON.
 
     Args:
-        doi: The DOI to search for.
-        timeout: Request timeout in seconds.
+        doi: DOI string, e.g. "10.1029/2023SW003772"
+        phrase: Phrase to search for.
+        timeout: HTTP timeout in seconds.
+        case_sensitive: If False, performs case-insensitive matching.
 
     Returns:
-        The first title string if found, otherwise None.
+        (matched, matched_path)
+        - matched: True if phrase found
+        - matched_path: JSON path-like location where first match was found, else None
     """
     url = f"https://api.crossref.org/works/{doi}"
 
     try:
-        response = requests.get(url, timeout=timeout)
-        response.raise_for_status()
-        payload = response.json()
-    except requests.RequestException:
-        return None
-    except ValueError:
-        return None
+        resp = requests.get(url, timeout=timeout)
+        resp.raise_for_status()
+        payload = resp.json()
+    except (requests.RequestException, ValueError):
+        return False, None
 
     message = payload.get("message", {})
 
-    # Optional: only treat dataset records as valid
-    record_type = message.get("type")
-    if record_type and record_type != "dataset":
-        return None
+    target = phrase if case_sensitive else phrase.lower()
 
-    titles = message.get("title", [])
-    if isinstance(titles, list) and titles:
-        return titles[0]
+    def _contains(value, path="$"):
+        # String leaf
+        if isinstance(value, str):
+            hay = value if case_sensitive else value.lower()
+            if target in hay:
+                return True, path
+            return False, None
 
-    return None
+        # Dict node
+        if isinstance(value, dict):
+            for k, v in value.items():
+                found, found_path = _contains(v, f"{path}.{k}")
+                if found:
+                    return True, found_path
+            return False, None
+
+        # List node
+        if isinstance(value, list):
+            for i, item in enumerate(value):
+                found, found_path = _contains(item, f"{path}[{i}]")
+                if found:
+                    return True, found_path
+            return False, None
+
+        # Non-string scalar
+        return False, None
+
+    return _contains(message, path="$.message")
 
 
 if __name__ == "__main__":
-    example_doi = "10.5061/dryad.8sf7m0cjw"
-    title = get_dataset_title_from_doi(example_doi)
+    doi = "10.1029/2023SW003772"
+    search = "Binned TIMED/SEE VUV irradiance data"
 
-    if title:
-        print(f"Dataset title: {title}")
+    matched, location = doi_metadata_contains_phrase(doi, search)
+
+    if matched:
+        print(f"Match found for '{search}' at: {location}")
     else:
-        print("No dataset title found for that DOI.")
+        print(f"No match found for '{search}' in DOI metadata.")
