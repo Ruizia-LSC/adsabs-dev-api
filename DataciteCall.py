@@ -96,6 +96,7 @@ def fetch_datacite_metadata_with_history(
     Returns:
       {
         "query_doi": ...,
+        "canonical_doi": ...,
         "current": <normalized latest record>,
         "history": [<normalized version 1>, <normalized version 2>, ...],
         "changes_between_versions": [
@@ -109,7 +110,6 @@ def fetch_datacite_metadata_with_history(
 
     doi = doi.strip()
 
-    # 1) Query DOI to get current/best match
     resp = requests.get(
         DATACITE_API,
         params={"query": doi, "page[size]": page_size},
@@ -122,7 +122,6 @@ def fetch_datacite_metadata_with_history(
     if not items:
         raise ValueError(f"No DataCite records found for DOI query: {doi}")
 
-    # Prefer exact DOI match
     chosen = None
     doi_lower = doi.lower()
     for item in items:
@@ -136,8 +135,6 @@ def fetch_datacite_metadata_with_history(
     current = _normalize_record(chosen)
     canonical_doi = current.get("doi") or doi
 
-    # 2) Pull versions endpoint for full metadata iteration history
-    #    DataCite supports /dois/{doi}/versions for version history
     versions_url = f"{DATACITE_API}/{canonical_doi}/versions"
     v_resp = requests.get(
         versions_url,
@@ -151,15 +148,12 @@ def fetch_datacite_metadata_with_history(
         v_items = v_payload.get("data", []) or []
         history = [_normalize_record(v) for v in v_items]
     else:
-        # Graceful fallback: if versions endpoint unavailable, keep current only
         history = [current]
 
-    # Ensure current exists in history
     current_id = current.get("id")
     if current_id and all(h.get("id") != current_id for h in history):
         history.append(current)
 
-    # Sort by registered/published/updated to approximate chronological order
     def _sort_key(rec: Dict[str, Any]):
         return (
             rec.get("registered") or "",
@@ -170,7 +164,6 @@ def fetch_datacite_metadata_with_history(
 
     history = sorted(history, key=_sort_key)
 
-    # Build pairwise diffs (detect title/DOI/etc changes across iterations)
     changes_between_versions = []
     for i in range(1, len(history)):
         old = history[i - 1]
@@ -188,30 +181,12 @@ def fetch_datacite_metadata_with_history(
             )
 
     return {
-    # updated/current metadata (exact shape you requested)
-    "id": current.get("id"),
-    "doi": current.get("doi"),
-    "titles": current.get("titles"),
-    "creators": current.get("creators"),
-    "publisher": current.get("publisher"),
-    "publication_year": current.get("publication_year"),
-    "resource_type_general": current.get("resource_type_general"),
-    "subjects": current.get("subjects"),
-    "descriptions": current.get("descriptions"),
-    "url": current.get("url"),
-    "published": current.get("published"),
-    "updated": current.get("updated"),
-    "registered": current.get("registered"),
-    "language": current.get("language"),
-    "rights": current.get("rights"),
-    "version": current.get("version"),
-    "state": current.get("state"),
-    "raw": current.get("raw"),
-
-    # plus all metadata iterations + diff tracking
-    "all_versions": history,
-    "changes_between_versions": changes_between_versions,
-}
+        "query_doi": doi,
+        "canonical_doi": canonical_doi,
+        "current": current,
+        "history": history,
+        "changes_between_versions": changes_between_versions,
+    }
 
 
 if __name__ == "__main__":
