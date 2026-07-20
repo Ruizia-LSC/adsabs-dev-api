@@ -52,42 +52,58 @@ def run_unstructured_search_for_citation_dois(
       - query Crossref /works/{doi}
       - collect unstructured references
     Save full results to output_path.
+    Also list exactly which DOIs fall into with_unstructured, no_unstructured, and errors.
     """
     dois = load_citation_dois(json_path)
     total = len(dois)
 
     results: dict[str, dict] = {}
+    with_unstructured_dois: list[str] = []
+    no_unstructured_dois: list[str] = []
+    error_dois: list[str] = []
 
     for idx, doi in enumerate(dois, start=1):
         print(f"[{idx}/{total}] Processing citation DOI: {doi}")
         try:
             unstructured = get_unstructured_citations_for_doi(doi, timeout=timeout)
+            has_unstructured = len(unstructured) > 0
             results[doi] = {
                 "status": "ok",
+                "category": "with_unstructured" if has_unstructured else "no_unstructured",
                 "unstructured_count": len(unstructured),
                 "unstructured": unstructured,
             }
+            if has_unstructured:
+                with_unstructured_dois.append(doi)
+            else:
+                no_unstructured_dois.append(doi)
         except requests.HTTPError as e:
             results[doi] = {
                 "status": "http_error",
+                "category": "errors",
                 "error": str(e),
                 "unstructured_count": 0,
                 "unstructured": [],
             }
+            error_dois.append(doi)
         except requests.RequestException as e:
             results[doi] = {
                 "status": "request_error",
+                "category": "errors",
                 "error": str(e),
                 "unstructured_count": 0,
                 "unstructured": [],
             }
+            error_dois.append(doi)
         except Exception as e:
             results[doi] = {
                 "status": "error",
+                "category": "errors",
                 "error": str(e),
                 "unstructured_count": 0,
                 "unstructured": [],
             }
+            error_dois.append(doi)
 
         if sleep_seconds > 0:
             time.sleep(sleep_seconds)
@@ -98,12 +114,14 @@ def run_unstructured_search_for_citation_dois(
         "total_citation_dois": total,
         "processed": len(results),
         "ok": sum(1 for v in results.values() if v["status"] == "ok"),
-        "with_unstructured": sum(
-            1
-            for v in results.values()
-            if v["status"] == "ok" and v["unstructured_count"] > 0
-        ),
-        "errors": sum(1 for v in results.values() if v["status"] != "ok"),
+        "with_unstructured": len(with_unstructured_dois),
+        "no_unstructured": len(no_unstructured_dois),
+        "errors": len(error_dois),
+        "doi_lists": {
+            "with_unstructured": with_unstructured_dois,
+            "no_unstructured": no_unstructured_dois,
+            "errors": error_dois,
+        },
     }
 
     payload = {
