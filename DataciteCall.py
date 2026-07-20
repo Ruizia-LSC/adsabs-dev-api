@@ -95,9 +95,7 @@ def fetch_datacite_metadata_with_history(
 
     Returns:
       {
-        "query_doi": ...,
-        "canonical_doi": ...,
-        "current": <normalized latest record>,
+        "query_doi": ...,        "canonical_doi": ...,        "current": <normalized latest record>,
         "history": [<normalized version 1>, <normalized version 2>, ...],
         "changes_between_versions": [
             {"from_index": 0, "to_index": 1, "changes": {...}},
@@ -188,24 +186,26 @@ def fetch_datacite_metadata_with_history(
         "changes_between_versions": changes_between_versions,
     }
 
+test_doi = "10.26093/cds/vizier.1350"
+result = fetch_datacite_metadata_with_history(test_doi)
 
-if __name__ == "__main__":
-    test_doi = "10.5281/zenodo.3727209"
+print('\nDetailed metadata from the current record:')
+for k in [
+    "doi", "titles", "creators", "publisher", "publication_year",
+    "resource_type_general", "subjects", "descriptions", "url",
+    "language", "rights", "version", "state"
+]:
+    # The requested keys are within the 'current' record of the result.
+    print(f"{k}: {result['current'].get(k)}")
 
-    try:
-        result = fetch_datacite_metadata_with_history(test_doi)
-        print("Query DOI:", result["query_doi"])
-        print("Canonical DOI:", result["canonical_doi"])
-        print("Current title:", (result["current"]["titles"] or [None])[0])
-        print("Versions found:", len(result["history"]))
 
-        if result["changes_between_versions"]:
-            print("\nDetected metadata changes across versions:")
-            for ch in result["changes_between_versions"]:
-                print(f"- {ch['from_id']} -> {ch['to_id']}")
-                for k, v in ch["changes"].items():
-                    print(f"    {k}: {v['old']}  =>  {v['new']}")
-        else:
-            print("\nNo metadata changes detected across versions.")
-    except Exception as e:
-        print(f"Error: {e}")
+print("\nVersions found:", len(result["history"]))
+
+if result["changes_between_versions"]:
+    print("\nDetected metadata changes across versions:")
+    for ch in result["changes_between_versions"]:
+        print(f"- From {ch['from_id']} to {ch['to_id']}")
+        for k, v in ch["changes"].items():
+            print(f"    {k}: Old = {v['old']} => New = {v['new']}")
+else:
+    print("\nNo metadata changes detected across versions.")
