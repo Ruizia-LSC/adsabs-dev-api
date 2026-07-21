@@ -97,5 +97,3 @@ if __name__ == "__main__":
         if matched:
             print(f"[MATCH]    DOI: {doi}")
             print(f"           Location: {location}\n")
-        else:
-            print(f"[no match] DOI: {doi}")
