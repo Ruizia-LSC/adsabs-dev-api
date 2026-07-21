@@ -1,4 +1,6 @@
+import json
 import requests
+
 
 def doi_metadata_contains_phrase(
     doi: str,
@@ -64,13 +66,36 @@ def doi_metadata_contains_phrase(
     return _contains(message, path="$.message")
 
 
+def load_citation_dois(json_path: str) -> list[str]:
+    """
+    Load all citation_doi values from every entry in the given JSON file.
+
+    Args:
+        json_path: Path to the JSON file (e.g. 'cited_list100.json').
+
+    Returns:
+        A flat list of DOI strings gathered from every entry's 'citation_doi' field.
+    """
+    with open(json_path, "r", encoding="utf-8") as f:
+        records = json.load(f)
+
+    dois = []
+    for record in records:
+        dois.extend(record.get("citation_doi", []))
+    return dois
+
+
 if __name__ == "__main__":
-    doi = "10.1029/2023SW003772"
+    json_file = "cited_list100.json"
     search = "Binned TIMED/SEE VUV irradiance data"
 
-    matched, location = doi_metadata_contains_phrase(doi, search)
+    citation_dois = load_citation_dois(json_file)
+    print(f"Loaded {len(citation_dois)} citation DOIs from '{json_file}'.\n")
 
-    if matched:
-        print(f"Match found for '{search}' at: {location}")
-    else:
-        print(f"No match found for '{search}' in DOI metadata.")
+    for doi in citation_dois:
+        matched, location = doi_metadata_contains_phrase(doi, search)
+        if matched:
+            print(f"[MATCH]    DOI: {doi}")
+            print(f"           Location: {location}\n")
+        else:
+            print(f"[no match] DOI: {doi}")
