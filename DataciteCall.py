@@ -1,3 +1,4 @@
+import json
 import requests
 from typing import Any, Dict, List
 
@@ -40,8 +41,6 @@ def _normalize_record(item: Dict[str, Any]) -> Dict[str, Any]:
         "publisher": attrs.get("publisher"),
         "publication_year": attrs.get("publicationYear"),
         "resource_type_general": _safe_get(attrs, "types", "resourceTypeGeneral"),
-        "subjects": subjects,
-        "descriptions": descriptions,
         "url": attrs.get("url"),
         "published": attrs.get("published"),
         "updated": attrs.get("updated"),
@@ -49,8 +48,6 @@ def _normalize_record(item: Dict[str, Any]) -> Dict[str, Any]:
         "language": attrs.get("language"),
         "rights": rights,
         "version": attrs.get("version"),
-        "state": attrs.get("state"),
-        "raw": item,
     }
 
 
@@ -65,8 +62,6 @@ def _metadata_diff(old: Dict[str, Any], new: Dict[str, Any]) -> Dict[str, Dict[s
         "publisher",
         "publication_year",
         "resource_type_general",
-        "subjects",
-        "descriptions",
         "url",
         "language",
         "rights",
@@ -88,20 +83,6 @@ def fetch_datacite_metadata_with_history(
 ) -> Dict[str, Any]:
     """
     Fetch DataCite metadata for DOI and include all available versions/iterations.
-
-    Uses:
-      - https://api.datacite.org/dois?query=<doi>
-      - https://api.datacite.org/dois/<doi>/versions
-
-    Returns:
-      {
-        "query_doi": ...,        "canonical_doi": ...,        "current": <normalized latest record>,
-        "history": [<normalized version 1>, <normalized version 2>, ...],
-        "changes_between_versions": [
-            {"from_index": 0, "to_index": 1, "changes": {...}},
-            ...
-        ]
-      }
     """
     if not doi or not doi.strip():
         raise ValueError("DOI must be a non-empty string.")
@@ -186,26 +167,43 @@ def fetch_datacite_metadata_with_history(
         "changes_between_versions": changes_between_versions,
     }
 
-test_doi = "10.26093/cds/vizier.1350"
-result = fetch_datacite_metadata_with_history(test_doi)
 
-print('\nDetailed metadata from the current record:')
-for k in [
-    "doi", "titles", "creators", "publisher", "publication_year",
-    "resource_type_general", "subjects", "descriptions", "url",
-    "language", "rights", "version", "state"
-]:
-    # The requested keys are within the 'current' record of the result.
-    print(f"{k}: {result['current'].get(k)}")
+def process_cited_dois(
+    input_json_path: str = "cited_list100.json",
+    output_json_path: str = "datacite_results.json",
+) -> Dict[str, Any]:
+    """
+    Read cited_list100.json and fetch DataCite metadata history for every DOI in each record's 'doi' list.
+    Save all results to output_json_path.
+    """
+    with open(input_json_path, "r", encoding="utf-8") as f:
+        records = json.load(f)
+
+    results: Dict[str, Any] = {}
+    for rec in records:
+        for doi in rec.get("doi", []) or []:
+            doi_str = (doi or "").strip()
+            if not doi_str:
+                continue
+            if doi_str in results:
+                continue  # avoid duplicate API calls
+            try:
+                results[doi_str] = fetch_datacite_metadata_with_history(doi_str)
+                print(f"Processed DOI: {doi_str}")
+            except Exception as e:
+                print(f"Failed DOI {doi_str}: {e}")
+                results[doi_str] = {"error": str(e)}
+
+    with open(output_json_path, "w", encoding="utf-8") as f:
+        json.dump(results, f, ensure_ascii=False, indent=2)
+
+    print(f"\nSaved results to: {output_json_path}")
+    return results
 
 
-print("\nVersions found:", len(result["history"]))
-
-if result["changes_between_versions"]:
-    print("\nDetected metadata changes across versions:")
-    for ch in result["changes_between_versions"]:
-        print(f"- From {ch['from_id']} to {ch['to_id']}")
-        for k, v in ch["changes"].items():
-            print(f"    {k}: Old = {v['old']} => New = {v['new']}")
-else:
-    print("\nNo metadata changes detected across versions.")
+if __name__ == "__main__":
+    all_results = process_cited_dois(
+        input_json_path="cited_list100.json",
+        output_json_path="datacite_results.json",
+    )
+    print(f"Finished processing {len(all_results)} DOI(s).")
