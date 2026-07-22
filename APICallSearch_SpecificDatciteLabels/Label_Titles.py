@@ -4,14 +4,14 @@ import requests
 from typing import Iterable, Any
 
 
-def doi_metadata_contains_any_phrase(
+def find_phrases_in_doi_metadata(
     doi: str,
     phrases: Iterable[str],
     timeout: int = 10,
     case_sensitive: bool = False,
-) -> tuple[bool, str | None, str | None, str | None, dict[str, Any] | None]:
+) -> list[tuple[str, str, str, dict[str, Any] | None]]:
     """
-    Query Crossref metadata for a DOI and check whether ANY phrase exists anywhere
+    Query Crossref metadata for a DOI and find all occurrences of ANY phrase
     in the returned metadata JSON.
 
     Args:
@@ -21,13 +21,12 @@ def doi_metadata_contains_any_phrase(
         case_sensitive: If False, performs case-insensitive matching.
 
     Returns:
-        (matched, matched_phrase, matched_path, matched_text, matched_reference_obj)
-        - matched: True if any phrase found
-        - matched_phrase: phrase that matched first
-        - matched_path: JSON path-like location where first match was found, else None
-        - matched_text: full string leaf containing the matched phrase, else None
-        - matched_reference_obj: full reference dict if match is inside
-          $.message.reference[<index>]..., else None
+        A list of (matched_phrase, matched_path, matched_text, matched_reference_obj) tuples.
+        - matched_phrase: The phrase that matched.
+        - matched_path: JSON path-like location where the match was found.
+        - matched_text: Full string leaf containing the matched phrase.
+        - matched_reference_obj: Full reference dict if match is inside
+          $.message.reference[<index>]..., else None.
     """
     url = f"https://api.crossref.org/works/{doi}"
 
@@ -36,53 +35,47 @@ def doi_metadata_contains_any_phrase(
         resp.raise_for_status()
         payload = resp.json()
     except (requests.RequestException, ValueError):
-        return False, None, None, None, None
+        return []
 
     message = payload.get("message", {})
 
     phrase_list = [p for p in phrases if isinstance(p, str) and p.strip()]
     if not phrase_list:
-        return False, None, None, None, None
+        return []
 
     targets = phrase_list if case_sensitive else [p.lower() for p in phrase_list]
 
-    def _contains(value, path="$"):
+    def _collect_matches(value, path="$"):
+        current_matches = []
         # String leaf
         if isinstance(value, str):
             hay = value if case_sensitive else value.lower()
             for original, target in zip(phrase_list, targets):
                 if target in hay:
-                    return True, original, path, value
-            return False, None, None, None
+                    current_matches.append((original, path, value))
+            return current_matches
 
         # Dict node
         if isinstance(value, dict):
             for k, v in value.items():
-                found, found_phrase, found_path, found_text = _contains(v, f"{path}.{k}")
-                if found:
-                    return True, found_phrase, found_path, found_text
-            return False, None, None, None
+                current_matches.extend(_collect_matches(v, f"{path}.{k}"))
+            return current_matches
 
         # List node
         if isinstance(value, list):
             for i, item in enumerate(value):
-                found, found_phrase, found_path, found_text = _contains(item, f"{path}[{i}]")
-                if found:
-                    return True, found_phrase, found_path, found_text
-            return False, None, None, None
+                current_matches.extend(_collect_matches(item, f"{path}[{i}]"))
+            return current_matches
 
         # Non-string scalar
-        return False, None, None, None
+        return current_matches
 
-    matched, matched_phrase, matched_path, matched_text = _contains(message, path="$.message")
+    all_raw_matches = _collect_matches(message, path="$.message")
 
-    if not matched:
-        return False, None, None, None, None
-
-    # If match is under $.message.reference[<idx>]..., return that full reference object.
-    matched_reference_obj = None
-    if matched_path:
-        m = re.match(r"^\$.message\.reference\[(\d+)\](?:\.|$)", matched_path)
+    final_matches = []
+    for original_phrase, path, text in all_raw_matches:
+        matched_reference_obj = None
+        m = re.match(r"^\$.message\.reference\[(\d+)\](?:\.|$)", path)
         if m:
             idx = int(m.group(1))
             refs = message.get("reference")
@@ -90,8 +83,9 @@ def doi_metadata_contains_any_phrase(
                 ref_obj = refs[idx]
                 if isinstance(ref_obj, dict):
                     matched_reference_obj = ref_obj
+        final_matches.append((original_phrase, path, text, matched_reference_obj))
 
-    return matched, matched_phrase, matched_path, matched_text, matched_reference_obj
+    return final_matches
 
 
 def load_citation_dois(json_path: str) -> list[str]:
@@ -113,12 +107,14 @@ def load_citation_dois(json_path: str) -> list[str]:
     return dois
 
 
-def load_target_dois(datacite_json_path: str) -> list[str]:
+def load_target_titles(datacite_json_path: str) -> list[str]:
     """
-    Load all DOI values from DatacieCall_Results.json fields:
-    - query_doi
-    - canonical_doi
-    - doi
+    Load title values from DatacieCall_Results.json.
+
+    Tries common title fields:
+    - title
+    - titles (string or list; list entries may be strings or dicts like {"title": "..."} )
+    - resource_title
 
     Handles both top-level list and top-level dict with nested records.
     """
@@ -129,8 +125,6 @@ def load_target_dois(datacite_json_path: str) -> list[str]:
     if isinstance(data, list):
         records = data
     elif isinstance(data, dict):
-        # If it's a dict, try common containers first, then fallback to the dict's values
-        # as the records if they are dictionaries.
         found_records = False
         for key in ("results", "records", "items", "data"):
             if isinstance(data.get(key), list):
@@ -138,7 +132,6 @@ def load_target_dois(datacite_json_path: str) -> list[str]:
                 found_records = True
                 break
         if not found_records:
-            # If no common container list found, assume top-level dict values are records
             records = [v for v in data.values() if isinstance(v, dict)]
     else:
         records = []
@@ -149,25 +142,39 @@ def load_target_dois(datacite_json_path: str) -> list[str]:
         if not isinstance(rec, dict):
             continue
 
-        for key in ("query_doi", "canonical_doi", "doi"):
-            val = rec.get(key)
+        # Access the 'current' dictionary where titles are located
+        current_data = rec.get("current", {})
 
-            if isinstance(val, str):
-                if val.strip():
-                    collected.append(val.strip())
-            elif isinstance(val, list):
-                for item in val:
-                    if isinstance(item, str) and item.strip():
-                        collected.append(item.strip())
+        # Single-string title fields from 'current_data'
+        for key in ("title", "resource_title"):
+            val = current_data.get(key)
+            if isinstance(val, str) and val.strip():
+                collected.append(val.strip())
 
-    # Deduplicate while preserving order
+        # "titles" can be string, list[str], or list[dict] from 'current_data'
+        titles_val = current_data.get("titles")
+        if isinstance(titles_val, str):
+            if titles_val.strip():
+                collected.append(titles_val.strip())
+        elif isinstance(titles_val, list):
+            for item in titles_val:
+                if isinstance(item, str) and item.strip():
+                    collected.append(item.strip())
+                elif isinstance(item, dict):
+                    # Common shapes for DataCite-like title objects
+                    for k in ("title", "value", "text"):
+                        v = item.get(k)
+                        if isinstance(v, str) and v.strip():
+                            collected.append(v.strip())
+
+    # Deduplicate while preserving order (case-insensitive)
     seen = set()
     unique = []
-    for d in collected:
-        norm = d.lower()
+    for t in collected:
+        norm = t.lower()
         if norm not in seen:
             seen.add(norm)
-            unique.append(d)
+            unique.append(t)
 
     return unique
 
@@ -175,27 +182,28 @@ def load_target_dois(datacite_json_path: str) -> list[str]:
 if __name__ == "__main__":
     citation_json_file = "cited_list100.json"
     datacite_json_file = "DatacieCall_Results.json"
-    output_json_file = "crossref_doi_matches.json"
+    output_json_file = "crossref_title_matches.json"
 
     citation_dois = load_citation_dois(citation_json_file)
-    target_dois = load_target_dois(datacite_json_file)
+    target_titles = load_target_titles(datacite_json_file)
 
     print(f"Loaded {len(citation_dois)} citation DOIs from '{citation_json_file}'.")
     print(
-        f"Loaded {len(target_dois)} target DOIs "
-        f"(query_doi/canonical_doi/doi) from '{datacite_json_file}'.\n"
+        f"Loaded {len(target_titles)} target titles "
+        f"from '{datacite_json_file}'.\n"
     )
 
     results = []
 
     for doi in citation_dois:
-        matched, matched_doi, location, citation_text, reference_obj = doi_metadata_contains_any_phrase(
-            doi, target_dois
+        # Call the modified function to get all matches for this DOI
+        doi_matches = find_phrases_in_doi_metadata(
+            doi, target_titles
         )
 
-        if matched:
+        for matched_title, location, citation_text, reference_obj in doi_matches:
             print(f"[MATCH]    DOI: {doi}")
-            print(f"           Matched target DOI: {matched_doi}")
+            print(f"           Matched title: {matched_title}")
             print(f"           Location: {location}")
             print(f"           Citation text: {citation_text}")
 
@@ -210,7 +218,7 @@ if __name__ == "__main__":
             results.append(
                 {
                     "citation_doi": doi,
-                    "matched_target_doi": matched_doi,
+                    "matched_title": matched_title,
                     "matched_path": location,
                     "matched_text": citation_text,
                     "matched_reference_object": reference_obj,
