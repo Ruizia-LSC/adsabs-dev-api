@@ -82,7 +82,7 @@ def doi_metadata_contains_any_phrase(
     # If match is under $.message.reference[<idx>]..., return that full reference object.
     matched_reference_obj = None
     if matched_path:
-        m = re.match(r"^\$\.message\.reference\[(\d+)\](?:\.|$)", matched_path)
+        m = re.match(r"^\$.message\.reference\[(\d+)\](?:\.|$)", matched_path)
         if m:
             idx = int(m.group(1))
             refs = message.get("reference")
@@ -129,13 +129,17 @@ def load_target_dois(datacite_json_path: str) -> list[str]:
     if isinstance(data, list):
         records = data
     elif isinstance(data, dict):
-        # If it's a dict, try common containers first, then fallback to the dict itself
+        # If it's a dict, try common containers first, then fallback to the dict's values
+        # as the records if they are dictionaries.
+        found_records = False
         for key in ("results", "records", "items", "data"):
             if isinstance(data.get(key), list):
                 records = data[key]
+                found_records = True
                 break
-        else:
-            records = [data]
+        if not found_records:
+            # If no common container list found, assume top-level dict values are records
+            records = [v for v in data.values() if isinstance(v, dict)]
     else:
         records = []
 
