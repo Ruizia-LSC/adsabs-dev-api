@@ -53,6 +53,7 @@ def run_unstructured_search_for_citation_dois(
       - collect unstructured references
     Save full results to output_path.
     Also list exactly which DOIs fall into with_unstructured, no_unstructured, and errors.
+    Print all unstructured citations found for each DOI.
     """
     dois = load_citation_dois(json_path)
     total = len(dois)
@@ -75,8 +76,12 @@ def run_unstructured_search_for_citation_dois(
             }
             if has_unstructured:
                 with_unstructured_dois.append(doi)
+                print(f"  Found {len(unstructured)} unstructured citation(s):")
+                for citation_idx, citation in enumerate(unstructured, start=1):
+                    print(f"    {citation_idx}. {citation}")
             else:
                 no_unstructured_dois.append(doi)
+                print("  No unstructured citations found.")
         except requests.HTTPError as e:
             results[doi] = {
                 "status": "http_error",
@@ -86,6 +91,7 @@ def run_unstructured_search_for_citation_dois(
                 "unstructured": [],
             }
             error_dois.append(doi)
+            print(f"  HTTP error: {e}")
         except requests.RequestException as e:
             results[doi] = {
                 "status": "request_error",
@@ -95,6 +101,7 @@ def run_unstructured_search_for_citation_dois(
                 "unstructured": [],
             }
             error_dois.append(doi)
+            print(f"  Request error: {e}")
         except Exception as e:
             results[doi] = {
                 "status": "error",
@@ -104,6 +111,7 @@ def run_unstructured_search_for_citation_dois(
                 "unstructured": [],
             }
             error_dois.append(doi)
+            print(f"  Unexpected error: {e}")
 
         if sleep_seconds > 0:
             time.sleep(sleep_seconds)
