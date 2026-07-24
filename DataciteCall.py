@@ -1,3 +1,4 @@
+#Pulls all the Datacite Calls for the Dataset DOI's listed in cited_list100.json and puts them into DataciteCall_Results.json to be used for future cross-referencing. 
 import json
 import requests
 from typing import Any, Dict, List
