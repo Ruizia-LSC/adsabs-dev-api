@@ -1,5 +1,5 @@
+#Runs a single search for a [dataset] type in the metadata from the Crossref API call. 
 import requests
-
 
 def get_dataset_references_for_doi(doi: str, timeout: int = 30) -> list[dict]:
     """Return references labeled as [Dataset] from Crossref /works for a DOI."""
