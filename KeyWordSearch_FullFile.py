@@ -1,3 +1,4 @@
+#Pulls the whole Crossref API data for the cited_list100.json file and searches for an input keyword. 
 import json
 import requests
 
