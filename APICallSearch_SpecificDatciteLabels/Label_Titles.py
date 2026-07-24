@@ -1,3 +1,5 @@
+# Pulls all "titles" from the Datacite Call to then look through all the API Crossref calls to see if there is a match. 
+# Also includes all titles throughout the Datacite metadata history as well. 
 import json
 import re
 import requests
