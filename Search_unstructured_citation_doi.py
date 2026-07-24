@@ -1,3 +1,5 @@
+#Searches through cited_list100.json to pull all API calls for the DOI's and look for all "unstructured" citations. 
+#Then puts it into unstructured_citation_doi_results.json for easy readability, as well as to use fr future processing. 
 import json
 import time
 from pathlib import Path
