@@ -1,3 +1,4 @@
+#Pulls "Unstructured" citations from a single DOI API call
 import requests
 
 
