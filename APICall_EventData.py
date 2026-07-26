@@ -1,5 +1,3 @@
-#Searches through cited_list100.json to pull all API calls for the DOI's using the Crossref beta datacitations endpoint.
-#Looks for all entries where "type" is "dataset" and saves results to datacitation_dataset_results.json.
 import json
 import time
 from pathlib import Path
