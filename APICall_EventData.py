@@ -1,5 +1,5 @@
-#Searches through cited_list100.json to pull all API calls for the DOI's and look for all "unstructured" citations. 
-#Then puts it into unstructured_citation_doi_results.json for easy readability, as well as to use fr future processing. 
+#Searches through cited_list100.json to pull all API calls for the DOI's using the Crossref beta datacitations endpoint.
+#Looks for all entries where "type" is "dataset" and saves results to datacitation_dataset_results.json.
 import json
 import time
 from pathlib import Path
@@ -7,19 +7,19 @@ from pathlib import Path
 import requests
 
 
-def get_unstructured_citations_for_doi(doi: str, timeout: int = 30) -> list[str]:
-    """Return 'unstructured' reference entries from Crossref /works for a DOI."""
-    url = f"https://api.crossref.org/works/{doi}"
+def get_dataset_datacitations_for_doi(doi: str, timeout: int = 30) -> list[dict]:
+    """Return entries where 'type' is 'dataset' from Crossref beta/datacitations for a DOI."""
+    url = f"https://api.crossref.org/beta/datacitations/{doi}"
     response = requests.get(url, timeout=timeout)
     response.raise_for_status()
 
     message = response.json().get("message", {})
-    references = message.get("reference", [])
+    items = message.get("items", [])
 
     return [
-        ref["unstructured"]
-        for ref in references
-        if isinstance(ref, dict) and "unstructured" in ref and ref["unstructured"]
+        item
+        for item in items
+        if isinstance(item, dict) and item.get("type") == "dataset"
     ]
 
 
@@ -43,54 +43,54 @@ def load_citation_dois(json_path: str) -> list[str]:
     return list(dict.fromkeys(dois))
 
 
-def run_unstructured_search_for_citation_dois(
+def run_dataset_datacitation_search_for_citation_dois(
     json_path: str,
-    output_path: str = "unstructured_citation_doi_results.json",
+    output_path: str = "datacitation_dataset_results.json",
     timeout: int = 30,
     sleep_seconds: float = 0.2,
 ) -> dict:
     """
     For each DOI in citation_doi from cited_list100.json:
-      - query Crossref /works/{doi}
-      - collect unstructured references
+      - query Crossref beta/datacitations/{doi}
+      - collect entries where type is 'dataset'
     Save full results to output_path.
-    Also list exactly which DOIs fall into with_unstructured, no_unstructured, and errors.
-    Print all unstructured citations found for each DOI.
+    Also list exactly which DOIs fall into with_datasets, no_datasets, and errors.
+    Print all dataset datacitations found for each DOI.
     """
     dois = load_citation_dois(json_path)
     total = len(dois)
 
     results: dict[str, dict] = {}
-    with_unstructured_dois: list[str] = []
-    no_unstructured_dois: list[str] = []
+    with_datasets_dois: list[str] = []
+    no_datasets_dois: list[str] = []
     error_dois: list[str] = []
 
     for idx, doi in enumerate(dois, start=1):
         print(f"[{idx}/{total}] Processing citation DOI: {doi}")
         try:
-            unstructured = get_unstructured_citations_for_doi(doi, timeout=timeout)
-            has_unstructured = len(unstructured) > 0
+            datasets = get_dataset_datacitations_for_doi(doi, timeout=timeout)
+            has_datasets = len(datasets) > 0
             results[doi] = {
                 "status": "ok",
-                "category": "with_unstructured" if has_unstructured else "no_unstructured",
-                "unstructured_count": len(unstructured),
-                "unstructured": unstructured,
+                "category": "with_datasets" if has_datasets else "no_datasets",
+                "dataset_count": len(datasets),
+                "datasets": datasets,
             }
-            if has_unstructured:
-                with_unstructured_dois.append(doi)
-                print(f"  Found {len(unstructured)} unstructured citation(s):")
-                for citation_idx, citation in enumerate(unstructured, start=1):
-                    print(f"    {citation_idx}. {citation}")
+            if has_datasets:
+                with_datasets_dois.append(doi)
+                print(f"  Found {len(datasets)} dataset datacitation(s):")
+                for dataset_idx, dataset in enumerate(datasets, start=1):
+                    print(f"    {dataset_idx}. {dataset}")
             else:
-                no_unstructured_dois.append(doi)
-                print("  No unstructured citations found.")
+                no_datasets_dois.append(doi)
+                print("  No dataset datacitations found.")
         except requests.HTTPError as e:
             results[doi] = {
                 "status": "http_error",
                 "category": "errors",
                 "error": str(e),
-                "unstructured_count": 0,
-                "unstructured": [],
+                "dataset_count": 0,
+                "datasets": [],
             }
             error_dois.append(doi)
             print(f"  HTTP error: {e}")
@@ -99,8 +99,8 @@ def run_unstructured_search_for_citation_dois(
                 "status": "request_error",
                 "category": "errors",
                 "error": str(e),
-                "unstructured_count": 0,
-                "unstructured": [],
+                "dataset_count": 0,
+                "datasets": [],
             }
             error_dois.append(doi)
             print(f"  Request error: {e}")
@@ -109,8 +109,8 @@ def run_unstructured_search_for_citation_dois(
                 "status": "error",
                 "category": "errors",
                 "error": str(e),
-                "unstructured_count": 0,
-                "unstructured": [],
+                "dataset_count": 0,
+                "datasets": [],
             }
             error_dois.append(doi)
             print(f"  Unexpected error: {e}")
@@ -124,12 +124,12 @@ def run_unstructured_search_for_citation_dois(
         "total_citation_dois": total,
         "processed": len(results),
         "ok": sum(1 for v in results.values() if v["status"] == "ok"),
-        "with_unstructured": len(with_unstructured_dois),
-        "no_unstructured": len(no_unstructured_dois),
+        "with_datasets": len(with_datasets_dois),
+        "no_datasets": len(no_datasets_dois),
         "errors": len(error_dois),
         "doi_lists": {
-            "with_unstructured": with_unstructured_dois,
-            "no_unstructured": no_unstructured_dois,
+            "with_datasets": with_datasets_dois,
+            "no_datasets": no_datasets_dois,
             "errors": error_dois,
         },
     }
@@ -147,12 +147,12 @@ def run_unstructured_search_for_citation_dois(
 
 if __name__ == "__main__":
     input_json = Path("cited_list100.json")
-    output_json = Path("unstructured_citation_doi_results.json")
+    output_json = Path("datacitation_dataset_results.json")
 
     if not input_json.exists():
         raise FileNotFoundError(f"Input file not found: {input_json}")
 
-    payload = run_unstructured_search_for_citation_dois(
+    payload = run_dataset_datacitation_search_for_citation_dois(
         json_path=str(input_json),
         output_path=str(output_json),
         timeout=30,
