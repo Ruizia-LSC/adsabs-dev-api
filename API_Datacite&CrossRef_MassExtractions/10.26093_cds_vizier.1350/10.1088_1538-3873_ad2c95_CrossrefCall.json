@@ -1,0 +1,1016 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          21
+        ]
+      ],
+      "date-time": "2026-04-21T02:36:40Z",
+      "timestamp": 1776739000540,
+      "version": "3.51.2"
+    },
+    "reference-count": 61,
+    "publisher": "IOP Publishing",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              2
+            ]
+          ],
+          "date-time": "2024-04-02T00:00:00Z",
+          "timestamp": 1712016000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 32,
+        "URL": "https://iopscience.iop.org/page/copyright"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              2
+            ]
+          ],
+          "date-time": "2024-04-02T00:00:00Z",
+          "timestamp": 1712016000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 32,
+        "URL": "https://iopscience.iop.org/info/page/text-and-data-mining"
+      }
+    ],
+    "funder": [
+      {
+        "name": "National Science Foundation",
+        "award": [
+          "AST- 2009645"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "AST- 2009645"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "iopscience.iop.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "PASP"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>ArgusSpec is a prototype autonomous spectroscopic follow-up instrument designed to characterize flares detected by the Argus Pathfinder telescope array by taking short exposure (30 s) broadband spectra (370\u2013750 nm) at low resolutions (<jats:italic>R</jats:italic> \u223c 150 at 500 nm). The instrument is built from consumer off-the-shelf astronomical equipment, assembled inside a shipping container, and deployed alongside the Argus Pathfinder at a dark sky observing site in Western North Carolina. In this paper, we describe the hardware design, system electronics, custom control software suite, automated target acquisition procedure, and data reduction pipeline. We present initial on-sky test data used to evaluate system performance and show a series of spectra taken of a small flare from AD Leonis. The $35k prototype ArgusSpec was designed, built, and deployed in under a year, largely from existing parts, and has been operating on-sky since 2023 March. With current hardware and software, the system is capable of receiving an observation, slewing, performing autonomous slit acquisition, and beginning data acquisition within an average of 32 s. With Argus Pathfinder\u2019s 1 s cadence survey reporting alerts of rising sources within 2 s of onset, ArgusSpec can reach new targets well within a minute of the start of the event. As built, ArgusSpec can observe targets down to a 20<jats:italic>\u03c3</jats:italic> limiting magnitude of <jats:italic>m</jats:italic>\n                  <jats:sub>\n                     <jats:italic>V</jats:italic>\n                  </jats:sub> \u2248 13 at 30 s cadence with an optical resolution of <jats:italic>R</jats:italic> \u223c 150 (at 500 nm). With automated rapid acquisition demonstrated, later hardware upgrades will be based on a clean-sheet optical design, solving many issues in the current system, significantly improving the limiting magnitude, and potentially enabling deep spectroscopy by the coaddition of data from an array of ArgusSpec systems. The primary science driver behind ArgusSpec is the characterization of the blackbody evolution of flares from nearby M-dwarfs. Large flares emitted by these stars could have significant impacts on the potential habitability of any orbiting exoplanets, but our current understanding of these events is in large part built on observations from a handful of active stars. ArgusSpec will characterize large numbers of flares from across the night sky, building a spectroscopic library of the most extreme events from a wide variety of stellar masses and ages.</jats:p>",
+    "DOI": "10.1088/1538-3873/ad2c95",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          2
+        ]
+      ],
+      "date-time": "2024-04-02T10:11:52Z",
+      "timestamp": 1712052712000
+    },
+    "page": "035004",
+    "update-policy": "https://doi.org/10.1088/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "The ArgusSpec Prototype: Autonomous Spectroscopic Follow-up of Flares Detected by Large Array Telescopes"
+    ],
+    "prefix": "10.1088",
+    "volume": "136",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8105-1042",
+        "authenticated-orcid": true,
+        "given": "Nathan W.",
+        "family": "Galliher",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0005-7319-7355",
+        "authenticated-orcid": false,
+        "given": "Thomas",
+        "family": "Procter",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9380-6457",
+        "authenticated-orcid": false,
+        "given": "Nicholas M.",
+        "family": "Law",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6339-6706",
+        "authenticated-orcid": true,
+        "given": "Hank",
+        "family": "Corbett",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0583-0949",
+        "authenticated-orcid": false,
+        "given": "Ward S.",
+        "family": "Howard",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1906-1167",
+        "authenticated-orcid": false,
+        "given": "Alan",
+        "family": "Vasquez Soto",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Ramses",
+        "family": "Gonzalez",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0008-3299-3648",
+        "authenticated-orcid": false,
+        "given": "Lawrence",
+        "family": "Machia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8544-584X",
+        "authenticated-orcid": false,
+        "given": "Jonathan",
+        "family": "Carney",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0008-2179-8943",
+        "authenticated-orcid": true,
+        "given": "William J.",
+        "family": "Marshall",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "266",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          2
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "paspad2c95bib1",
+        "doi-asserted-by": "publisher",
+        "first-page": "104",
+        "DOI": "10.1088/0004-637X/809/1/104",
+        "volume": "809",
+        "author": "Allred",
+        "year": "2015",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "paspad2c95bib2",
+        "doi-asserted-by": "publisher",
+        "first-page": "121821U",
+        "DOI": "10.1117/12.2629655",
+        "volume": "12182",
+        "author": "Angel",
+        "year": "2022",
+        "journal-title": "Proc. SPIE"
+      },
+      {
+        "key": "paspad2c95bib3",
+        "doi-asserted-by": "publisher",
+        "first-page": "167",
+        "DOI": "10.3847/1538-4357/ac7c74",
+        "volume": "935",
+        "author": "Astropy Collaboration",
+        "year": "2022",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "paspad2c95bib4",
+        "doi-asserted-by": "publisher",
+        "first-page": "123",
+        "DOI": "10.3847/1538-3881/aabc4f",
+        "volume": "156",
+        "author": "Astropy Collaboration",
+        "year": "2018",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "paspad2c95bib5",
+        "doi-asserted-by": "publisher",
+        "first-page": "A33",
+        "DOI": "10.1051/0004-6361/201322068",
+        "volume": "558",
+        "author": "Astropy Collaboration",
+        "year": "2013",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "paspad2c95bib6",
+        "doi-asserted-by": "publisher",
+        "first-page": "035003",
+        "DOI": "10.1088/1538-3873/aaa53f",
+        "volume": "130",
+        "author": "Blagorodnova",
+        "year": "2018",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "paspad2c95bib7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.6825092",
+        "author": "Bradley",
+        "year": "2022",
+        "unstructured": "Bradley L. Sip\u0151cz B. Robitaille T. 2022 astropy/photutils: v1.5.0 Zenodo, doi: 10.5281/zenodo.6825092"
+      },
+      {
+        "key": "paspad2c95bib8",
+        "doi-asserted-by": "publisher",
+        "first-page": "5",
+        "DOI": "10.3847/1538-4357/acab59",
+        "volume": "944",
+        "author": "Brasseur",
+        "year": "2023",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "paspad2c95bib9",
+        "doi-asserted-by": "publisher",
+        "first-page": "298",
+        "DOI": "10.1038/s41550-020-01264-1",
+        "volume": "5",
+        "author": "Chen",
+        "year": "2021",
+        "journal-title": "NatAs"
+      },
+      {
+        "key": "paspad2c95bib10",
+        "doi-asserted-by": "publisher",
+        "first-page": "63",
+        "DOI": "10.3847/1538-4365/acbd41",
+        "volume": "265",
+        "author": "Corbett",
+        "year": "2023",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "paspad2c95bib11",
+        "first-page": "1",
+        "volume": "11467",
+        "author": "Corbett",
+        "year": "2018",
+        "journal-title": "ATel"
+      },
+      {
+        "key": "paspad2c95bib12",
+        "doi-asserted-by": "publisher",
+        "first-page": "L27",
+        "DOI": "10.3847/2041-8213/abbee5",
+        "volume": "903",
+        "author": "Corbett",
+        "year": "2020",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "paspad2c95bib13",
+        "doi-asserted-by": "publisher",
+        "first-page": "1218910",
+        "DOI": "10.1117/12.2629533",
+        "volume": "12189",
+        "author": "Corbett",
+        "year": "2022",
+        "journal-title": "Proc. SPIE"
+      },
+      {
+        "key": "paspad2c95bib14",
+        "doi-asserted-by": "publisher",
+        "first-page": "12",
+        "DOI": "10.3847/1538-4357/ac53af",
+        "volume": "928",
+        "author": "do Amaral",
+        "year": "2022",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "paspad2c95bib15",
+        "doi-asserted-by": "publisher",
+        "first-page": "124",
+        "DOI": "10.48550/arXiv.1907.08273",
+        "volume": "51",
+        "author": "Eikenberry",
+        "year": "2019",
+        "journal-title": "BAAS"
+      },
+      {
+        "key": "paspad2c95bib16",
+        "doi-asserted-by": "publisher",
+        "first-page": "381",
+        "DOI": "10.1145/358669.358692",
+        "volume": "24",
+        "author": "Fischler",
+        "year": "1981",
+        "journal-title": "Commun. ACM"
+      },
+      {
+        "key": "paspad2c95bib17",
+        "doi-asserted-by": "publisher",
+        "first-page": "237",
+        "DOI": "10.3847/1538-3881/abb465",
+        "volume": "160",
+        "author": "France",
+        "year": "2020",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "paspad2c95bib18",
+        "doi-asserted-by": "publisher",
+        "first-page": "L26",
+        "DOI": "10.3847/2041-8213/aaffcd",
+        "volume": "871",
+        "author": "Froning",
+        "year": "2019",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "paspad2c95bib19",
+        "article-title": "VizieR Online Data Catalog: Gaia EDR3 (Gaia Collaboration, 2020)",
+        "volume": "I/350",
+        "author": "Gaia Collaboration",
+        "year": "2020"
+      },
+      {
+        "key": "paspad2c95bib20",
+        "doi-asserted-by": "publisher",
+        "first-page": "27",
+        "DOI": "10.3847/1538-4357/aba4a6",
+        "volume": "900",
+        "author": "Glazier",
+        "year": "2020",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "paspad2c95bib21",
+        "doi-asserted-by": "publisher",
+        "first-page": "566",
+        "DOI": "10.1086/133417",
+        "volume": "106",
+        "author": "Hamuy",
+        "year": "1994",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "paspad2c95bib22",
+        "doi-asserted-by": "publisher",
+        "first-page": "535",
+        "DOI": "10.1086/378351",
+        "volume": "597",
+        "author": "Hawley",
+        "year": "2003",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "paspad2c95bib23",
+        "doi-asserted-by": "publisher",
+        "first-page": "725",
+        "DOI": "10.1086/170474",
+        "volume": "378",
+        "author": "Hawley",
+        "year": "1991",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "paspad2c95bib24",
+        "first-page": "L27",
+        "volume": "355",
+        "author": "H\u00f8g",
+        "year": "2000",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "paspad2c95bib25",
+        "doi-asserted-by": "publisher",
+        "first-page": "L60",
+        "DOI": "10.1093/mnrasl/slac024",
+        "volume": "512",
+        "author": "Howard",
+        "year": "2022",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "paspad2c95bib26",
+        "doi-asserted-by": "publisher",
+        "first-page": "9",
+        "DOI": "10.3847/1538-4357/ab2767",
+        "volume": "881",
+        "author": "Howard",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "paspad2c95bib27",
+        "doi-asserted-by": "publisher",
+        "first-page": "115",
+        "DOI": "10.3847/1538-4357/abb5b4",
+        "volume": "902",
+        "author": "Howard",
+        "year": "2020a",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "paspad2c95bib28",
+        "doi-asserted-by": "publisher",
+        "first-page": "140",
+        "DOI": "10.3847/1538-4357/ab9081",
+        "volume": "895",
+        "author": "Howard",
+        "year": "2020b",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "paspad2c95bib29",
+        "doi-asserted-by": "publisher",
+        "first-page": "204",
+        "DOI": "10.3847/1538-4357/ac426e",
+        "volume": "926",
+        "author": "Howard",
+        "year": "2022",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "paspad2c95bib30",
+        "doi-asserted-by": "publisher",
+        "first-page": "L30",
+        "DOI": "10.3847/2041-8213/aacaf3",
+        "volume": "860",
+        "author": "Howard",
+        "year": "2018",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "paspad2c95bib31",
+        "doi-asserted-by": "publisher",
+        "first-page": "3564",
+        "DOI": "10.1093/mnras/stac3135",
+        "volume": "519",
+        "author": "Jackman",
+        "year": "2023",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "paspad2c95bib32",
+        "doi-asserted-by": "publisher",
+        "first-page": "351",
+        "DOI": "10.3389/fspas.2022.1034458",
+        "volume": "9",
+        "author": "Kowalski",
+        "year": "2022",
+        "journal-title": "FrASS"
+      },
+      {
+        "key": "paspad2c95bib33",
+        "doi-asserted-by": "publisher",
+        "first-page": "61",
+        "DOI": "10.3847/1538-4357/aa9d91",
+        "volume": "852",
+        "author": "Kowalski",
+        "year": "2018",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "paspad2c95bib34",
+        "doi-asserted-by": "publisher",
+        "first-page": "15",
+        "DOI": "10.1088/0067-0049/207/1/15",
+        "volume": "207",
+        "author": "Kowalski",
+        "year": "2013",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "paspad2c95bib35",
+        "doi-asserted-by": "publisher",
+        "first-page": "95",
+        "DOI": "10.3847/0004-637X/820/2/95",
+        "volume": "820",
+        "author": "Kowalski",
+        "year": "2016",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "paspad2c95bib36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.1463139",
+        "article-title": "The Evolution of T = 10000 K Blackbody-Like Continuum Radiation in the Impulsive Phase of dMe Flares",
+        "author": "Kowalski",
+        "year": "2018"
+      },
+      {
+        "key": "paspad2c95bib37",
+        "doi-asserted-by": "publisher",
+        "first-page": "167",
+        "DOI": "10.3847/1538-4357/aaf058",
+        "volume": "871",
+        "author": "Kowalski",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "paspad2c95bib38",
+        "doi-asserted-by": "publisher",
+        "first-page": "L63",
+        "DOI": "10.1086/505423",
+        "volume": "644",
+        "author": "Kulkarni",
+        "year": "2006",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "paspad2c95bib39",
+        "doi-asserted-by": "publisher",
+        "first-page": "1782",
+        "DOI": "10.1088/0004-6256/139/5/1782",
+        "volume": "139",
+        "author": "Lang",
+        "year": "2010",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "paspad2c95bib40",
+        "doi-asserted-by": "publisher",
+        "first-page": "121824H",
+        "DOI": "10.1117/12.2630037",
+        "volume": "12182",
+        "author": "Law",
+        "year": "2022a",
+        "journal-title": "Proc. SPIE"
+      },
+      {
+        "key": "paspad2c95bib41",
+        "doi-asserted-by": "publisher",
+        "first-page": "035003",
+        "DOI": "10.1088/1538-3873/ac4811",
+        "volume": "134",
+        "author": "Law",
+        "year": "2022b",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "paspad2c95bib42",
+        "doi-asserted-by": "publisher",
+        "first-page": "71",
+        "DOI": "10.3847/1538-4357/aae2bd",
+        "volume": "867",
+        "author": "Loyd",
+        "year": "2018a",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "paspad2c95bib43",
+        "doi-asserted-by": "publisher",
+        "first-page": "70",
+        "DOI": "10.3847/1538-4357/aae2ae",
+        "volume": "867",
+        "author": "Loyd",
+        "year": "2018b",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "paspad2c95bib44",
+        "doi-asserted-by": "publisher",
+        "first-page": "065001",
+        "DOI": "10.1088/1538-3873/acd8f0",
+        "volume": "135",
+        "author": "Ofek",
+        "year": "2023",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "paspad2c95bib45",
+        "doi-asserted-by": "publisher",
+        "first-page": "79",
+        "DOI": "10.1088/0004-637X/809/1/79",
+        "volume": "809",
+        "author": "Osten",
+        "year": "2015",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "paspad2c95bib46",
+        "doi-asserted-by": "publisher",
+        "first-page": "91478H",
+        "DOI": "10.1117/12.2055117",
+        "volume": "9147",
+        "author": "Piascik",
+        "year": "2014",
+        "journal-title": "Proc. SPIE"
+      },
+      {
+        "key": "paspad2c95bib47",
+        "doi-asserted-by": "publisher",
+        "first-page": "863",
+        "DOI": "10.1086/316197",
+        "volume": "110",
+        "author": "Pickles",
+        "year": "1998",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "paspad2c95bib48",
+        "doi-asserted-by": "publisher",
+        "first-page": "160",
+        "DOI": "10.3847/2515-5172/ac14c0",
+        "volume": "5",
+        "author": "Quimby",
+        "year": "2021",
+        "journal-title": "RNAAS"
+      },
+      {
+        "key": "paspad2c95bib49",
+        "doi-asserted-by": "publisher",
+        "first-page": "148",
+        "DOI": "10.3847/1538-4357/ab9363",
+        "volume": "896",
+        "author": "Ranjan",
+        "year": "2020",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "paspad2c95bib50",
+        "doi-asserted-by": "publisher",
+        "first-page": "110",
+        "DOI": "10.3847/1538-4357/aa773e",
+        "volume": "843",
+        "author": "Ranjan",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "paspad2c95bib51",
+        "doi-asserted-by": "publisher",
+        "first-page": "eaar3302",
+        "DOI": "10.1126/sciadv.aar3302",
+        "volume": "4",
+        "author": "Rimmer",
+        "year": "2018",
+        "journal-title": "SciA"
+      },
+      {
+        "key": "paspad2c95bib52",
+        "doi-asserted-by": "publisher",
+        "first-page": "872",
+        "DOI": "10.1086/173129",
+        "volume": "414",
+        "author": "Robinson",
+        "year": "1993",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "paspad2c95bib53",
+        "doi-asserted-by": "publisher",
+        "first-page": "447",
+        "DOI": "10.1086/444608",
+        "volume": "633",
+        "author": "Robinson",
+        "year": "2005",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "paspad2c95bib54",
+        "first-page": "132.03",
+        "volume": "#218",
+        "author": "Sand",
+        "year": "2011",
+        "journal-title": "AAS Meeting"
+      },
+      {
+        "key": "paspad2c95bib55",
+        "doi-asserted-by": "publisher",
+        "first-page": "1627",
+        "DOI": "10.1021/ac60214a047",
+        "volume": "36",
+        "author": "Savitzky",
+        "year": "1964",
+        "journal-title": "AnaCh"
+      },
+      {
+        "key": "paspad2c95bib56",
+        "doi-asserted-by": "publisher",
+        "first-page": "751",
+        "DOI": "10.1089/ast.2009.0376",
+        "volume": "10",
+        "author": "Segura",
+        "year": "2010",
+        "journal-title": "AsBio"
+      },
+      {
+        "key": "paspad2c95bib57",
+        "doi-asserted-by": "publisher",
+        "first-page": "5453",
+        "DOI": "10.1093/mnras/stad887",
+        "volume": "521",
+        "author": "Sokolovsky",
+        "year": "2023",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "paspad2c95bib58",
+        "doi-asserted-by": "publisher",
+        "first-page": "64",
+        "DOI": "10.1089/ast.2017.1794",
+        "volume": "19",
+        "author": "Tilley",
+        "year": "2019",
+        "journal-title": "AsBio"
+      },
+      {
+        "key": "paspad2c95bib59",
+        "first-page": "3",
+        "volume": "7432",
+        "author": "Voges",
+        "year": "2000",
+        "journal-title": "IAU Circ."
+      },
+      {
+        "key": "paspad2c95bib60",
+        "doi-asserted-by": "publisher",
+        "first-page": "162",
+        "DOI": "10.3847/1538-4357/aba3cc",
+        "volume": "899",
+        "author": "Wee",
+        "year": "2020",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "paspad2c95bib61",
+        "doi-asserted-by": "publisher",
+        "first-page": "59",
+        "DOI": "10.1088/0004-637X/739/2/59",
+        "volume": "739",
+        "author": "Woods",
+        "year": "2011",
+        "journal-title": "ApJ"
+      }
+    ],
+    "container-title": [
+      "Publications of the Astronomical Society of the Pacific"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1538-3873/ad2c95",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1538-3873/ad2c95/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1538-3873/ad2c95/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1538-3873/ad2c95/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          2
+        ]
+      ],
+      "date-time": "2024-04-02T10:12:00Z",
+      "timestamp": 1712052720000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://iopscience.iop.org/article/10.1088/1538-3873/ad2c95"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          1
+        ]
+      ]
+    },
+    "references-count": 61,
+    "journal-issue": {
+      "issue": "3",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            2
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1088/1538-3873/ad2c95",
+    "relation": {},
+    "ISSN": [
+      "0004-6280",
+      "1538-3873"
+    ],
+    "issn-type": [
+      {
+        "value": "0004-6280",
+        "type": "print"
+      },
+      {
+        "value": "1538-3873",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "The ArgusSpec Prototype: Autonomous Spectroscopic Follow-up of Flares Detected by Large Array Telescopes",
+        "name": "article_title",
+        "label": "Article Title"
+      },
+      {
+        "value": "Publications of the Astronomical Society of the Pacific",
+        "name": "journal_title",
+        "label": "Journal Title"
+      },
+      {
+        "value": "paper",
+        "name": "article_type",
+        "label": "Article Type"
+      },
+      {
+        "value": "\u00a9 2024. The Astronomical Society of the Pacific. All rights reserved.",
+        "name": "copyright_information",
+        "label": "Copyright Information"
+      },
+      {
+        "value": "2023-08-11",
+        "name": "date_received",
+        "label": "Date Received",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "2024-02-23",
+        "name": "date_accepted",
+        "label": "Date Accepted",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "2024-04-02",
+        "name": "date_epub",
+        "label": "Online publication date",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.1088/1538-3873/ad2c95",
+  "original_doi": "10.1088/1538-3873/ad2c95"
+}

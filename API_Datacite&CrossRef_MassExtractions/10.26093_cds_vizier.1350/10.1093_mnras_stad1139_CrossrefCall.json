@@ -1,0 +1,1332 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          23
+        ]
+      ],
+      "date-time": "2026-06-23T03:30:51Z",
+      "timestamp": 1782185451861,
+      "version": "3.54.5"
+    },
+    "reference-count": 95,
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              4,
+              19
+            ]
+          ],
+          "date-time": "2023-04-19T00:00:00Z",
+          "timestamp": 1681862400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 1,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100010663",
+        "name": "European Research Council",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "865624"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "865624"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100010663",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000271",
+        "name": "Science and Technology Facilities Council",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "ST/W001047/1"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "ST/W001047/1"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000271",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          2
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n               <jats:p>Detecting planetary signatures in radial velocity time-series of young stars is challenging due to their inherently strong stellar activity. However, it is possible to learn information about the properties of the stellar signal by using activity indicators measured from the same stellar spectra used to extract radial velocities. In this manuscript, we present a reanalysis of spectroscopic High Accuracy Radial Velocity Planet Searcher data of the young star K2-233, which hosts three transiting planets. We perform a multidimensional Gaussian process regression on the radial velocity and the activity indicators to characterize the planetary Doppler signals. We demonstrate, for the first time on a real data set, that the use of a multidimensional Gaussian process can boost the precision with which we measure the planetary signals compared to a one-dimensional Gaussian process applied to the radial velocities alone. We measure the semi-amplitudes of K2-233\u2009b, c, and d as $1.31_{-0.74}^{+0.81}$ , $1.81_{-0.67}^{+0.71}$ , \u2009and $2.72_{-0.70}^{+0.66}$${\\rm m\\, s^{-1}}$ , which translate into planetary masses of $2.4_{-1.3}^{+1.5}$ , $4.6_{-1.7}^{+1.8}$ , and $10.3_{-2.6}^{+2.4}$ M\u2295, respectively. These new mass measurements make K2-233\u2009d a valuable target for transmission spectroscopy observations with JWST. K2-233 is the only young system with two detected inner planets below the radius valley and a third outer planet above it. This makes it an excellent target to perform comparative studies, to inform our theories of planet evolution, formation, migration, and atmospheric evolution.</jats:p>",
+    "DOI": "10.1093/mnras/stad1139",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          19
+        ]
+      ],
+      "date-time": "2023-04-19T06:25:45Z",
+      "timestamp": 1681885545000
+    },
+    "page": "3458-3471",
+    "source": "Crossref",
+    "is-referenced-by-count": 27,
+    "title": [
+      "Revisiting K2-233 spectroscopic time-series with multidimensional Gaussian processes"
+    ],
+    "prefix": "10.1093",
+    "volume": "522",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0563-0493",
+        "authenticated-orcid": false,
+        "given": "Oscar",
+        "family": "Barrag\u00e1n",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Sub-department of Astrophysics, Department of Physics, University of Oxford , Oxford OX1 3RH, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2851-3070",
+        "authenticated-orcid": false,
+        "given": "Edward",
+        "family": "Gillen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Astronomy Unit, Queen Mary University of London , Mile End Road, London E14NS, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Suzanne",
+        "family": "Aigrain",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Sub-department of Astrophysics, Department of Physics, University of Oxford , Oxford OX1 3RH, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7500-7173",
+        "authenticated-orcid": false,
+        "given": "Annabella",
+        "family": "Meech",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Sub-department of Astrophysics, Department of Physics, University of Oxford , Oxford OX1 3RH, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0637-5236",
+        "authenticated-orcid": false,
+        "given": "Baptiste",
+        "family": "Klein",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Sub-department of Astrophysics, Department of Physics, University of Oxford , Oxford OX1 3RH, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5254-2499",
+        "authenticated-orcid": false,
+        "given": "Louise Dyregaard",
+        "family": "Nielsen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Sub-department of Astrophysics, Department of Physics, University of Oxford , Oxford OX1 3RH, UK"
+          },
+          {
+            "name": "European Southern Observatory (ESO) , Karl-Schwarzschild-Stra\u00dfe 2, D-85748 Garching bei M\u00fcnchen, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Haochuan",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Sub-department of Astrophysics, Department of Physics, University of Oxford , Oxford OX1 3RH, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Niamh K",
+        "family": "O\u2019Sullivan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Sub-department of Astrophysics, Department of Physics, University of Oxford , Oxford OX1 3RH, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Belinda A",
+        "family": "Nicholson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Sub-department of Astrophysics, Department of Physics, University of Oxford , Oxford OX1 3RH, UK"
+          },
+          {
+            "name": "Centre for Astrophysics, University of Southern Queensland , West Street, Toowoomba, QLD 4350, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jorge",
+        "family": "Lillo-Box",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Depto. de Astrof\u00edsica, Centro de Astrobiolog\u00eda (CAB, CSIC-INTA) , ESAC Campus, E-28692 Villanueva de la Ca\u00f1ada (Madrid), Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "286",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          18
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2023050416570560800_bib1",
+        "doi-asserted-by": "publisher",
+        "first-page": "1004",
+        "DOI": "10.1086/506145",
+        "volume": "649",
+        "author": "Adams",
+        "year": "2006",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2023050416570560800_bib2",
+        "doi-asserted-by": "publisher",
+        "first-page": "1248",
+        "DOI": "10.1093/mnras/stab373",
+        "volume": "503",
+        "author": "Ahrer",
+        "year": "2021",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2023050416570560800_bib3",
+        "author": "Aigrain",
+        "year": "2022"
+      },
+      {
+        "key": "2023050416570560800_bib4",
+        "doi-asserted-by": "publisher",
+        "first-page": "3147",
+        "DOI": "10.1111/j.1365-2966.2011.19960.x",
+        "volume": "419",
+        "author": "Aigrain",
+        "year": "2012",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2023050416570560800_bib5",
+        "doi-asserted-by": "publisher",
+        "first-page": "989",
+        "DOI": "10.1086/672273",
+        "volume": "125",
+        "author": "Akeson",
+        "year": "2013",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "2023050416570560800_bib6",
+        "doi-asserted-by": "publisher",
+        "first-page": "252",
+        "DOI": "10.1109/TPAMI.2015.2448083",
+        "volume": "38",
+        "author": "Ambikasaran",
+        "year": "2015",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "2023050416570560800_bib7",
+        "doi-asserted-by": "publisher",
+        "first-page": "A33",
+        "DOI": "10.1051/0004-6361/201322068",
+        "volume": "558",
+        "author": "Astropy Collaboration",
+        "year": "2013",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "2023050416570560800_bib8",
+        "doi-asserted-by": "publisher",
+        "first-page": "123",
+        "DOI": "10.3847/1538-3881/aabc4f",
+        "volume": "156",
+        "author": "Astropy Collaboration",
+        "year": "2018",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "2023050416570560800_bib9",
+        "doi-asserted-by": "publisher",
+        "first-page": "167",
+        "DOI": "10.3847/1538-4357/ac7c74",
+        "volume": "935",
+        "author": "Astropy Collaboration",
+        "year": "2022",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2023050416570560800_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "373",
+        "DOI": "10.1051/aas:1996251",
+        "volume": "119",
+        "author": "Baranne",
+        "year": "1996",
+        "journal-title": "A&AS"
+      },
+      {
+        "key": "2023050416570560800_bib11",
+        "doi-asserted-by": "publisher",
+        "first-page": "A95",
+        "DOI": "10.1051/0004-6361/201732217",
+        "volume": "612",
+        "author": "Barrag\u00e1n",
+        "year": "2018",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "2023050416570560800_bib12",
+        "doi-asserted-by": "publisher",
+        "first-page": "1017",
+        "DOI": "10.1093/mnras/sty2472",
+        "volume": "482",
+        "author": "Barrag\u00e1n",
+        "year": "2019",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2023050416570560800_bib13",
+        "doi-asserted-by": "publisher",
+        "first-page": "698",
+        "DOI": "10.1093/mnras/stz2569",
+        "volume": "490",
+        "author": "Barrag\u00e1n",
+        "year": "2019",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2023050416570560800_bib14",
+        "doi-asserted-by": "publisher",
+        "first-page": "866",
+        "DOI": "10.1093/mnras/stab2889",
+        "volume": "509",
+        "author": "Barrag\u00e1n",
+        "year": "2022",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2023050416570560800_bib15",
+        "doi-asserted-by": "publisher",
+        "first-page": "1606",
+        "DOI": "10.1093/mnras/stac638",
+        "volume": "514",
+        "author": "Barrag\u00e1n",
+        "year": "2022",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2023050416570560800_bib16",
+        "doi-asserted-by": "publisher",
+        "first-page": "L25",
+        "DOI": "10.3847/2041-8213/ab4909",
+        "volume": "885",
+        "author": "Batalha",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2023050416570560800_bib17",
+        "doi-asserted-by": "publisher",
+        "first-page": "e06639",
+        "DOI": "10.1029/2020JE006639",
+        "volume": "126",
+        "author": "Bean",
+        "year": "2021",
+        "journal-title": "J. Geophys. Res. (Planets)"
+      },
+      {
+        "key": "2023050416570560800_bib18",
+        "doi-asserted-by": "publisher",
+        "first-page": "L14",
+        "DOI": "10.3847/2041-8213/ab59dc",
+        "volume": "887",
+        "author": "Benneke",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2023050416570560800_bib19",
+        "doi-asserted-by": "publisher",
+        "first-page": "109",
+        "DOI": "10.1007/s10686-020-09679-4",
+        "volume": "51",
+        "author": "Benz",
+        "year": "2021",
+        "journal-title": "Exp. Astron."
+      },
+      {
+        "key": "2023050416570560800_bib20",
+        "doi-asserted-by": "publisher",
+        "author": "Berger",
+        "year": "2023",
+        "DOI": "10.48550/arXiv.2302.00009"
+      },
+      {
+        "key": "2023050416570560800_bib21",
+        "doi-asserted-by": "publisher",
+        "first-page": "959",
+        "DOI": "10.1051/0004-6361:200810648",
+        "volume": "495",
+        "author": "Boisse",
+        "year": "2009",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "2023050416570560800_bib22",
+        "doi-asserted-by": "publisher",
+        "first-page": "239",
+        "DOI": "10.3847/1538-3881/abb9ab",
+        "volume": "160",
+        "author": "Bouma",
+        "year": "2020",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "2023050416570560800_bib23",
+        "volume-title": "Model Selection and Multimodel Inference: A Practical Information-theoretic Approach",
+        "author": "Burnham",
+        "year": "2002"
+      },
+      {
+        "key": "2023050416570560800_bib24",
+        "first-page": "583",
+        "volume-title": "Handbook of the Philosophy of Science, Vol. 7, Philosophy of Statistics",
+        "author": "Chakrabarti",
+        "year": "2011"
+      },
+      {
+        "key": "2023050416570560800_bib25",
+        "doi-asserted-by": "publisher",
+        "first-page": "793",
+        "DOI": "10.1046/j.1365-8711.1999.02379.x",
+        "volume": "304",
+        "author": "Chambers",
+        "year": "1999",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2023050416570560800_bib26",
+        "first-page": "II/246",
+        "author": "Cutri",
+        "year": "2003",
+        "journal-title": "VizieR Online Data Catalog"
+      },
+      {
+        "key": "2023050416570560800_bib27",
+        "doi-asserted-by": "publisher",
+        "first-page": "79",
+        "DOI": "10.3847/1538-4357/ab3a3b",
+        "volume": "883",
+        "author": "Dai",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2023050416570560800_bib28",
+        "doi-asserted-by": "publisher",
+        "first-page": "222",
+        "DOI": "10.3847/1538-3881/aabde8",
+        "volume": "155",
+        "author": "David",
+        "year": "2018",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "2023050416570560800_bib29",
+        "doi-asserted-by": "publisher",
+        "first-page": "1007",
+        "DOI": "10.1111/j.1365-2966.2007.11833.x",
+        "volume": "378",
+        "author": "D\u00edaz",
+        "year": "2007",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2023050416570560800_bib30",
+        "doi-asserted-by": "publisher",
+        "first-page": "132",
+        "DOI": "10.1088/0004-637X/796/2/132",
+        "volume": "796",
+        "author": "Dumusque",
+        "year": "2014",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2023050416570560800_bib31",
+        "doi-asserted-by": "publisher",
+        "first-page": "306",
+        "DOI": "10.1086/670067",
+        "volume": "125",
+        "author": "Foreman-Mackey",
+        "year": "2013",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "2023050416570560800_bib32",
+        "doi-asserted-by": "publisher",
+        "first-page": "109",
+        "DOI": "10.3847/1538-3881/aa80eb",
+        "volume": "154",
+        "author": "Fulton",
+        "year": "2017",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "2023050416570560800_bib33",
+        "doi-asserted-by": "publisher",
+        "first-page": "044504",
+        "DOI": "10.1088/1538-3873/aaaaa8",
+        "volume": "130",
+        "author": "Fulton",
+        "year": "2018",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "2023050416570560800_bib34",
+        "first-page": "I/350",
+        "author": "Gaia Collaboration",
+        "year": "2020",
+        "journal-title": "VizieR Online Data Catalog"
+      },
+      {
+        "key": "2023050416570560800_bib35",
+        "doi-asserted-by": "publisher",
+        "first-page": "29",
+        "DOI": "10.3847/0004-637X/825/1/29",
+        "volume": "825",
+        "author": "Ginzburg",
+        "year": "2016",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2023050416570560800_bib36",
+        "doi-asserted-by": "publisher",
+        "first-page": "A30",
+        "DOI": "10.1051/0004-6361/201116971",
+        "volume": "534",
+        "author": "Gomes\u00a0da\u00a0Silva",
+        "year": "2011",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "2023050416570560800_bib37",
+        "doi-asserted-by": "publisher",
+        "first-page": "1198",
+        "DOI": "10.1086/432594",
+        "volume": "631",
+        "author": "Gregory",
+        "year": "2005",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2023050416570560800_bib38",
+        "doi-asserted-by": "publisher",
+        "first-page": "127",
+        "DOI": "10.1088/0004-637X/808/2/127",
+        "volume": "808",
+        "author": "Grunblatt",
+        "year": "2015",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2023050416570560800_bib39",
+        "doi-asserted-by": "publisher",
+        "first-page": "24",
+        "DOI": "10.1093/mnras/stz1230",
+        "volume": "487",
+        "author": "Gupta",
+        "year": "2019",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2023050416570560800_bib40",
+        "doi-asserted-by": "publisher",
+        "first-page": "4634",
+        "DOI": "10.1093/mnras/stab1128",
+        "volume": "504",
+        "author": "Gupta",
+        "year": "2021",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2023050416570560800_bib41",
+        "doi-asserted-by": "publisher",
+        "first-page": "4015",
+        "DOI": "10.1093/mnras/stac1066",
+        "volume": "513",
+        "author": "Guzm\u00e1n-Mesa",
+        "year": "2022",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2023050416570560800_bib42",
+        "doi-asserted-by": "publisher",
+        "first-page": "357",
+        "DOI": "10.1038/s41586-020-2649-2",
+        "volume": "585",
+        "author": "Harris",
+        "year": "2020",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2023050416570560800_bib43",
+        "doi-asserted-by": "publisher",
+        "first-page": "2517",
+        "DOI": "10.1093/mnras/stu1320",
+        "volume": "443",
+        "author": "Haywood",
+        "year": "2014",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2023050416570560800_bib44",
+        "doi-asserted-by": "publisher",
+        "first-page": "235",
+        "DOI": "10.3847/1538-3881/abeaa1",
+        "volume": "161",
+        "author": "Hobson",
+        "year": "2021",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "2023050416570560800_bib45",
+        "first-page": "L27",
+        "volume": "355",
+        "author": "H\u00f8g",
+        "year": "2000",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "2023050416570560800_bib46",
+        "doi-asserted-by": "publisher",
+        "first-page": "398",
+        "DOI": "10.1086/676406",
+        "volume": "126",
+        "author": "Howell",
+        "year": "2014",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "2023050416570560800_bib47",
+        "doi-asserted-by": "publisher",
+        "first-page": "90",
+        "DOI": "10.1109/MCSE.2007.55",
+        "volume": "9",
+        "author": "Hunter",
+        "year": "2007",
+        "journal-title": "Comput. Sci. Eng."
+      },
+      {
+        "key": "2023050416570560800_bib48",
+        "doi-asserted-by": "publisher",
+        "first-page": "114401",
+        "DOI": "10.1088/1538-3873/aadf6f",
+        "volume": "130",
+        "author": "Kempton",
+        "year": "2018",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "2023050416570560800_bib49",
+        "doi-asserted-by": "publisher",
+        "first-page": "1758",
+        "DOI": "10.1111/j.1365-2966.2010.17242.x",
+        "volume": "408",
+        "author": "Kipping",
+        "year": "2010",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2023050416570560800_bib50",
+        "doi-asserted-by": "publisher",
+        "first-page": "2152",
+        "DOI": "10.1093/mnras/stt1435",
+        "volume": "435",
+        "author": "Kipping",
+        "year": "2013",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2023050416570560800_bib51",
+        "doi-asserted-by": "publisher",
+        "first-page": "5067",
+        "DOI": "10.1093/mnras/stac761",
+        "volume": "512",
+        "author": "Klein",
+        "year": "2022",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2023050416570560800_bib52",
+        "doi-asserted-by": "publisher",
+        "first-page": "211",
+        "DOI": "10.1146/annurev-astro-081811-125523",
+        "volume": "50",
+        "author": "Kley",
+        "year": "2012",
+        "journal-title": "ARA&A"
+      },
+      {
+        "key": "2023050416570560800_bib53",
+        "doi-asserted-by": "publisher",
+        "first-page": "66",
+        "DOI": "10.1038/nature12887",
+        "volume": "505",
+        "author": "Knutson",
+        "year": "2014",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2023050416570560800_bib54",
+        "doi-asserted-by": "publisher",
+        "first-page": "69",
+        "DOI": "10.1038/nature12888",
+        "volume": "505",
+        "author": "Kreidberg",
+        "year": "2014",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2023050416570560800_bib55",
+        "doi-asserted-by": "publisher",
+        "first-page": "1106",
+        "DOI": "10.1086/523957",
+        "volume": "674",
+        "author": "Langton",
+        "year": "2008",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2023050416570560800_bib56",
+        "doi-asserted-by": "publisher",
+        "first-page": "A48",
+        "DOI": "10.1051/0004-6361/202037896",
+        "volume": "640",
+        "author": "Lillo-Box",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "2023050416570560800_bib57",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1088/0004-637X/792/1/1",
+        "volume": "792",
+        "author": "Lopez",
+        "year": "2014",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2023050416570560800_bib58",
+        "doi-asserted-by": "publisher",
+        "first-page": "1115",
+        "DOI": "10.1051/0004-6361:20077249",
+        "volume": "468",
+        "author": "Lovis",
+        "year": "2007",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "2023050416570560800_bib59",
+        "doi-asserted-by": "publisher",
+        "first-page": "L171",
+        "DOI": "10.1086/345520",
+        "volume": "580",
+        "author": "Mandel",
+        "year": "2002",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2023050416570560800_bib60",
+        "doi-asserted-by": "publisher",
+        "first-page": "61",
+        "DOI": "10.3847/0004-6256/152/3/61",
+        "volume": "152",
+        "author": "Mann",
+        "year": "2016",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "2023050416570560800_bib61",
+        "doi-asserted-by": "publisher",
+        "first-page": "46",
+        "DOI": "10.3847/0004-637X/818/1/46",
+        "volume": "818",
+        "author": "Mann",
+        "year": "2016",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2023050416570560800_bib62",
+        "doi-asserted-by": "publisher",
+        "first-page": "156",
+        "DOI": "10.3847/1538-3881/ac511d",
+        "volume": "163",
+        "author": "Mann",
+        "year": "2022",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "2023050416570560800_bib63",
+        "doi-asserted-by": "publisher",
+        "first-page": "A177",
+        "DOI": "10.1051/0004-6361/202040235",
+        "volume": "649",
+        "author": "Martioli",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "2023050416570560800_bib64",
+        "doi-asserted-by": "publisher",
+        "first-page": "165",
+        "DOI": "10.3847/1538-3881/ab3e2f",
+        "volume": "158",
+        "author": "Mayo",
+        "year": "2019",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "2023050416570560800_bib65",
+        "first-page": "20",
+        "volume": "114",
+        "author": "Mayor",
+        "year": "2003",
+        "journal-title": "Messenger"
+      },
+      {
+        "key": "2023050416570560800_bib66",
+        "doi-asserted-by": "publisher",
+        "first-page": "34",
+        "DOI": "10.1088/0004-637X/777/1/34",
+        "volume": "777",
+        "author": "Moses",
+        "year": "2013",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2023050416570560800_bib67",
+        "doi-asserted-by": "publisher",
+        "first-page": "A163",
+        "DOI": "10.1051/0004-6361/202243743",
+        "volume": "664",
+        "author": "Nardiello",
+        "year": "2022",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "2023050416570560800_bib68",
+        "doi-asserted-by": "publisher",
+        "first-page": "L17",
+        "DOI": "10.3847/2041-8213/ab2988",
+        "volume": "880",
+        "author": "Newton",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2023050416570560800_bib69",
+        "doi-asserted-by": "publisher",
+        "first-page": "65",
+        "DOI": "10.3847/1538-3881/abccc6",
+        "volume": "161",
+        "author": "Newton",
+        "year": "2021",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "2023050416570560800_bib70",
+        "doi-asserted-by": "publisher",
+        "first-page": "5251",
+        "DOI": "10.1093/mnras/stac2097",
+        "volume": "515",
+        "author": "Nicholson",
+        "year": "2022",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2023050416570560800_bib71",
+        "doi-asserted-by": "publisher",
+        "first-page": "A107",
+        "DOI": "10.1051/0004-6361/201731139",
+        "volume": "606",
+        "author": "Oshagh",
+        "year": "2017",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "2023050416570560800_bib72",
+        "doi-asserted-by": "publisher",
+        "first-page": "105",
+        "DOI": "10.1088/0004-637X/775/2/105",
+        "volume": "775",
+        "author": "Owen",
+        "year": "2013",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2023050416570560800_bib73",
+        "doi-asserted-by": "publisher",
+        "first-page": "29",
+        "DOI": "10.3847/1538-4357/aa890a",
+        "volume": "847",
+        "author": "Owen",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2023050416570560800_bib74",
+        "doi-asserted-by": "publisher",
+        "first-page": "632",
+        "DOI": "10.1051/0004-6361:20020433",
+        "volume": "388",
+        "author": "Pepe",
+        "year": "2002",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "2023050416570560800_bib75",
+        "doi-asserted-by": "publisher",
+        "first-page": "179",
+        "DOI": "10.3847/1538-3881/ac51e3",
+        "volume": "163",
+        "author": "Petigura",
+        "year": "2022",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "2023050416570560800_bib76",
+        "doi-asserted-by": "publisher",
+        "first-page": "279",
+        "DOI": "10.1051/0004-6361:20011308",
+        "volume": "379",
+        "author": "Queloz",
+        "year": "2001",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "2023050416570560800_bib77",
+        "doi-asserted-by": "publisher",
+        "first-page": "4460",
+        "DOI": "10.1093/mnras/stx3094",
+        "volume": "474",
+        "author": "Ragusa",
+        "year": "2018",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2023050416570560800_bib78",
+        "doi-asserted-by": "publisher",
+        "first-page": "2269",
+        "DOI": "10.1093/mnras/stv1428",
+        "volume": "452",
+        "author": "Rajpaul",
+        "year": "2015",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2023050416570560800_bib79",
+        "doi-asserted-by": "publisher",
+        "first-page": "1847",
+        "DOI": "10.1093/mnras/stab2192",
+        "volume": "507",
+        "author": "Rajpaul",
+        "year": "2021",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2023050416570560800_bib80",
+        "doi-asserted-by": "publisher",
+        "first-page": "L98",
+        "DOI": "10.1088/0004-637X/696/1/L98",
+        "volume": "696",
+        "author": "Raymond",
+        "year": "2009",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2023050416570560800_bib81",
+        "doi-asserted-by": "publisher",
+        "first-page": "014003",
+        "DOI": "10.1117/1.JATIS.1.1.014003",
+        "volume": "1",
+        "author": "Ricker",
+        "year": "2015",
+        "journal-title": "J. Astron. Telesc. Instrum. Syst."
+      },
+      {
+        "key": "2023050416570560800_bib82",
+        "doi-asserted-by": "publisher",
+        "first-page": "33",
+        "DOI": "10.3847/1538-3881/ab94b7",
+        "volume": "160",
+        "author": "Rizzuto",
+        "year": "2020",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "2023050416570560800_bib83",
+        "doi-asserted-by": "publisher",
+        "first-page": "L11",
+        "DOI": "10.1111/j.1745-3933.2007.00324.x",
+        "volume": "379",
+        "author": "Southworth",
+        "year": "2007",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2023050416570560800_bib84",
+        "doi-asserted-by": "publisher",
+        "first-page": "232",
+        "DOI": "10.1038/s41550-021-01533-7",
+        "volume": "6",
+        "author": "Su\u00e1rez\u00a0Mascare\u00f1o",
+        "year": "2021",
+        "journal-title": "Nat. Astron."
+      },
+      {
+        "key": "2023050416570560800_bib95",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.3509134",
+        "volume-title": "pandas-dev/pandas: Pandas",
+        "author": "The\u00a0pandas\u00a0development\u00a0team",
+        "year": "2020"
+      },
+      {
+        "key": "2023050416570560800_bib85",
+        "doi-asserted-by": "crossref",
+        "first-page": "3867",
+        "DOI": "10.1093/mnras/stad214",
+        "volume": "520",
+        "author": "Tsai",
+        "year": "2023",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2023050416570560800_bib88",
+        "doi-asserted-by": "publisher",
+        "first-page": "948",
+        "DOI": "10.1086/678764",
+        "volume": "126",
+        "author": "Vanderburg",
+        "year": "2014",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "2023050416570560800_bib86",
+        "doi-asserted-by": "publisher",
+        "first-page": "4786",
+        "DOI": "10.1093/mnras/sty1783",
+        "volume": "479",
+        "author": "Van\u00a0Eylen",
+        "year": "2018",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2023050416570560800_bib87",
+        "doi-asserted-by": "publisher",
+        "first-page": "61",
+        "DOI": "10.3847/1538-3881/aaf22f",
+        "volume": "157",
+        "author": "Van\u00a0Eylen",
+        "year": "2019",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "2023050416570560800_bib89",
+        "doi-asserted-by": "publisher",
+        "first-page": "4476",
+        "DOI": "10.1093/mnras/stx2836",
+        "volume": "475",
+        "author": "Wheatley",
+        "year": "2018",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2023050416570560800_bib90",
+        "doi-asserted-by": "publisher",
+        "first-page": "221",
+        "DOI": "10.1086/149652",
+        "volume": "153",
+        "author": "Wilson",
+        "year": "1968",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2023050416570560800_bib91",
+        "author": "Winn",
+        "year": "2010"
+      },
+      {
+        "key": "2023050416570560800_bib92",
+        "doi-asserted-by": "publisher",
+        "first-page": "127",
+        "DOI": "10.3847/0004-637X/819/2/127",
+        "volume": "819",
+        "author": "Zeng",
+        "year": "2016",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2023050416570560800_bib93",
+        "doi-asserted-by": "publisher",
+        "first-page": "67",
+        "DOI": "10.3847/1538-3881/ac3fa7",
+        "volume": "163",
+        "author": "Zhang",
+        "year": "2022",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "2023050416570560800_bib94",
+        "doi-asserted-by": "publisher",
+        "first-page": "3060",
+        "DOI": "10.1093/mnras/stac614",
+        "volume": "512",
+        "author": "Zicher",
+        "year": "2022",
+        "journal-title": "MNRAS"
+      }
+    ],
+    "container-title": [
+      "Monthly Notices of the Royal Astronomical Society"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://academic.oup.com/mnras/advance-article-pdf/doi/10.1093/mnras/stad1139/50020974/stad1139.pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://academic.oup.com/mnras/article-pdf/522/3/3458/50203794/stad1139.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://academic.oup.com/mnras/article-pdf/522/3/3458/50203794/stad1139.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          4
+        ]
+      ],
+      "date-time": "2023-05-04T16:57:51Z",
+      "timestamp": 1683219471000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://academic.oup.com/mnras/article/522/3/3458/7129017"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          18
+        ]
+      ]
+    },
+    "references-count": 95,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            2
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1093/mnras/stad1139",
+    "relation": {},
+    "ISSN": [
+      "0035-8711",
+      "1365-2966"
+    ],
+    "issn-type": [
+      {
+        "value": "0035-8711",
+        "type": "print"
+      },
+      {
+        "value": "1365-2966",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published-other": {
+      "date-parts": [
+        [
+          2023,
+          7
+        ]
+      ]
+    },
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          18
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.1093/mnras/stad1139",
+  "original_doi": "10.1093/mnras/stad1139"
+}

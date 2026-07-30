@@ -1,0 +1,1216 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          9
+        ]
+      ],
+      "date-time": "2026-06-09T08:03:17Z",
+      "timestamp": 1780992197146,
+      "version": "3.54.1"
+    },
+    "reference-count": 91,
+    "publisher": "EDP Sciences",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              9
+            ]
+          ],
+          "date-time": "2026-06-09T00:00:00Z",
+          "timestamp": 1780963200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 8,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "A&amp;A"
+    ],
+    "accepted": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          15
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    },
+    "abstract": "<jats:p>\n                    <jats:italic>Context</jats:italic>\n                    . M dwarfs are key targets for terrestrial exoplanet studies, with prospects for atmospheric spectroscopy. However, strong stellar magnetic activity and frequent flaring require modelling efforts to assess their impact on planetary atmospheres.\n                  </jats:p>\n                  <jats:p>\n                    <jats:italic>Aims</jats:italic>\n                    . We investigated one year of atmospheric chemical evolution of a young exo-Earth orbiting an active M dwarf by coupling our young M dwarf flare (YMDF) model of stellar activity with the photochemical kinetic code VULCAN.\n                  </jats:p>\n                  <jats:p>\n                    <jats:italic>Methods</jats:italic>\n                    . The YMDF model provides time-resolved spectral energy distributions for high- and low-energy electron beam\u2013driven flares, which are used as external radiative inputs to VULCAN to compute the time-dependent photochemistry and kinetics for different primordial atmospheric scenarios.\n                  </jats:p>\n                  <jats:p>\n                    <jats:italic>Results</jats:italic>\n                    . We present the impact of stellar flares on atmospheres with a varying water vapour content, ranging from a plausible primordial atmosphere with solar abundances (representative of a planet-forming region in a dissipating protoplanetary disk) to an extreme water-steam atmosphere with other species reduced to trace abundances. This was explored across several configurations: variable flux in the YMDF model, the previous model representing an active but older M dwarf with 10 or 400K additional bottom boundary heat flux, and a constant stellar flux model.\n                  </jats:p>\n                  <jats:p>\n                    <jats:italic>Conclusions</jats:italic>\n                    . Our study suggests that compared to the previous model, the YMDF model produces synthetic flares that exert significantly greater stress on primordial atmospheres, regardless of the water-vapour content. Increased activity and prevalence of mid-size flares has the potential to induce permanent changes in atmospheric mixing ratios, especially in species with low abundances.\n                  </jats:p>",
+    "DOI": "10.1051/0004-6361/202558763",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          27
+        ]
+      ],
+      "date-time": "2026-04-27T18:44:08Z",
+      "timestamp": 1777315448000
+    },
+    "page": "A171",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Stellar-flare-driven evolution of primordial early exo-Earth atmospheres: Insights from the young M dwarf flare model"
+    ],
+    "prefix": "10.1051",
+    "volume": "710",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0003-0245-1219",
+        "authenticated-orcid": false,
+        "given": "E.",
+        "family": "Mamonova",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Centre for Planetary Habitability (PHAB), University of Oslo",
+            "place": [
+              "Norway"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5622-4829",
+        "authenticated-orcid": false,
+        "given": "K.",
+        "family": "Herbst",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centre for Planetary Habitability (PHAB), University of Oslo",
+            "place": [
+              "Norway"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5060-1993",
+        "authenticated-orcid": false,
+        "given": "V.",
+        "family": "Kofman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centre for Planetary Habitability (PHAB), University of Oslo",
+            "place": [
+              "Norway"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9822-2194",
+        "authenticated-orcid": false,
+        "given": "O.",
+        "family": "Ozgurel",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centre for Planetary Habitability (PHAB), University of Oslo",
+            "place": [
+              "Norway"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A. F.",
+        "family": "Kowalski",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Solar Observatory, University of Colorado Boulder",
+            "place": [
+              "USA"
+            ]
+          },
+          {
+            "name": "Department of Astrophysical and Planetary Sciences, University of Colorado",
+            "place": [
+              "USA"
+            ]
+          },
+          {
+            "name": "Laboratory for Atmospheric and Space Physics, University of Colorado Boulder",
+            "place": [
+              "USA"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5006-7540",
+        "authenticated-orcid": false,
+        "given": "S.",
+        "family": "Wedemeyer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Rosseland Centre for Solar Physics, University of Oslo",
+            "place": [
+              "Norway"
+            ]
+          },
+          {
+            "name": "Institute of Theoretical Astrophysics, University of Oslo",
+            "place": [
+              "Norway"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5704-0909",
+        "authenticated-orcid": false,
+        "given": "S. C.",
+        "family": "Werner",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centre for Planetary Habitability (PHAB), University of Oslo",
+            "place": [
+              "Norway"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "250",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          9
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "R1",
+        "doi-asserted-by": "crossref",
+        "first-page": "L3",
+        "DOI": "10.3847/2041-8213/836/1/L3",
+        "volume": "836",
+        "author": "Airapetian",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R2",
+        "doi-asserted-by": "crossref",
+        "first-page": "3760",
+        "DOI": "10.1093/mnras/stz2842",
+        "volume": "490",
+        "author": "Allan",
+        "year": "2019",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R3",
+        "doi-asserted-by": "crossref",
+        "first-page": "3053",
+        "DOI": "10.1093/mnras/stu2731",
+        "volume": "448",
+        "author": "Andersen",
+        "year": "2015",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R4",
+        "doi-asserted-by": "crossref",
+        "first-page": "4436",
+        "DOI": "10.1093/mnras/stae1648",
+        "volume": "532",
+        "author": "Berger",
+        "year": "2024",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R5",
+        "doi-asserted-by": "crossref",
+        "first-page": "977",
+        "DOI": "10.1126/science.1185402",
+        "volume": "327",
+        "author": "Borucki",
+        "year": "2010",
+        "journal-title": "Science"
+      },
+      {
+        "key": "R6",
+        "doi-asserted-by": "crossref",
+        "first-page": "779",
+        "DOI": "10.1051/0004-6361:20020555",
+        "volume": "390",
+        "author": "Borysow",
+        "year": "2002",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R7",
+        "doi-asserted-by": "crossref",
+        "first-page": "5",
+        "DOI": "10.3847/1538-4357/acab59",
+        "volume": "944",
+        "author": "Brasseur",
+        "year": "2023",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R8",
+        "doi-asserted-by": "crossref",
+        "first-page": "195",
+        "DOI": "10.3847/1538-3881/acc38a",
+        "volume": "165",
+        "author": "Brown",
+        "year": "2023",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R9",
+        "doi-asserted-by": "crossref",
+        "first-page": "298",
+        "DOI": "10.1038/s41550-020-01264-1",
+        "volume": "5",
+        "author": "Chen",
+        "year": "2021",
+        "journal-title": "Nat. Astron."
+      },
+      {
+        "key": "R10",
+        "doi-asserted-by": "crossref",
+        "first-page": "40",
+        "DOI": "10.3847/1538-3881/add33e",
+        "volume": "170",
+        "author": "Chen",
+        "year": "2025",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R11",
+        "doi-asserted-by": "crossref",
+        "first-page": "261",
+        "DOI": "10.3847/1538-3881/aa9279",
+        "volume": "154",
+        "author": "Crossfield",
+        "year": "2017",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R12",
+        "doi-asserted-by": "crossref",
+        "first-page": "23",
+        "DOI": "10.3847/0004-637X/829/1/23",
+        "volume": "829",
+        "author": "Davenport",
+        "year": "2016",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R13",
+        "doi-asserted-by": "crossref",
+        "first-page": "122",
+        "DOI": "10.1088/0004-637X/797/2/122",
+        "volume": "797",
+        "author": "Davenport",
+        "year": "2014",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R14",
+        "doi-asserted-by": "crossref",
+        "first-page": "8",
+        "DOI": "10.3847/0067-0049/222/1/8",
+        "volume": "222",
+        "author": "Dotter",
+        "year": "2016",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R15",
+        "doi-asserted-by": "crossref",
+        "first-page": "45",
+        "DOI": "10.1088/0004-637X/807/1/45",
+        "volume": "807",
+        "author": "Dressing",
+        "year": "2015",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R16",
+        "doi-asserted-by": "crossref",
+        "first-page": "125594",
+        "DOI": "10.1016/j.chemer.2019.125594",
+        "volume": "80",
+        "author": "Fegley",
+        "year": "2020",
+        "journal-title": "Chemie der Erde / Geochemistry"
+      },
+      {
+        "key": "R17",
+        "doi-asserted-by": "crossref",
+        "first-page": "110",
+        "DOI": "10.3847/1538-3881/ac8107",
+        "volume": "164",
+        "author": "Feinstein",
+        "year": "2022",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R18",
+        "doi-asserted-by": "crossref",
+        "first-page": "60",
+        "DOI": "10.3847/1538-3881/ad4edf",
+        "volume": "168",
+        "author": "Feinstein",
+        "year": "2024",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R19",
+        "doi-asserted-by": "crossref",
+        "first-page": "89",
+        "DOI": "10.3847/0004-637X/820/2/89",
+        "volume": "820",
+        "author": "France",
+        "year": "2016",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R20",
+        "doi-asserted-by": "crossref",
+        "first-page": "237",
+        "DOI": "10.3847/1538-3881/abb465",
+        "volume": "160",
+        "author": "France",
+        "year": "2020",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R21",
+        "doi-asserted-by": "crossref",
+        "first-page": "L26",
+        "DOI": "10.3847/2041-8213/aaffcd",
+        "volume": "871",
+        "author": "Froning",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R22",
+        "unstructured": "Gaia Collaboration 2020, VizieR Online Data Catalog: Gaia EDR3 (Gaia Collaboration, 2020), VizieR On-line Data Catalog: I/350. Originally published in: 2021A&A...649A...1G"
+      },
+      {
+        "key": "R23",
+        "doi-asserted-by": "crossref",
+        "first-page": "41",
+        "DOI": "10.1088/0004-637X/762/1/41",
+        "volume": "762",
+        "author": "Gaidos",
+        "year": "2013",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R24",
+        "doi-asserted-by": "crossref",
+        "first-page": "485",
+        "DOI": "10.1007/s11214-006-8315-7",
+        "volume": "123",
+        "author": "Gardner",
+        "year": "2006",
+        "journal-title": "Space Sci. Rev."
+      },
+      {
+        "key": "R25",
+        "doi-asserted-by": "crossref",
+        "first-page": "L33",
+        "DOI": "10.3847/2041-8213/aa79ed",
+        "volume": "843",
+        "author": "Garraffo",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R26",
+        "doi-asserted-by": "crossref",
+        "first-page": "L8",
+        "DOI": "10.3847/2041-8213/aca487",
+        "volume": "941",
+        "author": "Garraffo",
+        "year": "2022",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R27",
+        "doi-asserted-by": "crossref",
+        "first-page": "75",
+        "DOI": "10.1007/BF00643168",
+        "volume": "19",
+        "author": "Gershberg",
+        "year": "1972",
+        "journal-title": "Ap&SS"
+      },
+      {
+        "key": "R28",
+        "doi-asserted-by": "crossref",
+        "first-page": "41",
+        "DOI": "10.3847/1538-4357/ae0477",
+        "volume": "993",
+        "author": "Gibbs",
+        "year": "2025",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R29",
+        "doi-asserted-by": "crossref",
+        "first-page": "60",
+        "DOI": "10.1088/0004-637X/744/1/60",
+        "volume": "744",
+        "author": "Green",
+        "year": "2012",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R30",
+        "doi-asserted-by": "crossref",
+        "first-page": "3703",
+        "DOI": "10.1093/mnras/stad2486",
+        "volume": "525",
+        "author": "Guimond",
+        "year": "2023",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R31",
+        "doi-asserted-by": "crossref",
+        "first-page": "121",
+        "DOI": "10.1088/0004-637X/797/2/121",
+        "volume": "797",
+        "author": "Hawley",
+        "year": "2014",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R32",
+        "doi-asserted-by": "crossref",
+        "first-page": "18",
+        "DOI": "10.1007/s41614-025-00195-6",
+        "volume": "9",
+        "author": "Hazra",
+        "year": "2025",
+        "journal-title": "Rev. Mod. Plasma Phys."
+      },
+      {
+        "key": "R33",
+        "doi-asserted-by": "crossref",
+        "first-page": "9",
+        "DOI": "10.3847/1538-4357/ab2767",
+        "volume": "881",
+        "author": "Howard",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R34",
+        "doi-asserted-by": "crossref",
+        "first-page": "398",
+        "DOI": "10.1086/676406",
+        "volume": "126",
+        "author": "Howell",
+        "year": "2014",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R35",
+        "doi-asserted-by": "crossref",
+        "first-page": "166",
+        "DOI": "10.1088/0004-637X/761/2/166",
+        "volume": "761",
+        "author": "Hu",
+        "year": "2012",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R36",
+        "doi-asserted-by": "crossref",
+        "first-page": "1894",
+        "DOI": "10.1093/mnras/stae1570",
+        "volume": "533",
+        "author": "Jackman",
+        "year": "2024",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R37",
+        "doi-asserted-by": "crossref",
+        "first-page": "A107",
+        "DOI": "10.1051/0004-6361/201832776",
+        "volume": "617",
+        "author": "Johnstone",
+        "year": "2018",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R38",
+        "doi-asserted-by": "crossref",
+        "first-page": "251",
+        "DOI": "10.1080/00107514.2018.1467648",
+        "volume": "59",
+        "author": "Kalirai",
+        "year": "2018",
+        "journal-title": "Contemp. Phys."
+      },
+      {
+        "key": "R39",
+        "doi-asserted-by": "crossref",
+        "first-page": "A81",
+        "DOI": "10.1051/0004-6361/202038779",
+        "volume": "643",
+        "author": "Katyal",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R40",
+        "doi-asserted-by": "crossref",
+        "first-page": "57",
+        "DOI": "10.3847/1538-4357/ace10d",
+        "volume": "953",
+        "author": "Kempton",
+        "year": "2023",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R41",
+        "doi-asserted-by": "crossref",
+        "first-page": "A15",
+        "DOI": "10.1051/0004-6361/202243436",
+        "volume": "667",
+        "author": "Konings",
+        "year": "2022",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R42",
+        "doi-asserted-by": "crossref",
+        "first-page": "L29",
+        "DOI": "10.1088/2041-8205/787/2/L29",
+        "volume": "787",
+        "author": "Kopparapu",
+        "year": "2014",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R43",
+        "doi-asserted-by": "crossref",
+        "first-page": "167",
+        "DOI": "10.3847/1538-4357/aaf058",
+        "volume": "871",
+        "author": "Kowalski",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R44",
+        "doi-asserted-by": "crossref",
+        "first-page": "L18",
+        "DOI": "10.3847/2041-8213/aae586",
+        "volume": "866",
+        "author": "Kubyshkina",
+        "year": "2018",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R45",
+        "doi-asserted-by": "crossref",
+        "first-page": "1425",
+        "DOI": "10.1016/j.pss.2006.04.021",
+        "volume": "54",
+        "author": "Kulikov",
+        "year": "2006",
+        "journal-title": "Planet. Space Sci."
+      },
+      {
+        "key": "R46",
+        "doi-asserted-by": "crossref",
+        "first-page": "312",
+        "DOI": "10.1016/j.epsl.2013.05.050",
+        "volume": "375",
+        "author": "Kuramoto",
+        "year": "2013",
+        "journal-title": "Earth Planet. Sci. Lett."
+      },
+      {
+        "key": "R47",
+        "doi-asserted-by": "crossref",
+        "first-page": "53",
+        "DOI": "10.1038/nature09760",
+        "volume": "470",
+        "author": "Lissauer",
+        "year": "2011",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "R48",
+        "doi-asserted-by": "crossref",
+        "first-page": "3333",
+        "DOI": "10.1093/mnras/stac1220",
+        "volume": "521",
+        "author": "Louca",
+        "year": "2023",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R49",
+        "unstructured": "Loyd R. O. P. 2022, Astrophysics Source Code Library [record ascl:ascl:2202.012]"
+      },
+      {
+        "key": "R50",
+        "doi-asserted-by": "crossref",
+        "first-page": "71",
+        "DOI": "10.3847/1538-4357/aae2bd",
+        "volume": "867",
+        "author": "Loyd",
+        "year": "2018",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R51",
+        "doi-asserted-by": "crossref",
+        "first-page": "119",
+        "DOI": "10.1089/ast.2014.1231",
+        "volume": "15",
+        "author": "Luger",
+        "year": "2015",
+        "journal-title": "Astrobiology"
+      },
+      {
+        "key": "R52",
+        "doi-asserted-by": "crossref",
+        "first-page": "56",
+        "DOI": "10.3847/1538-3881/153/2/56",
+        "volume": "153",
+        "author": "Malik",
+        "year": "2017",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R53",
+        "doi-asserted-by": "crossref",
+        "first-page": "142",
+        "DOI": "10.3847/1538-4357/ab4a05",
+        "volume": "886",
+        "author": "Malik",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R54",
+        "doi-asserted-by": "crossref",
+        "first-page": "A53",
+        "DOI": "10.1051/0004-6361/202554614",
+        "volume": "700",
+        "author": "Mamonova",
+        "year": "2025",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R55",
+        "doi-asserted-by": "crossref",
+        "first-page": "A165",
+        "DOI": "10.1051/0004-6361/202556844",
+        "volume": "705",
+        "author": "Mamonova",
+        "year": "2026",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R56",
+        "doi-asserted-by": "crossref",
+        "first-page": "630",
+        "DOI": "10.1089/ast.2017.1727",
+        "volume": "18",
+        "author": "Meadows",
+        "year": "2018",
+        "journal-title": "Astrobiology"
+      },
+      {
+        "key": "R57",
+        "doi-asserted-by": "crossref",
+        "first-page": "345",
+        "DOI": "10.1093/mnras/stu2107",
+        "volume": "446",
+        "author": "Miguel",
+        "year": "2015",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R58",
+        "doi-asserted-by": "crossref",
+        "first-page": "3",
+        "DOI": "10.1088/0004-637X/745/1/3",
+        "volume": "745",
+        "author": "Miller-Ricci Kempton",
+        "year": "2012",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R59",
+        "doi-asserted-by": "crossref",
+        "first-page": "5168",
+        "DOI": "10.1093/mnras/stad2557",
+        "volume": "525",
+        "author": "Modi",
+        "year": "2023",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R60",
+        "doi-asserted-by": "crossref",
+        "first-page": "244",
+        "DOI": "10.1006/icar.1999.6270",
+        "volume": "143",
+        "author": "Moses",
+        "year": "2000",
+        "journal-title": "Icarus"
+      },
+      {
+        "key": "R61",
+        "doi-asserted-by": "crossref",
+        "first-page": "34",
+        "DOI": "10.1088/0004-637X/777/1/34",
+        "volume": "777",
+        "author": "Moses",
+        "year": "2013",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R62",
+        "doi-asserted-by": "crossref",
+        "first-page": "279",
+        "DOI": "10.1007/s10686-021-09749-1",
+        "volume": "53",
+        "author": "Moses",
+        "year": "2022",
+        "journal-title": "Exp. Astron."
+      },
+      {
+        "key": "R63",
+        "doi-asserted-by": "crossref",
+        "first-page": "L19",
+        "DOI": "10.3847/2041-8205/821/1/L19",
+        "volume": "821",
+        "author": "Newton",
+        "year": "2016",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R64",
+        "doi-asserted-by": "crossref",
+        "first-page": "5681",
+        "DOI": "10.1093/mnras/stad1734",
+        "volume": "523",
+        "author": "Nicholls",
+        "year": "2023",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R65",
+        "doi-asserted-by": "crossref",
+        "first-page": "129",
+        "DOI": "10.1007/s11214-020-00756-w",
+        "volume": "216",
+        "author": "Owen",
+        "year": "2020",
+        "journal-title": "Space Sci. Rev."
+      },
+      {
+        "key": "R66",
+        "unstructured": "Owen T. 1980, in Strategies for the Search for Life in the Universe: A Joint Session of Commissions 16, 40, and 44, Held in Montreal, Canada, During the IAU General Assembly, 15 and 16 August, 1979, ed. Papagiannis M. D. (Dordrecht: Springer Netherlands), 177"
+      },
+      {
+        "key": "R67",
+        "doi-asserted-by": "crossref",
+        "first-page": "47",
+        "DOI": "10.1080/00107514.2023.2266921",
+        "volume": "64",
+        "author": "Padovani",
+        "year": "2023",
+        "journal-title": "Contemp. Phys."
+      },
+      {
+        "key": "R68",
+        "doi-asserted-by": "crossref",
+        "first-page": "A91",
+        "DOI": "10.1051/0004-6361/201321132",
+        "volume": "558",
+        "author": "Parmentier",
+        "year": "2013",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R69",
+        "doi-asserted-by": "crossref",
+        "first-page": "24",
+        "DOI": "10.3847/1538-4357/ad487d",
+        "volume": "971",
+        "author": "Paudel",
+        "year": "2024",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R70",
+        "doi-asserted-by": "crossref",
+        "first-page": "10",
+        "DOI": "10.3847/1538-4365/ab2241",
+        "volume": "243",
+        "author": "Paxton",
+        "year": "2019",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R71",
+        "doi-asserted-by": "crossref",
+        "first-page": "110",
+        "DOI": "10.3847/1538-4357/aa773e",
+        "volume": "843",
+        "author": "Ranjan",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R72",
+        "doi-asserted-by": "crossref",
+        "first-page": "26",
+        "DOI": "10.1007/s10686-025-09985-9",
+        "volume": "59",
+        "author": "Rauer",
+        "year": "2025",
+        "journal-title": "Exp. Astron."
+      },
+      {
+        "key": "R73",
+        "doi-asserted-by": "crossref",
+        "first-page": "A111",
+        "DOI": "10.1051/0004-6361/201629576",
+        "volume": "596",
+        "author": "Ribas",
+        "year": "2016",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R74",
+        "doi-asserted-by": "crossref",
+        "first-page": "1276",
+        "DOI": "10.1016/j.jqsrt.2011.11.004",
+        "volume": "113",
+        "author": "Richard",
+        "year": "2012",
+        "journal-title": "J. Quant. Spec. Radiat. Transf."
+      },
+      {
+        "key": "R75",
+        "unstructured": "Ricker G. R. 2016, in AGU Fall Meeting Abstracts, P13C-01"
+      },
+      {
+        "key": "R76",
+        "doi-asserted-by": "crossref",
+        "first-page": "014003",
+        "DOI": "10.1117/1.JATIS.1.1.014003",
+        "volume": "1",
+        "author": "Ricker",
+        "year": "2015",
+        "journal-title": "J. Astron. Teles. Instrum. Syst."
+      },
+      {
+        "key": "R77",
+        "doi-asserted-by": "crossref",
+        "first-page": "2472",
+        "DOI": "10.1093/mnras/stac3105",
+        "volume": "518",
+        "author": "Ridgway",
+        "year": "2023",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R78",
+        "doi-asserted-by": "crossref",
+        "first-page": "85",
+        "DOI": "10.1089/ast.2006.0125",
+        "volume": "7",
+        "author": "Scalo",
+        "year": "2007",
+        "journal-title": "Astrobiology"
+      },
+      {
+        "key": "R79",
+        "doi-asserted-by": "crossref",
+        "first-page": "751",
+        "DOI": "10.1089/ast.2009.0376",
+        "volume": "10",
+        "author": "Segura",
+        "year": "2010",
+        "journal-title": "Astrobiology"
+      },
+      {
+        "key": "R80",
+        "doi-asserted-by": "crossref",
+        "first-page": "293",
+        "DOI": "10.1016/j.jqsrt.2004.07.025",
+        "volume": "92",
+        "author": "Sneep",
+        "year": "2005",
+        "journal-title": "J. Quant. Spec. Radiat. Transf."
+      },
+      {
+        "key": "R81",
+        "first-page": "865",
+        "volume": "479",
+        "author": "Stock",
+        "year": "2018",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R82",
+        "doi-asserted-by": "crossref",
+        "first-page": "64",
+        "DOI": "10.1089/ast.2017.1794",
+        "volume": "19",
+        "author": "Tilley",
+        "year": "2019",
+        "journal-title": "Astrobiology"
+      },
+      {
+        "key": "R83",
+        "doi-asserted-by": "crossref",
+        "first-page": "135",
+        "DOI": "10.1007/s10686-018-9598-x",
+        "volume": "46",
+        "author": "Tinetti",
+        "year": "2018",
+        "journal-title": "Exp. Astron."
+      },
+      {
+        "key": "R84",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.3847/1538-3881/ac6fe6",
+        "volume": "164",
+        "author": "Tovar Mendoza",
+        "year": "2022",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R85",
+        "doi-asserted-by": "crossref",
+        "first-page": "20",
+        "DOI": "10.3847/1538-4365/228/2/20",
+        "volume": "228",
+        "author": "Tsai",
+        "year": "2017",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R86",
+        "doi-asserted-by": "crossref",
+        "first-page": "264",
+        "DOI": "10.3847/1538-4357/ac29bc",
+        "volume": "923",
+        "author": "Tsai",
+        "year": "2021",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R87",
+        "doi-asserted-by": "crossref",
+        "first-page": "3867",
+        "DOI": "10.1093/mnras/stad214",
+        "volume": "520",
+        "author": "Tsai",
+        "year": "2023",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R88",
+        "doi-asserted-by": "crossref",
+        "first-page": "232",
+        "DOI": "10.3847/1538-3881/acfda8",
+        "volume": "166",
+        "author": "Wittrock",
+        "year": "2023",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R89",
+        "doi-asserted-by": "crossref",
+        "first-page": "137",
+        "DOI": "10.3847/1538-4357/ac7be7",
+        "volume": "934",
+        "author": "Yoshida",
+        "year": "2022",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R90",
+        "doi-asserted-by": "crossref",
+        "first-page": "122",
+        "DOI": "10.3847/1538-4357/aa7846",
+        "volume": "843",
+        "author": "Zahnle",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R91",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.3847/PSJ/ab7e2c",
+        "volume": "1",
+        "author": "Zahnle",
+        "year": "2020",
+        "journal-title": "Planet. Sci. J."
+      }
+    ],
+    "container-title": [
+      "Astronomy &amp; Astrophysics"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.aanda.org/10.1051/0004-6361/202558763/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          9
+        ]
+      ],
+      "date-time": "2026-06-09T07:56:45Z",
+      "timestamp": 1780991805000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.aanda.org/10.1051/0004-6361/202558763"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    },
+    "references-count": 91,
+    "alternative-id": [
+      "aa58763-25"
+    ],
+    "URL": "https://doi.org/10.1051/0004-6361/202558763",
+    "relation": {},
+    "ISSN": [
+      "0004-6361",
+      "1432-0746"
+    ],
+    "issn-type": [
+      {
+        "value": "0004-6361",
+        "type": "print"
+      },
+      {
+        "value": "1432-0746",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.1051/0004-6361/202558763",
+  "original_doi": "10.1051/0004-6361/202558763"
+}

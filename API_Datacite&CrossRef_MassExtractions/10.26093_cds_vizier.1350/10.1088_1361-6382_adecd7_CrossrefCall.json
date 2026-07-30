@@ -1,0 +1,893 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          14
+        ]
+      ],
+      "date-time": "2026-07-14T22:31:48Z",
+      "timestamp": 1784068308303,
+      "version": "3.55.0"
+    },
+    "reference-count": 51,
+    "publisher": "IOP Publishing",
+    "issue": "14",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              18
+            ]
+          ],
+          "date-time": "2025-07-18T00:00:00Z",
+          "timestamp": 1752796800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              18
+            ]
+          ],
+          "date-time": "2025-07-18T00:00:00Z",
+          "timestamp": 1752796800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://iopscience.iop.org/info/page/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "iopscience.iop.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Class. Quantum Grav."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          18
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Continuous gravitational-wave signals (CWs), which are typically emitted by rapidly rotating neutron stars with non-axisymmetric deformations, represent particularly intriguing targets for the Advanced Laser Interferometer GW Observatory (LIGO)-Virgo-KAGRA detectors. These detectors operate within sensitivity bands that encompass more than half of the known pulsars in our galaxy existing in binary systems (i.e. over 417 pulsars), which are the targeted sources of this paper. However, the detection of these faint signals is especially challenged by the Doppler modulation due to the source\u2019s orbital motion, typically described by five Keplerian parameters, which must be determined with high precision to effectively detect the signal. This modulation spreads the signal across multiple frequency bins, resulting in a notable reduction of signal-to-noise ratio and potentially hindering signal detection. To overcome this issue, a robust five-vector resampling data-analysis algorithm has been developed to conduct thorough directed/narrowband CW searches at an affordable computational cost. We employ this methodology for the first time to search for CWs from Scorpius X-1 in a selected region of the parameter space, using publicly available data from the third observing run of the Advanced LIGO-Virgo-KAGRA detectors. No statistically significant CW signals can be claimed. Hence, we proceeded setting 95% confidence-level upper limits in selected frequency bands and orbital parameter ranges, while also evaluating overall sensitivity.</jats:p>",
+    "DOI": "10.1088/1361-6382/adecd7",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          7
+        ]
+      ],
+      "date-time": "2025-07-07T18:51:41Z",
+      "timestamp": 1751914301000
+    },
+    "page": "145008",
+    "update-policy": "https://doi.org/10.1088/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "A directed continuous-wave search from Scorpius X-1 with the five-vector resampling technique"
+    ],
+    "prefix": "10.1088",
+    "volume": "42",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0005-2139-4197",
+        "authenticated-orcid": true,
+        "given": "Francesco",
+        "family": "Amicucci",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3997-5046",
+        "authenticated-orcid": true,
+        "given": "Paola",
+        "family": "Leaci",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4981-4120",
+        "authenticated-orcid": true,
+        "given": "Pia",
+        "family": "Astone",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0898-6030",
+        "authenticated-orcid": false,
+        "given": "Sabrina",
+        "family": "D\u2019Antonio",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1057-2307",
+        "authenticated-orcid": true,
+        "given": "Stefano",
+        "family": "Dal Pra",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4049-8336",
+        "authenticated-orcid": false,
+        "given": "Matteo",
+        "family": "Di Giovanni",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9546-5959",
+        "authenticated-orcid": true,
+        "given": "Luca",
+        "family": "D\u2019Onofrio",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0850-2649",
+        "authenticated-orcid": false,
+        "given": "Federico",
+        "family": "Muciaccia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4450-9883",
+        "authenticated-orcid": true,
+        "given": "Cristiano",
+        "family": "Palomba",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0945-2196",
+        "authenticated-orcid": true,
+        "given": "Lorenzo",
+        "family": "Pierini",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1275-1904",
+        "authenticated-orcid": true,
+        "given": "Akshat",
+        "family": "Singhal",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "266",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          18
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "cqgadecd7bib1",
+        "first-page": "688",
+        "article-title": "Sitzungsberichte der K\u00f6niglich-Preussischen Akademie der Wissenschaften",
+        "author": "Einstein",
+        "year": "1916"
+      },
+      {
+        "key": "cqgadecd7bib2",
+        "first-page": "154",
+        "article-title": "Sitzungsberichte der K\u00f6niglich-Preussischen Akademie der Wissenschaften",
+        "author": "Einstein",
+        "year": "1918"
+      },
+      {
+        "key": "cqgadecd7bib3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.116.061102",
+        "volume": "116",
+        "author": "LIGO Scientific Collaboration and Virgo Collaboration)",
+        "year": "2016",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "cqgadecd7bib4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0264-9381/32/7/074001",
+        "volume": "32",
+        "author": "Collaboration T L S",
+        "year": "2015",
+        "journal-title": "Class. Quantum Grav."
+      },
+      {
+        "key": "cqgadecd7bib5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0264-9381/32/2/024001",
+        "volume": "32",
+        "author": "Acernese",
+        "year": "2014",
+        "journal-title": "Class. Quantum Grav."
+      },
+      {
+        "key": "cqgadecd7bib6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevX.9.011001",
+        "volume": "9",
+        "author": "Abbott",
+        "year": "2019",
+        "journal-title": "Phys. Rev. X"
+      },
+      {
+        "key": "cqgadecd7bib7",
+        "doi-asserted-by": "publisher",
+        "first-page": "217",
+        "DOI": "10.3390/universe5110217",
+        "volume": "5",
+        "author": "Sieniawska",
+        "year": "2019",
+        "journal-title": "Universe"
+      },
+      {
+        "key": "cqgadecd7bib8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevD.66.084025",
+        "volume": "66",
+        "author": "Cutler",
+        "year": "2002",
+        "journal-title": "Phys. Rev. D"
+      },
+      {
+        "key": "cqgadecd7bib9",
+        "doi-asserted-by": "publisher",
+        "first-page": "351",
+        "DOI": "10.1103/PhysRevD.20.351",
+        "volume": "20",
+        "author": "Zimmermann",
+        "year": "1979",
+        "journal-title": "Phys. Rev. D"
+      },
+      {
+        "key": "cqgadecd7bib10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.astropartphys.2023.102880",
+        "volume": "153",
+        "author": "Wette",
+        "year": "2023",
+        "journal-title": "Astropart. Phys."
+      },
+      {
+        "key": "cqgadecd7bib11",
+        "doi-asserted-by": "publisher",
+        "first-page": "501",
+        "DOI": "10.1093/mnras/184.3.501",
+        "volume": "184",
+        "author": "Papaloizou",
+        "year": "1978",
+        "journal-title": "Mon. Not. R. Astron. Soc."
+      },
+      {
+        "key": "cqgadecd7bib12",
+        "doi-asserted-by": "publisher",
+        "first-page": "L89",
+        "DOI": "10.1086/311440",
+        "volume": "501",
+        "author": "Bildsten",
+        "year": "1998",
+        "journal-title": "Astrophys. J."
+      },
+      {
+        "key": "cqgadecd7bib13",
+        "doi-asserted-by": "publisher",
+        "first-page": "345",
+        "DOI": "10.1086/161798",
+        "volume": "278",
+        "author": "Wagoner",
+        "year": "1984",
+        "journal-title": "Astrophys. J."
+      },
+      {
+        "key": "cqgadecd7bib14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1361-6382/ab4367",
+        "volume": "36",
+        "author": "Singhal",
+        "year": "2019",
+        "journal-title": "Class. Quantum Grav."
+      },
+      {
+        "key": "cqgadecd7bib15",
+        "doi-asserted-by": "publisher",
+        "first-page": "5174",
+        "DOI": "10.1093/mnras/sty1441",
+        "volume": "478",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "Mon. Not. R. Astron. Soc."
+      },
+      {
+        "key": "cqgadecd7bib16",
+        "doi-asserted-by": "publisher",
+        "first-page": "5317",
+        "DOI": "10.1093/mnras/stad366",
+        "volume": "520",
+        "author": "Killestein",
+        "year": "2023",
+        "journal-title": "Mon. Not. R. Astron. Soc."
+      },
+      {
+        "key": "cqgadecd7bib17",
+        "doi-asserted-by": "publisher",
+        "first-page": "7721",
+        "DOI": "10.1093/mnras/stad3319",
+        "volume": "527",
+        "author": "Killestein",
+        "year": "2023",
+        "journal-title": "Mon. Not. R. Astron. Soc."
+      },
+      {
+        "key": "cqgadecd7bib18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevD.106.062002",
+        "volume": "106",
+        "author": "LIGO Scientific Collaboration, Virgo Collaboration and KAGRA Collaboration",
+        "year": "2022",
+        "journal-title": "Phys. Rev. D"
+      },
+      {
+        "key": "cqgadecd7bib19",
+        "article-title": "Search for gravitational waves from Scorpius X-1 with a hidden Markov model in O3 LIGO data with a corrected orbital ephemeris",
+        "author": "Vargas",
+        "year": "2023"
+      },
+      {
+        "key": "cqgadecd7bib20",
+        "doi-asserted-by": "publisher",
+        "first-page": "L30",
+        "DOI": "10.3847/2041-8213/aca1b0",
+        "volume": "941",
+        "author": "Abbott",
+        "year": "2022",
+        "journal-title": "Astrophys. J. Lett."
+      },
+      {
+        "key": "cqgadecd7bib21",
+        "doi-asserted-by": "publisher",
+        "first-page": "117",
+        "DOI": "10.3847/1538-4357/acc8d7",
+        "volume": "949",
+        "author": "Whelan",
+        "year": "2023",
+        "journal-title": "Astrophys. J."
+      },
+      {
+        "key": "cqgadecd7bib22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1361-6382/ac5012",
+        "volume": "39",
+        "author": "Wagner",
+        "year": "2022",
+        "journal-title": "Class. Quantum Grav."
+      },
+      {
+        "key": "cqgadecd7bib23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevD.97.044017",
+        "volume": "97",
+        "author": "Meadors",
+        "year": "2018",
+        "journal-title": "Phys. Rev. D"
+      },
+      {
+        "key": "cqgadecd7bib24",
+        "doi-asserted-by": "publisher",
+        "first-page": "L14",
+        "DOI": "10.3847/2041-8213/abd256",
+        "volume": "906",
+        "author": "Zhang",
+        "year": "2021",
+        "journal-title": "Astrophys. J. Lett."
+      },
+      {
+        "key": "cqgadecd7bib25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevD.107.062005",
+        "volume": "107",
+        "author": "Mukherjee",
+        "year": "2023",
+        "journal-title": "Phys. Rev. D"
+      },
+      {
+        "key": "cqgadecd7bib26",
+        "doi-asserted-by": "publisher",
+        "first-page": "29",
+        "DOI": "10.3847/1538-4365/acdc9f",
+        "volume": "267",
+        "author": "The LIGO Scientific Collaboration and Vigro and the KAGRA Collaboration",
+        "year": "2023",
+        "journal-title": "Astrophys. J. Suppl. Ser."
+      },
+      {
+        "key": "cqgadecd7bib27",
+        "article-title": "Gravitational wave open science center: O1, O2 and O3 data sets the O3 data run is divided into two runs O3a Time Range: 1 April 2019 through 1 October 2019. O3b Time Range: 1 November 2019 through 27 March 2020"
+      },
+      {
+        "key": "cqgadecd7bib28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0264-9381/27/19/194016",
+        "volume": "27",
+        "author": "Astone",
+        "year": "2010",
+        "journal-title": "Class. Quantum Grav."
+      },
+      {
+        "key": "cqgadecd7bib29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0264-9381/26/20/204012",
+        "volume": "26",
+        "author": "D\u2019Antonio",
+        "year": "2009",
+        "journal-title": "Class. Quantum Grav."
+      },
+      {
+        "key": "cqgadecd7bib30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevD.58.063001",
+        "volume": "58",
+        "author": "Jaranowski",
+        "year": "1998",
+        "journal-title": "Phys. Rev. D"
+      },
+      {
+        "key": "cqgadecd7bib31",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.3847/1538-4357/ac6acf",
+        "volume": "935",
+        "author": "Abbott",
+        "year": "2022",
+        "journal-title": "Astrophys. J."
+      },
+      {
+        "key": "cqgadecd7bib32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1361-6382/ad94c5",
+        "volume": "42",
+        "author": "D\u2019Onofrio",
+        "year": "2024",
+        "journal-title": "Class. Quantum Grav."
+      },
+      {
+        "key": "cqgadecd7bib33",
+        "article-title": "VizieR online data catalog: Gaia EDR3",
+        "author": "Gaia Collaboration",
+        "year": "2020"
+      },
+      {
+        "key": "cqgadecd7bib34",
+        "first-page": "269",
+        "volume": "114",
+        "author": "Duflot",
+        "year": "1995",
+        "journal-title": "Astron. Astrophys. Suppl. Ser."
+      },
+      {
+        "key": "cqgadecd7bib35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevD.91.102003",
+        "volume": "91",
+        "author": "Leaci",
+        "year": "2015",
+        "journal-title": "Phys. Rev. D"
+      },
+      {
+        "key": "cqgadecd7bib36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevD.95.122001",
+        "volume": "95 122001",
+        "author": "Leaci",
+        "year": "2017",
+        "journal-title": "Phys. Rev. D"
+      },
+      {
+        "key": "cqgadecd7bib37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevD.89.062008",
+        "volume": "89",
+        "author": "Astone",
+        "year": "2014",
+        "journal-title": "Phys. Rev. D"
+      },
+      {
+        "key": "cqgadecd7bib38",
+        "doi-asserted-by": "publisher",
+        "first-page": "434",
+        "DOI": "10.1086/167917",
+        "volume": "345",
+        "author": "Taylor",
+        "year": "1989",
+        "journal-title": "Astrophys. J."
+      },
+      {
+        "key": "cqgadecd7bib39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevD.97.043016",
+        "volume": "97",
+        "author": "Mukherjee",
+        "year": "2018",
+        "journal-title": "Phys. Rev. D"
+      },
+      {
+        "key": "cqgadecd7bib40",
+        "doi-asserted-by": "publisher",
+        "first-page": "S1645",
+        "DOI": "10.1088/0264-9381/21/20/007",
+        "volume": "21",
+        "author": "Frasca",
+        "year": "2004",
+        "journal-title": "Class. Quantum Grav."
+      },
+      {
+        "key": "cqgadecd7bib41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1361-6382/aa744f",
+        "volume": "34",
+        "author": "Mastrogiovanni",
+        "year": "2017",
+        "journal-title": "Class. Quantum Grav."
+      },
+      {
+        "key": "cqgadecd7bib42",
+        "doi-asserted-by": "publisher",
+        "first-page": "S1197",
+        "DOI": "10.1088/0264-9381/22/18/S34",
+        "volume": "22",
+        "author": "Astone",
+        "year": "2005",
+        "journal-title": "Class. Quantum Grav."
+      },
+      {
+        "key": "cqgadecd7bib43",
+        "doi-asserted-by": "publisher",
+        "first-page": "3",
+        "DOI": "10.1007/s41114-023-00044-3",
+        "volume": "26",
+        "author": "Riles",
+        "year": "2023",
+        "journal-title": "Living Rev. Relativ."
+      },
+      {
+        "key": "cqgadecd7bib44",
+        "doi-asserted-by": "publisher",
+        "first-page": "525",
+        "DOI": "10.1140/epjc/s10052-010-1470-8",
+        "volume": "70",
+        "author": "Gross",
+        "year": "2010",
+        "journal-title": "Eur. Phys. J. C"
+      },
+      {
+        "key": "cqgadecd7bib45",
+        "article-title": "O3 instrumental lines"
+      },
+      {
+        "key": "cqgadecd7bib46",
+        "article-title": "O3 continuous wave hardware injections"
+      },
+      {
+        "key": "cqgadecd7bib47",
+        "doi-asserted-by": "publisher",
+        "first-page": "218",
+        "DOI": "10.3390/universe7070218",
+        "volume": "7",
+        "author": "La Rosa",
+        "year": "2021",
+        "journal-title": "Universe"
+      },
+      {
+        "key": "cqgadecd7bib48",
+        "article-title": "INFN Cluster HPC"
+      },
+      {
+        "key": "cqgadecd7bib49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevX.11.021053",
+        "volume": "11",
+        "author": "LIGO Scientific Collaboration and Virgo Collaboration",
+        "year": "2021",
+        "journal-title": "Phys. Rev. X"
+      },
+      {
+        "key": "cqgadecd7bib50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevD.95.062002",
+        "volume": "95",
+        "author": "Biwer",
+        "year": "2017",
+        "journal-title": "Phys. Rev. D"
+      },
+      {
+        "key": "cqgadecd7bib51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevD.90.042002",
+        "volume": "90",
+        "author": "Astone",
+        "year": "2014",
+        "journal-title": "Phys. Rev. D"
+      }
+    ],
+    "container-title": [
+      "Classical and Quantum Gravity"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/adecd7",
+        "content-type": "text/html",
+        "content-version": "am",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/adecd7/pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/adecd7",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/adecd7/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/adecd7/pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/adecd7/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/adecd7/pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "similarity-checking"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/adecd7/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          18
+        ]
+      ],
+      "date-time": "2025-07-18T10:02:00Z",
+      "timestamp": 1752832920000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://iopscience.iop.org/article/10.1088/1361-6382/adecd7"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          18
+        ]
+      ]
+    },
+    "references-count": 51,
+    "journal-issue": {
+      "issue": "14",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            18
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            18
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1088/1361-6382/adecd7",
+    "relation": {},
+    "ISSN": [
+      "0264-9381",
+      "1361-6382"
+    ],
+    "issn-type": [
+      {
+        "value": "0264-9381",
+        "type": "print"
+      },
+      {
+        "value": "1361-6382",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          18
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "A directed continuous-wave search from Scorpius X-1 with the five-vector resampling technique",
+        "name": "article_title",
+        "label": "Article Title"
+      },
+      {
+        "value": "Classical and Quantum Gravity",
+        "name": "journal_title",
+        "label": "Journal Title"
+      },
+      {
+        "value": "paper",
+        "name": "article_type",
+        "label": "Article Type"
+      },
+      {
+        "value": "\u00a9 2025 The Author(s). Published by IOP Publishing Ltd",
+        "name": "copyright_information",
+        "label": "Copyright Information"
+      },
+      {
+        "value": "2025-03-07",
+        "name": "date_received",
+        "label": "Date Received",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "2025-07-07",
+        "name": "date_accepted",
+        "label": "Date Accepted",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "2025-07-18",
+        "name": "date_epub",
+        "label": "Online publication date",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.1088/1361-6382/adecd7",
+  "original_doi": "10.1088/1361-6382/adecd7"
+}

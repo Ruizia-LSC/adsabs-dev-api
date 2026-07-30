@@ -1,0 +1,971 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          10
+        ]
+      ],
+      "date-time": "2026-06-10T08:12:22Z",
+      "timestamp": 1781079142259,
+      "version": "3.54.1"
+    },
+    "reference-count": 59,
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              16
+            ]
+          ],
+          "date-time": "2023-06-16T00:00:00Z",
+          "timestamp": 1686873600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100002923",
+        "name": "CONICET",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100002923",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          4
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n               <jats:p>The automated identification of extragalactic objects in large surveys provides reliable and reproducible samples of galaxies in less time than procedures involving human interaction. However, regions near the Galactic disc are more challenging due to the dust extinction. We present the methodology for the automatic classification of galaxies and non-galaxies at low Galactic latitude regions using both images and photometric and morphological near-IR data from the VISTA Variables in the V\u00eda L\u00e1ctea eXtended (VVVX) survey. Using the VVV NIR Galaxy Catalogue (VVV NIRGC), we analyse by statistical methods the most relevant features for galaxy identification. This catalogue was used to train a convolutional neural network with image data and an XGBoost model with both photometric and morphological data and then to generate a data set of extragalactic candidates. This allows us to derive probability catalogues used to analyse the completeness and purity as a function of the configuration parameters and to explore the best combinations of the models. As a test case, we apply this methodology to the Northern disc region of the VVVX survey, obtaining 172\u2009396 extragalactic candidates with probabilities of being galaxies. We analyse the performance of our methodology in the VVV disc, reaching an F1-score of 0.67, a 65\u00a0per\u2009cent purity, and a 69\u00a0per\u2009cent completeness. We present the VVV NIRGC: Northern part of the Galactic disc comprising 1003 new galaxies, with probabilities greater than 0.6 for either model, with visual inspection and with only two previously identified galaxies. In the future, we intend to apply this methodology to other areas of the VVVX survey.</jats:p>",
+    "DOI": "10.1093/mnras/stad1767",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          17
+        ]
+      ],
+      "date-time": "2023-06-17T01:55:58Z",
+      "timestamp": 1686966958000
+    },
+    "page": "678-694",
+    "source": "Crossref",
+    "is-referenced-by-count": 9,
+    "title": [
+      "The VVV near-IR galaxy catalogue in a Northern part of the Galactic disc"
+    ],
+    "prefix": "10.1093",
+    "volume": "524",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-6216-9053",
+        "authenticated-orcid": false,
+        "given": "I V",
+        "family": "Daza-Perilla",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Instituto de Astronom\u00eda Te\u00f3rica y Experimental , CONICET-UNC, C\u00f3rdoba X5000BGR , Argentina"
+          },
+          {
+            "name": "Facultad de Matem\u00e1tica, Astronom\u00eda, F\u00edsica y Computaci\u00f3n, Universidad Nacional de C\u00f3rdoba (UNC) , C\u00f3rdoba CP:X5000HUA , Argentina"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7727-4665",
+        "authenticated-orcid": false,
+        "given": "M A",
+        "family": "Sgr\u00f3",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Instituto de Astronom\u00eda Te\u00f3rica y Experimental , CONICET-UNC, C\u00f3rdoba X5000BGR , Argentina"
+          },
+          {
+            "name": "Observatorio Astron\u00f3mico de C\u00f3rdoba, Universidad Nacional de C\u00f3rdoba , Laprida 854, C\u00f3rdoba X5000BGR , Argentina"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "L D",
+        "family": "Baravalle",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Instituto de Astronom\u00eda Te\u00f3rica y Experimental , CONICET-UNC, C\u00f3rdoba X5000BGR , Argentina"
+          },
+          {
+            "name": "Observatorio Astron\u00f3mico de C\u00f3rdoba, Universidad Nacional de C\u00f3rdoba , Laprida 854, C\u00f3rdoba X5000BGR , Argentina"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M V",
+        "family": "Alonso",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Instituto de Astronom\u00eda Te\u00f3rica y Experimental , CONICET-UNC, C\u00f3rdoba X5000BGR , Argentina"
+          },
+          {
+            "name": "Observatorio Astron\u00f3mico de C\u00f3rdoba, Universidad Nacional de C\u00f3rdoba , Laprida 854, C\u00f3rdoba X5000BGR , Argentina"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2453-5694",
+        "authenticated-orcid": false,
+        "given": "C",
+        "family": "Villalon",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Instituto de Astronom\u00eda Te\u00f3rica y Experimental , CONICET-UNC, C\u00f3rdoba X5000BGR , Argentina"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8180-5780",
+        "authenticated-orcid": false,
+        "given": "M",
+        "family": "Lares",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Instituto de Astronom\u00eda Te\u00f3rica y Experimental , CONICET-UNC, C\u00f3rdoba X5000BGR , Argentina"
+          },
+          {
+            "name": "Observatorio Astron\u00f3mico de C\u00f3rdoba, Universidad Nacional de C\u00f3rdoba , Laprida 854, C\u00f3rdoba X5000BGR , Argentina"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8444-9742",
+        "authenticated-orcid": false,
+        "given": "M",
+        "family": "Soto",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Instituto de Astronom\u00eda y Ciencias Planetarias, Universidad de Atacama , Copayapu 485, Copiap\u00f3, 1532297 , Chile"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J L Nilo",
+        "family": "Castell\u00f3n",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Instituto Multidisciplinario en Investigaci\u00f3n y Postgrado (IMIP), Universidad de La Serena ., Av. Ra\u00fal Bitr\u00e1n Nachary No 1305, La Serena, 1720236 , Chile"
+          },
+          {
+            "name": "Departamento de Astronom\u00eda, Universidad de La Serena. Av. Juan Cisternas 1200, La Serena, 1720236 , Chile"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "C",
+        "family": "Valotto",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Instituto de Astronom\u00eda Te\u00f3rica y Experimental , CONICET-UNC, C\u00f3rdoba X5000BGR , Argentina"
+          },
+          {
+            "name": "Observatorio Astron\u00f3mico de C\u00f3rdoba, Universidad Nacional de C\u00f3rdoba , Laprida 854, C\u00f3rdoba X5000BGR , Argentina"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P Marchant",
+        "family": "Cort\u00e9s",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Instituto Multidisciplinario en Investigaci\u00f3n y Postgrado (IMIP), Universidad de La Serena. , Av. Ra\u00fal Bitr\u00e1n Nachary No 1305, La Serena, 1720236 , Chile"
+          },
+          {
+            "name": "Departamento de Astronom\u00eda, Universidad de La Serena. Av. Juan Cisternas 1200, La Serena, 1720236 , Chile"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D",
+        "family": "Minniti",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Instituto de astrof\u00edsica, Facultad de Ciencias Exactas, Universidad Andr\u00e9s Bello , Av. Fernandez Concha 700, Los Condes, Santiago 7550000 , Chile"
+          },
+          {
+            "name": "Vatican Observatory , V00120 Vatican City State , Italy"
+          },
+          {
+            "name": "Departamento de Fisica, Universidade Federal de Santa Catarina , Florian\u00f3polis, Santa Catarina 88040 970 , Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M",
+        "family": "Hempel",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Instituto de astrof\u00edsica, Facultad de Ciencias Exactas, Universidad Andr\u00e9s Bello , Av. Fernandez Concha 700, Los Condes, Santiago 7550000 , Chile"
+          },
+          {
+            "name": "Max Planck Institute for Astronomy , K\u00f6nigstuhl 17, 69117 Heidelberg , Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "286",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          16
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2024060405570171900_bib1",
+        "doi-asserted-by": "publisher",
+        "first-page": "127",
+        "DOI": "10.1088/0004-6256/144/5/127",
+        "volume": "144",
+        "author": "Am\u00f4res",
+        "year": "2012",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "2024060405570171900_bib2",
+        "doi-asserted-by": "publisher",
+        "first-page": "46",
+        "DOI": "10.3847/1538-3881/aa9ee2",
+        "volume": "155",
+        "author": "Baravalle",
+        "year": "2018",
+        "journal-title": "AJ."
+      },
+      {
+        "key": "2024060405570171900_bib3",
+        "doi-asserted-by": "publisher",
+        "first-page": "46",
+        "DOI": "10.3847/1538-4357/aaff64",
+        "volume": "874",
+        "author": "Baravalle",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2024060405570171900_bib4",
+        "doi-asserted-by": "publisher",
+        "first-page": "601",
+        "DOI": "10.1093/mnras/staa4020",
+        "volume": "502",
+        "author": "Baravalle",
+        "year": "2021",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2024060405570171900_bib5",
+        "author": "Baron",
+        "year": "2019"
+      },
+      {
+        "key": "2024060405570171900_bib6",
+        "doi-asserted-by": "publisher",
+        "first-page": "390",
+        "DOI": "10.1088/0004-6256/140/2/390",
+        "volume": "140",
+        "author": "Boroson",
+        "year": "2010",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "2024060405570171900_bib7",
+        "doi-asserted-by": "publisher",
+        "first-page": "5",
+        "DOI": "10.1023/A:1010933404324",
+        "volume": "45",
+        "author": "Breiman",
+        "year": "2001",
+        "journal-title": "Machine Learning"
+      },
+      {
+        "key": "2024060405570171900_bib8",
+        "doi-asserted-by": "publisher",
+        "first-page": "A151",
+        "DOI": "10.1051/0004-6361/202141247",
+        "volume": "652",
+        "author": "Cabral",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "2024060405570171900_bib9",
+        "doi-asserted-by": "publisher",
+        "first-page": "321",
+        "DOI": "10.1613/jair.953",
+        "volume": "16",
+        "author": "Chawla",
+        "year": "2002",
+        "journal-title": "J. Artif. Intell. Res."
+      },
+      {
+        "key": "2024060405570171900_bib10",
+        "author": "Chen",
+        "year": "2016"
+      },
+      {
+        "key": "2024060405570171900_bib11",
+        "doi-asserted-by": "publisher",
+        "first-page": "4425",
+        "DOI": "10.1093/mnras/stab2142",
+        "volume": "507",
+        "author": "Cheng",
+        "year": "2021",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2024060405570171900_bib13",
+        "doi-asserted-by": "publisher",
+        "first-page": "A49",
+        "DOI": "10.1051/0004-6361/201423464",
+        "volume": "569",
+        "author": "Coldwell",
+        "year": "2014",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "2024060405570171900_bib14",
+        "first-page": "1",
+        "volume": "246",
+        "author": "Combi",
+        "year": "2004",
+        "journal-title": "Astronomer\u2019s Telegram"
+      },
+      {
+        "key": "2024060405570171900_bib15",
+        "doi-asserted-by": "publisher",
+        "first-page": "1693",
+        "DOI": "10.1086/300337",
+        "volume": "115",
+        "author": "Condon",
+        "year": "1998",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "2024060405570171900_bib16",
+        "doi-asserted-by": "publisher",
+        "first-page": "A45",
+        "DOI": "10.1051/0004-6361/201220155",
+        "volume": "549",
+        "author": "Contreras",
+        "year": "2013",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "2024060405570171900_bib17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1022627411411",
+        "volume": "20",
+        "author": "Cortes",
+        "year": "1995",
+        "journal-title": "Machine Learning"
+      },
+      {
+        "key": "2024060405570171900_bib18",
+        "first-page": "II/311",
+        "author": "Cutri",
+        "year": "2012",
+        "journal-title": "VizieR Online Data Catalog"
+      },
+      {
+        "key": "2024060405570171900_bib19",
+        "first-page": "II/246",
+        "author": "Cutri",
+        "year": "2003",
+        "journal-title": "VizieR Online Data Catalog"
+      },
+      {
+        "key": "2024060405570171900_bib20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/mnras/stad141",
+        "author": "Daza-Perilla",
+        "year": "2023",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2024060405570171900_bib21",
+        "doi-asserted-by": "publisher",
+        "first-page": "4565",
+        "DOI": "10.1093/mnras/staa2265",
+        "volume": "497",
+        "author": "Eriksen",
+        "year": "2020",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2024060405570171900_bib22",
+        "volume-title": "Proceedings of the Second International Conference on Knowledge Discovery and Data Mining (KDD-96)",
+        "author": "Ester",
+        "year": "1996"
+      },
+      {
+        "key": "2024060405570171900_bib23",
+        "first-page": "I/350",
+        "author": "Gaia Collaboration,",
+        "year": "2020",
+        "journal-title": "VizieR Online Data Catalog"
+      },
+      {
+        "key": "2024060405570171900_bib24",
+        "doi-asserted-by": "publisher",
+        "first-page": "C3",
+        "DOI": "10.1051/0004-6361/202039657e",
+        "volume": "650",
+        "author": "Gaia Collaboration",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "2024060405570171900_bib25",
+        "doi-asserted-by": "publisher",
+        "first-page": "A146",
+        "DOI": "10.1051/0004-6361/201937432",
+        "volume": "646",
+        "author": "Galdeano",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "2024060405570171900_bib26",
+        "doi-asserted-by": "publisher",
+        "first-page": "A158",
+        "DOI": "10.1051/0004-6361/202243370",
+        "volume": "663",
+        "author": "Galdeano",
+        "year": "2022",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "2024060405570171900_bib27",
+        "author": "Gezari",
+        "year": "2022"
+      },
+      {
+        "key": "2024060405570171900_bib28",
+        "author": "Green",
+        "year": "2012"
+      },
+      {
+        "key": "2024060405570171900_bib29",
+        "doi-asserted-by": "publisher",
+        "first-page": "L14",
+        "DOI": "10.3847/2041-8213/ab3418",
+        "volume": "881",
+        "author": "Hemmati",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2024060405570171900_bib30",
+        "doi-asserted-by": "publisher",
+        "first-page": "498",
+        "DOI": "10.1037/h0070888",
+        "volume": "24",
+        "author": "Hotelling",
+        "year": "1933",
+        "journal-title": "J. Edu. Psycho."
+      },
+      {
+        "key": "2024060405570171900_bib31",
+        "doi-asserted-by": "publisher",
+        "first-page": "25",
+        "DOI": "10.1088/0067-0049/194/2/25",
+        "volume": "194",
+        "author": "Immer",
+        "year": "2011",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "2024060405570171900_bib32",
+        "doi-asserted-by": "publisher",
+        "first-page": "111",
+        "DOI": "10.3847/1538-4357/ab042c",
+        "volume": "873",
+        "author": "Ivezi\u0107",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2024060405570171900_bib33",
+        "doi-asserted-by": "publisher",
+        "first-page": "2498",
+        "DOI": "10.1086/301330",
+        "volume": "119",
+        "author": "Jarrett",
+        "year": "2000",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "2024060405570171900_bib34",
+        "doi-asserted-by": "publisher",
+        "first-page": "1262",
+        "DOI": "10.1093/mnras/sty2285",
+        "volume": "481",
+        "author": "Kraan-Korteweg",
+        "year": "2018",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2024060405570171900_bib35",
+        "author": "LSST Science Collaboration",
+        "year": "2009"
+      },
+      {
+        "key": "2024060405570171900_bib36",
+        "first-page": "1",
+        "volume": "18",
+        "author": "Lema\u00eetre",
+        "year": "2017",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "key": "2024060405570171900_bib37",
+        "doi-asserted-by": "publisher",
+        "first-page": "A154",
+        "DOI": "10.1051/0004-6361/201936648",
+        "volume": "633",
+        "author": "Logan",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "2024060405570171900_bib38",
+        "doi-asserted-by": "publisher",
+        "first-page": "2522",
+        "DOI": "10.1093/mnras/stz1301",
+        "volume": "487",
+        "author": "Marton",
+        "year": "2019",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2024060405570171900_bib39",
+        "doi-asserted-by": "publisher",
+        "first-page": "111",
+        "DOI": "10.3847/1538-4357/aa6f08",
+        "volume": "841",
+        "author": "Masters",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2024060405570171900_bib40",
+        "doi-asserted-by": "publisher",
+        "first-page": "81",
+        "DOI": "10.3847/1538-4357/ab184d",
+        "volume": "877",
+        "author": "Masters",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2024060405570171900_bib41",
+        "doi-asserted-by": "publisher",
+        "first-page": "433",
+        "DOI": "10.1016/j.newast.2009.12.002",
+        "volume": "15",
+        "author": "Minniti",
+        "year": "2010",
+        "journal-title": "New Astron."
+      },
+      {
+        "key": "2024060405570171900_bib42",
+        "doi-asserted-by": "publisher",
+        "first-page": "A26",
+        "DOI": "10.1051/0004-6361/201732099",
+        "volume": "616",
+        "author": "Minniti",
+        "year": "2018",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "2024060405570171900_bib43",
+        "doi-asserted-by": "publisher",
+        "first-page": "2566",
+        "DOI": "10.1093/mnras/stab3116",
+        "volume": "509",
+        "author": "Molnar",
+        "year": "2022",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2024060405570171900_bib44",
+        "doi-asserted-by": "publisher",
+        "first-page": "131",
+        "DOI": "10.3847/1538-4357/ab4a11",
+        "volume": "885",
+        "author": "Reid",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2024060405570171900_bib45",
+        "doi-asserted-by": "publisher",
+        "first-page": "2117",
+        "DOI": "10.1093/mnras/sty348",
+        "volume": "476",
+        "author": "Reis",
+        "year": "2018",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2024060405570171900_bib46",
+        "doi-asserted-by": "publisher",
+        "first-page": "100437",
+        "DOI": "10.1016/j.ascom.2020.100437",
+        "volume": "34",
+        "author": "Reis",
+        "year": "2021",
+        "journal-title": "Astron. Comput."
+      },
+      {
+        "key": "2024060405570171900_bib47",
+        "doi-asserted-by": "publisher",
+        "first-page": "679",
+        "DOI": "10.1093/pasj/48.5.679",
+        "volume": "48",
+        "author": "Roman",
+        "year": "1996",
+        "journal-title": "PASJ"
+      },
+      {
+        "key": "2024060405570171900_bib48",
+        "doi-asserted-by": "publisher",
+        "first-page": "2366",
+        "DOI": "10.1093/mnras/stw105",
+        "volume": "457",
+        "author": "Said",
+        "year": "2016",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2024060405570171900_bib49",
+        "doi-asserted-by": "publisher",
+        "first-page": "103",
+        "DOI": "10.1088/0004-637X/737/2/103",
+        "volume": "737",
+        "author": "Schlafly",
+        "year": "2011",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "2024060405570171900_bib50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neunet.2014.09.003",
+        "volume-title": "Deep Learning in neural networks: An overview",
+        "author": "Schmidhuber",
+        "year": "2015"
+      },
+      {
+        "key": "2024060405570171900_bib51",
+        "doi-asserted-by": "publisher",
+        "first-page": "5167",
+        "DOI": "10.1093/mnras/sty3022",
+        "volume": "482",
+        "author": "Schr\u00f6der",
+        "year": "2019",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2024060405570171900_bib52",
+        "doi-asserted-by": "publisher",
+        "first-page": "379",
+        "DOI": "10.1002/j.1538-7305.1948.tb01338.x",
+        "volume": "27",
+        "author": "Shannon",
+        "year": "1948",
+        "journal-title": "Bell Syst. Tech. J."
+      },
+      {
+        "key": "2024060405570171900_bib53",
+        "doi-asserted-by": "publisher",
+        "first-page": "1163",
+        "DOI": "10.1086/498708",
+        "volume": "131",
+        "author": "Skrutskie",
+        "year": "2006",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "2024060405570171900_bib54",
+        "author": "Spergel",
+        "year": "2015"
+      },
+      {
+        "key": "2024060405570171900_bib55",
+        "doi-asserted-by": "publisher",
+        "first-page": "985",
+        "DOI": "10.1093/mnras/staa3670",
+        "volume": "502",
+        "author": "Spindler",
+        "year": "2021",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "2024060405570171900_bib56",
+        "author": "Stauffer",
+        "year": "2018"
+      },
+      {
+        "key": "2024060405570171900_bib57",
+        "doi-asserted-by": "publisher",
+        "first-page": "52",
+        "DOI": "10.3847/0004-6256/151/3/52",
+        "volume": "151",
+        "author": "Staveley-Smith",
+        "year": "2016",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "2024060405570171900_bib58",
+        "first-page": "336.51",
+        "volume-title": "American Astronomical Society Meeting Abstracts #225",
+        "author": "Strait",
+        "year": "2015"
+      },
+      {
+        "key": "2024060405570171900_bib59",
+        "doi-asserted-by": "publisher",
+        "first-page": "769",
+        "DOI": "10.1109/TSMC.1976.4309452",
+        "volume": "SMC-6",
+        "author": "Tomek",
+        "year": "1976",
+        "journal-title": "IEEE Trans. Syst., Man, Cybernetics"
+      },
+      {
+        "key": "2024060405570171900_bib60",
+        "doi-asserted-by": "publisher",
+        "first-page": "41",
+        "DOI": "10.1093/mnras/stu1155",
+        "volume": "443",
+        "author": "Williams",
+        "year": "2014",
+        "journal-title": "MNRAS"
+      }
+    ],
+    "container-title": [
+      "Monthly Notices of the Royal Astronomical Society"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://academic.oup.com/mnras/advance-article-pdf/doi/10.1093/mnras/stad1767/50632726/stad1767.pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://academic.oup.com/mnras/article-pdf/524/1/678/58080635/stad1767.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://academic.oup.com/mnras/article-pdf/524/1/678/58080635/stad1767.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          4
+        ]
+      ],
+      "date-time": "2024-06-04T23:16:40Z",
+      "timestamp": 1717543000000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://academic.oup.com/mnras/article/524/1/678/7199801"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          16
+        ]
+      ]
+    },
+    "references-count": 59,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            4
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1093/mnras/stad1767",
+    "relation": {},
+    "ISSN": [
+      "0035-8711",
+      "1365-2966"
+    ],
+    "issn-type": [
+      {
+        "value": "0035-8711",
+        "type": "print"
+      },
+      {
+        "value": "1365-2966",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published-other": {
+      "date-parts": [
+        [
+          2023,
+          9
+        ]
+      ]
+    },
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          16
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.1093/mnras/stad1767",
+  "original_doi": "10.1093/mnras/stad1767"
+}
