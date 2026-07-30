@@ -1,0 +1,1389 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          28
+        ]
+      ],
+      "date-time": "2026-07-28T14:15:25Z",
+      "timestamp": 1785248125129,
+      "version": "3.55.0"
+    },
+    "reference-count": 87,
+    "publisher": "EDP Sciences",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              26
+            ]
+          ],
+          "date-time": "2022-07-26T00:00:00Z",
+          "timestamp": 1658793600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 25,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "A&amp;A"
+    ],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          19
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          7
+        ]
+      ]
+    },
+    "abstract": "<jats:p><jats:italic>Context.</jats:italic> Active-region evolution plays an important role in the generation and variability of magnetic fields on the surface of lower main sequence stars. However, determining the lifetime of active-region growth and decay as well as their evolution is a complex task. Most previous studies of this phenomenon are based on optical light curves, while little is known about the chromosphere and the transition region.</jats:p>\n<jats:p><jats:italic>Aims.</jats:italic> We aim to test whether or not the lifetime of active-region evolution shows any dependency on stellar parameters, particularly stellar age.</jats:p>\n<jats:p><jats:italic>Methods.</jats:italic> We identified a sample of stars with well-defined ages via their kinematics and membership to young stellar associations and moving groups. We made use of high-resolution \u00e9chelle spectra from HARPS at La Silla 3.6m-telescope and HARPS-N at TNG to compute rotational velocities, activity levels, and emission excesses. We used these data to revisit the activity-rotation-age relationship. The time-series of the main optical activity indicators, namely Ca II H and K, Balmer lines, Na I D1, D2, and He I D3, were analysed together with the available photometry using state-of-the-art Gaussian processes to model the stellar activity of these stars. Autocorrelation functions of the available photometry were also analysed. We used the derived lifetimes of active-region evolution to search for correlations with stellar age, spectral type, and activity level. We also used the pooled variance technique to characterise the activity behaviour of our targets.</jats:p>\n<jats:p><jats:italic>Results.</jats:italic> Our analysis confirms the decline of activity and rotation as a star ages. We also confirm that the rotation rate decays with age more slowly for cooler stars and that, for a given age, cooler stars show higher levels of activity. We show that F- and G-type young stars also depart from the inactive stars in the flux\u2013flux relationship. The Gaussian process analysis of the different activity indicators does not seem to provide any useful information on the lifetime and evolution of active regions. On the other hand, the lifetimes of active regions derived from the light-curve analysis might correlate with stellar age and temperature.</jats:p>\n<jats:p><jats:italic>Conclusions.</jats:italic> Although we suggest caution because of small number statistics, our results suggest that active regions seem to live longer on younger, cooler, and more active stars.</jats:p>",
+    "DOI": "10.1051/0004-6361/202243360",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          29
+        ]
+      ],
+      "date-time": "2022-04-29T18:48:15Z",
+      "timestamp": 1651258095000
+    },
+    "page": "A142",
+    "source": "Crossref",
+    "is-referenced-by-count": 10,
+    "title": [
+      "The GAPS programme at TNG"
+    ],
+    "prefix": "10.1051",
+    "volume": "663",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2218-5689",
+        "authenticated-orcid": false,
+        "given": "J.",
+        "family": "Maldonado",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3257-862X",
+        "authenticated-orcid": false,
+        "given": "S.",
+        "family": "Colombo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9882-1020",
+        "authenticated-orcid": false,
+        "given": "A.",
+        "family": "Petralia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4638-3495",
+        "authenticated-orcid": false,
+        "given": "S.",
+        "family": "Benatti",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8613-2589",
+        "authenticated-orcid": false,
+        "given": "S.",
+        "family": "Desidera",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6492-2085",
+        "authenticated-orcid": false,
+        "given": "L.",
+        "family": "Malavolta",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5928-7251",
+        "authenticated-orcid": false,
+        "given": "A. F.",
+        "family": "Lanza",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9984-4278",
+        "authenticated-orcid": false,
+        "given": "M.",
+        "family": "Damasso",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9900-4751",
+        "authenticated-orcid": false,
+        "given": "G.",
+        "family": "Micela",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M.",
+        "family": "Mallonn",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2851-2468",
+        "authenticated-orcid": false,
+        "given": "S.",
+        "family": "Messina",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7504-365X",
+        "authenticated-orcid": false,
+        "given": "A.",
+        "family": "Sozzetti",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "B.",
+        "family": "Stelzer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1892-2180",
+        "authenticated-orcid": false,
+        "given": "K.",
+        "family": "Biazzo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2195-6805",
+        "authenticated-orcid": false,
+        "given": "R.",
+        "family": "Gratton",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5154-6108",
+        "authenticated-orcid": false,
+        "given": "A.",
+        "family": "Maggio",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1149-3659",
+        "authenticated-orcid": false,
+        "given": "D.",
+        "family": "Nardiello",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2029-0626",
+        "authenticated-orcid": false,
+        "given": "G.",
+        "family": "Scandariato",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5600-3778",
+        "authenticated-orcid": false,
+        "given": "L.",
+        "family": "Affer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1027-5003",
+        "authenticated-orcid": false,
+        "given": "M.",
+        "family": "Baratella",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7707-5105",
+        "authenticated-orcid": false,
+        "given": "R.",
+        "family": "Claudi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1742-7735",
+        "authenticated-orcid": false,
+        "given": "E.",
+        "family": "Molinari",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5606-6354",
+        "authenticated-orcid": false,
+        "given": "A.",
+        "family": "Bignamini",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7579-2298",
+        "authenticated-orcid": false,
+        "given": "E.",
+        "family": "Covino",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "I.",
+        "family": "Pagano",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "G.",
+        "family": "Piotto",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1200-0473",
+        "authenticated-orcid": false,
+        "given": "E.",
+        "family": "Poretti",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R.",
+        "family": "Cosentino",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0810-3747",
+        "authenticated-orcid": false,
+        "given": "I.",
+        "family": "Carleo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "250",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          26
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "R1",
+        "doi-asserted-by": "crossref",
+        "first-page": "33",
+        "DOI": "10.3847/1538-4357/aac6ed",
+        "volume": "862",
+        "author": "Ag\u00fceros",
+        "year": "2018",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R2",
+        "doi-asserted-by": "crossref",
+        "first-page": "252",
+        "DOI": "10.1109/TPAMI.2015.2448083",
+        "volume": "38",
+        "author": "Ambikasaran",
+        "year": "2015",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "R3",
+        "doi-asserted-by": "crossref",
+        "first-page": "2094",
+        "DOI": "10.1093/mnras/stx2109",
+        "volume": "474",
+        "author": "Angus",
+        "year": "2018",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1127",
+        "DOI": "10.1038/nature03882",
+        "volume": "436",
+        "author": "Baker",
+        "year": "2005",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "R5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1167",
+        "DOI": "10.1086/519295",
+        "volume": "669",
+        "author": "Barnes",
+        "year": "2007",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R6",
+        "first-page": "831",
+        "volume": "339",
+        "author": "Barrado y Navascues",
+        "year": "1998",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R7",
+        "doi-asserted-by": "crossref",
+        "first-page": "31",
+        "DOI": "10.3847/1538-4357/ac3420",
+        "volume": "924",
+        "author": "Basri",
+        "year": "2022",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R8",
+        "doi-asserted-by": "crossref",
+        "first-page": "593",
+        "DOI": "10.1093/mnras/stv1981",
+        "volume": "454",
+        "author": "Bell",
+        "year": "2015",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R9",
+        "doi-asserted-by": "crossref",
+        "first-page": "58",
+        "DOI": "10.1088/0004-637X/807/1/58",
+        "volume": "807",
+        "author": "Brandt",
+        "year": "2015",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R10",
+        "doi-asserted-by": "crossref",
+        "first-page": "L10",
+        "DOI": "10.1051/0004-6361/201015655",
+        "volume": "520",
+        "author": "Butters",
+        "year": "2010",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R11",
+        "doi-asserted-by": "crossref",
+        "first-page": "A5",
+        "DOI": "10.1051/0004-6361/201937369",
+        "volume": "638",
+        "author": "Carleo",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R12",
+        "doi-asserted-by": "crossref",
+        "first-page": "A71",
+        "DOI": "10.1051/0004-6361/202039042",
+        "volume": "645",
+        "author": "Carleo",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R13",
+        "first-page": "84461V",
+        "volume": "8446",
+        "author": "Cosentino",
+        "year": "2012",
+        "journal-title": "SPIE Conf. Ser."
+      },
+      {
+        "key": "R14",
+        "doi-asserted-by": "crossref",
+        "first-page": "A28",
+        "DOI": "10.1051/0004-6361/201321298",
+        "volume": "554",
+        "author": "Covino",
+        "year": "2013",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R15",
+        "doi-asserted-by": "crossref",
+        "first-page": "108",
+        "DOI": "10.1088/0004-637X/813/2/108",
+        "volume": "813",
+        "author": "Dahm",
+        "year": "2015",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R16",
+        "doi-asserted-by": "crossref",
+        "first-page": "A133",
+        "DOI": "10.1051/0004-6361/202038864",
+        "volume": "642",
+        "author": "Damasso",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R17",
+        "doi-asserted-by": "crossref",
+        "first-page": "2218",
+        "DOI": "10.1111/j.1365-2966.2011.18299.x",
+        "volume": "413",
+        "author": "Delorme",
+        "year": "2011",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R18",
+        "doi-asserted-by": "crossref",
+        "first-page": "191",
+        "DOI": "10.1023/A:1004902307998",
+        "volume": "171",
+        "author": "Donahue",
+        "year": "1997",
+        "journal-title": "Sol. Phys."
+      },
+      {
+        "key": "R19",
+        "doi-asserted-by": "crossref",
+        "first-page": "211",
+        "DOI": "10.1023/A:1004922323928",
+        "volume": "171",
+        "author": "Donahue",
+        "year": "1997",
+        "journal-title": "Sol. Phys."
+      },
+      {
+        "key": "R20",
+        "doi-asserted-by": "crossref",
+        "first-page": "100",
+        "DOI": "10.3847/1538-4357/ab2468",
+        "volume": "879",
+        "author": "Douglas",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R21",
+        "first-page": "137",
+        "volume": "237",
+        "author": "Dravins",
+        "year": "1990",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R22",
+        "doi-asserted-by": "crossref",
+        "first-page": "A103",
+        "DOI": "10.1051/0004-6361/202039350",
+        "volume": "648",
+        "author": "Dumusque",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R23",
+        "doi-asserted-by": "crossref",
+        "first-page": "383",
+        "DOI": "10.1086/191572",
+        "volume": "76",
+        "author": "Duncan",
+        "year": "1991",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1358",
+        "DOI": "10.1086/113635",
+        "volume": "89",
+        "author": "Eggen",
+        "year": "1984",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R25",
+        "doi-asserted-by": "crossref",
+        "first-page": "366",
+        "DOI": "10.1086/132442",
+        "volume": "101",
+        "author": "Eggen",
+        "year": "1989",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R26",
+        "doi-asserted-by": "crossref",
+        "first-page": "A53",
+        "DOI": "10.1051/0004-6361/201118362",
+        "volume": "556",
+        "author": "Eisenbeiss",
+        "year": "2013",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R27",
+        "unstructured": "ESA 1997, The HIPPARCOS and Tycho catalogues. Astrometric and photometric star catalogues derived from the ESA HIPPARCOS Space Astrometry Mission, ESA Special Publication, 1200"
+      },
+      {
+        "key": "R28",
+        "doi-asserted-by": "crossref",
+        "first-page": "355",
+        "DOI": "10.1086/177785",
+        "volume": "469",
+        "author": "Flower",
+        "year": "1996",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R29",
+        "doi-asserted-by": "crossref",
+        "first-page": "306",
+        "DOI": "10.1086/670067",
+        "volume": "125",
+        "author": "Foreman-Mackey",
+        "year": "2013",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R30",
+        "doi-asserted-by": "crossref",
+        "first-page": "615",
+        "DOI": "10.1016/j.newast.2009.03.004",
+        "volume": "14",
+        "author": "Francis",
+        "year": "2009",
+        "journal-title": "New A"
+      },
+      {
+        "key": "R31",
+        "doi-asserted-by": "crossref",
+        "first-page": "23",
+        "DOI": "10.3847/1538-4357/aaae09",
+        "volume": "856",
+        "author": "Gagn\u00e9",
+        "year": "2018",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R32",
+        "unstructured": "Gaia Collaboration 2018, VizieR Online Data Catalog: I/345"
+      },
+      {
+        "key": "R33",
+        "unstructured": "Gaia Collaboration 2020, VizieR Online Data Catalog: I/350"
+      },
+      {
+        "key": "R34",
+        "doi-asserted-by": "crossref",
+        "first-page": "1618",
+        "DOI": "10.1093/mnras/stx1931",
+        "volume": "472",
+        "author": "Giles",
+        "year": "2017",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R35",
+        "unstructured": "Glebocki R., & Gnacinski P. 2005, VizieR Online Data Catalog: III/244"
+      },
+      {
+        "key": "R36",
+        "doi-asserted-by": "crossref",
+        "first-page": "A157",
+        "DOI": "10.1051/0004-6361/202140490",
+        "volume": "649",
+        "author": "Gonz\u00e1lez-\u00c1lvarez",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R37",
+        "doi-asserted-by": "crossref",
+        "first-page": "251",
+        "DOI": "10.1134/S1063773713040038",
+        "volume": "39",
+        "author": "Grankin",
+        "year": "2013",
+        "journal-title": "Astron. Lett."
+      },
+      {
+        "key": "R38",
+        "unstructured": "Gray D. F. 2008, The Observation and Analysis of Stellar Photospheres (Cambridge, UK: Cambridge University Press)"
+      },
+      {
+        "key": "R39",
+        "doi-asserted-by": "crossref",
+        "first-page": "313",
+        "DOI": "10.1086/133724",
+        "volume": "108",
+        "author": "Hall",
+        "year": "1996",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R40",
+        "doi-asserted-by": "crossref",
+        "first-page": "961",
+        "DOI": "10.1093/mnras/stz444",
+        "volume": "485",
+        "author": "Jayasinghe",
+        "year": "2019",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R41",
+        "first-page": "99133E",
+        "volume": "9913",
+        "author": "Jenkins",
+        "year": "2016",
+        "journal-title": "SPIE Conf. Ser."
+      },
+      {
+        "key": "R42",
+        "doi-asserted-by": "crossref",
+        "first-page": "766",
+        "DOI": "10.1093/mnras/261.4.766",
+        "volume": "261",
+        "author": "Jianke",
+        "year": "1993",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R43",
+        "doi-asserted-by": "crossref",
+        "first-page": "864",
+        "DOI": "10.1086/114370",
+        "volume": "93",
+        "author": "Johnson",
+        "year": "1987",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R44",
+        "doi-asserted-by": "crossref",
+        "first-page": "58",
+        "DOI": "10.1088/0004-637X/813/1/58",
+        "volume": "813",
+        "author": "Jones",
+        "year": "2015",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R45",
+        "doi-asserted-by": "crossref",
+        "first-page": "L65",
+        "DOI": "10.1086/185512",
+        "volume": "343",
+        "author": "Kawaler",
+        "year": "1989",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R46",
+        "doi-asserted-by": "crossref",
+        "first-page": "117",
+        "DOI": "10.1086/192235",
+        "volume": "101",
+        "author": "Kenyon",
+        "year": "1995",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R47",
+        "doi-asserted-by": "crossref",
+        "first-page": "A43",
+        "DOI": "10.1051/0004-6361/201937216",
+        "volume": "637",
+        "author": "Klutsch",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R48",
+        "doi-asserted-by": "crossref",
+        "first-page": "551",
+        "DOI": "10.1086/149359",
+        "volume": "150",
+        "author": "Kraft",
+        "year": "1967",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R49",
+        "doi-asserted-by": "crossref",
+        "first-page": "707",
+        "DOI": "10.1051/0004-6361:20047028",
+        "volume": "425",
+        "author": "Lanza",
+        "year": "2004",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R50",
+        "doi-asserted-by": "crossref",
+        "first-page": "A50",
+        "DOI": "10.1051/0004-6361/201323172",
+        "volume": "564",
+        "author": "Lanza",
+        "year": "2014",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R51",
+        "doi-asserted-by": "crossref",
+        "first-page": "A97",
+        "DOI": "10.1051/0004-6361/200913437",
+        "volume": "514",
+        "author": "L\u00f3pez-Santiago",
+        "year": "2010",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R52",
+        "doi-asserted-by": "crossref",
+        "first-page": "A118",
+        "DOI": "10.1051/0004-6361/201527933",
+        "volume": "588",
+        "author": "Malavolta",
+        "year": "2016",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R53",
+        "doi-asserted-by": "crossref",
+        "first-page": "A12",
+        "DOI": "10.1051/0004-6361/201014948",
+        "volume": "521",
+        "author": "Maldonado",
+        "year": "2010",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R54",
+        "doi-asserted-by": "crossref",
+        "first-page": "A118",
+        "DOI": "10.1051/0004-6361/201935233",
+        "volume": "627",
+        "author": "Maldonado",
+        "year": "2019",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R55",
+        "doi-asserted-by": "crossref",
+        "first-page": "A93",
+        "DOI": "10.1051/0004-6361/202141141",
+        "volume": "651",
+        "author": "Maldonado",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R56",
+        "doi-asserted-by": "crossref",
+        "first-page": "1264",
+        "DOI": "10.1086/591785",
+        "volume": "687",
+        "author": "Mamajek",
+        "year": "2008",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R57",
+        "doi-asserted-by": "crossref",
+        "first-page": "179",
+        "DOI": "10.3847/1538-3881/abae64",
+        "volume": "160",
+        "author": "Mann",
+        "year": "2020",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R58",
+        "doi-asserted-by": "crossref",
+        "first-page": "A79",
+        "DOI": "10.1051/0004-6361/200913725",
+        "volume": "520",
+        "author": "Mart\u00ednez-Arn\u00e1iz",
+        "year": "2010",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R59",
+        "doi-asserted-by": "crossref",
+        "first-page": "2629",
+        "DOI": "10.1111/j.1365-2966.2011.18584.x",
+        "volume": "414",
+        "author": "Mart\u00ednez-Arn\u00e1iz",
+        "year": "2011",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R60",
+        "doi-asserted-by": "crossref",
+        "first-page": "3100",
+        "DOI": "10.1111/j.1365-2966.2011.19468.x",
+        "volume": "417",
+        "author": "Mart\u00ednez-Arn\u00e1iz",
+        "year": "2011",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R61",
+        "first-page": "20",
+        "volume": "114",
+        "author": "Mayor",
+        "year": "2003",
+        "journal-title": "The Messenger"
+      },
+      {
+        "key": "R62",
+        "doi-asserted-by": "crossref",
+        "first-page": "1017",
+        "DOI": "10.1051/0004-6361:20031161",
+        "volume": "409",
+        "author": "Messina",
+        "year": "2003",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R63",
+        "doi-asserted-by": "crossref",
+        "first-page": "1103",
+        "DOI": "10.1051/0004-6361/200911823",
+        "volume": "501",
+        "author": "Meunier",
+        "year": "2009",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R64",
+        "first-page": "287",
+        "volume": "114",
+        "author": "Montes",
+        "year": "1995",
+        "journal-title": "A&AS"
+      },
+      {
+        "key": "R65",
+        "doi-asserted-by": "crossref",
+        "first-page": "103",
+        "DOI": "10.1051/aas:2000359",
+        "volume": "146",
+        "author": "Montes",
+        "year": "2000",
+        "journal-title": "A&AS"
+      },
+      {
+        "key": "R66",
+        "doi-asserted-by": "crossref",
+        "first-page": "45",
+        "DOI": "10.1046/j.1365-8711.2001.04781.x",
+        "volume": "328",
+        "author": "Montes",
+        "year": "2001",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R67",
+        "doi-asserted-by": "crossref",
+        "first-page": "877",
+        "DOI": "10.1046/j.1365-8711.2001.04476.x",
+        "volume": "326",
+        "author": "Montesinos",
+        "year": "2001",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R68",
+        "doi-asserted-by": "crossref",
+        "first-page": "A51",
+        "DOI": "10.1051/0004-6361/201628329",
+        "volume": "593",
+        "author": "Montesinos",
+        "year": "2016",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R69",
+        "doi-asserted-by": "crossref",
+        "first-page": "763",
+        "DOI": "10.1086/161945",
+        "volume": "279",
+        "author": "Noyes",
+        "year": "1984",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R70",
+        "doi-asserted-by": "crossref",
+        "first-page": "9",
+        "DOI": "10.1088/0067-0049/208/1/9",
+        "volume": "208",
+        "author": "Pecaut",
+        "year": "2013",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R71",
+        "doi-asserted-by": "crossref",
+        "first-page": "794",
+        "DOI": "10.1093/mnras/stw1300",
+        "volume": "461",
+        "author": "Pecaut",
+        "year": "2016",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R72",
+        "doi-asserted-by": "crossref",
+        "first-page": "267",
+        "DOI": "10.1093/mnras/stab2402",
+        "volume": "508",
+        "author": "Santos",
+        "year": "2021",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R73",
+        "doi-asserted-by": "crossref",
+        "first-page": "A28",
+        "DOI": "10.1051/0004-6361/201629382",
+        "volume": "598",
+        "author": "Scandariato",
+        "year": "2017",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R74",
+        "first-page": "18",
+        "volume": "25",
+        "author": "Schatzman",
+        "year": "1962",
+        "journal-title": "Ann. Astrophys."
+      },
+      {
+        "key": "R75",
+        "doi-asserted-by": "crossref",
+        "first-page": "497",
+        "DOI": "10.1002/asna.202013790",
+        "volume": "341",
+        "author": "Schmitt",
+        "year": "2020",
+        "journal-title": "Astron. Nachr."
+      },
+      {
+        "key": "R76",
+        "first-page": "236.03",
+        "volume": "223",
+        "author": "Shappee",
+        "year": "2014",
+        "journal-title": "AAS Meeting Abstracts"
+      },
+      {
+        "key": "R77",
+        "doi-asserted-by": "crossref",
+        "first-page": "A132",
+        "DOI": "10.1051/0004-6361/201321468",
+        "volume": "566",
+        "author": "Silaj",
+        "year": "2014",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R78",
+        "doi-asserted-by": "crossref",
+        "first-page": "565",
+        "DOI": "10.1086/151310",
+        "volume": "171",
+        "author": "Skumanich",
+        "year": "1972",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R79",
+        "doi-asserted-by": "crossref",
+        "first-page": "722",
+        "DOI": "10.1086/170238",
+        "volume": "375",
+        "author": "Soderblom",
+        "year": "1991",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R80",
+        "doi-asserted-by": "crossref",
+        "first-page": "87",
+        "DOI": "10.1088/0004-637X/776/2/87",
+        "volume": "776",
+        "author": "Spada",
+        "year": "2013",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R81",
+        "doi-asserted-by": "crossref",
+        "first-page": "527",
+        "DOI": "10.1002/asna.200410273",
+        "volume": "325",
+        "author": "Strassmeier",
+        "year": "2004",
+        "journal-title": "Astron. Nachr."
+      },
+      {
+        "key": "R82",
+        "doi-asserted-by": "crossref",
+        "first-page": "2745",
+        "DOI": "10.1093/mnras/stv1441",
+        "volume": "452",
+        "author": "Su\u00e1rez Mascare\u00f1o",
+        "year": "2015",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R83",
+        "doi-asserted-by": "crossref",
+        "first-page": "232",
+        "DOI": "10.1038/s41550-021-01533-7",
+        "volume": "6",
+        "author": "Su\u00e1rez Mascare\u00f1o",
+        "year": "2021",
+        "journal-title": "Nat. Astron."
+      },
+      {
+        "key": "R84",
+        "first-page": "757",
+        "volume": "5",
+        "author": "Torres",
+        "year": "2008",
+        "journal-title": "Young Nearby Loose Associations"
+      },
+      {
+        "key": "R85",
+        "doi-asserted-by": "crossref",
+        "first-page": "L1",
+        "DOI": "10.1051/0004-6361/201834109",
+        "volume": "619",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R86",
+        "doi-asserted-by": "crossref",
+        "first-page": "217",
+        "DOI": "10.1086/149138",
+        "volume": "148",
+        "author": "Weber",
+        "year": "1967",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R87",
+        "doi-asserted-by": "crossref",
+        "first-page": "577",
+        "DOI": "10.1051/0004-6361:200811296",
+        "volume": "496",
+        "author": "Zechmeister",
+        "year": "2009",
+        "journal-title": "A&A"
+      }
+    ],
+    "container-title": [
+      "Astronomy &amp; Astrophysics"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.aanda.org/10.1051/0004-6361/202243360/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          26
+        ]
+      ],
+      "date-time": "2023-07-26T18:55:35Z",
+      "timestamp": 1690397735000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.aanda.org/10.1051/0004-6361/202243360"
+      }
+    },
+    "subtitle": [
+      "XXXIV. Activity-rotation, flux\u2013flux relationships, and active-region evolution through stellar age"
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          7
+        ]
+      ]
+    },
+    "references-count": 87,
+    "alternative-id": [
+      "aa43360-22"
+    ],
+    "URL": "https://doi.org/10.1051/0004-6361/202243360",
+    "relation": {},
+    "ISSN": [
+      "0004-6361",
+      "1432-0746"
+    ],
+    "issn-type": [
+      {
+        "value": "0004-6361",
+        "type": "print"
+      },
+      {
+        "value": "1432-0746",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          7
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.1051/0004-6361/202243360",
+  "original_doi": "10.1051/0004-6361/202243360"
+}

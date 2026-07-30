@@ -1,0 +1,787 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          16
+        ]
+      ],
+      "date-time": "2026-06-16T08:01:21Z",
+      "timestamp": 1781596881911,
+      "version": "3.54.5"
+    },
+    "reference-count": 51,
+    "publisher": "Cambridge University Press (CUP)",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              10
+            ]
+          ],
+          "date-time": "2025-07-10T00:00:00Z",
+          "timestamp": 1752105600000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 190,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "cambridge.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Publ. Astron. Soc. Aust."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n\t  <jats:p>We present the first radio\u2013continuum detection of the circumstellar shell around the well-known WN8 type Wolf-Rayet star WR16 at 943.5 MHz using the Australian Square Kilometre Array Pathfinder (ASKAP) Evolutionary Map of the Universe (EMU) survey. At this frequency, the shell has a measured flux density of 72.2<jats:inline-formula>\n\t      <jats:alternatives>\n\t\t<jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" mime-subtype=\"png\" xlink:href=\"S1323358025100702_inline1.png\"/>\n\t\t<jats:tex-math>\n$\\pm$\n</jats:tex-math>\n\t      </jats:alternatives>\n\t    </jats:inline-formula>7.2 mJy. Using previous Australia Telescope Compact Array (ATCA) measurements at 2.4, 4.8, and 8.64 GHz, as well as the Evolutionary Map of the Universe (EMU) observations of the star itself, we determine a spectral index of <jats:inline-formula>\n\t      <jats:alternatives>\n\t\t<jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" mime-subtype=\"png\" xlink:href=\"S1323358025100702_inline2.png\"/>\n\t\t<jats:tex-math>\n$\\alpha\\,=\\,+0.74\\pm0.02$\n</jats:tex-math>\n\t      </jats:alternatives>\n\t    </jats:inline-formula>, indicating thermal emission. We propose that the shell and star both exhibit thermal emission, supported by the its appearance in near-infrared and H<jats:inline-formula>\n\t      <jats:alternatives>\n\t\t<jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" mime-subtype=\"png\" xlink:href=\"S1323358025100702_inline3.png\"/>\n\t\t<jats:tex-math>\n$\\alpha$\n</jats:tex-math>\n\t      </jats:alternatives>\n\t    </jats:inline-formula> observations. The latest <jats:italic>Gaia</jats:italic> parallax is used to determine a distance of 2.28<jats:inline-formula>\n\t      <jats:alternatives>\n\t\t<jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" mime-subtype=\"png\" xlink:href=\"S1323358025100702_inline4.png\"/>\n\t\t<jats:tex-math>\n$\\pm$\n</jats:tex-math>\n\t      </jats:alternatives>\n\t    </jats:inline-formula>0.09 kpc. This star is well known for its surrounding circular nebulosity, and using the distance and an angular diameter of <jats:inline-formula>\n\t      <jats:alternatives>\n\t\t<jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" mime-subtype=\"png\" xlink:href=\"S1323358025100702_inline5.png\"/>\n\t\t<jats:tex-math>\n$8.^{\\prime}42$\n</jats:tex-math>\n\t      </jats:alternatives>\n\t    </jats:inline-formula>, we determine the shell size to be 5.57<jats:inline-formula>\n\t      <jats:alternatives>\n\t\t<jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" mime-subtype=\"png\" xlink:href=\"S1323358025100702_inline6.png\"/>\n\t\t<jats:tex-math>\n$\\pm$\n</jats:tex-math>\n\t      </jats:alternatives>\n\t    </jats:inline-formula>0.22 pc. We use the <jats:italic>Gaia</jats:italic> proper motion (PM) of WR16 to determine peculiar velocities of the star as <jats:inline-formula>\n\t      <jats:alternatives>\n\t\t<jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" mime-subtype=\"png\" xlink:href=\"S1323358025100702_inline7.png\"/>\n\t\t<jats:tex-math>\n$V_{\\alpha}(pec) =$\n</jats:tex-math>\n\t      </jats:alternatives>\n\t    </jats:inline-formula> \u201345.3<jats:inline-formula>\n\t      <jats:alternatives>\n\t\t<jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" mime-subtype=\"png\" xlink:href=\"S1323358025100702_inline8.png\"/>\n\t\t<jats:tex-math>\n$\\pm$\n</jats:tex-math>\n\t      </jats:alternatives>\n\t    </jats:inline-formula>5.4 km s<jats:inline-formula>\n\t      <jats:alternatives>\n\t\t<jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" mime-subtype=\"png\" xlink:href=\"S1323358025100702_inline9.png\"/>\n\t\t<jats:tex-math>\n$^{-1}$\n</jats:tex-math>\n\t      </jats:alternatives>\n\t    </jats:inline-formula> and <jats:inline-formula>\n\t      <jats:alternatives>\n\t\t<jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" mime-subtype=\"png\" xlink:href=\"S1323358025100702_inline10.png\"/>\n\t\t<jats:tex-math>\n$V_{\\delta}(pec) =$\n</jats:tex-math>\n\t      </jats:alternatives>\n\t    </jats:inline-formula> 22.8<jats:inline-formula>\n\t      <jats:alternatives>\n\t\t<jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" mime-subtype=\"png\" xlink:href=\"S1323358025100702_inline11.png\"/>\n\t\t<jats:tex-math>\n$\\pm$\n</jats:tex-math>\n\t      </jats:alternatives>\n\t    </jats:inline-formula>4.7 km s<jats:inline-formula>\n\t      <jats:alternatives>\n\t\t<jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" mime-subtype=\"png\" xlink:href=\"S1323358025100702_inline12.png\"/>\n\t\t<jats:tex-math>\n$^{-1}$\n</jats:tex-math>\n\t      </jats:alternatives>\n\t    </jats:inline-formula>, which indicates that the star is moving in a north-west direction, and translates to a peculiar tangential velocity to be 50.7<jats:inline-formula>\n\t      <jats:alternatives>\n\t\t<jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" mime-subtype=\"png\" xlink:href=\"S1323358025100702_inline13.png\"/>\n\t\t<jats:tex-math>\n$\\pm$\n</jats:tex-math>\n\t      </jats:alternatives>\n\t    </jats:inline-formula>6.9 km s<jats:inline-formula>\n\t      <jats:alternatives>\n\t\t<jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" mime-subtype=\"png\" xlink:href=\"S1323358025100702_inline14.png\"/>\n\t\t<jats:tex-math>\n$^{-1}$\n</jats:tex-math>\n\t      </jats:alternatives>\n\t    </jats:inline-formula>. We also use these proper motion (PM) to determine the shell\u2019s origin, estimate an age of <jats:inline-formula>\n\t      <jats:alternatives>\n\t\t<jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" mime-subtype=\"png\" xlink:href=\"S1323358025100702_inline15.png\"/>\n\t\t<jats:tex-math>\n$\\sim 9500\\pm 1300$\n</jats:tex-math>\n\t      </jats:alternatives>\n\t    </jats:inline-formula> yr, and determine its average expansion velocity to be <jats:inline-formula>\n\t      <jats:alternatives>\n\t\t<jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" mime-subtype=\"png\" xlink:href=\"S1323358025100702_inline16.png\"/>\n\t\t<jats:tex-math>\n$280\\pm40$\n</jats:tex-math>\n\t      </jats:alternatives>\n\t    </jats:inline-formula> km s<jats:inline-formula>\n\t      <jats:alternatives>\n\t\t<jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" mime-subtype=\"png\" xlink:href=\"S1323358025100702_inline17.png\"/>\n\t\t<jats:tex-math>\n$^{-1}$\n</jats:tex-math>\n\t      </jats:alternatives>\n\t    </jats:inline-formula>. This average expansion velocity suggests that the previous transitional phase is a Luminous Blue Variable (LBV) phase, rather than a Red Super Giant (RSG) phase. We also use the measured flux at 943.5 MHz to determine a mass-loss rate of <jats:inline-formula>\n\t      <jats:alternatives>\n\t\t<jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" mime-subtype=\"png\" xlink:href=\"S1323358025100702_inline18.png\"/>\n\t\t<jats:tex-math>\n$1.753\\times 10^{-5}\\,{\\rm M}_\\odot\\,$\n</jats:tex-math>\n\t      </jats:alternatives>\n\t    </jats:inline-formula>yr<jats:inline-formula>\n\t      <jats:alternatives>\n\t\t<jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" mime-subtype=\"png\" xlink:href=\"S1323358025100702_inline19.png\"/>\n\t\t<jats:tex-math>\n$^{-1}$\n</jats:tex-math>\n\t      </jats:alternatives>\n\t    </jats:inline-formula>, and use this to determine a lower-limit on ionising photons of <jats:inline-formula>\n\t      <jats:alternatives>\n\t\t<jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" mime-subtype=\"png\" xlink:href=\"S1323358025100702_inline20.png\"/>\n\t\t<jats:tex-math>\n$N_{UV} \\gt 1.406\\times 10^{47}\\,\\textit{s}^{-1}$\n</jats:tex-math>\n\t      </jats:alternatives>\n\t    </jats:inline-formula>.</jats:p>",
+    "DOI": "10.1017/pasa.2025.10070",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          10
+        ]
+      ],
+      "date-time": "2025-07-10T12:14:48Z",
+      "timestamp": 1752149688000
+    },
+    "update-policy": "https://doi.org/10.1017/policypage",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Evolutionary map of the Universe: Detection and analysis of the shell surrounding the runaway Wolf-Rayet star WR16"
+    ],
+    "prefix": "10.1017",
+    "volume": "42",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0007-4802-2793",
+        "authenticated-orcid": false,
+        "given": "Aaron",
+        "family": "Bradley",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Western Sydney University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4990-9288",
+        "authenticated-orcid": false,
+        "given": "Miroslav D.",
+        "family": "Filipovi\u0107",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Western Sydney University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0009-7061-0553",
+        "authenticated-orcid": false,
+        "given": "Zachary",
+        "family": "Smeaton",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Western Sydney University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sano",
+        "family": "Hidetoshi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Gifu University"
+          },
+          {
+            "name": "National Astronomical Observatory of Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yasuo",
+        "family": "Fukui",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Gifu University"
+          },
+          {
+            "name": "Nagoya University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Cristobal",
+        "family": "Bordiu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "INAF \u2013Osservatorio Astrofisico di Catania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Silvina",
+        "family": "Cichowolski",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Instituto de Astronom\u00eda y F\u00edsica del Espacio"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nick F. H.",
+        "family": "Tothill",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Western Sydney University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5609-7372",
+        "authenticated-orcid": false,
+        "given": "Rami Z. E.",
+        "family": "Alsaberi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Western Sydney University"
+          },
+          {
+            "name": "Gifu University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Filomena",
+        "family": "Bufano",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "INAF \u2013Osservatorio Astrofisico di Catania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shi",
+        "family": "Dai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Australia Telescope National Facility, CSIRO, Space and Astronomy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yjan A.",
+        "family": "Gordon",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Wisconsin-Madison"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6097-2747",
+        "authenticated-orcid": false,
+        "given": "Andrew",
+        "family": "Hopkins",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Macquarie University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Thomas H.",
+        "family": "Jarrett",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Western Sydney University"
+          },
+          {
+            "name": "University of Cape Town"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4351-993X",
+        "authenticated-orcid": false,
+        "given": "B\u00e4rbel S.",
+        "family": "Koribalski",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Western Sydney University"
+          },
+          {
+            "name": "Australia Telescope National Facility, CSIRO, Space and Astronomy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6109-8548",
+        "authenticated-orcid": false,
+        "given": "Sanja",
+        "family": "Lazarevi\u0107",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Western Sydney University"
+          },
+          {
+            "name": "Australia Telescope National Facility, CSIRO, Space and Astronomy"
+          },
+          {
+            "name": "Astronomical Observatory"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chris J.",
+        "family": "Riseley",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Astronomisches Institut Ruhr-Universit\u00e4t Bochum (AIRUB)"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gavin",
+        "family": "Rowell",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The University of Adelaide"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Manami",
+        "family": "Sasaki",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dr Karl Remeis Observatory, Erlangen Centre for Astroparticle Physics, Friedrich-Alexander-Universit\u00e4t - N\u00fcrnberg"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dejan",
+        "family": "Uro\u0161evi\u0107",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Belgrade"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tessa",
+        "family": "Vernstrom",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "CSIRO Space and Astronomy"
+          },
+          {
+            "name": "The University of Western Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "56",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          10
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "S1323358025100702_ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0004-6256/138/2/402"
+      },
+      {
+        "key": "S1323358025100702_ref30",
+        "unstructured": "Merloni, A. , et\u00a0al. 2024, A&A, 682, A34"
+      },
+      {
+        "key": "S1323358025100702_ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/176140"
+      },
+      {
+        "key": "S1323358025100702_ref40",
+        "unstructured": "Smeaton, Z. J. , et\u00a0al. 2024a, RNAAS, 8, 158"
+      },
+      {
+        "key": "S1323358025100702_ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.26093/cds/vizier.1345"
+      },
+      {
+        "key": "S1323358025100702_ref12",
+        "unstructured": "Filipovi\u0107, M. D. , et\u00a0al. 2022, MNRAS, 512, 265"
+      },
+      {
+        "key": "S1323358025100702_ref35",
+        "unstructured": "Panagia, N. , & Felli, M. 1975, A&A, 39, 1"
+      },
+      {
+        "key": "S1323358025100702_ref31",
+        "unstructured": "Mizuno, A. , & Fukui, Y. 2004, in Astronomical Society of the Pacific Conference Series, Vol. 317, Milky Way Surveys: The Structure and Evolution of our Galaxy, ed. Clemens, D. , Shah, R. , & Brainerd, T. , 59"
+      },
+      {
+        "key": "S1323358025100702_ref21",
+        "unstructured": "Hopkins, A. M. , et\u00a0al. 2025, arXiv e-prints, arXiv:2505.08271"
+      },
+      {
+        "key": "S1323358025100702_ref3",
+        "unstructured": "Ballet, J. , Bruel, P. , Burnett, T. H. , Lott, B. , & The Fermi-LAT Collaboration. 2023, arXiv e-prints, arXiv:2307.12546"
+      },
+      {
+        "key": "S1323358025100702_ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/304096"
+      },
+      {
+        "key": "S1323358025100702_ref23",
+        "unstructured": "Langer, N. , et\u00a0al. 1994, A&A, 290, 819"
+      },
+      {
+        "key": "S1323358025100702_ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/mnras/staa1153"
+      },
+      {
+        "key": "S1323358025100702_ref5",
+        "unstructured": "Bradley, A. C. , et\u00a0al. 2025, PASA, e032"
+      },
+      {
+        "key": "S1323358025100702_ref19",
+        "unstructured": "Guzman, J. , et\u00a0al. 2019, ASKAPsoft: ASKAP science data processor software, Astrophysics Source Code Library, record ascl:1912.003"
+      },
+      {
+        "key": "S1323358025100702_ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/307314"
+      },
+      {
+        "key": "S1323358025100702_ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-94-011-3306-7_71"
+      },
+      {
+        "key": "S1323358025100702_ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.astro.45.051806.110615"
+      },
+      {
+        "key": "S1323358025100702_ref17",
+        "unstructured": "Collaboration, Gaia , et\u00a0al. 2016, A&A, 595, A1"
+      },
+      {
+        "key": "S1323358025100702_ref22",
+        "unstructured": "Hotan, A. W. , et\u00a0al. 2021, PASA, 38, e009"
+      },
+      {
+        "key": "S1323358025100702_ref49",
+        "unstructured": "Weis, K. 2011, in IAU Symposium, Vol. 272, Active OB Stars: Structure, Evolution, Mass Loss, and Critical Limits, ed. Neiner, C. , Wade, G. , Meynet, G. , & Peters, G. , 372"
+      },
+      {
+        "key": "S1323358025100702_ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2966.2001.04660.x"
+      },
+      {
+        "key": "S1323358025100702_ref13",
+        "unstructured": "Filipovi\u0107, M. D. , et\u00a0al. 2023, AJ, 166, 149"
+      },
+      {
+        "key": "S1323358025100702_ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1365-8711.2000.03837.x"
+      },
+      {
+        "key": "S1323358025100702_ref46",
+        "unstructured": "Turner, M. J. L. , et\u00a0al. 2001, A&A, 365, L27"
+      },
+      {
+        "key": "S1323358025100702_ref38",
+        "unstructured": "Schmutz, W. , Hamann, W. R. , & Wessolowski, U. 1989, A&A, 210, 236"
+      },
+      {
+        "key": "S1323358025100702_ref18",
+        "unstructured": "Collaboration, Gaia , et\u00a0al. 2023, A&A, 674, A1"
+      },
+      {
+        "key": "S1323358025100702_ref34",
+        "unstructured": "Nugis, T. , & Lamers, H. J. G. L. M. 2000, A&A, 360, 227"
+      },
+      {
+        "key": "S1323358025100702_ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1051/0004-6361/20079144"
+      },
+      {
+        "key": "S1323358025100702_ref25",
+        "unstructured": "Lazarevi\u0107, S. , et\u00a0al. 2024b, PASA, 41, e032"
+      },
+      {
+        "key": "S1323358025100702_ref51",
+        "unstructured": "Wright, E. L. , et\u00a0al. 2010, AJ, 140, 1868"
+      },
+      {
+        "key": "S1323358025100702_ref37",
+        "unstructured": "Sault, R. J. , Teuben, P. J. , & Wright, M. C. H. 1995, in Astronomical Society of the Pacific Conference Series, Vol. 77, Astronomical Data Analysis Software and Systems IV, ed. Shaw, R. A. , Payne, H. E. , & Hayes, J. J. E. , 433"
+      },
+      {
+        "key": "S1323358025100702_ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1051/0004-6361/201525706"
+      },
+      {
+        "key": "S1323358025100702_ref48",
+        "unstructured": "Virtanen, P. , et\u00a0al. 2020, NM, 17, 261"
+      },
+      {
+        "key": "S1323358025100702_ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-0-7020-3473-2.00006-X"
+      },
+      {
+        "key": "S1323358025100702_ref14",
+        "unstructured": "Filipovi\u0107, M. D. , et\u00a0al. 2024, PASA, 41, e112"
+      },
+      {
+        "key": "S1323358025100702_ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/mnras/170.1.41"
+      },
+      {
+        "key": "S1323358025100702_ref1",
+        "unstructured": "Abdollahi, S. , et\u00a0al. 2022, ApJS, 260, 53"
+      },
+      {
+        "key": "S1323358025100702_ref41",
+        "unstructured": "Smeaton, Z. J. , et\u00a0al. 2024b, MNRAS, 534, 2918"
+      },
+      {
+        "key": "S1323358025100702_ref24",
+        "unstructured": "Lazarevi\u0107, S. , et\u00a0al. 2024a, RNAAS, 8, 107"
+      },
+      {
+        "key": "S1323358025100702_ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1051/0004-6361/202450766"
+      },
+      {
+        "key": "S1323358025100702_ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1387-6473(00)00112-3"
+      },
+      {
+        "key": "S1323358025100702_ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.26093/cds/vizier.1350"
+      },
+      {
+        "key": "S1323358025100702_ref33",
+        "unstructured": "Norris, R. P. , et\u00a0al. 2021, PASA, 38, e046"
+      },
+      {
+        "key": "S1323358025100702_ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3847/1538-3881/aacb21"
+      },
+      {
+        "key": "S1323358025100702_ref44",
+        "unstructured": "Str\u00fcder, L. , et\u00a0al. 2001, A&A, 365, L18"
+      },
+      {
+        "key": "S1323358025100702_ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1051/0004-6361:20077304"
+      },
+      {
+        "key": "S1323358025100702_ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1051/0004-6361/202348348"
+      },
+      {
+        "key": "S1323358025100702_ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1051/0004-6361/202452178"
+      },
+      {
+        "key": "S1323358025100702_ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/mnras/stu1088"
+      },
+      {
+        "key": "S1323358025100702_ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/117410"
+      }
+    ],
+    "container-title": [
+      "Publications of the Astronomical Society of Australia"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S1323358025100702",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          7
+        ]
+      ],
+      "date-time": "2025-10-07T15:59:46Z",
+      "timestamp": 1759852786000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.cambridge.org/core/product/identifier/S1323358025100702/type/journal_article"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "references-count": 51,
+    "alternative-id": [
+      "S1323358025100702"
+    ],
+    "URL": "https://doi.org/10.1017/pasa.2025.10070",
+    "relation": {},
+    "ISSN": [
+      "1323-3580",
+      "1448-6083"
+    ],
+    "issn-type": [
+      {
+        "value": "1323-3580",
+        "type": "print"
+      },
+      {
+        "value": "1448-6083",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "\u00a9 The Author(s), 2025. Published by Cambridge University Press on behalf of Astronomical Society of Australia",
+        "name": "copyright",
+        "label": "Copyright",
+        "group": {
+          "name": "copyright_and_licensing",
+          "label": "Copyright and Licensing"
+        }
+      },
+      {
+        "value": "This is an Open Access article, distributed under the terms of the Creative Commons Attribution licence (https://creativecommons.org/licenses/by/4.0/), which permits unrestricted re-use, distribution and reproduction, provided the original article is properly cited.",
+        "name": "license",
+        "label": "License",
+        "group": {
+          "name": "copyright_and_licensing",
+          "label": "Copyright and Licensing"
+        }
+      },
+      {
+        "value": "This content has been made available to all.",
+        "name": "free",
+        "label": "Free to read"
+      }
+    ],
+    "article-number": "e101"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1017/pasa.2025.10070",
+  "original_doi": "10.1017/pasa.2025.10070"
+}

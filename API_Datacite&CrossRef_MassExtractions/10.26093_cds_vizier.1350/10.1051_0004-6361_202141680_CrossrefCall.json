@@ -1,0 +1,1271 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          1
+        ]
+      ],
+      "date-time": "2026-07-01T17:38:20Z",
+      "timestamp": 1782927500363,
+      "version": "3.54.5"
+    },
+    "reference-count": 108,
+    "publisher": "EDP Sciences",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              12,
+              8
+            ]
+          ],
+          "date-time": "2021-12-08T00:00:00Z",
+          "timestamp": 1638921600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 7,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "name": "French Agence Nationale de la Recherche",
+        "award": [
+          "ANR-15-CE31-0012-01 (UnlockCepheids)"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "ANR-15-CE31-0012-01 (UnlockCepheids)"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "European Research Council",
+        "award": [
+          "695099 (CepBin)"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "695099 (CepBin)"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "A&amp;A"
+    ],
+    "accepted": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          30
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          12
+        ]
+      ]
+    },
+    "abstract": "<jats:p><jats:italic>Context.</jats:italic> As primary anchors of the distance scale, Cepheid stars play a crucial role in our understanding of the distance scale of the Universe because of their period-luminosity relation. Determining precise and consistent parameters (radius, temperature, color excess, and projection factor) of Cepheid pulsating stars is therefore very important.</jats:p>\n<jats:p><jats:italic>Aims.</jats:italic> With the high-precision parallaxes delivered by the early third <jats:italic>Gaia</jats:italic> data release (EDR3), we aim to derive various parameters of Cepheid stars in order to calibrate the period-luminosity and period-radius relations and to investigate the relation of period to <jats:italic>p</jats:italic>-factor.</jats:p>\n<jats:p><jats:italic>Methods.</jats:italic> We applied an implementation of the parallax-of-pulsation method through the algorithm called spectro-photo-interferometry of pulsating stars (SPIPS), which combines all types of available data for a variable star (multiband and multicolor photometry, radial velocity, effective temperature, and interferometry measurements) in a global modeling of its pulsation.</jats:p>\n<jats:p><jats:italic>Results.</jats:italic> We present the SPIPS modeling of a sample of 63 Galactic Cepheids. Adopting <jats:italic>Gaia</jats:italic> EDR3 parallaxes as an input associated with the best available dataset, we derive consistent values of parameters for these stars such as the radius, multiband apparent magnitudes, effective temperatures, color excesses, period changes, Fourier parameters, and the projection factor.</jats:p>\n<jats:p><jats:italic>Conclusions.</jats:italic> Using the best set of data and the most precise distances for Milky Way Cepheids, we derive new calibrations of the period-luminosity and period-radius relations: <jats:italic>M</jats:italic><jats:sub><jats:italic>K</jats:italic><jats:sub><jats:italic>S</jats:italic></jats:sub></jats:sub> = \u22125.529<jats:sub>\u00b10.015</jats:sub>\u2006\u2005\u2212\u2005\u20063.141<jats:sub>\u00b10.050</jats:sub>(log <jats:italic>P</jats:italic>\u2006\u2005\u2212\u2005\u20060.9) and log <jats:italic>R</jats:italic> = 1.763<jats:sub>\u00b10.003</jats:sub>\u2006\u2005+\u2005\u20060.653<jats:sub>\u00b10.012</jats:sub>(log <jats:italic>P</jats:italic>\u2006\u2005\u2212\u2005\u20060.9). After investigating the dependences of the projection factor on the parameters of the stars, we find a high dispersion of its values and no evidence of its correlation with the period or with any other parameters such as radial velocity, temperature, or metallicity. Statistically, the <jats:italic>p</jats:italic>-factor has an average value of <jats:italic>p</jats:italic>\u2004=\u20041.26\u2005\u00b1\u20050.07, but with an unsatisfactory agreement (<jats:italic>\u03c3</jats:italic>\u2004=\u20040.15). In absence of any clear correlation between the <jats:italic>p</jats:italic>-factor and other quantities, the best agreement is obtained under the assumption that the <jats:italic>p</jats:italic>-factor can take any value in a band with a width of 0.15. This result highlights the need for a further examination of the physics behind the <jats:italic>p</jats:italic>-factor.</jats:p>",
+    "DOI": "10.1051/0004-6361/202141680",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          1
+        ]
+      ],
+      "date-time": "2021-10-01T18:52:17Z",
+      "timestamp": 1633114337000
+    },
+    "page": "A102",
+    "source": "Crossref",
+    "is-referenced-by-count": 38,
+    "title": [
+      "Inspecting the Cepheid parallax of pulsation using <i>Gaia</i> EDR3 parallaxes"
+    ],
+    "prefix": "10.1051",
+    "volume": "656",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5875-5340",
+        "authenticated-orcid": false,
+        "given": "B.",
+        "family": "Trahin",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "L.",
+        "family": "Breuval",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P.",
+        "family": "Kervella",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "M\u00e9rand",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "N.",
+        "family": "Nardetto",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Gallenne",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "V.",
+        "family": "Hocd\u00e9",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "W.",
+        "family": "Gieren",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "250",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          8
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "R1",
+        "doi-asserted-by": "crossref",
+        "first-page": "L10",
+        "DOI": "10.1051/0004-6361/201423850",
+        "volume": "566",
+        "author": "Anderson",
+        "year": "2014",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R2",
+        "doi-asserted-by": "crossref",
+        "first-page": "A8",
+        "DOI": "10.1051/0004-6361/201528031",
+        "volume": "591",
+        "author": "Anderson",
+        "year": "2016",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R3",
+        "doi-asserted-by": "crossref",
+        "first-page": "18",
+        "DOI": "10.3847/0067-0049/226/2/18",
+        "volume": "226",
+        "author": "Anderson",
+        "year": "2016",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R4",
+        "doi-asserted-by": "crossref",
+        "first-page": "4231",
+        "DOI": "10.1093/mnras/stv2438",
+        "volume": "455",
+        "author": "Anderson",
+        "year": "2016",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1880",
+        "DOI": "10.1086/444541",
+        "volume": "130",
+        "author": "Andrievsky",
+        "year": "2005",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R6",
+        "unstructured": "Arenou F., & Luri X. 1999, in Harmonizing Cosmic Distance Scales in a Post-HIPPARCOS Era, eds. Egret D., & Heck A., ASP Conf. Ser., 167, 13"
+      },
+      {
+        "key": "R7",
+        "doi-asserted-by": "crossref",
+        "first-page": "123",
+        "DOI": "10.3847/1538-3881/aac387",
+        "volume": "156",
+        "author": "Price-Whelan",
+        "year": "2018",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R8",
+        "doi-asserted-by": "crossref",
+        "first-page": "359",
+        "DOI": "10.1002/asna.19262282003",
+        "volume": "228",
+        "author": "Baade",
+        "year": "1926",
+        "journal-title": "Astron. Nachr."
+      },
+      {
+        "key": "R9",
+        "doi-asserted-by": "crossref",
+        "first-page": "147",
+        "DOI": "10.3847/1538-3881/abd806",
+        "volume": "161",
+        "author": "Bailer-Jones",
+        "year": "2021",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R10",
+        "doi-asserted-by": "crossref",
+        "first-page": "645",
+        "DOI": "10.1086/133927",
+        "volume": "109",
+        "author": "Barnes",
+        "year": "1997",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R11",
+        "doi-asserted-by": "crossref",
+        "first-page": "227",
+        "DOI": "10.1086/426588",
+        "volume": "156",
+        "author": "Barnes",
+        "year": "2005",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1810",
+        "DOI": "10.1086/511980",
+        "volume": "133",
+        "author": "Benedict",
+        "year": "2007",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R13",
+        "unstructured": "Berdnikov L. N. 2008, VizieR Online Data Catalog: II/285"
+      },
+      {
+        "key": "R14",
+        "first-page": "25",
+        "volume": "108",
+        "author": "Bersier",
+        "year": "1994",
+        "journal-title": "A&AS"
+      },
+      {
+        "key": "R15",
+        "doi-asserted-by": "crossref",
+        "first-page": "3342",
+        "DOI": "10.1093/mnras/stu2678",
+        "volume": "447",
+        "author": "Bhardwaj",
+        "year": "2015",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R16",
+        "doi-asserted-by": "crossref",
+        "first-page": "A37",
+        "DOI": "10.1051/0004-6361/201935622",
+        "volume": "631",
+        "author": "Borgniet",
+        "year": "2019",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R17",
+        "doi-asserted-by": "crossref",
+        "first-page": "A117",
+        "DOI": "10.1051/0004-6361/201527030",
+        "volume": "587",
+        "author": "Breitfelder",
+        "year": "2016",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R18",
+        "doi-asserted-by": "crossref",
+        "first-page": "A115",
+        "DOI": "10.1051/0004-6361/202038633",
+        "volume": "643",
+        "author": "Breuval",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R19",
+        "doi-asserted-by": "crossref",
+        "first-page": "38",
+        "DOI": "10.3847/1538-4357/abf0ae",
+        "volume": "913",
+        "author": "Breuval",
+        "year": "2021",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R20",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1093/mnras/242.1.1",
+        "volume": "242",
+        "author": "Carter",
+        "year": "1990",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R21",
+        "unstructured": "Castelli F., & Kurucz R. L. 2004, ArXiv e-prints [arXiv:astro-ph/0405087]"
+      },
+      {
+        "key": "R22",
+        "first-page": "5",
+        "volume": "9",
+        "author": "Coulson",
+        "year": "1985",
+        "journal-title": "S. Afr. Astron. Obs. Circular"
+      },
+      {
+        "key": "R23",
+        "unstructured": "Cutri R. M., Skrutskie M. F., van Dyk S., et al. 2003, 2MASS All Sky Catalog of Point Sources, VizieR Online Data Catalog"
+      },
+      {
+        "key": "R24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1729",
+        "DOI": "10.1051/0004-6361/200912851",
+        "volume": "507",
+        "author": "Deb",
+        "year": "2009",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R25",
+        "doi-asserted-by": "crossref",
+        "first-page": "80",
+        "DOI": "10.1088/0004-637X/794/1/80",
+        "volume": "794",
+        "author": "Engle",
+        "year": "2014",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R26",
+        "unstructured": "ESA 1997, VizieR Online Data Catalog: I/239"
+      },
+      {
+        "key": "R27",
+        "doi-asserted-by": "crossref",
+        "first-page": "3050",
+        "DOI": "10.1086/301397",
+        "volume": "119",
+        "author": "Evans",
+        "year": "2000",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R28",
+        "doi-asserted-by": "crossref",
+        "first-page": "301",
+        "DOI": "10.1134/S1063773714050028",
+        "volume": "40",
+        "author": "Fadeyev",
+        "year": "2014",
+        "journal-title": "Astron. Lett."
+      },
+      {
+        "key": "R29",
+        "doi-asserted-by": "crossref",
+        "first-page": "2115",
+        "DOI": "10.1111/j.1365-2966.2008.13181.x",
+        "volume": "386",
+        "author": "Feast",
+        "year": "2008",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R30",
+        "doi-asserted-by": "crossref",
+        "first-page": "153",
+        "DOI": "10.1086/191412",
+        "volume": "72",
+        "author": "Fernie",
+        "year": "1990",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R31",
+        "unstructured": "Fernie J. D., Evans N. R., Beattie B., & Seager S. 1995, Inf. Bull. Variable Stars, 4148"
+      },
+      {
+        "key": "R32",
+        "doi-asserted-by": "crossref",
+        "first-page": "63",
+        "DOI": "10.1086/316293",
+        "volume": "111",
+        "author": "Fitzpatrick",
+        "year": "1999",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R33",
+        "doi-asserted-by": "crossref",
+        "first-page": "73",
+        "DOI": "10.1051/0004-6361:20078187",
+        "volume": "476",
+        "author": "Fouqu\u00e9",
+        "year": "2007",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R34",
+        "unstructured": "Gaia Collaboration 2020, VizieR Online Data Catalog: I/350"
+      },
+      {
+        "key": "R35",
+        "doi-asserted-by": "crossref",
+        "first-page": "A1",
+        "DOI": "10.1051/0004-6361/201833051",
+        "volume": "616",
+        "author": "Brown",
+        "year": "2018",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R36",
+        "doi-asserted-by": "crossref",
+        "first-page": "A18",
+        "DOI": "10.1051/0004-6361/201731589",
+        "volume": "608",
+        "author": "Gallenne",
+        "year": "2017",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R37",
+        "doi-asserted-by": "crossref",
+        "first-page": "A113",
+        "DOI": "10.1051/0004-6361/202140350",
+        "volume": "651",
+        "author": "Gallenne",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R38",
+        "doi-asserted-by": "crossref",
+        "first-page": "A37",
+        "DOI": "10.1051/0004-6361/201323198",
+        "volume": "566",
+        "author": "Genovali",
+        "year": "2014",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R39",
+        "doi-asserted-by": "crossref",
+        "first-page": "A17",
+        "DOI": "10.1051/0004-6361/201525894",
+        "volume": "580",
+        "author": "Genovali",
+        "year": "2015",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R40",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.1086/305374",
+        "volume": "496",
+        "author": "Gieren",
+        "year": "1998",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R41",
+        "doi-asserted-by": "crossref",
+        "first-page": "224",
+        "DOI": "10.1086/430496",
+        "volume": "627",
+        "author": "Gieren",
+        "year": "2005",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R42",
+        "doi-asserted-by": "crossref",
+        "first-page": "A99",
+        "DOI": "10.1051/0004-6361/201833263",
+        "volume": "620",
+        "author": "Gieren",
+        "year": "2018",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R43",
+        "unstructured": "Gorynya N. A., Samus N. N., Berdnikov L. N., et al. 1995, Information Bulletin on Variable Stars, 4199"
+      },
+      {
+        "key": "R44",
+        "first-page": "815",
+        "volume": "24",
+        "author": "Gorynya",
+        "year": "1998",
+        "journal-title": "Astron. Lett."
+      },
+      {
+        "key": "R45",
+        "doi-asserted-by": "crossref",
+        "first-page": "A20",
+        "DOI": "10.1051/0004-6361/202140862",
+        "volume": "654",
+        "author": "Groenewegen",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R46",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.1051/0004-6361:200809859",
+        "volume": "488",
+        "author": "Groenewegen",
+        "year": "2008",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R47",
+        "doi-asserted-by": "crossref",
+        "first-page": "A70",
+        "DOI": "10.1051/0004-6361/201220446",
+        "volume": "550",
+        "author": "Groenewegen",
+        "year": "2013",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R48",
+        "doi-asserted-by": "crossref",
+        "first-page": "A8",
+        "DOI": "10.1051/0004-6361/201833478",
+        "volume": "619",
+        "author": "Groenewegen",
+        "year": "2018",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R49",
+        "unstructured": "Harris H. C. 1980, Ph.D. Thesis, Washington Univ., Seattle, USA"
+      },
+      {
+        "key": "R50",
+        "doi-asserted-by": "crossref",
+        "first-page": "A47",
+        "DOI": "10.1051/0004-6361/201935848",
+        "volume": "633",
+        "author": "Hocd\u00e9",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R51",
+        "doi-asserted-by": "crossref",
+        "first-page": "12",
+        "DOI": "10.3847/1538-4357/abe7e5",
+        "volume": "911",
+        "author": "Javanmardi",
+        "year": "2021",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R52",
+        "doi-asserted-by": "crossref",
+        "first-page": "941",
+        "DOI": "10.1051/0004-6361:20031743",
+        "volume": "416",
+        "author": "Kervella",
+        "year": "2004",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R53",
+        "doi-asserted-by": "crossref",
+        "first-page": "A127",
+        "DOI": "10.1051/0004-6361/201630202",
+        "volume": "600",
+        "author": "Kervella",
+        "year": "2017",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R54",
+        "doi-asserted-by": "crossref",
+        "first-page": "A116",
+        "DOI": "10.1051/0004-6361/201834210",
+        "volume": "623",
+        "author": "Kervella",
+        "year": "2019",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R55",
+        "doi-asserted-by": "crossref",
+        "first-page": "A117",
+        "DOI": "10.1051/0004-6361/201834211",
+        "volume": "623",
+        "author": "Kervella",
+        "year": "2019",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R56",
+        "doi-asserted-by": "crossref",
+        "first-page": "616",
+        "DOI": "10.1046/j.1365-8711.1998.01943.x",
+        "volume": "300",
+        "author": "Kiss",
+        "year": "1998",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R57",
+        "first-page": "L55",
+        "volume": "350",
+        "author": "Kovtyukh",
+        "year": "1999",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R58",
+        "doi-asserted-by": "crossref",
+        "first-page": "433",
+        "DOI": "10.1086/426339",
+        "volume": "129",
+        "author": "Kovtyukh",
+        "year": "2005",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R59",
+        "doi-asserted-by": "crossref",
+        "first-page": "1336",
+        "DOI": "10.1111/j.1365-2966.2008.13644.x",
+        "volume": "389",
+        "author": "Kovtyukh",
+        "year": "2008",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R60",
+        "doi-asserted-by": "crossref",
+        "first-page": "A132",
+        "DOI": "10.1051/0004-6361/201832832",
+        "volume": "616",
+        "author": "Lallement",
+        "year": "2018",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R61",
+        "first-page": "93",
+        "volume": "93",
+        "author": "Laney",
+        "year": "1992",
+        "journal-title": "A&AS"
+      },
+      {
+        "key": "R62",
+        "first-page": "1",
+        "volume": "173",
+        "author": "Leavitt",
+        "year": "1912",
+        "journal-title": "Harvard College Obs. Circular"
+      },
+      {
+        "key": "R63",
+        "doi-asserted-by": "crossref",
+        "first-page": "A67",
+        "DOI": "10.1051/0004-6361/201117586",
+        "volume": "535",
+        "author": "Le Bouquin",
+        "year": "2011",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R64",
+        "doi-asserted-by": "crossref",
+        "first-page": "A2",
+        "DOI": "10.1051/0004-6361/202039709",
+        "volume": "649",
+        "author": "Lindegren",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R65",
+        "doi-asserted-by": "crossref",
+        "first-page": "A4",
+        "DOI": "10.1051/0004-6361/202039653",
+        "volume": "649",
+        "author": "Lindegren",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R66",
+        "doi-asserted-by": "crossref",
+        "first-page": "171",
+        "DOI": "10.3847/1538-3881/aadcac",
+        "volume": "156",
+        "author": "Luck",
+        "year": "2018",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R67",
+        "doi-asserted-by": "crossref",
+        "first-page": "343",
+        "DOI": "10.1086/420991",
+        "volume": "128",
+        "author": "Luck",
+        "year": "2004",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R68",
+        "doi-asserted-by": "crossref",
+        "first-page": "98",
+        "DOI": "10.1088/0004-6256/136/1/98",
+        "volume": "136",
+        "author": "Luck",
+        "year": "2008",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R69",
+        "doi-asserted-by": "crossref",
+        "first-page": "219",
+        "DOI": "10.1086/190342",
+        "volume": "29",
+        "author": "Madore",
+        "year": "1975",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R70",
+        "doi-asserted-by": "crossref",
+        "first-page": "A80",
+        "DOI": "10.1051/0004-6361/201525954",
+        "volume": "584",
+        "author": "M\u00e9rand",
+        "year": "2015",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R71",
+        "doi-asserted-by": "crossref",
+        "first-page": "803",
+        "DOI": "10.1086/191581",
+        "volume": "76",
+        "author": "Metzger",
+        "year": "1991",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R72",
+        "doi-asserted-by": "crossref",
+        "first-page": "529",
+        "DOI": "10.1086/116079",
+        "volume": "103",
+        "author": "Metzger",
+        "year": "1992",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R73",
+        "doi-asserted-by": "crossref",
+        "first-page": "128",
+        "DOI": "10.3847/1538-4357/ab90fb",
+        "volume": "896",
+        "author": "Miller",
+        "year": "2020",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R74",
+        "doi-asserted-by": "crossref",
+        "first-page": "389",
+        "DOI": "10.1086/190960",
+        "volume": "55",
+        "author": "Moffett",
+        "year": "1984",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R75",
+        "doi-asserted-by": "crossref",
+        "first-page": "942",
+        "DOI": "10.1111/j.1365-2966.2010.18183.x",
+        "volume": "413",
+        "author": "Molinaro",
+        "year": "2011",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R76",
+        "doi-asserted-by": "crossref",
+        "first-page": "12",
+        "DOI": "10.1088/0067-0049/193/1/12",
+        "volume": "193",
+        "author": "Monson",
+        "year": "2011",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R77",
+        "doi-asserted-by": "crossref",
+        "first-page": "146",
+        "DOI": "10.1088/0004-637X/759/2/146",
+        "volume": "759",
+        "author": "Monson",
+        "year": "2012",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R78",
+        "doi-asserted-by": "crossref",
+        "first-page": "1421",
+        "DOI": "10.1111/j.1365-2966.2006.11247.x",
+        "volume": "374",
+        "author": "Morgan",
+        "year": "2007",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R79",
+        "unstructured": "Nardetto N. 2005, Theses, Universit\u00e9 Nice Sophia Antipolis, France"
+      },
+      {
+        "key": "R80",
+        "doi-asserted-by": "crossref",
+        "first-page": "309",
+        "DOI": "10.1051/0004-6361:20054333",
+        "volume": "453",
+        "author": "Nardetto",
+        "year": "2006",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R81",
+        "doi-asserted-by": "crossref",
+        "first-page": "661",
+        "DOI": "10.1051/0004-6361:20066853",
+        "volume": "471",
+        "author": "Nardetto",
+        "year": "2007",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R82",
+        "doi-asserted-by": "crossref",
+        "first-page": "951",
+        "DOI": "10.1051/0004-6361/200912333",
+        "volume": "502",
+        "author": "Nardetto",
+        "year": "2009",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R83",
+        "doi-asserted-by": "crossref",
+        "first-page": "L16",
+        "DOI": "10.1051/0004-6361/201117459",
+        "volume": "534",
+        "author": "Nardetto",
+        "year": "2011",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R84",
+        "doi-asserted-by": "crossref",
+        "first-page": "A73",
+        "DOI": "10.1051/0004-6361/201629400",
+        "volume": "597",
+        "author": "Nardetto",
+        "year": "2017",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R85",
+        "doi-asserted-by": "crossref",
+        "first-page": "A98",
+        "DOI": "10.1051/0004-6361/201321502",
+        "volume": "554",
+        "author": "Neilson",
+        "year": "2013",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R86",
+        "doi-asserted-by": "crossref",
+        "first-page": "A134",
+        "DOI": "10.1051/0004-6361/201118550",
+        "volume": "541",
+        "author": "Neilson",
+        "year": "2012",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R87",
+        "doi-asserted-by": "crossref",
+        "first-page": "A55",
+        "DOI": "10.1051/0004-6361/201218780",
+        "volume": "543",
+        "author": "Ngeow",
+        "year": "2012",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R88",
+        "doi-asserted-by": "crossref",
+        "first-page": "23",
+        "DOI": "10.1051/aas:2000169",
+        "volume": "143",
+        "author": "Ochsenbein",
+        "year": "2000",
+        "journal-title": "A&AS"
+      },
+      {
+        "key": "R89",
+        "first-page": "413",
+        "volume": "24",
+        "author": "Pel",
+        "year": "1976",
+        "journal-title": "A&AS"
+      },
+      {
+        "key": "R90",
+        "doi-asserted-by": "crossref",
+        "first-page": "1167",
+        "DOI": "10.1111/j.1365-2966.2005.09332.x",
+        "volume": "362",
+        "author": "Petterson",
+        "year": "2005",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R91",
+        "doi-asserted-by": "crossref",
+        "first-page": "43",
+        "DOI": "10.3847/1538-4357/aacb32",
+        "volume": "862",
+        "author": "Pilecki",
+        "year": "2018",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R92",
+        "first-page": "415",
+        "volume": "285",
+        "author": "Pont",
+        "year": "1994",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R93",
+        "unstructured": "Pont F., Queloz D., Bratschi P., & Mayor M. 1996, VizieR Online Data Catalog: J/A+A/318/416"
+      },
+      {
+        "key": "R94",
+        "doi-asserted-by": "crossref",
+        "first-page": "A82",
+        "DOI": "10.1051/0004-6361/201833087",
+        "volume": "616",
+        "author": "Proxauf",
+        "year": "2018",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R95",
+        "doi-asserted-by": "crossref",
+        "first-page": "109",
+        "DOI": "10.1088/0067-0049/183/1/109",
+        "volume": "183",
+        "author": "Riess",
+        "year": "2009",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R96",
+        "doi-asserted-by": "crossref",
+        "first-page": "136",
+        "DOI": "10.3847/1538-4357/aaadb7",
+        "volume": "855",
+        "author": "Riess",
+        "year": "2018",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R97",
+        "doi-asserted-by": "crossref",
+        "first-page": "L6",
+        "DOI": "10.3847/2041-8213/abdbaf",
+        "volume": "908",
+        "author": "Riess",
+        "year": "2021",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R98",
+        "unstructured": "Rodrigo C., & Solano E. 2020, Contributions to the XIV.0 Scientific Meeting (virtual) of the Spanish Astronomical Society, 182"
+      },
+      {
+        "key": "R99",
+        "doi-asserted-by": "crossref",
+        "first-page": "1930",
+        "DOI": "10.1086/116368",
+        "volume": "104",
+        "author": "Schechter",
+        "year": "1992",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R100",
+        "doi-asserted-by": "crossref",
+        "first-page": "A94",
+        "DOI": "10.1051/0004-6361/201117155",
+        "volume": "534",
+        "author": "Storm",
+        "year": "2011",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R101",
+        "first-page": "1",
+        "volume": "70",
+        "author": "Szabados",
+        "year": "1977",
+        "journal-title": "Commun. Konkoly Obs. Hungary"
+      },
+      {
+        "key": "R102",
+        "first-page": "123",
+        "volume": "96",
+        "author": "Szabados",
+        "year": "1991",
+        "journal-title": "Commmun. Konkoly Obs. Hungary"
+      },
+      {
+        "key": "R103",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Szabados L., Anderson R. I., Derekas A., et al. 2015, VizieR Online Data Catalog: J/MNRAS/434/870",
+        "DOI": "10.1093/mnras/stt1079"
+      },
+      {
+        "key": "R104",
+        "unstructured": "Trahin B. 2019, Theses, Paris Sciences et Lettres; Observatoire de Paris \u2013 LESIA; CNRS"
+      },
+      {
+        "key": "R105",
+        "first-page": "520",
+        "volume": "17",
+        "author": "Walraven",
+        "year": "1964",
+        "journal-title": "Bull. Astron. Inst. Neth."
+      },
+      {
+        "key": "R106",
+        "doi-asserted-by": "crossref",
+        "first-page": "547",
+        "DOI": "10.1086/190943",
+        "volume": "54",
+        "author": "Welch",
+        "year": "1984",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R107",
+        "doi-asserted-by": "crossref",
+        "first-page": "9",
+        "DOI": "10.1051/aas:2000332",
+        "volume": "143",
+        "author": "Wenger",
+        "year": "2000",
+        "journal-title": "A&AS"
+      },
+      {
+        "key": "R108",
+        "first-page": "91",
+        "volume": "10",
+        "author": "Wesselink",
+        "year": "1946",
+        "journal-title": "Bull. Astron. Inst. Neth."
+      }
+    ],
+    "container-title": [
+      "Astronomy &amp; Astrophysics"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.aanda.org/10.1051/0004-6361/202141680/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          8
+        ]
+      ],
+      "date-time": "2021-12-08T09:26:02Z",
+      "timestamp": 1638955562000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.aanda.org/10.1051/0004-6361/202141680"
+      }
+    },
+    "subtitle": [
+      "Projection factor and period-luminosity and period-radius relations"
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          12
+        ]
+      ]
+    },
+    "references-count": 108,
+    "alternative-id": [
+      "aa41680-21"
+    ],
+    "URL": "https://doi.org/10.1051/0004-6361/202141680",
+    "relation": {},
+    "ISSN": [
+      "0004-6361",
+      "1432-0746"
+    ],
+    "issn-type": [
+      {
+        "value": "0004-6361",
+        "type": "print"
+      },
+      {
+        "value": "1432-0746",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          12
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.1051/0004-6361/202141680",
+  "original_doi": "10.1051/0004-6361/202141680"
+}

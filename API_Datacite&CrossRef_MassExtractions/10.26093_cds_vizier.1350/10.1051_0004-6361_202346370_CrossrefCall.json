@@ -1,0 +1,2219 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          23
+        ]
+      ],
+      "date-time": "2026-06-23T00:03:51Z",
+      "timestamp": 1782173031890,
+      "version": "3.54.5"
+    },
+    "reference-count": 145,
+    "publisher": "EDP Sciences",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              28
+            ]
+          ],
+          "date-time": "2023-08-28T00:00:00Z",
+          "timestamp": 1693180800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "A&amp;A"
+    ],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          10
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:p>TOI-1416 (BD+42 2504, HIP 70705) is a <jats:italic>V</jats:italic> =10 late G- or early K-type dwarf star. TESS detected transits in its Sectors 16, 23, and 50 with a depth of about 455 ppm and a period of 1.07 days. Radial velocities (RVs) confirm the presence of the transiting planet TOI-1416 <jats:italic>b</jats:italic>, which has a mass of 3.48 \u00b1 0.47 <jats:italic>M</jats:italic><jats:sub>\u2295</jats:sub> and a radius of 1.62 \u00b1 0.08 <jats:italic>R</jats:italic><jats:sub>\u2295</jats:sub>, implying a slightly sub-Earth density of 4.50<jats:sub>\u22120.83</jats:sub><jats:sup>+0.99</jats:sup> g cm<jats:sup>\u22123</jats:sup>. The RV data also further indicate a tentative planet, <jats:italic>c</jats:italic>, with a period of 27.4 or 29.5 days, whose nature cannot be verified due to strong suspicions of contamination by a signal related to the Moon\u2019s synodic period of 29.53 days. The nearly ultra-short-period planet TOI-1416 <jats:italic>b</jats:italic> is a typical representative of a short-period and hot (<jats:italic>T</jats:italic><jats:sub>eq</jats:sub> \u2248 1570 K) super-Earth-like planet. A planet model of an interior of molten magma containing a significant fraction of dissolved water provides a plausible explanation for its composition, and its atmosphere could be suitable for transmission spectroscopy with JWST. The position of TOI-1416 <jats:italic>b</jats:italic> within the radius-period distribution corroborates the idea that planets with periods of less than one day do not form any special group. It instead implies that ultra-short-period planets belong to a continuous distribution of super-Earth-like planets with periods ranging from the shortest known ones up to \u224830 days; their period-radius distribution is delimited against larger radii by the Neptune Desert and by the period-radius valley that separates super-Earths from sub-Neptune planets. In the abundance of small, short-periodic planets, a notable plateau has emerged between periods of 0.6\u20131.4 days, which is compatible with the low-eccentricity formation channel. For the Neptune Desert, its lower limits required a revision due to the increasing population of short-period planets; for periods shorter then 2 days, we establish a radius of 1.6 <jats:italic>R</jats:italic><jats:sub>\u2295</jats:sub> and a mass of 0.028 <jats:italic>M</jats:italic><jats:sub>jup</jats:sub> (corresponding to 8.9 <jats:italic>M</jats:italic><jats:sub>\u2295</jats:sub>) as the desert\u2019s lower limits. We also provide corresponding limits to the Neptune Desert against the planets\u2019 insolation and effective temperatures.</jats:p>",
+    "DOI": "10.1051/0004-6361/202346370",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          22
+        ]
+      ],
+      "date-time": "2023-06-22T08:24:53Z",
+      "timestamp": 1687422293000
+    },
+    "page": "A12",
+    "source": "Crossref",
+    "is-referenced-by-count": 19,
+    "title": [
+      "TOI-1416: A system with a super-Earth planet with a 1.07 d period"
+    ],
+    "prefix": "10.1051",
+    "volume": "677",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0047-4241",
+        "authenticated-orcid": false,
+        "given": "H. J.",
+        "family": "Deeg",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5056-1899",
+        "authenticated-orcid": false,
+        "given": "I. Y.",
+        "family": "Georgieva",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7031-7754",
+        "authenticated-orcid": false,
+        "given": "G.",
+        "family": "Nowak",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1257-5146",
+        "authenticated-orcid": false,
+        "given": "C. M.",
+        "family": "Persson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2078-6536",
+        "authenticated-orcid": false,
+        "given": "B. L.",
+        "family": "Cale",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9087-1245",
+        "authenticated-orcid": false,
+        "given": "F.",
+        "family": "Murgas",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0987-1593",
+        "authenticated-orcid": false,
+        "given": "E.",
+        "family": "Pall\u00e9",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4556-1277",
+        "authenticated-orcid": false,
+        "given": "D.",
+        "family": "Godoy-Rivera",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8958-0683",
+        "authenticated-orcid": false,
+        "given": "F.",
+        "family": "Dai",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5741-3047",
+        "authenticated-orcid": false,
+        "given": "D. R.",
+        "family": "Ciardi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8898-8284",
+        "authenticated-orcid": false,
+        "given": "J. M. Akana",
+        "family": "Murphy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4745-2242",
+        "authenticated-orcid": false,
+        "given": "P. G.",
+        "family": "Beck",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7754-9486",
+        "authenticated-orcid": false,
+        "given": "C. J.",
+        "family": "Burke",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6653-5487",
+        "authenticated-orcid": false,
+        "given": "J.",
+        "family": "Cabrera",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0810-3747",
+        "authenticated-orcid": false,
+        "given": "I.",
+        "family": "Carleo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9662-3496",
+        "authenticated-orcid": false,
+        "given": "W. D.",
+        "family": "Cochran",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6588-9574",
+        "authenticated-orcid": false,
+        "given": "K. A.",
+        "family": "Collins",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6803-9698",
+        "authenticated-orcid": false,
+        "given": "Sz.",
+        "family": "Csizmadia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8364-2903",
+        "authenticated-orcid": false,
+        "given": "M.",
+        "family": "El Mufti",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0855-8426",
+        "authenticated-orcid": false,
+        "given": "M.",
+        "family": "Fridlund",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Fukui",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8627-9628",
+        "authenticated-orcid": false,
+        "given": "D.",
+        "family": "Gandolfi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8854-3776",
+        "authenticated-orcid": false,
+        "given": "R. A.",
+        "family": "Garc\u00eda",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9130-6747",
+        "authenticated-orcid": false,
+        "given": "E. W.",
+        "family": "Guenther",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4308-2339",
+        "authenticated-orcid": false,
+        "given": "P.",
+        "family": "Guerra",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3370-4058",
+        "authenticated-orcid": false,
+        "given": "S.",
+        "family": "Grziwa",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0531-1073",
+        "authenticated-orcid": false,
+        "given": "H.",
+        "family": "Isaacson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6480-3799",
+        "authenticated-orcid": false,
+        "given": "K.",
+        "family": "Isogai",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4715-9460",
+        "authenticated-orcid": false,
+        "given": "J. M.",
+        "family": "Jenkins",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1623-5352",
+        "authenticated-orcid": false,
+        "given": "P.",
+        "family": "K\u00e1bath",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0076-6239",
+        "authenticated-orcid": false,
+        "given": "J.",
+        "family": "Korth",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9910-6088",
+        "authenticated-orcid": false,
+        "given": "K. W. F.",
+        "family": "Lam",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D. W.",
+        "family": "Latham",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4671-2957",
+        "authenticated-orcid": false,
+        "given": "R.",
+        "family": "Luque",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2527-1598",
+        "authenticated-orcid": false,
+        "given": "M. B.",
+        "family": "Lund",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4881-3620",
+        "authenticated-orcid": false,
+        "given": "J. H.",
+        "family": "Livingston",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9491-8012",
+        "authenticated-orcid": false,
+        "given": "S.",
+        "family": "Mathis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0129-0316",
+        "authenticated-orcid": false,
+        "given": "S.",
+        "family": "Mathur",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8511-2981",
+        "authenticated-orcid": false,
+        "given": "N.",
+        "family": "Narita",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2066-8959",
+        "authenticated-orcid": false,
+        "given": "J.",
+        "family": "Orell-Miquel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "H. L. M.",
+        "family": "Osborne",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5519-1391",
+        "authenticated-orcid": false,
+        "given": "H.",
+        "family": "Parviainen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8864-1667",
+        "authenticated-orcid": false,
+        "given": "P. P.",
+        "family": "Plavchan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3786-3486",
+        "authenticated-orcid": false,
+        "given": "S.",
+        "family": "Redfield",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1286-5231",
+        "authenticated-orcid": false,
+        "given": "D. R.",
+        "family": "Rodriguez",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8227-1020",
+        "authenticated-orcid": false,
+        "given": "R. P.",
+        "family": "Schwarz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6892-6948",
+        "authenticated-orcid": false,
+        "given": "S.",
+        "family": "Seager",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2386-4341",
+        "authenticated-orcid": false,
+        "given": "A. M. S.",
+        "family": "Smith",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5542-8870",
+        "authenticated-orcid": false,
+        "given": "V.",
+        "family": "Van Eylen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4290-6826",
+        "authenticated-orcid": false,
+        "given": "J.",
+        "family": "Van Zandt",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4265-047X",
+        "authenticated-orcid": false,
+        "given": "J. N.",
+        "family": "Winn",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0619-7639",
+        "authenticated-orcid": false,
+        "given": "C.",
+        "family": "Ziegler",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "250",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          28
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "R1",
+        "doi-asserted-by": "crossref",
+        "first-page": "A126",
+        "DOI": "10.1051/0004-6361/202040173",
+        "volume": "650",
+        "author": "Ahuir",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R2",
+        "first-page": "2765",
+        "volume": "370",
+        "author": "Allard",
+        "year": "2012",
+        "journal-title": "Philos. Trans. Roy. Soc. Lond. A"
+      },
+      {
+        "key": "R3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1787",
+        "DOI": "10.1093/mnras/stv423",
+        "volume": "450",
+        "author": "Angus",
+        "year": "2015",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R4",
+        "doi-asserted-by": "crossref",
+        "first-page": "173",
+        "DOI": "10.3847/1538-3881/ab3c53",
+        "volume": "158",
+        "author": "Angus",
+        "year": "2019",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R5",
+        "doi-asserted-by": "crossref",
+        "first-page": "A40",
+        "DOI": "10.1051/0004-6361/202039452",
+        "volume": "647",
+        "author": "Attia",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R6",
+        "doi-asserted-by": "crossref",
+        "first-page": "373",
+        "DOI": "10.1051/aas:1996251",
+        "volume": "119",
+        "author": "Baranne",
+        "year": "1996",
+        "journal-title": "A&AS"
+      },
+      {
+        "key": "R7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1167",
+        "DOI": "10.1086/519295",
+        "volume": "669",
+        "author": "Barnes",
+        "year": "2007",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R8",
+        "doi-asserted-by": "crossref",
+        "first-page": "1017",
+        "DOI": "10.1093/mnras/sty2472",
+        "volume": "482",
+        "author": "Barrag\u00e1n",
+        "year": "2019",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R9",
+        "doi-asserted-by": "crossref",
+        "first-page": "866",
+        "DOI": "10.1093/mnras/stab2889",
+        "volume": "509",
+        "author": "Barrag\u00e1n",
+        "year": "2022",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R10",
+        "doi-asserted-by": "crossref",
+        "first-page": "A132",
+        "DOI": "10.1051/0004-6361/202038160",
+        "volume": "639",
+        "author": "Bluhm",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R11",
+        "doi-asserted-by": "crossref",
+        "first-page": "977",
+        "DOI": "10.1126/science.1185402",
+        "volume": "327",
+        "author": "Borucki",
+        "year": "2010",
+        "journal-title": "Science"
+      },
+      {
+        "key": "R12",
+        "doi-asserted-by": "crossref",
+        "first-page": "127",
+        "DOI": "10.1111/j.1365-2966.2012.21948.x",
+        "volume": "427",
+        "author": "Bressan",
+        "year": "2012",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1031",
+        "DOI": "10.1086/673168",
+        "volume": "125",
+        "author": "Brown",
+        "year": "2013",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R14",
+        "doi-asserted-by": "crossref",
+        "first-page": "A44",
+        "DOI": "10.1051/0004-6361/201219337",
+        "volume": "548",
+        "author": "Cabrera",
+        "year": "2012",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R15",
+        "doi-asserted-by": "crossref",
+        "first-page": "170",
+        "DOI": "10.3847/1538-3881/ab3b0f",
+        "volume": "158",
+        "author": "Cale",
+        "year": "2019",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R16",
+        "first-page": "129",
+        "volume": "28",
+        "author": "Cannon",
+        "year": "1901",
+        "journal-title": "Ann. Harvard Coll. Observ."
+      },
+      {
+        "key": "R17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Castelli F., & Kurucz R. L. 2003, IAU Symp. 210, poster A20",
+        "DOI": "10.1017/S0074180900133248"
+      },
+      {
+        "key": "R18",
+        "doi-asserted-by": "crossref",
+        "first-page": "119",
+        "DOI": "10.1093/mnras/stv2622",
+        "volume": "456",
+        "author": "Ceillier",
+        "year": "2016",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R19",
+        "doi-asserted-by": "crossref",
+        "first-page": "A111",
+        "DOI": "10.1051/0004-6361/201629884",
+        "volume": "605",
+        "author": "Ceillier",
+        "year": "2017",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R20",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.3847/1538-4357/834/1/17",
+        "volume": "834",
+        "author": "Chen",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R21",
+        "doi-asserted-by": "crossref",
+        "first-page": "102",
+        "DOI": "10.3847/0004-637X/823/2/102",
+        "volume": "823",
+        "author": "Choi",
+        "year": "2016",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R22",
+        "doi-asserted-by": "crossref",
+        "first-page": "16",
+        "DOI": "10.1088/0004-637X/805/1/16",
+        "volume": "805",
+        "author": "Ciardi",
+        "year": "2015",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R23",
+        "doi-asserted-by": "crossref",
+        "first-page": "A30",
+        "DOI": "10.1051/0004-6361/201629705",
+        "volume": "600",
+        "author": "Claret",
+        "year": "2017",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R24",
+        "unstructured": "Collins K. 2019, in AAS Meeting Abstracts, 233, 140.05"
+      },
+      {
+        "key": "R25",
+        "doi-asserted-by": "crossref",
+        "first-page": "77",
+        "DOI": "10.3847/1538-3881/153/2/77",
+        "volume": "153",
+        "author": "Collins",
+        "year": "2017",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R26",
+        "first-page": "84461V",
+        "volume": "8446",
+        "author": "Cosentino",
+        "year": "2012",
+        "journal-title": "SPIE Conf. Ser."
+      },
+      {
+        "key": "R27",
+        "first-page": "91478C",
+        "volume": "9147",
+        "author": "Cosentino",
+        "year": "2014",
+        "journal-title": "SPIE Conf. Ser."
+      },
+      {
+        "key": "R28",
+        "doi-asserted-by": "crossref",
+        "first-page": "54",
+        "DOI": "10.1088/0004-637X/729/1/54",
+        "volume": "729",
+        "author": "Cowan",
+        "year": "2011",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R29",
+        "doi-asserted-by": "crossref",
+        "first-page": "L38",
+        "DOI": "10.3847/2041-8213/aadd4f",
+        "volume": "864",
+        "author": "Dai",
+        "year": "2018",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R30",
+        "doi-asserted-by": "crossref",
+        "first-page": "79",
+        "DOI": "10.3847/1538-4357/ab3a3b",
+        "volume": "883",
+        "author": "Dai",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R31",
+        "doi-asserted-by": "crossref",
+        "first-page": "609",
+        "DOI": "10.1051/0004-6361:20065105",
+        "volume": "458",
+        "author": "da Silva",
+        "year": "2006",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R32",
+        "doi-asserted-by": "crossref",
+        "first-page": "937",
+        "DOI": "10.1088/0004-637X/722/1/937",
+        "volume": "722",
+        "author": "Dawson",
+        "year": "2010",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R33",
+        "unstructured": "Deeg H. J. 2014, Astrophysics Source Code Library [record ascl:1412.003]"
+      },
+      {
+        "key": "R34",
+        "doi-asserted-by": "crossref",
+        "first-page": "130",
+        "DOI": "10.1088/0004-637X/776/2/130",
+        "volume": "776",
+        "author": "Dekany",
+        "year": "2013",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R35",
+        "doi-asserted-by": "crossref",
+        "first-page": "126",
+        "DOI": "10.3847/1538-3881/aaa896",
+        "volume": "155",
+        "author": "D\u00edaz",
+        "year": "2018",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R36",
+        "doi-asserted-by": "crossref",
+        "first-page": "L4",
+        "DOI": "10.3847/2041-8213/ac33af",
+        "volume": "922",
+        "author": "Dorn",
+        "year": "2021",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R37",
+        "doi-asserted-by": "crossref",
+        "first-page": "83",
+        "DOI": "10.1086/669497",
+        "volume": "125",
+        "author": "Eastman",
+        "year": "2013",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R38",
+        "unstructured": "Eastman J. D., Rodriguez J. E., Agol E., et al. 2019, ArXiv e-prints [arXiv:1907.09480]"
+      },
+      {
+        "key": "R39",
+        "doi-asserted-by": "crossref",
+        "first-page": "4794",
+        "DOI": "10.1093/mnras/stx1126",
+        "volume": "470",
+        "author": "Feng",
+        "year": "2017",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R40",
+        "doi-asserted-by": "crossref",
+        "first-page": "505",
+        "DOI": "10.1086/500802",
+        "volume": "642",
+        "author": "Ford",
+        "year": "2006",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R41",
+        "doi-asserted-by": "crossref",
+        "first-page": "A90",
+        "DOI": "10.1051/0004-6361/201629716",
+        "volume": "598",
+        "author": "Fossati",
+        "year": "2017",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R42",
+        "doi-asserted-by": "crossref",
+        "first-page": "A8",
+        "DOI": "10.1051/0004-6361/202243809",
+        "volume": "674",
+        "author": "Fr\u00e9mat",
+        "year": "2023",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R43",
+        "doi-asserted-by": "crossref",
+        "first-page": "175",
+        "DOI": "10.1088/0004-637X/805/2/175",
+        "volume": "805",
+        "author": "Fulton",
+        "year": "2015",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R44",
+        "doi-asserted-by": "crossref",
+        "first-page": "109",
+        "DOI": "10.3847/1538-3881/aa80eb",
+        "volume": "154",
+        "author": "Fulton",
+        "year": "2017",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R45",
+        "doi-asserted-by": "crossref",
+        "first-page": "71",
+        "DOI": "10.3847/1538-3881/153/2/71",
+        "volume": "153",
+        "author": "Furlan",
+        "year": "2017",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R46",
+        "unstructured": "Gaia Collaboration (Brown A.G.A., et al.) 2020, VizieR Online Data Catalog: I/350"
+      },
+      {
+        "key": "R47",
+        "doi-asserted-by": "crossref",
+        "first-page": "A34",
+        "DOI": "10.1051/0004-6361/201423888",
+        "volume": "572",
+        "author": "Garc\u00eda",
+        "year": "2014",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R48",
+        "doi-asserted-by": "crossref",
+        "first-page": "A10",
+        "DOI": "10.1051/0004-6361/201323326",
+        "volume": "568",
+        "author": "Garc\u00eda",
+        "year": "2014",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R49",
+        "unstructured": "Garc\u00eda R. A., Mathur S., Gonz\u00e1lez Otero J., Santos A. R. G., & Breton S. N. 2021, in Posters from the TESS Science Conference II (TSC2), 180"
+      },
+      {
+        "key": "R50",
+        "doi-asserted-by": "crossref",
+        "first-page": "139",
+        "DOI": "10.3847/1538-4357/aab8f2",
+        "volume": "857",
+        "author": "Gray",
+        "year": "2018",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R51",
+        "doi-asserted-by": "crossref",
+        "first-page": "1198",
+        "DOI": "10.1086/432594",
+        "volume": "631",
+        "author": "Gregory",
+        "year": "2005",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R52",
+        "doi-asserted-by": "crossref",
+        "first-page": "A84",
+        "DOI": "10.1051/0004-6361/201424025",
+        "volume": "568",
+        "author": "Hatzes",
+        "year": "2014",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R53",
+        "doi-asserted-by": "crossref",
+        "first-page": "A93",
+        "DOI": "10.1051/0004-6361/201014795",
+        "volume": "520",
+        "author": "Hatzes",
+        "year": "2010",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R54",
+        "doi-asserted-by": "crossref",
+        "first-page": "105",
+        "DOI": "10.1086/317969",
+        "volume": "113",
+        "author": "Hayward",
+        "year": "2001",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R55",
+        "unstructured": "Henden A. A., Templeton M., Terrell D., et al. 2016, VizieR Online Data Catalog: II/336"
+      },
+      {
+        "key": "R56",
+        "doi-asserted-by": "crossref",
+        "first-page": "A39",
+        "DOI": "10.1051/0004-6361/201834672",
+        "volume": "623",
+        "author": "Hippke",
+        "year": "2019",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R57",
+        "unstructured": "Hofmann H., Kafadar K., & Wickham H. 2011, Letter-value plots: Boxplots for large data, Tech. rep., had.co.nz"
+      },
+      {
+        "key": "R58",
+        "first-page": "A27",
+        "volume": "355",
+        "author": "H\u00f8g",
+        "year": "2000",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R59",
+        "doi-asserted-by": "crossref",
+        "first-page": "1467",
+        "DOI": "10.1088/0004-637X/721/2/1467",
+        "volume": "721",
+        "author": "Howard",
+        "year": "2010",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R60",
+        "doi-asserted-by": "crossref",
+        "first-page": "A6",
+        "DOI": "10.1051/0004-6361/201219058",
+        "volume": "553",
+        "author": "Husser",
+        "year": "2013",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R61",
+        "first-page": "167",
+        "volume": "92",
+        "author": "Hut",
+        "year": "1980",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R62",
+        "doi-asserted-by": "crossref",
+        "first-page": "696",
+        "DOI": "10.1086/505780",
+        "volume": "648",
+        "author": "Ikoma",
+        "year": "2006",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R63",
+        "doi-asserted-by": "crossref",
+        "first-page": "L87",
+        "DOI": "10.1088/2041-8205/713/2/L87",
+        "volume": "713",
+        "author": "Jenkins",
+        "year": "2010",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R64",
+        "unstructured": "Jenkins J. M., Twicken J. D., McCauliff S., et al. 2016, in Proc. SPIE, 9913, Software and Cyberinfrastructure for Astronomy IV, 99133E"
+      },
+      {
+        "key": "R65",
+        "doi-asserted-by": "crossref",
+        "first-page": "A115",
+        "DOI": "10.1051/0004-6361/201833354",
+        "volume": "618",
+        "author": "Kaminski",
+        "year": "2018",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R66",
+        "doi-asserted-by": "crossref",
+        "first-page": "114401",
+        "DOI": "10.1088/1538-3873/aadf6f",
+        "volume": "130",
+        "author": "Kempton",
+        "year": "2018",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R67",
+        "doi-asserted-by": "crossref",
+        "first-page": "162",
+        "DOI": "10.3847/1538-4357/aa62a5",
+        "volume": "837",
+        "author": "Kilic",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R68",
+        "doi-asserted-by": "crossref",
+        "first-page": "2152",
+        "DOI": "10.1093/mnras/stt1435",
+        "volume": "435",
+        "author": "Kipping",
+        "year": "2013",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R69",
+        "doi-asserted-by": "crossref",
+        "first-page": "L22",
+        "DOI": "10.3847/2041-8213/abe7dc",
+        "volume": "909",
+        "author": "Kite",
+        "year": "2021",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R70",
+        "doi-asserted-by": "crossref",
+        "first-page": "111",
+        "DOI": "10.3847/1538-4357/ab6ffb",
+        "volume": "891",
+        "author": "Kite",
+        "year": "2020",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R71",
+        "unstructured": "Kurucz R. L. 1993, VizieR Online Data Catalog: VI/39"
+      },
+      {
+        "key": "R72",
+        "unstructured": "Kurucz R. L. 2013, Astrophysics Source Code Library [record ascl:1303.024]"
+      },
+      {
+        "key": "R73",
+        "doi-asserted-by": "crossref",
+        "first-page": "A36",
+        "DOI": "10.1051/0004-6361/201937222",
+        "volume": "636",
+        "author": "Lafarga",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R74",
+        "doi-asserted-by": "crossref",
+        "first-page": "A112",
+        "DOI": "10.1051/0004-6361/202140284",
+        "volume": "653",
+        "author": "Lanza",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R75",
+        "doi-asserted-by": "crossref",
+        "first-page": "40",
+        "DOI": "10.3847/1538-4357/aa6fb3",
+        "volume": "842",
+        "author": "Lee",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R76",
+        "doi-asserted-by": "crossref",
+        "first-page": "A47",
+        "DOI": "10.1051/0004-6361/201219819",
+        "volume": "551",
+        "author": "Lucy",
+        "year": "2013",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R77",
+        "doi-asserted-by": "crossref",
+        "first-page": "1264",
+        "DOI": "10.1086/591785",
+        "volume": "687",
+        "author": "Mamajek",
+        "year": "2008",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R78",
+        "doi-asserted-by": "crossref",
+        "first-page": "L171",
+        "DOI": "10.1086/345520",
+        "volume": "580",
+        "author": "Mandel",
+        "year": "2002",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R79",
+        "doi-asserted-by": "crossref",
+        "first-page": "A46",
+        "DOI": "10.1051/0004-6361/200913266",
+        "volume": "511",
+        "author": "Mathur",
+        "year": "2010",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R80",
+        "doi-asserted-by": "crossref",
+        "first-page": "A124",
+        "DOI": "10.1051/0004-6361/201322707",
+        "volume": "562",
+        "author": "Mathur",
+        "year": "2014",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R81",
+        "doi-asserted-by": "crossref",
+        "first-page": "A75",
+        "DOI": "10.1051/0004-6361/201528065",
+        "volume": "589",
+        "author": "Mazeh",
+        "year": "2016",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R82",
+        "first-page": "107070K",
+        "volume": "10707",
+        "author": "McCully",
+        "year": "2018",
+        "journal-title": "SPIE Conf. Ser."
+      },
+      {
+        "key": "R83",
+        "doi-asserted-by": "crossref",
+        "first-page": "1203",
+        "DOI": "10.1093/mnras/stt536",
+        "volume": "432",
+        "author": "McQuillan",
+        "year": "2013",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R84",
+        "doi-asserted-by": "crossref",
+        "first-page": "24",
+        "DOI": "10.1088/0067-0049/211/2/24",
+        "volume": "211",
+        "author": "McQuillan",
+        "year": "2014",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R85",
+        "doi-asserted-by": "crossref",
+        "first-page": "A112",
+        "DOI": "10.1051/0004-6361/201118464",
+        "volume": "547",
+        "author": "Mordasini",
+        "year": "2012",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R86",
+        "doi-asserted-by": "crossref",
+        "first-page": "A110",
+        "DOI": "10.1051/0004-6361/201630201",
+        "volume": "601",
+        "author": "Mortier",
+        "year": "2017",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R87",
+        "doi-asserted-by": "crossref",
+        "first-page": "A101",
+        "DOI": "10.1051/0004-6361/201424908",
+        "volume": "573",
+        "author": "Mortier",
+        "year": "2015",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R88",
+        "unstructured": "Morton T. D. 2015, Astrophysics Source Code Library [record ascl:1503.010]"
+      },
+      {
+        "key": "R89",
+        "doi-asserted-by": "crossref",
+        "first-page": "A158",
+        "DOI": "10.1051/0004-6361/202244459",
+        "volume": "668",
+        "author": "Murgas",
+        "year": "2022",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R90",
+        "first-page": "015001",
+        "volume": "5",
+        "author": "Narita",
+        "year": "2019",
+        "journal-title": "J. Astron. Telescopes Instrum. Syst."
+      },
+      {
+        "key": "R91",
+        "doi-asserted-by": "crossref",
+        "first-page": "237",
+        "DOI": "10.1007/s004100050247",
+        "volume": "126",
+        "author": "Papale",
+        "year": "1997",
+        "journal-title": "Contrib. Mineral. Petrol."
+      },
+      {
+        "key": "R92",
+        "doi-asserted-by": "crossref",
+        "first-page": "A89",
+        "DOI": "10.1051/0004-6361/201935709",
+        "volume": "630",
+        "author": "Parviainen",
+        "year": "2019",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R93",
+        "doi-asserted-by": "crossref",
+        "first-page": "179",
+        "DOI": "10.3847/1538-3881/ac51e3",
+        "volume": "163",
+        "author": "Petigura",
+        "year": "2022",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R94",
+        "doi-asserted-by": "crossref",
+        "first-page": "180",
+        "DOI": "10.3847/1538-3881/ab0e0a",
+        "volume": "157",
+        "author": "Petrovich",
+        "year": "2019",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R95",
+        "doi-asserted-by": "crossref",
+        "first-page": "A16",
+        "DOI": "10.1051/0004-6361/201629124",
+        "volume": "597",
+        "author": "Piskunov",
+        "year": "2017",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R96",
+        "doi-asserted-by": "crossref",
+        "first-page": "3568",
+        "DOI": "10.1093/mnras/stz1817",
+        "volume": "488",
+        "author": "Pu",
+        "year": "2019",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R97",
+        "first-page": "91471F",
+        "volume": "9147",
+        "author": "Quirrenbach",
+        "year": "2014",
+        "journal-title": "SPIE Conf. Ser."
+      },
+      {
+        "key": "R98",
+        "first-page": "107020W",
+        "volume": "10702",
+        "author": "Quirrenbach",
+        "year": "2018",
+        "journal-title": "SPIE Conf. Ser."
+      },
+      {
+        "key": "R99",
+        "doi-asserted-by": "crossref",
+        "first-page": "2269",
+        "DOI": "10.1093/mnras/stv1428",
+        "volume": "452",
+        "author": "Rajpaul",
+        "year": "2015",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R100",
+        "doi-asserted-by": "crossref",
+        "first-page": "015002",
+        "DOI": "10.1088/1538-3873/ac3cb4",
+        "volume": "134",
+        "author": "Rayner",
+        "year": "2022",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R101",
+        "doi-asserted-by": "crossref",
+        "first-page": "1329",
+        "DOI": "10.1111/j.1365-2966.2006.10148.x",
+        "volume": "367",
+        "author": "Reddy",
+        "year": "2006",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R102",
+        "unstructured": "Rhodes B. 2019, Astrophysics Source Code Library [record ascl:1907.024]"
+      },
+      {
+        "key": "R103",
+        "doi-asserted-by": "crossref",
+        "first-page": "014003",
+        "DOI": "10.1117/1.JATIS.1.1.014003",
+        "volume": "1",
+        "author": "Ricker",
+        "year": "2015",
+        "journal-title": "J. Astron. Telescopes Instrum. Syst."
+      },
+      {
+        "key": "R104",
+        "doi-asserted-by": "crossref",
+        "first-page": "968",
+        "DOI": "10.1086/114383",
+        "volume": "93",
+        "author": "Roberts",
+        "year": "1987",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R105",
+        "doi-asserted-by": "crossref",
+        "first-page": "2758",
+        "DOI": "10.1093/mnras/stu1907",
+        "volume": "445",
+        "author": "Rodrigues",
+        "year": "2014",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R106",
+        "first-page": "1433",
+        "volume": "467",
+        "author": "Rodrigues",
+        "year": "2017",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R107",
+        "doi-asserted-by": "crossref",
+        "first-page": "054005",
+        "DOI": "10.1088/0031-8949/90/5/054005",
+        "volume": "90",
+        "author": "Ryabchikova",
+        "year": "2015",
+        "journal-title": "Phys. Scr"
+      },
+      {
+        "key": "R108",
+        "doi-asserted-by": "crossref",
+        "first-page": "47",
+        "DOI": "10.1088/0004-637X/787/1/47",
+        "volume": "787",
+        "author": "Sanchis-Ojeda",
+        "year": "2014",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R109",
+        "doi-asserted-by": "crossref",
+        "first-page": "A35",
+        "DOI": "10.1051/0004-6361/201423808",
+        "volume": "566",
+        "author": "Santos",
+        "year": "2014",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R110",
+        "doi-asserted-by": "crossref",
+        "first-page": "21",
+        "DOI": "10.3847/1538-4365/ab3b56",
+        "volume": "244",
+        "author": "Santos",
+        "year": "2019",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R111",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.3847/1538-4365/ac033f",
+        "volume": "255",
+        "author": "Santos",
+        "year": "2021",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R112",
+        "unstructured": "Sasaki S. 1990, in Origin of the Earth, eds. Newson H.E., & Jones J.H. (New York: Oxford Univ. Press), 195"
+      },
+      {
+        "key": "R113",
+        "doi-asserted-by": "crossref",
+        "first-page": "103",
+        "DOI": "10.1088/0004-637X/737/2/103",
+        "volume": "737",
+        "author": "Schlafly",
+        "year": "2011",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R114",
+        "doi-asserted-by": "crossref",
+        "first-page": "525",
+        "DOI": "10.1086/305772",
+        "volume": "500",
+        "author": "Schlegel",
+        "year": "1998",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R115",
+        "doi-asserted-by": "crossref",
+        "first-page": "1279",
+        "DOI": "10.1086/521346",
+        "volume": "669",
+        "author": "Seager",
+        "year": "2007",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R116",
+        "doi-asserted-by": "crossref",
+        "first-page": "1163",
+        "DOI": "10.1086/498708",
+        "volume": "131",
+        "author": "Skrutskie",
+        "year": "2006",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R117",
+        "doi-asserted-by": "crossref",
+        "first-page": "1000",
+        "DOI": "10.1086/667697",
+        "volume": "124",
+        "author": "Smith",
+        "year": "2012",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R118",
+        "unstructured": "Smith J. C., Stumpe M. C., Jenkins J. M., et al. 2020a, Kepler Data Processing Handbook: Presearch Data Conditioning, ed. Jenkins J.M. (Kepler Science Document KSCI-19081-003), 8"
+      },
+      {
+        "key": "R119",
+        "unstructured": "Smith J. C., Stumpe M. C., Jenkins J. M., et al. 2020b, in Kepler Data Processing Handbook, ed. Jenkins J. (NASA, Kepler Science Document KSCI-19081-003), 131"
+      },
+      {
+        "key": "R120",
+        "doi-asserted-by": "crossref",
+        "first-page": "A76",
+        "DOI": "10.1051/0004-6361/201936384",
+        "volume": "636",
+        "author": "Spada",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R121",
+        "doi-asserted-by": "crossref",
+        "first-page": "102",
+        "DOI": "10.3847/1538-3881/aad050",
+        "volume": "156",
+        "author": "Stassun",
+        "year": "2018",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R122",
+        "doi-asserted-by": "crossref",
+        "first-page": "138",
+        "DOI": "10.3847/1538-3881/ab3467",
+        "volume": "158",
+        "author": "Stassun",
+        "year": "2019",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R123",
+        "doi-asserted-by": "crossref",
+        "first-page": "140",
+        "DOI": "10.3847/1538-4357/833/2/140",
+        "volume": "833",
+        "author": "Strugarek",
+        "year": "2016",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R124",
+        "doi-asserted-by": "crossref",
+        "first-page": "985",
+        "DOI": "10.1086/667698",
+        "volume": "124",
+        "author": "Stumpe",
+        "year": "2012",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R125",
+        "doi-asserted-by": "crossref",
+        "first-page": "100",
+        "DOI": "10.1086/674989",
+        "volume": "126",
+        "author": "Stumpe",
+        "year": "2014",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R126",
+        "doi-asserted-by": "crossref",
+        "first-page": "2613",
+        "DOI": "10.1093/mnras/sty381",
+        "volume": "476",
+        "author": "Suissa",
+        "year": "2018",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R127",
+        "unstructured": "Tenenbaum P., & Jenkins J.M. 2018, TESS Science Data Products Description Document EXP-TESS-ARC-ICD-0014 Rev D (Moffet Field, California: NASA Ames Research Center)"
+      },
+      {
+        "key": "R128",
+        "doi-asserted-by": "crossref",
+        "first-page": "239",
+        "DOI": "10.1007/s11222-006-8769-1",
+        "volume": "16",
+        "author": "Ter Braak",
+        "year": "2006",
+        "journal-title": "Stat. Comput."
+      },
+      {
+        "key": "R129",
+        "doi-asserted-by": "crossref",
+        "first-page": "61",
+        "DOI": "10.1175/1520-0477(1998)079<0061:APGTWA>2.0.CO;2",
+        "volume": "79",
+        "author": "Torrence",
+        "year": "1998",
+        "journal-title": "Bull. Am. Meteorol. Soc."
+      },
+      {
+        "key": "R130",
+        "doi-asserted-by": "crossref",
+        "first-page": "1158",
+        "DOI": "10.1088/0004-6256/140/5/1158",
+        "volume": "140",
+        "author": "Torres",
+        "year": "2010",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R131",
+        "doi-asserted-by": "crossref",
+        "first-page": "A117",
+        "DOI": "10.1051/0004-6361/201731442",
+        "volume": "609",
+        "author": "Trifonov",
+        "year": "2018",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R132",
+        "doi-asserted-by": "crossref",
+        "first-page": "A41",
+        "DOI": "10.1051/0004-6361/201937151",
+        "volume": "638",
+        "author": "Turbet",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R133",
+        "doi-asserted-by": "crossref",
+        "first-page": "064502",
+        "DOI": "10.1088/1538-3873/aab694",
+        "volume": "130",
+        "author": "Twicken",
+        "year": "2018",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R134",
+        "doi-asserted-by": "crossref",
+        "first-page": "595",
+        "DOI": "10.1051/aas:1996222",
+        "volume": "118",
+        "author": "Valenti",
+        "year": "1996",
+        "journal-title": "A&AS"
+      },
+      {
+        "key": "R135",
+        "doi-asserted-by": "crossref",
+        "first-page": "4786",
+        "DOI": "10.1093/mnras/sty1783",
+        "volume": "479",
+        "author": "Van Eylen",
+        "year": "2018",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R136",
+        "doi-asserted-by": "crossref",
+        "first-page": "2719",
+        "DOI": "10.1093/mnras/stac956",
+        "volume": "513",
+        "author": "Vines",
+        "year": "2022",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R137",
+        "first-page": "362",
+        "volume": "2198",
+        "author": "Vogt",
+        "year": "1994",
+        "journal-title": "SPIE Conf. Ser."
+      },
+      {
+        "key": "R138",
+        "doi-asserted-by": "crossref",
+        "first-page": "359",
+        "DOI": "10.1086/676120",
+        "volume": "126",
+        "author": "Vogt",
+        "year": "2014",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R139",
+        "doi-asserted-by": "crossref",
+        "first-page": "37",
+        "DOI": "10.1016/j.newar.2019.03.006",
+        "volume": "83",
+        "author": "Winn",
+        "year": "2018",
+        "journal-title": "New A Rev."
+      },
+      {
+        "key": "R140",
+        "doi-asserted-by": "crossref",
+        "first-page": "77",
+        "DOI": "10.3847/1538-4357/836/1/77",
+        "volume": "836",
+        "author": "Yee",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R141",
+        "doi-asserted-by": "crossref",
+        "first-page": "A12",
+        "DOI": "10.1051/0004-6361/201731483",
+        "volume": "609",
+        "author": "Zechmeister",
+        "year": "2018",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R142",
+        "doi-asserted-by": "crossref",
+        "first-page": "164",
+        "DOI": "10.3847/1538-4357/aa6218",
+        "volume": "837",
+        "author": "Zeng",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R143",
+        "doi-asserted-by": "crossref",
+        "first-page": "227",
+        "DOI": "10.1086/669163",
+        "volume": "125",
+        "author": "Zeng",
+        "year": "2013",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R144",
+        "doi-asserted-by": "crossref",
+        "first-page": "127",
+        "DOI": "10.3847/0004-637X/819/2/127",
+        "volume": "819",
+        "author": "Zeng",
+        "year": "2016",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R145",
+        "doi-asserted-by": "crossref",
+        "first-page": "9723",
+        "DOI": "10.1073/pnas.1812905116",
+        "volume": "116",
+        "author": "Zeng",
+        "year": "2019",
+        "journal-title": "PNAS"
+      }
+    ],
+    "container-title": [
+      "Astronomy &amp; Astrophysics"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.aanda.org/10.1051/0004-6361/202346370/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          28
+        ]
+      ],
+      "date-time": "2023-08-28T07:53:14Z",
+      "timestamp": 1693209194000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.aanda.org/10.1051/0004-6361/202346370"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          28
+        ]
+      ]
+    },
+    "references-count": 145,
+    "alternative-id": [
+      "aa46370-23"
+    ],
+    "URL": "https://doi.org/10.1051/0004-6361/202346370",
+    "relation": {},
+    "ISSN": [
+      "0004-6361",
+      "1432-0746"
+    ],
+    "issn-type": [
+      {
+        "value": "0004-6361",
+        "type": "print"
+      },
+      {
+        "value": "1432-0746",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          28
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.1051/0004-6361/202346370",
+  "original_doi": "10.1051/0004-6361/202346370"
+}
