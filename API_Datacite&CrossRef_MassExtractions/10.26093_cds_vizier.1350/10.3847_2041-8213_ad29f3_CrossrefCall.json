@@ -1,0 +1,797 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          9
+        ]
+      ],
+      "date-time": "2026-07-09T23:40:58Z",
+      "timestamp": 1783640458543,
+      "version": "3.55.0"
+    },
+    "reference-count": 48,
+    "publisher": "American Astronomical Society",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              5
+            ]
+          ],
+          "date-time": "2024-03-05T00:00:00Z",
+          "timestamp": 1709596800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 4,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              5
+            ]
+          ],
+          "date-time": "2024-03-05T00:00:00Z",
+          "timestamp": 1709596800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 4,
+        "URL": "https://iopscience.iop.org/info/page/text-and-data-mining"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000104",
+        "name": "National Aeronautics and Space Administration",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "80NSSC19K1014"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "80NSSC19K1014"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000104",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "iopscience.iop.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "ApJL"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Using JWST observations of a primary transit and two secondary eclipses for GJ 1214b, we determine an eccentricity that is more precise than a decade of HARPS data, which enables us to measure the stellar density to 2.62%. Coupled with a prior on the stellar mass from a dynamically calibrated <jats:italic>K</jats:italic>\n                  <jats:sub>S</jats:sub>\u2013<jats:italic>M</jats:italic>\n                  <jats:sub>*</jats:sub> relation, we determine <jats:italic>R</jats:italic>\n                  <jats:sub>*</jats:sub> to 1.13%\u20143 times more precise than any other published analysis of this system. Then, using the bolometric flux from a spectral energy distribution model, we determine <jats:italic>T</jats:italic>\n                  <jats:sub>eff</jats:sub> to 1.39%\u201440% more precise than systematic floors from spectroscopy. Within the global model, these also improve the planetary radius and insolation. This is a proof of concept for a new method to determine accurate <jats:italic>R</jats:italic>\n                  <jats:sub>*</jats:sub> and <jats:italic>T</jats:italic>\n                  <jats:sub>eff</jats:sub> to a precision currently achieved for only a small number of low-mass stars. By applying our method to all high signal-to-noise ratio planetary transits and occultations, we can expand the sample of precisely measured stars without assuming tidal circularization and calibrate new relations to improve our understanding of all low-mass stars.</jats:p>",
+    "DOI": "10.3847/2041-8213/ad29f3",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          6
+        ]
+      ],
+      "date-time": "2024-03-06T09:23:16Z",
+      "timestamp": 1709716996000
+    },
+    "page": "L37",
+    "update-policy": "https://doi.org/10.1088/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 27,
+    "title": [
+      "Using JWST Transits and Occultations to Determine \u223c1% Stellar Radii and Temperatures of Low-mass Stars"
+    ],
+    "prefix": "10.3847",
+    "volume": "963",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0000-8049-3797",
+        "authenticated-orcid": true,
+        "given": "Alexandra S.",
+        "family": "Mahajan",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3773-5142",
+        "authenticated-orcid": true,
+        "given": "Jason D.",
+        "family": "Eastman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4207-6615",
+        "authenticated-orcid": true,
+        "given": "James",
+        "family": "Kirk",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "2208",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          5
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "apjlad29f3bib1",
+        "doi-asserted-by": "publisher",
+        "first-page": "1004",
+        "DOI": "10.1086/506145",
+        "volume": "649",
+        "author": "Adams",
+        "year": "2006",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjlad29f3bib2",
+        "first-page": "40",
+        "author": "Alonso",
+        "year": "2018"
+      },
+      {
+        "key": "apjlad29f3bib3",
+        "doi-asserted-by": "publisher",
+        "first-page": "3178",
+        "DOI": "10.1111/j.1365-2966.2012.21496.x",
+        "volume": "424",
+        "author": "Bell",
+        "year": "2012",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjlad29f3bib4",
+        "doi-asserted-by": "publisher",
+        "first-page": "12",
+        "DOI": "10.1088/0004-637X/736/1/12",
+        "volume": "736",
+        "author": "Berta",
+        "year": "2011",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjlad29f3bib5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.7314521",
+        "author": "Bushouse",
+        "year": "2022",
+        "unstructured": "Bushouse H. Eisenhamer J. Dencheva N. 2022 JWST Calibration Pipeline, v1.8.2 Zenodo, doi: 10.5281/zenodo.7314521"
+      },
+      {
+        "key": "apjlad29f3bib6",
+        "doi-asserted-by": "publisher",
+        "first-page": "2060",
+        "DOI": "10.1093/mnras/stu089",
+        "volume": "439",
+        "author": "Casagrande",
+        "year": "2014",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjlad29f3bib7",
+        "doi-asserted-by": "publisher",
+        "first-page": "523",
+        "DOI": "10.1086/429991",
+        "volume": "626",
+        "author": "Charbonneau",
+        "year": "2005",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjlad29f3bib8",
+        "doi-asserted-by": "publisher",
+        "first-page": "891",
+        "DOI": "10.1038/nature08679",
+        "volume": "462",
+        "author": "Charbonneau",
+        "year": "2009",
+        "journal-title": "Natur"
+      },
+      {
+        "key": "apjlad29f3bib9",
+        "doi-asserted-by": "publisher",
+        "first-page": "A30",
+        "DOI": "10.1051/0004-6361/201629705",
+        "volume": "600",
+        "author": "Claret",
+        "year": "2017",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjlad29f3bib10",
+        "doi-asserted-by": "publisher",
+        "first-page": "174",
+        "DOI": "10.3847/1538-3881/ac1584",
+        "volume": "162",
+        "author": "Cloutier",
+        "year": "2021",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjlad29f3bib11",
+        "author": "Cutri",
+        "year": "2003",
+        "journal-title": "The IRSA 2MASS All-Sky Point Source Catalog, NASA/IPAC Infrared Science Archive"
+      },
+      {
+        "key": "apjlad29f3bib12",
+        "volume": "II/311",
+        "author": "Cutri",
+        "year": "2012",
+        "journal-title": "yCat"
+      },
+      {
+        "key": "apjlad29f3bib13",
+        "doi-asserted-by": "publisher",
+        "first-page": "014502",
+        "DOI": "10.1088/1538-3873/ad1412",
+        "volume": "136",
+        "author": "Eastman",
+        "year": "2024",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "apjlad29f3bib14",
+        "doi-asserted-by": "publisher",
+        "first-page": "132",
+        "DOI": "10.3847/1538-3881/aceda2",
+        "volume": "166",
+        "author": "Eastman",
+        "year": "2023",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjlad29f3bib15",
+        "author": "Eastman",
+        "year": "2019"
+      },
+      {
+        "key": "apjlad29f3bib16",
+        "doi-asserted-by": "publisher",
+        "first-page": "2269",
+        "DOI": "10.1093/mnras/stab323",
+        "volume": "506",
+        "author": "El-Badry",
+        "year": "2021",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjlad29f3bib17",
+        "doi-asserted-by": "publisher",
+        "first-page": "1407",
+        "DOI": "10.1086/587046",
+        "volume": "678",
+        "author": "Ford",
+        "year": "2008",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjlad29f3bib18",
+        "doi-asserted-by": "publisher",
+        "first-page": "127",
+        "DOI": "10.1088/0004-637X/765/2/127",
+        "volume": "765",
+        "author": "Fraine",
+        "year": "2013",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjlad29f3bib19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.26093/cds/vizier.1350",
+        "volume": "I/350",
+        "author": "Gaia Collaboration",
+        "year": "2020",
+        "journal-title": "yCat"
+      },
+      {
+        "key": "apjlad29f3bib20",
+        "doi-asserted-by": "publisher",
+        "first-page": "A21",
+        "DOI": "10.1051/0004-6361/201322362",
+        "volume": "563",
+        "author": "Gillon",
+        "year": "2014",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjlad29f3bib21",
+        "doi-asserted-by": "publisher",
+        "first-page": "0056",
+        "DOI": "10.1038/s41550-017-0056",
+        "volume": "1",
+        "author": "Gillon",
+        "year": "2017",
+        "journal-title": "NatAs"
+      },
+      {
+        "key": "apjlad29f3bib22",
+        "doi-asserted-by": "publisher",
+        "first-page": "A113",
+        "DOI": "10.1051/0004-6361/201629699",
+        "volume": "597",
+        "author": "Huber",
+        "year": "2017",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjlad29f3bib23",
+        "doi-asserted-by": "publisher",
+        "first-page": "67",
+        "DOI": "10.1038/s41586-023-06159-5",
+        "volume": "620",
+        "author": "Kempton",
+        "year": "2023",
+        "journal-title": "Natur"
+      },
+      {
+        "key": "apjlad29f3bib24",
+        "doi-asserted-by": "publisher",
+        "first-page": "2164",
+        "DOI": "10.1093/mnras/stu318",
+        "volume": "440",
+        "author": "Kipping",
+        "year": "2014",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjlad29f3bib25",
+        "doi-asserted-by": "publisher",
+        "first-page": "34",
+        "DOI": "10.3847/1538-3881/abfcd2",
+        "volume": "162",
+        "author": "Kirk",
+        "year": "2021",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjlad29f3bib26",
+        "doi-asserted-by": "publisher",
+        "first-page": "3907",
+        "DOI": "10.1093/mnras/stx752",
+        "volume": "468",
+        "author": "Kirk",
+        "year": "2017",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjlad29f3bib27",
+        "first-page": "1",
+        "volume": "6",
+        "author": "Kopal",
+        "year": "1946",
+        "journal-title": "HarMo"
+      },
+      {
+        "key": "apjlad29f3bib28",
+        "doi-asserted-by": "publisher",
+        "first-page": "A4",
+        "DOI": "10.1051/0004-6361/202039653",
+        "volume": "649",
+        "author": "Lindegren",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjlad29f3bib29",
+        "doi-asserted-by": "publisher",
+        "first-page": "63",
+        "DOI": "10.3847/1538-4357/aaf3bc",
+        "volume": "871",
+        "author": "Mann",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjlad29f3bib30",
+        "doi-asserted-by": "publisher",
+        "first-page": "267",
+        "DOI": "10.3847/1538-3881/aa7140",
+        "volume": "153",
+        "author": "Mann",
+        "year": "2017",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjlad29f3bib31",
+        "doi-asserted-by": "publisher",
+        "first-page": "64",
+        "DOI": "10.1088/0004-637X/804/1/64",
+        "volume": "804",
+        "author": "Mann",
+        "year": "2015",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjlad29f3bib32",
+        "first-page": "20",
+        "volume": "114",
+        "author": "Mayor",
+        "year": "2003",
+        "journal-title": "Msngr"
+      },
+      {
+        "key": "apjlad29f3bib33",
+        "doi-asserted-by": "publisher",
+        "first-page": "L11",
+        "DOI": "10.3847/2041-8213/accb9c",
+        "volume": "948",
+        "author": "Moran",
+        "year": "2023",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjlad29f3bib34",
+        "doi-asserted-by": "publisher",
+        "first-page": "228",
+        "DOI": "10.3847/1538-3881/ac5f55",
+        "volume": "163",
+        "author": "Patel",
+        "year": "2022",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjlad29f3bib35",
+        "doi-asserted-by": "publisher",
+        "first-page": "659",
+        "DOI": "10.1038/s41586-022-05677-y",
+        "volume": "614",
+        "author": "Rustamkulov",
+        "year": "2023",
+        "journal-title": "Natur"
+      },
+      {
+        "key": "apjlad29f3bib36",
+        "doi-asserted-by": "publisher",
+        "first-page": "103",
+        "DOI": "10.1088/0004-637X/737/2/103",
+        "volume": "737",
+        "author": "Schlafly",
+        "year": "2011",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjlad29f3bib37",
+        "doi-asserted-by": "publisher",
+        "first-page": "525",
+        "DOI": "10.1086/305772",
+        "volume": "500",
+        "author": "Schlegel",
+        "year": "1998",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjlad29f3bib38",
+        "doi-asserted-by": "publisher",
+        "first-page": "1038",
+        "DOI": "10.1086/346105",
+        "volume": "585",
+        "author": "Seager",
+        "year": "2003",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjlad29f3bib39",
+        "doi-asserted-by": "publisher",
+        "first-page": "61",
+        "DOI": "10.3847/1538-4357/aacafc",
+        "volume": "862",
+        "author": "Stassun",
+        "year": "2018",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjlad29f3bib40",
+        "doi-asserted-by": "publisher",
+        "first-page": "L33",
+        "DOI": "10.3847/2041-8213/abdaad",
+        "volume": "907",
+        "author": "Stassun",
+        "year": "2021",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjlad29f3bib41",
+        "doi-asserted-by": "publisher",
+        "first-page": "663",
+        "DOI": "10.1086/518961",
+        "volume": "172",
+        "author": "Stauffer",
+        "year": "2007",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "apjlad29f3bib42",
+        "doi-asserted-by": "publisher",
+        "first-page": "53",
+        "DOI": "10.3847/1538-4357/aaccf5",
+        "volume": "862",
+        "author": "Stevens",
+        "year": "2018",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjlad29f3bib43",
+        "doi-asserted-by": "publisher",
+        "first-page": "31",
+        "DOI": "10.3847/1538-4357/ac4bbc",
+        "volume": "927",
+        "author": "Tayar",
+        "year": "2022",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjlad29f3bib44",
+        "doi-asserted-by": "publisher",
+        "first-page": "85",
+        "DOI": "10.1088/0004-6256/148/5/85",
+        "volume": "148",
+        "author": "Thompson",
+        "year": "2014",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjlad29f3bib45",
+        "doi-asserted-by": "publisher",
+        "first-page": "4",
+        "DOI": "10.1002/asna.201211743",
+        "volume": "334",
+        "author": "Torres",
+        "year": "2013",
+        "journal-title": "AN"
+      },
+      {
+        "key": "apjlad29f3bib46",
+        "doi-asserted-by": "publisher",
+        "first-page": "67",
+        "DOI": "10.1007/s00159-009-0025-1",
+        "volume": "18",
+        "author": "Torres",
+        "year": "2010",
+        "journal-title": "A&ARv"
+      },
+      {
+        "key": "apjlad29f3bib47",
+        "doi-asserted-by": "publisher",
+        "first-page": "948",
+        "DOI": "10.1086/678764",
+        "volume": "126",
+        "author": "Vanderburg",
+        "year": "2014",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "apjlad29f3bib48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.7703086",
+        "author": "Zhang",
+        "year": "2023",
+        "unstructured": "Zhang M. 2023 GJ 1214b MIRI phase curve analysis, v1.0 Zenodo, doi: 10.5281/zenodo.7703086"
+      }
+    ],
+    "container-title": [
+      "The Astrophysical Journal Letters"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/2041-8213/ad29f3",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/2041-8213/ad29f3/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/2041-8213/ad29f3/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/2041-8213/ad29f3/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          6
+        ]
+      ],
+      "date-time": "2024-09-06T21:05:16Z",
+      "timestamp": 1725656716000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://iopscience.iop.org/article/10.3847/2041-8213/ad29f3"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          1
+        ]
+      ]
+    },
+    "references-count": 48,
+    "journal-issue": {
+      "issue": "2",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            5
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.3847/2041-8213/ad29f3",
+    "relation": {
+      "is-supplemented-by": [
+        {
+          "id-type": "doi",
+          "id": "10.17909/19mj-5h97",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "ISSN": [
+      "2041-8205",
+      "2041-8213"
+    ],
+    "issn-type": [
+      {
+        "value": "2041-8205",
+        "type": "print"
+      },
+      {
+        "value": "2041-8213",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Using JWST Transits and Occultations to Determine \u223c1% Stellar Radii and Temperatures of Low-mass Stars",
+        "name": "article_title",
+        "label": "Article Title"
+      },
+      {
+        "value": "The Astrophysical Journal Letters",
+        "name": "journal_title",
+        "label": "Journal Title"
+      },
+      {
+        "value": "paper",
+        "name": "article_type",
+        "label": "Article Type"
+      },
+      {
+        "value": "\u00a9 2024. The Author(s). Published by the American Astronomical Society.",
+        "name": "copyright_information",
+        "label": "Copyright Information"
+      },
+      {
+        "value": "2023-12-22",
+        "name": "date_received",
+        "label": "Date Received",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "2024-02-07",
+        "name": "date_accepted",
+        "label": "Date Accepted",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "2024-03-05",
+        "name": "date_epub",
+        "label": "Online publication date",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.3847/2041-8213/ad29f3",
+  "original_doi": "10.3847/2041-8213/ad29f3"
+}

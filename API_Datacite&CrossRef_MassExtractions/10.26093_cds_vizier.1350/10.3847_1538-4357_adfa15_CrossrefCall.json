@@ -1,0 +1,1022 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          13
+        ]
+      ],
+      "date-time": "2026-06-13T06:22:51Z",
+      "timestamp": 1781331771154,
+      "version": "3.54.1"
+    },
+    "reference-count": 61,
+    "publisher": "American Astronomical Society",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              26
+            ]
+          ],
+          "date-time": "2025-09-26T00:00:00Z",
+          "timestamp": 1758844800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              26
+            ]
+          ],
+          "date-time": "2025-09-26T00:00:00Z",
+          "timestamp": 1758844800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://iopscience.iop.org/info/page/text-and-data-mining"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000104",
+        "name": "National Aeronautics and Space Administration",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "23-XRP23 2-0148"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "23-XRP23 2-0148"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000104",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "EC \u2223 European Research Council",
+        "award": [
+          "101002188"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "101002188"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "iopscience.iop.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "ApJ"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>We present observations and detailed modeling of a protoplanetary disk around the T Tauri star V1098 Sco. Millimeter-wavelength data from the Atacama Large Millimeter/submillimeter Array (ALMA) show a ring of large dust grains with a central cavity that is filled with molecular gas. Near-infrared data from the Very Large Telescope (VLT) detect the scattered starlight from the disk surface and reveal a large shadow that extends over its entire southern half. We model the ALMA continuum and line data to determine the outer-disk geometry and the central stellar mass. Using radiative transfer models, we demonstrate that a misaligned inner disk, tilted in both inclination and position angle with respect to the outer disk, can reproduce the salient scattered-light features seen with VLT. Applying an image threshold algorithm to compare disk morphologies and training a neural network on a set of high-signal-to-noise-ratio models, we forward model the data and determine the inner-disk geometry. We find that the rotation axes of the inner and outer disks are misaligned by 38\u00b0 and constrain the mass and location of a perturbing planetary or substellar companion. The technique of simulation-based inference that is illustrated here is broadly applicable for radiative transfer modeling of other objects.</jats:p>",
+    "DOI": "10.3847/1538-4357/adfa15",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          26
+        ]
+      ],
+      "date-time": "2025-09-26T08:11:12Z",
+      "timestamp": 1758874272000
+    },
+    "page": "176",
+    "update-policy": "https://doi.org/10.1088/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Radiative Transfer Modeling of a Shadowed Protoplanetary Disk Assisted by a Neural Network"
+    ],
+    "prefix": "10.3847",
+    "volume": "991",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5058-695X",
+        "authenticated-orcid": true,
+        "given": "Jonathan P.",
+        "family": "Williams",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7695-7605",
+        "authenticated-orcid": true,
+        "given": "Myriam",
+        "family": "Benisty",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4438-1971",
+        "authenticated-orcid": true,
+        "given": "Christian",
+        "family": "Ginski",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2357-7692",
+        "authenticated-orcid": true,
+        "given": "Giuseppe",
+        "family": "Lodato",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5763-378X",
+        "authenticated-orcid": true,
+        "given": "Maria",
+        "family": "Vincent",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "2208",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          26
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "apjadfa15bib1",
+        "doi-asserted-by": "publisher",
+        "first-page": "483",
+        "DOI": "10.1146/annurev-astro-031220-010302",
+        "type": "journal-article",
+        "volume": "58",
+        "author": "Andrews",
+        "year": "2020",
+        "journal-title": "ARA&A"
+      },
+      {
+        "key": "apjadfa15bib2",
+        "doi-asserted-by": "publisher",
+        "first-page": "572",
+        "DOI": "10.1093/mnras/stz3361",
+        "type": "journal-article",
+        "volume": "492",
+        "author": "Ansdell",
+        "year": "2020",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjadfa15bib3",
+        "doi-asserted-by": "publisher",
+        "first-page": "167",
+        "DOI": "10.3847/1538-4357/ac7c74",
+        "type": "journal-article",
+        "volume": "935",
+        "author": "Astropy Collaboration",
+        "year": "2022",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjadfa15bib4",
+        "doi-asserted-by": "publisher",
+        "first-page": "123",
+        "DOI": "10.3847/1538-3881/aabc4f",
+        "type": "journal-article",
+        "volume": "156",
+        "author": "Astropy Collaboration",
+        "year": "2018",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjadfa15bib5",
+        "doi-asserted-by": "publisher",
+        "first-page": "A33",
+        "DOI": "10.1051/0004-6361/201322068",
+        "type": "journal-article",
+        "volume": "558",
+        "author": "Astropy Collaboration",
+        "year": "2013",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjadfa15bib6",
+        "doi-asserted-by": "publisher",
+        "first-page": "44",
+        "DOI": "10.3847/1538-4357/aab846",
+        "type": "journal-article",
+        "volume": "863",
+        "author": "Avenhaus",
+        "year": "2018",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjadfa15bib7",
+        "first-page": "423",
+        "author": "Bae",
+        "year": "2023",
+        "type": "conference-proceedings"
+      },
+      {
+        "key": "apjadfa15bib8",
+        "doi-asserted-by": "publisher",
+        "first-page": "1505",
+        "DOI": "10.1111/j.1365-2966.2009.15773.x",
+        "type": "journal-article",
+        "volume": "401",
+        "author": "Bate",
+        "year": "2010",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjadfa15bib9",
+        "doi-asserted-by": "publisher",
+        "first-page": "418",
+        "DOI": "10.1038/nature11560",
+        "type": "journal-article",
+        "volume": "491",
+        "author": "Batygin",
+        "year": "2012",
+        "journal-title": "Natur"
+      },
+      {
+        "key": "apjadfa15bib10",
+        "first-page": "605",
+        "author": "Benisty",
+        "year": "2023",
+        "type": "conference-proceedings"
+      },
+      {
+        "key": "apjadfa15bib11",
+        "doi-asserted-by": "publisher",
+        "first-page": "A171",
+        "DOI": "10.1051/0004-6361/201833913",
+        "type": "journal-article",
+        "volume": "619",
+        "author": "Benisty",
+        "year": "2018",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjadfa15bib12",
+        "doi-asserted-by": "publisher",
+        "first-page": "A148",
+        "DOI": "10.1051/0004-6361/201118136",
+        "type": "journal-article",
+        "volume": "539",
+        "author": "Birnstiel",
+        "year": "2012",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjadfa15bib13",
+        "doi-asserted-by": "publisher",
+        "first-page": "A183",
+        "DOI": "10.1051/0004-6361/202142070",
+        "type": "journal-article",
+        "volume": "658",
+        "author": "Bohn",
+        "year": "2022",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjadfa15bib14",
+        "doi-asserted-by": "publisher",
+        "first-page": "117",
+        "DOI": "10.3847/1538-4357/ad8ebc",
+        "type": "journal-article",
+        "volume": "978",
+        "author": "Carpenter",
+        "year": "2025",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjadfa15bib15",
+        "doi-asserted-by": "publisher",
+        "first-page": "A1",
+        "DOI": "10.1051/0004-6361/202450172",
+        "type": "journal-article",
+        "volume": "688",
+        "author": "Castro-Ginard",
+        "year": "2024",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjadfa15bib16",
+        "doi-asserted-by": "publisher",
+        "first-page": "71",
+        "DOI": "10.3847/1538-3881/aacead",
+        "type": "journal-article",
+        "volume": "156",
+        "author": "Cody",
+        "year": "2018",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjadfa15bib17",
+        "doi-asserted-by": "publisher",
+        "first-page": "A19",
+        "DOI": "10.1051/0004-6361/202347109",
+        "type": "journal-article",
+        "volume": "681",
+        "author": "Columba",
+        "year": "2024",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjadfa15bib18",
+        "doi-asserted-by": "publisher",
+        "first-page": "30055",
+        "DOI": "10.1073/pnas.1912789117",
+        "type": "journal-article",
+        "volume": "117",
+        "author": "Cranmer",
+        "year": "2020",
+        "journal-title": "PNAS"
+      },
+      {
+        "key": "apjadfa15bib19",
+        "doi-asserted-by": "publisher",
+        "first-page": "314",
+        "DOI": "10.1086/498861",
+        "type": "journal-article",
+        "volume": "638",
+        "author": "D\u2019Alessio",
+        "year": "2006",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjadfa15bib20",
+        "first-page": "503",
+        "type": "journal-article",
+        "volume": "300",
+        "author": "Dorschner",
+        "year": "1995",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjadfa15bib21",
+        "author": "Dullemond",
+        "year": "2012",
+        "unstructured": "Dullemond C. P. Juhasz A. Pohl A. 2012 RADMC-3D: A multi-purpose radiative transfer tool, Astrophysics Source Code Library ascl: 1202.015 2012ascl.soft02015D",
+        "type": "software"
+      },
+      {
+        "key": "apjadfa15bib22",
+        "doi-asserted-by": "publisher",
+        "first-page": "4459",
+        "DOI": "10.1093/mnras/stx2523",
+        "type": "journal-article",
+        "volume": "473",
+        "author": "Facchini",
+        "year": "2018",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjadfa15bib23",
+        "doi-asserted-by": "publisher",
+        "first-page": "2142",
+        "DOI": "10.1093/mnras/stt877",
+        "type": "journal-article",
+        "volume": "433",
+        "author": "Facchini",
+        "year": "2013",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjadfa15bib24",
+        "doi-asserted-by": "publisher",
+        "first-page": "18",
+        "DOI": "10.3847/2515-5172/ac4bb7",
+        "type": "journal-article",
+        "volume": "6",
+        "author": "Fitton",
+        "year": "2022",
+        "journal-title": "RNAAS"
+      },
+      {
+        "key": "apjadfa15bib25",
+        "doi-asserted-by": "publisher",
+        "first-page": "621",
+        "DOI": "10.1086/590926",
+        "type": "journal-article",
+        "volume": "686",
+        "author": "Ford",
+        "year": "2008",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjadfa15bib26",
+        "doi-asserted-by": "publisher",
+        "first-page": "306",
+        "DOI": "10.1086/670067",
+        "type": "journal-article",
+        "volume": "125",
+        "author": "Foreman-Mackey",
+        "year": "2013",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "apjadfa15bib27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.26093/cds/vizier.1350",
+        "type": "journal-article",
+        "volume": "1350",
+        "author": "Gaia Collaboration",
+        "year": "2020",
+        "journal-title": "yCat"
+      },
+      {
+        "key": "apjadfa15bib28",
+        "doi-asserted-by": "publisher",
+        "first-page": "A94",
+        "DOI": "10.1051/0004-6361/201833872",
+        "type": "journal-article",
+        "volume": "620",
+        "author": "Garufi",
+        "year": "2018",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjadfa15bib29",
+        "doi-asserted-by": "publisher",
+        "first-page": "A119",
+        "DOI": "10.1051/0004-6361/202038383",
+        "type": "journal-article",
+        "volume": "642",
+        "author": "Ginski",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjadfa15bib30",
+        "doi-asserted-by": "publisher",
+        "first-page": "549",
+        "DOI": "10.1086/116082",
+        "type": "journal-article",
+        "volume": "103",
+        "author": "Gregorio-Hetem",
+        "year": "1992",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjadfa15bib31",
+        "doi-asserted-by": "publisher",
+        "first-page": "90",
+        "DOI": "10.1109/MCSE.2007.55",
+        "type": "journal-article",
+        "volume": "9",
+        "author": "Hunter",
+        "year": "2007",
+        "journal-title": "CSE"
+      },
+      {
+        "key": "apjadfa15bib32",
+        "first-page": "641",
+        "type": "journal-article",
+        "volume": "292",
+        "author": "Jaeger",
+        "year": "1994",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjadfa15bib33",
+        "doi-asserted-by": "publisher",
+        "first-page": "A30",
+        "DOI": "10.1051/0004-6361/202245461",
+        "type": "journal-article",
+        "volume": "672",
+        "author": "Kaeufer",
+        "year": "2023",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjadfa15bib34",
+        "doi-asserted-by": "publisher",
+        "first-page": "L17",
+        "DOI": "10.3847/2041-8213/adc431",
+        "type": "journal-article",
+        "volume": "984",
+        "author": "Longarini",
+        "year": "2025",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjadfa15bib35",
+        "doi-asserted-by": "publisher",
+        "first-page": "L44",
+        "DOI": "10.1088/2041-8205/798/2/L44",
+        "type": "journal-article",
+        "volume": "798",
+        "author": "Marino",
+        "year": "2015",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjadfa15bib36",
+        "doi-asserted-by": "publisher",
+        "first-page": "L10",
+        "DOI": "10.1051/0004-6361/201730949",
+        "type": "journal-article",
+        "volume": "604",
+        "author": "Min",
+        "year": "2017",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjadfa15bib37",
+        "doi-asserted-by": "publisher",
+        "first-page": "A121",
+        "DOI": "10.1051/0004-6361/201936509",
+        "type": "journal-article",
+        "volume": "635",
+        "author": "Muro-Arena",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjadfa15bib38",
+        "doi-asserted-by": "publisher",
+        "first-page": "20",
+        "DOI": "10.1093/mnras/sty2267",
+        "type": "journal-article",
+        "volume": "481",
+        "author": "Nealon",
+        "year": "2018",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjadfa15bib39",
+        "doi-asserted-by": "publisher",
+        "first-page": "1946",
+        "DOI": "10.1093/mnras/stt1136",
+        "type": "journal-article",
+        "volume": "434",
+        "author": "Nixon",
+        "year": "2013",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjadfa15bib40",
+        "doi-asserted-by": "publisher",
+        "first-page": "8",
+        "DOI": "10.3847/1538-4357/acd384",
+        "type": "journal-article",
+        "volume": "951",
+        "author": "Ohashi",
+        "year": "2023",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjadfa15bib41",
+        "doi-asserted-by": "publisher",
+        "first-page": "2834",
+        "DOI": "10.1093/mnras/stx1033",
+        "type": "journal-article",
+        "volume": "469",
+        "author": "Owen",
+        "year": "2017",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjadfa15bib42",
+        "author": "Paszke",
+        "year": "2019",
+        "type": "preprint"
+      },
+      {
+        "key": "apjadfa15bib43",
+        "doi-asserted-by": "publisher",
+        "first-page": "794",
+        "DOI": "10.1093/mnras/stw1300",
+        "type": "journal-article",
+        "volume": "461",
+        "author": "Pecaut",
+        "year": "2016",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjadfa15bib44",
+        "doi-asserted-by": "publisher",
+        "first-page": "2825",
+        "DOI": "10.48550/arXiv.1201.0490",
+        "type": "journal-article",
+        "volume": "12",
+        "author": "Pedregosa",
+        "year": "2011",
+        "journal-title": "JMLR"
+      },
+      {
+        "key": "apjadfa15bib45",
+        "doi-asserted-by": "publisher",
+        "first-page": "52",
+        "DOI": "10.3847/1538-4357/aa94c2",
+        "type": "journal-article",
+        "volume": "850",
+        "author": "Pohl",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjadfa15bib46",
+        "doi-asserted-by": "publisher",
+        "first-page": "1270",
+        "DOI": "10.1093/mnras/sty647",
+        "type": "journal-article",
+        "volume": "477",
+        "author": "Price",
+        "year": "2018",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjadfa15bib47",
+        "doi-asserted-by": "publisher",
+        "first-page": "A171",
+        "DOI": "10.1051/0004-6361/202038352",
+        "type": "journal-article",
+        "volume": "642",
+        "author": "Ribas",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjadfa15bib48",
+        "doi-asserted-by": "publisher",
+        "first-page": "A65",
+        "DOI": "10.1051/0004-6361/202348421",
+        "type": "journal-article",
+        "volume": "685",
+        "author": "Ruzza",
+        "year": "2024",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjadfa15bib49",
+        "doi-asserted-by": "publisher",
+        "first-page": "45",
+        "DOI": "10.3847/1538-4357/aa9990",
+        "type": "journal-article",
+        "volume": "851",
+        "author": "Sheehan",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjadfa15bib50",
+        "doi-asserted-by": "publisher",
+        "first-page": "4527",
+        "DOI": "10.1093/mnras/sty409",
+        "type": "journal-article",
+        "volume": "476",
+        "author": "Tazzari",
+        "year": "2018",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjadfa15bib51",
+        "doi-asserted-by": "publisher",
+        "first-page": "1220",
+        "DOI": "10.21105/joss.01220",
+        "type": "journal-article",
+        "volume": "4",
+        "author": "Teague",
+        "year": "2019",
+        "journal-title": "JOSS"
+      },
+      {
+        "key": "apjadfa15bib52",
+        "doi-asserted-by": "publisher",
+        "first-page": "2",
+        "DOI": "10.1007/978-3-319-55333-7_2",
+        "type": "book",
+        "author": "Triaud",
+        "year": "2018"
+      },
+      {
+        "key": "apjadfa15bib53",
+        "doi-asserted-by": "publisher",
+        "first-page": "177",
+        "DOI": "10.3847/1538-4357/aaaa6b",
+        "type": "journal-article",
+        "volume": "854",
+        "author": "van der Marel",
+        "year": "2018",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjadfa15bib54",
+        "doi-asserted-by": "publisher",
+        "first-page": "A64",
+        "DOI": "10.1051/0004-6361/201834996",
+        "type": "journal-article",
+        "volume": "633",
+        "author": "van Holstein",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjadfa15bib55",
+        "doi-asserted-by": "publisher",
+        "first-page": "A7",
+        "DOI": "10.1051/0004-6361/201834800",
+        "type": "journal-article",
+        "volume": "624",
+        "author": "Villenave",
+        "year": "2019",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjadfa15bib56",
+        "doi-asserted-by": "publisher",
+        "first-page": "95",
+        "DOI": "10.3847/1538-4357/ad0c4b",
+        "type": "journal-article",
+        "volume": "961",
+        "author": "Villenave",
+        "year": "2024",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjadfa15bib57",
+        "doi-asserted-by": "publisher",
+        "first-page": "261",
+        "DOI": "10.1038/s41592-019-0686-2",
+        "type": "journal-article",
+        "volume": "17",
+        "author": "Virtanen",
+        "year": "2020",
+        "journal-title": "NatMe"
+      },
+      {
+        "key": "apjadfa15bib58",
+        "doi-asserted-by": "publisher",
+        "first-page": "32",
+        "DOI": "10.3847/0004-637X/830/1/32",
+        "type": "journal-article",
+        "volume": "830",
+        "author": "Williams",
+        "year": "2016",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjadfa15bib59",
+        "doi-asserted-by": "publisher",
+        "first-page": "605",
+        "DOI": "10.1086/374598",
+        "type": "journal-article",
+        "volume": "589",
+        "author": "Wu",
+        "year": "2003",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjadfa15bib60",
+        "doi-asserted-by": "publisher",
+        "first-page": "741",
+        "DOI": "10.1177/25.7.70454",
+        "type": "journal-article",
+        "volume": "25",
+        "author": "Zack",
+        "year": "1977",
+        "journal-title": "JHC"
+      },
+      {
+        "key": "apjadfa15bib61",
+        "doi-asserted-by": "publisher",
+        "first-page": "4221",
+        "DOI": "10.1093/mnras/sty3358",
+        "type": "journal-article",
+        "volume": "483",
+        "author": "Zhu",
+        "year": "2019",
+        "journal-title": "MNRAS"
+      }
+    ],
+    "container-title": [
+      "The Astrophysical Journal"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-4357/adfa15",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-4357/adfa15/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-4357/adfa15/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-4357/adfa15/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          26
+        ]
+      ],
+      "date-time": "2025-09-26T08:11:13Z",
+      "timestamp": 1758874273000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-4357/adfa15"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          26
+        ]
+      ]
+    },
+    "references-count": 61,
+    "journal-issue": {
+      "issue": "2",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            26
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.3847/1538-4357/adfa15",
+    "relation": {},
+    "ISSN": [
+      "0004-637X",
+      "1538-4357"
+    ],
+    "issn-type": [
+      {
+        "value": "0004-637X",
+        "type": "print"
+      },
+      {
+        "value": "1538-4357",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          26
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Radiative Transfer Modeling of a Shadowed Protoplanetary Disk Assisted by a Neural Network",
+        "name": "article_title",
+        "label": "Article Title"
+      },
+      {
+        "value": "The Astrophysical Journal",
+        "name": "journal_title",
+        "label": "Journal Title"
+      },
+      {
+        "value": "paper",
+        "name": "article_type",
+        "label": "Article Type"
+      },
+      {
+        "value": "\u00a9 2025. The Author(s). Published by the American Astronomical Society.",
+        "name": "copyright_information",
+        "label": "Copyright Information"
+      },
+      {
+        "value": "2025-06-10",
+        "name": "date_received",
+        "label": "Date Received",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "2025-08-07",
+        "name": "date_accepted",
+        "label": "Date Accepted",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "2025-09-26",
+        "name": "date_epub",
+        "label": "Online publication date",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.3847/1538-4357/adfa15",
+  "original_doi": "10.3847/1538-4357/adfa15"
+}

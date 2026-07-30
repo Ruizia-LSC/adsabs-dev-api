@@ -1,0 +1,861 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          23
+        ]
+      ],
+      "date-time": "2026-02-23T19:56:18Z",
+      "timestamp": 1771876578047,
+      "version": "3.50.1"
+    },
+    "reference-count": 37,
+    "publisher": "American Astronomical Society",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              15
+            ]
+          ],
+          "date-time": "2024-03-15T00:00:00Z",
+          "timestamp": 1710460800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              15
+            ]
+          ],
+          "date-time": "2024-03-15T00:00:00Z",
+          "timestamp": 1710460800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://iopscience.iop.org/info/page/text-and-data-mining"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000104",
+        "name": "National Aeronautics and Space Administration",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "80NSSC23K0269"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "80NSSC23K0269"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000104",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000104",
+        "name": "National Aeronautics and Space Administration",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "80NSSC19K1475"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "80NSSC19K1475"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000104",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "iopscience.iop.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "AJ"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>In order to understand the relationship between planet multiplicity, mass, and composition, we present newly measured masses of five planets in two planetary systems: Kepler-323 and Kepler-104. We used the HIRES instrument at the W.M. Keck Observatory to collect 79 new radial velocity (RV) measurements for Kepler-323, which we combined with 48 literature RVs from TNG/HARPS-N. We also conducted a reanalysis of the Kepler-104 system, using 44 previously published RV measurements. Kepler-323 b and c have masses of <jats:inline-formula>\n                     <jats:tex-math>\n\n</jats:tex-math>\n                     <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" overflow=\"scroll\">\n                        <mml:msubsup>\n                           <mml:mrow>\n                              <mml:mn>2.0</mml:mn>\n                           </mml:mrow>\n                           <mml:mrow>\n                              <mml:mo>\u2212</mml:mo>\n                              <mml:mn>1.1</mml:mn>\n                           </mml:mrow>\n                           <mml:mrow>\n                              <mml:mo>+</mml:mo>\n                              <mml:mn>1.2</mml:mn>\n                           </mml:mrow>\n                        </mml:msubsup>\n                     </mml:math>\n                     <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"ajad2840ieqn1.gif\" xlink:type=\"simple\"/>\n                  </jats:inline-formula>\n                  <jats:italic>M</jats:italic>\n                  <jats:sub>\u2295</jats:sub> and 6.5\u00b11.6 <jats:italic>M</jats:italic>\n                  <jats:sub>\u2295</jats:sub>, respectively, whereas the three Kepler-104 planets are more massive (10.0\u00b12.8 <jats:italic>M</jats:italic>\n                  <jats:sub>\u2295</jats:sub>, <jats:inline-formula>\n                     <jats:tex-math>\n\n</jats:tex-math>\n                     <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" overflow=\"scroll\">\n                        <mml:msubsup>\n                           <mml:mrow>\n                              <mml:mn>7.1</mml:mn>\n                           </mml:mrow>\n                           <mml:mrow>\n                              <mml:mo>\u2212</mml:mo>\n                              <mml:mn>3.5</mml:mn>\n                           </mml:mrow>\n                           <mml:mrow>\n                              <mml:mo>+</mml:mo>\n                              <mml:mn>3.8</mml:mn>\n                           </mml:mrow>\n                        </mml:msubsup>\n                     </mml:math>\n                     <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"ajad2840ieqn2.gif\" xlink:type=\"simple\"/>\n                  </jats:inline-formula>\n                  <jats:italic>M</jats:italic>\n                  <jats:sub>\u2295</jats:sub>, and <jats:inline-formula>\n                     <jats:tex-math>\n\n</jats:tex-math>\n                     <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" overflow=\"scroll\">\n                        <mml:msubsup>\n                           <mml:mrow>\n                              <mml:mn>5.5</mml:mn>\n                           </mml:mrow>\n                           <mml:mrow>\n                              <mml:mo>\u2212</mml:mo>\n                              <mml:mn>3.5</mml:mn>\n                           </mml:mrow>\n                           <mml:mrow>\n                              <mml:mo>+</mml:mo>\n                              <mml:mn>4.6</mml:mn>\n                           </mml:mrow>\n                        </mml:msubsup>\n                     </mml:math>\n                     <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"ajad2840ieqn3.gif\" xlink:type=\"simple\"/>\n                  </jats:inline-formula>\n                  <jats:italic>M</jats:italic>\n                  <jats:sub>\u2295</jats:sub> for planets b, c, and d, respectively). The Kepler-104 planets have densities consistent with rocky cores overlaid with gaseous envelopes (<jats:inline-formula>\n                     <jats:tex-math>\n\n</jats:tex-math>\n                     <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" overflow=\"scroll\">\n                        <mml:msubsup>\n                           <mml:mrow>\n                              <mml:mn>4.1</mml:mn>\n                           </mml:mrow>\n                           <mml:mrow>\n                              <mml:mo>\u2212</mml:mo>\n                              <mml:mn>1.1</mml:mn>\n                           </mml:mrow>\n                           <mml:mrow>\n                              <mml:mo>+</mml:mo>\n                              <mml:mn>1.2</mml:mn>\n                           </mml:mrow>\n                        </mml:msubsup>\n                     </mml:math>\n                     <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"ajad2840ieqn4.gif\" xlink:type=\"simple\"/>\n                  </jats:inline-formula>  g cc<jats:sup>\u22121</jats:sup>, <jats:inline-formula>\n                     <jats:tex-math>\n\n</jats:tex-math>\n                     <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" overflow=\"scroll\">\n                        <mml:msubsup>\n                           <mml:mrow>\n                              <mml:mn>2.9</mml:mn>\n                           </mml:mrow>\n                           <mml:mrow>\n                              <mml:mo>\u2212</mml:mo>\n                              <mml:mn>1.5</mml:mn>\n                           </mml:mrow>\n                           <mml:mrow>\n                              <mml:mo>+</mml:mo>\n                              <mml:mn>1.7</mml:mn>\n                           </mml:mrow>\n                        </mml:msubsup>\n                     </mml:math>\n                     <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"ajad2840ieqn5.gif\" xlink:type=\"simple\"/>\n                  </jats:inline-formula> g cc<jats:sup>\u22121</jats:sup>, and <jats:inline-formula>\n                     <jats:tex-math>\n\n</jats:tex-math>\n                     <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" overflow=\"scroll\">\n                        <mml:msubsup>\n                           <mml:mrow>\n                              <mml:mn>1.6</mml:mn>\n                           </mml:mrow>\n                           <mml:mrow>\n                              <mml:mo>\u2212</mml:mo>\n                              <mml:mn>1.1</mml:mn>\n                           </mml:mrow>\n                           <mml:mrow>\n                              <mml:mo>+</mml:mo>\n                              <mml:mn>1.5</mml:mn>\n                           </mml:mrow>\n                        </mml:msubsup>\n                     </mml:math>\n                     <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"ajad2840ieqn6.gif\" xlink:type=\"simple\"/>\n                  </jats:inline-formula> g cc<jats:sup>\u22121</jats:sup> respectively), whereas the Kepler-323 planets are consistent with having rocky compositions (<jats:inline-formula>\n                     <jats:tex-math>\n\n</jats:tex-math>\n                     <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" overflow=\"scroll\">\n                        <mml:msubsup>\n                           <mml:mrow>\n                              <mml:mn>4.5</mml:mn>\n                           </mml:mrow>\n                           <mml:mrow>\n                              <mml:mo>\u2212</mml:mo>\n                              <mml:mn>2.4</mml:mn>\n                           </mml:mrow>\n                           <mml:mrow>\n                              <mml:mo>+</mml:mo>\n                              <mml:mn>2.8</mml:mn>\n                           </mml:mrow>\n                        </mml:msubsup>\n                     </mml:math>\n                     <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"ajad2840ieqn7.gif\" xlink:type=\"simple\"/>\n                  </jats:inline-formula>  g cc<jats:sup>\u22121</jats:sup> and <jats:inline-formula>\n                     <jats:tex-math>\n\n</jats:tex-math>\n                     <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" overflow=\"scroll\">\n                        <mml:msubsup>\n                           <mml:mrow>\n                              <mml:mn>9.9</mml:mn>\n                           </mml:mrow>\n                           <mml:mrow>\n                              <mml:mo>\u2212</mml:mo>\n                              <mml:mn>2.5</mml:mn>\n                           </mml:mrow>\n                           <mml:mrow>\n                              <mml:mo>+</mml:mo>\n                              <mml:mn>2.7</mml:mn>\n                           </mml:mrow>\n                        </mml:msubsup>\n                     </mml:math>\n                     <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"ajad2840ieqn8.gif\" xlink:type=\"simple\"/>\n                  </jats:inline-formula> g cc<jats:sup>\u22121</jats:sup>). The Kepler-104 system has among the lowest values for gap complexity (<jats:inline-formula>\n                     <jats:tex-math>\n\n</jats:tex-math>\n                     <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" overflow=\"scroll\">\n                        <mml:mi class=\"MJX-tex-calligraphic\" mathvariant=\"script\">C</mml:mi>\n                     </mml:math>\n                     <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"ajad2840ieqn9.gif\" xlink:type=\"simple\"/>\n                  </jats:inline-formula> = 0.004) and mass partitioning (<jats:inline-formula>\n                     <jats:tex-math>\n\n</jats:tex-math>\n                     <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" overflow=\"scroll\">\n                        <mml:mi class=\"MJX-tex-calligraphic\" mathvariant=\"script\">Q</mml:mi>\n                     </mml:math>\n                     <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"ajad2840ieqn10.gif\" xlink:type=\"simple\"/>\n                  </jats:inline-formula> = 0.03); whereas, the Kepler-323 planets have a mass partitioning similar to that of the Inner Solar System (<jats:inline-formula>\n                     <jats:tex-math>\n\n</jats:tex-math>\n                     <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" overflow=\"scroll\">\n                        <mml:mi class=\"MJX-tex-calligraphic\" mathvariant=\"script\">Q</mml:mi>\n                     </mml:math>\n                     <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"ajad2840ieqn11.gif\" xlink:type=\"simple\"/>\n                  </jats:inline-formula> = 0.28 and <jats:inline-formula>\n                     <jats:tex-math>\n\n</jats:tex-math>\n                     <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" overflow=\"scroll\">\n                        <mml:mi class=\"MJX-tex-calligraphic\" mathvariant=\"script\">Q</mml:mi>\n                     </mml:math>\n                     <jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"ajad2840ieqn12.gif\" xlink:type=\"simple\"/>\n                  </jats:inline-formula> = 0.24, respectively). For both exoplanet systems, the uncertainty in the mass partitioning is affected equally by (1) individual mass errors of the planets and (2) the possible existence of undetected low-mass planets, meaning that both improved mass characterization and improved sensitivity to low-mass planets in these systems would better elucidate the mass distribution among the planets.</jats:p>",
+    "DOI": "10.3847/1538-3881/ad2840",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          15
+        ]
+      ],
+      "date-time": "2024-03-15T11:33:40Z",
+      "timestamp": 1710502420000
+    },
+    "page": "160",
+    "update-policy": "https://doi.org/10.1088/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "A Tale of Two Peas in a Pod: The Kepler-323 and Kepler-104 Systems"
+    ],
+    "prefix": "10.3847",
+    "volume": "167",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0007-6386-151X",
+        "authenticated-orcid": false,
+        "given": "C. Alexander",
+        "family": "Thomas",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3725-3058",
+        "authenticated-orcid": true,
+        "given": "Lauren M.",
+        "family": "Weiss",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0531-1073",
+        "authenticated-orcid": true,
+        "given": "Howard",
+        "family": "Isaacson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0298-8089",
+        "authenticated-orcid": true,
+        "given": "Hilke E.",
+        "family": "Schlichting",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7708-2364",
+        "authenticated-orcid": true,
+        "given": "Corey",
+        "family": "Beard",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4480-310X",
+        "authenticated-orcid": true,
+        "given": "Casey L.",
+        "family": "Brinkman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1125-2564",
+        "authenticated-orcid": true,
+        "given": "Ashley",
+        "family": "Chontos",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4297-5506",
+        "authenticated-orcid": true,
+        "given": "Paul",
+        "family": "Dalba",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8958-0683",
+        "authenticated-orcid": true,
+        "given": "Fei",
+        "family": "Dai",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8965-3969",
+        "authenticated-orcid": true,
+        "given": "Steven",
+        "family": "Giacalone",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8342-7736",
+        "authenticated-orcid": true,
+        "given": "Jack",
+        "family": "Lubin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4290-6826",
+        "authenticated-orcid": true,
+        "given": "Judah",
+        "family": "Van Zandt",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7670-670X",
+        "authenticated-orcid": true,
+        "given": "Malena",
+        "family": "Rice",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "2208",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          15
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ajad2840bib1",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.3847/PSJ/abd022",
+        "volume": "2",
+        "author": "Agol",
+        "year": "2021",
+        "journal-title": "PSJ"
+      },
+      {
+        "key": "ajad2840bib2",
+        "doi-asserted-by": "publisher",
+        "first-page": "A33",
+        "DOI": "10.1051/0004-6361/202346211",
+        "volume": "677",
+        "author": "Bonomo",
+        "year": "2023",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "ajad2840bib3",
+        "doi-asserted-by": "publisher",
+        "first-page": "88",
+        "DOI": "10.3847/1538-3881/acad83",
+        "volume": "165",
+        "author": "Brinkman",
+        "year": "2023",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "ajad2840bib4",
+        "doi-asserted-by": "publisher",
+        "first-page": "500",
+        "DOI": "10.1086/133755",
+        "volume": "108",
+        "author": "Butler",
+        "year": "1996",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "ajad2840bib5",
+        "doi-asserted-by": "publisher",
+        "first-page": "62",
+        "DOI": "10.3847/1538-4357/ac3ed6",
+        "volume": "926",
+        "author": "Chachan",
+        "year": "2022",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "ajad2840bib6",
+        "doi-asserted-by": "publisher",
+        "first-page": "264",
+        "DOI": "10.3847/1538-3881/aae828",
+        "volume": "156",
+        "author": "Fulton",
+        "year": "2018",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "ajad2840bib7",
+        "doi-asserted-by": "publisher",
+        "first-page": "044504",
+        "DOI": "10.1088/1538-3873/aaaaa8",
+        "volume": "130",
+        "author": "Fulton",
+        "year": "2018",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "ajad2840bib8",
+        "doi-asserted-by": "publisher",
+        "first-page": "109",
+        "DOI": "10.3847/1538-3881/aa80eb",
+        "volume": "154",
+        "author": "Fulton",
+        "year": "2017",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "ajad2840bib9",
+        "doi-asserted-by": "publisher",
+        "first-page": "66",
+        "DOI": "10.3847/1538-3881/aa7b70",
+        "volume": "154",
+        "author": "Furlan",
+        "year": "2017",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "ajad2840bib10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.26093/cds/vizier.1350",
+        "volume": "I/350",
+        "author": "Gaia Collaboration",
+        "year": "2020",
+        "journal-title": "yCat"
+      },
+      {
+        "key": "ajad2840bib11",
+        "doi-asserted-by": "publisher",
+        "first-page": "281",
+        "DOI": "10.3847/1538-3881/ab8e3c",
+        "volume": "159",
+        "author": "Gilbert",
+        "year": "2020",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "ajad2840bib12",
+        "doi-asserted-by": "publisher",
+        "first-page": "759",
+        "DOI": "10.1093/mnras/sty290",
+        "volume": "476",
+        "author": "Ginzburg",
+        "year": "2018",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "ajad2840bib13",
+        "doi-asserted-by": "publisher",
+        "first-page": "80",
+        "DOI": "10.1088/0004-637X/787/1/80",
+        "volume": "787",
+        "author": "Hadden",
+        "year": "2014",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "ajad2840bib14",
+        "doi-asserted-by": "publisher",
+        "first-page": "5",
+        "DOI": "10.3847/1538-3881/aa71ef",
+        "volume": "154",
+        "author": "Hadden",
+        "year": "2017",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "ajad2840bib15",
+        "doi-asserted-by": "publisher",
+        "first-page": "1467",
+        "DOI": "10.1088/0004-637x/721/2/1467",
+        "volume": "721",
+        "author": "Howard",
+        "year": "2010",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "ajad2840bib16",
+        "doi-asserted-by": "publisher",
+        "first-page": "A103",
+        "DOI": "10.1051/0004-6361/201423497",
+        "volume": "566",
+        "author": "Lillo-Box",
+        "year": "2014",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "ajad2840bib17",
+        "doi-asserted-by": "publisher",
+        "first-page": "L73",
+        "DOI": "10.1088/2041-8205/712/1/L73",
+        "volume": "712",
+        "author": "Marcus",
+        "year": "2010",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "ajad2840bib18",
+        "doi-asserted-by": "publisher",
+        "first-page": "20",
+        "DOI": "10.1088/0067-0049/210/2/20",
+        "volume": "210",
+        "author": "Marcy",
+        "year": "2014",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "ajad2840bib19",
+        "doi-asserted-by": "publisher",
+        "first-page": "L8",
+        "DOI": "10.3847/2041-8213/aa67eb",
+        "volume": "839",
+        "author": "Mills",
+        "year": "2017",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "ajad2840bib20",
+        "doi-asserted-by": "publisher",
+        "first-page": "86",
+        "DOI": "10.3847/0004-637X/822/2/86",
+        "volume": "822",
+        "author": "Morton",
+        "year": "2016",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "ajad2840bib21",
+        "doi-asserted-by": "publisher",
+        "first-page": "5088",
+        "DOI": "10.1093/mnras/stz2673",
+        "volume": "490",
+        "author": "Mugrauer",
+        "year": "2019",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "ajad2840bib22",
+        "doi-asserted-by": "publisher",
+        "first-page": "24",
+        "DOI": "10.3847/1538-3881/aac5ea",
+        "volume": "156",
+        "author": "Mulders",
+        "year": "2018",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "ajad2840bib23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.26133/NEA1",
+        "author": "NASA Exoplanet Archive",
+        "year": "2019",
+        "unstructured": "NASA Exoplanet Archive 2019 Confirmed Planets Table, IPAC doi: 10.26133/NEA1"
+      },
+      {
+        "key": "ajad2840bib24",
+        "doi-asserted-by": "publisher",
+        "first-page": "5399",
+        "DOI": "10.1093/mnras/staa197",
+        "volume": "492",
+        "author": "Nielsen",
+        "year": "2020",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "ajad2840bib25",
+        "first-page": "105",
+        "volume": "8",
+        "author": "Nieto",
+        "year": "1970",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "ajad2840bib26",
+        "doi-asserted-by": "publisher",
+        "first-page": "1615",
+        "DOI": "10.1093/mnras/stad3972",
+        "volume": "528",
+        "author": "Owen",
+        "year": "2024",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "ajad2840bib27",
+        "doi-asserted-by": "publisher",
+        "first-page": "171",
+        "DOI": "10.3847/1538-3881/acf561",
+        "volume": "166",
+        "author": "Pass",
+        "year": "2023",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "ajad2840bib28",
+        "doi-asserted-by": "publisher",
+        "first-page": "41",
+        "DOI": "10.1088/0004-637X/801/1/41",
+        "volume": "801",
+        "author": "Rogers",
+        "year": "2015",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "ajad2840bib29",
+        "doi-asserted-by": "publisher",
+        "first-page": "449",
+        "DOI": "10.1038/nature11301",
+        "volume": "487",
+        "author": "Sanchis-Ojeda",
+        "year": "2012",
+        "journal-title": "Natur"
+      },
+      {
+        "key": "ajad2840bib30",
+        "doi-asserted-by": "publisher",
+        "first-page": "362",
+        "DOI": "10.1117/12.176725",
+        "volume": "2198",
+        "author": "Vogt",
+        "year": "1994",
+        "journal-title": "Proc. SPIE"
+      },
+      {
+        "key": "ajad2840bib31",
+        "doi-asserted-by": "publisher",
+        "first-page": "8",
+        "DOI": "10.3847/1538-4365/ad0cab",
+        "volume": "270",
+        "author": "Weiss",
+        "year": "2024",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "ajad2840bib32",
+        "doi-asserted-by": "publisher",
+        "first-page": "L6",
+        "DOI": "10.1088/2041-8205/783/1/L6",
+        "volume": "783",
+        "author": "Weiss",
+        "year": "2014",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "ajad2840bib33",
+        "doi-asserted-by": "publisher",
+        "first-page": "48",
+        "DOI": "10.3847/1538-3881/aa9ff6",
+        "volume": "155",
+        "author": "Weiss",
+        "year": "2018",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "ajad2840bib34",
+        "doi-asserted-by": "publisher",
+        "first-page": "168",
+        "DOI": "10.3847/1538-3881/ac50a9",
+        "volume": "163",
+        "author": "Winters",
+        "year": "2022",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "ajad2840bib35",
+        "doi-asserted-by": "publisher",
+        "first-page": "55",
+        "DOI": "10.3847/1538-3881/ac00a9",
+        "volume": "162",
+        "author": "Yee",
+        "year": "2021",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "ajad2840bib36",
+        "doi-asserted-by": "publisher",
+        "first-page": "9723",
+        "DOI": "10.1073/pnas.1812905116",
+        "volume": "116",
+        "author": "Zeng",
+        "year": "2019",
+        "journal-title": "PNAS"
+      },
+      {
+        "key": "ajad2840bib37",
+        "doi-asserted-by": "publisher",
+        "first-page": "101",
+        "DOI": "10.3847/1538-4357/aac6d5",
+        "volume": "860",
+        "author": "Zhu",
+        "year": "2018",
+        "journal-title": "ApJ"
+      }
+    ],
+    "container-title": [
+      "The Astronomical Journal"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-3881/ad2840",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-3881/ad2840/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-3881/ad2840/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-3881/ad2840/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          15
+        ]
+      ],
+      "date-time": "2024-03-15T11:33:50Z",
+      "timestamp": 1710502430000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-3881/ad2840"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          15
+        ]
+      ]
+    },
+    "references-count": 37,
+    "journal-issue": {
+      "issue": "4",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            15
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.3847/1538-3881/ad2840",
+    "relation": {},
+    "ISSN": [
+      "0004-6256",
+      "1538-3881"
+    ],
+    "issn-type": [
+      {
+        "value": "0004-6256",
+        "type": "print"
+      },
+      {
+        "value": "1538-3881",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          15
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "A Tale of Two Peas in a Pod: The Kepler-323 and Kepler-104 Systems",
+        "name": "article_title",
+        "label": "Article Title"
+      },
+      {
+        "value": "The Astronomical Journal",
+        "name": "journal_title",
+        "label": "Journal Title"
+      },
+      {
+        "value": "paper",
+        "name": "article_type",
+        "label": "Article Type"
+      },
+      {
+        "value": "\u00a9 2024. The Author(s). Published by the American Astronomical Society.",
+        "name": "copyright_information",
+        "label": "Copyright Information"
+      },
+      {
+        "value": "2023-10-05",
+        "name": "date_received",
+        "label": "Date Received",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "2024-02-09",
+        "name": "date_accepted",
+        "label": "Date Accepted",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "2024-03-15",
+        "name": "date_epub",
+        "label": "Online publication date",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.3847/1538-3881/ad2840",
+  "original_doi": "10.3847/1538-3881/ad2840"
+}

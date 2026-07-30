@@ -1,0 +1,1047 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          16
+        ]
+      ],
+      "date-time": "2026-07-16T02:04:03Z",
+      "timestamp": 1784167443680,
+      "version": "3.55.0"
+    },
+    "reference-count": 67,
+    "publisher": "American Astronomical Society",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              5,
+              21
+            ]
+          ],
+          "date-time": "2021-05-21T00:00:00Z",
+          "timestamp": 1621555200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 20,
+        "URL": "https://iopscience.iop.org/page/copyright"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              5,
+              21
+            ]
+          ],
+          "date-time": "2021-05-21T00:00:00Z",
+          "timestamp": 1621555200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 20,
+        "URL": "https://iopscience.iop.org/info/page/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "iopscience.iop.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "ApJ"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>The Cepheid period\u2013luminosity (PL) relation is the key tool for measuring astronomical distances and for establishing the extragalactic distance scale. In particular, the local value of the Hubble constant (<jats:italic>H</jats:italic>\n                  <jats:sub>0</jats:sub>) strongly depends on Cepheid distance measurements. The recent Gaia Data Releases and other parallax measurements from the Hubble Space Telescope (HST) already enabled us to improve the accuracy of the slope (<jats:italic>\u03b1</jats:italic>) and intercept (<jats:italic>\u03b2</jats:italic>) of the PL relation. However, the dependence of this law on metallicity is still largely debated. In this paper, we combine three samples of Cepheids in the Milky Way (MW), the Large Magellanic Cloud (LMC), and the Small Magellanic Cloud (SMC) in order to derive the metallicity term (hereafter <jats:italic>\u03b3</jats:italic>) of the PL relation. The recent publication of extremely precise LMC and SMC distances based on late-type detached eclipsing binary systems provides a solid anchor for the Magellanic Clouds. In the MW, we adopt Cepheid parallaxes from the early third Gaia Data Release. We derive the metallicity effect in <jats:italic>V</jats:italic>, <jats:italic>I</jats:italic>, <jats:italic>J</jats:italic>, <jats:italic>H</jats:italic>, <jats:italic>K</jats:italic>\n                  <jats:sub>\n                     <jats:italic>S</jats:italic>\n                  </jats:sub>, <jats:italic>W</jats:italic>\n                  <jats:sub>\n                     <jats:italic>VI</jats:italic>\n                  </jats:sub>, and <jats:italic>W</jats:italic>\n                  <jats:sub>\n                     <jats:italic>JK</jats:italic>\n                  </jats:sub>. In the <jats:italic>K</jats:italic>\n                  <jats:sub>\n                     <jats:italic>S</jats:italic>\n                  </jats:sub> band we report a metallicity effect of \u22120.221 \u00b1 0.051 mag dex<jats:sup>\u22121</jats:sup>, the negative sign meaning that more metal-rich Cepheids are intrinsically brighter than their more metal-poor counterparts of the same pulsation period.</jats:p>",
+    "DOI": "10.3847/1538-4357/abf0ae",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          21
+        ]
+      ],
+      "date-time": "2021-05-21T12:57:11Z",
+      "timestamp": 1621601831000
+    },
+    "page": "38",
+    "update-policy": "https://doi.org/10.1088/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 52,
+    "title": [
+      "The Influence of Metallicity on the Leavitt Law from Geometrical Distances of Milky Way and Magellanic Cloud Cepheids"
+    ],
+    "prefix": "10.3847",
+    "volume": "913",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-3889-7709",
+        "authenticated-orcid": false,
+        "given": "Louise",
+        "family": "Breuval",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0626-1749",
+        "authenticated-orcid": false,
+        "given": "Pierre",
+        "family": "Kervella",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1662-5756",
+        "authenticated-orcid": false,
+        "given": "Piotr",
+        "family": "Wielg\u00f3rski",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1405-9954",
+        "authenticated-orcid": false,
+        "given": "Wolfgang",
+        "family": "Gieren",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7355-9775",
+        "authenticated-orcid": false,
+        "given": "Dariusz",
+        "family": "Graczyk",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5875-5340",
+        "authenticated-orcid": false,
+        "given": "Boris",
+        "family": "Trahin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9443-4138",
+        "authenticated-orcid": false,
+        "given": "Grzegorz",
+        "family": "Pietrzy\u0144ski",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2837-3899",
+        "authenticated-orcid": false,
+        "given": "Fr\u00e9d\u00e9ric",
+        "family": "Arenou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9317-6114",
+        "authenticated-orcid": false,
+        "given": "Behnam",
+        "family": "Javanmardi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1515-6107",
+        "authenticated-orcid": false,
+        "given": "Bart\u0142omiej",
+        "family": "Zgirski",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "2208",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          21
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "apjabf0aebib1",
+        "doi-asserted-by": "publisher",
+        "first-page": "1590",
+        "DOI": "10.1111/j.1365-2966.2011.20161.x",
+        "volume": "420",
+        "author": "Acharova",
+        "year": "2012",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjabf0aebib2",
+        "first-page": "13",
+        "author": "Arenou",
+        "year": "1999"
+      },
+      {
+        "key": "apjabf0aebib3",
+        "doi-asserted-by": "publisher",
+        "first-page": "123",
+        "DOI": "10.3847/1538-3881/aac387",
+        "volume": "156",
+        "author": "Astropy Collaboration",
+        "year": "2018",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjabf0aebib4",
+        "doi-asserted-by": "publisher",
+        "first-page": "645",
+        "DOI": "10.1086/133927",
+        "volume": "109",
+        "author": "Barnes",
+        "year": "1997",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "apjabf0aebib5",
+        "first-page": "0",
+        "volume": "2285",
+        "author": "Berdnikov",
+        "year": "2008",
+        "journal-title": "yCat"
+      },
+      {
+        "key": "apjabf0aebib6",
+        "doi-asserted-by": "publisher",
+        "first-page": "102",
+        "DOI": "10.1086/589965",
+        "volume": "684",
+        "author": "Bono",
+        "year": "2008",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjabf0aebib7",
+        "doi-asserted-by": "publisher",
+        "first-page": "A115",
+        "DOI": "10.1051/0004-6361/202038633",
+        "volume": "643",
+        "author": "Breuval",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjabf0aebib8",
+        "first-page": "1059",
+        "volume": "359",
+        "author": "Caputo",
+        "year": "2000",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjabf0aebib9",
+        "doi-asserted-by": "publisher",
+        "first-page": "245",
+        "DOI": "10.1086/167900",
+        "volume": "345",
+        "author": "Cardelli",
+        "year": "1989",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjabf0aebib10",
+        "doi-asserted-by": "publisher",
+        "first-page": "817",
+        "DOI": "10.1093/mnras/staa3186",
+        "volume": "500",
+        "author": "Chown",
+        "year": "2021",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjabf0aebib11",
+        "author": "Cutri",
+        "year": "2003"
+      },
+      {
+        "key": "apjabf0aebib12",
+        "first-page": "175",
+        "volume": "348",
+        "author": "EROS Collaboration",
+        "year": "1999",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjabf0aebib13",
+        "doi-asserted-by": "publisher",
+        "first-page": "L1",
+        "DOI": "10.1093/mnras/286.1.L1",
+        "volume": "286",
+        "author": "Feast",
+        "year": "1997",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjabf0aebib14",
+        "doi-asserted-by": "publisher",
+        "first-page": "2115",
+        "DOI": "10.1111/j.1365-2966.2008.13181.x",
+        "volume": "386",
+        "author": "Feast",
+        "year": "2008",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjabf0aebib15",
+        "first-page": "1",
+        "volume": "4148",
+        "author": "Fernie",
+        "year": "1995",
+        "journal-title": "IBVS"
+      },
+      {
+        "key": "apjabf0aebib16",
+        "doi-asserted-by": "publisher",
+        "first-page": "2866",
+        "DOI": "10.1093/mnras/stt1193",
+        "volume": "434",
+        "author": "Fiorentino",
+        "year": "2013",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjabf0aebib17",
+        "first-page": "799",
+        "volume": "320",
+        "author": "Fouqu\u00e9",
+        "year": "1997",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjabf0aebib18",
+        "doi-asserted-by": "publisher",
+        "first-page": "186",
+        "DOI": "10.1086/169469",
+        "volume": "365",
+        "author": "Freedman",
+        "year": "1990",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjabf0aebib19",
+        "doi-asserted-by": "publisher",
+        "first-page": "0",
+        "DOI": "10.5270/esa-1ug",
+        "volume": "1350",
+        "author": "Gaia Collaboration",
+        "year": "2020",
+        "journal-title": "yCat"
+      },
+      {
+        "key": "apjabf0aebib20",
+        "doi-asserted-by": "publisher",
+        "first-page": "A132",
+        "DOI": "10.1051/0004-6361/201321650",
+        "volume": "554",
+        "author": "Genovali",
+        "year": "2013",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjabf0aebib21",
+        "doi-asserted-by": "publisher",
+        "first-page": "A37",
+        "DOI": "10.1051/0004-6361/201323198",
+        "volume": "566",
+        "author": "Genovali",
+        "year": "2014",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjabf0aebib22",
+        "doi-asserted-by": "publisher",
+        "first-page": "A17",
+        "DOI": "10.1051/0004-6361/201525894",
+        "volume": "580",
+        "author": "Genovali",
+        "year": "2015",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjabf0aebib23",
+        "doi-asserted-by": "publisher",
+        "first-page": "A99",
+        "DOI": "10.1051/0004-6361/201833263",
+        "volume": "620",
+        "author": "Gieren",
+        "year": "2018",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjabf0aebib24",
+        "doi-asserted-by": "publisher",
+        "first-page": "179",
+        "DOI": "10.3847/1538-4357/ab65ed",
+        "volume": "889",
+        "author": "G\u00f3rski",
+        "year": "2020",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjabf0aebib25",
+        "doi-asserted-by": "publisher",
+        "first-page": "13",
+        "DOI": "10.3847/1538-4357/abbb2b",
+        "volume": "904",
+        "author": "Graczyk",
+        "year": "2020",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjabf0aebib26",
+        "doi-asserted-by": "publisher",
+        "first-page": "A8",
+        "DOI": "10.1051/0004-6361/201833478",
+        "volume": "619",
+        "author": "Groenewegen",
+        "year": "2018",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjabf0aebib27",
+        "doi-asserted-by": "publisher",
+        "first-page": "176",
+        "DOI": "10.3847/0004-637X/832/2/176",
+        "volume": "832",
+        "author": "Inno",
+        "year": "2016",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjabf0aebib28",
+        "first-page": "149",
+        "volume": "66",
+        "author": "Jacyszyn-Dobrzeniecka",
+        "year": "2016",
+        "journal-title": "AcA"
+      },
+      {
+        "key": "apjabf0aebib29",
+        "doi-asserted-by": "publisher",
+        "first-page": "12",
+        "DOI": "10.3847/1538-4357/abe7e5",
+        "volume": "911",
+        "author": "Javanmardi",
+        "year": "2021",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjabf0aebib30",
+        "doi-asserted-by": "publisher",
+        "first-page": "A72",
+        "DOI": "10.1051/0004-6361/201834371",
+        "volume": "623",
+        "author": "Kervella",
+        "year": "2019",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjabf0aebib31",
+        "doi-asserted-by": "publisher",
+        "first-page": "A127",
+        "DOI": "10.1051/0004-6361/201630202",
+        "volume": "600",
+        "author": "Kervella",
+        "year": "2017",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjabf0aebib32",
+        "first-page": "93",
+        "volume": "93",
+        "author": "Laney",
+        "year": "1992",
+        "journal-title": "A&AS"
+      },
+      {
+        "key": "apjabf0aebib33",
+        "first-page": "1",
+        "volume": "173",
+        "author": "Leavitt",
+        "year": "1912",
+        "journal-title": "HarCi"
+      },
+      {
+        "key": "apjabf0aebib34",
+        "doi-asserted-by": "publisher",
+        "first-page": "283",
+        "DOI": "10.1051/0004-6361:20066375",
+        "volume": "467",
+        "author": "Lemasle",
+        "year": "2007",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjabf0aebib35",
+        "doi-asserted-by": "publisher",
+        "first-page": "A4",
+        "DOI": "10.1051/0004-6361/202039653",
+        "volume": "649",
+        "author": "Lindegren",
+        "year": "2021a",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjabf0aebib36",
+        "doi-asserted-by": "publisher",
+        "first-page": "A2",
+        "DOI": "10.1051/0004-6361/202039709",
+        "volume": "649",
+        "author": "Lindegren",
+        "year": "2021b",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjabf0aebib37",
+        "doi-asserted-by": "publisher",
+        "first-page": "171",
+        "DOI": "10.3847/1538-3881/aadcac",
+        "volume": "156",
+        "author": "Luck",
+        "year": "2018",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjabf0aebib38",
+        "doi-asserted-by": "publisher",
+        "first-page": "51",
+        "DOI": "10.1088/0004-6256/142/2/51",
+        "volume": "142",
+        "author": "Luck",
+        "year": "2011",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjabf0aebib39",
+        "doi-asserted-by": "publisher",
+        "first-page": "136",
+        "DOI": "10.1088/0004-6256/142/4/136",
+        "volume": "142",
+        "author": "Luck",
+        "year": "2011",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjabf0aebib40",
+        "doi-asserted-by": "publisher",
+        "first-page": "117",
+        "DOI": "10.1088/0004-6256/149/4/117",
+        "volume": "149",
+        "author": "Macri",
+        "year": "2015",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjabf0aebib41",
+        "doi-asserted-by": "publisher",
+        "first-page": "1133",
+        "DOI": "10.1086/508530",
+        "volume": "652",
+        "author": "Macri",
+        "year": "2006",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjabf0aebib42",
+        "doi-asserted-by": "publisher",
+        "first-page": "575",
+        "DOI": "10.1086/159659",
+        "volume": "253",
+        "author": "Madore",
+        "year": "1982",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjabf0aebib43",
+        "doi-asserted-by": "publisher",
+        "first-page": "42",
+        "DOI": "10.3847/1538-4357/aa6e4d",
+        "volume": "842",
+        "author": "Madore",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjabf0aebib44",
+        "doi-asserted-by": "publisher",
+        "first-page": "12",
+        "DOI": "10.1088/0067-0049/193/1/12",
+        "volume": "193",
+        "author": "Monson",
+        "year": "2011",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "apjabf0aebib45",
+        "doi-asserted-by": "publisher",
+        "first-page": "158",
+        "DOI": "10.1086/173713",
+        "volume": "422",
+        "author": "O\u2019Donnell",
+        "year": "1994",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjabf0aebib46",
+        "doi-asserted-by": "publisher",
+        "first-page": "A11",
+        "DOI": "10.1051/0004-6361/201014262",
+        "volume": "518",
+        "author": "Pedicelli",
+        "year": "2010",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjabf0aebib47",
+        "doi-asserted-by": "publisher",
+        "first-page": "2239",
+        "DOI": "10.1086/424934",
+        "volume": "128",
+        "author": "Persson",
+        "year": "2004",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjabf0aebib48",
+        "doi-asserted-by": "publisher",
+        "first-page": "200",
+        "DOI": "10.1038/s41586-019-0999-4",
+        "volume": "567",
+        "author": "Pietrzy\u0144ski",
+        "year": "2019",
+        "journal-title": "Natur"
+      },
+      {
+        "key": "apjabf0aebib49",
+        "doi-asserted-by": "publisher",
+        "first-page": "A6",
+        "DOI": "10.1051/0004-6361/201833910",
+        "volume": "641",
+        "author": "Planck Collaboration",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjabf0aebib50",
+        "doi-asserted-by": "publisher",
+        "first-page": "L6",
+        "DOI": "10.3847/2041-8213/abdbaf",
+        "volume": "908",
+        "author": "Riess",
+        "year": "2021",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjabf0aebib51",
+        "doi-asserted-by": "publisher",
+        "first-page": "85",
+        "DOI": "10.3847/1538-4357/ab1422",
+        "volume": "876",
+        "author": "Riess",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjabf0aebib52",
+        "doi-asserted-by": "publisher",
+        "first-page": "56",
+        "DOI": "10.3847/0004-637X/826/1/56",
+        "volume": "826",
+        "author": "Riess",
+        "year": "2016",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjabf0aebib53",
+        "doi-asserted-by": "publisher",
+        "first-page": "808",
+        "DOI": "10.1093/mnras/stx2096",
+        "volume": "472",
+        "author": "Ripepi",
+        "year": "2017",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjabf0aebib54",
+        "doi-asserted-by": "publisher",
+        "first-page": "21",
+        "DOI": "10.3847/0067-0049/224/2/21",
+        "volume": "224",
+        "author": "Ripepi",
+        "year": "2016",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "apjabf0aebib55",
+        "doi-asserted-by": "publisher",
+        "first-page": "A14",
+        "DOI": "10.1051/0004-6361/201834506",
+        "volume": "625",
+        "author": "Ripepi",
+        "year": "2019",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjabf0aebib56",
+        "doi-asserted-by": "publisher",
+        "first-page": "731",
+        "DOI": "10.1051/0004-6361:20065661",
+        "volume": "488",
+        "author": "Romaniello",
+        "year": "2008",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjabf0aebib57",
+        "doi-asserted-by": "publisher",
+        "first-page": "108",
+        "DOI": "10.1086/503800",
+        "volume": "165",
+        "author": "Saha",
+        "year": "2006",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "apjabf0aebib58",
+        "first-page": "297",
+        "volume": "65",
+        "author": "Soszy\u0144ski",
+        "year": "2015",
+        "journal-title": "AcA"
+      },
+      {
+        "key": "apjabf0aebib60",
+        "doi-asserted-by": "publisher",
+        "first-page": "A94",
+        "DOI": "10.1051/0004-6361/201117155",
+        "volume": "534",
+        "author": "Storm",
+        "year": "2011a",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjabf0aebib59",
+        "doi-asserted-by": "publisher",
+        "first-page": "A95",
+        "DOI": "10.1051/0004-6361/201117154",
+        "volume": "534",
+        "author": "Storm",
+        "year": "2011b",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjabf0aebib61",
+        "doi-asserted-by": "publisher",
+        "first-page": "128",
+        "DOI": "10.1088/0004-637X/744/2/128",
+        "volume": "744",
+        "author": "Subramanian",
+        "year": "2012",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjabf0aebib62",
+        "doi-asserted-by": "publisher",
+        "first-page": "579",
+        "DOI": "10.1051/0004-6361:20077539",
+        "volume": "473",
+        "author": "Szil\u00e1di",
+        "year": "2007",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjabf0aebib63",
+        "first-page": "221",
+        "volume": "51",
+        "author": "Udalski",
+        "year": "2001",
+        "journal-title": "AcA"
+      },
+      {
+        "key": "apjabf0aebib64",
+        "first-page": "47",
+        "volume": "25",
+        "author": "Watson",
+        "year": "2006",
+        "journal-title": "SASS"
+      },
+      {
+        "key": "apjabf0aebib65",
+        "doi-asserted-by": "publisher",
+        "first-page": "547",
+        "DOI": "10.1086/190943",
+        "volume": "54",
+        "author": "Welch",
+        "year": "1984",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "apjabf0aebib66",
+        "doi-asserted-by": "publisher",
+        "first-page": "116",
+        "DOI": "10.3847/1538-4357/aa7565",
+        "volume": "842",
+        "author": "Wielg\u00f3rski",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjabf0aebib67",
+        "doi-asserted-by": "publisher",
+        "first-page": "2256",
+        "DOI": "10.1086/500538",
+        "volume": "131",
+        "author": "Yong",
+        "year": "2006",
+        "journal-title": "AJ"
+      }
+    ],
+    "container-title": [
+      "The Astrophysical Journal"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-4357/abf0ae",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-4357/abf0ae/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-4357/abf0ae/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-4357/abf0ae/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2024-01-15T17:17:36Z",
+      "timestamp": 1705339056000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-4357/abf0ae"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          1
+        ]
+      ]
+    },
+    "references-count": 67,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            21
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.3847/1538-4357/abf0ae",
+    "relation": {},
+    "ISSN": [
+      "0004-637X",
+      "1538-4357"
+    ],
+    "issn-type": [
+      {
+        "value": "0004-637X",
+        "type": "print"
+      },
+      {
+        "value": "1538-4357",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "The Influence of Metallicity on the Leavitt Law from Geometrical Distances of Milky Way and Magellanic Cloud Cepheids",
+        "name": "article_title",
+        "label": "Article Title"
+      },
+      {
+        "value": "The Astrophysical Journal",
+        "name": "journal_title",
+        "label": "Journal Title"
+      },
+      {
+        "value": "paper",
+        "name": "article_type",
+        "label": "Article Type"
+      },
+      {
+        "value": "\u00a9 2021. The American Astronomical Society. All rights reserved.",
+        "name": "copyright_information",
+        "label": "Copyright Information"
+      },
+      {
+        "value": "2021-01-29",
+        "name": "date_received",
+        "label": "Date Received",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "2021-03-18",
+        "name": "date_accepted",
+        "label": "Date Accepted",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "2021-05-21",
+        "name": "date_epub",
+        "label": "Online publication date",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.3847/1538-4357/abf0ae",
+  "original_doi": "10.3847/1538-4357/abf0ae"
+}

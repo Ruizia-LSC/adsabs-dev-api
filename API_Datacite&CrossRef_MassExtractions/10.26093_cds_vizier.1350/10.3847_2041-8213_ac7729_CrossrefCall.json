@@ -1,0 +1,829 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          12
+        ]
+      ],
+      "date-time": "2026-03-12T18:00:15Z",
+      "timestamp": 1773338415405,
+      "version": "3.50.1"
+    },
+    "reference-count": 44,
+    "publisher": "American Astronomical Society",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              6,
+              28
+            ]
+          ],
+          "date-time": "2022-06-28T00:00:00Z",
+          "timestamp": 1656374400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              6,
+              28
+            ]
+          ],
+          "date-time": "2022-06-28T00:00:00Z",
+          "timestamp": 1656374400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://iopscience.iop.org/info/page/text-and-data-mining"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000104",
+        "name": "National Aeronautics and Space Administration",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "19-ICAR19_2-0041"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "19-ICAR19_2-0041"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000104",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "iopscience.iop.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "ApJL"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>We present ALMA 1.3 mm observations of the HD 53143 debris disk\u2014the first infrared or millimeter image produced of this \u223c1 Gyr old solar analog. Previous HST STIS coronagraphic imaging did not detect flux along the minor axis of the disk, which could suggest a face-on geometry with two clumps of dust. These ALMA observations reveal a disk with a strikingly different structure. In order to fit models to the millimeter visibilities and constrain the uncertainties on the disk parameters, we adopt a Markov Chain Monte Carlo approach. This is the most eccentric debris disk observed to date with a forced eccentricity of 0.21 \u00b1 0.02, nearly twice that of the Fomalhaut debris disk, and also displays an apocenter glow. Although this eccentric model fits the outer debris disk well, significant interior residuals remain, which may suggest a possible edge-on inner disk, which remains unresolved in these observations. Combined with the observed structure difference between HST and ALMA, these results suggest a potential previous scattering event or dynamical instability in this system. We also note that the stellar flux changes considerably over the course of our observations, suggesting flaring at millimeter wavelengths. Using simultaneous TESS observations, we determine the stellar rotation period to be 9.6 \u00b1 0.1 days.</jats:p>",
+    "DOI": "10.3847/2041-8213/ac7729",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          29
+        ]
+      ],
+      "date-time": "2022-06-29T14:10:46Z",
+      "timestamp": 1656511846000
+    },
+    "page": "L1",
+    "update-policy": "https://doi.org/10.1088/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 19,
+    "title": [
+      "ALMA Images the Eccentric HD 53143 Debris Disk"
+    ],
+    "prefix": "10.3847",
+    "volume": "933",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7891-8143",
+        "authenticated-orcid": true,
+        "given": "Meredith A.",
+        "family": "MacGregor",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6903-9080",
+        "authenticated-orcid": true,
+        "given": "Spencer A.",
+        "family": "Hurt",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Christopher C.",
+        "family": "Stark",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0583-0949",
+        "authenticated-orcid": false,
+        "given": "Ward S.",
+        "family": "Howard",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6654-7859",
+        "authenticated-orcid": true,
+        "given": "Alycia J.",
+        "family": "Weinberger",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1698-9696",
+        "authenticated-orcid": true,
+        "given": "Bin",
+        "family": "Ren",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4511-5966",
+        "authenticated-orcid": true,
+        "given": "Glenn",
+        "family": "Schneider",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9173-0740",
+        "authenticated-orcid": true,
+        "given": "Elodie",
+        "family": "Choquet",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8895-4735",
+        "authenticated-orcid": true,
+        "given": "Dmitri",
+        "family": "Mawet",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "2208",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          28
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "apjlac7729bib1",
+        "doi-asserted-by": "publisher",
+        "first-page": "A33",
+        "DOI": "10.1051/0004-6361/201322068",
+        "volume": "558",
+        "author": "Astropy Collaboration",
+        "year": "2013",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjlac7729bib2",
+        "doi-asserted-by": "publisher",
+        "first-page": "123",
+        "DOI": "10.3847/1538-3881/aabc4f",
+        "volume": "156",
+        "author": "Astropy Collaboration",
+        "year": "2018",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjlac7729bib3",
+        "doi-asserted-by": "publisher",
+        "first-page": "734",
+        "DOI": "10.1088/0004-637X/693/1/734",
+        "volume": "693",
+        "author": "Chiang",
+        "year": "2009",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjlac7729bib4",
+        "doi-asserted-by": "publisher",
+        "first-page": "1607",
+        "DOI": "10.1086/322115",
+        "volume": "122",
+        "author": "Chiang",
+        "year": "2001",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjlac7729bib5",
+        "doi-asserted-by": "publisher",
+        "first-page": "49",
+        "DOI": "10.3847/1538-4357/ab2393",
+        "volume": "879",
+        "author": "Curtis",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjlac7729bib6",
+        "doi-asserted-by": "publisher",
+        "first-page": "398",
+        "DOI": "10.1086/429365",
+        "volume": "625",
+        "author": "Deller",
+        "year": "2005",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjlac7729bib7",
+        "doi-asserted-by": "publisher",
+        "first-page": "338",
+        "DOI": "10.1016/0019-1035(80)90179-7",
+        "volume": "43",
+        "author": "Dermott",
+        "year": "1980",
+        "journal-title": "Icar"
+      },
+      {
+        "key": "apjlac7729bib8",
+        "first-page": "25",
+        "author": "Elliot",
+        "year": "1984"
+      },
+      {
+        "key": "apjlac7729bib9",
+        "doi-asserted-by": "publisher",
+        "first-page": "162",
+        "DOI": "10.3847/1538-3881/ab3ec1",
+        "volume": "158",
+        "author": "Faramaz",
+        "year": "2019",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjlac7729bib10",
+        "doi-asserted-by": "publisher",
+        "first-page": "306",
+        "DOI": "10.1086/670067",
+        "volume": "125",
+        "author": "Foreman-Mackey",
+        "year": "2013",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "apjlac7729bib11",
+        "doi-asserted-by": "publisher",
+        "first-page": "3285",
+        "DOI": "10.21105/joss.03285",
+        "volume": "6",
+        "author": "Foreman-Mackey",
+        "year": "2021",
+        "journal-title": "JOSS"
+      },
+      {
+        "key": "apjlac7729bib12",
+        "doi-asserted-by": "publisher",
+        "first-page": "107",
+        "DOI": "10.1088/0004-637X/809/1/107",
+        "volume": "809",
+        "author": "Fuhrmann",
+        "year": "2015",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjlac7729bib13",
+        "author": "Gaia Collaboration",
+        "year": "2020",
+        "journal-title": "VizieR Online Data Catalog, I/350"
+      },
+      {
+        "key": "apjlac7729bib14",
+        "doi-asserted-by": "publisher",
+        "first-page": "98",
+        "DOI": "10.3847/1538-3881/aafc33",
+        "volume": "157",
+        "author": "Ginsburg",
+        "year": "2019",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjlac7729bib15",
+        "doi-asserted-by": "publisher",
+        "first-page": "2392",
+        "DOI": "10.1086/452638",
+        "volume": "130",
+        "author": "Hahn",
+        "year": "2005",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjlac7729bib16",
+        "doi-asserted-by": "publisher",
+        "first-page": "541",
+        "DOI": "10.1146/annurev-astro-081817-052035",
+        "volume": "56",
+        "author": "Hughes",
+        "year": "2018",
+        "journal-title": "ARA&A"
+      },
+      {
+        "key": "apjlac7729bib17",
+        "doi-asserted-by": "publisher",
+        "first-page": "A6",
+        "DOI": "10.1051/0004-6361/201219058",
+        "volume": "553",
+        "author": "Husser",
+        "year": "2013",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjlac7729bib18",
+        "doi-asserted-by": "publisher",
+        "first-page": "L57",
+        "DOI": "10.1086/500305",
+        "volume": "637",
+        "author": "Kalas",
+        "year": "2006",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjlac7729bib19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsos.200063",
+        "volume": "7",
+        "author": "Kennedy",
+        "year": "2020",
+        "journal-title": "RSOS"
+      },
+      {
+        "key": "apjlac7729bib20",
+        "author": "Lightkurve Collaboration",
+        "year": "2018"
+      },
+      {
+        "key": "apjlac7729bib21",
+        "doi-asserted-by": "publisher",
+        "first-page": "119",
+        "DOI": "10.3847/2515-5172/aba94a",
+        "volume": "4",
+        "author": "Loyd",
+        "year": "2020",
+        "journal-title": "RNAAS"
+      },
+      {
+        "key": "apjlac7729bib22",
+        "doi-asserted-by": "publisher",
+        "first-page": "2538",
+        "DOI": "10.1093/mnras/stab3566",
+        "volume": "510",
+        "author": "Lynch",
+        "year": "2022",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjlac7729bib23",
+        "author": "MacGregor",
+        "year": "2020"
+      },
+      {
+        "key": "apjlac7729bib24",
+        "doi-asserted-by": "publisher",
+        "first-page": "L2",
+        "DOI": "10.3847/2041-8213/aaad6b",
+        "volume": "855",
+        "author": "MacGregor",
+        "year": "2018a",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjlac7729bib25",
+        "doi-asserted-by": "publisher",
+        "first-page": "L21",
+        "DOI": "10.1088/2041-8205/762/2/L21",
+        "volume": "762",
+        "author": "MacGregor",
+        "year": "2013",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjlac7729bib26",
+        "doi-asserted-by": "publisher",
+        "first-page": "8",
+        "DOI": "10.3847/1538-4357/aa71ae",
+        "volume": "842",
+        "author": "MacGregor",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjlac7729bib27",
+        "doi-asserted-by": "publisher",
+        "first-page": "75",
+        "DOI": "10.3847/1538-4357/aaec71",
+        "volume": "869",
+        "author": "MacGregor",
+        "year": "2018b",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjlac7729bib28",
+        "doi-asserted-by": "publisher",
+        "first-page": "12",
+        "DOI": "10.1186/s40562-019-0142-2",
+        "volume": "6",
+        "author": "Malhotra",
+        "year": "2019",
+        "journal-title": "GSL"
+      },
+      {
+        "key": "apjlac7729bib29",
+        "doi-asserted-by": "publisher",
+        "first-page": "2595",
+        "DOI": "10.1093/mnras/stw2867",
+        "volume": "465",
+        "author": "Marino",
+        "year": "2017",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjlac7729bib30",
+        "doi-asserted-by": "publisher",
+        "first-page": "6168",
+        "DOI": "10.1093/mnras/staa3917",
+        "volume": "501",
+        "author": "Marshall",
+        "year": "2021",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjlac7729bib31",
+        "first-page": "127",
+        "author": "McMullin",
+        "year": "2007"
+      },
+      {
+        "key": "apjlac7729bib32",
+        "doi-asserted-by": "publisher",
+        "first-page": "245",
+        "DOI": "10.3847/1538-3881/aa8e9a",
+        "volume": "154",
+        "author": "Meshkat",
+        "year": "2017",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjlac7729bib33",
+        "doi-asserted-by": "publisher",
+        "first-page": "525",
+        "DOI": "10.1086/503381",
+        "volume": "644",
+        "author": "Mo\u00f3r",
+        "year": "2006",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjlac7729bib34",
+        "doi-asserted-by": "publisher",
+        "first-page": "81",
+        "DOI": "10.3847/0004-637X/832/1/81",
+        "volume": "832",
+        "author": "Pan",
+        "year": "2016",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjlac7729bib35",
+        "doi-asserted-by": "publisher",
+        "first-page": "113",
+        "DOI": "10.1088/0004-637X/747/2/113",
+        "volume": "747",
+        "author": "Pan",
+        "year": "2012",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjlac7729bib36",
+        "doi-asserted-by": "publisher",
+        "first-page": "A135",
+        "DOI": "10.1051/0004-6361/202142720",
+        "volume": "659",
+        "author": "Pearce",
+        "year": "2022",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjlac7729bib37",
+        "doi-asserted-by": "publisher",
+        "first-page": "147",
+        "DOI": "10.1051/0004-6361:20021560",
+        "volume": "397",
+        "author": "Pizzolato",
+        "year": "2003",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjlac7729bib38",
+        "doi-asserted-by": "publisher",
+        "first-page": "1245",
+        "DOI": "10.1111/j.1365-2966.2006.11122.x",
+        "volume": "373",
+        "author": "Quillen",
+        "year": "2006",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjlac7729bib39",
+        "doi-asserted-by": "publisher",
+        "first-page": "59",
+        "DOI": "10.1088/0004-6256/148/4/59",
+        "volume": "148",
+        "author": "Schneider",
+        "year": "2014",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjlac7729bib40",
+        "doi-asserted-by": "publisher",
+        "first-page": "4527",
+        "DOI": "10.1093/mnras/sty409",
+        "volume": "476",
+        "author": "Tazzari",
+        "year": "2018",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjlac7729bib41",
+        "doi-asserted-by": "publisher",
+        "first-page": "695",
+        "DOI": "10.1051/0004-6361:20065602",
+        "volume": "460",
+        "author": "Torres",
+        "year": "2006",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjlac7729bib42",
+        "doi-asserted-by": "publisher",
+        "first-page": "9",
+        "DOI": "10.1088/0004-637X/785/1/9",
+        "volume": "785",
+        "author": "Williams",
+        "year": "2014",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjlac7729bib43",
+        "doi-asserted-by": "publisher",
+        "first-page": "918",
+        "DOI": "10.1086/308093",
+        "volume": "527",
+        "author": "Wyatt",
+        "year": "1999",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjlac7729bib44",
+        "first-page": "59",
+        "author": "Zhu",
+        "year": "2021"
+      }
+    ],
+    "container-title": [
+      "The Astrophysical Journal Letters"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/2041-8213/ac7729",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/2041-8213/ac7729/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/2041-8213/ac7729/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/2041-8213/ac7729/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          8
+        ]
+      ],
+      "date-time": "2024-01-08T15:49:02Z",
+      "timestamp": 1704728942000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://iopscience.iop.org/article/10.3847/2041-8213/ac7729"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          28
+        ]
+      ]
+    },
+    "references-count": 44,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            28
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            7,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.3847/2041-8213/ac7729",
+    "relation": {},
+    "ISSN": [
+      "2041-8205",
+      "2041-8213"
+    ],
+    "issn-type": [
+      {
+        "value": "2041-8205",
+        "type": "print"
+      },
+      {
+        "value": "2041-8213",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          28
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "ALMA Images the Eccentric HD 53143 Debris Disk",
+        "name": "article_title",
+        "label": "Article Title"
+      },
+      {
+        "value": "The Astrophysical Journal Letters",
+        "name": "journal_title",
+        "label": "Journal Title"
+      },
+      {
+        "value": "paper",
+        "name": "article_type",
+        "label": "Article Type"
+      },
+      {
+        "value": "\u00a9 2022. The Author(s). Published by the American Astronomical Society.",
+        "name": "copyright_information",
+        "label": "Copyright Information"
+      },
+      {
+        "value": "2022-05-09",
+        "name": "date_received",
+        "label": "Date Received",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "2022-06-08",
+        "name": "date_accepted",
+        "label": "Date Accepted",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "2022-06-28",
+        "name": "date_epub",
+        "label": "Online publication date",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.3847/2041-8213/ac7729",
+  "original_doi": "10.3847/2041-8213/ac7729"
+}

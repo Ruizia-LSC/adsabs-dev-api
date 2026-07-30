@@ -1,0 +1,1026 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          19
+        ]
+      ],
+      "date-time": "2026-03-19T05:54:31Z",
+      "timestamp": 1773899671444,
+      "version": "3.50.1"
+    },
+    "reference-count": 66,
+    "publisher": "American Astronomical Society",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              25
+            ]
+          ],
+          "date-time": "2024-09-25T00:00:00Z",
+          "timestamp": 1727222400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              25
+            ]
+          ],
+          "date-time": "2024-09-25T00:00:00Z",
+          "timestamp": 1727222400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://iopscience.iop.org/info/page/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "iopscience.iop.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "ApJ"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Brown dwarfs (BDs) are model degenerate in age and mass. High-contrast imaging and spectroscopy of BD companions to host stars where the mass and age can be independently constrained by dynamics and stellar age indicators, respectively, provide valuable tests of BD evolution models. In this paper, we present a new epoch of Subaru/CHARIS <jats:italic>H</jats:italic>- and <jats:italic>K</jats:italic>-band observations of one such previously discovered system, HD 33632 Ab. We reanalyze the mass and orbit using our new epoch of extracted relative astrometry and fit extracted spectra to the newest generation of equilibrium, disequilibrium, and cloudy spectral and evolution models for BDs. No spectral model perfectly agrees with evolutionary tracks and the derived mass and age, instead favoring a somewhat younger BD than the host star\u2019s inferred age. This tension can potentially be resolved using atmosphere and evolution models that consider both clouds and disequilibrium chemistry simultaneously or by additional future spectra at higher resolution or in other band passes. Photometric measurements alone remain consistent with the luminosity predicted by evolutionary tracks. Our work highlights the importance of considering complexities like clouds, disequilibrium chemistry, and composition when comparing spectral models to evolutionary tracks.</jats:p>",
+    "DOI": "10.3847/1538-4357/ad64cc",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          25
+        ]
+      ],
+      "date-time": "2024-09-25T12:30:00Z",
+      "timestamp": 1727267400000
+    },
+    "page": "119",
+    "update-policy": "https://doi.org/10.1088/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Subaru/CHARIS High-resolution Mode Spectroscopy of the Brown Dwarf Companion HD 33632 Ab"
+    ],
+    "prefix": "10.3847",
+    "volume": "973",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9027-4456",
+        "authenticated-orcid": true,
+        "given": "Aidan B.",
+        "family": "Gibbs",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8984-4319",
+        "authenticated-orcid": true,
+        "given": "Briley L.",
+        "family": "Lewis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0176-8973",
+        "authenticated-orcid": true,
+        "given": "Michael P.",
+        "family": "Fitzgerald",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2630-8073",
+        "authenticated-orcid": true,
+        "given": "Timothy D.",
+        "family": "Brandt",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8892-4045",
+        "authenticated-orcid": true,
+        "given": "Minghan",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6845-9702",
+        "authenticated-orcid": true,
+        "given": "Yiting",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5831-9530",
+        "authenticated-orcid": true,
+        "given": "Rachel",
+        "family": "Bowens-Rubin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0054-2953",
+        "authenticated-orcid": true,
+        "given": "Rebecca",
+        "family": "Jensen-Clem",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0526-1114",
+        "authenticated-orcid": true,
+        "given": "Benjamin A.",
+        "family": "Mazin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "2208",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          25
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "apjad64ccbib1",
+        "doi-asserted-by": "publisher",
+        "first-page": "167",
+        "DOI": "10.3847/1538-4357/ac7c74",
+        "volume": "935",
+        "author": "Astropy Collaboration",
+        "year": "2022",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad64ccbib2",
+        "doi-asserted-by": "publisher",
+        "first-page": "701",
+        "DOI": "10.1051/0004-6361:20030252",
+        "volume": "402",
+        "author": "Baraffe",
+        "year": "2003",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjad64ccbib3",
+        "doi-asserted-by": "publisher",
+        "first-page": "A155",
+        "DOI": "10.1051/0004-6361/201935251",
+        "volume": "631",
+        "author": "Beuzit",
+        "year": "2019",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjad64ccbib4",
+        "doi-asserted-by": "publisher",
+        "first-page": "89",
+        "DOI": "10.3847/1538-3881/ab6663",
+        "volume": "159",
+        "author": "Blunt",
+        "year": "2020",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjad64ccbib5",
+        "doi-asserted-by": "publisher",
+        "first-page": "63",
+        "DOI": "10.3847/1538-3881/ab5b11",
+        "volume": "159",
+        "author": "Bowler",
+        "year": "2020",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjad64ccbib6",
+        "doi-asserted-by": "publisher",
+        "first-page": "301",
+        "DOI": "10.3847/1538-3881/ac273e",
+        "volume": "162",
+        "author": "Brandt",
+        "year": "2021a",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjad64ccbib7",
+        "doi-asserted-by": "publisher",
+        "first-page": "31",
+        "DOI": "10.3847/1538-4365/aaec06",
+        "volume": "239",
+        "author": "Brandt",
+        "year": "2018",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "apjad64ccbib8",
+        "doi-asserted-by": "publisher",
+        "first-page": "42",
+        "DOI": "10.3847/1538-4365/abf93c",
+        "volume": "254",
+        "author": "Brandt",
+        "year": "2021",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "apjad64ccbib9",
+        "doi-asserted-by": "publisher",
+        "first-page": "196",
+        "DOI": "10.3847/1538-3881/abb45e",
+        "volume": "160",
+        "author": "Brandt",
+        "year": "2020",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjad64ccbib10",
+        "doi-asserted-by": "publisher",
+        "first-page": "186",
+        "DOI": "10.3847/1538-3881/ac042e",
+        "volume": "162",
+        "author": "Brandt",
+        "year": "2021b",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjad64ccbib11",
+        "doi-asserted-by": "publisher",
+        "first-page": "048002",
+        "DOI": "10.1117/1.JATIS.3.4.048002",
+        "volume": "3",
+        "author": "Brandt",
+        "year": "2017",
+        "journal-title": "JATIS"
+      },
+      {
+        "key": "apjad64ccbib12",
+        "doi-asserted-by": "publisher",
+        "first-page": "655",
+        "DOI": "10.1086/511027",
+        "volume": "659",
+        "author": "Burgasser",
+        "year": "2007",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad64ccbib13",
+        "doi-asserted-by": "publisher",
+        "first-page": "1095",
+        "DOI": "10.1086/499344",
+        "volume": "639",
+        "author": "Burgasser",
+        "year": "2006",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad64ccbib14",
+        "doi-asserted-by": "publisher",
+        "first-page": "557",
+        "DOI": "10.1086/511518",
+        "volume": "658",
+        "author": "Burgasser",
+        "year": "2007",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad64ccbib15",
+        "doi-asserted-by": "publisher",
+        "first-page": "1007",
+        "DOI": "10.1086/499042",
+        "volume": "131",
+        "author": "Burgasser",
+        "year": "2006",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjad64ccbib16",
+        "doi-asserted-by": "publisher",
+        "first-page": "2856",
+        "DOI": "10.1086/383549",
+        "volume": "127",
+        "author": "Burgasser",
+        "year": "2004",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjad64ccbib17",
+        "first-page": "7",
+        "author": "Splat Development Team",
+        "year": "2017"
+      },
+      {
+        "key": "apjad64ccbib18",
+        "doi-asserted-by": "publisher",
+        "first-page": "939",
+        "DOI": "10.1086/167964",
+        "volume": "345",
+        "author": "Burrows",
+        "year": "1989",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad64ccbib19",
+        "doi-asserted-by": "publisher",
+        "first-page": "719",
+        "DOI": "10.1103/RevModPhys.73.719",
+        "volume": "73",
+        "author": "Burrows",
+        "year": "2001",
+        "journal-title": "RvMP"
+      },
+      {
+        "key": "apjad64ccbib20",
+        "doi-asserted-by": "publisher",
+        "first-page": "1063",
+        "DOI": "10.1086/500293",
+        "volume": "640",
+        "author": "Burrows",
+        "year": "2006",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad64ccbib21",
+        "doi-asserted-by": "publisher",
+        "first-page": "172",
+        "DOI": "10.3847/1538-4357/aaac7d",
+        "volume": "854",
+        "author": "Charnay",
+        "year": "2018",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad64ccbib22",
+        "doi-asserted-by": "publisher",
+        "first-page": "A16",
+        "DOI": "10.1051/0004-6361/201630136",
+        "volume": "614",
+        "author": "Cheetham",
+        "year": "2018",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjad64ccbib23",
+        "doi-asserted-by": "publisher",
+        "first-page": "620",
+        "DOI": "10.1093/rasti/rzad039",
+        "volume": "2",
+        "author": "Chen",
+        "year": "2023",
+        "journal-title": "RASTI"
+      },
+      {
+        "key": "apjad64ccbib24",
+        "doi-asserted-by": "publisher",
+        "first-page": "491",
+        "DOI": "10.1051/aas:2000124",
+        "volume": "141",
+        "author": "Chen",
+        "year": "2000",
+        "journal-title": "A&AS"
+      },
+      {
+        "key": "apjad64ccbib25",
+        "doi-asserted-by": "publisher",
+        "first-page": "L25",
+        "DOI": "10.3847/2041-8213/abc631",
+        "volume": "904",
+        "author": "Currie",
+        "year": "2020",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjad64ccbib26",
+        "volume": "yCat, II/246",
+        "author": "Cutri",
+        "year": "2003",
+        "unstructured": "Cutri R. M. Skrutskie M. F. van Dyk S. 2003 yCat, II/246 2003yCat.2246....0C"
+      },
+      {
+        "key": "apjad64ccbib27",
+        "doi-asserted-by": "publisher",
+        "first-page": "5",
+        "DOI": "10.1088/0067-0049/210/1/5",
+        "volume": "210",
+        "author": "Fischer",
+        "year": "2014",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "apjad64ccbib28",
+        "doi-asserted-by": "publisher",
+        "first-page": "306",
+        "DOI": "10.1086/670067",
+        "volume": "125",
+        "author": "Foreman-Mackey",
+        "year": "2013",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "apjad64ccbib29",
+        "doi-asserted-by": "publisher",
+        "first-page": "5036",
+        "DOI": "10.1093/mnras/stx2870",
+        "volume": "474",
+        "author": "Forgan",
+        "year": "2018",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjad64ccbib30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.26093/cds/vizier.1350",
+        "volume": "I/350",
+        "author": "Gaia Collaboration",
+        "year": "2020",
+        "unstructured": "Gaia Collaboration 2020 yCat I/350 2020yCat.1350....0G 10.26093/cds/vizier.1350"
+      },
+      {
+        "key": "apjad64ccbib31",
+        "doi-asserted-by": "publisher",
+        "first-page": "A1",
+        "DOI": "10.1051/0004-6361/202243940",
+        "volume": "674",
+        "author": "Gaia Collaboration",
+        "year": "2023a",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjad64ccbib32",
+        "doi-asserted-by": "publisher",
+        "first-page": "A39",
+        "DOI": "10.1051/0004-6361/202243800",
+        "volume": "674",
+        "author": "Gaia Collaboration",
+        "year": "2023b",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjad64ccbib33",
+        "doi-asserted-by": "publisher",
+        "first-page": "226",
+        "DOI": "10.3847/1538-3881/aabcb8",
+        "volume": "155",
+        "author": "Greenbaum",
+        "year": "2018",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjad64ccbib34",
+        "doi-asserted-by": "publisher",
+        "first-page": "99080O",
+        "DOI": "10.1117/12.2233447",
+        "volume": "9908",
+        "author": "Groff",
+        "year": "2016",
+        "journal-title": "Proc. SPIE"
+      },
+      {
+        "key": "apjad64ccbib35",
+        "doi-asserted-by": "publisher",
+        "first-page": "773624",
+        "DOI": "10.1117/12.857878",
+        "volume": "7736",
+        "author": "Guyon",
+        "year": "2010",
+        "journal-title": "Proc. SPIE"
+      },
+      {
+        "key": "apjad64ccbib36",
+        "doi-asserted-by": "publisher",
+        "first-page": "357",
+        "DOI": "10.1038/s41586-020-2649-2",
+        "volume": "585",
+        "author": "Harris",
+        "year": "2020",
+        "journal-title": "Natur"
+      },
+      {
+        "key": "apjad64ccbib37",
+        "doi-asserted-by": "publisher",
+        "first-page": "9",
+        "DOI": "10.3847/1538-4357/ad58d3",
+        "volume": "971",
+        "author": "Hsu",
+        "year": "2024",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad64ccbib38",
+        "doi-asserted-by": "publisher",
+        "first-page": "3553",
+        "DOI": "10.1086/420707",
+        "volume": "127",
+        "author": "Knapp",
+        "year": "2004",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjad64ccbib39",
+        "doi-asserted-by": "publisher",
+        "first-page": "5622",
+        "DOI": "10.1093/mnras/stad1315",
+        "volume": "522",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjad64ccbib40",
+        "doi-asserted-by": "publisher",
+        "first-page": "1162",
+        "DOI": "10.1086/520645",
+        "volume": "134",
+        "author": "Looper",
+        "year": "2007",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjad64ccbib41",
+        "doi-asserted-by": "publisher",
+        "first-page": "12661",
+        "DOI": "10.1073/pnas.1304215111",
+        "volume": "111",
+        "author": "Macintosh",
+        "year": "2014",
+        "journal-title": "PNAS"
+      },
+      {
+        "key": "apjad64ccbib42",
+        "doi-asserted-by": "publisher",
+        "first-page": "85",
+        "DOI": "10.3847/1538-4357/ac141d",
+        "volume": "920",
+        "author": "Marley",
+        "year": "2021",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad64ccbib43",
+        "doi-asserted-by": "publisher",
+        "first-page": "556",
+        "DOI": "10.1086/500401",
+        "volume": "641",
+        "author": "Marois",
+        "year": "2006",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad64ccbib44",
+        "doi-asserted-by": "publisher",
+        "first-page": "73",
+        "DOI": "10.3847/1538-4357/aa6338",
+        "volume": "838",
+        "author": "Martin",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad64ccbib45",
+        "doi-asserted-by": "publisher",
+        "first-page": "551",
+        "DOI": "10.1051/0004-6361:20034454",
+        "volume": "418",
+        "author": "Mishenina",
+        "year": "2004",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjad64ccbib46",
+        "author": "Morley",
+        "year": "2024"
+      },
+      {
+        "key": "apjad64ccbib47",
+        "doi-asserted-by": "publisher",
+        "first-page": "73",
+        "DOI": "10.3847/1538-4357/ad18c2",
+        "volume": "963",
+        "author": "Mukherjee",
+        "year": "2024",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad64ccbib48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.3509134",
+        "author": "pandas development team, T",
+        "year": "2020",
+        "unstructured": "pandas development team, T 2020 pandas-dev/pandas: Pandas, latest, Zenodo doi: 10.5281/zenodo.3509134"
+      },
+      {
+        "key": "apjad64ccbib49",
+        "first-page": "L49",
+        "volume": "323",
+        "author": "Perryman",
+        "year": "1997",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjad64ccbib50",
+        "doi-asserted-by": "publisher",
+        "first-page": "A38",
+        "DOI": "10.1051/0004-6361/201937381",
+        "volume": "637",
+        "author": "Phillips",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjad64ccbib51",
+        "doi-asserted-by": "publisher",
+        "first-page": "1281",
+        "DOI": "10.1111/j.1365-2966.2006.10213.x",
+        "volume": "368",
+        "author": "Pinfield",
+        "year": "2006",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjad64ccbib52",
+        "doi-asserted-by": "publisher",
+        "first-page": "117",
+        "DOI": "10.3847/0004-637X/824/2/117",
+        "volume": "824",
+        "author": "Pueyo",
+        "year": "2016",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad64ccbib53",
+        "doi-asserted-by": "publisher",
+        "first-page": "587",
+        "DOI": "10.1086/316367",
+        "volume": "111",
+        "author": "Racine",
+        "year": "1999",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "apjad64ccbib54",
+        "doi-asserted-by": "publisher",
+        "first-page": "63",
+        "DOI": "10.1088/0067-0049/186/1/63",
+        "volume": "186",
+        "author": "Rice",
+        "year": "2009",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "apjad64ccbib55",
+        "first-page": "182",
+        "author": "Rodrigo",
+        "year": "2020"
+      },
+      {
+        "key": "apjad64ccbib56",
+        "doi-asserted-by": "publisher",
+        "author": "Rodrigo",
+        "year": "2012",
+        "DOI": "10.5479/ADS/bib/2012ivoa.rept.1015R"
+      },
+      {
+        "key": "apjad64ccbib57",
+        "doi-asserted-by": "publisher",
+        "first-page": "250",
+        "DOI": "10.3847/1538-3881/ab88cd",
+        "volume": "159",
+        "author": "Sahoo",
+        "year": "2020",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjad64ccbib58",
+        "doi-asserted-by": "publisher",
+        "first-page": "A118",
+        "DOI": "10.1051/0004-6361/201628497",
+        "volume": "591",
+        "author": "Soubiran",
+        "year": "2016",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjad64ccbib59",
+        "doi-asserted-by": "publisher",
+        "first-page": "L28",
+        "DOI": "10.1088/2041-8205/755/2/L28",
+        "volume": "755",
+        "author": "Soummer",
+        "year": "2012",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjad64ccbib60",
+        "doi-asserted-by": "publisher",
+        "first-page": "180",
+        "DOI": "10.1086/338545",
+        "volume": "114",
+        "author": "Tokunaga",
+        "year": "2002",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "apjad64ccbib61",
+        "doi-asserted-by": "publisher",
+        "first-page": "421",
+        "DOI": "10.1086/429382",
+        "volume": "117",
+        "author": "Tokunaga",
+        "year": "2005",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "apjad64ccbib62",
+        "doi-asserted-by": "publisher",
+        "first-page": "141",
+        "DOI": "10.1086/430500",
+        "volume": "159",
+        "author": "Valenti",
+        "year": "2005",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "apjad64ccbib63",
+        "doi-asserted-by": "publisher",
+        "first-page": "261",
+        "DOI": "10.1038/s41592-019-0686-2",
+        "volume": "17",
+        "author": "Virtanen",
+        "year": "2020",
+        "journal-title": "NatMe"
+      },
+      {
+        "key": "apjad64ccbib64",
+        "doi-asserted-by": "publisher",
+        "first-page": "773612",
+        "DOI": "10.1117/12.857915",
+        "volume": "7736",
+        "author": "Vogt",
+        "year": "2010",
+        "journal-title": "Proc. SPIE"
+      },
+      {
+        "key": "apjad64ccbib65",
+        "author": "Wang",
+        "year": "2015",
+        "unstructured": "Wang J. J. Ruffio J.-B. De Rosa R. J. 2015 pyKLIP: PSF Subtraction for Exoplanets and Disks, Astrophysics Source Code Library ascl: 1506.001"
+      },
+      {
+        "key": "apjad64ccbib66",
+        "doi-asserted-by": "publisher",
+        "first-page": "97",
+        "DOI": "10.3847/0004-6256/152/4/97",
+        "volume": "152",
+        "author": "Wang",
+        "year": "2016",
+        "journal-title": "AJ"
+      }
+    ],
+    "container-title": [
+      "The Astrophysical Journal"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-4357/ad64cc",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-4357/ad64cc/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-4357/ad64cc/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-4357/ad64cc/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          25
+        ]
+      ],
+      "date-time": "2024-09-25T12:30:04Z",
+      "timestamp": 1727267404000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-4357/ad64cc"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          25
+        ]
+      ]
+    },
+    "references-count": 66,
+    "journal-issue": {
+      "issue": "2",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            25
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.3847/1538-4357/ad64cc",
+    "relation": {},
+    "ISSN": [
+      "0004-637X",
+      "1538-4357"
+    ],
+    "issn-type": [
+      {
+        "value": "0004-637X",
+        "type": "print"
+      },
+      {
+        "value": "1538-4357",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          25
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Subaru/CHARIS High-resolution Mode Spectroscopy of the Brown Dwarf Companion HD 33632 Ab",
+        "name": "article_title",
+        "label": "Article Title"
+      },
+      {
+        "value": "The Astrophysical Journal",
+        "name": "journal_title",
+        "label": "Journal Title"
+      },
+      {
+        "value": "paper",
+        "name": "article_type",
+        "label": "Article Type"
+      },
+      {
+        "value": "\u00a9 2024. The Author(s). Published by the American Astronomical Society.",
+        "name": "copyright_information",
+        "label": "Copyright Information"
+      },
+      {
+        "value": "2024-05-20",
+        "name": "date_received",
+        "label": "Date Received",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "2024-07-16",
+        "name": "date_accepted",
+        "label": "Date Accepted",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "2024-09-25",
+        "name": "date_epub",
+        "label": "Online publication date",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.3847/1538-4357/ad64cc",
+  "original_doi": "10.3847/1538-4357/ad64cc"
+}

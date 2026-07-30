@@ -1,0 +1,625 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          11
+        ]
+      ],
+      "date-time": "2026-04-11T05:55:37Z",
+      "timestamp": 1775886937941,
+      "version": "3.50.1"
+    },
+    "reference-count": 38,
+    "publisher": "MDPI AG",
+    "issue": "11",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              30
+            ]
+          ],
+          "date-time": "2025-10-30T00:00:00Z",
+          "timestamp": 1761782400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Science Committee of the Ministry of Science and Higher Education of the Republic of Kazakhstan",
+        "award": [
+          "AP23484898"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "AP23484898"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Universe"
+    ],
+    "abstract": "<jats:p>Distances to Galactic BA supergiants are essential for determining their luminosities, radii, and positions on the Hertzsprung\u2013Russell diagram, yet Gaia parallaxes for these bright, extended sources are often affected by systematics. We compiled a homogeneous sample of 132 B0\u2013A5 supergiants and re-evaluated their distances using a consistent, quality-controlled approach. Parallaxes from Gaia DR3 and EDR3 were corrected for a magnitude\u2013colour zero-point bias and adjusted for excess noise through RUWE-dependent uncertainty inflation. A Bayesian inference with an exponentially decreasing space\u2013density prior was then applied, adopting the catalogue with the smallest penalised total uncertainty. Distances were accepted only when the corrected parallax signal-to-noise ratio exceeded 2.5, the relative uncertainty was below 40%, and key Gaia quality indicators were nominal. The resulting catalogue delivers robust, quality-vetted distances with realistic uncertainties for each star, providing a reliable foundation for deriving fundamental parameters and for future studies of the flux-weighted gravity\u2013luminosity relation and the evolution of Galactic BA supergiants.</jats:p>",
+    "DOI": "10.3390/universe11110359",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          31
+        ]
+      ],
+      "date-time": "2025-10-31T03:33:07Z",
+      "timestamp": 1761881587000
+    },
+    "page": "359",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Evaluating Gaia Astrometric Quality and Distances for Galactic Hot Supergiants"
+    ],
+    "prefix": "10.3390",
+    "volume": "11",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7449-0108",
+        "authenticated-orcid": false,
+        "given": "Nadezhda L.",
+        "family": "Vaidman",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Fesenkov Astrophysical Institute, Observatory, 23, Almaty 050020, Kazakhstan"
+          },
+          {
+            "name": "Faculty of Physics and Technology, Al-Farabi Kazakh National University, Al-Farabi Ave., 71, Almaty 050040, Kazakhstan"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0005-6851-7270",
+        "authenticated-orcid": false,
+        "given": "Shakhida T.",
+        "family": "Nurmakhametova",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Physics and Technology, Al-Farabi Kazakh National University, Al-Farabi Ave., 71, Almaty 050040, Kazakhstan"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0000-6962-5357",
+        "authenticated-orcid": false,
+        "given": "Aziza B.",
+        "family": "Umirova",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Physics and Technology, Al-Farabi Kazakh National University, Al-Farabi Ave., 71, Almaty 050040, Kazakhstan"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5163-508X",
+        "authenticated-orcid": false,
+        "given": "Serik A.",
+        "family": "Khokhlov",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fesenkov Astrophysical Institute, Observatory, 23, Almaty 050020, Kazakhstan"
+          },
+          {
+            "name": "Faculty of Physics and Technology, Al-Farabi Kazakh National University, Al-Farabi Ave., 71, Almaty 050040, Kazakhstan"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9788-7485",
+        "authenticated-orcid": false,
+        "given": "Aldiyar T.",
+        "family": "Agishev",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Physics and Technology, Al-Farabi Kazakh National University, Al-Farabi Ave., 71, Almaty 050040, Kazakhstan"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0001-7504-2438",
+        "authenticated-orcid": false,
+        "given": "Berik S.",
+        "family": "Yermekbayev",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Physics and Technology, Al-Farabi Kazakh National University, Al-Farabi Ave., 71, Almaty 050040, Kazakhstan"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          30
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "L7",
+        "DOI": "10.1051/0004-6361/201014205",
+        "article-title": "The nature of B supergiants: Clues from a steep drop in rotation rates at 22 000 K. The possibility of bi-stability braking",
+        "volume": "512",
+        "author": "Vink",
+        "year": "2010",
+        "journal-title": "Astron. Astrophys."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "613",
+        "DOI": "10.1146/annurev.astro.38.1.613",
+        "article-title": "Winds from Hot Stars",
+        "volume": "38",
+        "author": "Kudritzki",
+        "year": "2000",
+        "journal-title": "Annu. Rev. Astron. Astrophys."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "A36",
+        "DOI": "10.1051/0004-6361/201526035",
+        "article-title": "The flux-weighted gravity\u2013luminosity relationship of blue supergiant stars as a constraint for stellar evolution",
+        "volume": "581",
+        "author": "Meynet",
+        "year": "2015",
+        "journal-title": "Astron. Astrophys."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vaidman, N.L., Khokhlov, S.A., and Agishev, A.T. (2025). Unveiling the Evolution of MWC 728: Non-Conservative Mass Transfer in an FS CMa Binary. Galaxies, 13.",
+        "DOI": "10.3390/galaxies13040078"
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nurmakhametova, S.T., Vaidman, N.L., Miroshnichenko, A.S., Khokhlov, A.A., Agishev, A.T., Yermekbayev, B.S., Danford, S., and Aarnio, A.N. (2025). HR 4049: A Spectroscopic Analysis of a Post-AGB Object. Galaxies, 13.",
+        "DOI": "10.3390/galaxies13020026"
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "40",
+        "DOI": "10.1086/131954",
+        "article-title": "Ultraviolet spectral morphology of the O stars. IV. The OB supergiant sequence",
+        "volume": "99",
+        "author": "Walborn",
+        "year": "1987",
+        "journal-title": "Publ. Astron. Soc. Pac."
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "L83",
+        "DOI": "10.1086/367690",
+        "article-title": "A New Extragalactic Distance Determination Method Using the Flux-weighted Gravity of Late B and Early A Supergiants",
+        "volume": "582",
+        "author": "Kudritzki",
+        "year": "2003",
+        "journal-title": "Astrophys. J."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "351",
+        "DOI": "10.1051/aas:1999487",
+        "article-title": "Spectroscopic properties of early-type supergiants. I",
+        "volume": "137",
+        "author": "Verdugo",
+        "year": "1999",
+        "journal-title": "Astron. Astrophys. Suppl. Ser."
+      },
+      {
+        "key": "ref_9",
+        "first-page": "819",
+        "article-title": "Spectroscopic properties of early-type supergiants. II",
+        "volume": "346",
+        "author": "Verdugo",
+        "year": "1999",
+        "journal-title": "Astron. Astrophys."
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "A80",
+        "DOI": "10.1051/0004-6361/201219034",
+        "article-title": "Quantitative spectroscopy of Galactic BA-type supergiants. I. Atmospheric parameters",
+        "volume": "543",
+        "author": "Firnstein",
+        "year": "2012",
+        "journal-title": "Astron. Astrophys."
+      },
+      {
+        "key": "ref_11",
+        "first-page": "A92",
+        "article-title": "Quantitative spectroscopy of A-type supergiants",
+        "volume": "688",
+        "author": "Przybilla",
+        "year": "2022",
+        "journal-title": "Astron. Astrophys."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "A212",
+        "DOI": "10.1051/0004-6361/202346179",
+        "article-title": "Building a Modern Empirical Database of Galactic O9\u2013B9 Supergiants: Sample Selection, Description, and Completeness",
+        "volume": "674",
+        "author": "Urbaneja",
+        "year": "2023",
+        "journal-title": "Astron. Astrophys."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Miroshnichenko, A.S., Chari, R., Danford, S., Prendergast, P., Aarnio, A.N., Andronov, I.L., Chinarova, L.L., Lytle, A., Amantayeva, A., and Gabitova, I.A. (2023). Searching for Phase-Locked Variations of the Emission-Line Profiles in Binary Be Stars. Galaxies, 11.",
+        "DOI": "10.3390/galaxies11040083"
+      },
+      {
+        "key": "ref_14",
+        "unstructured": "Miroshnichenko, A., Danford, S., Verdugo, E., Klochkova, V.G., Chentsov, E.L., and Zharikov, S.V. (2013, January 10\u201314). Spectroscopic Criteria for Luminosity Calibration of Massive B5\u2013A5 Stars. Proceedings of the Conference \u201cMassive Stars: From Alpha to Omega\u201d, Rhodes, Greece. Available online: https://ui.adsabs.harvard.edu/abs/2013msao.confE.169M."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "617",
+        "DOI": "10.1111/j.1365-2966.2007.11804.x",
+        "article-title": "High-Precision Effective Temperatures of 161 FGK Supergiants from Line-Depth Ratios",
+        "volume": "378",
+        "author": "Kovtyukh",
+        "year": "2007",
+        "journal-title": "Mon. Not. R. Astron. Soc."
+      },
+      {
+        "key": "ref_16",
+        "first-page": "3",
+        "article-title": "Spectroscopy of Galactic supergiants",
+        "volume": "39",
+        "author": "Giridhar",
+        "year": "2003",
+        "journal-title": "Rev. Mex. Astron. Astrofis."
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "409",
+        "DOI": "10.1086/157301",
+        "article-title": "Studies of luminous stars in nearby galaxies. III. Comments on the evolution of the most massive stars in the Milky Way and the Large Magellanic Cloud",
+        "volume": "232",
+        "author": "Humphreys",
+        "year": "1979",
+        "journal-title": "Astrophys. J."
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vaidman, N.L., Miroshnichenko, A.S., Zharikov, S.V., Khokhlov, S.A., Agishev, A.T., and Yermekbayev, B.S. (2025). Fundamental Parameters and Evolutionary Scenario of HD 327083. Galaxies, 13.",
+        "DOI": "10.3390/galaxies13030047"
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vaidman, N.L., Nurmakhametova, S.T., Miroshnichenko, A.S., Khokhlov, S.A., Agishev, A.T., Khokhlov, A.A., Ashimov, Y.K., and Yermekbayev, B.S. (2025). Determination of Orbital Parameters of Binary Star Systems Using the MCMC Method. Galaxies, 13.",
+        "DOI": "10.3390/galaxies13050101"
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "3510",
+        "DOI": "10.1093/mnras/stac2780",
+        "article-title": "A non-detection of red supergiant convection in Gaia",
+        "volume": "520",
+        "author": "Kochanek",
+        "year": "2023",
+        "journal-title": "Mon. Not. R. Astron. Soc."
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "A33",
+        "DOI": "10.1051/0004-6361/201936881",
+        "article-title": "High reddening patches in Gaia DR2. Possible artifacts or indication of star formation at the edge of the Galactic disk",
+        "volume": "634",
+        "year": "2020",
+        "journal-title": "Astron. Astrophys."
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "A1",
+        "DOI": "10.1051/0004-6361/202450172",
+        "article-title": "Gaia DR3 detectability of unresolved binary systems",
+        "volume": "688",
+        "author": "Penoyre",
+        "year": "2024",
+        "journal-title": "Astron. Astrophys."
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "A175",
+        "DOI": "10.1051/0004-6361/202347253",
+        "article-title": "The blue supergiant Sher 25 revisited in the Gaia era",
+        "volume": "677",
+        "author": "Przybilla",
+        "year": "2023",
+        "journal-title": "Astron. Astrophys."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1760",
+        "DOI": "10.1093/mnras/stz1712",
+        "article-title": "On the Gaia DR2 distances for Galactic luminous blue variables",
+        "volume": "488",
+        "author": "Smith",
+        "year": "2019",
+        "journal-title": "Mon. Not. R. Astron. Soc."
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vink, J.S., and Oudmaijer, R.D. (2025). The Blue Supergiant Problem and the Main-Sequence Width. Galaxies, 13.",
+        "DOI": "10.20944/preprints202502.0807.v1"
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "279",
+        "DOI": "10.1051/0004-6361:20053685",
+        "article-title": "Physical parameters and wind properties of Galactic early B supergiants",
+        "volume": "446",
+        "author": "Crowther",
+        "year": "2006",
+        "journal-title": "Astron. Astrophys."
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "9",
+        "DOI": "10.1051/aas:2000332",
+        "article-title": "The SIMBAD astronomical database. The CDS reference database for astronomical objects",
+        "volume": "143",
+        "author": "Wenger",
+        "year": "2000",
+        "journal-title": "Astron. Astrophys. Suppl. Ser."
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "23",
+        "DOI": "10.1051/aas:2000169",
+        "article-title": "The VizieR database of astronomical catalogues",
+        "volume": "143",
+        "author": "Ochsenbein",
+        "year": "2000",
+        "journal-title": "Astron. Astrophys. Suppl. Ser."
+      },
+      {
+        "key": "ref_29",
+        "unstructured": "Bailer-Jones, C.A.L., Rybizki, J., Fouesneau, M., Demleitner, M., and Andrae, R. (2025, October 20). VizieR Online Data Catalog: Distances to 1.47 Billion Stars in Gaia EDR3 (Bailer-Jones+, 2021). Available online: https://ui.adsabs.harvard.edu/abs/2021yCat.1352....0B."
+      },
+      {
+        "key": "ref_30",
+        "unstructured": "Vallenari, A. et al. [Gaia Collaboration] (2023). Gaia Data Release 3. Summary of the content and survey properties. Astron. Astrophys., 674, A1."
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Brown, A.G.A. et al. [Gaia Collaboration] (2021). Gaia Early Data Release 3. Summary of the contents and survey properties. Astron. Astrophys., 649, A1.",
+        "DOI": "10.1051/0004-6361/202141135"
+      },
+      {
+        "key": "ref_32",
+        "unstructured": "Brown, A.G.A. et al. [Gaia Collaboration] (2021). VizieR Online Data Catalog: Gaia EDR3 (Gaia Collaboration, 2020). Astron. Astrophys., 649, A1. Erratum in Astron. Astrophys. 2021, 650, C3."
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "(2019). astroquery: An Astronomical Web-querying Package in Python. Astron. J., 157, 98.",
+        "DOI": "10.3847/1538-3881/aafc33"
+      },
+      {
+        "key": "ref_34",
+        "unstructured": "(2022). The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package. Astrophys. J., 935, 167."
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "first-page": "A4",
+        "DOI": "10.1051/0004-6361/202039653",
+        "article-title": "Gaia Early Data Release 3. Parallax bias versus magnitude, colour, and position",
+        "volume": "649",
+        "author": "Lindegren",
+        "year": "2021",
+        "journal-title": "Astron. Astrophys."
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "first-page": "A20",
+        "DOI": "10.1051/0004-6361/202140862",
+        "article-title": "The parallax zero-point offset from Gaia EDR3 data",
+        "volume": "654",
+        "author": "Groenewegen",
+        "year": "2021",
+        "journal-title": "Astron. Astrophys."
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "first-page": "A5",
+        "DOI": "10.1051/0004-6361/202039834",
+        "article-title": "Gaia Early Data Release 3. Catalogue validation",
+        "volume": "649",
+        "author": "Fabricius",
+        "year": "2021",
+        "journal-title": "Astron. Astrophys."
+      },
+      {
+        "key": "ref_38",
+        "first-page": "62",
+        "article-title": "How to use Gaia parallaxes for stars with poor astrometric fits",
+        "volume": "8",
+        "year": "2025",
+        "journal-title": "Open J. Astrophys."
+      }
+    ],
+    "container-title": [
+      "Universe"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2218-1997/11/11/359/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          31
+        ]
+      ],
+      "date-time": "2025-10-31T04:03:37Z",
+      "timestamp": 1761883417000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2218-1997/11/11/359"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          30
+        ]
+      ]
+    },
+    "references-count": 38,
+    "journal-issue": {
+      "issue": "11",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            11
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "universe11110359"
+    ],
+    "URL": "https://doi.org/10.3390/universe11110359",
+    "relation": {},
+    "ISSN": [
+      "2218-1997"
+    ],
+    "issn-type": [
+      {
+        "value": "2218-1997",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          30
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.3390/universe11110359",
+  "original_doi": "10.3390/universe11110359"
+}

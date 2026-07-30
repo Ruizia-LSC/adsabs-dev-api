@@ -1,0 +1,789 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          8
+        ]
+      ],
+      "date-time": "2026-07-08T18:34:56Z",
+      "timestamp": 1783535696824,
+      "version": "3.55.0"
+    },
+    "reference-count": 39,
+    "publisher": "American Astronomical Society",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              27
+            ]
+          ],
+          "date-time": "2024-09-27T00:00:00Z",
+          "timestamp": 1727395200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              27
+            ]
+          ],
+          "date-time": "2024-09-27T00:00:00Z",
+          "timestamp": 1727395200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://iopscience.iop.org/info/page/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "iopscience.iop.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "ApJ"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Newly computed collisional rate coefficients for the excitation of C<jats:sub>2</jats:sub> in collisions with H<jats:sub>2</jats:sub>, presented recently by Najar &amp; Kalugina, are significantly larger than the values adopted previously in models for the excitation of the C<jats:sub>2</jats:sub> molecule, a widely used probe of the interstellar gas density. With these new rate coefficients, we have modeled the C<jats:sub>2</jats:sub> rotational distributions inferred from visible and ultraviolet absorption observations of electronic transitions of C<jats:sub>2</jats:sub> toward a collection of 46 nearby background sources. The inferred gas densities in the foreground interstellar clouds responsible for the observed C<jats:sub>2</jats:sub> absorption are a factor 4\u20137 smaller than those inferred previously, a direct reflection of the larger collisional rate coefficients computed by Najar &amp; Kalugina. These lower-density estimates are generally in good agreement with the peak densities inferred from 3D extinction maps for the relevant sight lines. In cases where <jats:inline-formula>\n                     <jats:tex-math>\n\n</jats:tex-math>\n                     <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" overflow=\"scroll\">\n                        <mml:msubsup>\n                           <mml:mrow>\n                              <mml:mi mathvariant=\"normal\">H</mml:mi>\n                           </mml:mrow>\n                           <mml:mrow>\n                              <mml:mn>3</mml:mn>\n                           </mml:mrow>\n                           <mml:mrow>\n                              <mml:mo>+</mml:mo>\n                           </mml:mrow>\n                        </mml:msubsup>\n                     </mml:math>\n                  </jats:inline-formula> absorption has also been observed and used to estimate the cosmic-ray ionization rate (CRIR), our estimates of the latter will also decrease accordingly because the <jats:inline-formula>\n                     <jats:tex-math>\n\n</jats:tex-math>\n                     <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" overflow=\"scroll\">\n                        <mml:msubsup>\n                           <mml:mrow>\n                              <mml:mi mathvariant=\"normal\">H</mml:mi>\n                           </mml:mrow>\n                           <mml:mrow>\n                              <mml:mn>3</mml:mn>\n                           </mml:mrow>\n                           <mml:mrow>\n                              <mml:mo>+</mml:mo>\n                           </mml:mrow>\n                        </mml:msubsup>\n                     </mml:math>\n                  </jats:inline-formula> abundance is a function of the ratio of the CRIR to the gas density.</jats:p>",
+    "DOI": "10.3847/1538-4357/ad7264",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          27
+        ]
+      ],
+      "date-time": "2024-09-27T09:58:32Z",
+      "timestamp": 1727431112000
+    },
+    "page": "143",
+    "update-policy": "https://doi.org/10.1088/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 17,
+    "title": [
+      "The Densities in Diffuse and Translucent Molecular Clouds: Estimates from Observations of C<sub>2</sub> and from Three-dimensional Extinction Maps"
+    ],
+    "prefix": "10.3847",
+    "volume": "973",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8341-1646",
+        "authenticated-orcid": true,
+        "given": "David A.",
+        "family": "Neufeld",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6277-9556",
+        "authenticated-orcid": true,
+        "given": "Daniel E.",
+        "family": "Welty",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1590-1018",
+        "authenticated-orcid": true,
+        "given": "Alexei V.",
+        "family": "Ivlev",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1481-7911",
+        "authenticated-orcid": true,
+        "given": "Paola",
+        "family": "Caselli",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3122-4894",
+        "authenticated-orcid": true,
+        "given": "Gordian",
+        "family": "Edenhofer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8533-6440",
+        "authenticated-orcid": true,
+        "given": "Nick",
+        "family": "Indriolo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Marta",
+        "family": "Obolentseva",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1572-0505",
+        "authenticated-orcid": true,
+        "given": "Kedron",
+        "family": "Silsbee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2027-5020",
+        "authenticated-orcid": true,
+        "given": "Paule",
+        "family": "Sonnentrucker",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0030-9510",
+        "authenticated-orcid": true,
+        "given": "Mark G.",
+        "family": "Wolfire",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "2208",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          27
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "apjad7264bib1",
+        "doi-asserted-by": "publisher",
+        "first-page": "132",
+        "DOI": "10.1086/156357",
+        "volume": "224",
+        "author": "Bohlin",
+        "year": "1978",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad7264bib2",
+        "doi-asserted-by": "publisher",
+        "first-page": "48",
+        "DOI": "10.1088/0004-637X/749/1/48",
+        "volume": "749",
+        "author": "Casu",
+        "year": "2012",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad7264bib3",
+        "doi-asserted-by": "publisher",
+        "first-page": "474",
+        "DOI": "10.1086/157764",
+        "volume": "236",
+        "author": "Chaffee",
+        "year": "1980",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad7264bib4",
+        "doi-asserted-by": "publisher",
+        "first-page": "A82",
+        "DOI": "10.1051/0004-6361/202347628",
+        "volume": "685",
+        "author": "Edenhofer",
+        "year": "2024",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjad7264bib5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18727/ARCHIVE/50",
+        "author": "European Southern Observatory (ESO)",
+        "year": "2020",
+        "unstructured": "European Southern Observatory (ESO) 2020 UVES reduced data obtained by standard ESO pipeline processing, ESO DOI Service doi: 10.18727/ARCHIVE/50"
+      },
+      {
+        "key": "apjad7264bib6",
+        "doi-asserted-by": "publisher",
+        "first-page": "A6",
+        "DOI": "10.1051/0004-6361/202243910",
+        "volume": "681",
+        "author": "Fan",
+        "year": "2024",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjad7264bib7",
+        "doi-asserted-by": "publisher",
+        "first-page": "140",
+        "DOI": "10.1086/167187",
+        "volume": "338",
+        "author": "Federman",
+        "year": "1989",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad7264bib8",
+        "doi-asserted-by": "publisher",
+        "first-page": "I/350",
+        "DOI": "10.26093/cds/vizier.1350",
+        "author": "Gaia Collaboration",
+        "year": "2020",
+        "journal-title": "yCat"
+      },
+      {
+        "key": "apjad7264bib9",
+        "doi-asserted-by": "publisher",
+        "first-page": "589",
+        "DOI": "10.1051/0004-6361:20053410",
+        "volume": "447",
+        "author": "Galazutdinov",
+        "year": "2006",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjad7264bib10",
+        "doi-asserted-by": "publisher",
+        "first-page": "847",
+        "DOI": "10.1051/0004-6361:200810803",
+        "volume": "495",
+        "author": "Godard",
+        "year": "2009",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjad7264bib11",
+        "first-page": "657",
+        "volume": "351",
+        "author": "Gredel",
+        "year": "1999",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjad7264bib12",
+        "doi-asserted-by": "publisher",
+        "first-page": "25",
+        "DOI": "10.1086/306379",
+        "volume": "508",
+        "author": "Hauser",
+        "year": "1998",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad7264bib13",
+        "doi-asserted-by": "publisher",
+        "first-page": "38",
+        "DOI": "10.1088/0004-637X/761/1/38",
+        "volume": "761",
+        "author": "Hupe",
+        "year": "2012",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad7264bib14",
+        "doi-asserted-by": "publisher",
+        "first-page": "1857",
+        "DOI": "10.1111/j.1365-2966.2010.17807.x",
+        "volume": "411",
+        "author": "Iglesias-Groth",
+        "year": "2011",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjad7264bib15",
+        "doi-asserted-by": "publisher",
+        "first-page": "1736",
+        "DOI": "10.1086/523036",
+        "volume": "671",
+        "author": "Indriolo",
+        "year": "2007",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad7264bib16",
+        "doi-asserted-by": "publisher",
+        "first-page": "91",
+        "DOI": "10.1088/0004-637X/745/1/91",
+        "volume": "745",
+        "author": "Indriolo",
+        "year": "2012",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad7264bib17",
+        "doi-asserted-by": "publisher",
+        "first-page": "65",
+        "DOI": "10.1088/0004-637X/734/1/65",
+        "volume": "734",
+        "author": "Jenkins",
+        "year": "2011",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad7264bib18",
+        "doi-asserted-by": "publisher",
+        "first-page": "785",
+        "DOI": "10.1051/0004-6361/200811558",
+        "volume": "498",
+        "author": "Ka\u017amierczak",
+        "year": "2009",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjad7264bib19",
+        "doi-asserted-by": "publisher",
+        "first-page": "2548",
+        "DOI": "10.1111/j.1365-2966.2009.16065.x",
+        "volume": "402",
+        "author": "Ka\u017amierczak",
+        "year": "2010",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjad7264bib20",
+        "doi-asserted-by": "publisher",
+        "first-page": "A135",
+        "DOI": "10.1051/0004-6361/201834695",
+        "volume": "625",
+        "author": "Lallement",
+        "year": "2019",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjad7264bib21",
+        "doi-asserted-by": "publisher",
+        "first-page": "A138",
+        "DOI": "10.1051/0004-6361/202038169",
+        "volume": "639",
+        "author": "Leike",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjad7264bib22",
+        "first-page": "212",
+        "volume": "128",
+        "author": "Mathis",
+        "year": "1983",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjad7264bib23",
+        "doi-asserted-by": "publisher",
+        "first-page": "500",
+        "DOI": "10.1038/nature01498",
+        "volume": "422",
+        "author": "McCall",
+        "year": "2003",
+        "journal-title": "Natur"
+      },
+      {
+        "key": "apjad7264bib24",
+        "doi-asserted-by": "publisher",
+        "first-page": "31",
+        "DOI": "10.1016/j.cplett.2008.05.070",
+        "volume": "460",
+        "author": "Najar",
+        "year": "2008",
+        "journal-title": "CPL"
+      },
+      {
+        "key": "apjad7264bib25",
+        "doi-asserted-by": "publisher",
+        "first-page": "204305",
+        "DOI": "10.1063/1.3137583",
+        "volume": "130",
+        "author": "Najar",
+        "year": "2009",
+        "journal-title": "JChPh"
+      },
+      {
+        "key": "apjad7264bib26",
+        "doi-asserted-by": "publisher",
+        "first-page": "8580",
+        "DOI": "10.1039/C9RA10319H",
+        "volume": "10",
+        "author": "Najar",
+        "year": "2020",
+        "journal-title": "RSCAd"
+      },
+      {
+        "key": "apjad7264bib27",
+        "doi-asserted-by": "publisher",
+        "first-page": "163",
+        "DOI": "10.3847/1538-4357/aa6d68",
+        "volume": "845",
+        "author": "Neufeld",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad7264bib28",
+        "doi-asserted-by": "publisher",
+        "first-page": "142",
+        "DOI": "10.3847/1538-4357/ad71ce",
+        "volume": "973",
+        "author": "Obolentseva",
+        "year": "2024",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad7264bib29",
+        "doi-asserted-by": "publisher",
+        "first-page": "827",
+        "DOI": "10.1093/mnras/271.4.827",
+        "volume": "271",
+        "author": "Phillips",
+        "year": "1994",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjad7264bib30",
+        "doi-asserted-by": "publisher",
+        "first-page": "125",
+        "DOI": "10.1088/0067-0049/180/1/125",
+        "volume": "180",
+        "author": "Rachford",
+        "year": "2009",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "apjad7264bib31",
+        "doi-asserted-by": "publisher",
+        "first-page": "L61",
+        "DOI": "10.1086/309971",
+        "volume": "460",
+        "author": "Sembach",
+        "year": "1996",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjad7264bib32",
+        "doi-asserted-by": "publisher",
+        "first-page": "1075",
+        "DOI": "10.1086/591484",
+        "volume": "687",
+        "author": "Sheffer",
+        "year": "2008",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad7264bib33",
+        "doi-asserted-by": "publisher",
+        "first-page": "58",
+        "DOI": "10.1086/508687",
+        "volume": "168",
+        "author": "Sonnentrucker",
+        "year": "2007",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "apjad7264bib34",
+        "doi-asserted-by": "publisher",
+        "first-page": "8",
+        "DOI": "10.3847/1538-4357/ad0465",
+        "volume": "960",
+        "author": "Sternberg",
+        "year": "2024",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad7264bib35",
+        "doi-asserted-by": "publisher",
+        "first-page": "533",
+        "DOI": "10.1086/160104",
+        "volume": "258",
+        "author": "van Dishoeck",
+        "year": "1982",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad7264bib36",
+        "doi-asserted-by": "publisher",
+        "first-page": "109",
+        "DOI": "10.1086/191135",
+        "volume": "62",
+        "author": "van Dishoeck",
+        "year": "1986",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "apjad7264bib37",
+        "doi-asserted-by": "publisher",
+        "first-page": "273",
+        "DOI": "10.1086/167391",
+        "volume": "340",
+        "author": "van Dishoeck",
+        "year": "1989",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad7264bib38",
+        "doi-asserted-by": "publisher",
+        "first-page": "36",
+        "DOI": "10.3847/1538-4357/ab8f8e",
+        "volume": "897",
+        "author": "Welty",
+        "year": "2020",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjad7264bib39",
+        "doi-asserted-by": "publisher",
+        "first-page": "1855",
+        "DOI": "10.1093/mnras/stad1941",
+        "volume": "524",
+        "author": "Zhang",
+        "year": "2023",
+        "journal-title": "MNRAS"
+      }
+    ],
+    "container-title": [
+      "The Astrophysical Journal"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-4357/ad7264",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-4357/ad7264/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-4357/ad7264/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-4357/ad7264/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          27
+        ]
+      ],
+      "date-time": "2024-09-27T09:58:35Z",
+      "timestamp": 1727431115000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://iopscience.iop.org/article/10.3847/1538-4357/ad7264"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          27
+        ]
+      ]
+    },
+    "references-count": 39,
+    "journal-issue": {
+      "issue": "2",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            27
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.3847/1538-4357/ad7264",
+    "relation": {},
+    "ISSN": [
+      "0004-637X",
+      "1538-4357"
+    ],
+    "issn-type": [
+      {
+        "value": "0004-637X",
+        "type": "print"
+      },
+      {
+        "value": "1538-4357",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          27
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "The Densities in Diffuse and Translucent Molecular Clouds: Estimates from Observations of C2 and from Three-dimensional Extinction Maps",
+        "name": "article_title",
+        "label": "Article Title"
+      },
+      {
+        "value": "The Astrophysical Journal",
+        "name": "journal_title",
+        "label": "Journal Title"
+      },
+      {
+        "value": "paper",
+        "name": "article_type",
+        "label": "Article Type"
+      },
+      {
+        "value": "\u00a9 2024. The Author(s). Published by the American Astronomical Society.",
+        "name": "copyright_information",
+        "label": "Copyright Information"
+      },
+      {
+        "value": "2024-06-18",
+        "name": "date_received",
+        "label": "Date Received",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "2024-08-12",
+        "name": "date_accepted",
+        "label": "Date Accepted",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "2024-09-27",
+        "name": "date_epub",
+        "label": "Online publication date",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.3847/1538-4357/ad7264",
+  "original_doi": "10.3847/1538-4357/ad7264"
+}
