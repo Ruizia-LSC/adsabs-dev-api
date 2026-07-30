@@ -1,0 +1,985 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          22
+        ]
+      ],
+      "date-time": "2026-04-22T18:50:04Z",
+      "timestamp": 1776883804477,
+      "version": "3.51.2"
+    },
+    "reference-count": 66,
+    "publisher": "EDP Sciences",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              6
+            ]
+          ],
+          "date-time": "2024-09-06T00:00:00Z",
+          "timestamp": 1725580800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 5,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "A&amp;A"
+    ],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          28
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:p><jats:italic>Context.</jats:italic> Hydrogen recombination lines such as Br<jats:italic>\u03b3</jats:italic> are tracers of hot gas within the inner circumstellar disk of young stellar objects (YSOs). In the relatively cool innermost environment of T Tauri stars specifically, Br<jats:italic>\u03b3</jats:italic> emission is closely associated with magnetically driven processes, such as magnetospheric accretion. Magnetospheric emission alone would arise from a relatively compact region that is located close to the co-rotation radius of the star-disk system. Since it was previously found that the Br<jats:italic>\u03b3</jats:italic> emission region in these objects can be significantly more extended than this, it was speculated that Br\u03b3 emission may also originate from a larger structure, such as a magnetised disk wind.</jats:p>\n<jats:p><jats:italic>Aims.</jats:italic> Our aim is to build upon the analysis presented in our previous work by attempting to match the observational data obtained with VLTI GRAVITY for RU Lup in 2021 with an expanded model. Specifically, we will determine if the inclusion of an additional disk wind as a Br\u03b3 emitter in the inner disk will be able to reproduce the trend of increasing sizes at higher velocities. In addition, we will investigate whether the additional component will alter the obtained photocentre shift profiles to be more consistent with the observational results.</jats:p>\n<jats:p><jats:italic>Methods.</jats:italic> We make use of the MCFOST radiative transfer code to solve for Br<jats:italic>\u03b3</jats:italic> line formation in the innermost disk of an RU Lup-like system. From the resulting images we compute synthetic interferometric observables in the form of the continuum-normalised line profiles, visibilities, and differential phases. Based on these computations, we first investigate how individual parameter variations in a pure magnetospheric accretion model and a pure parameteric disk wind model translate to changes in these derived quantities. Then we attempt to reproduce the RU Lup GRAVITY data with different parameter variants of magnetospheric accretion models, disk wind models, and combined hybrid models.</jats:p>\n<jats:p><jats:italic>Results.</jats:italic> We demonstrate that magnetospheric accretion models and disk wind models on their own can emulate certain individual characteristics from the observational results, but individually fail to comprehensively reproduce the observational trends. Disk wind plus accretion hybrid models are in principle capable of explaining the variation in characteristic radii across the line and the corresponding flux ratios. While the model parameters of the hybrid models are mostly in good agreement with the known attributes of RU Lup, we find that our best-fitting models deviate in terms of rotational period and the size of the magnetosphere. The best-fitting hybrid model does not respect the co-rotation criterion, as the magnetospheric truncation radius is about 50% larger than the co-rotation radius.</jats:p>\n<jats:p><jats:italic>Conclusions.</jats:italic> The deviation of the found magnetospheric size when assuming stable accretion with funnel flows indicates that the accretion process in RU Lup is more complex than what the analytical model of magnetospheric accretion suggests. The result implies that RU Lup could exist in a weak propeller regime of accretion, featuring ejection at the magnetospheric boundary. Alternatively, the omission of a large scale halo component from the treatment of the observational data may have lead to a significant overestimation of the emission region size.</jats:p>",
+    "DOI": "10.1051/0004-6361/202450121",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          6
+        ]
+      ],
+      "date-time": "2024-09-06T07:55:15Z",
+      "timestamp": 1725609315000
+    },
+    "page": "A124",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "The interplay between disk wind and magnetospheric accretion mechanisms in the innermost environment of RU Lup"
+    ],
+    "prefix": "10.1051",
+    "volume": "689",
+    "author": [
+      {
+        "given": "J. A.",
+        "family": "Wojtczak",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "B.",
+        "family": "Tessore",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5342-5713",
+        "authenticated-orcid": false,
+        "given": "L.",
+        "family": "Labadie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3099-757X",
+        "authenticated-orcid": false,
+        "given": "K.",
+        "family": "Perraut",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7450-6712",
+        "authenticated-orcid": false,
+        "given": "J.",
+        "family": "Bouvier",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6660-936X",
+        "authenticated-orcid": false,
+        "given": "C.",
+        "family": "Dougados",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5762-0249",
+        "authenticated-orcid": false,
+        "given": "H.",
+        "family": "Nowacki",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7661-5130",
+        "authenticated-orcid": false,
+        "given": "A.",
+        "family": "Soulain",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5260-7179",
+        "authenticated-orcid": false,
+        "given": "E.",
+        "family": "Al\u00e9cian",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "G.",
+        "family": "Pantolmos",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7834-7341",
+        "authenticated-orcid": false,
+        "given": "J.",
+        "family": "Ferreira",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0671-9302",
+        "authenticated-orcid": false,
+        "given": "C.",
+        "family": "Straubmeier",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6049-3132",
+        "authenticated-orcid": false,
+        "given": "A.",
+        "family": "Eckart",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "250",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          6
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "R1",
+        "doi-asserted-by": "crossref",
+        "first-page": "A2",
+        "DOI": "10.1051/0004-6361/201322254",
+        "volume": "561",
+        "author": "Alcal\u00e1",
+        "year": "2014",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R2",
+        "doi-asserted-by": "crossref",
+        "first-page": "A20",
+        "DOI": "10.1051/0004-6361/201629929",
+        "volume": "600",
+        "author": "Alcal\u00e1",
+        "year": "2017",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R3",
+        "unstructured": "Alexander R., Pascucci I., Andrews S., Armitage P., & Cieza L. 2014, in Protostars and Planets VI, eds. Beuther H., Klessen R. S., Dullemond C. P., & Henning T. (Tucson: University of Arizona Press), 475"
+      },
+      {
+        "key": "R4",
+        "doi-asserted-by": "crossref",
+        "first-page": "576",
+        "DOI": "10.1016/j.newar.2007.06.003",
+        "volume": "51",
+        "author": "Berger",
+        "year": "2007",
+        "journal-title": "New A Rev."
+      },
+      {
+        "key": "R5",
+        "doi-asserted-by": "crossref",
+        "first-page": "883",
+        "DOI": "10.1093/mnras/199.4.883",
+        "volume": "199",
+        "author": "Blandford",
+        "year": "1982",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R6",
+        "doi-asserted-by": "crossref",
+        "first-page": "2354",
+        "DOI": "10.1093/mnras/stw786",
+        "volume": "459",
+        "author": "Blinova",
+        "year": "2016",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R7",
+        "unstructured": "Bouvier J., Alencar S. H. P., Harries T. J., Johns-Krull C. M., & Romanova M. M. 2007, in Protostars and Planets V, eds. Reipurth B., Jewitt D., & Keil K. (Tucson: University of Arizona Press), 479"
+      },
+      {
+        "key": "R8",
+        "doi-asserted-by": "crossref",
+        "first-page": "A108",
+        "DOI": "10.1051/0004-6361/202037611",
+        "volume": "636",
+        "author": "Bouvier",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1297",
+        "DOI": "10.1111/j.1365-2966.2007.12194.x",
+        "volume": "380",
+        "author": "Donati",
+        "year": "2007",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R10",
+        "doi-asserted-by": "crossref",
+        "first-page": "814",
+        "DOI": "10.1086/115027",
+        "volume": "97",
+        "author": "Drissen",
+        "year": "1989",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R11",
+        "doi-asserted-by": "crossref",
+        "first-page": "774",
+        "DOI": "10.1088/0004-637X/718/2/774",
+        "volume": "718",
+        "author": "Eisner",
+        "year": "2010",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R12",
+        "doi-asserted-by": "crossref",
+        "first-page": "28",
+        "DOI": "10.3847/1538-4357/aae780",
+        "volume": "868",
+        "author": "Fang",
+        "year": "2018",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R13",
+        "doi-asserted-by": "crossref",
+        "first-page": "387",
+        "DOI": "10.1046/j.1365-8711.2000.03215.x",
+        "volume": "312",
+        "author": "Ferreira",
+        "year": "2000",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R14",
+        "doi-asserted-by": "crossref",
+        "first-page": "785",
+        "DOI": "10.1051/0004-6361:20054231",
+        "volume": "453",
+        "author": "Ferreira",
+        "year": "2006",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R15",
+        "doi-asserted-by": "crossref",
+        "first-page": "A33",
+        "DOI": "10.1051/0004-6361/201630108",
+        "volume": "602",
+        "author": "Frasca",
+        "year": "2017",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R16",
+        "first-page": "350",
+        "volume": "I",
+        "author": "Gaia Collaboration",
+        "year": "2020",
+        "journal-title": "VizieR Online Data Catalog"
+      },
+      {
+        "key": "R17",
+        "doi-asserted-by": "crossref",
+        "first-page": "589",
+        "DOI": "10.1051/0004-6361:20011145",
+        "volume": "377",
+        "author": "Garcia",
+        "year": "2001",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R18",
+        "doi-asserted-by": "crossref",
+        "first-page": "547",
+        "DOI": "10.1038/s41586-020-2613-1",
+        "volume": "584",
+        "author": "Garcia Lopez",
+        "year": "2020",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "R19",
+        "doi-asserted-by": "crossref",
+        "first-page": "A112",
+        "DOI": "10.1051/0004-6361/202141103",
+        "volume": "655",
+        "author": "Ganci",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R20",
+        "doi-asserted-by": "crossref",
+        "first-page": "A73",
+        "DOI": "10.1051/0004-6361/202141624",
+        "volume": "655",
+        "author": "Perraut",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R21",
+        "doi-asserted-by": "crossref",
+        "first-page": "A203",
+        "DOI": "10.1051/0004-6361/202346446",
+        "volume": "674",
+        "author": "Soulain",
+        "year": "2023",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R22",
+        "doi-asserted-by": "crossref",
+        "first-page": "A59",
+        "DOI": "10.1051/0004-6361/202244675",
+        "volume": "669",
+        "author": "Wojtczak",
+        "year": "2023",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R23",
+        "doi-asserted-by": "crossref",
+        "first-page": "873",
+        "DOI": "10.1086/115033",
+        "volume": "97",
+        "author": "Hartmann",
+        "year": "1989",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R24",
+        "doi-asserted-by": "crossref",
+        "first-page": "279",
+        "DOI": "10.1086/160339",
+        "volume": "261",
+        "author": "Hartmann",
+        "year": "1982",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R25",
+        "doi-asserted-by": "crossref",
+        "first-page": "669",
+        "DOI": "10.1086/174104",
+        "volume": "426",
+        "author": "Hartmann",
+        "year": "1994",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R26",
+        "doi-asserted-by": "crossref",
+        "first-page": "135",
+        "DOI": "10.1146/annurev-astro-081915-023347",
+        "volume": "54",
+        "author": "Hartmann",
+        "year": "2016",
+        "journal-title": "ARA&A"
+      },
+      {
+        "key": "R27",
+        "first-page": "123",
+        "volume": "6",
+        "author": "Hoffmeister",
+        "year": "1965",
+        "journal-title": "Veroeffentlichungen der Sternwarte Sonneberg"
+      },
+      {
+        "key": "R28",
+        "doi-asserted-by": "crossref",
+        "first-page": "L42",
+        "DOI": "10.3847/2041-8213/aaf740",
+        "volume": "869",
+        "author": "Huang",
+        "year": "2018",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R29",
+        "doi-asserted-by": "crossref",
+        "first-page": "3202",
+        "DOI": "10.1093/mnras/stt2107",
+        "volume": "437",
+        "author": "Johnstone",
+        "year": "2014",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R30",
+        "doi-asserted-by": "crossref",
+        "first-page": "225",
+        "DOI": "10.1093/mnras/273.2.225",
+        "volume": "273",
+        "author": "Knigge",
+        "year": "1995",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R31",
+        "doi-asserted-by": "crossref",
+        "first-page": "580",
+        "DOI": "10.1111/j.1365-2966.2006.10527.x",
+        "volume": "370",
+        "author": "Kurosawa",
+        "year": "2006",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R32",
+        "doi-asserted-by": "crossref",
+        "first-page": "2623",
+        "DOI": "10.1111/j.1365-2966.2011.19216.x",
+        "volume": "416",
+        "author": "Kurosawa",
+        "year": "2011",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R33",
+        "doi-asserted-by": "crossref",
+        "first-page": "2236",
+        "DOI": "10.1093/mnras/stw088",
+        "volume": "457",
+        "author": "Kurosawa",
+        "year": "2016",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R34",
+        "doi-asserted-by": "crossref",
+        "first-page": "L41",
+        "DOI": "10.1051/0004-6361/200911854",
+        "volume": "498",
+        "author": "Le Bouquin",
+        "year": "2009",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R35",
+        "doi-asserted-by": "crossref",
+        "first-page": "A104",
+        "DOI": "10.1051/0004-6361/201014490",
+        "volume": "522",
+        "author": "Lima",
+        "year": "2010",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R36",
+        "doi-asserted-by": "crossref",
+        "first-page": "342",
+        "DOI": "10.1086/305443",
+        "volume": "497",
+        "author": "Mahdavi",
+        "year": "1998",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R37",
+        "doi-asserted-by": "crossref",
+        "first-page": "L135",
+        "DOI": "10.1086/498066",
+        "volume": "632",
+        "author": "Matt",
+        "year": "2005",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R38",
+        "doi-asserted-by": "crossref",
+        "first-page": "2142",
+        "DOI": "10.1093/mnras/staa2041",
+        "volume": "497",
+        "author": "McGinnis",
+        "year": "2020",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R39",
+        "doi-asserted-by": "crossref",
+        "first-page": "694",
+        "DOI": "10.1086/342917",
+        "volume": "579",
+        "author": "Monnier",
+        "year": "2002",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R40",
+        "doi-asserted-by": "crossref",
+        "first-page": "743",
+        "DOI": "10.1086/305069",
+        "volume": "492",
+        "author": "Muzerolle",
+        "year": "1998",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R41",
+        "doi-asserted-by": "crossref",
+        "first-page": "944",
+        "DOI": "10.1086/319779",
+        "volume": "550",
+        "author": "Muzerolle",
+        "year": "2001",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R42",
+        "doi-asserted-by": "crossref",
+        "first-page": "406",
+        "DOI": "10.1086/425260",
+        "volume": "617",
+        "author": "Muzerolle",
+        "year": "2004",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R43",
+        "doi-asserted-by": "crossref",
+        "first-page": "186",
+        "DOI": "10.1051/0004-6361:20010334",
+        "volume": "371",
+        "author": "Natta",
+        "year": "2001",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R44",
+        "doi-asserted-by": "crossref",
+        "first-page": "A129",
+        "DOI": "10.1051/0004-6361/202038569",
+        "volume": "643",
+        "author": "Pantolmos",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R45",
+        "doi-asserted-by": "crossref",
+        "first-page": "797",
+        "DOI": "10.1051/0004-6361:20053275",
+        "volume": "459",
+        "author": "Pinte",
+        "year": "2006",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R46",
+        "doi-asserted-by": "crossref",
+        "first-page": "967",
+        "DOI": "10.1051/0004-6361/200811555",
+        "volume": "498",
+        "author": "Pinte",
+        "year": "2009",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R47",
+        "doi-asserted-by": "crossref",
+        "first-page": "273",
+        "DOI": "10.3847/1538-3881/ab893c",
+        "volume": "159",
+        "author": "Rebull",
+        "year": "2020",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R48",
+        "doi-asserted-by": "crossref",
+        "first-page": "L171",
+        "DOI": "10.1086/527298",
+        "volume": "673",
+        "author": "Romanova",
+        "year": "2008",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R49",
+        "doi-asserted-by": "crossref",
+        "first-page": "339",
+        "DOI": "10.1007/s11214-015-0200-9",
+        "volume": "191",
+        "author": "Romanova",
+        "year": "2015",
+        "journal-title": "Space Sci. Rev."
+      },
+      {
+        "key": "R50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Romanova M. M., & Owocki S. P. 2016, in The Strongest Magnetic Fields in the Universe: Space Sciences Series of ISSI (Berlin: Springer), 54, 347",
+        "DOI": "10.1007/978-1-4939-3550-5_11"
+      },
+      {
+        "key": "R51",
+        "doi-asserted-by": "crossref",
+        "first-page": "164",
+        "DOI": "10.3847/1538-4357/aaef2c",
+        "volume": "869",
+        "author": "Setterholm",
+        "year": "2018",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R52",
+        "doi-asserted-by": "crossref",
+        "first-page": "781",
+        "DOI": "10.1086/174363",
+        "volume": "429",
+        "author": "Shu",
+        "year": "1994",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R53",
+        "doi-asserted-by": "crossref",
+        "first-page": "3972",
+        "DOI": "10.1093/mnras/stv2848",
+        "volume": "456",
+        "author": "Siwak",
+        "year": "2016",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R54",
+        "doi-asserted-by": "crossref",
+        "first-page": "253",
+        "DOI": "10.1051/0004-6361:20065268",
+        "volume": "461",
+        "author": "Stempels",
+        "year": "2007",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R55",
+        "doi-asserted-by": "crossref",
+        "first-page": "A94",
+        "DOI": "10.1051/0004-6361/202244315",
+        "volume": "668",
+        "author": "Stock",
+        "year": "2022",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R56",
+        "doi-asserted-by": "crossref",
+        "first-page": "2290",
+        "DOI": "10.1093/mnras/stab3442",
+        "volume": "512",
+        "author": "Tabone",
+        "year": "2022",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R57",
+        "doi-asserted-by": "crossref",
+        "first-page": "675",
+        "DOI": "10.1051/0004-6361:20021544",
+        "volume": "397",
+        "author": "Takami",
+        "year": "2003",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R58",
+        "doi-asserted-by": "crossref",
+        "first-page": "73",
+        "DOI": "10.3847/1538-4357/ac9eb1",
+        "volume": "941",
+        "author": "Takasao",
+        "year": "2022",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R59",
+        "doi-asserted-by": "crossref",
+        "first-page": "A27",
+        "DOI": "10.1051/0004-6361/202039697",
+        "volume": "647",
+        "author": "Tessore",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R60",
+        "doi-asserted-by": "crossref",
+        "first-page": "A129",
+        "DOI": "10.1051/0004-6361/202245039",
+        "volume": "671",
+        "author": "Tessore",
+        "year": "2023",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R61",
+        "doi-asserted-by": "crossref",
+        "first-page": "52",
+        "DOI": "10.3847/0004-637X/828/1/52",
+        "volume": "828",
+        "author": "Watson",
+        "year": "2016",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R62",
+        "doi-asserted-by": "crossref",
+        "first-page": "223",
+        "DOI": "10.1093/mnras/staa1549",
+        "volume": "496",
+        "author": "Weber",
+        "year": "2020",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R63",
+        "doi-asserted-by": "crossref",
+        "first-page": "A103",
+        "DOI": "10.1051/0004-6361/201015676",
+        "volume": "527",
+        "author": "Weigelt",
+        "year": "2011",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R64",
+        "doi-asserted-by": "crossref",
+        "first-page": "43",
+        "DOI": "10.3847/1538-4357/abf55e",
+        "volume": "913",
+        "author": "Whelan",
+        "year": "2021",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R65",
+        "doi-asserted-by": "crossref",
+        "first-page": "2162",
+        "DOI": "10.1093/mnras/stac1397",
+        "volume": "514",
+        "author": "Wilson",
+        "year": "2022",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R66",
+        "doi-asserted-by": "crossref",
+        "first-page": "A99",
+        "DOI": "10.1051/0004-6361/201220168",
+        "volume": "550",
+        "author": "Zanni",
+        "year": "2013",
+        "journal-title": "A&A"
+      }
+    ],
+    "container-title": [
+      "Astronomy &amp; Astrophysics"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.aanda.org/10.1051/0004-6361/202450121/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          6
+        ]
+      ],
+      "date-time": "2024-09-06T08:08:57Z",
+      "timestamp": 1725610137000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.aanda.org/10.1051/0004-6361/202450121"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9
+        ]
+      ]
+    },
+    "references-count": 66,
+    "alternative-id": [
+      "aa50121-24"
+    ],
+    "URL": "https://doi.org/10.1051/0004-6361/202450121",
+    "relation": {},
+    "ISSN": [
+      "0004-6361",
+      "1432-0746"
+    ],
+    "issn-type": [
+      {
+        "value": "0004-6361",
+        "type": "print"
+      },
+      {
+        "value": "1432-0746",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          9
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.1051/0004-6361/202450121",
+  "original_doi": "10.1051/0004-6361/202450121"
+}

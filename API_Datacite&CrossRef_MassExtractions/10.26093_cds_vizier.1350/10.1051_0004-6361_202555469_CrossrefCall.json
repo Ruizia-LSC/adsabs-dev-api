@@ -1,0 +1,1616 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          26
+        ]
+      ],
+      "date-time": "2026-01-26T19:14:18Z",
+      "timestamp": 1769454858878,
+      "version": "3.49.0"
+    },
+    "reference-count": 113,
+    "publisher": "EDP Sciences",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              26
+            ]
+          ],
+          "date-time": "2026-01-26T00:00:00Z",
+          "timestamp": 1769385600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 25,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "A&amp;A"
+    ],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          17
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p>\n                    <jats:italic>Context</jats:italic>\n                    . M dwarfs are prime targets in the search for exoplanets because of their prevalence and because low-mass planets can be better detected with radial velocity (RV) methods. In particular, the near-infrared (NIR) spectral domain offers an increased RV sensitivity and potentially reduced stellar activity signals. Precise NIR RV measurements are strongly affected by telluric absorption lines from the Earth\u2019s atmosphere, however.\n                  </jats:p>\n                  <jats:p>\n                    <jats:italic>Aims</jats:italic>\n                    . We searched for planets orbiting Gl 725 B, a nearby late-M dwarf located at 3.5 pc, using high-precision SPIRou RV observations. We also assessed the effect of telluric contamination on these measurements and evaluated the performance of the weighted principal component analysis reconstruction (\n                    <jats:monospace>wapiti</jats:monospace>\n                    ) method, which is a weighted principal component analysis (wPCA) approach designed to mitigate these systematics and to improve the sensitivity of planet detections.\n                  </jats:p>\n                  <jats:p>\n                    <jats:italic>Methods</jats:italic>\n                    . Using synthetic and observational SPIRou data, we simulated the effect of telluric lines on RV data under varying barycentric Earth radial velocity (BERV) conditions. We then applied the\n                    <jats:monospace>wapiti</jats:monospace>\n                    method for identifying and correcting telluric-induced systematics in line-by-line RVs. The method was tested through an injection-recovery test on simulated data and was subsequently applied to real SPIRou observations of Gl 725 B.\n                  </jats:p>\n                  <jats:p>\n                    <jats:italic>Results</jats:italic>\n                    .\n                    <jats:monospace>wapiti</jats:monospace>\n                    successfully corrects telluric contamination in simulated and real datasets. This enhances the detectability and accuracy of planetary signals. In the corrected Gl 725 B dataset, we identified a two-planet system composed of a candidate inner planet (Gl 725 Bb), with periods of 4.765 \u00b1 0.004 days and a semi-amplitude of 1.4 \u00b1 0.3 m s\n                    <jats:sup>\u22121</jats:sup>\n                    , and a confirmed planet Gl 725 Bc, with a period of 37.90 \u00b1 0.17 days and a semi-amplitude of 1.7 \u00b1 0.3 m s\n                    <jats:sup>\u22121</jats:sup>\n                    . Their minimum mass is 1.5 \u00b1 0.4 M\n                    <jats:sub>\u2295</jats:sub>\n                    and of 3.5 \u00b1 0.7 M\n                    <jats:sub>\u2295</jats:sub>\n                    , respectively, and the outer planet is located in the habitable zone of its host star. Using a multi-dimensional Gaussian process framework to model and correct for stellar activity, we also recovered a stellar rotation period of 105.1 \u00b1 3.3 days.\n                  </jats:p>",
+    "DOI": "10.1051/0004-6361/202555469",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          27
+        ]
+      ],
+      "date-time": "2025-11-27T19:45:11Z",
+      "timestamp": 1764272711000
+    },
+    "page": "A234",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "The SPIRou Legacy Survey"
+    ],
+    "prefix": "10.1051",
+    "volume": "705",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1059-0193",
+        "authenticated-orcid": false,
+        "given": "M.",
+        "family": "Ould-Elhkim",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Universit\u00e9 de Toulouse, UPS-OMP, IRAP, CNRS",
+            "place": [
+              "France"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2842-3924",
+        "authenticated-orcid": false,
+        "given": "C.",
+        "family": "Moutou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Universit\u00e9 de Toulouse, UPS-OMP, IRAP, CNRS",
+            "place": [
+              "France"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5541-2887",
+        "authenticated-orcid": false,
+        "given": "J.-F.",
+        "family": "Donati",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Universit\u00e9 de Toulouse, UPS-OMP, IRAP, CNRS",
+            "place": [
+              "France"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6174-4666",
+        "authenticated-orcid": false,
+        "given": "P.",
+        "family": "Cort\u00e9s-Zuleta",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "SUPA School of Physics and Astronomy, University of St Andrews",
+            "place": [
+              "UK"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5099-7978",
+        "authenticated-orcid": false,
+        "given": "X.",
+        "family": "Delfosse",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Univ. Grenoble Alpes, CNRS, IPAG",
+            "place": [
+              "France"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "\u00c9.",
+        "family": "Artigau",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Trottier Institute for Research on Exoplanets, Universit\u00e9 de Montr\u00e9al, D\u00e9partement de Physique",
+            "place": [
+              "Canada"
+            ]
+          },
+          {
+            "name": "Observatoire du Mont-M\u00e9gantic, Universit\u00e9 de Montr\u00e9al, D\u00e9partement de Physique",
+            "place": [
+              "Canada"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9291-5555",
+        "authenticated-orcid": false,
+        "given": "C.",
+        "family": "Cadieux",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Trottier Institute for Research on Exoplanets, Universit\u00e9 de Montr\u00e9al, D\u00e9partement de Physique",
+            "place": [
+              "Canada"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0004-7844-9729",
+        "authenticated-orcid": false,
+        "given": "P.",
+        "family": "Charpentier",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Universit\u00e9 de Toulouse, UPS-OMP, IRAP, CNRS",
+            "place": [
+              "France"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2471-1299",
+        "authenticated-orcid": false,
+        "given": "A.",
+        "family": "Carmona",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Univ. Grenoble Alpes, CNRS, IPAG",
+            "place": [
+              "France"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "I.",
+        "family": "Boisse",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Aix Marseille Univ, CNRS, CNES, Institut Origines, LAM",
+            "place": [
+              "France"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2258-2403",
+        "authenticated-orcid": false,
+        "given": "C.",
+        "family": "Reyl\u00e9",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Universit\u00e9 Marie et Louis Pasteur, CNRS, Observatoire des Sciences de l\u2019Univers THETA Franche-Comt\u00e9 Bourgogne, Institut UTINAM (UMR 6213)",
+            "place": [
+              "France"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5258-6846",
+        "authenticated-orcid": false,
+        "given": "E.",
+        "family": "Gaidos",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Earth Sciences, University of Hawaii at Manoa",
+            "place": [
+              "USA"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5383-9393",
+        "authenticated-orcid": false,
+        "given": "R.",
+        "family": "Cloutier",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Center for Astrophysics | Harvard & Smithsonian",
+            "place": [
+              "USA"
+            ]
+          },
+          {
+            "name": "Department of Physics & Astronomy, McMaster University",
+            "place": [
+              "Canada"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "G.",
+        "family": "H\u00e9brard",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institut d\u2019astrophysique de Paris, UMR7095 CNRS, Universit\u00e9 Pierre & Marie Curie",
+            "place": [
+              "France"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0111-1234",
+        "authenticated-orcid": false,
+        "given": "L.",
+        "family": "Arnold",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Canada France Hawaii Telescope (CFHT) Corporation, UAR2208 CNRS-INSU",
+            "place": [
+              "USA"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7804-2145",
+        "authenticated-orcid": false,
+        "suffix": "Jr.",
+        "given": "J.-D.",
+        "family": "do Nascimento",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Universidade Federal do Rio Grande do Norte (UFRN), Departamento de F\u00edsica",
+            "place": [
+              "Brazil"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4166-4121",
+        "authenticated-orcid": false,
+        "given": "N. J.",
+        "family": "Cook",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Trottier Institute for Research on Exoplanets, Universit\u00e9 de Montr\u00e9al, D\u00e9partement de Physique",
+            "place": [
+              "Canada"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "R.",
+        "family": "Doyon",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Trottier Institute for Research on Exoplanets, Universit\u00e9 de Montr\u00e9al, D\u00e9partement de Physique",
+            "place": [
+              "Canada"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "250",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          26
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "R1",
+        "doi-asserted-by": "crossref",
+        "first-page": "3147",
+        "DOI": "10.1111/j.1365-2966.2011.19960.x",
+        "volume": "419",
+        "author": "Aigrain",
+        "year": "2012",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R2",
+        "doi-asserted-by": "crossref",
+        "first-page": "A128",
+        "DOI": "10.1051/0004-6361/201525803",
+        "volume": "577",
+        "author": "Alonso-Floriano",
+        "year": "2015",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R3",
+        "doi-asserted-by": "crossref",
+        "first-page": "437",
+        "DOI": "10.1038/nature19106",
+        "volume": "536",
+        "author": "Anglada-Escud\u00e9",
+        "year": "2016",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "R4",
+        "first-page": "914905",
+        "volume": "9149",
+        "author": "Artigau",
+        "year": "2014",
+        "journal-title": "SPIE Conf. Ser."
+      },
+      {
+        "key": "R5",
+        "doi-asserted-by": "crossref",
+        "first-page": "84",
+        "DOI": "10.3847/1538-3881/ac7ce6",
+        "volume": "164",
+        "author": "Artigau",
+        "year": "2022",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R6",
+        "doi-asserted-by": "crossref",
+        "first-page": "252",
+        "DOI": "10.3847/1538-3881/ad7b30",
+        "volume": "168",
+        "author": "Artigau",
+        "year": "2024",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R7",
+        "first-page": "177",
+        "volume": "26",
+        "author": "Baize",
+        "year": "1976",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R8",
+        "doi-asserted-by": "crossref",
+        "first-page": "1279",
+        "DOI": "10.1111/j.1365-2966.2008.12689.x",
+        "volume": "385",
+        "author": "Baluev",
+        "year": "2008",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R9",
+        "doi-asserted-by": "crossref",
+        "first-page": "A50",
+        "DOI": "10.1051/0004-6361/202038031",
+        "volume": "640",
+        "author": "Bauer",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R10",
+        "doi-asserted-by": "crossref",
+        "first-page": "410",
+        "DOI": "10.1088/0004-637X/713/1/410",
+        "volume": "713",
+        "author": "Bean",
+        "year": "2010",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R11",
+        "doi-asserted-by": "crossref",
+        "first-page": "3551",
+        "DOI": "10.1093/mnras/stw906",
+        "volume": "459",
+        "author": "Berdi\u00f1as",
+        "year": "2016",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R12",
+        "first-page": "8",
+        "volume": "2",
+        "author": "Berdyugina",
+        "year": "2005",
+        "journal-title": "Liv. Rev. Sol. Phys."
+      },
+      {
+        "key": "R13",
+        "unstructured": "Bertaux J.-L., Lallement R., Ferron S., & Boonne C. 2014, in 13th International HITRAN Conference, 8"
+      },
+      {
+        "key": "R14",
+        "doi-asserted-by": "crossref",
+        "first-page": "A109",
+        "DOI": "10.1051/0004-6361/201014704",
+        "volume": "549",
+        "author": "Bonfils",
+        "year": "2013",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R15",
+        "doi-asserted-by": "crossref",
+        "first-page": "112",
+        "DOI": "10.1088/0004-637X/757/2/112",
+        "volume": "757",
+        "author": "Boyajian",
+        "year": "2012",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R16",
+        "doi-asserted-by": "crossref",
+        "first-page": "3001",
+        "DOI": "10.21105/joss.03001",
+        "volume": "6",
+        "author": "Buchner",
+        "year": "2021",
+        "journal-title": "J. Open Source Softw."
+      },
+      {
+        "key": "R17",
+        "doi-asserted-by": "crossref",
+        "first-page": "295",
+        "DOI": "10.3847/1538-3881/ac2c80",
+        "volume": "162",
+        "author": "Cale",
+        "year": "2021",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R18",
+        "doi-asserted-by": "crossref",
+        "first-page": "351",
+        "DOI": "10.1007/s10686-016-9492-3",
+        "volume": "41",
+        "author": "Carleo",
+        "year": "2016",
+        "journal-title": "Exp. Astron."
+      },
+      {
+        "key": "R19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Carmona A., Delfosse X., Bellotti S., et al. 2023, Near-IR and optical radial velocities of the active M dwarf star Gl 388 (AD Leo) with SPIRou at CFHT and SOPHIE at OHP: A 2.23 day rotation period and no evidence for a corotating planet",
+        "DOI": "10.1051/0004-6361/202245660"
+      },
+      {
+        "key": "R20",
+        "doi-asserted-by": "crossref",
+        "first-page": "55",
+        "DOI": "10.3847/1538-4357/ab16d3",
+        "volume": "879",
+        "author": "Cegla",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R21",
+        "doi-asserted-by": "crossref",
+        "first-page": "A17",
+        "DOI": "10.1051/0004-6361/202554832",
+        "volume": "701",
+        "author": "Charpentier",
+        "year": "2025",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R22",
+        "doi-asserted-by": "crossref",
+        "first-page": "A40",
+        "DOI": "10.1051/0004-6361/202142286",
+        "volume": "658",
+        "author": "Chaverot",
+        "year": "2022",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R23",
+        "doi-asserted-by": "crossref",
+        "first-page": "A30",
+        "DOI": "10.1051/0004-6361/201629705",
+        "volume": "600",
+        "author": "Claret",
+        "year": "2017",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R24",
+        "doi-asserted-by": "crossref",
+        "first-page": "211",
+        "DOI": "10.3847/1538-3881/ab8237",
+        "volume": "159",
+        "author": "Cloutier",
+        "year": "2020",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R25",
+        "doi-asserted-by": "crossref",
+        "first-page": "1699",
+        "DOI": "10.1093/mnras/stab1323",
+        "volume": "505",
+        "author": "Collier Cameron",
+        "year": "2021",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cook N. J., Artigau \u00c9., Doyon R., et al. 2022, APERO: A PipelinE to Reduce Observations, Astrophysics Source Code Library [record ascl:2211.019]",
+        "DOI": "10.1088/1538-3873/ac9e74"
+      },
+      {
+        "key": "R27",
+        "doi-asserted-by": "crossref",
+        "first-page": "A14",
+        "DOI": "10.1051/0004-6361/202245131",
+        "volume": "673",
+        "author": "Cort\u00e9s-Zuleta",
+        "year": "2023",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R28",
+        "doi-asserted-by": "crossref",
+        "first-page": "A164",
+        "DOI": "10.1051/0004-6361/202451646",
+        "volume": "693",
+        "author": "Cort\u00e9s-Zuleta",
+        "year": "2025",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R29",
+        "first-page": "990819",
+        "volume": "9908",
+        "author": "Crepp",
+        "year": "2016",
+        "journal-title": "SPIE Conf. Ser."
+      },
+      {
+        "key": "R30",
+        "doi-asserted-by": "crossref",
+        "first-page": "A2",
+        "DOI": "10.1051/0004-6361/202347232",
+        "volume": "678",
+        "author": "Cretignier",
+        "year": "2023",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R31",
+        "doi-asserted-by": "crossref",
+        "first-page": "3802",
+        "DOI": "10.1093/mnras/stac2364",
+        "volume": "516",
+        "author": "Cristofari",
+        "year": "2022",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R32",
+        "doi-asserted-by": "crossref",
+        "first-page": "164",
+        "DOI": "10.1088/0004-637X/761/2/164",
+        "volume": "761",
+        "author": "Crockett",
+        "year": "2012",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R33",
+        "doi-asserted-by": "crossref",
+        "first-page": "3545",
+        "DOI": "10.1093/mnras/stu2219",
+        "volume": "446",
+        "author": "Delchambre",
+        "year": "2015",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R34",
+        "doi-asserted-by": "crossref",
+        "first-page": "A133",
+        "DOI": "10.1051/0004-6361/201732529",
+        "volume": "614",
+        "author": "Delisle",
+        "year": "2018",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R35",
+        "doi-asserted-by": "crossref",
+        "first-page": "A182",
+        "DOI": "10.1051/0004-6361/202141949",
+        "volume": "659",
+        "author": "Delisle",
+        "year": "2022",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R36",
+        "doi-asserted-by": "crossref",
+        "first-page": "5684",
+        "DOI": "10.1093/mnras/staa2569",
+        "volume": "498",
+        "author": "Donati",
+        "year": "2020",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R37",
+        "doi-asserted-by": "crossref",
+        "first-page": "455",
+        "DOI": "10.1093/mnras/stad1193",
+        "volume": "525",
+        "author": "Donati",
+        "year": "2023",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R38",
+        "doi-asserted-by": "crossref",
+        "first-page": "2015",
+        "DOI": "10.1093/mnras/stad2301",
+        "volume": "525",
+        "author": "Donati",
+        "year": "2023",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R39",
+        "doi-asserted-by": "crossref",
+        "first-page": "A24",
+        "DOI": "10.1051/0004-6361/202245217",
+        "volume": "671",
+        "author": "Dorn",
+        "year": "2023",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R40",
+        "doi-asserted-by": "crossref",
+        "first-page": "45",
+        "DOI": "10.1088/0004-637X/807/1/45",
+        "volume": "807",
+        "author": "Dressing",
+        "year": "2015",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R41",
+        "doi-asserted-by": "crossref",
+        "first-page": "A47",
+        "DOI": "10.1051/0004-6361/201833795",
+        "volume": "620",
+        "author": "Dumusque",
+        "year": "2018",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R42",
+        "doi-asserted-by": "crossref",
+        "first-page": "A140",
+        "DOI": "10.1051/0004-6361/201014097",
+        "volume": "525",
+        "author": "Dumusque",
+        "year": "2011",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R43",
+        "doi-asserted-by": "crossref",
+        "first-page": "132",
+        "DOI": "10.1088/0004-637X/796/2/132",
+        "volume": "796",
+        "author": "Dumusque",
+        "year": "2014",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R44",
+        "doi-asserted-by": "crossref",
+        "first-page": "118",
+        "DOI": "10.3847/1538-4357/ac90be",
+        "volume": "938",
+        "author": "Dungee",
+        "year": "2022",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R45",
+        "doi-asserted-by": "crossref",
+        "first-page": "A115",
+        "DOI": "10.1051/0004-6361/202142337",
+        "volume": "658",
+        "author": "Faria",
+        "year": "2022",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R46",
+        "doi-asserted-by": "crossref",
+        "first-page": "066001",
+        "DOI": "10.1088/1538-3873/128/964/066001",
+        "volume": "128",
+        "author": "Fischer",
+        "year": "2016",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R47",
+        "doi-asserted-by": "crossref",
+        "first-page": "A52",
+        "DOI": "10.1051/0004-6361/202345839",
+        "volume": "672",
+        "author": "Fouqu\u00e9",
+        "year": "2023",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R48",
+        "doi-asserted-by": "crossref",
+        "first-page": "109",
+        "DOI": "10.3847/1538-3881/aa80eb",
+        "volume": "154",
+        "author": "Fulton",
+        "year": "2017",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R49",
+        "first-page": "350",
+        "volume": "I",
+        "author": "Gaia Collaboration",
+        "year": "2020",
+        "journal-title": "VizieR Online Data Catalog"
+      },
+      {
+        "key": "R50",
+        "doi-asserted-by": "crossref",
+        "first-page": "2877",
+        "DOI": "10.1093/mnras/stw097",
+        "volume": "457",
+        "author": "Gaidos",
+        "year": "2016",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R51",
+        "doi-asserted-by": "crossref",
+        "first-page": "5283",
+        "DOI": "10.1093/mnras/stad343",
+        "volume": "520",
+        "author": "Gaidos",
+        "year": "2023",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R52",
+        "doi-asserted-by": "crossref",
+        "first-page": "3277",
+        "DOI": "10.1093/mnras/stae2207",
+        "volume": "534",
+        "author": "Gaidos",
+        "year": "2024",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R53",
+        "doi-asserted-by": "crossref",
+        "first-page": "L22",
+        "DOI": "10.1088/2041-8205/814/2/L22",
+        "volume": "814",
+        "author": "Halverson",
+        "year": "2015",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R54",
+        "doi-asserted-by": "crossref",
+        "first-page": "A14",
+        "DOI": "10.1051/0004-6361/202140543",
+        "volume": "663",
+        "author": "Hara",
+        "year": "2022",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R55",
+        "doi-asserted-by": "crossref",
+        "first-page": "2517",
+        "DOI": "10.1093/mnras/stu1320",
+        "volume": "443",
+        "author": "Haywood",
+        "year": "2014",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R56",
+        "doi-asserted-by": "crossref",
+        "first-page": "2360",
+        "DOI": "10.1086/508233",
+        "volume": "132",
+        "author": "Henry",
+        "year": "2006",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R57",
+        "doi-asserted-by": "crossref",
+        "first-page": "A39",
+        "DOI": "10.1051/0004-6361/201834672",
+        "volume": "623",
+        "author": "Hippke",
+        "year": "2019",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R58",
+        "doi-asserted-by": "crossref",
+        "first-page": "143",
+        "DOI": "10.3847/1538-3881/ab3984",
+        "volume": "158",
+        "author": "Hippke",
+        "year": "2019",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R59",
+        "doi-asserted-by": "crossref",
+        "first-page": "93",
+        "DOI": "10.1093/pasj/psaa085",
+        "volume": "72",
+        "author": "Hirano",
+        "year": "2020",
+        "journal-title": "PASJ"
+      },
+      {
+        "key": "R60",
+        "doi-asserted-by": "crossref",
+        "first-page": "621",
+        "DOI": "10.1086/300695",
+        "volume": "117",
+        "author": "Holman",
+        "year": "1999",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R61",
+        "doi-asserted-by": "crossref",
+        "first-page": "2249",
+        "DOI": "10.1093/mnras/staa2391",
+        "volume": "498",
+        "author": "Hsu",
+        "year": "2020",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R62",
+        "doi-asserted-by": "crossref",
+        "first-page": "L9",
+        "DOI": "10.1051/0004-6361:200810596",
+        "volume": "489",
+        "author": "Hu\u00e9lamo",
+        "year": "2008",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R63",
+        "doi-asserted-by": "crossref",
+        "first-page": "108",
+        "DOI": "10.1006/icar.1993.1010",
+        "volume": "101",
+        "author": "Kasting",
+        "year": "1993",
+        "journal-title": "Icarus"
+      },
+      {
+        "key": "R64",
+        "doi-asserted-by": "crossref",
+        "first-page": "A72",
+        "DOI": "10.1051/0004-6361/201834371",
+        "volume": "623",
+        "author": "Kervella",
+        "year": "2019",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R65",
+        "doi-asserted-by": "crossref",
+        "first-page": "417",
+        "DOI": "10.1086/191611",
+        "volume": "77",
+        "author": "Kirkpatrick",
+        "year": "1991",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R66",
+        "doi-asserted-by": "crossref",
+        "first-page": "L29",
+        "DOI": "10.1088/2041-8205/787/2/L29",
+        "volume": "787",
+        "author": "Kopparapu",
+        "year": "2014",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R67",
+        "doi-asserted-by": "crossref",
+        "first-page": "5",
+        "DOI": "10.3847/1538-4357/aa7cf9",
+        "volume": "845",
+        "author": "Kopparapu",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R68",
+        "doi-asserted-by": "crossref",
+        "first-page": "369",
+        "DOI": "10.1051/0004-6361:20020802",
+        "volume": "391",
+        "author": "Kov\u00e1cs",
+        "year": "2002",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R69",
+        "doi-asserted-by": "crossref",
+        "first-page": "19",
+        "DOI": "10.1088/0004-637X/745/1/19",
+        "volume": "745",
+        "author": "Kraus",
+        "year": "2012",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R70",
+        "doi-asserted-by": "crossref",
+        "first-page": "1161",
+        "DOI": "10.1086/683602",
+        "volume": "127",
+        "author": "Kreidberg",
+        "year": "2015",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R71",
+        "doi-asserted-by": "crossref",
+        "first-page": "A216",
+        "DOI": "10.1051/0004-6361/202554963",
+        "volume": "701",
+        "author": "Larue",
+        "year": "2025",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R72",
+        "doi-asserted-by": "crossref",
+        "first-page": "212",
+        "DOI": "10.3847/1538-3881/ac947b",
+        "volume": "164",
+        "author": "Latouf",
+        "year": "2022",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R73",
+        "unstructured": "Lichtenberg T., & Quanz S. P. 2023, in EGU General Assembly Conference Abstracts, EGU General Assembly Conference Abstracts, EGU-13634"
+      },
+      {
+        "key": "R74",
+        "doi-asserted-by": "crossref",
+        "first-page": "A16",
+        "DOI": "10.1051/0004-6361/201629682",
+        "volume": "599",
+        "author": "Lovis",
+        "year": "2017",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R75",
+        "doi-asserted-by": "crossref",
+        "first-page": "123",
+        "DOI": "10.1088/0004-637X/736/2/123",
+        "volume": "736",
+        "author": "Mahmud",
+        "year": "2011",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R76",
+        "doi-asserted-by": "crossref",
+        "first-page": "64",
+        "DOI": "10.1088/0004-637X/804/1/64",
+        "volume": "804",
+        "author": "Mann",
+        "year": "2015",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R77",
+        "doi-asserted-by": "crossref",
+        "first-page": "63",
+        "DOI": "10.1088/0004-637X/798/1/63",
+        "volume": "798",
+        "author": "Marchwinski",
+        "year": "2015",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R78",
+        "first-page": "1218424",
+        "volume": "12184",
+        "author": "Marconi",
+        "year": "2022",
+        "journal-title": "SPIE Conf. Ser."
+      },
+      {
+        "key": "R79",
+        "doi-asserted-by": "crossref",
+        "first-page": "A97",
+        "DOI": "10.1051/0004-6361/201834681",
+        "volume": "627",
+        "author": "Messina",
+        "year": "2019",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R80",
+        "unstructured": "Metcalf A. J., Anderson T. B., Bender C. F., et al. 2019, Optica"
+      },
+      {
+        "key": "R81",
+        "doi-asserted-by": "crossref",
+        "first-page": "A146",
+        "DOI": "10.1051/0004-6361/202451142",
+        "volume": "700",
+        "author": "Mignon",
+        "year": "2025",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R82",
+        "doi-asserted-by": "crossref",
+        "first-page": "A68",
+        "DOI": "10.1051/0004-6361/202243751",
+        "volume": "670",
+        "author": "Mishra",
+        "year": "2023",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R83",
+        "doi-asserted-by": "crossref",
+        "first-page": "A207",
+        "DOI": "10.1051/0004-6361/202346813",
+        "volume": "678",
+        "author": "Moutou",
+        "year": "2023",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R84",
+        "doi-asserted-by": "crossref",
+        "first-page": "A43",
+        "DOI": "10.1051/0004-6361/201936482",
+        "volume": "634",
+        "author": "Otegi",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R85",
+        "doi-asserted-by": "crossref",
+        "first-page": "A187",
+        "DOI": "10.1051/0004-6361/202346472",
+        "volume": "675",
+        "author": "Ould-Elhkim",
+        "year": "2023",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R86",
+        "doi-asserted-by": "crossref",
+        "first-page": "A152",
+        "DOI": "10.1051/0004-6361/202347814",
+        "volume": "696",
+        "author": "Ould-Elhkim",
+        "year": "2025",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R87",
+        "doi-asserted-by": "crossref",
+        "first-page": "5693",
+        "DOI": "10.1093/mnras/stad3504",
+        "volume": "527",
+        "author": "Parviainen",
+        "year": "2024",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R88",
+        "doi-asserted-by": "crossref",
+        "first-page": "54",
+        "DOI": "10.1016/j.csda.2014.03.004",
+        "volume": "77",
+        "author": "Perrakis",
+        "year": "2014",
+        "journal-title": "Computat. Statist. Data Anal."
+      },
+      {
+        "key": "R89",
+        "unstructured": "Plavchan P., Latham D., Gaudi S., et al. 2015, arXiv e-prints [arXiv:1503.01770]"
+      },
+      {
+        "key": "R90",
+        "doi-asserted-by": "crossref",
+        "first-page": "2269",
+        "DOI": "10.1093/mnras/stv1428",
+        "volume": "452",
+        "author": "Rajpaul",
+        "year": "2015",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R91",
+        "doi-asserted-by": "crossref",
+        "first-page": "L4",
+        "DOI": "10.3847/2041-8213/aa60c8",
+        "volume": "837",
+        "author": "Ramirez",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R92",
+        "doi-asserted-by": "crossref",
+        "first-page": "72",
+        "DOI": "10.3847/1538-4357/aab8fa",
+        "volume": "858",
+        "author": "Ramirez",
+        "year": "2018",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R93",
+        "doi-asserted-by": "crossref",
+        "first-page": "015002",
+        "DOI": "10.1088/1538-3873/ac3cb4",
+        "volume": "134",
+        "author": "Rayner",
+        "year": "2022",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R94",
+        "first-page": "914320",
+        "volume": "9143",
+        "author": "Ricker",
+        "year": "2014",
+        "journal-title": "SPIE Conf. Ser."
+      },
+      {
+        "key": "R95",
+        "doi-asserted-by": "crossref",
+        "first-page": "125",
+        "DOI": "10.3847/1538-4357/ab989f",
+        "volume": "897",
+        "author": "Robertson",
+        "year": "2020",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R96",
+        "doi-asserted-by": "crossref",
+        "first-page": "A114",
+        "DOI": "10.1051/0004-6361/202140968",
+        "volume": "653",
+        "author": "Sabotta",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R97",
+        "doi-asserted-by": "crossref",
+        "first-page": "074502",
+        "DOI": "10.1088/1538-3873/aac1b4",
+        "volume": "130",
+        "author": "Sameshima",
+        "year": "2018",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R98",
+        "unstructured": "Seabold S., & Perktold J. 2010, in 9th Python in Science Conference"
+      },
+      {
+        "key": "R99",
+        "doi-asserted-by": "crossref",
+        "first-page": "565",
+        "DOI": "10.1086/151310",
+        "volume": "171",
+        "author": "Skumanich",
+        "year": "1972",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R100",
+        "unstructured": "Snellen I., Albrecht S., Anglada-Escude G., et al. 2019, arXiv e-prints [arXiv:1908.01803]"
+      },
+      {
+        "key": "R101",
+        "doi-asserted-by": "crossref",
+        "first-page": "A5",
+        "DOI": "10.1051/0004-6361/202244991",
+        "volume": "670",
+        "author": "Su\u00e1rez Mascare\u00f1o",
+        "year": "2023",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R102",
+        "unstructured": "The Astropy Collaboration 2018, astropy v3.1: a core python package for astronomy, Zenodo"
+      },
+      {
+        "key": "R103",
+        "first-page": "1218454",
+        "volume": "12184",
+        "author": "Thibault",
+        "year": "2022",
+        "journal-title": "SPIE Conf. Ser."
+      },
+      {
+        "key": "R104",
+        "doi-asserted-by": "crossref",
+        "first-page": "A86",
+        "DOI": "10.1051/0004-6361/201731620",
+        "volume": "612",
+        "author": "Turbet",
+        "year": "2018",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R105",
+        "doi-asserted-by": "crossref",
+        "first-page": "A126",
+        "DOI": "10.1051/0004-6361/202347539",
+        "volume": "679",
+        "author": "Turbet",
+        "year": "2023",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R106",
+        "doi-asserted-by": "crossref",
+        "first-page": "A79",
+        "DOI": "10.1051/0004-6361/201833282",
+        "volume": "621",
+        "author": "Ulmer-Moll",
+        "year": "2019",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R107",
+        "doi-asserted-by": "crossref",
+        "first-page": "211",
+        "DOI": "10.3847/1538-3881/ac947a",
+        "volume": "164",
+        "author": "Wang",
+        "year": "2022",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R108",
+        "first-page": "P020-01",
+        "volume": "2020",
+        "author": "Wolf",
+        "year": "2020",
+        "journal-title": "AGU Fall Meeting Abstracts"
+      },
+      {
+        "key": "R109",
+        "doi-asserted-by": "crossref",
+        "first-page": "L48",
+        "DOI": "10.1088/2041-8205/733/2/L48",
+        "volume": "733",
+        "author": "Wordsworth",
+        "year": "2011",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R110",
+        "doi-asserted-by": "crossref",
+        "first-page": "L2",
+        "DOI": "10.1088/2041-8205/787/1/L2",
+        "volume": "787",
+        "author": "Yang",
+        "year": "2014",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R111",
+        "doi-asserted-by": "crossref",
+        "first-page": "222",
+        "DOI": "10.3847/0004-637X/826/2/222",
+        "volume": "826",
+        "author": "Yang",
+        "year": "2016",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R112",
+        "doi-asserted-by": "crossref",
+        "first-page": "577",
+        "DOI": "10.1051/0004-6361:200811296",
+        "volume": "496",
+        "author": "Zechmeister",
+        "year": "2009",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R113",
+        "doi-asserted-by": "crossref",
+        "first-page": "A12",
+        "DOI": "10.1051/0004-6361/201731483",
+        "volume": "609",
+        "author": "Zechmeister",
+        "year": "2018",
+        "journal-title": "A&A"
+      }
+    ],
+    "container-title": [
+      "Astronomy &amp; Astrophysics"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.aanda.org/10.1051/0004-6361/202555469/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          26
+        ]
+      ],
+      "date-time": "2026-01-26T08:46:25Z",
+      "timestamp": 1769417185000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.aanda.org/10.1051/0004-6361/202555469"
+      }
+    },
+    "subtitle": [
+      "Detection of a nearby world orbiting in the habitable zone of Gl 725B achieved by correcting strong telluric contamination in near-infrared radial velocities with wapiti"
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1
+        ]
+      ]
+    },
+    "references-count": 113,
+    "alternative-id": [
+      "aa55469-25"
+    ],
+    "URL": "https://doi.org/10.1051/0004-6361/202555469",
+    "relation": {},
+    "ISSN": [
+      "0004-6361",
+      "1432-0746"
+    ],
+    "issn-type": [
+      {
+        "value": "0004-6361",
+        "type": "print"
+      },
+      {
+        "value": "1432-0746",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          1
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.1051/0004-6361/202555469",
+  "original_doi": "10.1051/0004-6361/202555469"
+}

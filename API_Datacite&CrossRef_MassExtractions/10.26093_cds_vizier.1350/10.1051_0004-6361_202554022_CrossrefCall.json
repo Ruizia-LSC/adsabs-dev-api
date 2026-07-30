@@ -1,0 +1,870 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          1
+        ]
+      ],
+      "date-time": "2026-06-01T13:50:42Z",
+      "timestamp": 1780321842656,
+      "version": "3.54.1"
+    },
+    "reference-count": 57,
+    "publisher": "EDP Sciences",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              21
+            ]
+          ],
+          "date-time": "2026-01-21T00:00:00Z",
+          "timestamp": 1768953600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 20,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "A&amp;A"
+    ],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          21
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p>\n                    <jats:italic>Context.</jats:italic>\n                    Long secondary periods (LSPs) occur in roughly one third of evolved stars, yet their origin remains uncertain. Two leading hypotheses are oscillatory convective modes and a binary companion enshrouded in dust.\n                  </jats:p>\n                  <jats:p>\n                    <jats:italic>Aims.</jats:italic>\n                    We investigate the LSP in the red giant RT Pav using multiwavelength interferometry to test these competing hypotheses.\n                  </jats:p>\n                  <jats:p>\n                    <jats:italic>Methods.</jats:italic>\n                    Observations of RT Pav were obtained with the VLTI instruments PIONIER, GRAVITY, and MATISSE spanning 1.5\u20135.0 \u03bcm, near the expected phase of maximum projected separation under a binary hypothesis. These data were complemented by photometric data and Gaia DR3 astrometry to constrain companion mass, orbital geometry, and photometric amplitude. Monte Carlo simulations evaluated expected interferometric signatures under both scenarios. Parametric models, including uniform-disk, limb-darkened, uniform-ellipse, binary, and oscillatory convective dipole representations, were fitted to squared-visibility and closure-phase data, informing image reconstructions.\n                  </jats:p>\n                  <jats:p>\n                    <jats:italic>Results.</jats:italic>\n                    Gaia constrains any potential companion to a mass whose Roche-lobe volume is smaller than the minimum extent required by the observed photometric modulation, implying that any obscuring or scattering region capable of producing the observed variability would lie beyond the gravitationally bound zone of such a companion. Binary models often return the lowest\n                    <jats:italic>\u03c7</jats:italic>\n                    <jats:sub>\n                      <jats:italic>\u03bd</jats:italic>\n                    </jats:sub>\n                    <jats:sup>2</jats:sup>\n                    , yet fitted positions are not consistent across wavelength, closure phases do not increase with wavelength as a dusty companion would predict, and we only find significant (&gt; 3\n                    <jats:italic>\u03c3</jats:italic>\n                    ) detections occurring in two of the four tested instrumental wavebands, which is inconsistent with a coherent companion signal. Furthermore simulations and theoretical estimates indicate that a companion with a \u223c1% flux ratio, at LSP-consistent separations should be consistently detectable (near or above our 3\n                    <jats:italic>\u03c3</jats:italic>\n                    limits) for standard O-rich asymptotic giant branch (AGB) dust via scattering and/or thermal emission, which is not found. Conversely, an oscillatory convective dipole with a \u223c200 K temperature contrast reproduces the\n                    <jats:italic>H</jats:italic>\n                    band morphology and the visible light-curve amplitude without violating Gaia or photometric constraints. Finally, significant short wavelength companion signals are completely removed when fitting the residuals of the best fit dipole model.\n                  </jats:p>\n                  <jats:p>\n                    <jats:italic>Conclusions.</jats:italic>\n                    Our interferometric snapshot of RT Pav, acquired near the phase of maximum projected separation under the binary hypothesis, supports oscillatory convective modes as the most physically consistent explanation for its LSP. A logical next step will be time-resolved spectro-interferometric monitoring across the LSP cycle.\n                  </jats:p>",
+    "DOI": "10.1051/0004-6361/202554022",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          4
+        ]
+      ],
+      "date-time": "2025-12-04T19:43:46Z",
+      "timestamp": 1764877426000
+    },
+    "page": "A187",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Interferometric view into RT Pav\u2019s long secondary period"
+    ],
+    "prefix": "10.1051",
+    "volume": "705",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7679-9686",
+        "authenticated-orcid": false,
+        "given": "B.",
+        "family": "Courtney-Barrer",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "European Southern Observatory",
+            "place": [
+              "Chile"
+            ]
+          },
+          {
+            "name": "Research School of Astronomy and Astrophysics, Australian National University",
+            "place": [
+              "Australia"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "X.",
+        "family": "Haubois",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Southern Observatory",
+            "place": [
+              "Chile"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P.",
+        "family": "Wood",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Research School of Astronomy and Astrophysics, Australian National University",
+            "place": [
+              "Australia"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0002-5601-157X",
+        "authenticated-orcid": false,
+        "given": "D.",
+        "family": "Dionese",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institut d\u2019Astronomie et d\u2019Astrophysique, Universit\u00e9 Libre de Bruxelles (ULB)",
+            "place": [
+              "Belgium"
+            ]
+          },
+          {
+            "name": "Astronomical Observatory, University of Warsaw",
+            "place": [
+              "Poland"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5342-8612",
+        "authenticated-orcid": false,
+        "given": "L.",
+        "family": "Decin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Astronomy, KU Leuven",
+            "place": [
+              "Belgium"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4974-7239",
+        "authenticated-orcid": false,
+        "given": "C.",
+        "family": "Paladini",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "European Southern Observatory",
+            "place": [
+              "Chile"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1075-0326",
+        "authenticated-orcid": false,
+        "given": "I.",
+        "family": "El Mellah",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Departamento de F\u00edsica, Universidad de Santiago de Chile",
+            "place": [
+              "Chile"
+            ]
+          },
+          {
+            "name": "Center for Interdisciplinary Research in Astrophysics and Space Exploration (CIRAS), USACH",
+            "place": [
+              "Chile"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3499-2506",
+        "authenticated-orcid": false,
+        "given": "D.",
+        "family": "Defr\u00e8re",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Astronomy, KU Leuven",
+            "place": [
+              "Belgium"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6194-043X",
+        "authenticated-orcid": false,
+        "given": "M.",
+        "family": "Ireland",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Research School of Astronomy and Astrophysics, Australian National University",
+            "place": [
+              "Australia"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "250",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          21
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "R1",
+        "doi-asserted-by": "crossref",
+        "first-page": "A49",
+        "DOI": "10.1051/0004-6361/202244555",
+        "volume": "669",
+        "author": "Ahmad",
+        "year": "2023",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/0019-1035(79)90050-2",
+        "volume": "40",
+        "author": "Burns",
+        "year": "1979",
+        "journal-title": "Icarus"
+      },
+      {
+        "key": "R3",
+        "doi-asserted-by": "crossref",
+        "first-page": "23",
+        "DOI": "10.3847/1538-4357/aab6a8",
+        "volume": "857",
+        "author": "Chael",
+        "year": "2018",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cox J. P. 1980, Theory of Stellar Pulsation. (PSA-2), 2",
+        "DOI": "10.1515/9781400885855"
+      },
+      {
+        "key": "R5",
+        "doi-asserted-by": "crossref",
+        "first-page": "3158",
+        "DOI": "10.1093/mnras/stz2803",
+        "volume": "490",
+        "author": "Cruzal\u00e8bes",
+        "year": "2019",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1497",
+        "DOI": "10.1126/science.abb1229",
+        "volume": "369",
+        "author": "Decin",
+        "year": "2020",
+        "journal-title": "Science"
+      },
+      {
+        "key": "R7",
+        "doi-asserted-by": "crossref",
+        "first-page": "L23",
+        "DOI": "10.1051/0004-6361/202557634",
+        "volume": "703",
+        "author": "Decin",
+        "year": "2025",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R8",
+        "doi-asserted-by": "crossref",
+        "first-page": "A19",
+        "DOI": "10.1051/0004-6361/202140478",
+        "volume": "654",
+        "author": "Domiciano de Souza",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R9",
+        "doi-asserted-by": "crossref",
+        "first-page": "89",
+        "DOI": "10.1086/162480",
+        "volume": "285",
+        "author": "Draine",
+        "year": "1984",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R10",
+        "doi-asserted-by": "crossref",
+        "first-page": "368",
+        "DOI": "10.1086/160960",
+        "volume": "268",
+        "author": "Eggleton",
+        "year": "1983",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R11",
+        "doi-asserted-by": "crossref",
+        "first-page": "A91",
+        "DOI": "10.1051/0004-6361/202037492",
+        "volume": "637",
+        "author": "El Mellah",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R12",
+        "doi-asserted-by": "crossref",
+        "first-page": "23",
+        "DOI": "10.1093/mnras/158.1.23",
+        "volume": "158",
+        "author": "Feast",
+        "year": "1972",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R13",
+        "unstructured": "Foreman-Mackey D., Conley A., Meierjurgen Farr W., et al. 2013, Astrophysics Source Code Library [record ascl:1303.002]"
+      },
+      {
+        "key": "R14",
+        "unstructured": "Gaia Collaboration 2020, VizieR Online Data Catalog: Gaia EDR3 (Gaia Collaboration, 2020), VizieR On-line Data Catalog: I/350. Originally published in: 2021A&A..649A..1G"
+      },
+      {
+        "key": "R15",
+        "doi-asserted-by": "crossref",
+        "first-page": "A34",
+        "DOI": "10.1051/0004-6361/202142640",
+        "volume": "668",
+        "author": "Arenou",
+        "year": "2022",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R16",
+        "doi-asserted-by": "crossref",
+        "first-page": "A1",
+        "DOI": "10.1051/0004-6361/202243940",
+        "volume": "674",
+        "author": "Vallenari",
+        "year": "2023",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R17",
+        "doi-asserted-by": "crossref",
+        "first-page": "A68",
+        "DOI": "10.1051/0004-6361/201525917",
+        "volume": "579",
+        "author": "Gallenne",
+        "year": "2015",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R18",
+        "doi-asserted-by": "crossref",
+        "first-page": "35",
+        "DOI": "10.3847/1538-4357/ad87f4",
+        "volume": "977",
+        "author": "Goldberg",
+        "year": "2024",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R19",
+        "doi-asserted-by": "crossref",
+        "first-page": "A94",
+        "DOI": "10.1051/0004-6361/201730838",
+        "volume": "602",
+        "author": "Abuter",
+        "year": "2017",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R20",
+        "doi-asserted-by": "crossref",
+        "first-page": "1051",
+        "DOI": "10.1086/500161",
+        "volume": "640",
+        "author": "Grether",
+        "year": "2006",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R21",
+        "first-page": "445",
+        "volume": "107",
+        "author": "Hashimoto",
+        "year": "1994",
+        "journal-title": "A&AS"
+      },
+      {
+        "key": "R22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Haubois X., Bernaud P., Mella G., et al. 2014, in Optical and Infrared Interferometry IV, eds. Rajagopal J. K., Creech-Eakman M. J., Malbet F., et al., Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series, 9146, 91460O",
+        "DOI": "10.1117/12.2056977"
+      },
+      {
+        "key": "R23",
+        "doi-asserted-by": "crossref",
+        "first-page": "A49",
+        "DOI": "10.1051/0004-6361/201526319",
+        "volume": "582",
+        "author": "Heiter",
+        "year": "2015",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R24",
+        "first-page": "199",
+        "volume": "327",
+        "author": "Hestroffer",
+        "year": "1997",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R25",
+        "doi-asserted-by": "crossref",
+        "first-page": "L1",
+        "DOI": "10.1051/0004-6361:200810641",
+        "volume": "491",
+        "author": "H\u00f6fner",
+        "year": "2008",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R26",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1007/s00159-017-0106-5",
+        "volume": "26",
+        "author": "H\u00f6fner",
+        "year": "2018",
+        "journal-title": "A&ARv"
+      },
+      {
+        "key": "R27",
+        "doi-asserted-by": "crossref",
+        "first-page": "253",
+        "DOI": "10.1086/108948",
+        "volume": "68",
+        "author": "Houk",
+        "year": "1963",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R28",
+        "unstructured": "Houk N., & Cowley A. P. 1975, University of Michigan Catalogue of Two-Dimensional Spectral Types for the HD Stars. Volume I"
+      },
+      {
+        "key": "R29",
+        "first-page": "280",
+        "volume": "322",
+        "author": "Hron",
+        "year": "1997",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R30",
+        "doi-asserted-by": "crossref",
+        "first-page": "A67",
+        "DOI": "10.1051/0004-6361/201117586",
+        "volume": "535",
+        "author": "Le Bouquin",
+        "year": "2011",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R31",
+        "doi-asserted-by": "crossref",
+        "first-page": "A2",
+        "DOI": "10.1051/0004-6361/202039709",
+        "volume": "649",
+        "author": "Lindegren",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R32",
+        "doi-asserted-by": "crossref",
+        "first-page": "A192",
+        "DOI": "10.1051/0004-6361/202141785",
+        "volume": "659",
+        "author": "Lopez",
+        "year": "2022",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R33",
+        "unstructured": "M\u00e9rand A. 2022, Astrophysics Source Code Library [record ascl:2205.001]"
+      },
+      {
+        "key": "R34",
+        "doi-asserted-by": "crossref",
+        "first-page": "2063",
+        "DOI": "10.1111/j.1365-2966.2009.15401.x",
+        "volume": "399",
+        "author": "Nicholls",
+        "year": "2009",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R35",
+        "first-page": "1770",
+        "volume": "405",
+        "author": "Nicholls",
+        "year": "2010",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R36",
+        "doi-asserted-by": "crossref",
+        "first-page": "1035",
+        "DOI": "10.1086/345715",
+        "volume": "584",
+        "author": "Olivier",
+        "year": "2003",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R37",
+        "doi-asserted-by": "crossref",
+        "first-page": "A110",
+        "DOI": "10.1051/0004-6361/202038642",
+        "volume": "649",
+        "author": "Pawlak",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R38",
+        "first-page": "25",
+        "volume": "115",
+        "author": "Payne-Gaposchkin",
+        "year": "1952",
+        "journal-title": "Ann. Harvard Coll. Obs."
+      },
+      {
+        "key": "R39",
+        "unstructured": "Ramdani A. 2003, Exploiting the ISO Data Archive. Infrared Astronomy in the Internet Age, 511, 145"
+      },
+      {
+        "key": "R40",
+        "doi-asserted-by": "crossref",
+        "first-page": "A64",
+        "DOI": "10.1051/0004-6361/201016263",
+        "volume": "533",
+        "author": "Renard",
+        "year": "2011",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R41",
+        "doi-asserted-by": "crossref",
+        "first-page": "3863",
+        "DOI": "10.1093/mnras/stv1587",
+        "volume": "452",
+        "author": "Saio",
+        "year": "2015",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R42",
+        "doi-asserted-by": "crossref",
+        "first-page": "141",
+        "DOI": "10.1086/313156",
+        "volume": "119",
+        "author": "Sloan",
+        "year": "1998",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R43",
+        "doi-asserted-by": "crossref",
+        "first-page": "310",
+        "DOI": "10.1086/177243",
+        "volume": "463",
+        "author": "Sloan",
+        "year": "1996",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R44",
+        "first-page": "177",
+        "volume": "64",
+        "author": "Soszy\u0144ski",
+        "year": "2014",
+        "journal-title": "Acta Astron."
+      },
+      {
+        "key": "R45",
+        "doi-asserted-by": "crossref",
+        "first-page": "L22",
+        "DOI": "10.3847/2041-8213/abf3c9",
+        "volume": "911",
+        "author": "Soszy\u0144ski",
+        "year": "2021",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R46",
+        "unstructured": "Soulez F., Bourg\u00e8s L., Kaszczyc A., et al. 2022, in Optical and Infrared Interferometry and Imaging VIII, eds. M\u00e9rand A., Sallum S., Sanchez-Bermudez J., et al., Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series, 12183, 121831H"
+      },
+      {
+        "key": "R47",
+        "doi-asserted-by": "crossref",
+        "first-page": "A91",
+        "DOI": "10.1051/0004-6361/202450163",
+        "volume": "689",
+        "author": "Spaeth",
+        "year": "2024",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R48",
+        "doi-asserted-by": "crossref",
+        "first-page": "1348",
+        "DOI": "10.1093/mnras/stz3577",
+        "volume": "492",
+        "author": "Takayama",
+        "year": "2020",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Thiebaut E. 2008, Proceedings of the SPIE, Optical and Infrared Interferometry, 7013, 70131I",
+        "DOI": "10.1117/12.787887"
+      },
+      {
+        "key": "R50",
+        "doi-asserted-by": "crossref",
+        "first-page": "30",
+        "DOI": "10.3847/1538-4357/ad9475",
+        "volume": "978",
+        "author": "Trabucchi",
+        "year": "2025",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R51",
+        "doi-asserted-by": "crossref",
+        "first-page": "139",
+        "DOI": "10.3847/1538-4357/aa8998",
+        "volume": "847",
+        "author": "Trabucchi",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R52",
+        "first-page": "301",
+        "volume": "343",
+        "author": "Trabucchi",
+        "year": "2019",
+        "journal-title": "IAU Symp."
+      },
+      {
+        "key": "R53",
+        "doi-asserted-by": "crossref",
+        "first-page": "L99",
+        "DOI": "10.1086/312879",
+        "volume": "540",
+        "author": "Tsuji",
+        "year": "2000",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R54",
+        "unstructured": "Wood P. R. 2007, in Convection in Astrophysics, eds. Kupka F., Roxburgh I., Chan K. L., et al., 239, 343"
+      },
+      {
+        "key": "R55",
+        "doi-asserted-by": "crossref",
+        "first-page": "3829",
+        "DOI": "10.1093/mnras/stv289",
+        "volume": "448",
+        "author": "Wood",
+        "year": "2015",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R56",
+        "unstructured": "Wood P. R., Alcock C., Allsman R. A., et al. 1999, in Asymptotic Giant Branch Stars, eds. Le Bertre T., Lebre A., Waelkens C., et al., 191, 151"
+      },
+      {
+        "key": "R57",
+        "doi-asserted-by": "crossref",
+        "first-page": "800",
+        "DOI": "10.1086/382123",
+        "volume": "604",
+        "author": "Wood",
+        "year": "2004",
+        "journal-title": "ApJ"
+      }
+    ],
+    "container-title": [
+      "Astronomy &amp; Astrophysics"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.aanda.org/10.1051/0004-6361/202554022/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          21
+        ]
+      ],
+      "date-time": "2026-01-21T08:50:29Z",
+      "timestamp": 1768985429000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.aanda.org/10.1051/0004-6361/202554022"
+      }
+    },
+    "subtitle": [
+      "Binary versus oscillatory convective modes"
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1
+        ]
+      ]
+    },
+    "references-count": 57,
+    "alternative-id": [
+      "aa54022-25"
+    ],
+    "URL": "https://doi.org/10.1051/0004-6361/202554022",
+    "relation": {},
+    "ISSN": [
+      "0004-6361",
+      "1432-0746"
+    ],
+    "issn-type": [
+      {
+        "value": "0004-6361",
+        "type": "print"
+      },
+      {
+        "value": "1432-0746",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          1
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.1051/0004-6361/202554022",
+  "original_doi": "10.1051/0004-6361/202554022"
+}

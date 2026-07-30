@@ -1,0 +1,1387 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          27
+        ]
+      ],
+      "date-time": "2026-05-27T20:33:53Z",
+      "timestamp": 1779914033432,
+      "version": "3.53.1"
+    },
+    "reference-count": 121,
+    "publisher": "EDP Sciences",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              13
+            ]
+          ],
+          "date-time": "2024-11-13T00:00:00Z",
+          "timestamp": 1731456000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 12,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "A&amp;A"
+    ],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          5
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          11
+        ]
+      ]
+    },
+    "abstract": "<jats:p><jats:italic>Context.</jats:italic> A central challenge in the field of stellar astrophysics lies in accurately determining the mass of stars, particularly when dealing with isolated ones. However, for pulsating white dwarf stars, the task becomes more tractable due to the availability of multiple approaches such as spectroscopy, asteroseismology, astrometry, and photometry, each providing valuable insights into the mass properties of white dwarf stars.</jats:p>\n<jats:p><jats:italic>Aims.</jats:italic> Numerous asteroseismological studies of white dwarfs have been published, focusing on determining stellar mass using pulsational spectra and comparing it with spectroscopic mass, which uses surface temperature and gravity. The objective of this work is to compare these mass values in detail and, in turn, to compare them with the mass values derived using astrometric parallaxes or distances and photometry data from <jats:italic>Gaia</jats:italic>, employing astrometric and photometric methods.</jats:p>\n<jats:p><jats:italic>Methods.</jats:italic> Our analysis involves a selection of pulsating white dwarfs with different surface chemical abundances that define the main classes of variable white dwarfs. We calculated their spectroscopic masses, compiled seismological masses, and determined astrometric masses. We also derived photometric masses, when possible. Subsequently, we compared all the sets of stellar masses obtained through these different methods. To ensure consistency and robustness in our comparisons, we used identical white dwarf models and evolutionary tracks across all four methods.</jats:p>\n<jats:p><jats:italic>Results.</jats:italic> The analysis suggests a general consensus among the four methods regarding the masses of pulsating white dwarfs with hydrogen-rich atmospheres, known as DAV or ZZ Ceti stars, especially for objects with masses below approximately 0.75\u2006<jats:italic>M</jats:italic><jats:sub>\u2299</jats:sub>, although notable disparities emerge for certain massive stars. For pulsating white dwarf stars with helium-rich atmospheres, called DBV or V777 Her stars, we find that astrometric masses generally exceed seismological, spectroscopic, and photometric masses. Finally, while there is agreement among the sets of stellar masses for pulsating white dwarfs with carbon-, oxygen-, and helium-rich atmospheres (designated as GW Vir stars), outliers exist, where mass determinations by various methods show significant discrepancies.</jats:p>\n<jats:p><jats:italic>Conclusions.</jats:italic> Although a general agreement exists among different methodologies for estimating the mass of pulsating white dwarfs, significant discrepancies are prevalent in many instances. This shows the need to redo the determination of spectroscopic parameters and the parallax and/or improve asteroseismological models for many stars.</jats:p>",
+    "DOI": "10.1051/0004-6361/202450582",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          12
+        ]
+      ],
+      "date-time": "2024-09-12T18:53:34Z",
+      "timestamp": 1726167214000
+    },
+    "page": "A194",
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "title": [
+      "An analysis of spectroscopic, seismological, astrometric, and photometric masses of pulsating white dwarf stars"
+    ],
+    "prefix": "10.1051",
+    "volume": "691",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1345-8075",
+        "authenticated-orcid": false,
+        "given": "Leila M.",
+        "family": "Calcaferro",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0006-9900",
+        "authenticated-orcid": false,
+        "given": "Alejandro H.",
+        "family": "C\u00f3rsico",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6603-994X",
+        "authenticated-orcid": false,
+        "given": "Murat",
+        "family": "Uzundag",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2771-7805",
+        "authenticated-orcid": false,
+        "given": "Leandro G.",
+        "family": "Althaus",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7470-5703",
+        "authenticated-orcid": false,
+        "given": "S. O.",
+        "family": "Kepler",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6428-2276",
+        "authenticated-orcid": false,
+        "given": "Klaus",
+        "family": "Werner",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "250",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          13
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "R1",
+        "doi-asserted-by": "crossref",
+        "first-page": "A167",
+        "DOI": "10.1051/0004-6361/202243943",
+        "volume": "663",
+        "author": "Althaus",
+        "year": "2022",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1605",
+        "DOI": "10.1088/0004-637X/704/2/1605",
+        "volume": "704",
+        "author": "Althaus",
+        "year": "2009",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R3",
+        "doi-asserted-by": "crossref",
+        "first-page": "471",
+        "DOI": "10.1007/s00159-010-0033-1",
+        "volume": "18",
+        "author": "Althaus",
+        "year": "2010",
+        "journal-title": "A&ARv"
+      },
+      {
+        "key": "R4",
+        "doi-asserted-by": "crossref",
+        "first-page": "307",
+        "DOI": "10.2307/2987937",
+        "volume": "32",
+        "author": "Altman",
+        "year": "1983",
+        "journal-title": "Statistician"
+      },
+      {
+        "key": "R5",
+        "doi-asserted-by": "crossref",
+        "first-page": "147",
+        "DOI": "10.3847/1538-3881/abd806",
+        "volume": "161",
+        "author": "Bailer-Jones",
+        "year": "2021",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R6",
+        "doi-asserted-by": "crossref",
+        "first-page": "93",
+        "DOI": "10.3847/1538-4357/abafbe",
+        "volume": "901",
+        "author": "B\u00e9dard",
+        "year": "2020",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R7",
+        "doi-asserted-by": "crossref",
+        "first-page": "965",
+        "DOI": "10.1088/0004-637X/697/2/965",
+        "volume": "697",
+        "author": "Bedin",
+        "year": "2009",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R8",
+        "doi-asserted-by": "crossref",
+        "first-page": "1779",
+        "DOI": "10.1093/mnras/stv069",
+        "volume": "448",
+        "author": "Bedin",
+        "year": "2015",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R9",
+        "doi-asserted-by": "crossref",
+        "first-page": "A42",
+        "DOI": "10.1051/0004-6361/201936340",
+        "volume": "632",
+        "author": "Bell",
+        "year": "2019",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R10",
+        "unstructured": "Benesty J., Chen J., Huang Y., & Cohen I. 2009, Noise Reduction in Speech Processing (New York: Springer), 37"
+      },
+      {
+        "key": "R11",
+        "doi-asserted-by": "crossref",
+        "first-page": "228",
+        "DOI": "10.1086/171575",
+        "volume": "394",
+        "author": "Bergeron",
+        "year": "1992",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1047",
+        "DOI": "10.1086/133661",
+        "volume": "107",
+        "author": "Bergeron",
+        "year": "1995",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R13",
+        "doi-asserted-by": "crossref",
+        "first-page": "339",
+        "DOI": "10.1086/312955",
+        "volume": "108",
+        "author": "Bergeron",
+        "year": "1997",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R14",
+        "doi-asserted-by": "crossref",
+        "first-page": "413",
+        "DOI": "10.1086/320356",
+        "volume": "133",
+        "author": "Bergeron",
+        "year": "2001",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R15",
+        "doi-asserted-by": "crossref",
+        "first-page": "28",
+        "DOI": "10.1088/0004-637X/737/1/28",
+        "volume": "737",
+        "author": "Bergeron",
+        "year": "2011",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R16",
+        "doi-asserted-by": "crossref",
+        "first-page": "67",
+        "DOI": "10.3847/1538-4357/ab153a",
+        "volume": "876",
+        "author": "Bergeron",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R17",
+        "unstructured": "Bloemen S., Groot P., Woudt P., et al. 2016, SPIE Conf. Ser., 9906"
+      },
+      {
+        "key": "R18",
+        "doi-asserted-by": "crossref",
+        "first-page": "A116",
+        "DOI": "10.1051/0004-6361/201423757",
+        "volume": "570",
+        "author": "Bogn\u00e1r",
+        "year": "2014",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R19",
+        "doi-asserted-by": "crossref",
+        "first-page": "106",
+        "DOI": "10.1088/0004-637X/813/2/106",
+        "volume": "813",
+        "author": "Bond",
+        "year": "2015",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R20",
+        "doi-asserted-by": "crossref",
+        "first-page": "16",
+        "DOI": "10.3847/1538-4357/aa8a63",
+        "volume": "848",
+        "author": "Bond",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R21",
+        "doi-asserted-by": "crossref",
+        "first-page": "70",
+        "DOI": "10.3847/1538-4357/aa6af8",
+        "volume": "840",
+        "author": "Bond",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R22",
+        "doi-asserted-by": "crossref",
+        "first-page": "39",
+        "DOI": "10.1038/s41586-021-03615-y",
+        "volume": "595",
+        "author": "Caiazzo",
+        "year": "2021",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "R23",
+        "doi-asserted-by": "crossref",
+        "first-page": "A40",
+        "DOI": "10.1051/0004-6361/201527996",
+        "volume": "589",
+        "author": "Calcaferro",
+        "year": "2016",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R24",
+        "doi-asserted-by": "crossref",
+        "first-page": "A140",
+        "DOI": "10.1051/0004-6361/202349103",
+        "volume": "686",
+        "author": "Calcaferro",
+        "year": "2024",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R25",
+        "doi-asserted-by": "crossref",
+        "first-page": "A87",
+        "DOI": "10.1051/0004-6361/201833822",
+        "volume": "625",
+        "author": "Camisassa",
+        "year": "2019",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R26",
+        "doi-asserted-by": "crossref",
+        "first-page": "243",
+        "DOI": "10.1093/mnras/stt719",
+        "volume": "433",
+        "author": "Campos",
+        "year": "2013",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R27",
+        "doi-asserted-by": "crossref",
+        "first-page": "3729",
+        "DOI": "10.1093/mnras/stv2911",
+        "volume": "456",
+        "author": "Campos",
+        "year": "2016",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R28",
+        "doi-asserted-by": "crossref",
+        "first-page": "1693",
+        "DOI": "10.1111/j.1365-2966.2008.13356.x",
+        "volume": "387",
+        "author": "Catal\u00e1n",
+        "year": "2008",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R29",
+        "unstructured": "Chambers K. C., Magnier E. A., Metcalfe N., et al. 2016, ArXiv e-prints [arXiv:1612.05560]"
+      },
+      {
+        "key": "R30",
+        "doi-asserted-by": "crossref",
+        "first-page": "2332",
+        "DOI": "10.1086/117967",
+        "volume": "111",
+        "author": "Ciardullo",
+        "year": "1996",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R31",
+        "doi-asserted-by": "crossref",
+        "first-page": "47",
+        "DOI": "10.3389/fspas.2020.00047",
+        "volume": "7",
+        "author": "C\u00f3rsico",
+        "year": "2020",
+        "journal-title": "Front. Astron. Space Sci."
+      },
+      {
+        "key": "R32",
+        "first-page": "48",
+        "volume": "63",
+        "author": "C\u00f3rsico",
+        "year": "2022",
+        "journal-title": "Boletin de la Asociacion Argentina de Astronomia La Plata Argentina"
+      },
+      {
+        "key": "R33",
+        "doi-asserted-by": "crossref",
+        "first-page": "863",
+        "DOI": "10.1051/0004-6361:20054199",
+        "volume": "454",
+        "author": "C\u00f3rsico",
+        "year": "2006",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R34",
+        "doi-asserted-by": "crossref",
+        "first-page": "619",
+        "DOI": "10.1051/0004-6361:20078145",
+        "volume": "475",
+        "author": "C\u00f3rsico",
+        "year": "2007",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R35",
+        "doi-asserted-by": "crossref",
+        "first-page": "257",
+        "DOI": "10.1051/0004-6361/200810727",
+        "volume": "499",
+        "author": "C\u00f3rsico",
+        "year": "2009",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R36",
+        "doi-asserted-by": "crossref",
+        "first-page": "A42",
+        "DOI": "10.1051/0004-6361/201118736",
+        "volume": "541",
+        "author": "C\u00f3rsico",
+        "year": "2012",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R37",
+        "doi-asserted-by": "crossref",
+        "first-page": "7",
+        "DOI": "10.1007/s00159-019-0118-4",
+        "volume": "27",
+        "author": "C\u00f3rsico",
+        "year": "2019",
+        "journal-title": "A&ARv"
+      },
+      {
+        "key": "R38",
+        "doi-asserted-by": "crossref",
+        "first-page": "A119",
+        "DOI": "10.1051/0004-6361/201936698",
+        "volume": "632",
+        "author": "C\u00f3rsico",
+        "year": "2019",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R39",
+        "doi-asserted-by": "crossref",
+        "first-page": "A117",
+        "DOI": "10.1051/0004-6361/202039202",
+        "volume": "645",
+        "author": "C\u00f3rsico",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R40",
+        "doi-asserted-by": "crossref",
+        "first-page": "A161",
+        "DOI": "10.1051/0004-6361/202244198",
+        "volume": "668",
+        "author": "C\u00f3rsico",
+        "year": "2022",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R41",
+        "doi-asserted-by": "crossref",
+        "first-page": "A30",
+        "DOI": "10.1051/0004-6361/202142153",
+        "volume": "659",
+        "author": "C\u00f3rsico",
+        "year": "2022",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cox A. N. 2000, Allen\u2019s Astrophysical Quantities",
+        "DOI": "10.1063/1.1325201"
+      },
+      {
+        "key": "R43",
+        "doi-asserted-by": "crossref",
+        "first-page": "1197",
+        "DOI": "10.1088/1674-4527/12/9/003",
+        "volume": "12",
+        "author": "Cui",
+        "year": "2012",
+        "journal-title": "Res. Astron. Astrophys."
+      },
+      {
+        "key": "R44",
+        "doi-asserted-by": "crossref",
+        "first-page": "1522",
+        "DOI": "10.1093/mnras/sty2383",
+        "volume": "481",
+        "author": "Cukanovaite",
+        "year": "2018",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R45",
+        "doi-asserted-by": "crossref",
+        "first-page": "L18",
+        "DOI": "10.3847/2041-8213/aafc2d",
+        "volume": "871",
+        "author": "Cummings",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R46",
+        "first-page": "84460",
+        "volume": "8446",
+        "author": "Dalton",
+        "year": "2012",
+        "journal-title": "SPIE Conf. Ser."
+      },
+      {
+        "key": "R47",
+        "first-page": "3",
+        "volume": "175",
+        "author": "de Jong",
+        "year": "2019",
+        "journal-title": "Messenger"
+      },
+      {
+        "key": "R48",
+        "doi-asserted-by": "crossref",
+        "first-page": "582",
+        "DOI": "10.1093/mnras/stu571",
+        "volume": "441",
+        "author": "Doherty",
+        "year": "2014",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R49",
+        "first-page": "820",
+        "volume": "309",
+        "author": "Dreizler",
+        "year": "1996",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R50",
+        "first-page": "3",
+        "volume": "509",
+        "author": "Dufour",
+        "year": "2017",
+        "journal-title": "ASP Conf. Ser."
+      },
+      {
+        "key": "R51",
+        "doi-asserted-by": "crossref",
+        "first-page": "L17",
+        "DOI": "10.3847/2041-8213/aaca9c",
+        "volume": "860",
+        "author": "El-Badry",
+        "year": "2018",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R52",
+        "first-page": "33",
+        "volume": "309",
+        "author": "Fitzpatrick",
+        "year": "2004",
+        "journal-title": "ASP Conf. Ser."
+      },
+      {
+        "key": "R53",
+        "doi-asserted-by": "crossref",
+        "first-page": "1043",
+        "DOI": "10.1086/592788",
+        "volume": "120",
+        "author": "Fontaine",
+        "year": "2008",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R54",
+        "doi-asserted-by": "crossref",
+        "first-page": "409",
+        "DOI": "10.1086/319535",
+        "volume": "113",
+        "author": "Fontaine",
+        "year": "2001",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R55",
+        "unstructured": "Fuchs J. T. 2017, PhD Thesis, University of North Carolina, Chapel Hill, USA"
+      },
+      {
+        "key": "R56",
+        "unstructured": "Gaia Collaboration 2020, VizieR Online Data Catalog, I/350"
+      },
+      {
+        "key": "R57",
+        "doi-asserted-by": "crossref",
+        "first-page": "A1",
+        "DOI": "10.1051/0004-6361/202243940",
+        "volume": "674",
+        "author": "Vallenari",
+        "year": "2023",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R58",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.newar.2016.08.001",
+        "volume": "72",
+        "author": "Garc\u00eda-Berro",
+        "year": "2016",
+        "journal-title": "New Astron. Rev."
+      },
+      {
+        "key": "R59",
+        "doi-asserted-by": "crossref",
+        "first-page": "194",
+        "DOI": "10.1038/nature09045",
+        "volume": "465",
+        "author": "Garc\u00eda-Berro",
+        "year": "2010",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "R60",
+        "doi-asserted-by": "crossref",
+        "first-page": "169",
+        "DOI": "10.3847/1538-4357/aafac6",
+        "volume": "871",
+        "author": "Genest-Beaulieu",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R61",
+        "doi-asserted-by": "crossref",
+        "first-page": "106",
+        "DOI": "10.3847/1538-4357/ab379e",
+        "volume": "882",
+        "author": "Genest-Beaulieu",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R62",
+        "doi-asserted-by": "crossref",
+        "first-page": "4570",
+        "DOI": "10.1093/mnras/sty3016",
+        "volume": "482",
+        "author": "Gentile Fusillo",
+        "year": "2019",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R63",
+        "doi-asserted-by": "crossref",
+        "first-page": "3877",
+        "DOI": "10.1093/mnras/stab2672",
+        "volume": "508",
+        "author": "Gentile Fusillo",
+        "year": "2021",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R64",
+        "doi-asserted-by": "crossref",
+        "first-page": "A109",
+        "DOI": "10.1051/0004-6361/201629935",
+        "volume": "598",
+        "author": "Giammichele",
+        "year": "2017",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R65",
+        "doi-asserted-by": "crossref",
+        "first-page": "73",
+        "DOI": "10.1038/nature25136",
+        "volume": "554",
+        "author": "Giammichele",
+        "year": "2018",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "R66",
+        "doi-asserted-by": "crossref",
+        "first-page": "141",
+        "DOI": "10.11613/BM.2015.015",
+        "volume": "25",
+        "author": "Giavarina",
+        "year": "2015",
+        "journal-title": "Biochem. Med"
+      },
+      {
+        "key": "R67",
+        "doi-asserted-by": "crossref",
+        "first-page": "651",
+        "DOI": "10.1093/mnras/sty1008",
+        "volume": "478",
+        "author": "Green",
+        "year": "2018",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R68",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hansen C. J., Kawaler S. D., & Trimble V. 2004, Stellar Interiors: Physical Principles, Structure, and Evolution (Berlin: Springer-Verlag)",
+        "DOI": "10.1007/978-1-4419-9110-2"
+      },
+      {
+        "key": "R69",
+        "doi-asserted-by": "crossref",
+        "first-page": "378",
+        "DOI": "10.1086/421010",
+        "volume": "609",
+        "author": "Herald",
+        "year": "2004",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R70",
+        "doi-asserted-by": "crossref",
+        "first-page": "1221",
+        "DOI": "10.1086/505938",
+        "volume": "132",
+        "author": "Holberg",
+        "year": "2006",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R71",
+        "doi-asserted-by": "crossref",
+        "first-page": "617",
+        "DOI": "10.1051/0004-6361:20064869",
+        "volume": "454",
+        "author": "H\u00fcgelmeyer",
+        "year": "2006",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R72",
+        "doi-asserted-by": "crossref",
+        "first-page": "111",
+        "DOI": "10.3847/1538-4357/ab042c",
+        "volume": "873",
+        "author": "Ivezi\u0107",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R73",
+        "doi-asserted-by": "crossref",
+        "first-page": "2843",
+        "DOI": "10.1093/mnras/stad282",
+        "volume": "520",
+        "author": "Izquierdo",
+        "year": "2023",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R74",
+        "unstructured": "Kawaler S. D. 1987, in IAU Colloq. 95: Second Conference on Faint Blue Stars, eds. Philip A. G. D., Hayes D. S., & Liebert J. W., 297"
+      },
+      {
+        "key": "R75",
+        "doi-asserted-by": "crossref",
+        "first-page": "547",
+        "DOI": "10.1086/163398",
+        "volume": "295",
+        "author": "Kawaler",
+        "year": "1985",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R76",
+        "doi-asserted-by": "crossref",
+        "first-page": "2278",
+        "DOI": "10.1093/mnras/stu1019",
+        "volume": "442",
+        "author": "Kepler",
+        "year": "2014",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R77",
+        "doi-asserted-by": "crossref",
+        "first-page": "1451",
+        "DOI": "10.1086/514327",
+        "volume": "660",
+        "author": "Kilic",
+        "year": "2007",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R78",
+        "doi-asserted-by": "crossref",
+        "first-page": "162",
+        "DOI": "10.3847/1538-4357/aa62a5",
+        "volume": "837",
+        "author": "Kilic",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R79",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kippenhahn R., Weigert A., & Weiss A. 2013, Stellar Structure and Evolution (Berlin: Springer)",
+        "DOI": "10.1007/978-3-642-30304-3"
+      },
+      {
+        "key": "R80",
+        "doi-asserted-by": "crossref",
+        "first-page": "5",
+        "DOI": "10.1088/0067-0049/204/1/5",
+        "volume": "204",
+        "author": "Kleinman",
+        "year": "2013",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R81",
+        "first-page": "91",
+        "volume": "320",
+        "author": "Koesterke",
+        "year": "1997",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R82",
+        "doi-asserted-by": "crossref",
+        "first-page": "L55",
+        "DOI": "10.1086/311383",
+        "volume": "500",
+        "author": "Koesterke",
+        "year": "1998",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R83",
+        "unstructured": "Kollmeier J. A., Zasowski G., Rix H. W., et al. 2017, ArXiv e-prints [arXiv:1711.03234]"
+      },
+      {
+        "key": "R84",
+        "doi-asserted-by": "crossref",
+        "first-page": "47",
+        "DOI": "10.1086/425738",
+        "volume": "156",
+        "author": "Liebert",
+        "year": "2005",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R85",
+        "first-page": "158",
+        "volume": "357",
+        "author": "L\u00f6bling",
+        "year": "2020",
+        "journal-title": "IAU Symp."
+      },
+      {
+        "key": "R86",
+        "doi-asserted-by": "crossref",
+        "first-page": "845",
+        "DOI": "10.1051/0004-6361:20054723",
+        "volume": "454",
+        "author": "Miller Bertolami",
+        "year": "2006",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R87",
+        "doi-asserted-by": "crossref",
+        "first-page": "657",
+        "DOI": "10.1046/j.1365-8711.2003.06853.x",
+        "volume": "344",
+        "author": "Montgomery",
+        "year": "2003",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R88",
+        "doi-asserted-by": "crossref",
+        "first-page": "187",
+        "DOI": "10.3847/1538-4357/ac8871",
+        "volume": "936",
+        "author": "Oliveira da Rosa",
+        "year": "2022",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R89",
+        "doi-asserted-by": "crossref",
+        "first-page": "4473",
+        "DOI": "10.1093/mnras/stx1522",
+        "volume": "470",
+        "author": "Parsons",
+        "year": "2017",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R90",
+        "doi-asserted-by": "crossref",
+        "first-page": "L8",
+        "DOI": "10.1051/0004-6361/201935835",
+        "volume": "627",
+        "author": "Pasquini",
+        "year": "2019",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R91",
+        "doi-asserted-by": "crossref",
+        "first-page": "249",
+        "DOI": "10.1007/s10686-014-9383-4",
+        "volume": "38",
+        "author": "Rauer",
+        "year": "2014",
+        "journal-title": "Exp. Astron."
+      },
+      {
+        "key": "R92",
+        "doi-asserted-by": "crossref",
+        "first-page": "429",
+        "DOI": "10.1086/317781",
+        "volume": "545",
+        "author": "Reed",
+        "year": "2000",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R93",
+        "doi-asserted-by": "crossref",
+        "first-page": "183",
+        "DOI": "10.1088/0004-637X/717/1/183",
+        "volume": "717",
+        "author": "Renedo",
+        "year": "2010",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R94",
+        "doi-asserted-by": "crossref",
+        "first-page": "014003",
+        "DOI": "10.1117/1.JATIS.1.1.014003",
+        "volume": "1",
+        "author": "Ricker",
+        "year": "2015",
+        "journal-title": "J. Astron. Telesc. Instrum. Syst."
+      },
+      {
+        "key": "R95",
+        "doi-asserted-by": "crossref",
+        "first-page": "56",
+        "DOI": "10.3847/1538-4357/aab713",
+        "volume": "857",
+        "author": "Rolland",
+        "year": "2018",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R96",
+        "doi-asserted-by": "crossref",
+        "first-page": "1462",
+        "DOI": "10.1111/j.1365-2966.2011.20134.x",
+        "volume": "420",
+        "author": "Romero",
+        "year": "2012",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R97",
+        "doi-asserted-by": "crossref",
+        "first-page": "58",
+        "DOI": "10.1088/0004-637X/779/1/58",
+        "volume": "779",
+        "author": "Romero",
+        "year": "2013",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R98",
+        "doi-asserted-by": "crossref",
+        "first-page": "60",
+        "DOI": "10.3847/1538-4357/aa9899",
+        "volume": "851",
+        "author": "Romero",
+        "year": "2017",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R99",
+        "doi-asserted-by": "crossref",
+        "first-page": "1803",
+        "DOI": "10.1093/mnras/stz2571",
+        "volume": "490",
+        "author": "Romero",
+        "year": "2019",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R100",
+        "first-page": "2711",
+        "volume": "484",
+        "author": "Romero",
+        "year": "2019",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R101",
+        "doi-asserted-by": "crossref",
+        "first-page": "1574",
+        "DOI": "10.1093/mnras/stac093",
+        "volume": "511",
+        "author": "Romero",
+        "year": "2022",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R102",
+        "doi-asserted-by": "crossref",
+        "first-page": "1448",
+        "DOI": "10.1093/mnras/stac3113",
+        "volume": "518",
+        "author": "Romero",
+        "year": "2023",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R103",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.physrep.2022.09.001",
+        "volume": "988",
+        "author": "Saumon",
+        "year": "2022",
+        "journal-title": "Phys. Rep."
+      },
+      {
+        "key": "R104",
+        "doi-asserted-by": "crossref",
+        "first-page": "525",
+        "DOI": "10.1086/305772",
+        "volume": "500",
+        "author": "Schlegel",
+        "year": "1998",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R105",
+        "doi-asserted-by": "crossref",
+        "first-page": "4",
+        "DOI": "10.1007/s00159-021-00132-9",
+        "volume": "29",
+        "author": "Serenelli",
+        "year": "2021",
+        "journal-title": "A&ARv"
+      },
+      {
+        "key": "R106",
+        "doi-asserted-by": "crossref",
+        "first-page": "32",
+        "DOI": "10.3847/1538-4365/acfbe4",
+        "volume": "269",
+        "author": "Sowicka",
+        "year": "2023",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R107",
+        "first-page": "166",
+        "volume": "7",
+        "author": "Townsend",
+        "year": "2023",
+        "journal-title": "Res. Notes Am. Astron. Soc."
+      },
+      {
+        "key": "R108",
+        "doi-asserted-by": "crossref",
+        "first-page": "1755",
+        "DOI": "10.1088/0004-637X/696/2/1755",
+        "volume": "696",
+        "author": "Tremblay",
+        "year": "2009",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R109",
+        "doi-asserted-by": "crossref",
+        "first-page": "A104",
+        "DOI": "10.1051/0004-6361/201322318",
+        "volume": "559",
+        "author": "Tremblay",
+        "year": "2013",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R110",
+        "doi-asserted-by": "crossref",
+        "first-page": "5222",
+        "DOI": "10.1093/mnras/sty3067",
+        "volume": "482",
+        "author": "Tremblay",
+        "year": "2019",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R111",
+        "doi-asserted-by": "crossref",
+        "first-page": "A27",
+        "DOI": "10.1051/0004-6361/202141253",
+        "volume": "655",
+        "author": "Uzundag",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R112",
+        "doi-asserted-by": "crossref",
+        "first-page": "2846",
+        "DOI": "10.1093/mnras/stad2776",
+        "volume": "526",
+        "author": "Uzundag",
+        "year": "2023",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R113",
+        "doi-asserted-by": "crossref",
+        "first-page": "158",
+        "DOI": "10.3847/1538-4357/ac4caf",
+        "volume": "927",
+        "author": "Vanderbosch",
+        "year": "2022",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R114",
+        "first-page": "411",
+        "volume": "59",
+        "author": "Weidemann",
+        "year": "1977",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R115",
+        "doi-asserted-by": "crossref",
+        "first-page": "183",
+        "DOI": "10.1086/500443",
+        "volume": "118",
+        "author": "Werner",
+        "year": "2006",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R116",
+        "doi-asserted-by": "crossref",
+        "first-page": "A99",
+        "DOI": "10.1051/0004-6361/201424051",
+        "volume": "569",
+        "author": "Werner",
+        "year": "2014",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R117",
+        "doi-asserted-by": "crossref",
+        "first-page": "641",
+        "DOI": "10.1051/0004-6361:20042258",
+        "volume": "433",
+        "author": "Werner",
+        "year": "2005",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R118",
+        "doi-asserted-by": "crossref",
+        "first-page": "A146",
+        "DOI": "10.1051/0004-6361/201116992",
+        "volume": "531",
+        "author": "Werner",
+        "year": "2011",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R119",
+        "doi-asserted-by": "crossref",
+        "first-page": "A53",
+        "DOI": "10.1051/0004-6361/201423441",
+        "volume": "564",
+        "author": "Werner",
+        "year": "2014",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R120",
+        "doi-asserted-by": "crossref",
+        "first-page": "157",
+        "DOI": "10.1146/annurev.astro.46.060407.145250",
+        "volume": "46",
+        "author": "Winget",
+        "year": "2008",
+        "journal-title": "ARA&A"
+      },
+      {
+        "key": "R121",
+        "doi-asserted-by": "crossref",
+        "first-page": "1579",
+        "DOI": "10.1086/301513",
+        "volume": "120",
+        "author": "York",
+        "year": "2000",
+        "journal-title": "AJ"
+      }
+    ],
+    "container-title": [
+      "Astronomy &amp; Astrophysics"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.aanda.org/10.1051/0004-6361/202450582/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          13
+        ]
+      ],
+      "date-time": "2024-11-13T09:06:33Z",
+      "timestamp": 1731488793000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.aanda.org/10.1051/0004-6361/202450582"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11
+        ]
+      ]
+    },
+    "references-count": 121,
+    "alternative-id": [
+      "aa50582-24"
+    ],
+    "URL": "https://doi.org/10.1051/0004-6361/202450582",
+    "relation": {},
+    "ISSN": [
+      "0004-6361",
+      "1432-0746"
+    ],
+    "issn-type": [
+      {
+        "value": "0004-6361",
+        "type": "print"
+      },
+      {
+        "value": "1432-0746",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          11
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.1051/0004-6361/202450582",
+  "original_doi": "10.1051/0004-6361/202450582"
+}

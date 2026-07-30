@@ -1,0 +1,749 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          10
+        ]
+      ],
+      "date-time": "2026-07-10T19:19:32Z",
+      "timestamp": 1783711172805,
+      "version": "3.55.0"
+    },
+    "reference-count": 52,
+    "publisher": "EDP Sciences",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              15
+            ]
+          ],
+          "date-time": "2024-07-15T00:00:00Z",
+          "timestamp": 1721001600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 14,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100010665",
+        "name": "H2020 Marie Sk\u0142odowska-Curie Actions",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100010665",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "A&amp;A"
+    ],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          7
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          7
+        ]
+      ]
+    },
+    "abstract": "<jats:p><jats:italic>Context.</jats:italic> The MIRI instrument on board the <jats:italic>James Webb</jats:italic> Space Telescope probes the chemistry and dust mineralogy of the inner regions of protoplanetary disks. The observed spectra are unprecedented in their detail and reveal a rich chemistry with strong diversity between objects. This complicates interpretations that are mainly based on manual continuum subtraction and 0D slab models.</jats:p>\n<jats:p><jats:italic>Aims.</jats:italic> We investigate the physical conditions under which the gas emits in protoplanetary disks. Based on MIRI spectra, we apply a full Bayesian analysis that provides the posterior distributions of dust and molecular properties, such as column densities and emission temperatures.</jats:p>\n<jats:p><jats:italic>Methods.</jats:italic> To do so, we introduced the Dust Continuum Kit with Line emission from Gas (DuCKLinG), a Python-based model simultaneously describing the molecular line emission and the dust continuum of protoplanetary disks without large computational cost. The model describes the dust continuum emission by dust models with precomputed dust opacities. The molecular emission is based on LTE slab models but from extended radial ranges with gradients in column densities and emission temperatures. We compare the model to observations using Bayesian analysis with linear regression techniques to reduce the dimension of the parameter space. We benchmarked this model to a complex thermo-chemical ProDiMo model of AATau and fit the MIRI spectrum of GW Lup. The latter allowed for a comparison to the previous results obtained with single slab models and hand-fitted continuum.</jats:p>\n<jats:p><jats:italic>Results.</jats:italic> We successfully decrease the computational time of the fitting method by a factor of 80 by eliminating linear parameters, such as the emission areas, from the Bayesian run. This approach does not significantly change the retrieved molecular parameters, and only the calculated errors on the optically thin dust masses slightly decrease. For an AA Tau ProDiMo mock observation, we find that the retrieved molecular conditions from DuCKLinG (column densities from 3 \u00d7 10<jats:sup>18</jats:sup> cm<jats:sup>\u22122</jats:sup> to 4 \u00d7 10<jats:sup>20</jats:sup> cm<jats:sup>\u22122</jats:sup>, radial range from 0.2 au to 1.2 au, and temperature range from about 200 K to 400 K) fall within the true values from ProDiMo (column densities between 4 \u00d7 10<jats:sup>17</jats:sup> cm<jats:sup>-2</jats:sup> to 5 \u00d7 10<jats:sup>20</jats:sup> cm<jats:sup>\u22122</jats:sup>, radial extent 0.1 au to 6.6 au, and temperature range from about 120 to 1000 K). The smaller DuCKLinG ranges can be explained by the relative flux contributions of the different parts of ProDiMo. The parameter posterior of GW Lup reinforces previously found results. The previously determined column densities fall within the retrieved ranges in this study for all examined molecules (CO<jats:sub>2</jats:sub>, H<jats:sub>2</jats:sub>O, HCN, and C<jats:sub>2</jats:sub>H<jats:sub>2</jats:sub>). Similar overlap is found for the temperatures with only the temperature range of HCN (from 570<jats:sub>\u221260</jats:sub><jats:sup>+60</jats:sup> to 750<jats:sub>\u221270</jats:sub><jats:sup>+90</jats:sup> K) not including the previously found value (875 K). This discrepancy may be due to the simultaneous fitting of all molecules compared to the step-by-step fitting of the previous study. There is statistically significant evidence for radial temperature and column density gradients for H<jats:sub>2</jats:sub>O and CO<jats:sub>2</jats:sub> compared to the constant temperature and column density assumed in the 0D slab models. Additionally, HCN and C<jats:sub>2</jats:sub>H<jats:sub>2</jats:sub> emit from a small region with near constant conditions. Due to the small selected wavelength range 13.6\u201316.3 \u00b5m, the dust properties are not well constrained for GW Lup. DuCKL inG can become an important tool to analyse the molecular emission and dust mineralogy of large samples based on JWST /MIRI spectra in an automated way.</jats:p>",
+    "DOI": "10.1051/0004-6361/202449936",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          21
+        ]
+      ],
+      "date-time": "2024-05-21T18:48:11Z",
+      "timestamp": 1716317291000
+    },
+    "page": "A209",
+    "source": "Crossref",
+    "is-referenced-by-count": 29,
+    "title": [
+      "Bayesian analysis of the molecular emission and dust continuum of protoplanetary disks"
+    ],
+    "prefix": "10.1051",
+    "volume": "687",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8240-978X",
+        "authenticated-orcid": false,
+        "given": "T.",
+        "family": "Kaeufer",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5778-0376",
+        "authenticated-orcid": false,
+        "given": "M.",
+        "family": "Min",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8900-3667",
+        "authenticated-orcid": false,
+        "given": "P.",
+        "family": "Woitke",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7455-5349",
+        "authenticated-orcid": false,
+        "given": "I.",
+        "family": "Kamp",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8407-4020",
+        "authenticated-orcid": false,
+        "given": "A. M.",
+        "family": "Arabhavi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "250",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          15
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "R1",
+        "doi-asserted-by": "crossref",
+        "first-page": "A20",
+        "DOI": "10.1051/0004-6361/201629929",
+        "volume": "600",
+        "author": "Alcal\u00e1",
+        "year": "2017",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R2",
+        "doi-asserted-by": "crossref",
+        "first-page": "55",
+        "DOI": "10.3847/1538-4357/abd9c1",
+        "volume": "909",
+        "author": "Anderson",
+        "year": "2021",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R3",
+        "doi-asserted-by": "crossref",
+        "first-page": "L41",
+        "DOI": "10.3847/2041-8213/aaf741",
+        "volume": "869",
+        "author": "Andrews",
+        "year": "2018",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1086",
+        "DOI": "10.1126/science.adi8147",
+        "volume": "384",
+        "author": "Arabhavi",
+        "year": "2024",
+        "journal-title": "Science"
+      },
+      {
+        "key": "R5",
+        "doi-asserted-by": "crossref",
+        "first-page": "124",
+        "DOI": "10.3847/1538-4357/abbc1a",
+        "volume": "903",
+        "author": "Banzatti",
+        "year": "2020",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R6",
+        "doi-asserted-by": "crossref",
+        "first-page": "L22",
+        "DOI": "10.3847/2041-8213/acf5ec",
+        "volume": "957",
+        "author": "Banzatti",
+        "year": "2023",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R7",
+        "doi-asserted-by": "crossref",
+        "first-page": "72",
+        "DOI": "10.3847/1538-3881/aca80b",
+        "volume": "165",
+        "author": "Banzatti",
+        "year": "2023",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R8",
+        "doi-asserted-by": "crossref",
+        "first-page": "7",
+        "DOI": "10.1007/s11214-023-00949-z",
+        "volume": "219",
+        "author": "Brittain",
+        "year": "2023",
+        "journal-title": "Space Sci. Rev."
+      },
+      {
+        "key": "R9",
+        "doi-asserted-by": "crossref",
+        "first-page": "A125",
+        "DOI": "10.1051/0004-6361/201322971",
+        "volume": "564",
+        "author": "Buchner",
+        "year": "2014",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R10",
+        "unstructured": "Carnall A. C. 2017, arXiv e-prints [arXiv:1785.85165]"
+      },
+      {
+        "key": "R11",
+        "doi-asserted-by": "crossref",
+        "first-page": "368",
+        "DOI": "10.1086/304869",
+        "volume": "490",
+        "author": "Chiang",
+        "year": "1997",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R12",
+        "first-page": "503",
+        "volume": "300",
+        "author": "Dorschner",
+        "year": "1995",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R13",
+        "doi-asserted-by": "crossref",
+        "first-page": "957",
+        "DOI": "10.1086/323057",
+        "volume": "560",
+        "author": "Dullemond",
+        "year": "2001",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R14",
+        "doi-asserted-by": "crossref",
+        "first-page": "L46",
+        "DOI": "10.3847/2041-8213/aaf742",
+        "volume": "869",
+        "author": "Dullemond",
+        "year": "2018",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R15",
+        "doi-asserted-by": "crossref",
+        "first-page": "228",
+        "DOI": "10.1051/0004-6361:20011196",
+        "volume": "378",
+        "author": "Fabian",
+        "year": "2001",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R16",
+        "doi-asserted-by": "crossref",
+        "first-page": "A95",
+        "DOI": "10.1051/0004-6361/201526948",
+        "volume": "591",
+        "author": "Fedele",
+        "year": "2016",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R17",
+        "doi-asserted-by": "crossref",
+        "first-page": "449",
+        "DOI": "10.1111/j.1365-2966.2007.12353.x",
+        "volume": "384",
+        "author": "Feroz",
+        "year": "2008",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R18",
+        "doi-asserted-by": "crossref",
+        "first-page": "1601",
+        "DOI": "10.1111/j.1365-2966.2009.14548.x",
+        "volume": "398",
+        "author": "Feroz",
+        "year": "2009",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R19",
+        "doi-asserted-by": "crossref",
+        "first-page": "10",
+        "DOI": "10.21105/astro.1306.2144",
+        "volume": "2",
+        "author": "Feroz",
+        "year": "2019",
+        "journal-title": "Open J. Astrophys."
+      },
+      {
+        "key": "R20",
+        "unstructured": "Gaia Collaboration 2020, VizieR Online Data Catalog: I/350"
+      },
+      {
+        "key": "R21",
+        "doi-asserted-by": "crossref",
+        "first-page": "A117",
+        "DOI": "10.1051/0004-6361/202347005",
+        "volume": "679",
+        "author": "Gasman",
+        "year": "2023",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R22",
+        "doi-asserted-by": "crossref",
+        "first-page": "107949",
+        "DOI": "10.1016/j.jqsrt.2021.107949",
+        "volume": "277",
+        "author": "Gordon",
+        "year": "2022",
+        "journal-title": "J. Quant. Spec. Radiat. Transf."
+      },
+      {
+        "key": "R23",
+        "doi-asserted-by": "crossref",
+        "first-page": "L6",
+        "DOI": "10.3847/2041-8213/acc44b",
+        "volume": "947",
+        "author": "Grant",
+        "year": "2023",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R24",
+        "doi-asserted-by": "crossref",
+        "first-page": "A6",
+        "DOI": "10.1051/0004-6361/201834365",
+        "volume": "626",
+        "author": "Greenwood",
+        "year": "2019",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R25",
+        "first-page": "743",
+        "volume": "327",
+        "author": "Henning",
+        "year": "1997",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R26",
+        "first-page": "904",
+        "volume": "339",
+        "author": "Jaeger",
+        "year": "1998",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R27",
+        "doi-asserted-by": "crossref",
+        "first-page": "193",
+        "DOI": "10.1051/0004-6361:20030916",
+        "volume": "408",
+        "author": "J\u00e4ger",
+        "year": "2003",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R28",
+        "doi-asserted-by": "crossref",
+        "first-page": "1024",
+        "DOI": "10.1088/0004-637X/695/2/1024",
+        "volume": "695",
+        "author": "Juh\u00e1sz",
+        "year": "2009",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R29",
+        "doi-asserted-by": "crossref",
+        "first-page": "431",
+        "DOI": "10.1088/0004-637X/721/1/431",
+        "volume": "721",
+        "author": "Juh\u00e1sz",
+        "year": "2010",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R30",
+        "doi-asserted-by": "crossref",
+        "first-page": "A30",
+        "DOI": "10.1051/0004-6361/202245461",
+        "volume": "672",
+        "author": "Kaeufer",
+        "year": "2023",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R31",
+        "doi-asserted-by": "crossref",
+        "first-page": "112",
+        "DOI": "10.1039/D3FD00013C",
+        "volume": "245",
+        "author": "Kamp",
+        "year": "2023",
+        "journal-title": "Faraday Discuss."
+      },
+      {
+        "key": "R32",
+        "doi-asserted-by": "crossref",
+        "first-page": "A147",
+        "DOI": "10.1051/0004-6361/202141455",
+        "volume": "667",
+        "author": "Khorshid",
+        "year": "2022",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R33",
+        "doi-asserted-by": "crossref",
+        "first-page": "A106",
+        "DOI": "10.1051/0004-6361/201834418",
+        "volume": "623",
+        "author": "Liu",
+        "year": "2019",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R34",
+        "doi-asserted-by": "crossref",
+        "first-page": "A36",
+        "DOI": "10.1051/0004-6361/201220465",
+        "volume": "550",
+        "author": "McElroy",
+        "year": "2013",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R35",
+        "doi-asserted-by": "crossref",
+        "first-page": "909",
+        "DOI": "10.1051/0004-6361:20041920",
+        "volume": "432",
+        "author": "Min",
+        "year": "2005",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R36",
+        "doi-asserted-by": "crossref",
+        "first-page": "74",
+        "DOI": "10.3847/1538-4357/ac6a56",
+        "volume": "934",
+        "author": "Molli\u00e8re",
+        "year": "2022",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R37",
+        "doi-asserted-by": "crossref",
+        "first-page": "L16",
+        "DOI": "10.1088/2041-8205/743/1/L16",
+        "volume": "743",
+        "author": "\u00d6berg",
+        "year": "2011",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R38",
+        "unstructured": "Palik E. D. 1985, Handbook of Optical Constants of Solids (Amsterdam: Elsevier)"
+      },
+      {
+        "key": "R39",
+        "doi-asserted-by": "crossref",
+        "first-page": "516",
+        "DOI": "10.1038/s41586-023-06317-9",
+        "volume": "620",
+        "author": "Perotti",
+        "year": "2023",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "R40",
+        "doi-asserted-by": "crossref",
+        "first-page": "887",
+        "DOI": "10.1088/0004-637X/720/1/887",
+        "volume": "720",
+        "author": "Pontoppidan",
+        "year": "2010",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R41",
+        "doi-asserted-by": "crossref",
+        "first-page": "130",
+        "DOI": "10.1088/0004-637X/731/2/130",
+        "volume": "731",
+        "author": "Salyk",
+        "year": "2011",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R42",
+        "doi-asserted-by": "crossref",
+        "first-page": "369",
+        "DOI": "10.1051/0004-6361:20041729",
+        "volume": "432",
+        "author": "Sch\u00f6ier",
+        "year": "2005",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R43",
+        "doi-asserted-by": "crossref",
+        "first-page": "805",
+        "DOI": "10.1038/s41550-023-01965-3",
+        "volume": "7",
+        "author": "Tabone",
+        "year": "2023",
+        "journal-title": "Nat. Astron."
+      },
+      {
+        "key": "R44",
+        "doi-asserted-by": "crossref",
+        "first-page": "71",
+        "DOI": "10.1080/00107510802066753",
+        "volume": "49",
+        "author": "Trotta",
+        "year": "2008",
+        "journal-title": "Contemp. Phys."
+      },
+      {
+        "key": "R45",
+        "doi-asserted-by": "crossref",
+        "first-page": "261",
+        "DOI": "10.1038/s41592-019-0686-2",
+        "volume": "17",
+        "author": "Virtanen",
+        "year": "2020",
+        "journal-title": "Nat. Methods"
+      },
+      {
+        "key": "R46",
+        "doi-asserted-by": "crossref",
+        "first-page": "A91",
+        "DOI": "10.1051/0004-6361/202348224",
+        "volume": "682",
+        "author": "Vlasblom",
+        "year": "2024",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R47",
+        "doi-asserted-by": "crossref",
+        "first-page": "383",
+        "DOI": "10.1051/0004-6361/200911821",
+        "volume": "501",
+        "author": "Woitke",
+        "year": "2009",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R48",
+        "doi-asserted-by": "crossref",
+        "first-page": "L5",
+        "DOI": "10.1051/0004-6361/200912249",
+        "volume": "501",
+        "author": "Woitke",
+        "year": "2009",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R49",
+        "doi-asserted-by": "crossref",
+        "first-page": "064301",
+        "DOI": "10.1088/1538-3873/aaf4e5",
+        "volume": "131",
+        "author": "Woitke",
+        "year": "2019",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R50",
+        "doi-asserted-by": "crossref",
+        "first-page": "A219",
+        "DOI": "10.1051/0004-6361/202347730",
+        "volume": "683",
+        "author": "Woitke",
+        "year": "2024",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R51",
+        "doi-asserted-by": "crossref",
+        "first-page": "1360",
+        "DOI": "10.1088/0004-637X/693/2/1360",
+        "volume": "693",
+        "author": "Woods",
+        "year": "2009",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R52",
+        "doi-asserted-by": "crossref",
+        "first-page": "A68",
+        "DOI": "10.1051/0004-6361/201015219",
+        "volume": "526",
+        "author": "Zeidler",
+        "year": "2011",
+        "journal-title": "A&A"
+      }
+    ],
+    "container-title": [
+      "Astronomy &amp; Astrophysics"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.aanda.org/10.1051/0004-6361/202449936/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          15
+        ]
+      ],
+      "date-time": "2024-07-15T07:57:25Z",
+      "timestamp": 1721030245000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.aanda.org/10.1051/0004-6361/202449936"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          7
+        ]
+      ]
+    },
+    "references-count": 52,
+    "alternative-id": [
+      "aa49936-24"
+    ],
+    "URL": "https://doi.org/10.1051/0004-6361/202449936",
+    "relation": {},
+    "ISSN": [
+      "0004-6361",
+      "1432-0746"
+    ],
+    "issn-type": [
+      {
+        "value": "0004-6361",
+        "type": "print"
+      },
+      {
+        "value": "1432-0746",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          7
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.1051/0004-6361/202449936",
+  "original_doi": "10.1051/0004-6361/202449936"
+}

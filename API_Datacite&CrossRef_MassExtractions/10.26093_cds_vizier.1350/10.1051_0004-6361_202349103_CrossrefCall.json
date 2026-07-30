@@ -1,0 +1,1316 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          12
+        ]
+      ],
+      "date-time": "2026-06-12T23:30:11Z",
+      "timestamp": 1781307011251,
+      "version": "3.54.1"
+    },
+    "reference-count": 100,
+    "publisher": "EDP Sciences",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              5
+            ]
+          ],
+          "date-time": "2024-06-05T00:00:00Z",
+          "timestamp": 1717545600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 4,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "name": "AGENCIA",
+        "award": [
+          "BID 1728/OC-AR"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "BID 1728/OC-AR"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100002923",
+        "name": "CONICET",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "PIP 112- 200801-00940"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "PIP 112- 200801-00940"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100002923",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NSF PHY-1748958"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NSF PHY-1748958"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100003130",
+        "name": "Research Foundation Flanders",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "1247624N"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "1247624N"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100003130",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "Polish National Center for Science",
+        "award": [
+          "2015/18/A/ST9/00578"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2015/18/A/ST9/00578"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Polish National Center for Science",
+        "award": [
+          "2021/43/B/ST9/02972"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2021/43/B/ST9/02972"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "A&amp;A"
+    ],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          23
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          6
+        ]
+      ]
+    },
+    "abstract": "<jats:p><jats:italic>Context.</jats:italic>Significant advances have been achieved through the latest improvements in the photometric observations accomplished by the recent space missions, which substantially boost the study of pulsating stars via asteroseismology. The TESS mission has already proven to be of particular relevance for pulsating white dwarf and pre-white dwarf stars.</jats:p><jats:p><jats:italic>Aims.</jats:italic>We report a detailed asteroseismic analysis of the pulsating PG 1159 star NGC 246 (TIC 3905338), which is the central star of the planetary nebula NGC 246, based on high-precision photometric data gathered by the TESS space mission.</jats:p><jats:p><jats:italic>Methods.</jats:italic>We reduced TESS observations of NGC 246 and performed a detailed asteroseismic analysis using fully evolutionary PG 1159 models computed accounting for the complete prior evolution of their progenitors. We constrained the mass of this star by comparing the measured mean period spacing with the average of the computed period spacings of the models, and we also employed the observed individual periods to search for a seismic stellar model.</jats:p><jats:p><jats:italic>Results.</jats:italic>We extracted a total of 17 periodicities from the TESS light curves from the two sectors where NGC 246 was observed. All the oscillation frequencies are associated with<jats:italic>g</jats:italic>-mode pulsations, with periods spanning from \u223c1460 to \u223c1823\u2006s. We found a constant period spacing of \u0394\u03a0\u2004=\u200412.9\u2006s, which allowed us to deduce that the stellar mass is higher than \u223c0.87\u2006<jats:italic>M</jats:italic><jats:sub>\u2299</jats:sub>if the period spacing is assumed to be associated with<jats:italic>\u2113</jats:italic>\u2004=\u20041 modes, and that the stellar mass is \u223c0.568\u2006<jats:italic>M</jats:italic><jats:sub>\u2299</jats:sub>if it is associated with<jats:italic>\u2113</jats:italic>\u2004=\u20042 modes. The less massive models are more consistent with the distance constraint from<jats:italic>Gaia</jats:italic>parallax. Although we were not able to find a unique asteroseismic model for this star, the period-to-period fit analyses suggest a high stellar mass (\u22730.74<jats:italic>M</jats:italic><jats:sub>\u2299</jats:sub>) when the observed periods are associated with modes with<jats:italic>\u2113</jats:italic>\u2004=\u20041 only, and both a high and an intermediate stellar mass (\u22730.74\u2006<jats:italic>M</jats:italic><jats:sub>\u2299</jats:sub>and \u223c0.57\u2006<jats:italic>M</jats:italic><jats:sub>\u2299</jats:sub>, respectively) when the observed periods are associated with modes with a mixture of<jats:italic>\u2113</jats:italic>\u2004=\u20041,\u20062.</jats:p>",
+    "DOI": "10.1051/0004-6361/202349103",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          2
+        ]
+      ],
+      "date-time": "2024-04-02T18:51:42Z",
+      "timestamp": 1712083902000
+    },
+    "page": "A140",
+    "source": "Crossref",
+    "is-referenced-by-count": 9,
+    "title": [
+      "Pulsating hydrogen-deficient white dwarfs and pre-white dwarfs observed with TESS"
+    ],
+    "prefix": "10.1051",
+    "volume": "686",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1345-8075",
+        "authenticated-orcid": false,
+        "given": "Leila M.",
+        "family": "Calcaferro",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6605-0268",
+        "authenticated-orcid": false,
+        "given": "Paulina",
+        "family": "Sowicka",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6603-994X",
+        "authenticated-orcid": false,
+        "given": "Murat",
+        "family": "Uzundag",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0006-9900",
+        "authenticated-orcid": false,
+        "given": "Alejandro H.",
+        "family": "C\u00f3rsico",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7470-5703",
+        "authenticated-orcid": false,
+        "given": "Souza O.",
+        "family": "Kepler",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0656-032X",
+        "authenticated-orcid": false,
+        "given": "Keaton J.",
+        "family": "Bell",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0658-0459",
+        "authenticated-orcid": false,
+        "given": "Leandro G.",
+        "family": "Althaus",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7756-1568",
+        "authenticated-orcid": false,
+        "given": "Gerald",
+        "family": "Handler",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6536-6367",
+        "authenticated-orcid": false,
+        "given": "Steven D.",
+        "family": "Kawaler",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6428-2276",
+        "authenticated-orcid": false,
+        "given": "Klaus",
+        "family": "Werner",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "250",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          5
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "R1",
+        "doi-asserted-by": "crossref",
+        "first-page": "3459",
+        "DOI": "10.1093/mnras/stu1677",
+        "volume": "444",
+        "author": "Adam",
+        "year": "2014",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Aerts C., Christensen-Dalsgaard J., & Kurtz D. W. 2010, Asteroseismology (Springer Science+Business Media B.V.)",
+        "DOI": "10.1007/978-1-4020-5803-5"
+      },
+      {
+        "key": "R3",
+        "doi-asserted-by": "crossref",
+        "first-page": "34",
+        "DOI": "10.1007/s10509-023-04180-8",
+        "volume": "368",
+        "author": "Ali",
+        "year": "2023",
+        "journal-title": "Ap&SS"
+      },
+      {
+        "key": "R4",
+        "doi-asserted-by": "crossref",
+        "first-page": "A128",
+        "DOI": "10.1051/0004-6361/201937118",
+        "volume": "635",
+        "author": "Aller",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R5",
+        "doi-asserted-by": "crossref",
+        "first-page": "631",
+        "DOI": "10.1051/0004-6361:20041965",
+        "volume": "435",
+        "author": "Althaus",
+        "year": "2005",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R6",
+        "doi-asserted-by": "crossref",
+        "first-page": "471",
+        "DOI": "10.1007/s00159-010-0033-1",
+        "volume": "18",
+        "author": "Althaus",
+        "year": "2010",
+        "journal-title": "A&A Rev."
+      },
+      {
+        "key": "R7",
+        "doi-asserted-by": "crossref",
+        "first-page": "147",
+        "DOI": "10.3847/1538-3881/abd806",
+        "volume": "161",
+        "author": "Bailer-Jones",
+        "year": "2021",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R8",
+        "doi-asserted-by": "crossref",
+        "first-page": "93",
+        "DOI": "10.3847/1538-4357/abafbe",
+        "volume": "901",
+        "author": "B\u00e9dard",
+        "year": "2020",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R9",
+        "doi-asserted-by": "crossref",
+        "first-page": "A42",
+        "DOI": "10.1051/0004-6361/201936340",
+        "volume": "632",
+        "author": "Bell",
+        "year": "2019",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1047",
+        "DOI": "10.1086/133661",
+        "volume": "107",
+        "author": "Bergeron",
+        "year": "1995",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1023/A:1002777931450",
+        "volume": "275",
+        "author": "Bl\u00f6cker",
+        "year": "2001",
+        "journal-title": "Ap&SS"
+      },
+      {
+        "key": "R12",
+        "unstructured": "Bloemen S., Groot P., Nelemans G., & Klein-Wolt M. 2015, in Living Together: Planets, Host Stars and Binaries, eds. Rucinski S. M., Torres G., & Zejda M., ASP Conf. Ser., 496, 254"
+      },
+      {
+        "key": "R13",
+        "doi-asserted-by": "crossref",
+        "first-page": "217",
+        "DOI": "10.1086/316321",
+        "volume": "111",
+        "author": "Bond",
+        "year": "1999",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R14",
+        "doi-asserted-by": "crossref",
+        "first-page": "2699",
+        "DOI": "10.1086/118214",
+        "volume": "112",
+        "author": "Bond",
+        "year": "1996",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R15",
+        "doi-asserted-by": "crossref",
+        "first-page": "376",
+        "DOI": "10.1086/177159",
+        "volume": "462",
+        "author": "Bradley",
+        "year": "1996",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R16",
+        "doi-asserted-by": "crossref",
+        "first-page": "A40",
+        "DOI": "10.1051/0004-6361/201527996",
+        "volume": "589",
+        "author": "Calcaferro",
+        "year": "2016",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R17",
+        "doi-asserted-by": "crossref",
+        "first-page": "A135",
+        "DOI": "10.1051/0004-6361/202346007",
+        "volume": "673",
+        "author": "Calcaferro",
+        "year": "2023",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R18",
+        "doi-asserted-by": "crossref",
+        "first-page": "A65",
+        "DOI": "10.1051/0004-6361/201730831",
+        "volume": "606",
+        "author": "Capitanio",
+        "year": "2017",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R19",
+        "doi-asserted-by": "crossref",
+        "first-page": "2332",
+        "DOI": "10.1086/117967",
+        "volume": "111",
+        "author": "Ciardullo",
+        "year": "1996",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R20",
+        "first-page": "48",
+        "volume": "63",
+        "author": "C\u00f3rsico",
+        "year": "2022",
+        "journal-title": "Boletin de la Asociacion Argentina de Astronomia La Plata Argentina"
+      },
+      {
+        "key": "R21",
+        "doi-asserted-by": "crossref",
+        "first-page": "863",
+        "DOI": "10.1051/0004-6361:20054199",
+        "volume": "454",
+        "author": "C\u00f3rsico",
+        "year": "2006",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R22",
+        "doi-asserted-by": "crossref",
+        "first-page": "259",
+        "DOI": "10.1051/0004-6361:20065423",
+        "volume": "458",
+        "author": "C\u00f3rsico",
+        "year": "2006",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R23",
+        "doi-asserted-by": "crossref",
+        "first-page": "1095",
+        "DOI": "10.1051/0004-6361:20066452",
+        "volume": "461",
+        "author": "C\u00f3rsico",
+        "year": "2007",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R24",
+        "doi-asserted-by": "crossref",
+        "first-page": "619",
+        "DOI": "10.1051/0004-6361:20078145",
+        "volume": "475",
+        "author": "C\u00f3rsico",
+        "year": "2007",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R25",
+        "doi-asserted-by": "crossref",
+        "first-page": "869",
+        "DOI": "10.1051/0004-6361:20078646",
+        "volume": "478",
+        "author": "C\u00f3rsico",
+        "year": "2008",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R26",
+        "doi-asserted-by": "crossref",
+        "first-page": "257",
+        "DOI": "10.1051/0004-6361/200810727",
+        "volume": "499",
+        "author": "C\u00f3rsico",
+        "year": "2009",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R27",
+        "doi-asserted-by": "crossref",
+        "first-page": "7",
+        "DOI": "10.1007/s00159-019-0118-4",
+        "volume": "27",
+        "author": "C\u00f3rsico",
+        "year": "2019",
+        "journal-title": "A&A Rev."
+      },
+      {
+        "key": "R28",
+        "doi-asserted-by": "crossref",
+        "first-page": "A117",
+        "DOI": "10.1051/0004-6361/202039202",
+        "volume": "645",
+        "author": "C\u00f3rsico",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R29",
+        "doi-asserted-by": "crossref",
+        "first-page": "A161",
+        "DOI": "10.1051/0004-6361/202244198",
+        "volume": "668",
+        "author": "C\u00f3rsico",
+        "year": "2022",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R30",
+        "doi-asserted-by": "crossref",
+        "first-page": "A30",
+        "DOI": "10.1051/0004-6361/202142153",
+        "volume": "659",
+        "author": "C\u00f3rsico",
+        "year": "2022",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R31",
+        "doi-asserted-by": "crossref",
+        "first-page": "627",
+        "DOI": "10.1051/0004-6361:20053470",
+        "volume": "477",
+        "author": "Costa",
+        "year": "2008",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cox A. N. 2000, Allen\u2019s Astrophysical Quantities (New York: AIP Press)",
+        "DOI": "10.1063/1.1325201"
+      },
+      {
+        "key": "R33",
+        "doi-asserted-by": "crossref",
+        "first-page": "132",
+        "DOI": "10.1088/0004-637X/805/2/132",
+        "volume": "805",
+        "author": "Deming",
+        "year": "2015",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R34",
+        "doi-asserted-by": "crossref",
+        "first-page": "1459",
+        "DOI": "10.1093/mnras/stv1516",
+        "volume": "455",
+        "author": "Frew",
+        "year": "2016",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R35",
+        "doi-asserted-by": "crossref",
+        "first-page": "237",
+        "DOI": "10.1051/0004-6361:20066295",
+        "volume": "467",
+        "author": "Fu",
+        "year": "2007",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R36",
+        "unstructured": "Gaia Collaboration 2020, VizieR Online Data Catalog: I/350"
+      },
+      {
+        "key": "R37",
+        "first-page": "811",
+        "volume": "320",
+        "author": "Gautschy",
+        "year": "1997",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R38",
+        "doi-asserted-by": "crossref",
+        "first-page": "1013",
+        "DOI": "10.1051/0004-6361:20042486",
+        "volume": "438",
+        "author": "Gautschy",
+        "year": "2005",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R39",
+        "first-page": "125",
+        "volume": "12",
+        "author": "Gonz\u00e1lez P\u00e9rez",
+        "year": "2003",
+        "journal-title": "Balt. Astron."
+      },
+      {
+        "key": "R40",
+        "doi-asserted-by": "crossref",
+        "first-page": "527",
+        "DOI": "10.1051/0004-6361:20053468",
+        "volume": "454",
+        "author": "Gonz\u00e1lez P\u00e9rez",
+        "year": "2006",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R41",
+        "doi-asserted-by": "crossref",
+        "first-page": "A51",
+        "DOI": "10.1051/0004-6361/202141916",
+        "volume": "656",
+        "author": "Gonz\u00e1lez-Santamar\u00eda",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R42",
+        "doi-asserted-by": "crossref",
+        "first-page": "271",
+        "DOI": "10.1086/165824",
+        "volume": "323",
+        "author": "Grauer",
+        "year": "1987",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R43",
+        "doi-asserted-by": "crossref",
+        "first-page": "303",
+        "DOI": "10.1093/mnras/286.2.303",
+        "volume": "286",
+        "author": "Handler",
+        "year": "1997",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R44",
+        "doi-asserted-by": "crossref",
+        "first-page": "23",
+        "DOI": "10.3847/1538-4365/aa8bb5",
+        "volume": "232",
+        "author": "Hermes",
+        "year": "2017",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R45",
+        "doi-asserted-by": "crossref",
+        "first-page": "L71",
+        "DOI": "10.1086/320911",
+        "volume": "554",
+        "author": "Herwig",
+        "year": "2001",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R46",
+        "doi-asserted-by": "crossref",
+        "first-page": "1221",
+        "DOI": "10.1086/505938",
+        "volume": "132",
+        "author": "Holberg",
+        "year": "2006",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R47",
+        "doi-asserted-by": "crossref",
+        "first-page": "398",
+        "DOI": "10.1086/676406",
+        "volume": "126",
+        "author": "Howell",
+        "year": "2014",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jenkins J. M., Twicken J. D., McCauliff S., et al. 2016, in Software and Cyberinfrastructure for Astronomy IV, Proc. SPIE, 9913, 99133E",
+        "DOI": "10.1117/12.2233418"
+      },
+      {
+        "key": "R49",
+        "unstructured": "Kawaler S. D. 1986, PhD Thesis, Texas Univ., Austin, USA"
+      },
+      {
+        "key": "R50",
+        "unstructured": "Kawaler S. D. 1987, in 95: Second Conference on Faint Blue Stars, eds. Philip A. G. D., Hayes D. S., & Liebert J. W., IAU Colloq., 297"
+      },
+      {
+        "key": "R51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kawaler S. D. 1988, in Advances in Helio- and Asteroseismology, eds. Christensen-Dalsgaard J., & Frandsen S., IAU Symp., 123, 329",
+        "DOI": "10.1017/S0074180900157638"
+      },
+      {
+        "key": "R52",
+        "unstructured": "Kawaler S. D. 1990, in Confrontation Between Stellar Pulsation and Evolution, eds. Cacciari C., & Clementini G., ASP Conf. Ser., 11, 494"
+      },
+      {
+        "key": "R53",
+        "doi-asserted-by": "crossref",
+        "first-page": "415",
+        "DOI": "10.1086/174152",
+        "volume": "427",
+        "author": "Kawaler",
+        "year": "1994",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R54",
+        "doi-asserted-by": "crossref",
+        "first-page": "547",
+        "DOI": "10.1086/163398",
+        "volume": "295",
+        "author": "Kawaler",
+        "year": "1985",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R55",
+        "first-page": "515",
+        "volume": "2",
+        "author": "Kepler",
+        "year": "1993",
+        "journal-title": "Balt. Astron."
+      },
+      {
+        "key": "R56",
+        "doi-asserted-by": "crossref",
+        "first-page": "2278",
+        "DOI": "10.1093/mnras/stu1019",
+        "volume": "442",
+        "author": "Kepler",
+        "year": "2014",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R57",
+        "doi-asserted-by": "crossref",
+        "first-page": "L55",
+        "DOI": "10.1086/311383",
+        "volume": "500",
+        "author": "Koesterke",
+        "year": "1998",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R58",
+        "first-page": "1041",
+        "volume": "330",
+        "author": "Koesterke",
+        "year": "1998",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R59",
+        "doi-asserted-by": "crossref",
+        "first-page": "31",
+        "DOI": "10.1146/annurev-astro-052920-094232",
+        "volume": "60",
+        "author": "Kurtz",
+        "year": "2022",
+        "journal-title": "ARA&A"
+      },
+      {
+        "key": "R60",
+        "doi-asserted-by": "crossref",
+        "first-page": "A91",
+        "DOI": "10.1051/0004-6361/201322032",
+        "volume": "561",
+        "author": "Lallement",
+        "year": "2014",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R61",
+        "doi-asserted-by": "crossref",
+        "first-page": "A132",
+        "DOI": "10.1051/0004-6361/201832832",
+        "volume": "616",
+        "author": "Lallement",
+        "year": "2018",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R62",
+        "doi-asserted-by": "crossref",
+        "first-page": "439",
+        "DOI": "10.1086/113329",
+        "volume": "88",
+        "author": "Landolt",
+        "year": "1983",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R63",
+        "unstructured": "Lightkurve Collaboration (Cardoso J. V. d. M., et al.) 2018, Lightkurve: Kepler and TESS time series analysis in Python, Astrophysics Source Code Library [record ascl:1812.013]"
+      },
+      {
+        "key": "R64",
+        "doi-asserted-by": "crossref",
+        "first-page": "280",
+        "DOI": "10.1086/148603",
+        "volume": "144",
+        "author": "Liller",
+        "year": "1966",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R65",
+        "doi-asserted-by": "crossref",
+        "first-page": "65",
+        "DOI": "10.3390/galaxies6020065",
+        "volume": "6",
+        "author": "L\u00f6bling",
+        "year": "2018",
+        "journal-title": "Galaxies"
+      },
+      {
+        "key": "R66",
+        "first-page": "158",
+        "volume": "357",
+        "author": "L\u00f6bling",
+        "year": "2020",
+        "journal-title": "IAU Symp."
+      },
+      {
+        "key": "R67",
+        "doi-asserted-by": "crossref",
+        "first-page": "220",
+        "DOI": "10.3847/1538-4357/ac2d28",
+        "volume": "922",
+        "author": "Lopez",
+        "year": "2021",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R68",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McGraw J. T., Starrfield S. G., Liebert J., & Green R. 1979, in 53: White Dwarfs and Variable Degenerate Stars, eds. van Horn H. M., Weidemann V., & Savedoff M. P., IAU Colloq., 377",
+        "DOI": "10.1017/S0252921100076223"
+      },
+      {
+        "key": "R69",
+        "doi-asserted-by": "crossref",
+        "first-page": "845",
+        "DOI": "10.1051/0004-6361:20054723",
+        "volume": "454",
+        "author": "Miller Bertolami",
+        "year": "2006",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R70",
+        "doi-asserted-by": "crossref",
+        "first-page": "675",
+        "DOI": "10.1051/0004-6361:20077256",
+        "volume": "470",
+        "author": "Miller Bertolami",
+        "year": "2007",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R71",
+        "doi-asserted-by": "crossref",
+        "first-page": "763",
+        "DOI": "10.1111/j.1365-2966.2007.12115.x",
+        "volume": "380",
+        "author": "Miller Bertolami",
+        "year": "2007",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R72",
+        "doi-asserted-by": "crossref",
+        "first-page": "L60",
+        "DOI": "10.1093/mnrasl/slab134",
+        "volume": "511",
+        "author": "Miller Bertolami",
+        "year": "2022",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R73",
+        "doi-asserted-by": "crossref",
+        "first-page": "309",
+        "DOI": "10.1086/169196",
+        "volume": "361",
+        "author": "Nather",
+        "year": "1990",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R74",
+        "doi-asserted-by": "crossref",
+        "first-page": "222",
+        "DOI": "10.1093/mnras/270.2.222",
+        "volume": "270",
+        "author": "O\u2019Donoghue",
+        "year": "1994",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R75",
+        "doi-asserted-by": "crossref",
+        "first-page": "187",
+        "DOI": "10.3847/1538-4357/ac8871",
+        "volume": "936",
+        "author": "Oliveira da Rosa",
+        "year": "2022",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R76",
+        "doi-asserted-by": "crossref",
+        "first-page": "2666",
+        "DOI": "10.1086/339838",
+        "volume": "123",
+        "author": "Palen",
+        "year": "2002",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R77",
+        "unstructured": "Piotto G. 2018, in European Planetary Science Congress,EPSC2018-969"
+      },
+      {
+        "key": "R78",
+        "doi-asserted-by": "crossref",
+        "first-page": "219",
+        "DOI": "10.1086/513870",
+        "volume": "171",
+        "author": "Quirion",
+        "year": "2007",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R79",
+        "unstructured": "Rauch T., & Werner K. 1997, in The Third Conference on Faint Blue Stars, eds. Philip A. G. D., Liebert J., Saffer R., & Hayes D. S., 217"
+      },
+      {
+        "key": "R80",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rauch T., K\u00f6per S., Dreizler S., et al. 2004, in Stellar Rotation, eds. Maeder A., & Eenens P., 215, 573",
+        "DOI": "10.1017/S0074180900196214"
+      },
+      {
+        "key": "R81",
+        "doi-asserted-by": "crossref",
+        "first-page": "014003",
+        "DOI": "10.1117/1.JATIS.1.1.014003",
+        "volume": "1",
+        "author": "Ricker",
+        "year": "2015",
+        "journal-title": "J. Astron. Telesc. Instrum. Syst."
+      },
+      {
+        "key": "R82",
+        "unstructured": "Saio H. 1996, in Hydrogen Deficient Stars, eds. Jeffery C. S., & Heber U., ASP Conf. Ser., 96, 361"
+      },
+      {
+        "key": "R83",
+        "doi-asserted-by": "crossref",
+        "first-page": "L1",
+        "DOI": "10.3847/2041-8213/ac1c08",
+        "volume": "918",
+        "author": "Sowicka",
+        "year": "2021",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R84",
+        "first-page": "23",
+        "volume": "269",
+        "author": "Sowicka",
+        "year": "2024",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R85",
+        "doi-asserted-by": "crossref",
+        "first-page": "766",
+        "DOI": "10.1086/170835",
+        "volume": "383",
+        "author": "Stanghellini",
+        "year": "1991",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R86",
+        "doi-asserted-by": "crossref",
+        "first-page": "L27",
+        "DOI": "10.1086/184023",
+        "volume": "268",
+        "author": "Starrfield",
+        "year": "1983",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R87",
+        "doi-asserted-by": "crossref",
+        "first-page": "800",
+        "DOI": "10.1086/162158",
+        "volume": "281",
+        "author": "Starrfield",
+        "year": "1984",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R88",
+        "doi-asserted-by": "crossref",
+        "first-page": "138",
+        "DOI": "10.3847/1538-3881/ab3467",
+        "volume": "158",
+        "author": "Stassun",
+        "year": "2019",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "R89",
+        "doi-asserted-by": "crossref",
+        "first-page": "335",
+        "DOI": "10.1086/191420",
+        "volume": "72",
+        "author": "Tassoul",
+        "year": "1990",
+        "journal-title": "ApJS"
+      },
+      {
+        "key": "R90",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Terzian Y. 1997, in Planetary Nebulae, eds. Habing H. J., & Lamers H. J. G. L. M., 180, 29",
+        "DOI": "10.1017/S0074180900129754"
+      },
+      {
+        "key": "R91",
+        "doi-asserted-by": "crossref",
+        "first-page": "A27",
+        "DOI": "10.1051/0004-6361/202141253",
+        "volume": "655",
+        "author": "Uzundag",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R92",
+        "doi-asserted-by": "crossref",
+        "first-page": "2285",
+        "DOI": "10.1093/mnras/stac1027",
+        "volume": "513",
+        "author": "Uzundag",
+        "year": "2022",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R93",
+        "doi-asserted-by": "crossref",
+        "first-page": "2846",
+        "DOI": "10.1093/mnras/stad2776",
+        "volume": "526",
+        "author": "Uzundag",
+        "year": "2023",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R94",
+        "doi-asserted-by": "crossref",
+        "first-page": "122",
+        "DOI": "10.1051/0004-6361:20011483",
+        "volume": "381",
+        "author": "Vauclair",
+        "year": "2002",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R95",
+        "doi-asserted-by": "crossref",
+        "first-page": "183",
+        "DOI": "10.1086/500443",
+        "volume": "118",
+        "author": "Werner",
+        "year": "2006",
+        "journal-title": "PASP"
+      },
+      {
+        "key": "R96",
+        "doi-asserted-by": "crossref",
+        "first-page": "A19",
+        "DOI": "10.1051/0004-6361/201527261",
+        "volume": "584",
+        "author": "Werner",
+        "year": "2015",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R97",
+        "doi-asserted-by": "crossref",
+        "first-page": "A53",
+        "DOI": "10.1051/0004-6361/201423441",
+        "volume": "564",
+        "author": "Werner",
+        "year": "2014",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "R98",
+        "doi-asserted-by": "crossref",
+        "first-page": "L66",
+        "DOI": "10.1093/mnrasl/slac005",
+        "volume": "511",
+        "author": "Werner",
+        "year": "2022",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "R99",
+        "doi-asserted-by": "crossref",
+        "first-page": "326",
+        "DOI": "10.1086/170434",
+        "volume": "378",
+        "author": "Winget",
+        "year": "1991",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "R100",
+        "unstructured": "Zacharias N., Finch C. T., Girard T. M., et al. 2012, VizieR Online Data Catalog: I/322A"
+      }
+    ],
+    "container-title": [
+      "Astronomy &amp; Astrophysics"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.aanda.org/10.1051/0004-6361/202349103/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          15
+        ]
+      ],
+      "date-time": "2024-11-15T14:40:59Z",
+      "timestamp": 1731681659000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.aanda.org/10.1051/0004-6361/202349103"
+      }
+    },
+    "subtitle": [
+      "VI. Asteroseismology of the GW Vir-type central star of the Planetary Nebula NGC 246"
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6
+        ]
+      ]
+    },
+    "references-count": 100,
+    "alternative-id": [
+      "aa49103-23"
+    ],
+    "URL": "https://doi.org/10.1051/0004-6361/202349103",
+    "relation": {},
+    "ISSN": [
+      "0004-6361",
+      "1432-0746"
+    ],
+    "issn-type": [
+      {
+        "value": "0004-6361",
+        "type": "print"
+      },
+      {
+        "value": "1432-0746",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          6
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.1051/0004-6361/202349103",
+  "original_doi": "10.1051/0004-6361/202349103"
+}
