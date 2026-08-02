@@ -4,7 +4,6 @@ from typing import Any, Dict, List
 
 def build_publication_result(
     doi: str,
-    title_test: bool,
     title_value: str,
     previous_title: bool,
     doi_test: bool,
@@ -17,7 +16,6 @@ def build_publication_result(
     """
     return {
         "doi": doi,
-        "titleTest": title_test,
         "titleValue": title_value,
         "previousTitle": previous_title,
         "DOITest": doi_test,
