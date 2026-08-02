@@ -1,98 +1,67 @@
 import json
 from typing import Any, Dict, List
 
-
-def build_publication_result(
-    doi: str,
-    title_test: bool,
-    title_value: str,
-    previous_title: bool,
-    doi_test: bool,
-    doi_value: str,
-    unstructured_test: bool,
-    source_container: Dict[str, Any],
-) -> Dict[str, Any]:
-    """
-    Build one PublicationDOI entry from predefined checks.
-    """
-    return {
-        "doi": doi,
-        "titleTest": title_test,
-        "titleValue": title_value,
-        "previousTitle": previous_title,
-        "DOITest": doi_test,
-        "DOIValue": doi_value,
-        "unstructuredTest": unstructured_test,
-        "sourceContainer": source_container,
-    }
+import DataciteDOISearchinCrossref as doi_search
+import DataciteTitleSearchinCrossref as title_search
 
 
-def build_comparison_results(
-    dataset_doi: str,
-    dataset_title: str,
-    publication_checks: List[Dict[str, Any]],
-) -> Dict[str, Any]:
+def _run_main(module: Any) -> None:
     """
-    Build the top-level comparison result payload.
-    publication_checks should contain precomputed boolean/value checks.
+    Run module.main() if available.
     """
-    publication_results = []
-    for check in publication_checks:
-        publication_results.append(
-            build_publication_result(
-                doi=check.get("doi", ""),
-                title_test=check.get("titleTest", False),
-                title_value=check.get("titleValue", ""),
-                previous_title=check.get("previousTitle", False),
-                doi_test=check.get("DOITest", False),
-                doi_value=check.get("DOIValue", ""),
-                unstructured_test=check.get("unstructuredTest", False),
-                source_container=check.get("sourceContainer", {}),
-            )
-        )
+    main_fn = getattr(module, "main", None)
+    if callable(main_fn):
+        main_fn()
+
+
+def _load_json_list(path: str) -> List[Dict[str, Any]]:
+    """
+    Load JSON list from file path. Return [] if file missing/invalid/non-list.
+    """
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+            if isinstance(data, list):
+                return data
+            return []
+    except (FileNotFoundError, json.JSONDecodeError, OSError):
+        return []
+
+
+def build_combined_results() -> Dict[str, Any]:
+    # Run DOI search script, then read its output file
+    _run_main(doi_search)
+    doi_output_file = getattr(doi_search, "OUTPUT_FILE", "crossref_datacite_doi_matches.json")
+    doi_matches = _load_json_list(doi_output_file)
+
+    # Run Title search script, then read its output file
+    _run_main(title_search)
+    title_output_file = getattr(
+        title_search,
+        "OUTPUT_FILE_TITLES",
+        "crossref_datacite_title_matches.json",
+    )
+    title_matches = _load_json_list(title_output_file)
 
     return {
-        "datasetDOI": dataset_doi,
-        "datasetTitle": dataset_title,
-        "PublicationDOI": publication_results,
+        "sourceScripts": {
+            "doi": "DataciteDOISearchinCrossref.py",
+            "title": "DataciteTitleSearchinCrossref.py",
+        },
+        "sourceFiles": {
+            "doiMatchesFile": doi_output_file,
+            "titleMatchesFile": title_output_file,
+        },
+        "counts": {
+            "doiMatches": len(doi_matches),
+            "titleMatches": len(title_matches),
+            "totalMatches": len(doi_matches) + len(title_matches),
+        },
+        "doiMatches": doi_matches,
+        "titleMatches": title_matches,
     }
 
 
 if __name__ == "__main__":
-    # Example: predefined checks (replace with your real matching logic output)
-    predefined_checks = [
-        {
-            "doi": "publication doi here",
-            "titleTest": True,
-            "titleValue": "title text found in the Crossref API",
-            "previousTitle": False,
-            "DOITest": True,
-            "DOIValue": "DOI value found associated with the title",
-            "unstructuredTest": True,
-            "sourceContainer": {
-                "source": "Crossref",
-                "matchedBy": ["title", "doi", "unstructured"],
-            },
-        },
-        {
-            "doi": "publication doi here",
-            "titleTest": True,
-            "titleValue": "title text found in the crossref API",
-            "previousTitle": True,
-            "DOITest": False,
-            "DOIValue": "DOI value found associated with the title",
-            "unstructuredTest": True,
-            "sourceContainer": {
-                "source": "Crossref",
-                "matchedBy": ["title", "unstructured"],
-            },
-        },
-    ]
-
-    result = build_comparison_results(
-        dataset_doi="",
-        dataset_title="example title",
-        publication_checks=predefined_checks,
-    )
-
-    print(json.dumps(result, indent=2))
+    result = build_combined_results()
+    print(json.dumps(result, indent=2, ensure_ascii=False))
