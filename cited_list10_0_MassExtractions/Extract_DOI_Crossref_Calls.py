@@ -1,5 +1,9 @@
 import json
 
+# Load source data from cited_list10_0.json
+with open('cited_list10_0.json', 'r') as f:
+    cited_data = json.load(f)
+
 citation_doi_list = []
 
 for entry in cited_data:
@@ -10,9 +14,9 @@ for entry in cited_data:
     # Get the list of citation DOIs directly from the entry.
     entry_citation_dois = entry.get('citation_doi', [])
 
-    if parent_doi: # Only proceed if a parent DOI exists
+    if parent_doi:  # Only proceed if a parent DOI exists
         for citation_doi in entry_citation_dois:
-            if citation_doi: # Ensure the citation_doi is not None or empty
+            if citation_doi:  # Ensure the citation_doi is not None or empty
                 citation_doi_list.append({
                     'parent_doi': parent_doi,
                     'citation_doi': citation_doi
