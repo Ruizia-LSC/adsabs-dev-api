@@ -1,21 +1,22 @@
 """
 Results.py
 ----------
-For each DataciteResult JSON file, run three checks against every individual
+For each DataciteResult JSON file, run checks against every individual
 Crossref-call JSON file found in the 10.26093_cds_vizier.1350 folder.
 
 Checks (per Crossref file):
   1. DOITest       – Is the canonical_doi found anywhere in the Crossref JSON?
   2. TitleTest     – Is any current title found anywhere in the Crossref JSON?
      PreviousTitle – Were titles ever different across DataCite history entries?
-  3. UnstructuredTest – Does any reference entry contain an "unstructured" field?
+  3. ContainerFound – Container(s) where DOI/title metadata are found;
+     "null" if both DOITest and TitleTest are False, or if canonical_doi is blank,
+     or if titles are empty/blank.
 
 One output file is written per DataciteResult, saved to
   API_Datacite&CrossRef_MassExtractions/CrossCheckResults/
 """
 
 import json
-import os
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
@@ -57,40 +58,48 @@ def json_contains_string(obj: Any, needle: str) -> bool:
     return False
 
 
-def find_matching_value(obj: Any, needle: str) -> Optional[str]:
+def _normalize_container(value: Any) -> str:
+    """Normalize container representation so equivalent containers de-duplicate."""
+    if isinstance(value, dict):
+        try:
+            return json.dumps(value, sort_keys=True, ensure_ascii=False)
+        except TypeError:
+            return str(value)
+    if isinstance(value, list):
+        try:
+            return json.dumps(value, ensure_ascii=False)
+        except TypeError:
+            return str(value)
+    return str(value)
+
+
+def find_container(obj: Any, needle: str) -> Optional[Any]:
     """
-    Return the first string value in *obj* that contains *needle*
-    (case-insensitive), or None if not found.
+    Return the nearest container (dict or list) holding a string that contains
+    *needle* (case-insensitive). Returns None if not found.
     """
     needle_lower = needle.lower()
-    if isinstance(obj, str):
-        return obj if needle_lower in obj.lower() else None
-    if isinstance(obj, dict):
-        for v in obj.values():
-            result = find_matching_value(v, needle)
-            if result is not None:
-                return result
-    if isinstance(obj, list):
-        for item in obj:
-            result = find_matching_value(item, needle)
-            if result is not None:
-                return result
-    return None
 
+    def _walk(node: Any, parent: Optional[Any]) -> Optional[Any]:
+        if isinstance(node, str):
+            if needle_lower in node.lower():
+                return parent
+            return None
+        if isinstance(node, dict):
+            for v in node.values():
+                found = _walk(v, node)
+                if found is not None:
+                    return found
+            return None
+        if isinstance(node, list):
+            for item in node:
+                found = _walk(item, node)
+                if found is not None:
+                    return found
+            return None
+        return None
 
-def collect_unstructured(references: Any) -> List[str]:
-    """
-    Walk the references list and collect every "unstructured" field value.
-    """
-    found: List[str] = []
-    if not isinstance(references, list):
-        return found
-    for ref in references:
-        if isinstance(ref, dict) and "unstructured" in ref:
-            val = ref["unstructured"]
-            if isinstance(val, str) and val.strip():
-                found.append(val)
-    return found
+    return _walk(obj, None)
 
 
 # ---------------------------------------------------------------------------
@@ -100,17 +109,15 @@ def collect_unstructured(references: Any) -> List[str]:
 def check_doi(crossref_data: Any, canonical_doi: str) -> Dict[str, Any]:
     """Check 1: DOI presence."""
     found = json_contains_string(crossref_data, canonical_doi)
-    value = find_matching_value(crossref_data, canonical_doi) if found else ""
-    return {"DOITest": found, "DOIValue": value}
+    return {"DOITest": found}
 
 
 def check_title(crossref_data: Any, titles: List[str]) -> Dict[str, Any]:
     """Check 2: Title presence (any title in the list)."""
     for title in titles:
         if title and json_contains_string(crossref_data, title):
-            value = find_matching_value(crossref_data, title)
-            return {"TitleTest": True, "TitleValue": value or ""}
-    return {"TitleTest": False, "TitleValue": ""}
+            return {"TitleTest": True}
+    return {"TitleTest": False}
 
 
 def check_previous_title(history: List[Dict[str, Any]]) -> bool:
@@ -127,17 +134,59 @@ def check_previous_title(history: List[Dict[str, Any]]) -> bool:
     return False
 
 
-def check_unstructured(crossref_data: Any) -> Dict[str, Any]:
-    """Check 3: Unstructured references."""
-    message = crossref_data.get("message", {}) if isinstance(crossref_data, dict) else {}
-    references = message.get("reference", [])
-    unstructured_texts = collect_unstructured(references)
-    if unstructured_texts:
-        return {
-            "UnstructuredTest": True,
-            "UnstructuredText": unstructured_texts,
-        }
-    return {"UnstructuredTest": False, "UnstructuredText": ""}
+def check_container_found(
+    crossref_data: Any,
+    canonical_doi: str,
+    titles: List[str],
+    doi_found: bool,
+    title_found: bool,
+) -> Any:
+    """
+    Return:
+      - "null" if both tests are False
+      - "null" if canonical_doi is blank
+      - "null" if titles are empty/blank
+      - one container string if DOI and title resolve to same container
+      - list of container strings if they resolve to different containers
+    """
+    # Validation guard: if canonical DOI is blank OR titles are empty/blank,
+    # force ContainerFound to "null".
+    if not canonical_doi or not canonical_doi.strip():
+        return "null"
+    if not titles or not any(isinstance(t, str) and t.strip() for t in titles):
+        return "null"
+
+    if not doi_found and not title_found:
+        return "null"
+
+    containers: List[str] = []
+    seen = set()
+
+    if doi_found:
+        doi_container = find_container(crossref_data, canonical_doi)
+        if doi_container is not None:
+            norm = _normalize_container(doi_container)
+            if norm not in seen:
+                seen.add(norm)
+                containers.append(norm)
+
+    if title_found:
+        title_container_raw = None
+        for title in titles:
+            if title and json_contains_string(crossref_data, title):
+                title_container_raw = find_container(crossref_data, title)
+                break
+        if title_container_raw is not None:
+            norm = _normalize_container(title_container_raw)
+            if norm not in seen:
+                seen.add(norm)
+                containers.append(norm)
+
+    if not containers:
+        return "null"
+    if len(containers) == 1:
+        return containers[0]
+    return containers
 
 
 # ---------------------------------------------------------------------------
@@ -181,17 +230,20 @@ def process_datacite_file(
 
         doi_check = check_doi(crossref_data, canonical_doi)
         title_check = check_title(crossref_data, current_titles)
-        unstructured_check = check_unstructured(crossref_data)
+        container_found = check_container_found(
+            crossref_data,
+            canonical_doi,
+            current_titles,
+            doi_check["DOITest"],
+            title_check["TitleTest"],
+        )
 
         entry: Dict[str, Any] = {
             "Publication DOI": original_doi,
             "DOITest": doi_check["DOITest"],
-            "DOIValue": doi_check["DOIValue"],
             "TitleTest": title_check["TitleTest"],
-            "TitleValue": title_check["TitleValue"],
             "PreviousTitle": previous_title_flag,
-            "UnstructuredTest": unstructured_check["UnstructuredTest"],
-            "UnstructuredText": unstructured_check["UnstructuredText"],
+            "ContainerFound": container_found,
         }
         results.append(entry)
 
@@ -243,13 +295,11 @@ def main() -> None:
         total = len(output.get("results", []))
         doi_hits = sum(1 for r in output.get("results", []) if r.get("DOITest"))
         title_hits = sum(1 for r in output.get("results", []) if r.get("TitleTest"))
-        unstr_hits = sum(1 for r in output.get("results", []) if r.get("UnstructuredTest"))
 
         print(
             f"  {dc_path.name} → {out_name} "
             f"({total} publications checked | "
-            f"DOI hits: {doi_hits}, Title hits: {title_hits}, "
-            f"Unstructured hits: {unstr_hits})"
+            f"DOI hits: {doi_hits}, Title hits: {title_hits})"
         )
 
     print(f"\nDone. Results written to {OUTPUT_DIR}")
