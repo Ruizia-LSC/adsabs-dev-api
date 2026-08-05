@@ -1,8 +1,8 @@
 #Step 1 
 import json
 
-# Load the cited_list100.json file
-with open("cited_list100.json", "r", encoding="utf-8") as f:
+# Load the cited_list10_0.json file
+with open("cited_list10_0.json", "r", encoding="utf-8") as f:
     cited_data = json.load(f)
 
 doi_list = []
