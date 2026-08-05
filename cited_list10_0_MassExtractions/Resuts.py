@@ -27,7 +27,7 @@ from typing import Any, Dict, List, Optional
 SCRIPT_DIR = Path(__file__).parent
 DATACITE_DIR = SCRIPT_DIR / "DataciteResults"
 CROSSREF_DIR = SCRIPT_DIR / "10.26093_cds_vizier.1350"
-OUTPUT_DIR = SCRIPT_DIR / "CrossCheckResults"
+OUTPUT_DIR = SCRIPT_DIR / "CrossCheckResults cited_list10_0"
 
 
 # ---------------------------------------------------------------------------
@@ -62,12 +62,12 @@ def _normalize_container(value: Any) -> str:
     """Normalize container representation so equivalent containers de-duplicate."""
     if isinstance(value, dict):
         try:
-            return json.dumps(value, sort_keys=True, ensure_ascii=False)
+            return json.dumps(value, sort_keys=True, ensure_ascii=False, indent=2)
         except TypeError:
             return str(value)
     if isinstance(value, list):
         try:
-            return json.dumps(value, ensure_ascii=False)
+            return json.dumps(value, ensure_ascii=False, indent=2)
         except TypeError:
             return str(value)
     return str(value)
@@ -189,6 +189,17 @@ def check_container_found(
     return containers
 
 
+def pretty_container_found(value: Any) -> Any:
+    """
+    Pretty-print ContainerFound while preserving its structure.
+    - dict/list values are serialized with indentation
+    - strings are returned unchanged
+    """
+    if isinstance(value, (dict, list)):
+        return json.dumps(value, ensure_ascii=False, indent=2, sort_keys=True)
+    return value
+
+
 # ---------------------------------------------------------------------------
 # Main processing
 # ---------------------------------------------------------------------------
@@ -243,7 +254,7 @@ def process_datacite_file(
             "DOITest": doi_check["DOITest"],
             "TitleTest": title_check["TitleTest"],
             "PreviousTitle": previous_title_flag,
-            "ContainerFound": container_found,
+            "ContainerFound": pretty_container_found(container_found),
         }
         results.append(entry)
 
