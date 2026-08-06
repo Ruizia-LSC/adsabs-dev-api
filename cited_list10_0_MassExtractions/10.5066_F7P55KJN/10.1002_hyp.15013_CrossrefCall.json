@@ -1,0 +1,894 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          30
+        ]
+      ],
+      "date-time": "2025-07-30T09:54:07Z",
+      "timestamp": 1753869247821,
+      "version": "3.41.2"
+    },
+    "reference-count": 90,
+    "publisher": "Wiley",
+    "issue": "11",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              31
+            ]
+          ],
+          "date-time": "2023-10-31T00:00:00Z",
+          "timestamp": 1698710400000
+        },
+        "content-version": "am",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              31
+            ]
+          ],
+          "date-time": "2023-10-31T00:00:00Z",
+          "timestamp": 1698710400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000185",
+        "name": "Defense Advanced Research Projects Agency",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "W911NF\u201018\u20101\u20100027"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "W911NF\u201018\u20101\u20100027"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000185",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100005323",
+        "name": "National Center for Atmospheric Research",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100005323",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "1740704"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "1740704"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000199",
+        "name": "U.S. Department of Agriculture",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "3072\u201013000\u2010010\u201050S",
+          "58\u20103072\u20101\u2010007",
+          "NR193A750023C010"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "3072\u201013000\u2010010\u201050S",
+              "58\u20103072\u20101\u2010007",
+              "NR193A750023C010"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000199",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100007263",
+        "name": "Virginia Polytechnic Institute and State University",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100007263",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Hydrological Processes"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          11
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Hydrological models require complete and accurate weather data time series to represent watershed\u2010scale responses adequately. The Global Historical Climatology Network (GHCN) is the most comprehensive weather database used in hydrological modelling studies globally. Since higher\u2010density, lower\u2010reliability precipitation measurements from private citizens collected by the Community Collaborative Rain, Hail, and Snow (CoCoRaHS) network data were integrated into the GHCN, hydrological modellers in the United States have access to a much greater amount of weather data. However, the benefit of using CoCoRaHS data has not been assessed. The objectives of this work were to develop a method for generating a complete weather data time series based on the combination of data from multiple GHCN monitors and to assess several methods for the estimation of missing weather data. Weather data from GHCN monitors located within a specific radius of a watershed were obtained and interpolated using three estimation methods (Inverse Distance Weighting (IDW), Inverse Distance and Elevation Weighting (IDEW) and Closest Station), creating a seamless time series of weather observations. To evaluate the performance of the methodologies, weather data obtained from each estimation method was used to force the Soil and Water Assessment Tool (SWAT) and Thornthwaite\u2010Mather models for 21\u2009US Department of Agriculture\u2010Conservation Effects Assessment Project watersheds in different climate regions to simulate daily streamflow for 2010\u20132021. Except for three watersheds, all of the SWAT models had Nash\u2010Sutcliffe Efficiency above 0.5, the ratio of the root mean square error to the standard deviation of observations below 0.7, and percent bias from \u221225% to 25% with a satisfactory performance rating. IDEW and IDW performed similarly, and the Closest Station method resulted in the poorest streamflow simulation. A comparison with published SWAT model results further corroborated improved model performance using novel combined GHCN data with all Closest Station, IDW and IDEW methods.</jats:p>",
+    "DOI": "10.1002/hyp.15013",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          1
+        ]
+      ],
+      "date-time": "2023-11-01T03:16:21Z",
+      "timestamp": 1698808581000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Employing higher density lower reliability weather data from the Global Historical Climatology Network monitors to generate serially complete weather data for watershed modelling"
+    ],
+    "prefix": "10.1002",
+    "volume": "37",
+    "author": [
+      {
+        "given": "Roja K.",
+        "family": "Garna",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Biological Systems Engineering Virginia Tech  Blacksburg Virginia USA"
+          },
+          {
+            "name": "Stantec Consulting Services Inc.  Lexington Kentucky USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Zachary M.",
+        "family": "Easton",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biological Systems Engineering Virginia Tech  Blacksburg Virginia USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Joshua W.",
+        "family": "Faulkner",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Plant and Soil Science University of Vermont  Burlington Vermont USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Amy S.",
+        "family": "Collick",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Agricultural Sciences Morehead State University  Morehead Kentucky USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4468-2248",
+        "authenticated-orcid": false,
+        "given": "Daniel R.",
+        "family": "Fuka",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biological Systems Engineering Virginia Tech  Blacksburg Virginia USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          31
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_10_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2017/3695285"
+      },
+      {
+        "key": "e_1_2_10_3_1",
+        "first-page": "1",
+        "article-title": "DEoptim: Differential evolution optimization in R",
+        "author": "Ardia D.",
+        "year": "2007",
+        "journal-title": "R Package Version"
+      },
+      {
+        "key": "e_1_2_10_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.5609"
+      },
+      {
+        "key": "e_1_2_10_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.1998.tb05961.x"
+      },
+      {
+        "key": "e_1_2_10_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2018.09.027"
+      },
+      {
+        "key": "e_1_2_10_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.10860"
+      },
+      {
+        "key": "e_1_2_10_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/sdata.2018.214"
+      },
+      {
+        "key": "e_1_2_10_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3354/cr015123"
+      },
+      {
+        "key": "e_1_2_10_10_1",
+        "article-title": "What is the appropriate RAWS network",
+        "author": "Brown T. J.",
+        "year": "2011",
+        "journal-title": "Program for Climate, Ecosystem and Fire Applications Report"
+      },
+      {
+        "key": "e_1_2_10_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2005.02.019"
+      },
+      {
+        "key": "e_1_2_10_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10333-012-0319-1"
+      },
+      {
+        "key": "e_1_2_10_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.7568"
+      },
+      {
+        "key": "e_1_2_10_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envres.2018.02.027"
+      },
+      {
+        "key": "e_1_2_10_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0450-34.2.371"
+      },
+      {
+        "key": "e_1_2_10_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jawr.12182"
+      },
+      {
+        "key": "e_1_2_10_17_1",
+        "first-page": "48",
+        "article-title": "Creating a volunteer observing network",
+        "volume": "60",
+        "author": "Doesken N.",
+        "year": "2011",
+        "journal-title": "World Meteorological Organization Bulletin"
+      },
+      {
+        "key": "e_1_2_10_18_1",
+        "unstructured": "Edmund H. Chamberlain S. Ram K. &Edmund M. H.(2016).rnoaa:\u201cNOAA\u201d weather data from R. R Package Version 0.6.5."
+      },
+      {
+        "key": "e_1_2_10_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0450(2000)039<1580:CASCND>2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_10_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-1694(95)02704-S"
+      },
+      {
+        "key": "e_1_2_10_21_1",
+        "unstructured": "Fuka D. R. Walter M. T. Archibald J. A. Steenhuis T. S. &Easton Z. M.(2014).Package \u2018EcoHydRology\u2019."
+      },
+      {
+        "key": "e_1_2_10_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.10073"
+      },
+      {
+        "key": "e_1_2_10_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jawr.12170"
+      },
+      {
+        "key": "e_1_2_10_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2013.11.044"
+      },
+      {
+        "key": "e_1_2_10_25_1",
+        "unstructured": "Garna R. K. Fuka D. R. &Easton Z. M.(2023).FillMissWX modeling interface (v1.0).https://doi.org/10.5072/zenodo.1240516"
+      },
+      {
+        "key": "e_1_2_10_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ejrh.2022.101306"
+      },
+      {
+        "key": "e_1_2_10_27_1",
+        "unstructured": "Gassman P. W. Arnold J. J. Srinivasan R. &Reyes M.(2010).The worldwide use of the SWAT Model: Technological drivers networking impacts and simulation trends.21st Century Watershed Technology: Improving Water Quality and Environment Conference Proceedings 21\u201324 February 2010 Universidad EARTH Costa Rica 1.https://elibrary.asabe.org/abstract.asp?aid=29418"
+      },
+      {
+        "key": "e_1_2_10_28_1",
+        "unstructured": "Ghidey F. Sadler E. J. Lerch R. N. &Baffaut C.(2007).Scaling up the SWAT model from Goodwater creek experimental watershed to the long branch watershed.2007 ASAE Annual meeting.https://elibrary.asabe.org/abstract.asp?aid=23387"
+      },
+      {
+        "key": "e_1_2_10_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)1084-0699(1999)4:2(135)"
+      },
+      {
+        "key": "e_1_2_10_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2134/jeq2013.08.0325"
+      },
+      {
+        "key": "e_1_2_10_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2015.08.011"
+      },
+      {
+        "key": "e_1_2_10_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626669409492784"
+      },
+      {
+        "key": "e_1_2_10_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0168-1923(94)90067-1"
+      },
+      {
+        "key": "e_1_2_10_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0442(1995)008<1901:EOMDTC>2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_10_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cageo.2018.07.003"
+      },
+      {
+        "key": "e_1_2_10_36_1",
+        "unstructured": "Kelsch M.(1998).The Fort Collins flash flood: Exceptional rainfall and urban runoff.Preprints 19th Conference on Severe Local Storms Minneapolis MN American Meteorological Society 404 407."
+      },
+      {
+        "key": "e_1_2_10_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2017.02.001"
+      },
+      {
+        "key": "e_1_2_10_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/abac.12172"
+      },
+      {
+        "key": "e_1_2_10_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0022-1694(98)00230-3"
+      },
+      {
+        "key": "e_1_2_10_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1127/0941-2948/2011/105"
+      },
+      {
+        "key": "e_1_2_10_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0442(1989)002<0656:SPFEOH>2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_10_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2005gl022860"
+      },
+      {
+        "key": "e_1_2_10_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-22-689-2018"
+      },
+      {
+        "key": "e_1_2_10_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2015.02.010"
+      },
+      {
+        "key": "e_1_2_10_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2003.tb04395.x"
+      },
+      {
+        "key": "e_1_2_10_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM486.1"
+      },
+      {
+        "key": "e_1_2_10_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0442(1998)011<0018:STAOTU>2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_10_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2010.00502.x"
+      },
+      {
+        "key": "e_1_2_10_49_1",
+        "article-title": "Global historical climatology network\u2010daily (GHCN\u2010daily), version 3",
+        "volume": "10",
+        "author": "Menne M. J.",
+        "year": "2012",
+        "journal-title": "NOAA National Climatic Data Center"
+      },
+      {
+        "key": "e_1_2_10_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JTECH-D-11-00103.1"
+      },
+      {
+        "key": "e_1_2_10_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-022-11769-6"
+      },
+      {
+        "key": "e_1_2_10_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13031/2013.23153"
+      },
+      {
+        "issue": "6",
+        "key": "e_1_2_10_53_1",
+        "first-page": "1763",
+        "article-title": "Hydrologic and water quality models: Performance measures and evaluation criteria",
+        "volume": "58",
+        "author": "Moriasi D. N.",
+        "year": "2015",
+        "journal-title": "International Journal of Small Craft Technology"
+      },
+      {
+        "key": "e_1_2_10_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752-1688.12819"
+      },
+      {
+        "key": "e_1_2_10_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18637/jss.v040.i06"
+      },
+      {
+        "key": "e_1_2_10_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-1694(70)90255-6"
+      },
+      {
+        "volume-title": "Soil and water assessment tool theoretical documentation version 2009",
+        "year": "1998",
+        "author": "Neitsch S. L.",
+        "key": "e_1_2_10_57_1"
+      },
+      {
+        "key": "e_1_2_10_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM-D-15-0026.1"
+      },
+      {
+        "key": "e_1_2_10_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2166/wst.2012.884"
+      },
+      {
+        "key": "e_1_2_10_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hessd-4-439-2007"
+      },
+      {
+        "key": "e_1_2_10_61_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rafii F. &Kechadi T.(2019).Collection of historical weather data: Issues with missing values.Proceedings of the 4th International Conference on Smart City Applications 1\u20138https://doi.org/10.1145/3368756.3368974",
+        "DOI": "10.1145/3368756.3368974"
+      },
+      {
+        "key": "e_1_2_10_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/BAMS-D-14-00213.1"
+      },
+      {
+        "key": "e_1_2_10_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2489/jswc.63.6.533"
+      },
+      {
+        "key": "e_1_2_10_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1127/0941-2948/2011/0285"
+      },
+      {
+        "volume-title": "Regionalization of precipitation data in the harz mountains",
+        "year": "1994",
+        "author": "Saborowski J.",
+        "key": "e_1_2_10_65_1"
+      },
+      {
+        "key": "e_1_2_10_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2489/jswc.63.6.577"
+      },
+      {
+        "key": "e_1_2_10_67_1",
+        "unstructured": "Sadler J. Steiner J. James D. Vandenberg B. Wilson G. Obrecht J. Oster T. Ross J. D. Chen J.\u2010S. Cole K. Hatfield J. &Anderson D.(2015).STEWARDS \u2013 A data delivery application for the USDA/ARS conservation effects assessment project. Ag data commons[data set].https://data.nal.usda.gov/dataset/stewards-data-delivery-application-usdaars-conservation-effects-assessment-project"
+      },
+      {
+        "key": "e_1_2_10_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2166/nh.2016.364"
+      },
+      {
+        "key": "e_1_2_10_69_1",
+        "first-page": "187",
+        "article-title": "SNOTEL (SNOwpack TELemetry) and SCAN (soil climate analysis network)",
+        "volume": "1074",
+        "author": "Schaefer G. L.",
+        "year": "2001",
+        "journal-title": "Automated Weather Stations for Applications in Agriculture and Water Resources Management: Current Use and Future Perspectives"
+      },
+      {
+        "key": "e_1_2_10_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.6825"
+      },
+      {
+        "key": "e_1_2_10_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2005.tb03740.x"
+      },
+      {
+        "key": "e_1_2_10_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2011.12.006"
+      },
+      {
+        "issue": "2",
+        "key": "e_1_2_10_73_1",
+        "first-page": "93",
+        "article-title": "Revised spatial weighting methods for estimation of missing rainfall data",
+        "volume": "44",
+        "author": "Suhaila J.",
+        "year": "2008",
+        "journal-title": "Asia\u2010Pacific Journal of Atmospheric Sciences"
+      },
+      {
+        "key": "e_1_2_10_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs70201504"
+      },
+      {
+        "key": "e_1_2_10_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/essd-12-2381-2020"
+      },
+      {
+        "key": "e_1_2_10_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/essd-13-3337-2021"
+      },
+      {
+        "key": "e_1_2_10_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2005.02.015"
+      },
+      {
+        "key": "e_1_2_10_78_1",
+        "first-page": "308",
+        "volume-title": "Spatial objective analysis with applications in atmospheric science",
+        "author": "Thiebaux H. J.",
+        "year": "1987"
+      },
+      {
+        "key": "e_1_2_10_79_1",
+        "first-page": "185",
+        "article-title": "Instructions and tables for computing potential evapotranspiration and the water balance",
+        "volume": "10",
+        "author": "Thornthwaite C. W.",
+        "year": "1957",
+        "journal-title": "Publications on Climatology"
+      },
+      {
+        "key": "e_1_2_10_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0022-1694(96)03128-9"
+      },
+      {
+        "key": "e_1_2_10_81_1",
+        "unstructured": "U.S. Geological Survey. (2022).National Water Information System data available on the world wide web (USGS water data for the nation).https://doi.org/10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_10_82_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0477-30.10.335"
+      },
+      {
+        "key": "e_1_2_10_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-94-015-9710-4_1"
+      },
+      {
+        "key": "e_1_2_10_84_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w10050642"
+      },
+      {
+        "key": "e_1_2_10_85_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2018.05.116"
+      },
+      {
+        "key": "e_1_2_10_86_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/91wr00977"
+      },
+      {
+        "key": "e_1_2_10_87_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/joc.3370150207"
+      },
+      {
+        "key": "e_1_2_10_88_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-18-4871-2014"
+      },
+      {
+        "volume-title": "Cooperative observer program (COOP) hourly precipitation data (HPD), version 2.0",
+        "year": "2018",
+        "author": "Wuertz D.",
+        "key": "e_1_2_10_89_1"
+      },
+      {
+        "key": "e_1_2_10_90_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2737/RMRS-GTR-119"
+      },
+      {
+        "key": "e_1_2_10_91_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.3147"
+      }
+    ],
+    "container-title": [
+      "Hydrological Processes"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/hyp.15013",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/hyp.15013",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          2
+        ]
+      ],
+      "date-time": "2024-01-02T05:40:33Z",
+      "timestamp": 1704174033000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/hyp.15013"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          31
+        ]
+      ]
+    },
+    "references-count": 90,
+    "journal-issue": {
+      "issue": "11",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            11
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/hyp.15013"
+    ],
+    "URL": "https://doi.org/10.1002/hyp.15013",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0885-6087",
+      "1099-1085"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0885-6087"
+      },
+      {
+        "type": "electronic",
+        "value": "1099-1085"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          31
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2023-04-26",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-10-05",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-10-31",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e15013"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1002/hyp.15013",
+  "original_doi": "10.1002/hyp.15013"
+}

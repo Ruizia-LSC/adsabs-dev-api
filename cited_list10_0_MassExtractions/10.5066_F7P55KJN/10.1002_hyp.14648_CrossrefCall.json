@@ -1,0 +1,756 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          29
+        ]
+      ],
+      "date-time": "2026-07-29T07:42:52Z",
+      "timestamp": 1785310972302,
+      "version": "3.55.0"
+    },
+    "reference-count": 82,
+    "publisher": "Wiley",
+    "issue": "8",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              8,
+              16
+            ]
+          ],
+          "date-time": "2022-08-16T00:00:00Z",
+          "timestamp": 1660608000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 15,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100004959",
+        "name": "Minnesota Department of Natural Resources",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100004959",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100004964",
+        "name": "Minnesota Pollution Control Agency",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100004964",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Hydrological Processes"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          8
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>A thorough understanding of fluvial sediment transport is critical to addressing many environmental concerns such as exacerbated flooding, degradation of aquatic habitat, excess nutrients, and the economic challenges of restoring aquatic systems. Fluvial sediment samples are integral for addressing these environmental concerns but cannot be collected at every river and time of interest. Therefore, to gain a better understanding for rivers where direct measurements have not been made, extreme gradient boosting machine learning (ML) models were developed and trained to predict suspended sediment and bedload from sampling data collected in Minnesota, United States (U.S.), by the U.S. Geological Survey. Approximately 400 watershed (full upstream area), catchment (nearby landscape), near\u2010channel, channel, and streamflow features were retrieved or developed from multiple sources, reduced to approximately 30 uncorrelated features, and used in the final ML models. The results indicate suspended sediment and bedload ML models explain approximately 70% of the variance in the datasets. Important features used in the models were interpreted with Shapley additive explanation (SHAP) plots, which provided insight into sediment transport processes. The most important features in the models were developed to normalize streamflow by the 2\u2010year recurrence interval and quantify the rate of change in streamflow (slope), which helped account for sediment hysteresis. Generally, this study also showed a combination of mostly watershed and catchment geospatial features were important in ML models that predict sediment transport from physical samples. This study is a promising step forward in making fluvial sediment transport predictions using machine learning models trained by physically collected samples. The approach developed here can be used wherever similar datasets exists and will be useful for landscape and water management.</jats:p>",
+    "DOI": "10.1002/hyp.14648",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          25
+        ]
+      ],
+      "date-time": "2022-07-25T05:54:10Z",
+      "timestamp": 1658728450000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 29,
+    "title": [
+      "Using machine learning to improve predictions and provide insight into fluvial sediment transport"
+    ],
+    "prefix": "10.1002",
+    "volume": "36",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8830-4468",
+        "authenticated-orcid": false,
+        "given": "J. William",
+        "family": "Lund",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Upper Midwest Water Science Center  Mounds View Minnesota USA"
+          },
+          {
+            "name": "Department of Forest Resources University of Minnesota  Minneapolis Minnesota USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0441-8442",
+        "authenticated-orcid": false,
+        "given": "Joel T.",
+        "family": "Groten",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Upper Midwest Water Science Center  Mounds View Minnesota USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4529-0369",
+        "authenticated-orcid": false,
+        "given": "Diana L.",
+        "family": "Karwan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Forest Resources University of Minnesota  Minneapolis Minnesota USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chad",
+        "family": "Babcock",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Forest Resources University of Minnesota  Minneapolis Minnesota USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          16
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2016.07.048"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alexander J. S. Wilson R. C. &Green W. R.(2012).A brief history and summary of the effects of river engineering and dams on the Mississippi River system and delta.U.S. Geological Survey Circular 1375(43 p.).https://pubs.usgs.gov/circ/1375/",
+        "DOI": "10.3133/cir1375"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "first-page": "395",
+        "volume-title": "Standard test methods for determining sediment concentration in water samples",
+        "author": "American Society for Testing and Materials",
+        "year": "2000"
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0022-1694(00)00253-5"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2015.11.008"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2021.105006"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es2019109"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "355",
+        "DOI": "10.1061/9780784408148.ch06",
+        "volume-title": "Chapter 6. Sedimentation engineering, processes measurement, modeling, and practice",
+        "author": "Biedenharn D. S.",
+        "year": "2008"
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021EO160257"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1010933404324"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen T. &Guestrin C.(2016).XGBoost: A scalable tree boosting system. InProceedings of the ACM SIGKDD international conference on knowledge discovery and data mining 13\u201317\u2010August\u20102016(pp. 785\u2013794).https://doi.org/10.1145/2939672.2939785",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "unstructured": "Chen T. He T. Benesty M. Khotilovich V. Tang Y. Cho H. Chen K. Mitchell R. Cano I. Zhou T. Mu L. Xie J. Lin M. Geng Y. &Li Y.(2021).XGBoost: Extreme gradient boosting. R package version 1.4.1.1.https://cran.r-project.org/web/packages/xgboost/"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2166/hydro.2020.116"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "volume-title": "Standard methods for the examination of water and wastewater",
+        "author": "Clesceri L. S.",
+        "year": "1998"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/07-0539.1"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Davis B. E.(2005).A guide to the proper selection and use of federally approved sediment and water\u2010quality samplers.U.S. Geological Survey Open File Report 2005\u20101087(20 p.).https://pubs.usgs.gov/of/2005/1087/",
+        "DOI": "10.3133/ofr20051087"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.geomorph.2010.12.008"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Edwards T. K. &Glysson G. D.(1999).Field methods for measurement of fluvial sediment.U.S. Geological Survey Techniques of Water\u2010Resources Investigations 03\u2010C2(89 p.).https://doi.org/10.3133/twri03C2",
+        "DOI": "10.3133/twri03C2"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ellison C. A. Groten J. T. Lorenz D. L. &Koller K. S.(2016).Application of dimensionless sediment rating curves to predict suspended\u2010sediment concentrations bedload and annual sediment loads for Rivers in Minnesota.U.S. Geological Survey Scientific Investigations Report 2016\u20105146(68 p.).https://pubs.er.usgs.gov/publication/sir20165146",
+        "DOI": "10.3133/sir20165146"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ellison C. A. Savage B. E. &Johnson G. D.(2014).Suspended\u2010sediment concentrations loads total suspended solids turbidity and particle\u2010size fractions for selected rivers in Minnesota 2007 through 2011.U.S. Geological Survey Scientific Investigations Report 2013\u20105205(43 p.).https://pubs.usgs.gov/sir/2013/5205/",
+        "DOI": "10.3133/sir20135205"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM-D-15-0138.1"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR017637"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10661-017-6025-0"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.7110"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.catena.2012.10.018"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1130/2009.2451(08"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "unstructured": "Gray J. R. Glysson G. D. Turcios L. M. &Schwarz G. E.(2000).Comparability of suspended\u2010sediment concentration and total suspended solids data.U.S. Geological Survey Water\u2010Resources Investigations Report 00\u20104191(p. 14).https://pubs.usgs.gov/wri/wri004191/"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/9780784408148.apd"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "unstructured": "Groten J. T.(2017a).Model archive summary for suspended\u2010sediment concentration at station 05321995 Blue Earth River at HWY 169 in Mankato MN.https://nrtwq.usgs.gov/pdfs/05321995/pdfs/p99409_0.pdf"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "unstructured": "Groten J. T.(2017b).Model archive summary for suspended\u2010sediment concentration at station 05374900 Zumbro River at Kellogg MN.https://nrtwq.usgs.gov/pdfs/05374900/pdfs/p99409_0.pdf"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "unstructured": "Groten J. T.(2017c).Model archive summary for suspended\u2010sediment concentration at station 04015330 Knife River near Two Harbors MN.https://nrtwq.usgs.gov/pdfs/04015330/pdfs/p99409_0.pdf"
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Groten J. T. &Johnson G. D.(2018).Comparability of river suspended\u2010sediment sampling and laboratory analysis methods.U.S. Geological Survey Scientific Investigations Report 2018\u20105023(p. 23).https://doi.org/10.3133/sir20185023",
+        "DOI": "10.3133/sir20185023"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Groten J. T. Ziegeweid J. R. Lund J. W. Ellison C. A. Costa S. B. Coenen E. N. &Kessler E. W.(2019).Using acoustic Doppler velocity meters to estimate suspended sediment along the lower Minnesota and Mississippi Rivers.U.S. Geological Survey Scientific Investigations Report 2018\u20105165(p. 30).https://doi.org/10.3133/sir20185165",
+        "DOI": "10.3133/sir20185165"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guy H. P.(1964).An analysis of some storm\u2010period variables affecting stream sediment transport.U.S. Geological Survey Professional Paper 462\u2010E(pp. 1\u201346).https://doi.org/10.3133/pp462E",
+        "DOI": "10.3133/pp462E"
+      },
+      {
+        "key": "e_1_2_8_36_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guy H. P.(1969).Laboratory theory and methods for sediment analysis.U.S. Geological Survey Techniques of Water Resources Investigations 05\u2010C1(58 p.).https://doi.org/10.3133/twri05C1",
+        "DOI": "10.3133/twri05C1"
+      },
+      {
+        "key": "e_1_2_8_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-0-387-84858-7"
+      },
+      {
+        "key": "e_1_2_8_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752-1688.12372"
+      },
+      {
+        "key": "e_1_2_8_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w10040394"
+      },
+      {
+        "key": "e_1_2_8_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/app11188290"
+      },
+      {
+        "key": "e_1_2_8_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s002679900048"
+      },
+      {
+        "key": "e_1_2_8_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18637/jss.v028.i05"
+      },
+      {
+        "key": "e_1_2_8_43_1",
+        "unstructured": "Kuhn M.(2021).Caret: Classification and regression training. R package version 6.0\u201090.https://CRAN.R-project.org/package=caret"
+      },
+      {
+        "key": "e_1_2_8_44_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Landers M. N. Straub T. D. Wood M. S. &Domanski M. M.(2016).Sediment acoustic index method for computing continuous suspended\u2010sediment concentrations.U.S. Geological Survey Techniques and Methods 03\u2010C5(63 p.).https://doi.org/10.3133/tm3C5",
+        "DOI": "10.3133/tm3C5"
+      },
+      {
+        "issue": "745",
+        "key": "e_1_2_8_45_1",
+        "first-page": "1",
+        "article-title": "The importance of fluvial morphology in hydraulic engineering",
+        "volume": "81",
+        "author": "Lane E. W.",
+        "year": "1955",
+        "journal-title": "Proceedings of the American Society of Civil Engineers"
+      },
+      {
+        "key": "e_1_2_8_46_1",
+        "unstructured": "Larsen M. C. Gellis A. C. Glysson G. D. GrayJ. R. &Horowitz A. J.(2010).Fluvial sediment in the environment: A national challenge. InProceedings of the 9th federal interagency sedimentation conference Las Vegas Nevada June 27\u2013July 1 2010(15 p.)https://pubs.er.usgs.gov/publication/70120717"
+      },
+      {
+        "key": "e_1_2_8_47_1",
+        "first-page": "544",
+        "volume-title": "Fluvial processes in geomorphology",
+        "author": "Leopold L. B.",
+        "year": "1964"
+      },
+      {
+        "key": "e_1_2_8_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.watres.2021.117254"
+      },
+      {
+        "key": "e_1_2_8_49_1",
+        "unstructured": "Liu Y. &Allan J.(2021).SHAPforxgboost: SHAP plots for \u2018XGBoost\u2019. R package version 0.1.1.https://github.com/liuyanguu/SHAPforxgboost/"
+      },
+      {
+        "key": "e_1_2_8_50_1",
+        "unstructured": "Lively R. S.(2020).Minnesota at a glance caves in Minnesota.Minnesota Geological Survey Report. University of Minnesota Digital Conservancy.https://hdl.handle.net/11299/59431"
+      },
+      {
+        "key": "e_1_2_8_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-20-625-2016"
+      },
+      {
+        "key": "e_1_2_8_52_1",
+        "unstructured": "Lund J. W. &Groten J. T.(2022).Extreme gradient boosting machine learning models suspended sediment bedload and geospatial data Minnesota 2007\u20132019.U.S. Geological Survey data release.https://doi.org/10.5066/P9VOPSEJ"
+      },
+      {
+        "key": "e_1_2_8_53_1",
+        "unstructured": "Lundberg S. M. Erion G. G. &Lee S. I.(2018).Consistent individualized feature attribution for tree ensembles. (2).https://doi.org/10.48550/arXiv.1802.03888"
+      },
+      {
+        "key": "e_1_2_8_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.1705.07874"
+      },
+      {
+        "key": "e_1_2_8_55_1",
+        "volume-title": "NHDPlusVersion 2: User guide",
+        "author": "McKay L.",
+        "year": "2012"
+      },
+      {
+        "key": "e_1_2_8_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/sdata.2019.17"
+      },
+      {
+        "key": "e_1_2_8_57_1",
+        "volume-title": "MNDNR/Minnesota Pollution Control Agency cooperative stream gaging",
+        "author": "Minnesota Department of Natural Resources [MNDNR]",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_8_58_1",
+        "unstructured": "Minnesota Pollution Control Agency. (2011).An integrated sediment budget for the Le Sueur River Basin.https://www.pca.state.mn.us/sites/default/files/wq-iw7-29o.pdf"
+      },
+      {
+        "key": "e_1_2_8_59_1",
+        "unstructured": "Minnesota Pollution Control Agency. (2021a).Total maximum daily load (TMDL) projects.https://www.pca.state.mn.us/water/water-quality-standards"
+      },
+      {
+        "key": "e_1_2_8_60_1",
+        "unstructured": "Minnesota Pollution Control Agency. (2021b).Water quality standards.https://www.pca.state.mn.us/water/total-maximum-daily-load-tmdl-projects#approved-5cec5337"
+      },
+      {
+        "key": "e_1_2_8_61_1",
+        "unstructured": "Molnar C.(2019).Interpretable machine learning: A guide for making black box models explainable.https://christophm.github.io/interpretable-ml-book/"
+      },
+      {
+        "key": "e_1_2_8_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752-1688.12389"
+      },
+      {
+        "key": "e_1_2_8_63_1",
+        "volume-title": "U.S. stream classification system",
+        "author": "Oak Ridge National Laboratory",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_8_64_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "255",
+        "DOI": "10.5749/j.cttttrsq",
+        "volume-title": "Minnesota's geology",
+        "author": "Ojakangas R. W.",
+        "year": "1982"
+      },
+      {
+        "key": "e_1_2_8_65_1",
+        "volume-title": "R: A language and environment for statistical computing",
+        "author": "R Core Team",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_8_66_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rasmussen P. P. Gray J. R. Glysson G. D. &Ziegler A. C.(2009).Guidelines and procedures for computing time\u2010series suspended\u2010sediment concentrations and loads from in\u2010stream turbidity\u2010sensor and streamflow data.U.S. Geological Survey Techniques and Methods 3\u2010C4(53 p.).https://pubs.usgs.gov/tm/tm3c4/",
+        "DOI": "10.3133/tm3C4"
+      },
+      {
+        "key": "e_1_2_8_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0341-8162(94)90001-9"
+      },
+      {
+        "key": "e_1_2_8_68_1",
+        "volume-title": "Wildland hydrology",
+        "author": "Rosgen D. L.",
+        "year": "1996"
+      },
+      {
+        "key": "e_1_2_8_69_1",
+        "unstructured": "Rosgen D. L.(2010).The application and validation of dimensionless sediment rating curves. In2nd Joint federal interagency conference Las Vegas Nevada June 27\u2013July 1 2010(11 p.)."
+      },
+      {
+        "key": "e_1_2_8_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2006WR005092"
+      },
+      {
+        "key": "e_1_2_8_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.9738"
+      },
+      {
+        "key": "e_1_2_8_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.geomorph.2003.07.003"
+      },
+      {
+        "key": "e_1_2_8_73_1",
+        "first-page": "632",
+        "volume-title": "Geology of Minnesota \u2013 A centennial volume",
+        "author": "Sims P. K.",
+        "year": "1972"
+      },
+      {
+        "key": "e_1_2_8_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.7357"
+      },
+      {
+        "key": "e_1_2_8_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2000WR900133"
+      },
+      {
+        "key": "e_1_2_8_76_1",
+        "volume-title": "Level III and IV ecoregions by state",
+        "author": "U.S. Environmental Protection Agency",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_8_77_1",
+        "volume-title": "StreamCat dataset",
+        "author": "U.S. Environmental Protection Agency",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_8_78_1",
+        "volume-title": "StreamStats",
+        "author": "U.S. Geological Survey",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_8_79_1",
+        "volume-title": "USGS water data for the nation",
+        "author": "U.S. Geological Survey",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_8_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016JF004180"
+      },
+      {
+        "key": "e_1_2_8_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017WR020491"
+      },
+      {
+        "key": "e_1_2_8_82_1",
+        "unstructured": "Wilcock P. Baskfield P. Birr A. Cooper P. Engstrom D. &Schottler S.(2009).Identifying sediment sources in the Minnesota River Basin. Minnesota River Sediment Colloquium report published by Minnesota Pollution Control Agency (p. 1\u201316).https://www.pca.state.mn.us/sites/default/files/wq-b3-36.pdf"
+      },
+      {
+        "key": "e_1_2_8_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2020.124759"
+      }
+    ],
+    "container-title": [
+      "Hydrological Processes"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/hyp.14648",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/hyp.14648",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/hyp.14648",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          21
+        ]
+      ],
+      "date-time": "2023-08-21T02:30:23Z",
+      "timestamp": 1692585023000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/hyp.14648"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          8
+        ]
+      ]
+    },
+    "references-count": 82,
+    "journal-issue": {
+      "issue": "8",
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            8
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/hyp.14648"
+    ],
+    "URL": "https://doi.org/10.1002/hyp.14648",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0885-6087",
+      "1099-1085"
+    ],
+    "issn-type": [
+      {
+        "value": "0885-6087",
+        "type": "print"
+      },
+      {
+        "value": "1099-1085",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          8
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2021-09-30",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2022-06-23",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2022-08-16",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e14648"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1002/hyp.14648",
+  "original_doi": "10.1002/hyp.14648"
+}

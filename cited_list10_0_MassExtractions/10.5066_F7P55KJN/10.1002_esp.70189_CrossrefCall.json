@@ -1,0 +1,733 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          10
+        ]
+      ],
+      "date-time": "2026-06-10T23:27:49Z",
+      "timestamp": 1781134069210,
+      "version": "3.54.1"
+    },
+    "reference-count": 60,
+    "publisher": "Wiley",
+    "issue": "15",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              3
+            ]
+          ],
+          "date-time": "2025-12-03T00:00:00Z",
+          "timestamp": 1764720000000
+        },
+        "content-version": "am",
+        "delay-in-days": 2,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              3
+            ]
+          ],
+          "date-time": "2025-12-03T00:00:00Z",
+          "timestamp": 1764720000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 2,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000202",
+        "name": "U.S. Fish and Wildlife Service",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000202",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "200125"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "200125"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Earth Surf Processes Landf"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Bank erosion in Arctic rivers helps shape channel geometry, mobilizes carbon from permafrost and influences sediment delivery to the Arctic Ocean. On Alaska's Arctic coastal plain, rivers begin flowing during snowmelt in late spring while extensive river ice persists in channels, such that hydraulics are altered and water is kept cool. The effects of river ice on permafrost bank erosion are poorly understood, primarily due to a dearth of field observations and a lack of river ice in existing models.</jats:p>\n                  <jats:p>To address this knowledge gap, we developed a numerical model to simulate the melt of substrate interstitial ice and bank collapse along individual permafrost river banks. We parameterize the model with field observations from riverbanks in three different channels on the Canning River delta, which are disparately impacted by river ice during snowmelt. We explore the bank erosion produced without river ice in the model and with modern river ice model scenarios that we drive with different stages and water temperature boundary conditions. We also compare predicted erosion rates to observations from satellite imagery to validate this approach.</jats:p>\n                  <jats:p>In the model, banks are idealized as vertical profiles that rise 1\u20132\u00a0m above the river bed and are comprised of silt\u2010 to sand\u2010sized sediment with dense roots in the active layer. Underneath, we generalize bank ice content underneath the active layer to represent ice\u2010rich permafrost on the river corridor boundaries. The model predicts that these ice\u2010rich river banks can erode by 2\u20136\u00a0m/yr. Scenarios without ice underpredict erosion in the distributary channels. Scenarios with varying river ice for different deltaic channels produce erosion rates similar to observations.</jats:p>\n                  <jats:p>Our results suggest that the prolonged melt of thick river ice in a delta nonlinearly impacts permafrost bank erosion by blocking river discharge to certain branches, heightening stage across the distributary network and locally limiting river water warming. Given expected changes in air temperature and hydrology, future estimates of Arctic river bank erosion could be improved by considering river ice.</jats:p>",
+    "DOI": "10.1002/esp.70189",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          4
+        ]
+      ],
+      "date-time": "2025-12-04T07:26:48Z",
+      "timestamp": 1764833208000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "River ice controls permafrost bank erosion across an Arctic delta"
+    ],
+    "prefix": "10.1002",
+    "volume": "50",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0923-9061",
+        "authenticated-orcid": false,
+        "given": "Josie",
+        "family": "Arcuri",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Geological Sciences University of Colorado Boulder  Boulder CO USA"
+          },
+          {
+            "name": "Institute for Arctic and Alpine Research University of Colorado Boulder  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8422-580X",
+        "authenticated-orcid": false,
+        "given": "Irina",
+        "family": "Overeem",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Geological Sciences University of Colorado Boulder  Boulder CO USA"
+          },
+          {
+            "name": "Institute for Arctic and Alpine Research University of Colorado Boulder  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2636-9896",
+        "authenticated-orcid": false,
+        "given": "Marisa",
+        "family": "Repasch",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Earth and Planetary Sciences University of New Mexico  Albuquerque NM USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2759-4833",
+        "authenticated-orcid": false,
+        "given": "Robert S.",
+        "family": "Anderson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Geological Sciences University of Colorado Boulder  Boulder CO USA"
+          },
+          {
+            "name": "Institute for Arctic and Alpine Research University of Colorado Boulder  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6796-6649",
+        "authenticated-orcid": false,
+        "given": "Suzanne P.",
+        "family": "Anderson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Geological Sciences University of Colorado Boulder  Boulder CO USA"
+          },
+          {
+            "name": "Institute for Arctic and Alpine Research University of Colorado Boulder  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7180-6982",
+        "authenticated-orcid": false,
+        "given": "Joshua C.",
+        "family": "Koch",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Alaska Science Center  AK USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Frank",
+        "family": "Urban",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Geosciences and Environmental Change Science Center, Denver Federal Center  Denver CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          3
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_10_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.52381/ICOP2024.161.1"
+      },
+      {
+        "key": "e_1_2_10_3_1",
+        "unstructured": "Arcuri J.(2025).Permafrost Bank Erosion Model (Version v1.0.0). Zenodo. Available from:https://doi.org/10.5281/ZENODO.17673881"
+      },
+      {
+        "key": "e_1_2_10_4_1",
+        "unstructured": "Arcuri J.&Overeem I.(2025)Pebble Count Dataset Canning River Alaska 2022\u20132024. Arctic Data Center. Available from:https://doi.org/10.18739/A2H41JP5K"
+      },
+      {
+        "key": "e_1_2_10_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2013JF002845"
+      },
+      {
+        "key": "e_1_2_10_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1657/1523-0430(2005)037[0157:AOIARC]2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_10_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41467-018-08240-4"
+      },
+      {
+        "key": "e_1_2_10_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-9326/ACB661"
+      },
+      {
+        "key": "e_1_2_10_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-9326/AAFC1B"
+      },
+      {
+        "key": "e_1_2_10_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jqs.1196"
+      },
+      {
+        "key": "e_1_2_10_11_1",
+        "volume-title": "Gen. Tech. Rep. RMRS\u2010GTR\u201074",
+        "author": "Bunte K.",
+        "year": "2001"
+      },
+      {
+        "key": "e_1_2_10_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/15715124.2021.2007936"
+      },
+      {
+        "key": "e_1_2_10_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.EARSCIREV.2020.103231"
+      },
+      {
+        "key": "e_1_2_10_14_1",
+        "volume-title": "Estimation of roughness coefficients for natural stream channels with vegetated banks (Vol. 2441)",
+        "author": "Coon W.F.",
+        "year": "1998"
+      },
+      {
+        "key": "e_1_2_10_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.592"
+      },
+      {
+        "key": "e_1_2_10_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ppp.1812"
+      },
+      {
+        "key": "e_1_2_10_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023GL102974"
+      },
+      {
+        "key": "e_1_2_10_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023jf007098"
+      },
+      {
+        "key": "e_1_2_10_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/PPP.722"
+      },
+      {
+        "key": "e_1_2_10_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ppp.2051"
+      },
+      {
+        "key": "e_1_2_10_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)0887-381X(2002)16:4(191)"
+      },
+      {
+        "key": "e_1_2_10_22_1",
+        "unstructured": "European Space Agency (2017).Harmonized Sentinel\u20102 MSI: MultiSpectral Instrument Level\u20102A (SR) accessed January 2024 athttps://developers.google.com/earth-engine/datasets/catalog/sentinel"
+      },
+      {
+        "key": "e_1_2_10_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-27228-1"
+      },
+      {
+        "key": "e_1_2_10_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2006WR005422"
+      },
+      {
+        "key": "e_1_2_10_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43247-025-02234-z"
+      },
+      {
+        "key": "e_1_2_10_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41586-024-07978-W"
+      },
+      {
+        "key": "e_1_2_10_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.RSE.2017.06.031"
+      },
+      {
+        "key": "e_1_2_10_28_1",
+        "volume-title": "Glossary of permafrost and related ground\u2010ice terms",
+        "author": "Harris S.A.",
+        "year": "1988"
+      },
+      {
+        "key": "e_1_2_10_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.POLAR.2015.10.004"
+      },
+      {
+        "key": "e_1_2_10_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41558-023-01620-9"
+      },
+      {
+        "key": "e_1_2_10_31_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Intergovernmental Panel on Climate Change [IPCC]. (2023) \u2018Climate Change 2023: Synthesis Report Summary for Policymakers. Contribution of Working Groups I II and III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change\u2019.https://doi.org/10.59327/IPCC/AR6-9789291691647.001",
+        "DOI": "10.59327/IPCC/AR6-9789291691647.001"
+      },
+      {
+        "key": "e_1_2_10_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2166/nh.2000.0015"
+      },
+      {
+        "key": "e_1_2_10_33_1",
+        "unstructured": "Kanevskiy M. Shur Y.&Jorgenson T.(2018)Ice\u2010wedge thermokarst: Past present and future. 5th European Conference On Permafrost \u2013 Book of Abstracts 23 June\u20131 July 2018 Chamonix France. Available from:https://par.nsf.gov/biblio/10110430"
+      },
+      {
+        "key": "e_1_2_10_34_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Koch J.C. Best H. Baughman C. Couvillion C. Carey M.P.andConaway J.(2024a)A comparison of contemporary and historical hydrology and water quality in the foothills and coastal plain of the Arctic National Wildlife Refuge Arctic Slope northern Alaska Scientific Investigations Report. Reston VA.https://doi.org/10.3133/sir20245008",
+        "DOI": "10.3133/sir20245008"
+      },
+      {
+        "key": "e_1_2_10_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2317873121"
+      },
+      {
+        "key": "e_1_2_10_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ppp.1779"
+      },
+      {
+        "key": "e_1_2_10_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.234.4777.689"
+      },
+      {
+        "key": "e_1_2_10_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/SCIENCE.289.5485.1743"
+      },
+      {
+        "key": "e_1_2_10_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0165-232X(87)90042-5"
+      },
+      {
+        "key": "e_1_2_10_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43017-022-00268-x"
+      },
+      {
+        "key": "e_1_2_10_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)0733-9429(1991)117:2(150)"
+      },
+      {
+        "key": "e_1_2_10_42_1",
+        "unstructured": "Porter C. Morin P. Howat I. Noh M. Bates B. Peterman K. Keesey S. Schlenk M. Gardiner J. Tomko K. Willis M. Kelleher C. Cloutier M. Husby E. Foga S. Nakamura H. Platson M. Wethington M. Williamson C. Bauer G. Enos J. Arnold G. Kramer W. Becker P. Doshi A. D'Souza C. Cummens P. Laurier F.andBojesen M.(2023). \u2018ArcticDEM Version 4.1\u2019.10.7910/DVN/3VDC4W Harvard Dataverse V1 [accessed January 2024]"
+      },
+      {
+        "key": "e_1_2_10_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/HYP.369"
+      },
+      {
+        "key": "e_1_2_10_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ESP.1489"
+      },
+      {
+        "key": "e_1_2_10_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/FEART.2021.693824/BIBTEX"
+      },
+      {
+        "key": "e_1_2_10_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/PPP.689"
+      },
+      {
+        "key": "e_1_2_10_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023JF007101"
+      },
+      {
+        "key": "e_1_2_10_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43017-021-00240-1"
+      },
+      {
+        "key": "e_1_2_10_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.earscirev.2022.103996"
+      },
+      {
+        "key": "e_1_2_10_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.geomorph.2015.11.009"
+      },
+      {
+        "key": "e_1_2_10_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.JHYDROL.2013.10.032"
+      },
+      {
+        "key": "e_1_2_10_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41561-019-0526-0"
+      },
+      {
+        "key": "e_1_2_10_53_1",
+        "unstructured": "U.S. Geological Survey. (2023).USGS water data for the Nation. US Geological Survey National Water Information System database. Accessed June 30 2023 athttps://doi.org/10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_10_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0169-555X(03)00157-0"
+      },
+      {
+        "key": "e_1_2_10_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(SICI)1099-1085(199701)11:1"
+      },
+      {
+        "key": "e_1_2_10_56_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wilson F.H. Hults C.P. Mull C.G.&Karl S.M.(2015)Geologic map of Alaska: U.S. Geological Survey Scientific Investigations Map 3340 pamphlet 196 p. 2 sheets scale 1:1 584 000. Available from:https://doi.org/10.3133/sim3340",
+        "DOI": "10.3133/sim3340"
+      },
+      {
+        "key": "e_1_2_10_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022GL100246"
+      },
+      {
+        "key": "e_1_2_10_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/TR035I006P00951"
+      },
+      {
+        "key": "e_1_2_10_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0477(1997)078<2539:GPAYMA>2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_10_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/S41586-019-1848-1"
+      },
+      {
+        "key": "e_1_2_10_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019JF005060"
+      }
+    ],
+    "container-title": [
+      "Earth Surface Processes and Landforms"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/esp.70189",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/esp.70189",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/esp.70189",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/esp.70189",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          13
+        ]
+      ],
+      "date-time": "2026-02-13T07:10:10Z",
+      "timestamp": 1770966610000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/esp.70189"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "references-count": 60,
+    "journal-issue": {
+      "issue": "15",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/esp.70189"
+    ],
+    "URL": "https://doi.org/10.1002/esp.70189",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0197-9337",
+      "1096-9837"
+    ],
+    "issn-type": [
+      {
+        "value": "0197-9337",
+        "type": "print"
+      },
+      {
+        "value": "1096-9837",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2025-06-10",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-10-13",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-12-03",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e70189"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1002/esp.70189",
+  "original_doi": "10.1002/esp.70189"
+}

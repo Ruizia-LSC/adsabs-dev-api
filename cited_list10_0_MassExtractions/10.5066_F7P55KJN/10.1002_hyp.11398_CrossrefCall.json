@@ -1,0 +1,723 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2026-01-15T05:40:56Z",
+      "timestamp": 1768455656455,
+      "version": "3.49.0"
+    },
+    "reference-count": 82,
+    "publisher": "Wiley",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              11,
+              14
+            ]
+          ],
+          "date-time": "2018-11-14T00:00:00Z",
+          "timestamp": 1542153600000
+        },
+        "content-version": "am",
+        "delay-in-days": 331,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#am"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2017,
+              12,
+              18
+            ]
+          ],
+          "date-time": "2017-12-18T00:00:00Z",
+          "timestamp": 1513555200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "BCS\u20101103102"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "BCS\u20101103102"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Hydrological Processes"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Technological improvements in remote sensing and geographic information systems have demonstrated the abundance of artificially constructed water bodies across the landscape. Although research has shown the ubiquity of small ponds globally, and in the southeastern United States in particular, their cumulative impact in terms of evaporative alteration is less well quantified. The objectives of this study are to examine the hydrologic and evaporative importance of small artificial water bodies in the Upper Oconee watershed in the northern Georgia Piedmont, USA, by mapping their locations and modelling these small reservoirs using the Soil Water Assessment Tool. Comparative Soil Water Assessment Tool models were run with and without the inclusion of small reservoir surface area and volume. The models used meteorological inputs from 1990\u20132013 to represent years with drought, high precipitation, and moderate precipitation for both the calibration and evaluation periods. Statistical comparison of streamflow indicated that the calibration methodology produced results where the default model simulation without reservoirs fit observed flows more closely than the modified model with small reservoirs included (e.g., Nash\u2013Sutcliffe efficiency of 0.72 vs. 0.64,<jats:italic>r</jats:italic><jats:sup>2</jats:sup>of 0.73 vs. 0.66, and percent bias of 11.4 vs. 21.6). In addition, Penman\u2013Monteith, Hargreaves, and Priestley\u2013Taylor evapotranspiration equations were used to estimate actual evaporation from 2,219 small water bodies identified throughout the 1,936.8\u00a0km<jats:sup>2</jats:sup>watershed. Depending on the evaporation equation used, water bodies evaporated an average of 0.03\u20130.036\u00a0km<jats:sup>3</jats:sup>/year for the period 2003\u20132013. Using Penman\u2013Monteith further, if the reservoirs were not considered and average actual evapotranspiration rates from the rest of the basin were applied, only 0.016\u00a0km<jats:sup>3</jats:sup>of water would have left the basin as a result of evapotranspiration. This finding suggests construction of small reservoirs increased evaporation by an average of 0.017\u00a0km<jats:sup>3</jats:sup>per year (approximately 46,500\u00a0m<jats:sup>3</jats:sup>/day). As the construction of small reservoirs continues and high resolution image data used to map these water bodies becomes increasingly available, watershed models that evolve to address the cumulative impacts of small water bodies on evaporation and other hydrologic processes will have greater potential to benefit the water resource management community.</jats:p>",
+    "DOI": "10.1002/hyp.11398",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          14
+        ]
+      ],
+      "date-time": "2017-11-14T14:02:46Z",
+      "timestamp": 1510668166000
+    },
+    "page": "51-65",
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "High resolution water body mapping for SWAT evaporative modelling in the Upper Oconee watershed of Georgia, USA"
+    ],
+    "prefix": "10.1002",
+    "volume": "32",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2636-836X",
+        "authenticated-orcid": false,
+        "given": "Amber R.",
+        "family": "Ignatius",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Assistant Professor, Institute for Environmental &amp; Spatial Analysis University of North Georgia 3820 Mundy Mill Road Oakwood GA 30566 USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6117-3691",
+        "authenticated-orcid": false,
+        "given": "John W.",
+        "family": "Jones",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Research Geographer U.S. Geological Survey Eastern Geographic Science Center 12201 Sunrise Valley Drive Reston VA 20192 USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          18
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_9_2_1",
+        "volume-title": "SWAT\u2010CUP\u20102012.SWAT calibration and uncertainty program\u2014A user manual",
+        "author": "Abbaspour K. C.",
+        "year": "2012"
+      },
+      {
+        "issue": "4",
+        "key": "e_1_2_9_3_1",
+        "first-page": "348",
+        "article-title": "A penman for all seasons. Journal of irrigation and drainage engineering",
+        "volume": "112",
+        "author": "Allen R. G.",
+        "year": "1986",
+        "journal-title": "ASCE"
+      },
+      {
+        "key": "e_1_2_9_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2134/agronj1989.00021962008100040019x"
+      },
+      {
+        "key": "e_1_2_9_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2134/jeq2011.0340"
+      },
+      {
+        "key": "e_1_2_9_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13031/2013.42256"
+      },
+      {
+        "key": "e_1_2_9_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.1998.tb05961.x"
+      },
+      {
+        "key": "e_1_2_9_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2007.07.003"
+      },
+      {
+        "key": "e_1_2_9_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2005.07.007"
+      },
+      {
+        "key": "e_1_2_9_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752-1688.12482"
+      },
+      {
+        "key": "e_1_2_9_11_1",
+        "unstructured": "Boyd C. E. &Shelton J. L.(1984).Observations on the hydrology and morphometry of ponds on the auburn university fisheries research unit. Alabama Agricultural Experiment Station. Auburn University Alabama. Bulletin 558."
+      },
+      {
+        "key": "e_1_2_9_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2489/jswc.67.5.425"
+      },
+      {
+        "key": "e_1_2_9_13_1",
+        "series-title": "Turf Irrigation Management Series: I",
+        "volume-title": "Basics of evaporation and evapotranspiration",
+        "author": "Brown P.",
+        "year": "2000"
+      },
+      {
+        "issue": "2",
+        "key": "e_1_2_9_14_1",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1111/j.1752-1688.2011.00619.x",
+        "article-title": "The 2007\u20102009 drought in Athens, Georgia, United States: A climatological analysis and an assessment of future water availability",
+        "volume": "48",
+        "author": "Campana P.",
+        "year": "2012",
+        "journal-title": "Journal of the American Water Resources Association"
+      },
+      {
+        "key": "e_1_2_9_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13031/2013.17632"
+      },
+      {
+        "key": "e_1_2_9_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/97WR02405"
+      },
+      {
+        "key": "e_1_2_9_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)HE.1943-5584.0000679"
+      },
+      {
+        "issue": "15",
+        "key": "e_1_2_9_18_1",
+        "first-page": "5101",
+        "article-title": "Cumulative effects of small reservoirs on streamflow in northern coastal California catchments",
+        "volume": "27",
+        "author": "Deitch M. J.",
+        "year": "2013",
+        "journal-title": "Water Resources Management"
+      },
+      {
+        "key": "e_1_2_9_19_1",
+        "unstructured": "Dowd J.(2014).BASSET (BASEeflow SEparation tool). Available on requestjdowd@uga.edu."
+      },
+      {
+        "key": "e_1_2_9_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.5675"
+      },
+      {
+        "key": "e_1_2_9_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2134/jeq2010.0411"
+      },
+      {
+        "key": "e_1_2_9_22_1",
+        "volume-title": "ArcGIS desktop: Release 10.2",
+        "author": "Esri",
+        "year": "2014"
+      },
+      {
+        "key": "e_1_2_9_23_1",
+        "volume-title": "Methods for the quantification of evaporation from lakes, prepared for the World Meteorological Organization Commission of hydrology",
+        "author": "Finch J.",
+        "year": "2008"
+      },
+      {
+        "key": "e_1_2_9_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00267-005-0169-3"
+      },
+      {
+        "key": "e_1_2_9_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.10073"
+      },
+      {
+        "key": "e_1_2_9_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13031/2013.23637"
+      },
+      {
+        "key": "e_1_2_9_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2134/jeq2013.11.0466"
+      },
+      {
+        "key": "e_1_2_9_28_1",
+        "unstructured": "Georgia Department of Natural Resources Environmental Protection Division. (1998).Oconee river basin management plan 1998.https://epd.georgia.gov/oconee\u2010river\u2010basin\u2010watershed\u2010protection\u2010plan. Accessed January 2015."
+      },
+      {
+        "issue": "1",
+        "key": "e_1_2_9_29_1",
+        "first-page": "5",
+        "article-title": "The national elevation dataset",
+        "volume": "68",
+        "author": "Gesch D.",
+        "year": "2002",
+        "journal-title": "Photogrammetric Engineering and Remote Sensing"
+      },
+      {
+        "key": "e_1_2_9_30_1",
+        "first-page": "99",
+        "volume-title": "Digital elevation model technologies and applications. The DEM users manual",
+        "author": "Gesch D. B.",
+        "year": "2007"
+      },
+      {
+        "key": "e_1_2_9_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2013.12.004"
+      },
+      {
+        "key": "e_1_2_9_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eco.1608"
+      },
+      {
+        "key": "e_1_2_9_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-15-267-2011"
+      },
+      {
+        "key": "e_1_2_9_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)0733-9437(2003)129:1(53)"
+      },
+      {
+        "key": "e_1_2_9_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)0733-9437(1985)111:2(113)"
+      },
+      {
+        "key": "e_1_2_9_36_1",
+        "unstructured": "Heathman G. C. &Larose M.(2007).Influence of scale on SWAT model calibration for streamflow. In MODSIM 2007 international congress on modelling and simulation OxleyL KulasiriD(eds).Modelling and Simulation Society of Australia and New Zealand Christchurch NZ. December 2007;2747\u20132753."
+      },
+      {
+        "key": "e_1_2_9_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2006.tb04510.x"
+      },
+      {
+        "key": "e_1_2_9_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2013.01.012"
+      },
+      {
+        "key": "e_1_2_9_39_1",
+        "unstructured": "Jones J. W. &IgnatiusA. R.(2017).Modified land cover raster for the Upper Oconee watershed\u2010data: U.S. geological survey data release https://doi.org/10.5066/F78K77K4."
+      },
+      {
+        "key": "e_1_2_9_40_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "LaFontaine J. H. Hay L. E. Viger R. J. Markstrom S. L. Regan R. S. Elliott C. M. &Jones J. W.(2013).Application of the precipitation\u2010runoff modeling system (PRMS) in the Apalachicola\u2013Chattahoochee\u2013Flint River Basin in the southeastern United States: U.S. geological survey scientific investigations report 2013\u20135162 118 p.",
+        "DOI": "10.3133/sir20135162"
+      },
+      {
+        "key": "e_1_2_9_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/1998WR900018"
+      },
+      {
+        "key": "e_1_2_9_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2004.10.028"
+      },
+      {
+        "key": "e_1_2_9_43_1",
+        "volume-title": "Handbook of hydrology",
+        "author": "Maidment D.",
+        "year": "1992"
+      },
+      {
+        "key": "e_1_2_9_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2014.10.032"
+      },
+      {
+        "key": "e_1_2_9_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wrcr.20125"
+      },
+      {
+        "key": "e_1_2_9_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.10800"
+      },
+      {
+        "key": "e_1_2_9_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626667.2014.935778"
+      },
+      {
+        "key": "e_1_2_9_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2009.10.014"
+      },
+      {
+        "key": "e_1_2_9_49_1",
+        "unstructured": "Monteith J. L.(1965).Evaporation and the environment. p. 205\u2010234. In the state and movement of water in living organisms XIXth symposium. Soc. for Exp. biol. Swansea. Cambridge University press."
+      },
+      {
+        "key": "e_1_2_9_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13031/2013.23153"
+      },
+      {
+        "key": "e_1_2_9_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2489/jswc.65.2.92"
+      },
+      {
+        "key": "e_1_2_9_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w9010058"
+      },
+      {
+        "key": "e_1_2_9_53_1",
+        "unstructured": "National Center for Atmospheric Research Staff(Eds). Last modified 22 Oct (2014).The Climate Data Guide: Climate Forecast System Reanalysis (CFSR). Retrieved fromhttps://climatedataguide.ucar.edu/climate\u2010data/climate\u2010forecast\u2010system\u2010reanalysis\u2010cfsr."
+      },
+      {
+        "key": "e_1_2_9_54_1",
+        "unstructured": "National Oceanographic and Atmospheric Administration. (1982).Mean monthly seasonal and annual pan evaporation rates for the United States. National Oceanic and Atmospheric Administration technical report NWS 34. Washington D.C. December 1982 91 pgs."
+      },
+      {
+        "key": "e_1_2_9_55_1",
+        "unstructured": "Neitsch S. L. Arnold J. G. Kiniry J. R. &Williams J. R.(2009).Soil and water assessment tool theoretical documentation. Ver. 2009. Temple Texas: USDA\u2010ARS grassland soil and water research laboratory and Texas a&M University Blackland research and extension center."
+      },
+      {
+        "key": "e_1_2_9_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2006.tb03839.x"
+      },
+      {
+        "key": "e_1_2_9_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rspa.1948.0037"
+      },
+      {
+        "key": "e_1_2_9_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0309133311402714"
+      },
+      {
+        "key": "e_1_2_9_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2012WR012005"
+      },
+      {
+        "key": "e_1_2_9_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.9890"
+      },
+      {
+        "key": "e_1_2_9_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0493(1972)100<0081:OTAOSH>2.3.CO;2"
+      },
+      {
+        "key": "e_1_2_9_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1523-1739.1996.10041163.x"
+      },
+      {
+        "key": "e_1_2_9_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2007.03.018"
+      },
+      {
+        "key": "e_1_2_9_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1142/7783"
+      },
+      {
+        "key": "e_1_2_9_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0048-9697(02)00222-X"
+      },
+      {
+        "key": "e_1_2_9_66_1",
+        "unstructured": "Soil Survey Staff. (2014a).Natural resources conservation service United States Department of Agriculture. Soil survey geographic (SSURGO) database. Available online athttps://sdmdataaccess.sc.egov.usda.gov. Accessed 10/10/2014."
+      },
+      {
+        "key": "e_1_2_9_67_1",
+        "unstructured": "Soil Survey Staff. (2014b).natural resources conservation service United States Department of Agriculture. U.S. general soil map (STATSGO2). Available online athttps://sdmdataaccess.sc.egov.usda.gov. Accessed 10/10/2014."
+      },
+      {
+        "issue": "4",
+        "key": "e_1_2_9_68_1",
+        "first-page": "226",
+        "article-title": "A comparison of nocturnal heat island observations at Tuscaloosa, Alabama and Athens, Georgia. Journal of the Alabama academy of",
+        "volume": "62",
+        "author": "Soul\u00e9 P. T.",
+        "year": "1991",
+        "journal-title": "Science"
+      },
+      {
+        "key": "e_1_2_9_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2011.11.014"
+      },
+      {
+        "key": "e_1_2_9_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2007.12.012"
+      },
+      {
+        "key": "e_1_2_9_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11269-010-9676-y"
+      },
+      {
+        "key": "e_1_2_9_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2008.00276.x"
+      },
+      {
+        "key": "e_1_2_9_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1353/sgo.1987.0008"
+      },
+      {
+        "key": "e_1_2_9_74_1",
+        "unstructured": "U.S. Geological Survey. (2014).National Water Information System\u2014Web interface accessed September 2014 athttps://doi.org/10.5066/F7P55KJN."
+      },
+      {
+        "key": "e_1_2_9_75_1",
+        "unstructured": "US Army Corps of Engineers. (1997).ACT/ACF comprehensive water resources study surface water availability Volume I: Unimpaired flow."
+      },
+      {
+        "key": "e_1_2_9_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008WR007544"
+      },
+      {
+        "key": "e_1_2_9_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2014GL060641"
+      },
+      {
+        "key": "e_1_2_9_78_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1899/04-028.1"
+      },
+      {
+        "key": "e_1_2_9_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13031/2013.22297"
+      },
+      {
+        "key": "e_1_2_9_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/adgeo-18-15-2008"
+      },
+      {
+        "key": "e_1_2_9_81_1",
+        "unstructured": "Winchell M. Srinivasan R. Di Luzio M. &Arnold J.(2013).ArcSwat Interface for SWAT 2012. User's Guide. Grassland Soil and Water Research Laboratory Agricultural Research Service and Blackland Research Center Texas Agricultural Experiment Station: Temple Texas 76502 USA 495.http://swat.tamu.edu/software/arcswat/. Accessed October 2014."
+      },
+      {
+        "key": "e_1_2_9_82_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4319/lo.2003.48.3.0995"
+      },
+      {
+        "key": "e_1_2_9_83_1",
+        "first-page": "33",
+        "volume-title": "Global trends & challenges in water science, research and management",
+        "author": "Zainudin Z.",
+        "year": "2012"
+      }
+    ],
+    "container-title": [
+      "Hydrological Processes"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fhyp.11398",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/hyp.11398",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/hyp.11398",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/am-pdf/10.1002/hyp.11398",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/hyp.11398",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          28
+        ]
+      ],
+      "date-time": "2024-06-28T16:47:33Z",
+      "timestamp": 1719593253000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/hyp.11398"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          18
+        ]
+      ]
+    },
+    "references-count": 82,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2018,
+            1
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/hyp.11398"
+    ],
+    "URL": "https://doi.org/10.1002/hyp.11398",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0885-6087",
+      "1099-1085"
+    ],
+    "issn-type": [
+      {
+        "value": "0885-6087",
+        "type": "print"
+      },
+      {
+        "value": "1099-1085",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          18
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.1002/hyp.11398",
+  "original_doi": "10.1002/hyp.11398"
+}

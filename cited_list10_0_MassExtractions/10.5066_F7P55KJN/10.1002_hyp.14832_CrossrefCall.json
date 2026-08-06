@@ -1,0 +1,667 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          4
+        ]
+      ],
+      "date-time": "2026-06-04T23:19:36Z",
+      "timestamp": 1780615176606,
+      "version": "3.54.1"
+    },
+    "reference-count": 56,
+    "publisher": "Wiley",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              16
+            ]
+          ],
+          "date-time": "2024-02-16T00:00:00Z",
+          "timestamp": 1708041600000
+        },
+        "content-version": "am",
+        "delay-in-days": 352,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#am"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              6
+            ]
+          ],
+          "date-time": "2023-03-06T00:00:00Z",
+          "timestamp": 1678060800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 5,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NSF OIA 1556770"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NSF OIA 1556770"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Hydrological Processes"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Meteorological drivers of groundwater recharge for spring (February\u2013June), fall (October\u2013January), and recharge\u2010year (October\u2013June) recharge seasons were evaluated for northern New England and upstate New York from 1989 to 2018. Monthly groundwater recharge was computed at 21 observation wells by subtracting the water levels at the end of each month from the level of the previous month; only positive monthly values were used to compute seasonal recharge. Precipitation, temperature, sea\u2010level pressure, 500\u2010mb geopotential heights, and various teleconnection indices were tested as explanatory variables for the interannual variability of recharge using random forest machine learning models. Precipitation within recharge seasons was positively correlated with groundwater recharge for most wells in all seasons. In general, whilst groundwater recharge in the study area was generally highest during the months of March and April, October precipitation was an important month for explaining the interannual groundwater recharge variability. This is likely because the variability in recharge in October may be high or low for given years. Sea\u2010level pressure and 500\u2010mb heights were typically inversely correlated with groundwater recharge during the recharge\u2010year and fall recharge seasons, as higher sea\u2010level pressure and heights are usually associated with clearer skies and less precipitation. The North Atlantic Oscillation, Pacific\u2010North American pattern, and Pacific Decadal Oscillation teleconnections affected groundwater recharge differently by well and season. The influence of groundwater recharge on minimum daily streamflows during the subsequent summer/fall was also analysed. Summer precipitation was the most important explanatory variable for study streams whilst groundwater recharge and summer air temperature were significant variables for a few streams.</jats:p>",
+    "DOI": "10.1002/hyp.14832",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          16
+        ]
+      ],
+      "date-time": "2023-02-16T13:59:41Z",
+      "timestamp": 1676555981000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Groundwater recharge in northern New England: Meteorological drivers and relations with low streamflow"
+    ],
+    "prefix": "10.1002",
+    "volume": "37",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4511-9331",
+        "authenticated-orcid": false,
+        "given": "Caitlin C.",
+        "family": "Crossett",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Geoscience Hobart and William Smith Colleges  Geneva New York USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Glenn A.",
+        "family": "Hodgkins",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey New England Water Science Center  Augusta Maine USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hadley",
+        "family": "Menk",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Geography &amp; Sustainable Development University of St Andrews  St Andrews Scotland UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lesley\u2010Ann L.",
+        "family": "Dupigny\u2010Giroux",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Geography &amp; Geosciences University of Vermont  Burlington Vermont USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert",
+        "family": "Dudley",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey New England Water Science Center  Pembroke New Hampshire USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mary",
+        "family": "Lemcke\u2010Stampone",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Geography University of New Hampshire  Durham New Hampshire USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "John",
+        "family": "Hammond",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey MD\u2010DE\u2010DC Water Science Center  Catonsville Maryland USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          6
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR022606"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(asce)he.1943-5584.0001286"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/2007MWR2308.1"
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0442(2001)014<2105:EPDVAU>2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0493(1987)115<1083:CSAPOL>2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/2011EI374.1"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0493(1969)097<0163:ATFTEP>2.3.CO;2"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2002.tb04348.x"
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0442(2002)015<3509:USECTI>2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Breiman L.(2001).Random Forests (Vol. 45).",
+        "DOI": "10.1023/A:1010933404324"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "unstructured": "Climate Prediction Center. (n.d.).Climate weather linkage: Teleconnections. Retrieved fromhttps://www.cpc.ncep.noaa.gov/products/precip/CWlink/daily_ao_index/teleconnections.shtml"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752-1688.12673"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dieter C. A. Maupin M. A. Caldwell R. R. Harris M. A. Ivahnenko T. I. Lovelace J. K. Barber N. L. &Linsey K. S.(2018).Estimated use of water in the United States in 2015: U.S. Geological Survey Circular 1441.",
+        "DOI": "10.3133/cir1441"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2019.124254"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jawr.12080"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752-1688.12582"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2017.01.051"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2018.05.019"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "unstructured": "Falcone J. A.(2011).GAGES\u2013II\u2014Geospatial attributes of gages for evaluating streamflow. U.S. Geological Survey Metadata. Accessed September 19 2019 athttp://water.usgs.gov/GIS/metadata/usgswrd/XML/gagesII_Sept2011.xml"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-9326/10/4/044009"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2747/0272-3646.32.4.295"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2021.126246"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511780745"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/qj.3803"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2010WR009109"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2005.tb03744.x"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2017.07.055"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "unstructured": "Hodgkins G. A. Nielsen M. G. Qi S. L. &Dudley R. W.(2018).Data related to the degree of potential human influence near 2228 groundwater wells in the U.S. glacial aquifer system (ver. 2.0 April 2018). U.S. Geological Survey data release."
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1019301108"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.269.5224.676"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10584-015-1574-0"
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR024620"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3354/cr014043"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lins H. F.(2012).USGS hydro\u2010climatic data network 2009 (HCDN\u20102009). U.S. Geological Survey Fact Sheet 2012\u20133047 4.",
+        "DOI": "10.3133/fs20123047"
+      },
+      {
+        "key": "e_1_2_8_36_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lombard P. J. Barclay J. R. &McCarthy D.\u2010A. E.(2020).2020 drought in New England.",
+        "DOI": "10.3133/ofr20201148"
+      },
+      {
+        "key": "e_1_2_8_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0469(1951)008<0052:SAIVOT>2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_8_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1015820616384"
+      },
+      {
+        "key": "e_1_2_8_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0477(1997)078<1069:APICOW>2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_8_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/cp-13-1355-2017"
+      },
+      {
+        "key": "e_1_2_8_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/2008BAMS2613.1"
+      },
+      {
+        "key": "e_1_2_8_42_1",
+        "unstructured": "Menne M. J. &Williams C. N. Jr.(2012).United States Historical Climatology Network (USHCN) Version 2.5.20200109. NOAA National Centers for Environmental Information.https://doi.org/10.7289/V56W98B4Accessed January 9 2020."
+      },
+      {
+        "key": "e_1_2_8_43_1",
+        "unstructured": "National Centers for Environmental Information. (n.d.).Pacific Decadal Oscillation (PDO) | National Centers for Environmental Information (NCEI). Retrieved fromhttps://www.ncei.noaa.gov/access/monitoring/pdo/"
+      },
+      {
+        "key": "e_1_2_8_44_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nielsen M. G. &Westenbroek S. M.(2019).Groundwater recharge estimates for Maine using a soil\u2010water\u2010balance model\u201325 year average range and uncertainty 1991 to 2015.",
+        "DOI": "10.3133/sir20195125"
+      },
+      {
+        "key": "e_1_2_8_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JCLI-D-11-00723.1"
+      },
+      {
+        "key": "e_1_2_8_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-11-1633-2007"
+      },
+      {
+        "key": "e_1_2_8_47_1",
+        "unstructured": "Physical Sciences Laboratory. (n.d.).Climate indices: Monthly atmospheric and ocean time series: NOAA Physical sciences laboratory. Retrieved fromhttps://psl.noaa.gov/data/climateindices/list/"
+      },
+      {
+        "key": "e_1_2_8_48_1",
+        "volume-title": "R: A language and environment for statistical computing",
+        "author": "R Core Team",
+        "year": "2020"
+      },
+      {
+        "key": "e_1_2_8_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/joc.612"
+      },
+      {
+        "key": "e_1_2_8_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752-1688.12432"
+      },
+      {
+        "key": "e_1_2_8_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/joc.5746"
+      },
+      {
+        "key": "e_1_2_8_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.agrformet.2017.08.024"
+      },
+      {
+        "key": "e_1_2_8_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/98GL00950"
+      },
+      {
+        "key": "e_1_2_8_54_1",
+        "unstructured": "U.S. Geological Survey. (2019).USGS water data for the nation: U.S. Geological Survey National Water Information System Database Accessed September 19 2019 at.https://doi.org/10.5066/F7P55KJN"
+      },
+      {
+        "issue": "36",
+        "key": "e_1_2_8_55_1",
+        "first-page": "53",
+        "article-title": "World weather V",
+        "volume": "4",
+        "author": "Walker G. T.",
+        "year": "1932",
+        "journal-title": "Memoirs of the Royal Meteorological Society"
+      },
+      {
+        "key": "e_1_2_8_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2010GL045561"
+      },
+      {
+        "key": "e_1_2_8_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-8306.1988.tb00235.x"
+      }
+    ],
+    "container-title": [
+      "Hydrological Processes"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/hyp.14832",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/hyp.14832",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/am-pdf/10.1002/hyp.14832",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/hyp.14832",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          21
+        ]
+      ],
+      "date-time": "2023-08-21T21:59:03Z",
+      "timestamp": 1692655143000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/hyp.14832"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          3
+        ]
+      ]
+    },
+    "references-count": 56,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/hyp.14832"
+    ],
+    "URL": "https://doi.org/10.1002/hyp.14832",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0885-6087",
+      "1099-1085"
+    ],
+    "issn-type": [
+      {
+        "value": "0885-6087",
+        "type": "print"
+      },
+      {
+        "value": "1099-1085",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          3
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2022-06-13",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-02-13",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-03-06",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e14832"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1002/hyp.14832",
+  "original_doi": "10.1002/hyp.14832"
+}

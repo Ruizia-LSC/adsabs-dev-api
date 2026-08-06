@@ -1,0 +1,655 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          14
+        ]
+      ],
+      "date-time": "2026-05-14T18:21:01Z",
+      "timestamp": 1778782861250,
+      "version": "3.51.4"
+    },
+    "reference-count": 58,
+    "publisher": "Wiley",
+    "issue": "7",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              12,
+              12
+            ]
+          ],
+          "date-time": "2020-12-12T00:00:00Z",
+          "timestamp": 1607731200000
+        },
+        "content-version": "am",
+        "delay-in-days": 344,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#am"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              3
+            ]
+          ],
+          "date-time": "2020-01-03T00:00:00Z",
+          "timestamp": 1578009600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Hydrological Processes"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          30
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Acidic atmospheric deposition has adversely affected aquatic ecosystems globally. As emissions and deposition of sulfur (S) and nitrogen (N) have declined in recent decades across North America and Europe, ecosystem recovery is evident in many surface waters. However, persistent chronic and episodic acidification remain important concerns in vulnerable regions. We evaluated acidification in 269 headwater streams during 2010\u20132012 along the Appalachian Trail (AT) that transits several ecoregions and is located downwind of high levels of S and N emission sources. Discharge was estimated by matching sampled streams to those of a nearby gaged stream and assuming equivalent daily mean flow percentiles. Charge balance acid\u2010neutralizing capacity (ANC) values were adjusted to the 15th (Q15) and 85th flow percentiles (Q85) by applying the ANC/discharge slope among sample pairs collected at each stream. A site\u2010based approach was applied to streams sampled twice or more and a second regression\u2010based approach to streams sampled once to estimate episodic acidification magnitudes as the ANC difference from Q15 to Q85. Streams with ANC &lt;0 \u03bceq/L doubled from 16% to 32% as discharge increased from Q15 to Q85 according to the site\u2010based approach. The proportion of streams with ANC &lt;0 \u03bceq/L at low flow and high flow decreased from north to south. Base cation dilution explained the greatest amount of episodic acidification among streams and variation in sulfate (SO<jats:sub>4</jats:sub><jats:sup>2\u2212</jats:sup>) concentrations was a secondary explanatory variable. Episodic SO<jats:sub>4</jats:sub><jats:sup>2\u2212</jats:sup> patterns varied geographically with dilution dominant in northern streams underlain by soils developed in glacial sediment and increased concentrations dominant in southern streams with older, highly weathered soils. Episodic acidification increased as low\u2010flow ANC increased, exceeding 90\u2009\u03bceq/L in 25% of streams. Episodic increases in ANC were the dominant pattern in streams with low\u2010flow ANC values &lt;30\u2009\u03bceq/L. Chronic and episodic acidification remain an ecological concern among AT streams. The approach developed here could be applied to estimate the magnitude and extent of chronic and episodic acidification in other regions recovering from decreasing levels of atmospheric S and N deposition.</jats:p>",
+    "DOI": "10.1002/hyp.13668",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          12,
+          13
+        ]
+      ],
+      "date-time": "2019-12-13T07:40:32Z",
+      "timestamp": 1576222832000
+    },
+    "page": "1498-1513",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 15,
+    "title": [
+      "Chronic and episodic acidification of streams along the Appalachian Trail corridor, eastern United States"
+    ],
+    "prefix": "10.1002",
+    "volume": "34",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-6516-2869",
+        "authenticated-orcid": false,
+        "given": "Douglas A.",
+        "family": "Burns",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "New York Water Science Center U.S. Geological Survey  Troy New York"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5231-105X",
+        "authenticated-orcid": false,
+        "given": "Todd C.",
+        "family": "McDonnell",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "New York Water Science Center E&amp;S Environmental Chemistry  Corvallis Oregon"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9356-5443",
+        "authenticated-orcid": false,
+        "given": "Karen C.",
+        "family": "Rice",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "New York Water Science Center U.S. Geological Survey  Troy New York"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8035-2350",
+        "authenticated-orcid": false,
+        "given": "Gregory B.",
+        "family": "Lawrence",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "New York Water Science Center U.S. Geological Survey  Troy New York"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Timothy J.",
+        "family": "Sullivan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "New York Water Science Center E&amp;S Environmental Chemistry  Corvallis Oregon"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          3
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_9_2_1",
+        "unstructured": "Appalachian National Scenic Trail Resource Management Plan. (2008). 213 pp. Retrieved fromhttps://www.nps.gov/appa/learn/management/upload/Appalachian_Trail_Resource_Management_Plan.pdf."
+      },
+      {
+        "key": "e_1_2_9_3_1",
+        "first-page": "63",
+        "article-title": "Characterization of major\u2010ion chemistry and nutrients in headwater streams along the Appalachian National Scenic Trail and within adjacent watersheds, Maine to Georgia",
+        "volume": "2011",
+        "author": "Argue D. M.",
+        "year": "2012",
+        "journal-title": "U.S. Geological Survey Scientific Investigations Report"
+      },
+      {
+        "key": "e_1_2_9_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4613-9038-1_5"
+      },
+      {
+        "key": "e_1_2_9_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2269380"
+      },
+      {
+        "key": "e_1_2_9_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1577/T06-043.1"
+      },
+      {
+        "key": "e_1_2_9_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecolind.2013.10.011"
+      },
+      {
+        "key": "e_1_2_9_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/f00-086"
+      },
+      {
+        "key": "e_1_2_9_9_1",
+        "first-page": "114",
+        "volume-title": "National acid precipitation assessment program report to congress 2011: An integrated assessment",
+        "author": "Burns D. A.",
+        "year": "2011"
+      },
+      {
+        "key": "e_1_2_9_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0169-555X(90)90006-C"
+      },
+      {
+        "key": "e_1_2_9_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rstb.2013.0192"
+      },
+      {
+        "key": "e_1_2_9_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1172873"
+      },
+      {
+        "key": "e_1_2_9_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00182881"
+      },
+      {
+        "key": "e_1_2_9_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(SICI)1099-1085(19990615)13:8<1181::AID-HYP767>3.0.CO;2-9"
+      },
+      {
+        "key": "e_1_2_9_15_1",
+        "unstructured": "Dieffenbach F.(2011). Appalachian National Scenic Trail vital signs monitoring plan.Natural Resource Technical Report NPS/NETN/NRR\u20142011/389. National Park Service Northeast Temperate Network Woodstock VT 125 pp."
+      },
+      {
+        "key": "e_1_2_9_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626668109490904"
+      },
+      {
+        "key": "e_1_2_9_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.atmosenv.2016.08.034"
+      },
+      {
+        "key": "e_1_2_9_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1641/0006-3568(2001)051[0180:ADITNU]2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_9_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/93WR02888"
+      },
+      {
+        "key": "e_1_2_9_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2010.06.010"
+      },
+      {
+        "key": "e_1_2_9_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR024i007p01118"
+      },
+      {
+        "key": "e_1_2_9_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0269-7491(92)90088-R"
+      },
+      {
+        "key": "e_1_2_9_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/97WR01881"
+      },
+      {
+        "key": "e_1_2_9_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es504024u"
+      },
+      {
+        "key": "e_1_2_9_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/09-0889.1"
+      },
+      {
+        "key": "e_1_2_9_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2012.10.074"
+      },
+      {
+        "key": "e_1_2_9_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015JG003063"
+      },
+      {
+        "key": "e_1_2_9_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2017WR020963"
+      },
+      {
+        "key": "e_1_2_9_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2136/sssaj2005.0163"
+      },
+      {
+        "key": "e_1_2_9_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1899/08-041.1"
+      },
+      {
+        "key": "e_1_2_9_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626669609491555"
+      },
+      {
+        "key": "e_1_2_9_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4613-9038-1_4"
+      },
+      {
+        "key": "e_1_2_9_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/x91-110"
+      },
+      {
+        "key": "e_1_2_9_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0016-7037(81)90276-3"
+      },
+      {
+        "key": "e_1_2_9_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/90WR02767"
+      },
+      {
+        "key": "e_1_2_9_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es070424u"
+      },
+      {
+        "key": "e_1_2_9_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/f00-131"
+      },
+      {
+        "key": "e_1_2_9_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1352-2310(02)00081-X"
+      },
+      {
+        "key": "e_1_2_9_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/1051-0761(1999)009[1059:SCSATR]2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_9_40_1",
+        "unstructured": "Lawrence G. B. Sullivan T. J. Burns D. A. Bailey S. W. Cosby B. J. Dovciak M. \u2026Weathers K.(2015). Acidic deposition along the Appalachian Trail corridor and its effects on acid\u2010sensitive terrestrial and aquatic resources: Results of the Appalachian Trail MEGA\u2010transect atmospheric deposition effects study.Natural Resource Report NPS/NRSS/ARD/NRR\u20142015/996. National Park Service Fort Collins Colorado p. 349."
+      },
+      {
+        "key": "e_1_2_9_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envpol.2017.06.001"
+      },
+      {
+        "key": "e_1_2_9_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2007WR006587"
+      },
+      {
+        "key": "e_1_2_9_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1130/0016-7606(1962)73[1025:QGOSWI]2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_9_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.9366"
+      },
+      {
+        "key": "e_1_2_9_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-1694(94)90072-8"
+      },
+      {
+        "key": "e_1_2_9_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1130/B25547.1"
+      },
+      {
+        "issue": "2",
+        "key": "e_1_2_9_47_1",
+        "first-page": "198",
+        "article-title": "Synthesis of thirty years of surface water quality and aquatic biota data in Shenandoah National Park: Collaboration between the US geological survey and the National Park Service",
+        "volume": "31",
+        "author": "Rice K. C.",
+        "year": "2014",
+        "journal-title": "George Wright Forum"
+      },
+      {
+        "key": "e_1_2_9_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es501579s"
+      },
+      {
+        "key": "e_1_2_9_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.13349"
+      },
+      {
+        "key": "e_1_2_9_50_1",
+        "volume-title": "Appalachian Trail Vital Signs",
+        "author": "Shriver G.",
+        "year": "2005"
+      },
+      {
+        "key": "e_1_2_9_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011WR011501"
+      },
+      {
+        "key": "e_1_2_9_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11270-006-9320-x"
+      },
+      {
+        "key": "e_1_2_9_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2004.11.021"
+      },
+      {
+        "key": "e_1_2_9_54_1",
+        "unstructured": "U.S. Geological Survey. (2019). National Water Information System Web interface. Retrieved fromhttps://doi.org/10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_9_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1117/1.JRS.6.061708"
+      },
+      {
+        "key": "e_1_2_9_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0269-7491(92)90006-V"
+      },
+      {
+        "key": "e_1_2_9_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2269378"
+      },
+      {
+        "key": "e_1_2_9_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00267-003-5077-9"
+      },
+      {
+        "key": "e_1_2_9_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-16-4483-2012"
+      }
+    ],
+    "container-title": [
+      "Hydrological Processes"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fhyp.13668",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/hyp.13668",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/hyp.13668",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/am-pdf/10.1002/hyp.13668",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/hyp.13668",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          7
+        ]
+      ],
+      "date-time": "2023-09-07T06:40:45Z",
+      "timestamp": 1694068845000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/hyp.13668"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          3
+        ]
+      ]
+    },
+    "references-count": 58,
+    "journal-issue": {
+      "issue": "7",
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            3,
+            30
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/hyp.13668"
+    ],
+    "URL": "https://doi.org/10.1002/hyp.13668",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0885-6087",
+      "1099-1085"
+    ],
+    "issn-type": [
+      {
+        "value": "0885-6087",
+        "type": "print"
+      },
+      {
+        "value": "1099-1085",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          3
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2019-07-17",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-11-20",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2020-01-03",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.1002/hyp.13668",
+  "original_doi": "10.1002/hyp.13668"
+}

@@ -1,0 +1,611 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          16
+        ]
+      ],
+      "date-time": "2025-10-16T14:10:32Z",
+      "timestamp": 1760623832792,
+      "version": "build-2065373602"
+    },
+    "reference-count": 48,
+    "publisher": "Wiley",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              25
+            ]
+          ],
+          "date-time": "2021-03-25T00:00:00Z",
+          "timestamp": 1616630400000
+        },
+        "content-version": "am",
+        "delay-in-days": 389,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#am"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              3,
+              25
+            ]
+          ],
+          "date-time": "2020-03-25T00:00:00Z",
+          "timestamp": 1585094400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 24,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "CBET\u20100846244",
+          "CCF\u20101451708"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "CBET\u20100846244",
+              "CCF\u20101451708"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "acsess.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "J of Env Quality"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Numerous studies have documented the linkages between agricultural nitrogen loads and surface water degradation. In contrast, potential water quality improvements due to agricultural best management practices are difficult to detect because of the confounding effect of background nitrate removal rates, as well as the groundwater\u2010driven delay between land surface action and stream response. To characterize background controls on nitrate removal in two agricultural catchments, we calibrated groundwater travel time distributions with subsurface environmental tracer data to quantify the lag time between historic agricultural inputs and measured baseflow nitrate. We then estimated spatially distributed loading to the water table from nitrate measurements at monitoring wells, using machine learning techniques to extrapolate the loading to unmonitored portions of the catchment to subsequently estimate catchment removal controls. Multiple models agree that in\u2010stream processes remove as much as 75% of incoming loads for one subcatchment while removing\u00a0&lt;20% of incoming loads for the other. The use of a spatially variable loading field did not result in meaningfully different optimized parameter estimates or model performance when compared with spatially constant loading derived directly from a county\u2010scale agricultural nitrogen budget. Although previous studies using individual well measurements have shown that subsurface denitrification due to contact with a reducing argillaceous confining unit plays an important role in nitrate removal, the catchment\u2010scale contribution of this process is difficult to quantify given the available data. Nonetheless, the study provides a baseline characterization of nitrate transport timescales and removal mechanisms that will support future efforts to detect water quality benefits from ongoing best management practice implementation.</jats:p>",
+    "DOI": "10.1002/jeq2.20049",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          25
+        ]
+      ],
+      "date-time": "2020-03-25T08:20:38Z",
+      "timestamp": 1585124438000
+    },
+    "page": "392-403",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Quantifying background nitrate removal mechanisms in an agricultural watershed with contrasting subcatchment baseflow concentrations"
+    ],
+    "prefix": "10.1002",
+    "volume": "49",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8782-6627",
+        "authenticated-orcid": false,
+        "given": "Wesley O.",
+        "family": "Zell",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "USGS, 12201 Sunrise Valley Dr.  MS 432 Reston VA 20192 USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Teresa B.",
+        "family": "Culver",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dep. of Civil and Environmental Engineering Univ. of Virginia  Thornton Hall, PO Box 400259 Charlottesville VA 22904\u20104259 USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Ward E.",
+        "family": "Sanford",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "USGS, 12201 Sunrise Valley Dr.  MS 432 Reston VA 20192 USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jonathan L.",
+        "family": "Goodall",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dep. of Civil and Environmental Engineering Univ. of Virginia  Thornton Hall, PO Box 400259 Charlottesville VA 22904\u20104259 USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          25
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_9_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10533-008-9274-8"
+      },
+      {
+        "key": "e_1_2_9_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2012.06.028"
+      },
+      {
+        "key": "e_1_2_9_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-6584.1995.tb00046.x"
+      },
+      {
+        "key": "e_1_2_9_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2012.00672.x"
+      },
+      {
+        "key": "e_1_2_9_6_1",
+        "unstructured": "Bachman L. J. Krantz D. E. B\u00f6hlke J. &Hantush M. M.(2002).Hydrogeologic framework ground\u2010water geochemistry and assessment of nitrogen yield from base flow in two agricultural watersheds Kent County Maryland(EPA/600/R\u201002/008). Washington DC: USEPA."
+      },
+      {
+        "key": "e_1_2_9_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2427.2006.01508.x"
+      },
+      {
+        "key": "e_1_2_9_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10533-008-9282-8"
+      },
+      {
+        "key": "e_1_2_9_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/95WR01584"
+      },
+      {
+        "key": "e_1_2_9_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/1051-0761(2006)016[2123:MDITAA]2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_9_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2134/jeq2004.3380"
+      },
+      {
+        "key": "e_1_2_9_12_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Clune J. W. &Denver J. M.(2012).Residence time chemical and isotopic analysis of nitrate in the groundwater and surface water of a small agricultural watershed in the coastal plain Bucks Branch Sussex County Delaware(Scientific Investigations Report 2012\u20105235). Reston VA: USGS.",
+        "DOI": "10.3133/sir20125235"
+      },
+      {
+        "key": "e_1_2_9_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2134/jeq2003.2026"
+      },
+      {
+        "key": "e_1_2_9_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2134/jeq2007.0187"
+      },
+      {
+        "key": "e_1_2_9_15_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fienen M. N. Doherty J. E. Hunt R. J. &Reeves H. W.(2010).Using prediction uncertainty analysis to design hydrologic monitoring networks: Example applications from the Great Lakes water availability pilot project(Report 2010\u20105159). Reston VA: USGS.",
+        "DOI": "10.3133/sir20105159"
+      },
+      {
+        "key": "e_1_2_9_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecolmodel.2005.07.036"
+      },
+      {
+        "key": "e_1_2_9_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2489/jswc.65.6.353"
+      },
+      {
+        "key": "e_1_2_9_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2134/jeq2006.0419"
+      },
+      {
+        "volume-title": "MODFLOW\u20102005, the US Geological Survey modular ground\u2010water model: The ground\u2010water flow process",
+        "year": "2005",
+        "author": "Harbaugh A. W.",
+        "key": "e_1_2_9_19_1"
+      },
+      {
+        "key": "e_1_2_9_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2005WR004362"
+      },
+      {
+        "key": "e_1_2_9_21_1",
+        "unstructured": "Lindsey B. D. Phillips S. W. Donnelly C. A. Speiran G. K. Plummer L. N. B\u00f6hlke J. K. &Busenberg E.(2003).Residence times and nitrate transport in ground water discharging to streams in the Chesapeake Bay watershed(Water\u2010Resources Investigations Report 2003\u20104035). Reston VA: USGS."
+      },
+      {
+        "key": "e_1_2_9_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2134/jeq2009.0108"
+      },
+      {
+        "key": "e_1_2_9_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2007.10.005"
+      },
+      {
+        "key": "e_1_2_9_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2427.2010.02439.x"
+      },
+      {
+        "key": "e_1_2_9_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature06686"
+      },
+      {
+        "key": "e_1_2_9_26_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "41A",
+        "DOI": "10.2489/jswc.68.2.41A",
+        "article-title": "The Upper Chester River watershed: Lessons learned from a focused, highly partnered, voluntary approach to conservation",
+        "volume": "68",
+        "author": "Nelson J.",
+        "year": "2013",
+        "journal-title": "Journal of Soil and Water Conservation"
+      },
+      {
+        "key": "e_1_2_9_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2006.06.010"
+      },
+      {
+        "key": "e_1_2_9_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2489/jswc.67.5.122A"
+      },
+      {
+        "key": "e_1_2_9_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0048-9697(02)00058-X"
+      },
+      {
+        "key": "e_1_2_9_30_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pollock D. W.(2012).User guide for MODPATH version 6: A particle tracking model for MODFLOW (Techniques & Methods 6\u2010A41).Reston VA:USGS.",
+        "DOI": "10.3133/tm6A41"
+      },
+      {
+        "key": "e_1_2_9_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es1038358"
+      },
+      {
+        "key": "e_1_2_9_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2134/jeq2006.0550"
+      },
+      {
+        "key": "e_1_2_9_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2134/jeq2004.1296"
+      },
+      {
+        "key": "e_1_2_9_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es401334k"
+      },
+      {
+        "key": "e_1_2_9_35_1",
+        "first-page": "G02022",
+        "article-title": "Terrestrial and in\u2010stream influences on the spatial variability of nitrate in a forested headwater catchment",
+        "volume": "115",
+        "author": "Scanlon T. M.",
+        "year": "2010",
+        "journal-title": "Journal of Geophysical Research, Biogeosciences"
+      },
+      {
+        "key": "e_1_2_9_36_1",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1515/9781772126341",
+        "volume-title": "The algal bowl",
+        "author": "Schindler D. W.",
+        "year": "2008"
+      },
+      {
+        "key": "e_1_2_9_37_1",
+        "unstructured": "Science and Technical Advisory Committee. (2005).Understanding lag times affecting the improvement of water quality in the Chesapeake Bay: A report from the Chesapeake Bay Program Scientific and Technical Advisory Committee. Chesapeake Research Consortium. Retrieved fromhttp://www.chesapeake.org/pubs/lagtimereport.pdf"
+      },
+      {
+        "key": "e_1_2_9_38_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "230",
+        "DOI": "10.1080/00224561.1998.12457224",
+        "article-title": "Using cereal grain winter cover crops to reduce groundwater nitrate contamination in the mid\u2010Atlantic Coastal Plain",
+        "volume": "53",
+        "author": "Staver K. W.",
+        "year": "1998",
+        "journal-title": "Journal of Soil and Water Conservation"
+      },
+      {
+        "key": "e_1_2_9_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11270-008-9884-8"
+      },
+      {
+        "key": "e_1_2_9_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es305026x"
+      },
+      {
+        "volume-title": "USGS water data for the nation: USGS National Water Information System database",
+        "year": "2016",
+        "author": "USGS",
+        "key": "e_1_2_9_41_1"
+      },
+      {
+        "key": "e_1_2_9_42_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "104242",
+        "DOI": "10.1016/j.envsoft.2018.06.012",
+        "article-title": "Comprehensive simulation of nitrate transport in coupled surface\u2010subsurface hydrologic systems using the linked SWAT\u2010MODFLOW\u2010RT3D model",
+        "volume": "122",
+        "author": "Wei X.",
+        "year": "2018",
+        "journal-title": "Environmental Modelling & Software"
+      },
+      {
+        "key": "e_1_2_9_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2006GL025845"
+      },
+      {
+        "key": "e_1_2_9_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2007.06.010"
+      },
+      {
+        "key": "e_1_2_9_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2003WR002473"
+      },
+      {
+        "key": "e_1_2_9_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/1051-0761(1997)007[0737:HAOTGN]2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_9_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-16-787-2012"
+      },
+      {
+        "key": "e_1_2_9_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2018.02.006"
+      },
+      {
+        "volume-title": "MODFLOW\u20102005 and MODPATH6 models used to simulate groundwater flow and nitrate transport in two tributaries to the Upper Chester River, Maryland",
+        "year": "2019",
+        "author": "Zell W. O.",
+        "key": "e_1_2_9_49_1"
+      }
+    ],
+    "container-title": [
+      "Journal of Environmental Quality"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fjeq2.20049",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/jeq2.20049",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/jeq2.20049",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://acsess.onlinelibrary.wiley.com/doi/am-pdf/10.1002/jeq2.20049",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://acsess.onlinelibrary.wiley.com/doi/pdf/10.1002/jeq2.20049",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          16
+        ]
+      ],
+      "date-time": "2025-10-16T13:53:50Z",
+      "timestamp": 1760622830000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://acsess.onlinelibrary.wiley.com/doi/10.1002/jeq2.20049"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          3
+        ]
+      ]
+    },
+    "references-count": 48,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/jeq2.20049"
+    ],
+    "URL": "https://doi.org/10.1002/jeq2.20049",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0047-2425",
+      "1537-2537"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0047-2425"
+      },
+      {
+        "type": "electronic",
+        "value": "1537-2537"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          3
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2018-11-29",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-09-04",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2020-03-25",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.1002/jeq2.20049",
+  "original_doi": "10.1002/jeq2.20049"
+}

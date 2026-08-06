@@ -1,0 +1,829 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          24
+        ]
+      ],
+      "date-time": "2026-07-24T03:25:05Z",
+      "timestamp": 1784863505659,
+      "version": "3.55.0"
+    },
+    "reference-count": 93,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2017,
+              5,
+              13
+            ]
+          ],
+          "date-time": "2017-05-13T00:00:00Z",
+          "timestamp": 1494633600000
+        },
+        "content-version": "am",
+        "delay-in-days": 12,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2017,
+              5,
+              13
+            ]
+          ],
+          "date-time": "2017-05-13T00:00:00Z",
+          "timestamp": 1494633600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 12,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "0951576"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "0951576"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000015",
+        "name": "U.S. Department of Energy",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE\u2010AC02\u201006CH11357"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE\u2010AC02\u201006CH11357"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000015",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Climate, groundwater extraction, and surface water flows have complex nonlinear relationships with groundwater level in agricultural regions. To better understand the relative importance of each driver and predict groundwater level change, we develop a new ensemble modeling framework based on spectral analysis, machine learning, and uncertainty analysis, as an alternative to complex and computationally expensive physical models. We apply and evaluate this new approach in the context of two aquifer systems supporting agricultural production in the United States: the High Plains aquifer (HPA) and the Mississippi River Valley alluvial aquifer (MRVA). We select input data sets by using a combination of mutual information, genetic algorithms, and lag analysis, and then use the selected data sets in a Multilayer Perceptron network architecture to simulate seasonal groundwater level change. As expected, model results suggest that irrigation demand has the highest influence on groundwater level change for a majority of the wells. The subset of groundwater observations not used in model training or cross\u2010validation correlates strongly (R\u2009&gt;\u20090.8) with model results for 88 and 83% of the wells in the HPA and MRVA, respectively. In both aquifer systems, the error in the modeled cumulative groundwater level change during testing (2003\u20132012) was less than 2 m over a majority of the area. We conclude that our modeling framework can serve as an alternative approach to simulating groundwater level change and water availability, especially in regions where subsurface properties are unknown.</jats:p>",
+    "DOI": "10.1002/2016wr019933",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          4,
+          19
+        ]
+      ],
+      "date-time": "2017-04-19T18:54:54Z",
+      "timestamp": 1492628094000
+    },
+    "page": "3878-3895",
+    "source": "Crossref",
+    "is-referenced-by-count": 384,
+    "title": [
+      "Machine learning algorithms for modeling groundwater level changes in agricultural regions of the U.S."
+    ],
+    "prefix": "10.1029",
+    "volume": "53",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7653-7256",
+        "authenticated-orcid": false,
+        "given": "S.",
+        "family": "Sahoo",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Geosciences Pennsylvania State University University Park Pennsylvania USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8179-4054",
+        "authenticated-orcid": false,
+        "given": "T. A.",
+        "family": "Russo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Geosciences Pennsylvania State University University Park Pennsylvania USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0258-9886",
+        "authenticated-orcid": false,
+        "given": "J.",
+        "family": "Elliott",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Computation Institute, University of Chicago Chicago Illinois USA"
+          },
+          {
+            "name": "Mathematics and Computer Science Division, Argonne National Laboratory Lemont Illinois USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2129-5269",
+        "authenticated-orcid": false,
+        "given": "I.",
+        "family": "Foster",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Computation Institute, University of Chicago Chicago Illinois USA"
+          },
+          {
+            "name": "Mathematics and Computer Science Division, Argonne National Laboratory Lemont Illinois USA"
+          },
+          {
+            "name": "Department of Computer Science University of Chicago Chicago Illinois USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2017,
+          5,
+          13
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_6_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2011.06.013"
+      },
+      {
+        "key": "e_1_2_6_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eja.2010.12.001"
+      },
+      {
+        "key": "e_1_2_6_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1067123"
+      },
+      {
+        "key": "e_1_2_6_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)1084-0699(2000)5:2(115)"
+      },
+      {
+        "key": "e_1_2_6_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0450(1964)003<0396:ATFMDI>2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_6_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)CP.1943-5487.0000043"
+      },
+      {
+        "key": "e_1_2_6_8_1",
+        "unstructured": "Berry M. J. andG. S.Linoff(2004) Data Mining Techniques: For Marketing Sales and Customer Relationship Management John Wiley Indianapolis Indiana."
+      },
+      {
+        "key": "e_1_2_6_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.matcom.2005.02.023"
+      },
+      {
+        "key": "e_1_2_6_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2014GL061213"
+      },
+      {
+        "key": "e_1_2_6_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2016.08.006"
+      },
+      {
+        "key": "e_1_2_6_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2007.05.030"
+      },
+      {
+        "key": "e_1_2_6_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11269-008-9293-1"
+      },
+      {
+        "key": "e_1_2_6_14_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Clark B. R. R. M.Hart andJ. J.Gurdak(2011) Groundwater availability of the Mississippi Embayment U.S. Geol. Surv. Prof. Pap. 1785 62p.",
+        "DOI": "10.3133/pp1785"
+      },
+      {
+        "key": "e_1_2_6_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)1084-0699(2003)8:6(348)"
+      },
+      {
+        "key": "e_1_2_6_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2000WR900368"
+      },
+      {
+        "key": "e_1_2_6_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/047174882X"
+      },
+      {
+        "key": "e_1_2_6_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/EO076i002p00012"
+      },
+      {
+        "key": "e_1_2_6_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2014.04.008"
+      },
+      {
+        "key": "e_1_2_6_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2008.10.019"
+      },
+      {
+        "key": "e_1_2_6_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2014.08.015"
+      },
+      {
+        "key": "e_1_2_6_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wrcr.20161"
+      },
+      {
+        "key": "e_1_2_6_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2011.05.002"
+      },
+      {
+        "key": "e_1_2_6_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2011.11.021"
+      },
+      {
+        "key": "e_1_2_6_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2136/vzj2006.0087"
+      },
+      {
+        "key": "e_1_2_6_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gwat.12350"
+      },
+      {
+        "key": "e_1_2_6_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2003.10.006"
+      },
+      {
+        "key": "e_1_2_6_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10040-006-0067-7"
+      },
+      {
+        "key": "e_1_2_6_29_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Harbaugh A. W.(2005) MODFLOW\u20102005 The U.S. Geological Survey modular ground\u2010water model\u2014The ground\u2010water flow process U.S. Geol. Surv. Tech. Methods 6\u2010A16 252 pp.",
+        "DOI": "10.3133/tm6A16"
+      },
+      {
+        "key": "e_1_2_6_30_1",
+        "volume-title": "Neural Networks and Learning Machines",
+        "author": "Haykin S.",
+        "year": "2008"
+      },
+      {
+        "key": "e_1_2_6_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10040-005-0467-0"
+      },
+      {
+        "key": "e_1_2_6_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0893-6080(89)90020-8"
+      },
+      {
+        "key": "e_1_2_6_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12145-015-0222-6"
+      },
+      {
+        "key": "e_1_2_6_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.10166"
+      },
+      {
+        "key": "e_1_2_6_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1161-0301(02)00107-7"
+      },
+      {
+        "key": "e_1_2_6_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-6584.2006.00176.x"
+      },
+      {
+        "key": "e_1_2_6_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2016.02.044"
+      },
+      {
+        "key": "e_1_2_6_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2005WR004575"
+      },
+      {
+        "key": "e_1_2_6_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0016-7061(01)00069-6"
+      },
+      {
+        "key": "e_1_2_6_40_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Konikow L. F.(2013) Groundwater depletion in the United States (1900\u20132008) U.S. Geol. Surv. Sci. Invest. Rep. 2013\u20105079 63p. doi:10.1111/gwat.12306.",
+        "DOI": "10.3133/sir20135079"
+      },
+      {
+        "key": "e_1_2_6_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2009.11.029"
+      },
+      {
+        "key": "e_1_2_6_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2014.09.069"
+      },
+      {
+        "key": "e_1_2_6_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1090/qam/10666"
+      },
+      {
+        "key": "e_1_2_6_44_1",
+        "volume-title": "Instrument Engineers' Handbook: Process Control and Optimization",
+        "author": "Lipt\u00e1k B.",
+        "year": "2005"
+      },
+      {
+        "key": "e_1_2_6_45_1",
+        "unstructured": "Luckey R. R. andM. F.Becker(1999) Hydrogeology water use and simulation of flow in the High Plains aquifer in northwestern Oklahoma southeastern Colorado southwestern Kansas northeastern New Mexico and northwestern Texas U.S. Geol. Surv. Water Resour. Invest. Rep. 99\u20104104 73p."
+      },
+      {
+        "key": "e_1_2_6_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TNN.2010.2046423"
+      },
+      {
+        "key": "e_1_2_6_47_1",
+        "volume-title": "Information Theory, Inference, and Learning Algorithms",
+        "author": "MacKay D. J.",
+        "year": "2008"
+      },
+      {
+        "key": "e_1_2_6_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1364-8152(99)00007-9"
+      },
+      {
+        "key": "e_1_2_6_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mcm.2006.01.004"
+      },
+      {
+        "key": "e_1_2_6_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/0111030"
+      },
+      {
+        "key": "e_1_2_6_51_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Maupin M. J.Kenny S.Hutson J.Lovelace N.Barber andK.Linsey(2014) Estimated use of water in the United States in 2010 U.S. Geol. Surv. Circ. 1405 56p.",
+        "DOI": "10.3133/cir1405"
+      },
+      {
+        "key": "e_1_2_6_52_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "May R. G.Dandy andH.Maier(2011) Review of input variable selection methods for artificial neural networks inArtificial Neural Networks\u2014Methodological Advances Biomedical Applications vol. 362 InTech Rijeka Croatia\u2010European Union doi:10.5772/644.",
+        "DOI": "10.5772/16004"
+      },
+      {
+        "key": "e_1_2_6_53_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McGuire V.(2013) Water\u2010level and storage changes in the High Plains aquifer predevelopment to 2011 and 2009\u201311 U.S. Geol. Surv. Sci. Invest. Rep. 2012\u20105291 15p.",
+        "DOI": "10.3133/sir20125291"
+      },
+      {
+        "key": "e_1_2_6_54_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McGuire V. L.(2004) Water\u2010level changes in the High Plains aquifer predevelopment to 2002 1980 to 2002 and 2001 to 2002 U.S. Geol. Surv. Fact Sheet 2004\u20103026 6p.",
+        "DOI": "10.3133/fs20043026"
+      },
+      {
+        "key": "e_1_2_6_55_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McGuire V. L.(2014) Water\u2010level changes and change in water in storage in the High Plains aquifer predevelopment to 2013 and 2011\u201313 U.S. Geol. Surv. Sci. Invest. Rep. 5218 14p. doi:10.3133/sir20145218.",
+        "DOI": "10.3133/sir20145218"
+      },
+      {
+        "key": "e_1_2_6_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626669609491511"
+      },
+      {
+        "key": "e_1_2_6_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00477-012-0667-9"
+      },
+      {
+        "key": "e_1_2_6_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gwat.12211"
+      },
+      {
+        "key": "e_1_2_6_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.6916"
+      },
+      {
+        "key": "e_1_2_6_60_1",
+        "unstructured": "NOAA(2016a) El Ni\u00f1o Southern Oscillation (ENSO) Data Earth Syst. Res. Lab. Phys. Sci. Div. Boulder Colo. [Available athttp://www.esrl.noaa.gov/psd/enso/mei/#data.]"
+      },
+      {
+        "key": "e_1_2_6_61_1",
+        "unstructured": "NOAA(2016b) Pacific Decadal Oscillation (PDO) Data Natl. Cent. for Environ. Inf. Asheville N. C. [Available athttps://www.ncdc.noaa.gov/teleconnections/pdo/.]"
+      },
+      {
+        "key": "e_1_2_6_62_1",
+        "unstructured": "NOAA(2016c) North Atlantic Oscillation (NAO) Data Natl. Weather Serv. Clim. Predict. Cent. College Park Md. [Available athttp://www.cpc.ncep.noaa.gov/products/precip/CWlink/pna/nao.shtml.]"
+      },
+      {
+        "key": "e_1_2_6_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2015.02.048"
+      },
+      {
+        "key": "e_1_2_6_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecolmodel.2004.03.013"
+      },
+      {
+        "key": "e_1_2_6_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2007.01.041"
+      },
+      {
+        "key": "e_1_2_6_66_1",
+        "unstructured": "Pedhazur E. J.(1997) Multiple Regression in Behavioral Research New York Harcourt Brace Coll. New York."
+      },
+      {
+        "key": "e_1_2_6_67_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Peterson S. M. J. S.Stanton A. T.Saunders andJ. R.Bradley(2008) Simulation of ground\u2010water flow and effects of ground\u2010water irrigation on base flow in the Elkhorn and Loup River Basins Nebraska U.S. Geol. Surv. Sci. Invest. Rep. 2008\u20105143 65p.",
+        "DOI": "10.3133/sir20085143"
+      },
+      {
+        "key": "e_1_2_6_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-35289-8_5"
+      },
+      {
+        "key": "e_1_2_6_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR016959"
+      },
+      {
+        "key": "e_1_2_6_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ngeo2883"
+      },
+      {
+        "key": "e_1_2_6_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-12194-9_9"
+      },
+      {
+        "key": "e_1_2_6_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10040-013-1029-5"
+      },
+      {
+        "key": "e_1_2_6_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12665-014-3608-8"
+      },
+      {
+        "key": "e_1_2_6_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR018085"
+      },
+      {
+        "key": "e_1_2_6_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1200311109/-/DCSupplemental"
+      },
+      {
+        "key": "e_1_2_6_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/9780471722199"
+      },
+      {
+        "key": "e_1_2_6_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0022-1694(96)03330-6"
+      },
+      {
+        "key": "e_1_2_6_78_1",
+        "volume-title": "The Mathematical Theory of Communication",
+        "author": "Shannon C. E.",
+        "year": "1949"
+      },
+      {
+        "key": "e_1_2_6_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0022-1694(00)00346-2"
+      },
+      {
+        "key": "e_1_2_6_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cageo.2010.11.010"
+      },
+      {
+        "key": "e_1_2_6_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-13-1235-2009"
+      },
+      {
+        "issue": "2",
+        "key": "e_1_2_6_82_1",
+        "first-page": "159",
+        "article-title": "Virtues of the Haversine",
+        "volume": "68",
+        "author": "Sinnott R. W.",
+        "year": "1984",
+        "journal-title": "Sky Telescope"
+      },
+      {
+        "key": "e_1_2_6_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.agwat.2015.10.003"
+      },
+      {
+        "key": "e_1_2_6_84_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nclimate1744"
+      },
+      {
+        "key": "e_1_2_6_85_1",
+        "unstructured": "Thornton P. E. M. M.Thornton B. W.Mayer N.Wilhelmi Y.Wei R.Devarakonda andR. B.Cook(2014) Daymet: Daily Surface Weather Data on a 1\u2010km Grid for North America Version 2 Oak Ridge Natl. Lab. Distrib. Act. Arch. Cent. Oak Ridge Tenn. doi:10.3334/ORNLDAAC/1219."
+      },
+      {
+        "issue": "8",
+        "key": "e_1_2_6_86_1",
+        "first-page": "227",
+        "article-title": "What's hidden in the hidden layers",
+        "volume": "14",
+        "author": "Touretzky D.",
+        "year": "1989",
+        "journal-title": "Byte"
+      },
+      {
+        "key": "e_1_2_6_87_1",
+        "unstructured": "USGS(2015) National Water Information System Data: USGS Water Data for the Nation U.S. Geol. Surv. doi:10.5066/F7P55KJN. [Available athttps://waterdata.usgs.gov/nwis/gw.]"
+      },
+      {
+        "key": "e_1_2_6_88_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0167-2789(92)90103-T"
+      },
+      {
+        "key": "e_1_2_6_89_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2010GL044571"
+      },
+      {
+        "key": "e_1_2_6_90_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00477-013-0772-4"
+      },
+      {
+        "key": "e_1_2_6_91_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2009.03.038"
+      },
+      {
+        "key": "e_1_2_6_92_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2005WR004303"
+      },
+      {
+        "key": "e_1_2_6_93_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00254-006-0190-8"
+      },
+      {
+        "key": "e_1_2_6_94_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2010.11.002"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2F2016WR019933",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/2016WR019933",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/2016WR019933",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/am-pdf/10.1002%2F2016WR019933",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2016WR019933",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2016WR019933",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          10
+        ]
+      ],
+      "date-time": "2023-09-10T08:07:00Z",
+      "timestamp": 1694333220000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2016WR019933"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          5
+        ]
+      ]
+    },
+    "references-count": 93,
+    "journal-issue": {
+      "issue": "5",
+      "published-print": {
+        "date-parts": [
+          [
+            2017,
+            5
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/2016WR019933"
+    ],
+    "URL": "https://doi.org/10.1002/2016wr019933",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          5
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.1002/2016WR019933",
+  "original_doi": "10.1002/2016WR019933"
+}

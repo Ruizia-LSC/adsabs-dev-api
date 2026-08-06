@@ -1,0 +1,621 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          29
+        ]
+      ],
+      "date-time": "2026-07-29T05:44:39Z",
+      "timestamp": 1785303879424,
+      "version": "3.55.0"
+    },
+    "reference-count": 61,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              2,
+              28
+            ]
+          ],
+          "date-time": "2018-02-28T00:00:00Z",
+          "timestamp": 1519776000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 27,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100008982",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DEB-1146283"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DEB-1146283"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100008982",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100008982",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "EF-1442501"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "EF-1442501"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100008982",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "JGR Biogeosciences"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          2
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>The foundational ecosystem processes of gross primary production (GPP) and ecosystem respiration (ER) cannot be measured directly but can be modeled in aquatic ecosystems from subdaily patterns of oxygen (O<jats:sub>2</jats:sub>) concentrations. Because rivers and streams constantly exchange O<jats:sub>2</jats:sub> with the atmosphere, models must either use empirical estimates of the gas exchange rate coefficient (<jats:italic>K</jats:italic><jats:sub>600</jats:sub>) or solve for all three parameters (GPP, ER, and <jats:italic>K</jats:italic><jats:sub>600</jats:sub>) simultaneously. Empirical measurements of <jats:italic>K</jats:italic><jats:sub>600</jats:sub> require substantial field work and can still be inaccurate. Three\u2010parameter models have suffered from equifinality, where good fits to O<jats:sub>2</jats:sub> data are achieved by many different parameter values, some unrealistic. We developed a new three\u2010parameter, multiday model that ensures similar values for <jats:italic>K</jats:italic><jats:sub>600</jats:sub> among days with similar physical conditions (e.g., discharge). Our new model overcomes the equifinality problem by (1) flexibly relating <jats:italic>K</jats:italic><jats:sub>600</jats:sub> to discharge while permitting moderate daily deviations and (2) avoiding the oft\u2010violated assumption that residuals in O<jats:sub>2</jats:sub> predictions are uncorrelated. We implemented this hierarchical state\u2010space model and several competitor models in an open\u2010source R package, <jats:italic>streamMetabolizer</jats:italic>. We then tested the models against both simulated and field data. Our new model reduces error by as much as 70% in daily estimates of <jats:italic>K</jats:italic><jats:sub>600</jats:sub>, GPP, and ER. Further, accuracy benefits of multiday data sets require as few as 3\u00a0days of data. This approach facilitates more accurate metabolism estimates for more streams and days, enabling researchers to better quantify carbon fluxes, compare streams by their metabolic regimes, and investigate controls on aquatic activity.</jats:p>",
+    "DOI": "10.1002/2017jg004140",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          2,
+          7
+        ]
+      ],
+      "date-time": "2018-02-07T02:31:03Z",
+      "timestamp": 1517970663000
+    },
+    "page": "624-645",
+    "source": "Crossref",
+    "is-referenced-by-count": 208,
+    "title": [
+      "Overcoming Equifinality: Leveraging Long Time Series for Stream Metabolism Estimation"
+    ],
+    "prefix": "10.1029",
+    "volume": "123",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-3638-8572",
+        "authenticated-orcid": false,
+        "given": "Alison P.",
+        "family": "Appling",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Integrated Information Dissemination Division, Data Science Branch  Tucson AZ USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0763-5346",
+        "authenticated-orcid": false,
+        "suffix": "Jr.",
+        "given": "Robert O.",
+        "family": "Hall",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Flathead Lake Biological Station University of Montana  Polson MT USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9661-0724",
+        "authenticated-orcid": false,
+        "given": "Charles B.",
+        "family": "Yackulic",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Grand Canyon Monitoring and Research Center  Flagstaff AZ USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8754-7604",
+        "authenticated-orcid": false,
+        "given": "Maite",
+        "family": "Arroita",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Flathead Lake Biological Station University of Montana  Polson MT USA"
+          },
+          {
+            "name": "Department of Plant Biology and Ecology University of the Basque Country  Bilbao Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2018,
+          2,
+          28
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_6_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10750-009-9904-8"
+      },
+      {
+        "key": "e_1_2_6_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1899/07-143.1"
+      },
+      {
+        "key": "e_1_2_6_4_1",
+        "series-title": "USGS National Water\u2010Quality Assessment Program",
+        "volume-title": "Chapter 2 of Book 4, hydrologic analysis and interpretation, section C, surface water techniques and methods 4\u2010C2",
+        "author": "Bales J. D.",
+        "year": "2007"
+      },
+      {
+        "key": "e_1_2_6_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4319/lom.2012.10.20"
+      },
+      {
+        "key": "e_1_2_6_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/fwb.12097"
+      },
+      {
+        "key": "e_1_2_6_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4319/lo.1984.29.3.0620"
+      },
+      {
+        "key": "e_1_2_6_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/j.ctvcm4g37"
+      },
+      {
+        "key": "e_1_2_6_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4319/lo.2004.49.5.1630"
+      },
+      {
+        "key": "e_1_2_6_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0002-1571(76)90080-7"
+      },
+      {
+        "key": "e_1_2_6_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1390675"
+      },
+      {
+        "key": "e_1_2_6_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18637/jss.v076.i01"
+      },
+      {
+        "key": "e_1_2_6_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/02-0039"
+      },
+      {
+        "key": "e_1_2_6_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008JG000696"
+      },
+      {
+        "key": "e_1_2_6_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/IW-6.4.836"
+      },
+      {
+        "key": "e_1_2_6_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4319/lo.1992.37.6.1307"
+      },
+      {
+        "key": "e_1_2_6_17_1",
+        "series-title": "Analytical Methods for Social Research",
+        "volume-title": "Data analysis using regression and multilevel/hierarchical models",
+        "author": "Gelman A.",
+        "year": "2007"
+      },
+      {
+        "key": "e_1_2_6_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/ss/1177011136"
+      },
+      {
+        "key": "e_1_2_6_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/687752"
+      },
+      {
+        "key": "e_1_2_6_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lom3.10011"
+      },
+      {
+        "key": "e_1_2_6_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0043-1354(84)90132-5"
+      },
+      {
+        "key": "e_1_2_6_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1899/12-147.1"
+      },
+      {
+        "key": "e_1_2_6_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1215/21573689-1572535"
+      },
+      {
+        "key": "e_1_2_6_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lno.10031"
+      },
+      {
+        "key": "e_1_2_6_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10021-015-9918-1"
+      },
+      {
+        "key": "e_1_2_6_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-0-12-813047-6.00012-7"
+      },
+      {
+        "key": "e_1_2_6_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4319/lom.2008.6.454"
+      },
+      {
+        "key": "e_1_2_6_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chemosphere.2006.04.051"
+      },
+      {
+        "key": "e_1_2_6_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/tm4A10"
+      },
+      {
+        "key": "e_1_2_6_30_1",
+        "first-page": "1593",
+        "article-title": "The No\u2010U\u2010Turn sampler: Adaptively setting path lengths in Hamiltonian Monte Carlo",
+        "volume": "15",
+        "author": "Hoffman M. D.",
+        "year": "2014",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "e_1_2_6_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4319/lo.2010.55.3.1047"
+      },
+      {
+        "key": "e_1_2_6_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0071395"
+      },
+      {
+        "key": "e_1_2_6_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lom3.10075"
+      },
+      {
+        "key": "e_1_2_6_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/JEEGAV.0000398"
+      },
+      {
+        "key": "e_1_2_6_35_1",
+        "volume-title": "Forecasting: Principles and practice",
+        "author": "Hyndman R. J.",
+        "year": "2014"
+      },
+      {
+        "key": "e_1_2_6_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2005.10.001"
+      },
+      {
+        "key": "e_1_2_6_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/JC092iC02p01937"
+      },
+      {
+        "key": "e_1_2_6_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4319/lo.1976.21.4.0540"
+      },
+      {
+        "key": "e_1_2_6_39_1",
+        "volume-title": "Doing Bayesian data analysis, second edition: A tutorial with R, JAGS, and Stan",
+        "author": "Kruschke J.",
+        "year": "2014"
+      },
+      {
+        "key": "e_1_2_6_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/f94-158"
+      },
+      {
+        "key": "e_1_2_6_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/plankt/6.2.325"
+      },
+      {
+        "key": "e_1_2_6_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2003JD003823"
+      },
+      {
+        "key": "e_1_2_6_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/2041-210X.12681"
+      },
+      {
+        "key": "e_1_2_6_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4319/lo.1956.1.2.0102"
+      },
+      {
+        "key": "e_1_2_6_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0304-3800(99)00017-4"
+      },
+      {
+        "key": "e_1_2_6_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tree.2007.10.009"
+      },
+      {
+        "key": "e_1_2_6_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lom3.10204"
+      },
+      {
+        "key": "e_1_2_6_48_1",
+        "volume-title": "R: A language and environment for statistical computing",
+        "author": "R Development Core Team",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_6_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1215/21573689-1597669"
+      },
+      {
+        "key": "e_1_2_6_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/ecog.01880"
+      },
+      {
+        "key": "e_1_2_6_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10021-007-9059-2"
+      },
+      {
+        "key": "e_1_2_6_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ecs2.1867"
+      },
+      {
+        "key": "e_1_2_6_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lom3.10112"
+      },
+      {
+        "key": "e_1_2_6_54_1",
+        "unstructured": "Stan Development Team(2016a).Stan modeling language users guide and reference manual."
+      },
+      {
+        "key": "e_1_2_6_55_1",
+        "unstructured": "Stan Development Team(2016b).RStan: The R interface to Stan."
+      },
+      {
+        "key": "e_1_2_6_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1365-2427.2000.00602.x"
+      },
+      {
+        "key": "e_1_2_6_57_1",
+        "unstructured": "U.S. Geological Survey(1981a).New tables of dissolved oxygen saturation values; amendment of quality of water technical memorandum no. 81.11(Tech. Rep. Technical Memorandum 81.15).Reston VA: Quality of Water Branch. Retrieved fromhttps://water.usgs.gov/admin/memo/QW/qw81.15.html"
+      },
+      {
+        "key": "e_1_2_6_58_1",
+        "unstructured": "U.S. Geological Survey(1981b).New tables of dissolved oxygen saturation values(Tech. Rep. Technical Memorandum 81.11).Reston VA: Quality of Water Branch. Retrieved fromhttps://water.usgs.gov/admin/memo/QW/qw81.11.html"
+      },
+      {
+        "key": "e_1_2_6_59_1",
+        "author": "U.S. Geological Survey",
+        "year": "2017",
+        "journal-title": "National water information system\u2013web interface"
+      },
+      {
+        "key": "e_1_2_6_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/IW-6.4.883"
+      },
+      {
+        "key": "e_1_2_6_61_1",
+        "first-page": "D03109",
+        "article-title": "Continental\u2010scale water and energy flux analysis and validation for the North American Land Data Assimilation System project phase 2 (NLDAS\u20102): 1. Intercomparison and application of model products: Water and energy flux analysis",
+        "volume": "117",
+        "author": "Xia Y.",
+        "year": "2012",
+        "journal-title": "Journal of Geophysical Research"
+      },
+      {
+        "key": "e_1_2_6_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2006GL028790"
+      }
+    ],
+    "container-title": [
+      "Journal of Geophysical Research: Biogeosciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2F2017JG004140",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2017JG004140",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          5
+        ]
+      ],
+      "date-time": "2023-09-05T17:10:04Z",
+      "timestamp": 1693933804000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2017JG004140"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          2
+        ]
+      ]
+    },
+    "references-count": 61,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2018,
+            2
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/2017JG004140"
+    ],
+    "URL": "https://doi.org/10.1002/2017jg004140",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "2169-8953",
+      "2169-8961"
+    ],
+    "issn-type": [
+      {
+        "value": "2169-8953",
+        "type": "print"
+      },
+      {
+        "value": "2169-8961",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          2
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.1002/2017JG004140",
+  "original_doi": "10.1002/2017JG004140"
+}

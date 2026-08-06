@@ -1,0 +1,652 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          4
+        ]
+      ],
+      "date-time": "2026-08-04T15:55:07Z",
+      "timestamp": 1785858907737,
+      "version": "3.56.0"
+    },
+    "reference-count": 57,
+    "publisher": "Wiley",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              12
+            ]
+          ],
+          "date-time": "2026-02-12T00:00:00Z",
+          "timestamp": 1770854400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 11,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2026-02-01T00:00:00Z",
+          "timestamp": 1769904000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Hydrological Processes"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>\n                    In situ surface\u2010water monitoring strategies are biased towards larger perennial streams and lakes and are generally not designed to track mechanisms of baseflow supply contributed by the dynamic storage of aquifers. Additionally, small (&lt;\u20091\u2009km\n                    <jats:sup>2</jats:sup>\n                    ) groundwater\u2010influenced lakes and wetlands globally have little in\u00a0situ monitoring infrastructure. We explored the utility of remotely sensed Surface Water Ocean Topography Satellite (SWOT) data, collected from 2023 onward, to characterise the seasonal and multi\u2010year water\u2010level trends of groundwater flow\u2010through kettle lakes distributed across the permeable sediments of eastern Massachusetts, USA. This analysis indicated that water levels for kettle lakes with areas down to approximately 0.05\u2009km\n                    <jats:sup>2</jats:sup>\n                    are resolvable in the study area. Our examination of 17 kettle lakes found that SWOT water\u2010surface elevation data closely tracked groundwater levels in adjacent monitoring wells where available, including the timing of seasonal patterns (highest levels generally in late spring), although there was some variation between years and there was a substantial lag in the timing of high water levels for a lake located downgradient from a 30\u2010m\u2010thick vadose zone. Furthermore, SWOT\u2010observed water\u2010level increases in kettle lakes tracked with baseflow increases in two adjacent groundwater\u2010dominated streams, as would be expected from increased hydraulic gradients. Unlike spectral remote sensing, SWOT data are generally not affected by cloud cover, resulting in a potential for groundwater\u2010dominated lakes to be sentinels of dynamic storage patterns, including identification of baseflow drought lags, which are currently ill\u2010defined hydrological processes. SWOT monitoring of groundwater\u2010influenced surface waters shows potential for augmenting existing monitoring wells and streamgages as continuous monitors of groundwater levels and baseflow supply in permeable terrain.\n                  </jats:p>",
+    "DOI": "10.1002/hyp.70414",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          13
+        ]
+      ],
+      "date-time": "2026-02-13T05:40:25Z",
+      "timestamp": 1770961225000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Tracking Baseflow Supply Dynamics Using\n                    <scp>SWOT</scp>\n                    Data From Small Groundwater\u2010Dominated Lakes"
+    ],
+    "prefix": "10.1002",
+    "volume": "40",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-3206-4132",
+        "authenticated-orcid": false,
+        "given": "Martin A.",
+        "family": "Briggs",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Water Mission Area, Hydrologic Remote Sensing Branch  Storrs Connecticut USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Merritt E.",
+        "family": "Harlan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Water Mission Area, Hydrologic Remote Sensing Branch  Storrs Connecticut USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2629-365X",
+        "authenticated-orcid": false,
+        "given": "David M.",
+        "family": "Rey",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Water Mission Area, Hydrologic Remote Sensing Branch  Storrs Connecticut USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Danielle K.",
+        "family": "Hare",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Massachusetts Amherst  Amherst Massachusetts USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Denis R.",
+        "family": "LeBlanc",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, New England Water Science Center  Northborough Massachusetts USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1397-0279",
+        "authenticated-orcid": false,
+        "given": "David F.",
+        "family": "Boutt",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Massachusetts Amherst  Amherst Massachusetts USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4322-8315",
+        "authenticated-orcid": false,
+        "given": "Michael N.",
+        "family": "Gooseff",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Colorado  Boulder Colorado USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          12
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_11_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/joc.3413"
+      },
+      {
+        "key": "e_1_2_11_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR032219"
+      },
+      {
+        "key": "e_1_2_11_4_1",
+        "first-page": "51",
+        "volume-title": "Simulated Hydrologic Responses of the Quashnet River Stream\u2010Aquifer System to Proposed Ground\u2010Water Withdrawals, Cape Cod, Massachusetts",
+        "author": "Barlow P. M.",
+        "year": "1993"
+      },
+      {
+        "key": "e_1_2_11_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10712\u2010015\u20109346\u2010y"
+      },
+      {
+        "key": "e_1_2_11_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.11119"
+      },
+      {
+        "key": "e_1_2_11_7_1",
+        "volume-title": "Insights From Isotopic Tracers on the Sources and Processes by Which Water Is Transported to Streams and Groundwater in Southern New England",
+        "author": "Boutt D. F.",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_11_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s44221\u2010024\u201000376\u20106"
+      },
+      {
+        "key": "e_1_2_11_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201022\u20106383\u20102018"
+      },
+      {
+        "key": "e_1_2_11_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.70101"
+      },
+      {
+        "key": "e_1_2_11_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.13752"
+      },
+      {
+        "key": "e_1_2_11_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43247\u2010025\u201002303\u20103k"
+      },
+      {
+        "key": "e_1_2_11_13_1",
+        "volume-title": "Cape Cod Pond and Lake Atlas",
+        "author": "Cape Cod Commission",
+        "year": "2003"
+      },
+      {
+        "key": "e_1_2_11_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021EF002289"
+      },
+      {
+        "key": "e_1_2_11_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.9391"
+      },
+      {
+        "key": "e_1_2_11_16_1",
+        "volume-title": "Geohydrology and Limnology of Walden Pond, Concord, Massachusetts",
+        "author": "Colman J. A.",
+        "year": "2001"
+      },
+      {
+        "key": "e_1_2_11_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2008.01.005"
+      },
+      {
+        "key": "e_1_2_11_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/ofr801205"
+      },
+      {
+        "key": "e_1_2_11_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023GL107652"
+      },
+      {
+        "key": "e_1_2_11_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/egusphere\u20102025\u20101186"
+      },
+      {
+        "key": "e_1_2_11_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JSTARS.2019.2901434"
+      },
+      {
+        "key": "e_1_2_11_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201021\u20106031\u20102017"
+      },
+      {
+        "key": "e_1_2_11_23_1",
+        "unstructured": "Harlan M. E. J. A.Hansen T.Bergamaschi C.Keating J.Merges andK.O'Connor.2024.Water Information From Space (WISP). 2025.https://apps.usgs.gov/wisp."
+      },
+      {
+        "key": "e_1_2_11_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5334/jors.148"
+      },
+      {
+        "key": "e_1_2_11_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41893\u2010023\u201001086\u20109"
+      },
+      {
+        "key": "e_1_2_11_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs11040374"
+      },
+      {
+        "key": "e_1_2_11_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008WR006912"
+      },
+      {
+        "key": "e_1_2_11_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41893\u2010022\u201000873\u20100"
+      },
+      {
+        "key": "e_1_2_11_29_1",
+        "volume-title": "Ground\u2010Water Resources of Cape Cod, Massachusetts",
+        "author": "LeBlanc D. R.",
+        "year": "1986"
+      },
+      {
+        "key": "e_1_2_11_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1646"
+      },
+      {
+        "key": "e_1_2_11_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748\u20109326/aba7e5"
+      },
+      {
+        "key": "e_1_2_11_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.15058"
+      },
+      {
+        "key": "e_1_2_11_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev\u2010environ\u2010111522\u2010104534"
+      },
+      {
+        "key": "e_1_2_11_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/sir20065054"
+      },
+      {
+        "key": "e_1_2_11_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jenvman.2018.02.083"
+      },
+      {
+        "key": "e_1_2_11_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752\u20101688.1999.tb04201.x"
+      },
+      {
+        "key": "e_1_2_11_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/frwa.2021.717852"
+      },
+      {
+        "key": "e_1_2_11_38_1",
+        "volume-title": "R: A Language and Environment for Statistical Computing",
+        "author": "R Core Team",
+        "year": "2015"
+      },
+      {
+        "key": "e_1_2_11_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR027556"
+      },
+      {
+        "key": "e_1_2_11_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2025.178533"
+      },
+      {
+        "key": "e_1_2_11_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.25080/Majora-7b98e3ed-013"
+      },
+      {
+        "key": "e_1_2_11_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023JG007659"
+      },
+      {
+        "key": "e_1_2_11_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.5b06155"
+      },
+      {
+        "key": "e_1_2_11_44_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stone J. R. B. D.Stone M. L.DiGiacomo\u2010Cohen andS. B.Mabee.2018.SIM3402\u2014Surficial Materials of Massachusetts\u2014A 1:24 000\u2010Scale Geologic Map Database v. 1.0 U.S. Geological Survey Scientific Investigations Map.http://pubs.usgs.gov/sim/2018/3402/.",
+        "DOI": "10.3133/sim3402"
+      },
+      {
+        "key": "e_1_2_11_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/d1em00329a"
+      },
+      {
+        "key": "e_1_2_11_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0169\u2010555X(94)90068\u2010X"
+      },
+      {
+        "key": "e_1_2_11_47_1",
+        "unstructured": "U.S. Geological Survey.2023.National Hydrography Dataset Plus High Resolution (NHDPlus HR). 2025.https://www.usgs.gov/national\u2010hydrography/access\u2010national\u2010hydrography\u2010products."
+      },
+      {
+        "key": "e_1_2_11_48_1",
+        "volume-title": "USGS Water Data for the Nation",
+        "author": "U.S. Geological Survey",
+        "year": "2025"
+      },
+      {
+        "key": "e_1_2_11_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/egusphere-egu24-15723"
+      },
+      {
+        "key": "e_1_2_11_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s44221\u2010024\u201000372\u2010w"
+      },
+      {
+        "key": "e_1_2_11_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/sir20115137"
+      },
+      {
+        "key": "e_1_2_11_52_1",
+        "volume-title": "Ground\u2010Water Recharge Areas and Travel Times to Pumped Wells, Ponds, Streams, and Coastal Water Bodies, Cape Cod, Massachusetts",
+        "author": "Walter D. A.",
+        "year": "2004"
+      },
+      {
+        "key": "e_1_2_11_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/sir20165058"
+      },
+      {
+        "key": "e_1_2_11_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/sir20045181"
+      },
+      {
+        "key": "e_1_2_11_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023WR035044"
+      },
+      {
+        "key": "e_1_2_11_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2022.113195"
+      },
+      {
+        "key": "e_1_2_11_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2020.124628"
+      },
+      {
+        "key": "e_1_2_11_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JSTARS.2024.3435363"
+      }
+    ],
+    "container-title": [
+      "Hydrological Processes"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/hyp.70414",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/hyp.70414",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/hyp.70414",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          4
+        ]
+      ],
+      "date-time": "2026-08-04T14:59:32Z",
+      "timestamp": 1785855572000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/hyp.70414"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "references-count": 57,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            2
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/hyp.70414"
+    ],
+    "URL": "https://doi.org/10.1002/hyp.70414",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0885-6087",
+      "1099-1085"
+    ],
+    "issn-type": [
+      {
+        "value": "0885-6087",
+        "type": "print"
+      },
+      {
+        "value": "1099-1085",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2025-04-14",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2026-01-20",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2026-02-12",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e70414"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1002/hyp.70414",
+  "original_doi": "10.1002/hyp.70414"
+}

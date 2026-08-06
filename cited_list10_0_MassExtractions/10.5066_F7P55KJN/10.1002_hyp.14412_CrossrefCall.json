@@ -1,0 +1,672 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          6
+        ]
+      ],
+      "date-time": "2026-06-06T15:02:52Z",
+      "timestamp": 1780758172042,
+      "version": "3.54.1"
+    },
+    "reference-count": 62,
+    "publisher": "Wiley",
+    "issue": "11",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              10,
+              18
+            ]
+          ],
+          "date-time": "2022-10-18T00:00:00Z",
+          "timestamp": 1666051200000
+        },
+        "content-version": "am",
+        "delay-in-days": 351,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#am"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              11,
+              16
+            ]
+          ],
+          "date-time": "2021-11-16T00:00:00Z",
+          "timestamp": 1637020800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 15,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100008982",
+        "name": "National Science Foundation of Sri Lanka",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DGE 1650115"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DGE 1650115"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100008982",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Hydrological Processes"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          11
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>This study examined water quality in the upper Animas River watershed, a mined watershed that gained notoriety following the 2015 Gold King mine release of acid mine drainage to downstream communities. Water\u2010quality data were used to evaluate trends in metal concentrations and loads over a two\u2010decade period. Selected sites included three sites on tributary streams and one main\u2010stem site on the Animas River downstream from the tributary confluences. During the study period, metal concentrations and loads varied seasonally and annually because of hydrologic variability and remedial actions designed to ameliorate the effects of acid mine drainage. Water\u2010quality data were divided into two periods based on the timing of remedial activities in the watershed. The first period includes active water treatment, surface reclamation and installation of bulkheads in adits; the second period includes the decade following these activities. Water\u2010quality data were used to estimate annual and monthly zinc loads using the Adjusted Maximum Likelihood Method (using LOADEST software) and U.S. Geological Survey streamflow data. This study presents one of the first applications of LOADEST focused on metal loads. Monthly flow\u2010weighted concentrations were analysed using a Mann\u2010Kendall trend test to determine the direction, magnitude, and significance of temporal trends in zinc loading in any given month and using <jats:italic>t</jats:italic>\u2010test comparisons between the two periods. Zinc loads estimated for the Animas River below the tributaries indicate decreased zinc loading during the rising limb of the hydrograph in the second period, perhaps reflecting a reduction of snowmelt\u2010derived zinc load following surface reclamation activities. In contrast, base\u2010flow zinc loading increased at the main\u2010stem site, perhaps because of the cessation of water treatment in tributary streams. Flow weighting of monthly load estimates yielded increased statistical significance and enabled more nuanced differentiation between the effects of hydrologic variability and remedial activities on zinc loading.</jats:p>",
+    "DOI": "10.1002/hyp.14412",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          20
+        ]
+      ],
+      "date-time": "2021-10-20T15:55:45Z",
+      "timestamp": 1634745345000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 10,
+    "title": [
+      "Effects of hydrologic variability and remedial actions on first flush and metal loading from streams draining the Silverton caldera, 1992\u20132014"
+    ],
+    "prefix": "10.1002",
+    "volume": "35",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-4109-1012",
+        "authenticated-orcid": false,
+        "given": "Tanya N.",
+        "family": "Petach",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Civil, Environmental, and Architectural Engineering University of Colorado  Boulder Colorado USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert L.",
+        "family": "Runkel",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Denver Colorado USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rory M.",
+        "family": "Cowie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Alpine Water Resources  Silverton Colorado USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Diane M.",
+        "family": "McKnight",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil, Environmental, and Architectural Engineering University of Colorado  Boulder Colorado USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          16
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_7_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es015629w"
+      },
+      {
+        "key": "e_1_2_7_3_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Aulenbach B. T.(2006).Annual dissolved nitrite plus nitrate and total phosphorous loads for the Susquehanna St. Lawrence Mississippi\u2010Atchafalaya and Columbia River basins 1968\u20132004. Open\u2010File Report No. 2006\u20131087.https://doi.org/10.3133/ofr20061087",
+        "DOI": "10.3133/ofr20061087"
+      },
+      {
+        "key": "e_1_2_7_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ecs2.1298"
+      },
+      {
+        "key": "e_1_2_7_5_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Besser J. M. &Brumbaugh W. G.(2007).Status of stream biotic communities in relation to metal exposure. Integrated investigations of environmental effects of historical mining in the Animas River watershed San Juan County Colorado: US Geological Survey Professional Paper Vol.1651 pp.823\u2013835.https://doi.org/10.3133/pp1651",
+        "DOI": "10.3133/pp1651"
+      },
+      {
+        "key": "e_1_2_7_6_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Besser J. M. Finger S. E. &Church S. E.(2007).Impacts of historical mining on aquatic ecosystems: An ecological risk assessment. Integrated investigations of environmental effects of historical mining in the Animas River watershed San Juan County Colorado: US Geological Survey Professional Paper Vol.1651 pp.87\u2013106.https://doi.org/10.3133/pp1651",
+        "DOI": "10.3133/pp1651"
+      },
+      {
+        "key": "e_1_2_7_7_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Besser J. M. &Leib K. J.(2007).Toxicity of metals in water and sediment to aquatic biota. Integrated investigations of environmental effects of historical mining in the Animas River watershed San Juan County Colorado: US Geological Survey Professional Paper Vol.1651 pp.839\u2013846.https://doi.org/10.3133/pp1651",
+        "DOI": "10.3133/pp1651"
+      },
+      {
+        "key": "e_1_2_7_8_1",
+        "unstructured": "Bonita Peak Community Advisory Group.2016.Gladstone Chronology from Silverton Standard.https://www.bonitapeakcag.org/wp-content/uploads/2019/10/Gladstone-Chronology-from-Silverton-Standard-reformatted.pdf"
+      },
+      {
+        "key": "e_1_2_7_9_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bove D. J. Mast M. A. Dalton J. B. Wright W. G. Yager D. B. &Church S. E.(2007).Major styles of mineralization and hydrothermal alteration and related solid\u2010and aqueous\u2010phase geochemical signatures. Integrated investigations of environmental effects of historical mining in the Animas River watershed San Juan County Colorado: US Geological Survey Professional Paper Vol.1651 pp.161\u2013230.https://doi.org/10.3133/pp1651",
+        "DOI": "10.3133/pp1651"
+      },
+      {
+        "key": "e_1_2_7_10_1",
+        "unstructured": "Bove D. J. Mast M. A. Wright W. G. Verplanck P. L. Meeker G. P. &Yager D. B..2000.Geologic control on acidic and metal\u2010rich waters in the southeast Red Mountains area near Silverton Colorado. In Proceedings of the ICARD 2000 Meeting: Proceedings of the fifth international conference on acid rock drainage Volume 1: Society for Mining Metallurgy and Exploration pp.523\u2013535"
+      },
+      {
+        "issue": "45",
+        "key": "e_1_2_7_11_1",
+        "first-page": "545",
+        "article-title": "Episodic increases in Zn concentrations associated with spring snowmelt in headwater catchments, Colorado",
+        "volume": "79",
+        "author": "Brooks P. D.",
+        "year": "1998",
+        "journal-title": "Eos Transactions American Geophysical Union"
+      },
+      {
+        "key": "e_1_2_7_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s002540100338"
+      },
+      {
+        "key": "e_1_2_7_13_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Church S.E. vonGuerard P. andFinger S.E. (Eds.) (2007).Integrated investigations of environmental effects of historical mining in the Animas River watershed San Juan County Colorado. U.S. Geological Survey Professional Paper 1651 p. 1096.https://doi.org/10.3133/pp1651",
+        "DOI": "10.3133/pp1651"
+      },
+      {
+        "key": "e_1_2_7_14_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cohn T. A.(1988).Adjusted maximum likelihood estimation of the moments of lognormal populations from type 1 censored samples. Open\u2010File Report No. 88\u2013350. US Geological Survey.https://doi.org/10.3133/ofr88350",
+        "DOI": "10.3133/ofr88350"
+      },
+      {
+        "key": "e_1_2_7_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/95rg00292"
+      },
+      {
+        "key": "e_1_2_7_16_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Donato M. M.(2006).Annual trace\u2010metal load estimates and flow\u2010weighted concentrations of cadmium lead and zinc in the Spokane River basin Idaho and Washington 1999\u20102004. U.S. Geological Survey Scientific Investigations Report 2006\u20135188 p. 38.https://pubs.usgs.gov/sir/2006/5188/",
+        "DOI": "10.3133/sir20065188"
+      },
+      {
+        "key": "e_1_2_7_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020gb006895"
+      },
+      {
+        "key": "e_1_2_7_18_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Finger S. E. Church S. E. &vonGuerard P.(2007).Potential for successful ecological remediation restoration and monitoring. Integrated investigations of environmental effects of historical mining in the Animas River watershed San Juan County Colorado: US Geological Survey Professional Paper Vol.1651 pp.1065\u20131076.https://doi.org/10.3133/pp1651",
+        "DOI": "10.3133/pp1651"
+      },
+      {
+        "key": "e_1_2_7_19_1",
+        "unstructured": "Ganoe L. S.(2019).Using a multi\u2010faceted approach to assess ecological components affecting muskrat (Ondatra zibethicus) populations[unpublished master of science thesis] The Pennsylvania State University."
+      },
+      {
+        "key": "e_1_2_7_20_1",
+        "unstructured": "Gobla M. Gemperline C. &Stone L.(2015).Technical evaluation of the gold king mine incident. Reclamation Managing Water in the West."
+      },
+      {
+        "key": "e_1_2_7_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2007.11.009"
+      },
+      {
+        "key": "e_1_2_7_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2004.09.002"
+      },
+      {
+        "key": "e_1_2_7_23_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jones W. R.(2007).History of mining and milling practices and production in San Juan county Clorado 1871\u20101991. Integrated investigations of environmental effects of historical mining in the Animas River watershed San Juan County Colorado: US Geological Survey Professional Paper Vol.1651 pp.43\u201386.https://doi.org/10.3133/pp1651",
+        "DOI": "10.3133/pp1651"
+      },
+      {
+        "key": "e_1_2_7_24_1",
+        "volume-title": "Rank correlation methods",
+        "author": "Kendall M. G.",
+        "year": "1948"
+      },
+      {
+        "key": "e_1_2_7_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s0883-2927(02)00017-3"
+      },
+      {
+        "key": "e_1_2_7_26_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kimball B. A. Walton\u2010Day K. &Runkel R. L.(2007).Integrated investigations of environmental effects of historical mining in the Animas River watershed San Juan County Colorado. US Geological Survey Professional Paper Vol.1651 p.1096.https://doi.org/10.3133/pp1651",
+        "DOI": "10.3133/pp1651"
+      },
+      {
+        "key": "e_1_2_7_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/35018068"
+      },
+      {
+        "key": "e_1_2_7_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1907187"
+      },
+      {
+        "key": "e_1_2_7_29_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mast A.(2018).Estimating metal concentrations with regression analysis and water\u2010quality surrogates at nine sites on the animas and San Juan Rivers Colorado New Mexico and Utah. US Geologic Survey Scientific Investigations Report Vol.5116.https://doi.org/10.3133/sir20185116",
+        "DOI": "10.3133/sir20185116"
+      },
+      {
+        "key": "e_1_2_7_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00011952"
+      },
+      {
+        "key": "e_1_2_7_31_1",
+        "unstructured": "National Water Quality Monitoring Council(2019).Water Quality Portal.https://www.waterqualitydata.us"
+      },
+      {
+        "key": "e_1_2_7_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10021-002-0182-9"
+      },
+      {
+        "key": "e_1_2_7_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.gexplo.2008.08.002"
+      },
+      {
+        "key": "e_1_2_7_34_1",
+        "unstructured": "NRCS. (2020).Prism mean annual map: U.S. Department of Agriculture.http://www.wcc.nrcs.usda.gov/climate/prism.html"
+      },
+      {
+        "key": "e_1_2_7_35_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Paschke S.S. Kimball B.A. Runkel R.L.(2005).Quantification and simulation of metal loading to the upper Animas River Eureka to Silverton San Juan County Colorado September 1997 and August 1998. US Geological Survey Scientific Investigation Report pp.2005\u20135054.http://pubs.usgs.gov/sir/2005/5054.",
+        "DOI": "10.3133/sir20055054"
+      },
+      {
+        "key": "e_1_2_7_36_1",
+        "unstructured": "Petach T. R.Runkel R.Cowie D.McKnight(2021).Effects of Hydrologic Variability and Remedial Actions on First Flush and Metal Loading from Streams Draining the Silverton Caldera 1992\u20132014 (LOADEST input/output files) HydroShare http://www.hydroshare.org/resource/892eaec104ed4dfa8a3a41ee71f4b3a2"
+      },
+      {
+        "key": "e_1_2_7_37_1",
+        "volume-title": "Atlas of the New West: Portrait of a changing region",
+        "author": "Riebsame W. E.",
+        "year": "1997"
+      },
+      {
+        "key": "e_1_2_7_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.6b03092"
+      },
+      {
+        "key": "e_1_2_7_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.3823"
+      },
+      {
+        "key": "e_1_2_7_40_1",
+        "volume-title": "Revisions to LOADEST",
+        "author": "Runkel R.L.",
+        "year": "2013"
+      },
+      {
+        "key": "e_1_2_7_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.7427"
+      },
+      {
+        "key": "e_1_2_7_42_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Runkel R. L. Crawford C. G. &Cohn T. A.(2004).Load estimator (LOADEST): A FORTRAN program for estimating constituent loads in streams and rivers. U.S. Geological Survey Techniques and Methods Book Vol.4 Chapter A5 p. 69.https://doi.org/10.3133/tm4a5",
+        "DOI": "10.3133/tm4A5"
+      },
+      {
+        "key": "e_1_2_7_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.6b03190"
+      },
+      {
+        "key": "e_1_2_7_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es2038504"
+      },
+      {
+        "key": "e_1_2_7_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.apgeochem.2007.02.010"
+      },
+      {
+        "key": "e_1_2_7_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.13822"
+      },
+      {
+        "key": "e_1_2_7_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envres.2019.108942"
+      },
+      {
+        "key": "e_1_2_7_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.167.3921.1121"
+      },
+      {
+        "key": "e_1_2_7_49_1",
+        "volume-title": "Handbook of technologies for avoidance and remediation of acid mine drainage",
+        "author": "Skousen J.",
+        "year": "1998"
+      },
+      {
+        "key": "e_1_2_7_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10661-006-9382-7"
+      },
+      {
+        "key": "e_1_2_7_51_1",
+        "volume-title": "EPA's National Hardrock Mining Framework",
+        "author": "U.S. Environmental Protection Agency",
+        "year": "1997"
+      },
+      {
+        "key": "e_1_2_7_52_1",
+        "unstructured": "U.S. Environmental Protection Agency.2019.Bonita Peak Analytical Chemistry Results. Bonita Peak Superfund Site.https://epa.maps.arcgis.com/apps/MapJournal/index.html?appid=9ec10c38c47b435fb8f4bbe02b02b65d"
+      },
+      {
+        "key": "e_1_2_7_53_1",
+        "unstructured": "U.S. Geological Survey.2019.National Water Information System data available on the world wide web. USGS Water Data for the Nation.http://waterdata.usgs.gov/nwis/.https://doi.org/10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_7_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1144/1467-7873/03-029"
+      },
+      {
+        "key": "e_1_2_7_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.apgeochem.2021.104872"
+      },
+      {
+        "key": "e_1_2_7_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.apgeochem.2015.03.002"
+      },
+      {
+        "key": "e_1_2_7_57_1",
+        "unstructured": "Walton\u2010Day K. Runkel R.L. Mast M.A andQi S.L. (2020).Water\u2010quality and discharge data from draining mine tunnels near Silverton Colorado 1988\u20102015: U.S. Geological Survey data release.https://doi.org/10.5066/P9FE667O"
+      },
+      {
+        "key": "e_1_2_7_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2332010"
+      },
+      {
+        "key": "e_1_2_7_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2332510"
+      },
+      {
+        "key": "e_1_2_7_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2332579"
+      },
+      {
+        "key": "e_1_2_7_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-6584.2011.00818.x"
+      },
+      {
+        "key": "e_1_2_7_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0048-9697(84)90049-4"
+      },
+      {
+        "key": "e_1_2_7_63_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yochum S. E.(2000).A revised load estimation procedure for the Susquehanna Potomac Patuxent and Choptank Rivers. U.S. Geological Survey Water\u2010Resources Investigations Report 2000\u20134265 Chapter iv p. 49.https://doi.org/10.3133/wri004156",
+        "DOI": "10.3133/wri004156"
+      }
+    ],
+    "container-title": [
+      "Hydrological Processes"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/hyp.14412",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/hyp.14412",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/am-pdf/10.1002/hyp.14412",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/hyp.14412",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          25
+        ]
+      ],
+      "date-time": "2023-08-25T22:16:21Z",
+      "timestamp": 1693001781000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/hyp.14412"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11
+        ]
+      ]
+    },
+    "references-count": 62,
+    "journal-issue": {
+      "issue": "11",
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            11
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/hyp.14412"
+    ],
+    "URL": "https://doi.org/10.1002/hyp.14412",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0885-6087",
+      "1099-1085"
+    ],
+    "issn-type": [
+      {
+        "value": "0885-6087",
+        "type": "print"
+      },
+      {
+        "value": "1099-1085",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          11
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2021-05-04",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2021-10-12",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2021-11-16",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e14412"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1002/hyp.14412",
+  "original_doi": "10.1002/hyp.14412"
+}

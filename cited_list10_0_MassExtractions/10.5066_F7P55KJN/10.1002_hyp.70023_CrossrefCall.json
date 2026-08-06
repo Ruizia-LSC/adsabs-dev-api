@@ -1,0 +1,810 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          18
+        ]
+      ],
+      "date-time": "2026-06-18T11:12:37Z",
+      "timestamp": 1781781157675,
+      "version": "3.54.5"
+    },
+    "reference-count": 89,
+    "publisher": "Wiley",
+    "issue": "12",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              25
+            ]
+          ],
+          "date-time": "2024-12-25T00:00:00Z",
+          "timestamp": 1735084800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 24,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100007516",
+        "name": "National Park Service",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100007516",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Hydrological Processes"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          12
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title><jats:p>Wildfires in the western United States (US) have been demonstrated to affect water quality, including dissolved organic carbon (DOC), in streams. Elevated post\u2010wildfire DOC concentration poses a potential risk to drinking water treatment systems. In\u2010stream measurements of fluorescent dissolved organic matter (fDOM), a proxy for DOC, have shown potential to detect dynamic changes in DOC. High frequency monitoring of water temperature, turbidity, and fDOM was used in conjunction with discrete sampling during targeted storm events and at fixed intervals to estimate DOC in five western US streams following wildfires in 2020 and 2021 with the objective to characterise and compare responses to wildfire among sites. The elevated turbidity conditions typical after wildfire presented a challenge to fDOM measurements and there was a need to identify appropriate turbidity corrections at burned sites. A combination of established and novel methods corrected fDOM concentrations for turbidity effects up to 800 Formazin nephelometric units (FNU). Pre\u2010wildfire high frequency water quality data in adjacent burned and unburned watersheds allowed for separation of climate effects on DOC at one of the sites. Hydrology, climate and landcover were more important drivers of post\u2010wildfire DOC yield than wildfire characteristics. Seasonal patterns of DOC were unchanged by wildfire in snowmelt\u2010driven watersheds. Large, transient spikes in DOC concentration following frontal and convective storms were observed post\u2010wildfire at all burned sites, but not at the unburned site. These spikes often exceeded operational thresholds for drinking water treatment. This study highlights the ability to develop high frequency DOC estimates in surface waters up to 800 FNU using fDOM sensors and targeted storm sampling and emphasises the value of high frequency pre\u2010wildfire data in adjacent burned and unburned watersheds for separating climate and wildfire effects.</jats:p>",
+    "DOI": "10.1002/hyp.70023",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          25
+        ]
+      ],
+      "date-time": "2024-12-25T23:34:32Z",
+      "timestamp": 1735169672000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "An Intercomparison of <scp>DOC</scp> Estimated From <scp>fDOM</scp> Sensors in Wildfire Affected Streams of the Western United States"
+    ],
+    "prefix": "10.1002",
+    "volume": "38",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6356-7106",
+        "authenticated-orcid": false,
+        "given": "Garrett A.",
+        "family": "Akie",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Colorado Water Science Center  Lakewood Colorado USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6183-4824",
+        "authenticated-orcid": false,
+        "given": "David W.",
+        "family": "Clow",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Colorado Water Science Center  Lakewood Colorado USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5481-3635",
+        "authenticated-orcid": false,
+        "given": "Sheila F.",
+        "family": "Murphy",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Water Resources Mission Area  Boulder Colorado USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0066-8193",
+        "authenticated-orcid": false,
+        "given": "Gregory D.",
+        "family": "Clark",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Wyoming\u2010Montana Water Science Center  Helena Montana USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5956-3340",
+        "authenticated-orcid": false,
+        "given": "Michael R.",
+        "family": "Meador",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Water Resources Mission Area  Reston Virginia USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5413-3963",
+        "authenticated-orcid": false,
+        "given": "Brian A.",
+        "family": "Ebel",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Water Resources Mission Area  Burlington Vermont USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          25
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5066/P1UHPBJY"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/jc089ic05p08197"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.adf9534"
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es500130g"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.earscirev.2013.12.007"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019gl083424"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "first-page": "2328",
+        "article-title": "Field Techniques for Fluorescence Measurements Targeting Dissolved Organic Matter, Hydrocarbons, and Wastewater in Environmental Waters: Principles and Guidelines for Instrument Selection, Operation and Maintenance, Quality Assurance, and Data Reporting",
+        "author": "Booth A.",
+        "year": "2023",
+        "journal-title": "US Geological Survey"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2000jc900077"
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(SICI)1099-1085(19971015)11:12<1635::AID-HYP494>3.0.CO;2-H"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2134/jeq2019.04.0172"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "article-title": "n.d. \u201cHysteretic Response of Suspended\u2010Sediment in Wildfire Affected Watersheds of the Pacific Northwest and Southern Rocky Mountains",
+        "author": "Clark G. D.",
+        "journal-title": "Earth Surface Processes and Landforms"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2007.09.030"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/2009jcli2951.1"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.15291"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023jg007538"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5066/P9R29VUZ"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5066/P9KZCM54"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4319/lom.2012.10.767"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.4621"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4996/fireecology.0301003"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.watres.2010.08.051"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.watres.2020.116071"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "first-page": "125",
+        "article-title": "Methods of Analysis by the U.S. Geological Survey National Water Quality Laboratory\u2014Determination of Inorganic and Organic Constituents in Water and Fluvial Sediments",
+        "volume": "93",
+        "author": "Fishman M. J.",
+        "year": "1993",
+        "journal-title": "U.S. Geological Survey Open\u2010File Report"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2008.10.002"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/bams\u2010d\u201013\u201000241.1"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2022.127712"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2012wr011949"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Helsel D. R. R. M.Hirsch K. R.Ryberg S. A.Archfield andE. J.Gilroy.2020. \u201cStatistical Methods in Water Resources: U.S. Geological Survey Techniques and Methods book 4 chapter A3 458p.\u201dhttps://doi.org/10.3133/tm4a3.",
+        "DOI": "10.3133/tm4A3"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/d0ew00150c"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.accounts.8b00670"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00027\u2010004\u20100708\u20107"
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2002wr001738"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/bf00024390"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021gl097131"
+      },
+      {
+        "key": "e_1_2_8_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1071/WF07049"
+      },
+      {
+        "key": "e_1_2_8_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/j.1551\u20108833.1989.tb03258.x"
+      },
+      {
+        "key": "e_1_2_8_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/bg\u201012\u20103109\u20102015"
+      },
+      {
+        "key": "e_1_2_8_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017gl073551"
+      },
+      {
+        "key": "e_1_2_8_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.watres.2021.117254"
+      },
+      {
+        "key": "e_1_2_8_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.7121"
+      },
+      {
+        "key": "e_1_2_8_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.10755"
+      },
+      {
+        "issue": "6",
+        "key": "e_1_2_8_43_1",
+        "article-title": "Controls on the Spatial Distribution of Near\u2010Surface Pyrogenic Carbon on Hillslopes 1 Year Following Wildfire",
+        "volume": "126",
+        "author": "McGuire L. A.",
+        "year": "2021",
+        "journal-title": "Journal of Geophysical Research: Earth Surface"
+      },
+      {
+        "key": "e_1_2_8_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.14795"
+      },
+      {
+        "key": "e_1_2_8_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13031/trans.13938"
+      },
+      {
+        "key": "e_1_2_8_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/frwa.2023.1144225"
+      },
+      {
+        "key": "e_1_2_8_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2017jg004349"
+      },
+      {
+        "key": "e_1_2_8_48_1",
+        "first-page": "51",
+        "article-title": "Effects of Flow Regime on Stream Turbidity and Suspended Solids After Wildfire, Colorado Front Range. Wildfire and Water Quality\u2014Processes, Impacts, and Challenges",
+        "volume": "354",
+        "author": "Murphy S. F.",
+        "year": "2012",
+        "journal-title": "IAHS Publication Canada"
+      },
+      {
+        "key": "e_1_2_8_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-9326/10/8/084007"
+      },
+      {
+        "key": "e_1_2_8_50_1",
+        "unstructured": "National Interagency Coordination Center (NICC).2020.\u201cWildland Fire Summary and Statistics Annual Report 2020.\u201dhttps://www.nifc.gov/sites/default/files/NICC/2\u2010Predictive%20Services/Intelligence/Annual%20Reports/2020/annual_report_0.pdf."
+      },
+      {
+        "key": "e_1_2_8_51_1",
+        "unstructured": "NCWCD.2023.\u201cNorthern Water Data Viewer.\u201dhttps://data.northernwater.org/."
+      },
+      {
+        "key": "e_1_2_8_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chemgeo.2010.08.01"
+      },
+      {
+        "key": "e_1_2_8_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021wr030699"
+      },
+      {
+        "key": "e_1_2_8_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467\u2010024\u201047706\u20106"
+      },
+      {
+        "key": "e_1_2_8_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10533\u2010011\u20109589\u20108"
+      },
+      {
+        "key": "e_1_2_8_56_1",
+        "unstructured": "PRISM Climate Group.2021.\u201cOregon State University.\u201dhttps://prism.oregonstate.edu."
+      },
+      {
+        "key": "e_1_2_8_57_1",
+        "volume-title": "R: A Language and Environment for Statistical Computing",
+        "author": "R Core Team",
+        "year": "2023"
+      },
+      {
+        "key": "e_1_2_8_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1718850115"
+      },
+      {
+        "key": "e_1_2_8_59_1",
+        "first-page": "631",
+        "volume-title": "U.S. Geological Survey",
+        "author": "Rantz S. E.",
+        "year": "1982"
+      },
+      {
+        "key": "e_1_2_8_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020jg006095"
+      },
+      {
+        "key": "e_1_2_8_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10021\u2010018\u20100293\u20106"
+      },
+      {
+        "key": "e_1_2_8_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1071/wf09086"
+      },
+      {
+        "key": "e_1_2_8_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10661\u2010022\u201010515\u20109"
+      },
+      {
+        "key": "e_1_2_8_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0022-1694(00)00196-7"
+      },
+      {
+        "key": "e_1_2_8_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022GL099535"
+      },
+      {
+        "key": "e_1_2_8_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2009jg000989"
+      },
+      {
+        "key": "e_1_2_8_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lom3.10175"
+      },
+      {
+        "key": "e_1_2_8_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acsestwater.0c00073"
+      },
+      {
+        "key": "e_1_2_8_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/jhm\u2010d\u201020\u20100077.1"
+      },
+      {
+        "key": "e_1_2_8_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.7b04579"
+      },
+      {
+        "key": "e_1_2_8_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2010.10.043"
+      },
+      {
+        "key": "e_1_2_8_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017wr020678"
+      },
+      {
+        "key": "e_1_2_8_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015wr018419"
+      },
+      {
+        "key": "e_1_2_8_74_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Turnipseed D. P. andV. B.Sauer.2010. \u201cDischarge Measurements at Gaging Stations: U.S. Geological Survey Techniques and Methods Book 3 chapter A8 87p.\u201d",
+        "DOI": "10.3133/tm3A8"
+      },
+      {
+        "key": "e_1_2_8_75_1",
+        "unstructured": "U.S. Department of Agriculture.2023.\u201cSnotel Data Network.\u201dhttp://www.wcc.nrcs.usda.gov/snotel."
+      },
+      {
+        "key": "e_1_2_8_76_1",
+        "unstructured": "U.S. Environmental Protection Agency.2020.\u201cDisinfectants and Disinfection Byproducts Rules (Stage 1 and Stage 2).\u201dhttps://www.epa.gov/sites/default/files/2020\u201006/documents/dbpr_plain_english_guide_final_508.pdf."
+      },
+      {
+        "key": "e_1_2_8_77_1",
+        "unstructured": "U.S. Geological Survey.2006. \u201cNational Field Manual for the Collection of Water\u2010Quality Data. U.S. Geological Survey Techniques of Water\u2010Resources Investigations Book 9 (09).\u201dhttps://pubs.usgs.gov/publication/twri09."
+      },
+      {
+        "key": "e_1_2_8_78_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_8_79_1",
+        "unstructured": "U.S. Geological Survey.2023b.\u201cThe StreamStats Program.\u201dhttps://streamstats.usgs.gov/ss/."
+      },
+      {
+        "key": "e_1_2_8_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.watres.2020.115891"
+      },
+      {
+        "key": "e_1_2_8_81_1",
+        "volume-title": "Light Scattering by Small Particles",
+        "author": "Hulst H. C.",
+        "year": "1981"
+      },
+      {
+        "key": "e_1_2_8_82_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017wr020491"
+      },
+      {
+        "key": "e_1_2_8_83_1",
+        "first-page": "51",
+        "article-title": "Guidelines and Standard Procedures for Continuous Water\u2010Quality Monitors\u2014Station Operation, Record Computation, and Data Reporting",
+        "volume": "1",
+        "author": "Wagner R. J.",
+        "year": "2006",
+        "journal-title": "U.S. Geological Survey Techniques and Methods"
+      },
+      {
+        "key": "e_1_2_8_84_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/bg\u201021\u20103093\u20102024"
+      },
+      {
+        "key": "e_1_2_8_85_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4319/lom.2011.9.296"
+      },
+      {
+        "key": "e_1_2_8_86_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rstb.2015.0178"
+      },
+      {
+        "key": "e_1_2_8_87_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1128834"
+      },
+      {
+        "key": "e_1_2_8_88_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10021\u2010013\u20109635\u20106"
+      },
+      {
+        "key": "e_1_2_8_89_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5942/jawwa.2014.106.0055"
+      },
+      {
+        "key": "e_1_2_8_90_1",
+        "volume-title": "Wildfire and Water Quality: Processes, Impacts and Challenges",
+        "author": "Writer J. H.",
+        "year": "2012"
+      }
+    ],
+    "container-title": [
+      "Hydrological Processes"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/hyp.70023",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          26
+        ]
+      ],
+      "date-time": "2024-12-26T23:55:00Z",
+      "timestamp": 1735257300000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/hyp.70023"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12
+        ]
+      ]
+    },
+    "references-count": 89,
+    "journal-issue": {
+      "issue": "12",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/hyp.70023"
+    ],
+    "URL": "https://doi.org/10.1002/hyp.70023",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0885-6087",
+      "1099-1085"
+    ],
+    "issn-type": [
+      {
+        "value": "0885-6087",
+        "type": "print"
+      },
+      {
+        "value": "1099-1085",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          12
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2024-09-20",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-11-24",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-12-25",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e70023"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1002/hyp.70023",
+  "original_doi": "10.1002/hyp.70023"
+}

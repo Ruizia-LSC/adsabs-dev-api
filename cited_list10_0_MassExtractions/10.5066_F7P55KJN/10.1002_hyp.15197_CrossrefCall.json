@@ -1,0 +1,845 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          2
+        ]
+      ],
+      "date-time": "2026-07-02T23:44:33Z",
+      "timestamp": 1783035873257,
+      "version": "3.54.6"
+    },
+    "reference-count": 90,
+    "publisher": "Wiley",
+    "issue": "6",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              17
+            ]
+          ],
+          "date-time": "2024-06-17T00:00:00Z",
+          "timestamp": 1718582400000
+        },
+        "content-version": "am",
+        "delay-in-days": 16,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              17
+            ]
+          ],
+          "date-time": "2024-06-17T00:00:00Z",
+          "timestamp": 1718582400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 16,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Hydrological Processes"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          6
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Understanding controls on solute export to streams is challenging because heterogeneous catchments can respond uniquely to drivers of environmental change. To understand general solute export patterns, we used a large\u2010scale inductive approach to evaluate concentration\u2013discharge (C\u2013Q) metrics across catchments spanning a broad range of catchment attributes and hydroclimatic drivers. We leveraged paired C\u2013Q data for 11 solutes from CAMELS\u2010Chem, a database built upon an existing dataset of catchment and hydroclimatic attributes from relatively undisturbed catchments across the contiguous USA. Because C\u2013Q relationships with Q thresholds reflect a shift in solute export dynamics and are poorly characterized across solutes and diverse catchments, we analysed C\u2013Q relationships using Bayesian segmented regression to quantify Q thresholds in the C\u2013Q relationship. Threshold responses were rare, representing only 12% of C\u2013Q relationships, 56% of which occurred for solutes predominantly sourced from bedrock. Further, solutes were dominated by one or two C\u2013Q patterns that reflected vertical solute\u2013source distributions. Specifically, solutes predominantly sourced from bedrock had diluting C\u2013Q responses in 43%\u201370% of catchments, and solutes predominantly sourced from soils had more enrichment responses in 35%\u201351% of catchments. We also linked C\u2013Q relationships to catchment and hydroclimatic attributes to understand controls on export patterns. The relationships were generally weak despite the diversity of solutes and attribute types considered. However, catchment and hydroclimatic attributes in the central USA typically drove the most divergent export behaviour for solutes. Further, we illustrate how our inductive approach generated new hypotheses that can be tested at discrete, representative catchments using deductive approaches to better understand the processes underlying solute export patterns. Finally, given these long\u2010term C\u2013Q relationships are from minimally disturbed catchments, our findings can be used as benchmarks for change in more disturbed catchments.</jats:p>",
+    "DOI": "10.1002/hyp.15197",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          18
+        ]
+      ],
+      "date-time": "2024-06-18T02:59:44Z",
+      "timestamp": 1718679584000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 16,
+    "title": [
+      "Solute export patterns across the contiguous <scp>USA</scp>"
+    ],
+    "prefix": "10.1002",
+    "volume": "38",
+    "author": [
+      {
+        "given": "Dustin W.",
+        "family": "Kincaid",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Civil &amp; Environmental Engineering University of Vermont  Burlington Vermont USA"
+          },
+          {
+            "name": "Gund Institute for Environment University of Vermont  Burlington Vermont USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kristen L.",
+        "family": "Underwood",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil &amp; Environmental Engineering University of Vermont  Burlington Vermont USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Scott D.",
+        "family": "Hamshaw",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil &amp; Environmental Engineering University of Vermont  Burlington Vermont USA"
+          },
+          {
+            "name": "U.S. Geological Survey  Reston, Virginia USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Li",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil &amp; Environmental Engineering The Pennsylvania State University  University Park Pennsylvania USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Erin C.",
+        "family": "Seybold",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Kansas Geological Survey University of Kansas  Lawrence Kansas USA"
+          },
+          {
+            "name": "Department of Geology University of Kansas  Lawrence Kansas USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bryn",
+        "family": "Stewart",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil &amp; Environmental Engineering The Pennsylvania State University  University Park Pennsylvania USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Donna M.",
+        "family": "Rizzo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil &amp; Environmental Engineering University of Vermont  Burlington Vermont USA"
+          },
+          {
+            "name": "Gund Institute for Environment University of Vermont  Burlington Vermont USA"
+          },
+          {
+            "name": "Department of Computer Science University of Vermont  Burlington Vermont USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ijaz Ul",
+        "family": "Haq",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science University of Vermont  Burlington Vermont USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Julia N.",
+        "family": "Perdrial",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Gund Institute for Environment University of Vermont  Burlington Vermont USA"
+          },
+          {
+            "name": "Department of Geography and Geoscience University of Vermont  Burlington Vermont USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          17
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_9_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-21-5293-2017"
+      },
+      {
+        "key": "e_1_2_9_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1475-2743.2004.tb00355.x"
+      },
+      {
+        "key": "e_1_2_9_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.11258"
+      },
+      {
+        "key": "e_1_2_9_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2010gl045168"
+      },
+      {
+        "key": "e_1_2_9_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10661-013-3246-8"
+      },
+      {
+        "key": "e_1_2_9_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.2517-6161.1995.tb02031.x"
+      },
+      {
+        "key": "e_1_2_9_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/j.ctv30pnvjd"
+      },
+      {
+        "key": "e_1_2_9_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10021-016-0103-y"
+      },
+      {
+        "key": "e_1_2_9_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-4-203-2000"
+      },
+      {
+        "key": "e_1_2_9_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR026695"
+      },
+      {
+        "key": "e_1_2_9_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(sici)1099-1085(19971015)11:12<1635::aid-hyp494>3.0.co;2-h"
+      },
+      {
+        "key": "e_1_2_9_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2006jg000262"
+      },
+      {
+        "key": "e_1_2_9_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1348"
+      },
+      {
+        "key": "e_1_2_9_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021wr030507"
+      },
+      {
+        "key": "e_1_2_9_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017wr021111"
+      },
+      {
+        "key": "e_1_2_9_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/cjfas-2014-0400"
+      },
+      {
+        "key": "e_1_2_9_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.11424"
+      },
+      {
+        "key": "e_1_2_9_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/bg-14-4391-2017"
+      },
+      {
+        "key": "e_1_2_9_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020wr028134"
+      },
+      {
+        "key": "e_1_2_9_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019wr027028"
+      },
+      {
+        "key": "e_1_2_9_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10980-012-9829-x"
+      },
+      {
+        "key": "e_1_2_9_23_1",
+        "volume-title": "Bayesian data analysis",
+        "author": "Gelman A.",
+        "year": "2004"
+      },
+      {
+        "key": "e_1_2_9_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10584-017-1899-y"
+      },
+      {
+        "key": "e_1_2_9_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.13554"
+      },
+      {
+        "key": "e_1_2_9_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.7315"
+      },
+      {
+        "key": "e_1_2_9_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2528823"
+      },
+      {
+        "key": "e_1_2_9_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00382-006-0187-8"
+      },
+      {
+        "key": "e_1_2_9_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-19-3333-2015"
+      },
+      {
+        "key": "e_1_2_9_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2011.00539.x"
+      },
+      {
+        "key": "e_1_2_9_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18637/jss.v045.i07"
+      },
+      {
+        "key": "e_1_2_9_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/bf00024390"
+      },
+      {
+        "key": "e_1_2_9_33_1",
+        "volume-title": "Climate change 2013: The physical science basis",
+        "author": "IPCC",
+        "year": "2013"
+      },
+      {
+        "key": "e_1_2_9_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/wr005i006p01353"
+      },
+      {
+        "key": "e_1_2_9_35_1",
+        "unstructured": "Kay M.(2021).tidybayes: Tidy data and geoms for Bayesian models. R package version 3.0.1.https://doi.org/10.5281/zenodo.1308151"
+      },
+      {
+        "key": "e_1_2_9_36_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kincaid D. &Underwood K.(2024).Code and data for CAMELS\u2010Chem concentration\u2010discharge analysis[Data set]. HydroShare.https://doi.org/10.4211/hs.eddb06e91a914618a89a63bb2c2774e0",
+        "DOI": "10.4211/hs.eddb06e91a914618a89a63bb2c2774e0"
+      },
+      {
+        "key": "e_1_2_9_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020wr027361"
+      },
+      {
+        "key": "e_1_2_9_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-24-2561-2020"
+      },
+      {
+        "key": "e_1_2_9_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.14683"
+      },
+      {
+        "key": "e_1_2_9_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1941447"
+      },
+      {
+        "key": "e_1_2_9_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021ef002603"
+      },
+      {
+        "key": "e_1_2_9_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/bf00000881"
+      },
+      {
+        "key": "e_1_2_9_43_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lindel\u00f8v J. K.(2020).mcp: An R package for regression with multiple change points.https://doi.org/10.31219/osf.io/fzqxv",
+        "DOI": "10.31219/osf.io/fzqxv"
+      },
+      {
+        "key": "e_1_2_9_44_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lins H. F.(2012).USGS hydro\u2010climatic data network 2009 (HCDN\u20132009). U.S. Geological Survey Fact Sheet 2012\u20133047. Available fromhttps://pubs.usgs.gov/fs/2012/3047/",
+        "DOI": "10.3133/fs20123047"
+      },
+      {
+        "key": "e_1_2_9_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.watres.2022.119468"
+      },
+      {
+        "key": "e_1_2_9_46_1",
+        "unstructured": "Maechler M. Rousseeuw P. Struyf A. Hubert M. &Hornik K.(2021).cluster: Cluster analysis basics and extensions. R package version 2.1.2. Available fromhttps://cran.r-project.org/package=cluster"
+      },
+      {
+        "key": "e_1_2_9_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020gl087051"
+      },
+      {
+        "key": "e_1_2_9_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.apgeochem.2010.02.007"
+      },
+      {
+        "key": "e_1_2_9_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10021-003-0161-9"
+      },
+      {
+        "key": "e_1_2_9_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-03565-5"
+      },
+      {
+        "key": "e_1_2_9_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.8211"
+      },
+      {
+        "key": "e_1_2_9_52_1",
+        "unstructured": "Meyer D. Zeileis A. &Hornik K.(2021).vcd: Visualizing categorical data. R package version 1.4\u20109."
+      },
+      {
+        "key": "e_1_2_9_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2019.103379"
+      },
+      {
+        "key": "e_1_2_9_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016wr019635"
+      },
+      {
+        "key": "e_1_2_9_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017gl072630"
+      },
+      {
+        "key": "e_1_2_9_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2015.09.026"
+      },
+      {
+        "key": "e_1_2_9_57_1",
+        "unstructured": "National Science Foundation (NSF). (2018).Bridging the atom\u2010to\u2010global scale gap. Available fromhttps://nsf2026imgallery.skild.com/entries/bridging-the-atom-to-global-scale-gap"
+      },
+      {
+        "key": "e_1_2_9_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-1694(90)90226-n"
+      },
+      {
+        "key": "e_1_2_9_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.catena.2012.10.014"
+      },
+      {
+        "key": "e_1_2_9_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-8306.1987.tb00149.x"
+      },
+      {
+        "key": "e_1_2_9_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021wr029692"
+      },
+      {
+        "key": "e_1_2_9_62_1",
+        "volume-title": "R: A language and environment for statistical computing",
+        "author": "R Core Team",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_9_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/14-1684.1"
+      },
+      {
+        "key": "e_1_2_9_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.13235"
+      },
+      {
+        "key": "e_1_2_9_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/geb.12259"
+      },
+      {
+        "key": "e_1_2_9_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-13184-4"
+      },
+      {
+        "key": "e_1_2_9_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-13-2287-2009"
+      },
+      {
+        "key": "e_1_2_9_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43017-021-00219-y"
+      },
+      {
+        "key": "e_1_2_9_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1702"
+      },
+      {
+        "key": "e_1_2_9_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-28-611-2024"
+      },
+      {
+        "key": "e_1_2_9_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021wr029931"
+      },
+      {
+        "key": "e_1_2_9_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022gb007351"
+      },
+      {
+        "key": "e_1_2_9_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2010wr009605"
+      },
+      {
+        "key": "e_1_2_9_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/bf02289263"
+      },
+      {
+        "key": "e_1_2_9_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021wr030551"
+      },
+      {
+        "key": "e_1_2_9_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017wr021353"
+      },
+      {
+        "key": "e_1_2_9_77_1",
+        "unstructured": "U.S. Geological Survey. (2023).USGS water data for the nation: U.S. Geological Survey National Water Information System database.https://doi.org/10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_9_78_1",
+        "unstructured": "Vehtari A. Gabry J. Magnusson M. Yao Y. B\u00fcrkner P. Paananen T. &Gelman A.(2020).loo: Efficient leave\u2010one\u2010out cross\u2010validation and WAIC for Bayesian models. R package version. Available fromhttps://mc-stan.org/loo/"
+      },
+      {
+        "key": "e_1_2_9_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11222-016-9696-4"
+      },
+      {
+        "key": "e_1_2_9_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2003wr002473"
+      },
+      {
+        "key": "e_1_2_9_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.14540"
+      },
+      {
+        "key": "e_1_2_9_82_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.1963.10500845"
+      },
+      {
+        "key": "e_1_2_9_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.14185"
+      },
+      {
+        "key": "e_1_2_9_84_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-24-945-2020"
+      },
+      {
+        "key": "e_1_2_9_85_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016wr020016"
+      },
+      {
+        "key": "e_1_2_9_86_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10533-020-00741-z"
+      },
+      {
+        "key": "e_1_2_9_87_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023wr034910"
+      },
+      {
+        "key": "e_1_2_9_88_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018gl080005"
+      },
+      {
+        "key": "e_1_2_9_89_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1198/106186007x237856"
+      },
+      {
+        "key": "e_1_2_9_90_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.0c01340"
+      },
+      {
+        "key": "e_1_2_9_91_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018wr024257"
+      }
+    ],
+    "container-title": [
+      "Hydrological Processes"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/hyp.15197",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/hyp.15197",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          2
+        ]
+      ],
+      "date-time": "2025-02-02T23:15:06Z",
+      "timestamp": 1738538106000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/hyp.15197"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6
+        ]
+      ]
+    },
+    "references-count": 90,
+    "journal-issue": {
+      "issue": "6",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            6
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/hyp.15197"
+    ],
+    "URL": "https://doi.org/10.1002/hyp.15197",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0885-6087",
+      "1099-1085"
+    ],
+    "issn-type": [
+      {
+        "value": "0885-6087",
+        "type": "print"
+      },
+      {
+        "value": "1099-1085",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          6
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2023-12-28",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-05-17",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-06-17",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e15197"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1002/hyp.15197",
+  "original_doi": "10.1002/hyp.15197"
+}

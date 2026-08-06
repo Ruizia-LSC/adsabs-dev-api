@@ -1,0 +1,537 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          26
+        ]
+      ],
+      "date-time": "2025-10-26T14:59:37Z",
+      "timestamp": 1761490777068,
+      "version": "3.40.5"
+    },
+    "reference-count": 46,
+    "publisher": "Wiley",
+    "issue": "15",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              3,
+              28
+            ]
+          ],
+          "date-time": "2020-03-28T00:00:00Z",
+          "timestamp": 1585353600000
+        },
+        "content-version": "am",
+        "delay-in-days": 326,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#am"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              5,
+              7
+            ]
+          ],
+          "date-time": "2019-05-07T00:00:00Z",
+          "timestamp": 1557187200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Hydrological Processes"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          15
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Estimation of low flows in rivers continues to be a vexing problem despite advances in statistical and process\u2010based hydrological models. We develop a method to estimate minimum streamflow at seasonal to annual timescales from measured streamflow based on regional similarity in the deviations of daily streamflow from minimum streamflow for a period of interest. The method is applied to 1,019 gauged sites in the Western United States for June to December 2015. The gauges were clustered into six regions with distinct timing and magnitude of low flows. A gamma distribution was fit each day to the deviations in specific discharge (daily streamflow divided by drainage area) from minimum specific discharge for gauges in each region. The Kolmogorov\u2013Smirnov test identified days when the gamma distribution was adequate to represent the distribution of deviations in a region. The performance of the gamma distribution was evaluated at gauges by comparing daily estimates of minimum streamflow with estimates from area\u2010based regression relations for minimum streamflow. Each region had at least 8\u00a0days during the period when streamflow measurements would provide better estimates than the regional regression equation, but the number of such days varied by region depending on aridity and homogeneity of streamflow within the region. Synoptic streamflow measurements at ungauged sites have value for estimating minimum streamflow and improving the spatial resolution of hydrological model in regions with streamflow\u2010gauging networks.</jats:p>",
+    "DOI": "10.1002/hyp.13452",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          3,
+          28
+        ]
+      ],
+      "date-time": "2019-03-28T12:48:13Z",
+      "timestamp": 1553777293000
+    },
+    "page": "2057-2067",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "Estimating minimum streamflow from measurements at ungauged sites in regions with streamflow\u2010gauging networks"
+    ],
+    "prefix": "10.1002",
+    "volume": "33",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7354-547X",
+        "authenticated-orcid": false,
+        "given": "Christopher",
+        "family": "Konrad",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Washington Water Science Center, U.S. Geological Survey  Tacoma WA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7536-750X",
+        "authenticated-orcid": false,
+        "given": "Christine",
+        "family": "Rumsey",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Utah Water Science Center, U.S. Geological Survey  West Valley City UT"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          7
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_7_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2009.04.025"
+      },
+      {
+        "key": "e_1_2_7_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2009.09.032"
+      },
+      {
+        "key": "e_1_2_7_4_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Curran C. A. Eng K. &Konrad C. P.(2012).Analysis of low flows and selected methods for estimating low\u2010flow characteristics at partial\u2010record and ungauged stream sites in Western Washington. U.S. Geological Survey Science Investigations Report 2012\u20135078.",
+        "DOI": "10.3133/sir20125078"
+      },
+      {
+        "key": "e_1_2_7_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wrcr.20294"
+      },
+      {
+        "key": "e_1_2_7_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.9711"
+      },
+      {
+        "key": "e_1_2_7_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.7533"
+      },
+      {
+        "key": "e_1_2_7_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.7976"
+      },
+      {
+        "key": "e_1_2_7_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2006WR005293"
+      },
+      {
+        "volume-title": "Cluster and classification techniques for the biosciences",
+        "year": "2007",
+        "author": "Fielding A. H.",
+        "key": "e_1_2_7_10_1"
+      },
+      {
+        "key": "e_1_2_7_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.10724"
+      },
+      {
+        "key": "e_1_2_7_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR004i005p00973"
+      },
+      {
+        "key": "e_1_2_7_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR018i004p01081"
+      },
+      {
+        "key": "e_1_2_7_14_1",
+        "unstructured": "Hosking J. R. M.(2017).L\u2010Moments R package lmom version 2.6 accessed athttps://cran.r\u2010project.org/web/packages/lmom/lmom.pdfon 23 July 2018."
+      },
+      {
+        "key": "e_1_2_7_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511529443"
+      },
+      {
+        "key": "e_1_2_7_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecolind.2017.04.029"
+      },
+      {
+        "key": "e_1_2_7_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3178/jjshwr.9.489"
+      },
+      {
+        "key": "e_1_2_7_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2006.02.028"
+      },
+      {
+        "key": "e_1_2_7_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2005WR004197"
+      },
+      {
+        "key": "e_1_2_7_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2004.09.012"
+      },
+      {
+        "key": "e_1_2_7_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2005.09.001"
+      },
+      {
+        "key": "e_1_2_7_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9781139235761.011"
+      },
+      {
+        "key": "e_1_2_7_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.9578"
+      },
+      {
+        "key": "e_1_2_7_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2002JD003090"
+      },
+      {
+        "key": "e_1_2_7_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-1694(90)90233-N"
+      },
+      {
+        "key": "e_1_2_7_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-18-2829-2014"
+      },
+      {
+        "key": "e_1_2_7_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/130076"
+      },
+      {
+        "key": "e_1_2_7_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(SICI)1099-1646(199607)12:4/5<353::AID-RRR425>3.0.CO;2-6"
+      },
+      {
+        "key": "e_1_2_7_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2013.12.044"
+      },
+      {
+        "volume-title": "The R Stats package, version 3.4.3, 7 December 2017, R: A language and environment for statistical computing",
+        "year": "2017",
+        "author": "R Core Team",
+        "key": "e_1_2_7_30_1"
+      },
+      {
+        "key": "e_1_2_7_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1365-2427.1997.00153.x"
+      },
+      {
+        "key": "e_1_2_7_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ejrh.2015.04.008"
+      },
+      {
+        "key": "e_1_2_7_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-17-2637-2013"
+      },
+      {
+        "key": "e_1_2_7_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-13-883-2009"
+      },
+      {
+        "key": "e_1_2_7_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ejrh.2017.03.003"
+      },
+      {
+        "key": "e_1_2_7_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.11426"
+      },
+      {
+        "key": "e_1_2_7_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-15-3447-2011"
+      },
+      {
+        "key": "e_1_2_7_38_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "StedingerJR&ThomasJrWO. (1985).Low\u2010flow frequency estimation using base\u2010flow measurements US Geological Survey Open\u2010File Report85\u201395.",
+        "DOI": "10.3133/ofr8595"
+      },
+      {
+        "key": "e_1_2_7_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2014GL061344"
+      },
+      {
+        "key": "e_1_2_7_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-1694(94)02540-R"
+      },
+      {
+        "key": "e_1_2_7_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00477-013-0751-9"
+      },
+      {
+        "key": "e_1_2_7_42_1",
+        "unstructured": "U.S. Geological Survey(2018).National Water Information System https://doi.org/10.5066/F7P55KJN."
+      },
+      {
+        "key": "e_1_2_7_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2009WR008839"
+      },
+      {
+        "key": "e_1_2_7_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR017635"
+      },
+      {
+        "key": "e_1_2_7_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(SICI)1099-1085(19990415)13:5<715::AID-HYP775>3.0.CO;2-N"
+      },
+      {
+        "key": "e_1_2_7_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wrcr.20070"
+      },
+      {
+        "key": "e_1_2_7_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ejrh.2015.07.005"
+      }
+    ],
+    "container-title": [
+      "Hydrological Processes"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fhyp.13452",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/hyp.13452",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/hyp.13452",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/am-pdf/10.1002/hyp.13452",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/hyp.13452",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          10
+        ]
+      ],
+      "date-time": "2023-09-10T04:28:39Z",
+      "timestamp": 1694320119000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/hyp.13452"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          7
+        ]
+      ]
+    },
+    "references-count": 46,
+    "journal-issue": {
+      "issue": "15",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            7,
+            15
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/hyp.13452"
+    ],
+    "URL": "https://doi.org/10.1002/hyp.13452",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0885-6087",
+      "1099-1085"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0885-6087"
+      },
+      {
+        "type": "electronic",
+        "value": "1099-1085"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          7
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2018-08-05",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-03-11",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-05-07",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.1002/hyp.13452",
+  "original_doi": "10.1002/hyp.13452"
+}

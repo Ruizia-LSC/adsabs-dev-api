@@ -1,0 +1,758 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          4
+        ]
+      ],
+      "date-time": "2026-08-04T19:18:18Z",
+      "timestamp": 1785871098826,
+      "version": "3.56.0"
+    },
+    "reference-count": 61,
+    "publisher": "Wiley",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              19
+            ]
+          ],
+          "date-time": "2026-03-19T00:00:00Z",
+          "timestamp": 1773878400000
+        },
+        "content-version": "am",
+        "delay-in-days": 383,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#am"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              19
+            ]
+          ],
+          "date-time": "2025-03-19T00:00:00Z",
+          "timestamp": 1742342400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 18,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001711",
+        "name": "Schweizerischer Nationalfonds zur F\u00f6rderung der Wissenschaftlichen Forschung",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001711",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000270",
+        "name": "Natural Environment Research Council",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100000270",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Hydrological Processes"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>In this commentary, we aim to (1) describe ways that hydrological intensification and hydrological whiplash (sub\u2010seasonal transitions between hydrological extremes) may impact water management decision\u2010making, (2) introduce the complexities of identifying and quantifying hydrological extreme transitions, (3) discuss the processes controlling hydrological transitions and trends in hydrological extremes through time, (4) discuss considerations involved in modeling hydrological extreme transitions, and (5) motivate additional research by suggesting priority research questions that diverge from an assumption of independence between extreme events.</jats:p>",
+    "DOI": "10.1002/hyp.70113",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          19
+        ]
+      ],
+      "date-time": "2025-03-19T22:24:11Z",
+      "timestamp": 1742423051000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 21,
+    "title": [
+      "Hydrological Whiplash: Highlighting the Need for Better Understanding and Quantification of Sub\u2010Seasonal Hydrological Extreme Transitions"
+    ],
+    "prefix": "10.1002",
+    "volume": "39",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-4935-0736",
+        "authenticated-orcid": false,
+        "given": "John",
+        "family": "Hammond",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Maryland\u2010Delaware\u2010D.C. Water Science Center  Baltimore Maryland USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5936-3346",
+        "authenticated-orcid": false,
+        "given": "Bailey",
+        "family": "Anderson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "WSL Institute for Snow and Avalanche Research SLF  Davos Dorf Switzerland"
+          },
+          {
+            "name": "Institute for Atmospheric and Climate Science  ETH Zurich Zurich Switzerland"
+          },
+          {
+            "name": "Climate Change, Extremes and Natural Hazards in Alpine Regions Research Center CERC  Davos Dorf Switzerland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3263-6452",
+        "authenticated-orcid": false,
+        "given": "Caelan",
+        "family": "Simeone",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Oregon Water Science Center  Portland OR USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8824-877X",
+        "authenticated-orcid": false,
+        "given": "Manuela",
+        "family": "Brunner",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "WSL Institute for Snow and Avalanche Research SLF  Davos Dorf Switzerland"
+          },
+          {
+            "name": "Institute for Atmospheric and Climate Science  ETH Zurich Zurich Switzerland"
+          },
+          {
+            "name": "Climate Change, Extremes and Natural Hazards in Alpine Regions Research Center CERC  Davos Dorf Switzerland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0314-3563",
+        "authenticated-orcid": false,
+        "given": "Eduardo",
+        "family": "Mu\u00f1oz\u2010Castro",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "WSL Institute for Snow and Avalanche Research SLF  Davos Dorf Switzerland"
+          },
+          {
+            "name": "Institute for Atmospheric and Climate Science  ETH Zurich Zurich Switzerland"
+          },
+          {
+            "name": "Climate Change, Extremes and Natural Hazards in Alpine Regions Research Center CERC  Davos Dorf Switzerland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9011-3871",
+        "authenticated-orcid": false,
+        "given": "Stacey",
+        "family": "Archfield",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Water Mission Area  Reston VA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0004-9043-7886",
+        "authenticated-orcid": false,
+        "given": "Eugene",
+        "family": "Magee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "UK Centre for Ecology &amp; Hydrology  Lancaster UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0007-5338-4756",
+        "authenticated-orcid": false,
+        "given": "Rachael",
+        "family": "Armitage",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "UK Centre for Ecology &amp; Hydrology  Wallingford UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          19
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_10_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016GL070590"
+      },
+      {
+        "key": "e_1_2_10_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1726"
+      },
+      {
+        "key": "e_1_2_10_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-9326/acbecc"
+      },
+      {
+        "key": "e_1_2_10_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016GL068070"
+      },
+      {
+        "key": "e_1_2_10_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-24-1805-2020"
+      },
+      {
+        "key": "e_1_2_10_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aan2506"
+      },
+      {
+        "key": "e_1_2_10_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR033249"
+      },
+      {
+        "key": "e_1_2_10_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-23-4471-2019"
+      },
+      {
+        "key": "e_1_2_10_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022GL101776"
+      },
+      {
+        "key": "e_1_2_10_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-9326/abd2f0"
+      },
+      {
+        "key": "e_1_2_10_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR032871"
+      },
+      {
+        "key": "e_1_2_10_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2024.131023"
+      },
+      {
+        "key": "e_1_2_10_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019EF001224"
+      },
+      {
+        "key": "e_1_2_10_15_1",
+        "volume-title": "Vuelven los Gigantes: Un An\u00e1lisis Preliminar de la Tormenta Ocurrida Entre el 21 y 26 de Junio de 2023 en Chile Central",
+        "author": "Centro de Investigaci\u00f3n de Recursos H\u00eddricos (CR2)",
+        "year": "2023"
+      },
+      {
+        "key": "e_1_2_10_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1714"
+      },
+      {
+        "key": "e_1_2_10_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR030480"
+      },
+      {
+        "key": "e_1_2_10_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019ef001461"
+      },
+      {
+        "key": "e_1_2_10_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/land13111800"
+      },
+      {
+        "key": "e_1_2_10_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2019.124254"
+      },
+      {
+        "key": "e_1_2_10_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021EF002487"
+      },
+      {
+        "key": "e_1_2_10_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-18-85-2014"
+      },
+      {
+        "key": "e_1_2_10_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201026\u20106073\u20102022"
+      },
+      {
+        "key": "e_1_2_10_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-20-1301-2016"
+      },
+      {
+        "key": "e_1_2_10_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023WR036504"
+      },
+      {
+        "key": "e_1_2_10_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR031930"
+      },
+      {
+        "key": "e_1_2_10_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2017EO068775"
+      },
+      {
+        "key": "e_1_2_10_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020GL088189"
+      },
+      {
+        "key": "e_1_2_10_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-021-83279-w"
+      },
+      {
+        "key": "e_1_2_10_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nclimate2551"
+      },
+      {
+        "key": "e_1_2_10_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2005.07.003"
+      },
+      {
+        "key": "e_1_2_10_32_1",
+        "unstructured": "International Federation of Red Cross and Red Crescent Societies (IFRC).2023.\u201cChile: Floods 2023 (DREF Operation MDRCL016) Final Report \u201dReliefWeb.https://reliefweb.int/report/chile/chile\u2010floods\u2010june\u20102023\u2010dref\u2010operation\u2010mdrcl016\u2010final\u2010report."
+      },
+      {
+        "key": "e_1_2_10_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1921628117"
+      },
+      {
+        "key": "e_1_2_10_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023WR036649"
+      },
+      {
+        "key": "e_1_2_10_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-019-39936-2"
+      },
+      {
+        "key": "e_1_2_10_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-9326/ad4b46"
+      },
+      {
+        "key": "e_1_2_10_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022EF002747"
+      },
+      {
+        "key": "e_1_2_10_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1319"
+      },
+      {
+        "key": "e_1_2_10_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-23-2601-2019"
+      },
+      {
+        "key": "e_1_2_10_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/tc\u201014\u20102495\u20102020"
+      },
+      {
+        "key": "e_1_2_10_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.gloplacha.2024.104476"
+      },
+      {
+        "key": "e_1_2_10_42_1",
+        "unstructured": "NASA Earth Observatory.2023.\u201cAtmospheric Rivers Swamp Central Chile. NASA Earth Observatory \u201dhttps://earthobservatory.nasa.gov/images/151783/atmospheric\u2010rivers\u2010swamp\u2010central\u2010chile."
+      },
+      {
+        "key": "e_1_2_10_43_1",
+        "unstructured": "NOAA National Centers for Environmental Information (NCEI).2024.https://www.ncei.noaa.gov/access/billions/.\u201cU.S. Billion\u2010Dollar Weather and Climate Disasters \u201dhttps://doi.org/10.25921/stkw\u20107w73."
+      },
+      {
+        "key": "e_1_2_10_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR031976"
+      },
+      {
+        "key": "e_1_2_10_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/2515-7620/ac77de"
+      },
+      {
+        "key": "e_1_2_10_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2014WR015348"
+      },
+      {
+        "key": "e_1_2_10_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w16202996"
+      },
+      {
+        "key": "e_1_2_10_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2024GL109476"
+      },
+      {
+        "key": "e_1_2_10_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020GL091824"
+      },
+      {
+        "key": "e_1_2_10_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12665-016-6234-9"
+      },
+      {
+        "key": "e_1_2_10_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43017\u2010024\u201000624\u2010z"
+      },
+      {
+        "key": "e_1_2_10_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-9326/aa9e35"
+      },
+      {
+        "key": "e_1_2_10_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-9326/abb90b"
+      },
+      {
+        "key": "e_1_2_10_54_1",
+        "unstructured": "U.S. Geological Survey.2025.\u201cUSGS Water Data for the Nation: U.S. Geological Survey National Water Information System Database \u201dhttps://doi.org/10.5066/F7P55KJN."
+      },
+      {
+        "key": "e_1_2_10_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.wace.2022.100472"
+      },
+      {
+        "key": "e_1_2_10_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-16-2437-2012"
+      },
+      {
+        "key": "e_1_2_10_57_1",
+        "first-page": "80",
+        "article-title": "Drought as a Continuum: Memory Effects in Interlinked Hydrological, Ecological, and Social Systems",
+        "volume": "87",
+        "author": "Van Loon A. F.",
+        "year": "2024",
+        "journal-title": "Advances in Water Resources"
+      },
+      {
+        "key": "e_1_2_10_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2015.11.009"
+      },
+      {
+        "key": "e_1_2_10_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.wasec.2020.100070"
+      },
+      {
+        "key": "e_1_2_10_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR026300"
+      },
+      {
+        "key": "e_1_2_10_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018GL080260"
+      },
+      {
+        "key": "e_1_2_10_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-9326/acceb5"
+      }
+    ],
+    "updated-by": [
+      {
+        "DOI": "10.1002/hyp.70145",
+        "type": "correction",
+        "label": "Correction",
+        "source": "publisher",
+        "updated": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              4
+            ]
+          ],
+          "date-time": "2025-05-04T00:00:00Z",
+          "timestamp": 1746316800000
+        }
+      }
+    ],
+    "container-title": [
+      "Hydrological Processes"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/am-pdf/10.1002/hyp.70113",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/hyp.70113",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          1
+        ]
+      ],
+      "date-time": "2025-12-01T07:01:32Z",
+      "timestamp": 1764572492000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/hyp.70113"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3
+        ]
+      ]
+    },
+    "references-count": 61,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/hyp.70113"
+    ],
+    "URL": "https://doi.org/10.1002/hyp.70113",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0885-6087",
+      "1099-1085"
+    ],
+    "issn-type": [
+      {
+        "value": "0885-6087",
+        "type": "print"
+      },
+      {
+        "value": "1099-1085",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          3
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2025-03-06",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-03-10",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-03-19",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e70113"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1002/hyp.70113",
+  "original_doi": "10.1002/hyp.70113"
+}

@@ -1,0 +1,521 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          26
+        ]
+      ],
+      "date-time": "2026-07-26T04:03:48Z",
+      "timestamp": 1785038628887,
+      "version": "3.55.0"
+    },
+    "reference-count": 54,
+    "publisher": "Wiley",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              24
+            ]
+          ],
+          "date-time": "2024-01-24T00:00:00Z",
+          "timestamp": 1706054400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Earth Surf Processes Landf"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          30
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Image\u2010based methods have compelling, demonstrated potential for characterizing flow fields in rivers, but algorithms like particle image velocimetry (PIV) must be further tested and improved to enable more effective use of these techniques. This paper presents a framework designed for this exact purpose: Simulating Hydraulics and Images for Velocimetry Evaluation and Refinement (SHIVER). The approach involves coupling a hydrodynamic model with a synthetic particle generator to advect particles between frames, as dictated by local velocity vectors and thus construct a plausible image sequence specific to the reach of interest. The resulting time series can then be used as input to a velocimetry algorithm to compare image\u2010derived estimates with known (modelled) velocities to perform an exhaustive, spatially distributed accuracy assessment. As an example application of SHIVER, we examined the effects of interrogation area (IA) size, frame rate, flow velocity, and image sequence duration on the performance of a standard PIV algorithm. This analysis indicated that image\u2010derived velocities were generally in close agreement with those from the flow model (root mean square error &lt;10% and mean bias &lt;3%), except when small IAs were coupled with low frame rates. Velocity estimates were most accurate for the lowest modelled discharge (\n at baseflow) and became less reliable as the mean flow velocity increased (\n for an intermediate discharge and \n at bankfull). Accuracy was essentially independent of image sequence duration, implying that long occupations might not be necessary. Errors were concentrated along channel margins, where PIV\u2010based velocities tended to be greater than those from the flow model. Small IAs led to underpredictions of velocity, while larger IAs led to overpredictions. SHIVER is highly modular and could be updated to make use of different hydrodynamic models or image simulators. The framework could also facilitate more thorough sensitivity analyses and comparison of various velocimetry algorithms.</jats:p>",
+    "DOI": "10.1002/esp.5772",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          25
+        ]
+      ],
+      "date-time": "2024-01-25T05:45:51Z",
+      "timestamp": 1706161551000
+    },
+    "page": "1361-1382",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 16,
+    "title": [
+      "A framework to facilitate development and testing of image\u2010based river velocimetry algorithms"
+    ],
+    "prefix": "10.1002",
+    "volume": "49",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0940-8013",
+        "authenticated-orcid": false,
+        "given": "Carl J.",
+        "family": "Legleiter",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "US Geological Survey, Observing Systems Division  Golden Colorado USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6076-9730",
+        "authenticated-orcid": false,
+        "given": "Paul J.",
+        "family": "Kinzel",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "US Geological Survey, Observing Systems Division  Golden Colorado USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          24
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_9_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2023.130233"
+      },
+      {
+        "key": "e_1_2_9_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/esurf-7-841-2019"
+      },
+      {
+        "key": "e_1_2_9_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.3973"
+      },
+      {
+        "key": "e_1_2_9_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR032251"
+      },
+      {
+        "key": "e_1_2_9_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.geomorph.2010.09.030"
+      },
+      {
+        "key": "e_1_2_9_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.893"
+      },
+      {
+        "key": "e_1_2_9_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs12111789"
+      },
+      {
+        "key": "e_1_2_9_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/drones5030081"
+      },
+      {
+        "key": "e_1_2_9_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10661-018-6848-3"
+      },
+      {
+        "key": "e_1_2_9_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR031878"
+      },
+      {
+        "key": "e_1_2_9_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR027833"
+      },
+      {
+        "key": "e_1_2_9_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)HY.1943-7900.0001922"
+      },
+      {
+        "key": "e_1_2_9_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/JHEND8.HYENG-13591"
+      },
+      {
+        "key": "e_1_2_9_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.5205"
+      },
+      {
+        "key": "e_1_2_9_16_1",
+        "volume-title": "UAVs for the environmental sciences",
+        "author": "Eltner A.",
+        "year": "2022"
+      },
+      {
+        "key": "e_1_2_9_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-24-1429-2020"
+      },
+      {
+        "key": "e_1_2_9_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF03181465"
+      },
+      {
+        "key": "e_1_2_9_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1361-6501/ab808a"
+      },
+      {
+        "key": "e_1_2_9_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/15715124.2007.9635310"
+      },
+      {
+        "key": "e_1_2_9_21_1",
+        "first-page": "12",
+        "volume-title": "Proceedings of the 4th Federal Interagency Hydrologic Modeling Conference and the 9th Federal Interagency Sedimentation Conference",
+        "author": "Hall B.",
+        "year": "2010"
+      },
+      {
+        "key": "e_1_2_9_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-27-2051-2023"
+      },
+      {
+        "key": "e_1_2_9_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/frwa.2021.709269"
+      },
+      {
+        "key": "e_1_2_9_24_1",
+        "unstructured": "Kinzel P.J. Legleiter(2023)Model archive: Two\u2010dimensional flow simulations of the Sacramento River near Glenn California. U.S. Geological Survey data release Available from:https://doi.org/10.5066/P9C19Z0S"
+      },
+      {
+        "key": "e_1_2_9_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.3773"
+      },
+      {
+        "key": "e_1_2_9_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs12081282"
+      },
+      {
+        "key": "e_1_2_9_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/frwa.2021.652213"
+      },
+      {
+        "key": "e_1_2_9_28_1",
+        "unstructured": "Legleiter C.&Kinzel P.J.(2023a)Hydrodynamic model output and image simulation code for evaluating image\u2010based river velocimetry from a case study on the Sacramento River near Glenn California. U.S. Geological Survey data release Available from:https://doi.org/10.5066/P9C19Z0S"
+      },
+      {
+        "key": "e_1_2_9_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.4147"
+      },
+      {
+        "key": "e_1_2_9_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR033822"
+      },
+      {
+        "key": "e_1_2_9_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w15010123"
+      },
+      {
+        "key": "e_1_2_9_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w12071874"
+      },
+      {
+        "key": "e_1_2_9_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.2094"
+      },
+      {
+        "key": "e_1_2_9_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.softx.2020.100537"
+      },
+      {
+        "key": "e_1_2_9_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008WR006950"
+      },
+      {
+        "key": "e_1_2_9_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2015.09.017"
+      },
+      {
+        "key": "e_1_2_9_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cageo.2017.07.009"
+      },
+      {
+        "key": "e_1_2_9_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs12020232www.mdpi.com/journal/remotesensing"
+      },
+      {
+        "key": "e_1_2_9_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/gmd-13-6111-2020"
+      },
+      {
+        "key": "e_1_2_9_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.4787"
+      },
+      {
+        "key": "e_1_2_9_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.13919"
+      },
+      {
+        "key": "e_1_2_9_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.softx.2022.101173"
+      },
+      {
+        "key": "e_1_2_9_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-24-5173-2020"
+      },
+      {
+        "key": "e_1_2_9_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w13030247"
+      },
+      {
+        "key": "e_1_2_9_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/hydrology7030065"
+      },
+      {
+        "key": "e_1_2_9_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w13162206"
+      },
+      {
+        "key": "e_1_2_9_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR029279"
+      },
+      {
+        "key": "e_1_2_9_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/frwa.2022.744278"
+      },
+      {
+        "key": "e_1_2_9_49_1",
+        "unstructured": "Shimizu Y.&Takebayashi H.(2011)Nays2DH solver manualAvailable from:https://i-ric.org/webadmin/wp-content/uploads/2018/12/Nays2DH_SolverManual_English_v4.pdf"
+      },
+      {
+        "key": "e_1_2_9_50_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Smart G.M.&Biggs H.J.(2020)Remote gauging of open channel flow: Estimation of depth averaged velocity from surface velocity and turbulence Proceedings of river flow 2020:Delft Netherlands.",
+        "DOI": "10.1201/b22619-145"
+      },
+      {
+        "key": "e_1_2_9_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs12030384"
+      },
+      {
+        "key": "e_1_2_9_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-0-323-85283-8.00012-6"
+      },
+      {
+        "key": "e_1_2_9_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs10122010"
+      },
+      {
+        "key": "e_1_2_9_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5334/jors.334"
+      },
+      {
+        "key": "e_1_2_9_55_1",
+        "unstructured": "US Geological Survey(2023)USGS water data for the nation: U.S. Geological Survey National Water Information System database. Available from:https://doi.org/10.5066/F7P55KJN(accessed 12 July 2023)."
+      }
+    ],
+    "container-title": [
+      "Earth Surface Processes and Landforms"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/esp.5772",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          6
+        ]
+      ],
+      "date-time": "2025-02-06T07:32:10Z",
+      "timestamp": 1738827130000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/esp.5772"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          24
+        ]
+      ]
+    },
+    "references-count": 54,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            30
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/esp.5772"
+    ],
+    "URL": "https://doi.org/10.1002/esp.5772",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0197-9337",
+      "1096-9837"
+    ],
+    "issn-type": [
+      {
+        "value": "0197-9337",
+        "type": "print"
+      },
+      {
+        "value": "1096-9837",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          24
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2023-08-15",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-01-03",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-01-24",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.1002/esp.5772",
+  "original_doi": "10.1002/esp.5772"
+}

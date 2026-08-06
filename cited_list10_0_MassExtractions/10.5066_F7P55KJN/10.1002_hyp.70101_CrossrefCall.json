@@ -1,0 +1,1383 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          28
+        ]
+      ],
+      "date-time": "2026-07-28T15:55:01Z",
+      "timestamp": 1785254101203,
+      "version": "3.55.0"
+    },
+    "reference-count": 193,
+    "publisher": "Wiley",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              15
+            ]
+          ],
+          "date-time": "2025-03-15T00:00:00Z",
+          "timestamp": 1741996800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 14,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Hydrological Processes"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>The dynamic storage of aquifers is the portion of groundwater that can potentially drain to any given point along a stream to create baseflow. Baseflow typically occurs year\u2010round in perennial streams, though the characteristics and stability of dynamic storage are often most important to instream processes during extended dry periods (without precipitation and snowmelt) when runoff and quickflows are minimised. The term \u2018baseflow resilience\u2019 is defined for this review as the tendency of baseflow in streams to maintain a consistent volume and water quality year to year while under stress from climate variability and extremes, along with anthropogenic stressors such as water withdrawals, land use change, and water quality degradation. \u2018Baseflow resilience\u2019 has, in part, a user\u2010defined meaning spanning water supply and water quality variables of primary interest. Watershed characteristics that directly impact resilience can often produce non\u2010intuitive feedbacks that enhance some attributes of baseflow while simultaneously impairing others. For example, permeable stream corridor geology creates strong stream\u2010groundwater hydrologic connectivity, yet fast groundwater drainage via preferential high\u2010permeability flowpaths can lead to streamflow not being sustained during extended dry periods. Also, shallow groundwater sources are generally more immediately vulnerable to extreme events, warming, salinization, transpiration, and precipitation drought, compared to deeper groundwater. Yet baseflow drought in streams influenced by deeper groundwater can lag precipitation drought by years, and contaminant legacies may propagate through deep groundwater flowpaths to receiving waters for decades to centuries. Finally, irrigation withdrawals can intercept groundwater that would have drained to streams, and the application of irrigation may leach contaminants from the soil zone by unnaturally raising water tables, yet irrigation return flows can sustain baseflow and groundwater\u2010dependent habitats in semiarid areas. This review covers the concept of hydrologic resilience in the context of stream baseflow processes and summarises the common hydrogeological controls on, and multiscale stressors of, dynamic groundwater storage. Further, we present several quantitative metrics to assess a range of water supply to water quality baseflow characteristics using both broadly available and boutique data types, a subset of which are demonstrated using data from the Delaware River Basin, USA.</jats:p>",
+    "DOI": "10.1002/hyp.70101",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          15
+        ]
+      ],
+      "date-time": "2025-03-15T06:58:58Z",
+      "timestamp": 1742021938000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 19,
+    "title": [
+      "James Buttle Review: The Characteristics of Baseflow Resilience Across Diverse Ecohydrological Terrains"
+    ],
+    "prefix": "10.1002",
+    "volume": "39",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-3206-4132",
+        "authenticated-orcid": false,
+        "given": "Martin A.",
+        "family": "Briggs",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Water Mission Area\u2013Observing Systems Division Hydrologic Remote Sensing Branch  Storrs CT USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Connor",
+        "family": "Newman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Colorado Water Science Center  Lakewood USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1698-6455",
+        "authenticated-orcid": false,
+        "given": "Joshua R.",
+        "family": "Benton",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Akima Systems Engineering, Contractor to the U.S. Geological Survey Florence Bascom Geoscience Center  Reston USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2629-365X",
+        "authenticated-orcid": false,
+        "given": "David M.",
+        "family": "Rey",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Water Mission Area\u2013Observing Systems Division Hydrologic Remote Sensing Branch  Storrs CT USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7354-547X",
+        "authenticated-orcid": false,
+        "given": "Christopher P.",
+        "family": "Konrad",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Washington Water Science Center  Tacoma USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Valerie",
+        "family": "Ouellet",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NOAA/Atlantic Salmon Federation  Brunswick USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christian E.",
+        "family": "Torgersen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Forest and Rangeland Ecosystem Science Center  Corvallis USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lance",
+        "family": "Gruhn",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Water Mission Area \u2013 Earth System Processes Division Hydrologic Networks Branch  Reston USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Brandon J.",
+        "family": "Fleming",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Pennsylvania Water Science Center  New Cumberland USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christopher",
+        "family": "Gazoorian",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey New York Water Science Center  Troy USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daniel H.",
+        "family": "Doctor",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Florence Bascom Geoscience Center  Reston Virginia USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          15
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_11_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1607171113"
+      },
+      {
+        "key": "e_1_2_11_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR028027"
+      },
+      {
+        "key": "e_1_2_11_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023WR035327"
+      },
+      {
+        "key": "e_1_2_11_5_1",
+        "unstructured": "Barlow P. M. andK. M.Hess.1993.\u201cSimulated Hydrologic Responses of the Quashnet River Stream\u2010Aquifer System to Proposed Ground\u2010Water Withdrawals Cape Cod Massachusetts \u201dU.S. Geological Survey Report 93\u20104064 51."
+      },
+      {
+        "key": "e_1_2_11_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.11141"
+      },
+      {
+        "key": "e_1_2_11_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011WR010604"
+      },
+      {
+        "key": "e_1_2_11_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/f00-056"
+      },
+      {
+        "key": "e_1_2_11_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR017552"
+      },
+      {
+        "key": "e_1_2_11_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41561\u2010024\u201001453\u2010x"
+      },
+      {
+        "key": "e_1_2_11_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.hydroa.2024.100173"
+      },
+      {
+        "key": "e_1_2_11_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020wr028029"
+      },
+      {
+        "key": "e_1_2_11_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2010WR009547"
+      },
+      {
+        "key": "e_1_2_11_14_1",
+        "unstructured": "Blodgett D. andM.Johnson.2023.\u201cnhdplusTools: Tools for Accessing and Working With the NHDPlus.\u201dhttps://doi.org/10.5066/P97AS8JD."
+      },
+      {
+        "key": "e_1_2_11_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2014.06.057"
+      },
+      {
+        "key": "e_1_2_11_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.11119"
+      },
+      {
+        "key": "e_1_2_11_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s44221\u2010024\u201000376\u20106"
+      },
+      {
+        "key": "e_1_2_11_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2020.143838"
+      },
+      {
+        "key": "e_1_2_11_19_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Briggs M. A. C. L.Gazoorian D. H.Doctor andD. A.Burns.2022b.\u201cA Multiscale Approach for Monitoring Groundwater Discharge to Headwater Streams by the U.S. Geological Survey Next Generation Water Observing System Program\u2014An Example From The Neversink Reservoir Watershed New York.\u201dhttps://doi.org/10.3133/fs20223077.U.S. Geological Survey Fact Sheet 2022\u20133077.",
+        "DOI": "10.3133/fs20223077"
+      },
+      {
+        "key": "e_1_2_11_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201026\u20103989\u20102022"
+      },
+      {
+        "key": "e_1_2_11_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.13178"
+      },
+      {
+        "key": "e_1_2_11_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2018.04.344"
+      },
+      {
+        "key": "e_1_2_11_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.limno.2017.02.005"
+      },
+      {
+        "key": "e_1_2_11_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.13752"
+      },
+      {
+        "key": "e_1_2_11_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2019.05.371"
+      },
+      {
+        "key": "e_1_2_11_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.adg9430"
+      },
+      {
+        "key": "e_1_2_11_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2020.144442"
+      },
+      {
+        "key": "e_1_2_11_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR030605"
+      },
+      {
+        "key": "e_1_2_11_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR013i003p00637"
+      },
+      {
+        "key": "e_1_2_11_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/98WR01282"
+      },
+      {
+        "key": "e_1_2_11_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2003.09.022"
+      },
+      {
+        "key": "e_1_2_11_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w13162249"
+      },
+      {
+        "key": "e_1_2_11_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2018.08.069"
+      },
+      {
+        "key": "e_1_2_11_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.13151"
+      },
+      {
+        "key": "e_1_2_11_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR028161"
+      },
+      {
+        "key": "e_1_2_11_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s44221\u2010024\u201000239\u20100"
+      },
+      {
+        "key": "e_1_2_11_37_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Carroll R. W. H. A. H. Manning and K. H. Williams. 2025.The Role of Bedrock Circulation Depth and Porosity in Mountain Streamflow Response to Prolonged Drought.Geophysical Research Letters52: e2024GL112927.https://doi.org/10.1029/2024GL112927.",
+        "DOI": "10.1029/2024GL112927"
+      },
+      {
+        "key": "e_1_2_11_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/app10020425"
+      },
+      {
+        "key": "e_1_2_11_39_1",
+        "unstructured": "Cole J. C. N. J.Grim andB. J.Fleming.2024.\u201cPaired Air and Water Temperature Data for Two Watersheds in the Delaware River Basin.\u201dhttps://doi.org/10.5066/P9VXW2BN.U.S. Geological Survey Data Release."
+      },
+      {
+        "key": "e_1_2_11_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2023.129646"
+      },
+      {
+        "key": "e_1_2_11_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2022.128242"
+      },
+      {
+        "key": "e_1_2_11_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467\u2010020\u201014688\u20100"
+      },
+      {
+        "key": "e_1_2_11_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41558\u2010018\u20100386\u20104"
+      },
+      {
+        "key": "e_1_2_11_44_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "DeSimone L. A. P. B.McMahon andM. R.Rosen.2015.\u201cThe Quality of Our Nation's Waters: Water Quality in Principal Aquifers of the United States.\u201dhttps://doi.org/10.3133/cir1360.1991\u20102010. US Geological Suvey Circular 1360.",
+        "DOI": "10.3133/cir1360"
+      },
+      {
+        "key": "e_1_2_11_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/07011784.2021.1960894"
+      },
+      {
+        "key": "e_1_2_11_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43247\u2010023\u201000773\u2010x"
+      },
+      {
+        "key": "e_1_2_11_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015GL066007"
+      },
+      {
+        "key": "e_1_2_11_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201021\u201065\u20102017"
+      },
+      {
+        "key": "e_1_2_11_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.adk5713"
+      },
+      {
+        "key": "e_1_2_11_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/678127"
+      },
+      {
+        "key": "e_1_2_11_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023WR036260"
+      },
+      {
+        "key": "e_1_2_11_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2017.04.205"
+      },
+      {
+        "key": "e_1_2_11_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43247\u2010023\u201000697\u20106"
+      },
+      {
+        "key": "e_1_2_11_54_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fleming B. J. P. A.Hammond S. A.Stranko M. T.Duigon andS.Kasraei.2012.\u201cA Science Plan for a Comprehensive Assessment of Water Supply in the Region Underlain by Fractured Rock in Maryland \u201dU.S. Geological Survey Scientific Investigations Report 2012\u20135160 29.",
+        "DOI": "10.3133/sir20125160"
+      },
+      {
+        "key": "e_1_2_11_55_1",
+        "volume-title": "Catskill Rivers: Birthplace of American Fly Fishing",
+        "author": "Francis A. M.",
+        "year": "2005"
+      },
+      {
+        "key": "e_1_2_11_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.10506"
+      },
+      {
+        "key": "e_1_2_11_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1299"
+      },
+      {
+        "key": "e_1_2_11_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.9943"
+      },
+      {
+        "key": "e_1_2_11_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jofore/fvz069"
+      },
+      {
+        "key": "e_1_2_11_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2024.106124"
+      },
+      {
+        "key": "e_1_2_11_61_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gordon B. L. P. D. Brooks S. A. Krogh et\u00a0al. 2022.\u201cWhy Does Snowmelt\u2010Driven Streamflow Response to Warming Vary? A Data\u2010Driven Review and Predictive Framework.\u201dEnvironmental Research Letters17: 053004.https://doi.org.10.1088/1748\u20109326/ac64b4.",
+        "DOI": "10.1088/1748-9326/ac64b4"
+      },
+      {
+        "key": "e_1_2_11_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586\u2010023\u201006794\u2010y"
+      },
+      {
+        "key": "e_1_2_11_63_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gruhn L. R. andW.Morrow.2020.\u201cUse of Real\u2010Time Sensors to Temporally Characterize Water Quality in Groundwater and Surface Water in Mason County 2017\u201319.\u201dhttps://doi.org/10.3133/sir20205108.",
+        "DOI": "10.3133/sir20205108"
+      },
+      {
+        "key": "e_1_2_11_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s44221\u2010024\u201000384\u20106"
+      },
+      {
+        "key": "e_1_2_11_65_1",
+        "first-page": "353",
+        "volume-title": "CM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies (COMPASS) (COMPASS \u201822)",
+        "author": "Gupta A.",
+        "year": "2022"
+      },
+      {
+        "key": "e_1_2_11_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023WR035362"
+      },
+      {
+        "key": "e_1_2_11_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43247\u2010023\u201000751\u20103"
+      },
+      {
+        "key": "e_1_2_11_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022EF003092"
+      },
+      {
+        "key": "e_1_2_11_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR031930"
+      },
+      {
+        "key": "e_1_2_11_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR033912"
+      },
+      {
+        "key": "e_1_2_11_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lol2.10423"
+      },
+      {
+        "key": "e_1_2_11_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467\u2010021\u201021651\u20100"
+      },
+      {
+        "key": "e_1_2_11_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR025967"
+      },
+      {
+        "key": "e_1_2_11_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2013WR015051"
+      },
+      {
+        "key": "e_1_2_11_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.14939"
+      },
+      {
+        "key": "e_1_2_11_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752\u20101688.13095"
+      },
+      {
+        "key": "e_1_2_11_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR025441"
+      },
+      {
+        "key": "e_1_2_11_78_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/fwb.14287"
+      },
+      {
+        "key": "e_1_2_11_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2024GL109826"
+      },
+      {
+        "key": "e_1_2_11_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.3502"
+      },
+      {
+        "key": "e_1_2_11_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/ds1052"
+      },
+      {
+        "key": "e_1_2_11_82_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41893\u2010023\u201001086\u20109"
+      },
+      {
+        "key": "e_1_2_11_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011GL050797"
+      },
+      {
+        "key": "e_1_2_11_84_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201024\u20101159\u20102020"
+      },
+      {
+        "key": "e_1_2_11_85_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ngeo2636"
+      },
+      {
+        "key": "e_1_2_11_86_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467\u2010020\u201016156\u20101"
+      },
+      {
+        "key": "e_1_2_11_87_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2024.131391"
+      },
+      {
+        "key": "e_1_2_11_88_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016WR019186"
+      },
+      {
+        "key": "e_1_2_11_89_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2415155122"
+      },
+      {
+        "key": "e_1_2_11_90_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00254\u2010004\u20101061\u20109"
+      },
+      {
+        "key": "e_1_2_11_91_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/frwa.2021.706932"
+      },
+      {
+        "key": "e_1_2_11_92_1",
+        "unstructured": "Kelly W. R. andC.Ray.1999.\u201cImpact of Irrigation on the Dynamics of Nitrate Movement in a Shallow Sand Aquifer 65 \u201d\u201cISWS RR\u2010128\u201d."
+      },
+      {
+        "key": "e_1_2_11_93_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008WR006912"
+      },
+      {
+        "key": "e_1_2_11_94_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2005WR004197"
+      },
+      {
+        "key": "e_1_2_11_95_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM\u2010D\u201018\u20100121.1"
+      },
+      {
+        "key": "e_1_2_11_96_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Konrad C. P.2022.\u201cBFS\u2014A Non\u2010Linear State\u2010Space Model for Baseflow Separation and Prediction.\u201dhttps://doi.org/10.3133/sir20225114.U.S. Geological Survey Scientific Investigations Report 2022\u20135114.",
+        "DOI": "10.3133/sir20225114"
+      },
+      {
+        "key": "e_1_2_11_97_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10661\u2010023\u201011829\u2010y"
+      },
+      {
+        "key": "e_1_2_11_98_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41893\u2010022\u201000873\u20100"
+      },
+      {
+        "key": "e_1_2_11_99_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.14519"
+      },
+      {
+        "key": "e_1_2_11_100_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eco.1566"
+      },
+      {
+        "key": "e_1_2_11_101_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0058978"
+      },
+      {
+        "key": "e_1_2_11_102_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.earscirev.2021.103623"
+      },
+      {
+        "key": "e_1_2_11_103_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es502244v"
+      },
+      {
+        "key": "e_1_2_11_104_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2023.130256"
+      },
+      {
+        "key": "e_1_2_11_105_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2020.125066"
+      },
+      {
+        "key": "e_1_2_11_106_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201018\u20103367\u20102014"
+      },
+      {
+        "key": "e_1_2_11_107_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020JD033005"
+      },
+      {
+        "key": "e_1_2_11_108_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev\u2010environ\u2010111522\u2010104534"
+      },
+      {
+        "key": "e_1_2_11_109_1",
+        "article-title": "Groundwater Hydrology of the San Pedro River Basin",
+        "author": "MacNish R.",
+        "year": "2009",
+        "journal-title": "Ecology and Conservation of the San Pedro River"
+      },
+      {
+        "key": "e_1_2_11_110_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10040\u2010022\u201002545\u2010x"
+      },
+      {
+        "key": "e_1_2_11_111_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR025676"
+      },
+      {
+        "key": "e_1_2_11_112_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.14480"
+      },
+      {
+        "key": "e_1_2_11_113_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ngeo315"
+      },
+      {
+        "key": "e_1_2_11_114_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021wr030443"
+      },
+      {
+        "key": "e_1_2_11_115_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586\u2010021\u201003761\u20103"
+      },
+      {
+        "key": "e_1_2_11_116_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43017\u2010024\u201000557\u20107"
+      },
+      {
+        "key": "e_1_2_11_117_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.13632"
+      },
+      {
+        "key": "e_1_2_11_118_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2015.12.027"
+      },
+      {
+        "key": "e_1_2_11_119_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gcb.16844"
+      },
+      {
+        "key": "e_1_2_11_120_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR017963"
+      },
+      {
+        "key": "e_1_2_11_121_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2013WR014939"
+      },
+      {
+        "key": "e_1_2_11_122_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2016.06.063"
+      },
+      {
+        "key": "e_1_2_11_123_1",
+        "first-page": "1252",
+        "article-title": "Colorado River Flow Dwindles as Warming\u2010Driven Loss of Reflective Snow Energizes Evaporation",
+        "volume": "1255",
+        "author": "Milly P. C. D.",
+        "year": "2020",
+        "journal-title": "Water Resources"
+      },
+      {
+        "key": "e_1_2_11_124_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.4073"
+      },
+      {
+        "key": "e_1_2_11_125_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/nph.17742"
+      },
+      {
+        "key": "e_1_2_11_126_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.14394"
+      },
+      {
+        "key": "e_1_2_11_127_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/frwa.2023.1144225"
+      },
+      {
+        "key": "e_1_2_11_128_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nelms D. G. E.HarlowJr. andD.Hayes.1995.\u201cBase\u2010Flow Characteristics of Streams in the Valley and Ridge Blue Ridge and Piedmont Physiographic Provinces of Virginia \u201dU.S. Geological Survey Open\u2010File Report 95\u2013298.",
+        "DOI": "10.3133/ofr95298"
+      },
+      {
+        "key": "e_1_2_11_129_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.14926"
+      },
+      {
+        "key": "e_1_2_11_130_1",
+        "unstructured": "Nutter L. J. andE.Otten.1969.\u201cGroundwater Occurrence in the Maryland Piedmont Maryland. Geological Survey \u201dReport of Investigations No. 10."
+      },
+      {
+        "key": "e_1_2_11_131_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.acags.2023.100116"
+      },
+      {
+        "key": "e_1_2_11_132_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586\u2010023\u201006092\u20107"
+      },
+      {
+        "key": "e_1_2_11_133_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.catena.2019.02.006"
+      },
+      {
+        "key": "e_1_2_11_134_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR028122"
+      },
+      {
+        "key": "e_1_2_11_135_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1728"
+      },
+      {
+        "key": "e_1_2_11_136_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abd5085"
+      },
+      {
+        "key": "e_1_2_11_137_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.0c07978"
+      },
+      {
+        "key": "e_1_2_11_138_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biosci/biaa015"
+      },
+      {
+        "key": "e_1_2_11_139_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2023.129272"
+      },
+      {
+        "key": "e_1_2_11_140_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2024.131528"
+      },
+      {
+        "key": "e_1_2_11_141_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/WAT2.1334"
+      },
+      {
+        "key": "e_1_2_11_142_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gwat.13437"
+      },
+      {
+        "key": "e_1_2_11_143_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s44221\u2010024\u201000221\u2010w"
+      },
+      {
+        "key": "e_1_2_11_144_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.10403"
+      },
+      {
+        "key": "e_1_2_11_145_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rutledge A. T. andT. O.Mesko.1996.\u201cEstimated Hydrologic Characteristics of Shallow Aquifer Systems in the Valley and Ridge the Blue Ridge and the Piedmont Physiographic Provinces Based on Analysis of Streamflow Recession and Base Flow \u201dU.S. Geological Survey Professional Paper 1422\u2010B.",
+        "DOI": "10.3133/pp1422B"
+      },
+      {
+        "key": "e_1_2_11_146_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201018\u20103693\u20102014"
+      },
+      {
+        "key": "e_1_2_11_147_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4172/2157\u20107587.1000191"
+      },
+      {
+        "key": "e_1_2_11_148_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es401334k"
+      },
+      {
+        "key": "e_1_2_11_149_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467\u2010022\u201030729\u20102"
+      },
+      {
+        "key": "e_1_2_11_150_1",
+        "volume-title": "A Manual of Field Hydrogeology",
+        "author": "Saunders L. L.",
+        "year": "1998"
+      },
+      {
+        "key": "e_1_2_11_151_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201022\u20101221\u20102018"
+      },
+      {
+        "key": "e_1_2_11_152_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43017\u2010022\u201000378\u20106"
+      },
+      {
+        "key": "e_1_2_11_153_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2021.126917"
+      },
+      {
+        "key": "e_1_2_11_154_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.10626"
+      },
+      {
+        "key": "e_1_2_11_155_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-1694(79)90164-1"
+      },
+      {
+        "key": "e_1_2_11_156_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eco.2739"
+      },
+      {
+        "key": "e_1_2_11_157_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.13915"
+      },
+      {
+        "key": "e_1_2_11_158_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10040\u2010008\u20100341\u2010y"
+      },
+      {
+        "key": "e_1_2_11_159_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stagnitta T. J. A. P.Graziano J. C.Woda R. L.Glas andC. L.Gazoorian.2024.\u201cLow\u2010Flow Statistics for Selected Streams in New York Excluding Long Island.\u201dhttps://doi.org/10.3133/sir20245055. U.S. Geological Survey Scientific Investigations Report 2024\u20135055.",
+        "DOI": "10.3133/sir20245055"
+      },
+      {
+        "key": "e_1_2_11_160_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.11158"
+      },
+      {
+        "key": "e_1_2_11_161_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201019\u20102587\u20102015"
+      },
+      {
+        "key": "e_1_2_11_162_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.7576"
+      },
+      {
+        "key": "e_1_2_11_163_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2014GL061344"
+      },
+      {
+        "key": "e_1_2_11_164_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eco.2295"
+      },
+      {
+        "key": "e_1_2_11_165_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10584\u2010007\u20109294\u20108"
+      },
+      {
+        "key": "e_1_2_11_166_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008WR007179"
+      },
+      {
+        "key": "e_1_2_11_167_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748\u20109326/acd655"
+      },
+      {
+        "key": "e_1_2_11_168_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR026425"
+      },
+      {
+        "key": "e_1_2_11_169_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.13530"
+      },
+      {
+        "key": "e_1_2_11_170_1",
+        "volume-title": "Stream Temperature, Dissolved Radon, and Stable Water Isotope Data Collected Along Headwater Streams in the Upper Neversink River Watershed, NY, USA",
+        "author": "Terry N.",
+        "year": "2022"
+      },
+      {
+        "key": "e_1_2_11_171_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s44221\u2010024\u201000300\u2010y"
+      },
+      {
+        "key": "e_1_2_11_172_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017GL076005"
+      },
+      {
+        "key": "e_1_2_11_173_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Thomas J. C. P. B.McMahon andL. R.Arnold.2019.\u201cGroundwater Quality and Hydrology With Emphasis on Selenium Mobilization and Transport in the Lower Gunnison River Basin \u201dColorado 2012\u20132016: Scientific Investigations Report 2019\u20135029.",
+        "DOI": "10.3133/sir20195029"
+      },
+      {
+        "key": "e_1_2_11_174_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0034-4257(01)00186-9"
+      },
+      {
+        "key": "e_1_2_11_175_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/brv.12810"
+      },
+      {
+        "key": "e_1_2_11_176_1",
+        "unstructured": "U.S. Geological Survey.2011.\u201cGAGES\u2010II\u2014Geospatial Attributes of Gages for Evaluating Streamflow: U.S. Geological Survey Database.\u201dhttps://water.usgs.gov/GIS/metadata/usgswrd/XML/gagesII_Sept2011.xml."
+      },
+      {
+        "key": "e_1_2_11_177_1",
+        "unstructured": "U.S. Geological Survey.2024.\u201cUSGS Water Data for the Nation: U.S. Geological Survey National Water Information System Database.\u201dhttps://doi.org/10.5066/F7P55KJN."
+      },
+      {
+        "key": "e_1_2_11_178_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ngeo2646"
+      },
+      {
+        "key": "e_1_2_11_179_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10040\u2010022\u201002496\u20103"
+      },
+      {
+        "issue": "3",
+        "key": "e_1_2_11_180_1",
+        "first-page": "345",
+        "article-title": "Common Spring Types in the Valley and Ridge Province: There Is More Than Karst",
+        "volume": "26",
+        "author": "Vesper D. J.",
+        "year": "2020",
+        "journal-title": "Geological Society of America"
+      },
+      {
+        "key": "e_1_2_11_181_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s44221\u2010024\u201000372\u2010w"
+      },
+      {
+        "key": "e_1_2_11_182_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/00010694\u2010196510000\u201000016"
+      },
+      {
+        "key": "e_1_2_11_183_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.70075"
+      },
+      {
+        "key": "e_1_2_11_184_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023WR035044"
+      },
+      {
+        "key": "e_1_2_11_185_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.SCITOTENV.2018.12.215"
+      },
+      {
+        "key": "e_1_2_11_186_1",
+        "first-page": "79",
+        "article-title": "Ground Water and Surface Water: A Single Resource",
+        "volume": "1139",
+        "author": "Winter T. C.",
+        "year": "1998",
+        "journal-title": "U. S. Geological Survey Circular"
+      },
+      {
+        "key": "e_1_2_11_187_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR026635"
+      },
+      {
+        "key": "e_1_2_11_188_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43017\u2010021\u201000219\u2010y"
+      },
+      {
+        "key": "e_1_2_11_189_1",
+        "unstructured": "World Meteorological Organization.2008.\u201cManual on Low\u2010Flow Estimation and Prediction \u201dOperational Hydrology Report No. 50 WMO No. 10."
+      },
+      {
+        "key": "e_1_2_11_190_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748\u20109326/abf393"
+      },
+      {
+        "key": "e_1_2_11_191_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s44221\u2010024\u201000366\u20108"
+      },
+      {
+        "key": "e_1_2_11_192_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mex.2023.102134"
+      },
+      {
+        "key": "e_1_2_11_193_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.0c01340"
+      },
+      {
+        "key": "e_1_2_11_194_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748\u20109326/ac14ec"
+      }
+    ],
+    "container-title": [
+      "Hydrological Processes"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/hyp.70101",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          1
+        ]
+      ],
+      "date-time": "2025-12-01T07:02:58Z",
+      "timestamp": 1764572578000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/hyp.70101"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3
+        ]
+      ]
+    },
+    "references-count": 193,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/hyp.70101"
+    ],
+    "URL": "https://doi.org/10.1002/hyp.70101",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0885-6087",
+      "1099-1085"
+    ],
+    "issn-type": [
+      {
+        "value": "0885-6087",
+        "type": "print"
+      },
+      {
+        "value": "1099-1085",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          3
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2024-10-02",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-02-23",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-03-15",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e70101"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1002/hyp.70101",
+  "original_doi": "10.1002/hyp.70101"
+}
