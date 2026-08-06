@@ -2,7 +2,7 @@
 Results.py
 ----------
 For each DataciteResult JSON file, run checks against every individual
-Crossref-call JSON file found in the 10.26093_cds_vizier.1350 folder.
+Crossref-call JSON file found in the corresponding Datacite folder.
 
 Checks (per Crossref file):
   1. DOITest       – Is the canonical_doi found anywhere in the Crossref JSON?
@@ -25,9 +25,9 @@ from typing import Any, Dict, List, Optional
 # Path configuration
 # ---------------------------------------------------------------------------
 SCRIPT_DIR = Path(__file__).parent
-DATACITE_DIR = SCRIPT_DIR / "DataciteResults"
-CROSSREF_DIR = SCRIPT_DIR / "10.26093_cds_vizier.1350"
-OUTPUT_DIR = SCRIPT_DIR / "CrossCheckResults cited_list10_0"
+DATACITE_DIR = SCRIPT_DIR / "10.7927_NQ55-CR83_DataciteResult.JSON"
+CROSSREF_DIR = SCRIPT_DIR / "10.7927_NQ55-CR83"
+OUTPUT_DIR = SCRIPT_DIR / "CrossCheckResults10.7927_NQ55-CR83"
 
 
 # ---------------------------------------------------------------------------
