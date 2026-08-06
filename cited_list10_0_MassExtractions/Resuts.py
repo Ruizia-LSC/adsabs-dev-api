@@ -24,22 +24,27 @@ Output is written to
 """
 
 import json
+import sys
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 
 # ---------------------------------------------------------------------------
-# Path configuration  –  only edit DATACITE_FILE to switch datasets
+# Path configuration
 # ---------------------------------------------------------------------------
 SCRIPT_DIR = Path(__file__).parent
 
-# Single DataciteResult file to process
-DATACITE_FILE: Path = SCRIPT_DIR / "10.7927_NQ55-CR83_DataciteResult.JSON"
+# Pass dataset base via CLI, e.g.:
+#   python Resuts.py 10.5066_F7P55KJN
+# Defaults to previous dataset if omitted.
+DATASET_BASE = sys.argv[1] if len(sys.argv) > 1 else "10.7927_NQ55-CR83"
 
-# Sibling Crossref folder: derived automatically by stripping "_DataciteResult"
-# from the DataciteResult file stem.
-# e.g. "10.7927_NQ55-CR83_DataciteResult.JSON" → "10.7927_NQ55-CR83/"
-CROSSREF_DIR: Path = SCRIPT_DIR / DATACITE_FILE.stem.replace("_DataciteResult", "")
+# Single DataciteResult file to process
+DATACITE_FILE: Path = SCRIPT_DIR / f"{DATASET_BASE}_DataciteResult.JSON"
+
+# Sibling Crossref folder derived from dataset base.
+# e.g. "10.5066_F7P55KJN" -> "10.5066_F7P55KJN/"
+CROSSREF_DIR: Path = SCRIPT_DIR / DATASET_BASE
 
 # Output folder
 OUTPUT_DIR: Path = SCRIPT_DIR / "CrossCheckResults"
@@ -298,7 +303,7 @@ def main() -> None:
     output = process_datacite_file(DATACITE_FILE, crossref_files)
 
     # Name the output after the DataciteResult stem
-    # e.g. "10.7927_NQ55-CR83_DataciteResult" → "10.7927_NQ55-CR83_CrossCheckResult.json"
+    # e.g. "10.7927_NQ55-CR83_DataciteResult" -> "10.7927_NQ55-CR83_CrossCheckResult.json"
     out_name = DATACITE_FILE.stem.replace("_DataciteResult", "_CrossCheckResult") + ".json"
     out_path = OUTPUT_DIR / out_name
 
