@@ -1,19 +1,26 @@
 """
 Results.py
 ----------
-For each DataciteResult JSON file, run checks against every individual
-Crossref-call JSON file found in the corresponding Datacite folder.
+Runs checks for ONE DataciteResult JSON file against every individual
+Crossref-call JSON file found in the corresponding sibling Crossref folder.
+
+Pair example
+  DataciteResult file : 10.7927_NQ55-CR83_DataciteResult.JSON
+  Crossref folder     : 10.7927_NQ55-CR83/
+
+The sibling relationship is derived automatically from the DataciteResult
+filename: strip the "_DataciteResult" suffix to get the Crossref folder name.
 
 Checks (per Crossref file):
-  1. DOITest       – Is the canonical_doi found anywhere in the Crossref JSON?
-  2. TitleTest     – Is any current title found anywhere in the Crossref JSON?
-     PreviousTitle – Were titles ever different across DataCite history entries?
+  1. DOITest        – Is the canonical_doi found anywhere in the Crossref JSON?
+  2. TitleTest      – Is any current title found anywhere in the Crossref JSON?
+     PreviousTitle  – Were titles ever different across DataCite history entries?
   3. ContainerFound – Container(s) where DOI/title metadata are found;
      "null" if both DOITest and TitleTest are False, or if canonical_doi is blank,
      or if titles are empty/blank.
 
-One output file is written per DataciteResult, saved to
-  API_Datacite&CrossRef_MassExtractions/CrossCheckResults/
+Output is written to
+  cited_list10_0_MassExtractions/CrossCheckResults/
 """
 
 import json
@@ -22,12 +29,20 @@ from typing import Any, Dict, List, Optional
 
 
 # ---------------------------------------------------------------------------
-# Path configuration
+# Path configuration  –  only edit DATACITE_FILE to switch datasets
 # ---------------------------------------------------------------------------
 SCRIPT_DIR = Path(__file__).parent
-DATACITE_DIR = SCRIPT_DIR / "10.7927_NQ55-CR83_DataciteResult.JSON"
-CROSSREF_DIR = SCRIPT_DIR / "10.7927_NQ55-CR83"
-OUTPUT_DIR = SCRIPT_DIR / "CrossCheckResults10.7927_NQ55-CR83"
+
+# Single DataciteResult file to process
+DATACITE_FILE: Path = SCRIPT_DIR / "10.7927_NQ55-CR83_DataciteResult.JSON"
+
+# Sibling Crossref folder: derived automatically by stripping "_DataciteResult"
+# from the DataciteResult file stem.
+# e.g. "10.7927_NQ55-CR83_DataciteResult.JSON" → "10.7927_NQ55-CR83/"
+CROSSREF_DIR: Path = SCRIPT_DIR / DATACITE_FILE.stem.replace("_DataciteResult", "")
+
+# Output folder
+OUTPUT_DIR: Path = SCRIPT_DIR / "CrossCheckResults"
 
 
 # ---------------------------------------------------------------------------
@@ -146,41 +161,37 @@ def check_container_found(
       - "null" if both tests are False
       - "null" if canonical_doi is blank
       - "null" if titles are empty/blank
-      - one raw container (dict or list) if DOI and title resolve to same container
+      - one raw container (dict or list) if DOI and title resolve to the same container
       - list of raw containers if they resolve to different containers
     """
-    # Validation guard: if canonical DOI is blank OR titles are empty/blank,
-    # force ContainerFound to "null".
     if not canonical_doi or not canonical_doi.strip():
         return "null"
     if not titles or not any(isinstance(t, str) and t.strip() for t in titles):
         return "null"
-
     if not doi_found and not title_found:
         return "null"
 
-    containers: List[Any] = []  # store raw dicts/lists for proper pretty-printing
-    seen = set()
+    containers: List[Any] = []
+    seen: set = set()
 
     if doi_found:
         doi_container = find_container(crossref_data, canonical_doi)
         if doi_container is not None:
-            norm = _normalize_container(doi_container)  # used only for dedup
+            norm = _normalize_container(doi_container)
             if norm not in seen:
                 seen.add(norm)
-                containers.append(doi_container)  # append raw object
+                containers.append(doi_container)
 
     if title_found:
-        title_container_raw = None
         for title in titles:
             if title and json_contains_string(crossref_data, title):
-                title_container_raw = find_container(crossref_data, title)
+                title_container = find_container(crossref_data, title)
+                if title_container is not None:
+                    norm = _normalize_container(title_container)
+                    if norm not in seen:
+                        seen.add(norm)
+                        containers.append(title_container)
                 break
-        if title_container_raw is not None:
-            norm = _normalize_container(title_container_raw)
-            if norm not in seen:
-                seen.add(norm)
-                containers.append(title_container_raw)  # append raw object
 
     if not containers:
         return "null"
@@ -190,7 +201,7 @@ def check_container_found(
 
 
 # ---------------------------------------------------------------------------
-# Main processing
+# Core processing
 # ---------------------------------------------------------------------------
 
 def process_datacite_file(
@@ -211,7 +222,6 @@ def process_datacite_file(
     current_titles: List[str] = current.get("titles", [])
 
     previous_title_flag = check_previous_title(history)
-
     results: List[Dict[str, Any]] = []
 
     for cf_path in sorted(crossref_files):
@@ -219,7 +229,8 @@ def process_datacite_file(
         if crossref_data is None:
             continue
 
-        # Derive the publication DOI from the file itself (stored as original_doi)
+        # Derive the publication DOI from the file itself (stored as original_doi),
+        # or fall back to reconstructing it from the filename.
         original_doi: str = (
             crossref_data.get("original_doi", "")
             if isinstance(crossref_data, dict)
@@ -238,27 +249,38 @@ def process_datacite_file(
             title_check["TitleTest"],
         )
 
-        entry: Dict[str, Any] = {
+        results.append({
             "Publication DOI": original_doi,
             "DOITest": doi_check["DOITest"],
             "TitleTest": title_check["TitleTest"],
             "PreviousTitle": previous_title_flag,
-            "ContainerFound": container_found,  # raw object; json.dump handles formatting
-        }
-        results.append(entry)
+            "ContainerFound": container_found,
+        })
 
-    output: Dict[str, Any] = {
+    return {
         "datasetDOI": canonical_doi,
         "datasetTitle": current_titles,
         "results": results,
     }
-    return output
 
+
+# ---------------------------------------------------------------------------
+# Entry point
+# ---------------------------------------------------------------------------
 
 def main() -> None:
+    # Validate inputs before doing anything
+    if not DATACITE_FILE.is_file():
+        print(f"ERROR: DataciteResult file not found:\n  {DATACITE_FILE}")
+        return
+
+    if not CROSSREF_DIR.is_dir():
+        print(f"ERROR: Sibling Crossref folder not found:\n  {CROSSREF_DIR}")
+        return
+
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Collect all Crossref call files once
+    # Collect all Crossref-call JSON files from the sibling folder
     crossref_files: List[Path] = sorted(
         p for p in CROSSREF_DIR.iterdir()
         if p.is_file() and p.suffix.lower() == ".json"
@@ -267,42 +289,31 @@ def main() -> None:
         print(f"No Crossref files found in {CROSSREF_DIR}")
         return
 
-    # Collect all DataciteResult files
-    datacite_files: List[Path] = sorted(
-        p for p in DATACITE_DIR.iterdir()
-        if p.is_file() and p.suffix.upper() == ".JSON"
+    print(
+        f"DataciteResult : {DATACITE_FILE.name}\n"
+        f"Crossref folder: {CROSSREF_DIR.name}/  ({len(crossref_files)} file(s))\n"
     )
-    if not datacite_files:
-        print(f"No DataciteResult files found in {DATACITE_DIR}")
-        return
+
+    # Process the single pair
+    output = process_datacite_file(DATACITE_FILE, crossref_files)
+
+    # Name the output after the DataciteResult stem
+    # e.g. "10.7927_NQ55-CR83_DataciteResult" → "10.7927_NQ55-CR83_CrossCheckResult.json"
+    out_name = DATACITE_FILE.stem.replace("_DataciteResult", "_CrossCheckResult") + ".json"
+    out_path = OUTPUT_DIR / out_name
+
+    with open(out_path, "w", encoding="utf-8") as fh:
+        json.dump(output, fh, indent=2, ensure_ascii=False)
+
+    total = len(output.get("results", []))
+    doi_hits = sum(1 for r in output.get("results", []) if r.get("DOITest"))
+    title_hits = sum(1 for r in output.get("results", []) if r.get("TitleTest"))
 
     print(
-        f"Processing {len(datacite_files)} DataciteResult file(s) "
-        f"against {len(crossref_files)} Crossref file(s)."
+        f"Output : {out_path}\n"
+        f"Summary: {total} publications checked | "
+        f"DOI hits: {doi_hits} | Title hits: {title_hits}"
     )
-
-    for dc_path in datacite_files:
-        output = process_datacite_file(dc_path, crossref_files)
-
-        # Name the output file after the DataciteResult file
-        stem = dc_path.stem  # e.g. "10.26093_cds_vizier.1350_DataciteResult"
-        out_name = stem.replace("_DataciteResult", "_CrossCheckResult") + ".json"
-        out_path = OUTPUT_DIR / out_name
-
-        with open(out_path, "w", encoding="utf-8") as fh:
-            json.dump(output, fh, indent=2, ensure_ascii=False)
-
-        total = len(output.get("results", []))
-        doi_hits = sum(1 for r in output.get("results", []) if r.get("DOITest"))
-        title_hits = sum(1 for r in output.get("results", []) if r.get("TitleTest"))
-
-        print(
-            f"  {dc_path.name} → {out_name} "
-            f"({total} publications checked | "
-            f"DOI hits: {doi_hits}, Title hits: {title_hits})"
-        )
-
-    print(f"\nDone. Results written to {OUTPUT_DIR}")
 
 
 if __name__ == "__main__":
