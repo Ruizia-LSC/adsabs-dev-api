@@ -1,0 +1,767 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          1
+        ]
+      ],
+      "date-time": "2026-02-01T01:54:17Z",
+      "timestamp": 1769910857561,
+      "version": "3.49.0"
+    },
+    "reference-count": 49,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2021-06-01T00:00:00Z",
+          "timestamp": 1622505600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2021-06-01T00:00:00Z",
+          "timestamp": 1622505600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Talanta"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.talanta.2021.122139",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          29
+        ]
+      ],
+      "date-time": "2021-01-29T01:25:44Z",
+      "timestamp": 1611883544000
+    },
+    "page": "122139",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 40,
+    "special_numbering": "C",
+    "title": [
+      "Comparison of detection limits estimated using single- and multi-concentration spike-based and blank-based procedures"
+    ],
+    "prefix": "10.1016",
+    "volume": "228",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2530-3310",
+        "authenticated-orcid": false,
+        "given": "William T.",
+        "family": "Foreman",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9507-9350",
+        "authenticated-orcid": false,
+        "given": "Teresa L.",
+        "family": "Williams",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7305-4603",
+        "authenticated-orcid": false,
+        "given": "Edward T.",
+        "family": "Furlong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9495-6681",
+        "authenticated-orcid": false,
+        "given": "Dawn M.",
+        "family": "Hemmerle",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4930-4748",
+        "authenticated-orcid": false,
+        "given": "Sarah J.",
+        "family": "Stetson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1076-0738",
+        "authenticated-orcid": false,
+        "given": "Virendra K.",
+        "family": "Jha",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4426-3553",
+        "authenticated-orcid": false,
+        "given": "Mary C.",
+        "family": "Noriega",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4202-3265",
+        "authenticated-orcid": false,
+        "given": "Jessica A.",
+        "family": "Decess",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9579-578X",
+        "authenticated-orcid": false,
+        "given": "Carmen",
+        "family": "Reed-Parker",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0006-5675",
+        "authenticated-orcid": false,
+        "given": "Mark W.",
+        "family": "Sandstrom",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib1",
+        "series-title": "NELAC Laboratory Accreditation Standards for 2003, 2009, and 2016",
+        "year": "2020"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.talanta.2021.122139_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "586",
+        "DOI": "10.1021/ac60259a007",
+        "article-title": "Limits for qualitative detection and quantitative determination. Application to radiochemistry",
+        "volume": "40",
+        "author": "Currie",
+        "year": "1968",
+        "journal-title": "Anal. Chem."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.talanta.2021.122139_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "127",
+        "DOI": "10.1016/S0003-2670(99)00105-1",
+        "article-title": "Detection and quantification limits: origins and historical overview",
+        "volume": "391",
+        "author": "Currie",
+        "year": "1999",
+        "journal-title": "Anal. Chim. Acta"
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "606",
+        "DOI": "10.1016/j.talanta.2014.05.018",
+        "article-title": "Over a century of detection and quantification capabilities in analytical chemistry \u2013 historical overview and trends",
+        "volume": "129",
+        "author": "Belter",
+        "year": "2014",
+        "journal-title": "Talanta"
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "23",
+        "DOI": "10.1016/j.aca.2016.08.043",
+        "article-title": "Tutorial on estimating the limit of detection using LC-MS analysis, part I: theoretical review",
+        "volume": "942",
+        "author": "Evard",
+        "year": "2016",
+        "journal-title": "Anal. Chim. Acta"
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib6",
+        "series-title": "Limits of Detection in Chemical Analysis",
+        "author": "Voigtman",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib7",
+        "series-title": "Data from USGS National Water Quality Laboratory methods used to compare detection limits estimated using single- and multi-concentration spike-based and blank-based procedures",
+        "author": "Foreman",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib8",
+        "year": "2010"
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib9",
+        "series-title": "Standard Practice for Determination of the 99%/95% Critical Level (WCL) and a Reliable Detection Estimate (WDE) Based on Within-Laboratory Data: D7782-13",
+        "first-page": "14",
+        "year": "2013"
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib10",
+        "series-title": "Guidelines Establishing Test Procedures for the Analysis of Pollutants (Part 136, Appendix B. Definition and Procedure for the Determination of the Method Detection Limit-Revision 1.11, June 30, 1986), U.S. Code of Federal Regulations",
+        "first-page": "344",
+        "year": "2014"
+      },
+      {
+        "issue": "No. 165",
+        "key": "10.1016/j.talanta.2021.122139_bib11",
+        "first-page": "40939",
+        "article-title": "Guidelines establishing test procedures for the analysis of pollutants (Title 40, Part 136, Appendix B. Definition and procedure for the determination of the method detection limit-Revision 2.0)",
+        "volume": "82",
+        "year": "2017",
+        "journal-title": "U.S. Code Fed. Regul."
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib12",
+        "series-title": "Statistical Protocol for the Determination of the Single-Laboratory Lowest Concentration Minimum Reporting Level (LCMRL) and Validation of Laboratory Performance at or below the Minimum Reporting Level (MRL), EPA 815-R-05-006",
+        "first-page": "28",
+        "year": "2004"
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib13",
+        "series-title": "Technical basis for the lowest concentration minimum reporting level (LCMRL) calculator, EPA 815-R-11-001",
+        "first-page": "30",
+        "year": "2010"
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib14",
+        "first-page": "73",
+        "article-title": "Determination of pesticides and pesticide degradates in filtered water by direct aqueous-injection liquid chromatography-tandem mass spectrometry",
+        "volume": "5-B11",
+        "author": "Sandstrom",
+        "year": "2015",
+        "journal-title": "U.S. Geol. Surv. Tech. Methods"
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib15",
+        "author": "Williams",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib16",
+        "first-page": "49",
+        "article-title": "Determination of human-use pharmaceuticals in filtered water by direct aqueous injection: high-performance liquid chromatography/tandem mass spectrometry",
+        "volume": "5-B10",
+        "author": "Furlong",
+        "year": "2014",
+        "journal-title": "U.S. Geol. Surv. Tech. Methods"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.talanta.2021.122139_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "1426",
+        "DOI": "10.1021/es00094a002",
+        "article-title": "Trace analyses for wastewaters",
+        "volume": "15",
+        "author": "Glaser",
+        "year": "1981",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib18",
+        "first-page": "19",
+        "article-title": "New reporting procedures based on long-term method detection levels and some considerations for interpretations of water-quality data provided by the U.S. Geological Survey National Water Quality Laboratory",
+        "volume": "99\u2013193",
+        "author": "Childress",
+        "year": "1999",
+        "journal-title": "U.S. Geol. Surv. Open-File Rep."
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib19",
+        "series-title": "National Water Information System: Web Interface",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib20",
+        "series-title": "Federal Advisory Committee on Detection and Quantitation Approaches and Uses in Clean Water Act Programs, Final Report",
+        "first-page": "176",
+        "year": "2007"
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib21",
+        "series-title": "Changes to the Reporting Convention and to Data Qualification Approaches for Selected Analyte Results Reported by the National Water Quality Laboratory (NWQL), Office of Water Quality Technical Memorandum 2010.07",
+        "year": "2010"
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib22",
+        "first-page": "147",
+        "article-title": "Use of set blanks in reporting pesticide results at the U.S. Geological Survey National Water Quality Laboratory, 2001\u201315",
+        "volume": "2019\u20135055",
+        "author": "Medalie",
+        "year": "2019",
+        "journal-title": "U.S. Geol. Surv. Sci. Investig. Rep."
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.talanta.2021.122139_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "2434",
+        "DOI": "10.1016/j.chemosphere.2006.04.051",
+        "article-title": "Fabricating data: how substituting values for nondetects can ruin results, and what can be done about it",
+        "volume": "65",
+        "author": "Helsel",
+        "year": "2006",
+        "journal-title": "Chemosphere"
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib24",
+        "first-page": "118",
+        "article-title": "Determination of steroid hormones and related compounds in filtered and unfiltered water by solid-phase extraction, derivatization, and gas chromatography with tandem mass spectrometry",
+        "volume": "5-B9",
+        "author": "Foreman",
+        "year": "2012",
+        "journal-title": "U.S. Geol. Surv. Tech. Methods"
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "125",
+        "DOI": "10.1007/BF00680298",
+        "article-title": "Some statistical and conceptual issues in the detection of low-level environmental pollutants",
+        "volume": "2",
+        "author": "Gibbons",
+        "year": "1995",
+        "journal-title": "Environ. Ecol. Stat."
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib26",
+        "first-page": "4",
+        "article-title": "The problem with US EPA's method detection limit",
+        "volume": "8",
+        "author": "Gibbons",
+        "year": "1996",
+        "journal-title": "Am. Environ. Lab."
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib27",
+        "series-title": "Standard Practice for 99%/95% Interlaboratory Detection Estimate (IDE) for Analytical Methods with Negligible Calibration Error, ASTM D6091-07",
+        "first-page": "13",
+        "year": "2007"
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib28",
+        "series-title": "International Union of Pure and Applied Chemistry",
+        "article-title": "Compendium of Analytical Nomenclature: Definitive Rules 1997",
+        "author": "Incz\u00e9dy",
+        "year": "2002"
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib29",
+        "unstructured": "Coleman D., Vanatta L., Statistics in analytical chemistry: parts 28-34, 40-41, American Laboratory, CompareNetworks Inc., (variously dated), http://www.americanlaboratory.com/1403-Statistics-in-Analytical-Chemistry/. (Accessed 25 September 2020)."
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib30",
+        "series-title": "Revised assessment of detection and quantitation approaches, EPA-821-B-04-005",
+        "first-page": "254",
+        "year": "2004"
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib31",
+        "unstructured": "U.S. Army Corps of Engineers, Environmental Quality: Environmental Statistics, EM 200-1-16 (2013), p. 555, http://www.publications.usace.army.mil/Portals/76/Publications/EngineerManuals/EM_200-1-16.pdf."
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib32",
+        "doi-asserted-by": "crossref",
+        "first-page": "40",
+        "DOI": "10.1016/j.aca.2016.08.042",
+        "article-title": "Tutorial on estimating the limit of detection using LC-MS analysis, part II: practical aspects",
+        "volume": "942",
+        "author": "Evard",
+        "year": "2016",
+        "journal-title": "Anal. Chim. Acta"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.talanta.2021.122139_bib33",
+        "doi-asserted-by": "crossref",
+        "first-page": "281",
+        "DOI": "10.1021/es051069f",
+        "article-title": "Statistical procedures for determination and verification of minimum reporting levels for drinking water methods",
+        "volume": "40",
+        "author": "Winslow",
+        "year": "2006",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.talanta.2021.122139_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "677",
+        "DOI": "10.1021/es072456n",
+        "article-title": "A new approach to drinking-water-quality data: lowest-concentration minimum reporting level",
+        "volume": "41",
+        "author": "Martin",
+        "year": "2007",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib35",
+        "series-title": "Protocol for the evaluation of alternate test procedures for organic and inorganic analytes in drinking water, EPA 815-R-15-007",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib36",
+        "series-title": "A laboratory study of procedures evaluated by the Federal Advisory Committee on Detection and Quantitation Approaches and Uses in Clean Water Act Programs, EPA 821-R-11-005",
+        "first-page": "95",
+        "year": "2011"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.talanta.2021.122139_bib37",
+        "doi-asserted-by": "crossref",
+        "first-page": "176",
+        "DOI": "10.1080/00401706.1995.10484302",
+        "article-title": "A two-component model for measurement error in analytical chemistry",
+        "volume": "37",
+        "author": "Rocke",
+        "year": "1995",
+        "journal-title": "Technometrics"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.talanta.2021.122139_bib38",
+        "doi-asserted-by": "crossref",
+        "first-page": "849",
+        "DOI": "10.1021/ac60290a013",
+        "article-title": "Decision and detection limits for calibration curves",
+        "volume": "42",
+        "author": "Hubaux",
+        "year": "1970",
+        "journal-title": "Anal. Chem."
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib39",
+        "doi-asserted-by": "crossref",
+        "first-page": "1629",
+        "DOI": "10.1016/j.scitotenv.2016.03.128",
+        "article-title": "Nationwide reconnaissance of contaminants of emerging concern in source and treated drinking waters of the United States: Pharmaceuticals",
+        "volume": "579",
+        "author": "Furlong",
+        "year": "2017",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib40",
+        "doi-asserted-by": "crossref",
+        "first-page": "1618",
+        "DOI": "10.1016/j.scitotenv.2016.02.127",
+        "article-title": "The importance of quality control in validating concentrations of contaminants of emerging concern in source and treated drinking water samples",
+        "volume": "579",
+        "author": "Batt",
+        "year": "2017",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.talanta.2021.122139_bib41",
+        "doi-asserted-by": "crossref",
+        "first-page": "2950",
+        "DOI": "10.1021/acs.est.8b05592",
+        "article-title": "Hormones and pharmaceuticals in groundwater used as a source of drinking water across the United States",
+        "volume": "53",
+        "author": "Bexfield",
+        "year": "2019",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib42",
+        "first-page": "217",
+        "article-title": "Methods of analysis by the U.S. Geological Survey National Water Quality Laboratory; determination of inorganic and organic constituents in water and fluvial sediments",
+        "volume": "93\u2013125",
+        "year": "1993",
+        "journal-title": "U.S. Geol. Surv. Open-File Rep."
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib43",
+        "first-page": "17",
+        "article-title": "Methods of analysis by the U.S. Geological Survey National Water Quality Laboratory: determination of dissolved aluminum and boron in water by inductively coupled plasma-atomic emission spectrometry",
+        "volume": "96\u2013149",
+        "author": "Struzeski",
+        "year": "1996",
+        "journal-title": "U. S. Geol. Surv. Open-File Rep."
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib44",
+        "series-title": "Standard Methods for the Examination of Water and Wastewater: Standard Method 3120",
+        "first-page": "3.37",
+        "year": "1998"
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib45",
+        "first-page": "34",
+        "article-title": "Colorimetric determination of nitrate plus nitrite in water by enzymatic reduction, automated discrete analyzer methods",
+        "volume": "5-B8",
+        "author": "Patton",
+        "year": "2011",
+        "journal-title": "U. S. Geol. Surv. Techn. Methods"
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib46",
+        "series-title": "Method 365.1, Revision 2.0: Determination of Phosphorus by Semi-automated Colorimetry, EPA-365.1",
+        "first-page": "17",
+        "year": "1993"
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib47",
+        "first-page": "78",
+        "article-title": "Methods of analysis by the U.S. Geological Survey National Water Quality Laboratory: determination of 86 volatile organic compounds in water by gas chromatography/mass spectrometry, including detections less than reporting limits",
+        "volume": "97\u2013829",
+        "author": "Connor",
+        "year": "1998",
+        "journal-title": "U.S. Geol. Surv. Open-File Rep."
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib48",
+        "doi-asserted-by": "crossref",
+        "first-page": "1127",
+        "DOI": "10.1080/10807030500278586",
+        "article-title": "Insider censoring: distortion of data with nondetects",
+        "volume": "11",
+        "author": "Helsel",
+        "year": "2005",
+        "journal-title": "Human Ecolog. Risk Assess."
+      },
+      {
+        "key": "10.1016/j.talanta.2021.122139_bib49",
+        "first-page": "73",
+        "article-title": "Using the U.S. Geological Survey National Water Quality Laboratory LT-MDL to evaluate and analyze data",
+        "author": "Bonn",
+        "year": "2008",
+        "journal-title": "U.S. Geol. Surv. Open-File Rep. 2008-1227"
+      }
+    ],
+    "container-title": [
+      "Talanta"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0039914021000606?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0039914021000606?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          22
+        ]
+      ],
+      "date-time": "2025-09-22T12:49:25Z",
+      "timestamp": 1758545365000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0039914021000606"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    },
+    "references-count": 49,
+    "alternative-id": [
+      "S0039914021000606"
+    ],
+    "URL": "https://doi.org/10.1016/j.talanta.2021.122139",
+    "relation": {},
+    "ISSN": [
+      "0039-9140"
+    ],
+    "issn-type": [
+      {
+        "value": "0039-9140",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Comparison of detection limits estimated using single- and multi-concentration spike-based and blank-based procedures",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Talanta",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.talanta.2021.122139",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "Published by Elsevier B.V.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "122139"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1016/j.talanta.2021.122139",
+  "original_doi": "10.1016/j.talanta.2021.122139"
+}

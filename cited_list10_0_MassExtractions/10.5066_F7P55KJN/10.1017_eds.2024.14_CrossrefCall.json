@@ -1,0 +1,1643 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          4
+        ]
+      ],
+      "date-time": "2026-08-04T17:39:57Z",
+      "timestamp": 1785865197277,
+      "version": "3.56.0"
+    },
+    "reference-count": 270,
+    "publisher": "Cambridge University Press (CUP)",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              22
+            ]
+          ],
+          "date-time": "2025-01-22T00:00:00Z",
+          "timestamp": 1737504000000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 21,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "1934721"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "1934721"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Environ. Data Science"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n\t  <jats:p>Prediction of dynamic environmental variables in unmonitored sites remains a long-standing challenge for water resources science. The majority of the world\u2019s freshwater resources have inadequate monitoring of critical environmental variables needed for management. Yet, the need to have widespread predictions of hydrological variables such as river flow and water quality has become increasingly urgent due to climate and land use change over the past decades, and their associated impacts on water resources. Modern machine learning methods increasingly outperform their process-based and empirical model counterparts for hydrologic time series prediction with their ability to extract information from large, diverse data sets. We review relevant state-of-the art applications of machine learning for streamflow, water quality, and other water resources prediction and discuss opportunities to improve the use of machine learning with emerging methods for incorporating watershed characteristics and process knowledge into classical, deep learning, and transfer learning methodologies. The analysis here suggests most prior efforts have been focused on deep learning frameworks built on many sites for predictions at daily time scales in the United States, but that comparisons between different classes of machine learning methods are few and inadequate. We identify several open questions for time series predictions in unmonitored sites that include incorporating dynamic inputs and site characteristics, mechanistic understanding and spatial context, and explainable AI techniques in modern machine learning frameworks.</jats:p>",
+    "DOI": "10.1017/eds.2024.14",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          22
+        ]
+      ],
+      "date-time": "2025-01-22T07:15:37Z",
+      "timestamp": 1737530137000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 29,
+    "title": [
+      "Time series predictions in unmonitored sites: a survey of machine learning techniques in water resources"
+    ],
+    "prefix": "10.1017",
+    "volume": "4",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4434-051X",
+        "authenticated-orcid": false,
+        "given": "Jared D.",
+        "family": "Willard",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4142-3224",
+        "authenticated-orcid": false,
+        "given": "Charuleka",
+        "family": "Varadharajan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaowei",
+        "family": "Jia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Vipin",
+        "family": "Kumar",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "56",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          22
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "S2634460224000141_r12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2022.128792"
+      },
+      {
+        "key": "S2634460224000141_r15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w14081230"
+      },
+      {
+        "key": "S2634460224000141_r199",
+        "unstructured": "Sit, M , Demiray, B and Demir, I (2021) Short-term hourly streamflow prediction with graph convolutional GRU networks. Preprint, arXiv:2107.07039."
+      },
+      {
+        "key": "S2634460224000141_r168",
+        "first-page": "2971",
+        "article-title": "Toward predicting flood event peak discharge in ungauged basins by learning universal hydrological behaviors with machine learning",
+        "volume": "22",
+        "author": "Potdar",
+        "year": "2021",
+        "journal-title": "Journal of Hydrometeorology"
+      },
+      {
+        "key": "S2634460224000141_r40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.9721"
+      },
+      {
+        "key": "S2634460224000141_r98",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2021.126371"
+      },
+      {
+        "key": "S2634460224000141_r156",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2020.125220"
+      },
+      {
+        "key": "S2634460224000141_r87",
+        "first-page": "1",
+        "article-title": "The national land cover database",
+        "volume": "3020",
+        "author": "Homer",
+        "year": "2012",
+        "journal-title": "US Geological Survey Fact Sheet"
+      },
+      {
+        "key": "S2634460224000141_r74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1487"
+      },
+      {
+        "key": "S2634460224000141_r37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecoleng.2022.106699"
+      },
+      {
+        "key": "S2634460224000141_r49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/BAMS-D-20-0097.1"
+      },
+      {
+        "key": "S2634460224000141_r171",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.14400"
+      },
+      {
+        "key": "S2634460224000141_r95",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevResearch.4.023028"
+      },
+      {
+        "key": "S2634460224000141_r256",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jag.2022.102696"
+      },
+      {
+        "key": "S2634460224000141_r39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2021.3054304"
+      },
+      {
+        "key": "S2634460224000141_r94",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020GL088229"
+      },
+      {
+        "key": "S2634460224000141_r64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/egusphere-2022-875"
+      },
+      {
+        "key": "S2634460224000141_r159",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2166/ws.2023.033"
+      },
+      {
+        "key": "S2634460224000141_r60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR033168"
+      },
+      {
+        "key": "S2634460224000141_r215",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR033880"
+      },
+      {
+        "key": "S2634460224000141_r43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-58347-1_1"
+      },
+      {
+        "key": "S2634460224000141_r160",
+        "unstructured": "Oruche, R , Egede, L , Baker, T and O\u2019Donncha, F (2021) Transfer learning to improve streamflow forecasts in data sparse regions. Preprint, arXiv:2112.03088."
+      },
+      {
+        "key": "S2634460224000141_r206",
+        "article-title": "Structure learning and transfer learning for streamflow prediction across ungauged basins",
+        "volume": "2021",
+        "author": "Tabas",
+        "year": "2021",
+        "journal-title": "AGU Fall Meeting"
+      },
+      {
+        "key": "S2634460224000141_r104",
+        "unstructured": "Khandelwal, A , Xu, S , Li, X , Jia, X , Stienbach, M , Duffy, C , Nieber, J and Kumar, V (2020) Physics guided machine learning methods for hydrology. Preprint, arXiv:2012.02854."
+      },
+      {
+        "key": "S2634460224000141_r232",
+        "volume-title": "Predicting Unimpaired Flow in Ungauged Basins: \u201cRandom Forests\u201d Applied to California Streams",
+        "author": "White",
+        "year": "2017"
+      },
+      {
+        "key": "S2634460224000141_r261",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.inffus.2018.11.019"
+      },
+      {
+        "key": "S2634460224000141_r117",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18637/jss.v036.i11"
+      },
+      {
+        "key": "S2634460224000141_r157",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IGARSS.2010.5652291"
+      },
+      {
+        "key": "S2634460224000141_r54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR029583"
+      },
+      {
+        "key": "S2634460224000141_r268",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JPROC.2020.3004555"
+      },
+      {
+        "key": "S2634460224000141_r4",
+        "unstructured": "Al-Shedivat, M , Li, L , Xing, E and Talwalkar, A (2021) On data efficiency of meta-learning. In International Conference on Artificial Intelligence and Statistics (pp. 1369\u20131377)."
+      },
+      {
+        "key": "S2634460224000141_r185",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-99978-4_16"
+      },
+      {
+        "key": "S2634460224000141_r238",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2019.135877"
+      },
+      {
+        "key": "S2634460224000141_r76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/hydrology9070113"
+      },
+      {
+        "key": "S2634460224000141_r120",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w12113022"
+      },
+      {
+        "key": "S2634460224000141_r174",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)HE.1943-5584.0000690"
+      },
+      {
+        "key": "S2634460224000141_r22",
+        "unstructured": "Blitzer, J , Dredze, M and Pereira, F (2007) Biographies, bollywood, boom-boxes and blenders: Domain adaptation for sentiment classification. In Proceedings of the 45th Annual Meeting of the Association of Computational Linguistics (pp. 440\u2013447)."
+      },
+      {
+        "key": "S2634460224000141_r63",
+        "unstructured": "Gal, Y and Ghahramani, Z (2016) Dropout as a Bayesian approximation: Representing model uncertainty in deep learning. In International Conference on Machine Learning (pp. 1050\u20131059)."
+      },
+      {
+        "key": "S2634460224000141_r69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10712-018-9476-0"
+      },
+      {
+        "key": "S2634460224000141_r1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.inffus.2021.05.008"
+      },
+      {
+        "key": "S2634460224000141_r182",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2009WR008587"
+      },
+      {
+        "key": "S2634460224000141_r33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2020.125286"
+      },
+      {
+        "key": "S2634460224000141_r102",
+        "unstructured": "Kazadi, AN , Doss-Gollin, J , Sebastian, A and Silva, A (2022). Flood prediction with graph neural networks. In NeurIPS 2022 Workshop on Tackling Climate Change with Machine Learning. https://www.climatechange.ai/papers/neurips2022/75"
+      },
+      {
+        "key": "S2634460224000141_r137",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/AIES-D-22-0012.1"
+      },
+      {
+        "key": "S2634460224000141_r166",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MSP.2014.2347059"
+      },
+      {
+        "key": "S2634460224000141_r46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/1.9781611976236.60"
+      },
+      {
+        "key": "S2634460224000141_r219",
+        "article-title": "Attention is all you need",
+        "volume": "30",
+        "author": "Vaswani",
+        "year": "2017",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "S2634460224000141_r246",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w15030576"
+      },
+      {
+        "key": "S2634460224000141_r249",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-9326/ab4d5e"
+      },
+      {
+        "key": "S2634460224000141_r252",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2021.126378"
+      },
+      {
+        "key": "S2634460224000141_r267",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.aiopen.2021.01.001"
+      },
+      {
+        "key": "S2634460224000141_r130",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2022.3178521"
+      },
+      {
+        "key": "S2634460224000141_r86",
+        "unstructured": "Hoffman, J , Wang, D , Yu, F and Darrell, T (2016) FCNS in the wild: Pixel-level adversarial and constraint-based adaptation. Preprint, arXiv:1612.02649."
+      },
+      {
+        "key": "S2634460224000141_r262",
+        "first-page": "1",
+        "article-title": "Sea surface temperature prediction with memory graph convolutional networks",
+        "volume": "19",
+        "author": "Zhang",
+        "year": "2021",
+        "journal-title": "IEEE Geoscience and Remote Sensing Letters"
+      },
+      {
+        "key": "S2634460224000141_r38",
+        "unstructured": "Chung, J , Gulcehre, C , Cho, K and Bengio, Y (2014) Empirical evaluation of gated recurrent neural networks on sequence modeling. Preprint, arXiv:1412.3555."
+      },
+      {
+        "key": "S2634460224000141_r231",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wen, Q , Zhou, T , Zhang, C , Chen, W , Ma, Z , Yan, J and Sun, L (2022) Transformers in time series: A survey. Preprint, arXiv:2202.07125.",
+        "DOI": "10.24963/ijcai.2023/759"
+      },
+      {
+        "key": "S2634460224000141_r25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-540-73263-1"
+      },
+      {
+        "key": "S2634460224000141_r17",
+        "unstructured": "Battaglia, PW , Hamrick, JB , Bapst, V , Sanchez-Gonzalez, A , Zambaldi, V , Malinowski, M , Tacchetti, A , Raposo, D , Santoro, A , Faulkner, R , et al (2018). Relational inductive biases, deep learning, and graph networks. Preprint, arXiv:1806.01261."
+      },
+      {
+        "key": "S2634460224000141_r21",
+        "first-page": "H224",
+        "article-title": "Routing flood waves through the river network utilizing physics-guided machine learning and the Muskingum-Cunge method",
+        "volume": "2020",
+        "author": "Bindas",
+        "year": "2020",
+        "journal-title": "AGU Fall Meeting Abstracts"
+      },
+      {
+        "key": "S2634460224000141_r197",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/s22155507"
+      },
+      {
+        "key": "S2634460224000141_r79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.egyr.2022.03.049"
+      },
+      {
+        "key": "S2634460224000141_r189",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0168-1923(99)00105-7"
+      },
+      {
+        "key": "S2634460224000141_r236",
+        "article-title": "Integrating scientific knowledge with machine learning for engineering and environmental systems [Place: New York, NY, USA Publisher: Association for Computing Machinery]",
+        "author": "Willard",
+        "year": "2022a",
+        "journal-title": "ACM Computing Surveys"
+      },
+      {
+        "key": "S2634460224000141_r20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2022.128618"
+      },
+      {
+        "key": "S2634460224000141_r150",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR028091"
+      },
+      {
+        "key": "S2634460224000141_r255",
+        "first-page": "9240",
+        "article-title": "GNNexplainer: Generating explanations for graph neural networks",
+        "volume": "32",
+        "author": "Ying",
+        "year": "2019",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "S2634460224000141_r235",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR029579"
+      },
+      {
+        "key": "S2634460224000141_r85",
+        "unstructured": "Hoedt, P-J , Kratzert, F , Klotz, D , Halmich, C , Holzleitner, M , Nearing, G , Hochreiter, S and Klambauer, G (2021) MCLSTM: Mass-conserving LSTM. Preprint, arXiv:2101.05186 [CS, STAT]. Retrieved from January 25, 2021."
+      },
+      {
+        "key": "S2634460224000141_r214",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w12010169"
+      },
+      {
+        "key": "S2634460224000141_r110",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR026065"
+      },
+      {
+        "key": "S2634460224000141_r203",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bdr.2021.100237"
+      },
+      {
+        "key": "S2634460224000141_r121",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-26-3079-2022"
+      },
+      {
+        "key": "S2634460224000141_r128",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICHI.2018.00032"
+      },
+      {
+        "key": "S2634460224000141_r84",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/gmd-12-473-2019"
+      },
+      {
+        "key": "S2634460224000141_r11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1051/e3sconf/202016301001"
+      },
+      {
+        "key": "S2634460224000141_r177",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016WR019993"
+      },
+      {
+        "key": "S2634460224000141_r226",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR031033"
+      },
+      {
+        "key": "S2634460224000141_r228",
+        "first-page": "101438",
+        "article-title": "Evaluate transformer model and self-attention mechanism in the yangtze river basin runoff prediction",
+        "volume": "47",
+        "author": "Wei",
+        "year": "2023",
+        "journal-title": "Journal of Hydrology: Regional Studies"
+      },
+      {
+        "key": "S2634460224000141_r16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2008.05.007"
+      },
+      {
+        "key": "S2634460224000141_r264",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2021.126777"
+      },
+      {
+        "key": "S2634460224000141_r112",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-23-5089-2019"
+      },
+      {
+        "key": "S2634460224000141_r265",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.0c06783"
+      },
+      {
+        "key": "S2634460224000141_r165",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TKDE.2009.191"
+      },
+      {
+        "key": "S2634460224000141_r10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.iswcr.2020.05.002"
+      },
+      {
+        "key": "S2634460224000141_r190",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-13-883-2009"
+      },
+      {
+        "key": "S2634460224000141_r90",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1026360615401"
+      },
+      {
+        "key": "S2634460224000141_r118",
+        "first-page": "1",
+        "article-title": "Streamflow estimation in ungauged regions using machine learning: Quantifying uncertainties in geographic extrapolation",
+        "author": "Le",
+        "year": "2022",
+        "journal-title": "Hydrology and Earth System Sciences Discussions"
+      },
+      {
+        "key": "S2634460224000141_r149",
+        "unstructured": "Nazari, LF , Camponogara, E and Seman, LO (2022) Physics-informed neural networks for modeling water flows in a river channel. In IEEE Transactions on Artificial Intelligence."
+      },
+      {
+        "key": "S2634460224000141_r29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626669009492415"
+      },
+      {
+        "key": "S2634460224000141_r96",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2022.128751"
+      },
+      {
+        "key": "S2634460224000141_r131",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, J , Bian, Y and Shen, C (2023) Probing the limit of hydrologic predictability with the transformer network. Preprint, arXiv:2306.12384.",
+        "DOI": "10.1016/j.jhydrol.2024.131389"
+      },
+      {
+        "key": "S2634460224000141_r191",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-04167-0_33"
+      },
+      {
+        "key": "S2634460224000141_r148",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3997/1365-2397.n0060"
+      },
+      {
+        "key": "S2634460224000141_r230",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s40537-016-0043-6"
+      },
+      {
+        "key": "S2634460224000141_r202",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR030394"
+      },
+      {
+        "key": "S2634460224000141_r8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.inffus.2019.12.012"
+      },
+      {
+        "key": "S2634460224000141_r26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00058655"
+      },
+      {
+        "key": "S2634460224000141_r78",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecolmodel.2020.109136"
+      },
+      {
+        "key": "S2634460224000141_r234",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5066/P9I00WFR"
+      },
+      {
+        "key": "S2634460224000141_r6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Araza, A , Hein, L , Duku, C , Rawlins, MA and Lomboy, R (2020) Data-driven streamflow modelling in ungauged basins: Regionalizing random forest (RF) models. bioRxiv, 2020-11.",
+        "DOI": "10.1101/2020.11.14.382598"
+      },
+      {
+        "key": "S2634460224000141_r248",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JIOT.2021.3105446"
+      },
+      {
+        "key": "S2634460224000141_r51",
+        "volume-title": "GAGES-II: Geospatial Attributes of Gages for Evaluating Streamflow (Tech. Rep.)",
+        "author": "Falcone",
+        "year": "2011"
+      },
+      {
+        "key": "S2634460224000141_r247",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2023.129956"
+      },
+      {
+        "key": "S2634460224000141_r208",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2024.130641"
+      },
+      {
+        "key": "S2634460224000141_r242",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR031663"
+      },
+      {
+        "key": "S2634460224000141_r129",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3236386.3241340"
+      },
+      {
+        "key": "S2634460224000141_r55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-25-2951-2021"
+      },
+      {
+        "key": "S2634460224000141_r139",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/ofr20121116"
+      },
+      {
+        "key": "S2634460224000141_r258",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ASRU46091.2019.9004025"
+      },
+      {
+        "key": "S2634460224000141_r127",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR031794"
+      },
+      {
+        "key": "S2634460224000141_r205",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW60793.2023.00401"
+      },
+      {
+        "key": "S2634460224000141_r52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w12010175"
+      },
+      {
+        "key": "S2634460224000141_r56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021GL092999"
+      },
+      {
+        "key": "S2634460224000141_r175",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626667.2016.1154558"
+      },
+      {
+        "key": "S2634460224000141_r251",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecolind.2022.109768"
+      },
+      {
+        "key": "S2634460224000141_r141",
+        "unstructured": "Molnar, C (2020) Interpretable Machine Learning. Lulu.com."
+      },
+      {
+        "key": "S2634460224000141_r59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IJCNN55064.2022.9892371"
+      },
+      {
+        "key": "S2634460224000141_r269",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2021.126266"
+      },
+      {
+        "key": "S2634460224000141_r99",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TKDE.2017.2720168"
+      },
+      {
+        "key": "S2634460224000141_r83",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752-1688.12372"
+      },
+      {
+        "key": "S2634460224000141_r212",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019MS002002"
+      },
+      {
+        "key": "S2634460224000141_r106",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2006GL026574"
+      },
+      {
+        "key": "S2634460224000141_r62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-26-3377-2022"
+      },
+      {
+        "key": "S2634460224000141_r44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.camwa.2023.05.036"
+      },
+      {
+        "key": "S2634460224000141_r77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/34.58871"
+      },
+      {
+        "key": "S2634460224000141_r30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR026i010p02257"
+      },
+      {
+        "key": "S2634460224000141_r210",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/asl.168"
+      },
+      {
+        "key": "S2634460224000141_r220",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-17-2263-2013"
+      },
+      {
+        "key": "S2634460224000141_r263",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2020.2990181"
+      },
+      {
+        "key": "S2634460224000141_r125",
+        "first-page": "913",
+        "article-title": "Integrating static and time-series data in deep recurrent models for oncology early warning systems",
+        "author": "Li",
+        "year": "2021a",
+        "journal-title": "CIKM"
+      },
+      {
+        "key": "S2634460224000141_r108",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5066/P9C8NYTO"
+      },
+      {
+        "key": "S2634460224000141_r172",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jcp.2018.10.045"
+      },
+      {
+        "key": "S2634460224000141_r186",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12665-016-6129-9"
+      },
+      {
+        "key": "S2634460224000141_r138",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/AIES-D-22-0058.1"
+      },
+      {
+        "key": "S2634460224000141_r122",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10462-013-9406-y"
+      },
+      {
+        "key": "S2634460224000141_r227",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2015.03.042"
+      },
+      {
+        "key": "S2634460224000141_r126",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2021.126698"
+      },
+      {
+        "key": "S2634460224000141_r28",
+        "volume-title": "Better Deep Learning: Train faster, Reduce Overfitting, and Make Better Predictions",
+        "author": "Brownlee",
+        "year": "2018"
+      },
+      {
+        "key": "S2634460224000141_r152",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TAI.2021.3054609"
+      },
+      {
+        "key": "S2634460224000141_r233",
+        "unstructured": "Willard, JD (2023) Machine Learning Techniques for Time Series Regression in Unmonitored Environmental Systems [Doctoral dissertation, University of Minnesota]."
+      },
+      {
+        "key": "S2634460224000141_r184",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lol2.10027"
+      },
+      {
+        "key": "S2634460224000141_r135",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR028600"
+      },
+      {
+        "key": "S2634460224000141_r36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2021.127297"
+      },
+      {
+        "key": "S2634460224000141_r88",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511529443"
+      },
+      {
+        "key": "S2634460224000141_r145",
+        "article-title": "Towards improved global river discharge prediction in ungauged basins using machine learning and satellite observations",
+        "author": "Muhebwa",
+        "year": "2021",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "S2634460224000141_r253",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2022.127781"
+      },
+      {
+        "key": "S2634460224000141_r213",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2017.07.005"
+      },
+      {
+        "key": "S2634460224000141_r161",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2007WR006240"
+      },
+      {
+        "key": "S2634460224000141_r200",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-9326/ac10e0"
+      },
+      {
+        "key": "S2634460224000141_r244",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1533"
+      },
+      {
+        "key": "S2634460224000141_r153",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2023.130048"
+      },
+      {
+        "key": "S2634460224000141_r169",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR023254"
+      },
+      {
+        "key": "S2634460224000141_r66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/s16081298"
+      },
+      {
+        "key": "S2634460224000141_r250",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2018.10.030"
+      },
+      {
+        "key": "S2634460224000141_r146",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/essd-13-4349-2021"
+      },
+      {
+        "key": "S2634460224000141_r211",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11356-019-06156-0"
+      },
+      {
+        "key": "S2634460224000141_r260",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2018.04.065"
+      },
+      {
+        "key": "S2634460224000141_r257",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecolmodel.2019.05.008"
+      },
+      {
+        "key": "S2634460224000141_r72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/2150704X.2019.1686548"
+      },
+      {
+        "key": "S2634460224000141_r194",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-22-5639-2018"
+      },
+      {
+        "key": "S2634460224000141_r229",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w14071032"
+      },
+      {
+        "key": "S2634460224000141_r136",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2427.1990.tb00259.x"
+      },
+      {
+        "key": "S2634460224000141_r34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICDM51629.2021.00117"
+      },
+      {
+        "key": "S2634460224000141_r32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1470-160X(01)00015-2"
+      },
+      {
+        "key": "S2634460224000141_r218",
+        "first-page": "1",
+        "article-title": "Rainfall-runoff simulation in ungauged tributary streams using drainage area ratio-based multivariate adaptive regression spline and random forest hybrid models",
+        "author": "Vaheddoost",
+        "year": "2023",
+        "journal-title": "Pure and Applied Geophysics"
+      },
+      {
+        "key": "S2634460224000141_r223",
+        "first-page": "1",
+        "article-title": "A survey on bayesian deep learning",
+        "volume": "53",
+        "author": "Wang",
+        "year": "2020",
+        "journal-title": "ACM Computing Surveys (CSUR)"
+      },
+      {
+        "key": "S2634460224000141_r193",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR022643"
+      },
+      {
+        "key": "S2634460224000141_r162",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2021.126455"
+      },
+      {
+        "key": "S2634460224000141_r266",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/BDAI56143.2022.9862723"
+      },
+      {
+        "key": "S2634460224000141_r57",
+        "first-page": "1",
+        "article-title": "The suitability of differentiable, learnable hydrologic models for ungauged regions and climate change impact assessment",
+        "author": "Feng",
+        "year": "2022a",
+        "journal-title": "Hydrology and Earth System Sciences Discussions"
+      },
+      {
+        "key": "S2634460224000141_r9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-27-139-2023"
+      },
+      {
+        "key": "S2634460224000141_r158",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2011.11.013"
+      },
+      {
+        "key": "S2634460224000141_r42",
+        "volume-title": "Deep Learning for Unmonitored Water Level Prediction and Risk Assessment",
+        "author": "Corns",
+        "year": "2022"
+      },
+      {
+        "key": "S2634460224000141_r58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR032404"
+      },
+      {
+        "key": "S2634460224000141_r41",
+        "article-title": "Interpretable classification of the contiguous United States river catchments using network science methods",
+        "volume": "2022",
+        "author": "Ciulla",
+        "year": "2022",
+        "journal-title": "AGU Fall Meeting Abstracts"
+      },
+      {
+        "key": "S2634460224000141_r270",
+        "unstructured": "USACE. (2020). National Inventory of Dams. US Army Corps of Engineers."
+      },
+      {
+        "key": "S2634460224000141_r5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w14223611"
+      },
+      {
+        "key": "S2634460224000141_r107",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.34194/geusb.v49.8292"
+      },
+      {
+        "key": "S2634460224000141_r45",
+        "unstructured": "Daw, A and Karpatne, A (2019) Physics-aware architecture of neural networks for uncertainty quantification: Application in lake temperature modeling. In FEED Workshop at Knowledge Discovery and Data Mining Conference (SIGKDD) 2019."
+      },
+      {
+        "key": "S2634460224000141_r134",
+        "unstructured": "Lotsberg, BN (2021) LSTM Models Applied on Hydrological Time Series [Master\u2019s thesis, University of Oslo]."
+      },
+      {
+        "key": "S2634460224000141_r183",
+        "unstructured": "Romera-Paredes, B and Torr, P (2015) An embarrassingly simple approach to zero-shot learning. In International conference on machine learning (pp. 2152\u20132161)."
+      },
+      {
+        "key": "S2634460224000141_r241",
+        "unstructured": "Xiang, Z and Demir, I (2021) High-resolution rainfall-runoff modeling using graph neural network. Preprint, arXiv:2110.10833."
+      },
+      {
+        "key": "S2634460224000141_r70",
+        "first-page": "100859",
+        "article-title": "Regionalization of hydrological models for flow estimation in ungauged catchments in Ireland",
+        "volume": "36",
+        "author": "Golian",
+        "year": "2021",
+        "journal-title": "Journal of Hydrology: Regional Studies"
+      },
+      {
+        "key": "S2634460224000141_r101",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/9781003143376"
+      },
+      {
+        "key": "S2634460224000141_r254",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2023.129684"
+      },
+      {
+        "key": "S2634460224000141_r188",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.egyr.2022.11.191"
+      },
+      {
+        "key": "S2634460224000141_r173",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2022.127736"
+      },
+      {
+        "key": "S2634460224000141_r50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICHI.2016.16"
+      },
+      {
+        "key": "S2634460224000141_r75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2022.128828"
+      },
+      {
+        "key": "S2634460224000141_r19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0022-1694(01)00421-8"
+      },
+      {
+        "key": "S2634460224000141_r116",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2012WR012195"
+      },
+      {
+        "key": "S2634460224000141_r187",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-17-2637-2013"
+      },
+      {
+        "key": "S2634460224000141_r170",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/dsj.2020.12"
+      },
+      {
+        "key": "S2634460224000141_r89",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.13807"
+      },
+      {
+        "key": "S2634460224000141_r195",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.isprsjprs.2022.04.009"
+      },
+      {
+        "key": "S2634460224000141_r73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1487"
+      },
+      {
+        "key": "S2634460224000141_r31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-1694(93)90203-L"
+      },
+      {
+        "key": "S2634460224000141_r178",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR024922"
+      },
+      {
+        "key": "S2634460224000141_r209",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/1.9781611977172.79"
+      },
+      {
+        "key": "S2634460224000141_r133",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-18-3411-2014"
+      },
+      {
+        "key": "S2634460224000141_r239",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wu, Z , Pan, S , Long, G , Jiang, J and Zhang, C (2019) Graph wave net for deep spatial-temporal graph modeling. Preprint, arXiv:1906.00121.",
+        "DOI": "10.24963/ijcai.2019/264"
+      },
+      {
+        "key": "S2634460224000141_r105",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w12010096"
+      },
+      {
+        "key": "S2634460224000141_r167",
+        "unstructured": "Pathak, J , Subramanian, S , Harrington, P , Raja, S , Chattopadhyay, A , Mardani, M , Kurth, T , Hall, D , Li, Z , Azizzadenesheli, K , et al (2022) Fourcastnet: A global data-driven high-resolution weather model using adaptive Fourier neural operators. Preprint, arXiv:2202.11214."
+      },
+      {
+        "key": "S2634460224000141_r154",
+        "unstructured": "NOAA (2016) National Water Model. Improving NOAA\u2019s Water Prediction Services."
+      },
+      {
+        "key": "S2634460224000141_r204",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-26-5163-2022"
+      },
+      {
+        "key": "S2634460224000141_r123",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR023i002p00313"
+      },
+      {
+        "key": "S2634460224000141_r48",
+        "first-page": "1",
+        "article-title": "A comprehensive survey on feature selection in the various fields of machine learning",
+        "author": "Dhal",
+        "year": "2022",
+        "journal-title": "Applied Intelligence"
+      },
+      {
+        "key": "S2634460224000141_r68",
+        "unstructured": "Ghosh, R , Yang, H , Khandelwal, A , He, E , Renganathan, A , Sharma, S , Jia, X and Kumar, V (2023) Entity aware modelling: A survey. Preprint, arXiv:2302.08406."
+      },
+      {
+        "key": "S2634460224000141_r237",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lol2.10249"
+      },
+      {
+        "key": "S2634460224000141_r35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3534678.3539115"
+      },
+      {
+        "key": "S2634460224000141_r151",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2172/1769760"
+      },
+      {
+        "key": "S2634460224000141_r217",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5066/F7P55KJN"
+      },
+      {
+        "key": "S2634460224000141_r225",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2020.124700"
+      },
+      {
+        "key": "S2634460224000141_r18",
+        "volume-title": "Development and Application of a Conceptual Runoff Model for Scandinavian Catchments",
+        "author": "Bergstr\u00f6m",
+        "year": "1976"
+      },
+      {
+        "key": "S2634460224000141_r113",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/egusphere-egu21-13375"
+      },
+      {
+        "key": "S2634460224000141_r7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.1998.tb05961.x"
+      },
+      {
+        "key": "S2634460224000141_r13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-26-4469-2022"
+      },
+      {
+        "key": "S2634460224000141_r115",
+        "first-page": "1",
+        "article-title": "Hess opinions: Never train an LSTM on a single basin",
+        "volume": "2024",
+        "author": "Kratzert",
+        "year": "2024",
+        "journal-title": "Hydrology and Earth System Sciences Discussions"
+      },
+      {
+        "key": "S2634460224000141_r3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41592-021-01283-4"
+      },
+      {
+        "key": "S2634460224000141_r147",
+        "first-page": "1",
+        "article-title": "Physical laws meet machine intelligence: Current developments and future directions",
+        "author": "Muther",
+        "year": "2022",
+        "journal-title": "Artificial Intelligence Review"
+      },
+      {
+        "key": "S2634460224000141_r2",
+        "volume-title": "Chemistry and Water: The Science behind Sustaining the world\u2019s most Crucial Resource",
+        "author": "Ahuja",
+        "year": "2016"
+      },
+      {
+        "key": "S2634460224000141_r198",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626667.2022.2049271"
+      },
+      {
+        "key": "S2634460224000141_r243",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.2c02232"
+      },
+      {
+        "key": "S2634460224000141_r259",
+        "first-page": "851",
+        "article-title": "Indices for monitoring changes in extremes based on daily temperature and precipitation data",
+        "volume": "2",
+        "author": "Zhang",
+        "year": "2011",
+        "journal-title": "Wiley Interdisciplinary Reviews: Climate Change"
+      },
+      {
+        "key": "S2634460224000141_r114",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597-023-01975-w"
+      },
+      {
+        "key": "S2634460224000141_r124",
+        "unstructured": "Li, Z , Kovachki, N , Azizzadenesheli, K , Liu, B , Bhattacharya, K , Stuart, A and Anandkumar, A (2020). Fourier neural operator for parametric partial differential equations. Preprint, arXiv:2010.08895."
+      },
+      {
+        "key": "S2634460224000141_r140",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1499"
+      },
+      {
+        "key": "S2634460224000141_r143",
+        "unstructured": "Moshe, Z , Metzger, A , Elidan, G , Kratzert, F , Nevo, S and El-Yaniv, R (2020) Hydronets: Leveraging river structure for hydrologic modeling. Preprint, arXiv:2007.00595."
+      },
+      {
+        "key": "S2634460224000141_r27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MSP.2017.2693418"
+      },
+      {
+        "key": "S2634460224000141_r81",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2020.103610"
+      },
+      {
+        "key": "S2634460224000141_r207",
+        "first-page": "130551",
+        "article-title": "Developing a cost-effective emulator for groundwater flow modeling using deep neural operators",
+        "author": "Taccari",
+        "year": "2023",
+        "journal-title": "Journal of Hydrology"
+      },
+      {
+        "key": "S2634460224000141_r53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TGRS.2018.2872131"
+      },
+      {
+        "key": "S2634460224000141_r196",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/egusphere-egu23-15968"
+      },
+      {
+        "key": "S2634460224000141_r97",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2134/jeq2009.0441"
+      },
+      {
+        "key": "S2634460224000141_r71",
+        "unstructured": "Guibas, J , Mardani, M , Li, Z , Tao, A , Anandkumar, A and Catanzaro, B (2021) Adaptive fourier neural operators: Efficient token mixers for transformers. Preprint, arXiv:2111.13587."
+      },
+      {
+        "key": "S2634460224000141_r109",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-28954-6_19"
+      },
+      {
+        "key": "S2634460224000141_r111",
+        "first-page": "1",
+        "article-title": "Benchmarking a catchment-aware long short-term memory network (LSTM) for large-scale hydrological modeling",
+        "volume": "2019",
+        "author": "Kratzert",
+        "year": "2019c",
+        "journal-title": "Hydrology and Earth System Sciences Discussions"
+      },
+      {
+        "key": "S2634460224000141_r103",
+        "first-page": "1",
+        "article-title": "Stock market prediction using machine learning classifiers and social media, news",
+        "volume": "13",
+        "author": "Khan",
+        "year": "2020",
+        "journal-title": "Journal of Ambient Intelligence and Humanized Computing"
+      },
+      {
+        "key": "S2634460224000141_r119",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.113"
+      },
+      {
+        "key": "S2634460224000141_r181",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiomed.2019.103375"
+      },
+      {
+        "key": "S2634460224000141_r240",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TNNLS.2020.2978386"
+      },
+      {
+        "key": "S2634460224000141_r61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752-1688.12964"
+      },
+      {
+        "key": "S2634460224000141_r93",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/1.9781611976700.69"
+      },
+      {
+        "key": "S2634460224000141_r179",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2013.05.028"
+      },
+      {
+        "key": "S2634460224000141_r142",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2021.105101"
+      },
+      {
+        "key": "S2634460224000141_r180",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-019-0912-1"
+      },
+      {
+        "key": "S2634460224000141_r201",
+        "unstructured": "Stalder, M , Ozdemir, F , Safin, A , Sukys, J , Bouffard, D and Perez-Cruz, F (2021) Probabilistic modeling of lake surface water temperature using a Bayesian spatio-temporal graph convolutional neural network. Preprint, arXiv:2109.13235."
+      },
+      {
+        "key": "S2634460224000141_r176",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.14596"
+      },
+      {
+        "key": "S2634460224000141_r23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9781139235761"
+      },
+      {
+        "key": "S2634460224000141_r24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA.2018.8460875"
+      },
+      {
+        "key": "S2634460224000141_r192",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11629-017-4454-4"
+      },
+      {
+        "key": "S2634460224000141_r222",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1142/S0218126623503097"
+      },
+      {
+        "key": "S2634460224000141_r164",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00229"
+      },
+      {
+        "key": "S2634460224000141_r80",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/met.132"
+      },
+      {
+        "key": "S2634460224000141_r144",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/9781119646181.ch12"
+      },
+      {
+        "key": "S2634460224000141_r67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICDM54844.2022.00026"
+      },
+      {
+        "key": "S2634460224000141_r82",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-25-4373-2021"
+      },
+      {
+        "key": "S2634460224000141_r100",
+        "unstructured": "Karpatne, A , Watkins, W , Read, J and Kumar, V (2017b) Physics-guided neural networks (PGNN): An application in lake temperature modeling. Preprint, arXiv:1710.11431."
+      },
+      {
+        "key": "S2634460224000141_r65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1365-2427.2000.00566.x"
+      },
+      {
+        "key": "S2634460224000141_r163",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.geoderma.2019.01.009"
+      },
+      {
+        "key": "S2634460224000141_r47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2014GL060133"
+      },
+      {
+        "key": "S2634460224000141_r14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICDM51629.2021.00011"
+      },
+      {
+        "key": "S2634460224000141_r245",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cageo.2015.05.016"
+      },
+      {
+        "key": "S2634460224000141_r92",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3447814"
+      },
+      {
+        "key": "S2634460224000141_r132",
+        "unstructured": "Longa, A , Lachi, V , Santin, G , Bianchini, M , Lepri, B , Lio, P , Scarselli, F and Passerini, A (2023) Graph neural networks for temporal graphs: State of the art, open challenges, and opportunities. Preprint, arXiv:2302.01018."
+      },
+      {
+        "key": "S2634460224000141_r216",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Troin, M , Arsenault, R , Wood, AW , Brissette, F and Martel, J-L (2021) Generating Ensemble Streamflow Forecasts: A Review of Methods and Approaches Over the Past 40 Years. US Army Core of Engineers (2020). https://nid.usace.army.mil/#/.",
+        "DOI": "10.1029/2020WR028392"
+      },
+      {
+        "key": "S2634460224000141_r224",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2020.124828"
+      },
+      {
+        "key": "S2634460224000141_r221",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2005.07.015"
+      },
+      {
+        "key": "S2634460224000141_r91",
+        "unstructured": "International Rivers (2007, October) Damming Statistics. https://archive.internationalrivers.org/damming-statistics."
+      },
+      {
+        "key": "S2634460224000141_r155",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w14091318"
+      }
+    ],
+    "container-title": [
+      "Environmental Data Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S2634460224000141",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          22
+        ]
+      ],
+      "date-time": "2025-01-22T07:16:17Z",
+      "timestamp": 1737530177000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.cambridge.org/core/product/identifier/S2634460224000141/type/journal_article"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "references-count": 270,
+    "alternative-id": [
+      "S2634460224000141"
+    ],
+    "URL": "https://doi.org/10.1017/eds.2024.14",
+    "relation": {},
+    "ISSN": [
+      "2634-4602"
+    ],
+    "issn-type": [
+      {
+        "value": "2634-4602",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "article-number": "e7"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1017/eds.2024.14",
+  "original_doi": "10.1017/eds.2024.14"
+}

@@ -1,0 +1,1092 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          2
+        ]
+      ],
+      "date-time": "2026-08-02T20:53:41Z",
+      "timestamp": 1785704021272,
+      "version": "3.56.0"
+    },
+    "reference-count": 80,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2024-01-01T00:00:00Z",
+          "timestamp": 1704067200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2024-01-01T00:00:00Z",
+          "timestamp": 1704067200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              19
+            ]
+          ],
+          "date-time": "2023-10-19T00:00:00Z",
+          "timestamp": 1697673600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Science of The Total Environment"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.scitotenv.2023.167961",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          20
+        ]
+      ],
+      "date-time": "2023-10-20T03:28:08Z",
+      "timestamp": 1697772488000
+    },
+    "page": "167961",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "special_numbering": "C",
+    "title": [
+      "Mercury sources and budget for the Snake River above a hydroelectric reservoir complex"
+    ],
+    "prefix": "10.1016",
+    "volume": "907",
+    "author": [
+      {
+        "given": "Austin K.",
+        "family": "Baldwin",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sarah E.",
+        "family": "Janssen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael T.",
+        "family": "Tate",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Brett A.",
+        "family": "Poulin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alysa M.",
+        "family": "Yoder",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jesse",
+        "family": "Naymik",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chris",
+        "family": "Larsen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Charles",
+        "family": "Hoovestol",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David P.",
+        "family": "Krabbenhoft",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "269",
+        "DOI": "10.1890/ES14-00517.1",
+        "article-title": "Reducing bias and quantifying uncertainty in watershed flux estimates: the R package loadflex",
+        "volume": "6",
+        "author": "Appling",
+        "year": "2015",
+        "journal-title": "Ecosphere"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "3029",
+        "DOI": "10.1002/hyp.6147",
+        "article-title": "The composite method: an improved method for stream-water solute load estimation",
+        "volume": "20",
+        "author": "Aulenbach",
+        "year": "2006",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0015",
+        "series-title": "Scientific Investigations Report",
+        "article-title": "Arsenic, antimony, mercury, and water temperature in streams near Stibnite mining area, central Idaho, 2011\u201317 (USGS numbered series no. 2019\u20135072)",
+        "author": "Baldwin",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "9305",
+        "DOI": "10.1021/acs.est.9b07103",
+        "article-title": "Seasonal dynamics and interannual variability in mercury concentrations and loads through a three-reservoir complex",
+        "volume": "54",
+        "author": "Baldwin",
+        "year": "2020",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "13751",
+        "DOI": "10.1021/acs.est.2c03958",
+        "article-title": "In-reservoir physical processes modulate aqueous and biological methylmercury export from a seasonally anoxic reservoir",
+        "volume": "56",
+        "author": "Baldwin",
+        "year": "2022",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "417",
+        "DOI": "10.1126/science.1148050",
+        "article-title": "Mass-dependent and -independent fractionation of Hg isotopes by photoreduction in aquatic systems",
+        "volume": "318",
+        "author": "Bergquist",
+        "year": "2007",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "2372",
+        "DOI": "10.1016/j.scitotenv.2008.12.006",
+        "article-title": "Mercury speciation in the Valdeazogues River-La Serena Reservoir system: influence of Almad\u00e9n (Spain) historic mining activities",
+        "volume": "407",
+        "author": "Berzas Nevado",
+        "year": "2009",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "445",
+        "DOI": "10.1007/BF01189694",
+        "article-title": "Methylmercury output from the Svartberget Catchment in northern Sweden during spring flood",
+        "volume": "80",
+        "author": "Bishop",
+        "year": "1995",
+        "journal-title": "Water Air Soil Pollut."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0045",
+        "series-title": "A Harmonized Discharge Record for Select Tributaries to the Lower Boise River, Southwestern Idaho, 1986-2022 (U.S. Geological Survey Data Release)",
+        "author": "Bittmann",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0050",
+        "doi-asserted-by": "crossref",
+        "first-page": "733",
+        "DOI": "10.2138/rmg.2017.82.17",
+        "article-title": "Recent developments in mercury stable isotope analysis",
+        "volume": "82",
+        "author": "Blum",
+        "year": "2017",
+        "journal-title": "Rev. Mineral. Geochem."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0055",
+        "series-title": "Evaluation for Total Mercury Contamination in Brownlee Reservoir Tributary Streams",
+        "author": "Brandt",
+        "year": "2007"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "172",
+        "DOI": "10.1016/j.watres.2018.06.064",
+        "article-title": "The interplay between total mercury, methylmercury and dissolved organic matter in fluvial systems: a latitudinal study across Europe",
+        "volume": "144",
+        "author": "Bravo",
+        "year": "2018",
+        "journal-title": "Water Res."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "2720",
+        "DOI": "10.1021/es802694n",
+        "article-title": "Mercury cycling in stream ecosystems. 1. Water column chemistry and transport",
+        "volume": "43",
+        "author": "Brigham",
+        "year": "2009",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0070",
+        "doi-asserted-by": "crossref",
+        "first-page": "1195",
+        "DOI": "10.1039/D2EM00142J",
+        "article-title": "Diel mercury concentration variations in a mercury-impacted stream",
+        "volume": "24",
+        "author": "Brooks",
+        "year": "2022",
+        "journal-title": "Environ Sci Process Impacts"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0075",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.scitotenv.2021.150808",
+        "article-title": "Sources of riverine mercury across the Mackenzie River Basin; inferences from a combined HgC isotopes and optical properties approach",
+        "volume": "806",
+        "author": "Campeau",
+        "year": "2022",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "1402",
+        "DOI": "10.1039/c0ja00014k",
+        "article-title": "Chromatographic pre-concentration of Hg from dilute aqueous solutions for isotopic measurement by MC-ICP-MS",
+        "volume": "25",
+        "author": "Chen",
+        "year": "2010",
+        "journal-title": "J. Anal. At. Spectrom."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0085",
+        "series-title": "USGS Fact Sheet 2016\u20133051",
+        "first-page": "6",
+        "article-title": "Mercury cycling in the Hells Canyon Complex of the Snake River, Idaho and Oregon",
+        "author": "Clark",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0090",
+        "doi-asserted-by": "crossref",
+        "first-page": "222",
+        "DOI": "10.1002/gbc.20021",
+        "article-title": "Mercury isotopes in a forested ecosystem: implications for air-surface exchange dynamics and the global mercury cycle",
+        "volume": "27",
+        "author": "Demers",
+        "year": "2013",
+        "journal-title": "Glob. Biogeochem. Cycles"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0095",
+        "doi-asserted-by": "crossref",
+        "first-page": "1614",
+        "DOI": "10.1007/s10646-019-02157-4",
+        "article-title": "Watershed influences on mercury in tributaries to Lake Ontario",
+        "volume": "29",
+        "author": "Denkenberger",
+        "year": "2020",
+        "journal-title": "Ecotoxicology"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0100",
+        "series-title": "USGS Open File Rep., Open-File Report 2001\u2013445",
+        "first-page": "19",
+        "article-title": "Determination of methyl mercury by aqueous phase ethylation, followed by gas chromatographic separation with cold vapor atomic fluorescence detection",
+        "author": "DeWild",
+        "year": "2002"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0105",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2009WR008351",
+        "article-title": "Mercury dynamics in relation to dissolved organic carbon concentration and quality during high flow events in three northeastern U.S. streams",
+        "volume": "46",
+        "author": "Dittman",
+        "year": "2010",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0110",
+        "doi-asserted-by": "crossref",
+        "first-page": "1171",
+        "DOI": "10.1016/j.scitotenv.2016.03.229",
+        "article-title": "Spatial and temporal patterns of mercury concentrations in freshwater fish across the Western United States and Canada",
+        "volume": "568",
+        "author": "Eagles-Smith",
+        "year": "2016",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0115",
+        "doi-asserted-by": "crossref",
+        "first-page": "170",
+        "DOI": "10.1007/s13280-017-1011-x",
+        "article-title": "Modulators of mercury risk to wildlife and humans in the context of rapid global change",
+        "volume": "47",
+        "author": "Eagles-Smith",
+        "year": "2018",
+        "journal-title": "Ambio"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0120",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.scitotenv.2019.136031",
+        "article-title": "The assessment and remediation of mercury contaminated sites: a review of current approaches",
+        "volume": "707",
+        "author": "Eckley",
+        "year": "2020",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0125",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.envpol.2020.116369",
+        "article-title": "Effect of organic matter concentration and characteristics on mercury mobilization and methylmercury production at an abandoned mine site",
+        "volume": "271",
+        "author": "Eckley",
+        "year": "2021",
+        "journal-title": "Environ. Pollut."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0130",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3389/fenvc.2023.1096199",
+        "article-title": "Using mercury stable isotope fractionation to identify the contribution of historical mercury mining sources present in downstream water, sediment and fish",
+        "volume": "4",
+        "author": "Eckley",
+        "year": "2023",
+        "journal-title": "Front. Environ. Chem."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0135",
+        "series-title": "US Geol. Surv. Tech. Water-Resour. Investig. Book 3 Chapter C2",
+        "first-page": "89",
+        "article-title": "Field methods for measurement of fluvial sediment",
+        "author": "Edwards",
+        "year": "1999"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0140",
+        "doi-asserted-by": "crossref",
+        "first-page": "13748",
+        "DOI": "10.1021/acs.est.9b05016",
+        "article-title": "Significant seasonal variations in isotopic composition of atmospheric total gaseous mercury at forest sites in China caused by vegetation and mercury sources",
+        "volume": "53",
+        "author": "Fu",
+        "year": "2019",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0145",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.chemosphere.2022.134306",
+        "article-title": "Lake snow as a mercury methylation micro-environment in the oxic water column of a deep peri-alpine lake",
+        "volume": "299",
+        "author": "Gallorini",
+        "year": "2022",
+        "journal-title": "Chemosphere"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0150",
+        "doi-asserted-by": "crossref",
+        "first-page": "3393",
+        "DOI": "10.1016/j.gca.2007.04.032",
+        "article-title": "Mercury transformations and fluxes in sediments of a riverine wetland",
+        "volume": "71",
+        "author": "Goulet",
+        "year": "2007",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0155",
+        "doi-asserted-by": "crossref",
+        "first-page": "464",
+        "DOI": "10.1016/j.scitotenv.2015.01.040",
+        "article-title": "Mercury methylation and demethylation by periphyton biofilms and their host in a fluvial wetland of the St. Lawrence River (QC, Canada)",
+        "volume": "512\u2013513",
+        "author": "Hamelin",
+        "year": "2015",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0160",
+        "series-title": "Hells Canyon Complex FERC No. 1971",
+        "article-title": "Tributary pollutant sources to the Hells Canyon Complex (no. technical report appendix E.2.2-1)",
+        "author": "Hoelscher",
+        "year": "2003"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0165",
+        "first-page": "345",
+        "article-title": "Completion of the 2011 National Land Cover Database for the conterminous United States-representing a decade of land cover change information",
+        "volume": "81",
+        "author": "Homer",
+        "year": "2015",
+        "journal-title": "Photogramm. Eng. Remote. Sens."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0170",
+        "series-title": "Implementation Guidance for the Idaho Mercury Water Quality Criteria",
+        "author": "Idaho Department of Environmental Quality",
+        "year": "2005"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0175",
+        "series-title": "Snake River - Hells Canyon Total Maximum Daily Load (TMDL)",
+        "author": "Idaho Department of Environmental Quality, Oregon Department of Environmental Quality",
+        "year": "2004"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0180",
+        "author": "Idaho Power Company"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0185",
+        "first-page": "604",
+        "article-title": "Why, when and how to adjust your P values?",
+        "volume": "20",
+        "author": "Jafari",
+        "year": "2019",
+        "journal-title": "Cell J. Yakhteh"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0190",
+        "doi-asserted-by": "crossref",
+        "first-page": "95",
+        "DOI": "10.1016/j.aca.2018.12.026",
+        "article-title": "Rapid pre-concentration of mercury in solids and water for isotopic analysis",
+        "volume": "1054",
+        "author": "Janssen",
+        "year": "2019",
+        "journal-title": "Anal. Chim. Acta"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0195",
+        "doi-asserted-by": "crossref",
+        "first-page": "6654",
+        "DOI": "10.1021/es3008112",
+        "article-title": "Solution speciation controls mercury isotope fractionation of Hg(II) sorption to goethite",
+        "volume": "46",
+        "author": "Jiskra",
+        "year": "2012",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0200",
+        "doi-asserted-by": "crossref",
+        "first-page": "7188",
+        "DOI": "10.1021/acs.est.5b00742",
+        "article-title": "Mercury deposition and re-emission pathways in boreal forest soils investigated with Hg isotope signatures",
+        "volume": "49",
+        "author": "Jiskra",
+        "year": "2015",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0205",
+        "doi-asserted-by": "crossref",
+        "first-page": "1235",
+        "DOI": "10.1039/C7EM00245A",
+        "article-title": "Source tracing of natural organic matter bound mercury in boreal forest runoff with mercury stable isotopes",
+        "volume": "19",
+        "author": "Jiskra",
+        "year": "2017",
+        "journal-title": "Environ Sci Process Impacts"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0210",
+        "doi-asserted-by": "crossref",
+        "first-page": "138",
+        "DOI": "10.3390/ijerph14020138",
+        "article-title": "Toward an assessment of the global inventory of present-day mercury releases to freshwater environments",
+        "volume": "14",
+        "author": "Kocman",
+        "year": "2017",
+        "journal-title": "Int. J. Environ. Res. Public Health"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0215",
+        "doi-asserted-by": "crossref",
+        "first-page": "825",
+        "DOI": "10.1002/2015GB005316",
+        "article-title": "Forest harvest contribution to boreal freshwater methyl mercury load",
+        "volume": "30",
+        "author": "Kronberg",
+        "year": "2016",
+        "journal-title": "Glob. Biogeochem. Cycles"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0220",
+        "doi-asserted-by": "crossref",
+        "first-page": "10502",
+        "DOI": "10.1021/acs.est.0c01918",
+        "article-title": "Contrasting controls on the diel isotopic variation of Hg0 at two high elevation sites in the Western United States",
+        "volume": "54",
+        "author": "Kurz",
+        "year": "2020",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0225",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.earscirev.2020.103111",
+        "article-title": "Mercury stable isotopes for monitoring the effectiveness of the Minamata Convention on mercury",
+        "volume": "203",
+        "author": "Kwon",
+        "year": "2020",
+        "journal-title": "Earth Sci. Rev."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0230",
+        "doi-asserted-by": "crossref",
+        "first-page": "1508",
+        "DOI": "10.1029/2018JG004896",
+        "article-title": "Global meta-analysis on the relationship between mercury and dissolved organic carbon in freshwater environments",
+        "volume": "124",
+        "author": "Lavoie",
+        "year": "2019",
+        "journal-title": "J. Geophys. Res. Biogeosci."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0235",
+        "doi-asserted-by": "crossref",
+        "first-page": "2726",
+        "DOI": "10.1021/es802698v",
+        "article-title": "Mercury cycling in stream ecosystems. 2. Benthic methylmercury production and bed sediment\u2013pore water partitioning",
+        "volume": "43",
+        "author": "Marvin-DiPasquale",
+        "year": "2009",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0240",
+        "series-title": "Mountains of Mercury: The Pollution Costs of Cement Production",
+        "author": "Miller",
+        "year": "2010"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0245",
+        "doi-asserted-by": "crossref",
+        "first-page": "2842",
+        "DOI": "10.1021/acs.jpca.9b06308",
+        "article-title": "Mercury isotope fractionation during the photochemical reduction of Hg(II) coordinated with organic ligands",
+        "volume": "124",
+        "author": "Motta",
+        "year": "2020",
+        "journal-title": "J. Phys. Chem. A"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0250",
+        "doi-asserted-by": "crossref",
+        "first-page": "344",
+        "DOI": "10.1016/j.scitotenv.2006.11.008",
+        "article-title": "Diel mercury-concentration variations in streams affected by mining and geothermal discharge",
+        "volume": "373",
+        "author": "Nimick",
+        "year": "2007",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0255",
+        "doi-asserted-by": "crossref",
+        "first-page": "12714",
+        "DOI": "10.1021/acs.est.1c02319",
+        "article-title": "Enhanced susceptibility of methylmercury bioaccumulation into Seston of the Laurentian Great Lakes",
+        "volume": "55",
+        "author": "Ogorek",
+        "year": "2021",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0260",
+        "series-title": "USGS Tech. Methods, Techniques and Methods 5-A8",
+        "article-title": "Methods for the preparation and analysis of solids and suspended solids for total mercury",
+        "author": "Olund",
+        "year": "2004"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0265",
+        "series-title": "Mercury in Oregon Waters",
+        "author": "Oregon Department of Environmental Quality",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0270",
+        "first-page": "1",
+        "article-title": "Metabolically diverse microorganisms mediate methylmercury formation under nitrate-reducing conditions in a dynamic hydroelectric reservoir",
+        "author": "Peterson",
+        "year": "2023",
+        "journal-title": "ISME J."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0275",
+        "series-title": "Chemical Characterization of Water and Suspended Sediment of the Snake River and Hells Canyon Complex (Idaho, Oregon) (Ver. 2.0, November 2022). US Geol. Surv. Data Release",
+        "author": "Poulin",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0280",
+        "doi-asserted-by": "crossref",
+        "first-page": "912",
+        "DOI": "10.1039/D3EM00032J",
+        "article-title": "Biogeochemical and hydrologic synergy control mercury fate in an arid land river-reservoir system",
+        "volume": "25",
+        "author": "Poulin",
+        "year": "2023",
+        "journal-title": "Environ Sci Process Impacts"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0285",
+        "series-title": "R: A Language and Environment for Statistical Computing",
+        "author": "R Core Team",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0290",
+        "doi-asserted-by": "crossref",
+        "first-page": "5575",
+        "DOI": "10.1007/s11356-013-2476-1",
+        "article-title": "Mass loads of dissolved and particulate mercury and other trace elements in the Mt. Amiata mining district, Southern Tuscany (Italy)",
+        "volume": "21",
+        "author": "Rimondi",
+        "year": "2014",
+        "journal-title": "Environ. Sci. Pollut. Res."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0295",
+        "series-title": "USGS Tech. Methods",
+        "doi-asserted-by": "crossref",
+        "first-page": "4",
+        "DOI": "10.3133/tm4A5",
+        "article-title": "Load Estimator (LOADEST): a FORTRAN program for estimating constituent loads in streams and rivers",
+        "author": "Runkel",
+        "year": "2004"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0300",
+        "series-title": "Scientific Investigations Report",
+        "article-title": "Mercury in fish, bed sediment, and water from streams across the United States, 1998-2005 (USGS numbered series no. 2009\u20135109)",
+        "author": "Scudder",
+        "year": "2009"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0305",
+        "doi-asserted-by": "crossref",
+        "first-page": "125",
+        "DOI": "10.1007/s10646-004-6264-z",
+        "article-title": "Physical controls on total and methylmercury concentrations in streams and lakes of the northeastern USA",
+        "volume": "14",
+        "author": "Shanley",
+        "year": "2005",
+        "journal-title": "Ecotoxicology"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0310",
+        "doi-asserted-by": "crossref",
+        "first-page": "855",
+        "DOI": "10.2134/jeq2000.00472425002900030022x",
+        "article-title": "Binding of mercury(II) to reduced sulfur in soil organic matter along upland-peat soil transects",
+        "volume": "29",
+        "author": "Skyllberg",
+        "year": "2000",
+        "journal-title": "J. Environ. Qual."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0315",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2009JG001124",
+        "article-title": "Anthropogenic impacts on global storage and emissions of mercury from terrestrial soils: insights from a new global model",
+        "volume": "115",
+        "author": "Smith-Downey",
+        "year": "2010",
+        "journal-title": "J. Geophys. Res. Biogeosci."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0320",
+        "doi-asserted-by": "crossref",
+        "first-page": "3040",
+        "DOI": "10.1002/2015WR017849",
+        "article-title": "Association of dissolved mercury with dissolved organic carbon in U.S. rivers and streams: the role of watershed soil organic carbon",
+        "volume": "52",
+        "author": "Stoken",
+        "year": "2016",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0325",
+        "doi-asserted-by": "crossref",
+        "first-page": "5969",
+        "DOI": "10.1021/acs.est.7b00451",
+        "article-title": "Total mercury released to the environment by human activities",
+        "volume": "51",
+        "author": "Streets",
+        "year": "2017",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0330",
+        "doi-asserted-by": "crossref",
+        "first-page": "211",
+        "DOI": "10.1144/1467-787302-024",
+        "article-title": "Mercury contamination from historic mining in water and sediment, Guadalupe River and San Francisco Bay, California",
+        "volume": "2",
+        "author": "Thomas",
+        "year": "2002",
+        "journal-title": "Geochem. Explor. Environ. Anal."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0335",
+        "doi-asserted-by": "crossref",
+        "first-page": "6998",
+        "DOI": "10.1021/es101374y",
+        "article-title": "In situ production of methylmercury within a stream channel in northern California",
+        "volume": "44",
+        "author": "Tsui",
+        "year": "2010",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0340",
+        "series-title": "National Water Information System",
+        "author": "U.S. Geological Survey",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0345",
+        "unstructured": "U.S. Geological Survey, variously dated. National Field Manual for the Collection of Water-Quality Data. U.S. Geological Survey Techniques of Water-Resources Investigations, Book 9 (No. TWRI-09). United States Geological Survey."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0350",
+        "doi-asserted-by": "crossref",
+        "first-page": "241",
+        "DOI": "10.1080/20016491089226",
+        "article-title": "Mercury in the aquatic environment: a review of factors affecting methylation",
+        "volume": "31",
+        "author": "Ullrich",
+        "year": "2001",
+        "journal-title": "Crit. Rev. Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0355",
+        "series-title": "Method 1630: Methyl Mercury in Water by Distillation, Aqueous Ethylation, Purge and Trap, and Cold Vapor Atomic Fluorescence Spectrometry",
+        "author": "US EPA",
+        "year": "1998"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0360",
+        "series-title": "Method 1631, Revision E: Mercury in Water by Oxidation, Purge and Trap, and Cold Vapor Atomic Fluorescence Spectrometry",
+        "author": "US EPA",
+        "year": "2002"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0365",
+        "series-title": "Columbia River Basin: State of the River Report for Toxics (No. EPA 910-R-08-004)",
+        "author": "US EPA",
+        "year": "2009"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0370",
+        "doi-asserted-by": "crossref",
+        "first-page": "10965",
+        "DOI": "10.1021/acs.est.7b02577",
+        "article-title": "Isotopic characterization of mercury downstream of historic industrial contamination in the South River, Virginia",
+        "volume": "51",
+        "author": "Washburn",
+        "year": "2017",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0375",
+        "doi-asserted-by": "crossref",
+        "first-page": "96",
+        "DOI": "10.1016/j.chemgeo.2018.07.023",
+        "article-title": "Spatial and temporal variation in the isotopic composition of mercury in the South River, VA",
+        "volume": "494",
+        "author": "Washburn",
+        "year": "2018",
+        "journal-title": "Chem. Geol."
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0380",
+        "series-title": "R Package \u201ccorrplot\u201d: Visualization of a Correlation Matrix",
+        "author": "Wei",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0385",
+        "series-title": "US Geol. Surv. Circ. 1395",
+        "first-page": "90",
+        "article-title": "Mercury in the nation's streams\u2014levels, trends, and implications",
+        "author": "Wentz",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0390",
+        "series-title": "ggplot2: Elegant Graphics for Data Analysis",
+        "author": "Wickham",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0395",
+        "series-title": "No. U.S. Geological Survey Scientific Investigations Report 2014\u20135091",
+        "article-title": "Evaluation of seepage and discharge uncertainty in the Middle Snake River, Southwestern Idaho",
+        "author": "Wood",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.scitotenv.2023.167961_bb0400",
+        "doi-asserted-by": "crossref",
+        "first-page": "2060",
+        "DOI": "10.1039/C6JA00107F",
+        "article-title": "Effects of mercury and thallium concentrations on high precision determination of mercury isotopic composition by Neptune Plus multiple collector inductively coupled plasma mass spectrometry",
+        "volume": "31",
+        "author": "Yin",
+        "year": "2016",
+        "journal-title": "J. Anal. At. Spectrom."
+      }
+    ],
+    "container-title": [
+      "Science of The Total Environment"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0048969723065889?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0048969723065889?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          2
+        ]
+      ],
+      "date-time": "2026-08-02T20:13:50Z",
+      "timestamp": 1785701630000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0048969723065889"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1
+        ]
+      ]
+    },
+    "references-count": 80,
+    "alternative-id": [
+      "S0048969723065889"
+    ],
+    "URL": "https://doi.org/10.1016/j.scitotenv.2023.167961",
+    "relation": {},
+    "ISSN": [
+      "0048-9697"
+    ],
+    "issn-type": [
+      {
+        "value": "0048-9697",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Mercury sources and budget for the Snake River above a hydroelectric reservoir complex",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Science of The Total Environment",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.scitotenv.2023.167961",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "Published by Elsevier B.V.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "167961"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1016/j.scitotenv.2023.167961",
+  "original_doi": "10.1016/j.scitotenv.2023.167961"
+}
