@@ -1,0 +1,724 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          6
+        ]
+      ],
+      "date-time": "2026-06-06T23:27:37Z",
+      "timestamp": 1780788457917,
+      "version": "3.54.1"
+    },
+    "reference-count": 56,
+    "publisher": "Frontiers Media SA",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              5
+            ]
+          ],
+          "date-time": "2022-07-05T00:00:00Z",
+          "timestamp": 1656979200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "frontiersin.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Front. Earth Sci."
+    ],
+    "abstract": "<jats:p>Following the advancement of high-performance computing and sensor technology and the increased availability of larger climate and land-use data sets, hydrologic models have become more sophisticated. Instead of simple boundary conditions, these data sets are incorporated with the aim of providing more accurate insights into hydrologic processes. Integrated surface-water and groundwater models are developed to represent the most important processes that affect the distribution of water in hydrologic systems. GSFLOW is an integrated hydrologic modeling software that couples surface-water processes from PRMS and groundwater processes from MODFLOW and simulates feedbacks between both components of the hydrologic system. Development of GSFLOW models has previously required multiple tools to separately create surface-water and groundwater input files. The use of these multiple tools, custom workflows, and manual processing complicates reproducibility and confidence in model results. Based on a need for rapid, reproduceable, and robust methods, we present two example problems that showcase the latest updates to pyGSFLOW. The software package, pyGSFLOW, is an end-to-end data processing tool made from open-source <jats:italic>Python</jats:italic> libraries that enables the user to edit, write input files, run models, and postprocess model output. The first example showcases pyGSFLOW\u2019s capabilities by developing a streamflow network in the Russian River watershed with an area of 3,850\u00a0km<jats:sup>2</jats:sup> located on the coast of northern California. A second example examines the effects of model discretization on hydrologic prediction for the Sagehen Creek watershed with an area of 28\u00a0km<jats:sup>2</jats:sup>, near Lake Tahoe, California, in the northern Sierra Nevada.</jats:p>",
+    "DOI": "10.3389/feart.2022.907533",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          5
+        ]
+      ],
+      "date-time": "2022-07-05T08:12:21Z",
+      "timestamp": 1657008741000
+    },
+    "update-policy": "https://doi.org/10.3389/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "title": [
+      "Rapid Model Development for GSFLOW With Python and pyGSFLOW"
+    ],
+    "prefix": "10.3389",
+    "volume": "10",
+    "author": [
+      {
+        "given": "Joshua D.",
+        "family": "Larsen",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ayman H.",
+        "family": "Alzraiee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Donald",
+        "family": "Martin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Richard G.",
+        "family": "Niswonger",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1965",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          5
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "B1",
+        "volume-title": "FloPy v3.3.6 \u2014 Release Candidate",
+        "author": "Bakker",
+        "year": "2022"
+      },
+      {
+        "key": "B2",
+        "doi-asserted-by": "publisher",
+        "first-page": "733",
+        "DOI": "10.1111/gwat.12413",
+        "article-title": "Scripting MODFLOW Model Development Using Python and FloPy",
+        "volume": "54",
+        "author": "Bakker",
+        "year": "2016",
+        "journal-title": "Groundwater"
+      },
+      {
+        "key": "B3",
+        "doi-asserted-by": "publisher",
+        "first-page": "1481",
+        "DOI": "10.2166/nh.2019.134",
+        "article-title": "How to Make Advances in Hydrological Modelling",
+        "volume": "50",
+        "author": "Beven",
+        "year": "2019",
+        "journal-title": "Hydrology Res."
+      },
+      {
+        "key": "B4",
+        "doi-asserted-by": "publisher",
+        "first-page": "10",
+        "DOI": "10.1080/02626667.2019.1620507",
+        "article-title": "Twenty-three Unsolved Problems in Hydrology (UPH)\u2013a Community Perspective",
+        "volume": "64",
+        "author": "Bl\u00f6schl",
+        "year": "2019",
+        "journal-title": "Hydrological Sci. J."
+      },
+      {
+        "key": "B5",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3133/fs20203033",
+        "volume-title": "NHDPlus High Resolution (NHDPlus HR)---A Hydrography Framework for the Nation",
+        "author": "Buto",
+        "year": "2020"
+      },
+      {
+        "key": "B6",
+        "doi-asserted-by": "publisher",
+        "first-page": "9",
+        "DOI": "10.1029/2010WR009827",
+        "article-title": "Pursuing the Method of Multiple Working Hypotheses for Hydrological Modeling",
+        "volume": "47",
+        "author": "Clark",
+        "year": "2011",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "B7",
+        "doi-asserted-by": "publisher",
+        "first-page": "6602",
+        "DOI": "10.1002/2014WR016774",
+        "article-title": "Evaluating the Relationship between Topography and Groundwater Using Outputs from a Continental-Scale Integrated Hydrology Model",
+        "volume": "51",
+        "author": "Condon",
+        "year": "2015",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "B8",
+        "doi-asserted-by": "publisher",
+        "first-page": "269",
+        "DOI": "10.1007/BF01386390",
+        "article-title": "A Note on Two Problems in Connexion with Graphs",
+        "volume": "1",
+        "author": "Dijkstra",
+        "year": "1959",
+        "journal-title": "Numer. Math."
+      },
+      {
+        "key": "B9",
+        "doi-asserted-by": "publisher",
+        "first-page": "204",
+        "DOI": "10.1016/S0022-1694(96)03138-1",
+        "article-title": "The Assignment of Drainage Direction over Flat Surfaces in Raster Digital Elevation Models",
+        "volume": "193",
+        "author": "Garbrecht",
+        "year": "1997",
+        "journal-title": "J. Hydrology"
+      },
+      {
+        "key": "B10",
+        "doi-asserted-by": "publisher",
+        "first-page": "41",
+        "DOI": "10.1016/j.envsoft.2018.07.020",
+        "article-title": "Input Data Processing Tools for the Integrated Hydrologic Model GSFLOW",
+        "volume": "109",
+        "author": "Gardner",
+        "year": "2018",
+        "journal-title": "Environ. Model. Softw."
+      },
+      {
+        "key": "B11",
+        "doi-asserted-by": "publisher",
+        "first-page": "5",
+        "DOI": "10.1016/j.geomorph.2010.10.004",
+        "article-title": "Scale in GIS: An Overview",
+        "volume": "130",
+        "author": "Goodchild",
+        "year": "2011",
+        "journal-title": "Geomorphology"
+      },
+      {
+        "key": "B12",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3133/ofr200092",
+        "volume-title": "MODFLOW-2000, the U.S. Geological Survey Modular Ground-Water Model \u2013 User Guide to Modularization Concepts and the Ground-Water Flow Process",
+        "author": "Harbaugh",
+        "year": "2000"
+      },
+      {
+        "key": "B13",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3133/tm6A16",
+        "article-title": "MODFLOW-2005 : the U.S. Geological Survey Modular Ground-Water Model-Tthe Ground-Water Flow Process",
+        "volume-title": "Techniques and Methods 6-A16",
+        "author": "Harbaugh",
+        "year": "2005"
+      },
+      {
+        "key": "B14",
+        "doi-asserted-by": "publisher",
+        "first-page": "877",
+        "DOI": "10.1111/j.1752-1688.2006.tb04501.x",
+        "article-title": "Step Wise, Multiple Objective Calibration of a Hydrologic Model for a Snowmelt Dominated Basin",
+        "volume": "42",
+        "author": "Hay",
+        "year": "2006",
+        "journal-title": "J. Am. Water Resour. Assoc."
+      },
+      {
+        "key": "B15",
+        "doi-asserted-by": "crossref",
+        "first-page": "28",
+        "DOI": "10.3133/tm6D2",
+        "article-title": "CRT\u2014Cascade Routing Tool to Define and Visualize Flow Paths for Grid-Based Watershed Models",
+        "volume-title": "Techniques and Methods 6-D2",
+        "author": "Henson",
+        "year": "2013"
+      },
+      {
+        "key": "B17",
+        "doi-asserted-by": "publisher",
+        "first-page": "11",
+        "DOI": "10.1029/2012WR012319",
+        "article-title": "Role of Surface-Water and Groundwater Interactions on Projected Summertime Streamflow in Snow Dominated Regions: An Integrated Modeling Approach",
+        "volume": "48",
+        "author": "Huntington",
+        "year": "2012",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "B18",
+        "first-page": "1593",
+        "article-title": "Extracting Topographic Structure from Digital Elevation Data for Geographic Information System Analysis",
+        "volume": "54",
+        "author": "Jenson",
+        "year": "1988",
+        "journal-title": "Photogrammetric Eng. remote Sens."
+      },
+      {
+        "key": "B19",
+        "doi-asserted-by": "publisher",
+        "first-page": "558",
+        "DOI": "10.1145/368996.369025",
+        "article-title": "Topological Sorting of Large Networks",
+        "volume": "5",
+        "author": "Kahn",
+        "year": "1962",
+        "journal-title": "Commun. ACM"
+      },
+      {
+        "key": "B20",
+        "doi-asserted-by": "publisher",
+        "first-page": "5",
+        "DOI": "10.1029/2006WR005370",
+        "article-title": "A Framework for Classifying and Comparing Distributed Hillslope and Catchment Hydrologic Models",
+        "volume": "43",
+        "author": "Kampf",
+        "year": "2007",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "B21",
+        "doi-asserted-by": "publisher",
+        "first-page": "6",
+        "DOI": "10.1029/2020WR027924",
+        "article-title": "Integrated Hydrology and Operations Modeling to Evaluate Climate Change Impacts in an Agricultural Valley Irrigated with Snowmelt Runoff",
+        "volume": "57",
+        "author": "Kitlasten",
+        "year": "2021",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "B22",
+        "doi-asserted-by": "publisher",
+        "first-page": "317",
+        "DOI": "10.1007/s10040-004-0411-8",
+        "article-title": "Groundwater Depletion: A Global Problem",
+        "volume": "13",
+        "author": "Konikow",
+        "year": "2005",
+        "journal-title": "Hydrogeol. J."
+      },
+      {
+        "key": "B23",
+        "volume-title": "Data from: LANDFIRE Existing Vegetation Type Layer",
+        "year": "2016"
+      },
+      {
+        "key": "B24",
+        "doi-asserted-by": "publisher",
+        "first-page": "3852",
+        "DOI": "10.21105/joss.03852",
+        "article-title": "Integrated Hydrologic Model Development and Postprocessing for GSFLOW Using pyGSFLOW",
+        "volume": "7",
+        "author": "Larsen",
+        "year": "2022",
+        "journal-title": "J. Open Source Softw."
+      },
+      {
+        "key": "B25",
+        "volume-title": "pyGSFLOW v1.0.0",
+        "author": "Larsen",
+        "year": "2021"
+      },
+      {
+        "key": "B26",
+        "doi-asserted-by": "publisher",
+        "first-page": "761",
+        "DOI": "10.1111/gwat.13095",
+        "article-title": "SFRmaker and Linesink-Maker: Rapid Construction of Streamflow Routing Networks from Hydrography Data",
+        "volume": "59",
+        "author": "Leaf",
+        "year": "2021",
+        "journal-title": "Groundwater"
+      },
+      {
+        "key": "B27",
+        "volume-title": "Arc Hydro: GIS for Water Resources",
+        "author": "Maidment",
+        "year": "2002"
+      },
+      {
+        "key": "B28",
+        "first-page": "73",
+        "article-title": "Network Models in Geomorphology",
+        "volume-title": "Modelling in Geomorphological Systems",
+        "author": "Mark",
+        "year": "1988"
+      },
+      {
+        "key": "B29",
+        "first-page": "240",
+        "volume-title": "GSFLOW-coupled Ground-Water and Surface-Water FLOW Model Based on the Integration of the Precipitation-Runoff Modeling System (PRMS) and the Modular Ground-Water Flow Model (MODFLOW-2005)",
+        "author": "Markstrom",
+        "year": "2008"
+      },
+      {
+        "key": "B30",
+        "first-page": "158",
+        "volume-title": "PRMS-IV, the Precipitation-Runoff Modeling System, Version 4",
+        "author": "Markstrom",
+        "year": "2015"
+      },
+      {
+        "key": "B31",
+        "doi-asserted-by": "publisher",
+        "first-page": "835",
+        "DOI": "10.1016/s0098-3004(99)00018-7",
+        "article-title": "An Outlet Breaching Algorithm for the Treatment of Closed Depressions in a Raster DEM",
+        "volume": "25",
+        "author": "Martz",
+        "year": "1999",
+        "journal-title": "Comput. Geosciences"
+      },
+      {
+        "key": "B32",
+        "doi-asserted-by": "publisher",
+        "first-page": "667",
+        "DOI": "10.5194/hess-15-667-2011",
+        "article-title": "Efficient Extraction of Drainage Networks from Massive, Radar-Based Elevation Models with Least Cost Path Search",
+        "volume": "15",
+        "author": "Metz",
+        "year": "2011",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "key": "B33",
+        "doi-asserted-by": "publisher",
+        "article-title": "Data from: 2016 Shrubland Fractional Components for the Western U.S",
+        "year": "2020",
+        "DOI": "10.5066/P9MJVQSQ"
+      },
+      {
+        "key": "B34",
+        "doi-asserted-by": "publisher",
+        "first-page": "4755",
+        "DOI": "10.5194/gmd-11-4755-2018",
+        "article-title": "GSFLOW-GRASS v1.0.0: GIS-Enabled Hydrologic Modeling of Coupled Groundwater-Surface-Water Systems",
+        "volume": "11",
+        "author": "Ng",
+        "year": "2018",
+        "journal-title": "Geosci. Model Dev."
+      },
+      {
+        "key": "B35",
+        "first-page": "44",
+        "volume-title": "MODFLOW-NWT, A Newton Formulation for MODFLOW-2005",
+        "author": "Niswonger",
+        "year": "2011"
+      },
+      {
+        "key": "B36",
+        "first-page": "47",
+        "volume-title": "Documentation of the Streamflow-Routing (SFR2) Package to Include Unsaturated Flow beneath Streams - A Modification to SFR1",
+        "author": "Niswonger",
+        "year": "2005"
+      },
+      {
+        "key": "B37",
+        "first-page": "62",
+        "volume-title": "Documentation of the Unsaturated-Zone Flow (UZF1) Package for Modeling Unsaturated Flow between the Land Surface and the Water Table with MODFLOW-2005",
+        "author": "Niswonger",
+        "year": "2006"
+      },
+      {
+        "key": "B38",
+        "doi-asserted-by": "publisher",
+        "first-page": "323",
+        "DOI": "10.1016/S0734-189X(84)80011-0",
+        "article-title": "The Extraction of Drainage Networks from Digital Elevation Data",
+        "volume": "28",
+        "author": "O\u2019Callaghan",
+        "year": "1984",
+        "journal-title": "Comput. Vis. Graph. Image Process."
+      },
+      {
+        "key": "B39",
+        "volume-title": "Data from: Prism Climate Group",
+        "year": "2014"
+      },
+      {
+        "key": "B40",
+        "doi-asserted-by": "publisher",
+        "first-page": "443",
+        "DOI": "10.1080/13658810601073240",
+        "article-title": "An Adaptive Approach to Selecting a Flow-Partition Exponent for a Multiple-Flow-Direction Algorithm",
+        "volume": "21",
+        "author": "Qin",
+        "year": "2007",
+        "journal-title": "Int. J. Geogr. Inf. Sci."
+      },
+      {
+        "key": "B41",
+        "doi-asserted-by": "publisher",
+        "first-page": "192",
+        "DOI": "10.1016/j.envsoft.2018.09.023",
+        "article-title": "The U. S. Geological Survey National Hydrologic Model Infrastructure: Rationale, Description, and Application of a Watershed-Scale Model for the Conterminous United States",
+        "volume": "111",
+        "author": "Regan",
+        "year": "2019",
+        "journal-title": "Environ. Model. Softw."
+      },
+      {
+        "key": "B42",
+        "doi-asserted-by": "publisher",
+        "first-page": "15352",
+        "DOI": "10.1073/pnas.0507723102",
+        "article-title": "Sustainability of Irrigated Agriculture in the San Joaquin Valley, California",
+        "volume": "102",
+        "author": "Schoups",
+        "year": "2005",
+        "journal-title": "Proc. Natl. Acad. Sci. U.S.A."
+      },
+      {
+        "key": "B43",
+        "doi-asserted-by": "publisher",
+        "first-page": "10",
+        "DOI": "10.1029/2009WR008648",
+        "article-title": "Corruption of Accuracy and Efficiency of Markov Chain Monte Carlo Simulation by Inaccurate Numerical Implementation of Conceptual Hydrologic Models",
+        "volume": "46",
+        "author": "Schoups",
+        "year": "2010",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "B44",
+        "doi-asserted-by": "publisher",
+        "first-page": "787",
+        "DOI": "10.1029/2018WR023025",
+        "article-title": "High\u2010Resolution Modeling of Reservoir Release and Storage Dynamics at the Continental Scale",
+        "volume": "55",
+        "author": "Shin",
+        "year": "2019",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "B45",
+        "doi-asserted-by": "publisher",
+        "first-page": "1853",
+        "DOI": "10.1002/hyp.7941",
+        "article-title": "Impact of grid resolution on the integrated and distributed response of a coupled surface-subsurface hydrological model for the des Anglais catchment, Quebec",
+        "volume": "25",
+        "author": "Sulis",
+        "year": "2010",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "B46",
+        "doi-asserted-by": "publisher",
+        "first-page": "309",
+        "DOI": "10.1029/96WR03137",
+        "article-title": "A New Method for the Determination of Flow Directions and Upslope Areas in Grid Digital Elevation Models",
+        "volume": "33",
+        "author": "Tarboton",
+        "year": "1997",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "B47",
+        "volume-title": "Data from: Sagehen Creek Field Station, UC Berkeley",
+        "year": "2008"
+      },
+      {
+        "key": "B48",
+        "unstructured": "Data from: 3D Elevation Program 1-Meter Resolution Digital Elevation Model2020"
+      },
+      {
+        "key": "B49",
+        "doi-asserted-by": "publisher",
+        "article-title": "Data from: National Water Information System Data Available on the World Wide Web (Water Data for the Nation)",
+        "year": "2021",
+        "DOI": "10.5066/F7P55KJN"
+      },
+      {
+        "key": "B50",
+        "volume-title": "Data from: USGS 3D Elevation Program Digital Elevation Model",
+        "year": "2022"
+      },
+      {
+        "key": "B57",
+        "doi-asserted-by": "publisher",
+        "first-page": "152",
+        "DOI": "10.1016/j.envsoft.2019.01.006",
+        "article-title": "PRMS-Python: A Python Framework for Programmatic PRMS Modeling and Access to Its Data Structures",
+        "volume": "114",
+        "author": "Volk",
+        "year": "2019",
+        "journal-title": "Environ. Model. Softw."
+      },
+      {
+        "key": "B51",
+        "doi-asserted-by": "publisher",
+        "first-page": "L20402",
+        "DOI": "10.1029/2010GL044571",
+        "article-title": "Global Depletion of Groundwater Resources",
+        "volume": "37",
+        "author": "Wada",
+        "year": "2010",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "B52",
+        "doi-asserted-by": "publisher",
+        "first-page": "193",
+        "DOI": "10.1080/13658810500433453",
+        "article-title": "An Efficient Method for Identifying and Filling Surface Depressions in Digital Elevation Models for Hydrologic Analysis and Modelling",
+        "volume": "20",
+        "author": "Wang",
+        "year": "2006",
+        "journal-title": "Int. J. Geogr. Inf. Sci."
+      },
+      {
+        "key": "B53",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1117/12.896274",
+        "article-title": "A Quick Algorithm of Counting Flow Accumulation Matrix for Deriving Drainage Networks from a DEM",
+        "author": "Wang",
+        "year": "2011"
+      },
+      {
+        "key": "B54",
+        "doi-asserted-by": "publisher",
+        "first-page": "497",
+        "DOI": "10.1016/j.jhydrol.2005.12.034",
+        "article-title": "Regional-scale, Fully Coupled Modelling of Stream-Aquifer Interaction in a Tropical Catchment",
+        "volume": "328",
+        "author": "Werner",
+        "year": "2006",
+        "journal-title": "J. Hydrology"
+      },
+      {
+        "key": "B55",
+        "doi-asserted-by": "publisher",
+        "first-page": "279",
+        "DOI": "10.1146/annurev.earth.25.1.279",
+        "article-title": "Hydrological Modeling of Continental-Scale Basins",
+        "volume": "25",
+        "author": "Wood",
+        "year": "1997",
+        "journal-title": "Annu. Rev. Earth Planet. Sci."
+      },
+      {
+        "key": "B56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.catena.2016.12.009",
+        "article-title": "An Integrated Algorithm to Evaluate Flow Direction and Flow Accumulation in Flat Regions of Hydrologically Corrected DEMs",
+        "volume": "151",
+        "author": "Zhang",
+        "year": "2017",
+        "journal-title": "Catena"
+      }
+    ],
+    "container-title": [
+      "Frontiers in Earth Science"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.frontiersin.org/articles/10.3389/feart.2022.907533/full",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          5
+        ]
+      ],
+      "date-time": "2022-07-05T08:12:39Z",
+      "timestamp": 1657008759000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.frontiersin.org/articles/10.3389/feart.2022.907533/full"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          5
+        ]
+      ]
+    },
+    "references-count": 56,
+    "alternative-id": [
+      "10.3389/feart.2022.907533"
+    ],
+    "URL": "https://doi.org/10.3389/feart.2022.907533",
+    "relation": {},
+    "ISSN": [
+      "2296-6463"
+    ],
+    "issn-type": [
+      {
+        "value": "2296-6463",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          5
+        ]
+      ]
+    },
+    "article-number": "907533"
+  },
+  "queried_url": "https://api.crossref.org/works/10.3389/feart.2022.907533",
+  "original_doi": "10.3389/feart.2022.907533"
+}

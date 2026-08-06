@@ -1,0 +1,495 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          13
+        ]
+      ],
+      "date-time": "2026-01-13T06:48:52Z",
+      "timestamp": 1768286932675,
+      "version": "3.49.0"
+    },
+    "reference-count": 26,
+    "publisher": "The Open Journal",
+    "issue": "72",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              4,
+              20
+            ]
+          ],
+          "date-time": "2022-04-20T00:00:00Z",
+          "timestamp": 1650412800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              4,
+              20
+            ]
+          ],
+          "date-time": "2022-04-20T00:00:00Z",
+          "timestamp": 1650412800000
+        },
+        "content-version": "am",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              4,
+              20
+            ]
+          ],
+          "date-time": "2022-04-20T00:00:00Z",
+          "timestamp": 1650412800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "JOSS"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          20
+        ]
+      ]
+    },
+    "DOI": "10.21105/joss.03852",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          20
+        ]
+      ],
+      "date-time": "2022-04-20T20:31:06Z",
+      "timestamp": 1650486666000
+    },
+    "page": "3852",
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "Integrated hydrologic model development and\npostprocessing for GSFLOW using pyGSFLOW"
+    ],
+    "prefix": "10.21105",
+    "volume": "7",
+    "author": [
+      {
+        "given": "Joshua D.",
+        "family": "Larsen",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Ayman",
+        "family": "Alzraiee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Richard G.",
+        "family": "Niswonger",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "8722",
+    "reference": [
+      {
+        "key": "Bakker:2016",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gwat.12413",
+        "article-title": "Scripting MODFLOW model development using\npython and flopy",
+        "volume": "54",
+        "author": "Bakker",
+        "year": "2016",
+        "unstructured": "Bakker, M., Post, V., Langevin, C.\nD., Hughes, J. D., White, J. T., Starn, J. J., & Fienen, M. N.\n(2016). Scripting MODFLOW model development using python and flopy.\nGroundwater, 54, 733\u2013739.\nhttps://doi.org/10.1111/gwat.12413",
+        "journal-title": "Groundwater"
+      },
+      {
+        "key": "Bakker:2021",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5066/F7BK19FH",
+        "article-title": "FloPy v3.3.3",
+        "author": "Bakker",
+        "year": "2021",
+        "unstructured": "Bakker, M., Post, V., Langevin, C.\nD., Hughes, J. D., White, J. T., Leaf, A. T., Paulinski, S. R., Larsen,\nJ. D., Towes, M., Morway, E. D., Bellino, J. C., Starn, J. J., &\nFienen, M. N. (2021). FloPy v3.3.3. U.S. Geological Survey Software\nRelease. https://doi.org/10.5066/F7BK19FH"
+      },
+      {
+        "issue": "3",
+        "key": "Chiu:2010",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)WR.1943-5452.0000034",
+        "article-title": "Optimal pump and recharge management model\nfor nitrite removal in the warren groundwater basin,\ncalifornia",
+        "volume": "136",
+        "author": "Chiu",
+        "year": "2010",
+        "unstructured": "Chiu, Y., Nishikawa, T., & Yeh,\nW.-G. (2010). Optimal pump and recharge management model for nitrite\nremoval in the warren groundwater basin, california. Journal of Water\nResources Planning and Management, 136(3).\nhttps://doi.org/10.1061/(ASCE)WR.1943-5452.0000034",
+        "journal-title": "Journal of Water Resources Planning and\nManagement"
+      },
+      {
+        "key": "Davie:2019",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4324/9780203798942",
+        "volume-title": "Fundamentals of hydrology",
+        "author": "Davie",
+        "year": "2019",
+        "unstructured": "Davie, T., & Quinn, N. W. (2019).\nFundamentals of hydrology. Routledge.\nhttps://doi.org/10.4324/9780203798942"
+      },
+      {
+        "key": "Fatichi:2016",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2016.03.026",
+        "article-title": "An overview of current applications,\nchallenges, and future trends in distributed process-based models in\nhydrology",
+        "volume": "537",
+        "author": "Fatichi",
+        "year": "2016",
+        "unstructured": "Fatichi, S., Vivoni, E. R., Ogden, F.\nL., Ivanov, V. Y., Mirus, B., Gochis, D., Downer, C. W., Camporese, M.,\nDavison, J. H., Ebel, B., Jones, N., Kim, J., Mascaro, G., Niswonger,\nR., Restrepo, P., Rigon, R., Shen, C., Sulis, M., & Tarboton, D.\n(2016). An overview of current applications, challenges, and future\ntrends in distributed process-based models in hydrology. 537, 45\u201360.\nhttps://doi.org/10.1016/j.jhydrol.2016.03.026"
+      },
+      {
+        "key": "Gardner:2018",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2018.07.020",
+        "article-title": "Input data processing tools for the\nintegrated hydrologic model GSFLOW.",
+        "volume": "109",
+        "author": "Gardner",
+        "year": "2018",
+        "unstructured": "Gardner, M. A., Morton, C. G.,\nHuntington, J. L., Niswonger, R. G., & Henson, W. R. (2018). Input\ndata processing tools for the integrated hydrologic model GSFLOW.\nEnvironmental Modelling & Software, 109, 41\u201353.\nhttps://doi.org/10.1016/j.envsoft.2018.07.020",
+        "journal-title": "Environmental modelling &\nsoftware"
+      },
+      {
+        "key": "Garrote:2017",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11269-017-1714-6",
+        "article-title": "Managing water resources to adapt to climate\nchange: Facing uncertainty and scarcity in a changing\ncontext",
+        "volume": "31",
+        "author": "Garrote",
+        "year": "2017",
+        "unstructured": "Garrote, L. (2017). Managing water\nresources to adapt to climate change: Facing uncertainty and scarcity in\na changing context. Water Resources Management, 31, 2951\u20132963.\nhttps://doi.org/10.1007/s11269-017-1714-6",
+        "journal-title": "Water Resources Management"
+      },
+      {
+        "key": "Harbaugh:2005",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/tm6A16",
+        "volume-title": "MODFLOW-2005, the U.S. Geological Survey\nmodular ground-water model \u2013 the ground-water flow\nprocess",
+        "author": "Harbaugh",
+        "year": "2005",
+        "unstructured": "Harbaugh, A. W. (2005). MODFLOW-2005,\nthe U.S. Geological Survey modular ground-water model \u2013 the ground-water\nflow process. U.S. Geological Survey.\nhttps://doi.org/10.3133/tm6A16"
+      },
+      {
+        "issue": "3",
+        "key": "Hunter:2007",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MCSE.2007.55",
+        "article-title": "Matplotlib: A 2D graphics\nenvironment",
+        "volume": "9",
+        "author": "Hunter",
+        "year": "2007",
+        "unstructured": "Hunter, J. D. (2007). Matplotlib: A\n2D graphics environment. Computing in Science & Engineering, 9(3),\n90\u201395. https://doi.org/10.1109/MCSE.2007.55",
+        "journal-title": "Computing in Science &\nEngineering"
+      },
+      {
+        "key": "Kluyver:2016",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3233/978-1-61499-649-1-87",
+        "article-title": "Jupyter notebooks \u2013 a publishing format for\nreproducible computational workflows",
+        "author": "Kluyver",
+        "year": "2016",
+        "unstructured": "Kluyver, T., Ragan-Kelley, B., P\u00e9rez,\nF., Granger, B., Bussonnier, M., Frederic, J., Kelley, K., Hamrick, J.,\nGrout, J., Corlay, S., Ivanov, P., Avila, D., Abdalla, S., &\nWilling, C. (2016). Jupyter notebooks \u2013 a publishing format for\nreproducible computational workflows (F. Loizides & B. Schmidt,\nEds.; pp. 87\u201390). IOS Press.\nhttps://doi.org/10.3233/978-1-61499-649-1-87"
+      },
+      {
+        "key": "Labadie:2006",
+        "article-title": "MODSIM: River basin management decision\nsupport system, user manual",
+        "author": "Labadie",
+        "year": "2006",
+        "unstructured": "Labadie, J., & Larson, R. (2006).\nMODSIM: River basin management decision support system, user manual.\nDepartment of Civil Engineering, Colorado State University, Ft. Collins,\nCO. http://modsim.engr.colostate.edu/modsim.php"
+      },
+      {
+        "key": "Larsen:2021",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5066/P9NPZ5AD",
+        "article-title": "pyGSFLOW v1.0.0",
+        "author": "Larsen",
+        "year": "2021",
+        "unstructured": "Larsen, J. D., Alzraiee, A., &\nNiswonger, R. G. (2021). pyGSFLOW v1.0.0. U.S. Geological Survey\nSoftware Release.\nhttps://doi.org/10.5066/P9NPZ5AD"
+      },
+      {
+        "key": "Langevin:2017",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/tm6A55",
+        "volume-title": "Documentation for the MODFLOW 6 groundwater\nflow model",
+        "author": "Langevin",
+        "year": "2017",
+        "unstructured": "Langevin, C. D., Hughes, J. D.,\nBanta, E. R., Niswonger, R. G., Panday, S., & Provost, A. M. (2017).\nDocumentation for the MODFLOW 6 groundwater flow model. U.S Geological\nSurvey. https://doi.org/10.3133/tm6A55"
+      },
+      {
+        "key": "Li:2011",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/sir20105249",
+        "article-title": "Geohydrology, simulation of regional\ngroundwater flow, and assessment of water management strategies,\ntwentynine palms area, california",
+        "author": "Li",
+        "year": "2011",
+        "unstructured": "Li, Z., & Martin, P. (2011).\nGeohydrology, simulation of regional groundwater flow, and assessment of\nwater management strategies, twentynine palms area, california. U.S.\nGeological Survey Scientific Investigations Report.\nhttps://doi.org/10.3133/sir20105249"
+      },
+      {
+        "key": "Lotze:2006",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1574-0862.2008.00336.x",
+        "article-title": "Global food demand, productivity growth, and\nthe scarcity of land and water resources: A spatially explicit\nmathematical programming approach",
+        "volume": "39",
+        "author": "Lotze-Campen",
+        "year": "2006",
+        "unstructured": "Lotze-Campen, H., Muller, C.,\nBondeau, A., Stefanie, R., Popp, A., & Lucht, W. (2006). Global food\ndemand, productivity growth, and the scarcity of land and water\nresources: A spatially explicit mathematical programming approach.\nAgricultural Economics, 39, 325\u2013338.\nhttps://doi.org/10.1111/j.1574-0862.2008.00336.x",
+        "journal-title": "Agricultural Economics"
+      },
+      {
+        "key": "Markstrom:2008",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13140/2.1.2741.9202",
+        "volume-title": "GSFLOW-coupled ground-water and surface-water\nFLOW model based on the integration of the precipitation-runoff modeling\nsystem (PRMS) and the modular ground-water flow model\n(MODFLOW-2005)",
+        "author": "Markstrom",
+        "year": "2008",
+        "unstructured": "Markstrom, S. L., Niswonger, R. G.,\nRegan, R. S., Prudic, D. E., & Barlow, P. M. (2008). GSFLOW-coupled\nground-water and surface-water FLOW model based on the integration of\nthe precipitation-runoff modeling system (PRMS) and the modular\nground-water flow model (MODFLOW-2005). U.S Geological Survey.\nhttps://doi.org/10.13140/2.1.2741.9202"
+      },
+      {
+        "key": "Markstrom:2015",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/tm6B7",
+        "volume-title": "PRMS-IV, the precipitation-runoff modeling\nsystem, version 4",
+        "author": "Markstrom",
+        "year": "2015",
+        "unstructured": "Markstrom, S. L., Regan, R. S., Hay,\nL. E., Viger, R. J., Webb, R. M. T., Payn, R. A., & H., L. J.\n(2015). PRMS-IV, the precipitation-runoff modeling system, version 4.\nU.S Geological Survey.\nhttps://doi.org/10.3133/tm6B7"
+      },
+      {
+        "issue": "2",
+        "key": "Mekonnen:2016",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.1500323",
+        "article-title": "Four billion people facing severe water\nscarcity",
+        "volume": "2",
+        "author": "Mekonnen",
+        "year": "2016",
+        "unstructured": "Mekonnen, M. M., & Hoekstra, A.\nY. (2016). Four billion people facing severe water scarcity. Science\nAdvances, 2(2).\nhttps://doi.org/10.1126/sciadv.1500323",
+        "journal-title": "Science Advances"
+      },
+      {
+        "key": "Ng:2018",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/gmd-11-4755-2018",
+        "article-title": "GSFLOW\u2013GRASS v1.0.0: GIS-enabled hydrologic\nmodeling of coupled groundwater\u2013surface-water systems",
+        "volume": "11",
+        "author": "Ng",
+        "year": "2018",
+        "unstructured": "Ng, G. H. C., Wickert, A. D., Somers,\nL. D., Saberi, L., Cronkite-Ratcliff, C., Niswonger, R. G., &\nMcKenzie, J. M. (2018). GSFLOW\u2013GRASS v1.0.0: GIS-enabled hydrologic\nmodeling of coupled groundwater\u2013surface-water systems. Geoscientific\nModel Development, 11, 4755\u20134777.\nhttps://doi.org/10.5194/gmd-11-4755-2018",
+        "journal-title": "Geoscientific Model\nDevelopment"
+      },
+      {
+        "key": "Niswonger:2011",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/tm6A37",
+        "volume-title": "MODFLOW-NWT, a newton formulation for\nMODFLOW-2005",
+        "author": "Niswonger",
+        "year": "2011",
+        "unstructured": "Niswonger, R. G., Panday, S., &\nIbaraki, M. (2011). MODFLOW-NWT, a newton formulation for MODFLOW-2005.\nU.S Geological Survey.\nhttps://doi.org/10.3133/tm6A37"
+      },
+      {
+        "key": "Panday:2013",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/tm6A45",
+        "volume-title": "MODFLOW-USG version 1: An unstructured grid\nversion of MODFLOW for simulating groundwater flow and tightly coupled\nprocesses using a control volume finite-difference\nformulation",
+        "author": "Panday",
+        "year": "2013",
+        "unstructured": "Panday, S., Langevin, C. D.,\nNiswonger, R. G., Ibaraki, M., & Hughes, J. D. (2013). MODFLOW-USG\nversion 1: An unstructured grid version of MODFLOW for simulating\ngroundwater flow and tightly coupled processes using a control volume\nfinite-difference formulation. U.S Geological Survey.\nhttps://doi.org/10.3133/tm6A45"
+      },
+      {
+        "key": "Schroeder:2006",
+        "volume-title": "The visualization toolkit: An object-oriented\napproach to 3D graphics.\u00a0ISBN 978-1-930934-19-1.",
+        "author": "Schroeder",
+        "year": "2006",
+        "unstructured": "Schroeder, W., Martin, K., &\nLorensen, B. (2006). The visualization toolkit: An object-oriented\napproach to 3D graphics.\u00a0ISBN 978-1-930934-19-1. Kitware.\nhttps://books.google.com/books?id=rx4vPwAACAAJ"
+      },
+      {
+        "key": "USGS:2022",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5066/F7P55KJN",
+        "article-title": "USGS water data for the nation: U.S.\nGeological Survey national water information system\ndatabase",
+        "author": "U.S. Geological Survey",
+        "year": "2022",
+        "unstructured": "U.S. Geological Survey. (2022). USGS\nwater data for the nation: U.S. Geological Survey national water\ninformation system database.\nhttps://doi.org/10.5066/F7P55KJN"
+      },
+      {
+        "key": "Siade:2014",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/sir20145166",
+        "article-title": "Groundwater-flow and land-subsidence model of\nantelope valley, california",
+        "author": "Siade",
+        "year": "2014",
+        "unstructured": "Siade, A. J., Nishikawa, T., Rewis,\nD. L., Martin, P., & Phillips, S. P. (2014). Groundwater-flow and\nland-subsidence model of antelope valley, california. U.S. Geological\nSurvey, Scientific Investigations Report 2014\u20135166.\nhttps://doi.org/10.3133/sir20145166"
+      },
+      {
+        "key": "Volk:2019",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.ENVSOFT.2019.01.006",
+        "article-title": "PRMS-python: A python framework for\nprogrammatic PRMS modeling and access to its data\nstructures",
+        "volume": "114",
+        "author": "Volk",
+        "year": "2019",
+        "unstructured": "Volk, J. M., & Turner, M. A.\n(2019). PRMS-python: A python framework for programmatic PRMS modeling\nand access to its data structures. Environmental Modelling &\nSoftware, 114, 152\u2013165.\nhttps://doi.org/10.1016/J.ENVSOFT.2019.01.006",
+        "journal-title": "Environmental Modelling &\nSoftware"
+      },
+      {
+        "key": "Woolfenden:2014",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/sir20145052",
+        "article-title": "Simulation of groundwater and surface-water\nresources of the santa rosa plain watershed, sonoma county,\ncalifornia",
+        "author": "Woolfenden",
+        "year": "2014",
+        "unstructured": "Woolfenden, L. R., & Nishikawa,\nT. (2014). Simulation of groundwater and surface-water resources of the\nsanta rosa plain watershed, sonoma county, california. U.S. Geological\nSurvey Scientific Investigations Report.\nhttps://doi.org/10.3133/sir20145052"
+      }
+    ],
+    "container-title": [
+      "Journal of Open Source Software"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://joss.theoj.org/papers/10.21105/joss.03852.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          20
+        ]
+      ],
+      "date-time": "2022-04-20T20:31:13Z",
+      "timestamp": 1650486673000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://joss.theoj.org/papers/10.21105/joss.03852"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          20
+        ]
+      ]
+    },
+    "references-count": 26,
+    "journal-issue": {
+      "issue": "72",
+      "published-online": {
+        "date-parts": [
+          [
+            2022,
+            4
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.21105/joss.03852"
+    ],
+    "URL": "https://doi.org/10.21105/joss.03852",
+    "relation": {
+      "has-review": [
+        {
+          "id-type": "uri",
+          "id": "https://github.com/openjournals/joss-reviews/issues/3852",
+          "asserted-by": "subject"
+        }
+      ],
+      "references": [
+        {
+          "id-type": "doi",
+          "id": "10.5281/zenodo.6468426",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "ISSN": [
+      "2475-9066"
+    ],
+    "issn-type": [
+      {
+        "value": "2475-9066",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          20
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.21105/joss.03852",
+  "original_doi": "10.21105/joss.03852"
+}

@@ -1,0 +1,711 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          21
+        ]
+      ],
+      "date-time": "2026-02-21T04:36:09Z",
+      "timestamp": 1771648569438,
+      "version": "3.50.1"
+    },
+    "reference-count": 58,
+    "publisher": "MDPI AG",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              2,
+              16
+            ]
+          ],
+          "date-time": "2022-02-16T00:00:00Z",
+          "timestamp": 1644969600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000203",
+        "name": "United States Geological Survey",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "N/A"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "N/A"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Remote Sensing"
+    ],
+    "abstract": "<jats:p>Although rivers are of immense practical, aesthetic, and recreational value, these aquatic habitats are particularly sensitive to environmental changes. Increasingly, changes in streamflow and water quality are resulting in blooms of bottom-attached (benthic) algae, also known as periphyton, which have become widespread in many water bodies of US national parks. Because these blooms degrade visitor experiences and threaten human and ecosystem health, improved methods of characterizing benthic algae are needed. This study evaluated the potential utility of remote sensing techniques for mapping variations in algal density in shallow, clear-flowing rivers. As part of an initial proof-of-concept investigation, field measurements of water depth and percent cover of benthic algae were collected from two reaches of the Buffalo National River along with aerial photographs and multispectral satellite images. Applying a band ratio algorithm to these data yielded reliable depth estimates, although a shallow bias and moderate level of precision were observed. Spectral distinctions among algal percent cover values ranging from 0 to 100% were subtle and became only slightly more pronounced when the data were aggregated to four ordinal levels. A bagged trees machine learning model trained using the original spectral bands and image-derived depth estimates as predictor variables was used to produce classified maps of algal density. The spatial and temporal patterns depicted in these maps were reasonable but overall classification accuracies were modest, up to 64.6%, due to a lack of spectral detail. To further advance remote sensing of benthic algae and other periphyton, future studies could adopt hyperspectral approaches and more quantitative, continuous metrics such as biomass.</jats:p>",
+    "DOI": "10.3390/rs14040953",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          16
+        ]
+      ],
+      "date-time": "2022-02-16T21:36:24Z",
+      "timestamp": 1645047384000
+    },
+    "page": "953",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 9,
+    "title": [
+      "Mapping Benthic Algae and Cyanobacteria in River Channels from Aerial Photographs and Satellite Images: A Proof-of-Concept Investigation on the Buffalo National River, AR, USA"
+    ],
+    "prefix": "10.3390",
+    "volume": "14",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0940-8013",
+        "authenticated-orcid": false,
+        "given": "Carl J.",
+        "family": "Legleiter",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Water Mission Area\u2014Integrated Modeling and Prediction Division, U.S. Geological Survey, Golden, CO 80403, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8950-7232",
+        "authenticated-orcid": false,
+        "given": "Shawn W.",
+        "family": "Hodges",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. National Park Service, Buffalo National River, Harrison, AR 72601, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          16
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "517",
+        "DOI": "10.1046/j.1365-2427.2002.00893.x",
+        "article-title": "Riverine landscape diversity",
+        "volume": "47",
+        "author": "Ward",
+        "year": "2002",
+        "journal-title": "Freshw. Biol."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "405",
+        "DOI": "10.1126/science.1107887",
+        "article-title": "Fragmentation and flow regulation of the world\u2019s large river systems",
+        "volume": "308",
+        "author": "Nilsson",
+        "year": "2005",
+        "journal-title": "Science"
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "667",
+        "DOI": "10.1038/s41586-019-1648-7",
+        "article-title": "Widespread global increase in intense lake phytoplankton blooms since the 1980s",
+        "volume": "574",
+        "author": "Ho",
+        "year": "2019",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kislik, C., Dronova, I., and Kelly, M. (2018). UAVs in Support of Algal Bloom Research: A Review of Current Applications and Future Opportunities. Drones, 2.",
+        "DOI": "10.3390/drones2040035"
+      },
+      {
+        "key": "ref_5",
+        "unstructured": "US Environmental Protection Agency (2021, December 28). Learn about Cyanobacteria and Cyanotoxins, Available online: https://www.epa.gov/cyanohabs/learn-about-cyanobacteria-and-cyanotoxins."
+      },
+      {
+        "key": "ref_6",
+        "unstructured": "(2022, February 02). Cyanotoxin\u2014Zion National Park, Available online: https://www.nps.gov/zion/learn/news/cyanotoxin.htm."
+      },
+      {
+        "key": "ref_7",
+        "unstructured": "(2022, February 01). Priority Project: Harmful Algal Blooms. Available online: https://doimspp.sharepoint.com/sites/nps-coast/SitePages/Priority-Project--Harmful-Algal-Blooms.aspx#habs-products-proposals."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "12",
+        "DOI": "10.1021/es801217q",
+        "article-title": "Eutrophication of U.S. freshwaters: Analysis of potential economic damages",
+        "volume": "43",
+        "author": "Dodds",
+        "year": "2009",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "101601",
+        "DOI": "10.1016/j.hal.2019.04.004",
+        "article-title": "Perspective: Advancing the research agenda for improving understanding of cyanobacteria in a future of global change",
+        "volume": "91",
+        "author": "Burford",
+        "year": "2020",
+        "journal-title": "Harmful Algae"
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "6",
+        "DOI": "10.1002/etc.3220",
+        "article-title": "Are harmful algal blooms becoming the greatest inland water quality threat to public health and aquatic ecosystems?",
+        "volume": "35",
+        "author": "Brooks",
+        "year": "2016",
+        "journal-title": "Environ. Toxicol. Chem."
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "74",
+        "DOI": "10.5670/oceanog.2020.111",
+        "article-title": "Data needs for hyperspectral detection of algal diversity across the globe",
+        "volume": "33",
+        "author": "Dierssen",
+        "year": "2020",
+        "journal-title": "Oceanography"
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cruz, R.C., Reis Costa, P., Vinga, S., Krippahl, L., and Lopes, M.B. (2021). A Review of Recent Machine Learning Advances for Forecasting Harmful Algal Blooms and Shellfish Contamination. J. Mar. Sci. Eng., 9.",
+        "DOI": "10.3390/jmse9030283"
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "105",
+        "DOI": "10.1016/j.hal.2015.09.002",
+        "article-title": "Wadeable streams as widespread sources of benthic cyanotoxins in California, USA",
+        "volume": "49",
+        "author": "Fetscher",
+        "year": "2015",
+        "journal-title": "Harmful Algae"
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "109",
+        "DOI": "10.1080/20442041.2019.1700749",
+        "article-title": "Cyanotoxin occurrence in large rivers of the United States",
+        "volume": "10",
+        "author": "Graham",
+        "year": "2020",
+        "journal-title": "Inland Waters"
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "1824",
+        "DOI": "10.1111/fwb.13532",
+        "article-title": "Toxic benthic freshwater cyanobacterial proliferations: Challenges and solutions for enhancing knowledge and improving monitoring and mitigation",
+        "volume": "65",
+        "author": "Wood",
+        "year": "2020",
+        "journal-title": "Freshw. Biol."
+      },
+      {
+        "key": "ref_16",
+        "unstructured": "Berkman, J.A.H., and Canova, M.G. (2007). Chapter A7. Section 7.4. Algal Biomass Indicators, Technical Report."
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "107822",
+        "DOI": "10.1016/j.ecolind.2021.107822",
+        "article-title": "Satellite remote sensing to assess cyanobacterial bloom frequency across the United States at multiple spatial scales",
+        "volume": "128",
+        "author": "Coffer",
+        "year": "2021",
+        "journal-title": "Ecol. Indic."
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Khan, R.M., Salehi, B., Mahdianpari, M., Mohammadimanesh, F., Mountrakis, G., and Quackenbush, L.J. (2021). A Meta-Analysis on Harmful Algal Bloom (HAB) Detection and Monitoring: A Remote Sensing Perspective. Remote Sens., 13.",
+        "DOI": "10.3390/rs13214347"
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "388",
+        "DOI": "10.1016/j.limno.2013.05.005",
+        "article-title": "Optical remote sensing of submerged aquatic vegetation: Opportunities for shallow clearwater streams",
+        "volume": "43",
+        "author": "Visser",
+        "year": "2013",
+        "journal-title": "Limnologica"
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Visser, F., Buis, K., Verschoren, V., and Meire, P. (2015). Depth Estimation of Submerged Aquatic Vegetation in Clear Water Streams Using Low-Altitude Optical Remote Sensing. Sensors, 15.",
+        "DOI": "10.3390/s151025287"
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "61",
+        "DOI": "10.1016/j.geomorph.2016.04.006",
+        "article-title": "Spectrally based mapping of riverbed composition",
+        "volume": "264",
+        "author": "Legleiter",
+        "year": "2016",
+        "journal-title": "Geomorphology"
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "1689",
+        "DOI": "10.4319/lo.1994.39.7.1689",
+        "article-title": "Diffuse-reflectance of oceanic shallow waters\u2014Influence of water depth and bottom albedo",
+        "volume": "39",
+        "author": "Maritorena",
+        "year": "1994",
+        "journal-title": "Limnol. Oceanogr."
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "444",
+        "DOI": "10.4319/lo.2003.48.1_part_2.0444",
+        "article-title": "Ocean color remote sensing of seagrass and bathymetry in the Bahamas Banks by high-resolution airborne imagery",
+        "volume": "48",
+        "author": "Dierssen",
+        "year": "2003",
+        "journal-title": "Limnol. Oceanogr."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "3576",
+        "DOI": "10.1364/AO.44.003576",
+        "article-title": "Interpretation of hyperspectral remote-sensing imagery by spectrum matching and look-up tables",
+        "volume": "44",
+        "author": "Mobley",
+        "year": "2005",
+        "journal-title": "Appl. Opt."
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "290",
+        "DOI": "10.4236/ars.2018.74020",
+        "article-title": "A Preliminary Assessment of Hyperspectral Remote Sensing Technology for Mapping Submerged Aquatic Vegetation in the Upper Delaware River National Parks (USA)",
+        "volume": "7",
+        "author": "Slonecker",
+        "year": "2018",
+        "journal-title": "Adv. Remote Sens."
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kislik, C., Genzoli, L., Lyons, A., and Kelly, M. (2020). Application of UAV Imagery to Detect and Quantify Submerged Filamentous Algae and Rooted Macrophytes in a Non-Wadeable River. Remote Sens., 12.",
+        "DOI": "10.3390/rs12203332"
+      },
+      {
+        "key": "ref_27",
+        "unstructured": "Legleiter, C., and Hodges, S. (2022). Remotely Sensed Data and Field Measurements of Water Depth and Percent Cover of Benthic Algae from Two Reaches of the Buffalo National River in Arkansas Acquired in August and September 2021."
+      },
+      {
+        "key": "ref_28",
+        "unstructured": "(2022, February 07). Algae and Nurient Sourcing, Available online: https://www.nps.gov/articles/000/algae-and-nutrient-sourcing.htm."
+      },
+      {
+        "key": "ref_29",
+        "unstructured": "(2022, February 07). Algae Bloom Complaint Form|DEQ. Available online: https://www.adeq.state.ar.us/complaints/forms/algae_complaint.aspx."
+      },
+      {
+        "key": "ref_30",
+        "unstructured": "(2022, February 07). Fishing\u2014Buffalo National River, Available online: https://www.nps.gov/buff/planyourvisit/fishing.htm."
+      },
+      {
+        "key": "ref_31",
+        "unstructured": "Office of the Federal Register, National Archives and Records Administration (2015). 80 FR 24961\u2014Endangered Species; Marine Mammals; Receipt of Applications for Permit."
+      },
+      {
+        "key": "ref_32",
+        "unstructured": "Berkman, D.N., and Lauraas, J. (2004). Water Resources Management Plan: Buffalo National River, Arkansas, Technical Report."
+      },
+      {
+        "key": "ref_33",
+        "unstructured": "U.S. Geological Survey (2021, December 22). USGS Water Data for the Nation: U.S. Geological Survey National Water Information System Database. USGS 07056000 Buffalo River near St. Joe, AR, Available online: https://waterdata.usgs.gov/ar/nwis/inventory/?site_no=07056000."
+      },
+      {
+        "key": "ref_34",
+        "unstructured": "(2022, January 31). Leica Zeno GG04 Plus Smart Antenna for High Accuracy Everywhere. Available online: https://leica-geosystems.com/en-us/products/gis-collectors/smart-antennas/leica-zeno-gg04-plus."
+      },
+      {
+        "key": "ref_35",
+        "unstructured": "(2022, February 07). High-Resolution Imagery with Planet Satellite Tasking. Available online: https://www.planet.com/products/hi-res-monitoring/."
+      },
+      {
+        "key": "ref_36",
+        "unstructured": "(2022, February 07). Maxar\u2014Archive Search & Discovery. Available online: https://discover.digitalglobe.com/."
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "first-page": "586",
+        "DOI": "10.1016/j.rse.2018.07.015",
+        "article-title": "Atmospheric correction of metre-scale optical satellite data for inland and coastal water applications",
+        "volume": "216",
+        "author": "Vanhellemont",
+        "year": "2018",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_38",
+        "doi-asserted-by": "crossref",
+        "first-page": "112366",
+        "DOI": "10.1016/j.rse.2021.112366",
+        "article-title": "ACIX-Aqua: A global assessment of atmospheric correction methods for Landsat-8 and Sentinel-2 over lakes, rivers, and coastal waters",
+        "volume": "258",
+        "author": "Pahlevan",
+        "year": "2021",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "first-page": "379",
+        "DOI": "10.1364/AO.17.000379",
+        "article-title": "Passive Remote-Sensing Techniques for Mapping Water Depth and Bottom Features",
+        "volume": "17",
+        "author": "Lyzenga",
+        "year": "1978",
+        "journal-title": "Appl. Opt."
+      },
+      {
+        "key": "ref_40",
+        "doi-asserted-by": "crossref",
+        "first-page": "132",
+        "DOI": "10.1016/j.rse.2018.09.022",
+        "article-title": "Multiple Optimal Depth Predictors Analysis (MODPA) for river bathymetry: Findings from spectroradiometry, simulations, and satellite imagery",
+        "volume": "218",
+        "author": "Vitti",
+        "year": "2018",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_41",
+        "doi-asserted-by": "crossref",
+        "first-page": "779",
+        "DOI": "10.1002/rra.3479",
+        "article-title": "Remote sensing of river corridors: A review of current trends and future directions",
+        "volume": "35",
+        "author": "Tomsett",
+        "year": "2019",
+        "journal-title": "River Res. Appl."
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "first-page": "1039",
+        "DOI": "10.1002/esp.1787",
+        "article-title": "Spectrally based remote sensing of river bathymetry",
+        "volume": "34",
+        "author": "Legleiter",
+        "year": "2009",
+        "journal-title": "Earth Surf. Process. Landforms"
+      },
+      {
+        "key": "ref_43",
+        "doi-asserted-by": "crossref",
+        "first-page": "2142",
+        "DOI": "10.1029/2018WR023586",
+        "article-title": "Remote Sensing of River Bathymetry: Evaluating a Range of Sensors, Platforms, and Algorithms on the Upper Sacramento River, California, USA",
+        "volume": "55",
+        "author": "Legleiter",
+        "year": "2019",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_44",
+        "doi-asserted-by": "crossref",
+        "first-page": "555",
+        "DOI": "10.1002/rra.3773",
+        "article-title": "The optical river bathymetry toolkit",
+        "volume": "37",
+        "author": "Legleiter",
+        "year": "2021",
+        "journal-title": "River Res. Appl."
+      },
+      {
+        "key": "ref_45",
+        "doi-asserted-by": "crossref",
+        "first-page": "5",
+        "DOI": "10.1023/A:1010933404324",
+        "article-title": "Random forests",
+        "volume": "45",
+        "author": "Breiman",
+        "year": "2001",
+        "journal-title": "Mach. Learn."
+      },
+      {
+        "key": "ref_46",
+        "doi-asserted-by": "crossref",
+        "first-page": "352",
+        "DOI": "10.1111/gwat.13063",
+        "article-title": "Machine Learning Predictions of pH in the Glacial Aquifer System, Northern USA",
+        "volume": "59",
+        "author": "Stackelberg",
+        "year": "2021",
+        "journal-title": "Groundwater"
+      },
+      {
+        "key": "ref_47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Congalton, R.G., and Green, K. (1999). Assessing the Acuracy of Remotely Sensed Data: Principles and Practices, CRC Press.",
+        "DOI": "10.1201/9781420048568"
+      },
+      {
+        "key": "ref_48",
+        "doi-asserted-by": "crossref",
+        "first-page": "591",
+        "DOI": "10.1016/j.marpolbul.2017.04.027",
+        "article-title": "Eutrophication, harmful algae and biodiversity\u2014Challenging paradigms in a world of complex nutrient changes",
+        "volume": "124",
+        "author": "Glibert",
+        "year": "2017",
+        "journal-title": "Mar. Pollut. Bull."
+      },
+      {
+        "key": "ref_49",
+        "doi-asserted-by": "crossref",
+        "first-page": "318",
+        "DOI": "10.1002/esp.4063",
+        "article-title": "Removing sun glint from optical remote sensing images of shallow rivers",
+        "volume": "42",
+        "author": "Overstreet",
+        "year": "2017",
+        "journal-title": "Earth Surf. Process. Landforms"
+      },
+      {
+        "key": "ref_50",
+        "doi-asserted-by": "crossref",
+        "first-page": "1715",
+        "DOI": "10.1002/2017JF004323",
+        "article-title": "A framework for modeling connections between hydraulics, water surface roughness, and surface reflectance in open channel flows",
+        "volume": "122",
+        "author": "Legleiter",
+        "year": "2017",
+        "journal-title": "J. Geophys. Res. Earth Surf."
+      },
+      {
+        "key": "ref_51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Aleksandra, K., Fantina, M., Marco, S., Ferrarin, C., and Giacomo, M.G. (2015, January 29\u201331). Assessment of submerged aquatic vegetation abundance using multibeam sonar in very shallow and dynamic environment. The Lagoon of Venice (Italy) case study. Proceedings of the 2015 IEEE/OES Acoustics in Underwater Geosciences Symposium (RIO Acoustics), Rio de Janeiro, Brazil.",
+        "DOI": "10.1109/RIOAcoustics.2015.7473596"
+      },
+      {
+        "key": "ref_52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Held, P., and von Deimling, J.S. (2019). New feature classes for acoustic habitat mapping\u2014A multibeam echosounder point cloud analysis for mapping submerged aquatic vegetation (SAV). Geosciences, 9.",
+        "DOI": "10.3390/geosciences9050235"
+      },
+      {
+        "key": "ref_53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Legleiter, C., and Fosness, R. (2019). Defining the Limits of Spectrally Based Bathymetric Mapping on a Large River. Remote Sens., 11.",
+        "DOI": "10.3390/rs11060665"
+      },
+      {
+        "key": "ref_54",
+        "doi-asserted-by": "crossref",
+        "first-page": "115959",
+        "DOI": "10.1016/j.watres.2020.115959",
+        "article-title": "A systematic literature review of forecasting and predictive models for cyanobacteria blooms in freshwater lakes",
+        "volume": "182",
+        "author": "Rousso",
+        "year": "2020",
+        "journal-title": "Water Res."
+      },
+      {
+        "key": "ref_55",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2020WR028946",
+        "DOI": "10.1029/2020WR028946",
+        "article-title": "Modeling Anthropogenic and Environmental Influences on Freshwater Harmful Algal Bloom Development Detected by MERIS Over the Central United States",
+        "volume": "57",
+        "author": "Iiames",
+        "year": "2021",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_56",
+        "doi-asserted-by": "crossref",
+        "first-page": "036013",
+        "DOI": "10.1117/1.JRS.12.036013",
+        "article-title": "Optical characterization of two cyanobacteria genera, Aphanizomenon and Microcystis, with hyperspectral microscopy",
+        "volume": "12",
+        "author": "Paine",
+        "year": "2018",
+        "journal-title": "J. Appl. Remote Sens."
+      },
+      {
+        "key": "ref_57",
+        "doi-asserted-by": "crossref",
+        "first-page": "66",
+        "DOI": "10.4236/ars.2021.103004",
+        "article-title": "Hyperspectral Reflectance Characteristics of Cyanobacteria",
+        "volume": "10",
+        "author": "Slonecker",
+        "year": "2021",
+        "journal-title": "Adv. Remote Sens."
+      },
+      {
+        "key": "ref_58",
+        "unstructured": "Slonecker, T., Simon, N., Graham, J., Allen, D., Bufford, B., Evans, M., Carpenter, K., Griffin, D., Hall, N., and Jones, D. (2020). Hyperspectral Characterization of Common Cyanobacteria Associated with Harmful Algal Blooms (Ver. 2.0, October 2020)."
+      }
+    ],
+    "container-title": [
+      "Remote Sensing"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2072-4292/14/4/953/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T22:20:43Z",
+      "timestamp": 1760134843000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2072-4292/14/4/953"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          16
+        ]
+      ]
+    },
+    "references-count": 58,
+    "journal-issue": {
+      "issue": "4",
+      "published-online": {
+        "date-parts": [
+          [
+            2022,
+            2
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "rs14040953"
+    ],
+    "URL": "https://doi.org/10.3390/rs14040953",
+    "relation": {},
+    "ISSN": [
+      "2072-4292"
+    ],
+    "issn-type": [
+      {
+        "value": "2072-4292",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          16
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.3390/rs14040953",
+  "original_doi": "10.3390/rs14040953"
+}

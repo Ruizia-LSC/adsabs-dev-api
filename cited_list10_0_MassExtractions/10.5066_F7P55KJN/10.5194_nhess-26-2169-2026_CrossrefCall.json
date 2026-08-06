@@ -1,0 +1,686 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          11
+        ]
+      ],
+      "date-time": "2026-05-11T07:13:33Z",
+      "timestamp": 1778483613285,
+      "version": "3.51.4"
+    },
+    "reference-count": 77,
+    "publisher": "Copernicus GmbH",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              11
+            ]
+          ],
+          "date-time": "2026-05-11T00:00:00Z",
+          "timestamp": 1778457600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Nat. Hazards Earth Syst. Sci."
+    ],
+    "abstract": "<jats:p>Abstract. Compound flood events, the co-occurrence of multiple flood drivers, can result in flood hazard potential exceeding that of any single driver alone. To evaluate compound flooding in a semi-urbanized coastal area, historical records dating back to 1970 are used to study the co-occurrences of high precipitation, storm surge, and shallow groundwater conditions along the coastlines of New York and Connecticut. Joint return periods for coincident precipitation-surge events were computed using statistical dependence models and compared to the assumption of independence as a ratio, referred to here as a return period adjustment. Results indicate distinct seasonality where compound events in the area disproportionately occur in the cold season between October and April. Return period adjustments range from a factor of 1 to almost 9, demonstrating the range in precipitation-storm surge dependence across the study area. Across all 24 station triad locations, groundwater levels were elevated during times of precipitation- surge co-occurrence, reflecting the tendency for coastal storms and shallow groundwater conditions to co-occur seasonally. The result is a pseudo-trivariate compound flood hazard score and corresponding hazard map that integrates dependence between daily precipitation-surge events and overall monthly groundwater levels (as a precondition) into a relative compound hazard score. The location with the highest compound flood hazard score is on the south shore of Long Island, as well as locations across coastal Connecticut where groundwater levels compound the co-occurrence of heavy precipitation and storm surge.</jats:p>",
+    "DOI": "10.5194/nhess-26-2169-2026",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          11
+        ]
+      ],
+      "date-time": "2026-05-11T06:57:54Z",
+      "timestamp": 1778482674000
+    },
+    "page": "2169-2188",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Hazard potential of compound flooding from rainfall, storm surge, and groundwater in coastal New York and Connecticut"
+    ],
+    "prefix": "10.5194",
+    "volume": "26",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7394-1667",
+        "authenticated-orcid": false,
+        "given": "Robin",
+        "family": "Glas",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Liv",
+        "family": "Herdman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Salme",
+        "family": "Cook",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Archi",
+        "family": "Howlader",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Kristina",
+        "family": "Masterson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "3145",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          11
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Agel, L., Barlow, M., Qian, J. H., Colby, F., Douglas, E., and Eichler, T.: Climatology of daily precipitation and extreme precipitation events in the northeast United States, J. Hydrometeorol., 16, 2537\u20132557, https://doi.org/10.1175/JHM-D-14-0147.1, 2015.",
+        "DOI": "10.1175/JHM-D-14-0147.1"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Agilan, V., Umamahesh, N. V., and Mujumdar, P. P.: Influence of threshold selection in modeling peaks over threshold based nonstationary extreme precipitation series, J. Hydrol., 593, 125625, https://doi.org/10.1016/j.jhydrol.2020.125625, 2021.",
+        "DOI": "10.1016/j.jhydrol.2020.125625"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Akaike, H.: Maximum likelihood identification of Gaussian autoregressive moving average models, Biometrika, 60, 255\u2013265, https://doi.org/10.1093/biomet/60.2.255, 1973.",
+        "DOI": "10.1093/biomet/60.2.255"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Asquith, W. H., Kiang, J. E., and Cohn, T. A.: Application of at-site peak-streamflow frequency analyses for very low annual exceedance probabilities, U.S. Geological Survey Scientific Investigation Report 2017\u20135038, 93 pp., https://doi.org/10.3133/sir20175038, 2017.",
+        "DOI": "10.3133/sir20175038"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Aurenhammer, F.: Voronoi diagrams \u2013 a survey of a fundamental geometric data structure, ACM Comput. Surv., 23, 345\u2013405, 1991.",
+        "DOI": "10.1145/116873.116880"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Barbot, S., Pineau-Guillou, L., and Delouis, J.-M.: Extreme storm surge events and associated dynamics in the North Atlantic, J. Geophys. Res.-Oceans, 129, e2023JC020772, https://doi.org/10.1029/2023JC020772, 2024.",
+        "DOI": "10.1029/2023JC020772"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Barclay, J. R., Holland, M. J., and Mullaney, J. R.: Simulated mean monthly groundwater-transported nitrogen loads in watersheds on the north shore of Long Island Sound, 1993\u20132022, U.S. Geological Survey Scientific Investigations Report 2024\u20135090, 63 pp., https://doi.org/10.3133/sir20245090, 2024.",
+        "DOI": "10.3133/sir20245090"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bjerklie, D. M., Mullaney, J. R., Stone, J. R., Skinner, B. J., and Ramlow, M. A.: Preliminary investigation of the effects of sea-level rise on groundwater levels in New Haven, Connecticut, U.S. Geological Survey Open-File Report 2012\u20131025, 46 pp., https://doi.org/10.3133/ofr20121025, 2012.",
+        "DOI": "10.3133/ofr20121025"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Booth, J. F., Rieder, H. E., and Kushnir, Y.: Comparing hurricane and extratropical storm surge for the Mid-Atlantic and Northeast Coast of the United States for 1979\u20132013, Environ. Res. Lett., 11, 094004, https://doi.org/10.1088/1748-9326/11/9/094004, 2016.",
+        "DOI": "10.1088/1748-9326/11/9/094004"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bosserelle, A. L., Morgan, L. K., and Hughes, M. W.: Groundwater rise and associated flooding in coastal settlements due to sea-level rise: a review of processes and methods, Earth's Future, 10, https://doi.org/10.1029/2021EF002580, 2022.",
+        "DOI": "10.1029/2021EF002580"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Brunner, M. I., Seibert, J., and Favre, A. C.: Bivariate return periods and their importance for flood peak and volume estimation, Wiley Interdisciplinary Reviews: Water, 3, 819\u2013833, https://doi.org/10.1002/wat2.1173, 2016.",
+        "DOI": "10.1002/wat2.1173"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, Z., Orton, P. M., Booth, J. F., Wahl, T., DeGaetano, A., Kaatz, J., and Horton, R. M.: Influence of storm type on compound flood drivers of a mid-latitude coastal urban environment, Hydrol. Earth Syst. Sci., 29, 3101\u20133117, https://doi.org/10.5194/hess-29-3101-2025, 2025.",
+        "DOI": "10.5194/hess-29-3101-2025"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Coch, N. K.: Unique vulnerability of the New York\u2013New Jersey metropolitan area to hurricane destruction, J. Coast. Res., 31, 196\u2013212, https://doi.org/10.2112/JCOASTRES-D-13-00183.1, 2015.",
+        "DOI": "10.2112/JCOASTRES-D-13-00183.1"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Colle, B. A., Rojowsky, K., and Buonaito, F.: New York City storm surges: Climatology and an analysis of the wind and cyclone evolution, J. Appl. Meteorol. Clim., 49, 85\u2013100, https://doi.org/10.1175/2009JAMC2189.1, 2010.",
+        "DOI": "10.1175/2009JAMC2189.1"
+      },
+      {
+        "key": "ref15",
+        "unstructured": "Conestoga-Rovers and Associates: Revised Work Plan Vapor Intrusion Pathway Assessment, Bruno Cooperative Association, Associated Properties Superfund Site, Bruno, Nebraska, Consent Decree No. 8:02CV483, https://semspub.epa.gov/work/07/30222021.pdf (last access: 15 August 2024), 2007."
+      },
+      {
+        "key": "ref16",
+        "unstructured": "Cook, S. E. and Herdman, L. M.: Geospatial dataset of coastal-inundation maps for Long Island and Long Island Sound (CT/NY), U.S. Geological Survey data release, https://doi.org/10.5066/P94P4WXX, 2025."
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "DeGaetano, A. T.: Predictability of seasonal east coast winter storm surge impacts with application to New York's Long Island, Meteorol. Appl., 15, 231\u2013242, https://doi.org/10.1002/met.59, 2008.",
+        "DOI": "10.1002/met.59"
+      },
+      {
+        "key": "ref18",
+        "unstructured": "Fallon, K. and Kuonen, J.: Understanding Perceptions and Needs around Flooding and Erosion Risk for Shoreline Communities in Long Island and the Hudson River Estuary, New York, https://doi.org/10.25923/64hy-g695, 2023."
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Favre, A. C., El Adlouni, S., Perreault, L., Thi\u00e9monge, N., and Bob\u00e9e, B.: Multivariate hydrological frequency analysis using copulas, Water Resour. Res., 40, https://doi.org/10.1029/2003WR002456, 2004.",
+        "DOI": "10.1029/2003WR002456"
+      },
+      {
+        "key": "ref20",
+        "unstructured": "Finkelstein, J. S., Herdman, L. M., Masterson, K. K., Glas, R. L., Cook, S. E., and Welk, R. J.: Compound Flooding Hazard Assessment, U.S. Geological Survey Web Map, https://ny.water.usgs.gov/maps/compoundflooding/ (last access: 10 April 2026), 2025."
+      },
+      {
+        "key": "ref21",
+        "unstructured": "Forman, A.: Caution Ahead: Overdue Investments for New York's Aging Infrastructure, Center for an Urban Future, https://eric.ed.gov/?id=ED555648 (last access: 10 January 2025), 2014."
+      },
+      {
+        "key": "ref22",
+        "unstructured": "Frame, T., Harrison, G., Hewson, T., and Roberts, N.: Meteorological risk: Extra-tropical cyclones, tropical cyclones and convective storms, in: Science for disaster risk management 2017: Knowing better and losing less, edited by: Poljan\u0161ek, K., Marin Ferrer, M., De Groeve, T., and Clark, I., Publications Office of the European Union, 246\u2013256, https://doi.org/10.2788/842809, 2017."
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Genest, C. and Favre, A. C.: Everything you always wanted to know about copula modeling but were afraid to ask, J. Hydrol. Eng., 12, 347\u2013368, https://doi.org/10.1061/(ASCE)1084-0699(2007)12:4(347), 2007.",
+        "DOI": "10.1061/(ASCE)1084-0699(2007)12:4(347)"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ghanbari, M., Arabi, M., Kao, S. C., Obeysekera, J., and Sweet, W.: Climate change and changes in compound coastal-riverine flooding hazard along the US coasts, Earth's Future, 9, e2021EF002055, https://doi.org/10.1029/2021EF002055, 2021.",
+        "DOI": "10.1029/2021EF002055"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Glas, R., Hecht, J., Simonson, A., Gazoorian, C., and Schubert, C.: Adjusting design floods for urbanization across groundwater-dominated watersheds of Long Island, NY, J. Hydrol., 618, 129194, https://doi.org/10.1016/j.jhydrol.2023.129194, 2023.",
+        "DOI": "10.1016/j.jhydrol.2023.129194"
+      },
+      {
+        "key": "ref26",
+        "unstructured": "Glas, R., Herdman, L., Cook, S., and Masterson, K.: Supporting Datasets and R Code for Compound Flood Hazard Modeling in the New York \u2013 Long Island Sound Region, U.S. Geological Survey data release, https://doi.org/10.5066/P13ARD2K, 2025."
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Green, J., Haigh, I. D., Quinn, N., Neal, J., Wahl, T., Wood, M., Eilander, D., de Ruiter, M., Ward, P., and Camus, P.: A comprehensive review of coastal compound flooding literature, arXiv [preprint], https://doi.org/10.48550/arXiv.2404.01321, 2024.",
+        "DOI": "10.5194/egusphere-egu24-1669"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hanchey, A., Schnall, A., Bayleyegn, T., Jiva, S., Khan, A., Siegel, V., Funk, R., and Svendsen, E.: Notes from the Field: Deaths Related to Hurricane Ida Reported by Media \u2013 Nine States, 29 August\u20139 September 2021, MMWR Morbidity and Mortality Weekly Report, 70, 1385\u20131386, https://doi.org/10.15585/mmwr.mm7039a3, 2021.",
+        "DOI": "10.15585/mmwr.mm7039a3"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Herreros-Cantis, P., Olivotto, V., Grabowski, Z. J., and McPhearson, T.: Shifting landscapes of coastal flood risk: Environmental (in)justice of urban change, sea level rise, and differential vulnerability in New York City, Urban Transformations, 2, 9, https://doi.org/10.1186/s42854-020-00014-w, 2020.",
+        "DOI": "10.1186/s42854-020-00014-w"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, W. and Prokhorov, A.: A goodness-of-fit test for copulas, Economet. Rev., 33, 751\u2013771, https://doi.org/10.1080/07474938.2012.690692, 2014.",
+        "DOI": "10.1080/07474938.2012.690692"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jane, R., Cadavid, L., Obeysekera, J., and Wahl, T.: Multivariate statistical modelling of the drivers of compound flood events in south Florida, Nat. Hazards Earth Syst. Sci., 20, 2681\u20132699, https://doi.org/10.5194/nhess-20-2681-2020, 2020.",
+        "DOI": "10.5194/nhess-20-2681-2020"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jane, R. A., Malag\u00f3n-Santos, V., Rashid, M. M., Doebele, L., Wahl, T., Timmers, S. R., Serafin, K. A., Schmied, L., and Lindemer, C.: A hybrid framework for rapidly locating transition zones: A comparison of event- and response-based return water levels in the Suwannee River FL, Water Resour. Res., 58, e2022WR032481, https://doi.org/10.1029/2022WR032481, 2022.",
+        "DOI": "10.1029/2022WR032481"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kouhi, S., Hashemi, M. R., Spaulding, M., and Hara, T.: Modeling the impact of sea level rise on maximum water elevation during storm surge events: a closer look at coastal embayments, Clim. Change, 171, 31, https://doi.org/10.1007/s10584-022-03342-x, 2022.",
+        "DOI": "10.21203/rs.3.rs-1316291/v1"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kunkel, K. E., Karl, T. R., Squires, M. F., Yin, X., Stegall, S. T., and Easterling, D. R.: Precipitation extremes: Trends and relationships with average precipitation and precipitable water in the contiguous United States, J. Appl. Meteorol. Clim., 59, 125\u2013142, https://doi.org/10.1175/JAMC-D-19-0185.1, 2020.",
+        "DOI": "10.1175/JAMC-D-19-0185.1"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lai, Y., Li, J., Gu, X., Liu, C., and Chen, Y. D.: Global compound floods from precipitation and storm surge: Hazards and the roles of cyclones, J. Climate, 34, 8319\u20138339, https://doi.org/10.1175/JCLI-D-21-0050.1, 2021.",
+        "DOI": "10.1175/JCLI-D-21-0050.1"
+      },
+      {
+        "key": "ref36",
+        "unstructured": "Levy, Z. F., Stagnitta, T. J., and Glas, R. L.: ARCHI: Automated Regional Correlation Analysis for Hydrologic Record Imputation, v1.0.0, U.S. Geological Survey Software Release, https://doi.org/10.5066/P1VVHWKE, 2024."
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Levy, Z. F., Glas, R. L., Stagnitta, T. J., and Terry, N.: ARCHI: A New R Package for Automated Imputation of Regionally Correlated Hydrologic Records, Groundwater, https://doi.org/10.1111/gwat.13474, 2025.",
+        "DOI": "10.1111/gwat.13474"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, B., Rodell, M., and Famiglietti, J. S.: Groundwater variability across temporal and spatial scales in the central and northeastern US, J. Hydrol., 525, 769\u2013780, https://doi.org/10.1016/j.jhydrol.2015.04.033, 2015.",
+        "DOI": "10.1016/j.jhydrol.2015.04.033"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, C., Jia, Y., Onat, Y., Cifuentes-Lorenzen, A., Ilia, A., McCardell, G., Fake, T., and O'Donnell, J.: Estimating the Annual Exceedance Probability of Water Levels and Wave Heights from High Resolution Coupled Wave-Circulation Models in Long Island Sound, J. Mar. Sci. Eng., 8, 475, https://doi.org/10.3390/jmse8070475, 2020.",
+        "DOI": "10.3390/jmse8070475"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, C., Onat, Y., Jia, Y., and O'Donnell, J.: Modeling nearshore dynamics of extreme storms in complex environments of Connecticut, Coast. Eng., 168, 103950, https://doi.org/10.1016/j.coastaleng.2021.103950, 2021.",
+        "DOI": "10.1016/j.coastaleng.2021.103950"
+      },
+      {
+        "key": "ref41",
+        "unstructured": "MacQueen, J.: Some methods for classification and analysis of multivariate observations, in: Proceedings of the Fifth Berkeley Symposium on Mathematical Statistics and Probability, Volume 1: Statistics, edited by: Le Cam, L. M. and Neyman, J., University of California Press, 281\u2013297, https://api.semanticscholar.org/CorpusID:6278891 (last access: 7 May 2026), 1967."
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Maduwantha, P., Wahl, T., Santamaria-Aguilar, S., Jane, R., Booth, J. F., Kim, H., and Villarini, G.: A multivariate statistical framework for mixed storm types in compound flood analysis, Nat. Hazards Earth Syst. Sci., 24, 4091\u20134107, https://doi.org/10.5194/nhess-24-4091-2024, 2024.",
+        "DOI": "10.5194/nhess-24-4091-2024"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Marsooli, R. and Wang, Y.: Quantifying tidal phase effects on coastal flooding induced by Hurricane Sandy in Manhattan, New York using a micro-scale hydrodynamic model, Frontiers in Built Environment, 6, 149, https://doi.org/10.3389/fbuil.2020.00149, 2020.",
+        "DOI": "10.3389/fbuil.2020.00149"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Masterson, J. P. and Garabedian, S. P.: Effects of sea-level rise on ground water flow in a coastal aquifer system, Groundwater, 45, 209\u2013217, https://doi.org/10.1111/j.1745-6584.2006.00279.x, 2007.",
+        "DOI": "10.1111/j.1745-6584.2006.00279.x"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Masterson, K. K., Welk, R. J., Barclay, J. R., Jahn, K. L., and Herdman, L. M.: A spatial analysis of the groundwater emergence flood hazard in Long Island, New York and near coastal areas surrounding Long Island Sound in New York, Connecticut, and Rhode Island, EarthArXiv [preprint], https://doi.org/10.31223/X5HB28, 2025.",
+        "DOI": "10.31223/X5HB28"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Matalas, N. C. and Jacobs, B. A.: A correlation procedure for augmenting hydrologic data, U.S. Geological Survey Professional Paper 434-E, 7 pp., https://doi.org/10.3133/pp434E, 1964.",
+        "DOI": "10.3133/pp434E"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nagler, T., Schepsmeier, U., Stoeber, J., Brechmann, E. C., Graeler, B., Erhardt, T., Almeida, C., Min, A., Czado, C., Hofmann, M., Killiches, M., Joe, H., and Vatter, T.: VineCopula: statistical inference of vine copulas, CRAN, https://doi.org/10.32614/CRAN.package.VineCopula, 2023.",
+        "DOI": "10.32614/CRAN.package.VineCopula"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nasr, A. A., Wahl, T., Rashid, M. M., Jane, R. A., Camus, P., and Haigh, I. D.: Temporal changes in dependence between compound coastal and inland flooding drivers around the contiguous United States coastline, Weather and Climate Extremes, 41, 100594, https://doi.org/10.1016/j.wace.2023.100594, 2023.",
+        "DOI": "10.1016/j.wace.2023.100594"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nederhoff, K., Leijnse, T. W., Parker, K., Thomas, J., O'Neill, A., van Ormondt, M., McCall, R., Erikson, L., Barnard, P. L., Foxgrover, A., and Klessens, W.: Tropical or extratropical cyclones: what drives the compound flood hazard, impact, and risk for the United States Southeast Atlantic coast?, Nat. Hazards, 1\u201347, https://doi.org/10.1007/s11069-024-06552-x, 2024.",
+        "DOI": "10.31223/X56H26"
+      },
+      {
+        "key": "ref50",
+        "unstructured": "New Jersey Department of Environmental Protection: Vapor Intrusion Technical Guidance Version 5.0, https://dep.nj.gov/srp/guidance/vapor-intrusion/ (last access: 15 August 2024), 2021."
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Newman, D. A.: Missing data: Five practical guidelines, Organ. Res. Methods, 17, 372\u2013411, https://doi.org/10.1177/1094428114548590, 2014.",
+        "DOI": "10.1177/1094428114548590"
+      },
+      {
+        "key": "ref52",
+        "unstructured": "NOAA Center for Operational Oceanographic Products and Services (CO-OPS): Tides &amp;amp; Currents: Water Level Observations, National Oceanic and Atmospheric Administration, U.S. Department of Commerce, https://tidesandcurrents.noaa.gov (last access: 1 October 2023), 2023."
+      },
+      {
+        "key": "ref53",
+        "unstructured": "NOAA National Centers for Environmental Information (NCEI): Daily Summaries: Global Historical Climatology Network (GHCN-Daily), U.S. Department of Commerce, https://www.ncei.noaa.gov (last access: 1 October 2023), 2023."
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "O'Donnell, J. and O'Donnell, J. E.: Coastal vulnerability in Long Island Sound: The spatial structure of extreme sea level statistics, in: 2012 Oceans, IEEE, 1\u20134, https://doi.org/10.1109/OCEANS.2012.6405099, 2012.",
+        "DOI": "10.1109/OCEANS.2012.6405099"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Orton, P., Georgas, N., Blumberg, A., and Pullen, J.: Detailed modeling of recent severe storm tides in estuaries of the New York City region, J. Geophys. Res.-Oceans, 117, https://doi.org/10.1029/2012JC008220, 2012.",
+        "DOI": "10.1029/2012JC008220"
+      },
+      {
+        "key": "ref56",
+        "unstructured": "Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J., Passos, A., Cournapeau, D., Brucher, M., Perrot, M., and Duchesnay, \u00c9.: Scikit-learn: Machine Learning in Python, J. Mach. Learn. Res., 12, 2825\u20132830, 2011."
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Phillips, R. C., Samadi, S., Hitchcock, D. B., Meadows, M. E., and Wilson, C. A. M. E.: The devil is in the tail dependence: An assessment of multivariate copula-based frameworks and dependence concepts for coastal compound flood dynamics, Earth's Future, 10, e2022EF002705, https://doi.org/10.1029/2022EF002705, 2022.",
+        "DOI": "10.1029/2022EF002705"
+      },
+      {
+        "key": "ref58",
+        "unstructured": "R Core Team: R: A language and environment for statistical computing, R Foundation for Statistical Computing, Vienna, Austria, https://www.R-project.org/ (last access: 1 October 2025), 2024."
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rosenzweig, B., Montalto, F. A., Orton, P., Kaatz, J., Maher, N., Kleyman, J., Chen, Z., Sanderson, E., Adhikari, N., McPhearson, T., and Herreros-Cantis, P.: NPCC4: Climate Change and New York City's Flood Risk, Ann. NY Acad. Sci., 1539, 127\u2013184, https://doi.org/10.1111/nyas.15175, 2024.",
+        "DOI": "10.1111/nyas.15175"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Salvadori, G.: Bivariate return periods via 2-copulas, Stat. Methodol., 1, 129\u2013144, https://doi.org/10.1016/j.stamet.2004.07.002, 2004.",
+        "DOI": "10.1016/j.stamet.2004.07.002"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Salvadori, G. and De Michele, C.: On the use of copulas in hydrology: Theory and practice, J. Hydrol. Eng., 12, 369\u2013380, https://doi.org/10.1061/(ASCE)1084-0699(2007)12:4(369), 2007.",
+        "DOI": "10.1061/(ASCE)1084-0699(2007)12:4(369)"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Salvadori, G. and De Michele, C.: Multivariate multiparameter extreme value models and return periods: A copula approach, Water Resour. Res., 46, https://doi.org/10.1029/2009WR009040, 2010.",
+        "DOI": "10.1029/2009WR009040"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Serinaldi, F. and Kilsby, C. G.: Stationarity is undead: Uncertainty dominates the distribution of extremes, Adv. Water Resour., 77, 17\u201336, https://doi.org/10.1016/j.advwatres.2014.12.013, 2015.",
+        "DOI": "10.1016/j.advwatres.2014.12.013"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shepard, C. C., Agostini, V. N., Gilmer, B., Allen, T., Stone, J., Brooks, W., and Beck, M. W.: Assessing future risk: quantifying the effects of sea level rise on storm surge risk for the southern shores of Long Island, New York, Nat. Hazards, 60, 727\u2013745, https://doi.org/10.1007/s11069-011-0046-8, 2012.",
+        "DOI": "10.1007/s11069-011-0046-8"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shiau, J. T.: Return period of bivariate distributed extreme hydrological events, Stoch. Env. Res. Risk A., 17, 42\u201357, https://doi.org/10.1007/s00477-003-0125-9, 2003.",
+        "DOI": "10.1007/s00477-003-0125-9"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Strauss, B. H., Orton, P. M., Bittermann, K., Buchanan, M. K., Gilford, D. M., Kopp, R. E., Kulp, S., Massey, C., de Moel, H., and Vinogradov, S.: Economic damages from Hurricane Sandy attributable to sea level rise caused by anthropogenic climate change, Nat. Commun., 12, 2720, https://doi.org/10.1038/s41467-021-22838-1, 2021.",
+        "DOI": "10.1038/s41467-021-22838-1"
+      },
+      {
+        "key": "ref67",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Su, X., Belvedere, P., Tosco, T., and Prigiobbe, V.: Studying the effect of sea level rise on nuisance flooding due to groundwater in a coastal urban area with aging infrastructure, Urban Climate, 43, 101164, https://doi.org/10.1016/j.uclim.2022.101164, 2022.",
+        "DOI": "10.1016/j.uclim.2022.101164"
+      },
+      {
+        "key": "ref68",
+        "unstructured": "Suffolk County: DMA 2000 Hazard Mitigation Plan Update \u2013 Suffolk County, New York, section 5.4.15: shallow groundwater flooding, https://www.southamptontownny.gov/DocumentCenter/View/24204/Section-5415---Shallow-GW-Flooding (last access: 1 October 2023), 2020."
+      },
+      {
+        "key": "ref69",
+        "unstructured": "U.S. Geological Survey: USGS water data for the Nation, U.S. Geological Survey National Water Information System database, https://doi.org/10.5066/F7P55KJN, 2023."
+      },
+      {
+        "key": "ref70",
+        "unstructured": "U.S. Census Bureau: County Population Totals: 2020\u20132024, Table\u00a0CO-EST2023-POP, U.S. Department of Commerce, https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html (last access: 1 November 2023), 2023."
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vogel, R. M. and Stedinger, J. R.: Minimum variance streamflow record augmentation procedures, Water Resour. Res., 21, 715\u2013723, https://doi.org/10.1029/WR021i005p00715, 1985.",
+        "DOI": "10.1029/WR021i005p00715"
+      },
+      {
+        "key": "ref72",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wahl, T., Jain, S., Bender, J., Meyers, S. D., and Luther, M. E.: Increasing risk of compound flooding from storm surge and precipitation for major US cities, Nat. Clim. Change, 5, 1093\u20131097, https://doi.org/10.1038/nclimate2736, 2015.",
+        "DOI": "10.1038/nclimate2736"
+      },
+      {
+        "key": "ref73",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Walter, D. A., Jahn, K. L., Masterson, J. P., Dressler, S. E., Finkelstein, J. S., and Monti Jr., J.: Simulation of groundwater flow in the Long Island, New York regional aquifer system for pumping and recharge conditions from 1900 to 2019, U.S. Geological Survey Scientific Investigations Report 2024\u20135044, 113 pp., https://doi.org/10.3133/sir20245044, 2024.",
+        "DOI": "10.3133/sir20245044"
+      },
+      {
+        "key": "ref74",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Welk, R. J., Masterson, K. K., Barclay, J. R., and Jahn, K. L.: Geospatial datasets of factors influencing groundwater emergence flood hazard in Long Island, New York and near coastal areas surrounding Long Island Sound in New York, Connecticut, and Rhode Island, U.S. Geological Survey data release, https://doi.org/10.5066/P9W4QIV5, 2025a.",
+        "DOI": "10.31223/X5HB28"
+      },
+      {
+        "key": "ref75",
+        "unstructured": "Welk, R. J., Fisher, B. N., Glas, R. L., Herdman, L. M., Jahn, K. L., and Masterson, K. K.: Geospatial datasets of factors influencing pluvial flood potential in Long Island, New York and near coastal areas surrounding Long Island Sound in New York, Connecticut, and Rhode Island, U.S. Geological Survey data release, https://doi.org/10.5066/P9N6J1SN, 2025b."
+      },
+      {
+        "key": "ref76",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wong, K. C.: Sea level variability in Long Island Sound, Estuaries, 13, 362\u2013372, https://doi.org/10.2307/1351781, 1990.",
+        "DOI": "10.2307/1351781"
+      },
+      {
+        "key": "ref77",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zscheischler, J. and Seneviratne, S. I.: Dependence of drivers affects risks associated with compound events, Sci. Adv., 3, https://doi.org/10.1126/sciadv.1700263, 2017.",
+        "DOI": "10.1126/sciadv.1700263"
+      }
+    ],
+    "container-title": [
+      "Natural Hazards and Earth System Sciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://nhess.copernicus.org/articles/26/2169/2026/nhess-26-2169-2026.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          11
+        ]
+      ],
+      "date-time": "2026-05-11T06:58:57Z",
+      "timestamp": 1778482737000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://nhess.copernicus.org/articles/26/2169/2026/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          11
+        ]
+      ]
+    },
+    "references-count": 77,
+    "journal-issue": {
+      "issue": "5",
+      "published-online": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.5194/nhess-26-2169-2026",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2025-5683",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2025-5683",
+          "asserted-by": "object"
+        }
+      ],
+      "has-review": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2025-5683-RC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2025-5683-AC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2025-5683-RC2",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2025-5683-AC2",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2025-5683-AC2",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "ISSN": [
+      "1684-9981"
+    ],
+    "issn-type": [
+      {
+        "value": "1684-9981",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          11
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.5194/nhess-26-2169-2026",
+  "original_doi": "10.5194/nhess-26-2169-2026"
+}

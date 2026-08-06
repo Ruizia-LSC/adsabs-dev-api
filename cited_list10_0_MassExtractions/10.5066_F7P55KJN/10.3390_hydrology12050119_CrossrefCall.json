@@ -1,0 +1,1201 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T01:16:29Z",
+      "timestamp": 1760058989526,
+      "version": "build-2065373602"
+    },
+    "reference-count": 110,
+    "publisher": "MDPI AG",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              14
+            ]
+          ],
+          "date-time": "2025-05-14T00:00:00Z",
+          "timestamp": 1747180800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "U.S. Federal Highway Administration Transportation Pooled Fund study",
+        "award": [
+          "TPF-5(460)"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "TPF-5(460)"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "the Illinois Department of Transportation (DOT), Iowa DOT, Michigan DOT, Minnesota DOT, Missouri DOT, Montana Department of Natural Resources and Conservation, North Dakota Department of Water Resources, South Dakota DOT, and Wisconsin DOT",
+        "award": [
+          "TPF-5(460)"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "TPF-5(460)"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Hydrology"
+    ],
+    "abstract": "<jats:p>Standard flood-frequency analysis methods rely on an assumption of stationarity, but because of growing understanding of climatic persistence and concern regarding the effects of climate change, the need for methods to detect and model nonstationary flood frequency has become widely recognized. In this study, a regional statistical method for estimating the effects of climate variations on annual maximum (peak) flows that allows for the effect to vary by quantile is presented and applied. The method uses a panel\u2013quantile regression framework based on a location-scale model with two fixed effects per basin. The model was fitted to 330 selected gauged basins in the midwestern United States, filtered to remove basins affected by reservoir regulation and urbanization. Precipitation and discharge simulated using a water-balance model at daily and annual time scales were tested as climate variables. Annual maximum daily discharge was found to be the best predictor of peak flows, and the quantile regression coefficients were found to depend monotonically on annual exceedance probability. Application of the models to gauged basins is demonstrated by estimating the peak-flow distributions at the end of the study period (2018) and, using the panel model, to the study basins as-if-ungauged by using leave-one-out cross validation, estimating the fixed effects using static basin characteristics, and parameterizing the water-balance model discharge using median parameters. The errors of the quantiles predicted as-if-ungauged approximately doubled compared to the errors of the fitted panel model.</jats:p>",
+    "DOI": "10.3390/hydrology12050119",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          14
+        ]
+      ],
+      "date-time": "2025-05-14T08:44:58Z",
+      "timestamp": 1747212298000
+    },
+    "page": "119",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Regional Analysis of the Dependence of Peak-Flow Quantiles on Climate with Application to Adjustment to Climate Trends"
+    ],
+    "prefix": "10.3390",
+    "volume": "12",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8280-4368",
+        "authenticated-orcid": false,
+        "given": "Thomas",
+        "family": "Over",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Central Midwest Water Science Center, U.S. Geological Survey, Urbana, IL 61801, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Mackenzie",
+        "family": "Marti",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Central Midwest Water Science Center, U.S. Geological Survey, Urbana, IL 61801, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5204-2606",
+        "authenticated-orcid": false,
+        "given": "Hannah",
+        "family": "Podzorski",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Central Midwest Water Science Center, U.S. Geological Survey, Iowa City, IA 52240, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          14
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "697",
+        "DOI": "10.1016/j.jhydrol.2019.03.102",
+        "article-title": "Effects of climate, regulation, and urbanization on historical flood trends in the United States",
+        "volume": "573",
+        "author": "Hodgkins",
+        "year": "2019",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1174",
+        "DOI": "10.1080/02626667.2014.959959",
+        "article-title": "Negligent killing of scientific concepts: The stationarity case",
+        "volume": "60",
+        "author": "Koutsoyiannis",
+        "year": "2015",
+        "journal-title": "Hydrolog. Sci. J."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "573",
+        "DOI": "10.1126/science.1151915",
+        "article-title": "Stationarity is dead: Whither water management?",
+        "volume": "319",
+        "author": "Milly",
+        "year": "2008",
+        "journal-title": "Science"
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "7785",
+        "DOI": "10.1002/2015WR017408",
+        "article-title": "On critiques of \u201cStationarity is dead: Whither water management?\u201d",
+        "volume": "51",
+        "author": "Milly",
+        "year": "2015",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ryberg, K.R. (2022). Attribution of Monotonic Trends and Change Points in Peak Streamflow Across the Conterminous United States Using a Multiple Working Hypotheses Framework, 1941\u20132015 and 1966\u20132015, U.S. Geological Survey. Professional Paper 1869.",
+        "DOI": "10.3133/pp1869"
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "325",
+        "DOI": "10.1080/02626667.2018.1426858",
+        "article-title": "Techniques for assessing water infrastructure for nonstationary extreme events: A review",
+        "volume": "63",
+        "author": "Salas",
+        "year": "2018",
+        "journal-title": "Hydrolog. Sci. J."
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "554",
+        "DOI": "10.1061/(ASCE)HE.1943-5584.0000820",
+        "article-title": "Revisiting the concepts of return period and risk for nonstationary hydrologic extreme events",
+        "volume": "19",
+        "author": "Salas",
+        "year": "2014",
+        "journal-title": "J. Hydrol. Eng."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.advwatres.2017.11.026",
+        "article-title": "Parsimonious nonstationary flood frequency analysis",
+        "volume": "112",
+        "author": "Serago",
+        "year": "2018",
+        "journal-title": "Adv. Water Resour."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.1016/j.advwatres.2014.12.013",
+        "article-title": "Stationarity is undead\u2014Uncertainty dominates the distribution of extremes",
+        "volume": "77",
+        "author": "Serinaldi",
+        "year": "2015",
+        "journal-title": "Adv. Water Resour."
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "W08417",
+        "DOI": "10.1029/2008WR007645",
+        "article-title": "On the stationarity of annual flood peaks in the continental United States during the 20th century",
+        "volume": "45",
+        "author": "Villarini",
+        "year": "2009",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_11",
+        "unstructured": "Villarini, G., Taylor, S., Wobus, C., Vogel, R., Hecht, J., White, K., Baker, B., Gilroy, K., Olsen, J.R., and Raff, D. (2018). Floods and Nonstationarity: A Review, U.S. Army Corps of Engineers. Available online: https://usace.contentdm.oclc.org/digital/collection/p266001coll1/id/6036/."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "464",
+        "DOI": "10.1111/j.1752-1688.2011.00541.x",
+        "article-title": "Nonstationarity\u2014Flood magnification and recurrence reduction factors in the United States",
+        "volume": "47",
+        "author": "Vogel",
+        "year": "2011",
+        "journal-title": "J. Am. Water Resour. Assoc."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "10232",
+        "DOI": "10.1002/2016GL070590",
+        "article-title": "Fragmented patterns of flood change across the United States",
+        "volume": "43",
+        "author": "Archfield",
+        "year": "2016",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "114035",
+        "DOI": "10.1088/1748-9326/aa8847",
+        "article-title": "Recent changes in extreme floods across multiple continents",
+        "volume": "12",
+        "author": "Berghuijs",
+        "year": "2017",
+        "journal-title": "Environ. Res. Lett."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1080/02626667.2011.621895",
+        "article-title": "Has the magnitude of floods across the USA changed with global CO2 levels?",
+        "volume": "57",
+        "author": "Hirsch",
+        "year": "2012",
+        "journal-title": "Hydrolog. Sci. J."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "704",
+        "DOI": "10.1016/j.jhydrol.2017.07.027",
+        "article-title": "Climate-driven variability in the occurrence of major floods across North America and Europe",
+        "volume": "552",
+        "author": "Hodgkins",
+        "year": "2017",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "8545",
+        "DOI": "10.1029/2018WR023749",
+        "article-title": "If precipitation extremes are increasing, why aren\u2019t floods?",
+        "volume": "54",
+        "author": "Sharma",
+        "year": "2018",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "481",
+        "DOI": "10.1111/j.1752-1688.2011.00543.x",
+        "article-title": "Hurst-Kolmogorov dynamics and uncertainty",
+        "volume": "47",
+        "author": "Koutsoyiannis",
+        "year": "2011",
+        "journal-title": "J. Am. Water Resour. Assoc."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "475",
+        "DOI": "10.1111/j.1752-1688.2011.00542.x",
+        "article-title": "Stationarity\u2014Wanted dead or alive?",
+        "volume": "47",
+        "author": "Lins",
+        "year": "2011",
+        "journal-title": "J. Am. Water Resour. Assoc."
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Crimmins, A.R., Avery, C.W., Easterling, D.R., Kunkel, K.E., Stewart, B.C., and Maycock, T.K. (2023). Ch. 4. Water. Fifth National Climate Assessment, U.S. Global Change Research Program.",
+        "DOI": "10.7930/NCA5.2023"
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2019GL086480",
+        "DOI": "10.1029/2019GL086480",
+        "article-title": "Causal effect of impervious cover on annual flood magnitude for the United States",
+        "volume": "47",
+        "author": "Blum",
+        "year": "2020",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "279",
+        "DOI": "10.1061/JYCEAJ.0003890",
+        "article-title": "Urban flood frequency characteristics",
+        "volume": "100",
+        "author": "Espey",
+        "year": "1974",
+        "journal-title": "J. Hydr. Div.-ASCE"
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "431",
+        "DOI": "10.1029/WR011i003p00431",
+        "article-title": "The effect of urbanization on floods of different recurrence interval",
+        "volume": "11",
+        "author": "Hollis",
+        "year": "1975",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_24",
+        "unstructured": "Konrad, C.P. (2009, May 07). Effects of Urban Development on Floods, Available online: https://pubs.usgs.gov/fs/fs07603/."
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Over, T.M., Saito, R.J., and Soong, D.T. (2016). Adjusting Annual Maximum Peak Discharges at Selected Stations in Northeastern Illinois for Changes in Land-Use Conditions, U.S. Geological Survey. Scientific Investigations Report 2016\u20135049.",
+        "DOI": "10.3133/sir20165049"
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Over, T.M., Saito, R.J., Veilleux, A.G., O\u2019Shea, P.S., Sharpe, J.B., Soong, D.T., and Ishii, A.L. (2021). Estimation of Peak Discharge Quantiles for Selected Annual Exceedance Probabilities in Northeastern Illinois, U.S. Geological Survey. Scientific Investigations Report 2016\u20135050.",
+        "DOI": "10.3133/sir20165050"
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "132281",
+        "DOI": "10.1016/j.jhydrol.2024.132281",
+        "article-title": "The joint effect of changes in urbanization and climate on trends in floods: A comparison of panel and single-station quantile regression approaches",
+        "volume": "648",
+        "author": "Over",
+        "year": "2025",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_28",
+        "unstructured": "Sauer, V.B., Thomas, W.O., Stricker, V.A., and Wilson, K.V. (1983). Flood Characteristics of Urban Watersheds in the United States, U.S. Geological Survey. Water-Supply Paper 2207."
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "first-page": "2705",
+        "DOI": "10.5194/hess-25-2705-2021",
+        "article-title": "Causal effects of dams and land cover changes on flood changes in mainland China",
+        "volume": "25",
+        "author": "Yang",
+        "year": "2021",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "first-page": "20190548",
+        "DOI": "10.1098/rsta.2019.0548",
+        "article-title": "Incorporating climate change in flood estimation guidance",
+        "volume": "379",
+        "author": "Wasko",
+        "year": "2021",
+        "journal-title": "Philos. Trans. R. Soc. A"
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "England, J.F., Cohn, T.A., Faber, B.A., Stedinger, J.R., Thomas, W.O., Veilleux, A.G., Kiang, J.E., and Mason, R.R. (2019). Guidelines for Determining Flood Flow Frequency\u2014Bulletin 17C (Ver. 1.1, May 2019), U.S. Geological Survey. Techniques and Methods 4-B5.",
+        "DOI": "10.3133/tm4B5"
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "first-page": "557",
+        "DOI": "10.1016/j.jhydrol.2019.04.068",
+        "article-title": "Design considerations for riverine floods in a changing climate\u2014A review",
+        "volume": "574",
+        "author": "Schlef",
+        "year": "2019",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_33",
+        "unstructured": "Kilgore, R., Thomas, W.O., Douglass, S., Webb, B., Hayhoe, K., Stoner, A., Jacobs, J.M., Thompson, D., Hermann, G., and Douglas, E. (2019). Applying Climate Change Information to Hydrologic and Coastal Design of Transportation Infrastructure [Design Practices Guide], National Cooperative Highway Research Program, Transportation Research Board. Available online: https://apps.trb.org/cmsfeed/trbnetprojectdisplay.asp?projectid=4046."
+      },
+      {
+        "key": "ref_34",
+        "unstructured": "Kilgore, R., Thomas, W.O., Douglass, S., Webb, B., Hayhoe, K., Stoner, A., Jacobs, J., Thompson, D.B., Hermann, G.R., and Douglas, E. (2019). Applying Climate Change Information to Hydrologic and Coastal Design of Transportation Infrastructure [Final Report], National Cooperative Highway Research Program, Transportation Research Board. Available online: https://apps.trb.org/cmsfeed/trbnetprojectdisplay.asp?projectid=4046."
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "first-page": "3634",
+        "DOI": "10.1016/j.jhydrol.2014.11.003",
+        "article-title": "Review of trend analysis and climate change projections of extreme precipitation and floods in Europe",
+        "volume": "519 Pt D",
+        "author": "Madsen",
+        "year": "2014",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2019WR025861",
+        "DOI": "10.1029/2019WR025861",
+        "article-title": "Comparing flood projection approaches across hydro-climatologically diverse United States river basins",
+        "volume": "57",
+        "author": "Schlef",
+        "year": "2021",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "first-page": "3897",
+        "DOI": "10.5194/hess-25-3897-2021",
+        "article-title": "Nonstationary weather and water extremes: A review of methods for their detection, attribution, and management",
+        "volume": "25",
+        "author": "Slater",
+        "year": "2021",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "key": "ref_38",
+        "doi-asserted-by": "crossref",
+        "first-page": "9321",
+        "DOI": "10.1029/2018WR023209",
+        "article-title": "A general methodology for climate-informed approaches to long-term flood projection\u2014Illustrated with the Ohio River Basin",
+        "volume": "54",
+        "author": "Schlef",
+        "year": "2018",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "first-page": "129194",
+        "DOI": "10.1016/j.jhydrol.2023.129194",
+        "article-title": "Adjusting design floods for urbanization across groundwater-dominated watersheds of Long Island, NY",
+        "volume": "618",
+        "author": "Glas",
+        "year": "2023",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_40",
+        "first-page": "100115",
+        "article-title": "Simulation experiments comparing nonstationary design-flood adjustments based on observed annual peak flows in the conterminous United States",
+        "volume": "17",
+        "author": "Hecht",
+        "year": "2022",
+        "journal-title": "J. Hydrol. X"
+      },
+      {
+        "key": "ref_41",
+        "doi-asserted-by": "crossref",
+        "first-page": "103484",
+        "DOI": "10.1016/j.advwatres.2019.103484",
+        "article-title": "Updating urban design floods for changes in central tendency and variability using regression",
+        "volume": "136",
+        "author": "Hecht",
+        "year": "2020",
+        "journal-title": "Adv. Water Resour."
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "first-page": "5469",
+        "DOI": "10.1002/2016WR019676",
+        "article-title": "Predicting nonstationary flood frequencies: Evidence supports an updated stationarity thesis in the United States",
+        "volume": "53",
+        "author": "Luke",
+        "year": "2017",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_43",
+        "unstructured": "Benson, M. (1963). Factors Influencing the Occurrence of Floods in a Humid Region of Diverse Terrain, U.S. Geological Survey. Water Supply Paper 1580-B."
+      },
+      {
+        "key": "ref_44",
+        "unstructured": "Dalrymple, T. (1960). Flood-Frequency Analyses, Manual of Hydrology: Part 3, U.S. Geological Survey. Water Supply Paper 1543-A."
+      },
+      {
+        "key": "ref_45",
+        "unstructured": "Maidment, D.R. (1993). Frequency analysis of extreme events. Handbook of Hydrology, McGraw-Hill."
+      },
+      {
+        "key": "ref_46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Eng, K., Chen, Y.-Y., and Kiang, J.E. (2009). User\u2019s Guide to the Weighted-Multiple-Linear Regression Program (WREG Version 1.0), U.S. Geological Survey. Techniques and Methods 4-A8.",
+        "DOI": "10.3133/tm4A8"
+      },
+      {
+        "key": "ref_47",
+        "unstructured": "Farmer, W.H., Kiang, J.E., Feaster, T.D., and Eng, K. (2021). Regionalization of Surface-Water Statistics Using Multiple Linear Regression (Ver. 1.1, February 2021), U.S. Geological Survey. Techniques and Methods, 4-A12."
+      },
+      {
+        "key": "ref_48",
+        "doi-asserted-by": "crossref",
+        "first-page": "3591",
+        "DOI": "10.5194/hess-15-3591-2011",
+        "article-title": "A trading-space-for-time approach to probabilistic continuous streamflow predictions in a changing climate\u2014Accounting for changing watershed behavior",
+        "volume": "15",
+        "author": "Singh",
+        "year": "2011",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "key": "ref_49",
+        "doi-asserted-by": "crossref",
+        "first-page": "29",
+        "DOI": "10.1080/02626667.2013.819431",
+        "article-title": "Hydrological impacts of climate change in gauged and ungauged watersheds of the Olifants basin: A trading-space-for-time approach",
+        "volume": "59",
+        "author": "Singh",
+        "year": "2014",
+        "journal-title": "Hydrolog. Sci. J."
+      },
+      {
+        "key": "ref_50",
+        "doi-asserted-by": "crossref",
+        "first-page": "11603",
+        "DOI": "10.1038/ncomms11603",
+        "article-title": "Correspondence: Space-time asymmetry undermines water yield assessment",
+        "volume": "7",
+        "author": "Berghuijs",
+        "year": "2016",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "ref_51",
+        "doi-asserted-by": "crossref",
+        "first-page": "5492",
+        "DOI": "10.1002/2014WR015365",
+        "article-title": "Spatiotemporal flood sensitivity to annual precipitation: Evidence for landscape-climate coevolution",
+        "volume": "50",
+        "year": "2014",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_52",
+        "unstructured": "Wooldridge, J.M. (2013). Introductory Econometrics: A Modern Approach, South-Western, Cengage Learning. [5th ed.]."
+      },
+      {
+        "key": "ref_53",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2021WR030742",
+        "DOI": "10.1029/2021WR030742",
+        "article-title": "Statistical attribution of the influence of urban and tree cover change on streamflow: A comparison of large sample statistical approaches",
+        "volume": "58",
+        "author": "Anderson",
+        "year": "2022",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_54",
+        "doi-asserted-by": "crossref",
+        "first-page": "9470",
+        "DOI": "10.1002/2016WR018718",
+        "article-title": "Panel regressions to estimate low-flow response to rainfall variability in ungaged basins",
+        "volume": "52",
+        "author": "Bassiouni",
+        "year": "2016",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_55",
+        "doi-asserted-by": "crossref",
+        "first-page": "2011WR011701",
+        "DOI": "10.1029/2011WR011701",
+        "article-title": "Forest cover, socioeconomics, and reported flood frequency in developing countries",
+        "volume": "48",
+        "author": "Ferreira",
+        "year": "2012",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_56",
+        "doi-asserted-by": "crossref",
+        "first-page": "7874",
+        "DOI": "10.1002/2013WR013818",
+        "article-title": "Panel regression techniques for identifying impacts of anthropogenic landscape change on hydrologic response",
+        "volume": "49",
+        "author": "Steinschneider",
+        "year": "2013",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_57",
+        "unstructured": "Greene, W.H. (1997). Econometric Analysis, Prentice-Hall. [3rd ed.]."
+      },
+      {
+        "key": "ref_58",
+        "doi-asserted-by": "crossref",
+        "first-page": "33",
+        "DOI": "10.2307/1913643",
+        "article-title": "Regression quantiles",
+        "volume": "46",
+        "author": "Koenker",
+        "year": "1978",
+        "journal-title": "Econometrica"
+      },
+      {
+        "key": "ref_59",
+        "doi-asserted-by": "crossref",
+        "first-page": "74",
+        "DOI": "10.1111/biom.12410",
+        "article-title": "Parametric modeling of quantile regression coefficient functions",
+        "volume": "72",
+        "author": "Frumento",
+        "year": "2016",
+        "journal-title": "Biometrics"
+      },
+      {
+        "key": "ref_60",
+        "doi-asserted-by": "crossref",
+        "first-page": "1869",
+        "DOI": "10.1175/JHM-D-15-0187.1",
+        "article-title": "Quantile regression in regional frequency analysis: A better exploitation of the available information",
+        "volume": "17",
+        "author": "Ouali",
+        "year": "2016",
+        "journal-title": "J. Hydrometeorol."
+      },
+      {
+        "key": "ref_61",
+        "doi-asserted-by": "crossref",
+        "first-page": "1134",
+        "DOI": "10.1029/2002WR001593",
+        "article-title": "Flood quantiles in a changing climate: Seasonal forecasts and causal relation",
+        "volume": "39",
+        "author": "Sankarasubramanian",
+        "year": "2003",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_62",
+        "doi-asserted-by": "crossref",
+        "first-page": "e12761",
+        "DOI": "10.1111/jfr3.12761",
+        "article-title": "Assessment and significance of the frequency domain for trends in annual peak streamflow",
+        "volume": "14",
+        "author": "Konrad",
+        "year": "2021",
+        "journal-title": "J. Flood Risk Manag."
+      },
+      {
+        "key": "ref_63",
+        "doi-asserted-by": "crossref",
+        "first-page": "532",
+        "DOI": "10.1016/j.jhydrol.2017.09.035",
+        "article-title": "Non-stationary hydrologic frequency analysis using B-spline quantile regression",
+        "volume": "554",
+        "author": "Nasri",
+        "year": "2017",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Qu, C., Li, J., Yan, L., Yan, P., Cheng, F., and Lu, D. (2020). Non-stationary flood frequency analysis using cubic b-spline-based GAMLSS model. Water, 12.",
+        "DOI": "10.3390/w12071867"
+      },
+      {
+        "key": "ref_65",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ryberg, K.R. (2024). Peak Streamflow Trends and Their Relation to Changes in Climate in Illinois, Iowa, Michigan, Minnesota, Missouri, Montana, North Dakota, South Dakota, and Wisconsin, U.S. Geological Survey. Scientific Investigations Report 2023\u20135064.",
+        "DOI": "10.3133/sir20235064"
+      },
+      {
+        "key": "ref_66",
+        "doi-asserted-by": "crossref",
+        "first-page": "103",
+        "DOI": "10.1016/j.jhydrol.2011.01.027",
+        "article-title": "On the frequency of heavy rainfall for the Midwest of the United States",
+        "volume": "400",
+        "author": "Villarini",
+        "year": "2011",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_67",
+        "doi-asserted-by": "crossref",
+        "first-page": "06017010",
+        "DOI": "10.1061/(ASCE)HE.1943-5584.0001620",
+        "article-title": "Examination of changes in annual maximum gauge height in the continental United States using quantile regression",
+        "volume": "23",
+        "author": "Villarini",
+        "year": "2018",
+        "journal-title": "J. Hydrol. Eng."
+      },
+      {
+        "key": "ref_68",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2023GL103438",
+        "DOI": "10.1029/2023GL103438",
+        "article-title": "Beyond simple trend tests: Detecting significant changes in design-flood quantiles",
+        "volume": "50",
+        "author": "Awasthi",
+        "year": "2023",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "ref_69",
+        "doi-asserted-by": "crossref",
+        "first-page": "74",
+        "DOI": "10.1016/j.jmva.2004.05.006",
+        "article-title": "Quantile regression for longitudinal data",
+        "volume": "91",
+        "author": "Koenker",
+        "year": "2004",
+        "journal-title": "J. Multivar. Anal."
+      },
+      {
+        "key": "ref_70",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Koenker, R., Chernozhukov, V., He, X., and Peng, L. (2017). Quantile regression methods for longitudinal data. Handbook of Quantile Regression, CRC Press, Taylor and Francis Group.",
+        "DOI": "10.1201/9781315120256"
+      },
+      {
+        "key": "ref_71",
+        "doi-asserted-by": "crossref",
+        "first-page": "368",
+        "DOI": "10.1111/j.1368-423X.2011.00349.x",
+        "article-title": "A simple approach to quantile regression for panel data",
+        "volume": "14",
+        "author": "Canay",
+        "year": "2011",
+        "journal-title": "Econom. J."
+      },
+      {
+        "key": "ref_72",
+        "doi-asserted-by": "crossref",
+        "first-page": "145",
+        "DOI": "10.1016/j.jeconom.2019.04.009",
+        "article-title": "Quantiles via moments",
+        "volume": "213",
+        "author": "Machado",
+        "year": "2019",
+        "journal-title": "J. Econom."
+      },
+      {
+        "key": "ref_73",
+        "unstructured": "R Core Team (2023). R: A Language and Environment for Statistical Computing (Version 4.3.1) [Computer Software], R Foundation for Statistical Computing. Available online: https://www.R-project.org."
+      },
+      {
+        "key": "ref_74",
+        "unstructured": "Koenker, R. (2023, November 28). quantreg: Quantile Regression [R]. Available online: https://CRAN.R-project.org/package=quantreg."
+      },
+      {
+        "key": "ref_75",
+        "doi-asserted-by": "crossref",
+        "first-page": "991",
+        "DOI": "10.1093/restud/rdv007",
+        "article-title": "Split-panel jackknife estimation of fixed-effect models",
+        "volume": "82",
+        "author": "Dhaene",
+        "year": "2015",
+        "journal-title": "Rev. Econ. Stud."
+      },
+      {
+        "key": "ref_76",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.18637/jss.v027.i02",
+        "article-title": "Panel data econometrics in R: The plm package",
+        "volume": "27",
+        "author": "Croissant",
+        "year": "2008",
+        "journal-title": "J. Stat. Softw."
+      },
+      {
+        "key": "ref_77",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.18637/jss.v082.i03",
+        "article-title": "Robust standard error estimators for panel models: A unifying approach",
+        "volume": "82",
+        "author": "Millo",
+        "year": "2017",
+        "journal-title": "J. Stat. Softw."
+      },
+      {
+        "key": "ref_78",
+        "doi-asserted-by": "crossref",
+        "first-page": "431",
+        "DOI": "10.1111/j.1468-0084.1987.mp49004006.x",
+        "article-title": "Computing robust standard errors for within-groups estimators",
+        "volume": "49",
+        "author": "Arellano",
+        "year": "1987",
+        "journal-title": "Oxf. Bull. Econ. Stat."
+      },
+      {
+        "key": "ref_79",
+        "unstructured": "Marti, M.K., Podzorski, H.L., and Over, T.M. (2025). Data for Regional Analysis of the Dependence of Peak-Flow Quantiles on Climate with Application to Adjustment to Climate Trends [Dataset], U.S. Geological Survey."
+      },
+      {
+        "key": "ref_80",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Helsel, D.R., Hirsch, R.M., Ryberg, K.R., Archfield, S.A., and Gilroy, E.J. (2020). Statistical Methods in Water Resources, U.S. Geological Survey. Techniques and Methods 4-A3.",
+        "DOI": "10.3133/tm4A3"
+      },
+      {
+        "key": "ref_81",
+        "doi-asserted-by": "crossref",
+        "first-page": "186",
+        "DOI": "10.1080/00031305.1997.10473959",
+        "article-title": "Quantile curves without crossing",
+        "volume": "51",
+        "author": "He",
+        "year": "1997",
+        "journal-title": "Am. Stat."
+      },
+      {
+        "key": "ref_82",
+        "doi-asserted-by": "crossref",
+        "first-page": "78",
+        "DOI": "10.1006/jmva.1999.1849",
+        "article-title": "Restricted regression quantiles",
+        "volume": "72",
+        "author": "Zhao",
+        "year": "2000",
+        "journal-title": "J. Multivar. Anal."
+      },
+      {
+        "key": "ref_83",
+        "doi-asserted-by": "crossref",
+        "first-page": "245",
+        "DOI": "10.2307/1907187",
+        "article-title": "Nonparametric tests against trend",
+        "volume": "13",
+        "author": "Mann",
+        "year": "1945",
+        "journal-title": "Econometrica"
+      },
+      {
+        "key": "ref_84",
+        "unstructured": "Dakota Water Science Center (2024, June 21). Flood-Frequency Analysis in the Midwest: Addressing Potential Nonstationary Annual Peak-Flow Records. U.S. Geological Survey, Available online: https://www.usgs.gov/centers/dakota-water/science/flood-frequency-analysis-midwest-addressing-potential-nonstationary."
+      },
+      {
+        "key": "ref_85",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ryberg, K.R. (2024). Introduction and methods of analysis for peak streamflow trends and their relation to changes in climate in Illinois, Iowa, Michigan, Minnesota, Missouri, Montana, North Dakota, South Dakota, and Wisconsin. Ch. A of Peak Streamflow Trends and Their Relation to Changes in Climate in Illinois, Iowa, Michigan, Minnesota, Missouri, Montana, North Dakota, South Dakota, and Wisconsin, U.S. Geological Survey. Scientific Investigations Report 2023\u20135064.",
+        "DOI": "10.3133/sir20235064"
+      },
+      {
+        "key": "ref_86",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ryberg, K.R. (2025). Peak streamflow trends in North Dakota and their relation to changes in climate, water years 1921\u20132020. Ch. H of Peak Streamflow Trends and Their Relation to Changes in Climate in Illinois, Iowa, Michigan, Minnesota, Missouri, Montana, North Dakota, South Dakota, and Wisconsin, U.S. Geological Survey. Scientific Investigations Report 2023\u20135064.",
+        "DOI": "10.3133/sir20235064H"
+      },
+      {
+        "key": "ref_87",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Marti, M.K., and Ryberg, K.R. (2023). Method for Identification of Reservoir Regulation Within U.S. Geological Survey Streamgage Basins in the Central United States Using a Decadal Dam Impact Metric, U.S. Geological Survey. Open-File Report 2023\u20131034.",
+        "DOI": "10.3133/ofr20231034"
+      },
+      {
+        "key": "ref_88",
+        "unstructured": "Dewitz, J. (2021). National Land Cover Database (NLCD) 2019 Products (Ver. 2.0, June 2021) [Dataset], U.S. Geological Survey. U.S. Geological Survey data release."
+      },
+      {
+        "key": "ref_89",
+        "doi-asserted-by": "crossref",
+        "first-page": "2181143",
+        "DOI": "10.1080/15481603.2023.2181143",
+        "article-title": "Thematic accuracy assessment of the NLCD 2019 land cover for the conterminous United States",
+        "volume": "60",
+        "author": "Wickham",
+        "year": "2023",
+        "journal-title": "GISci. Remote Sens."
+      },
+      {
+        "key": "ref_90",
+        "unstructured": "Falcone, J. (2011). GAGES-II: Geospatial Attributes of Gages for Evaluating Streamflow [Dataset], U.S. Geological Survey."
+      },
+      {
+        "key": "ref_91",
+        "unstructured": "Veilleux, A.G. (2009). Bayesian GLS Regression for Regionalization of Hydrologic Statistics, Floods, and Bulletin 17 Skew. [Master\u2019s Thesis, Cornell University]. Available online: https://ecommons.cornell.edu/bitstream/handle/1813/13819/Veilleux,%20Andrea.pdf?sequence=1."
+      },
+      {
+        "key": "ref_92",
+        "unstructured": "Marti, M.K., Wavra, H.N., Over, T.M., Ryberg, K.R., Podzorski, H.L., and Chen, Y.R. (2024). Peak Streamflow Data, Climate Data, and Results from Investigating Hydroclimatic Trends and Climate Change Effects on Peak Streamflow in the Central United States, 1920-2020 [Dataset], U.S. Geological Survey."
+      },
+      {
+        "key": "ref_93",
+        "unstructured": "Dahl, T.E. (2024, August 28). Status and Trends of Prairie Wetlands in the United States 1997 to 2009, Available online: https://www.fws.gov/sites/default/files/documents/Status-and-Trends-of-Prairie-Wetlands-in-the-United-States-1997-to-2009.pdf."
+      },
+      {
+        "key": "ref_94",
+        "first-page": "1883",
+        "article-title": "An extreme-preserving long-term gridded daily precipitation dataset for the conterminous United States",
+        "volume": "22",
+        "author": "Pierce",
+        "year": "2021",
+        "journal-title": "J. Hydrometeorol."
+      },
+      {
+        "key": "ref_95",
+        "doi-asserted-by": "crossref",
+        "first-page": "9384",
+        "DOI": "10.1175/JCLI-D-12-00508.1",
+        "article-title": "A long-term hydrologically based dataset of land surface fluxes and states for the conterminous United States: Update and extensions",
+        "volume": "26",
+        "author": "Livneh",
+        "year": "2013",
+        "journal-title": "J. Clim."
+      },
+      {
+        "key": "ref_96",
+        "unstructured": "McCabe, G.J., and Markstrom, S.L. (2007, December 14). A Monthly Water-Balance Model Driven by a Graphical User Interface, Available online: https://pubs.usgs.gov/of/2007/1088/pdf/of07-1088_508.pdf."
+      },
+      {
+        "key": "ref_97",
+        "doi-asserted-by": "crossref",
+        "first-page": "W11522",
+        "DOI": "10.1029/2011WR010630",
+        "article-title": "Independent effects of temperature and precipitation on modeled runoff in the conterminous United States",
+        "volume": "47",
+        "author": "McCabe",
+        "year": "2011",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_98",
+        "unstructured": "U.S. Geological Survey (2024). USGS Water Data for the Nation\u2014U.S. Geological Survey National Water Information System Database [National Water Information System\u2014Web Interface]."
+      },
+      {
+        "key": "ref_99",
+        "unstructured": "Zambrano-Bigiarini, M., and Rojas, R. (2025, January 23). hydroPSO: Particle Swarm Optimisation, with Focus on Environmental Models (Version R Package Version 0.5-1) [Computer Software]. Available online: https://github.com/hzambran/hydroPSO."
+      },
+      {
+        "key": "ref_100",
+        "doi-asserted-by": "crossref",
+        "first-page": "80",
+        "DOI": "10.1016/j.jhydrol.2009.08.003",
+        "article-title": "Decomposition of the mean squared error and NSE performance criteria: Implications for improving hydrological modelling",
+        "volume": "377",
+        "author": "Gupta",
+        "year": "2009",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_101",
+        "doi-asserted-by": "crossref",
+        "first-page": "264",
+        "DOI": "10.1016/j.jhydrol.2012.01.011",
+        "article-title": "Runoff conditions in the upper Danube basin under an ensemble of climate change scenarios",
+        "volume": "424\u2013425",
+        "author": "Kling",
+        "year": "2012",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_102",
+        "first-page": "1",
+        "article-title": "Whither the 100th Meridian? The once and future physical and human geography of America\u2019s arid\u2013humid divide. Part I: The story so far",
+        "volume": "22",
+        "author": "Seager",
+        "year": "2018",
+        "journal-title": "Earth Interact."
+      },
+      {
+        "key": "ref_103",
+        "first-page": "1",
+        "article-title": "Whither the 100th Meridian? The once and future physical and human geography of America\u2019s arid\u2013humid divide. Part II: The meridian moves east",
+        "volume": "22",
+        "author": "Seager",
+        "year": "2018",
+        "journal-title": "Earth Interact."
+      },
+      {
+        "key": "ref_104",
+        "unstructured": "Chambers, J.M., and Hastie, T.J. (1992). Local regression models. Statistical Models in S, Chapman and Hall/CRC Press."
+      },
+      {
+        "key": "ref_105",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gebert, W.A., Garn, H.S., and Rose, W.J. (2016). Changes in Streamflow Characteristics in Wisconsin as Related to Precipitation and Land Use, U.S. Geological Survey. Scientific Investigations Report 2015\u20135140.",
+        "DOI": "10.3133/sir20155140"
+      },
+      {
+        "key": "ref_106",
+        "doi-asserted-by": "crossref",
+        "first-page": "733",
+        "DOI": "10.1111/j.1752-1688.1996.tb03470.x",
+        "article-title": "Streamflow trends in Wisconsin\u2019s Driftless Area",
+        "volume": "32",
+        "author": "Gebert",
+        "year": "1996",
+        "journal-title": "J. Am. Water Resour. Assoc."
+      },
+      {
+        "key": "ref_107",
+        "doi-asserted-by": "crossref",
+        "first-page": "123",
+        "DOI": "10.1016/j.jhydrol.2008.03.010",
+        "article-title": "Effects of climate and land management change on streamflow in the driftless area of Wisconsin",
+        "volume": "355",
+        "author": "Juckem",
+        "year": "2008",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_108",
+        "doi-asserted-by": "crossref",
+        "first-page": "267",
+        "DOI": "10.1016/j.jhydrol.2014.05.004",
+        "article-title": "Analysis of a changing hydrologic flood regime using the Variable Infiltration Capacity model",
+        "volume": "515",
+        "author": "Park",
+        "year": "2014",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_109",
+        "doi-asserted-by": "crossref",
+        "first-page": "845",
+        "DOI": "10.1029/91WR00076",
+        "article-title": "Hydrological impacts of changing land management practices in a moderate-sized agricultural catchment",
+        "volume": "27",
+        "author": "Potter",
+        "year": "1991",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_110",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ryberg, K.R. (2024). Peak streamflow trends in Wisconsin and their relation to changes in climate, water years 1921\u20132020, U.S. Geological Survey. Ch. J of Peak Streamflow Trends and Their Relation to Changes in Climate in Illinois, Iowa, Michigan, Minnesota, Missouri, Montana, North Dakota, South Dakota, and Wisconsin, U.S. Geological Survey. Scientific Investigations Report 2023\u20135064.",
+        "DOI": "10.3133/sir20235064H"
+      }
+    ],
+    "container-title": [
+      "Hydrology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2306-5338/12/5/119/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          9
+        ]
+      ],
+      "date-time": "2025-10-09T17:32:35Z",
+      "timestamp": 1760031155000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2306-5338/12/5/119"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          14
+        ]
+      ]
+    },
+    "references-count": 110,
+    "journal-issue": {
+      "issue": "5",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            5
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "hydrology12050119"
+    ],
+    "URL": "https://doi.org/10.3390/hydrology12050119",
+    "relation": {},
+    "ISSN": [
+      "2306-5338"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "2306-5338"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          14
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.3390/hydrology12050119",
+  "original_doi": "10.3390/hydrology12050119"
+}

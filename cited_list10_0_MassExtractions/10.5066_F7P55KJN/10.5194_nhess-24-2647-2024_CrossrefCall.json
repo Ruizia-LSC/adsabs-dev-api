@@ -1,0 +1,719 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          24
+        ]
+      ],
+      "date-time": "2026-06-24T11:25:33Z",
+      "timestamp": 1782300333977,
+      "version": "3.54.5"
+    },
+    "reference-count": 75,
+    "publisher": "Copernicus GmbH",
+    "issue": "8",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              2
+            ]
+          ],
+          "date-time": "2024-08-02T00:00:00Z",
+          "timestamp": 1722556800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100006752",
+        "name": "U.S. Army Corps of Engineers",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "W912HZ202005"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "W912HZ202005"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100006752",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Nat. Hazards Earth Syst. Sci."
+    ],
+    "abstract": "<jats:p>Abstract. Accurate prediction and assessment of extreme flood events are crucial for effective disaster preparedness, response, and mitigation strategies. One crucial factor influencing the intensity and magnitude of extreme flood events is precipitation. Precipitation patterns, particularly during intense weather phenomena such as hurricanes, can play a significant role in triggering widespread flooding over densely populated areas. Traditional flood prediction models typically rely on single-source precipitation data, which may not adequately capture the inherent variability and uncertainty associated with extreme events due to certain limitations in the precipitation generation framework, availability, or both spatial and temporal resolutions. Moreover, in coastal regions, the complex interaction between local precipitation, river flows, and coastal processes (i.e., storm tide) can result in compound flooding and amplify the overall impact and complexity of flooding patterns. This study presents an implementation of the global copula-embedded Bayesian model averaging (BMA) (Global Cop-BMA) framework for improving the accuracy and reliability of extreme flood modeling. The proposed framework integrates a collection of precipitation products with different spatiotemporal resolutions to account for uncertainty in forcing data for hydrodynamic modeling and generating probabilistic flood inundation maps. The methodology is evaluated with respect to Hurricane Harvey, which was a catastrophic weather event characterized by intense precipitation and compound flooding processes over the city of Houston in the state of Texas in 2017. The results show a significant improvement in predictive accuracy compared to those based on a single precipitation product (e.g., the Nash\u2013Sutcliffe efficiency (NSE) performance of a single quantitative precipitation estimation (QPE) is in the range of 0.695 to 0.846, while the Cop-BMA yields an NSE of 0.858), demonstrating the merits of the Global Cop-BMA approach. Furthermore, this research extends its impact by generating probabilistic flood extension maps that account not only for the primary influence of precipitation as a flood driver but also for the intricate nature of compound flooding processes in coastal environments.</jats:p>",
+    "DOI": "10.5194/nhess-24-2647-2024",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          2
+        ]
+      ],
+      "date-time": "2024-08-02T03:46:31Z",
+      "timestamp": 1722570391000
+    },
+    "page": "2647-2665",
+    "source": "Crossref",
+    "is-referenced-by-count": 19,
+    "title": [
+      "Probabilistic flood inundation mapping through copula Bayesian multi-modeling of precipitation products"
+    ],
+    "prefix": "10.5194",
+    "volume": "24",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2435-6207",
+        "authenticated-orcid": false,
+        "given": "Francisco Javier",
+        "family": "Gomez",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5840-5551",
+        "authenticated-orcid": false,
+        "given": "Keighobad",
+        "family": "Jafarzadegan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3170-8653",
+        "authenticated-orcid": false,
+        "given": "Hamed",
+        "family": "Moftakhari",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2889-999X",
+        "authenticated-orcid": false,
+        "given": "Hamid",
+        "family": "Moradkhani",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "3145",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          2
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Abbaszadeh, P., Moradkhani, H., and Daescu, D. N.: The Quest for Model Uncertainty Quantification: A Hybrid Ensemble and Variational Data Assimilation Framework, Water Resour. Res., 55, 2407\u20132431, https://doi.org/10.1029/2018WR023629, 2019.",
+        "DOI": "10.1029/2018WR023629"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Abbaszadeh, P., Gavahi, K., Alipour, A., Deb, P., and Moradkhani, H.: Bayesian Multi-modeling of Deep Neural Nets for Probabilistic Crop Yield Prediction, Agr. Forest Meteorol., 314, 108773, https://doi.org/10.1016/j.agrformet.2021.108773, 2022a.",
+        "DOI": "10.1016/j.agrformet.2021.108773"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Abbaszadeh, P., Mu\u00f1oz, D. F., Moftakhari, H., Jafarzadegan, K., and Moradkhani, H.: Perspective on uncertainty quantification and reduction in compound flood modeling and forecasting, iScience, 25, 105201, https://doi.org/10.1016/j.isci.2022.105201, 2022b.",
+        "DOI": "10.1016/j.isci.2022.105201"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alipour, A., Jafarzadegan, K., and Moradkhani, H.: Global sensitivity analysis in hydrodynamic modeling and flood inundation mapping, Environ. Modell. Softw., 152, 105398, https://doi.org/10.1016/j.envsoft.2022.105398, 2022.",
+        "DOI": "10.1016/j.envsoft.2022.105398"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Andreas, E. L., Mahrt, L., and Vickers, D.: A New Drag Relation for Aerodynamically Rough Flow over the Ocean, J. Atmos. Sci., 69, 2520\u20132537, https://doi.org/10.1175/JAS-D-11-0312.1, 2012.",
+        "DOI": "10.1175/JAS-D-11-0312.1"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bates, P. D.: Flood Inundation Prediction, Annu. Rev. Fluid Mech., 54, 287\u2013315, https://doi.org/10.1146/annurev-fluid-030121-113138, 2022.",
+        "DOI": "10.1146/annurev-fluid-030121-113138"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bates, P. D., Horritt, M. S., Aronica, G., and Beven, K.: Bayesian updating of flood inundation likelihoods conditioned on flood extent data, Hydrol. Process., 18, 3347\u20133370, https://doi.org/10.1002/hyp.1499, 2004.",
+        "DOI": "10.1002/hyp.1499"
+      },
+      {
+        "key": "ref8",
+        "unstructured": "Blake, E. and Zelinsky, D.: National Hurricane Center Tropical Cyclone Report Hurricane Harvey, National Hurricane Center, https://www.nhc.noaa.gov/data/tcr/AL092017_Harvey.pdf (last access: 2\u00a0February\u00a02024), 2018."
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Brauer, N. S., Basara, J. B., Homeyer, C. R., McFarquhar, G. M., and Kirstetter, P. E.: Quantifying Precipitation Efficiency and Drivers of Excessive Precipitation in Post-Landfall Hurricane Harvey, J. Hydrometeorol., 21, 433\u2013452, https://doi.org/10.1175/JHM-D-19-0192.1, 2020.",
+        "DOI": "10.1175/JHM-D-19-0192.1"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, F.-W. and Liu, C.-W.: Estimation of the spatial rainfall distribution using inverse distance weighting (IDW) in the middle of Taiwan, Paddy Water Environ., 10, 209\u2013222, https://doi.org/10.1007/s10333-012-0319-1, 2012.",
+        "DOI": "10.1007/s10333-012-0319-1"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, M., Nabih, S., Brauer, N. S., Gao, S., Gourley, J. J., Hong, Z., Kolar, R. L., and Hong, Y.: Can Remote Sensing Technologies Capture the Extreme Precipitation Event and Its Cascading Hydrological Response? A Case Study of Hurricane Harvey Using EF5 Modeling Framework, Remote Sens., 12, 445, https://doi.org/10.3390/rs12030445, 2020.",
+        "DOI": "10.3390/rs12030445"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, M., Li, Z., Gao, S., Luo, X., Wing, O. E. J., Shen, X., Gourley, J. J., Kolar, R. L., and Hong, Y.: A comprehensive flood inundation mapping for Hurricane Harvey using an integrated hydrological and hydraulic model, J. Hydrometeorol., 22, 1713\u20131726, https://doi.org/10.1175/JHM-D-20-0218.1, 2021.",
+        "DOI": "10.1175/JHM-D-20-0218.1"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, M., Li, Z., Gao, S., Xue, M., Gourley, J. J., Kolar, R. L., and Hong, Y.: A flood predictability study for Hurricane Harvey with the CREST-iMAP model using high-resolution quantitative precipitation forecasts and U-Net deep learning precipitation nowcasts, J. Hydrol., 612, 128168, https://doi.org/10.1016/j.jhydrol.2022.128168, 2022.",
+        "DOI": "10.1016/j.jhydrol.2022.128168"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Costabile, P., Costanzo, C., Ferraro, D., Macchione, F., and Petaccia, G.: Performances of the New HEC-RAS Version 5 for 2-D Hydrodynamic-Based Rainfall-Runoff Simulations at Basin Scale: Comparison with a State-of-the Art Model, Water, 12, 2326, https://doi.org/10.3390/w12092326, 2020.",
+        "DOI": "10.3390/w12092326"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "David, A. and Schmalz, B.: A Systematic Analysis of the Interaction between Rain-on-Grid-Simulations and Spatial Resolution in 2D Hydrodynamic Modeling, Water, 13, 2346, https://doi.org/10.3390/w13172346, 2021.",
+        "DOI": "10.3390/w13172346"
+      },
+      {
+        "key": "ref16",
+        "unstructured": "Dewitz, J. and U.S. Geological Survey: National Land Cover Database (NLCD) 2019 Products (ver. 2.0, June 2021), U.S. Geological Survey data release, https://doi.org/10.5066/P9KZCM54, 2021."
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Di Baldassarre, G., Schumann, G., Bates, P. D., Freer, J. E., and Beven, K. J.: Flood-plain mapping: a critical discussion of deterministic and probabilistic approaches, Hydrolog. Sci. J., 55, 364\u2013376, https://doi.org/10.1080/02626661003683389, 2010.",
+        "DOI": "10.1080/02626661003683389"
+      },
+      {
+        "key": "ref18",
+        "unstructured": "Du, J.: NCEP/EMC 4KM Gridded Data (GRIB) Stage IV Data. Version 1.0 (Version 1.0) Hourly precipitation amount, UCAR/NCAR \u2013 Earth Observing Laboratory, https://doi.org/10.5065/D6PG1QDD, 2011."
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Duan, Q., Ajami, N. K., Gao, X., and Sorooshian, S.: Multi-model ensemble hydrologic prediction using Bayesian model averaging, Adv. Water Resour., 30, 1371\u20131386, https://doi.org/10.1016/j.advwatres.2006.11.014, 2007.",
+        "DOI": "10.1016/j.advwatres.2006.11.014"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dullo, T. T., Gangrade, S., Morales-Hern\u00e1ndez, M., Sharif, M. B., Kao, S., Kalyanapu, A. J., Ghafoor, S., and Evans, K. J.: Simulation of Hurricane Harvey flood event through coupled hydrologic-hydraulic models: Challenges and next steps, J. Flood Risk Manag., 14, https://doi.org/10.1111/jfr3.12716, 2021.",
+        "DOI": "10.1111/jfr3.12716"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fagnant, C., Gori, A., Sebastian, A., Bedient, P. B., and Ensor, K. B.: Characterizing spatiotemporal trends in extreme precipitation in Southeast Texas, Nat. Hazards, 104, 1597\u20131621, https://doi.org/10.1007/s11069-020-04235-x, 2020.",
+        "DOI": "10.1007/s11069-020-04235-x"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gao, S., Zhang, J., Li, D., Jiang, H., and Fang, Z. N.: Evaluation of Multiradar Multisensor and Stage IV Quantitative Precipitation Estimates during Hurricane Harvey, Nat. Hazards Rev., 22, 04020057, https://doi.org/10.1061/(ASCE)NH.1527-6996.0000435, 2021.",
+        "DOI": "10.1061/(ASCE)NH.1527-6996.0000435"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Garcia, M., Juan, A., and Bedient, P.: Integrating Reservoir Operations and Flood Modeling with HEC-RAS 2D, Water, 12, 2259, https://doi.org/10.3390/w12082259, 2020.",
+        "DOI": "10.3390/w12082259"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gavahi, K., Foroumandi, E., and Moradkhani, H.: A deep learning-based framework for multi-source precipitation fusion, Remote Sens. Environ., 295, 113723, https://doi.org/10.1016/j.rse.2023.113723, 2023.",
+        "DOI": "10.1016/j.rse.2023.113723"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gr\u00f8nneberg, S. and Hjort, N. L.: The Copula Information Criteria, Scandinavian J. Statistics, 41, 436\u2013459, https://doi.org/10.1111/sjos.12042, 2014.",
+        "DOI": "10.1111/sjos.12042"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Habibi, H., Awal, R., Fares, A., and Temimi, M.: Performance of Multi-Radar Multi-Sensor (MRMS) product in monitoring precipitation under extreme events in Harris County, Texas, J. Hydrol., 598, 126385, https://doi.org/10.1016/j.jhydrol.2021.126385, 2021.",
+        "DOI": "10.1016/j.jhydrol.2021.126385"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Han, S. and Coulibaly, P.: Bayesian flood forecasting methods: A review, J. Hydrol., 551, 340\u2013351, https://doi.org/10.1016/j.jhydrol.2017.06.004, 2017.",
+        "DOI": "10.1016/j.jhydrol.2017.06.004"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, S., Guo, S., Liu, Z., Yin, J., Chen, K., and Wu, X.: Uncertainty analysis of hydrological multi-model ensembles based on CBP-BMA method, Hydrol. Res., 49, 1636\u20131651, https://doi.org/10.2166/nh.2018.160, 2018.",
+        "DOI": "10.2166/nh.2018.160"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hofert, M., Kojadinovic, I., Maechler, M., and Yan, J.: copula: Multivariate Dependence with Copulas, https://doi.org/10.32614/CRAN.package.copula, 2023.",
+        "DOI": "10.32614/CRAN.package.copula"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, T. and Merwade, V.: Uncertainty Analysis and Quantification in Flood Insurance Rate Maps Using Bayesian Model Averaging and Hierarchical BMA, J. Hydrol. Eng., 28, 04022038, https://doi.org/10.1061/JHYEFF.HEENG-5851, 2023.",
+        "DOI": "10.1061/JHYEFF.HEENG-5851"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, W., Ye, F., Zhang, Y. J., Park, K., Du, J., Moghimi, S., Myers, E., Pe'eri, S., Calzada, J. R., Yu, H. C., Nunez, K., and Liu, Z.: Compounding factors for extreme flooding around Galveston Bay during Hurricane Harvey, Ocean Modell., 158, 101735, https://doi.org/10.1016/j.ocemod.2020.101735, 2021.",
+        "DOI": "10.1016/j.ocemod.2020.101735"
+      },
+      {
+        "key": "ref32",
+        "unstructured": "Huffman, G. J., Stocker, E. F., Bolvin, D. T., Nelkin, E. J., and Tan, J.: GPM IMERG Final Precipitation L3 Half Hourly 0.1 degree x 0.1 degree V06, Greenbelt, MD, Goddard Earth Sciences Data and Information Services Center (GES DISC), https://doi.org/10.5067/gpm/imerg/3b-hh/07, 2019."
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jafarzadegan, K., Merwade, V., and Moradkhani, H.: Combining clustering and classification for the regionalization of environmental model parameters: Application to floodplain mapping in data-scarce regions, Environ. Modell. Softw., 125, 104613, https://doi.org/10.1016/j.envsoft.2019.104613, 2020.",
+        "DOI": "10.1016/j.envsoft.2019.104613"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jafarzadegan, K., Abbaszadeh, P., and Moradkhani, H.: Sequential data assimilation for real-time probabilistic flood inundation mapping, Hydrol. Earth Syst. Sci., 25, 4995\u20135011, https://doi.org/10.5194/hess-25-4995-2021, 2021a.",
+        "DOI": "10.5194/hess-25-4995-2021"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jafarzadegan, K., Alipour, A., Gavahi, K., Moftakhari, H., and Moradkhani, H.: Toward improved river boundary conditioning for simulation of extreme floods, Adv. Water Resour., 158, 104059, https://doi.org/10.1016/j.advwatres.2021.104059, 2021b.",
+        "DOI": "10.1016/j.advwatres.2021.104059"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jafarzadegan, K., Moradkhani, H., Pappenberger, F., Moftakhari, H., Bates, P., Abbaszadeh, P., Marsooli, R., Ferreira, C., Cloke, H. L., Ogden, F., and Duan, Q.: Recent Advances and New Frontiers in Riverine and Coastal Flood Modeling, Rev. Geophys., 61, e2022RG000788, https://doi.org/10.1029/2022RG000788, 2023.",
+        "DOI": "10.1029/2022RG000788"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jiang, H., Zhang, J., Liu, Y., Li, J., and Fang, Z. N.: Does flooding get worse with subsiding land? Investigating the impacts of land subsidence on flood inundation from Hurricane Harvey, Sci. Total Environ., 865, 161072, https://doi.org/10.1016/j.scitotenv.2022.161072, 2023.",
+        "DOI": "10.1016/j.scitotenv.2022.161072"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Juan, A., Gori, A., and Sebastian, A.: Comparing floodplain evolution in channelized and unchannelized urban watersheds in Houston, Texas, J. Flood Risk Manage., 13, e12604, https://doi.org/10.1111/jfr3.12604, 2020.",
+        "DOI": "10.1111/jfr3.12604"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kling, H., Fuchs, M., and Paulin, M.: Runoff conditions in the upper Danube basin under an ensemble of climate change scenarios, J. Hydrol., 424\u2013425, 264\u2013277, https://doi.org/10.1016/j.jhydrol.2012.01.011, 2012.",
+        "DOI": "10.1016/j.jhydrol.2012.01.011"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, Z. and Merwade, V.: Accounting for model structure, parameter and input forcing uncertainty in flood inundation modeling using Bayesian model averaging, J. Hydrol., 565, 138\u2013149, https://doi.org/10.1016/j.jhydrol.2018.08.009, 2018.",
+        "DOI": "10.1016/j.jhydrol.2018.08.009"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, Z. and Merwade, V.: Separation and prioritization of uncertainty sources in a raster based flood inundation model using hierarchical Bayesian model averaging, J. Hydrol., 578, 124100, https://doi.org/10.1016/j.jhydrol.2019.124100, 2019.",
+        "DOI": "10.1016/j.jhydrol.2019.124100"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, Z., Merwade, V., and Jafarzadegan, K.: Investigating the role of model structure and surface roughness in generating flood inundation extents using one- and two-dimensional hydraulic models, J. Flood Risk Manage., 12, e12347, https://doi.org/10.1111/jfr3.12347, 2019.",
+        "DOI": "10.1111/jfr3.12347"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Madadgar, S. and Moradkhani, H.: Improved Bayesian multimodeling: Integration of copulas and Bayesian model averaging, Water Resour. Res., 50, 9586\u20139603, https://doi.org/10.1002/2014WR015965, 2014.",
+        "DOI": "10.1002/2014WR015965"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Merwade, V., Olivera, F., Arabi, M., and Edleman, S.: Uncertainty in Flood Inundation Mapping: Current Issues and Future Directions, J. Hydrol. Eng., 13, 608\u2013620, https://doi.org/10.1061/(ASCE)1084-0699(2008)13:7(608), 2008.",
+        "DOI": "10.1061/(ASCE)1084-0699(2008)13:7(608)"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Moftakhari, H., AghaKouchak, A., Sanders, B. F., Matthew, R. A., and Mazdiyasni, O.: Translating Uncertain Sea Level Projections Into Infrastructure Impacts Using a Bayesian Framework, Geophys. Res. Lett., 44, 914\u2013921, https://doi.org/10.1002/2017GL076116, 2017.",
+        "DOI": "10.1002/2017GL076116"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mu\u00f1oz, D. F., Abbaszadeh, P., Moftakhari, H., and Moradkhani, H.: Accounting for uncertainties in compound flood hazard assessment: The value of data assimilation, Coast. Eng., 171, 104057, https://doi.org/10.1016/j.coastaleng.2021.104057, 2022.",
+        "DOI": "10.1016/j.coastaleng.2021.104057"
+      },
+      {
+        "key": "ref47",
+        "unstructured": "Mu\u00f1oz Sabater, J.: ERA5-Land hourly data from 1950 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS), https://doi.org/10.24381/cds.e2161bac, 2019."
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nash, J. E. and Sutcliffe, J. V.: River flow forecasting through conceptual models part I \u2013 A discussion of principles, J. Hydrol., 10, 282\u2013290, https://doi.org/10.1016/0022-1694(70)90255-6, 1970.",
+        "DOI": "10.1016/0022-1694(70)90255-6"
+      },
+      {
+        "key": "ref49",
+        "unstructured": "National Centers for Environmental Information: Cooperative Institute for Research in Environmental Sciences (CIRES) at the University of Colorado, Boulder, 2014: Continuously Updated Digital Elevation Model (CUDEM) \u2013 1/9 Arc-Second Resolution Bathymetric-Topographic Tiles, Elevation Values, https://doi.org/10.25921/ds9v-ky35, 2014."
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nelson, B. R., Prat, O. P., Seo, D.-J., and Habib, E.: Assessment and Implications of NCEP Stage IV Quantitative Precipitation Estimates for Product Intercomparisons, Weather Forecast., 31, 371\u2013394, https://doi.org/10.1175/WAF-D-14-00112.1, 2016.",
+        "DOI": "10.1175/WAF-D-14-00112.1"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Noh, S., Lee, J.-H., Lee, S., and Seo, D.-J.: Retrospective Dynamic Inundation Mapping of Hurricane Harvey Flooding in the Houston Metropolitan Area Using High-Resolution Modeling and High-Performance Computing, Water, 11, 597, https://doi.org/10.3390/w11030597, 2019.",
+        "DOI": "10.3390/w11030597"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Omranian, E., Sharif, H., and Tavakoly, A.: How Well Can Global Precipitation Measurement (GPM) Capture Hurricanes? Case Study: Hurricane Harvey, Remote Sens., 10, 1150, https://doi.org/10.3390/rs10071150, 2018.",
+        "DOI": "10.3390/rs10071150"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Oruc Baci, N., Jafarzadegan, K., and Hamid, M.: Improving flood inundation modeling skill: interconnection between model parameters and boundary conditions, Modeling Earth Systems and Environment, 10, 1\u201315, https://doi.org/10.1007/s40808-023-01768-5, 2023.",
+        "DOI": "10.1007/s40808-023-01768-5"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Parrish, M. A., Moradkhani, H., and DeChant, C. M.: Toward reduction of model uncertainty: Integration of Bayesian model averaging and data assimilation, Water Resour. Res., 48, 1\u201318, https://doi.org/10.1029/2011WR011116, 2012.",
+        "DOI": "10.1029/2011WR011116"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Raftery, A. E., Gneiting, T., Balabdaoui, F., and Polakowski, M.: Using Bayesian Model Averaging to Calibrate Forecast Ensembles, Mon. Weather Rev., 133, 1155\u20131174, https://doi.org/10.1175/MWR2906.1, 2005.",
+        "DOI": "10.1175/MWR2906.1"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Saksena, S., Dey, S., Merwade, V., and Singhofen, P. J.: A Computationally Efficient and Physically Based Approach for Urban Flood Modeling Using a Flexible Spatiotemporal Structure, Water Resour. Res., 56, 1\u201322, https://doi.org/10.1029/2019WR025769, 2020.",
+        "DOI": "10.1029/2019WR025769"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Savage, J. T. S., Bates, P., Freer, J., Neal, J., and Aronica, G.: When does spatial resolution become spurious in probabilistic flood inundation predictions?: When Spatial Resolution Becomes Spurious in Probabilistic Flood Maps, Hydrol. Process., 30, 2014\u20132032, https://doi.org/10.1002/hyp.10749, 2016.",
+        "DOI": "10.1002/hyp.10749"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Schubert, J. E., Luke, A., AghaKouchak, A., and Sanders, B. F.: A Framework for Mechanistic Flood Inundation Forecasting at the Metropolitan Scale, Water Resour. Res., 58, e2021WR031279, https://doi.org/10.1029/2021WR031279, 2022.",
+        "DOI": "10.1029/2021WR031279"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Scotti, V., Giannini, M., and Cioffi, F.: Enhanced flood mapping using synthetic aperture radar (SAR) images, hydraulic modelling, and social media: A case study of Hurricane Harvey (Houston, TX), J. Flood Risk Manage., 13, 1\u201318, https://doi.org/10.1111/jfr3.12647, 2020.",
+        "DOI": "10.1111/jfr3.12647"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sebastian, A., Bader, D. J., Nederhoff, C. M., Leijnse, T. W. B., Bricker, J. D., and Aarninkhof, S. G. J.: Hindcast of pluvial, fluvial, and coastal flood damage in Houston, Texas during Hurricane Harvey (2017) using SFINCS, Nat. Hazards, 109, 2343\u20132362, https://doi.org/10.1007/s11069-021-04922-3, 2021.",
+        "DOI": "10.1007/s11069-021-04922-3"
+      },
+      {
+        "key": "ref61",
+        "unstructured": "Sklar, M.: Fonctions de r\u00e9partition \u00e0 N dimensions et leurs marges, Annales de l'ISUP, 8, 229\u2013231, 1959."
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stephens, T. A., Savant, G., Sanborn, S. C., Wallen, C. M., and Roy, S.: Monolithic Multiphysics Simulation of Compound Flooding, J. Hydraul. Eng., 148, 05022003, https://doi.org/10.1061/(ASCE)HY.1943-7900.0002000, 2022.",
+        "DOI": "10.1061/(ASCE)HY.1943-7900.0002000"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Teng, J., Jakeman, A. J., Vaze, J., Croke, B. F. W., Dutta, D., and Kim, S.: Flood inundation modelling: A review of methods, recent advances and uncertainty analysis, Environ. Modell. Softw., 90, 201\u2013216, https://doi.org/10.1016/j.envsoft.2017.01.006, 2017.",
+        "DOI": "10.1016/j.envsoft.2017.01.006"
+      },
+      {
+        "key": "ref64",
+        "unstructured": "Thornton, M. M., Shrestha, R., Wei, Y., Thornton, P. E., Kao, S.-C., and Wilson, B. E.: Daymet: Daily Surface Weather Data on a 1-km Grid for North America, Version 4 R1, https://doi.org/10.3334/ORNLDAAC/2129, 2022."
+      },
+      {
+        "key": "ref65",
+        "unstructured": "U.S. Geological Survey: National Water Information System data available on the World Wide Web (USGS Water Data for the Nation), https://doi.org/10.5066/F7P55KJN, 2016."
+      },
+      {
+        "key": "ref66",
+        "unstructured": "USACE: HEC-RAS River Analysis System, Version 6.3.1, Hydrologic Engineering Center, https://www.hec.usace.army.mil/software/hec-ras/ (last access: 15\u00a0December\u00a02022), 2022."
+      },
+      {
+        "key": "ref67",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Valle-Levinson, A., Olabarrieta, M., and Heilman, L.: Compound flooding in Houston-Galveston Bay during Hurricane Harvey, Sci. Total Environ., 747, 141272, https://doi.org/10.1016/j.scitotenv.2020.141272, 2020.",
+        "DOI": "10.1016/j.scitotenv.2020.141272"
+      },
+      {
+        "key": "ref68",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, S.-Y. S., Zhao, L., Yoon, J.-H., Klotzbach, P., and Gillies, R. R.: Quantitative attribution of climate effects on Hurricane Harvey's extreme rainfall in Texas, Environ. Res. Lett., 13, 054014, https://doi.org/10.1088/1748-9326/aabb85, 2018.",
+        "DOI": "10.1088/1748-9326/aabb85"
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wing, O. E. J., Sampson, C. C., Bates, P. D., Quinn, N., Smith, A. M., and Neal, J. C.: A flood inundation forecast of Hurricane Harvey using a continental-scale 2D hydrodynamic model, J. Hydrol. X, 4, 100039, https://doi.org/10.1016/j.hydroa.2019.100039, 2019.",
+        "DOI": "10.1016/j.hydroa.2019.100039"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wootten, A. and Boyles, R. P.: Comparison of NCEP Multisensor Precipitation Estimates with Independent Gauge Data over the Eastern United States, J. Appl. Meteorol. Clim., 53, 2848\u20132862, https://doi.org/10.1175/JAMC-D-14-0034.1, 2014.",
+        "DOI": "10.1175/JAMC-D-14-0034.1"
+      },
+      {
+        "key": "ref71",
+        "unstructured": "Xia, Y., Mitchell, K., Ek, M., Sheffield, J., Cosgrove, B., Wood, E., Luo, L., Alonge, C., Wei, H., Meng, J., Livneh, B., Lettenmaier, D., Koren, V., Duan, Q., Mo, K., Fan, Y., and Mocko, D.: NLDAS Primary Forcing Data L4 Hourly 0.125\u2009\u00d7\u20090.125 degrees V002, Edited by David Mocko, NASA/GSFC/HSL, Greenbelt, Maryland, USA, Goddard Earth Sciences Data and Information Services Center (GES DISC), https://doi.org/10.5067/6J5LHHOHZHN4, 2009."
+      },
+      {
+        "key": "ref72",
+        "unstructured": "Xie, P., Joyce, R., Wu, S., Yoo, S.-H., Yarosh, Y., Sun, F., Lin, R., and NOAA CDR Program: NOAA Climate Data Record (CDR) of CPC Morphing Technique (CMORPH) High Resolution Global Precipitation Estimates, Version 1 [Precipitation], NOAA National Centers for Environmental Information, https://doi.org/10.25921/w9va-q159, 2019."
+      },
+      {
+        "key": "ref73",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yan, Z., Zhou, Z., Liu, J., Han, Z., Gao, G., and Jiang, X.: Ensemble Projection of Runoff in a Large-Scale Basin: Modeling With a Global BMA Approach, Water Resour. Res., 56, 1\u201317, https://doi.org/10.1029/2019WR026134, 2020.",
+        "DOI": "10.1029/2019WR026134"
+      },
+      {
+        "key": "ref74",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zeiger, S. J. and Hubbart, J. A.: Measuring and modeling event-based environmental flows: An assessment of HEC-RAS 2D rain-on-grid simulations, J. Environ. Manage., 285, 112125, https://doi.org/10.1016/j.jenvman.2021.112125, 2021.",
+        "DOI": "10.1016/j.jenvman.2021.112125"
+      },
+      {
+        "key": "ref75",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, J., Howard, K., Langston, C., Kaney, B., Qi, Y., Tang, L., Grams, H., Wang, Y., Cocks, S., Martinaitis, S., Arthur, A., Cooper, K., Brogden, J., and Kitzmiller, D.: Multi-Radar Multi-Sensor (MRMS) Quantitative Precipitation Estimation: Initial Operating Capabilities, B. Am. Meteorol. Soc., 97, 621\u2013638, https://doi.org/10.1175/BAMS-D-14-00174.1, 2016.",
+        "DOI": "10.1175/BAMS-D-14-00174.1"
+      }
+    ],
+    "container-title": [
+      "Natural Hazards and Earth System Sciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://nhess.copernicus.org/articles/24/2647/2024/nhess-24-2647-2024.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          22
+        ]
+      ],
+      "date-time": "2025-01-22T10:47:38Z",
+      "timestamp": 1737542858000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://nhess.copernicus.org/articles/24/2647/2024/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          2
+        ]
+      ]
+    },
+    "references-count": 75,
+    "journal-issue": {
+      "issue": "8",
+      "published-online": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.5194/nhess-24-2647-2024",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/nhess-2024-26",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/nhess-2024-26",
+          "asserted-by": "object"
+        }
+      ],
+      "has-review": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/nhess-2024-26-RC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/nhess-2024-26-AC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/nhess-2024-26-RC2",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/nhess-2024-26-AC2",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/nhess-2024-26-AC2",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/nhess-2024-26-AC1",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/nhess-2024-26-RC2",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/nhess-2024-26-RC1",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "ISSN": [
+      "1684-9981"
+    ],
+    "issn-type": [
+      {
+        "value": "1684-9981",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          2
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.5194/nhess-24-2647-2024",
+  "original_doi": "10.5194/nhess-24-2647-2024"
+}

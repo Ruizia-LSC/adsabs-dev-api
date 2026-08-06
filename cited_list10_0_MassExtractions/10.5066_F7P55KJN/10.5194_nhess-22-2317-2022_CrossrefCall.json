@@ -1,0 +1,1054 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          15
+        ]
+      ],
+      "date-time": "2026-04-15T02:01:19Z",
+      "timestamp": 1776218479762,
+      "version": "3.50.1"
+    },
+    "reference-count": 119,
+    "publisher": "Copernicus GmbH",
+    "issue": "7",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              27
+            ]
+          ],
+          "date-time": "2022-07-27T00:00:00Z",
+          "timestamp": 1658880000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "1848683"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "1848683"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Nat. Hazards Earth Syst. Sci."
+    ],
+    "abstract": "<jats:p>Abstract. In steep wildfire-burned terrains, intense rainfall can produce large runoff that can trigger highly destructive debris flows. However, the ability\nto accurately characterize and forecast debris flow susceptibility in burned terrains using physics-based tools remains limited. Here, we augment\nthe Weather Research and Forecasting Hydrological modeling system (WRF-Hydro) to simulate both overland and channelized flows and assess postfire\ndebris flow susceptibility over a regional domain. We perform hindcast simulations using high-resolution weather-radar-derived precipitation and\nreanalysis data to drive non-burned baseline and burn scar sensitivity experiments. Our simulations focus on January 2021 when an atmospheric river\ntriggered numerous debris flows within a wildfire burn scar in Big Sur\u00a0\u2013 one of which destroyed California's famous Highway\u00a01. Compared to the\nbaseline, our burn scar simulation yields dramatic increases in total and peak discharge and shorter lags between rainfall onset and peak\ndischarge, consistent with streamflow observations at nearby US Geological Survey (USGS) streamflow gage sites. For the 404\u00a0catchments located in\nthe simulated burn scar area, median catchment-area-normalized peak discharge increases by \u223c\u2009450\u2009% compared to the baseline. Catchments\nwith anomalously high catchment-area-normalized peak discharge correspond well with post-event field-based and remotely sensed debris flow\nobservations. We suggest that our regional postfire debris flow susceptibility analysis demonstrates WRF-Hydro as a compelling new physics-based\ntool whose utility could be further extended via coupling to sediment erosion and transport models and/or ensemble-based operational weather\nforecasts. Given the high-fidelity performance of our augmented version of WRF-Hydro, as well as its potential usage in probabilistic hazard\nforecasts, we argue for its continued development and application in postfire hydrologic and natural hazard assessments.</jats:p>",
+    "DOI": "10.5194/nhess-22-2317-2022",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          27
+        ]
+      ],
+      "date-time": "2022-07-27T07:59:28Z",
+      "timestamp": 1658908768000
+    },
+    "page": "2317-2345",
+    "source": "Crossref",
+    "is-referenced-by-count": 20,
+    "title": [
+      "Augmentation of WRF-Hydro to simulate overland-flow- and streamflow-generated debris flow susceptibility in burn scars"
+    ],
+    "prefix": "10.5194",
+    "volume": "22",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7759-0377",
+        "authenticated-orcid": false,
+        "given": "Chuxuan",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9235-3871",
+        "authenticated-orcid": false,
+        "given": "Alexander L.",
+        "family": "Handwerger",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jiali",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Wei",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Xiang",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8505-6526",
+        "authenticated-orcid": false,
+        "given": "Noah J.",
+        "family": "Finnegan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yingying",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Giuseppe",
+        "family": "Buscarnera",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2065-4517",
+        "authenticated-orcid": false,
+        "given": "Daniel E.",
+        "family": "Horton",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "3145",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          27
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alfieri, L., Salamon, P., Pappenberger, F., Wetterhall, F., and Thielen, J.:\nOperational early warning systems for water-related hazards in Europe, Environ. Sci. Policy, 21, 35\u201349, https://doi.org/10.1016/j.envsci.2012.01.008, 2012.",
+        "DOI": "10.1016/j.envsci.2012.01.008"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Andersson, J. C. M., Arheimer, B., Traor\u00e9, F., Gustafsson, D., and Ali, A.:\nProcess refinements improve a hydrological model concept applied to the Niger River basin, Hydrol. Process., 31, 4540\u20134554, https://doi.org/10.1002/hyp.11376, 2017.",
+        "DOI": "10.1002/hyp.11376"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Anagnostou, M. N., Kalogiros, J., Anagnostou, E. N., Tarolli, M., Papadopoulos, A., and Borga, M: Performance evaluation of high-resolution rainfall estimation by X-band dual-polarization radar for flash flood applications in mountainous basins, J. Hydrol., 394, 4\u201316, https://doi.org/10.1016/j.jhydrol.2010.06.026, 2010.",
+        "DOI": "10.1016/j.jhydrol.2010.06.026"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Arattano, M. and Franzi, L.:\nOn the application of kinematic models to simulate the diffusive processes of debris flows, Nat. Hazards Earth Syst. Sci., 10, 1689\u20131695, https://doi.org/10.5194/nhess-10-1689-2010, 2010.",
+        "DOI": "10.5194/nhess-10-1689-2010"
+      },
+      {
+        "key": "ref5",
+        "unstructured": "Brabb, E. E.: Innovative approaches to landslide hazard and risk mapping, in: International Landslide Symposium Proceedings, Toronto, Canada, 16\u201321, https://pubs.er.usgs.gov/publication/70197529\n(last access: 27\u00a0June\u00a02021), 1984."
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Brown, E. K., Wang, J., and Feng, Y.:\nU. S. wildfire potential: a historical view and future projection using high-resolution climate data, Environ. Res. Lett., 16, 034060, https://doi.org/10.1088/1748-9326/aba868, 2020.",
+        "DOI": "10.1088/1748-9326/aba868"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Brunkal, H. and Santi, P. M.:\nExploration of design parameters for a dewatering structure for debris flow mitigation, Eng. Geol., 208, 81\u201392, https://doi.org/10.1016/j.enggeo.2016.04.011, 2016.",
+        "DOI": "10.1016/j.enggeo.2016.04.011"
+      },
+      {
+        "key": "ref8",
+        "unstructured": "Burned Area Emergency Response: Dolan Postfire BAER Soil Burn Severity Map Release, U.S. Forest Service, https://inciweb.nwcg.gov/incident/7231/ (last access: 27\u00a0November\u00a02021), 2020."
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bytheway, J. L., Hughes, M., Mahoney, K., and Cifelli, R.:\nOn the Uncertainty of High-Resolution Hourly Quantitative Precipitation Estimates in California, J. Hydrometeorol., 21, 865\u2013879, https://journals.ametsoc.org/view/journals/hydr/21/5/jhm-d-19-0160.1.xml (last access: 27\u00a0November\u00a02021), 2020.",
+        "DOI": "10.1175/JHM-D-19-0160.1"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Canli, E., Mergili, M., Thiebes, B., and Glade, T.:\nProbabilistic landslide ensemble prediction systems: lessons to be learned from hydrology, Nat. Hazards Earth Syst. Sci., 18, 2183\u20132202, https://doi.org/10.5194/nhess-18-2183-2018, 2018.",
+        "DOI": "10.5194/nhess-18-2183-2018"
+      },
+      {
+        "key": "ref11",
+        "unstructured": "Cannon, S. H., Gartner, J. E., Parrett, C., and Parise, M.:\nWildfire-related debris-flow generation through episodic progressive sediment-bulking processes, western USA, in: Debris-Flow Hazards Mitigation: Mechanics, Prediction, and Assessment, edited by: Rickenmann, D. and Chen, C. L., Davos, Switzerland, 10\u201312 September\u00a02003, Millpress, Rotterdam, 71\u201382, 2003."
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cannon, S. H., Gartner, J., Wilson, R., Bowers, J., and Laber, J.:\nStorm Rainfall Conditions for Floods and Debris Flows from Recently Burned Basins in Southwestern Colorado and Southern California, Geomorphology, 96, 250\u2013269, https://doi.org/10.1016/j.geomorph.2007.03.019, 2008.",
+        "DOI": "10.1016/j.geomorph.2007.03.019"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cannon, S. H., Gartner, J. E., Rupert, M. G., Michael, J. A., Rea, A. H., and Parrett, C.:\nPredicting the probability and volume of postwildfire debris flows in the intermountain western United States, Geol. Soc. Am. Bull., 122, 127\u2013144, https://doi.org/10.1130/B26459.1, 2010.",
+        "DOI": "10.1130/B26459.1"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cannon, S. H., Boldt, E. M., Laber, J. L., Kean, J. W., and Staley, D. M.: Rainfall intensity\u2013duration thresholds for postfire debris flow emergency-response planning, Nat. Hazards, 59, 209\u2013236, https://doi.org/10.1007/s11069-011-9747-2, 2011.",
+        "DOI": "10.1007/s11069-011-9747-2"
+      },
+      {
+        "key": "ref15",
+        "unstructured": "Cavagnaro, D., Delgado, N., East, A. E., Finnegan, N. J., Kostelnik, J., Lindsay, D., McCoy, S. W., Suter, I., Thomas, M. A., and Winner, A.:\nVariability in hydrologic response to rainfall across a burn scar: observations from the Dolan Fire, California, in: AGU Fall Meeting 2021, New Orleans, Louisiana, USA, 12\u201317\u00a0December\u00a02021, H55W-1005 2021."
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, F. and Dudhia, J.:\nCoupling an advanced land surface\u2013hydrology model with the Penn State\u2013NCAR MM5 modeling system. Part\u00a0I: Model implementation and sensitivity, Mon. Weather Rev., 129, 569\u2013585, https://doi.org/10.1175/1520-0493(2001)129&amp;lt;0569:CAALSH&amp;gt;2.0.CO;2, 2001.",
+        "DOI": "10.1175/1520-0493(2001)129<0569:CAALSH>2.0.CO;2"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, L., Berli, M., and Chief, K.:\nExamining Modeling Approaches for the Rainfall-Runoff Process in Wildfire-Affected Watersheds: Using San Dimas Experimental Forest, J. Am. Water Resour. As., 49, 851\u2013866, https://doi.org/10.1111/jawr.12043, 2013.",
+        "DOI": "10.1111/jawr.12043"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Claessens, L., Schoorl, J. M., and Veldkamp, A.:\nModelling the location of shallow landslides and their effects on landscape dynamics in large watersheds: An application for Northern New Zealand, Geomorphology, 87, 16\u201327, https://doi.org/10.1016/j.geomorph.2006.06.039, 2007.",
+        "DOI": "10.1016/j.geomorph.2006.06.039"
+      },
+      {
+        "key": "ref19",
+        "unstructured": "Coe, J., Godt, J., Parise, M., and Moscariello, A.:\nEstimating debris flow probability using fan stratigraphy, historic records, and drainage-basin morphology, Interstate 70 highway corridor, central Colorado, USA, Paper presented at the Debris flow Hazards Mitigation: Mechanics, Prediction, and Assessment, edited by: Rickenmann, D. and Cheng, Ch., Proceedings 3rd International DFHM Conference, Davos, Switzerland, 10\u201312\u00a0September\u00a02003, 2, 1085\u20131096, 2003."
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Coe, J. A., Kinner, D. A., and Godt, J. W. J. G.:\nInitiation conditions for debris flows generated by runoff at Chalk Cliffs, central Colorado, Geomorphology, 96, 270\u2013297, https://doi.org/10.1016/j.geomorph.2007.03.017, 2008.",
+        "DOI": "10.1016/j.geomorph.2007.03.017"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Collow, A. B. M., Mersiovsky, H., Bosilovich, M. G.:\nLarge-Scale Influences on Atmospheric River\u2013Induced Extreme Precipitation Events along the Coast of Washington State, J. Hydrometeorol., 21, 2139\u20132156, https://doi.org/10.1175/JHM-D-19-0272.1, 2020.",
+        "DOI": "10.1175/JHM-D-19-0272.1"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cosby, B. J., Hornberger, G. M., Clapp, R. B., and Ginn, T. R.:\nA Statistical Exploration of the Relationships of Soil Moisture Characteristics to the Physical Properties of Soils, Water Resour. Res., 20, 682\u2013690, https://doi.org/10.1029/WR020i006p00682, 1984.",
+        "DOI": "10.1029/WR020i006p00682"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cydzik, K. and Hogue, T. S.:\nModeling postfire response and recovery using the hydrologic engineering center hydrologic modeling system (HEC-HMS), J. Am. Water Resour. As., 45, 702\u2013714, https://doi.org/10.1111/j.1752-1688.2009.00317.x, 2009.",
+        "DOI": "10.1111/j.1752-1688.2009.00317.x"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Daly, C., Slater, M. E., Roberti, J. A., Laseter, S. H., and Swift Jr., L. W.:\nHigh-resolution precipitation mapping in a mountainous watershed; Ground truth for evaluating uncertainty in a national precipitation dataset, Int. J. Climatol., 37, 124\u2013137, https://doi.org/10.1002/joc.4986, 2017.",
+        "DOI": "10.1002/joc.4986"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Deser, C., Lehner, F., Rodgers, K. B., Ault, T., Delworth, T. L., DiNezio, P. N., Fiore, A., Frankignoul, C. , Fyfe, J. C., Horton, D. E., Kay, J. E., Knutti, R., Lovenduski, N. S., Marotzke, J., McKinnon, K. A., Minobe, S., Randerson, J., Screen, J. A., Simpson, I. R., and Ting, M.:\nInsights from Earth system model initial-condition large ensembles and future prospects, Nat. Clim. Change, 10, 277\u2013286, https://doi.org/10.1038/s41558-020-0731-2, 2020. Di Cristo, C., Iervolino, M., Moramarco, T., and Vacca, A.:\nApplicability of Diffusive model for mud-flows: An unsteady analysis, J. Hydrol., 600, 126512, https://doi.org/10.1016/j.jhydrol.2021.126512, 2021.",
+        "DOI": "10.1038/s41558-020-0731-2"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Eldardiry, H., Mahmood, A., Chen, X., Hossain, F., Nijssen, B., Lettenmaier, D. P.:\nAtmospheric River\u2013Induced Precipitation and Snowpack during the Western United States Cold Season, J. Hydrometeorol., 20, 613\u2013630, https://doi.org/10.1175/JHM-D-18-0228.1, 2019.",
+        "DOI": "10.1175/JHM-D-18-0228.1"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Friedel, M. J.:\nA data-driven approach for modeling post-fire debris-flow volumes and their uncertainty, Environ. Modell. Softw., 26, 1583\u20131598, https://doi.org/10.1016/j.envsoft.2011.07.014, 2011a.",
+        "DOI": "10.1016/j.envsoft.2011.07.014"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Friedel, M. J.:\nModeling hydrologic and geomorphic hazards across post-fire landscapes using a self-organizing map approach, Environ. Modell. Softw., 26, 1660\u20131674, https://doi.org/10.1016/j.envsoft.2011.07.001, 2011b.",
+        "DOI": "10.1016/j.envsoft.2011.07.001"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gartner, J. E., Cannon, S. H., and Santi, P. M.:\nEmpirical models for predicting volumes of sediment deposited by debris flows and sediment-laden floods in the transverse ranges of southern California, Eng. Geol., 176, 45\u201356, https://doi.org/10.1016/j.enggeo.2014.04.008, 2014.",
+        "DOI": "10.1016/j.enggeo.2014.04.008"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "George, D. L. and Iverson, R. M.:\nA depth-averaged debris flow model that includes the effects of evolving dilatancy. II.\u00a0Numerical predictions and experimental tests, P. Roy. Soc. A-Math. Phy., 470, 20130820. https://doi.org/10.1098/rspa.2013.0820, 2014.",
+        "DOI": "10.1098/rspa.2013.0820"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Germann, U., Galli, G., Boscacci, M., and Bolliger, M.:\nRadar Precipitation Measurement in a Mountainous Region, Q. J. Roy. Meteor. Soc., 132, 1669\u20131692, https://doi.org/10.1256/qj.05.190, 2007.",
+        "DOI": "10.1256/qj.05.190"
+      },
+      {
+        "key": "ref32",
+        "unstructured": "Gochis, D. J. and Chen, F.:\nHydrological Enhancements to the Community Noah Land Surface Model (No. NCAR/TN-454+STR), University Corporation for Atmospheric Research, NCAR, technical report, https://doi.org/10.5065/D60P0X00, 2003."
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Goodrich, D., Burns, I., Unkrich, C., Semmens, D., Guertin, D., Hernandez, M., Yatheendradas, S., Kennedy, J. R., and Levick, L.:\nKINEROS2/AGWA: model use, calibration, and validation, T. ASABE, 55, 1561\u20131574, https://doi.org/10.13031/2013.42264, 2012.",
+        "DOI": "10.13031/2013.42264"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Goss, M., Swain, D. L., Abatzoglou, J. T., Sarhadi, A., Kolden, C. A., Williams, A. P., and Diffenbaugh, N. S.:\nClimate change is increasing the likelihood of extreme autumn wildfire conditions across California, Environ. Res. Lett., 15, 094016, https://doi.org/10.1088/1748-9326/ab83a7, 2020.",
+        "DOI": "10.1088/1748-9326/ab83a7"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gregoretti, C. and Dalla Fontana, G.:\nThe triggering of debris flow due to channel-bed failure in some alpine headwater basins of the Dolomites: analyses of critical runoff, Hydrol. Process., 22, 2248\u20132263, https://doi.org/10.1002/hyp.6821, 2008.",
+        "DOI": "10.1002/hyp.6821"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gupta, H. V., Kling, H., Yilmaz, K. K., and Martinez, G. F.:\nDecomposition of the mean squared error and NSE performance criteria: Implications for improving hydrological modelling, J. Hydrol., 377, 80\u201391. https://doi.org/10.1016/j.jhydrol.2009.08.003, 2009.",
+        "DOI": "10.1016/j.jhydrol.2009.08.003"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guzzetti, F., Reichenbach, P., Cardinali, M., Galli, M., and Ardizzone, F. J. G.:\nProbabilistic landslide hazard assessment at the basin scale, Geomorphology, 72, 272\u2013299 https://doi.org/10.1016/j.geomorph.2005.06.002, 2005.",
+        "DOI": "10.1016/j.geomorph.2005.06.002"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Handwerger, A. L., Huang, M.-H., Jones, S. Y., Amatya, P., Kerner, H. R., and Kirschbaum, D. B.:\nGenerating landslide density heatmaps for rapid detection using open-access satellite radar data in Google Earth Engine, Nat. Hazards Earth Syst. Sci., 22, 753\u2013773, https://doi.org/10.5194/nhess-22-753-2022, 2022.",
+        "DOI": "10.5194/nhess-22-753-2022"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hapuarachchi, H. A. P., Wang, Q. J., and Pagano, T. C.:\nA review of advances in flash flood forecasting, Hydrol. Process., 25, 2771\u20132784 https://doi.org/10.1002/hyp.8040, 2011.",
+        "DOI": "10.1002/hyp.8040"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hecht, C. W. and Cordeira, J. M.:\nCharacterizing the influence of atmospheric river orientation and intensity on precipitation distributions over North Coastal California, Geophys. Res. Lett., 44, 9048\u20139058, https://doi.org/10.1002/2017GL074179, 2017.",
+        "DOI": "10.1002/2017GL074179"
+      },
+      {
+        "key": "ref41",
+        "unstructured": "Huang, M. and Handwerger, A. L.: GEE_scripts_for_Handwerger_et_al_2022_NHESS, GitHub [code], https://github.com/alhandwerger/GEE_scripts_for_Handwerger_et_al_2022_NHESS, last access: 27\u00a0June\u00a02022."
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, X., Stevenson, S., and Hall, A. D.:\nFuture warming and intensification of precipitation extremes: A \u201cdouble whammy\u201d leading to increasing flood risk in California, Geophys. Res. Lett., 47, e2020GL088679, https://doi.org/10.1029/2020GL088679, 2020a.",
+        "DOI": "10.1029/2020GL088679"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, X., Swain, D. L., and Hall, A. D.:\nFuture precipitation increase from very high resolution ensemble downscaling of extreme atmospheric river storms in California, Sci. Adv., 6, eaba1323, https://doi.org/10.1126/sciadv.aba1323, 2020b.",
+        "DOI": "10.1126/sciadv.aba1323"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jolly, W. M., Cochrane, M. A., Freeborn, P. H., Holden, Z. A., Brown, T. J., Williamson, G. J., and Bowman, D. M. J. S.:\nClimate-induced variations in global wildfire danger from 1979 to 2013, Nat. Commun., 6, 7537, https://doi.org/10.1038/ncomms8537, 2015.",
+        "DOI": "10.1038/ncomms8537"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Julien, P. Y., Saghafian, B., and Ogden, F. L.:\nRaster-based hydrologic modeling of spatially-varied surface runoff, J. Am. Water Resour. As., 31, 523\u2013536, https://doi.org/10.1111/j.1752-1688.1995.tb04039.x, 1995.",
+        "DOI": "10.1111/j.1752-1688.1995.tb04039.x"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kean, J. W. and Staley, D. M.:\nForecasting the Frequency and Magnitude of Postfire Debris Flows Across Southern California, Earths Future, 9, e2020EF001735, https://doi.org/10.1029/2020EF001735, 2021.",
+        "DOI": "10.1029/2020EF001735"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kean, J. W., Staley, D. M., and Cannon, S. H.:\nIn situ measurements of postfire debris flows in southern California: Comparisons of the timing and magnitude of 24 debris flow events with rainfall and soil moisture conditions, J. Geophys. Res.-Earth, 116, F04019, https://doi.org/10.1029/2011JF002005, 2011.",
+        "DOI": "10.1029/2011JF002005"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kling, H., Fuchs, M., and Paulin, M.:\nRunoff conditions in the upper Danube basin under an ensemble of climate change scenarios, J. Hydrol., 424\u2013425, 264\u2013277, https://doi.org/10.1016/j.jhydrol.2012.01.011, 2012.",
+        "DOI": "10.1016/j.jhydrol.2012.01.011"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lahmers, T. M., Gupta, H., Castro, C. L., Gochis, D. J., Yates, D., Dugger, A., Goodrich, D., and Hazenberg, P.: Enhancing the structure of the WRF-Hydro hydrologic model for semiarid environments, J. Hydrometeorol, 20, 691\u2013714, https://doi.org/10.1175/JHM-D-18-0064.1, 2019.",
+        "DOI": "10.1175/JHM-D-18-0064.1"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Larsen, I. J., MacDonald, L. H., Brown, E., Rough, D., Welsh, M. J., Pietraszek, J. H., Libohova, Z., de Dios Benavides-Solorio, J., and Schaffrath, K.:\nCauses of Postfire Runoff and Erosion: Water Repellency, Cover, or Soil Sealing?, Soil Sci. Soc. Am. J., 73, 1393\u20131407, https://doi.org/10.2136/sssaj2007.0432, 2009.",
+        "DOI": "10.2136/sssaj2007.0432"
+      },
+      {
+        "key": "ref51",
+        "unstructured": "Leopold, L. B., Wolman, M. G., and Miller, J. P.:\nFluvial Processes in Geomorphology, W. H. Freeman, New York, Courier Dover Publications, 1964."
+      },
+      {
+        "key": "ref52",
+        "unstructured": "Li, C.: Use of WRF-Hydro in postfire debris-flow hazard simulation, Zenodo [data set], https://doi.org/10.5281/zenodo.5544083, 2021."
+      },
+      {
+        "key": "ref53",
+        "unstructured": "Li, C.: Modification of WRF-Hydro source code to output overland flow, Zenodo [code], https://doi.org/10.5281/zenodo.6766928, 2022."
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "MacDonald, L. H. and Huffman, E. L.:\nPostfire soil water repellency: Persistence and soil moisture thresholds, Soil Sci. Soc. Am. J., 68, 1729\u20131734, https://doi.org/10.2136/sssaj2004.1729, 2004.",
+        "DOI": "10.2136/sssaj2004.1729"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Martin, D. and Moody, J.:\nComparison of Soil Infiltration Rates in Burned and Unburned Mountainous Watersheds, Hydrol. Process., 15, 2893\u20132903, https://doi.org/10.1002/hyp.380, 2001.",
+        "DOI": "10.1002/hyp.380"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McCormick, B. C., Eshleman, K. N., Griffith, J. L., and Townsend, P. A.:\nDetection of flooding responses at the river basin scale enhanced by land use change, Water Resour. Res., 45, W08401, https://doi.org/10.1029/2008WR007594, 2009.",
+        "DOI": "10.1029/2008WR007594"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McGuire, L. A. and Youberg, A. M.:\nWhat drives spatial variability in rainfall intensity-duration thresholds for post-wildfire debris flows? Insights from the 2018 Buzzard Fire, NM, USA, Landslides, 17, 2385\u20132399, https://doi.org/10.1007/s10346-020-01470-y, 2020.",
+        "DOI": "10.1007/s10346-020-01470-y"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McGuire, L. A., Kean, J. W., Staley, D. M., Rengers, F. K., and Wasklewicz, T. A.:\nConstraining the relative importance of raindrop- and flow-driven sediment transport mechanisms in postwildfire environments and implications for recovery time scales, J. Geophys. Res.-Earth, 121, 2211\u20132237, https://doi.org/10.1002/2016JF003867, 2016.",
+        "DOI": "10.1002/2016JF003867"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McGuire, L. A., Rengers, F. K., Kean, J. W., and Staley, D. M.:\nDebris flow initiation by runoff in a recently burned basin: Is grain-by-grain sediment bulking or en masse failure to blame?, Geophys. Res. Lett., 44, 7310\u20137319, https://doi.org/10.1002/2017GL074243, 2017.",
+        "DOI": "10.1002/2017GL074243"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McMichael, C. E. and Hope, A. S.:\nPredicting streamflow response to fire-induced landcover change: implications of parameter uncertainty in the MIKE SHE model, J. Environ. Manage., 84, 245\u2013256, https://doi.org/10.1016/j.jenvman.2006.06.003, 2007.",
+        "DOI": "10.1016/j.jenvman.2006.06.003"
+      },
+      {
+        "key": "ref61",
+        "unstructured": "National Aeronautics and Space Administration (NASA), and the European Space Agency (ESA): Copernicus program, remote sensing data, Google Earth Engine, https://earthengine.google.com/, last access: 27\u00a0June\u00a02021."
+      },
+      {
+        "key": "ref62",
+        "unstructured": "National Centers for Environmental Prediction (NCEP): Multi-Radar/Multi-Sensor (MRMS) Precipitation Data, Version 1.0, UCAR/NCAR, Earth Observing Laboratory [data set], https://doi.org/10.26023/4WM5-Y4PF-8D03, 2018."
+      },
+      {
+        "key": "ref63",
+        "unstructured": "National Interagency Fire Center (NCEP): WFIGS \u2013 Wildland Fire Perimeters Full History, National Interagency Fire Center [data set], https://data-nifc.opendata.arcgis.com/datasets/nifc::wfigs-wildland-fire-perimeters-full-history/explore?location=0.000000,0.000000,1.81 (last acces: 28\u00a0June\u00a02022),\n2021."
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Neiman, P. J., Ralph, F. M., Wick, G. A., Lundquist, J. D., and Dettinger, M. D.:\nMeteorological Characteristics and Overland Precipitation Impacts of Atmospheric Rivers Affecting the West Coast of North America Based on Eight Years of SSM/I Satellite Observations, J. Hydrometeorol., 9, 22\u201347, https://doi.org/10.1175/2007JHM855.1, 2008.",
+        "DOI": "10.1175/2007JHM855.1"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Miller, D. A. and White, R. A.:\nA Conterminous United States Multilayer Soil Characteristics Dataset for Regional Climate and Hydrology Modeling, Earth Interact., 2, 1\u201326, https://doi.org/10.1175/1087-3562(1998)002&amp;lt;0001:ACUSMS&amp;gt;2.3.CO;2, 1998.",
+        "DOI": "10.1175/1087-3562(1998)002<0001:ACUSMS>2.3.CO;2"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Moody, J. A., Shakesby, R. A., Robichaud, P. R., Cannon, S. H., and Martin, D. A.:\nCurrent research issues related to post-wildfire runoff and erosion processes, Earth-Sci Rev., 122, 10\u201337. https://doi.org/10.1016/j.earscirev.2013.03.004, 2013.",
+        "DOI": "10.1016/j.earscirev.2013.03.004"
+      },
+      {
+        "key": "ref67",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nash, J. E. and Sutcliffe, J. V.:\nRiver flow forecasting through conceptual models part\u00a0I \u2014 A discussion of principles, J. Hydrol., 10, 282\u2013290, https://doi.org/10.1016/0022-1694(70)90255-6, 1970.",
+        "DOI": "10.1016/0022-1694(70)90255-6"
+      },
+      {
+        "key": "ref68",
+        "unstructured": "NOAA Physical Sciences Laboratory (PSL): Surface Meteorology and Physics Data, NOAA [data set], https://psl.noaa.gov/data/obs/datadisplay/, last access: 28\u00a0June\u00a02022."
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nikolopoulos, E. I., Destro, E., Bhuiyan, M. A. E., Borga, M., and Anagnostou, E. N.:\nEvaluation of predictive models for post-fire debris flow occurrence in the western United States, Nat. Hazards Earth Syst. Sci., 18, 2331\u20132343, https://doi.org/10.5194/nhess-18-2331-2018, 2018.",
+        "DOI": "10.5194/nhess-18-2331-2018"
+      },
+      {
+        "key": "ref70",
+        "unstructured": "Nikolopoulos, E. I., Schwartz, C., Zhang, X, and Anagnostou, E. N.:\nRainfall estimation uncertainty and early warning procedures for\npost-fire debris flows, EGU General Assembly, Vienna, Austria, 7\u201312 April 2019, Abstracts, 2019."
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Niu, G. Y., Yang, Z. L., Mitchell, K. E., Chen, F., Ek,\nM. B., Barlage, M., Kumar, A., Manning, K., Niyogi, D., Rosero, E., Tewari, M., and Xia, Y.:\nThe community Noah land surface model with multiparameterization options (Noah-MP): 1.\u00a0Model description and evaluation with local-scale measurements, J. Geophys. Res.-Atmos., 116, D12109, https://doi.org/10.1029/2010JD015139, 2011.",
+        "DOI": "10.1029/2010JD015139"
+      },
+      {
+        "key": "ref72",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Oakley, N. S.:\nA warming climate adds complexity to postfire hydrologic hazard planning, Earths Future, 9, e2021EF002149, https://doi.org/10.1029/2021EF002149, 2021.",
+        "DOI": "10.1029/2021EF002149"
+      },
+      {
+        "key": "ref73",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Oakley, N. S., Lancaster, J. T., Kaplan, M. L., and Ralph, F. M.:\nSynoptic conditions associated with cool season post-fire debris flows in the Transverse Ranges of southern California, Nat. Hazards, 88, 327\u2013354 https://doi.org/10.1007/s11069-017-2867-6, 2017.",
+        "DOI": "10.1007/s11069-017-2867-6"
+      },
+      {
+        "key": "ref74",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Oakley, N. S., Cannon, F., Munroe, R., Lancaster, J. T., Gomberg, D., and Ralph, F. M.:\nBrief communication: Meteorological and climatological conditions associated with the 9 January 2018 post-fire debris flows in Montecito and Carpinteria, California, USA, Nat. Hazards Earth Syst. Sci., 18, 3037\u20133043, https://doi.org/10.5194/nhess-18-3037-2018, 2018.",
+        "DOI": "10.5194/nhess-18-3037-2018"
+      },
+      {
+        "key": "ref75",
+        "unstructured": "Ogden, F. L.:\nCASC2D reference manual, Department of Civil &amp;amp; Environmental Engineering, University of Connecticut, Storrs, 1997."
+      },
+      {
+        "key": "ref76",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Palmer, J.:\nThe devastating mudslides that follow forest fires, Nature, 601, 184\u2013186, https://www.nature.com/articles/d41586-022-00028-3 (last access: 27\u00a0November\u00a02021), 2022.",
+        "DOI": "10.1038/d41586-022-00028-3"
+      },
+      {
+        "key": "ref77",
+        "unstructured": "Parise, M. and Cannon, S. H.:\nThe effects of wildfires on erosion and debris-flow generation in Mediterranean climatic areas: a first database, Proceedings of 1st World Landslide Forum, Tokyo, Japan, 18\u201321 November 2008, 465\u2013468, 2008."
+      },
+      {
+        "key": "ref78",
+        "unstructured": "Parise, M. and Cannon, S. H.:\nA database on post-fire erosion rates and debris flows in Mediterranean-Basin watersheds, EGU General Assembly, Vienna, Austria, 19\u201324 April 2009, Abstracts, p. 1530, 2009."
+      },
+      {
+        "key": "ref79",
+        "unstructured": "Pietsch, B.:\nPart of Highway 1 in California Falls Into the Ocean, The New York Times, https://www.nytimes.com/2021/01/30/us/highway-one-mudslide.html (last access: 27\u00a0November\u00a02021), 2021."
+      },
+      {
+        "key": "ref80",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Polade, S. D., Gershunov, A., Cayan, D.R, Dettinger, M. D., and Pierce, D. W.:\nPrecipitation in a warming world: Assessing projected hydro-climate changes in California and other Mediterranean climate regions, Sci. Rep.-UK, 7, 10783, https://doi.org/10.1038/s41598-017-11285-y, 2017.",
+        "DOI": "10.1038/s41598-017-11285-y"
+      },
+      {
+        "key": "ref81",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Qi, Y., Martinaitis, S., Zhang, J., and Cocks, S.:\nA real-time automated quality control of hourly rain gauge data based on multiple sensors in MRMS system, J. Hydrometeorol., 17, 1675\u20131691, https://doi.org/10.1175/JHM-D-15-0188.1, 2016.",
+        "DOI": "10.1175/JHM-D-15-0188.1"
+      },
+      {
+        "key": "ref82",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Raia, S., Alvioli, M., Rossi, M., Baum, R. L., Godt, J. W., and Guzzetti, F.:\nImproving predictive power of physically based rainfall-induced shallow landslide models: a probabilistic approach, Geosci. Model Dev., 7, 495\u2013514, https://doi.org/10.5194/gmd-7-495-2014, 2014.",
+        "DOI": "10.5194/gmd-7-495-2014"
+      },
+      {
+        "key": "ref83",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ralph, F. M., Neiman, P. J., and Wick, G. A.:\nSatellite and CALJET aircraft observations of atmospheric rivers over the eastern North Pacific Ocean during the winter of 1997/98, Mon. Weather Rev., 132, 1721\u20131745, https://doi.org/10.1175/1520-0493(2004)132&amp;lt;1721:SACAOO&amp;gt;2.0.CO;2, 2004.",
+        "DOI": "10.1175/1520-0493(2004)132<1721:SACAOO>2.0.CO;2"
+      },
+      {
+        "key": "ref84",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Regmi, N. R., Giardino, J. R., and Vitek, J. D.:\nModeling susceptibility to landslides using the weight of evidence approach: Western Colorado, USA, Geomorphology, 115, 172\u2013187, https://doi.org/10.1016/j.geomorph.2009.10.002, 2010.",
+        "DOI": "10.1016/j.geomorph.2009.10.002"
+      },
+      {
+        "key": "ref85",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Reichenbach, P., Rossi, M., Malamud, B. D., Mihir, M., and Guzzetti, F.:\nA review of statistically-based landslide susceptibility models, Earth-Sci. Rev., 180, 60\u201391 https://doi.org/10.1016/j.earscirev.2018.03.001, 2018.",
+        "DOI": "10.1016/j.earscirev.2018.03.001"
+      },
+      {
+        "key": "ref86",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rengers, F. K., McGuire, L. A., Kean, J. W., Staley, D. M., and Hobley, D. E. J.:\nModel simulations of flood and debris flow timing in steep catchments after wildfire, Water Resour. Res., 52, 6041\u20136061, https://doi.org/10.1002/2015WR018176, 2016.",
+        "DOI": "10.1002/2015WR018176"
+      },
+      {
+        "key": "ref87",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Reneau, S. L., Katzman, D., Kuyumjian, G. A., Lavine, A., and Malmon, D. V.:\nSediment delivery after a wildfire, Geology, 35, 151\u2013154, https://doi.org/10.1130/G23288A.1, 2007.",
+        "DOI": "10.1130/G23288A.1"
+      },
+      {
+        "key": "ref88",
+        "unstructured": "Reynolds, C.:\nHighway 1 washout near Big Sur expected to be fixed by summer, Los Angeles Times, https://www.latimes.com/travel/story/2021-02-25/highway-1-to-big-sur-will-reopen-by-summer-caltrans-says (last access: 27\u00a0November\u00a02021), 2021."
+      },
+      {
+        "key": "ref89",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Robichaud, P. R.: Fire and erosion: evaluating the effectiveness of a post-fire rehabilitation treatment, contour-felled logs, in: Watershed Management and Operations Management 2000, 1\u201311, https://doi.org/10.1061/40499(2000)36, 2000.",
+        "DOI": "10.1061/40499(2000)36"
+      },
+      {
+        "key": "ref90",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rosso, R., Rulli, M. C., and Bocchiola, D.:\nTransient catchment hydrology after wildfires in a Mediterranean basin: runoff, sediment and woody debris, Hydrol. Earth Syst. Sci., 11, 125\u2013140, https://doi.org/10.5194/hess-11-125-2007, 2007.",
+        "DOI": "10.5194/hess-11-125-2007"
+      },
+      {
+        "key": "ref91",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rulli, M. C. and Rosso, R.:\nHydrologic response of upland catchments to wildfires, Adv. Water Resour., 30, 2072\u20132086, https://doi.org/10.1016/j.advwatres.2006.10.012, 2007.",
+        "DOI": "10.1016/j.advwatres.2006.10.012"
+      },
+      {
+        "key": "ref92",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Santi, P. M. and Morandi, L.:\nComparison of debris flow volumes from burned and unburned areas, Landslides, 10, 757\u2013769, 2013.",
+        "DOI": "10.1007/s10346-012-0354-4"
+      },
+      {
+        "key": "ref93",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Santi, P. M., deWolfe, V. G., Higgins, J. D., Cannon, S. H., and Gartner, J. E.:\nSources of debris flow material in burned areas, Geomorphology, 96, 310\u2013321, https://doi.org/10.1016/j.geomorph.2007.02.022, 2008.",
+        "DOI": "10.1016/j.geomorph.2007.02.022"
+      },
+      {
+        "key": "ref94",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Schaefli, B. and Gupta, H. V.:\nDo Nash values have value?, Hydrol. Process., 21, 2075\u20132080, https://doi.org/10.1002/hyp.6825, 2007.",
+        "DOI": "10.1002/hyp.6825"
+      },
+      {
+        "key": "ref95",
+        "unstructured": "Scheip, C., and Wegmann, K.: HazMapper: v1.0 source code (Version 1.0), Zenodo [code], https://doi.org/10.5281/zenodo.4103348, 2020."
+      },
+      {
+        "key": "ref96",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Scheip, C. M. and Wegmann, K. W.:\nHazMapper: a global open-source natural hazard mapping application in Google Earth Engine, Nat. Hazards Earth Syst. Sci., 21, 1495\u20131511, https://doi.org/10.5194/nhess-21-1495-2021, 2021.",
+        "DOI": "10.5194/nhess-21-1495-2021"
+      },
+      {
+        "key": "ref97",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shakesby, R. A. and Doerr, S. H.:\nWildfire as a hydrological and geomorphological agent, Earth-Sci. Rev., 74, 269\u2013307, https://doi.org/10.1016/j.earscirev.2005.10.006, 2006.",
+        "DOI": "10.1016/j.earscirev.2005.10.006"
+      },
+      {
+        "key": "ref98",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shen, H., Lynch, B.., Poulsen, C. J., and Yanites, B. J.:\nA modeling framework (WRF-Landlab) for simulating orogen-scale climate-erosion coupling, Comput. Geosci., 146, 104625, https://doi.org/10.1016/j.cageo.2020.104625, 2021.",
+        "DOI": "10.1016/j.cageo.2020.104625"
+      },
+      {
+        "key": "ref99",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Staley, D. M., Negri, J. A., Kean, J. W., Laber, J. M., Tillery, A. C., and Youberg, A. M.: Updated logistic regression equations for the calculation of post-fire debris-flow likelihood in the western United States: U.S. Geological Survey Open-File Report, 2016\u20131106, 13\u00a0pp., https://doi.org/10.3133/ofr20161106, 2016.",
+        "DOI": "10.3133/ofr20161106"
+      },
+      {
+        "key": "ref100",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Staley, D. M., Negri, J. A., Kean, J. W., Laber, J. L., Tillery, A. C., and Youberg, A. M.:\nPrediction of spatially explicit rainfall intensity\u2013duration thresholds for post-fire debris-flow generation in the western United States, Geomorphology, 278, 149\u2013162 https://doi.org/10.1016/j.geomorph.2016.10.019, 2017.",
+        "DOI": "10.1016/j.geomorph.2016.10.019"
+      },
+      {
+        "key": "ref101",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stoof, C. R., Vervoort, R. W., Iwema, J., van den Elsen, E., Ferreira, A. J. D., and Ritsema, C. J.:\nHydrological response of a small catchment burned by experimental fire, Hydrol. Earth Syst. Sci., 16, 267\u2013285, https://doi.org/10.5194/hess-16-267-2012, 2012.",
+        "DOI": "10.5194/hess-16-267-2012"
+      },
+      {
+        "key": "ref102",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Swain, D. L.:\nA Shorter, Sharper Rainy Season Amplifies California Wildfire Risk, Geophys. Res. Lett., 48, e2021GL092843, https://doi.org/10.1029/2021GL092843, 2021.",
+        "DOI": "10.1029/2021GL092843"
+      },
+      {
+        "key": "ref103",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Swain, D. L., Langenbrunner, B., Neelin, J. D., and Hall, A.:\nIncreasing precipitation volatility in twenty-first-century California, Nat. Clim. Change, 8, 427\u2013433 https://doi.org/10.1038/s41558-018-0140-y, 2018.",
+        "DOI": "10.1038/s41558-018-0140-y"
+      },
+      {
+        "key": "ref104",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tang, H., McGuire, L. A., Rengers, F. K., Kean, J. W., Staley, D. M., and Smith, J. B.:\nDeveloping and testing physically based triggering thresholds for runoff-generated debris flows, Geophys. Res. Lett., 46, 8830\u20138839. https://doi.org/10.1029/2019GL083623, 2019a.",
+        "DOI": "10.1029/2019GL083623"
+      },
+      {
+        "key": "ref105",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tang, H., McGuire, L. A., Rengers, F. K., Kean, J. W., Staley, D. M., and Smith, J. B.:\nEvolution of debris-flow initiation mechanisms and sediment sources during a sequence of postwildfire rainstorms, J. Geophys. Res.-Earth, 124, 1572\u20131595. https://doi.org/10.1029/2018JF004837, 2019b.",
+        "DOI": "10.1029/2018JF004837"
+      },
+      {
+        "key": "ref106",
+        "unstructured": "Tognacca, C., Bezzola, G. R., and Minor, H. E.:\nThreshold criterion for debris-flow initiation due to channel-bed failure, in: Debris-flow hazards mitigation: Mechanics, prediction and assessment, edited by: edited by:\nWieczorek, G. F. and Naeser, N. D., A.A.Balkema, Brookfield, the\nNetherlands, 89\u201397, 2000."
+      },
+      {
+        "key": "ref107",
+        "unstructured": "U.S. Geological Survey (USGS): National Water Information System data, USGS Water Data for the Nation, USGS [data set], https://doi.org/10.5066/F7P55KJN, 2016."
+      },
+      {
+        "key": "ref108",
+        "unstructured": "U.S. Geological Survey (USGS): Postfire Debris flow Hazards: Dolan Fire (Los Padres National Forest, CA), Landslide Hazards Program, USGS,\nhttps://landslides.usgs.gov/hazards/postfire_debrisflow/detail.php?objectid=312 (last access: 27\u00a0September 2021), 2021."
+      },
+      {
+        "key": "ref109",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, J., Wang, C., Rao, V., Orr, A., Yan, E., and Kotamarthi, R.:\nA parallel workflow implementation for PEST version 13.6 in high-performance computing for WRF-Hydro version 5.0: a case study over the midwestern United States, Geosci. Model Dev., 12, 3523\u20133539, https://doi.org/10.5194/gmd-12-3523-2019, 2019.",
+        "DOI": "10.5194/gmd-12-3523-2019"
+      },
+      {
+        "key": "ref110",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Williams, A. P., Abatzoglou, J. T., Gershunov, A., Guzman-Morales, J., Bishop, D. A., Balch, J. K., and Lettenmaier, D. P.:\nObserved Impacts of Anthropogenic Climate Change on Wildfire in California, Earths Future, 7, 892\u2013910, https://doi.org/10.1029/2019EF001210, 2019.",
+        "DOI": "10.1029/2019EF001210"
+      },
+      {
+        "key": "ref111",
+        "unstructured": "Xia, Y., Mitchell, K., Ek, M., Cosgrove, B., Sheffield, J., Luo, L., Alonge, C., Wei, H., Meng, J., Livneh, B., Duan, Q., and Lohmann, D.: NCEP/EMC, NLDAS Primary Forcing Data L4 Hourly 0.125\u00d70.125 degree V002, Edited by David Mocko, NASA/GSFC/HSL, Greenbelt, Maryland, USA, Goddard Earth Sciences Data and Information Services Center (GES DISC) [data set], https://doi.org/10.5067/6J5LHHOHZHN4, 2009."
+      },
+      {
+        "key": "ref112",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xia, Y., Mitchell, K., Ek, M., Cosgrove, B., Sheffield, J., Luo, L., Alonge, C., Wei, H., Meng, J., Livneh, B., Duan, Q., and Lohmann, D.:\nContinental-scale water and energy flux analysis and validation for North American Land Data Assimilation System project phase 2 (NLDAS-2): 2. Validation of model-simulated streamflow, J. Geophys. Res-Atmos., 117, D03110, https://doi.org/10.1029/2011JD016051, 2012.",
+        "DOI": "10.1029/2011JD016051"
+      },
+      {
+        "key": "ref113",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Young, A. M., Skelly, K. T., and Cordeira, J. M.:\nHigh-impact hydrologic events and atmospheric rivers in California: An investigation using the NCEI Storm Events Database, Geophys. Res. Lett., 44, 3393\u20133401 https://doi.org/10.1002/2017GL073077, 2017.",
+        "DOI": "10.1002/2017GL073077"
+      },
+      {
+        "key": "ref114",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yin, D., Xue, Z. G., Gochis, D. J., Yu, W., Morales, M., and Rafieeinasab, A.:\nA Process-Based, Fully Distributed Soil Erosion and Sediment Transport Model for WRF-Hydro, Water, 12, 1840, https://doi.org/10.3390/w12061840, 2020.",
+        "DOI": "10.3390/w12061840"
+      },
+      {
+        "key": "ref115",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, J., Howard, K., Langston, C., Vasiloff, S., Kaney, B., Arthur, A., Van Cooten, S., Kelleher, K., Kitzmiller, D., Ding, F., Seo, D., Wells, E., and Dempsey, C.:\nNational Mosaic and Multi-Sensor QPE (NMQ) system: Description, results, and future plans, B. Am. Meteorol. Soc., 92, 1321\u20131338, https://doi.org/10.1175/2011BAMS-D-11-00047.1, 2011.",
+        "DOI": "10.1175/2011BAMS-D-11-00047.1"
+      },
+      {
+        "key": "ref116",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, J., Qi, Y., Langston, C., Kaney, B., and Howard, K.:\nA real-time algorithm for merging radar QPEs with rain gauge observations and orographic precipitation climatology, J. Hydrometeorol., 15, 1794\u20131809, https://doi.org/10.1175/JHM-D-13-0163.1, 2014.",
+        "DOI": "10.1175/JHM-D-13-0163.1"
+      },
+      {
+        "key": "ref117",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, J., Howard, K., Langston, C., Kaney, B., Qi, Y., Tang, L., Grams, H., Wang, Y., Cocks, S., Martinaitis, S., Arthur, A., Cooper, K., Brogden, J., and Kitzmiller, D.:\nMulti-Radar Multi-Sensor (MRMS) quantitative precipitation estimation: Initial operating capabilities, B. Am. Meteorol. Soc., 97, 621\u2013638, https://doi.org/10.1175/BAMS-D-14-00174.1, 2016.",
+        "DOI": "10.1175/BAMS-D-14-00174.1"
+      },
+      {
+        "key": "ref118",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, S., Zhao, L., Delgado-Tellez, R., and Bao, H.:\nA physics-based probabilistic forecasting model for rainfall-induced shallow landslides at regional scale, Nat. Hazards Earth Syst. Sci., 18, 969\u2013982, https://doi.org/10.5194/nhess-18-969-2018, 2018.",
+        "DOI": "10.5194/nhess-18-969-2018"
+      },
+      {
+        "key": "ref119",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhu, Y. and Newell, R. E.:\nA Proposed Algorithm for Moisture Fluxes from Atmospheric Rivers, Mon. Weather Rev., 126, 725\u2013735, https://doi.org/10.1175/1520-0493(1998)126&amp;lt;0725:APAFMF&amp;gt;2.0.CO;2, 1998.",
+        "DOI": "10.1175/1520-0493(1998)126<0725:APAFMF>2.0.CO;2"
+      }
+    ],
+    "container-title": [
+      "Natural Hazards and Earth System Sciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://nhess.copernicus.org/articles/22/2317/2022/nhess-22-2317-2022.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          23
+        ]
+      ],
+      "date-time": "2025-01-23T03:01:28Z",
+      "timestamp": 1737601288000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://nhess.copernicus.org/articles/22/2317/2022/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          27
+        ]
+      ]
+    },
+    "references-count": 119,
+    "journal-issue": {
+      "issue": "7",
+      "published-online": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.5194/nhess-22-2317-2022",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/nhess-2021-345",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/nhess-2021-345",
+          "asserted-by": "object"
+        }
+      ],
+      "has-review": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/nhess-2021-345-RC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/nhess-2021-345-AC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/nhess-2021-345-AC2",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/nhess-2021-345-RC2",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/nhess-2021-345-AC3",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/nhess-2021-345-AC1",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/nhess-2021-345-AC3",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/nhess-2021-345-AC2",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/nhess-2021-345-RC2",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/nhess-2021-345-RC1",
+          "asserted-by": "object"
+        }
+      ],
+      "is-part-of": [
+        {
+          "id-type": "doi",
+          "id": "10.5067/6J5LHHOHZHN4",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.26023/4WM5-Y4PF-8D03",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5281/zenodo.5544083",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5281/zenodo.6766928",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5281/zenodo.4103348",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "ISSN": [
+      "1684-9981"
+    ],
+    "issn-type": [
+      {
+        "value": "1684-9981",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          27
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.5194/nhess-22-2317-2022",
+  "original_doi": "10.5194/nhess-22-2317-2022"
+}

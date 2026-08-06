@@ -1,0 +1,615 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          13
+        ]
+      ],
+      "date-time": "2026-07-13T10:06:23Z",
+      "timestamp": 1783937183442,
+      "version": "3.55.0"
+    },
+    "reference-count": 56,
+    "publisher": "Copernicus GmbH",
+    "issue": "7",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              13
+            ]
+          ],
+          "date-time": "2026-07-13T00:00:00Z",
+          "timestamp": 1783900800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000139",
+        "name": "U.S. Environmental Protection Agency",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NA"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NA"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000139",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "Coastal and Marine Hazards and Resources Program"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "Coastal and Marine Hazards and Resources Program"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Nat. Hazards Earth Syst. Sci."
+    ],
+    "abstract": "<jats:p>Abstract. Coastal regions across the globe, including the Salish Sea, are becoming increasingly vulnerable to compound flooding due to the interaction between storm surge, tides, and river outflow. This hazard is anticipated to increase under sea level rise and climate change. This research offers a high-resolution flood hazard mapping approach for King and Pierce Counties of Washington State (United States of America) using the SFINCS (Super-Fast INundation of CoastS) model to facilitate a Continuous Flood Response Modeling (CFRM) framework wherein decades of dynamic coastal and fluvial processes are simulated. By applying a cell-by-cell extreme value analysis, we predict flood areas for return periods of 1 to 100 years and compute the Expected Annual Flooded Area (EAFA) as a probability-weighted indicator of flood exposure. Validation of the model against NOAA and USGS gauge data demonstrated good skill (RMSE: 14\u201317\u2009cm for coastal water levels; unbiased RMSE: 49\u2013116\u2009cm for river water levels), while comparison with FEMA Special Flood Hazard Areas showed high spatial agreement of flooding (hit rates: 0.75\u20130.83). The statistical analysis of the historical flooding timing showed that the 28 December 2022, event was primarily responsible for the majority of historical flooding in the region. Climate simulations for today indicate an EAFA range of 56\u2013200\u2009ha in King County and 250\u2013644\u2009ha in Pierce County. Projections of future changes show that the primary driver of increasing flood extent is sea level rise (an increase of 80\u2009%\u2013360\u2009% with 1m SLR), while climate change drivers, such as changes to storm patterns, reduce hazards minimally. A threshold was also identified where there is a substantial increase in the area of land that is flooded when sea levels rise above 100\u2013150\u2009cm. Finally, it was found that simple deterministic flood maps may underrepresent flood hazard by approximately 0.5\u2009m if not all contributing factors are considered. Therefore, these findings provide evidence supporting the use of integrated measures of flood hazard, such as EAFA, to inform more rational and spatially responsive flood risk management.</jats:p>",
+    "DOI": "10.5194/nhess-26-3231-2026",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          13
+        ]
+      ],
+      "date-time": "2026-07-13T09:10:12Z",
+      "timestamp": 1783933812000
+    },
+    "page": "3231-3251",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Beyond the 100-year flood: probabilistic flood hazard assessment for King and Pierce Counties under future climate scenarios"
+    ],
+    "prefix": "10.5194",
+    "volume": "26",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0552-3428",
+        "authenticated-orcid": false,
+        "given": "Kees",
+        "family": "Nederhoff",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kai",
+        "family": "Parker",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Eric",
+        "family": "Grossman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "3145",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          13
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ali, J., Wahl, T., Morim, J., Enriquez, A., Gall, M., and Emrich, C. T.: Multivariate compound events drive historical floods and associated losses along the U.S. East and Gulf coasts, Npj Natural Hazards, 2, https://doi.org/10.1038/s44304-025-00076-5, 2025.",
+        "DOI": "10.1038/s44304-025-00076-5"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Barnard, P. L., van Ormondt, M., Erikson, L. H., Eshleman, J., Hapke, C., Ruggiero, P., Adams, P. N., and Foxgrover, A. C.: Development of the Coastal Storm Modeling System (CoSMoS) for predicting the impact of storms on high-energy, active-margin coasts, Nat. Hazards, 74, 1095\u20131125, https://doi.org/10.1007/s11069-014-1236-y, 2014.",
+        "DOI": "10.1007/s11069-014-1236-y"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Barnard, P. L., Erikson, L. H., Foxgrover, A. C., Hart, J. A. F., Limber, P., O'Neill, A. C., van Ormondt, M., Vitousek, S., Wood, N., Hayden, M. K., and Jones, J. M.: Dynamic flood modeling essential to assess the coastal impacts of climate change, Sci. Rep., 9, 4309, https://doi.org/10.1038/s41598-019-40742-z, 2019.",
+        "DOI": "10.1038/s41598-019-40742-z"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Brogli, R., Heim, C., Mensch, J., S\u00f8rland, S. L., and Sch\u00e4r, C.: The pseudo-global-warming (PGW) approach: methodology, software package PGW4ERA5 v1.1, validation, and sensitivity analyses, Geosci. Model Dev., 16, 907\u2013926, https://doi.org/10.5194/gmd-16-907-2023, 2023.",
+        "DOI": "10.5194/gmd-16-907-2023"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Buitink, J., Dalmijn, B., Parker, K. A., Nederhoff, K., and Grossman, E.: Wetter Winters, Drier Summers: Quantifying the change in hydrological response around the Puget Sound area using the wflow_sbm hydrological model and CMIP6 projections, EarthArXiv [preprint], https://doi.org/10.31223/X58R0G, 2026.",
+        "DOI": "10.31223/X58R0G"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Couasnon, A., Eilander, D., Muis, S., Veldkamp, T. I. E., Haigh, I. D., Wahl, T., Winsemius, H. C., and Ward, P. J.: Measuring compound flood potential from river discharge and storm surge extremes at the global scale, Nat. Hazards Earth Syst. Sci., 20, 489\u2013504, https://doi.org/10.5194/nhess-20-489-2020, 2020.",
+        "DOI": "10.5194/nhess-20-489-2020"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Crosby, S. C., Nederhoff, K., VanArendonk, N., and Grossman, E. E.: Efficient modeling of wave generation and propagation in a semi-enclosed estuary, Ocean Model., 102231, https://doi.org/10.1016/j.ocemod.2023.102231, 2023.",
+        "DOI": "10.1016/j.ocemod.2023.102231"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Czuba, J. A., Czuba, C. R., Magirl, C. S., and Voss, F. D.: Channel-conveyance capacity, channel change, and sediment transport in the lower Puyallup, White, and Carbon Rivers, western Washington, U.S. Geological Survey Scientific Investigations Report 2010\u20135240, 104 pp., https://doi.org/10.3133/sir20105240, 2010.",
+        "DOI": "10.3133/sir20105240"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Deb, M., Sun, N., Yang, Z., Wang, T., Judi, D., Cooper, M. G., and Wigmosta, M. S.: Extreme flood return levels in a U.S. mid-Atlantic estuary using 40-year fluvial-coastal model simulations, Sci. Data, 12, 1459, https://doi.org/10.1038/s41597-025-05566-9, 2025.",
+        "DOI": "10.1038/s41597-025-05566-9"
+      },
+      {
+        "key": "ref10",
+        "unstructured": "Falgout, J. T., Gordon, J., Lee, L., and Williams, B.: USGS Advanced Research Computing, USGS Hovenweep Supercomputer, https://doi.org/10.5066/P927BI7R, 2025."
+      },
+      {
+        "key": "ref11",
+        "unstructured": "Federal Emergency Management Agency: National Flood Hazard Layer (NFHL): Special Flood Hazard Areas (SFHAs), https://msc.fema.gov/nfhl (last access: 19 August 2025), 2025."
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Feng, X., Yin, B., Yang, D., and William, P.: The effect of wave-induced radiation stress on storm surge during Typhoon Saomai (2006), Acta Oceanol. Sin., 30, 20\u201326, https://doi.org/10.1007/s13131-011-0115-6, 2011.",
+        "DOI": "10.1007/s13131-011-0115-6"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gori, A., Lin, N., and Xi, D.: Tropical Cyclone Compound Flood Hazard Assessment: From Investigating Drivers to Quantifying Extreme Water Levels, Earth's Future, 8, https://doi.org/10.1029/2020EF001660, 2020.",
+        "DOI": "10.1029/2020EF001660"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Green, J., Haigh, I. D., Quinn, N., Neal, J., Wahl, T., Wood, M., Eilander, D., de Ruiter, M., Ward, P., and Camus, P.: Review article: A comprehensive review of compound flooding literature with a focus on coastal and estuarine regions, Nat. Hazards Earth Syst. Sci., 25, 747\u2013816, https://doi.org/10.5194/nhess-25-747-2025, 2025.",
+        "DOI": "10.5194/nhess-25-747-2025"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Grossman, E. E., Tehranirad, B., Nederhoff, K., Crosby, S. C., Stevens, A. W., Van Arendonk, N. R., Nowacki, D. J., Erikson, L. H., and Barnard, P. L.: Modeling Extreme Water Levels in the Salish Sea: The Importance of Including Remote Sea Level Anomalies for Application in Hydrodynamic Simulations, Water, 15, https://doi.org/10.3390/w15234167, 2023.",
+        "DOI": "10.3390/w15234167"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Haarsma, R. J., Roberts, M. J., Vidale, P. L., Senior, C. A., Bellucci, A., Bao, Q., Chang, P., Corti, S., Fu\u010dkar, N. S., Guemas, V., von Hardenberg, J., Hazeleger, W., Kodama, C., Koenigk, T., Leung, L. R., Lu, J., Luo, J.-J., Mao, J., Mizielinski, M. S., Mizuta, R., Nobre, P., Satoh, M., Scoccimarro, E., Semmler, T., Small, J., and von Storch, J.-S.: High Resolution Model Intercomparison Project (HighResMIP v1.0) for CMIP6, Geosci. Model Dev., 9, 4185\u20134208, https://doi.org/10.5194/gmd-9-4185-2016, 2016.",
+        "DOI": "10.5194/gmd-9-4185-2016"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hersbach, H., Bell, B., Berrisford, P., Hirahara, S., Hor\u00e1nyi, A., Mu\u00f1oz-Sabater, J., Nicolas, J., Peubey, C., Radu, R., Schepers, D., Simmons, A., Soci, C., Abdalla, S., Abellan, X., Balsamo, G., Bechtold, P., Biavati, G., Bidlot, J., Bonavita, M., De Chiara, G., Dahlgren, P., Dee, D., Diamantakis, M., Dragani, R., Flemming, J., Forbes, R., Fuentes, M., Geer, A., Haimberger, L., Healy, S., Hogan, R. J., H\u00f3lm, E., Janiskov\u00e1, M., Keeley, S., Laloyaux, P., Lopez, P., Lupu, C., Radnoti, G., de Rosnay, P., Rozum, I., Vamborg, F., Villaume, S., and Th\u00e9paut, J.-N.: The ERA5 global reanalysis, Q. J. Roy. Meteor. Soc., 146, 1999\u20132049, https://doi.org/10.1002/qj.3803, 2020.",
+        "DOI": "10.1002/qj.3803"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Homer, C., Dewitz, J., Jin, S., Xian, G., Costello, C., Danielson, P., Gass, L., Funk, M., Wickham, J., Stehman, S., Auch, R., and Riitters, K.: Conterminous United States land cover change patterns 2001\u20132016 from the 2016 National Land Cover Database, ISPRS J. Photogramm., 162, 184\u2013199, https://doi.org/10.1016/j.isprsjprs.2020.02.019, 2020.",
+        "DOI": "10.1016/j.isprsjprs.2020.02.019"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hubbard, L. L.: Floods of November 1990 in western Washington, U.S. Geological Survey Open-File Report 93-631, https://pubs.usgs.gov/of/1993/0631/report.pdf (last access: 12\u00a0May\u00a02026), 1994.",
+        "DOI": "10.3133/ofr93631"
+      },
+      {
+        "key": "ref20",
+        "unstructured": "KOMO: City of Carnation could be \u201disland\u201d due to heavy rains, more flooding expected, https://www.seattlepi.com/local/komo/article/City-of-Carnation-could-be-island-due-to-heavy-15037967.php (last access: 12\u00a0May\u00a02026), 2020."
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lee, S.-Y., Hamlet, A. F., and Grossman, E. E.: Impacts of Climate Change on Regulated Streamflow, Hydrologic Extremes, Hydropower Production, and Sediment Discharge in the Skagit River Basin, Northwest Science, 90, 23\u201343, https://doi.org/10.3955/046.090.0104, 2016.",
+        "DOI": "10.3955/046.090.0104"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Leijnse, T., van Ormondt, M., Nederhoff, K., and van Dongeren, A.: Modeling compound flooding in coastal systems using a computationally efficient reduced-physics solver: Including fluvial, pluvial, tidal, wind- and wave-driven processes, Coast. Eng., 163, 103796, https://doi.org/10.1016/j.coastaleng.2020.103796, 2021.",
+        "DOI": "10.1016/j.coastaleng.2020.103796"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Muis, S., Verlaan, M., Winsemius, H. C., Aerts, J. C. J. H., and Ward, P. J.: A global reanalysis of storm surges and extreme sea levels, Nat. Commun., 7, 11969, https://doi.org/10.1038/ncomms11969, 2016.",
+        "DOI": "10.1038/ncomms11969"
+      },
+      {
+        "key": "ref24",
+        "unstructured": "National Oceanic and Atmospheric Administration (NOAA): NOAA Tides and Currents database, https://tidesandcurrents.noaa.gov/ (last access: 12\u00a0May\u00a02026), 2025."
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nederhoff, K., Saleh, R., Tehranirad, B., Herdman, L., Erikson, L., Barnard, P. L., and van der Wegen, M.: Drivers of extreme water levels in a large, urban, high-energy coastal estuary \u2013 A case study of the San Francisco Bay, Coast. Eng., 170, 103984, https://doi.org/10.1016/j.coastaleng.2021.103984, 2021.",
+        "DOI": "10.1016/j.coastaleng.2021.103984"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nederhoff, K., Crosby, S. C., Van Arendonk, N. R., Grossman, E. E., Tehranirad, B., Leijnse, T., Klessens, W., and Barnard, P. L.: Dynamic Modeling of Coastal Compound Flooding Hazards Due to Tides, Extratropical Storms, Waves, and Sea-Level Rise: A Case Study in the Salish Sea, Washington (USA), Water, 16, 346, https://doi.org/10.3390/w16020346, 2024.",
+        "DOI": "10.3390/w16020346"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "O'Neill, A. C., Erikson, L. H., Barnard, P. L., Limber, P. W., Vitousek, S., Warrick, J. A., Foxgrover, A. C., and Lovering, J.: Projected 21st century coastal flooding in the Southern California Bight. Part 1: Development of the third generation CoSMoS model, J. Mar. Sci. Eng., 6, 59, https://doi.org/10.3390/jmse6020059, 2018.",
+        "DOI": "10.3390/jmse6020059"
+      },
+      {
+        "key": "ref28",
+        "unstructured": "Parker, K., Nederhoff, K., Erikson, L. H., Hayden, M. K., Engelstad, A. C., Barnard, P. L., and Grossman, E. E.: CoSMoS (Coastal Storm Modeling System) modeled flood hazards for King County, Washington, U.S. Geological Survey data release [data set], https://doi.org/10.5066/P13HYXKY, 2025a."
+      },
+      {
+        "key": "ref29",
+        "unstructured": "Parker, K., Nederhoff, K., Erikson, L. H., Hayden, M. K., Engelstad, A. C., Barnard, P. L., and Grossman, E. E.: CoSMoS (Coastal Storm Modeling System) modeled flood hazards for Pierce County, Washington, U.S. Geological Survey data release, https://doi.org/10.5066/P14U7EK2, 2025b."
+      },
+      {
+        "key": "ref30",
+        "unstructured": "Parker, K., Nederhoff, K., Engelstad, A., Grossman, E., and Erikson, L.: Mid Century Projections of Waves and Water Levels Highlight the Dominant Role of Sea Level Rise in the Salish Sea, EGUsphere, submitted, 2026."
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rawls, W. J., Brakensiek, D. L., Saxton, K. E., Calhoun, F. G., Granger, M. A., and Breland, H. L.: Estimation of Soil Water Properties, T. ASAE, https://doi.org/10.13031/2013.33720, 1982.",
+        "DOI": "10.13031/2013.33720"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Resio, D. T. and Irish, J. L.: Tropical Cyclone Storm Surge Risk, Current Climate Change Reports, 1, 74\u201384, https://doi.org/10.1007/s40641-015-0011-9, 2015.",
+        "DOI": "10.1007/s40641-015-0011-9"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Roberts, M. J., Camp, J., Seddon, J., Vidale, P. L., Hodges, K., Vanni\u00e8re, B., Mecking, J., Haarsma, R., Bellucci, A., Scoccimarro, E., Caron, L. P., Chauvin, F., Terray, L., Valcke, S., Moine, M.-P., Putrasahan, D., Roberts, C. D., Senan, R., Zarzycki, C., Ullrich, P., Yamada, Y., Mizuta, R., Kodama, C., Fu, D., Zhang, Q.&lt;span id=&quot;page3250&quot;/&gt;, Danabasoglu, G., Rosenbloom, N., Wang, H., and Wu, L.: Projected Future Changes in Tropical Cyclones Using the CMIP6 HighResMIP Multimodel Ensemble, Geophys. Res. Lett., 47, e2020GL088662, https://doi.org/10.1029/2020GL088662, 2020.",
+        "DOI": "10.1029/2020GL088662"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rosbjerg, D.: Estimation of expected annual damage, EAD, Proc. IAHS, 385, 25\u201329, https://doi.org/10.5194/piahs-385-25-2024, 2024.",
+        "DOI": "10.5194/piahs-385-25-2024"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sebastian, A., Bader, D. J., Nederhoff, K., Leijnse, T., Bricker, J. D., and Aarninkhof, S. G. J.: Hindcast of pluvial, fluvial and coastal flood damage in Houston, TX during Hurricane Harvey (2017) using SFINCS, Nat. Hazards, https://doi.org/10.1007/s11069-021-04922-3, 2021.",
+        "DOI": "10.1007/s11069-021-04922-3"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sisson, T. W., Vallance, J. W., and Pringle, P. T.: Progress made in understanding Mount Rainier's hazards, Eos, Transactions American Geophysical Union, 82, 113\u2013120, https://doi.org/10.1029/01EO00057, 2001.",
+        "DOI": "10.1029/01EO00057"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Son, S., Xu, C., Davlasheridze, M., Ross, A. D., and Bricker, J. D.: Effectiveness of the Ike Dike in mitigating coastal flood risk under multiple climate and sea level rise projections, Risk Anal., 45, 2865\u20132894, https://doi.org/10.1111/risa.70060, 2025.",
+        "DOI": "10.1111/risa.70060"
+      },
+      {
+        "key": "ref38",
+        "unstructured": "STARR: Washington Watershed Risk Assessment, https://starr-team.com/starr/RegionalWorkspaces/RegionX/Documents/Region X State Business Plans/Washington_Watershed_Risk_Assessment.pdf (last access: 12\u00a0May\u00a02026), 2015."
+      },
+      {
+        "key": "ref39",
+        "unstructured": "Sweet, W. V., Hamlington, B. D., Kopp, R. E., Weaver, C. P., Barnard, P. L., Bekaert, D., Brooks, W., Craghan, M., Dusek, G., Frederikse, T., Garner, G., Genz, A. S., Krasting, J. P., Larour, E., Marcy, D., Marra, J. J., Obeysekera, J., Osler, M., Pendleton, M., Roman, D., Schmied, L., Veatch, W., White, K. D., and Zuzak, C.: Global and Regional Sea Level Rise Scenarios for the United States: Updated Mean Projections and Extreme Water Level Probabilities Along U.S. Coastlines, NOAA Technical Report NOS 01, National Oceanic and Atmospheric Administration, National Ocean Service, Silver Spring, MD, 111 pp., https://oceanservice.noaa.gov/hazards/sealevelrise/noaa-nos-techrpt01-global-regional-SLR-scenarios-US.pdf (last access: 12\u00a0May\u00a02026), 2022."
+      },
+      {
+        "key": "ref40",
+        "unstructured": "Thomas, J.: Roles, Responsibilities, and Resources Related to Flooding in Seattles South Park Neighborhood, South Seattle Emerald, https://southseattleemerald.org/news/2023/02/20/roles-responsibilities-and-resources-related-to-flooding-in-seattles-south-park-neighborhood (last access: 12\u00a0May\u00a02026), 2023."
+      },
+      {
+        "key": "ref41",
+        "unstructured": "Tyler, D., Danielson, J. J., Grossman, E., and Hockenberry, R.: Topobathymetric Model of Puget Sound, Washington, 1887 to 2017, U.S. Geological Survey Data Release, https://doi.org/10.5066/P95N6CIT, 2020."
+      },
+      {
+        "key": "ref42",
+        "unstructured": "U.S. Army Corps of Engineers: Report on Floods of December 1975 and January 1976, https://www.skagitriverhistory.com/Corps Docs/1977-06 Partial COE_Report 1975-76 Floods.pdf (last access: 12\u00a0May\u00a02026), 1977."
+      },
+      {
+        "key": "ref43",
+        "unstructured": "U.S. Geological Survey: USGS water data for the Nation: U.S. Geological Survey National Water Information System database, https://doi.org/10.5066/F7P55KJN, 2025."
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "van Ormondt, M., Leijnse, T., de Goede, R., Nederhoff, K., and van Dongeren, A.: Subgrid corrections for the linear inertial equations of a compound flood model \u2013 a case study using SFINCS 2.1.1 Dollerup release, Geosci. Model Dev., 18, 843\u2013861, https://doi.org/10.5194/gmd-18-843-2025, 2025a.",
+        "DOI": "10.5194/gmd-18-843-2025"
+      },
+      {
+        "key": "ref45",
+        "unstructured": "van Ormondt, M., Leijnse, T., Nederhoff, K., de Goede, R., van Dongeren, A., Bovenschen, T., and van Asselt, K.: SFINCS: Super-Fast INundation of CoastS model, Zenodo, https://doi.org/10.5281/zenodo.8038533, 2025b."
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "van Verseveld, W. J., Weerts, A. H., Visser, M., Buitink, J., Imhoff, R. O., Boisgontier, H., Bouaziz, L., Eilander, D., Hegnauer, M., ten Velden, C., and Russell, B.: Wflow_sbm v0.7.3, a spatially distributed hydrological model: from global data to local applications, Geosci. Model Dev., 17, 3199\u20133234, https://doi.org/10.5194/gmd-17-3199-2024, 2024.",
+        "DOI": "10.5194/gmd-17-3199-2024"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vitousek, S., Barnard, P. L., Limber, P., Erikson, L., and Cole, B.: A model integrating longshore and cross-shore processes for predicting long-term shoreline response to climate change, J. Geophys. Res.-Earth, 122, 782\u2013806, https://doi.org/10.1002/2016JF004065, 2017.",
+        "DOI": "10.1002/2016JF004065"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Viviroli, D., Sikorska-Senoner, A. E., Evin, G., Staudinger, M., Kauzlaric, M., Chardon, J., Favre, A.-C., Hingray, B., Nicolet, G., Raynaud, D., Seibert, J., Weingartner, R., and Whealton, C.: Comprehensive space\u2013time hydrometeorological simulations for estimating very rare floods at multiple sites in a large river basin, Nat. Hazards Earth Syst. Sci., 22, 2891\u20132920, https://doi.org/10.5194/nhess-22-2891-2022, 2022.",
+        "DOI": "10.5194/nhess-22-2891-2022"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vousdoukas, M. I., Mentaschi, L., Voukouvalas, E., Verlaan, M., Jevrejeva, S., Jackson, L. P., and Feyen, L.: Global probabilistic projections of extreme sea levels show intensification of coastal flood hazard, Nat. Commun., 9, 2360, https://doi.org/10.1038/s41467-018-04692-w, 2018.",
+        "DOI": "10.1038/s41467-018-04692-w"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vousdoukas, M. I., Athanasiou, P., Giardino, A., Mentaschi, L., Stocchino, A., Kopp, R. E., Men\u00e9ndez, P., Beck, M. W., Ranasinghe, R., and Feyen, L.: Small Island Developing States under threat by rising seas even in a 1.5 \u00b0 C warming world, Nat. Sustain., 6, 1552\u20131564, https://doi.org/10.1038/s41893-023-01230-5, 2023.",
+        "DOI": "10.1038/s41893-023-01230-5"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wahl, T., Jain, S., Bender, J., Meyers, S. D., and Luther, M. E.: Increasing risk of compound flooding from storm surge and rainfall for major US cities, Nat. Clim. Change, 5, 1093\u20131097, https://doi.org/10.1038/nclimate2736, 2015.",
+        "DOI": "10.1038/nclimate2736"
+      },
+      {
+        "key": "ref52",
+        "unstructured": "Weibull, W.: A statistical theory of strength of materials, Ing. Vetensk. Akad. Handl., 1939."
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wing, O. E. J., Bates, P. D., Sampson, C. C., Smith, A. M., Johnson, K. A., and Erickson, T. A.: Validation of a 30 m resolution flood hazard model of the conterminous United States, Water Resour. Res., 53, 7968\u20137986, https://doi.org/10.1002/2017WR020917, 2017.",
+        "DOI": "10.1002/2017WR020917"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wing, O. E. J., Lehman, W., Bates, P. D., Sampson, C. C., Quinn, N., Smith, A. M., Neal, J. C., Porter, J. R., and Kousky, C.: Inequitable patterns of US flood risk in the Anthropocene, Nat. Clim. Change, 12, 156\u2013162, https://doi.org/10.1038/s41558-021-01265-6, 2022.",
+        "DOI": "10.1038/s41558-021-01265-6"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yamanaka, Y., Shibata, R., Tajima, Y., and Okami, N.: Inundation Characteristics in Arida City Due to Overtopping Waves Induced by 2018 Typhoon Jebi, in: APAC 2019, edited by: Trung Viet, N., Xiping, D., and Thanh Tung, T., Springer Singapore, 199\u2013206, https://doi.org/10.1007/978-981-15-0291-0, 2020.",
+        "DOI": "10.1007/978-981-15-0291-0_28"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, Z., Garc\u00eda-Medina, G., Wu, W.-C., Wang, T., Leung, L. R., Castrucci, L., and Mauger, G.: Modeling analysis of the swell and wind-sea climate in the Salish Sea, Estuar. Coast. Shelf Sci., 224, 289\u2013300, https://doi.org/10.1016/j.ecss.2019.04.043, 2019.",
+        "DOI": "10.1016/j.ecss.2019.04.043"
+      }
+    ],
+    "container-title": [
+      "Natural Hazards and Earth System Sciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://nhess.copernicus.org/articles/26/3231/2026/nhess-26-3231-2026.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          13
+        ]
+      ],
+      "date-time": "2026-07-13T09:10:28Z",
+      "timestamp": 1783933828000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://nhess.copernicus.org/articles/26/3231/2026/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          13
+        ]
+      ]
+    },
+    "references-count": 56,
+    "journal-issue": {
+      "issue": "7",
+      "published-online": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.5194/nhess-26-3231-2026",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2025-4909",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2025-4909",
+          "asserted-by": "object"
+        }
+      ],
+      "has-review": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2025-4909-RC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2025-4909-AC2",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2025-4909-RC2",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2025-4909-AC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2025-4909-RC3",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2025-4909-AC3",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2025-4909-RC4",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2025-4909-AC4",
+          "asserted-by": "subject"
+        }
+      ],
+      "is-part-of": [
+        {
+          "id-type": "doi",
+          "id": "10.5066/P13HYXKY",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5066/P14U7EK2",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "ISSN": [
+      "1684-9981"
+    ],
+    "issn-type": [
+      {
+        "value": "1684-9981",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          13
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.5194/nhess-26-3231-2026",
+  "original_doi": "10.5194/nhess-26-3231-2026"
+}

@@ -1,0 +1,988 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          1
+        ]
+      ],
+      "date-time": "2026-08-01T08:05:03Z",
+      "timestamp": 1785571503523,
+      "version": "3.56.0"
+    },
+    "reference-count": 88,
+    "publisher": "Copernicus GmbH",
+    "issue": "18",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              26
+            ]
+          ],
+          "date-time": "2024-09-26T00:00:00Z",
+          "timestamp": 1727308800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "EAR-2221880"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "EAR-2221880"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "PHY-2018280"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "PHY-2018280"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100011859",
+        "name": "International Institute for Applied Systems Analysis",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "Young Scientists Summer Program"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "Young Scientists Summer Program"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100011859",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100006785",
+        "name": "Google",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "1904-57775"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "1904-57775"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100006785",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000192",
+        "name": "National Oceanic and Atmospheric Administration",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "A22-0307-S003"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "A22-0307-S003"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000192",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Geosci. Model Dev."
+    ],
+    "abstract": "<jats:p>Abstract. Accurate hydrologic modeling is vital to characterizing how the terrestrial water cycle responds to climate change. Pure deep learning (DL) models have been shown to outperform process-based ones while remaining difficult to interpret. More recently, differentiable physics-informed machine learning models with a physical backbone can systematically integrate physical equations and DL, predicting untrained variables and processes with high performance. However, it is unclear if such models are competitive for global-scale applications with a simple backbone. Therefore, we use \u2013 for the first time at this scale \u2013 differentiable hydrologic models (full name \u03b4HBV-globe1.0-hydroDL, shortened to \u03b4HBV here) to simulate the rainfall\u2013runoff processes for 3753 basins around the world. Moreover, we compare the \u03b4HBV models to a purely data-driven long short-term memory (LSTM) model to examine their strengths and limitations. Both LSTM and the \u03b4HBV models provide competitive daily hydrologic simulation capabilities in global basins, with median Kling\u2013Gupta efficiency values close to or higher than 0.7 (and 0.78 with LSTM for a subset of 1675 basins with long-term discharge records), significantly outperforming traditional models. Moreover, regionalized differentiable models demonstrated stronger spatial generalization ability (median KGE 0.64) than a traditional parameter regionalization approach (median KGE 0.46) and even LSTM for ungauged region tests across continents. Nevertheless, relative to LSTM, the differentiable model was hampered by structural deficiencies for cold or polar regions, highly arid regions, and basins with significant human impacts. This study also sets the benchmark for hydrologic estimates around the world and builds a foundation for improving global hydrologic simulations.</jats:p>",
+    "DOI": "10.5194/gmd-17-7181-2024",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          26
+        ]
+      ],
+      "date-time": "2024-09-26T05:48:32Z",
+      "timestamp": 1727329712000
+    },
+    "page": "7181-7198",
+    "source": "Crossref",
+    "is-referenced-by-count": 35,
+    "title": [
+      "Deep dive into hydrologic simulations at global scale: harnessing the power of deep learning and physics-informed differentiable models (\n                    <i>\u03b4</i>\n                    HBV-globe1.0-hydroDL)"
+    ],
+    "prefix": "10.5194",
+    "volume": "17",
+    "author": [
+      {
+        "given": "Dapeng",
+        "family": "Feng",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2553-9566",
+        "authenticated-orcid": false,
+        "given": "Hylke",
+        "family": "Beck",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jens",
+        "family": "de Bruijn",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0681-0509",
+        "authenticated-orcid": false,
+        "given": "Reetik Kumar",
+        "family": "Sahu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yusuke",
+        "family": "Satoh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yoshihide",
+        "family": "Wada",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9219-8354",
+        "authenticated-orcid": false,
+        "given": "Jiangtao",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3350-8719",
+        "authenticated-orcid": false,
+        "given": "Ming",
+        "family": "Pan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0075-7911",
+        "authenticated-orcid": false,
+        "given": "Kathryn",
+        "family": "Lawson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0685-1901",
+        "authenticated-orcid": false,
+        "given": "Chaopeng",
+        "family": "Shen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "3145",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          26
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Aboelyazeed, D., Xu, C., Hoffman, F. M., Liu, J., Jones, A. W., Rackauckas, C., Lawson, K., and Shen, C.: A differentiable, physics-informed ecosystem modeling and learning framework for large-scale inverse problems: demonstration with photosynthesis simulations, Biogeosciences, 20, 2671\u20132692, https://doi.org/10.5194/bg-20-2671-2023, 2023.",
+        "DOI": "10.5194/bg-20-2671-2023"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alfieri, L., Lorini, V., Hirpa, F. A., Harrigan, S., Zsoter, E., Prudhomme, C., and Salamon, P.: A global streamflow reanalysis for 1980\u20132018, J. Hydrol. X, 6, 100049, https://doi.org/10.1016/j.hydroa.2019.100049, 2020.",
+        "DOI": "10.1016/j.hydroa.2019.100049"
+      },
+      {
+        "key": "ref3",
+        "unstructured": "Australia BoM: Water Data Online: Water Information, Australia Bureau of Meteorology (BoM) [data set], http://www.bom.gov.au/waterdata/ (last access: 1\u00a0May\u00a02022), 2024."
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Beck, H. E., van Dijk, A. I. J. M., de Roo, A., Dutra, E., Fink, G., Orth, R., and Schellekens, J.: Global evaluation of runoff from 10 state-of-the-art hydrological models, Hydrol. Earth Syst. Sci., 21, 2881\u20132903, https://doi.org/10.5194/hess-21-2881-2017, 2017a.",
+        "DOI": "10.5194/hess-21-2881-2017"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Beck, H. E., van Dijk, A. I. J. M., Levizzani, V., Schellekens, J., Miralles, D. G., Martens, B., and de Roo, A.: MSWEP: 3-hourly 0.25\u00b0 global gridded precipitation (1979\u20132015) by merging gauge, satellite, and reanalysis data, Hydrol. Earth Syst. Sci., 21, 589\u2013615, https://doi.org/10.5194/hess-21-589-2017, 2017b.",
+        "DOI": "10.5194/hess-21-589-2017"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Beck, H. E., Vergopolan, N., Pan, M., Levizzani, V., van Dijk, A. I. J. M., Weedon, G. P., Brocca, L., Pappenberger, F., Huffman, G. J., and Wood, E. F.: Global-scale evaluation of 22 precipitation datasets using gauge observations and hydrological modeling, Hydrol. Earth Syst. Sci., 21, 6201\u20136217, https://doi.org/10.5194/hess-21-6201-2017, 2017c.",
+        "DOI": "10.5194/hess-21-6201-2017"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Beck, H. E., Wood, E. F., Pan, M., Fisher, C. K., Miralles, D. G., Dijk, A. I. J. M. van, McVicar, T. R., and Adler, R. F.: MSWEP V2 Global 3-Hourly 0.1\u00b0 Precipitation: Methodology and Quantitative Assessment, B. Am. Meteorol. Soc., 100, 473\u2013500, https://doi.org/10.1175/BAMS-D-17-0138.1, 2019.",
+        "DOI": "10.1175/BAMS-D-17-0138.1"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Beck, H. E., Pan, M., Lin, P., Seibert, J., van Dijk, A. I. J. M., and Wood, E. F.: Global fully distributed parameter regionalization based on observed streamflow from 4,229 headwater catchments, J. Geophys. Res.-Atmos., 125, e2019JD031485, https://doi.org/10.1029/2019JD031485, 2020a.",
+        "DOI": "10.1029/2019JD031485"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Beck, H. E., Wood, E. F., McVicar, T. R., Zambrano-Bigiarini, M., Alvarez-Garreton, C., Baez-Villanueva, O. M., Sheffield, J., and Karger, D. N.: Bias correction of global high-resolution precipitation climatologies using streamflow observations from 9372 catchments, J. Climate, 33, 1299\u20131315, https://doi.org/10.1175/JCLI-D-19-0332.1, 2020b.",
+        "DOI": "10.1175/JCLI-D-19-0332.1"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Beck, H. E., van Dijk, A. I. J. M., Larraondo, P. R., McVicar, T. R., Pan, M., Dutra, E., and Miralles, D. G.: MSWX: Global 3-hourly 0.1\u00b0 bias-corrected meteorological data including near real-time updates and forecast ensembles, B. Am. Meteorol. Soc., 103, E710\u2013E732, https://doi.org/10.1175/BAMS-D-21-0145.1, 2022.",
+        "DOI": "10.1175/BAMS-D-21-0145.1"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Berghuijs, W. R., Sivapalan, M., Woods, R. A., and Savenije, H. H. G.: Patterns of similarity of seasonal water balances: A window into streamflow variability over a range of time scales, Water Resour. Res., 50, 5638\u20135661, https://doi.org/10.1002/2014WR015692, 2014.",
+        "DOI": "10.1002/2014WR015692"
+      },
+      {
+        "key": "ref12",
+        "unstructured": "Bergstr\u00f6m, S.: Development and application of a conceptual runoff model for Scandinavian catchments, PhD Thesis, Swedish Meteorological and Hydrological Institute (SMHI), Nork\u00f6ping, Sweden, 1976."
+      },
+      {
+        "key": "ref13",
+        "unstructured": "Bergstr\u00f6m, S.: The HBV model \u2013 its structure and applications, Swedish Meteorological and Hydrological Institute (SMHI), Norrk\u00f6ping, Sweden, 1992."
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bindas, T., Tsai, W.-P., Liu, J., Rahmani, F., Feng, D., Bian, Y., Lawson, K., and Shen, C.: Improving river routing using a differentiable Muskingum-Cunge model and physics-informed machine learning, Water Resour. Res., 60, e2023WR035337, https://doi.org/10.1029/2023WR035337, 2024.",
+        "DOI": "10.1029/2023WR035337"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bolibar, J., Sapienza, F., Maussion, F., Lguensat, R., Wouters, B., and P\u00e9rez, F.: Universal differential equations for glacier ice flow modelling, Geosci. Model Dev., 16, 6671\u20136687, https://doi.org/10.5194/gmd-16-6671-2023, 2023.",
+        "DOI": "10.5194/gmd-16-6671-2023"
+      },
+      {
+        "key": "ref16",
+        "unstructured": "Brazilian Ag\u00eancia Nacional de \u00c1guas: HidroWeb Portal, Brazilian Ag\u00eancia Nacional de \u00c1guas [data set], https://www.snirh.gov.br/hidroweb/apresentacao (last access: 1\u00a0May\u00a02022), 2024."
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Burek, P., Satoh, Y., Kahil, T., Tang, T., Greve, P., Smilovic, M., Guillaumot, L., Zhao, F., and Wada, Y.: Development of the Community Water Model (CWatM v1.04) \u2013 a high-resolution hydrological model for global and regional assessment of integrated water resources management, Geosci. Model Dev., 13, 3267\u20133298, https://doi.org/10.5194/gmd-13-3267-2020, 2020.",
+        "DOI": "10.5194/gmd-13-3267-2020"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, B., Krajewski, W. F., Liu, F., Fang, W., and Xu, Z.: Estimating instantaneous peak flow from mean daily flow, Hydrol. Res., 48, 1474\u20131488, https://doi.org/10.2166/nh.2017.200, 2017.",
+        "DOI": "10.2166/nh.2017.200"
+      },
+      {
+        "key": "ref19",
+        "unstructured": "Chilean CR2: Flow Data, Chilean Center for Climate and Resilience Research (CR2) [data set], https://www.cr2.cl/datos-de-caudales/ (last access: 1\u00a0May\u00a02022), 2024."
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cui, G., Anderson, M., and Bales, R.: Mapping of snow water equivalent by a deep-learning model assimilating snow observations, J. Hydrol., 616, 128835, https://doi.org/10.1016/j.jhydrol.2022.128835, 2023.",
+        "DOI": "10.1016/j.jhydrol.2022.128835"
+      },
+      {
+        "key": "ref21",
+        "unstructured": "de Jager, A. and Vogt, J.: Rivers and Catchments of Europe \u2013 Catchment Characterisation Model (CCM), European Commission, Joint Research Centre (JRC) [data set], http://data.europa.eu/89h/8c681046-726b-413d-aff8-b1afebd73c0a (last access: 1\u00a0May\u00a02022), 2003."
+      },
+      {
+        "key": "ref22",
+        "unstructured": "Driscoll, D. G., Carter, J. M., Williamson, J. E., and Putnam, L. D.: Hydrology of the Black Hills Area, South Dakota (Water Resources Investigation Report 02\u20134094), US Geological Survey, http://pubs.usgs.gov/wri/wri024094/ (last access: 1\u00a0September\u00a02023), 2002."
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fang, K. and Shen, C.: Near-real-time forecast of satellite-based soil moisture using long short-term memory with an adaptive data integration kernel, J. Hydrometeor., 21, 399\u2013413, https://doi.org/10.1175/jhm-d-19-0169.1, 2020.",
+        "DOI": "10.1175/JHM-D-19-0169.1"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fang, K., Shen, C., Kifer, D., and Yang, X.: Prolongation of SMAP to spatiotemporally seamless coverage of continental U.S. using a deep learning neural network, Geophys. Res. Lett., 44, 11030\u201311039, https://doi.org/10.1002/2017gl075619, 2017.",
+        "DOI": "10.1002/2017GL075619"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fang, K., Pan, M., and Shen, C.: The value of SMAP for long-term soil moisture estimation with the help of deep learning, IEEE T. Geosci. Remote, 57, 2221\u20132233, https://doi.org/10.1109/TGRS.2018.2872131, 2019.",
+        "DOI": "10.1109/TGRS.2018.2872131"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fang, K., Kifer, D., Lawson, K., Feng, D., and Shen, C.: The data synergy effects of time-series deep learning models in hydrology, Water Resour. Res., 58, e2021WR029583, https://doi.org/10.1029/2021WR029583, 2022.",
+        "DOI": "10.1029/2021WR029583"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Feng, D., Fang, K., and Shen, C.: Enhancing streamflow forecast and extracting insights using long-short term memory networks with data integration at continental scales, Water Resour. Res., 56, e2019WR026793, https://doi.org/10.1029/2019WR026793, 2020.",
+        "DOI": "10.1029/2019WR026793"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Feng, D., Lawson, K., and Shen, C.: Mitigating prediction error of deep learning streamflow models in large data-sparse regions with ensemble modeling and soft data, Geophys. Res. Lett., 48, e2021GL092999, https://doi.org/10.1029/2021GL092999, 2021.",
+        "DOI": "10.1029/2021GL092999"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Feng, D., Liu, J., Lawson, K., and Shen, C.: Differentiable, learnable, regionalized process-based models with multiphysical outputs can approach state-of-the-art hydrologic prediction accuracy, Water Resour. Res., 58, e2022WR032404, https://doi.org/10.1029/2022WR032404, 2022a.",
+        "DOI": "10.1029/2022WR032404"
+      },
+      {
+        "key": "ref30",
+        "unstructured": "Feng, D., Shen, C., Liu, J., Lawson, K., and Beck, H.: differentiable parameter learning (dPL) + HBV hydrologic model, Zenodo [code], https://doi.org/10.5281/zenodo.7091334, 2022b."
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Feng, D., Beck, H., Lawson, K., and Shen, C.: The suitability of differentiable, physics-informed machine learning hydrologic models for ungauged regions and climate change impact assessment, Hydrol. Earth Syst. Sci., 27, 2357\u20132373, https://doi.org/10.5194/hess-27-2357-2023, 2023.",
+        "DOI": "10.5194/hess-27-2357-2023"
+      },
+      {
+        "key": "ref32",
+        "unstructured": "GloH2O: MSWEP, GloH2O [data set], https://www.gloh2o.org/mswep/ (last access: 1\u00a0May\u00a02022), 2019."
+      },
+      {
+        "key": "ref33",
+        "unstructured": "GloH2O: MSWX, GloH2O [data set], https://www.gloh2o.org/mswx/ (last access: 1\u00a0May\u00a02022), 20222."
+      },
+      {
+        "key": "ref34",
+        "unstructured": "GRDC: European Water Archive (EWA) of EURO-FRIEND-Water, GRDC [data set], https://grdc.bafg.de/GRDC/EN/04_spcldtbss/42_EWA/ewa.html (last access: 1\u00a0May\u00a02022), 2014."
+      },
+      {
+        "key": "ref35",
+        "unstructured": "GRDC: River Discharge Data, Global Runoff Data Center (GRDC) [data set], https://grdc.bafg.de/GRDC/EN/Home/homepage_node.html (last access: 1\u00a0May\u00a02022), 2024."
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gupta, H. V., Kling, H., Yilmaz, K. K., and Martinez, G. F.: Decomposition of the mean squared error and NSE performance criteria: Implications for improving hydrological modelling, J. Hydrol., 377, 80\u201391, https://doi.org/10.1016/j.jhydrol.2009.08.003, 2009.",
+        "DOI": "10.1016/j.jhydrol.2009.08.003"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hagemann, S., Chen, C., Clark, D. B., Folwell, S., Gosling, S. N., Haddeland, I., Hanasaki, N., Heinke, J., Ludwig, F.&lt;span id=&quot;page7196&quot;/&gt;, Voss, F., and Wiltshire, A. J.: Climate change impact on available water resources obtained using multiple global climate and hydrology models, Earth Syst. Dynam., 4, 129\u2013144, https://doi.org/10.5194/esd-4-129-2013, 2013.",
+        "DOI": "10.5194/esd-4-129-2013"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hansen, L. D., Stokholm-Bjerregaard, M., and Durdevic, P.: Modeling phosphorous dynamics in a wastewater treatment process using Bayesian optimized LSTM, Comput. Chem. Eng., 160, 107738, https://doi.org/10.1016/j.compchemeng.2022.107738, 2022.",
+        "DOI": "10.1016/j.compchemeng.2022.107738"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hargreaves, G. H.: Defining and using reference evapotranspiration, J. Irrig. Drain. Eng., 120, 1132\u20131139, https://doi.org/10.1061/(ASCE)0733-9437(1994)120:6(1132), 1994.",
+        "DOI": "10.1061/(ASCE)0733-9437(1994)120:6(1132)"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hattermann, F. F., Krysanova, V., Gosling, S. N., Dankers, R., Daggupati, P., Donnelly, C., Fl\u00f6rke, M., Huang, S., Motovilov, Y., Buda, S., Yang, T., M\u00fcller, C., Leng, G., Tang, Q., Portmann, F. T., Hagemann, S., Gerten, D., Wada, Y., Masaki, Y., Alemayehu, T., Satoh, Y., and Samaniego, L.: Cross-scale intercomparison of climate change impacts simulated by regional and global hydrological models in eleven large river basins, Clim. Change, 141, 561\u2013576, https://doi.org/10.1007/s10584-016-1829-4, 2017.",
+        "DOI": "10.1007/s10584-016-1829-4"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hilker, T., Lyapustin, A. I., Hall, F. G., Myneni, R., Knyazikhin, Y., Wang, Y., Tucker, C. J., and Sellers, P. J.: On the measurability of change in Amazon vegetation from MODIS, Remote Sens. Environ., 166, 233\u2013242, https://doi.org/10.1016/j.rse.2015.05.020, 2015.",
+        "DOI": "10.1016/j.rse.2015.05.020"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hochreiter, S. and Schmidhuber, J.: Long Short-Term Memory, Neural Computation, 9, 1735\u20131780, https://doi.org/10.1162/neco.1997.9.8.1735, 1997.",
+        "DOI": "10.1162/neco.1997.9.8.1735"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H\u00f6ge, M., Scheidegger, A., Baity-Jesi, M., Albert, C., and Fenicia, F.: Improving hydrologic models for predictions and process understanding using neural ODEs, Hydrol. Earth Syst. Sci., 26, 5085\u20135102, https://doi.org/10.5194/hess-26-5085-2022, 2022.",
+        "DOI": "10.5194/hess-26-5085-2022"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hou, Y., Guo, H., Yang, Y., and Liu, W.: Global Evaluation of Runoff Simulation From Climate, Hydrological and Land Surface Models, Water Resour. Res., 59, e2021WR031817, https://doi.org/10.1029/2021WR031817, 2023.",
+        "DOI": "10.5194/egusphere-egu23-3314"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jayakrishnan, R., Srinivasan, R., Santhi, C., and Arnold, J. G.: Advances in the application of the SWAT model for water resources management, Hydrol. Process., 19, 749\u2013762, https://doi.org/10.1002/hyp.5624, 2005.",
+        "DOI": "10.1002/hyp.5624"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jiang, S., Zheng, Y., and Solomatine, D.: Improving AI system awareness of geoscience knowledge: Symbiotic integration of physical approaches and deep learning, Geophys. Res. Lett., 47, e2020GL088229, https://doi.org/10.1029/2020GL088229, 2020.",
+        "DOI": "10.1029/2020GL088229"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kling, H., Fuchs, M., and Paulin, M.: Runoff conditions in the upper Danube basin under an ensemble of climate change scenarios, J. Hydrol., 424\u2013425, 264\u2013277, https://doi.org/10.1016/j.jhydrol.2012.01.011, 2012.",
+        "DOI": "10.1016/j.jhydrol.2012.01.011"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Konapala, G., Kao, S.-C., Painter, S. L., and Lu, D.: Machine learning assisted hybrid models can improve streamflow simulation in diverse catchments across the conterminous US, Environ. Res. Lett., 15, 104022, https://doi.org/10.1088/1748-9326/aba927, 2020.",
+        "DOI": "10.1088/1748-9326/aba927"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kraft, B., Jung, M., K\u00f6rner, M., Koirala, S., and Reichstein, M.: Towards hybrid modeling of the global hydrological cycle, Hydrol. Earth Syst. Sci., 26, 1579\u20131614, https://doi.org/10.5194/hess-26-1579-2022, 2022.",
+        "DOI": "10.5194/hess-26-1579-2022"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kratzert, F., Klotz, D., Herrnegger, M., Sampson, A. K., Hochreiter, S., and Nearing, G. S.: Toward improved predictions in ungauged basins: Exploiting the power of machine learning, Water Resour. Res., 55, 11344\u201311354, https://doi.org/10/gg4ck8, 2019a.",
+        "DOI": "10.1029/2019WR026065"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kratzert, F., Klotz, D., Shalev, G., Klambauer, G., Hochreiter, S., and Nearing, G.: Towards learning universal, regional, and local hydrological behaviors via machine learning applied to large-sample datasets, Hydrol. Earth Syst. Sci., 23, 5089\u20135110, https://doi.org/10.5194/hess-23-5089-2019, 2019b.",
+        "DOI": "10.5194/hess-23-5089-2019"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lees, T., Buechel, M., Anderson, B., Slater, L., Reece, S., Coxon, G., and Dadson, S. J.: Benchmarking data-driven rainfall\u2013runoff models in Great Britain: a comparison of long short-term memory (LSTM)-based models with four lumped conceptual models, Hydrol. Earth Syst. Sci., 25, 5517\u20135534, https://doi.org/10.5194/hess-25-5517-2021, 2021.",
+        "DOI": "10.5194/hess-25-5517-2021"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lees, T., Reece, S., Kratzert, F., Klotz, D., Gauch, M., De Bruijn, J., Kumar Sahu, R., Greve, P., Slater, L., and Dadson, S. J.: Hydrological concept formation inside long short-term memory (LSTM) networks, Hydrol. Earth Syst. Sci., 26, 3079\u20133101, https://doi.org/10.5194/hess-26-3079-2022, 2022.",
+        "DOI": "10.5194/hess-26-3079-2022"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, J., Bian, Y., Lawson, K., and Shen, C.: Probing the limit of hydrologic predictability with the Transformer network, J. Hydrol., 637, 131389, https://doi.org/10.1016/j.jhydrol.2024.131389, 2024.",
+        "DOI": "10.1016/j.jhydrol.2024.131389"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mai, J., Shen, H., Tolson, B. A., Gaborit, \u00c9., Arsenault, R., Craig, J. R., Fortin, V., Fry, L. M., Gauch, M., Klotz, D., Kratzert, F., O'Brien, N., Princz, D. G., Rasiya Koya, S., Roy, T., Seglenieks, F., Shrestha, N. K., Temgoua, A. G. T., Vionnet, V., and Waddell, J. W.: The Great Lakes Runoff Intercomparison Project Phase 4: the Great Lakes (GRIP-GL), Hydrol. Earth Syst. Sci., 26, 3537\u20133572, https://doi.org/10.5194/hess-26-3537-2022, 2022.",
+        "DOI": "10.5194/hess-26-3537-2022"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Maidment, D. R.: Conceptual Framework for the National Flood Interoperability Experiment, JAWRA J. Am. Water Resour. A., 53, 245\u2013257, https://doi.org/10/f97pz3, 2017.",
+        "DOI": "10.1111/1752-1688.12474"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Martinez, G. F. and Gupta, H. V.: Toward improved identification of hydrological models: A diagnostic evaluation of the \u201cabcd\u201d monthly water balance model for the conterminous United States, Water Resour. Res., 46, W08507, https://doi.org/10.1029/2009WR008294, 2010.",
+        "DOI": "10.1029/2009WR008294"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mizukami, N., Clark, M. P., Newman, A. J., Wood, A. W., Gutmann, E. D., Nijssen, B., Rakovec, O., and Samaniego, L.: Towards seamless large-domain parameter estimation for hydrologic models, Water Resour. Res., 53, 8020\u20138040, https://doi.org/10/gcg2dm, 2017.",
+        "DOI": "10.1002/2017WR020401"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M\u00fcller Schmied, H., Eisner, S., Franz, D., Wattenbach, M., Portmann, F. T., Fl\u00f6rke, M., and D\u00f6ll, P.: Sensitivity of simulated global-scale freshwater fluxes and storages to input data, hydrological model structure, human water use and calibration, Hydrol. Earth Syst. Sci., 18, 3511\u20133538, https://doi.org/10.5194/hess-18-3511-2014, 2014.",
+        "DOI": "10.5194/hess-18-3511-2014"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nash, J. E. and Sutcliffe, J. V.: River flow forecasting through conceptual models part I \u2013 A discussion of principles, J. Hydrol., 10, 282\u2013290, https://doi.org/10.1016/0022-1694(70)90255-6, 1970.",
+        "DOI": "10.1016/0022-1694(70)90255-6"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Newman, A. J., Mizukami, N., Clark, M. P., Wood, A. W., Nijssen, B., Nearing, G., Newman, A. J., Mizukami, N., Clark, M. P., Wood, A. W., Nijssen, B., and Nearing, G.: Benchmarking of a Physically Based Hydrologic Model, J. Hydrometeorol., 18, 2215\u20132225, https://doi.org/10/gbwr9s, 2017.",
+        "DOI": "10.1175/JHM-D-16-0284.1"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Niu, J., Shen, C., Chambers, J., Melack, J. M., and Riley, W. J.: Interannual variation in hydrologic budgets in an Amazonian watershed with a coupled subsurface \u2013 land surface process model, J. Hydrometeorol., 18, 2597\u20132617, https://doi.org/10.1175/JHM-D-17-0108.1, 2017.",
+        "DOI": "10.1175/JHM-D-17-0108.1"
+      },
+      {
+        "key": "ref63",
+        "unstructured": "Paszke, A., Gross, S., Chintala, S., Chanan, G., Yang, E., DeVito, Z., Lin, Z., Desmaison, A., Antiga, L., and Lerer, A.: Automatic differentiation in PyTorch, in: 31st Conference on Neural Information Processing Systems (NIPS 2017), 4\u20139 December 2017, Long Beach, CA, 2017."
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rahmani, F., Lawson, K., Ouyang, W., Appling, A., Oliver, S., and Shen, C.: Exploring the exceptional performance of a deep learning stream temperature model and the value of streamflow data, Environ. Res. Lett., 16, 024025, https://doi.org/10.1088/1748-9326/abd501, 2021.",
+        "DOI": "10.1088/1748-9326/abd501"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rahmani, F., Appling, A., Feng, D., Lawson, K., and Shen, C.: Identifying structural priors in a hybrid differentiable model for stream water temperature modeling, Water Resour. Res., 59, e2023WR034420, https://doi.org/10.1029/2023WR034420, 2023.",
+        "DOI": "10.1029/2023WR034420"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Reichert, P., Ma, K., H\u00f6ge, M., Fenicia, F., Baity-Jesi, M., Feng, D., and Shen, C.: Metamorphic testing of machine learning and conceptual hydrologic models, Hydrol. Earth Syst. Sci., 28, 2505\u20132529, https://doi.org/10.5194/hess-28-2505-2024, 2024.",
+        "DOI": "10.5194/hess-28-2505-2024"
+      },
+      {
+        "key": "ref67",
+        "unstructured": "Running, S., Mu, Q., Zhao, M., and Moreno, A.: MODIS/Terra Net Evapotranspiration Gap-Filled 8-Day L4 Global 500m SIN Grid V061, NASA EOSDIS Land Processes Distributed Active Archive Center [data set], https://doi.org/10.5067/MODIS/MOD16A2GF.061, 2021."
+      },
+      {
+        "key": "ref68",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Saha, G., Rahmani, F., Shen, C., Li, L., and Cibin, R.: A deep learning-based novel approach to generate continuous daily stream nitrate concentration for nitrate data-sparse watersheds, Sci. Total Environ., 878, 162930, https://doi.org/10.1016/j.scitotenv.2023.162930, 2023.",
+        "DOI": "10.1016/j.scitotenv.2023.162930"
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Seibert, J. and Vis, M. J. P.: Teaching hydrological modeling with a user-friendly catchment-runoff-model software package, Hydrol. Earth Syst. Sci., 16, 3315\u20133325, https://doi.org/10.5194/hess-16-3315-2012, 2012.",
+        "DOI": "10.5194/hess-16-3315-2012"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shaw, D. A., Pietroniro, A., and Martz, L. w.: Topographic analysis for the prairie pothole region of Western Canada, Hydrol. Process., 27, 3105\u20133114, https://doi.org/10.1002/hyp.9409, 2013.",
+        "DOI": "10.1002/hyp.9409"
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shen, C.: A transdisciplinary review of deep learning research and its relevance for water resources scientists, Water Resour. Res., 54, 8558\u20138593, https://doi.org/10.1029/2018wr022643, 2018.",
+        "DOI": "10.1029/2018WR022643"
+      },
+      {
+        "key": "ref72",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shen, C., Appling, A. P., Gentine, P., Bandai, T., Gupta, H., Tartakovsky, A., Baity-Jesi, M., Fenicia, F., Kifer, D., Li, L., Liu, X., Ren, W., Zheng, Y., Harman, C. J., Clark, M., Farthing, M., Feng, D., Kumar, P., Aboelyazeed, D., Rahmani, F., Song, Y., Beck, H. E., Bindas, T., Dwivedi, D., Fang, K., H\u00f6ge, M., Rackauckas, C., Mohanty, B., Roy, T., Xu, C., and Lawson, K.: Differentiable modelling to unify machine learning and physical models for geosciences, Nat. Rev. Earth Environ., 4, 552\u2013567, https://doi.org/10.1038/s43017-023-00450-9, 2023.",
+        "DOI": "10.1038/s43017-023-00450-9"
+      },
+      {
+        "key": "ref73",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Song, Y., Chaemchuen, P., Rahmani, F., Zhi, W., Li, L., Liu, X., Boyer, E., Bindas, T., Lawson, K., and Shen, C.: Deep learning insights into suspended sediment concentrations across the conterminous United States: Strengths and limitations, J. Hydrol., 639, 131573, https://doi.org/10.1016/j.jhydrol.2024.131573, 2024a.",
+        "DOI": "10.1016/j.jhydrol.2024.131573"
+      },
+      {
+        "key": "ref74",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Song, Y., Knoben, W. J. M., Clark, M. P., Feng, D., Lawson, K., Sawadekar, K., and Shen, C.: When ancient numerical demons meet physics-informed machine learning: adjoint-based gradients for implicit differentiable modeling, Hydrol. Earth Syst. Sci., 28, 3051\u20133077, https://doi.org/10.5194/hess-28-3051-2024, 2024b.",
+        "DOI": "10.5194/hess-28-3051-2024"
+      },
+      {
+        "key": "ref75",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Song, Y., Tsai, W.-P., Gluck, J., Rhoades, A., Zarzycki, C., McCrary, R., Lawson, K., and Shen, C.: LSTM-based data integration to improve snow water equivalent prediction and diagnose error sources, J. Hydrometeorol., 25, 223\u2013237, https://doi.org/10.1175/JHM-D-22-0220.1, 2024c.",
+        "DOI": "10.1175/JHM-D-22-0220.1"
+      },
+      {
+        "key": "ref76",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tsai, W.-P., Feng, D., Pan, M., Beck, H., Lawson, K., Yang, Y., Liu, J., and Shen, C.: From calibration to parameter learning: Harnessing the scaling effects of big data in geoscientific modeling, Nat. Commun., 12, 5988, https://doi.org/10.1038/s41467-021-26107-z, 2021.",
+        "DOI": "10.1038/s41467-021-26107-z"
+      },
+      {
+        "key": "ref77",
+        "unstructured": "U.S. Geological Survey: USGS Water Data for the Nation, U.S. Geological Survey National Water Information System database [data set], https://doi.org/10.5066/F7P55KJN, 2024."
+      },
+      {
+        "key": "ref78",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vanderhoof, M. K., Christensen, J. R., and Alexander, L. C.: Patterns and drivers for wetland connections in the Prairie Pothole Region, United States, Wetlands Ecol. Manage., 25, 275\u2013297, https://doi.org/10.1007/s11273-016-9516-9, 2017.",
+        "DOI": "10.1007/s11273-016-9516-9"
+      },
+      {
+        "key": "ref79",
+        "unstructured": "Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, \u0141., and Polosukhin, I.: Attention is All you Need. Advances in Neural Information Processing Systems, 30, edited by: Guyon, I., Von Luxburg, U., Bengio, S., Wallach, H., Fergus, R., Vishwanathan, S., and Garnett, R., ISBN\u00a09781510860964, https://papers.nips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html (last access: 1\u00a0September\u00a02023), 2017."
+      },
+      {
+        "key": "ref80",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Veldkamp, T. I. E., Zhao, F., Ward, P. J., Moel, H. de, Aerts, J. C. J. H., Schmied, H. M., Portmann, F. T., Masaki, Y., Pokhrel, Y., Liu, X., Satoh, Y., Gerten, D., Gosling, S. N., Zaherpour, J., and Wada, Y.: Human impact parameterizations in global hydrological models improve estimates of monthly discharges and hydrological extremes: a multi-model validation study, Environ. Res. Lett., 13, 055008, https://doi.org/10.1088/1748-9326/aab96f, 2018.",
+        "DOI": "10.1088/1748-9326/aab96f"
+      },
+      {
+        "key": "ref81",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Werth, S. and G\u00fcntner, A.: Calibration analysis for water storage variability of the global hydrological model WGHM, Hydrol. Earth Syst. Sci., 14, 59\u201378, https://doi.org/10.5194/hess-14-59-2010, 2010.",
+        "DOI": "10.5194/hess-14-59-2010"
+      },
+      {
+        "key": "ref82",
+        "unstructured": "WSC: National Water Data Archive: HYDAT, Water Survey of Canada (WSC), https://www.canada.ca/en/environment-climate-change/services/water-overview/quantity/monitoring/survey/data-products-services/national-archive-hydat.html (1\u00a0May\u00a02022), 2024."
+      },
+      {
+        "key": "ref83",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wunsch, A., Liesch, T., and Broda, S.: Groundwater level forecasting with artificial neural networks: a comparison of long short-term memory (LSTM), convolutional neural networks (CNNs), and non-linear autoregressive networks with exogenous input (NARX), Hydrol. Earth Syst. Sci., 25, 1671\u20131687, https://doi.org/10.5194/hess-25-1671-2021, 2021.",
+        "DOI": "10.5194/hess-25-1671-2021"
+      },
+      {
+        "key": "ref84",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xu, D., Agee, E., Wang, J., and Ivanov, V. Y.: Estimation of Evapotranspiration of Amazon Rainforest Using the Maximum Entropy Production Method, Geophys. Res. Lett., 46, 1402\u20131412, https://doi.org/10.1029/2018GL080907, 2019.",
+        "DOI": "10.1029/2018GL080907"
+      },
+      {
+        "key": "ref85",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yilmaz, K. K., Gupta, H. V., and Wagener, T.: A process-based diagnostic approach to model evaluation: Application to the NWS distributed hydrologic model, Water Resour. Res., 44, W09417, https://doi.org/10.1029/2007WR006716, 2008.",
+        "DOI": "10.1029/2007WR006716"
+      },
+      {
+        "key": "ref86",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zaherpour, J., Gosling, S. N., Mount, N., Schmied, H. M., Veldkamp, T. I. E., Dankers, R., Eisner, S., Gerten, D., Gudmundsson, L., Haddeland, I., Hanasaki, N., Kim, H., Leng, G., Liu, J., Masaki, Y., Oki, T., Pokhrel, Y., Satoh, Y., Schewe, J., and Wada, Y.: Worldwide evaluation of mean and extreme runoff from six global-scale hydrological models that account for human impacts, Environ. Res. Lett., 13, 065015, https://doi.org/10.1088/1748-9326/aac547, 2018.",
+        "DOI": "10.1088/1748-9326/aac547"
+      },
+      {
+        "key": "ref87",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhao, W. L., Gentine, P., Reichstein, M., Zhang, Y., Zhou, S., Wen, Y., Lin, C., Li, X., and Qiu, G. Y.: Physics-constrained machine learning of evapotranspiration, Geophys. Res. Lett., 46, 14496\u201314507, https://doi.org/10.1029/2019gl085291, 2019.",
+        "DOI": "10.1029/2019GL085291"
+      },
+      {
+        "key": "ref88",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhi, W., Feng, D., Tsai, W.-P., Sterle, G., Harpold, A., Shen, C., and Li, L.: From hydrometeorology to river water quality: Can a deep learning model predict dissolved oxygen at the continental scale?, Environ. Sci. Technol., 55, 2357\u20132368, https://doi.org/10.1021/acs.est.0c06783, 2021.",
+        "DOI": "10.1021/acs.est.0c06783"
+      }
+    ],
+    "container-title": [
+      "Geoscientific Model Development"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://gmd.copernicus.org/articles/17/7181/2024/gmd-17-7181-2024.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          22
+        ]
+      ],
+      "date-time": "2025-01-22T14:10:37Z",
+      "timestamp": 1737555037000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://gmd.copernicus.org/articles/17/7181/2024/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          26
+        ]
+      ]
+    },
+    "references-count": 88,
+    "journal-issue": {
+      "issue": "18",
+      "published-online": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.5194/gmd-17-7181-2024",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/gmd-2023-190",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/gmd-2023-190",
+          "asserted-by": "object"
+        }
+      ],
+      "has-review": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/gmd-2023-190-RC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/gmd-2023-190-AC2",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/gmd-2023-190-CEC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/gmd-2023-190-AC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/gmd-2023-190-RC2",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/gmd-2023-190-AC3",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/gmd-2023-190-CEC1",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/gmd-2023-190-RC1",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/gmd-2023-190-RC2",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/gmd-2023-190-AC1",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/gmd-2023-190-AC2",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/gmd-2023-190-AC3",
+          "asserted-by": "object"
+        }
+      ],
+      "is-part-of": [
+        {
+          "id-type": "doi",
+          "id": "10.5067/MODIS/MOD16A2GF.061",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5066/F7P55KJN",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5281/zenodo.7091334",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "ISSN": [
+      "1991-9603"
+    ],
+    "issn-type": [
+      {
+        "value": "1991-9603",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          26
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.5194/gmd-17-7181-2024",
+  "original_doi": "10.5194/gmd-17-7181-2024"
+}

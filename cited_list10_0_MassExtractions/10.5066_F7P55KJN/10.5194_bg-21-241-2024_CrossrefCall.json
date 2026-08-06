@@ -1,0 +1,1193 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          28
+        ]
+      ],
+      "date-time": "2026-02-28T06:05:12Z",
+      "timestamp": 1772258712663,
+      "version": "3.50.1"
+    },
+    "reference-count": 128,
+    "publisher": "Copernicus GmbH",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              16
+            ]
+          ],
+          "date-time": "2024-01-16T00:00:00Z",
+          "timestamp": 1705363200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000104",
+        "name": "National Aeronautics and Space Administration",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NNH17ZDA001N-EVS3"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NNH17ZDA001N-EVS3"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000104",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000104",
+        "name": "National Aeronautics and Space Administration",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "80NSSC21K1612"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "80NSSC21K1612"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000104",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000076",
+        "name": "Directorate for Biological Sciences",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "1832221"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "1832221"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000076",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000085",
+        "name": "Directorate for Geosciences",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2224608"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2224608"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000085",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Biogeosciences"
+    ],
+    "abstract": "<jats:p>Abstract. Coastal marsh survival relies on the ability to increase elevation and offset sea level rise. It is therefore important to realistically model sediment fluxes between marshes, tidal channels, and bays as sediment availability controls accretion. Traditionally, numerical models have been calibrated and validated using in situ measurements at a few locations within the domain of interest. These datasets typically provide temporal information but lack spatial variability. This paper explores the potential of coupling numerical models with high-resolution remote sensing imagery. Products from three sensors from the NASA Delta-X airborne mission are used. Uninhabited Aerial Vehicle Synthetic Aperture Radar (UAVSAR) provides vertical water level change on the marshland and was used to adjust the bathymetry and calibrate water fluxes over the marsh. AirSWOT yields water surface elevation within bays, lakes, and channels, and was used to calibrate the Chezy bottom friction coefficient. Finally, imagery from AVIRIS-NG provides maps of total suspended solids (TSS) concentration that were used to calibrate sediment parameters of settling velocity and critical shear stress for erosion. Three numerical models were developed at different locations along coastal Louisiana using Delft3D. The coupling enabled a spatial evaluation of model performance that was not possible using simple point measurements. Overall, the study shows that calibration of numerical models and their general performance will greatly benefit from remote sensing.</jats:p>",
+    "DOI": "10.5194/bg-21-241-2024",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2024-01-16T02:15:14Z",
+      "timestamp": 1705371314000
+    },
+    "page": "241-260",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Coupling numerical models of deltaic wetlands with AirSWOT, UAVSAR, and AVIRIS-NG remote sensing data"
+    ],
+    "prefix": "10.5194",
+    "volume": "21",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1318-477X",
+        "authenticated-orcid": false,
+        "given": "Luca",
+        "family": "Cortese",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Carmine",
+        "family": "Donatelli",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Xiaohe",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2772-9945",
+        "authenticated-orcid": false,
+        "given": "Justin A.",
+        "family": "Nghiem",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Marc",
+        "family": "Simard",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2739-1545",
+        "authenticated-orcid": false,
+        "given": "Cathleen E.",
+        "family": "Jones",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Michael",
+        "family": "Denbina",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "C\u00e9dric G.",
+        "family": "Fichot",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8108-0644",
+        "authenticated-orcid": false,
+        "given": "Joshua P.",
+        "family": "Harringmeyer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4048-5968",
+        "authenticated-orcid": false,
+        "given": "Sergio",
+        "family": "Fagherazzi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "3145",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          16
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Allen, J., Somerfield, P., and Gilbert, F.: Quantifying uncertainty in high-resolution coupled hydrodynamic-ecosystem models, J. Mar. Syst., 64, 3\u201314, https://doi.org/10.1016/j.jmarsys.2006.02.010, 2007.\u2002a",
+        "DOI": "10.1016/j.jmarsys.2006.02.010"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Allison, M.\u00a0A., Kineke, G.\u00a0C., Gordon, E.\u00a0S., and Goni, M.\u00a0A.: Development and reworking of a seasonal flood deposit on the inner continental shelf off the Atchafalaya River, Cont. Shelf Res., 20, 2267\u20132294, https://doi.org/10.1016/S0278-4343(00)00070-4, 2000.\u2002a",
+        "DOI": "10.1016/S0278-4343(00)00070-4"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Balogun, A.-L., Yekeen, S.\u00a0T., Pradhan, B., and Althuwaynee, O.\u00a0F.: Spatio-temporal analysis of oil spill impact and recovery pattern of coastal vegetation and wetland using multispectral satellite landsat 8-OLI imagery and machine learning models, Remote Sens., 12, 1225, https://doi.org/10.3390/rs12071225, 2020.\u2002a",
+        "DOI": "10.3390/rs12071225"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bates, P.\u00a0D.: Flood inundation prediction, Annu. Rev. Fluid Mech., 54, 287\u2013315, https://doi.org/10.1146/annurev-fluid-030121-113138, 2022.\u2002a",
+        "DOI": "10.1146/annurev-fluid-030121-113138"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bevington, A.\u00a0E. and Twilley, R.\u00a0R.: Island edge morphodynamics along a chronosequence in a prograding deltaic floodplain wetland, J. Coast. Res., 34, 806\u2013817, https://doi.org/10.2112/JCOASTRES-D-17-00074.1, 2018.\u2002a",
+        "DOI": "10.2112/JCOASTRES-D-17-00074.1"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Booij, N. and Holthuijsen, L.\u00a0H.: Propagation of ocean waves in discrete spectral wave models, J. Comput. Phys., 68, 307\u2013326, https://doi.org/10.1016/0021-9991(87)90060-X, 1987.\u2002a",
+        "DOI": "10.1016/0021-9991(87)90060-X"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bue, B.\u00a0D., Thompson, D.\u00a0R., Eastwood, M., Green, R.\u00a0O., Gao, B.-C., Keymeulen, D., Sarture, C.\u00a0M., Mazer, A.\u00a0S., and Luong, H.\u00a0H.: Real-time atmospheric correction of AVIRIS-NG imagery, IEEE T. Geosci. Remote, 53, 6419\u20136428, https://doi.org/10.1109/TGRS.2015.2439215, 2015.\u2002a",
+        "DOI": "10.1109/TGRS.2015.2439215"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bunya, S., Dietrich, J. C., Westerink, J. J., Ebersole, B. A., Smith, J. M., Atkinson, J. H., Jensen, R., Resio, D. T., Luettich, R. A., Dawson, C., Cardone, V. J., Cox, A. T., Powell, M. D., Westerink, H. J., and Roberts, H. J.: A high-resolution coupled riverine flow, tide, wind, wind wave, and storm surge model for southern Louisiana and Mississippi, Part I: Model development and validation, Mon. Weather Rev., 138, 345\u2013377, https://doi.org/10.1175/2009MWR2906.1, 2010.\u2002a, b",
+        "DOI": "10.1175/2009MWR2906.1"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cahoon, D. R., Hensel, P. F., Spencer, T., Reed, D. J., McKee, K. L., and Saintilan, N.: Coastal Wetland Vulnerability to Relative Sea-Level Rise: Wetland Elevation Trends and Process Controls, edited by: Verhoeven, J. T. A., Beltman, B., Bobbink, R., and Whigham, D. F., Wetlands and Natural Resource Management, Ecological Studies, 190, 271\u2013292, Springer, Berlin, Heidelberg, https://doi.org/10.1007/978-3-540-33187-2_12, 2006.\u2002a",
+        "DOI": "10.1007/978-3-540-33187-2_12"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cardoso, G.\u00a0F., Souza, C., and Souza-Filho, P. W.\u00a0M.: Using spectral analysis of Landsat-5 TM images to map coastal wetlands in the Amazon River mouth, Brazil, Wetlands Ecol. Manage., 22, 79\u201392, https://doi.org/10.1007/s11273-013-9324-4, 2014.\u2002a",
+        "DOI": "10.1007/s11273-013-9324-4"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Carniello, L., Silvestri, S., Marani, M., D'Alpaos, A., Volpe, V., and Defina, A.: Sediment dynamics in shallow tidal basins: In situ observations, satellite retrievals, and numerical modeling in the Venice Lagoon, J. Geophys. Res.-Ea., 119, 802\u2013815, https://doi.org/10.1002/2013JF003015, 2014.\u2002a",
+        "DOI": "10.1002/2013JF003015"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Castagno, K.\u00a0A., Jim\u00e9nez-Robles, A.\u00a0M., Donnelly, J.\u00a0P., Wiberg, P.\u00a0L., Fenster, M.\u00a0S., and Fagherazzi, S.: Intense storms increase the stability of tidal bays, Geophys. Res. Lett., 45, 5491\u20135500, https://doi.org/10.1029/2018GL078208, 2018.\u2002a",
+        "DOI": "10.1029/2018GL078208"
+      },
+      {
+        "key": "ref13",
+        "unstructured": "Center for Operational Oceanographic Products and Services (CO-OPS): CO-OPS Water Level Data from the Coastal Tide Gauge and Great Lake Water Level Network of the United States and US Territories, NOAA National Centers for Environmental Information, [data set], https://doi.org/10.25921/dt9g-2p60, 2018.\u2002a"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, C., Ma, Y., Ren, G., and Wang, J.: Aboveground biomass of salt-marsh vegetation in coastal wetlands: Sample expansion of in situ hyperspectral and Sentinel-2 data using a generative adversarial network, Remote Sens. Environ., 270, 112885, https://doi.org/10.1016/j.rse.2021.112885, 2022.\u2002a",
+        "DOI": "10.1016/j.rse.2021.112885"
+      },
+      {
+        "key": "ref15",
+        "unstructured": "Coastal Protection and Restoration Authority (CPRA) of Louisiana: Coastwide Reference Monitoring System-Wetlands Monitoring Data, Retrieved from Coastal Information Management System (CIMS) database, [data set], http://cims.coastal.louisiana.gov (last access: 20 October 2023), 2023.\u2002a"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Corbett, D.\u00a0R., Dail, M., and McKee, B.: High-frequency time-series of the dynamic sedimentation processes on the western shelf of the Mississippi River Delta, Cont. Shelf Res., 27, 1600\u20131615, https://doi.org/10.1016/j.csr.2007.01.025, 2007.\u2002a",
+        "DOI": "10.1016/j.csr.2007.01.025"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cortese, L. and Fagherazzi, S.: Fetch and distance from the bay control accretion and erosion patterns in Terrebonne marshes (Louisiana, USA), Earth Surf. Proc. Land., 47, 1455\u20131465, https://doi.org/10.1002/esp.5327, 2022.\u2002a",
+        "DOI": "10.1002/esp.5327"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Couvillion, B.\u00a0R., Beck, H., Schoolmaster, D., and Fischer, M.: Land area change in coastal Louisiana (1932 to 2016), Tech. Rep., US Geological Survey, https://doi.org/10.3133/sim3381, 2017.\u2002a, b, c",
+        "DOI": "10.3133/sim3381"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Defne, Z. and Ganju, N.\u00a0K.: Quantifying the residence time and flushing characteristics of a shallow, back-barrier estuary: Application of hydrodynamic and particle tracking models, Estuar. Coast., 38, 1719\u20131734, https://doi.org/10.1007/s12237-014-9885-3, 2015.\u2002a",
+        "DOI": "10.1007/s12237-014-9885-3"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Denbina, M., Simard, M., Rodriguez, E., Wu, X., Chen, A., and Pavelsky, T.: Mapping water surface elevation and slope in the Mississippi river delta using the AirSWOT Ka-Band interferometric synthetic aperture radar, Remote Sens., 11, 2739, https://doi.org/10.3390/rs11232739, 2019.\u2002a, b",
+        "DOI": "10.3390/rs11232739"
+      },
+      {
+        "key": "ref21",
+        "unstructured": "Denbina, M., Simard, M., Pavelsky, T., Christensen, A., Liu, K., and Lyon, C.: Pre-Delta-X: Channel Bathymetry of the Atchafalaya Basin, LA, USA, 2016, ORNL DAAC, [data set], https://doi.org/10.3334/ORNLDAAC/1807, 2020.\u2002a, b"
+      },
+      {
+        "key": "ref22",
+        "unstructured": "Denbina, M., Simard, M., and Rodriguez, E.: Delta-X: AirSWOT L2 Geocoded Water Surface Elevation, MRD, Louisiana, 2021, Version 2, ORNL DAAC, Oak Ridge, Tennessee, USA, [data set], https://doi.org/10.3334/ORNLDAAC/2128, 2022.\u2002a"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dietrich J. C., Westerink, J. J. , Kennedy, A. B., Smith, J. M., Jensen, R. E., Zijlema, M., Holthuijsen, L. H., Dawson, C., Luettich, R. A., Powell, M. D., Cardone, V. J., Cox, A. T., Stone, G. W., Pourtaheri, H., Hope, M. E., Tanaka, S., Westerink, L. G., Westerink, H. J., and Cobell, Z.: Hurricane Gustav (2008) waves and storm surge: hindcast, synoptic analysis, and validation in Southern Louisiana, Mon. Weather Rev., 139, 2488\u20132522, https://doi.org/10.1175/2011MWR3611.1, 2011.\u2002a",
+        "DOI": "10.1175/2011MWR3611.1"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Donatelli, C., Passalacqua, P., Jensen, D., Jones, C., Oliver-Cabrera, T., and Fagherazzi, S.: Spatial variability in salt marsh drainage controlled by small scale topography, J. Geophys. Res.-Ea., 128, 11, https://doi.org/10.1029/2023JF007219, 2023a.\u2002a",
+        "DOI": "10.1029/2023JF007219"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Donatelli, C., Passalacqua, P., Wright, K., Salter, G., Lamb, M.\u00a0P., Jensen, D., and Fagherazzi, S.: Quantifying flow velocities in river deltas via remotely sensed suspended sediment concentration, Geophys. Res. Lett., 50, e2022GL101392, https://doi.org/10.1029/2022GL101392, 2023b.\u2002a",
+        "DOI": "10.1029/2022GL101392"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dorji, P. and Fearns, P.: A quantitative comparison of total suspended sediment algorithms: A case study of the last decade for MODIS and landsat-based sensors, Remote Sens., 8, 810, https://doi.org/10.3390/rs8100810, 2016.\u2002a",
+        "DOI": "10.3390/rs8100810"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Edmonds, D.\u00a0A. and Slingerland, R.\u00a0L.: Significant effect of sediment cohesion on delta morphology, Nat. Geosci., 3, 105\u2013109, https://doi.org/10.1038/ngeo730, 2010.\u2002a",
+        "DOI": "10.1038/ngeo730"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fagherazzi, S., Mariotti, G., Leonardi, N., Canestrelli, A., Nardin, W., and Kearney, W.\u00a0S.: Salt marsh dynamics in a period of accelerated sea level rise, J. Geophys. Res.-Earth, 125, e2019JF005200, https://doi.org/10.1029/2019JF005200, 2020.\u2002a, b",
+        "DOI": "10.1029/2019JF005200"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Farber, S.: The value of coastal wetlands for protection of property against hurricane wind damage, J. Environ. Econ. Manage., 14, 143\u2013151, https://doi.org/10.1016/0095-0696(87)90012-X, 1987.\u2002a",
+        "DOI": "10.1016/0095-0696(87)90012-X"
+      },
+      {
+        "key": "ref30",
+        "unstructured": "Fichot, C. and Harringmeyer, J.: Delta-X: In Situ Water Surface Reflectance across MRD, LA, USA, 2021, Version 2, ORNL DAAC, [data set], https://doi.org/10.3334/ORNLDAAC/2076, 2021.\u2002a"
+      },
+      {
+        "key": "ref31",
+        "unstructured": "Fichot, C. and Harringmeyer, J.: Delta-X: AVIRIS-NG L3-derived Water Quality, TSS, and Turbidity, MRD, LA 2021, V2, ORNL DAAC, [data set], https://doi.org/10.3334/ORNLDAAC/2112, 2022.\u2002a, b"
+      },
+      {
+        "key": "ref32",
+        "unstructured": "Fichot, C., Ghosh, N., Harringmeyer, J., and Weiser, M.: Delta-X: Total Suspended Solids Concentration across MRD, LA, USA, 2021, Version 2, ORNL DAAC, [data set], https://doi.org/10.3334/ORNLDAAC/2075, 2022.\u2002a, b"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fichot, C.\u00a0G., Downing, B.\u00a0D., Bergamaschi, B.\u00a0A., Windham-Myers, L., Marvin-DiPasquale, M., Thompson, D.\u00a0R., and Gierach, M.\u00a0M.: High-resolution remote sensing of water quality in the San Francisco Bay\u2013Delta Estuary, Environ. Sci. Technol., 50, 573\u2013583, https://doi.org/10.1021/acs.est.5b03518, 2016.\u2002a",
+        "DOI": "10.1021/acs.est.5b03518"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Freeman, A.\u00a0M., Jose, F., Roberts, H.\u00a0H., and Stone, G.\u00a0W.: Storm induced hydrodynamics and sediment transport in a coastal Louisiana lake, Estuar. Coast. Shelf Sci., 161, 65\u201375, https://doi.org/10.1016/j.ecss.2015.04.011, 2015.\u2002a",
+        "DOI": "10.1016/j.ecss.2015.04.011"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Galbraith, H., Jones, R., Park, R., Clough, J., Herrod-Julius, S., Harrington, B., and Page, G.: Global climate change and sea level rise: potential losses of intertidal habitat for shorebirds, Waterbirds, 25, 173\u2013183, https://doi.org/10.1675/1524-4695(2002)025[0173:GCCASL]2.0.CO;2, 2002.\u2002a",
+        "DOI": "10.1675/1524-4695(2002)025[0173:GCCASL]2.0.CO;2"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ganju, N.\u00a0K. and Schoellhamer, D.\u00a0H.: Decadal-timescale estuarine geomorphic change under future scenarios of climate and sediment supply, Estuar. Coast., 33, 15\u201329, https://doi.org/10.1007/s12237-009-9244-y, 2010.\u2002a",
+        "DOI": "10.1007/s12237-009-9244-y"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ganju, N.\u00a0K., Defne, Z., Kirwan, M.\u00a0L., Fagherazzi, S., D'Alpaos, A., and Carniello, L.: Spatially integrative metrics reveal hidden vulnerability of microtidal salt marshes, Nat. Commun., 8, 14156, https://doi.org/10.1038/ncomms14156, 2017.\u2002a",
+        "DOI": "10.1038/ncomms14156"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gao, B.-C., Heidebrecht, K.\u00a0B., and Goetz, A.\u00a0F.: Derivation of scaled surface reflectances from AVIRIS data, Remote Sens. Environ., 44, 165\u2013178, https://doi.org/10.1016/0034-4257(93)90014-O, 1993.\u2002a",
+        "DOI": "10.1016/0034-4257(93)90014-O"
+      },
+      {
+        "key": "ref39",
+        "unstructured": "Georgiou, I.\u00a0Y., FitzGerald, D.\u00a0M., and Stone, G.\u00a0W.: The impact of physical processes along the Louisiana coast, J. Coast. Res., 72\u201389, http://www.jstor.org/stable/25737050 (last access: 20 October 2023), 2005.\u2002a"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ghosh, S., Mishra, D.\u00a0R., and Gitelson, A.\u00a0A.: Long-term monitoring of biophysical characteristics of tidal wetlands in the northern Gulf of Mexico \u2013 A methodological approach using MODIS, Remote Sens. Environ., 173, 39\u201358, https://doi.org/10.1016/j.rse.2015.11.015, 2016.\u2002a",
+        "DOI": "10.1016/j.rse.2015.11.015"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Goldstein, R.\u00a0M. and Zebker, H.: Interferometric radar measurement of ocean surface currents, Nature, 328, 707\u2013709, https://doi.org/10.1038/328707a0, 1987.\u2002a",
+        "DOI": "10.1038/328707a0"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guo, M., Li, J., Sheng, C., Xu, J., and Wu, L.: A review of wetland remote sensing, Sensors, 17, 777, https://doi.org/10.3390/s17040777, 2017.\u2002a, b",
+        "DOI": "10.3390/s17040777"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Haddad, J., Lawler, S., and Ferreira, C.\u00a0M.: Assessing the relevance of wetlands for storm surge protection: a coupled hydrodynamic and geospatial framework, Nat. Hazards, 80, 839\u2013861, https://doi.org/10.1007/s11069-015-2000-7, 2016.\u2002a",
+        "DOI": "10.1007/s11069-015-2000-7"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hamlin, L., Green, R., Mouroulis, P., Eastwood, M., Wilson, D., Dudik, M., and Paine, C.: Imaging spectrometer science measurements for terrestrial ecology: AVIRIS and new developments, in: 2011 Aerospace conference, IEEE, 44, 127\u2013143, https://doi.org/10.1109/AERO.2011.5747395, 2011.\u2002a",
+        "DOI": "10.1109/AERO.2011.5747395"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Henderson, F.\u00a0M. and Lewis, A.\u00a0J.: Radar detection of wetland ecosystems: a review, Int. J. Remote Sens., 29, 5809\u20135835, https://doi.org/10.1080/01431160801958405, 2008.\u2002a",
+        "DOI": "10.1080/01431160801958405"
+      },
+      {
+        "key": "ref46",
+        "unstructured": "Holthuijsen, L. H., Booij, N., and Ris, R. C.: A spectral wave model for the coastal zone, Proceedings 2nd International Symposium on Ocean Wave Measurement and Analysis, New Orleans, Louisiana, July 25\u201328, 1993, New York, 630\u2013641, 1993.\u2002a"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hong, S.-H. and Wdowinski, S.: Multitemporal Multitrack Monitoring of Wetland Water Levels in the Florida Everglades Using ALOS PALSAR Data With Interferometric Processing, IEEE T. Geosci. Remote, 11, 1355\u20131359, https://doi.org/10.1109/LGRS.2013.2293492, 2014.\u2002a",
+        "DOI": "10.1109/LGRS.2013.2293492"
+      },
+      {
+        "key": "ref48",
+        "unstructured": "Ill, E. W.\u00a0R., Chappell, D.\u00a0K., and Baldwin, D.\u00a0G.: AVHRR lmagery used to identify hurricane damage in a forested wetland of Louisiana, Photogramm. Eng., 63, 293\u2013297, http://pubs.er.usgs.gov/publication/70020165 (last access: 20 October 2023), 1997.\u2002a"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jensen, D., Simard, M., Cavanaugh, K., Sheng, Y., Fichot, C.\u00a0G., Pavelsky, T., and Twilley, R.: Improving the transferability of suspended solid estimation in wetland and deltaic waters with an empirical hyperspectral approach, Remote Sens., 11, 1629, https://doi.org/10.3390/rs11131629, 2019.\u2002a, b",
+        "DOI": "10.3390/rs11131629"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jensen, D., Cavanaugh, K.\u00a0C., Simard, M., Christensen, A., Rovai, A., and Twilley, R.: Aboveground biomass distributions and vegetation composition changes in Louisiana's Wax Lake Delta, Estuar. Coast. Shelf Sci., 250, 107139, https://doi.org/10.1016/j.ecss.2020.107139, 2021.\u2002a",
+        "DOI": "10.1016/j.ecss.2020.107139"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jensen, D., Cavanaugh, K., Thompson, D., Fagherazzi, S., Cortese, L., and Simard, M.: Leveraging the historical Landsat catalog for a remote sensing model of wetland accretion in coastal Louisiana, J. Geophys. Res.-Biogeo., 127, e2022JG006794, https://doi.org/10.1029/2022JG006794, 2022.\u2002a, b",
+        "DOI": "10.1029/2022JG006794"
+      },
+      {
+        "key": "ref52",
+        "unstructured": "Jones, C., Oliver-Cabrera, T., Simard, M., and Lou, Y.: Delta-X: UAVSAR L3 Water Level Changes, MRD, Louisiana, 2021, ORNL DAAC, [data set], https://doi.org/10.3334/ORNLDAAC/2058, 2022.\u2002a"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kang, X., Yan, L., Zhang, X., Li, Y., Tian, D., Peng, C., Wu, H., Wang, J., and Zhong, L.: Modeling gross primary production of a typical coastal wetland in China using MODIS time series and CO2 eddy flux tower data, Remote Sens., 10, 708, https://doi.org/10.3390/rs10050708, 2018.\u2002a",
+        "DOI": "10.3390/rs10050708"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kaplan, G. and Avdan, U.: Mapping and monitoring wetlands using Sentinel-2 satellite imagery, https://doi.org/10.5194/isprs-annals-IV-4-W4-271-2017, 2017.\u2002a",
+        "DOI": "10.5194/isprs-annals-IV-4-W4-271-2017"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kim, J.-W., Lu, Z., Lee, H., Shum, C., Swarzenski, C.\u00a0M., Doyle, T.\u00a0W., and Baek, S.-H.: Integrated analysis of PALSAR/Radarsat-1 InSAR and ENVISAT altimeter data for mapping of absolute water level changes in Louisiana wetlands, Remote Sens. Environ., 113, 2356\u20132365, https://doi.org/10.1016/j.rse.2009.06.014, 2009.\u2002a",
+        "DOI": "10.1016/j.rse.2009.06.014"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kjerfve, B. and Magill, K.\u00a0E.: Geographic and hydrodynamic characteristics of shallow coastal lagoons, Mar. Geol., 88, 187\u2013199, https://doi.org/10.1016/0025-3227(89)90097-2, 1989.\u2002a",
+        "DOI": "10.1016/0025-3227(89)90097-2"
+      },
+      {
+        "key": "ref57",
+        "unstructured": "Kundu, P.\u00a0K., Cohen, I.\u00a0M., and Dowling, D.\u00a0R.: Fluid mechanics, Academic Press, ISBN 9780124059351, 2015.\u2002a"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kwoun, O.-I. and Lu, Z.: Multi-temporal RADARSAT-1 and ERS backscattering signatures of coastal wetlands in southeastern Louisiana, Photogram. Eng. Remote Sens., 75, 607\u2013617, https://doi.org/10.14358/PERS.75.5.607, 2009.\u2002a",
+        "DOI": "10.14358/PERS.75.5.607"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lamb, M.\u00a0P., de\u00a0Leeuw, J., Fischer, W.\u00a0W., Moodie, A.\u00a0J., Venditti, J.\u00a0G., Nittrouer, J.\u00a0A., Haught, D., and Parker, G.: Mud in rivers transported as flocculated and suspended bed material, Nat. Geosci., 13, 566\u2013570, https://doi.org/10.1038/s41561-020-0602-5, 2020.\u2002a",
+        "DOI": "10.1038/s41561-020-0602-5"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lesser, G., Roelvink, J., van Kester, J., and Stelling, G.: Development and validation of a three-dimensional morphological model, Coast. Eng., 51, 883\u2013915, https://doi.org/10.1016/j.coastaleng.2004.07.014, 2004.\u2002a",
+        "DOI": "10.1016/j.coastaleng.2004.07.014"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liao, T.-H., Simard, M., Denbina, M., and Lamb, M.\u00a0P.: Monitoring water level change and seasonal vegetation change in the coastal wetlands of Louisiana using L-band time-series, Remote Sens., 12, 2351, https://doi.org/10.3390/rs12152351, 2020.\u2002a",
+        "DOI": "10.3390/rs12152351"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Limerinos, J.\u00a0T.: Determination of the Manning coefficient from measured bed roughness in natural channels, Vol.\u00a01898, US Government Printing Office Washington, DC, https://doi.org/10.3133/wsp1898B, 1970.\u2002a",
+        "DOI": "10.3133/wsp1898B"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, K., Chen, Q., Hu, K., Xu, K., and Twilley, R.\u00a0R.: Modeling hurricane-induced wetland-bay and bay-shelf sediment fluxes, Coast. Eng., 135, 77\u201390, https://doi.org/10.1016/j.coastaleng.2017.12.014, 2018.\u2002a, b",
+        "DOI": "10.1016/j.coastaleng.2017.12.014"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lopes, C.\u00a0L., Mendes, R., Ca\u00e7ador, I., and Dias, J.\u00a0M.: Evaluation of long-term estuarine vegetation changes through Landsat imagery, Sci. Total Environ., 653, 512\u2013522, https://doi.org/10.1016/j.scitotenv.2018.10.381, 2019.\u2002a",
+        "DOI": "10.1016/j.scitotenv.2018.10.381"
+      },
+      {
+        "key": "ref65",
+        "unstructured": "Love, M. R., Caldwell, R. J., Carignan, K. S., Eakins, B. W., and Taylor, L. A.: Digital Elevation Models of Southern Louisiana: Procedures, Data Sources and Analysis, NOAA National Geophysical Data Center technical report, https://repository.library.noaa.gov/view/noaa/1186 (last access: 20 October 2023), 2010.\u2002a"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lumbierres, M., M\u00e9ndez, P.\u00a0F., Bustamante, J., Soriguer, R., and Santamar\u00eda, L.: Modeling biomass production in seasonal wetlands using MODIS NDVI land surface phenology, Remote Sens., 9, 392, https://doi.org/10.3390/rs9040392, 2017.\u2002a",
+        "DOI": "10.3390/rs9040392"
+      },
+      {
+        "key": "ref67",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mariotti, G., Fagherazzi, S., Wiberg, P., McGlathery, K., Carniello, L., and Defina, A.: Influence of storm surges and sea level on shallow tidal basin erosive processes, J. Geophys. Res.-Oceans, 115, C11, https://doi.org/10.1029/2009JC005892, 2010.\u2002a",
+        "DOI": "10.1029/2009JC005892"
+      },
+      {
+        "key": "ref68",
+        "unstructured": "McClain, C.\u00a0R. and Meister, G.: Mission Requirements for Future Ocean-Colour Sensors, https://doi.org/10.25607/OBP-104, 2012.\u2002a"
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Medeiros, S., Hagen, S., Weishampel, J., and Angelo, J.: Adjusting lidar-derived digital terrain models in coastal marshes based on estimated aboveground biomass density, Remote Sens., 7, 3507\u20133525, https://doi.org/10.3390/rs70403507, 2015.\u2002a",
+        "DOI": "10.3390/rs70403507"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Minello, T.\u00a0J., Able, K.\u00a0W., Weinstein, M.\u00a0P., and Hays, C.\u00a0G.: Salt marshes as nurseries for nekton: testing hypotheses on density, growth and survival through meta-analysis, Mar. Ecol. Prog. Ser., 246, 39\u201359, https://doi.org/10.3354/meps246039, 2003.\u2002a",
+        "DOI": "10.3354/meps246039"
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M\u00f6ller, I., Kudella, M., Rupprecht, F., Spencer, T., Paul, M., Van Wesenbeeck, B. K., Wolters, G., Jensen, K., Bouma, T. J., Miranda-Lange, M., and Schimmels, S.: Wave attenuation over coastal salt marshes under storm surge conditions, Nat. Geosci., 7, 727\u2013731, https://doi.org/10.1038/ngeo2251, 2014.\u2002a",
+        "DOI": "10.1038/ngeo2251"
+      },
+      {
+        "key": "ref72",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Muro, J., Canty, M., Conradsen, K., H\u00fcttich, C., Nielsen, A.\u00a0A., Skriver, H., Remy, F., Strauch, A., Thonfeld, F., and Menz, G.: Short-term change detection in wetlands using Sentinel-1 time series, Remote Sens., 8, 795, https://doi.org/10.3390/rs8100795, 2016.\u2002a",
+        "DOI": "10.3390/rs8100795"
+      },
+      {
+        "key": "ref73",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nahlik, A.\u00a0M. and Fennessy, M.\u00a0S.: Carbon storage in US wetlands, Nat. Commun., 7, 1\u20139, https://doi.org/10.1038/ncomms13835, 2016.\u2002a",
+        "DOI": "10.1038/ncomms13835"
+      },
+      {
+        "key": "ref74",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nardin, W., Mariotti, G., Edmonds, D., Guercio, R., and Fagherazzi, S.: Growth of river mouth bars in sheltered bays in the presence of frontal waves, J. Geophys. Res.-Earth, 118, 872\u2013886, 2013.\u2002a",
+        "DOI": "10.1002/jgrf.20057"
+      },
+      {
+        "key": "ref75",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nicholls, R.\u00a0J.: Coastal flooding and wetland loss in the 21st century: changes under the SRES climate and socio-economic scenarios, Glob. Environ. Change, 14, 69\u201386, https://doi.org/10.1016/j.gloenvcha.2003.10.007, 2004.\u2002a",
+        "DOI": "10.1016/j.gloenvcha.2003.10.007"
+      },
+      {
+        "key": "ref76",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Oliver-Cabrera, T., Jones, C.\u00a0E., Yunjun, Z., and Simard, M.: InSAR phase unwrapping error correction for rapid repeat measurements of water level change in wetlands, IEEE T. Geosci. Remote, 60, 1\u201315, https://doi.org/10.1109/TGRS.2021.3108751, 2021.\u2002a",
+        "DOI": "10.1109/TGRS.2021.3108751"
+      },
+      {
+        "key": "ref77",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ou, Y., Xue, Z.\u00a0G., Li, C., Xu, K., White, J.\u00a0R., Bentley, S.\u00a0J., and Zang, Z.: A numerical investigation of salinity variations in the Barataria Estuary, Louisiana in connection with the Mississippi River and restoration activities, Estuar. Coast. Shelf Sci., 245, 107021, https://doi.org/10.1016/j.ecss.2020.107021, 2020.\u2002a",
+        "DOI": "10.1016/j.ecss.2020.107021"
+      },
+      {
+        "key": "ref78",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Palazzoli, I., Leonardi, N., Jimenez-Robles, A., and Fagherazzi, S.: Velocity skew controls the flushing of a tracer in a system of shallow bays with multiple inlets, Cont. Shelf Res., 192, 104008, https://doi.org/10.1016/j.csr.2019.104008, 2020.\u2002a",
+        "DOI": "10.1016/j.csr.2019.104008"
+      },
+      {
+        "key": "ref79",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Parker, G. and Sequeiros, O.: Large scale river morphodynamics: Application to the Mississippi Delta, in: River Flow 2006: proceedings of the international conference on Fluvial Hydraulics, Taylor and Francis London, 3\u201311, https://doi.org/10.1201/9781439833865.ch1, 2006.\u2002a",
+        "DOI": "10.1201/9781439833865.ch1"
+      },
+      {
+        "key": "ref80",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Partheniades, E.: Erosion and deposition of cohesive soils, J. Hydraul. Div., 91, 105\u2013139, https://doi.org/10.1061/JYCEAJ.0001165, 1965.\u2002a",
+        "DOI": "10.1061/JYCEAJ.0001165"
+      },
+      {
+        "key": "ref81",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Peter\u00a0Sheng, Y., Paramygin, V.\u00a0A., Rivera-Nieves, A.\u00a0A., Zou, R., Fernald, S., Hall, T., and Jacob, K.: Coastal marshes provide valuable protection for coastal communities from storm-induced wave, flood, and structural loss in a changing climate, Sci. Rep., 12, 3051, https://doi.org/10.1038/s41598-022-06850-z, 2022.\u2002a",
+        "DOI": "10.1038/s41598-022-06850-z"
+      },
+      {
+        "key": "ref82",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pflugmacher, D., Krankina, O.\u00a0N., and Cohen, W.\u00a0B.: Satellite-based peatland mapping: Potential of the MODIS sensor, Global Planet. Change, 56, 248\u2013257, https://doi.org/10.1016/j.gloplacha.2006.07.019, 2007.\u2002a",
+        "DOI": "10.1016/j.gloplacha.2006.07.019"
+      },
+      {
+        "key": "ref83",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Proust, S. and Nikora, V.\u00a0I.: Compound open-channel flows: effects of transverse currents on the flow structure, J. Fluid Mech., 885, https://doi.org/10.1017/jfm.2019.973, 2020.\u2002a",
+        "DOI": "10.1017/jfm.2019.973"
+      },
+      {
+        "key": "ref84",
+        "unstructured": "Roberts, H., Coleman, J., Bentley, S., and Walker, N.: An embryonic major delta lobe: A new generation of delta studies in the Atchafalaya-Wax Lake Delta system, 690\u2013703, 2003.\u2002a"
+      },
+      {
+        "key": "ref85",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rodgers, J.\u00a0C., Murrah, A.\u00a0W., and Cooke, W.\u00a0H.: The impact of Hurricane Katrina on the coastal vegetation of the Weeks Bay Reserve, Alabama from NDVI data, Estuar. Coast., 32, 496\u2013507, http://www.jstor.org/stable/40663559 (last access: 20 October 2023), 2009.\u2002a",
+        "DOI": "10.1007/s12237-009-9138-z"
+      },
+      {
+        "key": "ref86",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rogers, K., Kelleway, J. J., Saintilan, N., Megonigal, J. P., Adams, J. B., Holmquist, J. R., Lu, M., Schile-Beers, L., Zawadzki, A., Mazumder, D., and Woodroffe, C. D.: Wetland carbon storage controlled by millennial-scale variation in relative sea-level rise, Nature, 567, 91\u201395, https://doi.org/10.1038/s41586-019-0951-7, 2019.\u2002a",
+        "DOI": "10.1038/s41586-019-0951-7"
+      },
+      {
+        "key": "ref87",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rosen, P.\u00a0A., Hensley, S., Wheeler, K., Sadowy, G., Miller, T., Shaffer, S., Muellerschoen, R., Jones, C., Zebker, H., and Madsen, S.: UAVSAR: A new NASA airborne SAR system for science and technology research, in: 2006 IEEE Conference on Radar, IEEE, 8\u00a0pp., https://doi.org/10.1109/RADAR.2006.1631770, 2006.\u2002a",
+        "DOI": "10.1109/RADAR.2006.1631770"
+      },
+      {
+        "key": "ref88",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rosso, P., Ustin, S., and Hastings, A.: Use of lidar to study changes associated with Spartina invasion in San Francisco Bay marshes, Remote Sens. Environ., 100, 295\u2013306, https://doi.org/10.1016/j.rse.2005.10.012, 2006.\u2002a",
+        "DOI": "10.1016/j.rse.2005.10.012"
+      },
+      {
+        "key": "ref89",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Saintilan, N., Rogers, K., Mazumder, D., and Woodroffe, C.: Allochthonous and autochthonous contributions to carbon accumulation and carbon store in southeastern Australian coastal wetlands, Estuar. Coast. Shelf Sci., 128, 84\u201392, https://doi.org/10.1016/j.ecss.2013.05.010, 2013.\u2002a",
+        "DOI": "10.1016/j.ecss.2013.05.010"
+      },
+      {
+        "key": "ref90",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Salter, G., Passalacqua, P., Wright, K., Feil, S., Jensen, D., Simard, M., and Lamb, M.\u00a0P.: Spatial patterns of deltaic deposition/erosion revealed by streaklines extracted from remotely-sensed suspended sediment concentration, Geophys. Res. Lett., 49, 11, https://doi.org/10.1029/2022GL098443, 2022.\u2002a",
+        "DOI": "10.1029/2022GL098443"
+      },
+      {
+        "key": "ref91",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Schuerch, M., Spencer, T., Temmerman, S., Kirwan, M. L., Wolff, C., Lincke, D., McOwen, C. J., Pickering, M. D., Reef, R., Vafeidis, A. T., Hinkel, J., Nicholls, R. J., and Brown, S.: Future response of global coastal wetlands to sea-level rise, Nature, 561, 231\u2013234, https://doi.org/10.1038/s41586-018-0476-5, 2018.\u2002a",
+        "DOI": "10.1038/s41586-018-0476-5"
+      },
+      {
+        "key": "ref92",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shi, Z., Ren, L., Zhang, S., and Chen, J.: Acoustic imaging of cohesive sediment resuspension and re-entrainment in the Changjiang Estuary, East China Sea, Geo.-Mar. Lett., 17, 162\u2013168, https://doi.org/10.1007/s003670050022, 1997.\u2002a",
+        "DOI": "10.1007/s003670050022"
+      },
+      {
+        "key": "ref93",
+        "unstructured": "Simard, M., Jones, C., Denbina, M W., Christensen, A., Oliver-Cabrera, T., Liao, T.-H., Fagherazzi, S., Passalacqua, P., Wright, K. A., Zhang, X., and Cortese, L.: Delta-X, SWOT and NISAR to Revolutionize our Understanding of Coastal Hydrodynamics, in: AGU Fall Meeting Abstracts, Vol.\u00a02022, B45C\u201301, 2022.\u2002a"
+      },
+      {
+        "key": "ref94",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Slatton, K.\u00a0C., Crawford, M.\u00a0M., and Chang, L.-D.: Modeling temporal variations in multipolarized radar scattering from intertidal coastal wetlands, ISPRS J. Photogramm., 63, 559\u2013577, https://doi.org/10.1016/j.isprsjprs.2008.07.003, 2008.\u2002a",
+        "DOI": "10.1016/j.isprsjprs.2008.07.003"
+      },
+      {
+        "key": "ref95",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Spencer, T., Schuerch, M., Nicholls, R.\u00a0J., Hinkel, J., Lincke, D., Vafeidis, A., Reef, R., McFadden, L., and Brown, S.: Global coastal wetland change under sea-level rise and related stresses: The DIVA Wetland Change Model, Global Planet. Change, 139, 15\u201330, https://doi.org/10.1016/j.gloplacha.2015.12.018, 2016.\u2002a",
+        "DOI": "10.1016/j.gloplacha.2015.12.018"
+      },
+      {
+        "key": "ref96",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stark, J., Van\u00a0Oyen, T., Meire, P., and Temmerman, S.: Observations of tidal and storm surge attenuation in a large tidal marsh, Limnol. Oceanogr., 60, 1371\u20131381, https://doi.org/10.1002/lno.10104, 2015.\u2002a",
+        "DOI": "10.1002/lno.10104"
+      },
+      {
+        "key": "ref97",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Syvitski, J.\u00a0P., Vo\u0308ro\u0308smarty, C.\u00a0J., Kettner, A.\u00a0J., and Green, P.: Impact of humans on the flux of terrestrial sediment to the global coastal ocean, Science, 308, 376\u2013380, https://doi.org/10.1126/science.1109454, 2005.\u2002a",
+        "DOI": "10.1126/science.1109454"
+      },
+      {
+        "key": "ref98",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Syvitski, J. P., Kettner, A. J., Overeem, I., Hutton, E. W., Hannon, M. T., Brakenridge, G. R., Day, J., V\u00f6r\u00f6smarty, C., Saito, Y., Giosan, L., Nicholls, R. J.: Sinking deltas due to human activities, Nat. Geosci., 2, 681\u2013686, https://doi.org/10.1038/ngeo629, 2009.\u2002a",
+        "DOI": "10.1038/ngeo629"
+      },
+      {
+        "key": "ref99",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tan, Q., Shao, Y., Yang, S., and Wei, Q.: Wetland vegetation biomass estimation using Landsat-7 ETM+ data, in: IGARSS 2003. 2003 IEEE International Geoscience and Remote Sensing Symposium, Proceedings (IEEE Cat. No. 03CH37477), IEEE, 4, 2629\u20132631, https://doi.org/10.1109/IGARSS.2003.1294532, 2003.\u2002a",
+        "DOI": "10.1109/IGARSS.2003.1294532"
+      },
+      {
+        "key": "ref100",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tana, G., Letu, H., Cheng, Z., and Tateishi, R.: Wetlands mapping in North America by decision rule classification using MODIS and ancillary data, IEEE J. Sel. Top. Appl., 6, 2391\u20132401, https://doi.org/10.1109/JSTARS.2013.2249499, 2013.\u2002a",
+        "DOI": "10.1109/JSTARS.2013.2249499"
+      },
+      {
+        "key": "ref101",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Temmerman, S., Horstman, E.\u00a0M., Krauss, K.\u00a0W., Mullarney, J.\u00a0C., Pelckmans, I., and Schoutens, K.: Marshes and mangroves as nature-based coastal storm buffers, Annu. Rev., 15, 95\u2013118, https://doi.org/10.1146/annurev-marine-040422-092951, 2023.\u2002a",
+        "DOI": "10.1146/annurev-marine-040422-092951"
+      },
+      {
+        "key": "ref102",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Thomas, N., Simard, M., Casta\u00f1eda-Moya, E., Byrd, K., Windham-Myers, L., Bevington, A., and Twilley, R.\u00a0R.: High-resolution mapping of biomass and distribution of marsh and forested wetlands in southeastern coastal Louisiana, Int. J. Appl. Earth Observ. Geoinfo., 80, 257\u2013267, https://doi.org/10.1016/j.jag.2019.03.013, 2019.\u2002a",
+        "DOI": "10.1016/j.jag.2019.03.013"
+      },
+      {
+        "key": "ref103",
+        "unstructured": "Twilley, R. and Rovai, A.: Delta-X: Real-Time Kinematic Elevation Measurements for Coastal Wetlands, LA, 2021, ORNL DAAC, [data set], https://doi.org/10.3334/ORNLDAAC/2071, 2022.\u2002a"
+      },
+      {
+        "key": "ref104",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Twilley, R., Day, J., Bevington, A., Casta\u00f1eda-Moya, E., Christensen, A., Holm, G., Heffner, L., Lane, R., McCall, A., Aarons, A., Li, S., Freeman, A., and Rovai, A. S.: Ecogeomorphology of coastal deltaic floodplains and estuaries in an active delta: Insights from the Atchafalaya Coastal Basin, Estuar. Coast. Shelf Sci., 227, 106341, https://doi.org/10.1016/j.ecss.2019.106341, 2019.\u2002a, b",
+        "DOI": "10.1016/j.ecss.2019.106341"
+      },
+      {
+        "key": "ref105",
+        "unstructured": "U.S. Geological Survey: National Water Information System data available on the World Wide Web (USGS Water Data for the Nation) [data set], https://doi.org/10.5066/F7P55KJN, 2016.\u2002a, b, c"
+      },
+      {
+        "key": "ref106",
+        "doi-asserted-by": "crossref",
+        "unstructured": "van\u00a0der Wegen, M., Dastgheib, A., Jaffe, B.\u00a0E., and Roelvink, D.: Bed composition generation for morphodynamic modeling: case study of San Pablo Bay in California, USA, Ocean Dynam., 61, 173\u2013186, https://doi.org/10.1007/s10236-010-0314-2, 2011.\u2002a",
+        "DOI": "10.1007/s10236-010-0314-2"
+      },
+      {
+        "key": "ref107",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Van\u00a0Rijn, L.\u00a0C.: Unified view of sediment transport by currents and waves. I: Initiation of motion, bed roughness, and bed-load transport, J. Hydraul. Eng., 133, 649\u2013667, 2007.\u2002a",
+        "DOI": "10.1061/(ASCE)0733-9429(2007)133:6(649)"
+      },
+      {
+        "key": "ref108",
+        "unstructured": "Van\u00a0Rijn, L.\u00a0C.: Principles of sediment transport in rivers, Estuar. Coast. Sea., ISBN 9789080035621, 1993.\u2002a"
+      },
+      {
+        "key": "ref109",
+        "unstructured": "Walker, N.\u00a0D. and Hammack, A.\u00a0B.: Impacts of winter storms on circulation and sediment transport: Atchafalaya-Vermilion Bay region, Louisiana, USA, J. Coast. Res., 996\u20131010, http://www.jstor.org/stable/4300118, 2000.\u2002a"
+      },
+      {
+        "key": "ref110",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, F. and D'Sa, E.\u00a0J.: Potential of MODIS EVI in identifying hurricane disturbance to coastal vegetation in the northern Gulf of Mexico, Remote Sens., 2, 1\u201318, https://doi.org/10.3390/rs2010001, 2009.\u2002a",
+        "DOI": "10.3390/rs2010001"
+      },
+      {
+        "key": "ref111",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, X., Gao, X., Zhang, Y., Fei, X., Chen, Z., Wang, J., Zhang, Y., Lu, X., and Zhao, H.: Land-cover classification of coastal wetlands using the RF algorithm for Worldview-2 and Landsat 8 images, Remote Sens., 11, 1927, https://doi.org/10.3390/rs11161927, 2019.\u2002a",
+        "DOI": "10.3390/rs11161927"
+      },
+      {
+        "key": "ref112",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, X., Xiao, X., Zou, Z., Hou, L., Qin, Y., Dong, J., Doughty, R. B., Chen, B., Zhang, X., Chen, Y., Ma, J., Zhao, B., and Li, B.: Mapping coastal wetlands of China using time series Landsat images in 2018 and Google Earth Engine, ISPRS J. Photogramm., 163, 312\u2013326, https://doi.org/10.1016/j.isprsjprs.2020.03.014, 2020.\u2002a",
+        "DOI": "10.1016/j.isprsjprs.2020.03.014"
+      },
+      {
+        "key": "ref113",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wdowinski, S., Kim, S.-W., Amelung, F., Dixon, T.\u00a0H., Miralles-Wilhelm, F., and Sonenshein, R.: Space-based detection of wetlands' surface water level changes from L-band SAR interferometry, Remote Sens. Environ., 112, 681\u2013696, https://doi.org/10.1016/j.rse.2007.06.008, 2008.\u2002a",
+        "DOI": "10.1016/j.rse.2007.06.008"
+      },
+      {
+        "key": "ref114",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wdowinski, S., Hong, S.-H., Mulcan, A., and Brisco, B.: Remote-sensing monitoring of tide propagation through coastal wetlands, Oceanography, 26, 64\u201369, https://doi.org/10.5670/oceanog.2013.46, 2013.\u2002a",
+        "DOI": "10.5670/oceanog.2013.46"
+      },
+      {
+        "key": "ref115",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wiberg, P.\u00a0L., Carr, J.\u00a0A., Safak, I., and Anutaliya, A.: Quantifying the distribution and influence of non-uniform bed properties in shallow coastal bays, Limnol. Oceanogr.-Meth., 13, 746\u2013762, https://doi.org/10.1002/lom3.10063, 2015.\u2002a",
+        "DOI": "10.1002/lom3.10063"
+      },
+      {
+        "key": "ref116",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Williams, S.\u00a0J., Arsenault, M.\u00a0A., Buczkowski, B.\u00a0J., Reid, J.\u00a0A., Flocks, J., Kulp, M.\u00a0A., Penland, S., and Jenkins, C.\u00a0J.: Surficial sediment character of the Louisiana offshore Continental Shelf region: a GIS Compilation, Tech. Rep., US Geological Survey, https://doi.org/10.3133/ofr20061195, 2006.\u2002a",
+        "DOI": "10.3133/ofr20061195"
+      },
+      {
+        "key": "ref117",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xie, C., Shao, Y., Xu, J., Wan, Z., and Fang, L.: Analysis of ALOS PALSAR InSAR data for mapping water level changes in Yellow River Delta wetlands, Int. J. Remote Sens., 34, 2047\u20132056, https://doi.org/10.1080/01431161.2012.731541, 2013.\u2002a",
+        "DOI": "10.1080/01431161.2012.731541"
+      },
+      {
+        "key": "ref118",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yan, Y., Zhao, B., Chen, J., Guo, H., Gu, Y., Wu, Q., and Li, B.: Closing the carbon budget of estuarine wetlands with tower-based measurements and MODIS time series, Glob. Change Biol., 14, 1690\u20131702, https://doi.org/10.1111/j.1365-2486.2008.01589.x, 2008.\u2002a",
+        "DOI": "10.1111/j.1365-2486.2008.01589.x"
+      },
+      {
+        "key": "ref119",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zang, Z., Xue, Z.\u00a0G., Bao, S., Chen, Q., Walker, N.\u00a0D., Haag, A.\u00a0S., Ge, Q., and Yao, Z.: Numerical study of sediment dynamics during hurricane Gustav, Ocean Model., 126, 29\u201342, https://doi.org/10.1016/j.ocemod.2018.04.002, 2018.\u2002a",
+        "DOI": "10.1016/j.ocemod.2018.04.002"
+      },
+      {
+        "key": "ref120",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, X., Leonardi, N., Donatelli, C., and Fagherazzi, S.: Fate of cohesive sediments in a marsh-dominated estuary, Adv. Water Resour., 125, 32\u201340, https://doi.org/10.1016/j.advwatres.2019.01.003, 2019. \u2002a, b",
+        "DOI": "10.1016/j.advwatres.2019.01.003"
+      },
+      {
+        "key": "ref121",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, X., Fichot, C.\u00a0G., Baracco, C., Guo, R., Neugebauer, S., Bengtsson, Z., Ganju, N., and Fagherazzi, S.: Determining the drivers of suspended sediment dynamics in tidal marsh-influenced estuaries using high-resolution ocean color remote sensing, Remote Sens. Environ., 240, 111682, https://doi.org/10.1016/j.rse.2020.111682, 2020a.\u2002a",
+        "DOI": "10.1016/j.rse.2020.111682"
+      },
+      {
+        "key": "ref122",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, X., Leonardi, N., Donatelli, C., and Fagherazzi, S.: Divergence of sediment fluxes triggered by sea-level rise will reshape coastal bays, Geophys. Res. Lett., 47, e2020GL087862, https://doi.org/10.1029/2020GL087862, 2020b.\u2002a",
+        "DOI": "10.1029/2020GL087862"
+      },
+      {
+        "key": "ref123",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, X., Jones, C.\u00a0E., Oliver-Cabrera, T., Simard, M., and Fagherazzi, S.: Using rapid repeat SAR interferometry to improve hydrodynamic models of flood propagation in coastal wetlands, Adv. Water Res., 159, 104088, https://doi.org/10.1016/j.advwatres.2021.104088, 2022a.\u2002a, b, c, d, e",
+        "DOI": "10.1016/j.advwatres.2021.104088"
+      },
+      {
+        "key": "ref124",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, X., Wright, K., Passalacqua, P., Simard, M., and Fagherazzi, S.: Improving Channel Hydrological Connectivity in Coastal Hydrodynamic Models With Remotely Sensed Channel Networks, J. Geophys. Res.-Earth, 127, e2021JF006294, https://doi.org/10.1029/2021JF006294, 2022b. \u2002a",
+        "DOI": "10.1029/2021JF006294"
+      },
+      {
+        "key": "ref125",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, X., Xiao, X., Qiu, S., Xu, X., Wang, X., Chang, Q., Wu, J., and Li, B.: Quantifying latitudinal variation in land surface phenology of Spartina alterniflora saltmarshes across coastal wetlands in China by Landsat 7/8 and Sentinel-2 images, Remote Sens. Environ., 269, 112810, https://doi.org/10.1016/j.rse.2021.112810, 2022c.\u2002a",
+        "DOI": "10.1016/j.rse.2021.112810"
+      },
+      {
+        "key": "ref126",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, Y., Lu, D., Yang, B., Sun, C., and Sun, M.: Coastal wetland vegetation classification with a Landsat Thematic Mapper image, Int. J. Remote Sens., 32, 545\u2013561, https://doi.org/10.1080/01431160903475241, 2011.\u2002a",
+        "DOI": "10.1080/01431160903475241"
+      },
+      {
+        "key": "ref127",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhao, B., Yan, Y., Guo, H., He, M., Gu, Y., and Li, B.: Monitoring rapid vegetation succession in estuarine wetland using time series MODIS-based indicators: an application in the Yangtze River Delta area, Ecol. Ind., 9, 346\u2013356, https://doi.org/10.1016/j.ecolind.2008.05.009, 2009.\u2002a",
+        "DOI": "10.1016/j.ecolind.2008.05.009"
+      },
+      {
+        "key": "ref128",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zoffoli, M.\u00a0L., Kandus, P., Madanes, N., and Calvo, D.\u00a0H.: Seasonal and interannual analysis of wetlands in South America using NOAA-AVHRR NDVI time series: the case of the Parana Delta Region, Landscape Ecol., 23, 833\u2013848, https://doi.org/10.1007/s10980-008-9240-9, 2008.\u2002a",
+        "DOI": "10.1007/s10980-008-9240-9"
+      }
+    ],
+    "container-title": [
+      "Biogeosciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://bg.copernicus.org/articles/21/241/2024/bg-21-241-2024.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          22
+        ]
+      ],
+      "date-time": "2025-01-22T15:22:30Z",
+      "timestamp": 1737559350000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://bg.copernicus.org/articles/21/241/2024/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          16
+        ]
+      ]
+    },
+    "references-count": 128,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.5194/bg-21-241-2024",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/bg-2023-108",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/bg-2023-108",
+          "asserted-by": "object"
+        }
+      ],
+      "has-review": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/bg-2023-108-RC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/bg-2023-108-AC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/bg-2023-108-RC2",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/bg-2023-108-AC2",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/bg-2023-108-RC3",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/bg-2023-108-AC3",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/bg-2023-108-AC1",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/bg-2023-108-RC1",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/bg-2023-108-RC2",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/bg-2023-108-RC3",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/bg-2023-108-AC2",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/bg-2023-108-AC3",
+          "asserted-by": "object"
+        }
+      ],
+      "is-part-of": [
+        {
+          "id-type": "doi",
+          "id": "10.5066/F7P55KJN",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.25921/dt9g-2p60",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "ISSN": [
+      "1726-4189"
+    ],
+    "issn-type": [
+      {
+        "value": "1726-4189",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          16
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.5194/bg-21-241-2024",
+  "original_doi": "10.5194/bg-21-241-2024"
+}

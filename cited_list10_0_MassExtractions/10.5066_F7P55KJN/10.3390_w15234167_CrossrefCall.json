@@ -1,0 +1,1110 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          13
+        ]
+      ],
+      "date-time": "2026-07-13T21:12:31Z",
+      "timestamp": 1783977151515,
+      "version": "3.55.0"
+    },
+    "reference-count": 84,
+    "publisher": "MDPI AG",
+    "issue": "23",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2023-12-01T00:00:00Z",
+          "timestamp": 1701388800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000139",
+        "name": "U.S. Environmental Protection Agency",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DW-014-92478501-0"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DW-014-92478501-0"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000139",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "U.S. Geological Survey (USGS) Coastal and Marine Hazards and Resources Program",
+        "award": [
+          "DW-014-92478501-0"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DW-014-92478501-0"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Water"
+    ],
+    "abstract": "<jats:p>Extreme water-level recurrence estimates for a complex estuary using a high-resolution 2D model and a new method for estimating remotely generated sea level anomalies (SLAs) at the model boundary have been developed. The hydrodynamic model accurately resolves the dominant physical processes contributing to extreme water levels across the Washington State waters of the Salish Sea, including the relative contribution of remote SLA and other non-tidal residual processes that drive extreme water levels above the predicted tide. The model\u2019s predictions have errors of less than 15 cm (&lt;5% of 3\u20134 m tidal range) at eight tide gauge locations across the model domain. The influence of remote SLAs at the seaward boundary of the model was implemented using a multivariate regression of readily available and locally relevant wind, sea surface temperature, and pressure anomaly data, combined with El Ni\u00f1o Index data (R2 = 0.76). The hydrodynamic model simulations using the remote SLA predictor compared well with simulations using the widely used data-assimilative global ocean model HYCOM SLA data (root mean square difference of 5.5 cm). Extreme water-level recurrence estimates with and without remote SLA show that remote forcing accounts for 50\u201360% of the total water level anomaly observed along Salish Sea shorelines. The resulting model simulations across decadal timescales provide estimates of extreme water level recurrence across the Salish Sea, capturing climate variability important to long-term coastal hazard planning. This approach has widespread applications for other complex estuarine systems.</jats:p>",
+    "DOI": "10.3390/w15234167",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          1
+        ]
+      ],
+      "date-time": "2023-12-01T08:36:59Z",
+      "timestamp": 1701419819000
+    },
+    "page": "4167",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Modeling Extreme Water Levels in the Salish Sea: The Importance of Including Remote Sea Level Anomalies for Application in Hydrodynamic Simulations"
+    ],
+    "prefix": "10.3390",
+    "volume": "15",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0269-6307",
+        "authenticated-orcid": false,
+        "given": "Eric E.",
+        "family": "Grossman",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Pacific Coastal and Marine Science Center, Santa Cruz, CA 95060, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Babak",
+        "family": "Tehranirad",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Pacific Coastal and Marine Science Center, Santa Cruz, CA 95060, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0552-3428",
+        "authenticated-orcid": false,
+        "given": "Cornelis M.",
+        "family": "Nederhoff",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Deltares USA, Silver Spring, MD 20910, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1499-6836",
+        "authenticated-orcid": false,
+        "given": "Sean C.",
+        "family": "Crosby",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Pacific Coastal and Marine Science Center, Santa Cruz, CA 95060, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrew W.",
+        "family": "Stevens",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Pacific Coastal and Marine Science Center, Santa Cruz, CA 95060, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nathan R.",
+        "family": "Van Arendonk",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Pacific Coastal and Marine Science Center, Santa Cruz, CA 95060, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daniel J.",
+        "family": "Nowacki",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Pacific Coastal and Marine Science Center, Santa Cruz, CA 95060, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8607-7695",
+        "authenticated-orcid": false,
+        "given": "Li H.",
+        "family": "Erikson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Pacific Coastal and Marine Science Center, Santa Cruz, CA 95060, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1414-6476",
+        "authenticated-orcid": false,
+        "given": "Patrick L.",
+        "family": "Barnard",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Pacific Coastal and Marine Science Center, Santa Cruz, CA 95060, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          1
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "579",
+        "DOI": "10.1002/2014EF000272",
+        "article-title": "From the extreme to the mean: Acceleration and tipping points of coastal inundation from sea-level rise",
+        "volume": "2",
+        "author": "Sweet",
+        "year": "2014",
+        "journal-title": "Earth\u2019s Future"
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1399",
+        "DOI": "10.1038/s41598-017-01362-7",
+        "article-title": "Doubling of coastal flooding frequency within decades due to sea-level rise",
+        "volume": "7",
+        "author": "Vitousek",
+        "year": "2017",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "6466",
+        "DOI": "10.1038/s41598-020-62188-4",
+        "article-title": "Sea-level rise exponentially increases coastal flood frequency",
+        "volume": "10",
+        "author": "Taherkhani",
+        "year": "2020",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_4",
+        "unstructured": "Sweet, W.V., Hamlington, B.D., Kopp, R.E., Weaver, C.P., Barnard, P.L., Bekaert, D., Brooks, W., Craghan, M., Dusek, G., and Frederikse, T. (2022). Global and Regional Sea Level Rise Scenarios for the United States: Updated Mean Projections and Extreme Water Level Probabilities Along U.S. Coastlines, National Oceanic and Atmospheric Administration, National Ocean Service. Available online: https://oceanservice.noaa.gov/hazards/sealevelrise/noaa-nos-techrpt01-global-regional-SLR-scenarios-US.pdf."
+      },
+      {
+        "key": "ref_5",
+        "first-page": "431",
+        "article-title": "Current Observed Global Mean Sea Level Rise and Acceleration Estimated from Satellite Altimetry and the Associated Uncertainty",
+        "volume": "19",
+        "author": "Meyssignac",
+        "year": "2022",
+        "journal-title": "EGUsphere"
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "21527",
+        "DOI": "10.1073/pnas.0907765106",
+        "article-title": "Global sea level linked to global temperature",
+        "volume": "106",
+        "author": "Vermeer",
+        "year": "2009",
+        "journal-title": "Proc. Natl. Acad. Sci. USA"
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "585",
+        "DOI": "10.1007/s10712-011-9119-1",
+        "article-title": "Sea-Level Rise from the Late 19th to the Early 21st Century",
+        "volume": "32",
+        "author": "Church",
+        "year": "2011",
+        "journal-title": "Surv. Geophys."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "122",
+        "DOI": "10.5670/oceanog.2011.32",
+        "article-title": "Balancing the Sea Level Budget",
+        "volume": "24",
+        "author": "Leuliette",
+        "year": "2011",
+        "journal-title": "Oceanography"
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "481",
+        "DOI": "10.1038/nature14093",
+        "article-title": "Probabilistic reanalysis of twentieth-century sea-level rise",
+        "volume": "517",
+        "author": "Hay",
+        "year": "2015",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "4309",
+        "DOI": "10.1038/s41598-019-40742-z",
+        "article-title": "Dynamic flood modeling essential to assess the coastal impacts of climate change",
+        "volume": "9",
+        "author": "Barnard",
+        "year": "2019",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "171",
+        "DOI": "10.1016/j.ocemod.2015.07.004",
+        "article-title": "Projected wave conditions in the Eastern North Pacific under the influence of two CMIP5 climate scenarios",
+        "volume": "96",
+        "author": "Erikson",
+        "year": "2015",
+        "journal-title": "Ocean Model."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1093",
+        "DOI": "10.1038/nclimate2736",
+        "article-title": "Increasing risk of compound flooding from storm surge and rainfall for major US cities",
+        "volume": "5",
+        "author": "Wahl",
+        "year": "2015",
+        "journal-title": "Nat. Clim. Chang."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "469",
+        "DOI": "10.1038/s41558-018-0156-3",
+        "article-title": "Future climate risk from compound events",
+        "volume": "8",
+        "author": "Zscheischler",
+        "year": "2018",
+        "journal-title": "Nat. Clim. Chang."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "C07005",
+        "DOI": "10.1029/2010JC006759",
+        "article-title": "Dynamical suppression of sea level rise along the Pacific coast of North America: Indications for imminent acceleration",
+        "volume": "116",
+        "author": "Bromirski",
+        "year": "2011",
+        "journal-title": "J. Geophys. Res. Atmos."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tehranirad, B., Herdman, L., Nederhoff, K., Erikson, L., Cifelli, R., Pratt, G., Leon, M., and Barnard, P. (2020). Effect of Fluvial Discharges and Remote Non-Tidal Residuals on Compound Flood Forecasting in San Francisco Bay. Water, 12.",
+        "DOI": "10.3390/w12092481"
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "103984",
+        "DOI": "10.1016/j.coastaleng.2021.103984",
+        "article-title": "Drivers of extreme water levels in a large, urban, high-energy coastal estuary\u2013a case study of the san francisco bay",
+        "volume": "170",
+        "author": "Nederhoff",
+        "year": "2021",
+        "journal-title": "Coast. Eng."
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "L19603",
+        "DOI": "10.1029/2006GL027021",
+        "article-title": "Remote forcing contribution to storm-induced sea level rise during Hurricane Dennis",
+        "volume": "33",
+        "author": "Morey",
+        "year": "2006",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "61",
+        "DOI": "10.1016/j.ecss.2010.07.001",
+        "article-title": "How do uncertainties in hurricane model forecasts affect storm surge predictions in a semi-enclosed bay?",
+        "volume": "90",
+        "author": "Zhong",
+        "year": "2010",
+        "journal-title": "Estuar. Coast Shelf Sci."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "39",
+        "DOI": "10.1016/j.ecss.2018.09.019",
+        "article-title": "Numerical study on factors influencing typhoon-induced storm surge distribution in Zhanjiang Harbor",
+        "volume": "215",
+        "author": "Liu",
+        "year": "2018",
+        "journal-title": "Estuar. Coast Shelf Sci."
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "1643",
+        "DOI": "10.1007/s10236-015-0891-1",
+        "article-title": "Coastal ocean variability in the US Pacific Northwest region: Seasonal patterns, winter circulation, and the influence of the 2009\u20132010 El Ni\u00f1o",
+        "volume": "65",
+        "author": "Durski",
+        "year": "2015",
+        "journal-title": "Ocean Dyn."
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "3970",
+        "DOI": "10.1002/2014JC010602",
+        "article-title": "The effect of the El Ni\u00f1o-Southern Oscillation on U.S. regional and coastal sea level",
+        "volume": "120",
+        "author": "Hamlington",
+        "year": "2015",
+        "journal-title": "J. Geophys. Res. Oceans"
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "5237",
+        "DOI": "10.1002/2017JC012721",
+        "article-title": "Seasonal and interannual variability in along-slope oceanic properties off the us west coast: Inferences from a high-resolution regional model",
+        "volume": "122",
+        "author": "Kurapov",
+        "year": "2017",
+        "journal-title": "J. Geophys. Res. Oceans"
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "319",
+        "DOI": "10.1016/j.ecss.2016.09.002",
+        "article-title": "Observations of oceanic-forced subtidal elevations in a convergent estuary",
+        "volume": "181",
+        "author": "MacMahan",
+        "year": "2016",
+        "journal-title": "Estuar. Coast Shelf Sci."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "359",
+        "DOI": "10.1080/07055900.1995.9649537",
+        "article-title": "Storm surges in Canadian waters",
+        "volume": "33",
+        "author": "Murty",
+        "year": "1995",
+        "journal-title": "Atmosphere-Ocean"
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "4733",
+        "DOI": "10.1175/JCLI-D-13-00225.1",
+        "article-title": "Wind-Driven Coastal Sea Level Variability in the Northeast Pacific",
+        "volume": "27",
+        "author": "Thompson",
+        "year": "2014",
+        "journal-title": "J. Clim."
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "801",
+        "DOI": "10.1038/ngeo2539",
+        "article-title": "Coastal vulnerability across the Pacific dominated by El Ni\u00f1o/Southern Oscillation",
+        "volume": "8",
+        "author": "Barnard",
+        "year": "2015",
+        "journal-title": "Nat. Geosci."
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "14365",
+        "DOI": "10.1038/ncomms14365",
+        "article-title": "Extreme oceanographic forcing and coastal response due to the 2015\u20132016 El Ni\u00f1o",
+        "volume": "8",
+        "author": "Barnard",
+        "year": "2017",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "ref_28",
+        "first-page": "25",
+        "article-title": "California tides, sea level, and waves\u2014Winter 2015\u20132016",
+        "volume": "84",
+        "author": "Flick",
+        "year": "2016",
+        "journal-title": "Shore Beach"
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1080/07055900.2015.1108899",
+        "article-title": "Storm Surges in the Strait of Georgia Simulated with a Regional Model",
+        "volume": "54",
+        "author": "Soontiens",
+        "year": "2015",
+        "journal-title": "Atmosphere-Ocean"
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "first-page": "140",
+        "DOI": "10.1038/s41561-022-01117-8",
+        "article-title": "Pacific shoreline erosion and accretion patterns controlled by El Ni\u00f1o/Southern Oscillation",
+        "volume": "16",
+        "author": "Vos",
+        "year": "2023",
+        "journal-title": "Nat. Geosci."
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "263",
+        "DOI": "10.3389/fmars.2020.00263",
+        "article-title": "A High-Resolution Global Dataset of Extreme Sea Levels, Tides, and Storm Surges, Including Future Projections",
+        "volume": "7",
+        "author": "Muis",
+        "year": "2020",
+        "journal-title": "Front. Mar. Sci."
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "first-page": "60",
+        "DOI": "10.1016/j.jmarsys.2005.09.016",
+        "article-title": "The HYCOM (HYbrid Coordinate Ocean Model) data assimilative system",
+        "volume": "65",
+        "author": "Chassignet",
+        "year": "2007",
+        "journal-title": "J. Mar. Syst."
+      },
+      {
+        "key": "ref_33",
+        "unstructured": "Yang, Z., Wang, T., and Castrucci, L. (2020, May 15). Storm Surge Modeling in Puget Sound. Technical Report. Pacific Northwest National Lab (PNNL), Richland, WA (United States), Available online: https://www.osti.gov/servlets/purl/1558622."
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "first-page": "2035",
+        "DOI": "10.1175/JCLI-D-21-0061.1",
+        "article-title": "The mesoscale response to global warming over the pacific northwest evaluated using a regional climate model ensemble",
+        "volume": "35",
+        "author": "Mass",
+        "year": "2022",
+        "journal-title": "J. Clim."
+      },
+      {
+        "key": "ref_35",
+        "unstructured": "Sobocinski, K.L. (2022, February 01). State of the Salish Sea. G. Broadhurst and N.J.K. Baloy (Contributing Eds.). Salish Sea Institute, Western Washington University. Available online: https://cedar.wwu.edu/salish_pubs/1/."
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "first-page": "1329",
+        "DOI": "10.1175/1520-0493(1996)124<1329:IOAIEC>2.0.CO;2",
+        "article-title": "Interaction of an Intense Extratropical Cyclone with Coastal Orography",
+        "volume": "124",
+        "author": "Steenburgh",
+        "year": "1996",
+        "journal-title": "Mon. Weather Rev."
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "first-page": "748",
+        "DOI": "10.1175/1520-0493(2001)129<0748:SCITNP>2.0.CO;2",
+        "article-title": "Surface Cyclolysis in the North Pacific Ocean. Part I: A Synoptic Climatology",
+        "volume": "129",
+        "author": "Martin",
+        "year": "2001",
+        "journal-title": "Mon. Weather Rev."
+      },
+      {
+        "key": "ref_38",
+        "doi-asserted-by": "crossref",
+        "first-page": "2076",
+        "DOI": "10.1175/JCLI3725.1",
+        "article-title": "Climatology and ENSO-Related Variability of North American Extratropical Cyclone Activity",
+        "volume": "19",
+        "author": "Eichler",
+        "year": "2006",
+        "journal-title": "J. Clim."
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "first-page": "41",
+        "DOI": "10.3137/AO1003.2009",
+        "article-title": "Extreme wind regime responses to climate variability and change in the inner south coast of British Columbia, Canada",
+        "volume": "47",
+        "author": "Abeysirigunawardena",
+        "year": "2009",
+        "journal-title": "Atmosphere-Ocean"
+      },
+      {
+        "key": "ref_40",
+        "doi-asserted-by": "crossref",
+        "first-page": "106336",
+        "DOI": "10.1016/j.margeo.2020.106336",
+        "article-title": "Sediment export and impacts associated with river delta channelization compound estuary vulnerability to sea-level rise, Skagit River Delta, Washington, USA",
+        "volume": "430",
+        "author": "Grossman",
+        "year": "2020",
+        "journal-title": "Mar. Geol."
+      },
+      {
+        "key": "ref_41",
+        "unstructured": "Hanna, J.M. (1997). Native Communities and Climate Change: Protecting Tribal Resources as Part of National Climate Policy, Natural Resources Law Center, University of Colorado Law School."
+      },
+      {
+        "key": "ref_42",
+        "unstructured": "Marks-Marino, D. (2021). Status of Tribes and Climate Change Report, Institute for Tribal Environmental Professionals, Northern Arizona University. Available online: http://nau.edu/stacc 2021."
+      },
+      {
+        "key": "ref_43",
+        "unstructured": "Mofjeld, H.O., and Larsen, L.H. (1984). Tides and Tidal Currents of the Inland Waters of Western Washington, NOAA Technical Memorandum ERL PMEL-56; National Oceanic and Atmospheric Administration."
+      },
+      {
+        "key": "ref_44",
+        "doi-asserted-by": "crossref",
+        "first-page": "16779",
+        "DOI": "10.1029/91JC01450",
+        "article-title": "A model study of density intrusions into and circulation within a deep, silled estuary: Puget Sound",
+        "volume": "96",
+        "author": "Lavelle",
+        "year": "1991",
+        "journal-title": "J. Geophys. Res. Atmos."
+      },
+      {
+        "key": "ref_45",
+        "doi-asserted-by": "crossref",
+        "first-page": "29",
+        "DOI": "10.3137/ao.440103",
+        "article-title": "Seasonal and Interannual Variability in the Circulation of Puget Sound, Washington: A Box Model Study",
+        "volume": "44",
+        "author": "Babson",
+        "year": "2006",
+        "journal-title": "Atmosphere-Ocean"
+      },
+      {
+        "key": "ref_46",
+        "doi-asserted-by": "crossref",
+        "first-page": "1621",
+        "DOI": "10.1007/s10236-010-0348-5",
+        "article-title": "Multi-scale modeling of Puget Sound using an unstructured-grid coastal ocean model: From tide flats to estuaries and coastal waters",
+        "volume": "60",
+        "author": "Yang",
+        "year": "2010",
+        "journal-title": "Ocean Dyn."
+      },
+      {
+        "key": "ref_47",
+        "doi-asserted-by": "crossref",
+        "first-page": "1125",
+        "DOI": "10.1175/2011JPO4540.1",
+        "article-title": "A Model Study of the Salish Sea Estuarine Circulation",
+        "volume": "41",
+        "author": "Sutherland",
+        "year": "2011",
+        "journal-title": "J. Phys. Oceanogr."
+      },
+      {
+        "key": "ref_48",
+        "doi-asserted-by": "crossref",
+        "first-page": "992",
+        "DOI": "10.1080/00045608.2011.585929",
+        "article-title": "Extreme Sea Surge Responses to Climate Variability in Coastal British Columbia, Canada",
+        "volume": "101",
+        "author": "Abeysirigunawardena",
+        "year": "2011",
+        "journal-title": "Ann. Assoc. Am. Geogr."
+      },
+      {
+        "key": "ref_49",
+        "doi-asserted-by": "crossref",
+        "first-page": "995",
+        "DOI": "10.1007/s10236-013-0635-z",
+        "article-title": "Tidal residual eddies and their effect on water exchange in Puget Sound",
+        "volume": "63",
+        "author": "Yang",
+        "year": "2013",
+        "journal-title": "Ocean Dyn."
+      },
+      {
+        "key": "ref_50",
+        "doi-asserted-by": "crossref",
+        "first-page": "1771",
+        "DOI": "10.1007/s11069-013-0974-6",
+        "article-title": "A modeling study of coastal inundation induced by storm surge, sea-level rise, and subsidence in the Gulf of Mexico",
+        "volume": "71",
+        "author": "Yang",
+        "year": "2013",
+        "journal-title": "Nat. Hazards"
+      },
+      {
+        "key": "ref_51",
+        "doi-asserted-by": "crossref",
+        "first-page": "19",
+        "DOI": "10.1016/j.ecss.2014.08.015",
+        "article-title": "Estuarine response to river flow and sea-level rise under future climate change and human development",
+        "volume": "156",
+        "author": "Yang",
+        "year": "2015",
+        "journal-title": "Estuar. Coast Shelf Sci."
+      },
+      {
+        "key": "ref_52",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.1016/j.ocemod.2016.11.004",
+        "article-title": "Assessment of circulation and inter-basin transport in the Salish Sea including Johnstone Strait and Discovery Islands pathways",
+        "volume": "109",
+        "author": "Khangaonkar",
+        "year": "2017",
+        "journal-title": "Ocean Model."
+      },
+      {
+        "key": "ref_53",
+        "unstructured": "Miller, I.M., Morgan, H., Mauger, G., Newton, T., Weldon, R., Schmidt, D., Welch, M., and Grossman, E.E. (2023, November 22). Projected Sea Level Rise for Washington State\u2014A 2018 Assessment: Prepared for the Washington Coastal Resilience Project. Available online: http://www.wacoastalnetwork.com/files/theme/wcrp/SLR-Report-Miller-et-al-2018.pdf."
+      },
+      {
+        "key": "ref_54",
+        "doi-asserted-by": "crossref",
+        "first-page": "106552",
+        "DOI": "10.1016/j.ecss.2019.106552",
+        "article-title": "Modeling assessment of storm surge in the Salish Sea",
+        "volume": "238",
+        "author": "Yang",
+        "year": "2019",
+        "journal-title": "Estuar. Coast Shelf Sci."
+      },
+      {
+        "key": "ref_55",
+        "doi-asserted-by": "crossref",
+        "first-page": "441",
+        "DOI": "10.1002/2016JC012178",
+        "article-title": "Storm surge along the Pacific coast of North America",
+        "volume": "122",
+        "author": "Bromirski",
+        "year": "2017",
+        "journal-title": "J. Geophys. Res. Oceans"
+      },
+      {
+        "key": "ref_56",
+        "doi-asserted-by": "crossref",
+        "first-page": "1175",
+        "DOI": "10.1007/s10236-011-0423-6",
+        "article-title": "Efficient scheme for the shallow water equations on unstructured grids with application to the continental shelf",
+        "volume": "61",
+        "author": "Kernkamp",
+        "year": "2011",
+        "journal-title": "Ocean Dyn."
+      },
+      {
+        "key": "ref_57",
+        "unstructured": "Tyler, D.J., Danielson, J.J., Grossman, E.E., and Hockenberry, R.J. (2023, November 22). Topobathymetric Model of the Strait of Juan de Fuca, 1891 to 2016: U.S. Geological Survey Data Release, Available online: https://www.sciencebase.gov/catalog/item/5d7641bee4b0c4f70d01f564."
+      },
+      {
+        "key": "ref_58",
+        "unstructured": "Tyler, D.J., Danielson, J.J., Grossman, E.E., and Hockenberry, R.J. (2020). Topobathymetric Model of Puget Sound, Washington, 1887 to 2017, U.S. Geological Survey."
+      },
+      {
+        "key": "ref_59",
+        "unstructured": "Carignan, K., Eakins, B., Love, M., Sutherland, M., and McLean, S. (2019, May 15). Bathymetric Digital Elevation Model of British Columbia, Canada: Procedures, Data Sources, and Analysis. NOAA National Geophysical Data Center (NGDC), Available online: https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ngdc.mgg.dem:4956."
+      },
+      {
+        "key": "ref_60",
+        "unstructured": "NOAA, and NOAA National Geophysical Data Center (2013). NOAA National Centers for Environmental Information."
+      },
+      {
+        "key": "ref_61",
+        "doi-asserted-by": "crossref",
+        "first-page": "243",
+        "DOI": "10.1016/0025-3227(68)90033-9",
+        "article-title": "Friction factors in tidal channels with differing bed roughness",
+        "volume": "6",
+        "author": "Sternberg",
+        "year": "1968",
+        "journal-title": "Mar. Geol."
+      },
+      {
+        "key": "ref_62",
+        "unstructured": "Grossman, E.E., Tehranirad, B., Stevens, A.W., VanArendonk, N.R., Crosby, S., and Nederhoff, K. (2023). Salish Sea Hydrodynamic Model: U.S. Geological Survey Data Release, U.S. Geological Survey."
+      },
+      {
+        "key": "ref_63",
+        "doi-asserted-by": "crossref",
+        "first-page": "394",
+        "DOI": "10.1007/s10236-006-0086-x",
+        "article-title": "Modelling the global ocean tides: Modern insights from FES2004",
+        "volume": "56",
+        "author": "Lyard",
+        "year": "2006",
+        "journal-title": "Ocean Dyn."
+      },
+      {
+        "key": "ref_64",
+        "unstructured": "Holbrook, J. (2019, May 15). Circulation in the Strait of Juan de Fuca: Recent Oceanographic Observations in the Eastern Basin, Available online: https://repository.library.noaa.gov/view/noaa/17346."
+      },
+      {
+        "key": "ref_65",
+        "doi-asserted-by": "crossref",
+        "first-page": "545",
+        "DOI": "10.1016/j.ecss.2008.09.016",
+        "article-title": "A descriptive analysis of temporal and spatial patterns of variability in Puget Sound oceanographic properties",
+        "volume": "80",
+        "author": "Moore",
+        "year": "2008",
+        "journal-title": "Estuar. Coast Shelf Sci."
+      },
+      {
+        "key": "ref_66",
+        "unstructured": "Washington Department of Ecology (2023, November 22). Environmental Information Management System, Available online: http://www.ecology.wa.gov/eim/."
+      },
+      {
+        "key": "ref_67",
+        "doi-asserted-by": "crossref",
+        "first-page": "3332",
+        "DOI": "10.1029/JC090iC02p03332",
+        "article-title": "Physical properties of seawater: A new salinity scale and equation of state for seawater",
+        "volume": "90",
+        "author": "Fofonoff",
+        "year": "1985",
+        "journal-title": "J. Geophys. Res. Ocean."
+      },
+      {
+        "key": "ref_68",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Czuba, J.A., Magirl, C.S., Czuba, C.R., Grossman, E.E., Curran, C.A., Gendaszek, A.S., and Dinicola, R.S. (2023, November 22). Sediment Load from Major Rivers into Puget Sound Its Adjacent Waters, Available online: http://pubs.usgs.gov/fs/2011/3083/.",
+        "DOI": "10.3133/fs20113083"
+      },
+      {
+        "key": "ref_69",
+        "unstructured": "US Geological Survey [USGS] (2023, May 01). National Water Information System: U.S. Geological Survey Website, Available online: https://nwis.waterdata.usgs.gov/nwis."
+      },
+      {
+        "key": "ref_70",
+        "unstructured": "(2021, July 01). Environment and Natural Resources Canada. Available online: https://wateroffice.ec.gc.ca/."
+      },
+      {
+        "key": "ref_71",
+        "unstructured": "(2021, February 02). Environment Canada. Available online: https://weather.gc.ca/."
+      },
+      {
+        "key": "ref_72",
+        "doi-asserted-by": "crossref",
+        "first-page": "11693",
+        "DOI": "10.1029/2018GL079831",
+        "article-title": "Predictability of Extreme Precipitation in Western U.S. Watersheds Based on Atmospheric River Occurrence, Intensity, and Duration",
+        "volume": "45",
+        "author": "Chen",
+        "year": "2018",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "ref_73",
+        "doi-asserted-by": "crossref",
+        "first-page": "343",
+        "DOI": "10.1175/BAMS-87-3-343",
+        "article-title": "North American Regional Reanalysis",
+        "volume": "87",
+        "author": "Mesinger",
+        "year": "2006",
+        "journal-title": "Bull. Am. Meteorol. Soc."
+      },
+      {
+        "key": "ref_74",
+        "unstructured": "Nowacki, D.J., Stevens, A.W., Vanarendonk, N.R., and Grossman, E.E. (2021). Time-Series Measurements of Pressure, Conductivity, Temperature, and Water Level Collected in Puget Sound and Bellingham Bay, Washington, USA, 2018 to 2021, U.S. Geological Survey. U.S. Geological Survey Data Release."
+      },
+      {
+        "key": "ref_75",
+        "unstructured": "Codiga, D.L. (2023, November 22). Unified tidal Analysis and Prediction Using the Utide Matlab Functions. Available online: https://www.mathworks.com/matlabcentral/fileexchange/46523-utide-unified-tidal-analysis-and-prediction-functions."
+      },
+      {
+        "key": "ref_76",
+        "doi-asserted-by": "crossref",
+        "first-page": "392",
+        "DOI": "10.1080/07055900.2013.819555",
+        "article-title": "An Overview of the Columbia Basin Climate Change Scenarios Project: Approach, Methods, and Summary of Key Results",
+        "volume": "51",
+        "author": "Hamlet",
+        "year": "2013",
+        "journal-title": "Atmosphere-Ocean"
+      },
+      {
+        "key": "ref_77",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Coles, S., Bawa, J., Trenner, L., and Dorazio, P. (2001). An Introduction to Statistical Modeling of Extreme Values, Springer.",
+        "DOI": "10.1007/978-1-4471-3675-0"
+      },
+      {
+        "key": "ref_78",
+        "doi-asserted-by": "crossref",
+        "first-page": "319",
+        "DOI": "10.1002/qj.49712152206",
+        "article-title": "Correction of instrumental biases in historical sea surface temperature data",
+        "volume": "121",
+        "author": "Folland",
+        "year": "1995",
+        "journal-title": "Q. J. R. Meteorol. Soc."
+      },
+      {
+        "key": "ref_79",
+        "doi-asserted-by": "crossref",
+        "first-page": "865",
+        "DOI": "10.1002/joc.1169",
+        "article-title": "Objective analyses of sea-surface temperature and marine meteorological variables for the 20th century using ICOADS and the Kobe Collection",
+        "volume": "25",
+        "author": "Ishii",
+        "year": "2005",
+        "journal-title": "Int. J. Clim."
+      },
+      {
+        "key": "ref_80",
+        "first-page": "1",
+        "article-title": "An update on the numerical simulation of oceanographic processes in the waters between vancouver island and the mainland: The gf8 model",
+        "volume": "31",
+        "author": "Stronach",
+        "year": "1993",
+        "journal-title": "Oceanogr. Mar. Biol. Annu. Rev."
+      },
+      {
+        "key": "ref_81",
+        "doi-asserted-by": "crossref",
+        "first-page": "2167",
+        "DOI": "10.1016/j.csr.2004.07.008",
+        "article-title": "M2 tidal dissipation around Vancouver Island: An inverse approach",
+        "volume": "24",
+        "author": "Foreman",
+        "year": "2004",
+        "journal-title": "Cont. Shelf Res."
+      },
+      {
+        "key": "ref_82",
+        "unstructured": "Falgout, J.T., Gordon, J., Williams, B., and Davis, M.J. (2023). USGS Advanced Research Computing USGS Denali Supercomputer, U.S. Geological Survey."
+      },
+      {
+        "key": "ref_83",
+        "doi-asserted-by": "crossref",
+        "first-page": "605",
+        "DOI": "10.1080/01621459.1983.10478017",
+        "article-title": "Smearing Estimate: A Nonparametric Retransformation Method",
+        "volume": "78",
+        "author": "Duan",
+        "year": "1983",
+        "journal-title": "J. Am. Stat. Assoc."
+      },
+      {
+        "key": "ref_84",
+        "unstructured": "(2020, June 30). NOAA Climate Data Online, Available online: https://www.ncei.noaa.gov/cdo-web/."
+      }
+    ],
+    "container-title": [
+      "Water"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2073-4441/15/23/4167/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T21:36:09Z",
+      "timestamp": 1760132169000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2073-4441/15/23/4167"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          1
+        ]
+      ]
+    },
+    "references-count": 84,
+    "journal-issue": {
+      "issue": "23",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "w15234167"
+    ],
+    "URL": "https://doi.org/10.3390/w15234167",
+    "relation": {},
+    "ISSN": [
+      "2073-4441"
+    ],
+    "issn-type": [
+      {
+        "value": "2073-4441",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          1
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.3390/w15234167",
+  "original_doi": "10.3390/w15234167"
+}

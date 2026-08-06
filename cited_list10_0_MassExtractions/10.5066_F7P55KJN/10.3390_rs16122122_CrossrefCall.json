@@ -1,0 +1,1532 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          3
+        ]
+      ],
+      "date-time": "2026-08-03T20:14:46Z",
+      "timestamp": 1785788086075,
+      "version": "3.56.0"
+    },
+    "reference-count": 135,
+    "publisher": "MDPI AG",
+    "issue": "12",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              12
+            ]
+          ],
+          "date-time": "2024-06-12T00:00:00Z",
+          "timestamp": 1718150400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Innovaciones Alumbra"
+      },
+      {
+        "name": "U.S. Water Partnership"
+      },
+      {
+        "name": "U.S. Geological Survey, Core Science Systems Mission Area, Land Change Science Program"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Remote Sensing"
+    ],
+    "abstract": "<jats:p>Estimates of actual evapotranspiration (ETa) are valuable for effective monitoring and management of water resources. In areas that lack ground-based monitoring networks, remote sensing allows for accurate and consistent estimates of ETa across a broad scale\u2014though each algorithm has limitations (i.e., ground-based validation, temporal consistency, spatial resolution). We developed an ensemble mean ETa (EMET) product to incorporate advancements and reduce uncertainty among algorithms (e.g., energy-balance, optical-only), which we use to estimate vegetative water use in response to restoration practices being implemented on the ground using management interventions (i.e., fencing pastures, erosion control structures) on a private ranch in Baja California Sur, Mexico. This paper describes the development of a monthly EMET product, the assessment of changes using EMET over time and across multiple land use/land cover types, and the evaluation of differences in vegetation and water distribution between watersheds treated by restoration and their controls. We found that in the absence of a ground-based monitoring network, the EMET product is more robust than using a single ETa data product and can augment the efficacy of ETa-based studies. We then found increased ETa within the restored watershed when compared to the control sites, which we attribute to increased plant water availability.</jats:p>",
+    "DOI": "10.3390/rs16122122",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          12
+        ]
+      ],
+      "date-time": "2024-06-12T04:15:27Z",
+      "timestamp": 1718165727000
+    },
+    "page": "2122",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 12,
+    "title": [
+      "An Ensemble Mean Method for Remote Sensing of Actual Evapotranspiration to Estimate Water Budget Response across a Restoration Landscape"
+    ],
+    "prefix": "10.3390",
+    "volume": "16",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8932-077X",
+        "authenticated-orcid": false,
+        "given": "Roy E.",
+        "family": "Petrakis",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey\u2014Western Geographic Science Center (WGSC), Tucson, AZ 85719, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3696-8406",
+        "authenticated-orcid": false,
+        "given": "Laura M.",
+        "family": "Norman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey\u2014Western Geographic Science Center (WGSC), Tucson, AZ 85719, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0720-1422",
+        "authenticated-orcid": false,
+        "given": "Miguel L.",
+        "family": "Villarreal",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey\u2014Western Geographic Science Center (WGSC), Moffett Field, CA 94035, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8810-8539",
+        "authenticated-orcid": false,
+        "given": "Gabriel B.",
+        "family": "Senay",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey\u2014Earth Resources Observation and Science (EROS) Center, Sioux Falls, SD 57198, USA"
+          },
+          {
+            "name": "U.S. Geological Survey\u2014North Central Climate Adaptation Science Center, Fort Collins, CO 80523, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9602-321X",
+        "authenticated-orcid": false,
+        "given": "MacKenzie O.",
+        "family": "Friedrichs",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "KBR, Contractor to the U.S. Geological Survey EROS Center, Sioux Falls, SD 57198, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Florance",
+        "family": "Cassassuce",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Innovaciones Alumbra, La Paz 23000, BCS, Mexico"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Florent",
+        "family": "Gomis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Innovaciones Alumbra, La Paz 23000, BCS, Mexico"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0674-103X",
+        "authenticated-orcid": false,
+        "given": "Pamela L.",
+        "family": "Nagler",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey\u2014Southwest Biological Science Center (SBSC), Tucson, AZ 85719, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          12
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Norman, L.M., Villarreal, M.L., Niraula, R., Haberstich, M., and Wilson, N.R. (2019). Modelling Development of Riparian Ranchlands Using Ecosystem Services at the Aravaipa Watershed, SE Arizona. Land, 8.",
+        "DOI": "10.3390/land8040064"
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Petropoulos, G., Srivastava, P., Piles, M., and Pearson, S. (2018). Earth Observation-Based Operational Estimation of Soil Moisture and Evapotranspiration for Agricultural Crops in Support of Sustainable Water Management. Sustainability, 10.",
+        "DOI": "10.3390/su10010181"
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wanniarachchi, S., and Sarukkalige, R. (2022). A Review on Evapotranspiration Estimation in Agricultural Water Management: Past, Present, and Future. Hydrology, 9.",
+        "DOI": "10.3390/hydrology9070123"
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1193",
+        "DOI": "10.1111/j.1752-1688.2008.00243.x",
+        "article-title": "Effects of Land-Use and Land-Cover Change on Evapotranspiration and Water Yield in China During 1900\u20132000",
+        "volume": "44",
+        "author": "Liu",
+        "year": "2008",
+        "journal-title": "JAWRA J. Am. Water Resour. Assoc."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "519",
+        "DOI": "10.1002/rra.2895",
+        "article-title": "Hydrologic Response of Streams Restored with Check Dams in the Chiricahua Mountains, Arizona",
+        "volume": "32",
+        "author": "Norman",
+        "year": "2016",
+        "journal-title": "River Res. Applic."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "125",
+        "DOI": "10.1016/j.ecohyd.2015.12.001",
+        "article-title": "Model Analysis of Check Dam Impacts on Long-Term Sediment and Water Budgets in Southeast Arizona, USA",
+        "volume": "16",
+        "author": "Norman",
+        "year": "2016",
+        "journal-title": "Ecohydrol. Hydrobiol."
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "50",
+        "DOI": "10.1016/j.rse.2011.08.025",
+        "article-title": "Use of Landsat Thermal Imagery in Monitoring Evapotranspiration and Managing Water Resources",
+        "volume": "122",
+        "author": "Anderson",
+        "year": "2012",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "98",
+        "DOI": "10.1016/j.rse.2017.05.005",
+        "article-title": "Satellite-Based Water Use Dynamics Using Historical Landsat Data (1984\u20132014) in the Southwestern United States",
+        "volume": "202",
+        "author": "Senay",
+        "year": "2017",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "119",
+        "DOI": "10.1007/s12145-008-0015-2",
+        "article-title": "Availability and Coverage of Hydrologic Data in the US Geological Survey National Water Information System (NWIS) and US Environmental Protection Agency Storage and Retrieval System (STORET)",
+        "volume": "1",
+        "author": "Beran",
+        "year": "2008",
+        "journal-title": "Earth Sci. Inf."
+      },
+      {
+        "key": "ref_10",
+        "unstructured": "U.S. Geological Survey (2024, April 23). USGS Surface-Water Data for the Nation, Available online: https://waterdata.usgs.gov/nwis."
+      },
+      {
+        "key": "ref_11",
+        "unstructured": "Paulson, R.W., Chase, E.B., Roberts, R.S., Moody, D.W. (1991). Evapotranspiration and Droughts. National Water Summary 1988-89\u2014Hydrologic Events and Floods and Droughts, U.S. Geological Survey."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "127982",
+        "DOI": "10.1016/j.jhydrol.2022.127982",
+        "article-title": "Multi-Scale Evaluation of Global Evapotranspiration Products Derived from Remote Sensing Images: Accuracy and Uncertainty",
+        "volume": "611",
+        "author": "Zhu",
+        "year": "2022",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kirkham, M.B. (2014). Potential Evapotranspiration. Principles of Soil and Plant Water Relations, Elsevier.",
+        "DOI": "10.1016/B978-0-12-420022-7.00028-8"
+      },
+      {
+        "key": "ref_14",
+        "unstructured": "Rosenberg, N.J., Blad, B.L., and Verma, S.B. (1983). Microclimate: The Biological Environment, John Wiley & Sons, Inc.. [2nd ed.]."
+      },
+      {
+        "key": "ref_15",
+        "unstructured": "Allen, R.G., Pereira, L.S., Raes, D., and Smith, M. (1998). Crop Evapotranspiration: Guidelines for Computing Crop Water Requirements, FAO Irrigation and Drainage Paper; Food and Agriculture Organization of the United Nations."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "106043",
+        "DOI": "10.1016/j.agwat.2020.106043",
+        "article-title": "Similarity and Difference of Potential Evapotranspiration and Reference Crop Evapotranspiration\u2014A Review",
+        "volume": "232",
+        "author": "Xiang",
+        "year": "2020",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nagler, P.L., Barreto-Mu\u00f1oz, A., Sall, I., Lurtz, M.R., and Didan, K. (2022). Riparian Plant Evapotranspiration and Consumptive Use for Selected Areas of the Little Colorado River Watershed on the Navajo Nation. Remote Sens., 15.",
+        "DOI": "10.5194/egusphere-egu22-1380"
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "113011",
+        "DOI": "10.1016/j.rse.2022.113011",
+        "article-title": "Mapping Actual Evapotranspiration Using Landsat for the Conterminous United States: Google Earth Engine Implementation and Assessment of the SSEBop Model",
+        "volume": "275",
+        "author": "Senay",
+        "year": "2022",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_19",
+        "first-page": "205",
+        "article-title": "Evaporation and Environment",
+        "volume": "Volume 19",
+        "author": "Monteith",
+        "year": "1965",
+        "journal-title": "Symposia of the Society for Experimental Biology"
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "839",
+        "DOI": "10.1002/qj.49711146910",
+        "article-title": "Wallace Evaporation from Sparse Crops\u2014An Energy Combination Theory",
+        "volume": "111",
+        "author": "Shuttleworth",
+        "year": "1985",
+        "journal-title": "Q. J. R. Meteorol. Soc."
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "81",
+        "DOI": "10.1175/1520-0493(1972)100<0081:OTAOSH>2.3.CO;2",
+        "article-title": "On the Assessment of Surface Heat Flux and Evaporation Using Large-Scale Parameters",
+        "volume": "100",
+        "author": "Priestley",
+        "year": "1972",
+        "journal-title": "Mon. Weather. Rev."
+      },
+      {
+        "key": "ref_22",
+        "first-page": "13",
+        "article-title": "Water Requirements Assessment of Irrigation, Potential Evapotranspiration: Simplified and Updated Climatic Formula",
+        "volume": "12",
+        "author": "Turc",
+        "year": "1961",
+        "journal-title": "Ann. Agron."
+      },
+      {
+        "key": "ref_23",
+        "first-page": "51",
+        "article-title": "Evaluation of Alternative Methods for Estimating Reference Evapotranspiration",
+        "volume": "4",
+        "author": "Fisher",
+        "year": "2013",
+        "journal-title": "Agric. Sci."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "106545",
+        "DOI": "10.1016/j.agwat.2020.106545",
+        "article-title": "Evaluation of 18 Models for Calculating Potential Evapotranspiration in Different Climatic Zones of China",
+        "volume": "244",
+        "author": "Yang",
+        "year": "2021",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "3849",
+        "DOI": "10.3390/rs5083849",
+        "article-title": "Estimating Riparian and Agricultural Actual Evapotranspiration by Reference Evapotranspiration and MODIS Enhanced Vegetation Index",
+        "volume": "5",
+        "author": "Nagler",
+        "year": "2013",
+        "journal-title": "Remote Sens."
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "1273",
+        "DOI": "10.3390/rs1041273",
+        "article-title": "An Empirical Algorithm for Estimating Agricultural and Riparian Evapotranspiration Using MODIS Enhanced Vegetation Index and Ground Measurements of ET. I. Description of Method",
+        "volume": "1",
+        "author": "Nagler",
+        "year": "2009",
+        "journal-title": "Remote Sens."
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2413",
+        "DOI": "10.1002/eco.2413",
+        "article-title": "Calibration of an Evapotranspiration Algorithm in a Semiarid Sagebrush Steppe Using a 3-ha Lysimeter and Landsat Normalized Difference Vegetation Index Data",
+        "volume": "15",
+        "author": "Jarchow",
+        "year": "2022",
+        "journal-title": "Ecohydrology"
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "95",
+        "DOI": "10.1016/j.agrformet.2007.02.002",
+        "article-title": "Evapotranspiration in a Cottonwood (Populus fremontii) Restoration Plantation Estimated by Sap Flow and Remote Sensing Methods",
+        "volume": "144",
+        "author": "Nagler",
+        "year": "2007",
+        "journal-title": "Agric. For. Meteorol."
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Abbasi, N., Nouri, H., Didan, K., Barreto-Mu\u00f1oz, A., Chavoshi Borujeni, S., Salemi, H., Opp, C., Siebert, S., and Nagler, P. (2021). Estimating Actual Evapotranspiration over Croplands Using Vegetation Index Methods and Dynamic Harvested Area. Remote Sens., 13.",
+        "DOI": "10.3390/rs13245167"
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "first-page": "4851",
+        "DOI": "10.1002/hyp.13911",
+        "article-title": "Ecohydrological Responses to Surface Flow across Borders: Two Decades of Changes in Vegetation Greenness and Water Use in the Riparian Corridor of the Colorado River Delta",
+        "volume": "34",
+        "author": "Nagler",
+        "year": "2020",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "223",
+        "DOI": "10.1007/s10795-005-5186-0",
+        "article-title": "Review on Estimation of Evapotranspiration from Remote Sensing Data: From Empirical to Numerical Modeling Approaches",
+        "volume": "19",
+        "author": "Courault",
+        "year": "2005",
+        "journal-title": "Irrig. Drain. Syst."
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "first-page": "3801",
+        "DOI": "10.3390/s90503801",
+        "article-title": "A Review of Current Methodologies for Regional Evapotranspiration Estimation from Remotely Sensed Data",
+        "volume": "9",
+        "author": "Li",
+        "year": "2009",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "first-page": "97",
+        "DOI": "10.1016/j.agrformet.2016.04.008",
+        "article-title": "Upscaling Evapotranspiration Measurements from Multi-Site to the Satellite Pixel Scale over Heterogeneous Land Surfaces",
+        "volume": "230\u2013231",
+        "author": "Liu",
+        "year": "2016",
+        "journal-title": "Agric. For. Meteorol."
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "first-page": "18",
+        "DOI": "10.1002/eco.35",
+        "article-title": "Wide-area Estimates of Saltcedar (Tamarix Spp.) Evapotranspiration on the Lower Colorado River Measured by Heat Balance and Remote Sensing Methods",
+        "volume": "2",
+        "author": "Nagler",
+        "year": "2009",
+        "journal-title": "Ecohydrology"
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "first-page": "4037",
+        "DOI": "10.1002/hyp.8379",
+        "article-title": "Estimating Basin Scale Evapotranspiration (ET) by Water Balance and Remote Sensing Methods",
+        "volume": "25",
+        "author": "Senay",
+        "year": "2011",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.rse.2018.09.023",
+        "article-title": "SMAP Soil Moisture Improves Global Evapotranspiration",
+        "volume": "219",
+        "author": "Purdy",
+        "year": "2018",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "first-page": "107",
+        "DOI": "10.1016/j.jhydrol.2009.02.013",
+        "article-title": "Scaling of Potential Evapotranspiration with MODIS Data Reproduces Flux Observations and Catchment Water Balance Observations across Australia",
+        "volume": "369",
+        "author": "Guerschman",
+        "year": "2009",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_38",
+        "doi-asserted-by": "crossref",
+        "first-page": "769",
+        "DOI": "10.5589/m04-038",
+        "article-title": "Uncertainties in Latent Heat Flux Measurement and Estimation: Implications for Using a Simplified Approach with Remote Sensing Data",
+        "volume": "30",
+        "author": "Jiang",
+        "year": "2004",
+        "journal-title": "Can. J. Remote Sens."
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "first-page": "2221",
+        "DOI": "10.1080/01431160210154821",
+        "article-title": "An Intercomparison of Regional Latent Heat Flux Estimation Using Remote Sensing Data",
+        "volume": "24",
+        "author": "Jiang",
+        "year": "2003",
+        "journal-title": "Int. J. Remote Sens."
+      },
+      {
+        "key": "ref_40",
+        "unstructured": "Running, S.W., Mu, Q., Zhao, M., and Moreno, A. (2023, August 01). User\u2019s Guide\u2014MODIS Global Terrestrial Evapotranspiration (ET) Product (MOD16A2/A3 and Year-End Gap-Filled MOD16A2GF/A3GF) NASA Earth Observing System MODIS Land Algorithm (For Collection 6), Available online: https://modis-land.gsfc.nasa.gov/pdf/MOD16UsersGuideV2.022019.pdf."
+      },
+      {
+        "key": "ref_41",
+        "unstructured": "NASA EARTHDATA (2023, November 20). MODIS/Terra Net Evapotranspiration 8-Day L4 Global 500 m SIN Grid, Available online: https://lpdaac.usgs.gov/products/mod16a2v061/."
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2019WR026058",
+        "DOI": "10.1029/2019WR026058",
+        "article-title": "ECOSTRESS: NASA\u2019s Next Generation Mission to Measure Evapotranspiration from the International Space Station",
+        "volume": "56",
+        "author": "Fisher",
+        "year": "2020",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_43",
+        "unstructured": "(2023, August 01). NASA ECOSTRESS, Available online: https://ecostress.jpl.nasa.gov/instrument."
+      },
+      {
+        "key": "ref_44",
+        "unstructured": "NASA EARTHDATA (2023, May 25). Application for Extracting and Exploring Analysis Ready Samples (A\u03c1\u03c1EEARS), Available online: https://appeears.earthdatacloud.nasa.gov/."
+      },
+      {
+        "key": "ref_45",
+        "doi-asserted-by": "crossref",
+        "first-page": "577",
+        "DOI": "10.1111/jawr.12057",
+        "article-title": "Operational Evapotranspiration Mapping Using Remote Sensing and Weather Datasets: A New Parameterization for the SSEB Approach",
+        "volume": "49",
+        "author": "Senay",
+        "year": "2013",
+        "journal-title": "J. Am. Water Resour. Assoc."
+      },
+      {
+        "key": "ref_46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Senay, G.B., Kagone, S., and Velpuri, N.M. (2020). Operational Global Actual Evapotranspiration: Development, Evaluation, and Dissemination. Sensors, 20.",
+        "DOI": "10.3390/s20071915"
+      },
+      {
+        "key": "ref_47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Senay, G.B., Parrish, G.E.L., Schauer, M., Friedrichs, M., Khand, K., Boiko, O., Kagone, S., Dittmeier, R., Arab, S., and Ji, L. (2023). Improving the Operational Simplified Surface Energy Balance Evapotranspiration Model Using the Forcing and Normalizing Operation. Remote Sens., 15.",
+        "DOI": "10.3390/rs15010260"
+      },
+      {
+        "key": "ref_48",
+        "doi-asserted-by": "crossref",
+        "first-page": "18",
+        "DOI": "10.1016/j.rse.2017.06.031",
+        "article-title": "Google Earth Engine: Planetary-Scale Geospatial Analysis for Everyone",
+        "volume": "202",
+        "author": "Gorelick",
+        "year": "2017",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_49",
+        "doi-asserted-by": "crossref",
+        "first-page": "152",
+        "DOI": "10.1016/j.isprsjprs.2020.04.001",
+        "article-title": "Google Earth Engine for Geo-Big Data Applications: A Meta-Analysis and Systematic Review",
+        "volume": "164",
+        "author": "Tamiminia",
+        "year": "2020",
+        "journal-title": "ISPRS J. Photogramm. Remote Sens."
+      },
+      {
+        "key": "ref_50",
+        "doi-asserted-by": "crossref",
+        "first-page": "112002",
+        "DOI": "10.1016/j.rse.2020.112002",
+        "article-title": "A Summary of the Special Issue on Remote Sensing of Land Change Science with Google Earth Engine",
+        "volume": "248",
+        "author": "Wang",
+        "year": "2020",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Abbasi, N., Nouri, H., Didan, K., Barreto-Mu\u00f1oz, A., Chavoshi Borujeni, S., Opp, C., Nagler, P., Thenkabail, P.S., and Siebert, S. (2023). Mapping Vegetation Index-Derived Actual Evapotranspiration across Croplands Using the Google Earth Engine Platform. Remote Sens., 15.",
+        "DOI": "10.3390/rs15041017"
+      },
+      {
+        "key": "ref_52",
+        "doi-asserted-by": "crossref",
+        "first-page": "108308",
+        "DOI": "10.1016/j.agrformet.2020.108308",
+        "article-title": "On the Use of Machine Learning Based Ensemble Approaches to Improve Evapotranspiration Estimates from Croplands across a Wide Environmental Gradient",
+        "volume": "298\u2013299",
+        "author": "Bai",
+        "year": "2021",
+        "journal-title": "Agric. For. Meteorol."
+      },
+      {
+        "key": "ref_53",
+        "doi-asserted-by": "crossref",
+        "first-page": "108982",
+        "DOI": "10.1016/j.agrformet.2022.108982",
+        "article-title": "An Ensemble Data Assimilation Approach to Improve Farm-Scale Actual Evapotranspiration Estimation",
+        "volume": "321",
+        "author": "Deb",
+        "year": "2022",
+        "journal-title": "Agric. For. Meteorol."
+      },
+      {
+        "key": "ref_54",
+        "doi-asserted-by": "crossref",
+        "first-page": "971",
+        "DOI": "10.1111/1752-1688.12956",
+        "article-title": "OpenET: Filling a Critical Data Gap in Water Management for the Western United States",
+        "volume": "58",
+        "author": "Melton",
+        "year": "2022",
+        "journal-title": "J. Am. Water Resour. Assoc."
+      },
+      {
+        "key": "ref_55",
+        "doi-asserted-by": "crossref",
+        "first-page": "3993",
+        "DOI": "10.1002/hyp.8393",
+        "article-title": "Multi-Model, Multi-Sensor Estimates of Global Evapotranspiration: Climatology, Uncertainties and Trends",
+        "volume": "25",
+        "author": "Vinukollu",
+        "year": "2011",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "ref_56",
+        "doi-asserted-by": "crossref",
+        "first-page": "985",
+        "DOI": "10.1086/656815",
+        "article-title": "Whose Probabilities? Predicting Climate Change with Ensembles of Models",
+        "volume": "77",
+        "author": "Parker",
+        "year": "2010",
+        "journal-title": "Philos. Sci."
+      },
+      {
+        "key": "ref_57",
+        "doi-asserted-by": "crossref",
+        "first-page": "2163",
+        "DOI": "10.1098/rsta.2007.2073",
+        "article-title": "Issues in the Interpretation of Climate Model Ensembles to Inform Decisions",
+        "volume": "365",
+        "author": "Stainforth",
+        "year": "2007",
+        "journal-title": "Philos Trans. R. Soc. A"
+      },
+      {
+        "key": "ref_58",
+        "doi-asserted-by": "crossref",
+        "first-page": "767",
+        "DOI": "10.1016/j.atmosenv.2013.06.003",
+        "article-title": "Ensemble Projections of Wildfire Activity and Carbonaceous Aerosol Concentrations over the Western United States in the Mid-21st Century",
+        "volume": "77",
+        "author": "Yue",
+        "year": "2013",
+        "journal-title": "Atmos. Environ."
+      },
+      {
+        "key": "ref_59",
+        "doi-asserted-by": "crossref",
+        "first-page": "126266",
+        "DOI": "10.1016/j.jhydrol.2021.126266",
+        "article-title": "Ensemble Machine Learning Paradigms in Hydrology: A Review",
+        "volume": "598",
+        "author": "Batelaan",
+        "year": "2021",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_60",
+        "doi-asserted-by": "crossref",
+        "first-page": "193",
+        "DOI": "10.1038/s44221-023-00181-7",
+        "article-title": "Assessing the Accuracy of OpenET Satellite-Based Evapotranspiration Data to Support Water Resource and Land Management Applications",
+        "volume": "2",
+        "author": "Volk",
+        "year": "2024",
+        "journal-title": "Nat. Water"
+      },
+      {
+        "key": "ref_61",
+        "doi-asserted-by": "crossref",
+        "first-page": "256",
+        "DOI": "10.1016/j.scitotenv.2017.04.080",
+        "article-title": "Response of Evapotranspiration to Changes in Land Use and Land Cover and Climate in China during 2001\u20132013",
+        "volume": "596\u2013597",
+        "author": "Li",
+        "year": "2017",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "ref_62",
+        "doi-asserted-by": "crossref",
+        "first-page": "111670",
+        "DOI": "10.1016/j.rse.2020.111670",
+        "article-title": "Vegetation Cover Dependence on Accumulated Antecedent Precipitation in Australia: Relationships with Photosynthetic and Non-Photosynthetic Vegetation Fractions",
+        "volume": "240",
+        "author": "Guerschman",
+        "year": "2020",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_63",
+        "doi-asserted-by": "crossref",
+        "first-page": "106504",
+        "DOI": "10.1016/j.ecoleng.2021.106504",
+        "article-title": "Ecological Restoration Intensifies Evapotranspiration in the Kubuqi Desert",
+        "volume": "175",
+        "author": "Chen",
+        "year": "2022",
+        "journal-title": "Ecol. Eng."
+      },
+      {
+        "key": "ref_64",
+        "doi-asserted-by": "crossref",
+        "first-page": "182",
+        "DOI": "10.1016/j.rse.2005.07.003",
+        "article-title": "A Local-Scale, High-Resolution Evapotranspiration Mapping Algorithm (ETMA) with Hydroecological Applications at Riparian Meadow Restoration Sites",
+        "volume": "98",
+        "author": "Loheide",
+        "year": "2005",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_65",
+        "doi-asserted-by": "crossref",
+        "first-page": "2839",
+        "DOI": "10.1002/hyp.475",
+        "article-title": "Ecosystem Scale Evapotranspiration and Net CO2 Exchange from a Restored Peatland",
+        "volume": "15",
+        "author": "Petrone",
+        "year": "2001",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "ref_66",
+        "doi-asserted-by": "crossref",
+        "first-page": "127259",
+        "DOI": "10.1016/j.jhydrol.2021.127259",
+        "article-title": "Effects of Vegetation Restoration on Evapotranspiration Water Consumption in Mountainous Areas and Assessment of Its Remaining Restoration Space",
+        "volume": "605",
+        "author": "Qingming",
+        "year": "2022",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_67",
+        "doi-asserted-by": "crossref",
+        "first-page": "157738",
+        "DOI": "10.1016/j.scitotenv.2022.157738",
+        "article-title": "Natural Infrastructure in Dryland Streams (NIDS) Can Establish Regenerative Wetland Sinks That Reverse Desertification and Strengthen Climate Resilience",
+        "volume": "849",
+        "author": "Norman",
+        "year": "2022",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "ref_68",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1993",
+        "DOI": "10.1002/eco.1993",
+        "article-title": "Using Remote Sensing to Assess the Impact of Beaver Damming on Riparian Evapotranspiration in an Arid Landscape",
+        "volume": "11",
+        "author": "Fairfax",
+        "year": "2018",
+        "journal-title": "Ecohydrology"
+      },
+      {
+        "key": "ref_69",
+        "doi-asserted-by": "crossref",
+        "first-page": "103623",
+        "DOI": "10.1016/j.earscirev.2021.103623",
+        "article-title": "Dam Builders and Their Works: Beaver Influences on the Structure and Function of River Corridor Hydrology, Geomorphology, Biogeochemistry and Ecosystems",
+        "volume": "218",
+        "author": "Larsen",
+        "year": "2021",
+        "journal-title": "Earth-Sci. Rev."
+      },
+      {
+        "key": "ref_70",
+        "unstructured": "Tuinhof, A., and Heederik, J.P. (2002). 4\u2014The Significance of Subsurface Water Storage in Kenya. Management of Aquifer Recharge and Subsurface Storage; Making Better Use of Our Largest Reservoir, Netherlands National Committee for the IAH."
+      },
+      {
+        "key": "ref_71",
+        "doi-asserted-by": "crossref",
+        "first-page": "241",
+        "DOI": "10.1016/j.ecoleng.2014.05.012",
+        "article-title": "Remote Sensing Analysis of Riparian Vegetation Response to Desert Marsh Restoration in the Mexican Highlands",
+        "volume": "70",
+        "author": "Norman",
+        "year": "2014",
+        "journal-title": "Ecol. Eng."
+      },
+      {
+        "key": "ref_72",
+        "doi-asserted-by": "crossref",
+        "first-page": "3243",
+        "DOI": "10.1080/01431161.2018.1437297",
+        "article-title": "Analysis of Vegetation Recovery Surrounding a Restored Wetland Using the Normalized Difference Infrared Index (NDII) and Normalized Difference Vegetation Index (NDVI)",
+        "volume": "39",
+        "author": "Wilson",
+        "year": "2018",
+        "journal-title": "Int. J. Remote Sens."
+      },
+      {
+        "key": "ref_73",
+        "doi-asserted-by": "crossref",
+        "first-page": "921",
+        "DOI": "10.1007/s00267-022-01762-0",
+        "article-title": "Five Year Analyses of Vegetation Response to Restoration Using Rock Detention Structures in Southeastern Arizona, United States",
+        "volume": "71",
+        "author": "Wilson",
+        "year": "2022",
+        "journal-title": "Environ. Manag."
+      },
+      {
+        "key": "ref_74",
+        "doi-asserted-by": "crossref",
+        "first-page": "117862212094633",
+        "DOI": "10.1177/1178622120946337",
+        "article-title": "Ecosystem Services of Riparian Restoration: A Review of Rock Detention Structures in the Madrean Archipelago Ecoregion",
+        "volume": "13",
+        "author": "Norman",
+        "year": "2020",
+        "journal-title": "Air Soil Water Res."
+      },
+      {
+        "key": "ref_75",
+        "unstructured": "Norman, L.M., Lane, J.W., Mack, T., Valder, J., Briggs, M.A., Johnson, C., McDowell, J., Petrakis, R.E., Anides Morales, A., and Villarreal, M.L. (2023, January 24). Water Cycle Augmentation Project, Baja California Sur, Mexico. Proceedings of the National Ground Water Association (NGWA) Conference, San Antonio, TX, USA."
+      },
+      {
+        "key": "ref_76",
+        "unstructured": "U.S. Geological Survey (2023, September 19). Western Geographic Science Center Research in the Los Planes Watershed\u2014Water Cycle Augmentation, Available online: https://www.usgs.gov/centers/western-geographic-science-center/science/research-los-planes-watershed-water-cycle."
+      },
+      {
+        "key": "ref_77",
+        "unstructured": "CEC Commission for Environmental Cooperation (2015). North American Land Change Monitoring System, Commission for Environmental Cooperation."
+      },
+      {
+        "key": "ref_78",
+        "first-page": "204",
+        "article-title": "Seasonal Precipitation Regimes in Baja California, Mexico",
+        "volume": "47",
+        "author": "Hastings",
+        "year": "1965",
+        "journal-title": "JSTOR"
+      },
+      {
+        "key": "ref_79",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wurbs, R. (2013). Location of the Rainfall Recharge Areas in the Basin of La Paz, BCS, M\u00e9xico. Water Resources Planning, Development and Management, InTech.",
+        "DOI": "10.5772/45847"
+      },
+      {
+        "key": "ref_80",
+        "doi-asserted-by": "crossref",
+        "first-page": "1007",
+        "DOI": "10.1002/joc.664",
+        "article-title": "A Tree-Ring Reconstruction of Past Precipitation for Baja California Sur, Mexico",
+        "volume": "21",
+        "author": "Touchan",
+        "year": "2001",
+        "journal-title": "Int. J. Climatol."
+      },
+      {
+        "key": "ref_81",
+        "doi-asserted-by": "crossref",
+        "first-page": "1388",
+        "DOI": "10.1007/s12237-014-9797-2",
+        "article-title": "Tropical Cyclone Impacts on Coastal Regions: The Case of the Yucat\u00e1n and the Baja California Peninsulas, Mexico",
+        "volume": "37",
+        "author": "Liu",
+        "year": "2014",
+        "journal-title": "Estuaries Coasts"
+      },
+      {
+        "key": "ref_82",
+        "unstructured": "Knabb, R.D. (2008). Tropical Cyclone Report Hurricane Henriette, National Hurricane Center."
+      },
+      {
+        "key": "ref_83",
+        "unstructured": "Beven, J.L. (2010). Tropical Cyclone Report\u2014Hurricane Jimena, National Hurricane Center."
+      },
+      {
+        "key": "ref_84",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Petrakis, R.E., Norman, L.M., Vaughn, K., Pritzlaff, R., Weaver, C., Rader, A., and Pulliam, H.R. (2021). Hierarchical Clustering for Paired Watershed Experiments: Case Study in Southeastern Arizona, U.S.A. Water, 13.",
+        "DOI": "10.3390/w13212955"
+      },
+      {
+        "key": "ref_85",
+        "doi-asserted-by": "crossref",
+        "first-page": "421",
+        "DOI": "10.1007/s10712-008-9037-z",
+        "article-title": "Estimating Land Surface Evaporation: A Review of Methods Using Remotely Sensed Surface Temperature Data",
+        "volume": "29",
+        "author": "Kalma",
+        "year": "2008",
+        "journal-title": "Surv. Geophys."
+      },
+      {
+        "key": "ref_86",
+        "doi-asserted-by": "crossref",
+        "first-page": "113306",
+        "DOI": "10.1016/j.rse.2022.113306",
+        "article-title": "A Framework of Correcting the Angular Effect of Land Surface Temperature on Evapotranspiration Estimation in Single-Source Energy Balance Models",
+        "volume": "283",
+        "author": "Jiang",
+        "year": "2022",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_87",
+        "doi-asserted-by": "crossref",
+        "first-page": "3833",
+        "DOI": "10.1016/j.rse.2008.06.006",
+        "article-title": "Development of a Two-Band Enhanced Vegetation Index without a Blue Band",
+        "volume": "112",
+        "author": "Jiang",
+        "year": "2008",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_88",
+        "doi-asserted-by": "crossref",
+        "first-page": "100103",
+        "DOI": "10.1016/j.srs.2023.100103",
+        "article-title": "The 50-Year Landsat Collection 2 Archive",
+        "volume": "8",
+        "author": "Crawford",
+        "year": "2023",
+        "journal-title": "Sci. Remote Sens."
+      },
+      {
+        "key": "ref_89",
+        "unstructured": "U.S. Geological Survey (2023, August 01). Landsat Collection 2 Provisional Actual Evapotranspiration Science Product, Available online: https://www.usgs.gov/landsat-missions/landsat-collection-2-provisional-actual-evapotranspiration-science-product."
+      },
+      {
+        "key": "ref_90",
+        "doi-asserted-by": "crossref",
+        "first-page": "2691",
+        "DOI": "10.1109/TGRS.2004.840720",
+        "article-title": "Landsat Sensor Performance: History and Current Status",
+        "volume": "42",
+        "author": "Markham",
+        "year": "2004",
+        "journal-title": "IEEE Trans. Geosci. Remote Sens."
+      },
+      {
+        "key": "ref_91",
+        "unstructured": "Blaney, H.F., and Criddle, W.D. (1950). Determining Water Requirements in Irrigated Areas from Climatological and Irrigation Data, Forgotten Books."
+      },
+      {
+        "key": "ref_92",
+        "unstructured": "FAO (1986). Chapter 3: Crop Water Needs. Irrigation Water Management: Irrigation Water Needs, United Nations Food and Agricultural Organization."
+      },
+      {
+        "key": "ref_93",
+        "unstructured": "Thornton, M.M., Shrestha, R., Wei, Y., Thornton, P.E., Kao, S., and Wilson, B.E. (2020). Daymet: Daily Surface Weather Data on a 1-Km Grid for North America, Version 4, ORNL DAAC."
+      },
+      {
+        "key": "ref_94",
+        "unstructured": "U.S. Geological Survey (2023, June 22). EROS Science Processing Architecture on Demand Interface, Available online: https://espa.cr.usgs.gov/."
+      },
+      {
+        "key": "ref_95",
+        "doi-asserted-by": "crossref",
+        "first-page": "3",
+        "DOI": "10.1016/S0034-4257(02)00084-6",
+        "article-title": "An Overview of MODIS Land Data Processing and Product Status",
+        "volume": "83",
+        "author": "Justice",
+        "year": "2002",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_96",
+        "unstructured": "U.S. Geological Survey (2023, June 08). USGS FEWS NET Data Portal, Available online: https://earlywarning.usgs.gov/fews."
+      },
+      {
+        "key": "ref_97",
+        "doi-asserted-by": "crossref",
+        "first-page": "5741",
+        "DOI": "10.5194/amt-11-5741-2018",
+        "article-title": "MODIS Collection 6 MAIAC Algorithm",
+        "volume": "11",
+        "author": "Lyapustin",
+        "year": "2018",
+        "journal-title": "Atmos. Meas. Tech."
+      },
+      {
+        "key": "ref_98",
+        "doi-asserted-by": "crossref",
+        "first-page": "271",
+        "DOI": "10.1016/j.rse.2015.11.032",
+        "article-title": "The Global Landsat Archive: Status, Consolidation, and Direction",
+        "volume": "185",
+        "author": "Wulder",
+        "year": "2016",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_99",
+        "unstructured": "NASA (2024, February 16). Landsat 5 Mission in Jeopardy, Available online: https://landsat.gsfc.nasa.gov/article/landsat-5-mission-in-jeopardy/."
+      },
+      {
+        "key": "ref_100",
+        "unstructured": "Petrakis, R.E., Norman, L.M., Villarreal, M.L., Senay, G.B., Friedrichs, M.O., Cassassuce, F., Gomis, F., and Nagler, P.L. (2024, February 07). Monthly Ensemble Mean Evapotranspiration (EMET) Product for the Los Planes Basin in Baja California Sur, Mexico from January 2006 through December 2021: U.S. Geological Survey Data Release, Available online: https://www.sciencebase.gov/catalog/item/656e22dcd34e7ca10833f963."
+      },
+      {
+        "key": "ref_101",
+        "unstructured": "(2023, February 24). ESRI ArcMap Desktop 2020. Available online: https://www.esri.com/en-us/arcgis/products/arcgis-desktop/resources."
+      },
+      {
+        "key": "ref_102",
+        "unstructured": "(2023, February 21). R Core Team R Software 2022. Available online: https://www.r-project.org/."
+      },
+      {
+        "key": "ref_103",
+        "doi-asserted-by": "crossref",
+        "first-page": "1379",
+        "DOI": "10.1080/01621459.1968.10480934",
+        "article-title": "Estimates of the Regression Coefficient Based on Kendall\u2019s Tau",
+        "volume": "63",
+        "author": "Sen",
+        "year": "1968",
+        "journal-title": "J. Am. Stat. Assoc."
+      },
+      {
+        "key": "ref_104",
+        "doi-asserted-by": "crossref",
+        "first-page": "127",
+        "DOI": "10.1016/0034-4257(79)90013-0",
+        "article-title": "Red and Photographic Infrared Linear Combinations for Monitoring Vegetation",
+        "volume": "8",
+        "author": "Tucker",
+        "year": "1979",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_105",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Petrakis, R.E., van Leeuwen, W., Villarreal, M.L., Tashjian, P., Dello Russo, R., and Scott, C. (2017). Historical Analysis of Riparian Vegetation Change in Response to Shifting Management Objectives on the Middle Rio Grande. Land, 6.",
+        "DOI": "10.3390/land6020029"
+      },
+      {
+        "key": "ref_106",
+        "doi-asserted-by": "crossref",
+        "first-page": "171",
+        "DOI": "10.1016/j.agrformet.2018.11.017",
+        "article-title": "A Simple and Objective Method to Partition Evapotranspiration into Transpiration and Evaporation at Eddy-Covariance Sites",
+        "volume": "265",
+        "author": "Li",
+        "year": "2019",
+        "journal-title": "Agric. For. Meteorol."
+      },
+      {
+        "key": "ref_107",
+        "doi-asserted-by": "crossref",
+        "first-page": "2792",
+        "DOI": "10.1002/2016GL072235",
+        "article-title": "Revisiting the Contribution of Transpiration to Global Terrestrial Evapotranspiration",
+        "volume": "44",
+        "author": "Wei",
+        "year": "2017",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "ref_108",
+        "doi-asserted-by": "crossref",
+        "first-page": "1160",
+        "DOI": "10.1002/2015WR017766",
+        "article-title": "Partitioning Evapotranspiration Based on the Concept of Underlying Water Use Efficiency",
+        "volume": "52",
+        "author": "Zhou",
+        "year": "2016",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_109",
+        "doi-asserted-by": "crossref",
+        "first-page": "1753",
+        "DOI": "10.1029/98GL01176",
+        "article-title": "NDVI Relationship to Monthly Evaporation",
+        "volume": "25",
+        "author": "Szilagyi",
+        "year": "1998",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "ref_110",
+        "doi-asserted-by": "crossref",
+        "first-page": "360",
+        "DOI": "10.1061/(ASCE)1084-0699(2004)9:5(360)",
+        "article-title": "Trends in Precipitation, Streamflow, and Evapotranspiration in the Great Plains of the United States",
+        "volume": "9",
+        "author": "Garbrecht",
+        "year": "2004",
+        "journal-title": "J. Hydrol. Eng."
+      },
+      {
+        "key": "ref_111",
+        "unstructured": "Senay, G.B., Kagone, S., Parrish, G.E., Budde, M.E., and Rowland, J. (2023, November 20). SSEBop Evapotranspiration Data from 2012 to Present: Dekadal (10-Day), Monthly, Seasonal, and Annual Time Scales, Available online: https://www.usgs.gov/data/ssebop-evapotranspiration-data-2012-present-dekadal-10-day-monthly-seasonal-and-annual-time."
+      },
+      {
+        "key": "ref_112",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2021WR031399",
+        "DOI": "10.1029/2021WR031399",
+        "article-title": "Analysis of Surface Water Trends for the Conterminous United States Using MODIS Satellite Data, 2003\u20132019",
+        "volume": "58",
+        "author": "Petrakis",
+        "year": "2022",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_113",
+        "doi-asserted-by": "crossref",
+        "first-page": "3112",
+        "DOI": "10.1016/j.rse.2008.03.009",
+        "article-title": "Multi-Temporal MODIS\u2013Landsat Data Fusion for Relative Radiometric Normalization, Gap Filling, and Prediction of Landsat Data",
+        "volume": "112",
+        "author": "Roy",
+        "year": "2008",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_114",
+        "doi-asserted-by": "crossref",
+        "first-page": "381",
+        "DOI": "10.1016/j.rse.2011.10.014",
+        "article-title": "Evaluation of Landsat and MODIS Data Fusion Products for Analysis of Dryland Forest Phenology",
+        "volume": "117",
+        "author": "Walker",
+        "year": "2012",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_115",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xian, G., Shi, H., Arab, S., Mueller, C., Hussain, R., Sayler, K., and Howard, D. (2023). Improving Temporal Frequency of Landsat Surface Temperature Products Using the Gap-Filling Algorithm, U.S. Geological Survey. Open-File Report.",
+        "DOI": "10.3133/ofr20231006"
+      },
+      {
+        "key": "ref_116",
+        "unstructured": "NASA (2024, February 05). MODIS Vegetation Index Products (NDVI and EVI), Available online: https://modis.gsfc.nasa.gov/data/dataprod/mod13.php."
+      },
+      {
+        "key": "ref_117",
+        "doi-asserted-by": "crossref",
+        "first-page": "901",
+        "DOI": "10.1016/j.rse.2007.06.025",
+        "article-title": "Global Estimates of the Land\u2013Atmosphere Water Flux Based on Monthly AVHRR and ISLSCP-II Data, Validated at 16 FLUXNET Sites",
+        "volume": "112",
+        "author": "Fisher",
+        "year": "2008",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_118",
+        "doi-asserted-by": "crossref",
+        "first-page": "112189",
+        "DOI": "10.1016/j.rse.2020.112189",
+        "article-title": "Interoperability of ECOSTRESS and Landsat for Mapping Evapotranspiration Time Series at Sub-Field Scales",
+        "volume": "252",
+        "author": "Anderson",
+        "year": "2021",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_119",
+        "doi-asserted-by": "crossref",
+        "first-page": "128470",
+        "DOI": "10.1016/j.jhydrol.2022.128470",
+        "article-title": "Evaluation of ECOSTRESS Evapotranspiration Estimates over Heterogeneous Landscapes in the Continental US",
+        "volume": "613",
+        "author": "Liang",
+        "year": "2022",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_120",
+        "doi-asserted-by": "crossref",
+        "first-page": "384",
+        "DOI": "10.1016/j.jhydrol.2016.02.026",
+        "article-title": "Uncertainty Analysis of the Operational Simplified Surface Energy Balance (SSEBop) Model at Multiple Flux Tower Sites",
+        "volume": "536",
+        "author": "Chen",
+        "year": "2016",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_121",
+        "doi-asserted-by": "crossref",
+        "first-page": "66",
+        "DOI": "10.1016/j.agwat.2016.06.027",
+        "article-title": "Satellite-Based Evapotranspiration over Gezira Irrigation Scheme, Sudan: A Comparative Study",
+        "volume": "177",
+        "author": "Elagib",
+        "year": "2016",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "ref_122",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Norman, L.M., Callegary, J.B., Lacher, L., Wilson, N.R., Fandel, C., Forbes, B.T., and Swetnam, T. (2019). Modeling Riparian Restoration Impacts on the Hydrologic Cycle at the Babacomari Ranch, SE Arizona, USA. Water, 11.",
+        "DOI": "10.3390/w11020381"
+      },
+      {
+        "key": "ref_123",
+        "doi-asserted-by": "crossref",
+        "first-page": "6916",
+        "DOI": "10.1111/gcb.15314",
+        "article-title": "Ecosystem Transpiration and Evaporation: Insights from Three Water Flux Partitioning Methods across FLUXNET Sites",
+        "volume": "26",
+        "author": "Nelson",
+        "year": "2020",
+        "journal-title": "Glob. Chang. Biol."
+      },
+      {
+        "key": "ref_124",
+        "doi-asserted-by": "crossref",
+        "first-page": "3747",
+        "DOI": "10.5194/bg-16-3747-2019",
+        "article-title": "Reviews and Syntheses: Turning the Challenges of Partitioning Ecosystem Evaporation and Transpiration into Opportunities",
+        "volume": "16",
+        "author": "Stoy",
+        "year": "2019",
+        "journal-title": "Biogeosciences"
+      },
+      {
+        "key": "ref_125",
+        "doi-asserted-by": "crossref",
+        "first-page": "130842",
+        "DOI": "10.1016/j.jhydrol.2024.130842",
+        "article-title": "Multi-Temporal Variations in Evapotranspiration Partitioning and Its Controlling Factors of a Xerophytic Shrub Ecosystem",
+        "volume": "631",
+        "author": "Wang",
+        "year": "2024",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_126",
+        "doi-asserted-by": "crossref",
+        "first-page": "56",
+        "DOI": "10.1016/j.agrformet.2013.09.003",
+        "article-title": "A Review of Approaches for Evapotranspiration Partitioning",
+        "volume": "184",
+        "author": "Kool",
+        "year": "2014",
+        "journal-title": "Agric. For. Meteorol."
+      },
+      {
+        "key": "ref_127",
+        "doi-asserted-by": "crossref",
+        "first-page": "108251",
+        "DOI": "10.1016/j.agrformet.2020.108251",
+        "article-title": "Water Availability Impacts on Evapotranspiration Partitioning",
+        "volume": "297",
+        "author": "Scott",
+        "year": "2021",
+        "journal-title": "Agric. For. Meteorol."
+      },
+      {
+        "key": "ref_128",
+        "doi-asserted-by": "crossref",
+        "first-page": "6753",
+        "DOI": "10.1002/2014GL061439",
+        "article-title": "Global Synthesis of Vegetation Control on Evapotranspiration Partitioning",
+        "volume": "41",
+        "author": "Wang",
+        "year": "2014",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "ref_129",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2022WR032067",
+        "DOI": "10.1029/2022WR032067",
+        "article-title": "Vegetation Index-Based Partitioning of Evapotranspiration Is Deficient in Grazed Systems",
+        "volume": "58",
+        "author": "Raghav",
+        "year": "2022",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_130",
+        "doi-asserted-by": "crossref",
+        "first-page": "454",
+        "DOI": "10.1016/j.agrformet.2010.01.010",
+        "article-title": "Effects of Spatial Variations in Soil Evaporation Caused by Tree Shading on Water Flux Partitioning in a Semi-Arid Pine Forest",
+        "volume": "150",
+        "author": "Rotenberg",
+        "year": "2010",
+        "journal-title": "Agric. For. Meteorol."
+      },
+      {
+        "key": "ref_131",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Reitz, M., Senay, G., and Sanford, W. (2017). Combining Remote Sensing and Water-Balance Evapotranspiration Estimates for the Conterminous United States. Remote Sens., 9.",
+        "DOI": "10.3390/rs9121181"
+      },
+      {
+        "key": "ref_132",
+        "doi-asserted-by": "crossref",
+        "first-page": "701",
+        "DOI": "10.1029/2000WR900325",
+        "article-title": "Response of Mean Annual Evapotranspiration to Vegetation Changes at Catchment Scale",
+        "volume": "37",
+        "author": "Zhang",
+        "year": "2001",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_133",
+        "doi-asserted-by": "crossref",
+        "first-page": "73",
+        "DOI": "10.1111/j.1752-1688.1998.tb05961.x",
+        "article-title": "Large Area Hydrologic Modeling and Assessment Part I: Model Development",
+        "volume": "34",
+        "author": "Arnold",
+        "year": "1998",
+        "journal-title": "J. Am. Water Resour. Assoc."
+      },
+      {
+        "key": "ref_134",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Westenbroek, S.M., Engott, J.A., Kelson, V.A., and Hunt, R.J. (2018). SWB Version 2.0\u2014A Soil-Water-Balance Code for Estimating Net Infiltration and Other Water-Budget Components. Book 6, Modeling Techniques, U.S. Department of the Interior\u2014U.S. Geological Survey. Chapter 59 of Section A, Groundwater.",
+        "DOI": "10.3133/tm6A59"
+      },
+      {
+        "key": "ref_135",
+        "doi-asserted-by": "crossref",
+        "first-page": "1232",
+        "DOI": "10.1016/j.jaridenv.2008.01.001",
+        "article-title": "Multiyear Riparian Evapotranspiration and Groundwater Use for a Semiarid Watershed",
+        "volume": "72",
+        "author": "Scott",
+        "year": "2008",
+        "journal-title": "J. Arid Environ."
+      }
+    ],
+    "container-title": [
+      "Remote Sensing"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2072-4292/16/12/2122/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T14:57:11Z",
+      "timestamp": 1760108231000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2072-4292/16/12/2122"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          12
+        ]
+      ]
+    },
+    "references-count": 135,
+    "journal-issue": {
+      "issue": "12",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            6
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "rs16122122"
+    ],
+    "URL": "https://doi.org/10.3390/rs16122122",
+    "relation": {},
+    "ISSN": [
+      "2072-4292"
+    ],
+    "issn-type": [
+      {
+        "value": "2072-4292",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          12
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.3390/rs16122122",
+  "original_doi": "10.3390/rs16122122"
+}

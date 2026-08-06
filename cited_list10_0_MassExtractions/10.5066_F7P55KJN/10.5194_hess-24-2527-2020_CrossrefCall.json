@@ -1,0 +1,671 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          4
+        ]
+      ],
+      "date-time": "2026-08-04T11:31:04Z",
+      "timestamp": 1785843064475,
+      "version": "3.56.0"
+    },
+    "reference-count": 64,
+    "publisher": "Copernicus GmbH",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              5,
+              14
+            ]
+          ],
+          "date-time": "2020-05-14T00:00:00Z",
+          "timestamp": 1589414400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Hydrol. Earth Syst. Sci."
+    ],
+    "abstract": "<jats:p>Abstract. The European Centre for Medium-Range Weather Forecasts\n(ECMWF) recently released its most advanced reanalysis product, the ERA5\ndataset. It was designed and generated with methods giving it multiple\nadvantages over the previous release, the ERA-Interim reanalysis product.\nNotably, it has a finer spatial resolution, is archived at the hourly time\nstep, uses a more advanced assimilation system and includes more sources of\ndata. This paper aims to evaluate the ERA5 reanalysis as a potential\nreference dataset for hydrological modelling by considering the ERA5\nprecipitation and temperatures as proxies for observations in the\nhydrological modelling process, using two lumped hydrological models over\n3138 North American catchments. This study shows that ERA5-based\nhydrological modelling performance is equivalent to using observations over\nmost of North America, with the exception of the eastern half of the US,\nwhere observations lead to consistently better performance. ERA5 temperature\nand precipitation biases are consistently reduced compared to ERA-Interim\nand systematically more accurate for hydrological modelling. Differences\nbetween ERA5, ERA-Interim and observation datasets are mostly linked to\nprecipitation, as temperature only marginally influences the hydrological\nsimulation outcomes.</jats:p>",
+    "DOI": "10.5194/hess-24-2527-2020",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          14
+        ]
+      ],
+      "date-time": "2020-05-14T08:32:15Z",
+      "timestamp": 1589445135000
+    },
+    "page": "2527-2544",
+    "source": "Crossref",
+    "is-referenced-by-count": 552,
+    "title": [
+      "Evaluation of the ERA5 reanalysis as a potential reference dataset for hydrological modelling over North America"
+    ],
+    "prefix": "10.5194",
+    "volume": "24",
+    "author": [
+      {
+        "given": "Mostafa",
+        "family": "Tarek",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9754-3014",
+        "authenticated-orcid": false,
+        "given": "Fran\u00e7ois P.",
+        "family": "Brissette",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2834-2750",
+        "authenticated-orcid": false,
+        "given": "Richard",
+        "family": "Arsenault",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "3145",
+    "published-online": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          14
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Albergel, C., Dutra, E., Munier, S., Calvet, J.-C., Munoz-Sabater, J., de Rosnay, P., and Balsamo, G.: ERA-5 and ERA-Interim driven ISBA land surface model simulations: which one performs better?, Hydrol. Earth Syst. Sci., 22, 3515\u20133532, https://doi.org/10.5194/hess-22-3515-2018, 2018.",
+        "DOI": "10.5194/hess-22-3515-2018"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Arsenault, R., Poulin, A., C\u00f4t\u00e9, P., and Brissette, F.: Comparison\nof stochastic optimization algorithms in hydrological model\ncalibration,\u00a0J. Hydrol. Eng.,\u00a019, 1374\u20131384, 2013.",
+        "DOI": "10.1061/(ASCE)HE.1943-5584.0000938"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Arsenault, R., Gatien, P., Renaud, B., Brissette, F., and Martel, J. L.: A\ncomparative analysis of 9 multi-model averaging approaches in hydrological\ncontinuous streamflow simulation, J. Hydrol., 529, 754\u2013767, https://doi.org/10.1016/j.jhydrol.2015.09.001, 2015.",
+        "DOI": "10.1016/j.jhydrol.2015.09.001"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Arsenault, R., Bazile, R., Ouellet Dallaire, C., and Brissette, F.: CANOPEX: A Canadian hydrometeorological\nwatershed database,\u00a0Hydrol. Process.,\u00a030, 2734\u20132736, https://doi.org/10.1002/hyp.10880, 2016 (data available at: http://canopex.etsmtl.net/, last access: December, 2010).",
+        "DOI": "10.1002/hyp.10880"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Arsenault, R., Brissette, F., and Martel, J.-L.: The hazards of split-sample\nvalidation in hydrological model calibration, J. Hydrol., 566,\n346\u2013362, 2018.",
+        "DOI": "10.1016/j.jhydrol.2018.09.027"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Beck, H. E., Vergopolan, N., Pan, M., Levizzani, V., van Dijk, A. I. J. M., Weedon, G. P., Brocca, L.,\nPappenberger, F., Huffman, G. J., and Wood, E. F.: Global-scale evaluation of 22 precipitation datasets using gauge observations and hydrological modeling, Hydrol. Earth Syst. Sci., 21, 6201\u20136217, https://doi.org/10.5194/hess-21-6201-2017, 2017a.",
+        "DOI": "10.5194/hess-21-6201-2017"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Beck, H. E., van Dijk, A. I. J. M., Levizzani, V., Schellekens, J., Miralles, D. G., Martens, B., and de Roo, A.:\nMSWEP: 3-hourly 0.25\u00b0 global gridded precipitation (1979\u20132015) by merging gauge, satellite, and reanalysis data, Hydrol. Earth Syst. Sci., 21, 589\u2013615, https://doi.org/10.5194/hess-21-589-2017, 2017b.",
+        "DOI": "10.5194/hess-21-589-2017"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Beck, H. E., Pan, M., Roy, T., Weedon, G. P., Pappenberger, F., van Dijk, A. I. J. M., Huffman, G. J., Adler, R. F., and Wood, E. F.: Daily evaluation of 26 precipitation datasets using Stage-IV gauge-radar data for the CONUS, Hydrol. Earth Syst. Sci., 23, 207\u2013224, https://doi.org/10.5194/hess-23-207-2019, 2019a.",
+        "DOI": "10.5194/hess-23-207-2019"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Beck, H. E., Wood, E. F., Pan, M., Fisher, C. K., Miralles, D. G., van Dijk,\nA. I., McVicar, T. R., and Adler, R. F.: MSWEP V2 global 3-hourly 0.1 precipitation:\nmethodology and quantitative assessment, B. Am. Meteorol. Soc., 100, 473\u2013500, 2019b.",
+        "DOI": "10.1175/BAMS-D-17-0138.1"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bengtsson, L., Hagemann, S., and Hodges, K. I.: Can climate trends be\ncalculated from reanalysis data?, J. Geophys. Res.-Atmos.,\u00a0109, D11111, https://doi.org/10.1029/2004JD004536, 2004.",
+        "DOI": "10.1029/2004JD004536"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Burn, D. H., Hannaford, J., Hodgkins, G. A., Whitfield, P. H., Thorne, R.,\nand Marsh, T.: Reference hydrologic networks II. Using reference hydrologic\nnetworks to assess climate-driven changes in streamflow, Hydrol. Sci. J., 57, 1580\u20131593, 2012.",
+        "DOI": "10.1080/02626667.2012.728705"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chaudhuri, A. H., Ponte, R. M., Forget, G., and Heimbach, P.: A comparison\nof atmospheric reanalysis surface products over the ocean and implications\nfor uncertainties in air\u2013sea boundary forcing, J. Climate, 26,\n153\u2013170, 2013.",
+        "DOI": "10.1175/JCLI-D-12-00090.1"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, J., Brissette, F. P., and Chen, H.: Using reanalysis-driven regional\nclimate model outputs for hydrology modelling, Hydrol. Process.,\n32, 3019\u20133031, 2018.",
+        "DOI": "10.1002/hyp.13251"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Citterio, M., van As, D., Ahlstr\u00f8m, A. P., Andersen, M. L., Andersen, S.\nB., Box, J. E., Charalampidis, C., Colgan, W. T., Fausto, R. S., Nielsen, S., and Veicherts, M.: Automatic weather stations for basic\nand applied glaciological research, Geological Survey of Denmark and\nGreenland Bulletin, 33, 69\u201372, 2015.",
+        "DOI": "10.34194/geusb.v33.4512"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dee, D. P., Uppala, S. M., Simmons, A. J., Berrisford, P., Poli, P.,\nKobayashi, S., Andrae, U., Balmaseda, M. A., Balsamo, G., Bauer, D. P., and Bechtold, P.: The ERA-Interim reanalysis:\nConfiguration and performance of the data assimilation system,\u00a0Q. J. Roy. Meteorol. Soc.,\u00a0137, 553\u2013597, https://doi.org/10.1002/qj.828, 2011\n(data available at: https://apps.ecmwf.int/datasets/data/interim-full-daily/, last access: August 2019).",
+        "DOI": "10.1002/qj.828"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Di Baldassarre, G. and Montanari, A.: Uncertainty in river discharge observations: a quantitative analysis, Hydrol. Earth Syst. Sci., 13, 913\u2013921, https://doi.org/10.5194/hess-13-913-2009, 2009.",
+        "DOI": "10.5194/hess-13-913-2009"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Di Giuseppe, F., Pappenberger, F., Wetterhall, F., Krzeminski, B., Camia,\nA., Libert\u00e1, G., and San Miguel, J.: The potential predictability of\nfire danger provided by numerical weather prediction, J. Appl. Meteorol. Climatol., 55, 2469\u20132491, 2016.",
+        "DOI": "10.1175/JAMC-D-15-0297.1"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Emerton, R., Cloke, H. L., Stephens, E. M., Zsoter, E., Woolnough, S. J.,\nand Pappenberger, F.: Complex picture for likelihood of ENSO-driven flood\nhazard, Nature Commun., 8, 14796, https://doi.org/10.1038/ncomms14796, 2017.",
+        "DOI": "10.1038/ncomms14796"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Essou, G. R., Arsenault, R., and Brissette, F. P.: Comparison of climate\ndatasets for lumped hydrological modeling over the continental United\nStates, J. Hydrol., 537, 334\u2013345, 2016a.",
+        "DOI": "10.1016/j.jhydrol.2016.03.063"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Essou, G. R., Sabarly, F., Lucas-Picher, P., Brissette, F., and Poulin, A.:\nCan precipitation and temperature from meteorological reanalyses be used for\nhydrological modeling?, J. Hydrometeorol., 17, 1929\u20131950,\n2016b.",
+        "DOI": "10.1175/JHM-D-15-0138.1"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Essou, G. R., Brissette, F., and Lucas-Picher, P.: The use of reanalyses\nand gridded observations as weather input data for a hydrological model:\nComparison of performances of simulated river flows based on the density of\nweather stations, J. Hydrometeorol., 18, 497\u2013513, 2017.",
+        "DOI": "10.1175/JHM-D-16-0088.1"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fortin, V., Roy, G., Donaldson, N., and Mahidjiba, A.: Assimilation of\nradar quantitative precipitation estimations in the Canadian Precipitation\nAnalysis (CaPA), J. Hydrol., 531, 296\u2013307, 2015.",
+        "DOI": "10.1016/j.jhydrol.2015.08.003"
+      },
+      {
+        "key": "ref23",
+        "unstructured": "GISS: https://data.giss.nasa.gov/gistemp/stdata/ (last access: June 2019), 2019."
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gupta, H. V., Kling, H., Yilmaz, K. K., and Martinez, G. F.: Decomposition\nof the mean squared error and NSE performance criteria: Implications for\nimproving hydrological modelling, J. Hydrol., 377, 80\u201391,\n2009.",
+        "DOI": "10.1016/j.jhydrol.2009.08.003"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hansen, N., M\u00fcller, S. D., and Koumoutsakos, P.: Reducing the time\ncomplexity of the derandomized evolution strategy with covariance matrix\nadaptation (CMA-ES), Evolutionary Computation, 11, 1\u201318, 2003.",
+        "DOI": "10.1162/106365603321828970"
+      },
+      {
+        "key": "ref26",
+        "unstructured": "Hersbach, H. and Dee, D.: ERA5 reanalysis is in production, ECMWF\nNewsletter 147, ECMWF, Reading, UK, available at:\nhttps://www.ecmwf.int/en/newsletter/147/news/era5-reanalysis-production (last access: May 2020), 2016 (data available at:\nhttps://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=form, last access: May 2020)."
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hoffmann, L., G\u00fcnther, G., Li, D., Stein, O., Wu, X., Griessbach, S., Heng, Y., Konopka, P.,\nM\u00fcller, R., Vogel, B., and Wright, J. S.: From ERA-Interim to ERA5: the considerable impact of\nECMWF's next-generation reanalysis on Lagrangian transport simulations, Atmos. Chem. Phys., 19, 3097\u20133124, https://doi.org/10.5194/acp-19-3097-2019, 2019.",
+        "DOI": "10.5194/acp-19-3097-2019"
+      },
+      {
+        "key": "ref28",
+        "unstructured": "Huet, M.: Comparaison de m\u00e9thodes d'estimation de la recharge des\naquif\u00e8res: exemple de la r\u00e9gion Charlevoix-Haute-C\u00f4te-Nord\n(Doctoral dissertation, Universit\u00e9 du Qu\u00e9bec \u00e0 Chicoutimi),\n2015."
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hutchinson, M. F., McKenney, D. W., Lawrence, K., Pedlar, J. H., Hopkinson,\nR. F., Milewska, E., and Papadopol, P.: Development and testing of Canada-wide\ninterpolated spatial models of daily minimum\u2013maximum temperature and\nprecipitation for 1961\u20132003,\u00a0J. Appl. Meteorol. Climatol.,\u00a048, 725\u2013741, 2009.",
+        "DOI": "10.1175/2008JAMC1979.1"
+      },
+      {
+        "key": "ref30",
+        "unstructured": "Janis, M. J., Hubbard, K. G., and Redmond, K. T.: Determining the Optimal\nNumber of Stations for the\nUnited States Climate Reference Network, Final Report, Southeast Regional\nClimate Center Research Paper Series April 2002, 21 pp., 2002."
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kling, H., Fuchs, M., and Paulin, M.: Runoff conditions in the upper Danube\nbasin under an ensemble of climate change scenarios, J. Hydrol.,\n424, 264\u2013277, 2012.",
+        "DOI": "10.1016/j.jhydrol.2012.01.011"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lespinas, F., Fortin, V., Roy, G., Rasmussen, P., and Stadnyk, T.:\nPerformance evaluation of the Canadian precipitation analysis (CaPA),\nJ. Hydrometeorol., 16, 2045\u20132064, 2015.",
+        "DOI": "10.1175/JHM-D-14-0191.1"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lettenmaier, D. P., Alsdorf, D., Dozier, J., Huffman, G. J., Pan, M., and\nWood, E. F.: Inroads of remote sensing into hydrologic science during the\nWRR era, Water Resour. Res., 51, 7309\u20137342, 2015.",
+        "DOI": "10.1002/2015WR017616"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lindsay, R., Wensnahan, M., Schweiger, A., and Zhang, J.: Evaluation of\nseven different atmospheric reanalysis products in the Arctic, J. Climate, 27, 2588\u20132606, 2014.",
+        "DOI": "10.1175/JCLI-D-13-00014.1"
+      },
+      {
+        "key": "ref35",
+        "unstructured": "Lins, H. F.: Challenges to hydrological observations, Bulletin of the World\nMeterological Organization, v.57(1), 55\u201358, 2008."
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Luo, C., Wang, Z., Sauer, T. J., Helmers, M. J., Horton, R.: Portable\ncanopy chamber measurements of evapotranspiration in corn, soybean, and\nreconstructed prairie, Agr. Water Manag., 198, 1\u20139, 2018.",
+        "DOI": "10.1016/j.agwat.2017.11.024"
+      },
+      {
+        "key": "ref37",
+        "unstructured": "Martel, J. L., Demeester, K., Brissette, F., Poulin, A., and Arsenault, R.:\nHMETS-A simple and efficient hydrology model for teaching hydrological\nmodelling, flow forecasting and climate change impacts,\u00a0Int.\nJ. Eng. Educat.,\u00a033, 1307\u20131316, https://dialnet.unirioja.es/servlet/articulo?codigo=6897050, 2017\n(data available at: https://www.mathworks.com/matlabcentral/fileexchange/48069-hmets-hydrological-model, last access: October 2016)."
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Maurer, E. P., Wood, A. W., Adam, J. C., Lettenmaier, D. P., and Nijssen, B.: A long-term hydrologically based dataset of land surface fluxes and states for\nthe conterminous United States,\u00a0J. Climate,\u00a015, 3237\u20133251, https://doi.org/10.1175/1520-0442(2002)015&amp;lt;3237:ALTHBD&amp;gt;2.0.CO;2,\n2002 (data available at: http://hydro.engr.scu.edu/files/gridded_obs/daily/ncfiles_2010, last access: December 2010).",
+        "DOI": "10.1175/1520-0442(2002)015<3237:ALTHBD>2.0.CO;2"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McCabe, M. F., Rodell, M., Alsdorf, D. E., Miralles, D. G., Uijlenhoet, R., Wagner, W., Lucieer, A., Houborg, R., Verhoest, N. E. C., Franz, T. E., Shi, J., Gao, H., and Wood, E. F.: The future of Earth observation in hydrology, Hydrol. Earth Syst. Sci., 21, 3879\u20133914, https://doi.org/10.5194/hess-21-3879-2017, 2017.",
+        "DOI": "10.5194/hess-21-3879-2017"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Menne, M. J., Williams, C. N., Gleason, B. E., Rennie, J. J., and\nLawrimore, J. H.: The Global Historical Climatology Network Monthly\nTemperature Dataset, Version 4,\u00a0J. Climate,\u00a031, 9835\u20139854, 2018.",
+        "DOI": "10.1175/JCLI-D-18-0094.1"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Newman, A. J., Clark, M. P., Craig, J., Nijssen, B., Wood, A., Gutmann, E.,\nMizukami, N., Brekke, L., and Arnold, J. R.: Gridded ensemble precipitation and temperature\nestimates for the contiguous United States, J. Hydrometeorol.,\n16, 2481\u20132500, 2015.",
+        "DOI": "10.1175/JHM-D-15-0026.1"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Olauson, J.: ERA5: The new champion of wind power modelling?,\u00a0Renew.\nEnerg.,\u00a0126, 322\u2013331, 2018.",
+        "DOI": "10.1016/j.renene.2018.03.056"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Oudin, L., Hervieu, F., Michel, C., Perrin, C., Andr\u00e9assian, V., Anctil,\nF., and Loumagne, C.: Which potential evapotranspiration input for a lumped\nrainfall\u2013runoff model?, Part 2 \u2013 Towards a simple and efficient potential\nevapotranspiration model for rainfall\u2013runoff modelling,\u00a0J. Hydrol.,\u00a0303, 290\u2013306, 2005.",
+        "DOI": "10.1016/j.jhydrol.2004.08.026"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Parker, W. S.: Reanalyses and observations: What's the difference?,\u00a0B. Am. Meteorol. Soc.,\u00a097, 1565\u20131572, 2016.",
+        "DOI": "10.1175/BAMS-D-14-00226.1"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Peel, M. C., Finlayson, B. L., and McMahon, T. A.: Updated world map of the K\u00f6ppen-Geiger climate classification, Hydrol. Earth Syst. Sci., 11, 1633\u20131644, https://doi.org/10.5194/hess-11-1633-2007, 2007.",
+        "DOI": "10.5194/hess-11-1633-2007"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Perrin, C., Michel, C., and Andr\u00e9assian, V.: Improvement of a\nparsimonious model for streamflow simulation,\u00a0J. Hydrol.,\u00a0279, 275\u2013289, https://doi.org/10.1016/S0022-1694(03)00225-7, 2003 (data available at:\nhttps://www.mathworks.com/matlabcentral/fileexchange/61720-gr4j-rainfall-runoff-model-deterministic-and-stochastic-methods-with-matlab, last access: June 2018).",
+        "DOI": "10.1016/S0022-1694(03)00225-7"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Raimonet, M., Oudin, L., Thieu, V., Silvestre, M., Vautard, R., Rabouille,\nC., and Le Moigne, P.: Evaluation of gridded meteorological datasets for\nhydrological modelling, J. Hydrometeorol., 18, 3027\u20133041,\n2017.",
+        "DOI": "10.1175/JHM-D-17-0018.1"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Raimonet, M., Thieu, V., Silvestre, M., Oudin, L., Rabouille, C., Vautard,\nR., and Garnier, J.: Landward perspective of coastal eutrophication\npotential under future climate change: The Seine River case (France),\nFront. Mar. Sci., 5, 136, https://doi.org/10.3389/fmars.2018.00136, 2018.",
+        "DOI": "10.3389/fmars.2018.00136"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Raymond, C., Singh, D., and Horton, R. M.: Spatiotemporal patterns and\nsynoptics of extreme wet bulb temperature in the contiguous United States,\nJ. Geophys. Res.-Atmos., 122, 13\u2013108, 2017.",
+        "DOI": "10.1002/2017JD027140"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Riboust, P., Thirel, G., Le Moine, N., and Ribstein, P.: Revisiting a\nsimple degree-day model for integrating satellite data: implementation of\nSWE-SCA hysteresis, J. Hydrol. Hydromech., 67, 70\u201381,\n2019.",
+        "DOI": "10.2478/johh-2018-0004"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ruffault, J., Moron, V., Trigo, R. M., and Curt, T.: Daily synoptic\nconditions associated with large fire occurrence in Mediterranean France:\nevidence for a wind-driven fire regime, Int. J.\nClimatol., 37, 524\u2013533, 2017.",
+        "DOI": "10.1002/joc.4680"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Siegert, M. J., Ross, N., and Le Brocq, A. M.: Recent advances in\nunderstanding Antarctic subglacial lakes and hydrology. Philosophical\nTransactions of the Royal Society A: Mathematical, Phys. Eng.\nSci., 374, 20140306, https://doi.org/10.1098/rsta.2014.0306, 2016.",
+        "DOI": "10.1098/rsta.2014.0306"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Singh, D., Swain, D. L., Mankin, J. S., Horton, D. E., Thomas, L. N.,\nRajaratnam, B., and Diffenbaugh, N. S.: Recent amplification of the North\nAmerican winter temperature dipole, J. Geophys. Res.-Atmos., 121, 9911\u20139928, 2016.",
+        "DOI": "10.1002/2016JD025116"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Singh, V. P. and Woolhiser, D. A.: Mathematical modeling of watershed\nhydrology, J. Hydrol. Eng., 7, 270\u2013292, 2002.",
+        "DOI": "10.1061/(ASCE)1084-0699(2002)7:4(270)"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stearns, C. R. and Wendler, G.: Research results from Antarctic automatic\nweather stations, Rev. Geophys., 26, 45\u201361, 1988.",
+        "DOI": "10.1029/RG026i001p00045"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sun, Q., Miao, C., Duan, Q., Ashouri, H., Sorooshian, S., and Hsu, K. L.: A\nreview of global precipitation data sets: data sources, estimation, and\nintercomparisons, Rev. Geophys., 56, 79\u2013107, 2018.",
+        "DOI": "10.1002/2017RG000574"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Urraca, R., Huld, T., Gracia-Amillo, A., Martinez-de-Pison, F. J., Kaspar,\nF., and Sanz-Garcia, A.: Evaluation of global horizontal irradiance\nestimates from ERA5 and COSMO-REA6 reanalyses using ground and\nsatellite-based data,\u00a0Solar Energy,\u00a0164, 339\u2013354, 2018.",
+        "DOI": "10.1016/j.solener.2018.02.059"
+      },
+      {
+        "key": "ref58",
+        "unstructured": "U.S. Geological Survey: National Water Information System, USGS Water Data for the Nation, https://doi.org/10.5066/F7P55KJN, 2019."
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Val\u00e9ry, A., Andr\u00e9assian, V., and Perrin, C.: `As simple as possible\nbut not simpler': What is useful in a temperature-based snow-accounting\nroutine? Part 2 \u2013 Sensitivity analysis of the Cemaneige snow accounting\nroutine on 380 catchments, J. Hydrol., 517, 1176\u20131187, https://doi.org/10.1016/j.jhydrol.2014.04.058, 2014 (data available at: https://www.mathworks.com/matlabcentral/ fileexchange/61720-gr4j-rainfall-runoff-model-deterministic-and-stochastic-methods-with-matlab, last access: February 2020).",
+        "DOI": "10.1016/j.jhydrol.2014.04.058"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, H.-M., Chen, J., Xu, C.-Y., Chen, H., Guo, S., Xie, P., and Li, X.: Does the weighting of climate simulations result in a better quantification of hydrological impacts?, Hydrol. Earth Syst. Sci., 23, 4033\u20134050, https://doi.org/10.5194/hess-23-4033-2019, 2019.",
+        "DOI": "10.5194/hess-23-4033-2019"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Whitfield, P. H., Burn, D. H., Hannaford, J., Higgins, H., Hodgkins, G. A.,\nMarsh, T., and Looser, U.: Reference hydrologic networks I, The status and\npotential future directions of national reference hydrologic networks for\ndetecting trends, Hydrol. Sci. J., 57, 1562\u20131579, 2012.",
+        "DOI": "10.1080/02626667.2012.728706"
+      },
+      {
+        "key": "ref62",
+        "unstructured": "Wood, E. F.: Hydrologic measurements and observations: An assessment of\nneeds, in: National Research Council, Hydrologic Sciences: Taking stock and\nlooking ahead, National Academies Press, chap. 3, 67\u201385, 1998."
+      },
+      {
+        "key": "ref63",
+        "unstructured": "Youssef, H., Simon, G., Younes, F., Ghani, C., and Vincent, S.:\nRainfall-Runoff modeling in a semi-arid catchment with presence of snow. The\nRheraya wadi case study (Marrakech, Morocco), In EGU General Assembly\nConference Abstracts, Vol. 20, p.\u00a05214, 2018."
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, Y., Zheng, H., Chiew, F. H., Arancibia, J. P., and Zhou, X.:\nEvaluating regional and global hydrological models against streamflow and\nevapotranspiration measurements, J. Hydrometeorol., 17,\n995\u20131010, 2016.",
+        "DOI": "10.1175/JHM-D-15-0107.1"
+      }
+    ],
+    "container-title": [
+      "Hydrology and Earth System Sciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://hess.copernicus.org/articles/24/2527/2020/hess-24-2527-2020.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          31
+        ]
+      ],
+      "date-time": "2025-01-31T19:33:26Z",
+      "timestamp": 1738352006000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://hess.copernicus.org/articles/24/2527/2020/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          14
+        ]
+      ]
+    },
+    "references-count": 64,
+    "journal-issue": {
+      "issue": "5",
+      "published-online": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.5194/hess-24-2527-2020",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2019-316",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2019-316",
+          "asserted-by": "object"
+        }
+      ],
+      "has-review": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2019-316-RC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2019-316-AC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2019-316-AC3",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2019-316-RC2",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2019-316-AC2",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2019-316-AC4",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2019-316-RC2",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2019-316-RC1",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2019-316-AC4",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2019-316-AC3",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2019-316-AC2",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2019-316-AC1",
+          "asserted-by": "object"
+        }
+      ],
+      "is-part-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1175/1520-0442(2002)015&lt;3237:ALTHBD&gt;2.0.CO;2",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.1002/hyp.10880",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5066/F7P55KJN",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.1002/qj.828",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.1016/S0022-1694(03)00225-7",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.1016/j.jhydrol.2014.04.058",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "ISSN": [
+      "1607-7938"
+    ],
+    "issn-type": [
+      {
+        "value": "1607-7938",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          14
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.5194/hess-24-2527-2020",
+  "original_doi": "10.5194/hess-24-2527-2020"
+}

@@ -1,0 +1,1169 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          20
+        ]
+      ],
+      "date-time": "2026-01-20T06:16:31Z",
+      "timestamp": 1768889791207,
+      "version": "3.49.0"
+    },
+    "reference-count": 105,
+    "publisher": "MDPI AG",
+    "issue": "12",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              19
+            ]
+          ],
+          "date-time": "2024-12-19T00:00:00Z",
+          "timestamp": 1734566400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Pennsylvania Department of Environmental Protection (PADEP) Bureau of Clean Water, U.S. Geological Survey (USGS) Cooperative Matching Funds"
+      },
+      {
+        "name": "USGS Water Mission Area"
+      },
+      {
+        "name": "PADEP"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Toxics"
+    ],
+    "abstract": "<jats:p>Per- and polyfluoroalkyl substances (PFAS) are contaminants that can lead to adverse health effects in aquatic organisms, including reproductive toxicity and developmental abnormalities. To assess the ecological health risk of PFAS in Pennsylvania stream surface water, we conducted a comprehensive analysis that included both measured and predicted estimates. The potential combined exposure effects of 14 individual PFAS to aquatic biota were estimated using the sum of exposure-activity ratios (\u03a3EARs) in 280 streams. Additionally, machine learning techniques were utilized to predict potential PFAS exposure effects in unmonitored stream reaches, considering factors such as land use, climate, and geology. Leveraging a tailored convolutional neural network (CNN), a validation accuracy of 78% was achieved, directly outperforming traditional methods that were also used, such as logistic regression and gradient boosting (accuracies of ~65%). Feature importance analysis highlighted key variables that contributed to the CNN\u2019s predictive power. The most influential features highlighted the complex interplay of anthropogenic and environmental factors contributing to PFAS contamination in surface waters. Industrial and urban land cover, rainfall intensity, underlying geology, agricultural factors, and their interactions emerged as key determinants. These findings may help to inform biotic sampling strategies, water quality monitoring efforts, and policy decisions aimed to mitigate the ecological impacts of PFAS in surface waters.</jats:p>",
+    "DOI": "10.3390/toxics12120921",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          19
+        ]
+      ],
+      "date-time": "2024-12-19T08:04:14Z",
+      "timestamp": 1734595454000
+    },
+    "page": "921",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Predicted Potential for Aquatic Exposure Effects of Per- and Polyfluorinated Alkyl Substances (PFAS) in Pennsylvania\u2019s Statewide Network of Streams"
+    ],
+    "prefix": "10.3390",
+    "volume": "12",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0609-1559",
+        "authenticated-orcid": false,
+        "given": "Sara E.",
+        "family": "Breitmeyer",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Pennsylvania Water Science Center, U.S. Geological Survey, New Cumberland, PA 17070, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7679-181X",
+        "authenticated-orcid": false,
+        "given": "Amy M.",
+        "family": "Williams",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Bureau of Clean Water, Pennsylvania Department of Environmental Protection, Harrisburg, PA 17101, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8266-9610",
+        "authenticated-orcid": false,
+        "given": "Matthew D.",
+        "family": "Conlon",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Pennsylvania Water Science Center, U.S. Geological Survey, New Cumberland, PA 17070, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0878-579X",
+        "authenticated-orcid": false,
+        "given": "Timothy A.",
+        "family": "Wertz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Bureau of Clean Water, Pennsylvania Department of Environmental Protection, Harrisburg, PA 17101, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Brian C.",
+        "family": "Heflin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Independent Researcher, Colorado Springs, CO 80906, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0188-7964",
+        "authenticated-orcid": false,
+        "given": "Dustin R.",
+        "family": "Shull",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Bureau of Clean Water, Pennsylvania Department of Environmental Protection, Harrisburg, PA 17101, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8669-8109",
+        "authenticated-orcid": false,
+        "given": "Joseph W.",
+        "family": "Duris",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Pennsylvania Water Science Center, U.S. Geological Survey, New Cumberland, PA 17070, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          19
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "631",
+        "DOI": "10.1002/etc.4935",
+        "article-title": "PFAS exposure pathways for humans and wildlife: A synthesis of current knowledge and key gaps in understanding",
+        "volume": "40",
+        "author": "Armitage",
+        "year": "2021",
+        "journal-title": "Environ. Toxicol. Chem."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "131",
+        "DOI": "10.1038/s41370-018-0094-1",
+        "article-title": "A review of the pathways of human exposure to poly-and perfluoroalkyl substances (PFASs) and present understanding of health effects",
+        "volume": "29",
+        "author": "Sunderland",
+        "year": "2019",
+        "journal-title": "J. Expo. Sci. Environ. Epidemiol."
+      },
+      {
+        "key": "ref_3",
+        "unstructured": "Pennsylvania Fish and Boat Commission (2024, October 14). Commonwealth of Pennsylvania Public Health Advisory 2022 Fish Consumption. Available online: https://files.dep.state.pa.us/Water/Drinking%20Water%20and%20Facility%20Regulation/WaterQualityPortalFiles/FishConsumption/FishAdvisory/FCA_SummaryBookExcerpt_2024.pdf."
+      },
+      {
+        "key": "ref_4",
+        "unstructured": "U.S. Environmental Protection Agency (2024, September 27). Per- and Polyfluoroalkyl Substances (PFAS)|US EPA, Available online: https://www.epa.gov/sdwa/and-polyfluoroalkyl-substances-pfas."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "36",
+        "DOI": "10.1002/ieam.4776",
+        "article-title": "US and international per- and polyfluoroalkyl substances surface water quality criteria: A review of the status, challenges, and implications for use in chemical management and risk assessment",
+        "volume": "20",
+        "author": "Ruffle",
+        "year": "2024",
+        "journal-title": "Integr. Environ. Assess. Manag."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "120422",
+        "DOI": "10.1016/j.envpol.2022.120422",
+        "article-title": "The effects of exposure to environmentally relevant PFAS concentrations for aquatic organisms at different consumer trophic levels: Systematic review and meta-analyses",
+        "volume": "315",
+        "author": "Banyoi",
+        "year": "2022",
+        "journal-title": "Environ. Pollut."
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "123912",
+        "DOI": "10.1016/j.envpol.2024.123912",
+        "article-title": "Effects of developmental exposure to individual and combined PFAS on development and behavioral stress responses in larval zebrafish",
+        "volume": "349",
+        "author": "Hamed",
+        "year": "2024",
+        "journal-title": "Environ. Pollut."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "1520",
+        "DOI": "10.1002/etc.5324",
+        "article-title": "The ECOTOXicology Knowledgebase: A Curated Database of Ecologically Relevant Toxicity Tests to Support Environmental Research and Risk Assessment",
+        "volume": "41",
+        "author": "Olker",
+        "year": "2022",
+        "journal-title": "Environ. Toxicol. Chem."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "147147",
+        "DOI": "10.1016/j.scitotenv.2021.147147",
+        "article-title": "Pesticides in US Rivers: Regional differences in use, occurrence, and environmental toxicity, 2013 to 2017",
+        "volume": "787",
+        "author": "Stackpoole",
+        "year": "2021",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "2314",
+        "DOI": "10.1016/j.scitotenv.2018.09.377",
+        "article-title": "Water-quality trends in U.S. rivers, 2002 to 2012: Relations to levels of concern",
+        "volume": "650",
+        "author": "Shoda",
+        "year": "2019",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "5",
+        "DOI": "10.1093/toxsci/kfl103",
+        "article-title": "The ToxCast Program for Prioritizing Toxicity Testing of Environmental Chemicals",
+        "volume": "95",
+        "author": "Dix",
+        "year": "2006",
+        "journal-title": "Toxicol. Sci."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "3191",
+        "DOI": "10.1039/D2EW00933A",
+        "article-title": "Predicted aquatic exposure effects from a national urban stormwater study",
+        "volume": "9",
+        "author": "Bradley",
+        "year": "2023",
+        "journal-title": "Environ. Sci. Water Res. Technol."
+      },
+      {
+        "key": "ref_13",
+        "first-page": "151003",
+        "article-title": "Potential for biological effects of PFAS in Great Lakes tributaries and associations with land cover and wastewater effluent",
+        "volume": "809",
+        "author": "Corsi",
+        "year": "2025",
+        "journal-title": "Environ. Toxicol. Chem."
+      },
+      {
+        "key": "ref_14",
+        "unstructured": "DeCicco, L., Corsi, S., Villeneuve, D., Blackwell, B., and Ankley, G. (2024, October 14). toxEval: Exploring Biological Relevance of Environmental Chemistry Observations. R Package Available at CRAN. R Package Version 1.3.2. Available online: https://CRAN.R-project.org/package=toxEval."
+      },
+      {
+        "key": "ref_15",
+        "unstructured": "U.S. Environmental Protection Agency (2024, July 02). ToxCast & Tox21 Summary Files from Invitrodb v3.5, Available online: https://www.epa.gov/chemical-research/toxicity-forecaster-toxcasttm-data."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "2279",
+        "DOI": "10.1021/acs.est.1c04795",
+        "article-title": "Perfluoroalkyl and Polyfluoroalkyl Substances in Groundwater Used as a Source of Drinking Water in the Eastern United States",
+        "volume": "56",
+        "author": "McMahon",
+        "year": "2022",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "ref_17",
+        "first-page": "3651",
+        "article-title": "Prediction of 35 Target Per- and Polyfluoroalkyl Substances (PFASs) in California Groundwater Using Multilabel Semisupervised Machine Learning",
+        "volume": "57",
+        "author": "Dong",
+        "year": "2023",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "14024",
+        "DOI": "10.1021/acs.est.3c03670",
+        "article-title": "Using geospatial data and random forest to predict PFAS contamination in fish tissue in the Columbia river basin, United States",
+        "volume": "57",
+        "author": "DeLuca",
+        "year": "2023",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "143146",
+        "DOI": "10.1016/j.chemosphere.2024.143146",
+        "article-title": "Predicting bioconcentration factors (BCFs) for per-and polyfluoroalkyl substances (PFAS)",
+        "volume": "364",
+        "author": "Kowalska",
+        "year": "2024",
+        "journal-title": "Chemosphere"
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Khaki, S., and Wang, L. (2019). Crop Yield Prediction Using Deep Neural Networks. Front. Plant Sci., 10.",
+        "DOI": "10.3389/fpls.2019.00621"
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "116349",
+        "DOI": "10.1016/j.watres.2020.116349",
+        "article-title": "Using convolutional neural network for predicting cyanobacteria concentrations in river water",
+        "volume": "186",
+        "author": "Pyo",
+        "year": "2020",
+        "journal-title": "Water Res."
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "121567",
+        "DOI": "10.1016/j.jenvman.2024.121567",
+        "article-title": "Comprehensive river water quality monitoring using convolutional neural networks and gated recurrent units: A case study along the Vaigai River",
+        "volume": "365",
+        "author": "Gandhimathi",
+        "year": "2024",
+        "journal-title": "J. Environ. Manag."
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pu, F., Ding, C., Chao, Z., Yu, Y., and Xu, X. (2019). Water-quality classification of inland lakes using landsat8 images by convolutional neural networks. Remote Sens., 11.",
+        "DOI": "10.3390/rs11141674"
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Limbu, S., Glasgow, E., Block, T., and Dakshanamurthy, S. (2024). A Machine-Learning-Driven Pathophysiology-Based New Approach Method for the Dose-Dependent Assessment of Hazardous Chemical Mixtures and Experimental Validations. Toxics, 12.",
+        "DOI": "10.20944/preprints202405.2120.v1"
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "5996",
+        "DOI": "10.1021/acs.jcim.1c01204",
+        "article-title": "Uncertainty-Informed Deep Transfer Learning of Perfluoroalkyl and Polyfluoroalkyl Substance Toxicity",
+        "volume": "61",
+        "author": "Feinstein",
+        "year": "2021",
+        "journal-title": "J. Chem. Inf. Model."
+      },
+      {
+        "key": "ref_26",
+        "unstructured": "U.S. Environmental Protection Agency (2024, April 02). Enforcement and Compliance History Online (ECHO) PFAS Analytic Tools, Available online: https://echo.epa.gov/trends/pfas-tools."
+      },
+      {
+        "key": "ref_27",
+        "unstructured": "U.S. Geological Survey (2024). USGS Water Data for the Nation: U.S. Geological Survey National Water Information System Database."
+      },
+      {
+        "key": "ref_28",
+        "unstructured": "Roberts, D. (2024, October 25). The Sprink Creek Watersehd Atlas, PFAS Survey Data. Available online: https://www.springcreekwatershedatlas.org/post/pfas-in-the-spring-creek-and-bald-eagle-creek-watersheds."
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "first-page": "164161",
+        "DOI": "10.1016/j.scitotenv.2023.164161",
+        "article-title": "Per- and polyfluorinated alkyl substances (PFAS) in Pennsylvania surface waters: A statewide assessment, associated sources, and land-use relations",
+        "volume": "888",
+        "author": "Breitmeyer",
+        "year": "2023",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "ref_30",
+        "unstructured": "McKay, L., Bondelid, T., Dewald, T., Johnston, J., Moore, R., and Rea, A.U.S. (2024, June 10). Geological Survey NHDPlusV2 User Guide, Available online: https://www.epa.gov/waterdata/nhdplus-national-hydrography-dataset-plus."
+      },
+      {
+        "key": "ref_31",
+        "unstructured": "R Core Team (2024, October 14). R: A Language and Environment for Statistical Computing. Available online: https://www.R-project.org/."
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "first-page": "8713",
+        "DOI": "10.1021/acs.est.7b01613",
+        "article-title": "An \u201cEAR\u201d on environmental surveillance and monitoring: A case study on the use of exposure\u2013activity ratios (EARs) to prioritize sites, chemicals, and bioactivities of concern in Great Lakes waters",
+        "volume": "51",
+        "author": "Blackwell",
+        "year": "2017",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "first-page": "618",
+        "DOI": "10.1093/bioinformatics/btw680",
+        "article-title": "tcpl: The ToxCast pipeline for high-throughput screening data",
+        "volume": "33",
+        "author": "Filer",
+        "year": "2016",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "first-page": "500",
+        "DOI": "10.1093/toxsci/kfy049",
+        "article-title": "Differentiating pathway-specific from nonspecific effects in high-throughput toxicity data: A foundation for prioritizing adverse outcome pathway development",
+        "volume": "163",
+        "author": "Fay",
+        "year": "2018",
+        "journal-title": "Toxicol. Sci."
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "first-page": "995",
+        "DOI": "10.1016/j.scitotenv.2019.05.457",
+        "article-title": "Prioritizing chemicals of ecological concern in Great Lakes tributaries using high-throughput screening data and adverse outcome pathways",
+        "volume": "686",
+        "author": "Corsi",
+        "year": "2019",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "first-page": "685",
+        "DOI": "10.1289/ehp.0800168",
+        "article-title": "The Toxicity Data Landscape for Environmental Chemicals",
+        "volume": "117",
+        "author": "Judson",
+        "year": "2009",
+        "journal-title": "Environ. Health Perspect."
+      },
+      {
+        "key": "ref_37",
+        "unstructured": "U.S. Geological Survey (2024, July 05). Watershed Boundary Dataset (WBD). Available online: https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Hydrography/WBD/National/."
+      },
+      {
+        "key": "ref_38",
+        "unstructured": "Jones, J., Doctor, D., Wood, N., Falgout, J., and Rapstine, N. (2021). Closed Depression Density in Karst Regions of the Conterminous United States: Features and Grid Data, U.S. Geological Survey Data Release."
+      },
+      {
+        "key": "ref_39",
+        "unstructured": "Blodgett, D., and Johnson, M. (2023). nhdplusTools: Tools for Accessing and Working with the NHDPlus, U.S. Geological Survey Software Release."
+      },
+      {
+        "key": "ref_40",
+        "unstructured": "Wieferich, D., Gressler, B., Krause, K., Wieczorek, M., and McDonald, S. (2022). xstrm local, U.S. Geological Survey Software Release."
+      },
+      {
+        "key": "ref_41",
+        "unstructured": "Wieczorek, M., Jackson, S., and Schwarz, G. (2018). Select Attributes for NHDPlus Version 2.1 Reach Catchments and Modified Network Routed Upstream Watersheds for the Conterminous United States (Ver. 4.0, August 2023), U.S. Geological Survey Data Release."
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "first-page": "2312",
+        "DOI": "10.1080/02664763.2019.1630372",
+        "article-title": "Ordered quantile normalization: A semiparametric transformation built for the cross-validation era",
+        "volume": "47",
+        "author": "Peterson",
+        "year": "2020",
+        "journal-title": "J. Appl. Stat."
+      },
+      {
+        "key": "ref_43",
+        "unstructured": "U.S. Environmental Protection Agency (2024, April 02). Level III and IV Ecoregions of the Continental United States. U.S. EPA Office of Research & Development (ORD)\u2014National Health and Environmental Effects Research Laboratory (NHEERL), Available online: https://www.epa.gov/eco-research/level-iii-and-iv-ecoregions-continental-united-states."
+      },
+      {
+        "key": "ref_44",
+        "doi-asserted-by": "crossref",
+        "first-page": "2165",
+        "DOI": "10.1002/etc.5118",
+        "article-title": "Identifying chemicals and mixtures of potential biological concern detected in passive samplers from Great Lakes tributaries using high-throughput data and biological pathways",
+        "volume": "40",
+        "author": "Alvarez",
+        "year": "2021",
+        "journal-title": "Environ. Toxicol. Chem."
+      },
+      {
+        "key": "ref_45",
+        "doi-asserted-by": "crossref",
+        "first-page": "367",
+        "DOI": "10.1002/etc.5522",
+        "article-title": "Pesticide prioritization by potential biological effects in tributaries of the Laurentian Great Lakes",
+        "volume": "42",
+        "author": "Oliver",
+        "year": "2023",
+        "journal-title": "Environ. Toxicol. Chem."
+      },
+      {
+        "key": "ref_46",
+        "unstructured": "Han, J., Kamber, M., and Pei, J. (2011). Data Mining: Concepts and Techniques, Morgan Kaufmann. [3rd ed.]."
+      },
+      {
+        "key": "ref_47",
+        "unstructured": "Alpaydin, E. (2020). Introduction to Machine Learning, MIT Press. [4th ed.]."
+      },
+      {
+        "key": "ref_48",
+        "doi-asserted-by": "crossref",
+        "first-page": "436",
+        "DOI": "10.1038/nature14539",
+        "article-title": "Deep learning",
+        "volume": "521",
+        "author": "LeCun",
+        "year": "2015",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref_49",
+        "unstructured": "Goodfellow, I., Bengio, Y., and Courville, A. (2016). Deep Learning, MIT Press."
+      },
+      {
+        "key": "ref_50",
+        "doi-asserted-by": "crossref",
+        "first-page": "354",
+        "DOI": "10.1016/j.patcog.2017.10.013",
+        "article-title": "Recent Advances in Convolutional Neural Networks",
+        "volume": "77",
+        "author": "Gu",
+        "year": "2018",
+        "journal-title": "Pattern Recognit."
+      },
+      {
+        "key": "ref_51",
+        "unstructured": "Krizhevsky, A., Sutskever, I., and Hinton, G.E. (2012, January 3\u20136). ImageNet Classification with Deep Convolutional Neural Networks. Proceedings of the Advances in Neural Information Processing Systems, Lake Tahoe, NV, USA."
+      },
+      {
+        "key": "ref_52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mayr, A., Klambauer, G., Unterthiner, T., and Hochreiter, S. (2016). DeepTox: Toxicity Prediction Using Deep Learning. Front. Environ. Sci., 3.",
+        "DOI": "10.3389/fenvs.2015.00080"
+      },
+      {
+        "key": "ref_53",
+        "unstructured": "O\u2019Shea, K., and Nash, R. (2015). An Introduction to Convolutional Neural Networks. arXiv."
+      },
+      {
+        "key": "ref_54",
+        "unstructured": "Xu, K., Ba, J., Kiros, R., Cho, K., Courville, A., Salakhutdinov, R., Zemel, R., and Bengio, Y. (2015, January 7\u20139). Show, Attend and Tell: Neural Image Caption Generation with Visual Attention. Proceedings of the 32nd International Conference on Machine Learning (ICML), Lille, France."
+      },
+      {
+        "key": "ref_55",
+        "first-page": "191",
+        "article-title": "XTox: Toxicity Prediction Using Shallow Learning Models",
+        "volume": "125",
+        "author": "Rashid",
+        "year": "2019",
+        "journal-title": "Comput. Chem. Eng."
+      },
+      {
+        "key": "ref_56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, J., Monroe, W., and Jurafsky, D. (2016, January 12). Visualizing and Understanding Neural Models in NLP. Proceedings of the 5th Workshop on Vision and Language, Berlin, Germany.",
+        "DOI": "10.18653/v1/N16-1082"
+      },
+      {
+        "key": "ref_57",
+        "doi-asserted-by": "crossref",
+        "first-page": "1553",
+        "DOI": "10.1021/acs.jcim.7b00558",
+        "article-title": "Convolutional Neural Networks for Toxicity Prediction",
+        "volume": "58",
+        "author": "Wu",
+        "year": "2018",
+        "journal-title": "J. Chem. Inf. Model."
+      },
+      {
+        "key": "ref_58",
+        "doi-asserted-by": "crossref",
+        "first-page": "448",
+        "DOI": "10.1016/j.ins.2018.10.053",
+        "article-title": "Convolutional neural network learning for generic data classification",
+        "volume": "477",
+        "author": "Han",
+        "year": "2019",
+        "journal-title": "Inf. Sci."
+      },
+      {
+        "key": "ref_59",
+        "doi-asserted-by": "crossref",
+        "first-page": "318",
+        "DOI": "10.1289/ehp.1205829",
+        "article-title": "Perfluorooctanoic Acid Exposure and Cancer Outcomes in a Contaminated Community: A Geographic Analysis",
+        "volume": "121",
+        "author": "Vieira",
+        "year": "2013",
+        "journal-title": "Environ. Health Perspect."
+      },
+      {
+        "key": "ref_60",
+        "first-page": "540",
+        "article-title": "Sorption equilibria of perfluoroalkyl acids between sediment and water: Influence of sediment organic carbon and molecular structure",
+        "volume": "320",
+        "author": "Nguyen",
+        "year": "2016",
+        "journal-title": "J. Hazard. Mater."
+      },
+      {
+        "key": "ref_61",
+        "first-page": "1189",
+        "article-title": "Greedy Function Approximation: A Gradient Boosting Machine",
+        "volume": "29",
+        "author": "Friedman",
+        "year": "2000",
+        "journal-title": "Ann. Stat."
+      },
+      {
+        "key": "ref_62",
+        "first-page": "112314",
+        "article-title": "XGBoost model as an efficient machine learning approach for PFAS removal: Effects of material characteristics and operation conditions",
+        "volume": "204",
+        "author": "Liu",
+        "year": "2022",
+        "journal-title": "Environ. Res."
+      },
+      {
+        "key": "ref_63",
+        "doi-asserted-by": "crossref",
+        "first-page": "1435",
+        "DOI": "10.1021/es102769t",
+        "article-title": "Environmental fate and transport modeling for perfluorooctanoic acid emitted from the Washington Works Facility in West Virginia",
+        "volume": "45",
+        "author": "Shin",
+        "year": "2011",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "ref_64",
+        "doi-asserted-by": "crossref",
+        "first-page": "215",
+        "DOI": "10.1111/j.2517-6161.1958.tb00292.x",
+        "article-title": "The regression analysis of binary sequences",
+        "volume": "20",
+        "author": "Cox",
+        "year": "1958",
+        "journal-title": "J. R. Stat. Soc. Ser. B (Methodol.)"
+      },
+      {
+        "key": "ref_65",
+        "doi-asserted-by": "crossref",
+        "first-page": "273",
+        "DOI": "10.1007/BF00994018",
+        "article-title": "Support-vector networks",
+        "volume": "20",
+        "author": "Cortes",
+        "year": "1995",
+        "journal-title": "Mach. Learn."
+      },
+      {
+        "key": "ref_66",
+        "doi-asserted-by": "crossref",
+        "first-page": "278",
+        "DOI": "10.1109/ICDAR.1995.598994",
+        "article-title": "Random decision forests",
+        "volume": "Volume 1",
+        "author": "Ho",
+        "year": "1995",
+        "journal-title": "Proceedings of the 3rd International Conference on Document Analysis and Recognition"
+      },
+      {
+        "key": "ref_67",
+        "unstructured": "Python Software Foundation (2024, October 14). Python 3.11. Available online: https://www.python.org/downloads/release/python-3110/."
+      },
+      {
+        "key": "ref_68",
+        "unstructured": "Sarkar, D., Bali, R., and Ghosh, T. (2018). Hands-On Transfer Learning with Python: Implement Advanced Deep Learning and Neural Network Models Using TensorFlow and Keras, Packt Publishing Ltd."
+      },
+      {
+        "key": "ref_69",
+        "unstructured": "Abadi, M., Agarwal, A., Barham, P., Brevdo, E., Chen, Z., Citro, C., Corrado, G.S., Davis, A., Dean, J., and Devin, M. (2024, July 05). TensorFlow: Large-Scale Machine Learning on Heterogeneous Systems. Available online: http://tensorflow.org/."
+      },
+      {
+        "key": "ref_70",
+        "unstructured": "Head, T., Cherti, M., Pedregosa, F., Zhdanov, M., Louppe, G., Raffel, C., Mueller, A., Fauchere, N., McInnes, L., and Grisel, O. (2024, November 22). Scikit-Optimize: Sequential Model-Based Optimization with Scikit-Learn. Available online: https://scikit-optimize.github.io/."
+      },
+      {
+        "key": "ref_71",
+        "unstructured": "Guyon, I., Luxburg, U.V., Bengio, S., Wallach, H., Fergus, R., Vishwanathan, S., and Garnett, R. (2017, January 4\u20139). A Unified Approach to Interpreting Model Predictions. Proceedings of the 31st International Conference on Neural Information Processing Systems, NIPS\u201917, Long Beach, CA, USA."
+      },
+      {
+        "key": "ref_72",
+        "doi-asserted-by": "crossref",
+        "first-page": "56",
+        "DOI": "10.1038/s42256-019-0138-9",
+        "article-title": "From Local Explanations to Global Understanding with Explainable AI for Trees",
+        "volume": "2",
+        "author": "Lundberg",
+        "year": "2020",
+        "journal-title": "Nat. Mach. Intell."
+      },
+      {
+        "key": "ref_73",
+        "unstructured": "Molnar, C. (2019). Interpretable Machine Learning: A Guide for Making Black Box Models Explainable, Lulu.com."
+      },
+      {
+        "key": "ref_74",
+        "unstructured": "Sundararajan, M., Taly, A., and Yan, Q. (2017, January 6\u201311). Axiomatic Attribution for Deep Networks. Proceedings of the 34th International Conference on Machine Learning (ICML), PMLR, Sydney, Australia."
+      },
+      {
+        "key": "ref_75",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mihaljevic, I., Vujica, L., Dragojavic, J., Loncar, J., and Smital, T. (2024). Differential Toxicity of Perfluorooctane Sulfonate (PFOS) in Wild-Type and Oatp1d1 Mutant Zebrafish Embryos. bioRxiv.",
+        "DOI": "10.1101/2024.06.28.601146"
+      },
+      {
+        "key": "ref_76",
+        "doi-asserted-by": "crossref",
+        "first-page": "70",
+        "DOI": "10.1016/S0016-6480(03)00283-1",
+        "article-title": "Relationship between changes in mRNAs of the genes encoding steroidogenic acute regulatory protein and P450 cholesterol side chain cleavage in head kidney and plasma levels of cortisol in response to different kinds of acute stress in the rainbow trout (Oncorhynchus mykiss)",
+        "volume": "135",
+        "author": "Geslin",
+        "year": "2004",
+        "journal-title": "Gen. Comp. Endocrinol."
+      },
+      {
+        "key": "ref_77",
+        "doi-asserted-by": "crossref",
+        "first-page": "1287",
+        "DOI": "10.1021/tx3000939",
+        "article-title": "Update on EPA\u2019s ToxCast program: Providing high throughput decision support tools for chemical risk management",
+        "volume": "25",
+        "author": "Kavlock",
+        "year": "2012",
+        "journal-title": "Chem. Res. Toxicol."
+      },
+      {
+        "key": "ref_78",
+        "doi-asserted-by": "crossref",
+        "first-page": "55",
+        "DOI": "10.1006/abio.1998.2897",
+        "article-title": "Analysis of cytochrome P450 metabolites of arachidonic and linoleic acids by liquid chromatography\u2013mass spectrometry with ion trap MS2",
+        "volume": "265",
+        "author": "Bylund",
+        "year": "1998",
+        "journal-title": "Anal. Biochem."
+      },
+      {
+        "key": "ref_79",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1301",
+        "DOI": "10.1002/widm.1301",
+        "article-title": "Hyperparameters and tuning strategies for random forest",
+        "volume": "9",
+        "author": "Probst",
+        "year": "2019",
+        "journal-title": "Wiley Interdiscip. Rev. Data Min. Knowl. Discov."
+      },
+      {
+        "key": "ref_80",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, T., and Guestrin, C. (2016, January 13\u201317). XGBoost: A Scalable Tree Boosting System. Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, San Francisco, CA, USA.",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "key": "ref_81",
+        "doi-asserted-by": "crossref",
+        "first-page": "748",
+        "DOI": "10.1126/science.ado6638",
+        "article-title": "Predictions of groundwater PFAS occurrence at drinking water supply depths in the United States",
+        "volume": "386",
+        "author": "Tokranov",
+        "year": "2024",
+        "journal-title": "Science"
+      },
+      {
+        "key": "ref_82",
+        "doi-asserted-by": "crossref",
+        "first-page": "2177",
+        "DOI": "10.1021/es303720g",
+        "article-title": "Persistence and potential effects of complex organic contaminant mixtures in wastewater-impacted streams",
+        "volume": "47",
+        "author": "Barber",
+        "year": "2013",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "ref_83",
+        "doi-asserted-by": "crossref",
+        "first-page": "108033",
+        "DOI": "10.1016/j.envint.2023.108033",
+        "article-title": "Per-and polyfluoroalkyl substances (PFAS) in United States tapwater: Comparison of underserved private-well and public-supply exposures and associated health implications",
+        "volume": "178",
+        "author": "Smalling",
+        "year": "2023",
+        "journal-title": "Environ. Int."
+      },
+      {
+        "key": "ref_84",
+        "doi-asserted-by": "crossref",
+        "first-page": "4356",
+        "DOI": "10.1021/acsestwater.4c00288",
+        "article-title": "Using a Time-of-Travel Sampling Approach to Quantify Per-and Polyfluoroalkyl Substances (PFAS) Stream Loading and Source Inputs in a Mixed-Source, Urban Catchment",
+        "volume": "4",
+        "author": "Woodward",
+        "year": "2024",
+        "journal-title": "ACS ES&T Water"
+      },
+      {
+        "key": "ref_85",
+        "doi-asserted-by": "crossref",
+        "first-page": "155524",
+        "DOI": "10.1016/j.scitotenv.2022.155524",
+        "article-title": "Spatial distribution and mass transport of Perfluoroalkyl Substances (PFAS) in surface water: A statewide evaluation of PFAS occurrence and fate in Alabama",
+        "volume": "836",
+        "author": "Viticoski",
+        "year": "2022",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "ref_86",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Imbrigiotta, T.E., and Fiore, A.R. (2021). Distribution of Chlorinated Volatile Organic Compounds and Per- and Polyfluoroalkyl Substances in Monitoring Wells at the Former Naval Air Warfare Center, West Trenton, New Jersey, 2014\u201317, Technical Report.",
+        "DOI": "10.3133/ofr20201105"
+      },
+      {
+        "key": "ref_87",
+        "doi-asserted-by": "crossref",
+        "first-page": "981",
+        "DOI": "10.1021/acs.estlett.1c00750",
+        "article-title": "A comprehensive statewide spatiotemporal stream assessment of per-and polyfluoroalkyl substances (PFAS) in an agricultural region of the United States",
+        "volume": "8",
+        "author": "Kolpin",
+        "year": "2021",
+        "journal-title": "Environ. Sci. Technol. Lett."
+      },
+      {
+        "key": "ref_88",
+        "doi-asserted-by": "crossref",
+        "first-page": "151003",
+        "DOI": "10.1016/j.scitotenv.2021.151003",
+        "article-title": "Per-and polyfluoroalkyl substances in water and wastewater: A critical review of their global occurrence and distribution",
+        "volume": "809",
+        "author": "Kurwadkar",
+        "year": "2022",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "ref_89",
+        "doi-asserted-by": "crossref",
+        "first-page": "119368",
+        "DOI": "10.1016/j.atmosenv.2022.119368",
+        "article-title": "PFAS concentrations and deposition in precipitation: An intensive 5-month study at National Atmospheric Deposition Program\u2013National trends sites (NADP-NTN) across Wisconsin, USA",
+        "volume": "291",
+        "author": "Pfotenhauer",
+        "year": "2022",
+        "journal-title": "Atmos. Environ."
+      },
+      {
+        "key": "ref_90",
+        "doi-asserted-by": "crossref",
+        "first-page": "116685",
+        "DOI": "10.1016/j.watres.2020.116685",
+        "article-title": "Correlation analysis of perfluoroalkyl substances in regional US precipitation events",
+        "volume": "190",
+        "author": "Pike",
+        "year": "2021",
+        "journal-title": "Water Res."
+      },
+      {
+        "key": "ref_91",
+        "doi-asserted-by": "crossref",
+        "first-page": "112635",
+        "DOI": "10.1016/j.envres.2021.112635",
+        "article-title": "Increased levels of perfluorooctanesulfonic acid (PFOS) during Hurricane Dorian on the east coast of Florida",
+        "volume": "208",
+        "author": "Martinez",
+        "year": "2022",
+        "journal-title": "Environ. Res."
+      },
+      {
+        "key": "ref_92",
+        "unstructured": "Pennsylvania Department of Environmental Protection (2024, September 27). PA Water Use Annual Summary Report. Commonwealth of Pennsylvania, Available online: http://cedatareporting.pa.gov/reports/powerbi/Public/DEP/WUDS/PBI/PA_Water_Use_Annual_Summary_Report."
+      },
+      {
+        "key": "ref_93",
+        "doi-asserted-by": "crossref",
+        "first-page": "130805",
+        "DOI": "10.1016/j.jhazmat.2023.130805",
+        "article-title": "Bioavailability, phytotoxicity and plant uptake of per-and polyfluoroalkyl substances (PFAS): A review",
+        "volume": "447",
+        "author": "Adu",
+        "year": "2023",
+        "journal-title": "J. Hazard. Mater."
+      },
+      {
+        "key": "ref_94",
+        "doi-asserted-by": "crossref",
+        "first-page": "118035",
+        "DOI": "10.1016/j.watres.2021.118035",
+        "article-title": "PFAS in soil and groundwater following historical land application of biosolids",
+        "volume": "211",
+        "author": "Johnson",
+        "year": "2022",
+        "journal-title": "Water Res."
+      },
+      {
+        "key": "ref_95",
+        "doi-asserted-by": "crossref",
+        "first-page": "148449",
+        "DOI": "10.1016/j.scitotenv.2021.148449",
+        "article-title": "Incidence of Pfas in soil following long-term application of class B biosolids",
+        "volume": "793",
+        "author": "Pepper",
+        "year": "2021",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "ref_96",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Caniglia, J., Snow, D.D., Messer, T., and Bartelt-Hunt, S. (2022). Extraction, analysis, and occurrence of per-and polyfluoroalkyl substances (PFAS) in wastewater and after municipal biosolids land application to determine agricultural loading. Front. Water, 4.",
+        "DOI": "10.3389/frwa.2022.892451"
+      },
+      {
+        "key": "ref_97",
+        "unstructured": "University of Massachusetts Amherst (2024, November 25). Manure Application on Hay Fields. Online Resource. Available online: https://ag.umass.edu/crops-dairy-livestock-equine/fact-sheets/manure-application-on-hay-fields."
+      },
+      {
+        "key": "ref_98",
+        "doi-asserted-by": "crossref",
+        "first-page": "91",
+        "DOI": "10.1007/BF02525562",
+        "article-title": "The influence of urbanization of sinkhole development in central Pennsylvania",
+        "volume": "8",
+        "author": "White",
+        "year": "1986",
+        "journal-title": "Environ. Geol. Water Sci."
+      },
+      {
+        "key": "ref_99",
+        "doi-asserted-by": "crossref",
+        "first-page": "1704",
+        "DOI": "10.1021/acs.est.7b05559",
+        "article-title": "Microplastics and nanoplastics in aquatic environments: Aggregation, deposition, and enhanced contaminant transport",
+        "volume": "52",
+        "author": "Alimi",
+        "year": "2018",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "ref_100",
+        "doi-asserted-by": "crossref",
+        "first-page": "1182",
+        "DOI": "10.1007/s10661-024-13292-9",
+        "article-title": "A combinational threat of micro-and nano-plastics (MNPs) as potential emerging vectors for per-and polyfluoroalkyl substances (PFAS) to human health",
+        "volume": "196",
+        "author": "Santhanam",
+        "year": "2024",
+        "journal-title": "Environ. Monit. Assess."
+      },
+      {
+        "key": "ref_101",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sarkar, S., Diab, H., and Thompson, J. (2023). Microplastic pollution: Chemical characterization and impact on wildlife. Int. J. Environ. Res. Public Health, 20.",
+        "DOI": "10.3390/ijerph20031745"
+      },
+      {
+        "key": "ref_102",
+        "doi-asserted-by": "crossref",
+        "first-page": "42",
+        "DOI": "10.1016/j.scitotenv.2016.02.137",
+        "article-title": "Organic contaminants in Great Lakes tributaries: Prevalence and potential aquatic toxicity",
+        "volume": "554",
+        "author": "Baldwin",
+        "year": "2016",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "ref_103",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Meng, L., Zhou, B., Liu, H., Chen, Y., Yuan, R., Chen, Z., Luo, S., and Chen, H. (2024). Advancing toxicity studies of per-and poly-fluoroalkyl substances (pfass) through machine learning: Models, mechanisms, and future directions. Sci. Total Environ., 174201.",
+        "DOI": "10.1016/j.scitotenv.2024.174201"
+      },
+      {
+        "key": "ref_104",
+        "unstructured": "Interstate Technology and Regulatory Council (2024, November 27). PFAS Technical and Regulatory Guidance Document and Fact Sheets PFAS. Available online: https://pfas-1.itrcweb.org/fact-sheets-2/."
+      },
+      {
+        "key": "ref_105",
+        "doi-asserted-by": "crossref",
+        "first-page": "14455",
+        "DOI": "10.1021/acs.est.0c05697",
+        "article-title": "PFAS and dissolved organic carbon enrichment in surface water foams on a northern US freshwater lake",
+        "volume": "54",
+        "author": "Schwichtenberg",
+        "year": "2020",
+        "journal-title": "Environ. Sci. Technol."
+      }
+    ],
+    "container-title": [
+      "Toxics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2305-6304/12/12/921/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T16:55:36Z",
+      "timestamp": 1760115336000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2305-6304/12/12/921"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          19
+        ]
+      ]
+    },
+    "references-count": 105,
+    "journal-issue": {
+      "issue": "12",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "toxics12120921"
+    ],
+    "URL": "https://doi.org/10.3390/toxics12120921",
+    "relation": {},
+    "ISSN": [
+      "2305-6304"
+    ],
+    "issn-type": [
+      {
+        "value": "2305-6304",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          19
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.3390/toxics12120921",
+  "original_doi": "10.3390/toxics12120921"
+}

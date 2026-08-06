@@ -1,0 +1,595 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          21
+        ]
+      ],
+      "date-time": "2025-02-21T13:41:06Z",
+      "timestamp": 1740145266389,
+      "version": "3.37.3"
+    },
+    "reference-count": 63,
+    "publisher": "IWA Publishing",
+    "issue": "6",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              14
+            ]
+          ],
+          "date-time": "2023-08-14T00:00:00Z",
+          "timestamp": 1691971200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Canada\u2019s NSERC Discovery program",
+        "award": [
+          "RGPIN-2019-05449"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "RGPIN-2019-05449"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "iwaponline.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Cyanobacterial blooms are a persistent concern to water management and treatment, with blooms potentially causing the release of toxins and degrading water quality. However, previous models have not considered the zero inflation of cyanobacteria count data. Typically, a relatively large proportion of measured count data are zeros or non-detects of cyanobacteria, representing either no cyanobacteria was present or the cell number was too low to be detected. Commonly used Poisson and negative binomial models for count data underestimate the probability of zero data, making these models less reliable. This study proposes a Bayesian approach to fit the cyanobacteria abundance data with mixture models that handle zero-inflated data. Predictor variables considered included weather and water quality measures that can easily be obtained day-to-day. The optimal model (zero-inflated negative binomial) was used to predict cyanobacteria alert levels on a separate test set. The ability to predict narrow alert levels was limited, however, 76% accuracy was achieved in predicting cyanobacteria counts above or below 1,000 cells/mL. Parameter estimates were highly variable and demonstrated that complex and uncertain factors influence cyanobacteria count predictions. The modelling approach can be applied to a wide range of environmental problems where zero-inflated data is common.</jats:p>",
+    "DOI": "10.2166/hydro.2023.229",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          14
+        ]
+      ],
+      "date-time": "2023-08-14T09:26:05Z",
+      "timestamp": 1692005165000
+    },
+    "page": "2161-2176",
+    "update-policy": "https://doi.org/10.2166/iwapcrossmarkpolicypage",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Predicting cyanobacteria abundance with Bayesian zero-inflated models"
+    ],
+    "prefix": "10.2166",
+    "volume": "25",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-3499-945X",
+        "authenticated-orcid": false,
+        "given": "Yirao",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "1 School of Engineering, Faculty of Applied Science, The University of British Columbia Okanagan, 1137 Alumni Ave, Kelowna, BC, Canada"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Nicolas M.",
+        "family": "Peleato",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "1 School of Engineering, Faculty of Applied Science, The University of British Columbia Okanagan, 1137 Alumni Ave, Kelowna, BC, Canada"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "945",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          14
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "key-10.2166/hydro.2023.229-1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02804901"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s001800000038"
+      },
+      {
+        "volume-title": "Pattern Recognition and Machine Learning",
+        "year": "2006",
+        "author": "Bishop",
+        "key": "key-10.2166/hydro.2023.229-3"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.toxicon.2016.10.017"
+      },
+      {
+        "issue": "4",
+        "key": "key-10.2166/hydro.2023.229-5",
+        "doi-asserted-by": "crossref",
+        "first-page": "434",
+        "DOI": "10.1080/10618600.1998.10474787",
+        "article-title": "General methods for monitoring convergence of iterative simulations",
+        "volume": "7",
+        "author": "Brooks",
+        "year": "1998",
+        "journal-title": "Journal of Computational and Graphical Statistics"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-6",
+        "first-page": "305",
+        "article-title": "A coordinator's guide to volunteer lake monitoring methods",
+        "volume": "96",
+        "author": "Carlson",
+        "year": "1996",
+        "journal-title": "North American Lake Management Society"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18637/jss.v076.i01"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-8",
+        "unstructured": "Catalina A., B\u00fcrkner P. C. & Vehtari A. 2020 Projection Predictive Inference for Generalized Linear and Additive Multilevel Models. arXiv preprint arXiv:2010.06994."
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.watres.2013.06.042"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2013WR014372"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11356-018-2612-z"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.7b01498"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-13",
+        "doi-asserted-by": "crossref",
+        "first-page": "858",
+        "DOI": "10.1201/9781003081449",
+        "volume-title": "Toxic Cyanobacteria in Water: A Guide to Their Public Health Consequences, Monitoring and Management",
+        "author": "Chorus",
+        "year": "2021"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Christensen V. G., Graham J. L., Milligan C. R., Pope L. M. & Ziegler A. C. 2006 Water Quality and Relation to Taste-and-Odor Compounds in North Fork Ninnescah River and Cheney Reservoir, South-Central Kansas, 1997-2003 (No. 2006-5095). US Geological Survey.",
+        "DOI": "10.3133/sir20065095"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.hal.2011.05.002"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecss.2012.09.019"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fpsyg.2020.608045"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0038757"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.watres.2009.04.001"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/07438141.2011.551027"
+      },
+      {
+        "issue": "2005",
+        "key": "key-10.2166/hydro.2023.229-21",
+        "first-page": "380",
+        "article-title": "Comment: fuzzy and Bayesian p-values and u-values",
+        "volume": "20",
+        "author": "Gelman",
+        "year": "2005",
+        "journal-title": "Statistical Science"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-22",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1201/b16018",
+        "volume-title": "Bayesian Data Analysis",
+        "author": "Gelman",
+        "year": "2013"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10452-016-9594-z"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/10402381.2016.1263694"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-25",
+        "article-title": "Monte Carlo sampling methods using Markov chains and their applications",
+        "volume-title": "Biometrika",
+        "author": "Hastings",
+        "year": "1970"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TKDE.2008.239"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41579-018-0040-1"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.hal.2014.10.002"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3233/IDA-2002-6504"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2486.2007.01510.x"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/07438148909354676"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-32",
+        "doi-asserted-by": "crossref",
+        "first-page": "161",
+        "DOI": "10.1016/B978-0-12-801370-0.00010-1",
+        "article-title": "Posterior predictive model checking and proportion of explained variance",
+        "volume-title": "Bayesian Data Analysis in Ecology Using Linear Models with R, BUGS, and STAN",
+        "author": "Korner-Nievergelt",
+        "year": "2015"
+      },
+      {
+        "issue": "4",
+        "key": "key-10.2166/hydro.2023.229-33",
+        "first-page": "657",
+        "article-title": "Variable and threshold selection to control predictive accuracy in logistic regression",
+        "volume": "63",
+        "author": "Kuk",
+        "year": "2014",
+        "journal-title": "Journal of the Royal Statistical Society: Series C (Applied Statistics)"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1269547"
+      },
+      {
+        "volume-title": "A Student's Guide to Bayesian Statistics",
+        "year": "2018",
+        "author": "Lambert",
+        "key": "key-10.2166/hydro.2023.229-35"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/AEM.05246-11"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecoenv.2014.05.004"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev-food-030216-030116"
+      },
+      {
+        "volume-title": "Review of Phosphorus Control Measures in the United States and Their Effects on Water Quality",
+        "year": "1999",
+        "author": "Litke",
+        "key": "key-10.2166/hydro.2023.229-39"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2006.06.016"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1525145113"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/aos/1176325622"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.1699114"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1191/1471082X05st084oa"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-45",
+        "unstructured": "Newcombe G., House J., Ho L., Baker P. & Burch M. 2010 Management Strategies for Cyanobacteria (Blue-Green Algae): A Guide for Water Utilities. Water Quality Research Australia (WQRA). Reserach Report 74, pp. 60\u201376."
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(SICI)1522-7278(199902)14:1<77::AID-TOX11>3.0.CO;2-F"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.hal.2011.10.027"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00248-012-0159-y"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/20-EJS1711"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.watres.2020.116349"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.watres.2020.115959"
+      },
+      {
+        "issue": "2",
+        "key": "key-10.2166/hydro.2023.229-52",
+        "first-page": "313",
+        "article-title": "Ultraviolet-B-induced destruction of phycobiliproteins in cyanobacteria",
+        "volume": "11",
+        "author": "Sinha",
+        "year": "2005",
+        "journal-title": "Physiology and Molecular Biology of Plants"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/ele.12420"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10750-015-2390-2"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-55",
+        "unstructured": "US Geological Survey 2015 USGS National Water Information System. http://dx.doi.org/10.5066/F7P55KJN."
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43586-020-00001-2"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0104325"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2017.08.149"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0304-3800(95)00113-1"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/07-1127.1"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/10408410590921727"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1476-069X-14-1"
+      },
+      {
+        "key": "key-10.2166/hydro.2023.229-63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2019.03.161"
+      }
+    ],
+    "container-title": [
+      "Journal of Hydroinformatics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://iwaponline.com/jh/article-pdf/doi/10.2166/hydro.2023.229/1334736/jh0252161.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://iwaponline.com/jh/article-pdf/doi/10.2166/hydro.2023.229/1334736/jh0252161.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          26
+        ]
+      ],
+      "date-time": "2024-10-26T03:50:11Z",
+      "timestamp": 1729914611000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://iwaponline.com/jh/article/25/6/2161/96901/Predicting-cyanobacteria-abundance-with-Bayesian"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          14
+        ]
+      ]
+    },
+    "references-count": 63,
+    "journal-issue": {
+      "issue": "6",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            14
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.2166/hydro.2023.229",
+    "relation": {},
+    "ISSN": [
+      "1464-7141",
+      "1465-1734"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "1464-7141"
+      },
+      {
+        "type": "electronic",
+        "value": "1465-1734"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          14
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.2166/hydro.2023.229",
+  "original_doi": "10.2166/hydro.2023.229"
+}

@@ -1,0 +1,680 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          31
+        ]
+      ],
+      "date-time": "2026-07-31T20:06:04Z",
+      "timestamp": 1785528364642,
+      "version": "3.56.0"
+    },
+    "reference-count": 46,
+    "publisher": "Copernicus GmbH",
+    "issue": "7",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              15
+            ]
+          ],
+          "date-time": "2024-04-15T00:00:00Z",
+          "timestamp": 1713139200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Hydrol. Earth Syst. Sci."
+    ],
+    "abstract": "<jats:p>Abstract. About 80\u2009% of the precipitation at the Colorado River's headwaters is snow, and the resulting snowmelt-driven hydrograph is a crucial water source for about 40 million people. Snowmelt from alpine and subalpine snowpack contributes substantially to groundwater recharge and river flow. However, the dynamics of snowmelt progression are not well understood because observations of the high-elevation snowpack are difficult due to challenging access in complex mountainous terrain as well as the cost and labor intensity of currently available methods. We present a novel approach to infer the processes and dynamics of high-elevation snowmelt contributions predicated upon stable hydrogen and oxygen isotope ratios observed in streamflow. We show that deuterium-excess (d-excess) values of stream water could serve as a comparatively cost-effective proxy for a catchment-integrated signal of high-elevation snowmelt contributions to catchment runoff. We sampled stable hydrogen and oxygen isotope ratios of the precipitation, snowpack, and stream water in the East River, a headwater catchment of the Colorado River, and the stream water of larger catchments at sites on the Gunnison River and Colorado River. The d-excess of snowpack increased with elevation; the upper subalpine and alpine snowpack (&gt;\u20093200\u2009m) had substantially higher d-excess compared to lower elevations (&lt;\u20093200\u2009m) in the study area. The d-excess values of stream water reflected this because d-excess values increased as the higher-elevation snowpack contributed more to stream water generation later in the snowmelt/runoff season. End-member mixing analyses based on the d-excess data showed that the share of high-elevation snowmelt contributions within the snowmelt hydrograph was on average 44\u2009% and generally increased during melt period progression, up to 70\u2009%. The observed pattern was consistent during 6 years for the East River, and a similar relation was found for the larger catchments on the Gunnison and Colorado rivers. High-elevation snowpack contributions were found to be higher for years with lower snowpack and warmer spring temperatures. Thus, we conclude that the d-excess of stream water is a viable proxy to observe changes in high-elevation snowmelt contributions in catchments at various scales. Inter-catchment comparisons and temporal trends of the d-excess of stream water could therefore serve as a catchment-integrated measure to monitor if mountain systems rely on high-elevation water inputs more during snow drought compared to years of average snowpack depths.</jats:p>",
+    "DOI": "10.5194/hess-28-1711-2024",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          15
+        ]
+      ],
+      "date-time": "2024-04-15T03:59:01Z",
+      "timestamp": 1713153541000
+    },
+    "page": "1711-1723",
+    "source": "Crossref",
+    "is-referenced-by-count": 21,
+    "title": [
+      "Stream water sourcing from high-elevation snowpack inferred from stable isotopes of water: a novel application of d-excess  values"
+    ],
+    "prefix": "10.5194",
+    "volume": "28",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1221-2767",
+        "authenticated-orcid": false,
+        "given": "Matthias",
+        "family": "Sprenger",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rosemary W. H.",
+        "family": "Carroll",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1246-0798",
+        "authenticated-orcid": false,
+        "given": "David",
+        "family": "Marchetti",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8980-1781",
+        "authenticated-orcid": false,
+        "given": "Carleton",
+        "family": "Bern",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2597-9449",
+        "authenticated-orcid": false,
+        "given": "Harsh",
+        "family": "Beria",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7237-1797",
+        "authenticated-orcid": false,
+        "given": "Wendy",
+        "family": "Brown",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alexander",
+        "family": "Newman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Curtis",
+        "family": "Beutler",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kenneth H.",
+        "family": "Williams",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "3145",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          15
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bennett, K. E. and Talsma, C.: Concurrent Changes in Extreme Hydroclimate Events in the Colorado River Basin, Water, 13, 978, https://doi.org/10.3390/w13070978, 2021.",
+        "DOI": "10.3390/w13070978"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Beria, H., Larsen, J. R., Ceperley, N. C., Michelon, A., Vennemann, T., and Schaefli, B.: Understanding snow hydrological processes through the lens of stable water isotopes, Wiley Interdiscip, Rev. Water, 5, e1311, https://doi.org/10.1002/wat2.1311, 2018.",
+        "DOI": "10.1002/wat2.1311"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Beria, H., Larsen, J. R., Michelon, A., Ceperley, N. C., and Schaefli, B.: Data for the manuscript \u201cHydroMix v1.0: a new Bayesian mixing framework for attributing uncertain hydrological sources\u201d (Version 1.0), Zenodo [code], https://doi.org/10.5281/zenodo.3475429, 2019.",
+        "DOI": "10.5194/gmd-2019-69"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Beria, H., Larsen, J. R., Michelon, A., Ceperley, N. C., and Schaefli, B.: HydroMix v1.0: a new Bayesian mixing framework for attributing uncertain hydrological sources, Geosci. Model Dev., 13, 2433\u20132450, https://doi.org/10.5194/gmd-13-2433-2020, 2020.",
+        "DOI": "10.5194/gmd-13-2433-2020"
+      },
+      {
+        "key": "ref5",
+        "unstructured": "Bureau of Reclamation: Colorado River Basin Water Supply and Demand Study Executive Summary, Reclam. Manag. Water West, https://www.usbr.gov/watersmart/bsp/docs/finalreport/ColoradoRiver/CRBS_Executive_Summary_FINAL.pdf (last access: 10\u00a0April\u00a02024), 2012."
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Carroll, R. W. H., Deems, J. S., Niswonger, R., Schumer, R., and Williams, K. H.: The Importance of Interflow to Groundwater Recharge in a Snowmelt-Dominated Headwater Basin, Geophys. Res. Lett., 46, 5899\u20135908, https://doi.org/10.1029/2019GL082447, 2019.",
+        "DOI": "10.1029/2019GL082447"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Carroll, R. W. H., Manning, A. H., Niswonger, R., Marchetti, D., and Williams, K. H.: Baseflow Age Distributions and Depth of Active Groundwater Flow in a Snow-Dominated Mountain Headwater Basin, Water Resour. Res., 56, e2020WR028161, https://doi.org/10.1029/2020WR028161, 2020.",
+        "DOI": "10.1029/2020WR028161"
+      },
+      {
+        "key": "ref8",
+        "unstructured": "Carroll, R. W. H., Brown, W., Newman, A., Beutler, C., and Williams, K. H.: East River Watershed Stable Water Isotope Data in Precipitation, Snowpack and Snowmelt 2016\u20132020, ESS-DIVE Repos. [data set], https://doi.org/10.15485/1824223, 2021."
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Carroll, R. W. H., Deems, J., Sprenger, M., Maxwell, R., Brown, W., Newman, A., Beutler, C., and Williams, K. H.: Modeling Snow Dynamics and Stable Water Isotopes Across Mountain Landscapes, Geophys. Res. Lett., 49, e2022GL098780, https://doi.org/10.1029/2022GL098780, 2022a.",
+        "DOI": "10.1029/2022GL098780"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Carroll, R. W. H., Deems, J., Maxwell, R., Sprenger, M., Brown, W., Newman, A., Beutler, C., Bill, M., Hubbard, S. S., and Williams, K. H.: Variability in observed stable water isotopes in snowpack across a mountainous watershed in Colorado, Hydrol. Process., 36, e14653, https://doi.org/10.1002/hyp.14653, 2022b.",
+        "DOI": "10.1002/hyp.14653"
+      },
+      {
+        "key": "ref11",
+        "unstructured": "Carroll, R. W. H., Newman, A., Beutler, C., Williams, K., and O'Ryan, D.: Stream discharge and temperature data collected within the East River, Colorado for the Lawrence Berkeley National Laboratory Watershed Function Science Focus Area (water years 2019 to 2022), ESS-DIVE Repos. [data set], https://doi.org/10.15485/1779721, 2023."
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Craig, H.: Isotopic variations in meteoric waters, Science, 133, 1702\u20131703, https://doi.org/10.1126/science.133.3465.1702, 1961a.",
+        "DOI": "10.1126/science.133.3465.1702"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Craig, H.: Standard for Reporting Concentrations of Deuterium and Oxygen-18 in Natural Waters, Science, 133, 1833\u20131834, https://doi.org/10.1126/science.133.3467.1833, 1961b.",
+        "DOI": "10.1126/science.133.3467.1833"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dansgaard, W.: Stable isotopes in precipitation, Tellus, 16, 436\u2013468, https://doi.org/10.1111/j.2153-3490.1964.tb00181.x, 1964.",
+        "DOI": "10.1111/j.2153-3490.1964.tb00181.x"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dozier, J., Bair, E. H., and Davis, R. E.: Estimating the spatial distribution of snow water equivalent in the world's mountains, WIREs Water, 3, 461\u2013474, https://doi.org/10.1002/wat2.1140, 2016.",
+        "DOI": "10.1002/wat2.1140"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fassnacht, S. R., Dressler, K. A., and Bales, R. C.: Snow water equivalent interpolation for the Colorado River Basin from snow telemetry (SNOTEL) data, Water Resour. Res., 39, 1208, https://doi.org/10.1029/2002WR001512, 2003.",
+        "DOI": "10.1029/2002WR001512"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Faybishenko, B., Arora, B., Dwivedi, D., and Brodie, E.: Statistical framework to assess long-term spatio-temporal climate changes: East River mountainous watershed case study, Stoch. Env. Res. Risk A., 37, 1303\u20131319, https://doi.org/10.1007/s00477-022-02327-7, 2022.",
+        "DOI": "10.1007/s00477-022-02327-7"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Freudiger, D., Kohn, I., Seibert, J., Stahl, K., and Weiler, M.: Snow redistribution for the hydrological modeling of alpine catchments, Wiley Interdiscip. Rev. Water, 4, e1232, https://doi.org/10.1002/wat2.1232, 2017.",
+        "DOI": "10.1002/wat2.1232"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Froehlich, K., Kralik, M., Papesch, W., Rank, D., Scheifinger, H., and Stichler, W.: Deuterium excess in precipitation of Alpine regions \u2013 Moisture recycling, Isot. Environ. Health S., 44, 61\u201370, https://doi.org/10.1080/10256010801887208, 2008.",
+        "DOI": "10.1080/10256010801887208"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gaskill, D. L., Mutschler, F. E., and Kramer, J. H.: Geologic map of the Gothic Quadrangle, Gunnison County, Colorado, https://doi.org/10.3133/gq1689, 1991.",
+        "DOI": "10.3133/gq1689"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gat, J. R.: Atmospheric water balance-the isotopic perspective, Hydrol. Process., 14, 1357\u20131369, https://doi.org/10.1002/1099-1085(20000615)14:8&amp;lt;1357::AID-HYP986&amp;gt;3.0.CO;2-7, 2000.",
+        "DOI": "10.1002/1099-1085(20000615)14:8<1357::AID-HYP986>3.3.CO;2-Z"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hammond, J. C., Sexstone, G. A., Putman, A. L., Barnhart, T. B., Rey, D. M., Driscoll, J. M., Liston, G. E., Rasmussen, K. L., McGrath, D., Fassnacht, S. R., and Kampf, S. K.: High Resolution SnowModel Simulations Reveal Future Elevation-Dependent Snow Loss and Earlier, Flashier Surface Water Input for the Upper Colorado River Basin, Earths Future, 11, e2022EF003092, https://doi.org/10.1029/2022EF003092, 2023.",
+        "DOI": "10.1029/2022EF003092"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hoerling, M., Barsugli, J., Livneh, B., Eischeid, J., Quan, X., and Badger, A.: Causes for the century-long decline in Colorado river flow, J. Climate, 32, 8181\u20138203, https://doi.org/10.1175/JCLI-D-19-0207.1, 2019.",
+        "DOI": "10.1175/JCLI-D-19-0207.1"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hubbard, S. S., Williams, K. H., Agarwal, D., Banfield, J., Beller, H., Bouskill, N., Brodie, E., Carroll, R., Dafflon, B., Dwivedi, D., Falco, N., Faybishenko, B., Maxwell, R., Nico, P., Steefel, C., Steltzer, H., Tokunaga, T., Tran, P. A., Wainwright, H., and Varadharajan, C.: The East River, Colorado, Watershed: A Mountainous Community Testbed for Improving Predictive Understanding of Multiscale Hydrological\u2013Biogeochemical Dynamics, Vadose Zone J., 17, 180061, https://doi.org/10.2136/vzj2018.03.0061, 2018.",
+        "DOI": "10.2136/vzj2018.03.0061"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Immerzeel, W. W., Lutz, A. F., Andrade, M., Bahl, A., Biemans, H., Bolch, T., Hyde, S., Brumby, S., Davies, B. J., Elmore, A. C., Emmer, A., Feng, M., Fern\u00e1ndez, A., Haritashya, U., Kargel, J. S., Koppes, M., Kraaijenbrink, P. D. A., Kulkarni, A. V., Mayewski, P. A., Pacheco, P., Painter, T. H., Pellicciotti, F., Rajaram, H., Rupper, S., Sinisalo, A., Shrestha, A. B., Viviroli, D., Wada, Y., Xiao, C., Yao, T., and Baillie, J. E. M.: Importance and vulnerability of the world ' s water towers, Nature, 577, 364\u2013369, https://doi.org/10.1038/s41586-019-1822-y, 2020.",
+        "DOI": "10.1038/s41586-019-1822-y"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kendall, C. and McDonnell, J. J.: Isotope tracers in catchment hydrology, Elsevier, Amsterdam, Netherlands, 839\u00a0pp., https://doi.org/10.1016/C2009-0-10239-8, 1998.",
+        "DOI": "10.1016/C2009-0-10239-8"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lamb\u00e1n, L. J., J\u00f3dar, J., Custodio, E., Soler, A., Sapriza, G., and Soto, R.: Isotopic and hydrogeochemical characterization of high-altitude karst aquifers in complex geological settings. The Ordesa and Monte Perdido National Park (Northern Spain) case study, Sci. Total Environ., 506\u2013507, 466\u2013479, https://doi.org/10.1016/j.scitotenv.2014.11.030, 2015.",
+        "DOI": "10.1016/j.scitotenv.2014.11.030"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Le, E., Ameli, A., Janssen, J., and Hammond, J.: Snow Persistence Explains Stream High Flow and Low Flow Signatures with Differing Relationships by Aridity and Climatic Seasonality, Hydrol. Earth Syst. Sci. Discuss. [preprint], https://doi.org/10.5194/hess-2022-106, 2022.",
+        "DOI": "10.5194/hess-2022-106-supplement"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Marchetti, D. W. and Marchetti, S. B.: Stable isotope compositions of precipitation from Gunnison, Colorado 2007\u20132016: implications for the climatology of a high-elevation valley, Heliyon, 5, e02120, https://doi.org/10.1016/j.heliyon.2019.e02120, 2019.",
+        "DOI": "10.1016/j.heliyon.2019.e02120"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Musselman, K. N., Addor, N., Vano, J. A., and Molotch, N. P.: Winter melt trends portend widespread declines in snow water resources, Nat. Clim. Change, 11, 418\u2013424, https://doi.org/10.1038/s41558-021-01014-9, 2021.",
+        "DOI": "10.1038/s41558-021-01014-9"
+      },
+      {
+        "key": "ref31",
+        "unstructured": "National Water and Climate Center (NWCC): SNOTEL, https://wcc.sc.egov.usda.gov/reportGenerator/ (last access: 8\u00a0June\u00a02023), 2023."
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Painter, T. H., Berisford, D. F., Boardman, J. W., Bormann, K. J., Deems, J. S., Gehrke, F., Hedrick, A., Joyce, M., Laidlaw, R., Marks, D., Mattmann, C., McGurk, B., Ramirez, P., Richardson, M., Skiles, S. M. K., Seidel, F. C., and Winstral, A.: The Airborne Snow Observatory: Fusion of scanning lidar, imaging spectrometer, and physically-based modeling for mapping snow water equivalent and snow albedo, Remote Sens. Environ., 184, 139\u2013152, https://doi.org/10.1016/j.rse.2016.06.018, 2016.",
+        "DOI": "10.1016/j.rse.2016.06.018"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rodhe, A.: Spring Flood Meltwater or Groundwater?: Paper presented at the Nordic Hydrological Conference (Vemdalen, Sweden, August, 1980), Hydrol. Res., 12, 21\u201330, https://doi.org/10.2166/nh.1981.0002, 1981.",
+        "DOI": "10.2166/nh.1981.0002"
+      },
+      {
+        "key": "ref34",
+        "unstructured": "Rolle, J.: Determining Spatial Controls on Snow Isotopic Signature and Tracing the Snowmelt Pulse as it Moves Through Two Montane Catchments, Graduate Student Thesis, The University Of Montana, https://scholarworks.umt.edu/etd/11940 (last access: 8\u00a0April\u00a02024), 2022."
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Schneider, D. and Molotch, N. P.: Real-time estimation of snow water equivalent in the Upper Colorado River Basin using MODIS-based SWE Reconstructions and SNOTEL data, Water Resour. Res., 52, 7892\u20137910, https://doi.org/10.1002/2016WR019067, 2016.",
+        "DOI": "10.1002/2016WR019067"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Siirila-Woodburn, E. R., Rhoades, A. M., Szinai, J., Tague, C., Nico, P. S., and Huning, L. S.: A low-to-no snow future and its impacts on water resources in the western United States, Nat. Rev. Earth Environ., 2, 800\u2013819, https://doi.org/10.1038/s43017-021-00219-y, 2021.",
+        "DOI": "10.1038/s43017-021-00219-y"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sprenger, M., Carroll, R. W. H., Dennedy-frank, J., Siirila-woodburn, E. R., Newcomer, M. E., Brown, W., and Williams, K. H.: Variability of Snow and Rainfall Partitioning Into Evapotranspiration and Summer Runoff Across Nine Mountainous Catchments, Geophys. Res. Lett., 49, e2022GL099324, https://doi.org/10.1029/2022GL099324, 2022.",
+        "DOI": "10.1029/2022GL099324"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stichler, W., Schotterer, U., Fr\u00f6hlich, K., Ginot, P., Kull, C., G\u00e4ggeler, H., and Pouyaud, B.: Influence of sublimation on stable isotope records recovered from high-altitude glaciers in the tropical Andes, J. Geophys. Res.-Atmos., 106, 22613\u201322620, https://doi.org/10.1029/2001JD900179, 2001.",
+        "DOI": "10.1029/2001JD900179"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stock, B. C., Jackson, A. L., Ward, E. J., Parnell, A. C., Phillips, D. L., and Semmens, B. X.: Analyzing mixing systems using a new generation of Bayesian tracer mixing models, PeerJ, 6, e5096, https://doi.org/10.7717/peerj.5096, 2018.",
+        "DOI": "10.7717/peerj.5096"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tague, C. and Grant, G. E.: Groundwater dynamics mediate low-flow response to global warming in snow-dominated alpine regions, Water Resour. Res., 45, W07421, https://doi.org/10.1029/2008WR007179, 2009.",
+        "DOI": "10.1029/2008WR007179"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tappa, D. J., Kohn, M. J., McNamara, J. P., Benner, S. G., and Flores, A. N.: Isotopic composition of precipitation in a topographically steep, seasonally snow-dominated watershed and implications of variations from the Global Meteoric Water Line, Hydrol. Process., 30, 4582\u20134592, https://doi.org/10.1002/hyp.10940, 2016.",
+        "DOI": "10.1002/hyp.10940"
+      },
+      {
+        "key": "ref42",
+        "unstructured": "USGS: USGS Water Data for the Nation, USGS [data set], https://doi.org/10.5066/F7P55KJN, 2023."
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wahl, S., Steen-Larsen, H. C., Reuder, J., and H\u00f6rhold, M.: Quantifying the Stable Water Isotopologue Exchange Between the Snow Surface and Lower Atmosphere by Direct Flux Measurements, J. Geophys. Res.-Atmos., 126, e2020JD034400, https://doi.org/10.1029/2020JD034400, 2021.",
+        "DOI": "10.1029/2020JD034400"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Webb, R. W., Musselman, K. N., Ciafone, S., Hale, K. E., and Molotch, N. P.: Extending the vadose zone: Characterizing the role of snow for liquid water storage and transmission in streamflow generation, Hydrol. Process., 36, e14541, https://doi.org/10.1002/hyp.14541, 2022.",
+        "DOI": "10.1002/hyp.14541"
+      },
+      {
+        "key": "ref45",
+        "unstructured": "Williams, K. H., Beutler, C. A., Bill, M., Brown, W., Newman, A. W., and Versteeg, R.: Stable Water Isotope Data for the East River Watershed, Colorado (2014\u20132023), ESS-DIVE Repos. [data set], https://doi.org/10.15485/1668053, 2023."
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xing, M., Liu, W., Hu, J., and Wang, Z.: A set of methods to evaluate the below-cloud evaporation effect on local precipitation isotopic composition: a case study for Xi'an, China, Atmos. Chem. Phys., 23, 9123\u20139136, https://doi.org/10.5194/acp-23-9123-2023, 2023.",
+        "DOI": "10.5194/acp-23-9123-2023"
+      }
+    ],
+    "container-title": [
+      "Hydrology and Earth System Sciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://hess.copernicus.org/articles/28/1711/2024/hess-28-1711-2024.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          15
+        ]
+      ],
+      "date-time": "2024-04-15T03:59:16Z",
+      "timestamp": 1713153556000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://hess.copernicus.org/articles/28/1711/2024/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          15
+        ]
+      ]
+    },
+    "references-count": 46,
+    "journal-issue": {
+      "issue": "7",
+      "published-online": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.5194/hess-28-1711-2024",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-1934",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-1934",
+          "asserted-by": "object"
+        }
+      ],
+      "has-review": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-1934-CC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-1934-AC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-1934-CC2",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-1934-AC2",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-1934-RC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-1934-AC3",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-1934-RC2",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-1934-AC4",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-1934-RC3",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-1934-AC5",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-1934-AC5",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-1934-AC2",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-1934-AC1",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-1934-AC4",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-1934-AC3",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-1934-CC1",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-1934-CC2",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-1934-RC1",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-1934-RC3",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-1934-RC2",
+          "asserted-by": "object"
+        }
+      ],
+      "is-part-of": [
+        {
+          "id-type": "doi",
+          "id": "10.5066/F7P55KJN",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.15485/1668053",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.15485/1824223",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.15485/1779721",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5281/zenodo.3475429",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "ISSN": [
+      "1607-7938"
+    ],
+    "issn-type": [
+      {
+        "value": "1607-7938",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          15
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.5194/hess-28-1711-2024",
+  "original_doi": "10.5194/hess-28-1711-2024"
+}

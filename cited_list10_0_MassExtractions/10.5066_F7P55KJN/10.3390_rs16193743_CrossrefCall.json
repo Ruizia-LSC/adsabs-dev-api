@@ -1,0 +1,636 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          18
+        ]
+      ],
+      "date-time": "2025-11-18T12:30:00Z",
+      "timestamp": 1763469000671,
+      "version": "build-2065373602"
+    },
+    "reference-count": 53,
+    "publisher": "MDPI AG",
+    "issue": "19",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              9
+            ]
+          ],
+          "date-time": "2024-10-09T00:00:00Z",
+          "timestamp": 1728432000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "U.S. Army Corps of Engineers Missouri River Recovery Program"
+      },
+      {
+        "name": "USGS Ecosystems Mission Area"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Remote Sensing"
+    ],
+    "abstract": "<jats:p>Rivers convey a broad range of materials, such as sediment, nutrients, and contaminants. Much of this transport can occur during or immediately after an episodic, pulsed event like a flood or an oil spill. Understanding the flow processes that influence the motion of these substances is important for managing water resources and conserving aquatic ecosystems. This study introduces a new remote sensing framework for characterizing dynamic phenomena at the scale of a channel cross-section: Hyperspectral Image Transects during Transient Events in Rivers (HITTER). We present a workflow that uses repeated hyperspectral scan lines acquired from a hovering uncrewed aircraft system (UAS) to quantify how a water attribute of interest varies laterally across the river and evolves over time. Data from a tracer experiment on the Missouri River are used to illustrate the components of the end-to-end processing chain we used to quantify the passage of a visible dye. The framework is intended to be flexible and could be applied in a number of different contexts. The results of this initial proof-of-concept investigation suggest that HITTER could potentially provide insight regarding the dispersion of a range of materials in rivers, which would facilitate ecological and geomorphic studies and help inform management.</jats:p>",
+    "DOI": "10.3390/rs16193743",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          9
+        ]
+      ],
+      "date-time": "2024-10-09T07:39:52Z",
+      "timestamp": 1728459592000
+    },
+    "page": "3743",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Hyperspectral Image Transects during Transient Events in Rivers (HITTER): Framework Development and Application to a Tracer Experiment on the Missouri River, USA"
+    ],
+    "prefix": "10.3390",
+    "volume": "16",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0940-8013",
+        "authenticated-orcid": false,
+        "given": "Carl J.",
+        "family": "Legleiter",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Observing Systems Division, Golden, CO 80403, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2085-1449",
+        "authenticated-orcid": false,
+        "given": "Victoria M.",
+        "family": "Scholl",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey National Uncrewed Systems Office, Geosciences and Environmental Change Science Center, Lakewood, CO 80225, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7999-9547",
+        "authenticated-orcid": false,
+        "given": "Brandon J.",
+        "family": "Sansom",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Columbia Environmental Research Center, Columbia, MO 65201, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3487-4972",
+        "authenticated-orcid": false,
+        "given": "Matthew A.",
+        "family": "Burgess",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey National Uncrewed Systems Office, Geosciences and Environmental Change Science Center, Lakewood, CO 80225, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          9
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ji, C., Beegle-Krause, C.J., and Englehardt, J.D. (2020). Formation, Detection, and Modeling of Submerged Oil: A Review. J. Mar. Sci. Eng., 8.",
+        "DOI": "10.3390/jmse8090642"
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2021WR031396",
+        "DOI": "10.1029/2021WR031396",
+        "article-title": "Remote Sensing of Visible Dye Concentrations During a Tracer Experiment on a Large, Turbid River",
+        "volume": "58",
+        "author": "Legleiter",
+        "year": "2022",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2023GL105137",
+        "DOI": "10.1029/2023GL105137",
+        "article-title": "River Control Points for Algal Productivity Revealed by Transport Analysis",
+        "volume": "51",
+        "author": "Schmadel",
+        "year": "2024",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jacobson, R., Annis, M., Colvin, M., James, D., Welker, T., and Parsley, M. (2016). Missouri River Scaphirhynchus albus (Pallid sturgeon) Effects Analysis\u2014Integrative Report 2016, Scientific Investigation Report 2016-5064.",
+        "DOI": "10.3133/sir20165064"
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1254",
+        "DOI": "10.1002/rra.3371",
+        "article-title": "Evaluating flow management as a strategy to recover an endangered sturgeon species in the Upper Missouri River, USA",
+        "volume": "34",
+        "author": "Erwin",
+        "year": "2018",
+        "journal-title": "River Res. Appl."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "107045",
+        "DOI": "10.1016/j.ecoleng.2023.107045",
+        "article-title": "Performance evaluation of a channel rehabilitation project on the Lower Missouri River and implications for the dispersal of larval pallid sturgeon",
+        "volume": "194",
+        "author": "Sansom",
+        "year": "2023",
+        "journal-title": "Ecol. Eng."
+      },
+      {
+        "key": "ref_7",
+        "first-page": "97",
+        "article-title": "Fluorescent dyes: A search for new tracers for hydrology",
+        "volume": "17",
+        "author": "Viriot",
+        "year": "1989",
+        "journal-title": "Analusis"
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "6125",
+        "DOI": "10.1002/2015WR017201",
+        "article-title": "On the use of rhodamine WT for the characterization of stream hydrodynamics and transient storage",
+        "volume": "51",
+        "author": "Runkel",
+        "year": "2015",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1410",
+        "DOI": "10.1175/JTECH-D-13-00230.1",
+        "article-title": "Aerial imaging of fluorescent dye in the near shore",
+        "volume": "31",
+        "author": "Clark",
+        "year": "2014",
+        "journal-title": "J. Atmos. Ocean. Technol."
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "7819",
+        "DOI": "10.1002/2016JC011922",
+        "article-title": "Observations and modeling of a tidal inlet dye tracer plume",
+        "volume": "121",
+        "author": "Feddersen",
+        "year": "2016",
+        "journal-title": "J. Geophys. Res. Ocean."
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "131",
+        "DOI": "10.1080/24705357.2019.1662339",
+        "article-title": "Remote sensing of tracer dye concentrations to support dispersion studies in river channels",
+        "volume": "4",
+        "author": "Legleiter",
+        "year": "2019",
+        "journal-title": "J. Ecohydraulics"
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "76",
+        "DOI": "10.1016/j.advwatres.2019.03.007",
+        "article-title": "UAV-based measurements of spatio-temporal concentration distributions of fluorescent tracers in open channel flows",
+        "volume": "127",
+        "author": "Baek",
+        "year": "2019",
+        "journal-title": "Adv. Water Resour."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Legleiter, C., Manley, P.V., Erwin, S.O., and Bulliner, E.A. (2020). An Experimental Evaluation of the Feasibility of Inferring Concentrations of a Visible Tracer Dye from Remotely Sensed Data in Turbid Rivers. Remote Sens., 12.",
+        "DOI": "10.3390/rs12010057"
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Powers, C., Hanlon, R., and Schmale, D. (2018). Tracking of a Fluorescent Dye in a Freshwater Lake with an Unmanned Surface Vehicle and an Unmanned Aircraft System. Remote Sens., 10.",
+        "DOI": "10.3390/rs10010081"
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Burdziakowski, P., Zima, P., Wielgat, P., and Kalinowska, D. (2021). Tracking Fluorescent Dye Dispersion from an Unmanned Aerial Vehicle. Sensors, 21.",
+        "DOI": "10.3390/s21113905"
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Filippi, M., Hanlon, R., Rypina, I.I., Hodges, B.A., Peacock, T., and Schmale, D.G. (2021). Tracking a Surrogate Hazardous Agent (Rhodamine Dye) in a Coastal Ocean Environment Using In Situ Measurements and Concentration Estimates Derived from Drone Images. Remote Sens., 13.",
+        "DOI": "10.3390/rs13214415"
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Johansen, K., Dunne, A.F., Tu, Y.H., Almashharawi, S., Jones, B.H., and McCabe, M.F. (2022). Dye tracing and concentration mapping in coastal waters using unmanned aerial vehicles. Sci. Rep., 12.",
+        "DOI": "10.1038/s41598-022-05189-9"
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "104567",
+        "DOI": "10.1016/j.advwatres.2023.104567",
+        "article-title": "Tracer Concentration Mapping in a Stream with Hyperspectral images from Unoccupied Aerial Systems",
+        "volume": "182",
+        "author": "McKnight",
+        "year": "2023",
+        "journal-title": "Adv. Water Resour."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P\u00e9rez-Garc\u00eda, \u00c1., Lorenzo, A.M., Hern\u00e1ndez, E., Rodr\u00edguez-Molina, A., van Emmerik, T.H.M., and L\u00f3pez, J.F. (2024). Developing a Generalizable Spectral Classifier for Rhodamine Detection in Aquatic Environments. Remote Sens., 16.",
+        "DOI": "10.3390/rs16163090"
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "104076",
+        "DOI": "10.1016/j.advwatres.2021.104076",
+        "article-title": "Measurement of suspended sediment concentration in open channel flows based on hyperspectral imagery from UAVs",
+        "volume": "159",
+        "author": "Kwon",
+        "year": "2022",
+        "journal-title": "Adv. Water Resour."
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "155168",
+        "DOI": "10.1016/j.scitotenv.2022.155168",
+        "article-title": "Hyperspectral retrievals of suspended sediment using cluster-based machine learning regression in shallow waters",
+        "volume": "833",
+        "author": "Kwon",
+        "year": "2022",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "129505",
+        "DOI": "10.1016/j.jhydrol.2023.129505",
+        "article-title": "Investigating mixing patterns of suspended sediment in a river confluence using high-resolution hyperspectral imagery",
+        "volume": "620",
+        "author": "Kwon",
+        "year": "2023",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "163125",
+        "DOI": "10.1016/j.scitotenv.2023.163125",
+        "article-title": "Effects of spectral variability due to sediment and bottom characteristics on remote sensing for suspended sediment in shallow rivers",
+        "volume": "878",
+        "author": "Kwon",
+        "year": "2023",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kwon, S., Gwon, Y., Kim, D., Seo, I.W., and You, H. (2023). Unsupervised Classification of Riverbed Types for Bathymetry Mapping in Shallow Rivers Using UAV-Based Hyperspectral Imagery. Remote Sens., 15.",
+        "DOI": "10.3390/rs15112803"
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "14780",
+        "DOI": "10.1109/JSEN.2020.3012020",
+        "article-title": "Towards Development of a Simple Technique Based on Wavelength Specific Absorption for Quality Measurement of Flowing Water",
+        "volume": "20",
+        "author": "Nayeem",
+        "year": "2020",
+        "journal-title": "IEEE Sens. J."
+      },
+      {
+        "key": "ref_26",
+        "first-page": "1",
+        "article-title": "Using Machine Learning Algorithms with In Situ Hyperspectral Reflectance Data to Assess Comprehensive Water Quality of Urban Rivers",
+        "volume": "60",
+        "author": "Cai",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Geosci. Remote Sens."
+      },
+      {
+        "key": "ref_27",
+        "unstructured": "Legleiter, C., Scholl, V., Sansom, B., and Burgess, M. (2024). Hyperspectral Image Transects and Field Measurements of Reflectance, Visible Dye Concentration, and Flow Velocity Acquired during a Tracer Experiment on the Missouri River Near Lexington, MO, on May 11, 2024, U.S. Geological Survey data release."
+      },
+      {
+        "key": "ref_28",
+        "unstructured": "U.S. Army Corps of Engineers Geospatial (2024, October 08). USACE River Mile Markers. Available online: https://geospatial-usace.opendata.arcgis.com/datasets/604cdc08fe7d43cb90a0584a0b198875/explore?location=39.185460%2C-93.805502%2C13.21."
+      },
+      {
+        "key": "ref_29",
+        "unstructured": "U.S. Geological Survey (2024). USGS Water Data for the Nation: U.S. Geological Survey National Water Information System Database."
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wolock, D. (2003). Flow Characteristics at U.S. Geological Survey Streamgages in the Conterminous United States, 03-146.",
+        "DOI": "10.3133/ofr03146"
+      },
+      {
+        "key": "ref_31",
+        "unstructured": "Elliott, C., Jacobson, R., Call, B., and Roberts, M. (2019, January 24\u201328). Bedform distributions and dynamics in a large, channelized river: Implications for benthic ecological processes. Proceedings of the SEDHYD 2019, Reno, NV, USA."
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "first-page": "110035",
+        "DOI": "10.1016/j.ecolmodel.2022.110035",
+        "article-title": "A three-dimensional Lagrangian particle tracking model for predicting transport of eggs of rheophilic-spawning carps in turbulent rivers",
+        "volume": "470",
+        "author": "Li",
+        "year": "2022",
+        "journal-title": "Ecol. Model."
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "first-page": "110200",
+        "DOI": "10.1016/j.ecolmodel.2022.110200",
+        "article-title": "Evaluations of Lagrangian egg drift models: From a laboratory flume to large channelized rivers",
+        "volume": "475",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "Ecol. Model."
+      },
+      {
+        "key": "ref_34",
+        "unstructured": "Turner Designs (2024, October 08). C3 Submersible Fluorometer. Available online: https://www.turnerdesigns.com/c3-submersible-fluorometer."
+      },
+      {
+        "key": "ref_35",
+        "unstructured": "Trimble Geospatial (2024, October 08). Tribmle R2 GNSS Systems. Available online: https://geospatial.trimble.com/en/products/hardware/trimble-r2."
+      },
+      {
+        "key": "ref_36",
+        "unstructured": "Teledyne RDI (2024, October 08). Workhorse Rio Grande ADCP. Available online: https://www.comm-tec.com/Prods/mfgs/RDI/brochures/rio_grande_ds_lr.pdf."
+      },
+      {
+        "key": "ref_37",
+        "unstructured": "U.S. Geological Survey Office of Surface Water (2024, October 08). OSW Hydroacoustics: WinRiver II, Available online: https://hydroacoustics.usgs.gov/movingboat/WinRiverII.shtml."
+      },
+      {
+        "key": "ref_38",
+        "unstructured": "Malvern Panalytical (2024, October 08). ASD HandHeld 2 Pro: VNIR Hand-Held Spectroradiometer. Available online: https://www.malvernpanalytical.com/en/support/product-support/asd-range/fieldspec-range/handheld-2-pro-vnir-hand-held-spectroradiometer."
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "first-page": "1627",
+        "DOI": "10.1021/ac60214a047",
+        "article-title": "Smoothing and differentiation of data by simplified least squares procedures",
+        "volume": "36",
+        "author": "Savitzky",
+        "year": "1964",
+        "journal-title": "Anal. Chem."
+      },
+      {
+        "key": "ref_40",
+        "unstructured": "Headwall Photonics (2024, October 08). Nano HP (400\u20131000 nm) Hyperspectral Imaging Package. Available online: https://headwallphotonics.com/products/remote-sensing/nano-hp-400-1000nm-hyperspectral-imaging-package/."
+      },
+      {
+        "key": "ref_41",
+        "unstructured": "DJI (2024, October 08). Support for Matrice 600 Pro. Available online: https://www.dji.com/support/product/matrice600-pro."
+      },
+      {
+        "key": "ref_42",
+        "unstructured": "Global Monitoring Laboratory (2024, October 08). NOAA Solar Calculator, Available online: https://gml.noaa.gov/grad/solcalc/."
+      },
+      {
+        "key": "ref_43",
+        "unstructured": "National Geodetic Survey (2024, October 08). OPUS: Online Positioning User Service, Available online: https://geodesy.noaa.gov/OPUS/."
+      },
+      {
+        "key": "ref_44",
+        "unstructured": "Applanix (2024, October 08). Trimble Applanix: POSPac MMS. Available online: https://www.applanix.com/products/pospac-mms.htm."
+      },
+      {
+        "key": "ref_45",
+        "unstructured": "Headwall Photonics (2024, October 08). Hyperspec III and SpectralView. Available online: https://headwallphotonics.com/products/software/hyperspec-iii-and-spectralview/."
+      },
+      {
+        "key": "ref_46",
+        "unstructured": "MathWorks (2024, October 08). MATLAB. Available online: https://www.mathworks.com/products/matlab.html."
+      },
+      {
+        "key": "ref_47",
+        "unstructured": "NV5 Geospatial Software (2024, October 08). ENVI Header Files. Available online: https://www.nv5geospatialsoftware.com/docs/ENVIHeaderFiles.html."
+      },
+      {
+        "key": "ref_48",
+        "doi-asserted-by": "crossref",
+        "first-page": "1039",
+        "DOI": "10.1002/esp.1787",
+        "article-title": "Spectrally based remote sensing of river bathymetry",
+        "volume": "34",
+        "author": "Legleiter",
+        "year": "2009",
+        "journal-title": "Earth Surf. Process. Landf."
+      },
+      {
+        "key": "ref_49",
+        "doi-asserted-by": "crossref",
+        "first-page": "2142",
+        "DOI": "10.1029/2018WR023586",
+        "article-title": "Remote Sensing of River Bathymetry: Evaluating a Range of Sensors, Platforms, and Algorithms on the Upper Sacramento River, California, USA",
+        "volume": "55",
+        "author": "Legleiter",
+        "year": "2019",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_50",
+        "unstructured": "Legleiter, C. (2020). ORByT\u2014Optical River Bathymetry Toolkit, U.S. Geological Survey software release."
+      },
+      {
+        "key": "ref_51",
+        "doi-asserted-by": "crossref",
+        "first-page": "555",
+        "DOI": "10.1002/rra.3773",
+        "article-title": "The optical river bathymetry toolkit",
+        "volume": "37",
+        "author": "Legleiter",
+        "year": "2021",
+        "journal-title": "River Res. Appl."
+      },
+      {
+        "key": "ref_52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Legleiter, C., Overstreet, B., and Kinzel, P. (2018). Sampling Strategies to Improve Passive Optical Remote Sensing of River Bathymetry. Remote Sens., 10.",
+        "DOI": "10.3390/rs10060935"
+      },
+      {
+        "key": "ref_53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Muste, M., Fujita, I., and Hauet, A. (2008). Large-scale particle image velocimetry for measurements in riverine environments. Water Resour. Res., 44.",
+        "DOI": "10.1029/2008WR006950"
+      }
+    ],
+    "container-title": [
+      "Remote Sensing"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2072-4292/16/19/3743/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T16:09:41Z",
+      "timestamp": 1760112581000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2072-4292/16/19/3743"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          9
+        ]
+      ]
+    },
+    "references-count": 53,
+    "journal-issue": {
+      "issue": "19",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "rs16193743"
+    ],
+    "URL": "https://doi.org/10.3390/rs16193743",
+    "relation": {},
+    "ISSN": [
+      "2072-4292"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "2072-4292"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          9
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.3390/rs16193743",
+  "original_doi": "10.3390/rs16193743"
+}

@@ -1,0 +1,736 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          20
+        ]
+      ],
+      "date-time": "2026-07-20T10:20:51Z",
+      "timestamp": 1784542851927,
+      "version": "3.55.0"
+    },
+    "reference-count": 61,
+    "publisher": "MDPI AG",
+    "issue": "8",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              8,
+              7
+            ]
+          ],
+          "date-time": "2019-08-07T00:00:00Z",
+          "timestamp": 1565136000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Water"
+    ],
+    "abstract": "<jats:p>Optimal hydrograph separation (OHS) uses a two-parameter recursive digital filter that applies specific conductance mass-balance constraints to estimate the base flow contribution to total streamflow at stream gages where discharge and specific conductance are measured. OHS was applied to U.S. Geological Survey (USGS) stream gages across the conterminous United States to examine the range/distribution of base flow inputs and the utility of this method to build a hydrologic model calibration dataset. OHS models with acceptable goodness-of-fit criteria were insensitive to drainage area, stream density, watershed slope, elevation, agricultural or perennial snow/ice land cover, average annual precipitation, runoff, or evapotranspiration, implying that OHS results are a viable calibration dataset applicable in diverse watersheds. OHS-estimated base flow contribution was compared to base flow-like model components from the USGS National Hydrologic Model Infrastructure run with the Precipitation-Runoff Modeling System (NHM-PRMS). The NHM-PRMS variable gwres_flow is most conceptually like a base flow component of streamflow but the gwres_flow contribution to total streamflow is generally smaller than the OHS-estimated base flow contribution. The NHM-PRMS variable slow_flow, added to gwres_flow, produced similar or greater estimates of base flow contributions to total streamflow than the OHS-estimated base flow contribution but was dependent on the total flow magnitude.</jats:p>",
+    "DOI": "10.3390/w11081629",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          7
+        ]
+      ],
+      "date-time": "2019-08-07T10:56:38Z",
+      "timestamp": 1565175398000
+    },
+    "page": "1629",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 21,
+    "title": [
+      "Estimation of Base Flow by Optimal Hydrograph Separation for the Conterminous United States and Implications for National-Extent Hydrologic Models"
+    ],
+    "prefix": "10.3390",
+    "volume": "11",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7668-9735",
+        "authenticated-orcid": false,
+        "given": "Sydney S.",
+        "family": "Foks",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Denver, CO 80225, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9275-6646",
+        "authenticated-orcid": false,
+        "given": "Jeff P.",
+        "family": "Raffensperger",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Baltimore, MD 21228, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5195-2744",
+        "authenticated-orcid": false,
+        "given": "Colin A.",
+        "family": "Penn",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Denver, CO 80225, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3097-9603",
+        "authenticated-orcid": false,
+        "given": "Jessica M.",
+        "family": "Driscoll",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Denver, CO 80225, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          7
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "465",
+        "DOI": "10.1177/0309133311402714",
+        "article-title": "Effects of watershed topography, soils, land use, and climate on baseflow hydrology in humid regions: A review",
+        "volume": "35",
+        "author": "Price",
+        "year": "2011",
+        "journal-title": "Prog. Phys. Geogr. Earth Environ."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "973",
+        "DOI": "10.1029/WR004i005p00973",
+        "article-title": "Base flow recessions\u2014A review",
+        "volume": "4",
+        "author": "Hall",
+        "year": "1968",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "3547",
+        "DOI": "10.1002/2015WR017963",
+        "article-title": "The importance of base flow in sustaining surface water flow in the Upper Colorado River Basin",
+        "volume": "52",
+        "author": "Miller",
+        "year": "2016",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "7361",
+        "DOI": "10.1029/2018WR022586",
+        "article-title": "Drought Conditions Maximize the Impact of High-Frequency Flow Variations on Thermal Regimes and Biogeochemical Function in the Hyporheic Zone",
+        "volume": "54",
+        "author": "Song",
+        "year": "2018",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "147",
+        "DOI": "10.1016/S0022-1694(00)00340-1",
+        "article-title": "Low flow hydrology: A review",
+        "volume": "240",
+        "author": "Smakhtin",
+        "year": "2001",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "359",
+        "DOI": "10.1002/wat2.1085",
+        "article-title": "Hydrological drought explained",
+        "volume": "2",
+        "year": "2015",
+        "journal-title": "Wiley Interdiscip. Rev. Water"
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "8909",
+        "DOI": "10.1029/2018WR023324",
+        "article-title": "Groundwater Is Key to Salmonid Persistence and Recruitment in Intermittent Mediterranean-Climate Streams",
+        "volume": "54",
+        "author": "Larsen",
+        "year": "2018",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "108",
+        "DOI": "10.1111/eff.12259",
+        "article-title": "Effects of reduced summer flows on the brook trout population and temperatures of a groundwater-influenced stream",
+        "volume": "26",
+        "author": "Nuhfer",
+        "year": "2017",
+        "journal-title": "Ecol. Freshw. Fish."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "281",
+        "DOI": "10.1111/1752-1688.12382",
+        "article-title": "Downstream Dissipation of Storm Flow Heat Pulses: A Case Study and its Landscape-Level Implications",
+        "volume": "52",
+        "author": "Somers",
+        "year": "2016",
+        "journal-title": "J. Am. Water Resour. Assoc."
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "139",
+        "DOI": "10.1016/j.jhydrol.2007.12.018",
+        "article-title": "Regional estimation of base flow for the conterminous United States by hydrologic landscape regions",
+        "volume": "351",
+        "author": "Santhi",
+        "year": "2008",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "581",
+        "DOI": "10.1016/j.scitotenv.2017.04.205",
+        "article-title": "Evaluating the impact of irrigation on surface water-gorundwater interaction and stream temperature in an agricultural watershed",
+        "volume": "599",
+        "author": "Essaid",
+        "year": "2017",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "185",
+        "DOI": "10.1016/j.watres.2017.11.058",
+        "article-title": "River water infiltration enhances denitrification efficiency in riparian groundwater",
+        "volume": "130",
+        "author": "Trauth",
+        "year": "2018",
+        "journal-title": "Water Res."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Regan, R.S., Markstrom, S.L., Hay, L.E., Viger, R.J., Norton, P.A., Driscoll, J.M., and LaFontaine, J.H. (2018). Description of the National Hydrologic Model for Use with the Precipitation-Runoff Modeling System (PRMS).",
+        "DOI": "10.3133/tm6B9"
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "192",
+        "DOI": "10.1016/j.envsoft.2018.09.023",
+        "article-title": "The US Geological Survey National Hydrologic Model infrastructure: Rationale, description, and application of a watershed-scale model for the conterminous United States",
+        "volume": "111",
+        "author": "Regan",
+        "year": "2019",
+        "journal-title": "Environ. Model. Softw."
+      },
+      {
+        "key": "ref_15",
+        "unstructured": "Boussinesq, J. (1877). Essai sur la th\u00e9orie des eaux courantes. M\u00e9moires Pr\u00e9sent\u00e9s par Divers Savants a l\u2019Academic des Sciences de l\u2019Institut National de France, Tome XXIII N."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "609",
+        "DOI": "10.1029/WR008i003p00609",
+        "article-title": "Role of subsurface flow in generating surface runoff: 1. Base flow contributions to channel flow",
+        "volume": "8",
+        "author": "Freeze",
+        "year": "1972",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_17",
+        "unstructured": "White, K.E., and Sloto, R.A. (1990). Base Flow Frequency Characteristics of Selected Pennsylvania Streams."
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "180",
+        "DOI": "10.1111/j.1745-6584.1994.tb00632.x",
+        "article-title": "III. Testing an automated method to estimate ground-water recharge from streamflow records",
+        "volume": "32",
+        "author": "Rutledge",
+        "year": "1994",
+        "journal-title": "Groundwater"
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "1465",
+        "DOI": "10.1029/WR026i007p01465",
+        "article-title": "Evaluation of automated techniques for base flow and recession analyses",
+        "volume": "26",
+        "author": "Nathan",
+        "year": "1990",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_20",
+        "unstructured": "Rutledge, A.T. (1998). Computer Programs for Describing the Recession of Ground-Water Discharge and for Estimating Mean Ground-Water Recharge and Discharge from Streamflow Records\u2014Update."
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rutledge, A.T. (2000). Considerations for Use of the RORA Program to Estimate Ground-Water Recharge from Streamflow Records.",
+        "DOI": "10.3133/ofr00156"
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Barlow, P.M., Cunningham, W.L., Zhai, T., and Gray, M.U.S. (2015). Geological Survey Groundwater Toolbox, a Graphical and Mapping Interface for Analysis of Hydrologic Data (Version 1.0)\u2014User Guide for Estimation of Base Flow, Runoff, and Groundwater Recharge from Streamflow Data.",
+        "DOI": "10.3133/tm3B10"
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "1444",
+        "DOI": "10.1029/WR022i010p01444",
+        "article-title": "A comparison of chemical and isotopic hydrograph separation",
+        "volume": "22",
+        "author": "Hooper",
+        "year": "1986",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "6",
+        "DOI": "10.1111/j.1745-6584.1967.tb01619.x",
+        "article-title": "New Approaches to Water-Resources Investigations in Upstate New York",
+        "volume": "5",
+        "year": "1967",
+        "journal-title": "Groundwater"
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "6986",
+        "DOI": "10.1002/2013WR014939",
+        "article-title": "Continuous estimation of base flow in snowmelt-dominated streams and rivers in the Upper Colorado River Basin: A chemical hydrograph separation approach",
+        "volume": "50",
+        "author": "Miller",
+        "year": "2014",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "438",
+        "DOI": "10.1029/WR005i002p00438",
+        "article-title": "Determination of the ground-water component of peak discharge from the chemistry of total runoff",
+        "volume": "5",
+        "author": "Pinder",
+        "year": "1969",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.1111/j.1745-6584.2006.00263.x",
+        "article-title": "Calibration of base flow separation methods with streamflow conductivity",
+        "volume": "45",
+        "author": "Stewart",
+        "year": "2007",
+        "journal-title": "Groundwater"
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "1844",
+        "DOI": "10.1002/hyp.7315",
+        "article-title": "Concentration-discharge relationships reflect chemostatic characteristics of US catchments",
+        "volume": "23",
+        "author": "Godsey",
+        "year": "2009",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "first-page": "40",
+        "DOI": "10.1016/j.chemgeo.2009.09.014",
+        "article-title": "Mechanisms for chemostatic behavior in catchments: Implications for CO2 consumption by mineral weathering",
+        "volume": "269",
+        "author": "Clow",
+        "year": "2010",
+        "journal-title": "Chem. Geol."
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Raffensperger, J.P., Baker, A.C., Blomquist, J.D., and Hopple, J.A. (2017). Optimal Hydrograph Separation Using a Recursive Digital Filter Constrained by Chemical Mass Balance, with Application to Selected Chesapeake Bay Watersheds.",
+        "DOI": "10.3133/sir20175034"
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "249",
+        "DOI": "10.1016/j.jhydrol.2014.04.033",
+        "article-title": "Optimal hydrograph separation filter to evaluate transport routines of hydrological models",
+        "volume": "514",
+        "author": "Rimmer",
+        "year": "2014",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "first-page": "507",
+        "DOI": "10.1002/hyp.5675",
+        "article-title": "How to construct recursive digital filters for base flow separation",
+        "volume": "19",
+        "author": "Eckhardt",
+        "year": "2005",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Markstrom, S.L., Regan, R.S., Hay, L.E., Viger, R.J., Webb, R.M., Payn, R.A., and LaFontaine, J.H. (2015). PRMS-IV, the Precipitation-Runoff Modeling System, Version 4.",
+        "DOI": "10.3133/tm6B7"
+      },
+      {
+        "key": "ref_34",
+        "unstructured": "Falcone, J.A. (2011). GAGES-II: Geospatial Attributes of Gages for Evaluating Streamflow."
+      },
+      {
+        "key": "ref_35",
+        "unstructured": "U.S. Geological Survey (2018, October 01). USGS Water Data for the Nation: U.S. Geological Survey National Water Information System Database, Available online: waterdata.usgs.gov/nwis/."
+      },
+      {
+        "key": "ref_36",
+        "unstructured": "Sloto, R.A., and Crouse, M.Y. (1996). HYSEP: A Computer Program for Streamflow Hydrograph Separation and Analysis."
+      },
+      {
+        "key": "ref_37",
+        "unstructured": "Rutledge, A.T., and Mesko, T.O. (1998). Estimated Hydrologic Characteristics of Shallow Aquifer Systems in the Valley and Ridge, the Blue Ridge, and the Piedmont Physiographic Provinces Based on Analysis of Streamflow Recession and Base Flow."
+      },
+      {
+        "key": "ref_38",
+        "unstructured": "Team, R.C. (2018). R: A Language and Environment for Statistical Computing, R Foundation for Statistical Computing. Available online: www.R-project."
+      },
+      {
+        "key": "ref_39",
+        "unstructured": "Powell, M.J.D. (2009). The BOBYQA Algorithm for Bound Constrained Optimization without Derivatives. Department of Applied Mathematics and Theoretical Physics, University of Cambridge. Technical Report NA2009/06."
+      },
+      {
+        "key": "ref_40",
+        "unstructured": "Ypma, J. (2019, August 01). Introduction to nloptr: An R interface to NLopt. Available online: cran.r-project:web/packages/nloptr/vignettes/nloptr.pdf."
+      },
+      {
+        "key": "ref_41",
+        "unstructured": "Borchers, H.W. (2019, August 01). Pracma: Practical Numerical Math Functions. Available online: CRAN.R-project:package=pracma."
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "first-page": "282",
+        "DOI": "10.1016/0022-1694(70)90255-6",
+        "article-title": "River flow forecasting through conceptual models part I\u2014A discussion of principles",
+        "volume": "10",
+        "author": "Nash",
+        "year": "1970",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_43",
+        "doi-asserted-by": "crossref",
+        "first-page": "1645",
+        "DOI": "10.1029/WR024i010p01645",
+        "article-title": "The influence of basin morphology on groundwater outflow",
+        "volume": "24",
+        "author": "Zecharias",
+        "year": "1988",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Regan, R.S., and LaFontaine, J.H. (2017). Documentation of the Dynamic Parameter, Water-Use, Stream and Lake Flow Routing, and Two Summary Output Modules and Updates to Surface-Depression Storage Simulation and Initial Conditions Specification Options with the Precipitation-Runoff Modeling System (PRMS).",
+        "DOI": "10.3133/tm6B8"
+      },
+      {
+        "key": "ref_45",
+        "doi-asserted-by": "crossref",
+        "first-page": "4655",
+        "DOI": "10.5194/hess-20-4655-2016",
+        "article-title": "Towards simplification of hydrologic modeling: Identification of dominant processes",
+        "volume": "20",
+        "author": "Markstrom",
+        "year": "2016",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "key": "ref_46",
+        "unstructured": "Viger, R.J., and Bock, A. (2014). GIS Features of the Geospatial Fabric for National Hydrologic Modeling."
+      },
+      {
+        "key": "ref_47",
+        "unstructured": "U.S. Geological Survey, and U.S. Environmental Protection Agency (2018, October 01). National Hydrography Dataset Plus\u2014NHDPlus Version 1.0 Dataset, Available online: http://horizon-systems.com/NHDPlus/NHDPlusV1_home.php."
+      },
+      {
+        "key": "ref_48",
+        "unstructured": "Driscoll, J.M., Markstrom, S.L., Regan, R.S., Hay, L.E., and Viger, R.J. (2017). National Hydrologic Model Parameter Database: 2017-05-08."
+      },
+      {
+        "key": "ref_49",
+        "unstructured": "Viger, R.J. (2014). Preliminary Spatial Parameters for PRMS Based on the Geospatial Fabric, NCLD2001 and SSURGO."
+      },
+      {
+        "key": "ref_50",
+        "doi-asserted-by": "crossref",
+        "first-page": "1235",
+        "DOI": "10.1111/1752-1688.12304",
+        "article-title": "Effects of climate and land cover on hydrology in the Southeastern US: Potential impacts on watershed planning",
+        "volume": "51",
+        "author": "LaFontaine",
+        "year": "2015",
+        "journal-title": "J. Am. Water Resour. Assoc."
+      },
+      {
+        "key": "ref_51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "LaFontaine, J.H., Hart, R.M., Hay, L.E., Farmer, W.H., Bock, A.R., Viger, R.J., Markstrom, S.L., Regan, R.S., and Driscoll, J.M. (2019). Simulation of Water Availability in the Southeastern United States for Historical and Potential Future Climate and Land-Cover Conditions.",
+        "DOI": "10.3133/sir20195039"
+      },
+      {
+        "key": "ref_52",
+        "unstructured": "Hay, L.E. (2019). Application of the National Hydrologic Model Infrastructure with the Precipitation-Runoff Modeling System (NHM-PRMS), byHRU Calibrated Version."
+      },
+      {
+        "key": "ref_53",
+        "doi-asserted-by": "crossref",
+        "first-page": "1015",
+        "DOI": "10.1029/91WR02985",
+        "article-title": "Effective and efficient global optimization for conceptual rainfall-runoff models",
+        "volume": "28",
+        "author": "Duan",
+        "year": "1992",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_54",
+        "doi-asserted-by": "crossref",
+        "first-page": "501",
+        "DOI": "10.1007/BF00939380",
+        "article-title": "Shuffled complex evolution approach for effective and efficient global minimization",
+        "volume": "76",
+        "author": "Duan",
+        "year": "1993",
+        "journal-title": "J. Optim. Theory Appl."
+      },
+      {
+        "key": "ref_55",
+        "doi-asserted-by": "crossref",
+        "first-page": "265",
+        "DOI": "10.1016/0022-1694(94)90057-4",
+        "article-title": "Optimal use of the SCE-UA global optimization method for calibration watershed models",
+        "volume": "158",
+        "author": "Duan",
+        "year": "1994",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_56",
+        "unstructured": "Thornton, P.E., Thornton, M.M., Mayer, B.W., Wei, Y., Devarakonda, R., Vose, R.S., and Cook, R.B. (2016). Daymet: Daily Surface Weather Data on a 1-km Grid for North America."
+      },
+      {
+        "key": "ref_57",
+        "unstructured": "U.S. Geological Survey (2018, October 01). Principal Aquifers of the 48 Conterminous United States, Hawaii, Puerto Rico, and the U.S. Virgin Islands Version 1.0, Available online: water.usgs.gov/ogw/aquifer/principal/aquifrp025.xml."
+      },
+      {
+        "key": "ref_58",
+        "doi-asserted-by": "crossref",
+        "first-page": "621",
+        "DOI": "10.1890/09-0889.1",
+        "article-title": "GAGES: A stream gage database for evaluating natural and altered flow conditions in the conterminous United States",
+        "volume": "91",
+        "author": "Falcone",
+        "year": "2010",
+        "journal-title": "Ecology"
+      },
+      {
+        "key": "ref_59",
+        "doi-asserted-by": "crossref",
+        "first-page": "1900",
+        "DOI": "10.1029/2003GL018052",
+        "article-title": "Temporal variations of extreme precipitation events in the United States: 1895\u20132000",
+        "volume": "30",
+        "author": "Kunkel",
+        "year": "2003",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "ref_60",
+        "doi-asserted-by": "crossref",
+        "first-page": "10201",
+        "DOI": "10.1002/2017WR021654",
+        "article-title": "Estimating Discharge and Nonpoint Source Nitrate Loading to Streams from Three End-Member Pathways Using High-Frequency Water Quality Data",
+        "volume": "53",
+        "author": "Miller",
+        "year": "2017",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_61",
+        "unstructured": "Foks, S.S., Raffensperger, J.P., Penn, C.A., and Driscoll, J.M. (2019). Base Flow Estimation via Optimal Hydrograph Separation at CONUS Watersheds and Comparison to the National Hydrologic Model\u2014Precipitation-Runoff Modeling System by HRU Calibrated Version."
+      }
+    ],
+    "container-title": [
+      "Water"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2073-4441/11/8/1629/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          11
+        ]
+      ],
+      "date-time": "2025-10-11T13:09:16Z",
+      "timestamp": 1760188156000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2073-4441/11/8/1629"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          7
+        ]
+      ]
+    },
+    "references-count": 61,
+    "journal-issue": {
+      "issue": "8",
+      "published-online": {
+        "date-parts": [
+          [
+            2019,
+            8
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "w11081629"
+    ],
+    "URL": "https://doi.org/10.3390/w11081629",
+    "relation": {},
+    "ISSN": [
+      "2073-4441"
+    ],
+    "issn-type": [
+      {
+        "value": "2073-4441",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          7
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.3390/w11081629",
+  "original_doi": "10.3390/w11081629"
+}

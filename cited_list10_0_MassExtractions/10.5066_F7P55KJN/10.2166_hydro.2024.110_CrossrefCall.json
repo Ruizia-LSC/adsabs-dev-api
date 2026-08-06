@@ -1,0 +1,890 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          21
+        ]
+      ],
+      "date-time": "2026-01-21T08:01:31Z",
+      "timestamp": 1768982491298,
+      "version": "3.49.0"
+    },
+    "reference-count": 74,
+    "publisher": "IWA Publishing",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              3
+            ]
+          ],
+          "date-time": "2024-09-03T00:00:00Z",
+          "timestamp": 1725321600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "iwaponline.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n               <jats:p/>\n               <jats:p>Machine learning models for water quality prediction often face challenges due to insufficient data and uneven spatial-temporal distributions. To address these issues, we introduce a framework combining machine learning, numerical modeling, and remote sensing imagery to predict coastal water turbidity, a key water quality proxy. This approach was tested in the Great Lakes region, specifically Cleveland Harbor, Lake Erie. We trained models using observed data and synthetic data from 3D numerical models and tested them against in situ and remote sensing data from PlanetLabs' Dove satellites. High-resolution (HR) data improved prediction accuracy, with RMSE values of 0.154 and 0.146 log10(FNU) and R2 values of 0.92 and 0.93 for validation and test datasets, respectively. Our study highlights the importance of unified turbidity measures for data comparability. The machine learning model demonstrated skill in predicting turbidity through transfer learning, indicating applicability in diverse, data-scarce regions. This approach can enhance decision support systems for coastal environments by providing accurate, timely predictions of water quality variables. Our methodology offers robust strategies for turbidity and water quality monitoring and has potential for improving input data quality for numerical models and developing predictive models from remote sensing data.</jats:p>",
+    "DOI": "10.2166/hydro.2024.110",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          3
+        ]
+      ],
+      "date-time": "2024-09-03T10:32:35Z",
+      "timestamp": 1725359555000
+    },
+    "page": "2581-2600",
+    "update-policy": "https://doi.org/10.2166/iwapcrossmarkpolicypage",
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "Turbidity assessment in coastal regions combining machine learning, numerical modeling, and remote sensing"
+    ],
+    "prefix": "10.2166",
+    "volume": "26",
+    "author": [
+      {
+        "given": "Saeed",
+        "family": "Memari",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "a Department of Civil & Environmental Engineering, Michigan State University, East Lansing, MI 48824, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Mantha S.",
+        "family": "Phanikumar",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "a Department of Civil & Environmental Engineering, Michigan State University, East Lansing, MI 48824, USA"
+          },
+          {
+            "name": "b MSU AgBioResearch, East Lansing, MI 48824, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Vishnu",
+        "family": "Boddeti",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "c Department of Computer Science & Engineering, Michigan State University, East Lansing, MI 48824, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Narendra",
+        "family": "N. Das",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "a Department of Civil & Environmental Engineering, Michigan State University, East Lansing, MI 48824, USA"
+          },
+          {
+            "name": "d Department of Biosystems & Agricultural Engineering, Michigan State University, East Lansing, MI 48824, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "945",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          3
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C1",
+        "volume-title": "Fables of the Cuyahoga: Reconstructing A History of Environmental Protection",
+        "year": "(2002)"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C2"
+      },
+      {
+        "issue": "11",
+        "key": "2024102914461047800_HYDRO-D-24-00110C3",
+        "doi-asserted-by": "crossref",
+        "first-page": "2360",
+        "DOI": "10.1002/wer.1642",
+        "article-title": "Comparison of the performance of decision tree (DT) algorithms and extreme learning machine (ELM) model in the prediction of water quality of the Upper Green River watershed",
+        "volume": "93",
+        "year": "(2021)",
+        "journal-title": "Water Environment Research"
+      },
+      {
+        "issue": "5",
+        "key": "2024102914461047800_HYDRO-D-24-00110C4",
+        "first-page": "Article 5",
+        "article-title": "Global water quality of inland waters with harmonized landsat-8 and sentinel-2 using cloud-computed machine learning",
+        "volume": "15",
+        "year": "(2023)",
+        "journal-title": "Remote Sensing"
+      },
+      {
+        "issue": "11",
+        "key": "2024102914461047800_HYDRO-D-24-00110C5",
+        "doi-asserted-by": "crossref",
+        "first-page": "6238",
+        "DOI": "10.1002/2013JC008854",
+        "article-title": "Modeling summer circulation and thermal structure of Lake Erie",
+        "volume": "118",
+        "year": "(2013)",
+        "journal-title": "Journal of Geophysical Research: Oceans"
+      },
+      {
+        "issue": "12",
+        "key": "2024102914461047800_HYDRO-D-24-00110C6",
+        "doi-asserted-by": "crossref",
+        "first-page": "2849",
+        "DOI": "10.1016/j.watres.2008.03.018",
+        "article-title": "Understanding the influence of suspended solids on water quality and aquatic biota",
+        "volume": "42",
+        "year": "(2008)",
+        "journal-title": "Water Research"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C7",
+        "volume-title": "Pond Aquaculture Water Quality Management",
+        "year": "(2012)"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C8",
+        "doi-asserted-by": "crossref",
+        "first-page": "555",
+        "DOI": "10.1016/j.ecss.2016.11.003",
+        "article-title": "Mapping turbidity patterns in the Po river prodelta using multi-temporal Landsat 8 imagery",
+        "volume": "198",
+        "year": "(2017)",
+        "journal-title": "Estuarine, Coastal and Shelf Science"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C9",
+        "doi-asserted-by": "crossref",
+        "first-page": "159",
+        "DOI": "10.1175/1520-0426(2003)020<0159:AUGFVT>2.0.CO;2",
+        "article-title": "An unstructured grid, finite-volume, three-dimensional, primitive equations ocean model: Application to coastal ocean and estuaries",
+        "volume": "20",
+        "year": "(2003)",
+        "journal-title": "Journal of Atmospheric and Oceanic Technology"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C10",
+        "article-title": "Complexity of the flooding/drying process in an estuarine tidal-creek salt-marsh system: An application of FVCOM",
+        "volume": "113",
+        "year": "(2008)",
+        "journal-title": "Journal of Geophysical Research"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C10a",
+        "author": "Cleveland-Cuyahoga County Port Authority",
+        "year": "2024"
+      },
+      {
+        "issue": "5",
+        "key": "2024102914461047800_HYDRO-D-24-00110C11",
+        "doi-asserted-by": "crossref",
+        "first-page": "2310",
+        "DOI": "10.1002/jgrc.20182",
+        "article-title": "Relationships between inherent optical properties and the depth of penetration of solar radiation in optically complex coastal waters",
+        "volume": "118",
+        "year": "(2013)",
+        "journal-title": "Journal of Geophysical Research: Oceans"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C12",
+        "unstructured": "Duvenaud\n            D.\n          \n          (2014)\n          Automatic Model Construction with Gaussian Processes. https://doi.org/10.17863/CAM.14087."
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C13",
+        "first-page": "43",
+        "article-title": "Incremental topological flipping works for regular triangulations",
+        "year": "(1992)"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C14",
+        "year": "(2021)"
+      },
+      {
+        "issue": "6",
+        "key": "2024102914461047800_HYDRO-D-24-00110C15",
+        "doi-asserted-by": "crossref",
+        "first-page": "421",
+        "DOI": "10.1007/s10236-022-01512-0",
+        "article-title": "Potential sea-level rise effects on the hydrodynamics and transport processes in Hudson\u2013Raritan Estuary, NY\u2013NJ",
+        "volume": "72",
+        "year": "(2022)",
+        "journal-title": "Ocean Dynamics"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C16",
+        "doi-asserted-by": "crossref",
+        "first-page": "1228446",
+        "DOI": "10.3389/fmars.2023.1228446",
+        "article-title": "A numerical experiment of cold front induced circulation in Wax Lake Delta: Evaluation of forcing factors",
+        "volume": "10",
+        "year": "(2023)",
+        "journal-title": "Frontiers in Marine Science"
+      },
+      {
+        "issue": "3",
+        "key": "2024102914461047800_HYDRO-D-24-00110C17",
+        "doi-asserted-by": "crossref",
+        "first-page": "397",
+        "DOI": "10.1046/j.1365-3091.2002.00449.x",
+        "article-title": "Flow structure of turbidity currents",
+        "volume": "49",
+        "year": "(2002)",
+        "journal-title": "Sedimentology"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C18",
+        "doi-asserted-by": "crossref",
+        "first-page": "100577",
+        "DOI": "10.1016/j.rsase.2021.100577",
+        "article-title": "A machine learning approach for monitoring Brazilian optical water types using Sentinel-2 MSI",
+        "volume": "23",
+        "year": "(2021)",
+        "journal-title": "Remote Sensing Applications: Society and Environment"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C19",
+        "doi-asserted-by": "crossref",
+        "first-page": "55",
+        "DOI": "10.1175/1520-0469(1988)045<0055:AQETEM>2.0.CO;2",
+        "article-title": "A quasi-equilibrium turbulent energy model for geophysical flows",
+        "volume": "45",
+        "year": "(1988)",
+        "journal-title": "Journal of the Atmospheric Sciences"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C20",
+        "doi-asserted-by": "crossref",
+        "first-page": "121344",
+        "DOI": "10.1109/ACCESS.2021.3109216",
+        "article-title": "Sustainable marine ecosystems: Deep learning for water quality assessment and forecasting",
+        "volume": "9",
+        "year": "(2021)",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "3",
+        "key": "2024102914461047800_HYDRO-D-24-00110C21",
+        "doi-asserted-by": "crossref",
+        "first-page": "257",
+        "DOI": "10.1016/S0034-4257(96)00067-3",
+        "article-title": "NDWI \u2013 a normalized difference water index for remote sensing of vegetation liquid water from space",
+        "volume": "58",
+        "year": "(1996)",
+        "journal-title": "Remote Sensing of Environment"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C22",
+        "doi-asserted-by": "crossref",
+        "first-page": "527",
+        "DOI": "10.1016/j.jhydrol.2017.05.039",
+        "article-title": "Spectral similarity approach for mapping turbidity of an inland waterbody",
+        "volume": "550",
+        "year": "(2017)",
+        "journal-title": "Journal of Hydrology"
+      },
+      {
+        "issue": "1",
+        "key": "2024102914461047800_HYDRO-D-24-00110C23",
+        "doi-asserted-by": "crossref",
+        "first-page": "1175",
+        "DOI": "10.1080/19475705.2020.1782482",
+        "article-title": "Changes in turbidity along Ganga River using Sentinel-2 satellite data during lockdown associated with COVID-19",
+        "volume": "11",
+        "year": "(2020)",
+        "journal-title": "Geomatics, Natural Hazards and Risk"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C24",
+        "article-title": "Transfer learning for medical image classification: A literature review",
+        "volume": "22",
+        "year": "(2022)",
+        "journal-title": "BMC Medical Imaging"
+      },
+      {
+        "issue": "730",
+        "key": "2024102914461047800_HYDRO-D-24-00110C25",
+        "doi-asserted-by": "crossref",
+        "first-page": "1999",
+        "DOI": "10.1002/qj.3803",
+        "article-title": "The ERA5 global reanalysis",
+        "volume": "146",
+        "year": "(2020)",
+        "journal-title": "Quarterly Journal of the Royal Meteorological Society"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C26",
+        "first-page": "71",
+        "article-title": "Improving the global continuity of the natural neighbor interpolation",
+        "volume-title": "Computational Science and Its Applications \u2013 ICCSA 2004",
+        "author": "Lagan\u00e1",
+        "year": "(2004)"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C27",
+        "unstructured": "Hoaglin\n            D.\n          \n          (2013)\n          Volume 16: How to Detect and Handle Outliers. Available from: https://www.semanticscholar.org/paper/Volume-16%3A-How-to-Detect-and-Handle-Outliers-Hoaglin/d524a172b49e25f888376d662ee364aa77d99e8a."
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C28",
+        "doi-asserted-by": "crossref",
+        "first-page": "111169",
+        "DOI": "10.1016/j.marpolbul.2020.111169",
+        "article-title": "The fate of river-borne contaminants in the marine environment: Characterising Regions of Freshwater Influence (ROFIs) and estuary plumes using idealised models and satellite images",
+        "volume": "156",
+        "year": "(2020)",
+        "journal-title": "Marine Pollution Bulletin"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C29",
+        "article-title": "Multi-decadal evolution of the turbidity maximum zone in a macrotidal river under climate and anthropogenic pressures",
+        "volume": "126",
+        "year": "(2021)",
+        "journal-title": "Journal of Geophysical Research: Oceans"
+      },
+      {
+        "issue": "1",
+        "key": "2024102914461047800_HYDRO-D-24-00110C30",
+        "doi-asserted-by": "crossref",
+        "first-page": "66",
+        "DOI": "10.1016/j.rse.2006.07.012",
+        "article-title": "Classification of ponds from high-spatial resolution remote sensing: Application to rift valley fever epidemics in Senegal",
+        "volume": "106",
+        "year": "(2007)",
+        "journal-title": "Remote Sensing of Environment"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C31",
+        "article-title": "A nonhydrostatic version of FVCOM: 1. Validation experiments",
+        "volume": "115",
+        "year": "(2010)",
+        "journal-title": "Journal of Geophysical Research"
+      },
+      {
+        "issue": "2",
+        "key": "2024102914461047800_HYDRO-D-24-00110C32",
+        "doi-asserted-by": "crossref",
+        "first-page": "942",
+        "DOI": "10.1002/2014JC010098",
+        "article-title": "Analysis of riverine suspended particulate matter fluxes (Gulf of Lion, Mediterranean Sea) using a synergy of ocean color observations with a 3-D hydrodynamic sediment transport model",
+        "volume": "120",
+        "year": "(2015)",
+        "journal-title": "Journal of Geophysical Research: Oceans"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C33",
+        "doi-asserted-by": "crossref",
+        "first-page": "146113",
+        "DOI": "10.1016/j.scitotenv.2021.146113",
+        "article-title": "Optimal sampling strategy of water quality monitoring at high dynamic lakes: A remote sensing and spatial simulated annealing integrated approach",
+        "volume": "777",
+        "year": "(2021)",
+        "journal-title": "Science of the Total Environment"
+      },
+      {
+        "issue": "12",
+        "key": "2024102914461047800_HYDRO-D-24-00110C34",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2022JC018766",
+        "DOI": "10.1029/2022JC018766",
+        "article-title": "Formation of turbidity maximum in the Modaomen estuary of the Pearl River, China: The roles of mouth bar",
+        "volume": "127",
+        "year": "(2022)",
+        "journal-title": "Journal of Geophysical Research: Oceans"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C35",
+        "doi-asserted-by": "crossref",
+        "first-page": "69",
+        "DOI": "10.1016/j.apor.2010.10.004",
+        "article-title": "Hydrodynamic modeling of Changjiang Estuary: Model skill assessment and large-scale structure impacts",
+        "volume": "33",
+        "year": "(2011)",
+        "journal-title": "Applied Ocean Research"
+      },
+      {
+        "issue": "4",
+        "key": "2024102914461047800_HYDRO-D-24-00110C36",
+        "doi-asserted-by": "crossref",
+        "first-page": "851",
+        "DOI": "10.1029/RG020i004p00851",
+        "article-title": "Development of a turbulence closure model for geophysical fluid problems",
+        "volume": "20",
+        "year": "(1982)",
+        "journal-title": "Reviews of Geophysics"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Memari\n            S.\n           & PhanikumarM. S.(2024a)Acoustic Doppler Current Profiler (ADCP) Data Collected Near Erie, PA, Lake Erie, 2019, HydroShare. Available from: https://hydroshare.org/resource/5ee190b481c749fb8398f182742720f1/.",
+        "DOI": "10.4211/hs.5ee190b481c749fb8398f182742720f1"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C39",
+        "doi-asserted-by": "crossref",
+        "first-page": "168777",
+        "DOI": "10.1016/j.scitotenv.2023.168777",
+        "article-title": "Assessing transport timescales in Lake Huron's Hammond Bay: The crucial role of the Straits of Mackinac's exchange flows",
+        "volume": "912",
+        "year": "(2024)",
+        "journal-title": "Science of the Total Environment"
+      },
+      {
+        "issue": "4",
+        "key": "2024102914461047800_HYDRO-D-24-00110C40",
+        "first-page": "27",
+        "article-title": "Numerical modeling of heat and brine discharge near Qeshm desalination plant",
+        "volume": "3",
+        "year": "(2018)",
+        "journal-title": "International Journal Of Coastal, Offshore And Environmental Engineering(Ijcoe)"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C42",
+        "volume-title": "Bathymetry of Lake Erie and Lake Saint Clair [Dataset]",
+        "author": "National Geophysical Data Center",
+        "year": "(1999)"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C43",
+        "first-page": "27",
+        "article-title": "Regional assessment of lake water clarity using satellite remote sensing",
+        "volume": "62",
+        "year": "(2002)",
+        "journal-title": "Education Journal of Limnology"
+      },
+      {
+        "issue": "4",
+        "key": "2024102914461047800_HYDRO-D-24-00110C44",
+        "doi-asserted-by": "crossref",
+        "first-page": "2713",
+        "DOI": "10.1002/2014JC009828",
+        "article-title": "Summer circulation and exchange in the Saginaw Bay-Lake Huron system",
+        "volume": "119",
+        "year": "(2014)",
+        "journal-title": "Journal of Geophysical Research: Oceans"
+      },
+      {
+        "issue": "1",
+        "key": "2024102914461047800_HYDRO-D-24-00110C45",
+        "doi-asserted-by": "crossref",
+        "first-page": "376",
+        "DOI": "10.1002/lno.10431",
+        "article-title": "Ice cover, winter circulation, and exchange in Saginaw Bay and Lake Huron",
+        "volume": "62",
+        "year": "(2017)",
+        "journal-title": "Limnology and Oceanography"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C46",
+        "unstructured": "NOAA Electronic Navigational Charts (ENC) | InPort. (n.d.). Available from: https://www.fisheries.noaa.gov/inport/item/39976 (accessed 20 February 2023)."
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C47",
+        "unstructured": "NOAA National Data Buoy Center\n          (1971)\n          Meteorological and Oceanographic Data Collected from the National Data Buoy Center Coastal-Marine Automated Network (C-MAN) and Moored (Weather) Buoys. Available from: https://www.ncei.noaa.gov/archive/accession/NDBC-CMANWx."
+      },
+      {
+        "issue": "11",
+        "key": "2024102914461047800_HYDRO-D-24-00110C48",
+        "doi-asserted-by": "crossref",
+        "first-page": "7661",
+        "DOI": "10.1029/2019JC015417",
+        "article-title": "Analysis of suspended sediment variability in a large highly turbid estuary using a 5-year-long remotely sensed data archive at high resolution",
+        "volume": "124",
+        "year": "(2019)",
+        "journal-title": "Journal of Geophysical Research: Oceans"
+      },
+      {
+        "issue": "11",
+        "key": "2024102914461047800_HYDRO-D-24-00110C49",
+        "doi-asserted-by": "crossref",
+        "first-page": "4086",
+        "DOI": "10.1016/j.rse.2007.12.013",
+        "article-title": "A 20-year landsat water clarity census of Minnesota's 10,000 lakes",
+        "volume": "112",
+        "year": "(2008)",
+        "journal-title": "Remote Sensing of Environment"
+      },
+      {
+        "issue": "3",
+        "key": "2024102914461047800_HYDRO-D-24-00110C50",
+        "doi-asserted-by": "crossref",
+        "first-page": "419",
+        "DOI": "10.1016/j.envsoft.2005.07.002",
+        "article-title": "QUAL2Kw \u2013 a framework for modeling water quality in streams and rivers using a genetic algorithm for calibration",
+        "volume": "21",
+        "year": "(2006)",
+        "journal-title": "Environmental Modelling & Software"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C51",
+        "author": "Planet Labs PBC",
+        "year": "2019"
+      },
+      {
+        "issue": "14",
+        "key": "2024102914461047800_HYDRO-D-24-00110C53",
+        "first-page": "Article 14",
+        "article-title": "Water-quality classification of inland lakes using landsat8 images by convolutional neural networks",
+        "volume": "11",
+        "year": "(2019)",
+        "journal-title": "Remote Sensing"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C54",
+        "volume-title": "Gaussian Processes for Machine Learning",
+        "year": "(2005)"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C55",
+        "doi-asserted-by": "crossref",
+        "first-page": "106236",
+        "DOI": "10.1016/j.ecolind.2020.106236",
+        "article-title": "Chlorophyll-a and total suspended solids retrieval and mapping using Sentinel-2A and machine learning for inland waters",
+        "volume": "113",
+        "year": "(2020)",
+        "journal-title": "Ecological Indicators"
+      },
+      {
+        "issue": "6",
+        "key": "2024102914461047800_HYDRO-D-24-00110C56",
+        "doi-asserted-by": "crossref",
+        "first-page": "1612",
+        "DOI": "10.1002/jeq2.20153",
+        "article-title": "Modeling the photoinactivation and transport of somatic and F-specific coliphages at a Great Lakes beach",
+        "volume": "49",
+        "year": "(2020)",
+        "journal-title": "Journal of Environmental Quality"
+      },
+      {
+        "issue": "1",
+        "key": "2024102914461047800_HYDRO-D-24-00110C57",
+        "doi-asserted-by": "crossref",
+        "first-page": "578",
+        "DOI": "10.1002/2016JC012638",
+        "article-title": "Suspended sediment dynamics in the macrotidal seine estuary (France): 2. Numerical modeling of sediment fluxes and budgets under typical hydrological and meteorological conditions",
+        "volume": "123",
+        "year": "(2018)",
+        "journal-title": "Journal of Geophysical Research: Oceans"
+      },
+      {
+        "issue": "1",
+        "key": "2024102914461047800_HYDRO-D-24-00110C58",
+        "doi-asserted-by": "crossref",
+        "first-page": "68",
+        "DOI": "10.1016/S0380-1330(84)71808-9",
+        "article-title": "Estimation of overlake wind speed from overland wind speed: A comparison of three methods",
+        "volume": "10",
+        "year": "(1984)",
+        "journal-title": "Journal of Great Lakes Research"
+      },
+      {
+        "issue": "6",
+        "key": "2024102914461047800_HYDRO-D-24-00110C59",
+        "article-title": "Modeling turbidity currents with nonuniform sediment and reverse buoyancy",
+        "volume": "45",
+        "year": "(2009)",
+        "journal-title": "Water Resources Research"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C60",
+        "first-page": "21",
+        "article-title": "A brief description of natural neighbour interpolation",
+        "year": "(1981)",
+        "journal-title": "Interpreting Multivariate Data"
+      },
+      {
+        "issue": "3",
+        "key": "2024102914461047800_HYDRO-D-24-00110C61",
+        "doi-asserted-by": "crossref",
+        "first-page": "99",
+        "DOI": "10.1175/1520-0493(1963)091<0099:GCEWTP>2.3.CO;2",
+        "article-title": "General circulation experiments with the primitive equations: I. The basic experiment",
+        "volume": "91",
+        "year": "(1963)",
+        "journal-title": "Monthly Weather Review"
+      },
+      {
+        "issue": "3",
+        "key": "2024102914461047800_HYDRO-D-24-00110C62",
+        "doi-asserted-by": "crossref",
+        "first-page": "515",
+        "DOI": "10.1093/envhis/13.3.515",
+        "article-title": "Perceptions of the Burning River: Deindustrialization and Cleveland's Cuyahoga River",
+        "volume": "13",
+        "year": "(2008)",
+        "journal-title": "Environmental History"
+      },
+      {
+        "issue": "1",
+        "key": "2024102914461047800_HYDRO-D-24-00110C63",
+        "first-page": "Article 1",
+        "article-title": "A transfer learning technique for inland chlorophyll-a concentration estimation using Sentinel-3 imagery",
+        "volume": "12",
+        "year": "(2022)",
+        "journal-title": "Applied Sciences"
+      },
+      {
+        "issue": "1",
+        "key": "2024102914461047800_HYDRO-D-24-00110C64",
+        "first-page": "Article 1",
+        "article-title": "Research trends in the use of remote sensing for inland water quality science: Moving towards multidisciplinary applications",
+        "volume": "12",
+        "year": "(2020)",
+        "journal-title": "Water"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C66"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C67",
+        "unstructured": "U. S. Geological Survey. (2016)USGS Water Data for the Nation. https://doi.org/10.5066/F7P55KJN"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C67a",
+        "unstructured": "U.S. Geological Survey. (2022)Turbidity \u2013 Units of Measurement. Available from: https://or.water.usgs.gov/grapher/fnu.html (accessed 20 February 2024)"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C68",
+        "doi-asserted-by": "crossref",
+        "first-page": "112284",
+        "DOI": "10.1016/j.rse.2021.112284",
+        "article-title": "Atmospheric correction of Sentinel-3/OLCI data for mapping of suspended particulate matter and chlorophyll-a concentration in Belgian turbid coastal waters",
+        "volume": "256",
+        "year": "(2021)",
+        "journal-title": "Remote Sensing of Environment"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C69",
+        "article-title": "Importance of land use factors in the prediction of water quality of the Upper Green River watershed, Kentucky, USA, using random forest",
+        "year": "(2023)",
+        "journal-title": "Environment, Development and Sustainability"
+      },
+      {
+        "issue": "193",
+        "key": "2024102914461047800_HYDRO-D-24-00110C70",
+        "first-page": "1",
+        "article-title": "Gaussian process regression: Optimality, robustness, and relationship with kernel ridge regression",
+        "volume": "23",
+        "year": "(2022)",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C71"
+      },
+      {
+        "key": "2024102914461047800_HYDRO-D-24-00110C72",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang\n            Z.\n           & KhangaonkarT.(2007)Development of A Hydrodynamic Model of Puget Sound and Northwest Straits. https://doi.org/10.2172/1013954.",
+        "DOI": "10.2172/1013954"
+      },
+      {
+        "issue": "3",
+        "key": "2024102914461047800_HYDRO-D-24-00110C73",
+        "doi-asserted-by": "crossref",
+        "first-page": "686",
+        "DOI": "10.1016/j.jglr.2022.03.005",
+        "article-title": "A simple water clarity-turbidity index for the Great Lakes",
+        "volume": "48",
+        "year": "(2022)",
+        "journal-title": "Journal of Great Lakes Research"
+      },
+      {
+        "issue": "17",
+        "key": "2024102914461047800_HYDRO-D-24-00110C74",
+        "first-page": "Article 17",
+        "article-title": "Hyperspectral remote sensing of phytoplankton species composition based on transfer learning",
+        "volume": "11",
+        "year": "(2019)",
+        "journal-title": "Remote Sensing"
+      },
+      {
+        "issue": "6",
+        "key": "2024102914461047800_HYDRO-D-24-00110C75",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2021JC018029",
+        "DOI": "10.1029/2021JC018029",
+        "article-title": "Feedback effects of sediment suspensions on transport mechanisms in an estuarine turbidity maximum",
+        "volume": "127",
+        "year": "(2022)",
+        "journal-title": "Journal of Geophysical Research: Oceans"
+      },
+      {
+        "issue": "1",
+        "key": "2024102914461047800_HYDRO-D-24-00110C76",
+        "doi-asserted-by": "crossref",
+        "first-page": "43",
+        "DOI": "10.1109/JPROC.2020.3004555",
+        "article-title": "A comprehensive survey on transfer learning",
+        "volume": "109",
+        "year": "(2021)",
+        "journal-title": "Proceedings of the IEEE"
+      }
+    ],
+    "container-title": [
+      "Journal of Hydroinformatics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://iwaponline.com/jh/article-pdf/26/10/2581/1498115/jh2024110.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://iwaponline.com/jh/article-pdf/26/10/2581/1498115/jh2024110.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          29
+        ]
+      ],
+      "date-time": "2024-10-29T14:46:44Z",
+      "timestamp": 1730213204000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://iwaponline.com/jh/article/26/10/2581/104587/Turbidity-assessment-in-coastal-regions-combining"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          3
+        ]
+      ]
+    },
+    "references-count": 74,
+    "journal-issue": {
+      "issue": "10",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            3
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.2166/hydro.2024.110",
+    "relation": {},
+    "ISSN": [
+      "1464-7141",
+      "1465-1734"
+    ],
+    "issn-type": [
+      {
+        "value": "1464-7141",
+        "type": "print"
+      },
+      {
+        "value": "1465-1734",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          3
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.2166/hydro.2024.110",
+  "original_doi": "10.2166/hydro.2024.110"
+}

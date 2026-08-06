@@ -1,0 +1,583 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          12
+        ]
+      ],
+      "date-time": "2026-03-12T12:16:41Z",
+      "timestamp": 1773317801726,
+      "version": "3.50.1"
+    },
+    "reference-count": 42,
+    "publisher": "MDPI AG",
+    "issue": "21",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              3
+            ]
+          ],
+          "date-time": "2023-11-03T00:00:00Z",
+          "timestamp": 1698969600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Western Area Power Administration under interagency agreement through the U.S. Department of Energy",
+        "award": [
+          "DE-AC02-06CH11357"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE-AC02-06CH11357"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Water"
+    ],
+    "abstract": "<jats:p>Methods for downstream river flow prediction can be categorized into physics-based and empirical approaches. Although based on well-studied physical relationships, physics-based models rely on numerous hydrologic variables characteristic of the specific river system that can be costly to acquire. Moreover, simulation is often computationally intensive. Conversely, empirical models require less information about the system being modeled and can capture a system\u2019s interactions based on a smaller set of observed data. This article introduces two empirical methods to predict downstream hydraulic variables based on observed stream data: a linear programming (LP) model, and a convolutional neural network (CNN). We apply both empirical models within the Colorado River system to a site located on the Green River, downstream of the Yampa River confluence and Flaming Gorge Dam, and compare it to the physics-based model Streamflow Synthesis and Reservoir Regulation (SSARR) currently used by federal agencies. Results show that both proposed models significantly outperform the SSARR model. Moreover, the CNN model outperforms the LP model for hourly predictions whereas both perform similarly for daily predictions. Although less accurate than the CNN model at finer temporal resolution, the LP model is ideal for linear water scheduling tools.</jats:p>",
+    "DOI": "10.3390/w15213843",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          3
+        ]
+      ],
+      "date-time": "2023-11-03T10:51:28Z",
+      "timestamp": 1699008688000
+    },
+    "page": "3843",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "Using Data-Driven Prediction of Downstream 1D River Flow to Overcome the Challenges of Hydrologic River Modeling"
+    ],
+    "prefix": "10.3390",
+    "volume": "15",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0009-5362-6860",
+        "authenticated-orcid": false,
+        "given": "Jeremy",
+        "family": "Feinstein",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Argonne National Laboratory, Environmental Science Division, 9700 S. Cass Ave., Lemont, IL 60439, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8209-5469",
+        "authenticated-orcid": false,
+        "given": "Quentin",
+        "family": "Ploussard",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Argonne National Laboratory, Energy Systems and Infrastructure Analysis Division, 9700 S. Cass Ave., Lemont, IL 60439, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Thomas",
+        "family": "Veselka",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Argonne National Laboratory, Energy Systems and Infrastructure Analysis Division, 9700 S. Cass Ave., Lemont, IL 60439, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Eugene",
+        "family": "Yan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Argonne National Laboratory, Environmental Science Division, 9700 S. Cass Ave., Lemont, IL 60439, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          3
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "unstructured": "Worster, D. (1992). Rivers of Empire: Water, Aridity, and the Growth of the American West, Oxford University Press."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "625",
+        "DOI": "10.1016/j.cosust.2013.09.004",
+        "article-title": "Climate Change and Water Security: Challenges for Adaptive Water Management",
+        "volume": "5",
+        "author": "Allan",
+        "year": "2013",
+        "journal-title": "Curr. Opin. Environ. Sustain."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "100086",
+        "DOI": "10.1016/j.wasec.2021.100086",
+        "article-title": "On the Need of Ensemble Flood Forecast in India",
+        "volume": "12",
+        "author": "Nanditha",
+        "year": "2021",
+        "journal-title": "Water Secur."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cueto-Felgueroso, L., Santill\u00e1n, D., Garc\u00eda-Palacios, J.H., and Garrote, L. (2019). Comparison between 2D Shallow-Water Simulations and Energy-Momentum Computations for Transcritical Flow Past Channel Contractions. Water, 11.",
+        "DOI": "10.3390/w11071476"
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Box, G.E.P., Jenkins, G.M., and Reinsel, G.C. (2008). Time Series Analysis, John Wiley & Sons, Ltd.",
+        "DOI": "10.1002/9781118619193"
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cryer, J.D., and Chan, K.-S. (2008). Time Series Analysis, Springer.",
+        "DOI": "10.1007/978-0-387-75959-3"
+      },
+      {
+        "key": "ref_7",
+        "unstructured": "Salas, J.D., Delleur, J.W., Yevjevich, V., and Lane, W.L. (1980). Applied Modeling of Hydrologic Time Series, Water Resources Publications."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bisgaard, S., and Kulahci, M. (2011). Time Series Analysis and Forecasting by Example, Wiley.",
+        "DOI": "10.1002/9781118056943"
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1217",
+        "DOI": "10.1002/hyp.5939",
+        "article-title": "Long-Term Discharge Prediction for the Turnu Severin Station (the Danube) Using a Linear Autoregressive Model",
+        "volume": "20",
+        "author": "Pekarova",
+        "year": "2006",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "126380",
+        "DOI": "10.1016/j.jhydrol.2021.126380",
+        "article-title": "A Functional Autoregressive Model Based on Exogenous Hydrometeorological Variables for River Flow Prediction",
+        "volume": "598",
+        "author": "Beyaztas",
+        "year": "2021",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "2157",
+        "DOI": "10.1002/1099-1085(20000815/30)14:11/12<2157::AID-HYP57>3.0.CO;2-S",
+        "article-title": "Comparing Neural Network and Autoregressive Moving Average Techniques for the Provision of Continuous River Flow Forecasts in Two Contrasting Catchments",
+        "volume": "14",
+        "author": "Abrahart",
+        "year": "2000",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "187",
+        "DOI": "10.1111/jtsa.12000",
+        "article-title": "Forecasting with Prediction Intervals for Periodic Autoregressive Moving Average Models",
+        "volume": "34",
+        "author": "Anderson",
+        "year": "2013",
+        "journal-title": "J. Time Ser. Anal."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "293",
+        "DOI": "10.1016/j.jhydrol.2006.05.017",
+        "article-title": "Parameter Estimation of an ARMA Model for River Flow Forecasting Using Goal Programming",
+        "volume": "331",
+        "author": "Mohammadi",
+        "year": "2006",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "169",
+        "DOI": "10.1002/rra.3391",
+        "article-title": "Comparing ANN and ARIMA Model in Predicting the Discharge of River Opeki from 2010 to 2020",
+        "volume": "35",
+        "author": "Fashae",
+        "year": "2019",
+        "journal-title": "River Res. Appl."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "599",
+        "DOI": "10.1623/hysj.51.4.599",
+        "article-title": "Using Support Vector Machines for Long-Term Discharge Prediction",
+        "volume": "51",
+        "author": "Lin",
+        "year": "2006",
+        "journal-title": "Hydrol. Sci. J."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "476",
+        "DOI": "10.1007/s12665-015-5096-x",
+        "article-title": "A Comparative Study of Artificial Neural Network (MLP, RBF) and Support Vector Machine Models for River Flow Prediction",
+        "volume": "75",
+        "author": "Ghorbani",
+        "year": "2016",
+        "journal-title": "Environ. Earth Sci."
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "60",
+        "DOI": "10.1061/(ASCE)1084-0699(2004)9:1(60)",
+        "article-title": "River Flow Modeling Using Artificial Neural Networks",
+        "volume": "9",
+        "year": "2004",
+        "journal-title": "J. Hydrol. Eng."
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "836",
+        "DOI": "10.1016/j.jhydrol.2014.06.013",
+        "article-title": "Real-Time Multi-Step-Ahead Water Level Forecasting by Recurrent Neural Networks for Urban Flood Control",
+        "volume": "517",
+        "author": "Chang",
+        "year": "2014",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tian, Y., Xu, Y.-P., Yang, Z., Wang, G., and Zhu, Q. (2018). Integration of a Parsimonious Hydrological Model with Recurrent Neural Networks for Improved Streamflow Forecasting. Water, 10.",
+        "DOI": "10.3390/w10111655"
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "155",
+        "DOI": "10.1016/j.jhydrol.2004.03.035",
+        "article-title": "Evaluation of a Physics-Based Distributed Hydrologic Model for Flood Forecasting",
+        "volume": "298",
+        "author": "Vieux",
+        "year": "2004",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "60",
+        "DOI": "10.1016/j.advwatres.2015.01.011",
+        "article-title": "Definition and Solution of a Stochastic Inverse Problem for the Manning\u2019s n Parameter Field in Hydrodynamic Models",
+        "volume": "78",
+        "author": "Butler",
+        "year": "2015",
+        "journal-title": "Adv. Water Resour."
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "04019099",
+        "DOI": "10.1061/(ASCE)BE.1943-5592.0001462",
+        "article-title": "Physics-Based Assessment of Climate Change Impact on Long-Term Regional Bridge Scour Risk Using Hydrologic Modeling: Application to Lehigh River Watershed",
+        "volume": "24",
+        "author": "Yang",
+        "year": "2019",
+        "journal-title": "J. Bridg. Eng."
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "249",
+        "DOI": "10.1007/s11069-021-04582-3",
+        "article-title": "Comparative Study of Very Short-Term Flood Forecasting Using Physics-Based Numerical Model and Data-Driven Prediction Model",
+        "volume": "107",
+        "author": "Hussain",
+        "year": "2021",
+        "journal-title": "Nat. Hazards"
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "3419",
+        "DOI": "10.5194/hess-26-3419-2022",
+        "article-title": "Revisiting Parameter Sensitivities in the Variable Infiltration Capacity Model across a Hydroclimatic Gradient",
+        "volume": "26",
+        "author": "Mendoza",
+        "year": "2022",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "key": "ref_25",
+        "unstructured": "United States Army Corps of Engineers North Pacific Division (1975). Program Description and User Manual for SSARR, Streamflow Synthesis and Reservoir Regulation: Program 724-K5-G0010."
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "913",
+        "DOI": "10.1111/j.1752-1688.2001.tb05522.x",
+        "article-title": "Riverware: A Generalized Tool for Complex Reservoir System Modeling1",
+        "volume": "37",
+        "author": "Zagona",
+        "year": "2001",
+        "journal-title": "JAWRA J. Am. Water Resour. Assoc."
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ploussard, Q., Veselka, T.D., and Palmer, C.S. (2022). Economic Analysis of Changes in Hydropower Operations at the Flaming Gorge Dam and the Aspinall Unit Due to the Upper Colorado River Endangered Fish Recovery Program.",
+        "DOI": "10.2172/1861064"
+      },
+      {
+        "key": "ref_28",
+        "unstructured": "U.S. Geological Survey (1994). USGS Water Data for the Nation."
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "first-page": "111",
+        "DOI": "10.1029/JZ064i001p00111",
+        "article-title": "Systematic Determination of Unit Hydrograph Parameters",
+        "volume": "64",
+        "author": "Nash",
+        "year": "1959",
+        "journal-title": "J. Geophys. Res."
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Boyd, S., and Vandenberghe, L. (2004). Convex Optimization, Cambridge University Press.",
+        "DOI": "10.1017/CBO9780511804441"
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "101",
+        "DOI": "10.1007/BF00872431",
+        "article-title": "Determination of Optimal Unit Hydrographs by Linear Programming",
+        "volume": "8",
+        "author": "Zhao",
+        "year": "1994",
+        "journal-title": "Water Resour. Manag."
+      },
+      {
+        "key": "ref_32",
+        "unstructured": "Sauer, V.B. (2002). Standards for the Analysis and Processing of Surface-Water Data and Information Using Electronic Methods."
+      },
+      {
+        "key": "ref_33",
+        "unstructured": "Gurobi Optimization, LLC (2023). Gurobi Optimization Reference Manual, Gurobi Optimization, LLC."
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "first-page": "107398",
+        "DOI": "10.1016/j.ymssp.2020.107398",
+        "article-title": "1D Convolutional Neural Networks and Applications: A Survey",
+        "volume": "151",
+        "author": "Kiranyaz",
+        "year": "2021",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "ref_35",
+        "unstructured": "Abadi, M., Agarwal, A., Barham, P., Brevdo, E., Chen, Z., Citro, C., Corrado, G.S., Davis, A., Dean, J., and Devin, M. (2016). TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems. arXiv."
+      },
+      {
+        "key": "ref_36",
+        "unstructured": "The GPyOpt Authors (2023, October 08). GPyOpt: A Bayesian Optimization Framework in Python 2016. Available online: http://github.com/SheffieldML/GPyOpt."
+      },
+      {
+        "key": "ref_37",
+        "unstructured": "Kingma, D.P., and Ba, J. (2017). Adam: A Method for Stochastic Optimization. arXiv."
+      },
+      {
+        "key": "ref_38",
+        "unstructured": "Grippo, M., LaGory, K.E., David, W., Hayse, J.W., Walston, L.J., Weber, C.C., Magnusson, A.K., and Jiang, X.H. (2017). Relationships between Flow and the Physical Characteristics of Colorado Pikeminnow Backwater Nursery Habitats in the Middle Green River, Utah."
+      },
+      {
+        "key": "ref_39",
+        "unstructured": "U.S. Bureau of Reclamation (2006). Record of Decision: Operation of Flaming Gorge Dam Final Environmental Impact Statement."
+      },
+      {
+        "key": "ref_40",
+        "unstructured": "Muth, R.T., Crist, L.W., LaGory, K.E., Hayse, J.W., Bestgen, K.R., Ryan, T.P., Lyons, J.K., and Valdez, R.A. (2000). Flow and Temperature Recommendations for Endangered Fishes in the Green River Downstream of Flaming Gorge Dam."
+      },
+      {
+        "key": "ref_41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yin, S.C.L., Tomasko, D., Cho, H.E., Williams, G., McCoy, J., and Palmer, C. (1996). Effects of Flaming Gorge Dam Hydropower Operations on Downstream Flow, Stage, and Sediment Transport.",
+        "DOI": "10.2172/405153"
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "first-page": "281",
+        "DOI": "10.1016/S0377-0427(00)00433-7",
+        "article-title": "Interior-Point Methods",
+        "volume": "124",
+        "author": "Potra",
+        "year": "2000",
+        "journal-title": "J. Comput. Appl. Math."
+      }
+    ],
+    "container-title": [
+      "Water"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2073-4441/15/21/3843/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T21:16:37Z",
+      "timestamp": 1760130997000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2073-4441/15/21/3843"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          3
+        ]
+      ]
+    },
+    "references-count": 42,
+    "journal-issue": {
+      "issue": "21",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            11
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "w15213843"
+    ],
+    "URL": "https://doi.org/10.3390/w15213843",
+    "relation": {},
+    "ISSN": [
+      "2073-4441"
+    ],
+    "issn-type": [
+      {
+        "value": "2073-4441",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          3
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.3390/w15213843",
+  "original_doi": "10.3390/w15213843"
+}

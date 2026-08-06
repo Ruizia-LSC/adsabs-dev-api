@@ -1,0 +1,500 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          13
+        ]
+      ],
+      "date-time": "2026-03-13T10:31:19Z",
+      "timestamp": 1773397879482,
+      "version": "3.50.1"
+    },
+    "reference-count": 25,
+    "publisher": "MDPI AG",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              13
+            ]
+          ],
+          "date-time": "2026-03-13T00:00:00Z",
+          "timestamp": 1773360000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2152140"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2152140"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Cooperative Institute for Research to Operations in Hydrology"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Hydrology"
+    ],
+    "abstract": "<jats:p>Hydrologic assessment within the Southeast United States is challenging, particularly in upstream basins, necessitating improved approaches to drought forecasting and water management. Within the Tennessee Valley, dense populations intensify the need for robust hydrologic management and predictive capabilities. This study integrates dendrochronological proxy data, hindcast information, and future climate projections from the Oak Ridge National Laboratory (ORNL) to evaluate May\u2013June\u2013July drought regimes. Holistic hydrologic conditions were attained by integrating self-calibrating Palmer Drought Severity Index data from the North American Drought Atlas, basin-scale precipitation data from ORNL hindcasts and future predictions, and streamflow data from United States Geological Survey. Development of precipitation and streamflow reconstructions were completed using Stepwise Linear Regression, then bias-corrected and temporally smoothed using five- and ten-year moving windows. The reconstructions demonstrated strong statistical skill across all three basins (Little Tennessee River, Nantahala River, South Fork Holston River). When compared only to the hindcast, future drought is predicted to be the most severe on record, but within the context of the paleo record, while still severe, these future droughts remain inside the natural variability envelope. Findings highlight the importance of novel approaches to long-term drought monitoring, specifically integrating basins where instrumental periods are limited, and water management demands are high.</jats:p>",
+    "DOI": "10.3390/hydrology13030092",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          13
+        ]
+      ],
+      "date-time": "2026-03-13T08:26:19Z",
+      "timestamp": 1773390379000
+    },
+    "page": "92",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "A Paleo Perspective of Future Precipitation Drought in the Tennessee Valley"
+    ],
+    "prefix": "10.3390",
+    "volume": "13",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0006-4333-5398",
+        "authenticated-orcid": false,
+        "given": "Kane",
+        "family": "Thurman",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Civil, Construction and Environmental Engineering, The University of Alabama, Tuscaloosa, AL 35401, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Julianne",
+        "family": "Webb",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil, Construction and Environmental Engineering, The University of Alabama, Tuscaloosa, AL 35401, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0006-1391-9026",
+        "authenticated-orcid": false,
+        "given": "Grace",
+        "family": "Peart",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Geography and the Environment, The University of Alabama, Tuscaloosa, AL 35401, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9686-2275",
+        "authenticated-orcid": false,
+        "given": "Glenn",
+        "family": "Tootle",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil, Construction and Environmental Engineering, The University of Alabama, Tuscaloosa, AL 35401, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Zhixu",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil and Environmental Engineering, University of Tennessee, Knoxville, TN 37996, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Joshua S.",
+        "family": "Fu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil and Environmental Engineering, University of Tennessee, Knoxville, TN 37996, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          13
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "unstructured": "Tennessee Valley Authority (2026, January 30). Managing Water Supply. Available online: https://www.tva.com/Environment/Managing-the-River/Managing-Water-Supply."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "L10705",
+        "DOI": "10.1029/2007GL029988",
+        "article-title": "Medieval drought in the Upper Colorado River Basin",
+        "volume": "34",
+        "author": "Meko",
+        "year": "2007",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "5195",
+        "DOI": "10.1002/2015WR018444",
+        "article-title": "Can a paleodrought record be used to reconstruct streamflow? A case study for the Missouri River Basin",
+        "volume": "52",
+        "author": "Ho",
+        "year": "2016",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "3047",
+        "DOI": "10.1002/2016WR019632",
+        "article-title": "Multiscale temporal variability and regional patterns in 555 years of conterminous U.S. streamflow",
+        "volume": "53",
+        "author": "Ho",
+        "year": "2017",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1551",
+        "DOI": "10.1175/1520-0442-16.10.1551",
+        "article-title": "A 431-Yr Reconstruction of Western Colorado Snowpack from Tree Rings",
+        "volume": "16",
+        "author": "Woodhouse",
+        "year": "2003",
+        "journal-title": "J. Clim."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1500561",
+        "DOI": "10.1126/sciadv.1500561",
+        "article-title": "Old World megadroughts and pluvials during the Common Era",
+        "volume": "1",
+        "author": "Cook",
+        "year": "2015",
+        "journal-title": "Sci. Adv."
+      },
+      {
+        "key": "ref_7",
+        "first-page": "37",
+        "article-title": "Dendroclimatic calibration and verification using regionally averaged and single station precipitation data",
+        "volume": "41",
+        "author": "Blasing",
+        "year": "1981",
+        "journal-title": "Tree Ring Bull."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Anderson, S.R., Ogle, R., Tootle, G., and Oubeidillah, A. (2019). Tree-Ring Reconstructions of Streamflow for the Tennessee Valley. Hydrology, 6.",
+        "DOI": "10.3390/hydrology6020034"
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "422",
+        "DOI": "10.1016/j.jhydrol.2019.06.051",
+        "article-title": "Atlantic Ocean Sea Surface Temperatures and Southeast United States Streamflow Variability: Associations with the Recent Multi-Decadal Decline",
+        "volume": "576",
+        "author": "Sadeghi",
+        "year": "2019",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1947",
+        "DOI": "10.1175/1520-0477(1992)073<1947:RAAOSR>2.0.CO;2",
+        "article-title": "Reconstruction and Analysis of Spring Rainfall over the Southeastern U.S. for the Past 1000 Years",
+        "volume": "73",
+        "author": "Stahle",
+        "year": "1992",
+        "journal-title": "Bull. Am. Meteorol. Soc."
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2024JD042039",
+        "DOI": "10.1029/2024JD042039",
+        "article-title": "The Contrasting Roles of Land and Oceanic Moisture Contributions to Summer Rainfall Over the Southeastern United States",
+        "volume": "130",
+        "author": "Sala",
+        "year": "2025",
+        "journal-title": "J. Geophys. Res. Atmos."
+      },
+      {
+        "key": "ref_12",
+        "unstructured": "ClimateData.ca (2026, January 30). Understanding Shared Socio-Economic Pathways (SSPs). Available online: https://climatedata.ca/resource/understanding-shared-socio-economic-pathways-ssps/."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ries, K.G., Steeves, P.A., and McCarthy, P.M. (2024). StreamStats\u2014A Quarter Century of Delivering Web-Based Geospatial and Hydrologic Information to the Public, and Lessons Learned, U.S. Geological Survey.",
+        "DOI": "10.3133/cir1514"
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "094021",
+        "DOI": "10.1088/1748-9326/adf4f9",
+        "article-title": "Projected Evolution of Droughts and Human Exposure in the Contiguous United States under SSP5-8.5: A Regional Downscaling Perspective",
+        "volume": "20",
+        "author": "Zhang",
+        "year": "2025",
+        "journal-title": "Environ. Res. Lett."
+      },
+      {
+        "key": "ref_15",
+        "unstructured": "Cook, E.R., Lall, U., Woodhouse, C.A., and Meko, D.M. (2026, January 30). NOAA/WDS Paleoclimatology\u2014Cook et al. 2004 North American Drought Atlas PDSI Reconstructions, Available online: https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=noaa-recon-6232."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "673",
+        "DOI": "10.1007/s11135-006-9018-6",
+        "article-title": "A Caution Regarding Rules of Thumb for Variance Inflation Factors",
+        "volume": "41",
+        "year": "2007",
+        "journal-title": "Qual. Quant."
+      },
+      {
+        "key": "ref_17",
+        "first-page": "409",
+        "article-title": "Testing for Serial Correlation in Least Squares Regression, I",
+        "volume": "37",
+        "author": "Durbin",
+        "year": "1950",
+        "journal-title": "Biometrika"
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "5687",
+        "DOI": "10.1029/2018WR023080",
+        "article-title": "Six centuries of Upper Indus Basin streamflow variability and its climatic drivers",
+        "volume": "54",
+        "author": "Rao",
+        "year": "2018",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2019GL086689",
+        "DOI": "10.1029/2019GL086689",
+        "article-title": "Bias Correction of Paleoclimatic Reconstructions: A New Look at 1200+ Years of Upper Colorado River Flow",
+        "volume": "47",
+        "author": "Robeson",
+        "year": "2020",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "ref_20",
+        "unstructured": "U.S. Geological Survey (2025). USGS Water Data for the Nation: U.S. Geological Survey National Water Information System Database, U.S. Geological Survey."
+      },
+      {
+        "key": "ref_21",
+        "unstructured": "Slack, J.R., Lumb, A.M., and Landwehr, J.M. (2026, January 30). Hydro-Climatic Data Network (HCDN): Streamflow Data Set, 1874\u20131988, Available online: https://pubs.usgs.gov/wri/wri934076/1st_page.html."
+      },
+      {
+        "key": "ref_22",
+        "unstructured": "Ram\u00edrez Molina, A.A. (2024). PALEO-RECON: An Automated Tool for Paleoclimate Reconstructions, v.1.0.1, Zenodo."
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "102673",
+        "DOI": "10.1016/j.ejrh.2025.102673",
+        "article-title": "High and dry: A ~300-year record of hydrologic extremes from the French Broad River in the southeastern U.S",
+        "volume": "61",
+        "author": "Davis",
+        "year": "2025",
+        "journal-title": "J. Hydrol. Reg. Stud."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lombardi, R., Ram\u00edrez Molina, A.A., and Tootle, G. (2025). Testing Machine Learning and Traditional Models for Tree-Ring-Based scPDSI Streamflow Reconstruction: A 1500-Year Record of the French Broad River, Tennessee, USA. Water, 17.",
+        "DOI": "10.3390/w17223288"
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mitchell, T.J., and Knapp, P.A. (2024). Reconstructing Historical Intense and Total Summer Rainfall in Central North Carolina Using Tree-Ring Data (1770\u20132020). Water, 16.",
+        "DOI": "10.3390/w16040513"
+      }
+    ],
+    "container-title": [
+      "Hydrology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2306-5338/13/3/92/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          13
+        ]
+      ],
+      "date-time": "2026-03-13T09:02:12Z",
+      "timestamp": 1773392532000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2306-5338/13/3/92"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          13
+        ]
+      ]
+    },
+    "references-count": 25,
+    "journal-issue": {
+      "issue": "3",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "hydrology13030092"
+    ],
+    "URL": "https://doi.org/10.3390/hydrology13030092",
+    "relation": {},
+    "ISSN": [
+      "2306-5338"
+    ],
+    "issn-type": [
+      {
+        "value": "2306-5338",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          13
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.3390/hydrology13030092",
+  "original_doi": "10.3390/hydrology13030092"
+}

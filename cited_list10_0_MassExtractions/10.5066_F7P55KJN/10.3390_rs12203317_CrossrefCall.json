@@ -1,0 +1,1149 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          12
+        ]
+      ],
+      "date-time": "2026-06-12T21:04:00Z",
+      "timestamp": 1781298240148,
+      "version": "3.54.1"
+    },
+    "reference-count": 87,
+    "publisher": "MDPI AG",
+    "issue": "20",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              12
+            ]
+          ],
+          "date-time": "2020-10-12T00:00:00Z",
+          "timestamp": 1602460800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Remote Sensing"
+    ],
+    "abstract": "<jats:p>The U.S. Geological Survey is actively investigating remote sensing of surface velocity and river discharge (discharge) from satellite-, high altitude-, small, unmanned aircraft systems- (sUAS or drone), and permanent (fixed) deployments. This initiative is important in ungaged basins and river reaches that lack the infrastructure to deploy conventional streamgaging equipment. By coupling alternative discharge algorithms with sensors capable of measuring surface velocity, streamgage networks can be established in regions where data collection was previously impractical or impossible. To differentiate from satellite or high-altitude platforms, near-field remote sensing is conducted from sUAS or fixed platforms. QCam is a Doppler (velocity) radar mounted and integrated on a 3DR\u00a9 Solo sUAS. It measures the along-track surface velocity by spot dwelling in a river cross section at a vertical where the maximum surface velocity is recorded. The surface velocity is translated to a mean-channel (mean) velocity using the probability concept (PC), and discharge is computed using the PC-derived mean velocity and cross-sectional area. Factors including surface-scatterer quality, flight altitude, propwash, wind drift, and sample duration may affect the radar-returns and the subsequent computation of mean velocity and river discharge. To evaluate the extensibility of the method, five science flights were conducted on four rivers of varying size and dynamics and included the Arkansas River, Colorado (CO), USA (two events); Salcha River near Salchaket, Alaska (AK), USA; South Platte River, CO, USA; and the Tanana River, AK, USA. QCam surface velocities and river discharges were compared to conventional streamgaging methods, which represented truth. QCam surface velocities for the Arkansas River, Salcha River, South Platte River, and Tanana River were 1.02 meters per second (m/s) and 1.43 m/s; 1.58 m/s; 0.90 m/s; and 2.17 m/s, respectively. QCam discharges (and percent differences) were 9.48 (0.3%) and 20.3 cubic meters per second (m3/s) (2.5%); 62.1 m3/s (\u221210.4%); 3.42 m3/s (7.3%), and 1579 m3/s (\u221218.8%). QCam results compare favorably with conventional streamgaging and are a viable near-field remote sensing technology that can be operationalized to deliver real-time surface velocity, mean velocity, and river discharge, if cross-sectional area is available.</jats:p>",
+    "DOI": "10.3390/rs12203317",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          14
+        ]
+      ],
+      "date-time": "2020-10-14T21:24:39Z",
+      "timestamp": 1602710679000
+    },
+    "page": "3317",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 36,
+    "title": [
+      "QCam: sUAS-Based Doppler Radar for Measuring River Discharge"
+    ],
+    "prefix": "10.3390",
+    "volume": "12",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5335-0720",
+        "authenticated-orcid": false,
+        "given": "John W.",
+        "family": "Fulton",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Denver Federal Center, P.O. Box 25046, MS 415, Denver, CO 80225, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Isaac E.",
+        "family": "Anderson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Denver Federal Center, P.O. Box 25046, MS 415, Denver, CO 80225, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "C.-L.",
+        "family": "Chiu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Civil and Environmental Engineering, University of Pittsburgh, 724 Field Club Rd, Pittsburgh, PA 15238, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wolfram",
+        "family": "Sommer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Sommer Messtechnik, Stra\u00dfenh\u00e4user 27, 6842 Koblach, Austria"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8470-4141",
+        "authenticated-orcid": false,
+        "given": "Josip D.",
+        "family": "Adams",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Denver Federal Center, P.O. Box 25046, MS 415, Denver, CO 80225, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9870-1694",
+        "authenticated-orcid": false,
+        "given": "Tommaso",
+        "family": "Moramarco",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "IRPI-Consiglio Nazionale delle Ricerche, Research Institute for Hydrogeological Protection, National Research Council, via della Madonna Alta 126, 06128 Perugia, Italy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David M.",
+        "family": "Bjerklie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Denver Federal Center, P.O. Box 25046, MS 415, Denver, CO 80225, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Janice M.",
+        "family": "Fulford",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Denver Federal Center, P.O. Box 25046, MS 415, Denver, CO 80225, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jeff L.",
+        "family": "Sloan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Denver Federal Center, P.O. Box 25046, MS 415, Denver, CO 80225, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0764-3060",
+        "authenticated-orcid": false,
+        "given": "Heather R.",
+        "family": "Best",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Denver Federal Center, P.O. Box 25046, MS 415, Denver, CO 80225, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jeff S.",
+        "family": "Conaway",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Denver Federal Center, P.O. Box 25046, MS 415, Denver, CO 80225, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michelle J.",
+        "family": "Kang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Denver Federal Center, P.O. Box 25046, MS 415, Denver, CO 80225, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael S.",
+        "family": "Kohn",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Denver Federal Center, P.O. Box 25046, MS 415, Denver, CO 80225, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Matthew J.",
+        "family": "Nicotra",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Denver Federal Center, P.O. Box 25046, MS 415, Denver, CO 80225, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jeremy J.",
+        "family": "Pulli",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Denver Federal Center, P.O. Box 25046, MS 415, Denver, CO 80225, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          12
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "4527",
+        "DOI": "10.1002/2015WR018434",
+        "article-title": "An intercomparison of remote sensing river discharge estimation algorithms from measurements of river height, width, and slope",
+        "volume": "52",
+        "author": "Durand",
+        "year": "2016",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Frazier, A.H., and Heckler, W.E. (1972). New Mexico, Birthplace of Systematic Stream Gaging, GPO. Geological Survey Professional Paper 778.",
+        "DOI": "10.3133/pp778"
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Eberts, S., Woodside, M., Landers, M., and Wagner, C. (2018). Monitoring the Pulse of Our Nation\u2019s Rivers and Streams\u2014The U.S. Geological Survey Streamgaging Network, USGS. US Geological Survey Fact Sheet 2018-3021.",
+        "DOI": "10.3133/fs20183081"
+      },
+      {
+        "key": "ref_4",
+        "unstructured": "Buchanan, T.J., and Somers, W.P. (2019, December 30). Discharge Measurements at Gaging Stations, Available online: http://pubs.usgs.gov/twri/twri3a8/."
+      },
+      {
+        "key": "ref_5",
+        "unstructured": "Rantz, S. (1982). Measurement and Computation of Streamflow: Volume 1. Measurement of Stage and Discharge, Department of the Interior. US. Geological Survey Water Supply Paper 2175."
+      },
+      {
+        "key": "ref_6",
+        "unstructured": "Turnipseed, D.P., and Sauer, V.B. (2019, December 30). Discharge Measurements at Gaging Stations, Available online: http://pubs.usgs.gov/tm/tm3-a8/."
+      },
+      {
+        "key": "ref_7",
+        "unstructured": "Christensen, J.L., and Herrick, L.E. (1982). Mississippi River Test: Volume 1, AMETEK/Straza Division. Final Report DCP4400/300 Prepared for the US Geological Survey."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Simpson, M.R. (1986, January 22\u201324). Evaluation of a vessel-mounted acoustic Doppler current profiler for use in rivers and estuaries. Proceedings of the 3rd Working Conference on Current Measurement, Washington, DC, USA.",
+        "DOI": "10.1109/CCM.1986.1158482"
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "925",
+        "DOI": "10.1061/(ASCE)0733-9429(1989)115:7(925)",
+        "article-title": "Acoustic measurement of river discharge",
+        "volume": "115",
+        "author": "Gordon",
+        "year": "1989",
+        "journal-title": "J. Hydraul. Eng."
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Simpson, M.R., and Oltmann, R.N. (1993). Discharge-Measurement System Using an Acoustic Doppler Current Profiler with Applications to Large Rivers and Estuaries, USGS. US Geological Survey Water Supply Paper 2395.",
+        "DOI": "10.3133/ofr91487"
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Oberg, K.A., Morlock, S.E., and Caldwell, W.S. (2005). Quality Assurance Plan for Discharge Measurements Using Acoustic Doppler Current Profilers, USGS. US Geological Survey Scientific Investigations Report 5135.",
+        "DOI": "10.3133/sir20055183"
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mueller, D.S. (2016). QRev\u2014Software for Computation and Quality Assurance of Acoustic Doppler Current Profiler Moving-Boat Streamflow Measurements\u2014User\u2019s Manual for Version 2.8, USGS. US Geological Survey Open-File Report 2016\u20131052.",
+        "DOI": "10.3133/ofr20161052"
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "211",
+        "DOI": "10.1016/j.cageo.2013.02.001",
+        "article-title": "Extrap: Software to assist the selection of extrapolation methods for moving-boat ADCP streamflow measurements",
+        "volume": "54",
+        "author": "Mueller",
+        "year": "2013",
+        "journal-title": "Comput. Geosci."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mueller, D.S., Wagner, C.R., Rehmel, M.S., Oberg, K.A., and Rainville, F. (2013). Measuring Discharge with Acoustic Doppler Current Profilers from a Moving Boat (Version 2.0, December 2013), USGS. U.S. Geological Survey Techniques and Methods, Book 3, Chap. A22.",
+        "DOI": "10.3133/tm3A22"
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "2021",
+        "DOI": "10.1029/96WR00752",
+        "article-title": "Estimation of discharge from three braided rivers using synthetic aperture radar satellite imagery",
+        "volume": "32",
+        "author": "Smith",
+        "year": "1996",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "481",
+        "DOI": "10.1016/j.jhydrol.2005.12.006",
+        "article-title": "Rating curves and estimation of average water depth at the upper Negro River based on satellite altimeter data and modeled discharges",
+        "volume": "328",
+        "author": "Leon",
+        "year": "2006",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "205",
+        "DOI": "10.1016/j.jhydrol.2009.09.049",
+        "article-title": "Hydrological monitoring of poorly gauged basins based on rainfall\u2013runoff modeling and spatial altimetry",
+        "volume": "379",
+        "author": "Getirana",
+        "year": "2009",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "3811",
+        "DOI": "10.1002/hyp.7811",
+        "article-title": "Using satellite altimetry data to augment flow estimation techniques on the Mekong River",
+        "volume": "24",
+        "author": "Birkinshaw",
+        "year": "2010",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "923",
+        "DOI": "10.5194/hess-17-923-2013",
+        "article-title": "Estimating water discharge from large radar altimetry datasets",
+        "volume": "17",
+        "author": "Getirana",
+        "year": "2013",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "1226",
+        "DOI": "10.1002/wrcr.20067",
+        "article-title": "Large-scale hydrological and hydrodynamics modelling of the Amazon River basin",
+        "volume": "49",
+        "author": "Paiva",
+        "year": "2013",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "4145",
+        "DOI": "10.3390/rs5094145",
+        "article-title": "River discharge estimation by using altimetry data and simplified flood routing modeling",
+        "volume": "5",
+        "author": "Tarpanelli",
+        "year": "2013",
+        "journal-title": "Remote Sens."
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "1043",
+        "DOI": "10.1002/hyp.9647",
+        "article-title": "Daily discharge estimation at ungauged river sites using remote sensing",
+        "volume": "28",
+        "author": "Birkinshaw",
+        "year": "2014",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "ref_23",
+        "first-page": "3035",
+        "article-title": "Using width-based rating curves from spatially discontinuous satellite imagery to monitor river discharge",
+        "volume": "28",
+        "author": "Pavelsky",
+        "year": "2014",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "3787",
+        "DOI": "10.1002/2014WR016618",
+        "article-title": "Stage-discharge rating curves based on satellite altimetry and modeled discharge in the Amazon basin",
+        "volume": "52",
+        "author": "Paris",
+        "year": "2016",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "1000",
+        "DOI": "10.1016/j.jhydrol.2018.04.005",
+        "article-title": "Satellite remote sensing estimation of river discharge: Application to the Yukon River Alaska",
+        "volume": "561",
+        "author": "Bjerklie",
+        "year": "2018",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bogning, S., Frappart, F., Blarel, F., Ni\u00f1o, F., Mah\u00e9, G., Bricquet, J.-P., Seyler, F., Ongu\u00e9n\u00e9, R., Etam\u00e9, J., and Paiz, M.-C. (2018). Monitoring water levels and discharges using radar altimetry in an ungauged river basin: The case of the Ogoou\u00e9. Remote Sens., 10.",
+        "DOI": "10.3390/rs10020350"
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "6692",
+        "DOI": "10.1029/2018WR024220",
+        "article-title": "River bathymetry estimate and discharge assessment from remote sensing",
+        "volume": "55",
+        "author": "Moramarco",
+        "year": "2019",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "1223",
+        "DOI": "10.1029/98WR00124",
+        "article-title": "Contribution of the TOPEX NASA radar altimeter to the global monitoring of large rivers and wetlands",
+        "volume": "34",
+        "author": "Birkett",
+        "year": "1998",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_29",
+        "first-page": "8059",
+        "article-title": "Surface water dynamics in the Amazon Basin: Application of satellite radar altimetry",
+        "volume": "107",
+        "author": "Birkett",
+        "year": "2002",
+        "journal-title": "J. Geophys. Res."
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "first-page": "238",
+        "DOI": "10.1016/j.rse.2004.07.007",
+        "article-title": "Ob\u2019 river discharge from TOPEX/Poseidon satellite altimetry (1992\u20132002)",
+        "volume": "93",
+        "author": "Kouraev",
+        "year": "2004",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Papa, F., Bala, S.K., Kumar Pandey, R., Durand, F., Rahman, A., and Rossow, W.B. (2012). Ganga-Brahmaputra river discharge from Jason-2 radar altimetry: An update to the long-term satellite-derived estimates of continental freshwater forcing flux into the Bay of Bengal. Geophys. Res., 117.",
+        "DOI": "10.1029/2012JC008158"
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "first-page": "44",
+        "DOI": "10.1016/j.isprsjprs.2013.01.010",
+        "article-title": "Spatiotemporal dynamic of surface water bodies using Landsat time-series data from 1999 to 2011",
+        "volume": "79",
+        "author": "Tulbure",
+        "year": "2013",
+        "journal-title": "ISPRS J. Photogramm. Remote Sens."
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "first-page": "4788",
+        "DOI": "10.1073/pnas.1317606111",
+        "article-title": "Toward global mapping of river discharge using satellite images and at-many-stations hydraulic geometry",
+        "volume": "111",
+        "author": "Gleason",
+        "year": "2014",
+        "journal-title": "Proc. Natl. Acad. Sci. USA"
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "first-page": "66",
+        "DOI": "10.1016/j.rse.2014.03.031",
+        "article-title": "Monitoring Everglades freshwater marsh water level using L-band synthetic aperture radar backscatter",
+        "volume": "150",
+        "author": "Kim",
+        "year": "2014",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "first-page": "12503",
+        "DOI": "10.3390/rs70912503",
+        "article-title": "Efficient wetland surface water detection and monitoring via Landsat: Comparison with in situ data from the Everglades Depth Estimation Network",
+        "volume": "7",
+        "author": "Jones",
+        "year": "2015",
+        "journal-title": "Remote Sens."
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Carroll, M., Wooten, M., DiMiceli, C., Sohlberg, R., and Kelly, M. (2016). Quantifying surface water dynamics at 30 meter spatial resolution in the North American high northern latitudes 1991\u20132011. Remote Sens., 8.",
+        "DOI": "10.3390/rs8080622"
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "first-page": "W04405",
+        "DOI": "10.1029/2006WR005238",
+        "article-title": "Orbital microwave measurement of river discharge and ice status",
+        "volume": "43",
+        "author": "Brakenridge",
+        "year": "2007",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_38",
+        "doi-asserted-by": "crossref",
+        "first-page": "92",
+        "DOI": "10.1016/j.jhydrol.2013.12.050",
+        "article-title": "Estimating reach-averaged discharge for the River Severn from measurements of river water surface elevation and slope",
+        "volume": "511",
+        "author": "Durand",
+        "year": "2014",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "first-page": "307",
+        "DOI": "10.1007/s10712-015-9346-y",
+        "article-title": "The SWOT Mission and its capabilities for land hydrology",
+        "volume": "37",
+        "author": "Biancamaria",
+        "year": "2015",
+        "journal-title": "Surv. Geophys."
+      },
+      {
+        "key": "ref_40",
+        "doi-asserted-by": "crossref",
+        "first-page": "103",
+        "DOI": "10.1016/j.advwatres.2015.02.007",
+        "article-title": "Inference of effective river properties from remotely sensed observations of water surface",
+        "volume": "79",
+        "author": "Garambois",
+        "year": "2015",
+        "journal-title": "Adv. Water Resour."
+      },
+      {
+        "key": "ref_41",
+        "doi-asserted-by": "crossref",
+        "first-page": "2439",
+        "DOI": "10.1002/2015WR017296",
+        "article-title": "Benchmarking wide swath altimetry-based river discharge estimation algorithms for the Ganges river system",
+        "volume": "52",
+        "author": "Bonnema",
+        "year": "2016",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_42",
+        "unstructured": "National Aeronautics and Space Administration (NASA) (2018, July 17). Surface Water and Ocean Topography, Available online: https://swot.jpl.nasa.gov/home.htm."
+      },
+      {
+        "key": "ref_43",
+        "doi-asserted-by": "crossref",
+        "first-page": "423",
+        "DOI": "10.1130/0091-7613(1997)025<0423:MFDIUS>2.3.CO;2",
+        "article-title": "Measuring flood discharge in unstable channels using ground-penetrating radar",
+        "volume": "25",
+        "author": "Spicer",
+        "year": "1997",
+        "journal-title": "Geology"
+      },
+      {
+        "key": "ref_44",
+        "doi-asserted-by": "crossref",
+        "first-page": "553",
+        "DOI": "10.1029/1999GL006087",
+        "article-title": "Measuring stream discharge by non-contact methods: A Proof-of-Concept Experiment",
+        "volume": "27",
+        "author": "Costa",
+        "year": "2000",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "ref_45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Haeni, F., Buursink, M.L., Costa, J.E., Melcher, N.B., Cheng, R.T., and Plant, W.J. (2000, January 23\u201326). Ground-Penetrating Radar Methods Used in Surface-Water Discharge Measurements. Proceedings of the 8th International Conference on Ground Penetrating Radar, Gold Coast, Australia.",
+        "DOI": "10.1117/12.383618"
+      },
+      {
+        "key": "ref_46",
+        "doi-asserted-by": "crossref",
+        "first-page": "41",
+        "DOI": "10.1029/2002GL015525",
+        "article-title": "River discharge measurements by using helicopter mounted radar",
+        "volume": "29",
+        "author": "Melcher",
+        "year": "2002",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "ref_47",
+        "doi-asserted-by": "crossref",
+        "first-page": "1242",
+        "DOI": "10.1109/TGRS.2005.845641",
+        "article-title": "Measurement of river surface currents with coherent microwave systems",
+        "volume": "43",
+        "author": "Plant",
+        "year": "2005",
+        "journal-title": "IEEE Trans. Geosci. Remote Sens."
+      },
+      {
+        "key": "ref_48",
+        "doi-asserted-by": "crossref",
+        "first-page": "14",
+        "DOI": "10.1029/2005WR004430",
+        "article-title": "Use of radars to monitor stream discharge by noncontact methods",
+        "volume": "42",
+        "author": "Costa",
+        "year": "2006",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_49",
+        "doi-asserted-by": "crossref",
+        "first-page": "733",
+        "DOI": "10.2208/prohe.38.733",
+        "article-title": "Application of video image analysis for measurements of river-surface flows",
+        "volume": "38",
+        "author": "Fujita",
+        "year": "1994",
+        "journal-title": "Proc. Hydraul. Eng. JSCE"
+      },
+      {
+        "key": "ref_50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hauet, A., Morlot, T., and Daubagnan, L. (2018). Velocity Profile and Depth-Averaged to Surface Velocity in Natural Streams: A Review Over a Large Sample of Rivers, EDP Sciences. E3S Web of Conferences 40 06015 River Flow.",
+        "DOI": "10.1051/e3sconf/20184006015"
+      },
+      {
+        "key": "ref_51",
+        "unstructured": "Engel, F.L. (2019, December 30). Guidelines for the collection of video for Large Scale Particle Velocimetry (LSPIV), Available online: https://my.usgs.gov/confluence/pages/viewpage.action?pageId=546865360."
+      },
+      {
+        "key": "ref_52",
+        "doi-asserted-by": "crossref",
+        "first-page": "3122",
+        "DOI": "10.1029/2018WR024507",
+        "article-title": "Evaluating image tracking approaches for surface velocimetry with thermal tracers",
+        "volume": "55",
+        "author": "Lin",
+        "year": "2019",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_53",
+        "doi-asserted-by": "crossref",
+        "first-page": "3895",
+        "DOI": "10.1109/TGRS.2013.2277815",
+        "article-title": "Airborne infrared remote sensing of riverine currents",
+        "volume": "52",
+        "author": "Dugan",
+        "year": "2014",
+        "journal-title": "IEEE Trans. Geosci. Remote Sens."
+      },
+      {
+        "key": "ref_54",
+        "doi-asserted-by": "crossref",
+        "first-page": "3269",
+        "DOI": "10.1109/TMECH.2015.2408112",
+        "article-title": "Large-scale particle image velocimetry from an unmanned aerial vehicle",
+        "volume": "20",
+        "author": "Tauro",
+        "year": "2015",
+        "journal-title": "IEEE/Asme Trans. Mechatron."
+      },
+      {
+        "key": "ref_55",
+        "doi-asserted-by": "crossref",
+        "first-page": "240",
+        "DOI": "10.1016/j.jhydrol.2016.06.012",
+        "article-title": "Surface flow measurements from drones",
+        "volume": "540",
+        "author": "Tauro",
+        "year": "2016",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kinzel, P.J., and Legleiter, C.J. (2019). sUAS-based remote sensing of river discharge using thermal particle image velocimetry and bathymetric lidar. Remote Sens., 11.",
+        "DOI": "10.3390/rs11192317"
+      },
+      {
+        "key": "ref_57",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.jhydrol.2008.03.028",
+        "article-title": "Measuring real-time streamflow using emerging technologies: Radar, hydroacoustics, and the probability concept",
+        "volume": "357",
+        "author": "Fulton",
+        "year": "2008",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Moramarco, T., Barbetta, S., and Tarpanelli, A. (2017). From surface flow velocity measurements to discharge assessment by the entropy theory. Water, 9.",
+        "DOI": "10.3390/w9020120"
+      },
+      {
+        "key": "ref_59",
+        "doi-asserted-by": "crossref",
+        "first-page": "1108",
+        "DOI": "10.1002/2015WR017906",
+        "article-title": "Field assessment of noncontact stream gauging using portable surface velocity radars (SVR)",
+        "volume": "2",
+        "author": "Welber",
+        "year": "2016",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fulton, J.W., Mason, C.A., Eggleston, J.R., Nicotra, M.J., Chiu, C.-L., Henneberg, M.F., Best, H.R., Cederberg, J.R., Holnbeck, S.R., and Lotspeich, R.R. (2020). Near-Field Remote Sensing of Surface Velocity and River Discharge Using Radars and the Probability Concept at 10 U.S. Geological Survey Streamgages. Remote Sens., 12.",
+        "DOI": "10.3390/rs12081296"
+      },
+      {
+        "key": "ref_61",
+        "unstructured": "Lane, J.W., Dawson, C.B., White, E.A., and Fulton, J.W. (2019, January 21\u201324). Non-contact measurement of river bathymetry using sUAS Radar: Recent developments and examples from the Northeastern United States. Proceedings of the Fifth International Conference on Engineering Geophysics (ICEG), Al Ain, UAE."
+      },
+      {
+        "key": "ref_62",
+        "unstructured": "Federal Institute of Metrology METAS (2015). Certificate of Calibration, unpublished."
+      },
+      {
+        "key": "ref_63",
+        "unstructured": "McDermott, W.R., and Fulton, J.W. (2020). Drone- and Ground-Based Measurements of Velocity, Depth, and Discharge Collected during 2017-18 at the Arkansas and South Platte Rivers in Colorado and the Salcha and Tanana Rivers in Alaska, USA, U.S. Geological Survey Data Release."
+      },
+      {
+        "key": "ref_64",
+        "unstructured": "U.S. Geological Survey (2013). USGS Water Data for the Nation, U.S. Geological Survey National Water Information System Database."
+      },
+      {
+        "key": "ref_65",
+        "doi-asserted-by": "crossref",
+        "first-page": "1050",
+        "DOI": "10.1061/(ASCE)0733-9429(1986)112:11(1050)",
+        "article-title": "Structure of 3--D Flow in rectangular open channels",
+        "volume": "112",
+        "author": "Chiu",
+        "year": "1986",
+        "journal-title": "J. Hydraul. Eng."
+      },
+      {
+        "key": "ref_66",
+        "doi-asserted-by": "crossref",
+        "first-page": "583",
+        "DOI": "10.1061/(ASCE)0733-9429(1987)113:5(583)",
+        "article-title": "Entropy and probability concepts in hydraulics",
+        "volume": "113",
+        "author": "Chiu",
+        "year": "1987",
+        "journal-title": "J. Hydraul. Eng."
+      },
+      {
+        "key": "ref_67",
+        "doi-asserted-by": "crossref",
+        "first-page": "576",
+        "DOI": "10.1061/(ASCE)0733-9429(1989)115:5(576)",
+        "article-title": "Velocity distribution in open channel flow",
+        "volume": "115",
+        "author": "Chiu",
+        "year": "1989",
+        "journal-title": "J. Hydraul. Eng."
+      },
+      {
+        "key": "ref_68",
+        "unstructured": "Chiu, C.-L. (1995). Probability and Entropy Concepts in Fluid Flow Modeling and Measurement, ROC."
+      },
+      {
+        "key": "ref_69",
+        "unstructured": "Chiu, C.-L., Tung, N.C., Hsu, S.M., and Fulton, J.W. (2001). Comparison and Assessment of Methods of Measuring Discharge in Rivers and Streams, Dept. of Civil & Environmental Engineering, University of Pittsburgh. Research Report No CEEWR-4."
+      },
+      {
+        "key": "ref_70",
+        "doi-asserted-by": "crossref",
+        "first-page": "390",
+        "DOI": "10.1061/(ASCE)0733-9429(2002)128:4(390)",
+        "article-title": "Velocity and regularities in open-channel flow",
+        "volume": "128",
+        "author": "Chiu",
+        "year": "2002",
+        "journal-title": "J. Hydraul. Eng."
+      },
+      {
+        "key": "ref_71",
+        "doi-asserted-by": "crossref",
+        "first-page": "42",
+        "DOI": "10.1061/(ASCE)1084-0699(2004)9:1(42)",
+        "article-title": "Estimation of mean velocity in natural channel based on Chiu\u2019s velocity distribution equation",
+        "volume": "9",
+        "author": "Moramarco",
+        "year": "2004",
+        "journal-title": "J. Hydrol. Eng."
+      },
+      {
+        "key": "ref_72",
+        "doi-asserted-by": "crossref",
+        "first-page": "3935",
+        "DOI": "10.1002/hyp.5857",
+        "article-title": "Efficient methods of discharge measurements in rivers and streams based on the probability concept",
+        "volume": "19",
+        "author": "Chiu",
+        "year": "2005",
+        "journal-title": "Hydrol. Process. Wiley Intersci."
+      },
+      {
+        "key": "ref_73",
+        "doi-asserted-by": "crossref",
+        "first-page": "28",
+        "DOI": "10.1016/j.jhydrol.2005.04.011",
+        "article-title": "Probabilistic approach to modeling of velocity distributions in fluid flows",
+        "volume": "316",
+        "author": "Chiu",
+        "year": "2006",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_74",
+        "doi-asserted-by": "crossref",
+        "first-page": "623",
+        "DOI": "10.1002/j.1538-7305.1948.tb00917.x",
+        "article-title": "A mathematical theory of communication",
+        "volume": "27",
+        "author": "Shannon",
+        "year": "1948",
+        "journal-title": "Bell Syst. Tech. J."
+      },
+      {
+        "key": "ref_75",
+        "doi-asserted-by": "crossref",
+        "first-page": "777",
+        "DOI": "10.1016/j.jhydrol.2017.10.068",
+        "article-title": "On the theoretical velocity distribution and flow resistance in natural channels",
+        "volume": "555",
+        "author": "Moramarco",
+        "year": "2017",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_76",
+        "unstructured": "Fulton, J.W. (1999). Comparison of Conventional and Probability-Based Modeling of Open-Channel Flow in the Allegheny River, Pennsylvania, USA. [Unpublished Thesis, University of Pittsburgh]."
+      },
+      {
+        "key": "ref_77",
+        "unstructured": "R Core Team (2019). R: A Language and Environment for Statistical Computing, R Foundation for Statistical Computing. Available online: https://www.R-project.org/."
+      },
+      {
+        "key": "ref_78",
+        "doi-asserted-by": "crossref",
+        "first-page": "733",
+        "DOI": "10.1016/j.jhydrol.2018.04.073",
+        "article-title": "Computing under-ice discharge: A proof-of-concept using hydroacoustics and the Probability Concept",
+        "volume": "562",
+        "author": "Fulton",
+        "year": "2018",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_79",
+        "unstructured": "Blodgett, J.C. (1986). Rock Riprap Design for Protection of Stream Channels Near Highway Structures, Volume 1: Hydraulic Characteristics of Open Channels, USGS. US Geological Survey Water-Resources Investigations Report 86-4127."
+      },
+      {
+        "key": "ref_80",
+        "unstructured": "(2020, August 25). SommerMESSTECHNIK. RQ-30, RQ-30A Discharge Measurement System: User Manual. Available online: https://www.sommer.at/en/products/water/rq-30-rq-30a."
+      },
+      {
+        "key": "ref_81",
+        "unstructured": "Gonz\u00e1lez, J.A., Melching, C.S., and Oberg, K.A. (1996, January 22\u201326). Analysis of open-channel velocity measurements collected with an acoustic Doppler current profiler; Reprint from RIVERTECH 96. Proceedings of the 1st International Conference on New/Emerging Concepts for Rivers Organized by the International Water Resources Association, Chicago, IL, USA."
+      },
+      {
+        "key": "ref_82",
+        "first-page": "17",
+        "article-title": "Application of the modified log-wake law in open-channels",
+        "volume": "1",
+        "author": "Guo",
+        "year": "2008",
+        "journal-title": "J. Appl. Fluid Mech."
+      },
+      {
+        "key": "ref_83",
+        "doi-asserted-by": "crossref",
+        "first-page": "243",
+        "DOI": "10.1016/0169-555X(91)90007-W",
+        "article-title": "Wading measurements of vertical velocity profiles",
+        "volume": "4",
+        "author": "Jarrett",
+        "year": "1991",
+        "journal-title": "Geomorphology"
+      },
+      {
+        "key": "ref_84",
+        "unstructured": "Murphy, E.C. (1904). Accuracy of Stream Measurements, USGS."
+      },
+      {
+        "key": "ref_85",
+        "doi-asserted-by": "crossref",
+        "first-page": "3304",
+        "DOI": "10.1029/JC085iC06p03304",
+        "article-title": "Phase speeds of upwind and downwind traveling short gravity waves",
+        "volume": "85",
+        "author": "Plant",
+        "year": "1980",
+        "journal-title": "J. Geophys. Res."
+      },
+      {
+        "key": "ref_86",
+        "unstructured": "Canova, M.G., Fulton, J.W., and Bjerklie, D.M. (2016). USGS HYDRoacoustic Dataset in Support of the Surface Water Oceanographic Topography Satellite Mission (HYDRoSWOT), US Geological Survey Data Release."
+      },
+      {
+        "key": "ref_87",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bjerklie, D.M., Fulton, J.W., Dingman, S.L., Canova, M.G., Minear, J.T., and Moramarco, T. (2020). Fundamental hydraulics of cross sections in natural rivers: Preliminary analysis of a large data set of acoustic Doppler measurements. Water Resour. Res., 56.",
+        "DOI": "10.1029/2019WR025986"
+      }
+    ],
+    "container-title": [
+      "Remote Sensing"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2072-4292/12/20/3317/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          11
+        ]
+      ],
+      "date-time": "2025-10-11T10:19:49Z",
+      "timestamp": 1760177989000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2072-4292/12/20/3317"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          12
+        ]
+      ]
+    },
+    "references-count": 87,
+    "journal-issue": {
+      "issue": "20",
+      "published-online": {
+        "date-parts": [
+          [
+            2020,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "rs12203317"
+    ],
+    "URL": "https://doi.org/10.3390/rs12203317",
+    "relation": {},
+    "ISSN": [
+      "2072-4292"
+    ],
+    "issn-type": [
+      {
+        "value": "2072-4292",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.3390/rs12203317",
+  "original_doi": "10.3390/rs12203317"
+}

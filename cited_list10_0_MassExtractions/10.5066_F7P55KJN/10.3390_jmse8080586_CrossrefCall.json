@@ -1,0 +1,1236 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          1
+        ]
+      ],
+      "date-time": "2026-08-01T10:39:12Z",
+      "timestamp": 1785580752770,
+      "version": "3.56.0"
+    },
+    "reference-count": 85,
+    "publisher": "MDPI AG",
+    "issue": "8",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              8,
+              6
+            ]
+          ],
+          "date-time": "2020-08-06T00:00:00Z",
+          "timestamp": 1596672000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100012475",
+        "name": "Bureau of Ocean Energy Management",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "M11AC00013"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "M11AC00013"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100012475",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "JMSE"
+    ],
+    "abstract": "<jats:p>Turbidity currents deliver sediment rapidly from the continental shelf to the slope and beyond; and can be triggered by processes such as shelf resuspension during oceanic storms; mass failure of slope deposits due to sediment- and wave-pressure loadings; and localized events that grow into sustained currents via self-amplifying ignition. Because these operate over multiple spatial and temporal scales, ranging from the eddy-scale to continental-scale; coupled numerical models that represent the full transport pathway have proved elusive though individual models have been developed to describe each of these processes. Toward a more holistic tool, a numerical workflow was developed to address pathways for sediment routing from terrestrial and coastal sources, across the continental shelf and ultimately down continental slope canyons of the northern Gulf of Mexico, where offshore infrastructure is susceptible to damage by turbidity currents. Workflow components included: (1) a calibrated simulator for fluvial discharge (Water Balance Model - Sediment; WBMsed); (2) domain grids for seabed sediment textures (dbSEABED); bathymetry, and channelization; (3) a simulator for ocean dynamics and resuspension (the Regional Ocean Modeling System; ROMS); (4) A simulator (HurriSlip) of seafloor failure and flow ignition; and (5) A Reynolds-averaged Navier\u2013Stokes (RANS) turbidity current model (TURBINS). Model simulations explored physical oceanic conditions that might generate turbidity currents, and allowed the workflow to be tested for a year that included two hurricanes. Results showed that extreme storms were especially effective at delivering sediment from coastal source areas to the deep sea, at timescales that ranged from individual wave events (~hours), to the settling lag of fine sediment (~days).</jats:p>",
+    "DOI": "10.3390/jmse8080586",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          6
+        ]
+      ],
+      "date-time": "2020-08-06T09:41:21Z",
+      "timestamp": 1596706881000
+    },
+    "page": "586",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 13,
+    "title": [
+      "Data-Driven, Multi-Model Workflow Suggests Strong Influence from Hurricanes on the Generation of Turbidity Currents in the Gulf of Mexico"
+    ],
+    "prefix": "10.3390",
+    "volume": "8",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5357-5906",
+        "authenticated-orcid": false,
+        "given": "Courtney",
+        "family": "Harris",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Physical Sciences, Virginia Institute of Marine Science, William &amp; Mary, Williamsburg, VA 23062, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jaia",
+        "family": "Syvitski",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "CSDMS/INSTAAR, University of Colorado, Boulder, CO 80305, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "H.G.",
+        "family": "Arango",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Marine and Coastal Sciences, Rutgers University, New Brunswick, NJ 08901, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3670-8193",
+        "authenticated-orcid": false,
+        "given": "E.H.",
+        "family": "Meiburg",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical Engineering, University of California, Santa Barbara, CA 93106, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sagy",
+        "family": "Cohen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Geography, University of Alabama, Tuscaloosa, AL 35487, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "C.J.",
+        "family": "Jenkins",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "CSDMS/INSTAAR, University of Colorado, Boulder, CO 80305, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0379-2192",
+        "authenticated-orcid": false,
+        "given": "Justin",
+        "family": "Birchler",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Saint Petersburg, FL 33701, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "E.W.H.",
+        "family": "Hutton",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "CSDMS/INSTAAR, University of Colorado, Boulder, CO 80305, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "T.A.",
+        "family": "Kniskern",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physical Sciences, Virginia Institute of Marine Science, William &amp; Mary, Williamsburg, VA 23062, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Radhakrishnan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical Engineering, University of California, Santa Barbara, CA 93106, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Guillermo",
+        "family": "Auad",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Bureau of Ocean Energy Management, Sterling, VA 20166, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          6
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "111056",
+        "DOI": "10.1016/j.marpolbul.2020.111056",
+        "article-title": "Harnessing a decade of data to inform future decisions: Insights into the ongoing hydrocarbon release at Taylor Energy\u2019s Mississippi Canyon Block 20 (MC20) site",
+        "volume": "155",
+        "author": "Bryant",
+        "year": "2020",
+        "journal-title": "Mar. Pollut. Bull."
+      },
+      {
+        "key": "ref_2",
+        "first-page": "900",
+        "article-title": "Louisiana barrier islands and their importance in wetland protection: Forecasting shoreline change and subsequent response of wave climate",
+        "volume": "14",
+        "author": "Stone",
+        "year": "1998",
+        "journal-title": "J. Coast. Res."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "53",
+        "DOI": "10.1146/annurev-marine-010213-135037",
+        "article-title": "Contemporary sediment-transport processes in submarine canyons",
+        "volume": "6",
+        "author": "Puig",
+        "year": "2014",
+        "journal-title": "Annu. Rev. Mar. Sci."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "244",
+        "DOI": "10.1016/j.earscirev.2013.07.005",
+        "article-title": "How are subaqueous sediment density flows triggered, what is their internal structure and how does it evolve? Direct observations from monitoring of active flows",
+        "volume": "125",
+        "author": "Talling",
+        "year": "2013",
+        "journal-title": "Earth Sci. Rev."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "724",
+        "DOI": "10.1126/science.1069803",
+        "article-title": "The shaping of continental slopes by internal tides",
+        "volume": "296",
+        "author": "Cacchione",
+        "year": "2002",
+        "journal-title": "Science"
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "2113",
+        "DOI": "10.1016/S0278-4343(00)00071-6",
+        "article-title": "The role of wave-induced density-driven fluid mud flows for cross-shelf transport on the Eel River continental shelf",
+        "volume": "20",
+        "author": "Traykovski",
+        "year": "2000",
+        "journal-title": "Cont. Shelf Res."
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "367",
+        "DOI": "10.1016/S0025-3227(03)00316-5",
+        "article-title": "Advances in the numerical modeling of sediment failure during the development of a continental margin",
+        "volume": "203",
+        "author": "Hutton",
+        "year": "2004",
+        "journal-title": "Mar. Geol."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "1319",
+        "DOI": "10.1016/j.cageo.2008.02.013",
+        "article-title": "Sedflux 2.0: An advanced process-response model that generates three-dimensional stratigraphy",
+        "volume": "34",
+        "author": "Hutton",
+        "year": "2008",
+        "journal-title": "Comput. Geosci."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "307",
+        "DOI": "10.1016/0025-3227(82)90086-X",
+        "article-title": "Conditions for the ignition of catastrophically erosive turbidity currents",
+        "volume": "46",
+        "author": "Parker",
+        "year": "1982",
+        "journal-title": "Mar. Geol."
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1029/2005JC002927",
+        "article-title": "High-resolution numerical simulations of resuspending gravity currents: Conditions for self-sustainment",
+        "volume": "110",
+        "author": "Blanchette",
+        "year": "2005",
+        "journal-title": "J. Geophys. Res. Ocean."
+      },
+      {
+        "key": "ref_11",
+        "first-page": "703",
+        "article-title": "Sub-decadal submarine landslides are important drivers of deltaic sediment flux: Insights from the Mississippi River Delta Front",
+        "volume": "45",
+        "author": "Obelcz",
+        "year": "2017",
+        "journal-title": "Geology"
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1384",
+        "DOI": "10.1016/j.csr.2009.03.002",
+        "article-title": "Currents and sediment transport in the Mississippi Canyon and effects of Hurricane Georges",
+        "volume": "29",
+        "author": "Ross",
+        "year": "2009",
+        "journal-title": "Cont. Shelf Res."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1857",
+        "DOI": "10.1016/j.csr.2007.03.004",
+        "article-title": "Assessing the importance of tropical cyclones on continental margin sedimentation in the Mississippi delta region",
+        "volume": "27",
+        "author": "Dail",
+        "year": "2007",
+        "journal-title": "Cont. Shelf Res."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "263",
+        "DOI": "10.2118/4475-PA",
+        "article-title": "The failure of the South Pass 70 Platform B in Hurricane Camille",
+        "volume": "27",
+        "author": "Sterling",
+        "year": "1975",
+        "journal-title": "J. Pet. Technol."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "L11604",
+        "DOI": "10.1029/2010GL043124",
+        "article-title": "High sea-floor stress induced by extreme hurricane waves",
+        "volume": "37",
+        "author": "Wijesekera",
+        "year": "2010",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "L07607",
+        "DOI": "10.1029/2005GL025281",
+        "article-title": "Bottom scour observed under Hurricane Ivan",
+        "volume": "33",
+        "author": "Teague",
+        "year": "2006",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "1249",
+        "DOI": "10.1175/1520-0485(1987)017<1249:NIOCRT>2.0.CO;2",
+        "article-title": "Near-inertial ocean current response to Hurricane Frederic",
+        "volume": "17",
+        "author": "Shay",
+        "year": "1987",
+        "journal-title": "J. Phys. Oceanogr."
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "117",
+        "DOI": "10.1175/1520-0485(1983)013<0117:TWOHAI>2.0.CO;2",
+        "article-title": "The wake of Hurricane Allen in the western Gulf of Mexico",
+        "volume": "13",
+        "author": "Brooks",
+        "year": "1983",
+        "journal-title": "J. Phys. Oceanogr."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "1558",
+        "DOI": "10.1016/j.csr.2011.05.008",
+        "article-title": "Dispersal of Mississippi and Atchafalaya sediment on the Texas\u2013Louisiana shelf: Model estimates for the year 1993",
+        "volume": "31",
+        "author": "Xu",
+        "year": "2011",
+        "journal-title": "Cont. Shelf Res."
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "24",
+        "DOI": "10.1016/j.cageo.2015.10.009",
+        "article-title": "Shelf sediment transport during hurricanes Katrina and Rita",
+        "volume": "90",
+        "author": "Xu",
+        "year": "2016",
+        "journal-title": "Comput. Geosci."
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "29",
+        "DOI": "10.1016/j.ocemod.2018.04.002",
+        "article-title": "Numerical study of sediment dynamics during hurricane Gustav",
+        "volume": "126",
+        "author": "Zang",
+        "year": "2018",
+        "journal-title": "Ocean Model."
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zang, Z., Xue, Z.G., Xu, K., Bentley, S.J., Chen, Q.J., D\u2019Sa, E.J., and Ge, Q. (2019). A two decadal (1993\u20132012) numerical assessment of sediment dynamics in the northern Gulf of Mexico. Water, 11.",
+        "DOI": "10.3390/w11050938"
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "35",
+        "DOI": "10.1002/hyp.7477",
+        "article-title": "Causes for the decline of suspended-sediment discharge in the Mississippi River system, 1940\u20132007",
+        "volume": "24",
+        "author": "Meade",
+        "year": "2010",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "494",
+        "DOI": "10.2307/1352367",
+        "article-title": "Dispersal of river sediments in coastal seas: Six contrasting cases",
+        "volume": "18",
+        "author": "Wright",
+        "year": "1995",
+        "journal-title": "Estuaries"
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "411",
+        "DOI": "10.1016/j.margeo.2004.11.002",
+        "article-title": "Subaqueous deltaic formation on the Atchafalaya Shelf, Louisiana",
+        "volume": "214",
+        "author": "Neill",
+        "year": "2005",
+        "journal-title": "Mar. Geol."
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "4",
+        "DOI": "10.2110/sedred.2007.1.4",
+        "article-title": "The effects of Hurricanes Katrina and Rita on the seabed of the Louisiana shelf",
+        "volume": "5",
+        "author": "Alleau",
+        "year": "2007",
+        "journal-title": "Sediment. Rec."
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "2073",
+        "DOI": "10.1016/j.csr.2006.07.023",
+        "article-title": "Fine-sediment transport associated with cold-front passages on the shallow shelf, Gulf of Mexico",
+        "volume": "26",
+        "author": "Kineke",
+        "year": "2006",
+        "journal-title": "Cont. Shelf Res."
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "43",
+        "DOI": "10.1016/j.margeo.2004.05.004",
+        "article-title": "Hydrodynamic and sedimentary responses to two contrasting winter storms on the inner shelf of the northern Gulf of Mexico",
+        "volume": "210",
+        "author": "Pepper",
+        "year": "2004",
+        "journal-title": "Mar. Geol."
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "first-page": "031104",
+        "DOI": "10.1115/1.4023205",
+        "article-title": "Analyses of extreme wave heights in the Gulf of Mexico for offshore engineering applications",
+        "volume": "135",
+        "author": "Panchang",
+        "year": "2013",
+        "journal-title": "J. Offshore Mech. Arct. Eng."
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "first-page": "32",
+        "DOI": "10.1525/elementa.285",
+        "article-title": "Scales of seafloor sediment resuspension in the northern Gulf of Mexico",
+        "volume": "6",
+        "author": "Diercks",
+        "year": "2018",
+        "journal-title": "Elem. Sci. Anthr."
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "80",
+        "DOI": "10.1016/j.cageo.2011.08.011",
+        "article-title": "WBMsed, a distributed global-scale riverine sediment flux model: Model description and validation",
+        "volume": "53",
+        "author": "Cohen",
+        "year": "2013",
+        "journal-title": "Comput. Geosci."
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "first-page": "44",
+        "DOI": "10.1016/j.gloplacha.2014.01.011",
+        "article-title": "Global suspended sediment and water discharge dynamics between 1960 and 2010: Continental trends and intra-basin sensitivity",
+        "volume": "115",
+        "author": "Cohen",
+        "year": "2014",
+        "journal-title": "Glob. Planet. Chang."
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1086/509246",
+        "article-title": "Geology, geography, and humans battle for dominance over the delivery of fluvial sediment to the coastal ocean",
+        "volume": "115",
+        "author": "Syvitski",
+        "year": "2007",
+        "journal-title": "J. Geol."
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "first-page": "95",
+        "DOI": "10.1016/S0921-8181(03)00019-5",
+        "article-title": "Modeling the temporal variability in the flux of sediment from ungauged river basins",
+        "volume": "39",
+        "author": "Morehead",
+        "year": "2003",
+        "journal-title": "Glob. Planet. Chang."
+      },
+      {
+        "key": "ref_35",
+        "unstructured": "(2020, February 01). Geological Survey, Available online: http://waterdata.usgs.gov/nwis/."
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "first-page": "123",
+        "DOI": "10.1016/j.jhydrol.2012.09.035",
+        "article-title": "Calibration of satellite measurements of river discharge using a global hydrology model",
+        "volume": "475",
+        "author": "Brakenridge",
+        "year": "2012",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "first-page": "3595",
+        "DOI": "10.1016/j.jcp.2007.06.016",
+        "article-title": "Ocean forecasting in terrain-following coordinates: Formulation and skill assessment of the Regional Ocean Modeling System",
+        "volume": "227",
+        "author": "Haidvogel",
+        "year": "2008",
+        "journal-title": "J. Comput. Phys."
+      },
+      {
+        "key": "ref_38",
+        "doi-asserted-by": "crossref",
+        "first-page": "347",
+        "DOI": "10.1016/j.ocemod.2004.08.002",
+        "article-title": "The regional oceanic modeling system (ROMS): A split-explicit, free-surface, topography-following-coordinate oceanic model",
+        "volume": "9",
+        "author": "Shchepetkin",
+        "year": "2005",
+        "journal-title": "Ocean Model."
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "first-page": "3090",
+        "DOI": "10.1029/2001JC001047",
+        "article-title": "A method for computing horizontal pressure-gradient force in an oceanic model with a nonaligned vertical coordinate",
+        "volume": "108",
+        "author": "Shchepetkin",
+        "year": "2003",
+        "journal-title": "J. Geophys. Res. Ocean."
+      },
+      {
+        "key": "ref_40",
+        "doi-asserted-by": "crossref",
+        "first-page": "C01015",
+        "DOI": "10.1029/2002JC001702",
+        "article-title": "Vertical mixing schemes in the coastal ocean: Comparison of the level 2.5 Mellor-Yamada scheme with an enhanced version of the K profile parameterization",
+        "volume": "109",
+        "author": "Durski",
+        "year": "2004",
+        "journal-title": "J. Geophys. Res. Ocean."
+      },
+      {
+        "key": "ref_41",
+        "doi-asserted-by": "crossref",
+        "first-page": "81",
+        "DOI": "10.1016/j.ocemod.2003.12.003",
+        "article-title": "Performance of four turbulence closure models implemented using a generic length scale method",
+        "volume": "8",
+        "author": "Warner",
+        "year": "2005",
+        "journal-title": "Ocean Model."
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "first-page": "128",
+        "DOI": "10.1016/j.ocemod.2009.03.009",
+        "article-title": "A new approach to bathymetry smoothing in sigma-coordinate ocean models",
+        "volume": "29",
+        "author": "Janekovic",
+        "year": "2009",
+        "journal-title": "Ocean Model."
+      },
+      {
+        "key": "ref_43",
+        "doi-asserted-by": "crossref",
+        "first-page": "1284",
+        "DOI": "10.1016/j.cageo.2008.02.012",
+        "article-title": "Development of a three-dimensional, regional, coupled wave, current, and sediment-transport model",
+        "volume": "34",
+        "author": "Warner",
+        "year": "2008",
+        "journal-title": "Comput. Geosci."
+      },
+      {
+        "key": "ref_44",
+        "unstructured": "Isaacson, M., and Quick, M.C. (1994). Development of a third-generation ocean wave model at NOAA-NMC. Physical and Numerical Modelling, The University of British Columbia."
+      },
+      {
+        "key": "ref_45",
+        "doi-asserted-by": "crossref",
+        "first-page": "1243",
+        "DOI": "10.1016/j.cageo.2008.02.010",
+        "article-title": "Calculating wave-generated bottom orbital velocities from surface-wave parameters",
+        "volume": "34",
+        "author": "Wiberg",
+        "year": "2008",
+        "journal-title": "Comput. Geosci."
+      },
+      {
+        "key": "ref_46",
+        "doi-asserted-by": "crossref",
+        "first-page": "614",
+        "DOI": "10.1016/j.csr.2007.11.011",
+        "article-title": "Seabed mapping and characterization of sediment variability using the usSEABED data base",
+        "volume": "28",
+        "author": "Goff",
+        "year": "2008",
+        "journal-title": "Cont. Shelf Res."
+      },
+      {
+        "key": "ref_47",
+        "unstructured": "Jenkins, C. (2020, June 27). Dominant bottom types and habitats, Gulf of Mexico Data Atlas. Stennis Space Center (MS): National Coastal Data Development Center, Available online: http://gulfatlas.noaa.gov/."
+      },
+      {
+        "key": "ref_48",
+        "doi-asserted-by": "crossref",
+        "first-page": "30",
+        "DOI": "10.2112/SI_60_4",
+        "article-title": "Offshore sediment character and sand resource assessment of the northern Gulf of Mexico, Florida to Texas",
+        "volume": "60",
+        "author": "Williams",
+        "year": "2012",
+        "journal-title": "J. Coast. Res."
+      },
+      {
+        "key": "ref_49",
+        "unstructured": "Lumsde, S.E., Hourigan, T.F., Bruckner, A.W., and Dorr, G. (2007). State of deep coral ecosystems in the Gulf of Mexico region, Texas to the Florida Straits, The State of Deep Coral Ecosystems of the United States, NOAA Technical Memorandum CRCP-3."
+      },
+      {
+        "key": "ref_50",
+        "doi-asserted-by": "crossref",
+        "first-page": "370",
+        "DOI": "10.1016/j.geomorph.2007.01.005",
+        "article-title": "Drowned shelf-edge deltas, barrier islands and related features along the outer continental shelf north of the head of De Soto Canyon, NE Gulf of Mexico",
+        "volume": "89",
+        "author": "Gardner",
+        "year": "2007",
+        "journal-title": "Geomorphology"
+      },
+      {
+        "key": "ref_51",
+        "doi-asserted-by": "crossref",
+        "first-page": "143",
+        "DOI": "10.1146/annurev.marine.010908.163912",
+        "article-title": "Macro-ecology of Gulf of Mexico cold seeps",
+        "volume": "1",
+        "author": "Cordes",
+        "year": "2009",
+        "journal-title": "Annu. Rev. Mar. Sci."
+      },
+      {
+        "key": "ref_52",
+        "doi-asserted-by": "crossref",
+        "first-page": "229",
+        "DOI": "10.1016/S0169-555X(98)00082-8",
+        "article-title": "Velocity reversals and sediment sorting in pools and riffles controlled by channel constrictions",
+        "volume": "27",
+        "author": "Thompson",
+        "year": "1999",
+        "journal-title": "Geomorphology"
+      },
+      {
+        "key": "ref_53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ueckermann, M.P., Chambers, R.D., Brooks, C.A., Audette, W.E., and Bieszczad, J. (2015, January 6\u201312). pyDEM: Global digital elevation model analysis. Proceedings of the 14th Python in Science Conference (SciPy 2015), Austin, TX, USA.",
+        "DOI": "10.25080/Majora-7b98e3ed-011"
+      },
+      {
+        "key": "ref_54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wright, D. (2016). Sediment Drainage Streams Important in Benthic Seafloor Classification. Ocean Solutions, Earth Solutions, ESRI Press. [2nd ed.].",
+        "DOI": "10.17128/9781589484603"
+      },
+      {
+        "key": "ref_55",
+        "doi-asserted-by": "crossref",
+        "first-page": "34",
+        "DOI": "10.1016/j.csr.2013.07.012",
+        "article-title": "Storm and fair-weather driven sediment-transport within Poverty Bay, New Zealand, evaluated using coupled numerical models",
+        "volume": "86",
+        "author": "Bever",
+        "year": "2014",
+        "journal-title": "Cont. Shelf Res."
+      },
+      {
+        "key": "ref_56",
+        "doi-asserted-by": "crossref",
+        "first-page": "2702",
+        "DOI": "10.1002/jgrc.20209",
+        "article-title": "A numerical investigation of the dynamics and structure of hyperpycnal river plumes on sloping continental shelves",
+        "volume": "118",
+        "author": "Chen",
+        "year": "2013",
+        "journal-title": "J. Geophys. Res. Ocean."
+      },
+      {
+        "key": "ref_57",
+        "doi-asserted-by": "crossref",
+        "first-page": "55",
+        "DOI": "10.1016/0025-3227(85)90148-3",
+        "article-title": "Prediction of ignitive turbidity currents in Scripps Submarine Canyon",
+        "volume": "67",
+        "author": "Fukushima",
+        "year": "1985",
+        "journal-title": "Mar. Geol."
+      },
+      {
+        "key": "ref_58",
+        "doi-asserted-by": "crossref",
+        "first-page": "79",
+        "DOI": "10.1046/j.1365-3091.1999.00204.x",
+        "article-title": "The sequence of events around the epicentre of the 1929 Grand Banks earthquake: Initiation of debris flows and turbidity current inferred from sidescan sonar",
+        "volume": "46",
+        "author": "Piper",
+        "year": "1999",
+        "journal-title": "Sedimentology"
+      },
+      {
+        "key": "ref_59",
+        "doi-asserted-by": "crossref",
+        "first-page": "145",
+        "DOI": "10.1017/S0022112086001404",
+        "article-title": "Self-accelerating turbidity currents",
+        "volume": "171",
+        "author": "Parker",
+        "year": "1986",
+        "journal-title": "J. Fluid Mech."
+      },
+      {
+        "key": "ref_60",
+        "doi-asserted-by": "crossref",
+        "first-page": "1308",
+        "DOI": "10.1061/(ASCE)0733-9429(1985)111:10(1308)",
+        "article-title": "Erosion of soft cohesive sediment deposits",
+        "volume": "111",
+        "author": "Parchure",
+        "year": "1985",
+        "journal-title": "J. Hydraul. Eng."
+      },
+      {
+        "key": "ref_61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nielsen, P. (1992). Coastal Bottom Boundary Layers and Sediment Transport, World Scientific. Advanced Series on Ocean Engineering.",
+        "DOI": "10.1142/9789812796035"
+      },
+      {
+        "key": "ref_62",
+        "doi-asserted-by": "crossref",
+        "first-page": "175",
+        "DOI": "10.1016/0025-3227(92)90171-D",
+        "article-title": "In situ erosion measurements on fine-grained sediments from the Bay of Fundy",
+        "volume": "108",
+        "author": "Amos",
+        "year": "1992",
+        "journal-title": "Mar. Geol."
+      },
+      {
+        "key": "ref_63",
+        "doi-asserted-by": "crossref",
+        "first-page": "119",
+        "DOI": "10.2110/jsr.2010.005",
+        "article-title": "Lenticular shale fabricsresulting from intermittent erosion of water-rich muds\u2014Interpreting the rock record in the light of recent flume experiments",
+        "volume": "80",
+        "author": "Schieber",
+        "year": "2010",
+        "journal-title": "J. Sediment. Res."
+      },
+      {
+        "key": "ref_64",
+        "doi-asserted-by": "crossref",
+        "first-page": "862",
+        "DOI": "10.2110/jsr.2009.095",
+        "article-title": "Predicting autosuspension in steady turbidity flow: Ignition points and their relation to Richardson numbers",
+        "volume": "79",
+        "author": "Pantin",
+        "year": "2009",
+        "journal-title": "J. Sediment. Res."
+      },
+      {
+        "key": "ref_65",
+        "doi-asserted-by": "crossref",
+        "first-page": "883",
+        "DOI": "10.1016/j.marpetgeo.2003.03.002",
+        "article-title": "Constraining the efficiency of turbidity current generation from submarine debris flows and slides using laboratory experiments",
+        "volume": "20",
+        "author": "Mohrig",
+        "year": "2003",
+        "journal-title": "Mar. Pet. Geol."
+      },
+      {
+        "key": "ref_66",
+        "doi-asserted-by": "crossref",
+        "first-page": "129",
+        "DOI": "10.1306/062303740129",
+        "article-title": "Flow Transformations in particulate gravity currents",
+        "volume": "74",
+        "author": "Waltham",
+        "year": "2004",
+        "journal-title": "J. Sediment. Res."
+      },
+      {
+        "key": "ref_67",
+        "unstructured": "Nodine, M.C., Cheon, J.Y., Wright, S.G., and Gilbert, R.B. (2006). Mudslides during Hurricane Ivan and an assessment of the potential for future mudslides in the Gulf of Mexico. C175 Phase I Project Report, Minerals Management Service. MMS Project Number 552."
+      },
+      {
+        "key": "ref_68",
+        "doi-asserted-by": "crossref",
+        "first-page": "573",
+        "DOI": "10.1061/(ASCE)0733-9410(1983)109:4(573)",
+        "article-title": "Ocean wave-induced liquefaction analysis",
+        "volume": "109",
+        "author": "Nataraja",
+        "year": "1983",
+        "journal-title": "J. Geotech. Eng."
+      },
+      {
+        "key": "ref_69",
+        "doi-asserted-by": "crossref",
+        "first-page": "65",
+        "DOI": "10.1061/(ASCE)GM.1943-5622.0000189",
+        "article-title": "Pore-water pressure development caused by wave-induced cyclic loading in deep porous formation",
+        "volume": "13",
+        "author": "Geremew",
+        "year": "2013",
+        "journal-title": "Int. J. Geomech."
+      },
+      {
+        "key": "ref_70",
+        "doi-asserted-by": "crossref",
+        "first-page": "53",
+        "DOI": "10.1002/nag.547",
+        "article-title": "A new approximation for pore pressure accumulation in marine sediment due to water waves",
+        "volume": "31",
+        "author": "Jeng",
+        "year": "2006",
+        "journal-title": "Int. J. Numer. Anal. Methods Geomech."
+      },
+      {
+        "key": "ref_71",
+        "doi-asserted-by": "crossref",
+        "first-page": "517",
+        "DOI": "10.2475/ajs.299.7-9.517",
+        "article-title": "New rheological and porosity equations for steady-state compaction",
+        "volume": "299",
+        "author": "Boudreau",
+        "year": "1999",
+        "journal-title": "Am. J. Sci."
+      },
+      {
+        "key": "ref_72",
+        "unstructured": "Selig, E., and Ladd, R. (2009). Factors Controlling maximum and minimum densities of sands. Evaluation of Relative Density and Its Role in Geotechnical Projects Involving Cohesionless Soils, ASTM International."
+      },
+      {
+        "key": "ref_73",
+        "first-page": "1026",
+        "article-title": "East Louisiana continental shelf sediments: A product of delta reworking",
+        "volume": "11",
+        "author": "Brooks",
+        "year": "1995",
+        "journal-title": "J. Coast. Res."
+      },
+      {
+        "key": "ref_74",
+        "doi-asserted-by": "crossref",
+        "first-page": "14",
+        "DOI": "10.1016/j.compfluid.2010.11.023",
+        "article-title": "TURBINS: An immersed boundary, Navier\u2013Stokes code for the simulation of gravity and turbidity currents interacting with complex topographies",
+        "volume": "45",
+        "author": "Meiburg",
+        "year": "2011",
+        "journal-title": "Comput. Fluids"
+      },
+      {
+        "key": "ref_75",
+        "doi-asserted-by": "crossref",
+        "first-page": "409",
+        "DOI": "10.1017/jfm.2014.47",
+        "article-title": "Turbidity currents interacting with three-dimensional seafloor topography",
+        "volume": "745",
+        "author": "Meiburg",
+        "year": "2014",
+        "journal-title": "J. Fluid Mech."
+      },
+      {
+        "key": "ref_76",
+        "doi-asserted-by": "crossref",
+        "first-page": "279",
+        "DOI": "10.1016/S0301-9322(01)00065-9",
+        "article-title": "High-resolution simulations of particle-driven gravity currents",
+        "volume": "28",
+        "author": "Necker",
+        "year": "2002",
+        "journal-title": "Int. J. Multiph. Flow"
+      },
+      {
+        "key": "ref_77",
+        "doi-asserted-by": "crossref",
+        "first-page": "339",
+        "DOI": "10.1017/S0022112005006932",
+        "article-title": "Mixing and dissipation in particle-driven gravity currents",
+        "volume": "545",
+        "author": "Necker",
+        "year": "2005",
+        "journal-title": "J. Fluid Mech."
+      },
+      {
+        "key": "ref_78",
+        "doi-asserted-by": "crossref",
+        "first-page": "883",
+        "DOI": "10.1063/1.864230",
+        "article-title": "Equation of motion for a small rigid sphere in a nonuniform flow",
+        "volume": "26",
+        "author": "Maxey",
+        "year": "1983",
+        "journal-title": "Phys. Fluids"
+      },
+      {
+        "key": "ref_79",
+        "doi-asserted-by": "crossref",
+        "first-page": "4793",
+        "DOI": "10.1029/92JC02404",
+        "article-title": "Experiments on the entrainment of sediment into suspension by a dense bottom current",
+        "volume": "98",
+        "author": "Garcia",
+        "year": "1993",
+        "journal-title": "J. Geophys. Res. Ocean."
+      },
+      {
+        "key": "ref_80",
+        "doi-asserted-by": "crossref",
+        "first-page": "304",
+        "DOI": "10.1016/j.margeo.2016.12.012",
+        "article-title": "Benthic storms, nepheloid layers, and linkage with upper ocean dynamics in the western North Atlantic",
+        "volume": "385",
+        "author": "Gardner",
+        "year": "2017",
+        "journal-title": "Mar. Geol."
+      },
+      {
+        "key": "ref_81",
+        "doi-asserted-by": "crossref",
+        "first-page": "423",
+        "DOI": "10.1130/0091-7613(1979)7<423:DAUSSI>2.0.CO;2",
+        "article-title": "Digitally acquired undistorted side scan sonar images of submarine landslides, Mississippi Delta",
+        "volume": "7",
+        "author": "Prior",
+        "year": "1979",
+        "journal-title": "Geology"
+      },
+      {
+        "key": "ref_82",
+        "doi-asserted-by": "crossref",
+        "first-page": "1027",
+        "DOI": "10.1007/s10236-010-0317-z",
+        "article-title": "Submarine landslides and the importance of the initial sediment composition for run-out length and final deposit",
+        "volume": "60",
+        "author": "Breien",
+        "year": "2010",
+        "journal-title": "Ocean Dyn."
+      },
+      {
+        "key": "ref_83",
+        "doi-asserted-by": "crossref",
+        "first-page": "301",
+        "DOI": "10.1016/j.earscirev.2015.10.001",
+        "article-title": "A source-to-sink perspective of the Waipaoa River margin",
+        "volume": "153",
+        "author": "Kuehl",
+        "year": "2016",
+        "journal-title": "Earth Sci. Rev."
+      },
+      {
+        "key": "ref_84",
+        "doi-asserted-by": "crossref",
+        "first-page": "1814",
+        "DOI": "10.1175/1520-0485(2000)030<1814:FORSFT>2.0.CO;2",
+        "article-title": "Frequency of ring separations from the loop current in the Gulf of Mexico: A revised estimate",
+        "volume": "30",
+        "author": "Sturges",
+        "year": "2000",
+        "journal-title": "J. Phys. Oceanogr."
+      },
+      {
+        "key": "ref_85",
+        "doi-asserted-by": "crossref",
+        "first-page": "40",
+        "DOI": "10.1016/j.ancene.2018.11.002",
+        "article-title": "High-resolution investigation of event driven sedimentation: Northeastern Gulf of Mexico",
+        "volume": "24",
+        "author": "Larson",
+        "year": "2018",
+        "journal-title": "Anthropocene"
+      }
+    ],
+    "container-title": [
+      "Journal of Marine Science and Engineering"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2077-1312/8/8/586/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          11
+        ]
+      ],
+      "date-time": "2025-10-11T09:57:05Z",
+      "timestamp": 1760176625000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2077-1312/8/8/586"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          6
+        ]
+      ]
+    },
+    "references-count": 85,
+    "journal-issue": {
+      "issue": "8",
+      "published-online": {
+        "date-parts": [
+          [
+            2020,
+            8
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "jmse8080586"
+    ],
+    "URL": "https://doi.org/10.3390/jmse8080586",
+    "relation": {},
+    "ISSN": [
+      "2077-1312"
+    ],
+    "issn-type": [
+      {
+        "value": "2077-1312",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          6
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.3390/jmse8080586",
+  "original_doi": "10.3390/jmse8080586"
+}

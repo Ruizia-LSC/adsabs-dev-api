@@ -1,0 +1,1463 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          15
+        ]
+      ],
+      "date-time": "2026-06-15T02:25:11Z",
+      "timestamp": 1781490311090,
+      "version": "3.54.1"
+    },
+    "reference-count": 123,
+    "publisher": "MDPI AG",
+    "issue": "13",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              23
+            ]
+          ],
+          "date-time": "2025-06-23T00:00:00Z",
+          "timestamp": 1750636800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "NOAA",
+        "award": [
+          "NA24NESX432C0001"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NA24NESX432C0001"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Remote Sensing"
+    ],
+    "abstract": "<jats:p>Monitoring chlorophyll-a concentration (Chl-a) is essential for assessing aquatic ecosystem health, yet its retrieval using remote sensing remains challenging in turbid coastal waters because of the intricate optical characteristics of these environments. Elevated levels of colored (chromophoric) dissolved organic matter (CDOM) and suspended sediments (aka total suspended solids, TSS) interfere with satellite-based Chl-a estimates, necessitating alternative approaches. One potential solution is machine learning, indirectly including non-Chl-a signals into the models. In this research, we develop machine learning models to predict Chl-a concentrations in the Chesapeake Bay, one of the largest estuaries on North America\u2019s East Coast. Our approach leverages the Extra-Trees (ET) algorithm, a tree-based ensemble method that offers predictive accuracy comparable to that of other ensemble models, while significantly improving computational efficiency. Using the entire ocean color datasets acquired by the satellite sensors MODIS-Aqua (&gt;20 years) and VIIRS-SNPP (&gt;10 years), we generated long-term Chl-a estimates covering the entire Chesapeake Bay area. The models achieve a multiplicative absolute error of approximately 1.40, demonstrating reliable performance. The predicted spatiotemporal Chl-a patterns align with known ecological processes in the Chesapeake Bay, particularly those influenced by riverine inputs and seasonal variability. This research emphasizes the potential of machine learning to enhance satellite-based water quality monitoring in optically complex coastal waters, providing valuable insights for ecosystem management and conservation.</jats:p>",
+    "DOI": "10.3390/rs17132151",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          23
+        ]
+      ],
+      "date-time": "2025-06-23T09:08:44Z",
+      "timestamp": 1750669724000
+    },
+    "page": "2151",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "Chlorophyll-a in the Chesapeake Bay Estimated by Extra-Trees Machine Learning Modeling"
+    ],
+    "prefix": "10.3390",
+    "volume": "17",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-6154-3277",
+        "authenticated-orcid": false,
+        "given": "Nikolay P.",
+        "family": "Nezlin",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "NOAA/NESDIS Center for Satellite Applications and Research, 5830 University Research Court, College Park, MD 20740, USA"
+          },
+          {
+            "name": "Global Science & Technology, Inc., 7501 Greenway Center Drive, Suite 1100, Greenbelt, MD 20770, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0007-3335-7566",
+        "authenticated-orcid": false,
+        "given": "SeungHyun",
+        "family": "Son",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NOAA/NESDIS Center for Satellite Applications and Research, 5830 University Research Court, College Park, MD 20740, USA"
+          },
+          {
+            "name": "Cooperative Institute for Satellite Earth System Studies (CISESS), Earth System Science Interdisciplinary Center (ESSIC), University of Maryland, 5825 University Research Court, College Park, MD 20742, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Salem I.",
+        "family": "Salem",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Plymouth Marine Laboratory, Prospect Place, Plymouth PL1 3DH, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael E.",
+        "family": "Ondrusek",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NOAA/NESDIS Center for Satellite Applications and Research, 5830 University Research Court, College Park, MD 20740, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          23
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "unstructured": "IOCCG (2008). Why Ocean Colour? The Societal Benefits of Ocean-Colour Technology, International Ocean-Colour Coordinating Group (IOCCG)."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "361",
+        "DOI": "10.4319/lo.1977.22.2.0361",
+        "article-title": "A trophic state index for lakes",
+        "volume": "22",
+        "author": "Carlson",
+        "year": "1977",
+        "journal-title": "Limnol. Oceanogr."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "18",
+        "DOI": "10.5670/oceanog.2014.56",
+        "article-title": "A Framework for a Marine Biodiversity Observing Network Within Changing Continental Shelf Seascapes",
+        "volume": "27",
+        "author": "Kavanaugh",
+        "year": "2014",
+        "journal-title": "Oceanography"
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "752",
+        "DOI": "10.1038/nature05317",
+        "article-title": "Climate-driven trends in contemporary ocean productivity",
+        "volume": "444",
+        "author": "Behrenfeld",
+        "year": "2006",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "227",
+        "DOI": "10.1146/annurev.marine.010908.163917",
+        "article-title": "Marine Primary Production in Relation to Climate Variability and Change",
+        "volume": "3",
+        "author": "Chavez",
+        "year": "2011",
+        "journal-title": "Annu. Rev. Mar. Sci."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "110760",
+        "DOI": "10.1016/j.ecolind.2023.110760",
+        "article-title": "Algal bloom ties: Systemic biogeochemical stress and Chlorophyll-a shift forecasting",
+        "volume": "154",
+        "author": "Wang",
+        "year": "2023",
+        "journal-title": "Ecol. Indic."
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1431",
+        "DOI": "10.1175/BAMS-D-13-00047.1",
+        "article-title": "The Concept of Essential Climate Variables in Support of Climate Research, Applications, and Policy",
+        "volume": "95",
+        "author": "Bojinski",
+        "year": "2014",
+        "journal-title": "Bull. Am. Meteorol. Soc."
+      },
+      {
+        "key": "ref_8",
+        "unstructured": "GCOS (2011). Systematic Observation Requirements for Satellite-Based Products for Climate. 2011 Update, Global Climate Observing System, World Meteorological Organization."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gordon, H.R., and Morel, A.Y. (1983). Remote Assessment of Ocean Color for Interpretation of Satellite Visible Imagery: A Review, Springer.",
+        "DOI": "10.1029/LN004"
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "10749",
+        "DOI": "10.1029/JC093iC09p10749",
+        "article-title": "Optical modeling of the upper ocean in relation to its biogenous matter content (case I waters)",
+        "volume": "93",
+        "author": "Morel",
+        "year": "1988",
+        "journal-title": "J. Geophys. Res. Oceans"
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "709",
+        "DOI": "10.4319/lo.1977.22.4.0709",
+        "article-title": "Analysis of variations in ocean color",
+        "volume": "22",
+        "author": "Morel",
+        "year": "1977",
+        "journal-title": "Limnol. Oceanogr."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1319",
+        "DOI": "10.1016/j.rse.2009.02.012",
+        "article-title": "Regional and seasonal variability of chlorophyll-a in Chesapeake Bay as observed by SeaWiFS and MODIS-Aqua",
+        "volume": "113",
+        "author": "Werdell",
+        "year": "2009",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "443",
+        "DOI": "10.1364/AO.33.000443",
+        "article-title": "Retrieval of water-leaving radiance and aerosol optical thickness over the oceans with SeaWiFS: A preliminary algorithm",
+        "volume": "33",
+        "author": "Gordon",
+        "year": "1994",
+        "journal-title": "Appl. Opt."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "17081",
+        "DOI": "10.1029/96JD02443",
+        "article-title": "Atmospheric correction of ocean color imagery in the Earth Observing System era",
+        "volume": "102",
+        "author": "Gordon",
+        "year": "1997",
+        "journal-title": "J. Geophys. Res. Atmos."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "163",
+        "DOI": "10.1016/j.rse.2012.03.009",
+        "article-title": "Water properties in Chesapeake Bay from MODIS-Aqua measurements",
+        "volume": "123",
+        "author": "Son",
+        "year": "2012",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "464",
+        "DOI": "10.1016/j.rse.2007.01.016",
+        "article-title": "Remote chlorophyll-a retrieval in turbid, productive estuaries: Chesapeake Bay case study",
+        "volume": "109",
+        "author": "Gitelson",
+        "year": "2007",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "403",
+        "DOI": "10.1016/j.ecss.2004.06.020",
+        "article-title": "Bio-optical model for Chesapeake Bay and the Middle Atlantic Bight",
+        "volume": "61",
+        "author": "Magnuson",
+        "year": "2004",
+        "journal-title": "Estuar. Coast. Shelf Sci."
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "16",
+        "DOI": "10.1016/j.ecss.2006.09.018",
+        "article-title": "Remote sensing reflectance and inherent optical properties in the mid Chesapeake Bay",
+        "volume": "72",
+        "author": "Tzortziou",
+        "year": "2007",
+        "journal-title": "Estuar. Coast. Shelf Sci."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "75",
+        "DOI": "10.1016/j.rse.2012.11.001",
+        "article-title": "Evaluation of chlorophyll-a remote sensing algorithms for an optically complex estuary",
+        "volume": "129",
+        "author": "Le",
+        "year": "2013",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "243",
+        "DOI": "10.1016/j.rse.2011.12.018",
+        "article-title": "The development of a new optical total suspended matter algorithm for the Chesapeake Bay",
+        "volume": "119",
+        "author": "Ondrusek",
+        "year": "2012",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Abbas, M.M., Melesse, A.M., Scinto, L.J., and Rehage, J.S. (2019). Satellite Estimation of Chlorophyll-a Using Moderate Resolution Imaging Spectroradiometer (MODIS) Sensor in Shallow Coastal Water Bodies: Validation and Improvement. Water, 11.",
+        "DOI": "10.3390/w11081621"
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "24109",
+        "DOI": "10.1364/OE.18.024109",
+        "article-title": "Algorithms for remote estimation of chlorophyll-a in coastal and inland waters using red and near infrared bands",
+        "volume": "18",
+        "author": "Gilerson",
+        "year": "2010",
+        "journal-title": "Opt. Express"
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "394",
+        "DOI": "10.1016/j.rse.2011.10.016",
+        "article-title": "Normalized difference chlorophyll index: A novel model for remote estimation of chlorophyll-a concentration in turbid productive waters",
+        "volume": "117",
+        "author": "Mishra",
+        "year": "2012",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "75",
+        "DOI": "10.1016/j.ecss.2004.08.011",
+        "article-title": "SeaWiFS retrievals of chlorophyll in Chesapeake Bay and the mid-Atlantic bight",
+        "volume": "62",
+        "author": "Harding",
+        "year": "2005",
+        "journal-title": "Estuar. Coast. Shelf Sci."
+      },
+      {
+        "key": "ref_25",
+        "first-page": "18",
+        "article-title": "Towards a unified approach for remote estimation of chlorophyll-a in both terrestrial vegetation and turbid productive waters",
+        "volume": "30",
+        "author": "Gitelson",
+        "year": "2003",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gilerson, A., Malinowski, M., Agagliate, J., Herrera-Estrella, E., Tzortziou, M., Tomlinson, M.C., Meredith, A., Stumpf, R.P., Ondrusek, M., and Jiang, L. (2024). Development of VIIRS-OLCI chlorophyll-a product for the coastal estuaries. Front. Mar. Sci., 11.",
+        "DOI": "10.3389/fmars.2024.1476425"
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hieronymi, M., M\u00fcller, D., and Doerffer, R. (2017). The OLCI Neural Network Swarm (ONNS): A Bio-Geo-Optical Algorithm for Open Ocean and Coastal Waters. Front. Mar. Sci., 4.",
+        "DOI": "10.3389/fmars.2017.00140"
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "111604",
+        "DOI": "10.1016/j.rse.2019.111604",
+        "article-title": "Seamless retrievals of chlorophyll-a from Sentinel-2 (MSI) and Sentinel-3 (OLCI) in inland and coastal waters: A machine-learning approach",
+        "volume": "240",
+        "author": "Pahlevan",
+        "year": "2020",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "first-page": "113953",
+        "DOI": "10.1016/j.rse.2023.113953",
+        "article-title": "A decade-long chlorophyll-a data record in lakes across China from VIIRS observations",
+        "volume": "301",
+        "author": "Cao",
+        "year": "2024",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "first-page": "490",
+        "DOI": "10.1016/j.isprsjprs.2024.12.019",
+        "article-title": "3LATNet: Attention based deep learning model for global Chlorophyll-a retrieval from GCOM-C satellite",
+        "volume": "220",
+        "author": "Salah",
+        "year": "2025",
+        "journal-title": "ISPRS J. Photogramm. Remote Sens."
+      },
+      {
+        "key": "ref_31",
+        "first-page": "3743",
+        "article-title": "1D Convolutional Neural Network-based Chlorophyll-a Retrieval Algorithm for Sentinel-2 MultiSpectral Instrument in Various Trophic States",
+        "volume": "35",
+        "author": "Salah",
+        "year": "2023",
+        "journal-title": "Sens. Mater."
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "first-page": "203",
+        "DOI": "10.1016/j.rse.2019.04.019",
+        "article-title": "A machine learning approach to estimate surface ocean pCO2 from satellite measurements",
+        "volume": "228",
+        "author": "Chen",
+        "year": "2019",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_33",
+        "first-page": "024509",
+        "article-title": "Analyses of satellite ocean color retrievals show advantage of neural network approaches and algorithms that avoid deep blue bands",
+        "volume": "13",
+        "author": "Ahmed",
+        "year": "2019",
+        "journal-title": "J. Appl. Remote Sens."
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "first-page": "77",
+        "DOI": "10.1016/j.enbuild.2017.04.038",
+        "article-title": "Trees vs Neurons: Comparison between random forest and ANN for high-resolution prediction of building energy consumption",
+        "volume": "147",
+        "author": "Ahmad",
+        "year": "2017",
+        "journal-title": "Energy Build."
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nawar, S., and Mouazen, A.M. (2017). Comparison between Random Forests, Artificial Neural Networks and Gradient Boosted Machines Methods of On-Line Vis-NIR Spectroscopy Measurements of Soil Total Nitrogen and Total Carbon. Sensors, 17.",
+        "DOI": "10.3390/s17102428"
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "first-page": "5",
+        "DOI": "10.1023/A:1010933404324",
+        "article-title": "Random forests",
+        "volume": "45",
+        "author": "Breiman",
+        "year": "2001",
+        "journal-title": "Mach. Learn."
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "first-page": "1601",
+        "DOI": "10.1002/sim.4492",
+        "article-title": "Identifying representative trees from ensembles",
+        "volume": "31",
+        "author": "Banerjee",
+        "year": "2012",
+        "journal-title": "Stat. Med."
+      },
+      {
+        "key": "ref_38",
+        "doi-asserted-by": "crossref",
+        "first-page": "3",
+        "DOI": "10.1007/s10994-006-6226-1",
+        "article-title": "Extremely randomized trees",
+        "volume": "63",
+        "author": "Geurts",
+        "year": "2006",
+        "journal-title": "Mach. Learn."
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "first-page": "145",
+        "DOI": "10.1109/36.20292",
+        "article-title": "MODIS: Advanced facility instrument for studies of the Earth as a system",
+        "volume": "27",
+        "author": "Salomonson",
+        "year": "1989",
+        "journal-title": "IEEE Trans. Geosci. Remote Sens."
+      },
+      {
+        "key": "ref_40",
+        "doi-asserted-by": "crossref",
+        "first-page": "13463",
+        "DOI": "10.1002/2013JD020389",
+        "article-title": "Joint Polar Satellite System: The United States next generation civilian polar-orbiting environmental satellite system",
+        "volume": "118",
+        "author": "Goldberg",
+        "year": "2013",
+        "journal-title": "J. Geophys. Res. Atmos."
+      },
+      {
+        "key": "ref_41",
+        "doi-asserted-by": "crossref",
+        "first-page": "1006",
+        "DOI": "10.1061/(ASCE)0733-9372(1993)119:6(1006)",
+        "article-title": "Three-Dimensional Eutrophication Model of Chesapeake Bay",
+        "volume": "119",
+        "author": "Cerco",
+        "year": "1993",
+        "journal-title": "J. Environ. Eng."
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "first-page": "101",
+        "DOI": "10.1016/j.jmarsys.2016.08.011",
+        "article-title": "Water residence time in Chesapeake Bay for 1980\u20132012",
+        "volume": "164",
+        "author": "Du",
+        "year": "2016",
+        "journal-title": "J. Mar. Syst."
+      },
+      {
+        "key": "ref_43",
+        "doi-asserted-by": "crossref",
+        "first-page": "752",
+        "DOI": "10.1016/j.csr.2006.02.006",
+        "article-title": "Tidal energy fluxes and dissipation in the Chesapeake Bay",
+        "volume": "26",
+        "author": "Zhong",
+        "year": "2006",
+        "journal-title": "Cont. Shelf Res."
+      },
+      {
+        "key": "ref_44",
+        "doi-asserted-by": "crossref",
+        "first-page": "2565",
+        "DOI": "10.1016/j.csr.2008.07.007",
+        "article-title": "Resonance and sea level variability in Chesapeake Bay",
+        "volume": "28",
+        "author": "Zhong",
+        "year": "2008",
+        "journal-title": "Cont. Shelf Res."
+      },
+      {
+        "key": "ref_45",
+        "doi-asserted-by": "crossref",
+        "first-page": "65",
+        "DOI": "10.1016/j.rse.2013.07.002",
+        "article-title": "Tidal effects on ecosystem variability in the Chesapeake Bay from MODIS-Aqua",
+        "volume": "138",
+        "author": "Shi",
+        "year": "2013",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_46",
+        "doi-asserted-by": "crossref",
+        "first-page": "303",
+        "DOI": "10.2134/jeq2001.302303x",
+        "article-title": "Chesapeake Bay eutrophication: Scientific understanding, ecosystem restoration, and challenges for agriculture",
+        "volume": "30",
+        "author": "Boesch",
+        "year": "2001",
+        "journal-title": "J. Environ. Qual."
+      },
+      {
+        "key": "ref_47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Harding, L.W., Mallonee, M.E., Perry, E.S., Miller, W.D., Adolf, J.E., Gallegos, C.L., and Paerl, H.W. (2019). Long-term trends, current status, and transitions of water quality in Chesapeake Bay. Sci. Rep., 9.",
+        "DOI": "10.1038/s41598-019-43036-6"
+      },
+      {
+        "key": "ref_48",
+        "doi-asserted-by": "crossref",
+        "first-page": "39",
+        "DOI": "10.3354/meps157039",
+        "article-title": "Long-term increase of phytoplankton biomass in Chesapeake Bay, 1950\u20131994",
+        "volume": "157",
+        "author": "Harding",
+        "year": "1997",
+        "journal-title": "Mar. Ecol. Prog. Ser."
+      },
+      {
+        "key": "ref_49",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.3354/meps303001",
+        "article-title": "Eutrophication of Chesapeake Bay: Historical Trends and Ecological Interactions",
+        "volume": "303",
+        "author": "Kemp",
+        "year": "2005",
+        "journal-title": "Mar. Ecol. Prog. Ser."
+      },
+      {
+        "key": "ref_50",
+        "doi-asserted-by": "crossref",
+        "first-page": "1293",
+        "DOI": "10.1007/s12237-011-9413-7",
+        "article-title": "Long-Term Trends in Chesapeake Bay Seasonal Hypoxia, Stratification, and Nutrient Loading",
+        "volume": "34",
+        "author": "Murphy",
+        "year": "2011",
+        "journal-title": "Estuaries Coasts"
+      },
+      {
+        "key": "ref_51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Borum, J. (1996). Shallow Waters and Land/Sea Boundaries. Eutrophication in Coastal Marine Ecosystems, American Geophysical Union.",
+        "DOI": "10.1029/CE052p0179"
+      },
+      {
+        "key": "ref_52",
+        "doi-asserted-by": "crossref",
+        "first-page": "141",
+        "DOI": "10.1007/BF02179826",
+        "article-title": "The fate of nitrogen and phosphorus at the land-sea margin of the North Atlantic Ocean",
+        "volume": "35",
+        "author": "Nixon",
+        "year": "1996",
+        "journal-title": "Biogeochemistry"
+      },
+      {
+        "key": "ref_53",
+        "doi-asserted-by": "crossref",
+        "first-page": "229",
+        "DOI": "10.3354/meps150229",
+        "article-title": "Organic carbon balance and net ecosystem metabolism in Chesapeake Bay",
+        "volume": "150",
+        "author": "Kemp",
+        "year": "1997",
+        "journal-title": "Mar. Ecol. Prog. Ser."
+      },
+      {
+        "key": "ref_54",
+        "doi-asserted-by": "crossref",
+        "first-page": "236",
+        "DOI": "10.2307/1352096",
+        "article-title": "Responses of upper Chesapeake Bay to variations in discharge of the Susquehanna River",
+        "volume": "9",
+        "author": "Schubel",
+        "year": "1986",
+        "journal-title": "Estuaries"
+      },
+      {
+        "key": "ref_55",
+        "doi-asserted-by": "crossref",
+        "first-page": "C7",
+        "DOI": "10.1029/2011JC007160",
+        "article-title": "Long-term changes in light scattering in Chesapeake Bay inferred from Secchi depth, light attenuation, and remote sensing measurements",
+        "volume": "116",
+        "author": "Gallegos",
+        "year": "2011",
+        "journal-title": "J. Geophys. Res. Oceans"
+      },
+      {
+        "key": "ref_56",
+        "doi-asserted-by": "crossref",
+        "first-page": "122",
+        "DOI": "10.1016/j.rse.2005.07.001",
+        "article-title": "An improved in-situ bio-optical data set for ocean color algorithm development and satellite data product validation",
+        "volume": "98",
+        "author": "Werdell",
+        "year": "2005",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_57",
+        "unstructured": "Mueller, J., Fargion, G., McClain, C., Pegau, W., Zanefeld, J., Mitchell, B., Kahru, M., Wieland, J., and Stramska, M. (2003). Ocean Optics Protocols for Satellite Ocean Color Sensor Validation, Rev. 4, Vol. IV: Inherent Optical Properties: Instruments, Characterisations, Field Measurements and Data Analysis Protocols, Goddard Space Flight Space Center."
+      },
+      {
+        "key": "ref_58",
+        "doi-asserted-by": "crossref",
+        "first-page": "1524",
+        "DOI": "10.1029/2019JC014941",
+        "article-title": "Improving Satellite Global Chlorophyll a Data Products Through Algorithm Refinement and Data Recovery",
+        "volume": "124",
+        "author": "Hu",
+        "year": "2019",
+        "journal-title": "J. Geophys. Res. Oceans"
+      },
+      {
+        "key": "ref_59",
+        "doi-asserted-by": "crossref",
+        "first-page": "24937",
+        "DOI": "10.1029/98JC02160",
+        "article-title": "Ocean color chlorophyll algorithms for SeaWiFS",
+        "volume": "103",
+        "author": "Maritorena",
+        "year": "1998",
+        "journal-title": "J. Geophys. Res. Oceans"
+      },
+      {
+        "key": "ref_60",
+        "unstructured": "Olson, M. (2012). Guide to Using Chesapeake Bay Program Water Quality Monitoring Data (EPA 903-R-12-001), Chesapeake Bay Program."
+      },
+      {
+        "key": "ref_61",
+        "unstructured": "(2020). Standard Practices for Measurement of Chlorophyll Content of Algae in Surface Waters (Standard No. D3731-20)."
+      },
+      {
+        "key": "ref_62",
+        "doi-asserted-by": "crossref",
+        "first-page": "13237",
+        "DOI": "10.1029/95JC00458",
+        "article-title": "The lognormal distribution as a model for bio-optical variability in the sea",
+        "volume": "100",
+        "author": "Campbell",
+        "year": "1995",
+        "journal-title": "J. Geophys. Res. Oceans"
+      },
+      {
+        "key": "ref_63",
+        "unstructured": "US Geological Survey (2016). National Water Information System Data Available on the World Wide Web (USGS Water Data for the Nation), US Geological Survey."
+      },
+      {
+        "key": "ref_64",
+        "doi-asserted-by": "crossref",
+        "first-page": "12",
+        "DOI": "10.1016/j.rse.2006.01.015",
+        "article-title": "A multi-sensor approach for the on-orbit validation of ocean color satellite data products",
+        "volume": "102",
+        "author": "Bailey",
+        "year": "2006",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_65",
+        "first-page": "49",
+        "article-title": "Learning to rank with extremely randomized trees",
+        "volume": "14",
+        "author": "Geurts",
+        "year": "2011",
+        "journal-title": "PMLR"
+      },
+      {
+        "key": "ref_66",
+        "doi-asserted-by": "crossref",
+        "first-page": "19921",
+        "DOI": "10.1109/ACCESS.2020.2968934",
+        "article-title": "Extremely Randomized Trees-Based Scheme for Stealthy Cyber-Attack Detection in Smart Grid Networks",
+        "volume": "8",
+        "author": "Ahmed",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_67",
+        "doi-asserted-by": "crossref",
+        "first-page": "342",
+        "DOI": "10.1016/j.compeleceng.2017.08.002",
+        "article-title": "An efficient distributed protein disorder prediction with pasted samples",
+        "volume": "65",
+        "author": "Smith",
+        "year": "2018",
+        "journal-title": "Comput. Electr. Eng."
+      },
+      {
+        "key": "ref_68",
+        "doi-asserted-by": "crossref",
+        "first-page": "205",
+        "DOI": "10.2478/popets-2022-0042",
+        "article-title": "Privacy-preserving training of tree ensembles over continuous data",
+        "volume": "2022",
+        "author": "Adams",
+        "year": "2021",
+        "journal-title": "Proc. Priv. Enhancing Technol."
+      },
+      {
+        "key": "ref_69",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ghazwani, M., and Begum, M.Y. (2023). Computational intelligence modeling of hyoscine drug solubility and solvent density in supercritical processing: Gradient boosting, extra trees, and random forest models. Sci. Rep., 13.",
+        "DOI": "10.1038/s41598-023-37232-8"
+      },
+      {
+        "key": "ref_70",
+        "unstructured": "G\u00f6tz, M., Weber, C., Bl\u00f6cher, J., Stieltjes, B., Meinzer, H.-P., and Maier-Hein, K. (2014, January 14). Extremely randomized trees based brain tumor segmentation. Proceedings of the MICCAI Workshop: Brain Tumor Segmentation (BraTS) 2014, Boston, MA, USA."
+      },
+      {
+        "key": "ref_71",
+        "doi-asserted-by": "crossref",
+        "first-page": "116",
+        "DOI": "10.1016/j.cageo.2016.10.013",
+        "article-title": "Decision forests for machine learning classification of large, noisy seafloor feature sets",
+        "volume": "99",
+        "author": "Lawson",
+        "year": "2017",
+        "journal-title": "Comput. Geosci."
+      },
+      {
+        "key": "ref_72",
+        "first-page": "2825",
+        "article-title": "Scikit-learn: Machine learning in Python",
+        "volume": "12",
+        "author": "Pedregosa",
+        "year": "2011",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "key": "ref_73",
+        "doi-asserted-by": "crossref",
+        "first-page": "7404",
+        "DOI": "10.1364/OE.26.007404",
+        "article-title": "Performance metrics for the assessment of satellite data products: An ocean color case study",
+        "volume": "26",
+        "author": "Seegers",
+        "year": "2018",
+        "journal-title": "Opt. Express"
+      },
+      {
+        "key": "ref_74",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wynne, T.T., Mishra, S., Meredith, A., Litaker, R.W., and Stumpf, R.P. (2021). Intercalibration of MERIS, MODIS, and OLCI Satellite Imagers for Construction of Past, Present, and Future Cyanobacterial Biomass Time Series. Remote Sens., 13.",
+        "DOI": "10.3390/rs13122305"
+      },
+      {
+        "key": "ref_75",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wynne, T.T., Tomlinson, M.C., Briggs, T.O., Mishra, S., Meredith, A., Vogel, R.L., and Stumpf, R.P. (2022). Evaluating the Efficacy of Five Chlorophyll-a Algorithms in Chesapeake Bay (USA) for Operational Monitoring and Assessment. J. Mar. Sci. Eng., 10.",
+        "DOI": "10.3390/jmse10081104"
+      },
+      {
+        "key": "ref_76",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Glover, D.M., Jenkins, W.J., and Doney, S.C. (2011). Modeling Methods for Marine Science, Cambridge University Press.",
+        "DOI": "10.1017/CBO9780511975721"
+      },
+      {
+        "key": "ref_77",
+        "unstructured": "Sokal, R., and Rohlf, F. (2012). Biometry: The Principles and Practice of Statistics in Biological Research, W.H. Freeman and Company. [2nd ed.]."
+      },
+      {
+        "key": "ref_78",
+        "doi-asserted-by": "crossref",
+        "first-page": "271",
+        "DOI": "10.1016/j.rse.2013.09.016",
+        "article-title": "The Ocean Colour Climate Change Initiative: III. A round-robin comparison on in-water bio-optical algorithms",
+        "volume": "162",
+        "author": "Brewin",
+        "year": "2015",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_79",
+        "doi-asserted-by": "crossref",
+        "first-page": "635",
+        "DOI": "10.1016/j.rse.2008.11.005",
+        "article-title": "Evaluation of MODIS SWIR and NIR-SWIR atmospheric correction algorithms using SeaBASS data",
+        "volume": "113",
+        "author": "Wang",
+        "year": "2009",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_80",
+        "doi-asserted-by": "crossref",
+        "first-page": "5",
+        "DOI": "10.12681/mms.64",
+        "article-title": "Data Interpolating Empirical Orthogonal Functions (DINEOF): A tool for geophysical data analyses",
+        "volume": "12",
+        "author": "Azcarate",
+        "year": "2011",
+        "journal-title": "Mediter. Mar. Sci."
+      },
+      {
+        "key": "ref_81",
+        "doi-asserted-by": "crossref",
+        "first-page": "1839",
+        "DOI": "10.1175/1520-0426(2003)020<1839:ECADFF>2.0.CO;2",
+        "article-title": "EOF Calculations and Data Filling from Incomplete Oceanographic Datasets",
+        "volume": "20",
+        "author": "Beckers",
+        "year": "2003",
+        "journal-title": "J. Atmos. Ocean. Technol."
+      },
+      {
+        "key": "ref_82",
+        "first-page": "102714",
+        "article-title": "Global daily gap-free ocean color products from multi-satellite measurements",
+        "volume": "108",
+        "author": "Liu",
+        "year": "2022",
+        "journal-title": "Int. J. Appl. Earth Obs. Geoinf."
+      },
+      {
+        "key": "ref_83",
+        "first-page": "3",
+        "article-title": "STL: A seasonal-trend decomposition procedure based on loess",
+        "volume": "6",
+        "author": "Cleveland",
+        "year": "1990",
+        "journal-title": "J. Off. Stat."
+      },
+      {
+        "key": "ref_84",
+        "doi-asserted-by": "crossref",
+        "first-page": "1547",
+        "DOI": "10.1093/icesjms/fsp107",
+        "article-title": "Temporal variability of 10-year global SeaWiFS time-series of phytoplankton chlorophyll a concentration",
+        "volume": "66",
+        "author": "Vantrepotte",
+        "year": "2009",
+        "journal-title": "ICES J. Mar. Sci."
+      },
+      {
+        "key": "ref_85",
+        "doi-asserted-by": "crossref",
+        "first-page": "829",
+        "DOI": "10.1080/01621459.1979.10481038",
+        "article-title": "Robust Locally Weighted Regression and Smoothing Scatterplots",
+        "volume": "74",
+        "author": "Cleveland",
+        "year": "1979",
+        "journal-title": "J. Am. Stat. Assoc."
+      },
+      {
+        "key": "ref_86",
+        "doi-asserted-by": "crossref",
+        "first-page": "46",
+        "DOI": "10.1016/j.isprsjprs.2022.02.023",
+        "article-title": "Spatiotemporal distribution of labeled data can bias the validation and selection of supervised learning algorithms: A marine remote sensing example",
+        "volume": "187",
+        "author": "Stock",
+        "year": "2022",
+        "journal-title": "ISPRS J. Photogramm. Remote Sens."
+      },
+      {
+        "key": "ref_87",
+        "doi-asserted-by": "crossref",
+        "first-page": "102666",
+        "DOI": "10.1016/j.ecoinf.2024.102666",
+        "article-title": "Evaluation of five atmospheric correction algorithms for multispectral remote sensing data over plateau lake",
+        "volume": "82",
+        "author": "Wang",
+        "year": "2024",
+        "journal-title": "Ecol. Inform."
+      },
+      {
+        "key": "ref_88",
+        "doi-asserted-by": "crossref",
+        "first-page": "4802",
+        "DOI": "10.1002/2017JC012874",
+        "article-title": "Land adjacency effects on MODIS Aqua top-of-atmosphere radiance in the shortwave infrared: Statistical assessment and correction",
+        "volume": "122",
+        "author": "Feng",
+        "year": "2017",
+        "journal-title": "J. Geophys. Res. Oceans"
+      },
+      {
+        "key": "ref_89",
+        "doi-asserted-by": "crossref",
+        "first-page": "112366",
+        "DOI": "10.1016/j.rse.2021.112366",
+        "article-title": "ACIX-Aqua: A global assessment of atmospheric correction methods for Landsat-8 and Sentinel-2 over lakes, rivers, and coastal waters",
+        "volume": "258",
+        "author": "Pahlevan",
+        "year": "2021",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_90",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Harding, L.W., Mallonee, M.E., Perry, E.S., David Miller, W., Adolf, J.E., Gallegos, C.L., and Paerl, H.W. (2020). Seasonal to Inter-Annual Variability of Primary Production in Chesapeake Bay: Prospects to Reverse Eutrophication and Change Trophic Classification. Sci. Rep., 10.",
+        "DOI": "10.1038/s41598-020-58702-3"
+      },
+      {
+        "key": "ref_91",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.3354/meps331011",
+        "article-title": "Climate forcing of the spring bloom in Chesapeake Bay",
+        "volume": "331",
+        "author": "Miller",
+        "year": "2007",
+        "journal-title": "Mar. Ecol. Prog. Ser."
+      },
+      {
+        "key": "ref_92",
+        "doi-asserted-by": "crossref",
+        "first-page": "921",
+        "DOI": "10.1002/ieam.4597",
+        "article-title": "Satellite observations estimating the effects of river discharge and wind-driven upwelling on phytoplankton dynamics in the Chesapeake Bay",
+        "volume": "18",
+        "author": "Nezlin",
+        "year": "2022",
+        "journal-title": "Integr. Environ. Assess. Manag."
+      },
+      {
+        "key": "ref_93",
+        "doi-asserted-by": "crossref",
+        "first-page": "35",
+        "DOI": "10.1093/plankt/25.1.35",
+        "article-title": "Phytoplankton spectral absorption as influenced by community size structure and pigment composition",
+        "volume": "25",
+        "author": "Lohrenz",
+        "year": "2003",
+        "journal-title": "J. Plankton Res."
+      },
+      {
+        "key": "ref_94",
+        "doi-asserted-by": "crossref",
+        "first-page": "404",
+        "DOI": "10.4319/lo.2002.47.2.0404",
+        "article-title": "Assessment of the relationships between dominant cell size in natural phytoplankton communities and the spectral shape of the absorption coefficient",
+        "volume": "47",
+        "author": "Ciotti",
+        "year": "2002",
+        "journal-title": "Limnol. Oceanogr."
+      },
+      {
+        "key": "ref_95",
+        "doi-asserted-by": "crossref",
+        "first-page": "C11",
+        "DOI": "10.1029/2004JC002419",
+        "article-title": "Natural variability of phytoplanktonic absorption in oceanic waters: Influence of the size structure of algal populations",
+        "volume": "109",
+        "author": "Bricaud",
+        "year": "2004",
+        "journal-title": "J. Geophys. Res. Oceans"
+      },
+      {
+        "key": "ref_96",
+        "doi-asserted-by": "crossref",
+        "first-page": "C7",
+        "DOI": "10.1029/2011JC007864",
+        "article-title": "Human induced turbidity changes in Poyang Lake between 2000 and 2010: Observations from MODIS",
+        "volume": "117",
+        "author": "Feng",
+        "year": "2012",
+        "journal-title": "J. Geophys. Res. Oceans"
+      },
+      {
+        "key": "ref_97",
+        "doi-asserted-by": "crossref",
+        "first-page": "128685",
+        "DOI": "10.1016/j.jhydrol.2022.128685",
+        "article-title": "Random forest: An optimal chlorophyll-a algorithm for optically complex inland water suffering atmospheric correction uncertainties",
+        "volume": "615",
+        "author": "Shen",
+        "year": "2022",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_98",
+        "doi-asserted-by": "crossref",
+        "first-page": "107284",
+        "DOI": "10.1016/j.ress.2020.107284",
+        "article-title": "Fault diagnosis based on extremely randomized trees in wireless sensor networks",
+        "volume": "205",
+        "author": "Saeed",
+        "year": "2021",
+        "journal-title": "Reliab. Eng. Syst. Saf."
+      },
+      {
+        "key": "ref_99",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Im, G., Lee, D., Lee, S., Lee, J., Lee, S., Park, J., and Heo, T.-Y. (2022). Estimating Chlorophyll-a Concentration from Hyperspectral Data Using Various Machine Learning Techniques: A Case Study at Paldang Dam, South Korea. Water, 14.",
+        "DOI": "10.3390/w14244080"
+      },
+      {
+        "key": "ref_100",
+        "doi-asserted-by": "crossref",
+        "first-page": "586",
+        "DOI": "10.1016/j.rse.2018.07.015",
+        "article-title": "Atmospheric correction of metre-scale optical satellite data for inland and coastal water applications",
+        "volume": "216",
+        "author": "Vanhellemont",
+        "year": "2018",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_101",
+        "first-page": "5402515",
+        "article-title": "Development of a Practical Atmospheric Correction Algorithm for Inland and Nearshore Coastal Waters",
+        "volume": "60",
+        "author": "Zhao",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Geosci. Remote Sens."
+      },
+      {
+        "key": "ref_102",
+        "doi-asserted-by": "crossref",
+        "first-page": "149",
+        "DOI": "10.3354/meps032149",
+        "article-title": "Lateral variation in the production and fate of phytoplankton in a partially stratified estuary",
+        "volume": "32",
+        "author": "Malone",
+        "year": "1986",
+        "journal-title": "Mar. Ecol. Prog. Ser."
+      },
+      {
+        "key": "ref_103",
+        "doi-asserted-by": "crossref",
+        "first-page": "S85",
+        "DOI": "10.1002/lno.10725",
+        "article-title": "Detecting phytoplankton diatom fraction based on the spectral shape of satellite-derived algal light absorption coefficient",
+        "volume": "63",
+        "author": "Zheng",
+        "year": "2018",
+        "journal-title": "Limnol. Oceanogr."
+      },
+      {
+        "key": "ref_104",
+        "doi-asserted-by": "crossref",
+        "first-page": "93",
+        "DOI": "10.1016/j.ecss.2013.05.004",
+        "article-title": "Long-term distribution patterns of remotely sensed water quality parameters in Chesapeake Bay",
+        "volume": "128",
+        "author": "Le",
+        "year": "2013",
+        "journal-title": "Estuar. Coast. Shelf Sci."
+      },
+      {
+        "key": "ref_105",
+        "doi-asserted-by": "crossref",
+        "first-page": "235",
+        "DOI": "10.3354/meps048235",
+        "article-title": "Influences of river flow on the dynamics of phytoplankton production in a partially stratified estuary",
+        "volume": "48",
+        "author": "Malone",
+        "year": "1988",
+        "journal-title": "Mar. Ecol. Prog. Ser."
+      },
+      {
+        "key": "ref_106",
+        "doi-asserted-by": "crossref",
+        "first-page": "5",
+        "DOI": "10.1029/2004GL021852",
+        "article-title": "Remotely-sensed chl a at the Chesapeake Bay mouth is correlated with annual freshwater flow to Chesapeake Bay",
+        "volume": "32",
+        "author": "Acker",
+        "year": "2005",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "ref_107",
+        "doi-asserted-by": "crossref",
+        "first-page": "5",
+        "DOI": "10.1029/2005WR004270",
+        "article-title": "Predicting spring discharge of the Susquehanna River from a winter synoptic climatology for the eastern United States",
+        "volume": "42",
+        "author": "Miller",
+        "year": "2006",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_108",
+        "doi-asserted-by": "crossref",
+        "first-page": "634",
+        "DOI": "10.1007/BF02907650",
+        "article-title": "Hypoxia in Chesapeake Bay, 1950\u20132001: Long-term change in relation to nutrient loading and river flow",
+        "volume": "27",
+        "author": "Hagy",
+        "year": "2004",
+        "journal-title": "Estuaries"
+      },
+      {
+        "key": "ref_109",
+        "doi-asserted-by": "crossref",
+        "first-page": "3209",
+        "DOI": "10.1002/lno.11874",
+        "article-title": "Typical relationships between phytoplankton biomass and transport time in river-dominated coastal aquatic systems",
+        "volume": "66",
+        "author": "Qin",
+        "year": "2021",
+        "journal-title": "Limnol. Oceanogr."
+      },
+      {
+        "key": "ref_110",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lucas, L.V., and Deleersnijder, E. (2020). Timescale Methods for Simplifying, Understanding and Modeling Biophysical and Water Quality Processes in Coastal Aquatic Ecosystems: A Review. Water, 12.",
+        "DOI": "10.3390/w12102717"
+      },
+      {
+        "key": "ref_111",
+        "doi-asserted-by": "crossref",
+        "first-page": "149",
+        "DOI": "10.1007/BF02691304",
+        "article-title": "Climate change impacts on U.S. Coastal and Marine Ecosystems",
+        "volume": "25",
+        "author": "Scavia",
+        "year": "2002",
+        "journal-title": "Estuaries"
+      },
+      {
+        "key": "ref_112",
+        "doi-asserted-by": "crossref",
+        "first-page": "51",
+        "DOI": "10.3354/meps082051",
+        "article-title": "Nutrient limitation of phytoplankton in Chesapeake Bay",
+        "volume": "82",
+        "author": "Fisher",
+        "year": "1992",
+        "journal-title": "Mar. Ecol. Prog. Ser."
+      },
+      {
+        "key": "ref_113",
+        "doi-asserted-by": "crossref",
+        "first-page": "763",
+        "DOI": "10.1007/s002270050518",
+        "article-title": "Spatial and temporal variation of resource limitation in Chesapeake Bay",
+        "volume": "133",
+        "author": "Fisher",
+        "year": "1999",
+        "journal-title": "Mar. Biol."
+      },
+      {
+        "key": "ref_114",
+        "doi-asserted-by": "crossref",
+        "first-page": "116407",
+        "DOI": "10.1016/j.watres.2020.116407",
+        "article-title": "Nutrient limitation of phytoplankton in Chesapeake Bay: Development of an empirical approach for water-quality management",
+        "volume": "188",
+        "author": "Zhang",
+        "year": "2021",
+        "journal-title": "Water Res."
+      },
+      {
+        "key": "ref_115",
+        "doi-asserted-by": "crossref",
+        "first-page": "68",
+        "DOI": "10.1016/j.ecolmodel.2017.08.026",
+        "article-title": "Wind effects on the spring phytoplankton dynamics in the middle reach of the Chesapeake Bay",
+        "volume": "363",
+        "author": "Jiang",
+        "year": "2017",
+        "journal-title": "Ecol. Model."
+      },
+      {
+        "key": "ref_116",
+        "doi-asserted-by": "crossref",
+        "first-page": "1013",
+        "DOI": "10.1126/science.161.3845.1013",
+        "article-title": "Turbidity Maximum of the Northern Chesapeake Bay",
+        "volume": "161",
+        "author": "Schubel",
+        "year": "1968",
+        "journal-title": "Science"
+      },
+      {
+        "key": "ref_117",
+        "doi-asserted-by": "crossref",
+        "first-page": "6494",
+        "DOI": "10.1021/es506361p",
+        "article-title": "Evolution of Sediment Plumes in the Chesapeake Bay and Implications of Climate Variability",
+        "volume": "49",
+        "author": "Zheng",
+        "year": "2015",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "ref_118",
+        "doi-asserted-by": "crossref",
+        "first-page": "267",
+        "DOI": "10.3354/meps104267",
+        "article-title": "Long-term trends in the distribution of phytoplankton in Chesapeake Bay: Roles of light, nutrients and streamflow",
+        "volume": "104",
+        "author": "Harding",
+        "year": "1994",
+        "journal-title": "Mar. Ecol. Prog. Ser."
+      },
+      {
+        "key": "ref_119",
+        "doi-asserted-by": "crossref",
+        "first-page": "8646",
+        "DOI": "10.1002/2014JC010081",
+        "article-title": "River runoff effect on the suspended sediment property in the upper Chesapeake Bay using MODIS observations and ROMS simulations",
+        "volume": "119",
+        "author": "Liu",
+        "year": "2014",
+        "journal-title": "J. Geophys. Res. Oceans"
+      },
+      {
+        "key": "ref_120",
+        "doi-asserted-by": "crossref",
+        "first-page": "3046",
+        "DOI": "10.1002/lno.11573",
+        "article-title": "Seasonal and spatial variability in surface CO and air\u2013water CO flux in the Chesapeake Bay",
+        "volume": "65",
+        "author": "Chen",
+        "year": "2020",
+        "journal-title": "Limnol. Oceanogr."
+      },
+      {
+        "key": "ref_121",
+        "doi-asserted-by": "crossref",
+        "first-page": "1424",
+        "DOI": "10.1002/2015JC011191",
+        "article-title": "Dynamics of the Chesapeake Bay outflow plume: Realistic plume simulation and its seasonal and interannual variability",
+        "volume": "121",
+        "author": "Jiang",
+        "year": "2016",
+        "journal-title": "J. Geophys. Res. Oceans"
+      },
+      {
+        "key": "ref_122",
+        "doi-asserted-by": "crossref",
+        "first-page": "664",
+        "DOI": "10.1007/s12237-015-0023-7",
+        "article-title": "Long-Term Trends of Nutrients and Phytoplankton in Chesapeake Bay",
+        "volume": "39",
+        "author": "Harding",
+        "year": "2016",
+        "journal-title": "Estuaries Coasts"
+      },
+      {
+        "key": "ref_123",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2021JC017959",
+        "DOI": "10.1029/2021JC017959",
+        "article-title": "Long-Term Trends in Chesapeake Bay Remote Sensing Reflectance: Implications for Water Clarity",
+        "volume": "126",
+        "author": "Turner",
+        "year": "2021",
+        "journal-title": "J. Geophys. Res. Oceans"
+      }
+    ],
+    "container-title": [
+      "Remote Sensing"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2072-4292/17/13/2151/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          9
+        ]
+      ],
+      "date-time": "2025-10-09T17:57:08Z",
+      "timestamp": 1760032628000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2072-4292/17/13/2151"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          23
+        ]
+      ]
+    },
+    "references-count": 123,
+    "journal-issue": {
+      "issue": "13",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            7
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "rs17132151"
+    ],
+    "URL": "https://doi.org/10.3390/rs17132151",
+    "relation": {},
+    "ISSN": [
+      "2072-4292"
+    ],
+    "issn-type": [
+      {
+        "value": "2072-4292",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          23
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.3390/rs17132151",
+  "original_doi": "10.3390/rs17132151"
+}

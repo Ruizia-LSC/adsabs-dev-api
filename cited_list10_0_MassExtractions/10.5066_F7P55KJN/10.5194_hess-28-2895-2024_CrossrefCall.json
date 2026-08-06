@@ -1,0 +1,911 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          16
+        ]
+      ],
+      "date-time": "2026-07-16T10:53:30Z",
+      "timestamp": 1784199210277,
+      "version": "3.55.0"
+    },
+    "reference-count": 101,
+    "publisher": "Copernicus GmbH",
+    "issue": "13",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              4
+            ]
+          ],
+          "date-time": "2024-07-04T00:00:00Z",
+          "timestamp": 1720051200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Hydrol. Earth Syst. Sci."
+    ],
+    "abstract": "<jats:p>Abstract. The National Water Model (NWM) provides critical analyses and projections of streamflow that support water management decisions. However, the NWM performs poorly in lower-elevation rivers of the western United States (US). The accuracy of the NWM depends on the fidelity of the model inputs and the representation and calibration of model processes and water sources. To evaluate the NWM performance in the western US, we compared observations of river water isotope ratios (18O\u2009/\u200916O and 2H\u2009/\u20091H expressed in \u03b4 notation) to NWM-flux-estimated (model) river reach isotope ratios. The modeled estimates were calculated from long-term (2000\u20132019) mean summer (June, July, and August) NWM hydrologic fluxes and gridded isotope ratios using a mass balance approach. The observational dataset comprised 4503 in-stream water isotope observations in 877 reaches across 5 basins. A simple regression between observed and modeled isotope ratios explained 57.9\u2009% (\u03b418O) and 67.1\u2009% (\u03b42H) of variance, although observations were 0.5\u2009\u2030 (\u03b418O) and 4.8\u2009\u2030 (\u03b42H) higher, on average, than mass balance estimates. The unexplained variance suggest that the NWM does not include all relevant water fluxes to rivers. To infer possible missing water fluxes, we evaluated patterns in observation\u2013model differences using \u03b418Odiff (\u03b418Oobs\u2212\u03b418Omod) and ddiff (\u03b42Hdiff-8\u22c5\u03b418Odiff). We detected evidence of evaporation in observations but not model estimates (negative ddiff and positive \u03b418Odiff) at lower-elevation, higher-stream-order, arid sites. The catchment actual-evaporation-to-precipitation ratio, the fraction of streamflow estimated to be derived from agricultural irrigation, and whether a site was reservoir-affected were all significant predictors of ddiff in a linear mixed-effects model, with up to 15.2\u2009% of variance explained by fixed effects. This finding is supported by seasonal patterns, groundwater levels, and isotope ratios, and it suggests the importance of including irrigation return flows to rivers, especially in lower-elevation, higher-stream-order, arid rivers of the western US.</jats:p>",
+    "DOI": "10.5194/hess-28-2895-2024",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          4
+        ]
+      ],
+      "date-time": "2024-07-04T03:28:42Z",
+      "timestamp": 1720063722000
+    },
+    "page": "2895-2918",
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "Isotopic evaluation of the National Water Model reveals missing agricultural irrigation contributions to streamflow  across the western United States"
+    ],
+    "prefix": "10.5194",
+    "volume": "28",
+    "author": [
+      {
+        "given": "Annie L.",
+        "family": "Putman",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Patrick C.",
+        "family": "Longley",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Morgan C.",
+        "family": "McDonnell",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6998-7267",
+        "authenticated-orcid": false,
+        "given": "James",
+        "family": "Reddy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michelle",
+        "family": "Katoski",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8846-7048",
+        "authenticated-orcid": false,
+        "given": "Olivia L.",
+        "family": "Miller",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5008-9774",
+        "authenticated-orcid": false,
+        "given": "J. Ren\u00e9e",
+        "family": "Brooks",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "3145",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          4
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Aemisegger, F. and Sjolte, J.: A Climatology of Strong Large-Scale Ocean Evaporation Events. Part II: Relevance for the Deuterium Excess Signature of the Evaporation Flux, J. Climate, 31, 7313\u20137336, https://doi.org/10.1175/JCLI-D-17-0592.1, 2018.\u2002a",
+        "DOI": "10.1175/JCLI-D-17-0592.1"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ala-aho, P., Tetzlaff, D., McNamara, J.\u00a0P., Laudon, H., Kormos, P., and Soulsby, C.: Modeling the isotopic evolution of snowpack and snowmelt: Testing a spatially distributed parsimonious approach, Water Resour. Res., 53, 5813\u20135830, https://doi.org/10.1002/2017WR020650, 2017.\u2002a, b",
+        "DOI": "10.1002/2017WR020650"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Anderson, L., Berkelhammer, M., and Mast, M.\u00a0A.: Isotopes in North American Rocky Mountain Snowpack 1993\u20132014, Quaternary Sci. Rev., 131, 262\u2013273, https://doi.org/10.1016/j.quascirev.2015.03.023, 2016.\u2002a",
+        "DOI": "10.1016/j.quascirev.2015.03.023"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Barnhart, T.\u00a0B., Molotch, N.\u00a0P., Livneh, B., Harpold, A.\u00a0A., Knowles, J.\u00a0F., and Schneider, D.: Snowmelt rate dictates streamflow, Geophys. Res. Lett., 43, 8006\u20138016, https://doi.org/10.1002/2016GL069690, 2016.\u2002a",
+        "DOI": "10.1002/2016GL069690"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Beria, H., Larsen, J.\u00a0R., Ceperley, N.\u00a0C., Michelon, A., Vennemann, T., and Schaefli, B.: Understanding snow hydrological processes through the lens of stable water isotopes, WIREs Water, 5, e1311, https://doi.org/10.1002/wat2.1311, 2018.\u2002a",
+        "DOI": "10.1002/wat2.1311"
+      },
+      {
+        "key": "ref6",
+        "unstructured": "Bowen, G.: The Online Isotopes in Precipitation Calculator, version 2.0, Purdue University [data set, code], https://wateriso.utah.edu/waterisotopes/pages/information/oipc_info.html (last access: 24\u00a0June\u00a02024), 2006.\u2002a"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bowen, G.\u00a0J.: Spatial analysis of the intra-annual variation of precipitation isotope ratios and its climatological corollaries, J. Geophys. Res.-Atmos., 113, D05113, https://doi.org/10.1029/2007JD009295, 2008.\u2002a",
+        "DOI": "10.1029/2007JD009295"
+      },
+      {
+        "key": "ref8",
+        "unstructured": "Bowen, G.: The Online Isotopes in Precipitation Calculator, version 3.1, Purdue University [data set, code], http://www.waterisotopes.org (last access: 24\u00a0June\u00a02024), 2022a. \u2002a"
+      },
+      {
+        "key": "ref9",
+        "unstructured": "Bowen, G.\u00a0J.: Gridded maps of the isotopic composition of meteoric waters, CHPC [data set], USA grids downloaded November\u00a02021, http://www.waterisotopes.org (last access: 24\u00a0June\u00a02024), 2022b.\u2002a, b, c, d, e, f"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bowen, G.\u00a0J. and Revenaugh, J.: Interpolating the isotopic composition of modern meteoric precipitation, Water Resour. Res., 39, 1299, https://doi.org/10.1029/2003WR002086, 2003.\u2002a",
+        "DOI": "10.1029/2003WR002086"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bowen, G.\u00a0J., Wassenaar, L.\u00a0I., and Hobson, K.\u00a0A.: Global application of stable hydrogen and oxygen isotopes to wildlife forensics, Oecologia, 143, 337\u2013348, https://doi.org/10.1007/s00442-004-1813-y, 2005.\u2002a",
+        "DOI": "10.1007/s00442-004-1813-y"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bowen, G.\u00a0J., Putman, A.\u00a0L., Brooks, J.\u00a0R., Bowling, D.\u00a0R., Oerter, E.\u00a0J., and Good, S.\u00a0P.: Inferring the source of evaporated waters using stable H and O isotopes, Oecologia, 187, 1025\u20131039, https://doi.org/10.1007/s00442-018-4192-5, 2018.\u2002a, b, c",
+        "DOI": "10.1007/s00442-018-4192-5"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bowen, G.\u00a0J., Cai, Z., Fiorella, R.\u00a0P., and Putman, A.\u00a0L.: Isotopes in the water cycle: Regional-to global-scale patterns and applications, Annu. Rev. Earth Pl. Sc., 47, 453\u2013479, https://doi.org/10.1146/annurev-earth-053018-060220, 2019.\u2002a",
+        "DOI": "10.1146/annurev-earth-053018-060220"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bowen, G.\u00a0J., Guo, J.\u00a0S., and Allen, S.\u00a0T.: A 3-D groundwater isoscape of the contiguous USA for forensic and water resource science, PLoS ONE, 17, e0261651, https://doi.org/10.1371/journal.pone.0261651, 2022.\u2002a, b, c, d, e",
+        "DOI": "10.1371/journal.pone.0261651"
+      },
+      {
+        "key": "ref15",
+        "unstructured": "Brooks, J. R.: Water Stable Isotope data from NARS (NRSA and NLA), US\u00a0EPA Office of Research and Development [data set], https://doi.org/10.23719/1531017, 2024.\u2002a, b, c"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Brooks, J.\u00a0R., Gibson, J.\u00a0J., Birks, S.\u00a0J., Weber, M.\u00a0H., Rodecap, K.\u00a0D., and Stoddard, J.\u00a0L.: Stable isotope estimates of evaporation: inflow and water residence time for lakes across the United States as a tool for national lake water quality assessments, Limnol. Oceanogr., 59, 2150\u20132165, https://doi.org/10.4319/lo.2014.59.6.2150, 2014.\u2002a, b",
+        "DOI": "10.4319/lo.2014.59.6.2150"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Brooks, P.\u00a0D., Gelderloos, A., Wolf, M.\u00a0A., Jamison, L.\u00a0R., Strong, C., Solomon, D.\u00a0K., Bowen, G.\u00a0J., Burian, S., Tai, X., Arens, S., Briefer, L., Kirkham, T., and Stewart, J.: Groundwater-Mediated Memory of Past Climate Controls Water Yield in Snowmelt-Dominated Catchments, Water Resour. Res., 57, e2021WR030605, https://doi.org/10.1029/2021WR030605, 2021.\u2002a, b",
+        "DOI": "10.1029/2021WR030605"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bruckerhoff, L.\u00a0A., Wheeler, K., Dibble, K.\u00a0L., Mihalevich, B.\u00a0A., Neilson, B.\u00a0T., Wang, J., Yackulic, C.\u00a0B., and Schmidt, J.\u00a0C.: Water Storage Decisions and Consumptive Use May Constrain Ecosystem Management under Severe Sustained Drought, JAWRA J. Am. Water Resour. As., 58, 654\u2013672, https://doi.org/10.1111/1752-1688.13020, 2022.\u2002a",
+        "DOI": "10.1111/1752-1688.13020"
+      },
+      {
+        "key": "ref19",
+        "unstructured": "Bureau of Reclamation, Department of the Interior: Interior Department Announces Actions to Protect Colorado River System, Sets 2023 Operating Conditions for Lake Powell and Lake Mead, Bureau of Reclamation News, Multimedia, https://www.usbr.gov/newsroom/#/news-release/4294 (last access: 18\u00a0August\u00a02022), 2022.\u2002a"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Burt, E. I., Coayla Rimachi, D. H., Ccahuana Quispe, A. J., Atwood, A., and West, A. J.: Isotope-derived young water fractions in streamflow across the tropical Andes mountains and Amazon floodplain, Hydrol. Earth Syst. Sci., 27, 2883\u20132898, https://doi.org/10.5194/hess-27-2883-2023, 2023.\u2002a",
+        "DOI": "10.5194/hess-27-2883-2023"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Carroll, R. W.\u00a0H., Deems, J., Maxwell, R., Sprenger, M., Brown, W., Newman, A., Beutler, C., Bill, M., Hubbard, S.\u00a0S., and Williams, K.\u00a0H.: Variability in observed stable water isotopes in snowpack across a mountainous watershed in Colorado, Hydrol. Process., 36, e14653, https://doi.org/10.1002/hyp.14653, 2022.\u2002a",
+        "DOI": "10.1002/hyp.14653"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Condon, L.\u00a0E. and Maxwell, R.\u00a0M.: Simulating the sensitivity of evapotranspiration and streamflow to large-scale groundwater depletion, Sci. Adv., 5, eaav4574, https://doi.org/10.1126/sciadv.aav4574, 2019.\u2002a",
+        "DOI": "10.1126/sciadv.aav4574"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cook, P.\u00a0G. and Solomon, D.\u00a0K.: Transport of Atmospheric Trace Gases to the Water Table: Implications for Groundwater Dating with Chlorofluorocarbons and Krypton 85, Water Resour. Res., 31, 263\u2013270, https://doi.org/10.1029/94WR02232, 1995.\u2002a",
+        "DOI": "10.1029/94WR02232"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Corcoran, M.\u00a0C., Thomas, E.\u00a0K., and Boutt, D.\u00a0F.: Event-Based Precipitation Isotopes in the Laurentian Great Lakes Region Reveal Spatiotemporal Patterns in Moisture Recycling, J. Geophys. Res.-Atmos., 124, 5463\u20135478, https://doi.org/10.1029/2018JD029545, 2019.\u2002a",
+        "DOI": "10.1029/2018JD029545"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Craig, H.: Isotopic Variations in Meteoric Waters, Science, 133, 1702\u20131703, 1961.\u2002a, b",
+        "DOI": "10.1126/science.133.3465.1702"
+      },
+      {
+        "key": "ref26",
+        "unstructured": "Craig, H. and Gordon, L.\u00a0I.: Deuterium and oxygen 18 variations in the ocean and marine atmosphere, in: Proceedings of a Conference on Stable Isotopes in Oceanographic Studies and Palaeotemperatures, Lischi and Figli, Pisa, Italy, edited by: Tongiorgi, E., 9\u2013130, 1965.\u2002a"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Demaria, E. M.\u00a0C., Hazenberg, P., Scott, R.\u00a0L., Meles, M.\u00a0B., Nichols, M., and Goodrich, D.: Intensification of the North American Monsoon Rainfall as Observed From a Long-Term High-Density Gauge Network, Geophys. Res. Lett., 46, 6839\u20136847, https://doi.org/10.1029/2019GL082461, 2019.\u2002a",
+        "DOI": "10.1029/2019GL082461"
+      },
+      {
+        "key": "ref28",
+        "unstructured": "Dewitz, J. and U.S.\u00a0Geological Survey: National Land Cover Database\u00a0(NLCD) 2019\u00a0Products (ver.\u00a02.0, June\u00a02021), ScienceBase [data set], https://doi.org/10.5066/P9KZCM54, 2021.\u2002a, b"
+      },
+      {
+        "key": "ref29",
+        "unstructured": "Dibble, K., Yackulic, C., and Bestgen, K.: Water temperature models, data and code for the Colorado, Green, San Juan, Yampa, and White rivers in the Colorado River basin, https://doi.org/10.5066/P9HFKV7Q, 2020.\u2002a"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dieter, C., Maupin, M., Caldwell, R., Harris, M., Ivahnenko, T., Lovelace, J., Barber, N., and Linsey, K.: Estimated use of water in the United States in 2015: U.S. Geological Survey Circular 1441, Tech. rep., U.S. Geological Survey, https://doi.org/10.3133/cir1441, 2018.\u2002a, b",
+        "DOI": "10.3133/cir1441"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Essaid, H.\u00a0I. and Caldwell, R.\u00a0R.: Evaluating the impact of irrigation on surface water \u2013 groundwater interaction and stream temperature in an agricultural watershed, Sci. Total Environ., 599\u2013600, 581\u2013596, https://doi.org/10.1016/j.scitotenv.2017.04.205, 2017.\u2002a, b, c, d",
+        "DOI": "10.1016/j.scitotenv.2017.04.205"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Evaristo, J., Jasechko, S., and McDonnell, J.: Global separation of plant transpiration from groundwater and streamflow, Nature, 525, 91\u201394, https://doi.org/10.1038/nature14983, 2015.\u2002a, b",
+        "DOI": "10.1038/nature14983"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Feng, X., Faiia, A.\u00a0M., and Posmentier, E.\u00a0S.: Seasonality of isotopes in precipitation: A global perspective, J. Geophys. Res.-Atmos., 114, D08116, https://doi.org/10.1029/2008JD011279, 2009.\u2002a",
+        "DOI": "10.1029/2008JD011279"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fergus, C.\u00a0E., Brooks, J.\u00a0R., Kaufmann, P.\u00a0R., Herlihy, A.\u00a0T., Pollard, A.\u00a0I., Weber, M.\u00a0H., and Paulsen, S.\u00a0G.: Lake Water Levels and Associated Hydrologic Characteristics in the Conterminous U.S., J. Am. Water Resour. As., 56, 450\u2013471, https://doi.org/10.1111/1752-1688.12817, 2020.\u2002a",
+        "DOI": "10.1111/1752-1688.12817"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fergus, C.\u00a0E., Brooks, J.\u00a0R., Kaufmann, P.\u00a0R., Pollard, A&lt;span id=&quot;page2916&quot;/&gt;.\u00a0I., Herlihy, A.\u00a0T., Paulsen, S.\u00a0G., and Weber, M.\u00a0H.: National framework for ranking lakes by potential for anthropogenic hydro-alteration, Ecol. Indic., 122, 107241, https://doi.org/10.1016/j.ecolind.2020.107241, 2021.\u2002a, b",
+        "DOI": "10.1016/j.ecolind.2020.107241"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fergus, C.\u00a0E., Brooks, J.\u00a0R., Kaufmann, P.\u00a0R., Pollard, A.\u00a0I., Mitchell, R., Geldhof, G.\u00a0J., Hill, R.\u00a0A., Paulsen, S.\u00a0G., Ringold, P., and Weber, M.: Natural and anthropogenic controls on lake water-level decline and evaporation-to-inflow ratio in the conterminous United States, Limnol. Oceanogr., 67, 1484\u20131501, https://doi.org/10.1002/lno.12097, 2022.\u2002a",
+        "DOI": "10.1002/lno.12097"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fillo, N.\u00a0K., Bhaskar, A.\u00a0S., and Jefferson, A.\u00a0J.: Lawn Irrigation Contributions to Semi-Arid Urban Baseflow Based on Water-Stable Isotopes, Water Resour. Res., 57, e2020WR028777, https://doi.org/10.1029/2020WR028777, 2021.\u2002a, b",
+        "DOI": "10.1029/2020WR028777"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Friedrich, K., Grossman, R.\u00a0L., Huntington, J., Blanken, P.\u00a0D., Lenters, J., Holman, K.\u00a0D., Gochis, D., Livneh, B., Prairie, J., Skeie, E., Healey, N.\u00a0C., Dahm, K., Pearson, C., Finnessey, T., Hook, S.\u00a0J., and Kowalski, T.: Reservoir Evaporation in the Western United States: Current Science, Challenges, and Future Needs, B. Am. Meteorol. Soc., 99, 167\u2013187, https://doi.org/10.1175/BAMS-D-15-00224.1, 2018.\u2002a",
+        "DOI": "10.1175/BAMS-D-15-00224.1"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gabor, R.\u00a0S., Hall, S.\u00a0J., Eiriksson, D.\u00a0P., Jameel, Y., Millington, M., Stout, T., Barnes, M.\u00a0L., Gelderloos, A., Tennant, H., Bowen, G.\u00a0J., Neilson, B.\u00a0T., and Brooks, P.\u00a0D.: Persistent Urban Influence on Surface Water Quality via Impacted Groundwater, Environ. Sci. Technol., 51, 9477\u20139487, https://doi.org/10.1021/acs.est.7b00271, 2017.\u2002a",
+        "DOI": "10.1021/acs.est.7b00271"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gentile, A., Canone, D., Ceperley, N., Gisolo, D., Previati, M., Zuecco, G., Schaefli, B., and Ferraris, S.: Towards a conceptualization of the hydrological processes behind changes of young water fraction with elevation: a focus on mountainous alpine catchments, Hydrol. Earth Syst. Sci., 27, 2301\u20132323, https://doi.org/10.5194/hess-27-2301-2023, 2023.\u2002a",
+        "DOI": "10.5194/hess-27-2301-2023"
+      },
+      {
+        "key": "ref41",
+        "unstructured": "Gochis, D., Barlage, M., Dugger, A., Karsten, L., McAllister, M., McCreight, J., Mills, J., RafieeiNasab, A., Read, L., Sampson, K., Yates, D., and Yu, W.: The WRF-Hydro Modeling System Technical Description (Version 5.0), Tech. rep., National Center for Atmospheric Research, https://doi.org/10.5065/D6J38RBJ, nCAR Technical Note, 2018.\u2002a, b, c"
+      },
+      {
+        "key": "ref42",
+        "unstructured": "Gochis, D., Barlage, M., Cabell, R., Dugger, A., Fanfarillo, A., FitzGerald, K., McAllister, M., McCreight, J., RafieeiNasab, A., Read, L., Frazier, N., Johnson, D., Mattern, J.\u00a0D., Karsten, L., Mills, T.\u00a0J., and Fersch, B.: WRF-Hydro v5.1.1, Zenodo [data set], https://doi.org/10.5281/zenodo.3625238, 2020a.\u2002a"
+      },
+      {
+        "key": "ref43",
+        "unstructured": "Gochis, D.\u00a0J., Barlage, M., Cabell, R., Casali, M., Dugger, A., FitzGerald, K., McAllister, M., McCreight, J., RafieeiNasab, A., Read, L., Sampson, K., Yates, D., and Zhang, Y.: The WRF-Hydro modeling system technical description, (Version 5.1.1), Tech. rep., UCAR, https://ral.ucar.edu/sites/default/files/public/projects/wrf-hydro/technical-description-user-guide/wrf-hydrov5.2technicaldescription.pdf (last access: 25\u00a0June\u00a02024), NCAR Technical Note, 2020b.\u2002a"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Grafton, R.\u00a0Q., Williams, J., Perry, C.\u00a0J., Molle, F., Ringler, C., Steduto, P., Udall, B., Wheeler, S.\u00a0A., Wang, Y., Garrick, D., and Allen, R.\u00a0G.: The paradox of irrigation efficiency, Science, 361, 748\u2013750, https://doi.org/10.1126/science.aat9314, 2018.\u2002a, b",
+        "DOI": "10.1126/science.aat9314"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hall, S.\u00a0J., Weintraub, S.\u00a0R., Eiriksson, D., Brooks, P.\u00a0D., Baker, M.\u00a0A., Bowen, G.\u00a0J., and Bowling, D.\u00a0R.: Stream Nitrogen Inputs Reflect Groundwater Across a Snowmelt-Dominated Montane to Urban Watershed, Environ. Sci. Technol., 50, 1137\u20131146, https://doi.org/10.1021/acs.est.5b04805, 2016.\u2002a",
+        "DOI": "10.1021/acs.est.5b04805"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hammond, J.\u00a0C. and Kampf, S.\u00a0K.: Subannual Streamflow Responses to Rainfall and Snowmelt Inputs in Snow-Dominated Watersheds of the Western United States, Water Resour. Res., 56, e2019WR026132, https://doi.org/10.1029/2019WR026132, 2020.\u2002a",
+        "DOI": "10.1029/2019WR026132"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hammond, J.\u00a0C., Sexstone, G.\u00a0A., Putman, A.\u00a0L., Barnhart, T.\u00a0B., Rey, D.\u00a0M., Driscoll, J.\u00a0M., Liston, G.\u00a0E., Rasmussen, K.\u00a0L., McGrath, D., Fassnacht, S.\u00a0R., and Kampf, S.\u00a0K.: High Resolution SnowModel Simulations Reveal Future Elevation-Dependent Snow Loss and Earlier, Flashier Surface Water Input for the Upper Colorado River Basin, Earth's Future, 11, e2022EF003092, https://doi.org/10.1029/2022EF003092, 2023.\u2002a, b, c",
+        "DOI": "10.1029/2022EF003092"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hansen, C., Shafiei\u00a0Shiva, J., McDonald, S., and Nabors, A.: Assessing Retrospective National Water Model Streamflow with Respect to Droughts and Low Flows in the Colorado River Basin, J. Am. Water Resour. As., 55, 964\u2013975, https://doi.org/10.1111/1752-1688.12784, 2019.\u2002a, b",
+        "DOI": "10.1111/1752-1688.12784"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Harris, I., Osborn, T., Jones, P., and Lister, D.: Version 4 of the CRU TS monthly high-resolution gridded multivariate climate dataset, Sci. Data, 7, 109, https://doi.org/10.1038/s41597-020-0453-3, 2020.\u2002a",
+        "DOI": "10.1038/s41597-020-0453-3"
+      },
+      {
+        "key": "ref50",
+        "unstructured": "Haynes, J., Read, A., Chan, A., Martin, D., Regan, R., Henson, W., and Niswonger, R.: Monthly crop irrigation withdrawals and efficiencies by HUC12 watershed for years 2000\u20132020 within the conterminous United States, ScienceBase [data set], https://doi.org/10.5066/P9LGISUM, 2023.\u2002a"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Heike\u00a0Hofmann, H.\u00a0W. and Kafadar, K.: Letter-Value Plots: Boxplots for Large Data, J. Comput. Graph. Stat., 26, 469\u2013477, https://doi.org/10.1080/10618600.2017.1305277, 2017.\u2002a",
+        "DOI": "10.1080/10618600.2017.1305277"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hicke, J., Lucatello, S., Mortsch, L., Dawson, J., Aguilar, M.\u00a0D., Enquist, C., Gilmore, E., Gutzler, D., Harper, S., Holsman, K., Jewett, E., Kohler, T., and Miller, K.: Climate Change 2022: Impacts, Adaptation and Vulnerability. Contribution of Working Group II to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change, chap. 14: North America, 1929\u20132042, Cambridge University Press, Cambridge, UK and New York, NY, USA, https://doi.org/10.1017/9781009325844.016, 2022.\u2002a",
+        "DOI": "10.1017/9781009325844.016"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jasechko, S., Birks, S.\u00a0J., Gleeson, T., Wada, Y., Fawcett, P.\u00a0J., Sharp, Z.\u00a0D., McDonnell, J.\u00a0J., and Welker, J.\u00a0M.: The pronounced seasonality of global groundwater recharge, Water Resour. Res., 50, 8845\u20138867, https://doi.org/10.1002/2014WR015809, 2014.\u2002a, b, c, d",
+        "DOI": "10.1002/2014WR015809"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jasechko, S., Seybold, H., Perrone, D., Ying, F., and Kirchner, J.: Widespread potential loss of streamflow into underlying aquifers across the USA, Nature, 591, 391\u2013395, https://doi.org/10.1038/s41586-021-03311-x, 2021.\u2002a, b, c, d, e, f, g, h, i, j",
+        "DOI": "10.1038/s41586-021-03311-x"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ketchum, D., Hoylman, Z., Huntington, J., Brinkerhoff, D., and Jencso, K. G.: Irrigation intensification impacts sustainability of streamflow in the Western United States, Commun. Earth Environ., 4, 479, https://doi.org/10.1038/s43247-023-01152-2, 2023.\u2002a, b, c",
+        "DOI": "10.1038/s43247-023-01152-2"
+      },
+      {
+        "key": "ref56",
+        "unstructured": "Kornfield, M.: Rio Grande runs dry in Albuquerque for the first time in 40 years, https://www.washingtonpost.com/climate-environment/2022/07/22/rio-grande-drought/ (last access: 18\u00a0August\u00a02022), 2022.\u2002a"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, D., Wrzesien, M.\u00a0L., Durand, M., Adam, J., and Lettenmaier, D.\u00a0P.: How much runoff originates as snow in the western United States, and how will that change in the future?, Geophys. Res. Lett., 44, 6163\u20136172, https://doi.org/10.1002/2017GL073551, 2017.\u2002a",
+        "DOI": "10.1002/2017GL073551"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lin, J., Compton, J.\u00a0E., Hill, R.\u00a0A., Herlihy, A.\u00a0T., Sabo, R.\u00a0D., Brooks, J.\u00a0R., Weber, M., Pickard, B., Paulsen, S.\u00a0G., and Stoddard, J.\u00a0L.: Context is Everything: Interacting Inputs and Landscape Characteristics Control Stream Nitrogen, Environ. Sci. Technol., 55, 7890\u20137899, https://doi.org/10.1021/acs.est.0c07102, 2021.\u2002a",
+        "DOI": "10.1021/acs.est.0c07102"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McGill, L.\u00a0M., Brooks, J.\u00a0R., and Steel, E.\u00a0A.: Spatiotemporal dynamics of water sources in a mountain river basin inferred through \u03b42H and \u03b418O of water, Hydrol. Process., 35, e14063, https://doi.org/10.1002/hyp.14063, 2021.\u2002a",
+        "DOI": "10.1002/hyp.14063"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Miller, M.\u00a0P., Buto, S.\u00a0G., Susong, D.\u00a0D., and Rumsey, C.\u00a0A.: The importance of base flow in sustaining surface water flow in the Upper Colorado River Basin, Water Resour. Res., 52, 3547\u20133562, https://doi.org/10.1002/2015WR017963, 2016.\u2002a, b",
+        "DOI": "10.1002/2015WR017963"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Miller, M.\u00a0P., Buto, S.\u00a0G., Lambert, P.\u00a0M., and Rumsey, C.\u00a0A.: Enhanced and updated spatially referenced statistical assessment of dissolved-solids load sources and transport in streams of the Upper Colorado River Basin, Tech. rep., US Geological Survey, https://doi.org/10.3133/sir20175009, 2017.\u2002a",
+        "DOI": "10.3133/sir20175009"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Miller, O.\u00a0L., Miller, M.\u00a0P., Longley, P.\u00a0C., Alder, J.\u00a0R., Bearup, L.\u00a0A., Pruitt, T., Jones, D.\u00a0K., Putman, A.\u00a0L., Rumsey, C.\u00a0A., and McKinney, T.: How will baseflow respond to climate change in the Upper Colorado River Basin?, Geophys. Res. Lett., 48, e2021GL095085, https://doi.org/10.1029/2021GL095085, 2021a.\u2002a, b",
+        "DOI": "10.1029/2021GL095085"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Miller, O.\u00a0L., Putman, A.\u00a0L., Alder, J., Miller, M., Jones, D.\u00a0K., and Wise, D.\u00a0R.: Changing climate drives future streamflow declines and challenges in meeting water demand across the southwestern United States, J. Hydrol., 11, 100074, https://doi.org/10.1016/j.hydroa.2021.100074, 2021b.\u2002a, b",
+        "DOI": "10.1016/j.hydroa.2021.100074"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Miller, O.\u00a0L., Putman, A.\u00a0L., Smith, R.\u00a0A., Schwarz, G.\u00a0E., Hess, M.\u00a0D., McDonnell, M.\u00a0C., and Jones, D.\u00a0K.: Temporal variability in irrigated land and climate influences on salinity loading across the Upper Colorado River Basin, 1986\u20132017, Environ. Res. Lett., 19, 024008, https://doi.org/10.1088/1748-9326/ad18dd, 2024.\u2002a",
+        "DOI": "10.1088/1748-9326/ad18dd"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Milly, P. and Dunne, K.\u00a0A.: Colorado River flow dwindles as warming-driven loss of reflective snow energizes evaporation, Science, 367, 1252\u20131255, https://doi.org/10.1126/science.aay9187, 2020.\u2002a, b, c",
+        "DOI": "10.1126/science.aay9187"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mote, P., Li, S., Lettenmaier, D., Xiao, M., and Engle, R.: Dramatic declines in snowpack in the western U.S., npj Clim. Atmos. Sci., 1, 2, https://doi.org/10.1038/s41612-018-0012-1, 2021.\u2002a",
+        "DOI": "10.1038/s41612-018-0012-1"
+      },
+      {
+        "key": "ref67",
+        "unstructured": "National Oceanographic and Atmospheric Administration: National Water Model CONUS Retrospective Dataset, Amazon Web Services (AWS) [data set], https://registry.opendata.aws/nwm-archive (last access: 25\u00a0June\u00a02022), 2022.\u2002a, b, c"
+      },
+      {
+        "key": "ref68",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nickolas, L.\u00a0B., Segura, C., and Brooks, J.\u00a0R.: The influence of lithology on surface water sources, Hydrol. Process., 31, 1913\u20131925, https://doi.org/10.1002/hyp.11156, 2017.\u2002a",
+        "DOI": "10.1002/hyp.11156"
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nusbaumer, J., Wong, T.\u00a0E., Bardeen, C., and Noone, D.: Evaluating hydrological processes in the Community Atmosphere Model Version 5 (CAM5) using stable isotope ratios of water, J. Adv. Model. Earth Sy., 9, 949\u2013977, https://doi.org/10.1002/2016MS000839, 2017.\u2002a",
+        "DOI": "10.1002/2016MS000839"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Oerter, E., Malone, M., Putman, A., Drits-Esser, D., Stark, L., and Bowen, G.: Every apple has a voice: using stable isotopes to teach about food sourcing and the water cycle, Hydrol. Earth Syst. Sci., 21, 3799\u20133810, https://doi.org/10.5194/hess-21-3799-2017, 2017.\u2002a",
+        "DOI": "10.5194/hess-21-3799-2017"
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pfahl, S., O\u2019Gorman, P., and Fischer, E.: Understanding the regional pattern of projected future changes in extreme precipitation, Nat. Clim. Change, 7, 423\u2013427, https://doi.org/10.1038/nclimate3287, 2017.\u2002a",
+        "DOI": "10.1038/nclimate3287"
+      },
+      {
+        "key": "ref72",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Putman, A. L. and Bowen, G. J.: Technical Note: A global database of the stable isotopic ratios of meteoric and terrestrial waters, Hydrol. Earth Syst. Sci., 23, 4389\u20134396, https://doi.org/10.5194/hess-23-4389-2019, 2019.\u2002a, b, c, d, e",
+        "DOI": "10.5194/hess-23-4389-2019"
+      },
+      {
+        "key": "ref73",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Putman, A.\u00a0L., Fiorella, R.\u00a0P., Bowen, G.\u00a0J., and Cai, Z.: A global perspective on local meteoric water lines: Meta-analytic insight into fundamental controls and practical constraints, Water Resour. Res., 55, 6896\u20136910, https://doi.org/10.1029/2019WR025181, 2019.\u2002a, b, c, d, e, f, g, h",
+        "DOI": "10.1029/2019WR025181"
+      },
+      {
+        "key": "ref74",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Putman, A.\u00a0L., McIlwain, H.\u00a0E., Rumsey, C.\u00a0A., and Marston, T.\u00a0M.: Low flows from drought and water use reduced total dissolved solids fluxes in the Lower Colorado River Basin between 1976 to 2008, J. Hydrol., 52, 101673, https://doi.org/10.1016/j.ejrh.2024.101673, 2024.\u2002a",
+        "DOI": "10.1016/j.ejrh.2024.101673"
+      },
+      {
+        "key": "ref75",
+        "unstructured": "Ramirez, R.: Great Salt Lake is \u201cin trouble\u201d as level falls to lowest on record for second year in a row, https://www.cnn.com/2022/07/06/us/great-salt-lake-record-low-climate/index.html (last access: 18\u00a0August\u00a02022), 2022.\u2002a"
+      },
+      {
+        "key": "ref76",
+        "unstructured": "Reddy, J., Longley, P.\u00a0C., McDonnell, M.\u00a0C., Katoski, M.\u00a0P., Miller, O.\u00a0L., and Putman, A.: Hydrogen and oxygen stable isotope mass balance evaluation of the National Water Model (v2.1) streamflow, runoff and groundwater flows, U.S. Geological Survey data release [data set], https://doi.org/10.5066/P9NOD5ES, 2023.\u2002a, b"
+      },
+      {
+        "key": "ref77",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rubel, F. and Kottek, M.: Observed and projected climate shifts 1901\u20132100 depicted by world maps of the K\u00f6ppen-Geiger climate classification, Meteorol. Z., 19, 135\u2013141, https://doi.org/10.1127/0941-2948/2010/0430, 2010.\u2002a, b, c",
+        "DOI": "10.1127/0941-2948/2010/0430"
+      },
+      {
+        "key": "ref78",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Seabold, S. and Perktold, J.: Statsmodels: Econometric and Statistical Modeling with Python, in: Proceedings of the 9th\u00a0Python in Science Conference, edited by: van\u00a0der\u00a0Walt, S. and Millman, J., 92\u201396, https://doi.org/10.25080/Majora-92bf1922-011, 2010.\u2002a, b",
+        "DOI": "10.25080/Majora-92bf1922-011"
+      },
+      {
+        "key": "ref79",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Seo, B.-C., Krajewski, W.\u00a0F., and Quintero, F.: Multi-Scale Hydrologic Evaluation of the National Water Model Streamflow Data Assimilation, J. Am. Water Resour. As., 57, 875\u2013884, https://doi.org/10.1111/1752-1688.12955, 2021.\u2002a",
+        "DOI": "10.1111/1752-1688.12955"
+      },
+      {
+        "key": "ref80",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Siirila-Woodburn, E.\u00a0R., Rhoades, A.\u00a0M., Hatchett, B.\u00a0J., Huning, L.\u00a0S., Szinai, J., Tague, C., Nico, P.\u00a0S., Feldman, D.\u00a0R., Jones, A.\u00a0D., Collins, W.\u00a0D., and Kaatz, L: A low-to-no snow future and its impacts on water resources in the western United States, Nature Reviews Earth &amp;amp; Environment, 2, 800\u2013819, https://doi.org/10.1038/s43017-021-00219-y, 2021.\u2002a, b, c",
+        "DOI": "10.1038/s43017-021-00219-y"
+      },
+      {
+        "key": "ref81",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Solder, J. and Beisner, K.: Critical evaluation of stable isotope mixing end-members for estimating groundwater recharge sources: case study from the South Rim of the Grand Canyon, Arizona, USA, Hydrogeol. J., 28, 1575\u20131591, https://doi.org/10.1007/s10040-020-02194-y, 2020.\u2002a, b",
+        "DOI": "10.1007/s10040-020-02194-y"
+      },
+      {
+        "key": "ref82",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sprenger, M., Carroll, R. W. H., Marchetti, D., Bern, C., Beria, H., Brown, W., Newman, A., Beutler, C., and Williams, K. H.: Stream water sourcing from high-elevation snowpack inferred from stable isotopes of water: a novel application of d-excess values, Hydrol. Earth Syst. Sci., 28, 1711\u20131723, https://doi.org/10.5194/hess-28-1711-2024, 2024.\u2002a, b, c, d",
+        "DOI": "10.5194/hess-28-1711-2024"
+      },
+      {
+        "key": "ref83",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stets, E.\u00a0G., Sprague, L.\u00a0A., Oelsner, G.\u00a0P., Johnson, H.\u00a0M., &lt;span id=&quot;page2918&quot;/&gt;Murphy, J.\u00a0C., Ryberg, K., Vecchia, A.\u00a0V., Zuellig, R.\u00a0E., Falcone, J.\u00a0A., and Riskin, M.\u00a0L.: Landscape Drivers of Dynamic Change in Water Quality of U.S. Rivers, Environ. Sci. Technol., 54, 4336\u20134343, https://doi.org/10.1021/acs.est.9b05344, 2020.\u2002a",
+        "DOI": "10.1021/acs.est.9b05344"
+      },
+      {
+        "key": "ref84",
+        "unstructured": "The pandas development team: pandas-dev/pandas: Pandas, Zenodo [code], https://doi.org/10.5281/zenodo.3509134, 2020.\u2002a"
+      },
+      {
+        "key": "ref85",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Thorslund, J., Bierkens, M., Oude\u00a0Essink, G. H. P., Sutanudjaja, E. H., and van Vliet, M. T. H.: Common irrigation drivers of freshwater salinisation in river basins worldwide, Nat. Commun., 12, 4232, https://doi.org/10.1038/s41467-021-24281-8, 2021.\u2002a",
+        "DOI": "10.1038/s41467-021-24281-8"
+      },
+      {
+        "key": "ref86",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Towler, E., Foks, S. S., Dugger, A. L., Dickinson, J. E., Essaid, H. I., Gochis, D., Viger, R. J., and Zhang, Y.: Benchmarking high-resolution hydrologic model performance of long-term retrospective streamflow simulations in the contiguous United States, Hydrol. Earth Syst. Sci., 27, 1809\u20131825, https://doi.org/10.5194/hess-27-1809-2023, 2023.\u2002a, b, c, d, e, f",
+        "DOI": "10.5194/hess-27-1809-2023"
+      },
+      {
+        "key": "ref87",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tulley-Cordova, C.\u00a0L., Putman, A.\u00a0L., and Bowen, G.\u00a0J.: Stable Isotopes in Precipitation and Meteoric Water: Sourcing and Tracing the North American Monsoon in Arizona, New Mexico, and Utah, Water Resour. Res., 57, e2021WR030039, https://doi.org/10.1029/2021WR030039, 2021.\u2002a, b, c, d",
+        "DOI": "10.1029/2021WR030039"
+      },
+      {
+        "key": "ref88",
+        "unstructured": "University of East Anglia Climatic Research Unit, Harris, I. C., Jones, P. D., and Osborn, T.: CRU TS4.05: Climatic Research Unit (CRU) Time-Series (TS) version 4.05 of high-resolution gridded data of month-by-month variation in climate (January 1901\u2013December 2020), CEDA Archive [data set], https://catalogue.ceda.ac.uk/uuid/c26a65020a5e4b80b20018f148556681 (last access: January\u00a02022), 2021.\u2002a, b"
+      },
+      {
+        "key": "ref89",
+        "unstructured": "U.S. Environmental Protection Agency: National lakes assessment: A collaborative survey of the nations's lakes, Tech. rep., Office of Water and Office of Research and Development [data set], https://www.epa.gov/sites/default/files/2013-11/documents/nla_newlowres_fullrpt.pdf (last access: 25\u00a0June\u00a02024), 2009.\u2002a"
+      },
+      {
+        "key": "ref90",
+        "unstructured": "U.S. Environmental Protection Agency: National Lakes Assessment 2012: A Collaborative Survey of Lakes in the United States, Tech. rep., Office of Water and Office of Research and Development [data set], https://www.epa.gov/sites/default/files/2016-12/documents/nla_report_dec_2016.pdf (last access: 25\u00a0June\u00a02024), 2016a.\u2002a"
+      },
+      {
+        "key": "ref91",
+        "unstructured": "U.S. Environmental Protection Agency: National rivers and streams assessment 2008\u20132009: A collaborative survey, Tech. rep., Office of Water and Office of Research and Development [data set], https://www.epa.gov/sites/default/files/2016-03/documents/nrsa_0809_march_2_final.pdf (last access: 25\u00a0June\u00a02024), 2016b.\u2002a, b, c, d"
+      },
+      {
+        "key": "ref92",
+        "unstructured": "U.S. Environmental Protection Agency: National rivers and streams assessment 2013\u20132014: A collaborative survey, Tech. rep., Office of Water and Office of Research and Development [data set], https://www.epa.gov/system/files/documents/2021-10/nrsa_13-14_report_508_ci_2021-10-15.pdf (last access: 25\u00a0June\u00a02024), 2020. \u2002a, b, c, d"
+      },
+      {
+        "key": "ref93",
+        "unstructured": "U.S. Geological Survey: National Hydrography Dataset (ver. 2.1), Amazon Web Services [data set], https://www.usgs.gov/national-hydrography/access-national-hydrography-products (last access: October\u00a02021), 2019.\u2002a, b, c"
+      },
+      {
+        "key": "ref94",
+        "unstructured": "U.S. Geological Survey: National Water Information System, U.S. Geological Survey web interface, USGS [data set], https://doi.org/10.5066/F7P55KJN, 2022.\u2002a, b, c, d"
+      },
+      {
+        "key": "ref95",
+        "unstructured": "U.S. Geological Survey, National Geospatial Technical Operations Center: Watershed Boundary Dataset (WBD) \u2013 USGS National Map Downloadable Data Collection, scienceBase Data Release [data set], https://www.sciencebase.gov/catalog/item/51361e87e4b03b8ec4025c22#:~:text=Citation,Data Collection: U.S. Geological Survey (last access: 25\u00a0June\u00a02024), 2023.\u2002a, b, c"
+      },
+      {
+        "key": "ref96",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McKinney, W.: Data Structures for Statistical Computing in Python, in: Proceedings of the 9th Python in Science Conference, edited by: van\u00a0der Walt, S. and Millman, J., 56\u201361, https://doi.org/10.25080/Majora-92bf1922-00a, 2010.\u2002a",
+        "DOI": "10.25080/Majora-92bf1922-00a"
+      },
+      {
+        "key": "ref97",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Williams, A., Cook, B., and Smerdon, J.: Rapid intensification of the emerging southwestern North American megadrought in 2020\u20132021, Nat. Clim. Chang., 12, 232\u2013234, https://doi.org/10.1038/s41558-022-01290-z, 2022.\u2002a, b",
+        "DOI": "10.1038/s41558-022-01290-z"
+      },
+      {
+        "key": "ref98",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Windler, G., Brooks, J.\u00a0R., Johnson, H.\u00a0M., Comeleo, R.\u00a0L., Coulombe, R., and Bowen, G.\u00a0J.: Climate Impacts on Source Contributions and Evaporation to Flow in the Snake River Basin Using Surface Water Isoscapes (\u03b42H and \u03b418O), Water Resour. Res., 57, e2020WR029157, https://doi.org/10.1029/2020WR029157, 2021.\u2002a, b",
+        "DOI": "10.1029/2020WR029157"
+      },
+      {
+        "key": "ref99",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wolf, M.\u00a0A., Jamison, L.\u00a0R., Solomon, D.\u00a0K., Strong, C., and Brooks, P.\u00a0D.: Multi-Year Controls on Groundwater Storage in Seasonally Snow-Covered Headwater Catchments, Water Resour. Res., 59, e2022WR033394, https://doi.org/10.1029/2022WR033394, 2023.\u2002a, b",
+        "DOI": "10.1029/2022WR033394"
+      },
+      {
+        "key": "ref100",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xia, C., Liu, Y., Meng, Y., Liu, G., Huang, X., Chen, Y., and Chen, K.: Stable isotopes reveal the surface water-groundwater interaction and variation in young water fraction in an urbanized river zone, Urban Climate, 51, 101641, https://doi.org/10.1016/j.uclim.2023.101641, 2023.\u2002a",
+        "DOI": "10.1016/j.uclim.2023.101641"
+      },
+      {
+        "key": "ref101",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, Z., Qian, Y., Liu, Y., Berg, L.\u00a0K., Hu, H., Dominguez, F., Yang, B., Feng, Z., Gustafson\u00a0Jr, W.\u00a0I., Huang, M., and Tang, Q.: Irrigation Impact on Water and Energy Cycle During Dry Years Over the United States Using Convection-Permitting WRF and a Dynamical Recycling Model, J. Geophys. Res.-Atmos., 124, 11220\u201311241, https://doi.org/10.1029/2019JD030524, 2019.\u2002a",
+        "DOI": "10.1029/2019JD030524"
+      }
+    ],
+    "container-title": [
+      "Hydrology and Earth System Sciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://hess.copernicus.org/articles/28/2895/2024/hess-28-2895-2024.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          22
+        ]
+      ],
+      "date-time": "2025-01-22T13:43:24Z",
+      "timestamp": 1737553404000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://hess.copernicus.org/articles/28/2895/2024/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          4
+        ]
+      ]
+    },
+    "references-count": 101,
+    "journal-issue": {
+      "issue": "13",
+      "published-online": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.5194/hess-28-2895-2024",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2023-308",
+          "asserted-by": "subject"
+        }
+      ],
+      "has-review": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2023-308-RC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2023-308-AC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2023-308-AC4",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2023-308-RC2",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2023-308-AC2",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2023-308-AC5",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2023-308-RC3",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2023-308-AC3",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2023-308-AC6",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2023-308-AC1",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2023-308-RC3",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2023-308-RC2",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2023-308-RC1",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2023-308-AC6",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2023-308-AC4",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2023-308-AC5",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2023-308-AC2",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/hess-2023-308-AC3",
+          "asserted-by": "object"
+        }
+      ],
+      "is-part-of": [
+        {
+          "id-type": "doi",
+          "id": "10.5066/P9NOD5ES",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "ISSN": [
+      "1607-7938"
+    ],
+    "issn-type": [
+      {
+        "value": "1607-7938",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          4
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.5194/hess-28-2895-2024",
+  "original_doi": "10.5194/hess-28-2895-2024"
+}

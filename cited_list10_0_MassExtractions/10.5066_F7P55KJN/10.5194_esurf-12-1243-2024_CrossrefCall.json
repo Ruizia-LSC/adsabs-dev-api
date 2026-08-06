@@ -1,0 +1,719 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          13
+        ]
+      ],
+      "date-time": "2026-07-13T15:16:33Z",
+      "timestamp": 1783955793242,
+      "version": "3.55.0"
+    },
+    "reference-count": 72,
+    "publisher": "Copernicus GmbH",
+    "issue": "6",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              5
+            ]
+          ],
+          "date-time": "2024-11-05T00:00:00Z",
+          "timestamp": 1730764800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Earth Surf. Dynam."
+    ],
+    "abstract": "<jats:p>Abstract. Measuring suspended-sand fluxes in rivers remains a scientific challenge due to their high spatial and temporal variability. To capture the vertical and lateral gradients of concentration in the cross-section, measurements with point samples are performed. However, the uncertainty related to these measurements is rarely evaluated, as few studies of the major sources of error exist. Therefore, the aim of this study is to develop a method to determine the cross-sectional sand flux and estimate its uncertainty. This SDC (for sand discharge computing) method combines suspended-sand concentrations from point samples with ADCP (acoustic Doppler current profiler) high-resolution depth and velocity measurements. The MAP (for multitransect averaged profile) method allows obtaining an average of several ADCP transects on a regular grid, including the unmeasured areas. The suspended-sand concentrations are integrated vertically by fitting a theoretical exponential suspended-sand profile to the data using Bayesian modeling. The lateral integration is based on the water depth as a proxy for the local bed shear stress to evaluate the bed concentration and sediment diffusion along the river cross-section. The estimation of uncertainty combines ISO standards and semi-empirical methods with a Bayesian approach to estimate the uncertainty due to the vertical integration. The new method is applied to data collected in four rivers under various hydro-sedimentary conditions: the Colorado, Rh\u00f4ne, Is\u00e8re, and Amazon rivers, with computed flux uncertainties ranging between 18\u2009% and 32\u2009%. The relative difference between the suspended-sand flux in 21 cases calculated with the proposed SDC method compared to the International Organization for Standardization (ISO) 4363 standard method ranges between \u221240\u2009% and +23\u2009%. This method that comes with a flexible, open-source code is the first to propose an applicable uncertainty estimation that could be adapted to other flux computation methods.</jats:p>",
+    "DOI": "10.5194/esurf-12-1243-2024",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          5
+        ]
+      ],
+      "date-time": "2024-11-05T02:39:42Z",
+      "timestamp": 1730774382000
+    },
+    "page": "1243-1266",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "River suspended-sand flux computation with uncertainty estimation using water samples and high-resolution ADCP measurements"
+    ],
+    "prefix": "10.5194",
+    "volume": "12",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9372-5494",
+        "authenticated-orcid": false,
+        "given": "Jessica",
+        "family": "Marggraf",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Guillaume",
+        "family": "Dramais",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J\u00e9r\u00f4me",
+        "family": "Le Coz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Blaise",
+        "family": "Calmel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Beno\u00eet",
+        "family": "Camenen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David J.",
+        "family": "Topping",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0098-9755",
+        "authenticated-orcid": false,
+        "given": "William",
+        "family": "Santini",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gilles",
+        "family": "Pierrefeu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fran\u00e7ois",
+        "family": "Lauters",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "3145",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          5
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Armijos, E., Crave, A., Espinoza, R., Fraizy, P., Santos, A.\u00a0D., Sampaio, F., De\u00a0Oliveira, E., Santini, W., Martinez, J., Autin, P., Pantoja, N., Oliveira, M., and Filizola, N.: Measuring and modeling vertical gradients in suspended sediments in the Solim\u00f5es /Amazon River, Hydrol. Process., 31, 654\u2013667, https://doi.org/10.1002/hyp.11059, 2017.\u2002a",
+        "DOI": "10.1002/hyp.11059"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "ASTM\u2005D3977: Standard test method for determining sediment concentration in water samples, ASTM International, https://doi.org/10.1520/D3977-97R19, 2007.\u2002a",
+        "DOI": "10.1520/D3977-97R19"
+      },
+      {
+        "key": "ref3",
+        "unstructured": "Boldt, J.\u00a0A.: From mobile ADCP to high-resolution SSC: a cross-section calibration tool, in: 3rd Joint Federal Interagency Conference on Sedimentation and Hydrologic Modeling, Reno, Nevada, 19\u201323 April 2015, 1258\u20131260, https://water.usgs.gov/osw/SALT/documents/189_Boldt.pdf (last access: 22 October 2024), 2015.\u2002a"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bouchez, J., M\u00e9tivier, F., Lupker, M., Maurice, L., Perez, M., Gaillardet, J., and France-Lanord, C.: Prediction of depth-integrated fluxes of suspended sediment in the Amazon River: Particle aggregation as a complicating factor, Hydrol. Process., 25, 778\u2013794, https://doi.org/10.1002/hyp.7868, 2011.\u2002a, b",
+        "DOI": "10.1002/hyp.7868"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Camenen, B.: Simple and general formula for the settling velocity of particles, J. Hydraul. Eng., 133, 229\u2013233, 2007.\u2002a",
+        "DOI": "10.1061/(ASCE)0733-9429(2007)133:2(229)"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Camenen, B. and Larson, M.: A unified sediment transport formulation for coastal inlet application, Tech. rep., US Army Corps of Engineers, Engineer Research and Development Center, https://doi.org/10.21236/ada472064, 2007.\u2002a",
+        "DOI": "10.21236/ADA472064"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Camenen, B. and Larson, M.: A general formula for noncohesive suspended sediment transport, J. Coastal Res., 24, 615\u2013627, 2008.\u2002a, b, c, d, e, f, g, h, i, j, k",
+        "DOI": "10.2112/06-0694.1"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Camenen, B., Holubova, K., Lukac, M., Le\u00a0Coz, J., and Paquier, A.: Assessment of Methods Used in 1D Models for Computing Bed-Load Transport in a Large River: The Danube River in Slovakia, J. Hydraul. Eng., 137, 1190\u20131199, https://doi.org/10.1061/(ASCE)HY.1943-7900.0000427, 2011.\u2002a",
+        "DOI": "10.1061/(ASCE)HY.1943-7900.0000427"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Camenen, B., Le Coz, J., Dramais, G., Peteuil, C., Fretaud, T., Falgon, A., Dussouillez, P., and Moore, S. A.: A simple physically-based model for predicting sand transport dynamics in the Lower Mekong River, River Flow, Proc. River Flow conference, 3\u20135 September 2014, Lausanne, Switzerland, 2189\u20132197, ISBN 9780429069246, 2014.\u2002a",
+        "DOI": "10.1201/b17133-293"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Camenen, B., Dramais, G., Laible, J., Le\u00a0Coz, J., Pierrefeu, G., and Lauters, F.: Quantification of continuous sand flux time-series downstream of a dam during a flushing event, Environ. Fluid Mech., https://doi.org/10.1007/s10652-023-09955-9, 2023.\u2002a",
+        "DOI": "10.1007/s10652-023-09955-9"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Colby, B.: Discharge of sands and mean-velocity relationships in sand-bed streams, Tech. rep., U.S. Geological Service, https://doi.org/10.3133/pp462A, 1964.\u2002a, b, c, d, e",
+        "DOI": "10.3133/pp462A"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Delile, H., Masson, M., Mi\u00e8ge, C., Le\u00a0Coz, J., Poulier, G., Le\u00a0Bescond, C., Radakovitch, O., and Coquery, M.: Hydro-climatic drivers of land-based organic and inorganic particulate micropollutant fluxes: The regime of the largest river water inflow of the Mediterranean Sea, Water Res., 185, 116067, https://doi.org/10.1016/j.watres.2020.116067, 2020.\u2002a",
+        "DOI": "10.1016/j.watres.2020.116067"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Despax, A., Le\u00a0Coz, J., Hauet, A., Mueller, D.\u00a0S., Engel, F.\u00a0L., Blanquart, B., Renard, B., and Oberg, K.\u00a0A.: Decomposition of Uncertainty Sources in Acoustic Doppler Current Profiler Streamflow Measurements Using Repeated Measures Experiments, Water Resour. Res., 55, 7520\u20137540, https://doi.org/10.1029/2019WR025296, 2019.\u2002a",
+        "DOI": "10.1029/2019WR025296"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Despax, A., Le\u00a0Coz, J., Mueller, D.\u00a0S., Hauet, A., Calmel, B., Pierrefeu, G., Naudet, G., Blanquart, B., and Pobanz, K.: Validation of an Uncertainty Propagation Method for Moving-Boat Acoustic Doppler Current Profiler Discharge Measurements, Water Resour. Res., 59, e2021WR031878, https://doi.org/10.1029/2021WR031878, 2023.\u2002a, b",
+        "DOI": "10.1029/2021WR031878"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dominguez\u00a0Ruben, L., Szupiany, R., Latosinski, F., C., L.\u00a0W., Wood, M., and Boldt, J.: Acoustic Sediment Estimation Toolbox (ASET): A software package for calibrating and processing TRDI ADCP data to compute suspended-sediment transport in sandy rivers, Comput. Geosci.-UK., 140, 104499, https://doi.org/10.1016/j.cageo.2020.104499, 2020.\u2002a, b, c",
+        "DOI": "10.1016/j.cageo.2020.104499"
+      },
+      {
+        "key": "ref16",
+        "unstructured": "Dramais, G.: Observation et mod\u00e9lisation des flux de sable dans les grands cours d\u2019eau, PhD thesis, University of Lyon, https://theses.hal.science/tel-03188258 (last access: 22 October 2024), 2020.\u2002a, b, c, d"
+      },
+      {
+        "key": "ref17",
+        "unstructured": "Edwards, T.\u00a0K. and Glysson, G.\u00a0D.: Field methods for measurement of fluvial sediment, U.S. Geological Survey, https://pubs.usgs.gov/twri/twri3-c2/pdf/TWRI_3-C2.pdf (last access: 22 October 2024), 1999.\u2002a"
+      },
+      {
+        "key": "ref18",
+        "unstructured": "Filizola, N., Seyler, F., Mour\u00e3o, M.\u00a0H., Arruda, W., Sp\u00ednola, N., and Guyot, J.\u00a0L.: Study of the variability in suspended sediment discharge at Manacapuru, Amazon River, Brazil, Latin American Journal of Sedimentology and Basin Analysis, 16, 93\u201399, 2009.\u2002a, b"
+      },
+      {
+        "key": "ref19",
+        "unstructured": "FISP: Laboratory investigation of suspended-sediment samplers, Tech. Rep. Report No.\u00a05, Federal Interagency Sedimentation Project, https://water.usgs.gov/fisp/docs/Report_5.pdf (last access: 22 October 2024), 1941.\u2002a"
+      },
+      {
+        "key": "ref20",
+        "unstructured": "FISP: The design of improved types of suspended sediment samplers, Tech. Rep. Report No.\u00a06, Federal Interagency Sedimentation Project, https://water.usgs.gov/fisp/docs/Report_6.pdf (last access: 22 October 2024), 1952.\u2002a"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gitto, A.\u00a0B., Venditti, J.\u00a0G., Kostaschuk, R., and Church, M.: Representative point-integrated suspended sediment sampling in rivers, Water Resour. Res., 53, 2956\u20132971, https://doi.org/10.1002/2016WR019187, 2017.\u2002a, b, c, d",
+        "DOI": "10.1002/2016WR019187"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gordon, J.\u00a0D.: US Geological Survey Quality-assurance Project for Sediment Analysis, Tech. rep., U.S. Geological Service, 2000.\u2002a",
+        "DOI": "10.3133/fs03100"
+      },
+      {
+        "key": "ref23",
+        "unstructured": "Gordon, J.\u00a0D., Newland, C.\u00a0A., and Gagliardi, S.\u00a0T.: Laboratory Performance in the Sediment Laboratory Quality-assurance Project, 1996\u201398, Water-Resources Investigations Report, 99, 4184, https://qsb.usgs.gov/slqa/WRIR_99_4184.pdf (last access: 22 October 2024), 2000.\u2002a, b"
+      },
+      {
+        "key": "ref24",
+        "unstructured": "Gray, J. and Gartner, J.: Overview of selected surrogate technologies for high-temporal resolution suspended sediment monitoring, in: Proceedings of the 2nd Joint Federal Interagency Conference, Las Vegas, NV, USA, 27 June\u20131 July, Citeseer, https://www.usgs.gov/publications/overview-selected-surrogate-technologies-high-temporal-resolution-suspended-sediment (last access: 2 June 2022), 2010.\u2002a"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gualtieri, C., Angeloudis, A., Bombardelli, F., Jha, S., and Stoesser, T.: On the values for the turbulent Schmidt number in environmental flows, Fluids, 2, 17, https://doi.org/10.3390/fluids2020017, 2017.\u2002a",
+        "DOI": "10.3390/fluids2020017"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guy, H.\u00a0P. and Norman, V.\u00a0W.: Field methods for measurement of fluvial sediment, United State Geological Survey, Book 3, https://doi.org/10.3133/twri03C2, 1970.\u2002a, b, c, d",
+        "DOI": "10.3133/twri03C2"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hoffmann, T., Thorndycraft, V., Brown, A., Coulthard, T., Damnati, B., Kale, V., Middelkoop, H., Notebaert, B., and Walling, D.: Human impact on fluvial regimes and sediment flux during the Holocene: Review and future research agenda, Global Planet. Change, 72, 87\u201398, https://doi.org/10.1016/j.gloplacha.2010.04.008, 2010.\u2002a",
+        "DOI": "10.1016/j.gloplacha.2010.04.008"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hunt, J.: On the turbulent transport of a heterogeneous sediment, Q. J. Mech. Appl. Math., 22, 235\u2013246, 1969.\u2002a, b",
+        "DOI": "10.1093/qjmam/22.2.235"
+      },
+      {
+        "key": "ref29",
+        "unstructured": "International Organization for Standardization: Measurement of liquid flow in open channels. Methods for measurement of characteristics of suspended sediment, ISO 4363, Geneva, Switzerland, https://www.iso.org/obp/ui/#iso:std:iso:4363:ed-3:v1:en (last access: 24 October 2024), 2002.\u2002a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q"
+      },
+      {
+        "key": "ref30",
+        "unstructured": "International Organization for Standardization: Hydrometry. Measurement of liquid flow in open channels using current-meters or floats using point velocity measurements, ISO 748, Geneva, Switzerland, 46 pp., https://www.iso.org/obp/ui/#iso:std:iso:748:ed-5:v1:en (last access: 22 October 2024), 2009.\u2002a"
+      },
+      {
+        "key": "ref31",
+        "unstructured": "JCGM: Evaluation of measurement data \u2013 Guide to the expression of uncertainty in measurement \u2013 JCGM, ISO, 50, 134, https://www.bipm.org/documents/20126/2071204/JCGM_100_2008_E.pdf/cb0ef43f-baa5-11cf-3f85-4dcd86f77bd6 (last access: 22 October 2024), 2008.\u2002a, b, c"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K\u00e4stner, K., Hoitink, A. J. F., Torfs, P. J. J. F., Vermeulen, B., Ningsih, N. S., and Pramulya, M.: Prerequisites for accurate monitoring of river discharge based on fixed\u2010location velocity measurements, Water Resour. Res., 54, 1058\u20131076, https://doi.org/10.1002/2017WR020990, 2018.",
+        "DOI": "10.1002/2017WR020990"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Khodashenas, S.\u00a0R. and Paquier, A.: A geometrical method for computing the distribution of boundary shear stress across irregular straight open channels, J. Hydraul. Res., 37, 381\u2013388, 1999.\u2002a",
+        "DOI": "10.1080/00221686.1999.9628254"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kondolf, G.\u00a0M.: Hungry water: effects of dams and gravel mining on river channels, Environ. Manage., 21, 533\u2013551, 1997.\u2002a",
+        "DOI": "10.1007/s002679900048"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kondolf, G. M., Gao, Y., Annandale, G. W., Morris, G. L., Jiang, E., Zhang, J., Cao, Y., Carling, P., Fu, K., Guo, Q., Hotchkiss, R., Peteuil, C., Sumi T., Wang, H.-W., Wang, Z., Wei, Z., Wu B., Wu, C., and Yang C. T.: Sustainable sediment management in reservoirs and regulated rivers: Experiences from five continents, Earths Future, 2, 256\u2013280, 2014.\u2002a",
+        "DOI": "10.1002/2013EF000184"
+      },
+      {
+        "key": "ref36",
+        "unstructured": "Laible, J., Calmel, B., Le Coz, J., Camenen, B., Dramais, G., and Vassor, T.: Analysis solid gauging, Zenodo [code], https://doi.org/10.5281/zenodo.13973594, 2023a."
+      },
+      {
+        "key": "ref37",
+        "unstructured": "Laible, J., Dramais, G., Camenen, B., Le Coz, J., Topping, D. J., Santini, W., and Pierrefeu, G.: Data set of solid gaugings in several rivers, Recherche Data Gouv [data set], https://doi.org/10.57745/NLFT7Q, 2023b."
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lennermark, M. and Hauet, A.: Developing a post-processing software for ADCP discharge measurement piloted by an international and inter-agency group: a unique, ambitious experience\u2026 and one that works!, EGU General Assembly 2022, Vienna, Austria, 23\u201327 May 2022, EGU22-9379, https://doi.org/10.5194/egusphere-egu22-9379, 2022.\u2002a, b, c, d",
+        "DOI": "10.5194/egusphere-egu22-9379"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lupker, M., France-Lanord, C., Lav\u00e9, J., Bouchez, J., Galy, V., M\u00e9tivier, F., Gaillardet, J., Lartiges, B., and Mugnier, J.: A Rouse-based method to integrate the chemical composition of river sediments: Application to the Ganga basin, J. Geophys. Res.-Earth, 116, 1\u201324, https://doi.org/10.1029/2010JF001947, 2011.\u2002a",
+        "DOI": "10.1029/2010JF001947"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mansanarez, V., Renard, B., Le\u00a0Coz, J., Lang, M., and Darienzo, M.: Shift Happens! Adjusting Stage-Discharge Rating Curves to Morphological Changes at Known Times, Water Resour. Res., 55, 2876\u20132899, https://doi.org/10.1029/2018WR023389, 2019.\u2002a",
+        "DOI": "10.1029/2018WR023389"
+      },
+      {
+        "key": "ref41",
+        "unstructured": "Marggraf, J., Camenen, B., Le Coz, J., Dramais, G., Lauters, F., Pierrefeu, G.: Suspended sediment measurements in the Is\u00e8re River at Grenoble Campus, Recherche Data Gouv [data set], https://doi.org/10.57745/YTCYSX, 2023."
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McLean, S.: On the calculation of suspended load for noncohesive sediments, J. Geophys. Res.-Oceans, 97, 5759\u20135770, 1992.\u2002a, b",
+        "DOI": "10.1029/91JC02933"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mueller, D.\u00a0S.: QRev-Software for computation and quality assurance of acoustic Doppler current profiler moving-boat streamflow measurements, U.S. Geological Survey Open-File Report, 1052, 50, Technical Manual for version 2.8, https://doi.org/10.3133/ofr20161068, 2016.\u2002a",
+        "DOI": "10.3133/ofr20161068"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "N\u00e9mery, J., Mano, V., Coynel, A., Etcheber, H., Moatar, F., Meybeck, M., Belleudy, P., and Poirel, A.: Carbon and suspended sediment transport in an impounded alpine river (Is\u00e8re, France), Hydrol. Process., 27, 2498\u20132508, https://doi.org/10.1002/hyp.9387, 2013.\u2002a",
+        "DOI": "10.1002/hyp.9387"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Oberg, K. and Mueller, D.\u00a0S.: Validation of streamflow measurements made with acoustic Doppler current profilers, J. Hydraul. Eng., 133, 1421\u20131432, https://doi.org/10.1061/(ASCE)0733-9429(2007)133:12(1421, 2007.\u2002a, b",
+        "DOI": "10.1061/(ASCE)0733-9429(2007)133:12(1421)"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Parsons, D.\u00a0R., Jackson, P., Czuba, J., Engel, F., Rhoads, B.\u00a0L., Oberg, K., Best, J.\u00a0L., Mueller, D., Johnson, K., and Riley, J.: Velocity Mapping Toolbox (VMT): a processing and visualization suite for moving-vessel ADCP measurements, Earth Surf. Processes, 38, 1244\u20131260, https://doi.org/10.1002/esp.3367, 2013.\u2002a, b, c",
+        "DOI": "10.1002/esp.3367"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Perret, E., Camenen, B., Berni, C., El\u00a0kadi Abderrezzak, K., and Renard, B.: Uncertainties in Models Predicting Critical Bed Shear Stress of Cohesionless Particles, J. Hydraul. Eng., 149, 04023002, https://doi.org/10.1061/JHEND8.HYENG-13101, 2023.\u2002a",
+        "DOI": "10.1061/JHEND8.HYENG-13101"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Porterfield: Computation of fluvial-sediment discharge, Techniques of Water-Resources Investigations, https://doi.org/10.3133/twri03C3, 1972.\u2002a",
+        "DOI": "10.3133/twri03C3"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Poulier, G., Launay, M., Le\u00a0Bescond, C., Thollet, F., Coquery, M., and Le\u00a0Coz, J.: Combining flux monitoring and data reconstruction to establish annual budgets of suspended particulate matter, mercury and PCB in the Rh\u00f4ne River from Lake Geneva to the Mediterranean Sea, Sci. Total Environ., 658, 457\u2013473, https://doi.org/10.1016/j.scitotenv.2018.12.075, 2019.\u2002a",
+        "DOI": "10.1016/j.scitotenv.2018.12.075"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Renard, B., Garreta, V., and Lang, M.: An application of Bayesian analysis and Markov chain Monte Carlo methods to the estimation of a regional trend in annual maxima, Water Resour Res. 42, W12422, https://doi.org/10.1029/2005WR004591, 2006.\u2002a",
+        "DOI": "10.1029/2005WR004591"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rouse, H.: Modern conceptions of the mechanics of fluid turbulence, Trans. ASCE, 102, 463\u2013505, 1937.\u2002a, b",
+        "DOI": "10.1061/TACEAT.0004872"
+      },
+      {
+        "key": "ref52",
+        "unstructured": "Rozovskii, I.\u00a0L.: Flow of water in bends of open channels, Academy of Sciences of the Ukrainian SSR: Kiev, translated from Russian by the Israel Program for Scientific Translations, Jerusalem, 1961, 1957.\u2002a"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sabol, T.\u00a0A. and Topping, D.\u00a0J.: Evaluation of intake efficiencies and associated sediment-concentration errors in US D-77 bag-type and US D-96-type depth-integrating suspended-sediment samplers, U.S. Geological Survey Scientific Investigations Report 2012-5208, 88 pp., 5208, 88, https://doi.org/10.3133/sir20125208, 2013.\u2002a",
+        "DOI": "10.3133/sir20125208"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Santini, W., Camenen, B., Le Coz, J., Vauchel, P., Guyot, J.-L., Lavado, W., Carranza, J., Paredes, M. A., P\u00e9rez Ar\u00e9valo, J. J., Ar\u00e9valo, N., Espinoza Villar, R., Julien, F., and Martinez, J.-M.: An index concentration method for suspended load monitoring in large rivers of the Amazonian foreland, Earth Surf. Dynam., 7, 515\u2013536, https://doi.org/10.5194/esurf-7-515-2019, 2019.\u2002a",
+        "DOI": "10.5194/esurf-7-515-2019"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shah-Fairbank, S.\u00a0C. and Julien, P.\u00a0Y.: Sediment load calculations from point measurements in sand-bed rivers, Int. J. Sediment Res., 30, 1\u201312, https://doi.org/10.1016/S1001-6279(15)60001-4, 2015.\u2002a",
+        "DOI": "10.1016/S1001-6279(15)60001-4"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Smart, G.: A base for the log law and von Karman\u2019s constant problem, J. Hydraul. Res., 60, 935\u2013943, https://doi.org/10.1080/00221686.2022.2076164, 2022.\u2002a",
+        "DOI": "10.1080/00221686.2022.2076164"
+      },
+      {
+        "key": "ref57",
+        "unstructured": "Soulsby, R. and Whitehouse, R.: Threshold of sediment motion in coastal environments, in: Pacific Coasts and Ports' 97: Proceedings of the 13th Australasian Coastal and Ocean Engineering Conference and the 6th Australasian Port and Harbour Conference, Christchurch, New Zealand, 7\u201311 September 1997, Vol.\u00a01, Centre for Advanced Engineering, University of Canterbury, 145\u2013150, https://search.informit.org/doi/epdf/10.3316/informit.929741720399033 (last access: 22 October 2024), 1997.\u2002a"
+      },
+      {
+        "key": "ref58",
+        "unstructured": "Spicer, K.: P-6 Comparison Tests. A Point-Integrating Suspended Sediment Sampler Comparison, SEDHYD Conference, Reno, NV, USA, 24\u201328 June 2019, http://carnettechnology.com/assets/P-6_Comparison_Tests-A_Point_Integrating_Suspned_Sediment_Compa59646.pdf (last access: 22 October 2024), 2019.\u2002a, b"
+      },
+      {
+        "key": "ref59",
+        "unstructured": "Starosolsky, O. and Rakoczi, L.: Operational hydrology report (OHR), 16. Measurement of river sediments: prepared by the Rapporteur on Sediment Transport of the Commission for Hydrology, World Meteorological Organisation, https://library.wmo.int/viewer/33602/#page=1&amp;amp;viewer=picture&amp;amp;o=bookmarks&amp;amp;n=0&amp;amp;q= (last access: 22 October 2024), 1981.\u2002a"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Szupiany, R.\u00a0N., Lopez\u00a0Weibel, C., Guerrero, M., Latosinski, F., Wood, M., Dominguez\u00a0Ruben, L., and Oberg, K.: Estimating sand concentrations using ADCP-based acoustic inversion in a large fluvial system characterized by bi-modal suspended-sediment distributions, Earth Surf. Processes, 44, 1295\u20131308, https://doi.org/10.1002/esp.4572, 2019.\u2002a, b",
+        "DOI": "10.1002/esp.4572"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Topping, D.\u00a0J. and Wright, S.\u00a0A.: Long-term continuous acoustical suspended-sediment measurements in rivers \u2013 Theory, application, bias, and error, U.S. Geological Survey Professional Paper 1823, 98 pp., https://doi.org/10.3133/pp1823, 2016.\u2002a",
+        "DOI": "10.3133/pp1823"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Topping, D.\u00a0J., Rubin, D.\u00a0M., Wright, S.\u00a0A., and Melis, T.\u00a0S.: Field evaluation of the error arising from inadequate time averaging in the standard use of depth-integrating suspended-sediment samplers, US Geological Survey Professional Paper 1774, 95 pp., https://pubs.usgs.gov/pp/1774/pp1774.pdf (last access: 18 February 2024), 2011.\u2002a, b, c, d, e",
+        "DOI": "10.3133/pp1774"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Topping, D.\u00a0J., Grams, P.\u00a0E., Griffiths, R.\u00a0E., Dean, D.\u00a0J., Wright, A.\u00a0S., and Unema, J.\u00a0A.: Self-limitation of sand storage in a bedrock-canyon river arising from the interaction of flow and grain size, J. Geophys. Res.-Earth, 126, e2020JF005565, https://doi.org/10.1029/2020JF005565, 2021.\u2002a",
+        "DOI": "10.1029/2020JF005565"
+      },
+      {
+        "key": "ref64",
+        "unstructured": "U.S. Geological Survey: USGS water data for the Nation:, U.S. Geological Survey National Water Information System database [data set], https://doi.org/10.5066/F7P55KJN, 2023.\u2002a"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Van\u00a0Rijn, L.\u00a0C.: Sediment transport, part II: suspended load transport, J. Hydraul. Eng., 110, 1613\u20131641, 1984.\u2002a",
+        "DOI": "10.1061/(ASCE)0733-9429(1984)110:11(1613)"
+      },
+      {
+        "key": "ref66",
+        "unstructured": "Van Rossum, G. and Drake, F.\u00a0L.: Python 3 reference manual, CreateSpace, Scotts Valley, CA, 242 pp., ISBN 978-1-4414-1269-0, 2009.\u2002a"
+      },
+      {
+        "key": "ref67",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vauchel, P., Santini, W., Guyot, J.\u00a0L., Moquet, J.\u00a0S., Martinez, J.\u00a0M., Espinoza, J.\u00a0C., Baby, P., Fuertes, O., Noriega, L., Puita, O., et\u00a0al.: A reassessment of the suspended sediment load in the Madeira River basin from the Andes of Peru and Bolivia to the Amazon River in Brazil, based on 10 years of data from the HYBAM monitoring programme, J. Hydrol., 553, 35\u201348, https://doi.org/10.1016/j.jhydrol.2017.07.018, 2017.\u2002a",
+        "DOI": "10.1016/j.jhydrol.2017.07.018"
+      },
+      {
+        "key": "ref68",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Venditti, J., Church, M., Attard, M., and Haught, D.: Use of ADCPs for suspended sediment transport monitoring: An empirical approach, Water Resour. Res., 52, 2715\u20132736, https://doi.org/10.1002/2015WR017348, 2016.\u2002a, b",
+        "DOI": "10.1002/2015WR017348"
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vergne, A., Le\u00a0Coz, J., Berni, C., and Pierrefeu, G.: Using a Down-Looking Multifrequency ABS for Measuring Suspended Sediments in Rivers, Water Resour. Res., 56, e2019WR024877, https://doi.org/10.1029/2019WR024877, 2020.\u2002a",
+        "DOI": "10.1029/2019WR024877"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vergne, A., Le\u00a0Coz, J., and Berni, C.: Some Backscatter Modeling Issues Complicating the Sonar-Based Monitoring of Suspended Sediments in Rivers, Water Resour. Res., 59, e2022WR032341, https://doi.org/10.1029/2022WR032341, 2023.\u2002a, b",
+        "DOI": "10.1029/2022WR032341"
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vermeulen, B., Sassi, M.\u00a0G., and Hoitink, A. J.\u00a0F.: Improved flow velocity estimates from moving-boat ADCP measurements, Water Resour. Res., 50, 4186\u20134196, 2014.\u2002a, b",
+        "DOI": "10.1002/2013WR015152"
+      },
+      {
+        "key": "ref72",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wren, D., Barkdoll, B., Kuhnle, R., and Derrow, R.: Field techniques for suspended-sediment measurement, J. Hydraul. Eng., 126, 97\u2013104, https://doi.org/10.1061/(ASCE)0733-9429(2000)126:2(97), 2000.\u2002a, b",
+        "DOI": "10.1061/(ASCE)0733-9429(2000)126:2(97)"
+      }
+    ],
+    "container-title": [
+      "Earth Surface Dynamics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://esurf.copernicus.org/articles/12/1243/2024/esurf-12-1243-2024.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          5
+        ]
+      ],
+      "date-time": "2024-11-05T02:40:11Z",
+      "timestamp": 1730774411000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://esurf.copernicus.org/articles/12/1243/2024/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          5
+        ]
+      ]
+    },
+    "references-count": 72,
+    "journal-issue": {
+      "issue": "6",
+      "published-online": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.5194/esurf-12-1243-2024",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-2348",
+          "asserted-by": "subject"
+        }
+      ],
+      "has-review": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-2348-RC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-2348-RC2",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-2348-AC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-2348-RC2",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-2348-RC1",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/egusphere-2023-2348-AC1",
+          "asserted-by": "object"
+        }
+      ],
+      "is-part-of": [
+        {
+          "id-type": "doi",
+          "id": "10.57745/YTCYSX",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.57745/NLFT7Q",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5281/zenodo.13973594",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "ISSN": [
+      "2196-632X"
+    ],
+    "issn-type": [
+      {
+        "value": "2196-632X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          5
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.5194/esurf-12-1243-2024",
+  "original_doi": "10.5194/esurf-12-1243-2024"
+}

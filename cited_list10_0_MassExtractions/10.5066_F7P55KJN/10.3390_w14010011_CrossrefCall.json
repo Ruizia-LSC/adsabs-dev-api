@@ -1,0 +1,851 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          31
+        ]
+      ],
+      "date-time": "2026-03-31T01:54:22Z",
+      "timestamp": 1774922062684,
+      "version": "3.50.1"
+    },
+    "reference-count": 58,
+    "publisher": "MDPI AG",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              12,
+              22
+            ]
+          ],
+          "date-time": "2021-12-22T00:00:00Z",
+          "timestamp": 1640131200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "EAR-1824820"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "EAR-1824820"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000203",
+        "name": "United States Geological Survey",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "Toxics Substances Hydrology Program"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "Toxics Substances Hydrology Program"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Water"
+    ],
+    "abstract": "<jats:p>Groundwater discharge to rivers takes many forms, including preferential groundwater discharge points (PDPs) along riverbanks that are exposed at low flows, with multi-scale impacts on aquatic habitat and water quality. The physical controls on the spatial distribution of PDPs along riverbanks are not well-defined, rendering their prediction and representation in models challenging. To investigate the local riverbank sediment controls on PDP occurrence, we tested drone-based and handheld thermal infrared to efficiently map PDP locations along two mainstem rivers. Early in the study, we found drone imaging was better suited to locating tributary and stormwater inflows, which created relatively large water surface thermal anomalies in winter, compared to PDPs that often occurred at the sub-meter scale and beneath riparian tree canopy. Therefore, we primarily used handheld thermal infrared imaging from watercraft to map PDPs and larger seepage faces along 12-km of the fifth-order Housatonic River in Massachusetts, USA and 26-km of the Farmington River in Connecticut, USA. Overall, we mapped 31 riverbank PDPs along the Housatonic reach that meanders through lower permeability soils, and 104 PDPs along the Farmington reach that cuts through sandier sediments. Riverbank soil parameters extracted at PDP locations from the Soil Survey Geographic (SSURGO) database did not differ substantially from average bank soils along either reach, although the Farmington riverbank soils were on average 5\u00d7 more permeable than Housatonic riverbank soils, likely contributing to the higher observed prevalence of PDPs. Dissolved oxygen measured in discharge water at these same PDPs varied widely, but showed no relation to measured sand, clay, or organic matter content in surficial soils indicating a lack of substantial near-surface aerobic reaction. The PDP locations were investigated for the presence of secondary bank structures, and commonly co-occurred with riparian tree root masses indicating the importance of localized physical controls on the spatial distribution of riverbank PDPs.</jats:p>",
+    "DOI": "10.3390/w14010011",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          23
+        ]
+      ],
+      "date-time": "2021-12-23T02:02:57Z",
+      "timestamp": 1640224977000
+    },
+    "page": "11",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 10,
+    "title": [
+      "Exploring Local Riverbank Sediment Controls on the Occurrence of Preferential Groundwater Discharge Points"
+    ],
+    "prefix": "10.3390",
+    "volume": "14",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-3206-4132",
+        "authenticated-orcid": false,
+        "given": "Martin A.",
+        "family": "Briggs",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Earth System Processes Division, Hydrogeophysics Branch, US Geological Survey, Storrs, CT 06269, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2156-5073",
+        "authenticated-orcid": false,
+        "given": "Kevin E.",
+        "family": "Jackson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Natural Resources and the Environment, Center for Environmental Sciences and Engineering, University of Connecticut, Storrs, CT 06269, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Fiona",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Natural Resources and the Environment, Center for Environmental Sciences and Engineering, University of Connecticut, Storrs, CT 06269, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Eric M.",
+        "family": "Moore",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Natural Resources and the Environment, Center for Environmental Sciences and Engineering, University of Connecticut, Storrs, CT 06269, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Alaina",
+        "family": "Bisson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Natural Resources and the Environment, Center for Environmental Sciences and Engineering, University of Connecticut, Storrs, CT 06269, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Ashley M.",
+        "family": "Helton",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Natural Resources and the Environment, Center for Environmental Sciences and Engineering, University of Connecticut, Storrs, CT 06269, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          22
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "3071",
+        "DOI": "10.1002/wrcr.20156",
+        "article-title": "Macropores and water flow in soils revisited",
+        "volume": "49",
+        "author": "Beven",
+        "year": "2013",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "735",
+        "DOI": "10.1086/711655",
+        "article-title": "Abundance, distribution, and geometry of naturally occurring streambank soil pipes",
+        "volume": "39",
+        "author": "Hester",
+        "year": "2020",
+        "journal-title": "Freshw. Sci."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "180084",
+        "DOI": "10.2136/vzj2018.04.0084",
+        "article-title": "Snowmelt Infiltration and Macropore Flow in Frozen Soils: Overview, Knowledge Gaps, and a Conceptual Framework",
+        "volume": "17",
+        "author": "Mohammed",
+        "year": "2018",
+        "journal-title": "Vadose Zone J."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "369",
+        "DOI": "10.1002/(SICI)1099-1085(20000228)14:3<369::AID-HYP943>3.0.CO;2-P",
+        "article-title": "Stormflow generation in steep forested headwaters: A linked hydrogeomorphic paradigm",
+        "volume": "14",
+        "author": "Sidle",
+        "year": "2000",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "830",
+        "DOI": "10.1016/j.jhydrol.2015.09.005",
+        "article-title": "The effect of macropores on bi-directional hydrologic exchange between a stream channel and riparian groundwater",
+        "volume": "529",
+        "author": "Menichino",
+        "year": "2015",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1098",
+        "DOI": "10.1002/grl.50282",
+        "article-title": "Resolving centimeter-scale flows in aquifers and their hydrostratigraphic controls",
+        "volume": "40",
+        "author": "Liu",
+        "year": "2013",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "2435",
+        "DOI": "10.1002/hyp.13178",
+        "article-title": "Explicit consideration of preferential groundwater discharges as surface water ecosystem control points",
+        "volume": "32",
+        "author": "Briggs",
+        "year": "2018",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "355",
+        "DOI": "10.1111/j.1752-1688.2003.tb04390.x",
+        "article-title": "Cold water patches in warm streams: Physicochemical characteristics and the influence of shading",
+        "volume": "59860",
+        "author": "Ebersole",
+        "year": "2003",
+        "journal-title": "J. Am. Water Resour. Assoc."
+      },
+      {
+        "key": "ref_9",
+        "first-page": "2610",
+        "article-title": "Science, society, and the coastal groundwater squeeze",
+        "volume": "53",
+        "author": "Michael",
+        "year": "2017",
+        "journal-title": "Eos. Trans. Am. Geophys. Union"
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "607",
+        "DOI": "10.1002/lno.11626",
+        "article-title": "Aufeis fields as novel groundwater-dependent ecosystems in the arctic cryosphere",
+        "volume": "66",
+        "author": "Huryn",
+        "year": "2021",
+        "journal-title": "Limnol. Oceanogr."
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "309",
+        "DOI": "10.1111/j.1745-6584.2002.tb02659.x",
+        "article-title": "Effects of ground water exchange on the hydrology and ecology of surface water",
+        "volume": "40",
+        "author": "Hayashi",
+        "year": "2002",
+        "journal-title": "Ground Water"
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Singha, K., and Navarre-Sitchler, A. (2021). The importance of groundwater in critical zone science. Groundwater, 1\u20138.",
+        "DOI": "10.1111/gwat.13143"
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Thomas, J.C., McMahon, P.B., and Arnold, L.R. (2019). Groundwater Quality and Hydrology with Emphasis on Selenium Mobilization and Transport in the Lower Gunnison River Basin, Colorado, 2012\u20132016. Sci. Investig. Rep.",
+        "DOI": "10.3133/sir20195029"
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "2281",
+        "DOI": "10.1002/hyp.13752",
+        "article-title": "Hillslope groundwater discharges provide localized stream ecosystem buffers from regional per- and polyfluoroalkyl substances contamination",
+        "volume": "34",
+        "author": "Briggs",
+        "year": "2020",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2020WR028027",
+        "DOI": "10.1029/2020WR028027",
+        "article-title": "Improved Prediction of Management-Relevant Groundwater Discharge Characteristics Throughout River Networks",
+        "volume": "56",
+        "author": "Barclay",
+        "year": "2020",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Winter, T.C., Harvey, J.W., Franke, O.L., and Alley, W.M. (1998). Ground Water and Surface Water: A Single Resource.",
+        "DOI": "10.3133/cir1139"
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2020WR028122",
+        "DOI": "10.1029/2020WR028122",
+        "article-title": "Effects of Topographic Resolution and Geologic Setting on Spatial Statistical River Temperature Models",
+        "volume": "56",
+        "author": "Devito",
+        "year": "2020",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "278",
+        "DOI": "10.1111/j.1752-1688.2010.00420.x",
+        "article-title": "Hot spots and hot moments in riparian zones: Potential for improved water quality management",
+        "volume": "46",
+        "author": "Vidon",
+        "year": "2010",
+        "journal-title": "J. Am. Water Resour. Assoc."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1029/2009GL038103",
+        "article-title": "Ground-based thermal imaging of groundwater flow processes at the seepage face",
+        "volume": "36",
+        "author": "Deitchman",
+        "year": "2009",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "458",
+        "DOI": "10.1002/hyp.10170",
+        "article-title": "Spatial variability in streambed hydraulic conductivity of contrasting stream morphologies: Channel bend and straight channel",
+        "volume": "29",
+        "author": "Sebok",
+        "year": "2015",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "83",
+        "DOI": "10.32389/JEEG20-066",
+        "article-title": "Investigation of Scale-Dependent Groundwater/Surface- water Exchange in Rivers by Gradient Self-Potential Logging: Numerical Modeling and Field Experiments",
+        "volume": "26",
+        "author": "Ikard",
+        "year": "2021",
+        "journal-title": "J. Environ. Eng. Geophys."
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Furze, S., Sullivan, A.M.O., Allard, S., Pronk, T., and Curry, R.A. (2021). A High-Resolution, Random Forest Approach to Mapping Depth-to-Bedrock across Shallow Overburden and Post-Glacial Terrain. Remote Sens., 13.",
+        "DOI": "10.3390/rs13214210"
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "114495",
+        "DOI": "10.1016/j.geoderma.2020.114495",
+        "article-title": "Predictive modeling of bedrock outcrops and associated shallow soil in upland glaciated landscapes",
+        "volume": "376",
+        "author": "Fraser",
+        "year": "2020",
+        "journal-title": "Geoderma"
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "104422",
+        "DOI": "10.1016/j.catena.2019.104422",
+        "article-title": "High-resolution broad-scale mapping of soil parent material using object-based image analysis (OBIA) of LiDAR elevation data",
+        "volume": "188",
+        "author": "Prince",
+        "year": "2020",
+        "journal-title": "Catena"
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "6031",
+        "DOI": "10.5194/hess-21-6031-2017",
+        "article-title": "Hydrogeological controls on spatial patterns of groundwater discharge in peatlands",
+        "volume": "21",
+        "author": "Hare",
+        "year": "2017",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "136",
+        "DOI": "10.1016/j.jhydrol.2004.04.029",
+        "article-title": "Modelling of macropore flow and transport processes at catchment scale",
+        "volume": "299",
+        "author": "Thorsen",
+        "year": "2004",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "2510",
+        "DOI": "10.1002/hyp.10722",
+        "article-title": "Thermal infrared video details multiscale groundwater discharge to surface water through macropores and peat pipes",
+        "volume": "30",
+        "author": "Briggs",
+        "year": "2016",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "873",
+        "DOI": "10.5194/hess-10-873-2006",
+        "article-title": "Measuring methods for groundwater-surface water interactions: A review",
+        "volume": "10",
+        "author": "Kalbus",
+        "year": "2006",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rosenberry, D.O., L\u00f3pez, J.M.N., Webb, R.M.T., and M\u00fcller, S. (2020). Variable seepage meter efficiency in high-permeability settings. Water, 12.",
+        "DOI": "10.3390/w12113267"
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "first-page": "1917",
+        "DOI": "10.5194/hess-22-1917-2018",
+        "article-title": "Active heat pulse sensing of 3-D-flow fields in streambeds",
+        "volume": "22",
+        "author": "Banks",
+        "year": "2018",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "40",
+        "DOI": "10.1016/j.earscirev.2013.10.015",
+        "article-title": "Heat as a tracer to quantify water flow in near-surface sediments",
+        "volume": "129",
+        "author": "Rau",
+        "year": "2014",
+        "journal-title": "Earth Sci. Rev."
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "first-page": "243",
+        "DOI": "10.1111/j.1745-6584.2004.tb02671.x",
+        "article-title": "Delineating and quantifying ground water discharge zones using streambed temperatures",
+        "volume": "42",
+        "author": "Conant",
+        "year": "2004",
+        "journal-title": "Ground Water"
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "first-page": "1223",
+        "DOI": "10.1007/s10040-012-0870-2",
+        "article-title": "Scaling up point-in-space heat tracing of seepage flux using bed temperatures as a quantitative proxy",
+        "volume": "20",
+        "author": "Lautz",
+        "year": "2012",
+        "journal-title": "Hydrogeol. J."
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "first-page": "233",
+        "DOI": "10.1016/j.jenvman.2018.02.083",
+        "article-title": "Evaluating long-term patterns of decreasing groundwater discharge through a lake-bottom permeable reactive barrier",
+        "volume": "220",
+        "author": "McCobb",
+        "year": "2018",
+        "journal-title": "J. Environ. Manag."
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lowry, C.S., Walker, J.F., Hunt, R.J., and Anderson, M.P. (2007). Identifying spatial variability of groundwater discharge in a wetland stream using a distributed temperature sensor. Water Resour. Res., 43.",
+        "DOI": "10.1029/2007WR006145"
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "first-page": "1422",
+        "DOI": "10.1002/hyp.9690",
+        "article-title": "Seasonal variations in groundwater upwelling zones in a Danish lowland stream analyzed using Distributed Temperature Sensing (DTS)",
+        "volume": "28",
+        "author": "Matheswaran",
+        "year": "2014",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "first-page": "5355",
+        "DOI": "10.1002/wrcr.20436",
+        "article-title": "High-resolution distributed temperature sensing to detect seasonal groundwater discharge into Lake V\u00e6ng",
+        "volume": "49",
+        "author": "Sebok",
+        "year": "2013",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_38",
+        "doi-asserted-by": "crossref",
+        "first-page": "4486",
+        "DOI": "10.1002/2016WR018808",
+        "article-title": "Combined use of thermal methods and seepage meters to efficiently locate, quantify, and monitor focused groundwater discharge to a sand-bed stream",
+        "volume": "52",
+        "author": "Rosenberry",
+        "year": "2016",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Handcock, R.N., Torgersen, C.E., Cherkauer, K.A., Gillespie, A.R., Tockner, K., Faux, R.N., and Tan, J. (2012). Thermal Infrared Remote Sensing of Water Temperature in Riverine Landscapes. Fluvial Remote Sensing for Science and Management, John Wiley & Sons Inc.",
+        "DOI": "10.1002/9781119940791.ch5"
+      },
+      {
+        "key": "ref_40",
+        "doi-asserted-by": "crossref",
+        "first-page": "60",
+        "DOI": "10.1016/j.jhydrol.2019.01.053",
+        "article-title": "Improving the accuracy of time-lapse thermal infrared imaging for hydrologic applications",
+        "volume": "571",
+        "author": "Baker",
+        "year": "2019",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_41",
+        "doi-asserted-by": "crossref",
+        "first-page": "316",
+        "DOI": "10.1002/hyp.13332",
+        "article-title": "Efficient hydrogeological characterization of remote stream corridors using drones",
+        "volume": "33",
+        "author": "Briggs",
+        "year": "2019",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "first-page": "43",
+        "DOI": "10.1016/j.rse.2014.12.021",
+        "article-title": "Spatial distribution of thermal refuges analysed in relation to riverscape hydromorphology using airborne thermal infrared imagery",
+        "volume": "160",
+        "author": "Dugdale",
+        "year": "2015",
+        "journal-title": "Remote Sens. Environ."
+      },
+      {
+        "key": "ref_43",
+        "doi-asserted-by": "crossref",
+        "first-page": "3",
+        "DOI": "10.1007/s00027-017-0557-9",
+        "article-title": "Longitudinal thermal heterogeneity in rivers and refugia for coldwater species: Effects of scale and climate change",
+        "volume": "80",
+        "author": "Fullerton",
+        "year": "2018",
+        "journal-title": "Aquat. Sci."
+      },
+      {
+        "key": "ref_44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Harvey, M.C., Hare, D.K., Hackman, A., Davenport, G., Haynes, A.B., Helton, A., John, W., Lane, J., and Briggs, M.A. (2019). Evaluation of Stream and Wetland Restoration Using UAS-Based Thermal Infrared Mapping. Water, 11.",
+        "DOI": "10.3390/w11081568"
+      },
+      {
+        "key": "ref_45",
+        "unstructured": "US Geological Survey (2021, October 01). USGS Water Data for the Nation: U.S. Geological Survey National Water Information System Database. Available online: https://doi.org/10.5066/F7P55KJN."
+      },
+      {
+        "key": "ref_46",
+        "unstructured": "Stone, J.R., Schafer, J.P., London, E.H., DiGiacomo-Cohen, M.L., Lewis, R.S., and Thompson, W. (2021, October 29). Quaternary Geologic Map of Connecticut and Long Island Sound Basin. Scientific Investigations Map 2784, Available online: https://pubs.er.usgs.gov/publication/sim2784."
+      },
+      {
+        "key": "ref_47",
+        "unstructured": "Harvey, M., Briggs, M.A., Dawson, C.B., White, E.A., Fosberg, D., Haynes, A., and Moore, E. (2019). Thermal infrared and photogrammetric data collected by small unoccupied aircraft system for the evaluation of wetland restoration design at Tidmarsh Wildlife Sanctuary, Plymouth, Massachusetts, USA. U.S. Geol. Surv. Public Data Release."
+      },
+      {
+        "key": "ref_48",
+        "first-page": "2616",
+        "article-title": "Airborne Thermal Infrared Videography of Stream Temperature from a Small Unmanned Aerial System",
+        "volume": "32",
+        "author": "Fitch",
+        "year": "2018",
+        "journal-title": "HPEye"
+      },
+      {
+        "key": "ref_49",
+        "unstructured": "Barclay, J.R. (2019). Imprints of the Land: Spatial and Temporal Connections between Land Use and Water Quality. [Ph.D. Thesis, University of Connecticut]."
+      },
+      {
+        "key": "ref_50",
+        "unstructured": "Lapham, W.W. (1989). Use of temperature profiles beneath streams to determine rates of vertical ground-water flow and vertical hydraulic conductivity. U.S. Geol. Surv. Water-Supply Pap., 2337."
+      },
+      {
+        "key": "ref_51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wieczorek, M.E. (2014). Area- and Depth-Weighted Averages of Selected SSURGO Variables for the Conterminous United States and District of Columbia. U.S. Geol. Surv. Data Ser., 866.",
+        "DOI": "10.3133/ds866"
+      },
+      {
+        "key": "ref_52",
+        "unstructured": "Moore, E.M., Jackson, K.E., Haynes, A.B., Harvey, M., Helton, A.M., and Briggs, M.A. (2020). Thermal infrared images of groundwater discharge zones in the Farmington and Housatonic River watersheds (Connecticut and Massachusetts, 2019) (ver. 2.0, November 2021). U.S. Geol. Surv. Data Release."
+      },
+      {
+        "key": "ref_53",
+        "doi-asserted-by": "crossref",
+        "first-page": "106891",
+        "DOI": "10.1016/j.agee.2020.106891",
+        "article-title": "Managing riparian buffer strips to optimise ecosystem services: A review",
+        "volume": "296",
+        "author": "Cole",
+        "year": "2020",
+        "journal-title": "Agric. Ecosyst. Environ."
+      },
+      {
+        "key": "ref_54",
+        "doi-asserted-by": "crossref",
+        "first-page": "70",
+        "DOI": "10.1016/j.catena.2019.02.006",
+        "article-title": "The influence of landscape characteristics on the spatial variability of river temperatures",
+        "volume": "177",
+        "author": "Devito",
+        "year": "2019",
+        "journal-title": "Catena"
+      },
+      {
+        "key": "ref_55",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2295",
+        "DOI": "10.1002/eco.2295",
+        "article-title": "An ecohydrological typology for thermal refuges in streams and rivers",
+        "volume": "14",
+        "author": "Sullivan",
+        "year": "2021",
+        "journal-title": "Ecohydrology"
+      },
+      {
+        "key": "ref_56",
+        "doi-asserted-by": "crossref",
+        "first-page": "1450",
+        "DOI": "10.1038/s41467-021-21651-0",
+        "article-title": "Continental-scale analysis of shallow and deep groundwater contributions to streams",
+        "volume": "12",
+        "author": "Hare",
+        "year": "2021",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "ref_57",
+        "doi-asserted-by": "crossref",
+        "first-page": "126246",
+        "DOI": "10.1016/j.jhydrol.2021.126246",
+        "article-title": "Evaluating low flow patterns, drivers and trends in the Delaware River Basin",
+        "volume": "598",
+        "author": "Hammond",
+        "year": "2021",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "ref_58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Odom, W.E., Doctor, D.H., Burke, C.E., and Cox, C.L. (2021, January 10\u201313). Using high-resolution lidar and deep learning models to generate minimum thickness maps of surficial sediments. Proceedings of the Geological Society of America Abstracts with Programs, Portland, OR, USA.",
+        "DOI": "10.1130/abs/2021AM-367681"
+      }
+    ],
+    "container-title": [
+      "Water"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2073-4441/14/1/11/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          11
+        ]
+      ],
+      "date-time": "2025-10-11T07:50:55Z",
+      "timestamp": 1760169055000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2073-4441/14/1/11"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          22
+        ]
+      ]
+    },
+    "references-count": 58,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2022,
+            1
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "w14010011"
+    ],
+    "URL": "https://doi.org/10.3390/w14010011",
+    "relation": {},
+    "ISSN": [
+      "2073-4441"
+    ],
+    "issn-type": [
+      {
+        "value": "2073-4441",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          22
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.3390/w14010011",
+  "original_doi": "10.3390/w14010011"
+}
