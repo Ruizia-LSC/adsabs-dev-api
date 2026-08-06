@@ -1,0 +1,957 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          5
+        ]
+      ],
+      "date-time": "2026-05-05T15:54:58Z",
+      "timestamp": 1777996498375,
+      "version": "3.51.4"
+    },
+    "reference-count": 60,
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              19
+            ]
+          ],
+          "date-time": "2025-03-19T00:00:00Z",
+          "timestamp": 1742342400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 46,
+        "URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100006788",
+        "name": "Great Lakes Fishery Commission",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006788",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          12
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n               <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>We evaluated survival differences between upstream and downstream stocking for landlocked Atlantic Salmon Salmo salar smolts in a tributary to Lake Champlain.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We radio-tagged smolts and stocked them concurrently with 22,000 smolts at two release sites in 2 years. The downstream location (DS, river kilometer 16, no dam passage) was a historically used site in a dam tailrace, whereas the upstream site (US, river kilometer 27, two dams to pass) was in a side channel and stocked for the first time. We estimated survival, counted birds during stocking, and searched nesting colonies for transmitters.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Within stocking reaches, survival per kilometer for the DS release group was markedly lower than that for the US group (US 2021 and 2022 = 0.98, 0.98, respectively; DS 2021 and 2022 = 0.82, 0.69, respectively). At the DS site, we documented a tenfold increase in avian predators following stocking, whereas no increase was detected at the US site. Passage was &amp;gt;96% at both dams, but postpassage survival (per kilometer) was much lower at the second dam (2021 = 0.78, 2022 = 0.82) compared to the first dam (2021 = 0.96, 2022 = 0.97). Surprisingly, cumulative survival to Lake Champlain was higher for fish that were released upstream in 2022 (US = 43%; DS = 32%) despite dam passage and additional migratory distance. At least 20% (2021) and 7% (2022) of successful migrants were later consumed by birds in the river delta or in Lake Champlain.</jats:p>\n               </jats:sec>\n               <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>Upstream stocking did not consistently result in lower cumulative survival, likely due to predators habituated to annually reoccurring stocking in a dam tailrace that increased stocking-related mortality at the DS release site. We highlight the importance of evaluating historically used stocking sites, as substantial loss of smolts could be avoided by simple changes to stocking practices. Avian predation was a major source of mortality, necessitating further studies to understand and address survival issues within Lake Champlain.</jats:p>\n               </jats:sec>",
+    "DOI": "10.1093/najfmt/vqae002",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          19
+        ]
+      ],
+      "date-time": "2025-03-19T18:39:55Z",
+      "timestamp": 1742409595000
+    },
+    "page": "1-14",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Spatial variation in landlocked Atlantic Salmon smolt survival associated with dam passage, avian predation, and\u00a0stocking location"
+    ],
+    "prefix": "10.1093",
+    "volume": "45",
+    "author": [
+      {
+        "given": "Kurt C",
+        "family": "Heim",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Fish and Wildlife Service, Lake Champlain Fish and Wildlife Conservation Office , Essex Junction, Vermont ,",
+            "place": [
+              "USA"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "William R",
+        "family": "Ardren",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Fish and Wildlife Service, Lake Champlain Fish and Wildlife Conservation Office , Essex Junction, Vermont ,",
+            "place": [
+              "USA"
+            ]
+          },
+          {
+            "name": "U.S. Fish and Wildlife Service, Science Applications , Hadley, Massachusetts ,",
+            "place": [
+              "USA"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jonah L",
+        "family": "Withers",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Fish and Wildlife Service, Lake Champlain Fish and Wildlife Conservation Office , Essex Junction, Vermont ,",
+            "place": [
+              "USA"
+            ]
+          },
+          {
+            "name": "U.S. Fish and Wildlife Service, Conservation Genetics Laboratory , Anchorage, Alaska ,",
+            "place": [
+              "USA"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Zachary J",
+        "family": "Eisenhauer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Fish and Wildlife Service, Lake Champlain Fish and Wildlife Conservation Office , Essex Junction, Vermont ,",
+            "place": [
+              "USA"
+            ]
+          },
+          {
+            "name": "U.S. Fish and Wildlife Service, Lower Great Lakes Fish and Wildlife Conservation Office , Basom, New York ,",
+            "place": [
+              "USA"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Matthew\u00a0A",
+        "family": "Mensinger",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Wildlife, Fisheries, and Conservation Biology, University of Maine , Orono, Maine ,",
+            "place": [
+              "USA"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Theodore",
+        "family": "Castro-Santos",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Eastern Ecological Science Center, S. O. Conte Research Laboratory , Turners Falls, Massachusetts ,",
+            "place": [
+              "USA"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "286",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          19
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2025051215321001300_vqae002-B1",
+        "doi-asserted-by": "publisher",
+        "first-page": "1099",
+        "DOI": "10.1890/15-0554.1",
+        "article-title": "Resource waves: Phenological diversity enhances foraging opportunities for mobile consumers",
+        "volume": "97",
+        "author": "Armstrong",
+        "year": "2016",
+        "journal-title": "Ecology"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B2",
+        "doi-asserted-by": "publisher",
+        "first-page": "78",
+        "DOI": "10.1002/eap.1419",
+        "article-title": "Considerations for assessing model averaging of regression coefficients",
+        "volume": "27",
+        "author": "Banner",
+        "year": "2017",
+        "journal-title": "Ecological Applications"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B3",
+        "doi-asserted-by": "publisher",
+        "first-page": "66",
+        "DOI": "10.2307/1521765",
+        "article-title": "Spring foraging distribution and habitat selection by double-crested cormorants on the Penobscot River",
+        "volume": "20",
+        "author": "Blackwell",
+        "year": "1997",
+        "journal-title": "Colonial Waterbirds"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B4",
+        "doi-asserted-by": "publisher",
+        "first-page": "603",
+        "DOI": "10.1007/BF01021790",
+        "article-title": "Field test of the pheromone hypothesis for homing by Pacific salmon",
+        "volume": "16",
+        "author": "Brannon",
+        "year": "1990",
+        "journal-title": "Journal of Chemical Ecology"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B5",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-1-4757-2917-7",
+        "volume-title": "Model selection and inference: A practical information-theoretic approach",
+        "author": "Burnham",
+        "year": "1998"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B6",
+        "doi-asserted-by": "publisher",
+        "first-page": "23",
+        "DOI": "10.1007/s00265-010-1029-6",
+        "article-title": "AIC model selection and multimodel inference in behavioral ecology: Some background, observations, and comparisons",
+        "volume": "65",
+        "author": "Burnham",
+        "year": "2011",
+        "journal-title": "Behavioral Ecology and Sociobiology"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B7",
+        "doi-asserted-by": "publisher",
+        "first-page": "1107",
+        "DOI": "10.1093/icesjms/fsy156",
+        "article-title": "Atlantic Salmon (Salmo salar) smolt and early post-smolt migration and survival inferred from multi-year and multi-stock acoustic telemetry studies in the Gulf of St. Lawrence, northwest Atlantic",
+        "volume": "76",
+        "author": "Chaput",
+        "year": "2019",
+        "journal-title": "ICES Journal of Marine Science"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B8",
+        "doi-asserted-by": "publisher",
+        "first-page": "713",
+        "DOI": "10.1002/nafm.10756",
+        "article-title": "Origin, postrelease survival, and imprinting of pen-acclimated and direct-stocked Chinook Salmon in Lake Ontario",
+        "volume": "42",
+        "author": "Connerton",
+        "year": "2022",
+        "journal-title": "North American Journal of Fisheries Management"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B9",
+        "doi-asserted-by": "publisher",
+        "first-page": "Article 6",
+        "DOI": "10.1186/s40317-020-00228-6",
+        "article-title": "Quantifying the effects of post-surgery recovery time on the migration dynamics and survival rates in the wild of acoustically tagged Atlantic Salmon Salmo salar smolts",
+        "volume": "9",
+        "author": "Daniels",
+        "year": "2021",
+        "journal-title": "Animal Biotelemetry"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B10",
+        "doi-asserted-by": "publisher",
+        "first-page": "1110",
+        "DOI": "10.1139/cjfas-2022-0196",
+        "article-title": "Tracking anadromous fish over successive freshwater migrations reveals the influence of tagging effect, previous success and abiotic factors on upstream passage over barriers",
+        "volume": "16",
+        "author": "Davies",
+        "year": "2023",
+        "journal-title": "Canadian Journal of Fisheries and Aquatic Sciences"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B11",
+        "doi-asserted-by": "publisher",
+        "first-page": "2565",
+        "DOI": "10.2193/2006-527",
+        "article-title": "Management-induced reproductive failure and breeding dispersal in double-crested cormorants on Lake Champlain",
+        "volume": "71",
+        "author": "Duerr",
+        "year": "2007",
+        "journal-title": "The Journal of Wildlife Management"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B12",
+        "doi-asserted-by": "publisher",
+        "first-page": "Article 25",
+        "DOI": "10.1186/s40317-023-00336-z",
+        "article-title": "Predator telemetry informs temporal and spatial overlap with stocked salmonids in Lake Huron",
+        "volume": "11",
+        "author": "Fielder",
+        "year": "2023",
+        "journal-title": "Animal Biotelemetry"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B13",
+        "doi-asserted-by": "publisher",
+        "first-page": "728",
+        "DOI": "10.1139/cjfas-2014-0245",
+        "article-title": "Effects of predation on telemetry-based survival estimates: Insights from a study on endangered Atlantic Salmon smolts",
+        "volume": "72",
+        "author": "Gibson",
+        "year": "2015",
+        "journal-title": "Canadian Journal of Fisheries and Aquatic Sciences"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B14",
+        "doi-asserted-by": "publisher",
+        "first-page": "949",
+        "DOI": "10.1577/M08-068.1",
+        "article-title": "The effects of smolt stocking strategies on migratory path selection of adult Atlantic Salmon in the Penobscot River, Maine",
+        "volume": "29",
+        "author": "Gorsky",
+        "year": "2009",
+        "journal-title": "North American Journal of Fisheries Management"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B15",
+        "doi-asserted-by": "publisher",
+        "first-page": "13736",
+        "DOI": "10.1038/s41598-022-17690-2",
+        "article-title": "Empirical support for sequential imprinting during downstream migration in Atlantic Salmon (Salmo salar) smolts",
+        "volume": "12",
+        "author": "Haraldstad",
+        "year": "2022",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B16",
+        "doi-asserted-by": "publisher",
+        "first-page": "865",
+        "DOI": "10.1007/s11160-018-9538-x",
+        "article-title": "Thiamine deficiency in fishes: Causes, consequences, and potential solutions",
+        "volume": "28",
+        "author": "Harder",
+        "year": "2018",
+        "journal-title": "Reviews in Fish Biology and Fisheries"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B17",
+        "doi-asserted-by": "publisher",
+        "first-page": "1035",
+        "DOI": "10.1111/mec.15334",
+        "article-title": "Among-family variation in survival and gene expression uncovers adaptive genetic variation in a threatened fish",
+        "volume": "29",
+        "author": "Harder",
+        "year": "2020",
+        "journal-title": "Molecular Ecoloy"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B18",
+        "doi-asserted-by": "publisher",
+        "first-page": "262",
+        "DOI": "10.1002/nafm.10986",
+        "article-title": "Tagger effects in aquatic telemetry: Short-term and delayed effects of surgery in Atlantic Salmon smolts",
+        "volume": "44",
+        "author": "Heim",
+        "year": "2024",
+        "journal-title": "North American Journal of Fisheries Management"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B19",
+        "doi-asserted-by": "publisher",
+        "first-page": "410",
+        "DOI": "10.1080/00028487.2014.988882",
+        "article-title": "Quantifying avian predation on fish populations: Integrating predator-specific deposition probabilities in tag recovery studies",
+        "volume": "144",
+        "author": "Hostetter",
+        "year": "2015",
+        "journal-title": "Transactions of the American Fisheries Society"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B20",
+        "doi-asserted-by": "publisher",
+        "first-page": "666",
+        "DOI": "10.1002/tafs.10378",
+        "article-title": "Seasonal movements and spatial overlap of juvenile and adult Lake Sturgeon in Lake Champlain",
+        "volume": "151",
+        "author": "Izzo",
+        "year": "2022",
+        "journal-title": "Transactions of the American Fisheries Society"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B21",
+        "doi-asserted-by": "publisher",
+        "first-page": "347",
+        "DOI": "10.1023/A:1017047527478",
+        "article-title": "Survival of radio-tagged Atlantic Salmon (Salmo salar L.) and trout (Salmo trutta L.) smolts passing a reservoir during seaward migration",
+        "volume": "371\u2013372",
+        "author": "Jepsen",
+        "year": "1998",
+        "journal-title": "Hydrobiologia"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B22",
+        "doi-asserted-by": "publisher",
+        "first-page": "189",
+        "DOI": "10.1002/(SICI)1099-1646(200003/04)16:2%3C189::AID-RRR570%3E3.0.CO;2-N",
+        "article-title": "Behavioural interactions between prey (trout smolts) and predators (pike and Pikeperch) in an impounded river",
+        "volume": "16",
+        "author": "Jepsen",
+        "year": "2000",
+        "journal-title": "River Research and Applications"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B23",
+        "doi-asserted-by": "publisher",
+        "first-page": "31",
+        "DOI": "10.1023/A:1021390403703",
+        "article-title": "Initial mortality of radio-tagged Atlantic Salmon (Salmo salar L.) smolts following release downstream of a hydropower station",
+        "volume": "483",
+        "author": "Koed",
+        "year": "2002",
+        "journal-title": "Hydrobiologia"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B24",
+        "author": "Laake",
+        "year": "2013"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B25",
+        "doi-asserted-by": "publisher",
+        "first-page": "835",
+        "DOI": "10.1111/fwb.13467",
+        "article-title": "Survival and migration patterns of naturally and hatchery-reared Atlantic Salmon (Salmo salar) smolts in a Lake Ontario tributary using acoustic telemetry",
+        "volume": "65",
+        "author": "Larocque",
+        "year": "2020",
+        "journal-title": "Freshwater Biology"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B26",
+        "doi-asserted-by": "publisher",
+        "first-page": "3479",
+        "DOI": "10.1093/icesjms/fsab201",
+        "article-title": "The quest for successful Atlantic Salmon restoration: Perspectives, priorities, and maxims",
+        "volume": "78",
+        "author": "Lennox",
+        "year": "2021",
+        "journal-title": "ICES Journal of Marine Science"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B27",
+        "author": "Liedtke",
+        "year": "2012"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B28",
+        "doi-asserted-by": "publisher",
+        "first-page": "366",
+        "DOI": "10.1675/1524-4695(2005)028[0366:AACOFB]2.0.CO;2",
+        "article-title": "Abundance and consumption of fish by California gulls and ring-billed gulls at water and fish management structures within the Yakima River, Washington",
+        "volume": "28",
+        "author": "Major",
+        "year": "2005",
+        "journal-title": "Waterbirds"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B29",
+        "doi-asserted-by": "publisher",
+        "first-page": "19",
+        "DOI": "10.1016/j.jglr.2011.09.007",
+        "article-title": "The history and future of Lake Champlain\u2019s fishes and fisheries",
+        "volume": "38",
+        "author": "Marsden",
+        "year": "2012",
+        "journal-title": "Journal of Great Lakes Research"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B30",
+        "doi-asserted-by": "publisher",
+        "first-page": "1181",
+        "DOI": "10.1139/cjfas-2020-0402",
+        "article-title": "The consequences of dam passage for downstream-migrating American Eel in the Penobscot River, Maine",
+        "volume": "78",
+        "author": "Mensinger",
+        "year": "2021",
+        "journal-title": "Canadian Journal of Fisheries and Aquatic Sciences"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B31",
+        "doi-asserted-by": "publisher",
+        "first-page": "38",
+        "DOI": "10.1139/cjfas-2023-0175",
+        "article-title": "Dams facilitate predation during Atlantic Salmon (Salmo salar) smolt migration",
+        "volume": "81",
+        "author": "Mensinger",
+        "year": "2023",
+        "journal-title": "Canadian Journal of Fisheries and Aquatic Sciences"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B32",
+        "doi-asserted-by": "publisher",
+        "first-page": "375",
+        "DOI": "10.1086/728120",
+        "article-title": "Dissolved free amino acids could be odorants for imprinting and homing by Atlantic Salmon",
+        "volume": "42",
+        "author": "Minkoff",
+        "year": "2023",
+        "journal-title": "Freshwater Science"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B33",
+        "doi-asserted-by": "publisher",
+        "first-page": "2237",
+        "DOI": "10.1139/cjfas-2022-0055",
+        "article-title": "Effects of dam-induced delays on system-wide survival of Atlantic Salmon smolts during high-flow, high-survival years in the Penobscot River, Maine, USA",
+        "volume": "79",
+        "author": "Molina-Moctezuma",
+        "year": "2022",
+        "journal-title": "Canadian Journal of Fisheries and Aquatic Sciences"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B34",
+        "doi-asserted-by": "publisher",
+        "first-page": "Article 2",
+        "DOI": "10.1186/s40317-022-00273-3",
+        "article-title": "BIOTAS: BIOTelemetry analysis software, for the semi-automated removal of false positives from radio telemetry data",
+        "volume": "10",
+        "author": "Nebiolo",
+        "year": "2022",
+        "journal-title": "Animal Biotelemetry"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B35",
+        "doi-asserted-by": "publisher",
+        "first-page": "1306",
+        "DOI": "10.1002/rra.2616",
+        "article-title": "Multiplicative loss of landlocked Atlantic Salmon Salmo salar L. smolts during downstream migration trough multiple dams.",
+        "volume": "29",
+        "author": "Norrg\u00e5rd",
+        "year": "2013",
+        "journal-title": "River Research and Applications"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B36",
+        "doi-asserted-by": "publisher",
+        "first-page": "707",
+        "DOI": "10.1111/eff.12318",
+        "article-title": "Migratory delay leads to reduced passage success of Atlantic Salmon smolts at a hydroelectric dam",
+        "volume": "26",
+        "author": "Nyqvist",
+        "year": "2017",
+        "journal-title": "Ecology of Freshwater Fish"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B37",
+        "doi-asserted-by": "publisher",
+        "first-page": "816",
+        "DOI": "10.1080/02755947.2017.1327900",
+        "article-title": "Downstream migration and multiple dam passage by Atlantic Salmon smolts",
+        "volume": "37",
+        "author": "Nyqvist",
+        "year": "2017",
+        "journal-title": "North American Journal of Fisheries Management"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B38",
+        "author": "Odeh",
+        "year": "2002"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B39",
+        "doi-asserted-by": "publisher",
+        "first-page": "35",
+        "DOI": "10.1007/s11160-010-9186-2",
+        "article-title": "Holding of juvenile salmonids for surgical implantation of electronic tags: A review and recommendations",
+        "volume": "21",
+        "author": "Oldenburg",
+        "year": "2011",
+        "journal-title": "Reviews in Fish Biology and Fisheries"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B40",
+        "volume-title": "tatistical inference for capture\u2013recapture experiments",
+        "author": "Pollock",
+        "year": "1990"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B41",
+        "doi-asserted-by": "publisher",
+        "first-page": "949",
+        "DOI": "10.1093/condor/109.4.949",
+        "article-title": "Approximating variance of demographic parameters using the delta method: A reference for avian biologists",
+        "volume": "109",
+        "author": "Powell",
+        "year": "2012",
+        "journal-title": "The Condor"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B42",
+        "doi-asserted-by": "publisher",
+        "first-page": "149",
+        "DOI": "10.1007/s10592-019-01243-8",
+        "article-title": "Patterns of reproductive success among reintroduced Atlantic Salmon in two Lake Champlain tributaries",
+        "volume": "21",
+        "author": "Pr\u00e9vost",
+        "year": "2020",
+        "journal-title": "Conservation Genetics"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B43",
+        "volume-title": "R: A language and environment for statistical computing",
+        "author": "R Core Team",
+        "year": "2024"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B44",
+        "doi-asserted-by": "publisher",
+        "first-page": "77",
+        "DOI": "10.1186/1471-2105-12-77",
+        "article-title": "pROC: An open-source package for R and S+ to analyze and compare ROC curves",
+        "volume": "12",
+        "author": "Robin",
+        "year": "2011",
+        "journal-title": "BMC Bioinformatics"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B45",
+        "doi-asserted-by": "publisher",
+        "first-page": "736",
+        "DOI": "10.1577/1548-8659(1986)115&lt;736:COMJSB&gt;2.0.CO;2",
+        "article-title": "Consumption of migrating juvenile salmonids by gulls foraging below a Columbia River dam",
+        "volume": "115",
+        "author": "Ruggerone",
+        "year": "1986",
+        "journal-title": "Transactions of the American Fisheries Society"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B46",
+        "doi-asserted-by": "publisher",
+        "first-page": "20130048",
+        "DOI": "10.1098/rsbl.2013.0048",
+        "article-title": "Riding the crimson tide: Mobile terrestrial consumers track phenological variation in spawning of an anadromous fish",
+        "volume": "9",
+        "author": "Schindler",
+        "year": "2013",
+        "journal-title": "Biology Letters"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B47",
+        "doi-asserted-by": "publisher",
+        "first-page": "1247",
+        "DOI": "10.1126/science.1273590",
+        "article-title": "Imprinting to chemical cues: The basis for home stream selection in salmon",
+        "volume": "192",
+        "author": "Scholz",
+        "year": "1976",
+        "journal-title": "Science"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B48",
+        "doi-asserted-by": "publisher",
+        "first-page": "340",
+        "DOI": "10.1111/faf.12258",
+        "article-title": "The future of fish passage science, engineering, and practice",
+        "volume": "19",
+        "author": "Silva",
+        "year": "2018",
+        "journal-title": "Fish and Fisheries"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B49",
+        "doi-asserted-by": "publisher",
+        "first-page": "741",
+        "DOI": "10.1080/02755947.2014.910577",
+        "article-title": "Assessment of subyearling Chinook Salmon survival through the federal hydropower projects in the main-stem Columbia River",
+        "volume": "34",
+        "author": "Skalski",
+        "year": "2014",
+        "journal-title": "North American Journal of Fisheries Management"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B50",
+        "doi-asserted-by": "publisher",
+        "first-page": "412",
+        "DOI": "10.1002/fsh.10260",
+        "article-title": "Parentage-based tagging: Reviewing the implementation of a new tool for an old problem",
+        "volume": "44",
+        "author": "Steele",
+        "year": "2019",
+        "journal-title": "Fisheries"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B51",
+        "doi-asserted-by": "publisher",
+        "first-page": "1795",
+        "DOI": "10.1139/cjfas-2018-0225",
+        "article-title": "Modeling the impacts of dams and stocking practices on an endangered Atlantic Salmon (Salmo salar) population in the Penobscot River, Maine, USA",
+        "volume": "76",
+        "author": "Stevens",
+        "year": "2019",
+        "journal-title": "Canadian Journal of Fisheries and Aquatic Sciences"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B52",
+        "doi-asserted-by": "publisher",
+        "first-page": "68",
+        "DOI": "10.1080/19425120.2015.1007185",
+        "article-title": "Linking behavior, physiology, and survival of Atlantic Salmon smolts during estuary migration",
+        "volume": "7",
+        "author": "Stich",
+        "year": "2015",
+        "journal-title": "Marine and Coastal Fisheries: Dynamics, Management, and Ecosystem Science"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B53",
+        "doi-asserted-by": "publisher",
+        "first-page": "2446",
+        "DOI": "10.1111/raq.12443",
+        "article-title": "Mechanical induced wounds in fish: A review on models and healing mechanisms",
+        "volume": "12",
+        "author": "Sveen",
+        "year": "2020",
+        "journal-title": "Reviews in Aquaculture"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B54",
+        "doi-asserted-by": "publisher",
+        "first-page": "500",
+        "DOI": "10.1111/j.1095-8649.2012.03370.x",
+        "article-title": "A critical life stage of the Atlantic Salmon Salmo salar: Behaviour and survival during the smolt and initial post-smolt migration",
+        "volume": "81",
+        "author": "Thorstad",
+        "year": "2012",
+        "journal-title": "Journal of Fish Biology"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B55a",
+        "author": "Use of Fishes in Research Committee (joint committee of the American Fisheries Society, the American Institute of Fishery Research Biologists, and the American Society of Ichthyologists and Herpetologists). (2014)"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B55",
+        "doi-asserted-by": "publisher",
+        "author": "U.S. Geological Survey",
+        "year": "2022",
+        "DOI": "10.5066/F7P55KJN"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B56",
+        "doi-asserted-by": "publisher",
+        "first-page": "256",
+        "DOI": "10.1111/fme.12230",
+        "article-title": "Release during night enhances survival of wild Atlantic Salmon smolts",
+        "volume": "24",
+        "author": "Vollset",
+        "year": "2017",
+        "journal-title": "Fisheries Management and Ecology"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B57",
+        "doi-asserted-by": "publisher",
+        "first-page": "117",
+        "DOI": "10.1146/annurev-animal-021419-083617",
+        "article-title": "Conservation and management of salmon in the age of genomics",
+        "volume": "8",
+        "author": "Waples",
+        "year": "2020",
+        "journal-title": "Annual Review of Animal Biosciences"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B58",
+        "doi-asserted-by": "publisher",
+        "first-page": "S120",
+        "DOI": "10.1080/00063659909477239",
+        "article-title": "Program MARK: survival estimation from populations of marked animals",
+        "volume": "46",
+        "author": "White",
+        "year": "1999",
+        "journal-title": "Bird Study"
+      },
+      {
+        "key": "2025051215321001300_vqae002-B59",
+        "doi-asserted-by": "publisher",
+        "first-page": "178",
+        "DOI": "10.1139/cjfas-2015-0480",
+        "article-title": "Hard choices in assessing survival past dams: A comparison of single- and paired-release strategies",
+        "volume": "74",
+        "author": "Zydlewski",
+        "year": "2017",
+        "journal-title": "Canadian Journal of Fisheries and Aquatic Sciences"
+      }
+    ],
+    "container-title": [
+      "North American Journal of Fisheries Management"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://academic.oup.com/najfm/article-pdf/45/1/1/62463082/vqae002.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://academic.oup.com/najfm/article-pdf/45/1/1/62463082/vqae002.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          12
+        ]
+      ],
+      "date-time": "2025-05-12T19:32:22Z",
+      "timestamp": 1747078342000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://academic.oup.com/najfm/article/45/1/1/8086963"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2
+        ]
+      ]
+    },
+    "references-count": 60,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            19
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            12
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1093/najfmt/vqae002",
+    "relation": {},
+    "ISSN": [
+      "0275-5947",
+      "1548-8675"
+    ],
+    "issn-type": [
+      {
+        "value": "0275-5947",
+        "type": "print"
+      },
+      {
+        "value": "1548-8675",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published-other": {
+      "date-parts": [
+        [
+          2025,
+          2
+        ]
+      ]
+    },
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          2
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.1093/najfmt/vqae002",
+  "original_doi": "10.1093/najfmt/vqae002"
+}

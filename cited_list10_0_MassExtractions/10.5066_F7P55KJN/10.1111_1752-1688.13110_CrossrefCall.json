@@ -1,0 +1,858 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          1
+        ]
+      ],
+      "date-time": "2026-05-01T07:10:20Z",
+      "timestamp": 1777619420737,
+      "version": "3.51.4"
+    },
+    "reference-count": 106,
+    "publisher": "Wiley",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              10
+            ]
+          ],
+          "date-time": "2023-03-10T00:00:00Z",
+          "timestamp": 1678406400000
+        },
+        "content-version": "am",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              10
+            ]
+          ],
+          "date-time": "2023-03-10T00:00:00Z",
+          "timestamp": 1678406400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "J American Water Resour Assoc"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          8
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>A wastewater model was applied to the Potomac River watershed to provide (i) a means to identify streams with a high likelihood of carrying elevated effluent\u2010derived contaminants and (ii) risk assessments to aquatic life and drinking water. The model linked effluent discharges along stream networks, accumulated wastewater, and predicted contaminant loads of municipal wastewater constituents while accounting for instream dilution and attenuation. Simulations using 2016 data suggested that nearly 30% (8281\u2009km) of streams were wastewater impacted. Low\u2010 to medium\u2010order streams had the largest range of accumulated wastewater (ACCWW%) values. ACCWW% exceeded a 1% threshold at &gt;39% of drinking\u2010water intakes (varied by temporal condition). Risk assessments of municipal wastewater\u2010contaminant mixtures indicated that 22% (1479\u2009km) of streams impacted by municipal wastewater (5.5% of all reaches modeled) may pose high risk to aquatic organisms under mean\u2010annual conditions, with fish more susceptible to chronic\u2010exposure effects relative to other taxa. Risk varied temporally and by stream order, with the greatest risk occurring in the summer in small streams. These findings suggest that wastewater may be an important factor contributing to environmental degradation in the Potomac River watershed.</jats:p>",
+    "DOI": "10.1111/1752-1688.13110",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          11
+        ]
+      ],
+      "date-time": "2023-03-11T05:55:38Z",
+      "timestamp": 1678514138000
+    },
+    "page": "779-802",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 9,
+    "title": [
+      "Wastewater reuse and predicted ecological risk posed by contaminant mixtures in Potomac River watershed streams"
+    ],
+    "prefix": "10.1111",
+    "volume": "59",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9178-0692",
+        "authenticated-orcid": false,
+        "given": "Kaycee E.",
+        "family": "Faunce",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Virginia and West Virginia Water Science Center  Richmond Virginia USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0561-0831",
+        "authenticated-orcid": false,
+        "given": "Larry B.",
+        "family": "Barber",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Water Mission Area  Boulder Colorado USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3805-6101",
+        "authenticated-orcid": false,
+        "given": "Steffanie H.",
+        "family": "Keefe",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Water Mission Area  Boulder Colorado USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5251-6987",
+        "authenticated-orcid": false,
+        "given": "Jeramy R.",
+        "family": "Jasmann",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Water Mission Area  Boulder Colorado USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2253-9886",
+        "authenticated-orcid": false,
+        "given": "Jennifer L.",
+        "family": "Rapp",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Water Mission Area  Richmond Virginia USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          10
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_11_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es034430b"
+      },
+      {
+        "key": "e_1_2_11_3_1",
+        "unstructured": "Barber L.B. D.W.Bertolatus J.E.Dietze M.L.Hladik J.R.Jasmann A.Jastrow S.H.Keefe et al.2019. \u201cAssessment of Endocrine Disruption in the Shenandoah River Watershed\u2014Chemical and Biological Data from Mobile Laboratory Fish Exposures and Other Experiments Conducted during 2014 2015 and 2016.\u201d U.S. Geological Survey Data Release.https://doi.org/10.5066/F7QF8S22."
+      },
+      {
+        "key": "e_1_2_11_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.1c04045"
+      },
+      {
+        "key": "e_1_2_11_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2015.04.112"
+      },
+      {
+        "key": "e_1_2_11_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.8b05655"
+      },
+      {
+        "key": "e_1_2_11_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es202880e"
+      },
+      {
+        "key": "e_1_2_11_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745\u20106592.2004.tb00720.x"
+      },
+      {
+        "key": "e_1_2_11_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ieam.5630030307"
+      },
+      {
+        "key": "e_1_2_11_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10750\u2010016\u20103007\u20100"
+      },
+      {
+        "key": "e_1_2_11_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1577/h10\u2010002.1"
+      },
+      {
+        "key": "e_1_2_11_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1744\u20107348.1939.tb06990.x"
+      },
+      {
+        "key": "e_1_2_11_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.7b00012"
+      },
+      {
+        "key": "e_1_2_11_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-0-387-71724-1_3"
+      },
+      {
+        "key": "e_1_2_11_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.aquatox.2004.06.011"
+      },
+      {
+        "key": "e_1_2_11_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/c7em00064b"
+      },
+      {
+        "key": "e_1_2_11_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0096580"
+      },
+      {
+        "key": "e_1_2_11_18_1",
+        "unstructured": "Central Shenandoah Planning District Commission.2011. \u201cUpper Shenandoah River Basin Water Supply Plan.\u201dhttps://www.harrisonburgva.gov/sites/default/files/green/Upper%20Shenandoah%20River%20Basin%20Water%20Supply%20Plan.pdf."
+      },
+      {
+        "key": "e_1_2_11_19_1",
+        "unstructured": "Chesapeake Bay Program.2020. \u201cChesapeake Assessment and Scenario Tool (CAST) Version 2019.\u201dhttps://cast.chesapeakebay.net/."
+      },
+      {
+        "key": "e_1_2_11_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2020.141285"
+      },
+      {
+        "key": "e_1_2_11_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1897/04\u2010639r.1"
+      },
+      {
+        "key": "e_1_2_11_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envpol.2014.07.008"
+      },
+      {
+        "key": "e_1_2_11_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/etc.5620161013"
+      },
+      {
+        "key": "e_1_2_11_24_1",
+        "unstructured": "Esri Inc.2020. \u201cArcGIS Pro Version 2.7.1. Software.\u201dhttps://pro.arcgis.com/."
+      },
+      {
+        "key": "e_1_2_11_25_1",
+        "unstructured": "Faunce K.E. L.B.Barber J.L.Rapp S.H.Keefe andJ.R.Jasmann.2023. \u201cPotomac River Watershed Accumulated Wastewater Ratios and Predicted Environmental Concentrations.\u201d U.S. Geological Survey Data Release.https://doi.org/10.5066/P9CB2YM7."
+      },
+      {
+        "key": "e_1_2_11_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0166\u2010445X(02)00133\u20109"
+      },
+      {
+        "key": "e_1_2_11_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.aquatox.2005.09.009"
+      },
+      {
+        "key": "e_1_2_11_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/10.1016/j.scitotenv.2008.02.021"
+      },
+      {
+        "key": "e_1_2_11_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/10.1016/10.1021/acs.est.0c04226"
+      },
+      {
+        "key": "e_1_2_11_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752\u20101688.2007.00002.x"
+      },
+      {
+        "key": "e_1_2_11_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es2011435"
+      },
+      {
+        "key": "e_1_2_11_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w12092434"
+      },
+      {
+        "key": "e_1_2_11_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/hydrology1010020"
+      },
+      {
+        "key": "e_1_2_11_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es8005173"
+      },
+      {
+        "key": "e_1_2_11_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/030913339501900406"
+      },
+      {
+        "key": "e_1_2_11_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0045\u20106535(97)10025\u2010X"
+      },
+      {
+        "key": "e_1_2_11_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1897/08\u2010433.1"
+      },
+      {
+        "key": "e_1_2_11_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2017.05.039"
+      },
+      {
+        "key": "e_1_2_11_39_1",
+        "unstructured": "Kandel C.M. J.L.Rapp andL.B.Barber.2019. \u201cShenandoah River Accumulated Wastewater Ratio.\u201d U.S. Geological Survey Data Release.https://doi.org/10.5066/F7RF5S8X."
+      },
+      {
+        "key": "e_1_2_11_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ieam.1793"
+      },
+      {
+        "key": "e_1_2_11_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2012.09.063"
+      },
+      {
+        "key": "e_1_2_11_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es0200903"
+      },
+      {
+        "key": "e_1_2_11_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2005.04.009"
+      },
+      {
+        "key": "e_1_2_11_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1289/ehp.9357"
+      },
+      {
+        "key": "e_1_2_11_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/adgeo\u20105\u201089\u20102005"
+      },
+      {
+        "key": "e_1_2_11_46_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Krstolic J.L. andR.C.Ramey.2012. \u201cSouth Fork Shenandoah River Habitat\u2010Flow Modeling to Determine Ecological and Recreational Characteristics during Low\u2010Flow Periods.\u201d U.S. Geological Survey Scientific Investigations Report 2012\u20135081.https://pubs.usgs.gov/sir/2012/5081/pdf/sir2012\u20105081.pdf.",
+        "DOI": "10.3133/sir20125081"
+      },
+      {
+        "key": "e_1_2_11_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0003\u20102670(02)00748\u20101"
+      },
+      {
+        "key": "e_1_2_11_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.9740"
+      },
+      {
+        "key": "e_1_2_11_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.7b05440"
+      },
+      {
+        "key": "e_1_2_11_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/150038"
+      },
+      {
+        "key": "e_1_2_11_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1321082111"
+      },
+      {
+        "key": "e_1_2_11_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.9b02867"
+      },
+      {
+        "key": "e_1_2_11_53_1",
+        "volume-title": "Water Resources Engineering",
+        "author": "Mays L.W.",
+        "year": "2011"
+      },
+      {
+        "key": "e_1_2_11_54_1",
+        "volume-title": "Standard Handbook for Civil Engineers",
+        "author": "Merritt F.S.",
+        "year": "1983"
+      },
+      {
+        "key": "e_1_2_11_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752\u20101688.2007.00008.x"
+      },
+      {
+        "key": "e_1_2_11_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13031/2013.23153"
+      },
+      {
+        "key": "e_1_2_11_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022\u20101694(70)90255\u20106"
+      },
+      {
+        "key": "e_1_2_11_58_1",
+        "volume-title": "Water Reuse: Potential for Expanding the Nation's Water Supply through Reuse of Municipal Wastewater",
+        "author": "National Research Council",
+        "year": "2012"
+      },
+      {
+        "key": "e_1_2_11_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2017.06.156"
+      },
+      {
+        "key": "e_1_2_11_60_1",
+        "volume-title": "OECD Environment Monographs No.105: Report of the OECD Workshop on Environmental Hazard/Risk Assessment",
+        "author": "OECD",
+        "year": "1995"
+      },
+      {
+        "key": "e_1_2_11_61_1",
+        "unstructured": "OriginLab Corporation.2020. \u201cOrigin(Pro) Version 2020b.\u201dhttps://www.originlab.com/."
+      },
+      {
+        "key": "e_1_2_11_62_1",
+        "unstructured": "Python Software Foundation.2017. \u201cPython Language Reference Version 2.7.16.\u201dhttps://www.python.org/."
+      },
+      {
+        "key": "e_1_2_11_63_1",
+        "unstructured": "R Core Team.2020. \u201cR: A Language and Environment for Statistical Computing Version 4.0.4.\u201dhttps://www.R\u2010project.org/."
+      },
+      {
+        "key": "e_1_2_11_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.emcon.2020.05.001"
+      },
+      {
+        "key": "e_1_2_11_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/etc.5620070204"
+      },
+      {
+        "key": "e_1_2_11_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752\u20101688.12877"
+      },
+      {
+        "key": "e_1_2_11_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es5048057"
+      },
+      {
+        "key": "e_1_2_11_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/NGEO2984"
+      },
+      {
+        "key": "e_1_2_11_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es402792s"
+      },
+      {
+        "key": "e_1_2_11_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.yrtph.2003.12.006"
+      },
+      {
+        "key": "e_1_2_11_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745\u20106584.2001.tb00350.x"
+      },
+      {
+        "key": "e_1_2_11_72_1",
+        "unstructured": "Schwarz G.E. A.B.Hoos R.B.Alexander andR.A.Smith.2016. \u201cThe SPARROW Surface Water\u2010Quality Model\u2014Theory Application and User Documentation.\u201d U.S. Geological Survey Techniques and Methods 6\u2010B3.https://pubs.er.usgs.gov/publication/tm6B3."
+      },
+      {
+        "key": "e_1_2_11_73_1",
+        "unstructured": "Searcy J.K.1969. \u201cFlow\u2010Duration Curves Manual of Hydrology\u2014Part 2 Low\u2010Flow Techniques.\u201d U.S. Geological Survey Water\u2010Supply Paper 1542\u2010A 33.https://pubs.usgs.gov/wsp/1542a/report.pdf."
+      },
+      {
+        "key": "e_1_2_11_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/jmse4040082"
+      },
+      {
+        "key": "e_1_2_11_75_1",
+        "unstructured": "Shenandoah Valley Regional Commission and Technical Advisory Committee.2011. \u201cNorthern Shenandoah Regional Water Supply Plan.\u201dhttps://www.warrencountyva.net/images/phocadownload/NS_Regional_WSP_7\u201020\u201011.pdf."
+      },
+      {
+        "key": "e_1_2_11_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2021.145687"
+      },
+      {
+        "key": "e_1_2_11_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.9b02002"
+      },
+      {
+        "key": "e_1_2_11_78_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es5025367"
+      },
+      {
+        "key": "e_1_2_11_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1130/0016\u20107606(1952)63[1117:HAAOET]2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_11_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/TR038i006p00913"
+      },
+      {
+        "key": "e_1_2_11_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es00022a018"
+      },
+      {
+        "key": "e_1_2_11_82_1",
+        "unstructured": "U.S. Census Bureau.2010. \u201c2010 Decennial Summary File 1 Table P12: Sex by Age.\u201dhttps://data.census.gov/cedsci/."
+      },
+      {
+        "key": "e_1_2_11_83_1",
+        "unstructured": "U.S. Environmental Protection Agency.1980.\u201cWastewater in Receiving Waters at Water Supply Abstraction Points.\u201d U.S. Environmental Protection Agency Report EPA/600/2\u201080/044 (NTIS PB81111007)."
+      },
+      {
+        "key": "e_1_2_11_84_1",
+        "unstructured": "U.S. Environmental Protection Agency.1998. \u201cNational Primary Drinking Water Regulations: Disinfectants and Disinfection Byproducts.\u201dhttps://www.govinfo.gov/content/pkg/FR\u20101998\u201012\u201016/pdf/98\u201032887.pdf."
+      },
+      {
+        "key": "e_1_2_11_85_1",
+        "unstructured": "U.S. Environmental Protection Agency.2012a. \u201cNational Hydrography Dataset Plus streams\u2014NHDPlus Ver. 2.1 Vector Digital Data Set.\u201dhttps://www.epa.gov/waterdata/nhdplus\u2010national\u2010hydrography\u2010dataset\u2010plus."
+      },
+      {
+        "key": "e_1_2_11_86_1",
+        "unstructured": "U.S. Environmental Protection Agency.2012b. \u201cEstimation Programs Interface Suite\u2122 for Microsoft\u00ae Windows v 4.11.\u201dhttps://www.epa.gov/tsca\u2010screening\u2010tools/epi\u2010suitetm\u2010estimation\u2010program\u2010interface."
+      },
+      {
+        "key": "e_1_2_11_87_1",
+        "unstructured": "U.S. Environmental Protection Agency.2016. \u201cClean Watersheds Needs Survey 2012.\u201dhttps://www.epa.gov/cwns."
+      },
+      {
+        "key": "e_1_2_11_88_1",
+        "unstructured": "U.S. Environmental Protection Agency.2020a. \u201cNational Water Reuse Action Plan: Collaborative Implementation.\u201dhttps://www.epa.gov/waterreuse/national\u2010water\u2010reuse\u2010action\u2010plan\u2010collaborative\u2010implementation\u2010version\u20101."
+      },
+      {
+        "key": "e_1_2_11_89_1",
+        "unstructured": "U.S. Environmental Protection Agency.2020b. \u201cU.S. Environmental Protection Agency Enforcement and Compliance History Online (ECHO) Web Site.\u201dhttps://echo.epa.gov/."
+      },
+      {
+        "key": "e_1_2_11_90_1",
+        "unstructured": "U.S. Environmental Protection Agency.2020c. \u201cSafe Drinking Water Information System (SDWIS) Federal Reporting Services.\u201dhttps://www.epa.gov/ground\u2010water\u2010and\u2010drinking\u2010water/safe\u2010drinking\u2010water\u2010information\u2010system\u2010sdwis\u2010federal\u2010reporting."
+      },
+      {
+        "key": "e_1_2_11_91_1",
+        "unstructured": "U.S. Environmental Protection Agency.2021. \u201cEPA Water Quality Portal.\u201dhttps://www.waterqualitydata.us/portal/."
+      },
+      {
+        "key": "e_1_2_11_92_1",
+        "unstructured": "U.S. Environmental Protection Agency.2022. \u201cNational Pollutant Discharge Elimination System (NPDES): About NPDES.\u201dhttps://www.epa.gov/npdes/about\u2010npdes."
+      },
+      {
+        "key": "e_1_2_11_93_1",
+        "unstructured": "U.S. Geological Survey.2014. \u201cNational Watershed Boundary Dataset (WBD) Digital Vector Data from the National File\u2010GDB.\u201dftp://rockyftp.cr.usgs.gov/vdelivery/Datasets/Staged/Hydrography/WBD/."
+      },
+      {
+        "key": "e_1_2_11_94_1",
+        "unstructured": "U.S. Geological Survey.2020. \u201cFreshwater flow into the Chesapeake Bay.\u201dhttps://www.usgs.gov/centers/cba/science/freshwater\u2010flow\u2010chesapeake\u2010bay/."
+      },
+      {
+        "key": "e_1_2_11_95_1",
+        "unstructured": "U.S. Geological Survey.2021. \u201cUSGS Water Data for the Nation: U.S. Geological Survey National Water Information System database.\u201dhttps://doi.org/10.5066/F7P55KJN."
+      },
+      {
+        "key": "e_1_2_11_96_1",
+        "volume-title": "The United Nations World Water Development Report 2017. Wastewater: The Untapped Resource",
+        "author": "United Nations World Water Assessment Programme",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_11_97_1",
+        "unstructured": "Upper Occoquan Service Authority.2022. \u201cUpper Occoquan Service Authority.\u201dhttp://www.uosa.org."
+      },
+      {
+        "key": "e_1_2_11_98_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es0720661"
+      },
+      {
+        "key": "e_1_2_11_99_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/01.ede.0000121380.02594.fc"
+      },
+      {
+        "key": "e_1_2_11_100_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aje/kwj364"
+      },
+      {
+        "key": "e_1_2_11_101_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0147\u20106513(02)00029\u20105"
+      },
+      {
+        "key": "e_1_2_11_102_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2166/wpt.2021.076"
+      },
+      {
+        "key": "e_1_2_11_103_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/c9ew00326f"
+      },
+      {
+        "key": "e_1_2_11_104_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.watres.2010.06.011"
+      },
+      {
+        "key": "e_1_2_11_105_1",
+        "unstructured": "Williams B.M. S.E.Gordon A.L.Putman andD.K.Jones.2021. \u201cQuality Assessed and Modified Discharge Monitoring Report (DMR) Facility and Outfall Locations 2007\u20132019.\u201d U.S. Geological Survey Data Release.https://doi.org/10.5066/P9KUSHSE."
+      },
+      {
+        "key": "e_1_2_11_106_1",
+        "unstructured": "Williams B.M. P.J.Phillips K.M.Romanok T.Scott K.Smalling L.R.Iwanowicz V.S.Blazer A.J.Sperry andR.P.Braham.2019. \u201cOrganic Contaminants Including Hormones Pesticides Pharmaceuticals and Other Endocrine Disrupting Compounds and Estrogenicity Data in Select Surface Water Samples as Well as Organic Contaminants in Bed Sediment Samples Collected in Chesapeake Bay Watershed in Parts of Maryland Pennsylvania and West Virginia 2012\u20132018 (Ver. 2.0 August 2020).\u201d U.S. Geological Survey Data Release.https://doi.org/10.5066/P96L2GB0."
+      },
+      {
+        "key": "e_1_2_11_107_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2008.03.027"
+      }
+    ],
+    "container-title": [
+      "JAWRA Journal of the American Water Resources Association"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/1752-1688.13110",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/1752-1688.13110",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/1752-1688.13110",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/1752-1688.13110",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          18
+        ]
+      ],
+      "date-time": "2023-08-18T08:30:56Z",
+      "timestamp": 1692347456000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1111/1752-1688.13110"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          10
+        ]
+      ]
+    },
+    "references-count": 106,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            8
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/1752-1688.13110"
+    ],
+    "URL": "https://doi.org/10.1111/1752-1688.13110",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "1093-474X",
+      "1752-1688"
+    ],
+    "issn-type": [
+      {
+        "value": "1093-474X",
+        "type": "print"
+      },
+      {
+        "value": "1752-1688",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2022-06-14",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-01-26",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-03-10",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.1111/1752-1688.13110",
+  "original_doi": "10.1111/1752-1688.13110"
+}

@@ -1,0 +1,681 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          31
+        ]
+      ],
+      "date-time": "2026-07-31T18:36:23Z",
+      "timestamp": 1785522983681,
+      "version": "3.56.0"
+    },
+    "reference-count": 68,
+    "publisher": "Wiley",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              2,
+              21
+            ]
+          ],
+          "date-time": "2022-02-21T00:00:00Z",
+          "timestamp": 1645401600000
+        },
+        "content-version": "am",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              2,
+              21
+            ]
+          ],
+          "date-time": "2022-02-21T00:00:00Z",
+          "timestamp": 1645401600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "J American Water Resour Assoc"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          4
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Optical satellite imagery is commonly used for monitoring surface water dynamics, but clouds and cloud shadows present challenges in assembling complete water time series. To test whether the daily revisit rate of Moderate Resolution Imaging Spectroradiometer (MODIS) satellite imagery can reduce cloud obstruction and improve high\u2010frequency surface water mapping, we compared map results derived from Landsat (30\u2010m) and MODIS (250\u2010m) data across the state of California for 2003\u20132019. We adapted the Dynamic Surface Water Extent (DSWE) model in Google Earth Engine to generate surface water map composites from MODIS imagery every 5, 10, 15, and 30\u2009days, and compared products to monthly Landsat\u2010based DSWE maps. Results for DSWEmod (DSWE MODIS) in California suggest that more than 5% data loss (cloud obstruction, etc.) was present in only 2% of the 15\u2010day time series, as compared to 32% of the monthly Landsat DSWE time series. The five\u2010day DSWEmod composites averaged 8.4% obscuration in the winter months. Area estimates derived from cloud\u2010filtered MODIS and Landsat monthly products have the highest linear correlations compared to streamgage discharge records, suggesting that monthly scale analyses best explain the relationship between surface water area and general streamflow dynamics. Shorter\u2010interval DSWEmod products have lower correlations but utility for understanding the timing of surface water peaks and past flood events.</jats:p>",
+    "DOI": "10.1111/1752-1688.12996",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          21
+        ]
+      ],
+      "date-time": "2022-02-21T14:55:08Z",
+      "timestamp": 1645455308000
+    },
+    "page": "248-268",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 13,
+    "title": [
+      "DSWEmod \u2014 The Production of High\u2010Frequency Surface Water Map Composites from Daily MODIS Images"
+    ],
+    "prefix": "10.1111",
+    "volume": "58",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5777-9516",
+        "authenticated-orcid": false,
+        "given": "Christopher E.",
+        "family": "Soulard",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Western Geographic Science Center Moffett Field California USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9169-9210",
+        "authenticated-orcid": false,
+        "given": "Eric K.",
+        "family": "Waller",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Contractor to the USGS Western Geographic Science Center Portland Oregon USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3225-0317",
+        "authenticated-orcid": false,
+        "given": "Jessica J.",
+        "family": "Walker",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Western Geographic Science Center Tucson Arizona USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8932-077X",
+        "authenticated-orcid": false,
+        "given": "Roy E.",
+        "family": "Petrakis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Western Geographic Science Center Tucson Arizona USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1556-2383",
+        "authenticated-orcid": false,
+        "given": "Britt W.",
+        "family": "Smith",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Western Geographic Science Center Tucson Arizona USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          21
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_9_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11069-010-9537-2"
+      },
+      {
+        "key": "e_1_2_9_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM-D-19-0119.1"
+      },
+      {
+        "key": "e_1_2_9_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.2987"
+      },
+      {
+        "key": "e_1_2_9_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2005EO190001"
+      },
+      {
+        "key": "e_1_2_9_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-23-669-2019"
+      },
+      {
+        "key": "e_1_2_9_7_1",
+        "unstructured": "California Department of Water Resources.2013. \u201cCalifornia\u2019s Flood Future: Recommendations for Managing the State\u2019s Flood Risk.\u201d"
+      },
+      {
+        "key": "e_1_2_9_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TGRS.2013.2291496"
+      },
+      {
+        "key": "e_1_2_9_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs9050497"
+      },
+      {
+        "key": "e_1_2_9_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/17538940902951401"
+      },
+      {
+        "key": "e_1_2_9_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01431161.2016.1145366"
+      },
+      {
+        "key": "e_1_2_9_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0034-4257(91)90048-B"
+      },
+      {
+        "key": "e_1_2_9_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs9121306"
+      },
+      {
+        "key": "e_1_2_9_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2020.111664"
+      },
+      {
+        "key": "e_1_2_9_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs9080807"
+      },
+      {
+        "key": "e_1_2_9_16_1",
+        "unstructured": "Klausmeyer K. andK.Fitzgerald.2012.Where does California\u2019s water come from? Land conservation and the watersheds that supply California\u2019s drinking water. A Science for Conservation Technical Brief. An unpublished report ofThe Nature Conservancy. San Francisco CA. p. 13.https://www.nature.org/media/california/california_drinking\u2010water\u2010sources\u20102012.pdf"
+      },
+      {
+        "key": "e_1_2_9_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2017.06.031"
+      },
+      {
+        "key": "e_1_2_9_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0034-4257(02)00095-0"
+      },
+      {
+        "key": "e_1_2_9_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/cli5010005"
+      },
+      {
+        "key": "e_1_2_9_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016WR019858"
+      },
+      {
+        "key": "e_1_2_9_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2018.04.016"
+      },
+      {
+        "key": "e_1_2_9_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jag.2013.09.002"
+      },
+      {
+        "key": "e_1_2_9_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs10050797"
+      },
+      {
+        "key": "e_1_2_9_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2005.09.017"
+      },
+      {
+        "key": "e_1_2_9_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs70912503"
+      },
+      {
+        "key": "e_1_2_9_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs11040374"
+      },
+      {
+        "key": "e_1_2_9_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017GL075399"
+      },
+      {
+        "key": "e_1_2_9_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jag.2015.01.005"
+      },
+      {
+        "key": "e_1_2_9_29_1",
+        "volume-title": "NASA/ DFO MODIS Near Real\u2010Time (NRT) Global Flood Mapping Product Evaluation of Flood and Permanent Water Detection",
+        "author": "Nigro J.",
+        "year": "2014"
+      },
+      {
+        "key": "e_1_2_9_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/tc-14-4279-2020"
+      },
+      {
+        "key": "e_1_2_9_31_1",
+        "unstructured": "NOAA National Weather Service California Nevada River Forecast Center.2017.https://www.cnrfc.noaa.gov/storm_summaries.php."
+      },
+      {
+        "key": "e_1_2_9_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs10111673"
+      },
+      {
+        "key": "e_1_2_9_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-8306.1987.tb00149.x"
+      },
+      {
+        "key": "e_1_2_9_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2007.00093.x"
+      },
+      {
+        "key": "e_1_2_9_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2007.08.027"
+      },
+      {
+        "key": "e_1_2_9_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gcb.14279"
+      },
+      {
+        "key": "e_1_2_9_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature20584"
+      },
+      {
+        "key": "e_1_2_9_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2020.111792"
+      },
+      {
+        "key": "e_1_2_9_39_1",
+        "unstructured": "R Core Team.2020. \u201cA Language and Environment for Statistical Computing.\u201dhttps://doi.org/10.1890/0012\u20109658(2002)083[3097:CFHIWS]2.0.CO;2."
+      },
+      {
+        "key": "e_1_2_9_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TGRS.2008.2003436"
+      },
+      {
+        "key": "e_1_2_9_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1936-704X.2014.03176.x"
+      },
+      {
+        "key": "e_1_2_9_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752-1688.12353"
+      },
+      {
+        "key": "e_1_2_9_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2017.02.016"
+      },
+      {
+        "key": "e_1_2_9_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.csda.2003.10.012"
+      },
+      {
+        "key": "e_1_2_9_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626667.2020.1817461"
+      },
+      {
+        "key": "e_1_2_9_46_1",
+        "unstructured": "Soulard C.E. andM.Rigge.2020. \u201cSpatially\u2010Explicit Land\u2010Cover Scenarios of Federal Lands in the Northern Great Basin: 2018\u20132050.\u201dU.S. Geological Survey.https://doi.org/10.5066/P9LJ1FI4."
+      },
+      {
+        "key": "e_1_2_9_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs12060984"
+      },
+      {
+        "key": "e_1_2_9_48_1",
+        "unstructured": "Soulard C.E. E.K.Waller J.J.Walker andR.E.Petrakis.2021. \u201cDSWEmod Surface Water Map Composites Generated from Daily MODIS Images \u2014 California.\u201dhttps://www.sciencebase.gov/catalog/item/5fca8e22d34e30b9123893a0."
+      },
+      {
+        "key": "e_1_2_9_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2019.05.018"
+      },
+      {
+        "key": "e_1_2_9_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2013.04.010"
+      },
+      {
+        "key": "e_1_2_9_51_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tellman B. J.Sullivan C.Kuhn A.Kettner C.Doyle G.Brakenridge T.Erikson andD.Slayback.2020. \u201cSatellite Observations Indicate Increasing Proportion of Population Exposed to Floods.\u201d Preprint in Review.https://doi.org/10.21203/rs.3.rs\u201065906/v1.",
+        "DOI": "10.21203/rs.3.rs-65906/v1"
+      },
+      {
+        "key": "e_1_2_9_52_1",
+        "unstructured": "Thornton P.E. M.M.Thornton andR.S.Vose.2016. \u201cDaymet: Annual Tile Summary Cross\u2010Validation Statistics for North America Version 3.\u201dORNL DAAC.https://doi.org/10.3334/ORNLDAAC/1348."
+      },
+      {
+        "key": "e_1_2_9_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2018.11.390"
+      },
+      {
+        "key": "e_1_2_9_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01431161.2016.1192304"
+      },
+      {
+        "key": "e_1_2_9_55_1",
+        "unstructured": "U.S. Geological Survey.2018a. \u201cLandsat Dynamic Surface Water Extent (DSWE) Algorithm Description Document (ADD) Version 1.0.\u201dhttps://prd\u2010wret.s3\u2010us\u2010west\u20102.amazonaws.com/assets/palladium/production/atoms/files/LSDS\u20101325\u2010LandsatDynamicSurfaceWaterExtent_AlgorithmDescriptionDocument\u2010v1.pdf."
+      },
+      {
+        "key": "e_1_2_9_56_1",
+        "unstructured": "U.S. Geological Survey.2018b. \u201cLandsat Dynamic Surface Water Extent (DSWE) Product Guide Version 2.0.\u201dhttps://prd\u2010wret.s3\u2010us\u2010west\u20102.amazonaws.com/assets/palladium/production/s3fs\u2010public/atoms/files/LSDS\u20101331\u2010LandsatDynamicSurfaceWaterExtent\u2010DSWE\u2010ProductGuide\u2010v3.0_%202019_03_19.pdf."
+      },
+      {
+        "key": "e_1_2_9_57_1",
+        "unstructured": "U.S. Geological Survey.2021. \u201cNational Water Information System.\u201d U.S. Geological Survey Web Interface.https://doi.org/10.5066/F7P55KJN."
+      },
+      {
+        "key": "e_1_2_9_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs11131581"
+      },
+      {
+        "key": "e_1_2_9_59_1",
+        "unstructured": "USDA ERS.2017. \u201cData Files: U.S. and State\u2010Level Farm Income and Wealth Statistics.\u201dhttps://www.ers.usda.gov/data\u2010products/farm\u2010income\u2010and\u2010wealth\u2010statistics/data\u2010files\u2010us\u2010and\u2010state\u2010level\u2010farm\u2010income\u2010and\u2010wealth\u2010statistics/."
+      },
+      {
+        "key": "e_1_2_9_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR018545"
+      },
+      {
+        "key": "e_1_2_9_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs12091464"
+      },
+      {
+        "key": "e_1_2_9_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01431161.2019.1582112"
+      },
+      {
+        "key": "e_1_2_9_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jag.2016.12.012"
+      },
+      {
+        "key": "e_1_2_9_64_1",
+        "unstructured": "Walker J.J. R.E.Petrakis andC.E.Soulard.2020. \u201cImplementation of a Surface Water Extent Model Using Cloud\u2010Based Remote Sensing \u2014 Code and Maps.\u201dhttps://doi.org/10.5066/P9LH9YYF."
+      },
+      {
+        "key": "e_1_2_9_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jag.2019.101973"
+      },
+      {
+        "key": "e_1_2_9_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2015.11.032"
+      },
+      {
+        "key": "e_1_2_9_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2011.10.029"
+      },
+      {
+        "key": "e_1_2_9_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01431161.2014.903351"
+      },
+      {
+        "key": "e_1_2_9_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2013WR015068"
+      }
+    ],
+    "container-title": [
+      "JAWRA Journal of the American Water Resources Association"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/1752-1688.12996",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/1752-1688.12996",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/1752-1688.12996",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/1752-1688.12996",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          25
+        ]
+      ],
+      "date-time": "2023-08-25T22:20:21Z",
+      "timestamp": 1693002021000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1111/1752-1688.12996"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          21
+        ]
+      ]
+    },
+    "references-count": 68,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            4
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/1752-1688.12996"
+    ],
+    "URL": "https://doi.org/10.1111/1752-1688.12996",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "1093-474X",
+      "1752-1688"
+    ],
+    "issn-type": [
+      {
+        "value": "1093-474X",
+        "type": "print"
+      },
+      {
+        "value": "1752-1688",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          21
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2021-01-15",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2022-01-24",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2022-02-21",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.1111/1752-1688.12996",
+  "original_doi": "10.1111/1752-1688.12996"
+}

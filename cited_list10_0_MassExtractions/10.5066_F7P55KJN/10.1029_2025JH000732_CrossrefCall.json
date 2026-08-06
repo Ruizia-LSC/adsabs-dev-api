@@ -1,0 +1,1100 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          17
+        ]
+      ],
+      "date-time": "2026-07-17T22:20:23Z",
+      "timestamp": 1784326823960,
+      "version": "3.55.0"
+    },
+    "reference-count": 143,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              3
+            ]
+          ],
+          "date-time": "2025-09-03T00:00:00Z",
+          "timestamp": 1756857600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 2,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100006132",
+        "name": "Office of Science",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE\u2010AC02\u201005CH11231"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE\u2010AC02\u201005CH11231"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100006132",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000015",
+        "name": "U.S. Department of Energy",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000015",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100006206",
+        "name": "Biological and Environmental Research",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006206",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Geophysical Research: Machine Learning and Computation"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Accurate and robust predictions of hydrologic variables are essential for water resource management. In the past decade, significant progress has been made in using machine learning (ML) models for large\u2010scale, spatiotemporal predictions of stream flows and other hydrologic quantities. Yet, despite the rich history of ensemble use in hydrology, many ML studies rely on deterministic models using single architectures or simplistic ensembles, which limits their accuracy and uncertainty quantification (UQ). In this study, we demonstrate the utility of ensemble modeling using predictions of stream temperatures in unmonitored basins of the contiguous United States as a use case. We evaluate six different ensemble construction techniques spanning classical and deep learning (DL)\u2010specific methods to determine optimal modeling strategies. The analysis uses four ML architectures: the long short\u2010term memory (LSTM), gated recurrent unit (GRU), temporal convolution network (TCN), and extreme gradient boosting (XGB). Ensemble accuracy and spread are quantified using multiple deterministic and probabilistic metrics. Our results clearly demonstrate the universal benefit of using ensembles to improve accuracy compared to deterministic models. Ensemble construction strategies such as varying the input data across models or combining model architectures are most effective in improving predictions for both average and extreme values. Notably, we find XGB has the highest accuracy, but lower spread relative to DL architectures. This study underscores the importance of using ensemble strategies for hydrologic predictions. We conclude that considering diverse ensembles of optimal sizes and probabilistic metrics of performance can enhance the accuracy and reliability of ML models.</jats:p>",
+    "DOI": "10.1029/2025jh000732",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          3
+        ]
+      ],
+      "date-time": "2025-09-03T12:35:54Z",
+      "timestamp": 1756902954000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "Machine Learning Ensembles Can Enhance Hydrologic Predictions and Uncertainty Quantification"
+    ],
+    "prefix": "10.1029",
+    "volume": "2",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4434-051X",
+        "authenticated-orcid": false,
+        "given": "Jared D.",
+        "family": "Willard",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Lawrence Berkeley National Laboratory Computing Sciences Area  Berkeley CA USA"
+          },
+          {
+            "name": "Now at National Renewable Energy Laboratory  Golden CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4142-3224",
+        "authenticated-orcid": false,
+        "given": "Charuleka",
+        "family": "Varadharajan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Lawrence Berkeley National Laboratory Earth and Environmental Sciences Area  Berkeley CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          3
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_11_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.isci.2022.105201"
+      },
+      {
+        "key": "e_1_2_11_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.2202.06985"
+      },
+      {
+        "key": "e_1_2_11_4_1",
+        "unstructured": "Afshari Hemmatalikeykha M.(2022).Using lstm and xgboost for streamflow prediction based on meteorological time series data(Master's thesis). Retrieved fromhttps://studenttheses.uu.nl/handle/20.500.12932/42614"
+      },
+      {
+        "key": "e_1_2_11_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eswa.2023.119633"
+      },
+      {
+        "key": "e_1_2_11_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00477\u2010021\u201001980\u20108"
+      },
+      {
+        "key": "e_1_2_11_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2015.09.001"
+      },
+      {
+        "key": "e_1_2_11_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201027\u2010139\u20102023"
+      },
+      {
+        "key": "e_1_2_11_9_1",
+        "article-title": "An empirical evaluation of generic convolutional and recurrent networks for sequence modeling",
+        "author": "Bai S.",
+        "year": "2018",
+        "journal-title": "arXiv preprint arXiv:1803.01271"
+      },
+      {
+        "key": "e_1_2_11_10_1",
+        "unstructured": "Barrett L. Hoyer S. Kleeman A. &O\u2019Kane D.(2015).properscoring: Proper scoring rules in python. (GitHub repository) Retrieved fromhttps://github.com/properscoring/properscoring"
+      },
+      {
+        "key": "e_1_2_11_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IJCNN.2013.6706740"
+      },
+      {
+        "key": "e_1_2_11_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/wr023i008p01393"
+      },
+      {
+        "key": "e_1_2_11_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015gl067189"
+      },
+      {
+        "issue": "2",
+        "key": "e_1_2_11_14_1",
+        "article-title": "Random search for hyper\u2010parameter optimization",
+        "volume": "13",
+        "author": "Bergstra J.",
+        "year": "2012",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "issue": "5",
+        "key": "e_1_2_11_15_1",
+        "article-title": "Experiment tracking with weights and biases",
+        "volume": "2",
+        "author": "Biewald L.",
+        "year": "2020",
+        "journal-title": "Software available from wandb.com"
+      },
+      {
+        "key": "e_1_2_11_16_1",
+        "first-page": "1613",
+        "volume-title": "International Conference on Machine Learning",
+        "author": "Blundell C.",
+        "year": "2015"
+      },
+      {
+        "key": "e_1_2_11_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/bf00058655"
+      },
+      {
+        "key": "e_1_2_11_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520\u20100493(1950)078<0001:vofeit>2.0.co;2"
+      },
+      {
+        "key": "e_1_2_11_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.inffus.2004.04.004"
+      },
+      {
+        "key": "e_1_2_11_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cmpb.2019.105134"
+      },
+      {
+        "key": "e_1_2_11_21_1",
+        "article-title": "Api design for machine learning software: Experiences from the scikit\u2010learn project",
+        "author": "Buitinck L.",
+        "year": "2013",
+        "journal-title": "arXiv preprint arXiv:1309.0238"
+      },
+      {
+        "key": "e_1_2_11_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520\u20100493(1997)125<0099:pfsoep>2.0.co;2"
+      },
+      {
+        "key": "e_1_2_11_23_1",
+        "article-title": "Uncertainty quantification for data\u2010driven weather models",
+        "author": "B\u00fclte C.",
+        "year": "2024",
+        "journal-title": "arXiv preprint arXiv:2403.13458"
+      },
+      {
+        "key": "e_1_2_11_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-37963-5_53"
+      },
+      {
+        "key": "e_1_2_11_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2004.03.036"
+      },
+      {
+        "key": "e_1_2_11_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2024WR039053"
+      },
+      {
+        "key": "e_1_2_11_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "key": "e_1_2_11_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2018/2470171"
+      },
+      {
+        "key": "e_1_2_11_29_1",
+        "article-title": "Empirical evaluation of gated recurrent neural networks on sequence modeling",
+        "author": "Chung J.",
+        "year": "2014",
+        "journal-title": "arXiv preprint arXiv:1412.3555"
+      },
+      {
+        "key": "e_1_2_11_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201028\u20101617\u20102024"
+      },
+      {
+        "key": "e_1_2_11_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2008.06.005"
+      },
+      {
+        "key": "e_1_2_11_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020wr029001"
+      },
+      {
+        "key": "e_1_2_11_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2009.06.005"
+      },
+      {
+        "key": "e_1_2_11_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/bams\u2010d\u201012\u201000081.1"
+      },
+      {
+        "key": "e_1_2_11_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/3-540-45014-9_1"
+      },
+      {
+        "key": "e_1_2_11_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1710231115"
+      },
+      {
+        "key": "e_1_2_11_37_1",
+        "volume-title": "Physical hydrology",
+        "author": "Dingman S. L.",
+        "year": "2015"
+      },
+      {
+        "key": "e_1_2_11_38_1",
+        "first-page": "223",
+        "article-title": "Bayesian averaging of classifiers and the overfitting problem",
+        "volume": "747",
+        "author": "Domingos P.",
+        "year": "2000",
+        "journal-title": "Icml"
+      },
+      {
+        "key": "e_1_2_11_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2006.11.014"
+      },
+      {
+        "key": "e_1_2_11_40_1",
+        "volume-title": "GAGES\u2010II: Geospatial attributes of gages for evaluating streamflow",
+        "author": "Falcone J. A.",
+        "year": "2011"
+      },
+      {
+        "key": "e_1_2_11_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/09-0889.1"
+      },
+      {
+        "key": "e_1_2_11_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201025\u20102951\u20102021"
+      },
+      {
+        "key": "e_1_2_11_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021gl092999"
+      },
+      {
+        "key": "e_1_2_11_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ITSC.2018.8569814"
+      },
+      {
+        "key": "e_1_2_11_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2021.126782"
+      },
+      {
+        "key": "e_1_2_11_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2019.2936989"
+      },
+      {
+        "key": "e_1_2_11_47_1",
+        "first-page": "15897",
+        "article-title": "On the expressiveness of approximate inference in bayesian neural networks",
+        "volume": "33",
+        "author": "Foong A.",
+        "year": "2020",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "e_1_2_11_48_1",
+        "article-title": "Deep ensembles: A loss landscape perspective",
+        "author": "Fort S.",
+        "year": "2019",
+        "journal-title": "arXiv preprint arXiv:1912.02757"
+      },
+      {
+        "key": "e_1_2_11_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752\u20101688.12964"
+      },
+      {
+        "key": "e_1_2_11_50_1",
+        "first-page": "1050",
+        "volume-title": "In International Conference on Machine Learning",
+        "author": "Gal Y.",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_11_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2020.125188"
+      },
+      {
+        "key": "e_1_2_11_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598\u2010021\u201096751\u20104"
+      },
+      {
+        "key": "e_1_2_11_53_1",
+        "first-page": "249",
+        "volume-title": "Proceedings of the Thirteenth International Conference on Artificial Intelligence and Statistics",
+        "author": "Glorot X.",
+        "year": "2010"
+      },
+      {
+        "key": "e_1_2_11_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/mwr2904.1"
+      },
+      {
+        "key": "e_1_2_11_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467\u20109868.2007.00587.x"
+      },
+      {
+        "key": "e_1_2_11_56_1",
+        "volume-title": "Deep learning",
+        "author": "Goodfellow I.",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_11_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/JYCEAJ.0000599"
+      },
+      {
+        "key": "e_1_2_11_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/34.58871"
+      },
+      {
+        "key": "e_1_2_11_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/34.709601"
+      },
+      {
+        "key": "e_1_2_11_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1997.9.8.1735"
+      },
+      {
+        "key": "e_1_2_11_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2024.132269"
+      },
+      {
+        "key": "e_1_2_11_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/1.9781611976700.69"
+      },
+      {
+        "key": "e_1_2_11_63_1",
+        "first-page": "2342",
+        "volume-title": "International Conference on Machine Learning",
+        "author": "Jozefowicz R.",
+        "year": "2015"
+      },
+      {
+        "key": "e_1_2_11_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2134/jeq2009.0441"
+      },
+      {
+        "key": "e_1_2_11_65_1",
+        "article-title": "What uncertainties do we need in bayesian deep learning for computer vision?",
+        "volume": "30",
+        "author": "Kendall A.",
+        "year": "2017",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "e_1_2_11_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tits.2011.2106209"
+      },
+      {
+        "key": "e_1_2_11_67_1",
+        "first-page": "1",
+        "article-title": "Hess opinions: Never train an lstm on a single basin",
+        "volume": "2024",
+        "author": "Kratzert F.",
+        "year": "2024",
+        "journal-title": "Hydrology and Earth System Sciences Discussions"
+      },
+      {
+        "key": "e_1_2_11_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201023\u20105089\u20102019"
+      },
+      {
+        "key": "e_1_2_11_69_1",
+        "first-page": "231",
+        "volume-title": "Advances in Neural Information Processing Systems",
+        "author": "Krogh A.",
+        "year": "1995"
+      },
+      {
+        "key": "e_1_2_11_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/9781118914564"
+      },
+      {
+        "key": "e_1_2_11_71_1",
+        "article-title": "Simple and scalable predictive uncertainty estimation using deep ensembles",
+        "volume": "30",
+        "author": "Lakshminarayanan B.",
+        "year": "2017",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "e_1_2_11_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.113"
+      },
+      {
+        "key": "e_1_2_11_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/biology11040586"
+      },
+      {
+        "key": "e_1_2_11_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41746\u2010022\u201000709\u20103"
+      },
+      {
+        "key": "e_1_2_11_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2021.127221"
+      },
+      {
+        "key": "e_1_2_11_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2021.126698"
+      },
+      {
+        "key": "e_1_2_11_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1246"
+      },
+      {
+        "key": "e_1_2_11_78_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2166/hydro.2019.066"
+      },
+      {
+        "key": "e_1_2_11_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2022.127762"
+      },
+      {
+        "key": "e_1_2_11_80_1",
+        "article-title": "Decoupled weight decay regularization",
+        "author": "Loshchilov I.",
+        "year": "2017",
+        "journal-title": "arXiv preprint arXiv:1711.05101"
+      },
+      {
+        "key": "e_1_2_11_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chemosphere.2020.126169"
+      },
+      {
+        "key": "e_1_2_11_82_1",
+        "article-title": "Huge ensembles Part I: Design of ensemble weather forecasts using spherical fourier neural operators",
+        "author": "Mahesh A.",
+        "year": "2024",
+        "journal-title": "arXiv preprint arXiv:2408.03100"
+      },
+      {
+        "key": "e_1_2_11_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-8306.1970.tb00743.x"
+      },
+      {
+        "key": "e_1_2_11_84_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020rg000704"
+      },
+      {
+        "key": "e_1_2_11_85_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/access.2022.3182399"
+      },
+      {
+        "issue": "11",
+        "key": "e_1_2_11_86_1",
+        "first-page": "2394",
+        "article-title": "Modeling stream water temperature using regression analysis with air temperature and streamflow over Krishna River",
+        "volume": "4",
+        "author": "Naresh A.",
+        "year": "2017",
+        "journal-title": "Rehana International Journal of Engineering Technology Science and Research"
+      },
+      {
+        "key": "e_1_2_11_87_1",
+        "first-page": "15188",
+        "article-title": "Structured dropout variational inference for bayesian neural networks",
+        "volume": "34",
+        "author": "Nguyen S.",
+        "year": "2021",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "e_1_2_11_88_1",
+        "volume-title": "Cvpr workshops",
+        "author": "Nixon J.",
+        "year": "2019"
+      },
+      {
+        "key": "e_1_2_11_89_1",
+        "volume-title": "Us geological survey (USGS) streamgaging network: Overview and issues for congress",
+        "author": "Normand A. E.",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_11_90_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2020.139679"
+      },
+      {
+        "key": "e_1_2_11_91_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3377930.3389817"
+      },
+      {
+        "key": "e_1_2_11_92_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-540-74825-0_11"
+      },
+      {
+        "key": "e_1_2_11_93_1",
+        "first-page": "2825",
+        "article-title": "Scikit\u2010learn: Machine learning in Python",
+        "volume": "12",
+        "author": "Pedregosa F.",
+        "year": "2011",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "e_1_2_11_94_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4081/aiol.2016.5791"
+      },
+      {
+        "key": "e_1_2_11_95_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/3-540-49430-8_3"
+      },
+      {
+        "issue": "2",
+        "key": "e_1_2_11_96_1",
+        "article-title": "Exploring the exceptional performance of a deep learning stream temperature model and the value of streamflow data",
+        "volume": "16",
+        "author": "Rahmani F.",
+        "year": "2021",
+        "journal-title": "Environmental Research Letters"
+      },
+      {
+        "key": "e_1_2_11_97_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.14400"
+      },
+      {
+        "key": "e_1_2_11_98_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019wr024922"
+      },
+      {
+        "key": "e_1_2_11_99_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021wr030138"
+      },
+      {
+        "key": "e_1_2_11_100_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020ms002331"
+      },
+      {
+        "key": "e_1_2_11_101_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11227\u2010021\u201003768\u20107"
+      },
+      {
+        "key": "e_1_2_11_102_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022wr032201"
+      },
+      {
+        "key": "e_1_2_11_103_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018wr022643"
+      },
+      {
+        "key": "e_1_2_11_104_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecoinf.2023.102107"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_2_11_105_1",
+        "first-page": "1929",
+        "article-title": "Dropout: A simple way to prevent neural networks from overfitting",
+        "volume": "15",
+        "author": "Srivastava N.",
+        "year": "2014",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "e_1_2_11_106_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748\u20109326/ac7247"
+      },
+      {
+        "key": "e_1_2_11_107_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2166/wpt.2023.144"
+      },
+      {
+        "key": "e_1_2_11_108_1",
+        "article-title": "When are ensembles really effective?",
+        "volume": "36",
+        "author": "Theisen R.",
+        "year": "2024",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "e_1_2_11_109_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tmi.2021.3123300"
+      },
+      {
+        "key": "e_1_2_11_110_1",
+        "volume-title": "USDA\u2010NASS, 2019. 2017 Census of Agriculture, Summary and State Data, Geographic Area Series, Part 51, AC\u201017\u2010A\u201051",
+        "author": "Thornton P.",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_11_111_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022wr033880"
+      },
+      {
+        "key": "e_1_2_11_112_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201022\u2010437\u20102018"
+      },
+      {
+        "key": "e_1_2_11_113_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00521\u2010020\u201005172\u20103"
+      },
+      {
+        "key": "e_1_2_11_114_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u20102024\u2010174"
+      },
+      {
+        "key": "e_1_2_11_115_1",
+        "volume-title": "USGS water data for the Nation",
+        "author": "U.S. Geological Survey",
+        "year": "1994"
+      },
+      {
+        "key": "e_1_2_11_116_1",
+        "unstructured": "U.S. Geological Survey. (2016).National water information system data available on the world wide Web (USGS Water Data for the Nation).https://doi.org/10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_11_117_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2010wr009198"
+      },
+      {
+        "key": "e_1_2_11_118_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cageo.2021.105024"
+      },
+      {
+        "key": "e_1_2_11_119_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023wr036710"
+      },
+      {
+        "key": "e_1_2_11_120_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11269\u2010022\u201003264\u20104"
+      },
+      {
+        "key": "e_1_2_11_121_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.1280"
+      },
+      {
+        "key": "e_1_2_11_122_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.6994"
+      },
+      {
+        "key": "e_1_2_11_123_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w14071032"
+      },
+      {
+        "key": "e_1_2_11_124_1",
+        "first-page": "6514",
+        "article-title": "Hyperparameter ensembles for robustness and uncertainty quantification",
+        "volume": "33",
+        "author": "Wenzel F.",
+        "year": "2020",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "e_1_2_11_125_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021ms002502"
+      },
+      {
+        "key": "e_1_2_11_126_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICDM.2013.21"
+      },
+      {
+        "key": "e_1_2_11_127_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Willard J. &Varadharajan C.(2025).Dataset for \u201cmachine learning ensembles can enhance hydrologic predictions and uncertainty quantification\u201d[Dataset].https://doi.org/10.15485/2527393",
+        "DOI": "10.15485/2527393"
+      },
+      {
+        "key": "e_1_2_11_128_1",
+        "volume-title": "Machine learning techniques for time series regression in unmonitored environmental systems",
+        "author": "Willard J. D.",
+        "year": "2023"
+      },
+      {
+        "key": "e_1_2_11_129_1",
+        "article-title": "Evaluating deep learning approaches for predictions in unmonitored basins with continental\u2010scale stream temperature models",
+        "author": "Willard J. D.",
+        "year": "2024",
+        "journal-title": "arXiv preprint arXiv:2410.19865"
+      },
+      {
+        "key": "e_1_2_11_130_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lol2.10249"
+      },
+      {
+        "key": "e_1_2_11_131_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/eds.2024.14"
+      },
+      {
+        "key": "e_1_2_11_132_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/qj.2198"
+      },
+      {
+        "key": "e_1_2_11_133_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.1999.tb04219.x"
+      },
+      {
+        "key": "e_1_2_11_134_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/95WR00471"
+      },
+      {
+        "key": "e_1_2_11_135_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008gl034648"
+      },
+      {
+        "key": "e_1_2_11_136_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5555/3648699.3649058"
+      },
+      {
+        "key": "e_1_2_11_137_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2021.126975"
+      },
+      {
+        "key": "e_1_2_11_138_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2023.129684"
+      },
+      {
+        "key": "e_1_2_11_139_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2021.127418"
+      },
+      {
+        "key": "e_1_2_11_140_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w15223982"
+      },
+      {
+        "key": "e_1_2_11_141_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.0c06783"
+      },
+      {
+        "key": "e_1_2_11_142_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2021.126266"
+      },
+      {
+        "key": "e_1_2_11_143_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/frwa.2023.1184992"
+      },
+      {
+        "key": "e_1_2_11_144_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752-1688.13093"
+      }
+    ],
+    "container-title": [
+      "Journal of Geophysical Research: Machine Learning and Computation"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JH000732",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2025-10-15T07:06:18Z",
+      "timestamp": 1760511978000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025JH000732"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9
+        ]
+      ]
+    },
+    "references-count": 143,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            9
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2025JH000732"
+    ],
+    "URL": "https://doi.org/10.1029/2025jh000732",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "2993-5210",
+      "2993-5210"
+    ],
+    "issn-type": [
+      {
+        "value": "2993-5210",
+        "type": "print"
+      },
+      {
+        "value": "2993-5210",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          9
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2025-04-13",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-07-29",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-09-03",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2025JH000732"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2025JH000732",
+  "original_doi": "10.1029/2025JH000732"
+}

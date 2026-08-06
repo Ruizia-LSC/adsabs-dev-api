@@ -1,0 +1,822 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          12
+        ]
+      ],
+      "date-time": "2026-06-12T10:03:00Z",
+      "timestamp": 1781258580807,
+      "version": "3.54.1"
+    },
+    "reference-count": 107,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              30
+            ]
+          ],
+          "date-time": "2026-04-30T00:00:00Z",
+          "timestamp": 1777507200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              30
+            ]
+          ],
+          "date-time": "2026-04-30T00:00:00Z",
+          "timestamp": 1777507200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Rivers throughout the world have been dammed for flood control, irrigation, hydropower, and water storage for centuries. Dams service the economic and development needs of societies, but degrade the ecology of rivers. To conserve diminishing aquatic species and their habitats, methods are needed to help managers implement flow releases with timescales and patterns that are relevant to aquatic species and physical processes. We present a method to synchronize flow releases from dams with local hydrology, while ensuring constraints of flood control and water allocations are met. We demonstrate an optimization technique that scales flows of a proximal unregulated river and results in discharges that are synchronized with natural hydrologic patterns. Importantly, our method preserves operational and regulatory requirements such as water allocation volumes and flood control thresholds. This technique can be used at various timescales, and can incorporate many system\u2010specific constraints. We selected the Trinity River, California as an example, and scale flows according to a proximal gage on the Salmon River in California. We evaluate our technique using an array of flow regime metrics from the literature, and our method produced hydrographs with greater flow variation throughout a larger portion of the water year than current management strategies. These hydrographs yielded flow metrics more similar to those from unimpaired flow patterns, including those measuring within and among year flow variability. The Real Time Management framework is a new tool that can be implemented to improve the health of rivers and the aquatic species that depend upon them.</jats:p>",
+    "DOI": "10.1029/2025wr041095",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          30
+        ]
+      ],
+      "date-time": "2026-04-30T16:54:56Z",
+      "timestamp": 1777568096000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "A Method to Implement Natural Flow Regimes for Regulated Rivers"
+    ],
+    "prefix": "10.1029",
+    "volume": "62",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0006-9722-6330",
+        "authenticated-orcid": false,
+        "given": "Nicholas A.",
+        "family": "Som",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey California Cooperative Fish and Wildlife Research Unit California State Polytechnic University  Humboldt CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Seth W.",
+        "family": "Naman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Oceanic and Atmospheric Administration National Marine Fisheries Service  West Coast Region CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          30
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1607171113"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ecs2.3559"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/14\u20100266.1"
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/aqc.2560"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/1051\u20100761(2006)016[1311:TCOPEF]2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "article-title": "Synthesizing 87 years of scientific inquiry into Trinity River water temperatures (Tech. Rep.)",
+        "author": "Asarian J.",
+        "year": "2023",
+        "journal-title": "US Department of Interior"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1643/CP\u201015\u2010253"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752\u20101688.2004.tb01046.x"
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1912776117"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eap.3013"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2013WR013918"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1525/bio.2010.60.3.7"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/eff.12144"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eap.2005"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11160\u2010016\u20109432\u20103"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2021.126759"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eap.2888"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1365\u20102745.13572"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "article-title": "History of fine sediment and its impacts on physical processes and biological populations in the restoration reach of the Trinity River, CA (Tech. Rep.)",
+        "author": "Buxton T.",
+        "year": "2021",
+        "journal-title": "US Department of Interior"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "unstructured": "California Department of Water Resources. (2024).B\u2010120 water supply forecast[Dataset]. Retrieved fromhttps://cdec.water.ca.gov/reportapp/javareports?name=B120"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-540-69970-5_9"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/f2011\u2010084"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "volume-title": "California environmental flows framework version 1.0 (Technical Report No. 63)",
+        "author": "CEFWG",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467\u2010017\u201002226\u20104"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0244580"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021ea001828"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2017.09.008"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008WR006802"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019EF001250"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1365\u20102656.12852"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2022.127713"
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/edn3.221"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.3302"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2016.02.025"
+      },
+      {
+        "key": "e_1_2_8_36_1",
+        "volume-title": "Chap. The geomorphic response of gravel\u2010bed Rivers to dams: Perspectives and prospects)",
+        "author": "Grant G. E.",
+        "year": "2012"
+      },
+      {
+        "key": "e_1_2_8_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fenvs.2022.787473"
+      },
+      {
+        "key": "e_1_2_8_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748\u20109326/10/1/015001"
+      },
+      {
+        "key": "e_1_2_8_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3167/ares.2019.100107"
+      },
+      {
+        "key": "e_1_2_8_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecoleng.2015.05.035"
+      },
+      {
+        "key": "e_1_2_8_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1526\u2010100X.2009.00581.x"
+      },
+      {
+        "key": "e_1_2_8_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s42408\u2010019\u20100062\u20108"
+      },
+      {
+        "key": "e_1_2_8_43_1",
+        "volume-title": "Trends in precipitation forecasting skill at the California Nevada river forecast center (Tech. Rep.)",
+        "author": "Haynes A.",
+        "year": "2005"
+      },
+      {
+        "key": "e_1_2_8_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4296/cwrj3503301"
+      },
+      {
+        "key": "e_1_2_8_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.adi6580"
+      },
+      {
+        "key": "e_1_2_8_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.6900"
+      },
+      {
+        "key": "e_1_2_8_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467\u2010025\u201064367\u20101"
+      },
+      {
+        "key": "e_1_2_8_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jfb.12380"
+      },
+      {
+        "key": "e_1_2_8_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.abo1082"
+      },
+      {
+        "key": "e_1_2_8_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s002679900048"
+      },
+      {
+        "key": "e_1_2_8_51_1",
+        "first-page": "197",
+        "volume-title": "Catchment dynamics and river processes",
+        "author": "Kondolf G. M.",
+        "year": "2005"
+      },
+      {
+        "key": "e_1_2_8_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biosci/biz040"
+      },
+      {
+        "key": "e_1_2_8_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/jmsc.1999.0457"
+      },
+      {
+        "key": "e_1_2_8_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tree.2003.10.002"
+      },
+      {
+        "key": "e_1_2_8_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2018.10.023"
+      },
+      {
+        "key": "e_1_2_8_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752\u20101688.2011.00537.x"
+      },
+      {
+        "key": "e_1_2_8_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1151915"
+      },
+      {
+        "key": "e_1_2_8_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/fwb.12037"
+      },
+      {
+        "key": "e_1_2_8_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s0022\u20101694(00)00150\u20105"
+      },
+      {
+        "key": "e_1_2_8_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1755\u2010263X.2010.00119.x"
+      },
+      {
+        "key": "e_1_2_8_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1365\u20102656.12212"
+      },
+      {
+        "key": "e_1_2_8_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597\u2010020\u20100362\u20105"
+      },
+      {
+        "key": "e_1_2_8_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.crte.2008.01.002"
+      },
+      {
+        "key": "e_1_2_8_64_1",
+        "unstructured": "Naman S.(2024).Mean\u2010daily discharge at trinity river above coffee creek trinity river at lewiston and Salmon river at somes bar and accretions between lewiston dam and confluence with north fork trinity river[Dataset].https://pubs.usgs.gov/sir/2015/5046/pdf/sir2015\u20105046.pdf"
+      },
+      {
+        "key": "e_1_2_8_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1641/0006\u20103568(2000)050[0783:AORECB]2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_8_66_1",
+        "article-title": "Biological opinions on the effects of proposed klamath project operations from May 31, 2013, through March 31, 2023, on five federally listed threatened and endangered species (Tech. Rep.)",
+        "author": "NMFSUSFWS",
+        "year": "2013",
+        "journal-title": "National Ocean and Atmospheric Administration and US Department of Interior"
+      },
+      {
+        "key": "e_1_2_8_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.1521"
+      },
+      {
+        "key": "e_1_2_8_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365\u20102427.2009.02179.x"
+      },
+      {
+        "key": "e_1_2_8_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/fwb.13064"
+      },
+      {
+        "key": "e_1_2_8_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42003\u2010021\u201002878\u20105"
+      },
+      {
+        "key": "e_1_2_8_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2020.124787"
+      },
+      {
+        "key": "e_1_2_8_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/fsh.10703"
+      },
+      {
+        "key": "e_1_2_8_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1365\u20102427.1996.00073.x"
+      },
+      {
+        "key": "e_1_2_8_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1313099"
+      },
+      {
+        "key": "e_1_2_8_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365\u20102427.2009.02204.x"
+      },
+      {
+        "key": "e_1_2_8_76_1",
+        "unstructured": "Program T. R. R.(2024).Historic annual discharge volume totals[Dataset].https://www.trrp.net/restoration/flows/summary/"
+      },
+      {
+        "key": "e_1_2_8_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/cjfas\u20102015\u20100267"
+      },
+      {
+        "key": "e_1_2_8_78_1",
+        "unstructured": "R Core Team. (2024).R: A language and environment for statistical computing[Computer software manual]. Retrieved fromhttps://www.R\u2010project.org/"
+      },
+      {
+        "key": "e_1_2_8_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10346\u2010020\u201001506\u20103"
+      },
+      {
+        "key": "e_1_2_8_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11269\u2010022\u201003235\u20109"
+      },
+      {
+        "key": "e_1_2_8_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eco.2247"
+      },
+      {
+        "key": "e_1_2_8_82_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fenvs.2021.769943"
+      },
+      {
+        "key": "e_1_2_8_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)WR.1943\u20105452.0001136"
+      },
+      {
+        "key": "e_1_2_8_84_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.7128"
+      },
+      {
+        "key": "e_1_2_8_85_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/B:CLIM.0000013702.22656.e8"
+      },
+      {
+        "key": "e_1_2_8_86_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0122380"
+      },
+      {
+        "key": "e_1_2_8_87_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gcb.14896"
+      },
+      {
+        "key": "e_1_2_8_88_1",
+        "unstructured": "Team C. E. F. F. T.(2025).Functional flows calculator web application[Software]. Retrieved fromhttps://flowcalculator.codefornature.org/"
+      },
+      {
+        "key": "e_1_2_8_89_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626667.2020.1839080"
+      },
+      {
+        "key": "e_1_2_8_90_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/fee.2348"
+      },
+      {
+        "key": "e_1_2_8_91_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2024.106069"
+      },
+      {
+        "key": "e_1_2_8_92_1",
+        "article-title": "Record of decision, trinity river mainstem fishery restoration final environmental impact statement/environmental impact report (Tech. Rep.)",
+        "author": "USDOI",
+        "year": "2000",
+        "journal-title": "US Department of Interior"
+      },
+      {
+        "key": "e_1_2_8_93_1",
+        "volume-title": "USGS water data for the Nation: U.S. Geological Survey National Water Information System database",
+        "author": "U.S. Geological Survey [USGS]",
+        "year": "2022"
+      },
+      {
+        "key": "e_1_2_8_94_1",
+        "volume-title": "Trinity river mainstem fishery restoration final environmental impact statement/environmental impact report [public draft and final] (Tech. Rep.)",
+        "author": "Usfws, USBOR",
+        "year": "2000"
+      },
+      {
+        "key": "e_1_2_8_95_1",
+        "article-title": "Trinity river flow evaluation final report (Tech. Rep.)",
+        "author": "USFWSHVT",
+        "year": "1999",
+        "journal-title": "US Fish and Wildlife Service and Hoopa Valley Tribe"
+      },
+      {
+        "key": "e_1_2_8_96_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s40693\u2010015\u20100043\u20105"
+      },
+      {
+        "key": "e_1_2_8_97_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rrr.3450110109"
+      },
+      {
+        "key": "e_1_2_8_98_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.2820"
+      },
+      {
+        "key": "e_1_2_8_99_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019ef001210"
+      },
+      {
+        "key": "e_1_2_8_100_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41558\u2010022\u201001290\u2010z"
+      },
+      {
+        "key": "e_1_2_8_101_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752\u20101688.12424"
+      },
+      {
+        "key": "e_1_2_8_102_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biosci/biv102"
+      },
+      {
+        "key": "e_1_2_8_103_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fenvs.2022.787216"
+      },
+      {
+        "key": "e_1_2_8_104_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2003WR001991"
+      },
+      {
+        "key": "e_1_2_8_105_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2021.125954"
+      },
+      {
+        "key": "e_1_2_8_106_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.1477"
+      },
+      {
+        "key": "e_1_2_8_107_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biosci/biac004"
+      },
+      {
+        "key": "e_1_2_8_108_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2017.07.001"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025WR041095",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/full-xml/10.1029/2025WR041095",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025WR041095",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          12
+        ]
+      ],
+      "date-time": "2026-06-12T09:23:26Z",
+      "timestamp": 1781256206000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025WR041095"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          30
+        ]
+      ]
+    },
+    "references-count": 107,
+    "journal-issue": {
+      "issue": "5",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            5
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2025WR041095"
+    ],
+    "URL": "https://doi.org/10.1029/2025wr041095",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          30
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2025-05-18",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2026-03-05",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2026-04-30",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2025WR041095"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2025WR041095",
+  "original_doi": "10.1029/2025WR041095"
+}

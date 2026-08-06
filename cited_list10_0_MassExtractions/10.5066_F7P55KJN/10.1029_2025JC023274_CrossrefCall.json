@@ -1,0 +1,1032 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          4
+        ]
+      ],
+      "date-time": "2026-05-04T03:46:21Z",
+      "timestamp": 1777866381602,
+      "version": "3.51.4"
+    },
+    "reference-count": 100,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              26
+            ]
+          ],
+          "date-time": "2026-02-26T00:00:00Z",
+          "timestamp": 1772064000000
+        },
+        "content-version": "am",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              26
+            ]
+          ],
+          "date-time": "2026-02-26T00:00:00Z",
+          "timestamp": 1772064000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              26
+            ]
+          ],
+          "date-time": "2026-02-26T00:00:00Z",
+          "timestamp": 1772064000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000104",
+        "name": "National Aeronautics and Space Administration",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "80NSSC22K0357"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "80NSSC22K0357"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000104",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000104",
+        "name": "National Aeronautics and Space Administration",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "80NSSC24K1040"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "80NSSC24K1040"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000104",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "G24AC00256\u201000"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "G24AC00256\u201000"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2418434"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2418434"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "JGR Oceans"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Hurricanes drive diverse estuarine phytoplankton responses and can trigger cascading ecological and physicochemical impacts. Capturing these short\u2010term dynamics requires high spatiotemporal resolution. Here, we applied a globally\u2010applicable coastal ocean color algorithm, Variational Autoencoder (VAE), to Sentinel\u20102 MSI imagery for chlorophyll\u2010\n                    <jats:italic>a</jats:italic>\n                    (Chl\u2010\n                    <jats:italic>a</jats:italic>\n                    ) estimation and validated its strong performance across the northern Gulf coast of America (GoA) estuaries, including Galveston Bay (TX), Barataria\u2010Terrebonne Estuary (LA), Apalachicola Estuary (FL) and Tampa Bay (FL). The test set showed strong performance (MAE: 1.44\u00a0mg\u00a0m\n                    <jats:sup>\u22123</jats:sup>\n                    ; RMSE: 17.7\u00a0mg\u00a0m\n                    <jats:sup>\u22123</jats:sup>\n                    ; slope: 0.86; median symmetric accuracy: 30.33%). The validated VAE was then applied to 76 Sentinel\u20102 MSI images to assess phytoplankton biomass responses to hurricanes Harvey (2017), Michael (2018), Ida (2021), Francine (2024), Helene (2024), and Milton (2024) in the GoA estuaries. Results showed that hurricane disturbances on Chl\u2010\n                    <jats:italic>a</jats:italic>\n                    typically lasted 3\u20135\u00a0weeks. Estuarine waters west (left) of hurricane tracks showed a rapid decline in Chl\u2010\n                    <jats:italic>a</jats:italic>\n                    (\u223c5\u00a0mg\u00a0m\n                    <jats:sup>\u22123</jats:sup>\n                    ) due to elevated turbidity from heavy rainfall, and wind\u2010driven flushing in the estuary, followed by a rebound over about two weeks, with Chl\u2010\n                    <jats:italic>a</jats:italic>\n                    increasing approximately 10\u201315\u00a0mg\u00a0m\n                    <jats:sup>\u22123</jats:sup>\n                    above pre\u2010storm levels. In contrast, right\u2010side waters showed a slower response, likely from oligotrophic seawater intrusion driven by the hurricane's counterclockwise rotation. Post\u2010storm observations showed increased freshwater phytoplankton like chlorophytes and cyanobacteria dominating estuaries, while shelf\u2010waters exhibited elevated dinoflagellates (e.g.,\u00a0\n                    <jats:italic>Karenia brevis</jats:italic>\n                    bloom after Hurricane Milton). These results highlight the spatial heterogeneity of hurricane impacts on estuarine phytoplankton dynamics, which may trigger cascading effects on biogeochemical cycling and food webs, potentially prolonging ecosystem recovery.\n                  </jats:p>",
+    "DOI": "10.1029/2025jc023274",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          8
+        ]
+      ],
+      "date-time": "2026-03-08T15:53:01Z",
+      "timestamp": 1772985181000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Short\u2010Term Estuarine Phytoplankton Dynamics in Response to Hurricanes Along the Gulf Coast of America: A Variational Autoencoder (VAE) Approach With Satellite and Bio\u2010Optical Observations"
+    ],
+    "prefix": "10.1029",
+    "volume": "131",
+    "author": [
+      {
+        "given": "J.",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Geosciences University of Louisiana at Lafayette  Lafayette LA USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0000-6493-322X",
+        "authenticated-orcid": false,
+        "given": "B.",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Geosciences University of Louisiana at Lafayette  Lafayette LA USA"
+          },
+          {
+            "name": "Department of Earth Ocean and Atmospheric Science Florida State University  Tallahassee FL USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Lou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer &amp; Information Sciences University of Delaware  Newark DE USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "X.",
+        "family": "Yuan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer &amp; Information Sciences University of Delaware  Newark DE USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5262-6094",
+        "authenticated-orcid": false,
+        "given": "E. J.",
+        "family": "D\u2019Sa",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Oceanography and Coastal Sciences Louisiana State University  Baton Rouge LA USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2467-2533",
+        "authenticated-orcid": false,
+        "given": "M. M.",
+        "family": "Baustian",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Wetland and Aquatic Research Center  Baton Rouge LA USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "M.",
+        "family": "La Peyre",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Louisiana Cooperative Fish and Wildlife Research Unit School of Renewable Natural Resources Louisiana State University Agricultural Center  Baton Rouge LA USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9747-8320",
+        "authenticated-orcid": false,
+        "given": "A.",
+        "family": "Freeman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Coastal Protection and Restoration Authority of Louisiana  Baton Rouge LA USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "V. S.",
+        "family": "Martins",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Agricultural and Biological Engineering Mississippi State University  Starkville MS USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8740-5339",
+        "authenticated-orcid": false,
+        "given": "E.",
+        "family": "Habib",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Geosciences University of Louisiana at Lafayette  Lafayette LA USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          26
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_9_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lno.10117"
+      },
+      {
+        "key": "e_1_2_9_3_1",
+        "volume-title": "Portfolio of measurement, processing, and analysis techniques for optical oceanography data [calibration and validation for Ocean color remote sensing training materials]",
+        "author": "Arellano A.",
+        "year": "2011"
+      },
+      {
+        "key": "e_1_2_9_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018JG004868"
+      },
+      {
+        "key": "e_1_2_9_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2003JC001938"
+      },
+      {
+        "key": "e_1_2_9_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2139/ssrn.5430239"
+      },
+      {
+        "key": "e_1_2_9_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.marchem.2006.06.012"
+      },
+      {
+        "key": "e_1_2_9_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lno.10090"
+      },
+      {
+        "key": "e_1_2_9_9_1",
+        "article-title": "Multiple stressors\u2013forces that combine to worsen deoxygenation and its effects",
+        "author": "Breitburg D. L.",
+        "year": "2019",
+        "journal-title": "Ocean Deoxygenation: Everyone\u2019s Problem. Causes, Impacts, Consequences and Solutions"
+      },
+      {
+        "key": "e_1_2_9_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10750\u2010017\u20103462\u20102"
+      },
+      {
+        "key": "e_1_2_9_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12237\u2010023\u201001255\u20101"
+      },
+      {
+        "key": "e_1_2_9_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3354/meps11107"
+      },
+      {
+        "key": "e_1_2_9_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016JC012092"
+      },
+      {
+        "key": "e_1_2_9_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.marchem.2006.12.007"
+      },
+      {
+        "key": "e_1_2_9_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fmars.2021.580516"
+      },
+      {
+        "key": "e_1_2_9_16_1",
+        "unstructured": "Corbosiero K. L. &Molinari J.(2003).The relationship between storm motion vertical wind shear and convective asymmetries in tropical cyclones.https://doi.org/10.1175/1520\u20100469(2003)060<0366:TRBSMV>2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_9_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3200/ENVT.49.7.8\u201021"
+      },
+      {
+        "key": "e_1_2_9_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0130931"
+      },
+      {
+        "key": "e_1_2_9_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018GL079954"
+      },
+      {
+        "key": "e_1_2_9_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fmars.2019.00523"
+      },
+      {
+        "key": "e_1_2_9_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2025.179801"
+      },
+      {
+        "key": "e_1_2_9_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1364/AO.45.007410"
+      },
+      {
+        "key": "e_1_2_9_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.earscirev.2023.104503"
+      },
+      {
+        "key": "e_1_2_9_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2018.10.403"
+      },
+      {
+        "key": "e_1_2_9_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2019.135364"
+      },
+      {
+        "key": "e_1_2_9_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.marchem.2007.09.001"
+      },
+      {
+        "key": "e_1_2_9_27_1",
+        "first-page": "255",
+        "volume-title": "A standard operating procedures manual for the coastwide reference monitoring system\u2013wetlands and the system\u2010wide assessment and monitoring Program: Methods for site establishment, data collection, and Quality Assurance/Quality control",
+        "author": "Folse T. M.",
+        "year": "2023"
+      },
+      {
+        "key": "e_1_2_9_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10750\u2010023\u201005206\u20106"
+      },
+      {
+        "key": "e_1_2_9_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12237\u2010018\u20100411\u2010x"
+      },
+      {
+        "key": "e_1_2_9_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1364/OE.18.024109"
+      },
+      {
+        "key": "e_1_2_9_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02798646"
+      },
+      {
+        "key": "e_1_2_9_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2025GL116580"
+      },
+      {
+        "key": "e_1_2_9_33_1",
+        "volume-title": "Monitoring plans for Louisiana\u2019s system\u2010wide assessment and monitoring program (SWAMP). Version IV",
+        "author": "Hemmerling S.",
+        "year": "2019"
+      },
+      {
+        "key": "e_1_2_9_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.marpolbul.2010.12.010"
+      },
+      {
+        "key": "e_1_2_9_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.1088"
+      },
+      {
+        "key": "e_1_2_9_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ocemod.2020.101735"
+      },
+      {
+        "key": "e_1_2_9_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fmars.2018.00241"
+      },
+      {
+        "key": "e_1_2_9_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/bg\u201015\u20104065\u20102018"
+      },
+      {
+        "key": "e_1_2_9_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2017.01.039"
+      },
+      {
+        "key": "e_1_2_9_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597\u2010023\u201002310\u2010z"
+      },
+      {
+        "key": "e_1_2_9_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017JC013583"
+      },
+      {
+        "key": "e_1_2_9_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597\u2010023\u201002069\u20103"
+      },
+      {
+        "key": "e_1_2_9_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-54571-4_8"
+      },
+      {
+        "key": "e_1_2_9_44_1",
+        "unstructured": "Lester J. Gonzalez L. A. Sage T. &Gallaway A.(2002).The state of the bay: A characterization of the Galveston Bay ecosystem. Galveston Bay Estuary Program.http://hdl.handle.net/1969.1/1581938"
+      },
+      {
+        "key": "e_1_2_9_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02732761"
+      },
+      {
+        "key": "e_1_2_9_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2010JC006566"
+      },
+      {
+        "key": "e_1_2_9_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2019.04.023"
+      },
+      {
+        "key": "e_1_2_9_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/bg\u201016\u20101975\u20102019"
+      },
+      {
+        "key": "e_1_2_9_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2020.112154"
+      },
+      {
+        "key": "e_1_2_9_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fmars.2023.1159367"
+      },
+      {
+        "key": "e_1_2_9_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21105/joss.07025"
+      },
+      {
+        "key": "e_1_2_9_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecolind.2020.107327"
+      },
+      {
+        "key": "e_1_2_9_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008JC004934"
+      },
+      {
+        "key": "e_1_2_9_54_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Livingston R. J. &Florida State University. National Coastal Ecosystems Team (U.S.) U.S. Fish and Wildlife Service and Florida Sea Grant College. (1984).The ecology of the Apalachicola Bay system: An estuarine profile. The Service.https://doi.org/10.5962/bhl.title.4039",
+        "DOI": "10.5962/bhl.title.4039"
+      },
+      {
+        "key": "e_1_2_9_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TGRS.2025.3566417"
+      },
+      {
+        "key": "e_1_2_9_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1352404"
+      },
+      {
+        "key": "e_1_2_9_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02798667"
+      },
+      {
+        "key": "e_1_2_9_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467\u2010019\u201011755\u2010z"
+      },
+      {
+        "key": "e_1_2_9_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10236\u2010018\u20101203\u20103"
+      },
+      {
+        "key": "e_1_2_9_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12237\u2010024\u201001387\u2010y"
+      },
+      {
+        "key": "e_1_2_9_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12237\u2010008\u20109085\u20100"
+      },
+      {
+        "key": "e_1_2_9_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.apgeochem.2015.05.004"
+      },
+      {
+        "key": "e_1_2_9_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2023.166291"
+      },
+      {
+        "key": "e_1_2_9_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2023.113706"
+      },
+      {
+        "key": "e_1_2_9_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2021.112693"
+      },
+      {
+        "key": "e_1_2_9_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.101097398"
+      },
+      {
+        "key": "e_1_2_9_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10533\u2010018\u20100438\u2010x"
+      },
+      {
+        "key": "e_1_2_9_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12237\u2010009\u20109137\u20100"
+      },
+      {
+        "key": "e_1_2_9_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4319/lo.2006.51.1_part_2.0448"
+      },
+      {
+        "key": "e_1_2_9_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2020.112200"
+      },
+      {
+        "key": "e_1_2_9_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2019.111604"
+      },
+      {
+        "key": "e_1_2_9_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02803635"
+      },
+      {
+        "key": "e_1_2_9_73_1",
+        "volume-title": "The USC HPLC method\u2014Technical description",
+        "author": "Pinckney J.",
+        "year": "2010"
+      },
+      {
+        "key": "e_1_2_9_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10236\u2010021\u201001471\u2010y"
+      },
+      {
+        "key": "e_1_2_9_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12237\u2010024\u201001352\u20109"
+      },
+      {
+        "key": "e_1_2_9_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015JC011181"
+      },
+      {
+        "key": "e_1_2_9_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/plankt/fbac048"
+      },
+      {
+        "key": "e_1_2_9_78_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3354/meps"
+      },
+      {
+        "key": "e_1_2_9_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3354/meps"
+      },
+      {
+        "key": "e_1_2_9_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511732263"
+      },
+      {
+        "key": "e_1_2_9_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2007GL029724"
+      },
+      {
+        "key": "e_1_2_9_82_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fmars.2020.00186"
+      },
+      {
+        "key": "e_1_2_9_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12237\u2010022\u201001131\u20104"
+      },
+      {
+        "key": "e_1_2_9_84_1",
+        "article-title": "Unravelling the ecological disparities observed after the hurricanes Milton and Helene in Florida employing remote sensing and geospatial techniques. Rakibul and Limon, Zamil Ahamed and Sarkar, Bristi and Fariha, Jannatun Nahar and Jodder, Pankaj Kanti and Rahaman, Khan Rubayet",
+        "author": "Tanvir Miah M.",
+        "year": "2025",
+        "journal-title": "Unravelling the Ecological Disparities Observed after the Hurricanes Milton and Helene in Florida Employing Remote Sensing and Geospatial Techniques"
+      },
+      {
+        "key": "e_1_2_9_85_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/plankt/fbac062"
+      },
+      {
+        "key": "e_1_2_9_86_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM\u2010D\u201023\u20100094.1"
+      },
+      {
+        "key": "e_1_2_9_87_1",
+        "unstructured": "Turner R. E.(2017).Water quality data from the Barataria Basin 1994\u20132016. Distributed by: Gulf of Mexico Research Initiative Information and Data Cooperative (GRIIDC).https://doi.org/10.7266/N7736NZ9"
+      },
+      {
+        "key": "e_1_2_9_88_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10750\u2010019\u20103918\u20107"
+      },
+      {
+        "key": "e_1_2_9_89_1",
+        "unstructured": "U.S. Geological Survey. (2024).USGS water data for the Nation: U.S. Geological Survey national water information System database.https://doi.org/10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_9_90_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2020.141272"
+      },
+      {
+        "key": "e_1_2_9_91_1",
+        "unstructured": "Vanhellmont Q. &Ruddick K.(2016).Acolite for Sentinel\u20102: Aquatic applications of MSI imagery(Vol.740 p.55). Retrieved fromhttps://ui.adsabs.harvard.edu/abs/2016ESASP.740E..55V"
+      },
+      {
+        "key": "e_1_2_9_92_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12237\u2010020\u201000846\u20106"
+      },
+      {
+        "key": "e_1_2_9_93_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2112/JCOASTRES\u2010D\u201024\u201000003.1"
+      },
+      {
+        "key": "e_1_2_9_94_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2005JC003067"
+      },
+      {
+        "key": "e_1_2_9_95_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-70882-4_7"
+      },
+      {
+        "key": "e_1_2_9_96_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12237\u2010008\u20109034\u2010y"
+      },
+      {
+        "key": "e_1_2_9_97_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/plankt/fbn020"
+      },
+      {
+        "key": "e_1_2_9_98_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jenvman.2006.11.012"
+      },
+      {
+        "key": "e_1_2_9_99_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs11020184"
+      },
+      {
+        "key": "e_1_2_9_100_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs14112598"
+      },
+      {
+        "key": "e_1_2_9_101_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhu Y.\u2010J. Collins J. M. Klotzbach P. J. &Schreck C. J.(2022).Hurricane Ida (2021): Rapid intensification followed by slow inland decay.https://doi.org/10.1175/BAMS\u2010D\u201021\u20100240.1",
+        "DOI": "10.1175/BAMS-D-21-0240.1"
+      }
+    ],
+    "container-title": [
+      "Journal of Geophysical Research: Oceans"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JC023274",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/full-xml/10.1029/2025JC023274",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JC023274",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JC023274",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          30
+        ]
+      ],
+      "date-time": "2026-04-30T08:35:47Z",
+      "timestamp": 1777538147000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025JC023274"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          26
+        ]
+      ]
+    },
+    "references-count": 100,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2025JC023274"
+    ],
+    "URL": "https://doi.org/10.1029/2025jc023274",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "2169-9275",
+      "2169-9291"
+    ],
+    "issn-type": [
+      {
+        "value": "2169-9275",
+        "type": "print"
+      },
+      {
+        "value": "2169-9291",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          26
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2025-08-08",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2026-02-05",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2026-02-26",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2025JC023274"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2025JC023274",
+  "original_doi": "10.1029/2025JC023274"
+}

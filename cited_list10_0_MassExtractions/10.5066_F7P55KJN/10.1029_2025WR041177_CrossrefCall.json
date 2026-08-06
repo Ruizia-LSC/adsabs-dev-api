@@ -1,0 +1,520 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          12
+        ]
+      ],
+      "date-time": "2026-06-12T10:01:56Z",
+      "timestamp": 1781258516329,
+      "version": "3.54.1"
+    },
+    "reference-count": 47,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              30
+            ]
+          ],
+          "date-time": "2026-04-30T00:00:00Z",
+          "timestamp": 1777507200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              30
+            ]
+          ],
+          "date-time": "2026-04-30T00:00:00Z",
+          "timestamp": 1777507200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Many hydrologic applications require basic information on the size and shape of river channels, but measuring cross section (XS) geometry in the field or via remote sensing can be costly and often provides only partial coverage. Given these challenges, we capitalized upon an existing data set of 46,971 XS from gaging stations to evaluate various approximations of channel shape. After screening and pre\u2010processing these data, we fit four model types to each XS, including a new approach that involves Stacking PDFs (probability density functions) to Approximate River Channel Shapes (SPARCS). This framework produced depth estimates that closely matched field measurements, with typical cross\u2010sectional area errors % and a median  of 0.77 for comparison of observed and predicted depths. SPARCS model parameters can be interpreted in terms of channel characteristics: mean depth, asymmetry, bar convexity, and flatness of the bed. The model performed well for the XS included in the database, which was biased toward straight, uniform channels conducive to operational streamflow measurement. Neither model parameters nor accuracy were dependent on discharge. We also assessed the potential of SPARCS to fill in measurement gaps and found that although the model can help, the accuracy of inferred depths decreased as the observable fraction of the channel decreased. An important limitation of SPARCS is that mid\u2010channel bars or multi\u2010threaded morphologies cannot be produced. Graphical tools can help visualize how model parameters affect simulated river forms. SPARCS could facilitate satellite\u2010based discharge estimation by providing prior information on channel shape.</jats:p>",
+    "DOI": "10.1029/2025wr041177",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          30
+        ]
+      ],
+      "date-time": "2026-04-30T16:41:52Z",
+      "timestamp": 1777567312000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Evaluating Approximations of River Channel Shape Using a National Cross\u2010Section Database"
+    ],
+    "prefix": "10.1029",
+    "volume": "62",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0940-8013",
+        "authenticated-orcid": false,
+        "given": "C. J.",
+        "family": "Legleiter",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Observing Systems Division U.S. Geological Survey  Denver CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P. J.",
+        "family": "Kinzel",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Observing Systems Division U.S. Geological Survey  Denver CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          30
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_10_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR030054"
+      },
+      {
+        "key": "e_1_2_10_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2024GL114185"
+      },
+      {
+        "key": "e_1_2_10_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626667.2022.2053129"
+      },
+      {
+        "key": "e_1_2_10_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2022.128789"
+      },
+      {
+        "key": "e_1_2_10_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019wr025986"
+      },
+      {
+        "key": "e_1_2_10_7_1",
+        "article-title": "A CONUS\u2010scale synthetic river bathymetry generation workflow",
+        "volume": "2024",
+        "author": "Chegini T.",
+        "year": "2024",
+        "journal-title": "AGU Fall Meeting Abstracts"
+      },
+      {
+        "key": "e_1_2_10_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/fs20193024"
+      },
+      {
+        "key": "e_1_2_10_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/bf02066005"
+      },
+      {
+        "key": "e_1_2_10_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2019.05.085"
+      },
+      {
+        "key": "e_1_2_10_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR029521"
+      },
+      {
+        "key": "e_1_2_10_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2006.09.021"
+      },
+      {
+        "key": "e_1_2_10_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR031614"
+      },
+      {
+        "key": "e_1_2_10_14_1",
+        "first-page": "2018",
+        "volume-title": "Monitoring the pulse of our nation\u2019s rivers and streams \u2014 The U.S. Geological survey streamgaging network",
+        "author": "Eberts S.",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_10_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023WR034583"
+      },
+      {
+        "key": "e_1_2_10_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2023.129769"
+      },
+      {
+        "key": "e_1_2_10_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR028519"
+      },
+      {
+        "key": "e_1_2_10_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs12071107"
+      },
+      {
+        "key": "e_1_2_10_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.geomorph.2025.109737"
+      },
+      {
+        "key": "e_1_2_10_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017WR021765"
+      },
+      {
+        "key": "e_1_2_10_21_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hochberg Y. &Tamhane A.(1987).Multiple comparison procedures.",
+        "DOI": "10.1002/9780470316672"
+      },
+      {
+        "key": "e_1_2_10_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1403192"
+      },
+      {
+        "key": "e_1_2_10_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.1952.10483441"
+      },
+      {
+        "key": "e_1_2_10_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023WR036875"
+      },
+      {
+        "key": "e_1_2_10_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/S1052623496303470"
+      },
+      {
+        "key": "e_1_2_10_26_1",
+        "volume-title": "STACS (ver. 1.0.0, June, 2025)",
+        "author": "Legleiter C.",
+        "year": "2025"
+      },
+      {
+        "key": "e_1_2_10_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR023586"
+      },
+      {
+        "key": "e_1_2_10_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11004\u2010006\u20109056\u20106"
+      },
+      {
+        "key": "e_1_2_10_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.1579"
+      },
+      {
+        "key": "e_1_2_10_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.3794"
+      },
+      {
+        "key": "e_1_2_10_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.1787"
+      },
+      {
+        "key": "e_1_2_10_32_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Leopold L. B. &Maddock T.(1953).The hydraulic geometry of stream channels and some physiographic implications(Vol.252).",
+        "DOI": "10.3133/pp252"
+      },
+      {
+        "key": "e_1_2_10_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.2094"
+      },
+      {
+        "key": "e_1_2_10_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wrcr.20176"
+      },
+      {
+        "key": "e_1_2_10_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2008.03.005"
+      },
+      {
+        "key": "e_1_2_10_36_1",
+        "volume-title": "Geospatial description of river channels in three dimensions",
+        "author": "Merwade V.",
+        "year": "2004"
+      },
+      {
+        "key": "e_1_2_10_37_1",
+        "volume-title": "User's guide for the national hydrography dataset plus (NHDPlus) high resolution",
+        "author": "Moore R. B.",
+        "year": "2019"
+      },
+      {
+        "key": "e_1_2_10_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2015.07.026"
+      },
+      {
+        "key": "e_1_2_10_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs17061020"
+      },
+      {
+        "key": "e_1_2_10_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR024938"
+      },
+      {
+        "key": "e_1_2_10_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)0733\u20109429(2004)130:3(227)"
+      },
+      {
+        "key": "e_1_2_10_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12665\u2010025\u201012151\u20101"
+      },
+      {
+        "key": "e_1_2_10_43_1",
+        "unstructured": "The MathWorks Inc. (2025).MATLAB R2024b. Retrieved fromhttps://www.mathworks.com/products/matlab.html"
+      },
+      {
+        "key": "e_1_2_10_44_1",
+        "volume-title": "Discharge measurements at gaging stations",
+        "author": "Turnipseed D.",
+        "year": "2010"
+      },
+      {
+        "key": "e_1_2_10_45_1",
+        "unstructured": "USGS. (2025).StreamStats. Retrieved fromhttps://www.usgs.gov/streamstats"
+      },
+      {
+        "key": "e_1_2_10_46_1",
+        "volume-title": "USGS water data for the nation",
+        "author": "USGS",
+        "year": "2025"
+      },
+      {
+        "key": "e_1_2_10_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5066/P13M8NZ5"
+      },
+      {
+        "key": "e_1_2_10_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2024WR037997"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025WR041177",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/full-xml/10.1029/2025WR041177",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025WR041177",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          12
+        ]
+      ],
+      "date-time": "2026-06-12T09:24:12Z",
+      "timestamp": 1781256252000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025WR041177"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          30
+        ]
+      ]
+    },
+    "references-count": 47,
+    "journal-issue": {
+      "issue": "5",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            5
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2025WR041177"
+    ],
+    "URL": "https://doi.org/10.1029/2025wr041177",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          30
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2025-05-30",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2026-04-22",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2026-04-30",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2025WR041177"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2025WR041177",
+  "original_doi": "10.1029/2025WR041177"
+}

@@ -1,0 +1,675 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          15
+        ]
+      ],
+      "date-time": "2026-06-15T15:18:50Z",
+      "timestamp": 1781536730036,
+      "version": "3.54.5"
+    },
+    "reference-count": 57,
+    "publisher": "Wiley",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              12,
+              27
+            ]
+          ],
+          "date-time": "2022-12-27T00:00:00Z",
+          "timestamp": 1672099200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "J American Water Resour Assoc"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          4
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Deep learning (DL) models are increasingly used to make accurate hindcasts of management\u2010relevant variables, but they are less commonly used in forecasting applications. Data assimilation (DA) can be used for forecasts to leverage real\u2010time observations, where the difference between model predictions and observations today is used to adjust the model to make better predictions tomorrow. In this use case, we developed a process\u2010guided DL and DA approach to make 7\u2010day probabilistic forecasts of daily maximum water temperature in the Delaware River Basin in support of water management decisions. Our modeling system produced forecasts of daily maximum water temperature with an average root mean squared error (RMSE) from 1.1 to 1.4\u00b0C for 1\u2010day\u2010ahead and 1.4 to 1.9\u00b0C for 7\u2010day\u2010ahead forecasts across all sites. The DA algorithm marginally improved forecast performance when compared with forecasts produced using the process\u2010guided DL model alone (0%\u201314% lower RMSE with the DA algorithm). Across all sites and lead times, 65%\u201382% of observations were within 90% forecast confidence intervals, which allowed managers to anticipate probability of exceedances of ecologically relevant thresholds and aid in decisions about releasing reservoir water downstream. The flexibility of DL models shows promise for forecasting other important environmental variables and aid in decision\u2010making.</jats:p>",
+    "DOI": "10.1111/1752-1688.13093",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          28
+        ]
+      ],
+      "date-time": "2022-12-28T07:57:47Z",
+      "timestamp": 1672214267000
+    },
+    "page": "317-337",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 20,
+    "title": [
+      "Near\u2010term forecasts of stream temperature using deep learning and data assimilation in support of management decisions"
+    ],
+    "prefix": "10.1111",
+    "volume": "59",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3870-405X",
+        "authenticated-orcid": false,
+        "given": "Jacob A.",
+        "family": "Zwart",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Water Mission Area U.S. Geological Survey  Pittsburgh Pennsylvania USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5668-1165",
+        "authenticated-orcid": false,
+        "given": "Samantha K.",
+        "family": "Oliver",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Water Mission Area U.S. Geological Survey  Madison Wisconsin USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7544-0700",
+        "authenticated-orcid": false,
+        "given": "William David",
+        "family": "Watkins",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Water Mission Area U.S. Geological Survey  Davis California USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8776-4844",
+        "authenticated-orcid": false,
+        "given": "Jeffrey M.",
+        "family": "Sadler",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Water Mission Area U.S. Geological Survey  Pittsburgh Pennsylvania USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3638-8572",
+        "authenticated-orcid": false,
+        "given": "Alison P.",
+        "family": "Appling",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Water Mission Area U.S. Geological Survey  State College Pennsylvania USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8695-1584",
+        "authenticated-orcid": false,
+        "given": "Hayley R.",
+        "family": "Corson\u2010Dosch",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Water Mission Area U.S. Geological Survey  Madison Wisconsin USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8544-5233",
+        "authenticated-orcid": false,
+        "given": "Xiaowei",
+        "family": "Jia",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science University of Pittsburgh  Pittsburgh Pennsylvania USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Vipin",
+        "family": "Kumar",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering University of Minnesota  Minneapolis Minnesota USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3888-6631",
+        "authenticated-orcid": false,
+        "given": "Jordan S.",
+        "family": "Read",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Water Mission Area U.S. Geological Survey  Madison Wisconsin USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          27
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_10_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/joc.3413"
+      },
+      {
+        "key": "e_1_2_10_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jenvman.2019.110023"
+      },
+      {
+        "key": "e_1_2_10_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2009.00327.x"
+      },
+      {
+        "key": "e_1_2_10_5_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bradford J.B. J.Weltzin M.L.Mccormick J.Baron Z.Bowen S.Bristol D.Carlisle et al.2020. \u201cEcological Forecasting\u201421st Century Science for 21st Century Management.\u201d U.S. Geological Survey Open File Report 2020\u20101073.",
+        "DOI": "10.3133/ofr20201073"
+      },
+      {
+        "key": "e_1_2_10_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jocs.2020.101171"
+      },
+      {
+        "key": "e_1_2_10_7_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen S. A.Appling S.Oliver H.Corson\u2010Dosch J.Read J.Sadler J.Zwart andX.Jia 2021. \u201cHeterogeneous Stream\u2010Reservoir Graph Networks with Data Assimilation.\u201d 2021 IEEE International Conference on Data Mining (ICDM). IEEE 1024\u201329.",
+        "DOI": "10.1109/ICDM51629.2021.00117"
+      },
+      {
+        "key": "e_1_2_10_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.293.5530.657"
+      },
+      {
+        "key": "e_1_2_10_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eap.1589"
+      },
+      {
+        "key": "e_1_2_10_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1710231115"
+      },
+      {
+        "key": "e_1_2_10_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/pce.12043"
+      },
+      {
+        "key": "e_1_2_10_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/94JC00572"
+      },
+      {
+        "key": "e_1_2_10_13_1",
+        "unstructured": "Falgout J.T. J.Gordon M.J.Davis B.Williams andUSGS Advanced Research Computing.2019. \u201cUSGS Tallgrass Supercomputer.\u201dhttps://doi.org/10.5066/P9XE7ROJ."
+      },
+      {
+        "key": "e_1_2_10_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM-D-19-0169.1"
+      },
+      {
+        "key": "e_1_2_10_15_1",
+        "unstructured": "Gal Y. andZ.Ghahramani.2016. \u201cDropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning.\u201d International Conference on Machine Learning. PMLR 1050\u201359."
+      },
+      {
+        "key": "e_1_2_10_16_1",
+        "unstructured": "U.S. Geological Survey.2021. \u201cUSGS Water Data for the Nation.\u201dhttps://doi.org/10.5066/F7P55KJN."
+      },
+      {
+        "key": "e_1_2_10_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nclimate3088"
+      },
+      {
+        "key": "e_1_2_10_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752-1688.12784"
+      },
+      {
+        "key": "e_1_2_10_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/gmd-12-473-2019"
+      },
+      {
+        "key": "e_1_2_10_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1936-704X.2014.03175.x"
+      },
+      {
+        "key": "e_1_2_10_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1014415503476"
+      },
+      {
+        "key": "e_1_2_10_22_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jia X. J.Zwart J.Sadler A.Appling S.Oliver S.Markstrom J.Willard et al.2021. \u201cPhysics\u2010Guided Recurrent Graph Model for Predicting Flow and Temperature in River Networks.\u201d Proceedings of the 2021 SIAM International Conference on Data Mining (SDM). SIAM 612\u201320.",
+        "DOI": "10.1137/1.9781611976700.69"
+      },
+      {
+        "key": "e_1_2_10_23_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Klotz D. F.Kratzert M.Gauch A.Keefe Sampson J.Brandstetter G.Klambauer S.Hochreiter andG.Nearing.2021. \u201cUncertainty Estimation with Deep Learning for Rainfall\u2013Runoff Modelling.\u201d Preprint Catchment Hydrology/Modelling Approaches.https://doi.org/10.5194/hess\u20102021\u2010154.",
+        "DOI": "10.5194/hess-2021-154"
+      },
+      {
+        "key": "e_1_2_10_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-28954-6_19"
+      },
+      {
+        "key": "e_1_2_10_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-22-6005-2018"
+      },
+      {
+        "key": "e_1_2_10_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-23-5089-2019"
+      },
+      {
+        "key": "e_1_2_10_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/ijerph15071322"
+      },
+      {
+        "key": "e_1_2_10_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-26-3079-2022"
+      },
+      {
+        "key": "e_1_2_10_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eap.2500"
+      },
+      {
+        "key": "e_1_2_10_30_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Markstrom S.L.2012. \u201cP2S\u2013Coupled Simulation with the Precipitation\u2010Runoff Modeling System (PRMS) and the Stream Temperature Network (SNTemp) Models.\u201d U.S. Geological Survey Open\u2010File Report 2012\u20101116.",
+        "DOI": "10.3133/ofr20121116"
+      },
+      {
+        "key": "e_1_2_10_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/ele.12876"
+      },
+      {
+        "key": "e_1_2_10_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2166/wst.1996.0592"
+      },
+      {
+        "key": "e_1_2_10_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2017WR020991"
+      },
+      {
+        "key": "e_1_2_10_34_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nearing G.S. D.Klotz A.K.Sampson F.Kratzert M.Gauch J.M.Frame G.Shalev andS.Nevo.2021. \u201cTechnical Note: Data Assimilation and Autoregression for Using Near\u2010Real\u2010Time Streamflow Observations in Long Short\u2010Term Memory Networks.\u201d Preprint Catchment hydrology/Modelling Approaches.https://doi.org/10.5194/hess\u20102021\u2010515.",
+        "DOI": "10.5194/hess-2021-515"
+      },
+      {
+        "key": "e_1_2_10_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-26-4013-2022"
+      },
+      {
+        "key": "e_1_2_10_36_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nystrom E.A.2018. \u201cBathymetry of Ashokan Cannonsville Neversink Pepacton Rondout and Schoharie Reservoirs New York 2013\u201315.\u201d U.S. Geological Survey Scientific Investigations Report 2017\u20105064.",
+        "DOI": "10.3133/sir20175064"
+      },
+      {
+        "key": "e_1_2_10_37_1",
+        "unstructured": "Oliver S.K. J.A.Zwart A.Appling R.A.Atshan W.D.Watkins J.M.Sadler H.R.Corson\u2010Dosch andJ.S.Read.2021. \u201cPredicting Water Temperature in the Delaware River Basin.\u201d U.S. Geological Survey Data Release.https://doi.org/10.5066/P9GD8I7A."
+      },
+      {
+        "key": "e_1_2_10_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748\u20109326/abd501"
+      },
+      {
+        "key": "e_1_2_10_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1215/21573689-1597669"
+      },
+      {
+        "key": "e_1_2_10_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016WR019993"
+      },
+      {
+        "key": "e_1_2_10_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR024922"
+      },
+      {
+        "key": "e_1_2_10_42_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Regan R.S. S.L.Markstrom L.E.Hay R.J.Viger P.A.Norton J.M.Driscoll andJ.H.LaFontaine.2018. \u201cDescription of the National Hydrologic Model for Use with the Precipitation\u2010Runoff Modeling System (PRMS).\u201d U.S. Geological Survey Techniques and Methods 6\u2010B9.",
+        "DOI": "10.3133/tm6B9"
+      },
+      {
+        "key": "e_1_2_10_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2008.01.001"
+      },
+      {
+        "key": "e_1_2_10_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/323533a0"
+      },
+      {
+        "key": "e_1_2_10_45_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sanders M.J. S.L.Markstrom R.S.Regan andR.D.Atkinson.2017. \u201cDocumentation of a Daily Mean Stream Temperature Module\u2014An Enhancement to the Precipitation\u2010Runoff Modeling System.\u201d U.S. Geological Survey Techniques and Methods 6\u2010D4.",
+        "DOI": "10.3133/tm6D4"
+      },
+      {
+        "key": "e_1_2_10_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR022643"
+      },
+      {
+        "key": "e_1_2_10_47_1",
+        "unstructured": "TensorFlow Developers.2021. \u201cTensorFlow.\u201dhttps://doi.org/10.5281/ZENODO.4758419."
+      },
+      {
+        "key": "e_1_2_10_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR026138"
+      },
+      {
+        "key": "e_1_2_10_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-24-1275-2020"
+      },
+      {
+        "key": "e_1_2_10_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/asr-13-51-2016"
+      },
+      {
+        "key": "e_1_2_10_51_1",
+        "unstructured": "Viger R.J.2014. \u201cPreliminary Spatial Parameters for PRMS Based on the Geospatial Fabric NLCD2001 and SSURGO.\u201dhttps://doi.org/10.5066/F7WM1BF7."
+      },
+      {
+        "key": "e_1_2_10_52_1",
+        "unstructured": "Viger R.J. andA.Bock.2014. \u201cGIS Features of the Geospatial Fabric for National Hydrologic Modeling.\u201dhttps://doi.org/10.5066/F7542KMD."
+      },
+      {
+        "key": "e_1_2_10_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.289.5477.284"
+      },
+      {
+        "key": "e_1_2_10_54_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Williamson T.N. andJ.G.Lant.2015. \u201cUser Manuals for the Delaware River Basin Water Availability Tool for Environmental Resources (DRB\u2013WATER) and Associated WATER Application Utilities.\u201d U.S. Geological Survey Scientific Investigations Report 2015\u20105143.",
+        "DOI": "10.3133/ofr20151196"
+      },
+      {
+        "key": "e_1_2_10_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2020.104761"
+      },
+      {
+        "key": "e_1_2_10_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rstb.2010.0038"
+      },
+      {
+        "key": "e_1_2_10_57_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zwart J.A. S.K.Oliver andW.D.Watkins.2022a. \u201cData to Support Near\u2010Term Forecasts of Stream Temperature Using Process\u2010Guided Deep Learning and Data Assimilation.\u201d U.S. Geological Survey Data Release.https://doi.org/10.5066/P96R34A7.",
+        "DOI": "10.31223/X55K7G"
+      },
+      {
+        "key": "e_1_2_10_58_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zwart J.A. S.K.Oliver W.D.Watkins J.Sadler A.P.Appling H.Corson\u2010Dosch X.Jia VipinKumar andJ.S.Read.2022b. \u201cSource Code: Near\u2010Term Forecasts of Stream Temperature Using Process\u2010Guided Deep Learning and Data Assimilation(1.1.0).\u201dhttps://doi.org/10.5281/zenodo.7382575.",
+        "DOI": "10.31223/X55K7G"
+      }
+    ],
+    "container-title": [
+      "JAWRA Journal of the American Water Resources Association"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/1752-1688.13093",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/1752-1688.13093",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/1752-1688.13093",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          21
+        ]
+      ],
+      "date-time": "2023-08-21T19:42:13Z",
+      "timestamp": 1692646933000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1111/1752-1688.13093"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          27
+        ]
+      ]
+    },
+    "references-count": 57,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            4
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/1752-1688.13093"
+    ],
+    "URL": "https://doi.org/10.1111/1752-1688.13093",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "1093-474X",
+      "1752-1688"
+    ],
+    "issn-type": [
+      {
+        "value": "1093-474X",
+        "type": "print"
+      },
+      {
+        "value": "1752-1688",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          27
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2022-01-14",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2022-11-22",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2022-12-27",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.1111/1752-1688.13093",
+  "original_doi": "10.1111/1752-1688.13093"
+}

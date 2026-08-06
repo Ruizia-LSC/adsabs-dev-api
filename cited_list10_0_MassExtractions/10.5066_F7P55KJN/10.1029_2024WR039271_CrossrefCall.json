@@ -1,0 +1,630 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          12
+        ]
+      ],
+      "date-time": "2026-01-12T22:00:31Z",
+      "timestamp": 1768255231782,
+      "version": "3.49.0"
+    },
+    "reference-count": 45,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "6",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              19
+            ]
+          ],
+          "date-time": "2025-06-19T00:00:00Z",
+          "timestamp": 1750291200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 18,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Public supply water withdrawals represent 14% of all withdrawals in the conterminous United States (CONUS), supplying approximately 87% of the population with fresh water. Deliveries for public water supply are crucial for associating water use amounts with populations because they often differ from total withdrawals due to wholesales, transfers, losses, and other factors. Understanding these differences helps identify the drivers for each type of delivery. The goal of this study was to compile all available public water supply delivery data for the CONUS and develop a data\u2010driven model to estimate deliveries for all water service areas within the CONUS. Annual deliveries were estimated between 2010 and 2020, encompassing total water deliveries; combined commercial, industrial, and institutional deliveries (CII); and domestic deliveries. Data were compiled for 2,744 water service areas to produce the most comprehensive public water supply delivery data set for the CONUS to date. Three ensemble modeling approaches were developed to estimate total, CII, and domestic per capita (DPC) deliveries using a gradient boosted regression tree modeling approach. Estimates of daily domestic and CII per capita deliveries were generated from these models for approximately 18,800 water service areas, covering most public water systems in the CONUS. Domestic delivery was found to be lowest in the midwestern region and higher in the southern and southwest regions of the United States. Results indicate that climate and land use can be associated with regional differences in DPC delivery. Population metrics and land use were identified as significant contributors to CII delivery estimates.</jats:p>",
+    "DOI": "10.1029/2024wr039271",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          19
+        ]
+      ],
+      "date-time": "2025-06-19T05:35:59Z",
+      "timestamp": 1750311359000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Public Supply Water Delivery Analysis and Estimation for the Conterminous United States"
+    ],
+    "prefix": "10.1029",
+    "volume": "61",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1218-800X",
+        "authenticated-orcid": false,
+        "given": "Joshua D.",
+        "family": "Larsen",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey California Water Science Center  Sacramento CA USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7576-3449",
+        "authenticated-orcid": false,
+        "given": "Ayman H.",
+        "family": "Alzraiee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey California Water Science Center  Sacramento CA USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Richard G.",
+        "family": "Niswonger",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "GSI Environmental  Irvine CA USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8541-133X",
+        "authenticated-orcid": false,
+        "given": "Donald J.",
+        "family": "Martin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey California Water Science Center  San Diego CA USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8968-5023",
+        "authenticated-orcid": false,
+        "given": "Cheryl A.",
+        "family": "Buchwald",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Upper Midwest Water Science Center  Madison WI USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5786-4091",
+        "authenticated-orcid": false,
+        "given": "Cheryl",
+        "family": "Dieter",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Maryland\u2010Delaware\u2010D.C. Water Science Center  Cantonsville MD USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Carol",
+        "family": "Luukkonen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Upper Midwest Water Science Center  Lansing MI USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jana S.",
+        "family": "Stewart",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Upper Midwest Water Science Center  Madison WI USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Scott",
+        "family": "Paulinski",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey California Water Science Center  San Diego CA USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Lisa",
+        "family": "Miller",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Colorado Water Science Center  Pueblo CO USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6071-4545",
+        "authenticated-orcid": false,
+        "given": "Natalie A.",
+        "family": "Houston",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Oklahoma\u2010Texas Water Science Center  Austin TX USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          19
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_9_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/joc.3413"
+      },
+      {
+        "key": "e_1_2_9_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/00472875211051418"
+      },
+      {
+        "key": "e_1_2_9_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023WR036632"
+      },
+      {
+        "key": "e_1_2_9_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2014GL059570"
+      },
+      {
+        "key": "e_1_2_9_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.landurbplan.2021.104178"
+      },
+      {
+        "key": "e_1_2_9_7_1",
+        "volume-title": "Misconceptions about U.S. Water infrastructure",
+        "author": "Bonawandt C.",
+        "year": "2022"
+      },
+      {
+        "key": "e_1_2_9_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752\u20101688.13210B"
+      },
+      {
+        "key": "e_1_2_9_9_1",
+        "volume-title": "Public\u2010supply water service areas within the conterminous United States, 2017",
+        "author": "Buchwald C. A.",
+        "year": "2022"
+      },
+      {
+        "key": "e_1_2_9_10_1",
+        "unstructured": "California State Water Resources Control Board. (2022).Urban water supplier monitoring reports. Retrieved fromhttps://data.ca.gov/dataset/drinking\u2010water\u2010public\u2010water\u2010system\u2010operations\u2010monthly\u2010water\u2010production\u2010and\u2010conservation\u2010information"
+      },
+      {
+        "key": "e_1_2_9_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "key": "e_1_2_9_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/24709360.2017.1396742"
+      },
+      {
+        "key": "e_1_2_9_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR028627"
+      },
+      {
+        "key": "e_1_2_9_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5942/jawwa.2012.104.0080"
+      },
+      {
+        "key": "e_1_2_9_15_1",
+        "volume-title": "Residential uses of water, version 2, executive report",
+        "author": "DeOreo W. B.",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_9_16_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dieter C. A. Maupin M. A. Caldwell R. R. Harris M. A. Ivahnenko T. I. Lovelace J. K. et\u00a0al. (2018).Estimated use of water in the United States in 2015: U.S. Geological Survey circular 1441(p.65).https://doi.org/10.3133/cir1441",
+        "DOI": "10.3133/cir1441"
+      },
+      {
+        "key": "e_1_2_9_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1600\u20100587.2012.07348.x"
+      },
+      {
+        "key": "e_1_2_9_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u20109\u201015\u20102005"
+      },
+      {
+        "key": "e_1_2_9_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2007.02.014"
+      },
+      {
+        "key": "e_1_2_9_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2010.04.005"
+      },
+      {
+        "key": "e_1_2_9_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.atmosres.2013.12.012"
+      },
+      {
+        "key": "e_1_2_9_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.resconrec.2011.08.006"
+      },
+      {
+        "key": "e_1_2_9_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016EF000518"
+      },
+      {
+        "key": "e_1_2_9_24_1",
+        "first-page": "4768",
+        "volume-title": "NIPS\u201917: Proceedings of the 31st international conference on neural information processing systems",
+        "author": "Lundberg S. M.",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_9_25_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Luukkonen C. L. Alzraiee A. H. Larsen J. D. Martin D. J. Herbert D. M. Buchwald C. A. et\u00a0al. (2023).Public supply water use reanalysis for the 2000\u20132020 period by HUC12 month and year for the conterminous United States (ver. 2.0 August 2024)[Dataset].U.S. Geological Survey data release.https://doi.org/10.5066/P9FUL880",
+        "DOI": "10.5066/P9FUL880"
+      },
+      {
+        "key": "e_1_2_9_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR021i004p00425"
+      },
+      {
+        "key": "e_1_2_9_27_1",
+        "volume-title": "Maps of the USGS climate adaptation science centers (May 2024)",
+        "author": "Malpeli K.",
+        "year": "2024"
+      },
+      {
+        "key": "e_1_2_9_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41558\u2010022\u201001335\u20103"
+      },
+      {
+        "key": "e_1_2_9_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR027751"
+      },
+      {
+        "key": "e_1_2_9_30_1",
+        "unstructured": "Microsoft Bing Maps Team. (2018).Computer generated building footprints for the United States. Retrieved fromhttps://github.com/microsoft/USBuildingFootprints"
+      },
+      {
+        "key": "e_1_2_9_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5942/jawwa.2013.105.0107"
+      },
+      {
+        "key": "e_1_2_9_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201011\u20101633\u20102007"
+      },
+      {
+        "key": "e_1_2_9_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.1700784"
+      },
+      {
+        "key": "e_1_2_9_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epsl.2005.04.005"
+      },
+      {
+        "key": "e_1_2_9_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017WR021730"
+      },
+      {
+        "key": "e_1_2_9_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016EF000511"
+      },
+      {
+        "key": "e_1_2_9_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0094628"
+      },
+      {
+        "key": "e_1_2_9_38_1",
+        "volume-title": "American community survey 5\u2010year estimates",
+        "author": "U.S. Census Bureau",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_9_39_1",
+        "unstructured": "U.S. Census Bureau. (2021b).TIGER/Line shapefiles. Retrieved fromhttps://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb"
+      },
+      {
+        "key": "e_1_2_9_40_1",
+        "unstructured": "U.S. Environmental Protection Agency. (2025).EPA community water system service area boundaries. Fact sheet. Retrieved fromhttps://www.epa.gov/system/files/documents/2024\u201011/epa\u2010service\u2010area\u2010boundary\u2010fact\u2010sheet\u2010rev\u2010october\u20102024.pdf"
+      },
+      {
+        "key": "e_1_2_9_41_1",
+        "volume-title": "Open\u2010file report 97\u2010636",
+        "author": "U.S. Geological Survey",
+        "year": "2014"
+      },
+      {
+        "key": "e_1_2_9_42_1",
+        "unstructured": "U.S. Geological Survey. (2021).National water information system data available on the world wide web (USGS water data for the nation).https://doi.org/10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_9_43_1",
+        "volume-title": "USGS national boundary dataset (NBD) in FileGBD 10.1 format (published 20230325)",
+        "author": "U.S. Geological Survey, National Geospatial Technical Operations Center",
+        "year": "2025"
+      },
+      {
+        "key": "e_1_2_9_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jup.2015.07.005"
+      },
+      {
+        "key": "e_1_2_9_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0022\u20101694(00)00287\u20100"
+      },
+      {
+        "key": "e_1_2_9_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/9781420050264"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2024WR039271",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          19
+        ]
+      ],
+      "date-time": "2025-07-19T12:19:03Z",
+      "timestamp": 1752927543000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024WR039271"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    },
+    "references-count": 45,
+    "journal-issue": {
+      "issue": "6",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2024WR039271"
+    ],
+    "URL": "https://doi.org/10.1029/2024wr039271",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2024-10-25",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-05-30",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-06-19",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2024WR039271"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2024WR039271",
+  "original_doi": "10.1029/2024WR039271"
+}

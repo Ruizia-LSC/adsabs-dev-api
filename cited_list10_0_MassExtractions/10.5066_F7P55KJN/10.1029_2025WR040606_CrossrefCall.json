@@ -1,0 +1,781 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          19
+        ]
+      ],
+      "date-time": "2026-04-19T07:58:07Z",
+      "timestamp": 1776585487950,
+      "version": "3.51.2"
+    },
+    "reference-count": 94,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "9",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              20
+            ]
+          ],
+          "date-time": "2025-09-20T00:00:00Z",
+          "timestamp": 1758326400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 19,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Quantifying watershed process variability consistently with climate change and ecohydrological dynamics remains a central challenge in hydrology. Stochastic ecohydrology characterizes hydrologic variability through probability distributions that link climate, hydrology, and ecology. However, these approaches are often limited to small spatial scales (e.g., point or plot level) or focus on specific fluxes (e.g., streamflow), without accounting for the entire water balance at the basin scale. While semi\u2010distributed models account for spatial heterogeneity and upscaled hydrologic fluxes, they lack the analytical simplicity of stochastic ecohydrology or the SCS\u2010CN method and, perhaps more importantly, do not directly characterize probability distributions that integrate the effects of past random variability in hydroclimatic conditions. This hinders an efficient characterization of hydrological statistics at the watershed scale. To overcome these limitations, we merge stochastic ecohydrology, the spatial upscaling of semi\u2010distributed modeling, and the SCS\u2010CN rainfall\u2010runoff partitioning. The resulting unified model analytically characterizes watershed ecohydrological and hydrological statistics using probability density functions (PDFs) that are functions of climate and watershed model parameters (e.g., baseflow coefficient)\u2014something unattainable with the Monte Carlo methods of traditional stochastic hydrology. Calibrated across 81 watersheds in Florida and southern Louisiana, the model PDFs precisely capture the long\u2010term average water balance and runoff variance, as well as the runoff quantiles with a median Nash\u2013Sutcliffe efficiency of 0.98. These results also advance the SCS\u2010CN method by providing an analytical PDF for the Curve Number (CN), explicitly linked to climate variables, baseflow, and the long\u2010term water balance partitioning described by the Budyko curve.</jats:p>",
+    "DOI": "10.1029/2025wr040606",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          20
+        ]
+      ],
+      "date-time": "2025-09-20T12:46:56Z",
+      "timestamp": 1758372416000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Stochastic Ecohydrological Perspective on Semi\u2010Distributed Rainfall\u2010Runoff Dynamics"
+    ],
+    "prefix": "10.1029",
+    "volume": "61",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5361-1065",
+        "authenticated-orcid": false,
+        "given": "Mark S.",
+        "family": "Bartlett",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "The Water Institute  Baton Rouge LA USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Elizabeth",
+        "family": "Cultra",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil and Environmental Engineering Princeton University  Princeton NJ USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Nathan",
+        "family": "Geldner",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The Water Institute  Baton Rouge LA USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9378-207X",
+        "authenticated-orcid": false,
+        "given": "Amilcare",
+        "family": "Porporato",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil and Environmental Engineering Princeton University  Princeton NJ USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          20
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_18_2_1",
+        "volume-title": "Handbook of mathematical functions: With formulas, graphs, and mathematical tables",
+        "author": "Abramowitz M.",
+        "year": "2012"
+      },
+      {
+        "key": "e_1_2_18_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jfr3.12605"
+      },
+      {
+        "key": "e_1_2_18_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/revmodphys.86.779"
+      },
+      {
+        "key": "e_1_2_18_5_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Bartlett M. S. Cultra E. &Porporato A. M.(2025a).Stochastic ecohydrological perspective on semi\u2010distributed rainfall\u2010runoff dynamics: Computational notebooks[Dataset Computational Notebooks].Zenodo.https://doi.org/10.5281/zenodo.16919939",
+        "DOI": "10.5281/zenodo.16919939"
+      },
+      {
+        "key": "e_1_2_18_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rspa.2015.0389"
+      },
+      {
+        "key": "e_1_2_18_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017wr020456"
+      },
+      {
+        "key": "e_1_2_18_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015wr018439"
+      },
+      {
+        "key": "e_1_2_18_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016wr019084"
+      },
+      {
+        "key": "e_1_2_18_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/physreve.98.052132"
+      },
+      {
+        "key": "e_1_2_18_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/physreve.100.042133"
+      },
+      {
+        "key": "e_1_2_18_12_1",
+        "volume-title": "AGU Fall Meeting Abstracts",
+        "author": "Bartlett M. S.",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_18_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2024wr039086"
+      },
+      {
+        "key": "e_1_2_18_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/revmodphys.75.121"
+      },
+      {
+        "key": "e_1_2_18_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/9781119951001"
+      },
+      {
+        "key": "e_1_2_18_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.14203"
+      },
+      {
+        "key": "e_1_2_18_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626667909491834"
+      },
+      {
+        "key": "e_1_2_18_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.7574"
+      },
+      {
+        "key": "e_1_2_18_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2007wr006162"
+      },
+      {
+        "key": "e_1_2_18_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2006WR005043"
+      },
+      {
+        "key": "e_1_2_18_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511808470"
+      },
+      {
+        "key": "e_1_2_18_22_1",
+        "volume-title": "Climate and life",
+        "author": "Budyko M.",
+        "year": "1974"
+      },
+      {
+        "key": "e_1_2_18_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.11463"
+      },
+      {
+        "key": "e_1_2_18_24_1",
+        "volume-title": "The theory of stochastic processes",
+        "author": "Cox D. R.",
+        "year": "1977"
+      },
+      {
+        "key": "e_1_2_18_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/physreve.75.011119"
+      },
+      {
+        "key": "e_1_2_18_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/wr022i09sp0046s"
+      },
+      {
+        "key": "e_1_2_18_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201024\u20103493\u20102020"
+      },
+      {
+        "key": "e_1_2_18_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/wr014i005p00713"
+      },
+      {
+        "key": "e_1_2_18_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016wr019129"
+      },
+      {
+        "key": "e_1_2_18_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2014wr016102"
+      },
+      {
+        "key": "e_1_2_18_31_1",
+        "first-page": "1096",
+        "volume-title": "Infocom\u201997. Sixteenth annual joint conference of the IEEE computer and communications societies. Driving the information revolution., proceedings IEEE",
+        "author": "Feldmann A.",
+        "year": "1997"
+      },
+      {
+        "key": "e_1_2_18_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022\u20101694(69)90020\u20101"
+      },
+      {
+        "key": "e_1_2_18_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752\u20101688.2005.tb03742.x"
+      },
+      {
+        "key": "e_1_2_18_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018wr024464"
+      },
+      {
+        "key": "e_1_2_18_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2020.125664"
+      },
+      {
+        "key": "e_1_2_18_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(asce)he.1943\u20105584.0000954"
+      },
+      {
+        "key": "e_1_2_18_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/9780784479322.016"
+      },
+      {
+        "key": "e_1_2_18_38_1",
+        "first-page": "365",
+        "volume-title": "Curve numbers as random variables. Rainfall\u2010Runoff Relationships",
+        "author": "Hjelmfelt A.",
+        "year": "1982"
+      },
+      {
+        "key": "e_1_2_18_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-662-05244-0_8"
+      },
+      {
+        "issue": "8",
+        "key": "e_1_2_18_40_1",
+        "first-page": "519",
+        "article-title": "109. Stochastic integral",
+        "volume": "20",
+        "author": "It\u00f4 K.",
+        "year": "1944",
+        "journal-title": "Proceedings of the Imperial Academy"
+      },
+      {
+        "key": "e_1_2_18_41_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Jaafar H. H. &Ahmad F. A.(2019).GCN250: Global curve number datasets for hydrologic modeling and design[Dataset].Figshare.https://doi.org/10.6084/m9.figshare.7756202",
+        "DOI": "10.6084/m9.figshare.7756202"
+      },
+      {
+        "key": "e_1_2_18_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597\u2010019\u20100155\u2010x"
+      },
+      {
+        "key": "e_1_2_18_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2003wr002122"
+      },
+      {
+        "key": "e_1_2_18_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.catena.2004.12.005"
+      },
+      {
+        "key": "e_1_2_18_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ejrh.2019.100629"
+      },
+      {
+        "issue": "6",
+        "key": "e_1_2_18_46_1",
+        "article-title": "Model smoothing effect diminishes simulated flood peak variance",
+        "volume": "56",
+        "author": "Kirby W.",
+        "year": "1975",
+        "journal-title": "Eos, Transactions American Geophysical Union"
+      },
+      {
+        "key": "e_1_2_18_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201024\u20103899\u20102020"
+      },
+      {
+        "key": "e_1_2_18_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2004.02.020"
+      },
+      {
+        "key": "e_1_2_18_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.9499"
+      },
+      {
+        "key": "e_1_2_18_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/94jd00483"
+      },
+      {
+        "key": "e_1_2_18_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s0309\u20101708(01)00032\u2010x"
+      },
+      {
+        "issue": "7",
+        "key": "e_1_2_18_52_1",
+        "article-title": "A rainfall\u2010runoff modeling procedure for improving estimates of t\u2010year (annual) floods for small drainage basins",
+        "volume": "78",
+        "author": "Lichty R. W.",
+        "year": "1978",
+        "journal-title": "Department of the Interior, Geological Survey"
+      },
+      {
+        "key": "e_1_2_18_53_1",
+        "volume-title": "Hydropedology: Synergistic integration of soil science and hydrology",
+        "author": "Lin H.",
+        "year": "2012"
+      },
+      {
+        "key": "e_1_2_18_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tit.1978.1055857"
+      },
+      {
+        "key": "e_1_2_18_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/17442508108833165"
+      },
+      {
+        "key": "e_1_2_18_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2004wr003191"
+      },
+      {
+        "key": "e_1_2_18_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/93wr01934"
+      },
+      {
+        "key": "e_1_2_18_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.1344"
+      },
+      {
+        "key": "e_1_2_18_59_1",
+        "volume-title": "Soil conservation service curve number (SCS\u2010CN) methodology",
+        "author": "Mishra S. K.",
+        "year": "2013"
+      },
+      {
+        "key": "e_1_2_18_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626668509490989"
+      },
+      {
+        "key": "e_1_2_18_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011wr010997"
+      },
+      {
+        "key": "e_1_2_18_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(asce)1084\u20100699(1996)1:1(11)"
+      },
+      {
+        "key": "e_1_2_18_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/3473173"
+      },
+      {
+        "key": "e_1_2_18_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s0309\u20101708(01)00006\u20109"
+      },
+      {
+        "key": "e_1_2_18_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/9781108886321"
+      },
+      {
+        "key": "e_1_2_18_66_1",
+        "volume-title": "Rainfall\u2010runoff relationship/proceedings, international symposium on rainfall\u2010runoff modeling held May 18\u201321, 1981 at Mississippi state university, Mississippi State, Mississippi, USA/edited by VP Singh",
+        "author": "Rallison R. E.",
+        "year": "1982"
+      },
+      {
+        "key": "e_1_2_18_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201010\u2010861\u20102006"
+      },
+      {
+        "key": "e_1_2_18_68_1",
+        "volume-title": "Ecohydrology of water\u2010controlled ecosystems: Soil moisture and plant dynamics",
+        "author": "Rodr\u00edguez\u2010Iturbe I.",
+        "year": "2004"
+      },
+      {
+        "key": "e_1_2_18_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rspa.1999.0477"
+      },
+      {
+        "key": "e_1_2_18_70_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Running S. Mu Q. Zhao M. &Moreno A.(2021).MODIS/terra net evapotranspiration gap\u2010filled yearly L4 global 500m SIN grid V061[Dataset].NASA Land Processes Distributed Active Archive Center.https://doi.org/10.5067/MODIS/MOD16A3GF.061",
+        "DOI": "10.5067/MODIS/MOD16A3GF.061"
+      },
+      {
+        "key": "e_1_2_18_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/95jd02892"
+      },
+      {
+        "key": "e_1_2_18_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.10434"
+      },
+      {
+        "key": "e_1_2_18_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(sici)1099\u20101085(20000228)14:3<369::aid\u2010hyp943>3.3.co;2\u2010g"
+      },
+      {
+        "key": "e_1_2_18_74_1",
+        "volume-title": "Evaluation and improvements of the curve number method of hydrological analysis on selected forested watersheds of Georgia",
+        "author": "Tedela N.",
+        "year": "2008"
+      },
+      {
+        "key": "e_1_2_18_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(asce)he.1943\u20105584.0000436"
+      },
+      {
+        "key": "e_1_2_18_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wrcr.20532"
+      },
+      {
+        "key": "e_1_2_18_77_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Thornton M. Shrestha R. Wei Y. Thornton P. &Kao S.\u2010C.(2022).Daymet: Daily surface weather data on a 1\u2010km grid for North America version 4 r1[Dataset].ORNL DAAC.https://doi.org/10.3334/ORNLDAAC/2129",
+        "DOI": "10.3334/ORNLDAAC/2129"
+      },
+      {
+        "key": "e_1_2_18_78_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2007wr006513"
+      },
+      {
+        "key": "e_1_2_18_79_1",
+        "volume-title": "National engineering handbook: Part 630\u2013hydrology",
+        "author": "USDA National Resources Conservation Service",
+        "year": "2004"
+      },
+      {
+        "key": "e_1_2_18_80_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "U.S. Geological Survey. (2016).National water information system data available on the world wide web (USGS water data for the nation)[Dataset].https://doi.org/10.5066/F7P55KJN",
+        "DOI": "10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_18_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748\u20109326/8/2/024020"
+      },
+      {
+        "key": "e_1_2_18_82_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2009wr008130"
+      },
+      {
+        "key": "e_1_2_18_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2010.11.010"
+      },
+      {
+        "key": "e_1_2_18_84_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2010.11.011"
+      },
+      {
+        "key": "e_1_2_18_85_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2112/si93\u2010004.1"
+      },
+      {
+        "key": "e_1_2_18_86_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019wr026300"
+      },
+      {
+        "key": "e_1_2_18_87_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s0022\u20101694(98)00186\u20103"
+      },
+      {
+        "key": "e_1_2_18_88_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/91jd01786"
+      },
+      {
+        "key": "e_1_2_18_89_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/40685(2003)308"
+      },
+      {
+        "key": "e_1_2_18_90_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/wr018i005p01461"
+      },
+      {
+        "key": "e_1_2_18_91_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2020.124628"
+      },
+      {
+        "key": "e_1_2_18_92_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467\u2010018\u201006765\u20102"
+      },
+      {
+        "key": "e_1_2_18_93_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(asce)0733\u20109437(1998)124:6(306)"
+      },
+      {
+        "key": "e_1_2_18_94_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13031/2013.7028"
+      },
+      {
+        "key": "e_1_2_18_95_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2003wr002869"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025WR040606",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2025-10-15T07:57:29Z",
+      "timestamp": 1760515049000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025WR040606"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9
+        ]
+      ]
+    },
+    "references-count": 94,
+    "journal-issue": {
+      "issue": "9",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            9
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2025WR040606"
+    ],
+    "URL": "https://doi.org/10.1029/2025wr040606",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          9
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2025-03-24",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-08-13",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-09-20",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2025WR040606"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2025WR040606",
+  "original_doi": "10.1029/2025WR040606"
+}

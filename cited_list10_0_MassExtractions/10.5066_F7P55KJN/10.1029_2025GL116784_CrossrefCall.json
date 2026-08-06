@@ -1,0 +1,634 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          8
+        ]
+      ],
+      "date-time": "2026-04-08T11:25:36Z",
+      "timestamp": 1775647536587,
+      "version": "3.50.1"
+    },
+    "reference-count": 54,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "19",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              3
+            ]
+          ],
+          "date-time": "2025-10-03T00:00:00Z",
+          "timestamp": 1759449600000
+        },
+        "content-version": "am",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              3
+            ]
+          ],
+          "date-time": "2025-10-03T00:00:00Z",
+          "timestamp": 1759449600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000104",
+        "name": "National Aeronautics and Space Administration",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "80NSSC24M0114"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "80NSSC24M0114"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000104",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "G24AP00031"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "G24AP00031"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Geophysical Research Letters"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          16
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Satellite\u2010based evapotranspiration (ET) products such as OpenET and GLEAM are widely used for drought monitoring and ecosystem\u2010climate studies. However, their ability to accurately capture interannual variability (IAV), a key requirement for such applications, remains under\u2010evaluated. Here, we assessed IAV in OpenET and GLEAM using an independent water balance approach that combined precipitation, discharge, and GRACE/FO total water storage anomalies across nine river basins in the western United States. Even after accounting for observational uncertainty through a Monte Carlo approach, both products systematically underestimate IAV relative to water balance\u2010based ET, by more than 60% on average. This result is further supported by long\u2010term tower measurements from AmeriFlux. We also demonstrated that ET sensitivity to climate and vegetation drivers in OpenET and GLEAM differ substantially from water balance\u2010based estimates. These findings reveal important limitations in satellite\u2010based ET products and highlight the need for improved IAV representation to support ecosystem and climate applications.</jats:p>",
+    "DOI": "10.1029/2025gl116784",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          4
+        ]
+      ],
+      "date-time": "2025-10-04T01:10:03Z",
+      "timestamp": 1759540203000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Leading Satellite\u2010Based Evapotranspiration Products Insufficiently Capture Interannual Variability: Evidence From GRACE/FO and In Situ Observations"
+    ],
+    "prefix": "10.1029",
+    "volume": "52",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0002-3903-2977",
+        "authenticated-orcid": false,
+        "given": "Yanni",
+        "family": "Zhao",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Earth and Spatial Sciences University of Idaho  Moscow ID USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8677-774X",
+        "authenticated-orcid": false,
+        "given": "Lucas Emilio B.",
+        "family": "Hoeltgebaum",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Earth and Spatial Sciences University of Idaho  Moscow ID USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6589-3426",
+        "authenticated-orcid": false,
+        "given": "Meetpal S.",
+        "family": "Kukal",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Soil and Water Systems University of Idaho  Boise ID USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6883-865X",
+        "authenticated-orcid": false,
+        "given": "Meng",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Earth and Spatial Sciences University of Idaho  Moscow ID USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          3
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_7_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM\u2010D\u201020\u20100183.1"
+      },
+      {
+        "key": "e_1_2_7_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2015.11.034"
+      },
+      {
+        "key": "e_1_2_7_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201024\u20104189\u20102020"
+      },
+      {
+        "key": "e_1_2_7_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016GL068675"
+      },
+      {
+        "key": "e_1_2_7_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41558\u2010022\u201001403\u20108"
+      },
+      {
+        "key": "e_1_2_7_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.agrformet.2013.11.008"
+      },
+      {
+        "key": "e_1_2_7_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41558\u2010020\u20100717\u20100"
+      },
+      {
+        "key": "e_1_2_7_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/jcli\u2010d\u201016\u20100758.1"
+      },
+      {
+        "key": "e_1_2_7_10_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Global Modeling and Assimilation Office (GMAO). (2015).Dataset: MERRA\u20102 tavgM_2d_flx_Nx: 2d Monthly Mean Time\u2010Averaged Single\u2010Level Assimilation Surface Flux Diagnostics V5.12.4[Dataset].Goddard Earth Sciences Data and Information Services Center (GES DISC).https://doi.org/10.5067/0JRLVL8YV2Y4",
+        "DOI": "10.5067/0JRLVL8YV2Y4"
+      },
+      {
+        "key": "e_1_2_7_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM\u2010D\u201014\u20100175.1"
+      },
+      {
+        "key": "e_1_2_7_12_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Hersbach H. Bell B. Berrisford P. Biavati G. Hor\u00e1nyi A. Mu\u00f1oz Sabater J. et\u00a0al. (2023).Datasets: ERA5 monthly averaged data on single levels from 1940 to present[Dataset].Copernicus Climate Change Service (C3S) Climate Data Store (CDS).https://doi.org/10.24381/cds.f17050d7",
+        "DOI": "10.24381/cds.f17050d7"
+      },
+      {
+        "key": "e_1_2_7_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/qj.3803"
+      },
+      {
+        "key": "e_1_2_7_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JCLI\u2010D\u201023\u20100123.1"
+      },
+      {
+        "key": "e_1_2_7_15_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Huffman G. J. Behrangi A. Bolvin D. T. &Nelkin E. J.(2022). InG. J.Huffman A.Behrangi D. T.Bolvin &E. J.Nelkin(Eds.) Datasets: GPCP version 3.2 satellite\u2010gauge (SG) combined precipitation data set[Dataset].Goddard Earth Sciences Data and Information Services Center (GES DISC).https://doi.org/10.5067/MEASURES/GPCP/DATA304",
+        "DOI": "10.5067/MEASURES/GPCP/DATA304"
+      },
+      {
+        "key": "e_1_2_7_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR033731"
+      },
+      {
+        "key": "e_1_2_7_17_1",
+        "unstructured": "Kalnay E. Kanamitsu M. &Kistler R.(1996).Datasets: The NCEP/NCAR 40\u2010year reanalysis project[Dataset].National Oceanic and Atmospheric Administration Physical Sciences Laboratory.https://psl.noaa.gov/data/gridded/data.ncep.reanalysis.html"
+      },
+      {
+        "key": "e_1_2_7_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520\u20100477(1996)077<0437:TNYRP>2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_7_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2010JD014584"
+      },
+      {
+        "key": "e_1_2_7_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2013WR014581"
+      },
+      {
+        "key": "e_1_2_7_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586\u2010021\u201003761\u20103"
+      },
+      {
+        "key": "e_1_2_7_22_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Melton F. S. Huntington J. Grimm R. Herring J. Hall M. Rollison D. et\u00a0al. (2021).Datasets: OpenET: Filling a critical data gap in water management for the western United States[Dataset].OpenET.https://etdata.org/",
+        "DOI": "10.1111/1752-1688.12956"
+      },
+      {
+        "key": "e_1_2_7_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752\u20101688.12956"
+      },
+      {
+        "key": "e_1_2_7_24_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Miralles D. G. Bonte O. Koppa A. Baez\u2010Villanueva O. M. Tronquo E. Zhong F. et\u00a0al. (2025a).Datasets: GLEAM4 (v4.2)[Dataset].Zenodo.https://doi.org/10.5281/zenodo.14724263",
+        "DOI": "10.5281/zenodo.14724263"
+      },
+      {
+        "key": "e_1_2_7_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597\u2010025\u201004610\u2010y"
+      },
+      {
+        "key": "e_1_2_7_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201020\u2010823\u20102016"
+      },
+      {
+        "key": "e_1_2_7_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM\u2010D\u201012\u20100144.1"
+      },
+      {
+        "key": "e_1_2_7_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR026594"
+      },
+      {
+        "key": "e_1_2_7_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43017\u2010019\u20100001\u2010x"
+      },
+      {
+        "key": "e_1_2_7_30_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Pu J. Roy S. Knyazikhin Y. &Myneni R.(2023).Datasets: 519 sensor\u2010independent LAI/FPAR CDR[Dataset].Zenodo.https://doi.org/10.5281/zenodo.8076540",
+        "DOI": "10.5281/zenodo.8076540"
+      },
+      {
+        "key": "e_1_2_7_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/essd\u201016\u201015\u20102024"
+      },
+      {
+        "key": "e_1_2_7_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2018.09.023"
+      },
+      {
+        "key": "e_1_2_7_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2005WR004331"
+      },
+      {
+        "key": "e_1_2_7_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/s20071915"
+      },
+      {
+        "key": "e_1_2_7_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.8379"
+      },
+      {
+        "key": "e_1_2_7_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM\u2010D\u201017\u20100004.1"
+      },
+      {
+        "key": "e_1_2_7_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2024.114066"
+      },
+      {
+        "key": "e_1_2_7_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016WR018617"
+      },
+      {
+        "key": "e_1_2_7_39_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "USGS. (2016).Datasets: National Water Information System data available on the world wide web (USGS water data for the nation)[Dataset].USGS.https://doi.org/10.5066/F7P55KJN",
+        "DOI": "10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_7_40_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Volk J. M. Huntington J. L. Melton F. Minor B. Wang T. Anapalli S. S. et\u00a0al. (2023).Datasets: Post\u2010processed data and graphical tools for a CONUS\u2010wide eddy flux evapotranspiration dataset (1.0.0)[Dataset].Zenodo.https://doi.org/10.5281/zenodo.7636781",
+        "DOI": "10.5281/zenodo.7636781"
+      },
+      {
+        "key": "e_1_2_7_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s44221\u2010023\u201000181\u20107"
+      },
+      {
+        "key": "e_1_2_7_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2014JB011547"
+      },
+      {
+        "key": "e_1_2_7_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016WR019344"
+      },
+      {
+        "key": "e_1_2_7_44_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Wiese D. N. Yuan D.\u2010N. Boening C. Landerer F. W. &Watkins M. M.(2018).Datasets: JPL GRACE mascon ocean ice and hydrology equivalent water height release 06 Coastal Resolution Improvement (CRI) filtered version 1.0[Dataset].Ver. 1.0. PO.DAAC.https://doi.org/10.5067/TEMSC\u20103MJC6",
+        "DOI": "10.5067/TEMSC\u20103MJC6"
+      },
+      {
+        "key": "e_1_2_7_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2024.131924"
+      },
+      {
+        "key": "e_1_2_7_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2410881122"
+      },
+      {
+        "key": "e_1_2_7_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2021.112640"
+      },
+      {
+        "key": "e_1_2_7_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201024\u2010381\u20102020"
+      },
+      {
+        "key": "e_1_2_7_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748\u20109326/ab68ec"
+      },
+      {
+        "key": "e_1_2_7_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201029\u20102293\u20102025"
+      },
+      {
+        "key": "e_1_2_7_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41558\u2010022\u201001505\u20103"
+      },
+      {
+        "key": "e_1_2_7_52_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Zhao Y. Hoeltgebaum L. E. B. Kukal M. S. &Zhao M.(2025).Leading satellite\u2010based evapotranspiration products insufficiently capture interannual variability: Evidence from GRACE/FO and in\u2010situ observations[Software].Zenodo.https://doi.org/10.5281/zenodo.16130020",
+        "DOI": "10.5281/zenodo.16130020"
+      },
+      {
+        "key": "e_1_2_7_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2022.127982"
+      },
+      {
+        "key": "e_1_2_7_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nclimate3004"
+      },
+      {
+        "key": "e_1_2_7_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597\u2010022\u201001493\u20101"
+      }
+    ],
+    "container-title": [
+      "Geophysical Research Letters"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL116784",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL116784",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          2
+        ]
+      ],
+      "date-time": "2025-12-02T08:14:28Z",
+      "timestamp": 1764663268000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025GL116784"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          3
+        ]
+      ]
+    },
+    "references-count": 54,
+    "journal-issue": {
+      "issue": "19",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            16
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2025GL116784"
+    ],
+    "URL": "https://doi.org/10.1029/2025gl116784",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0094-8276",
+      "1944-8007"
+    ],
+    "issn-type": [
+      {
+        "value": "0094-8276",
+        "type": "print"
+      },
+      {
+        "value": "1944-8007",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          3
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2025-04-29",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-09-09",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-10-03",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2025GL116784"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2025GL116784",
+  "original_doi": "10.1029/2025GL116784"
+}

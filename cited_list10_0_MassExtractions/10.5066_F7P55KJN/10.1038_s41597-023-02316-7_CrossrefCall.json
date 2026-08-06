@@ -1,0 +1,828 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          16
+        ]
+      ],
+      "date-time": "2026-07-16T14:39:56Z",
+      "timestamp": 1784212796447,
+      "version": "3.55.0"
+    },
+    "reference-count": 61,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              20
+            ]
+          ],
+          "date-time": "2023-10-20T00:00:00Z",
+          "timestamp": 1697760000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              20
+            ]
+          ],
+          "date-time": "2023-10-20T00:00:00Z",
+          "timestamp": 1697760000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "EAR- 1849458"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "EAR- 1849458"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Sci Data"
+    ],
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>In 2016, the National Oceanic and Atmospheric Administration deployed the first iteration of an operational National Water Model (NWM) to forecast the water cycle in the continental United States. With many versions, an hourly, multi-decadal historic simulation is made available to the public. In all released to date,\u00a0the\u00a0files containing simulated\u00a0streamflow contain a snapshot of model conditions across the entire domain for a single timestep which makes accessing\u00a0 time series a technical and resource-intensive challenge. In the most recent release, extracting a complete streamflow time series for a single location requires managing 367,920 files (~16.2 TB). In this work we describe a\u00a0reproducible process for restructuring a sequential set of NWM steamflow files for efficient time series access and provide restructured datasets for versions 1.2 (1993\u20132018), 2.0 (1993\u20132020), and 2.1 (1979\u20132022). These datasets have been made accessible via an OPeNDAP enabled THREDDS data server\u00a0for public use\u00a0and a brief analysis highlights\u00a0the latest version of the model should not be assumed best for all locations. Lastly we describe an R package that expedites data retrieval with examples for multiple use-cases.</jats:p>",
+    "DOI": "10.1038/s41597-023-02316-7",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          20
+        ]
+      ],
+      "date-time": "2023-10-20T08:02:48Z",
+      "timestamp": 1697788968000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 13,
+    "title": [
+      "Restructuring and serving web-accessible streamflow data from the NOAA National Water Model historic simulations"
+    ],
+    "prefix": "10.1038",
+    "volume": "10",
+    "author": [
+      {
+        "given": "J. Michael",
+        "family": "Johnson",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David L.",
+        "family": "Blodgett",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Keith C.",
+        "family": "Clarke",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jon",
+        "family": "Pollak",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          20
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2316_CR1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Olson, S. A. & Norris, J. M. US Geological Survey Streamgaging\u2026 from the National Streamflow Information Program. (2007).",
+        "DOI": "10.3133/fs20053131"
+      },
+      {
+        "key": "2316_CR2",
+        "unstructured": "USGS. Monitoring the Pulse of Our Nation\u2019s Rivers and Streams: The U.S. Geological Survey Streamgaging Network. https://pubs.usgs.gov/fs/2018/3081/fs20183081.pdf (2018)."
+      },
+      {
+        "key": "2316_CR3",
+        "unstructured": "USGS. USGS Streamgaging Network. (2021)."
+      },
+      {
+        "key": "2316_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "485",
+        "DOI": "10.1061/(ASCE)0733-9496(1994)120:4(485)",
+        "volume": "120",
+        "author": "RM Vogel",
+        "year": "1994",
+        "unstructured": "Vogel, R. M. & Fennessey, N. M. Flow-Duration Curves. I: New Interpretation and Confidence Intervals. Journal of Water Resources Planning and Management 120, 485\u2013504 (1994).",
+        "journal-title": "Journal of Water Resources Planning and Management"
+      },
+      {
+        "key": "2316_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "555",
+        "DOI": "10.1038/nature09440",
+        "volume": "467",
+        "author": "CJ Vorosmarty",
+        "year": "2010",
+        "unstructured": "Vorosmarty, C. J. et al. Global Threats to Human Water Security and River Biodiversity. Nature 467, 555\u2013561 (2010).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2316_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "40",
+        "DOI": "10.1002/aaai.12035",
+        "volume": "43",
+        "author": "JM Johnson",
+        "year": "2022",
+        "unstructured": "Johnson, J. M. et al. Knowledge graphs to support real\u2010time flood impact evaluation. AI Magazine 43, 40\u201345 (2022).",
+        "journal-title": "AI Magazine"
+      },
+      {
+        "key": "2316_CR7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Johnson, J. M., Coll, J. M., Ruess, P. J. & Hastings, J. T. Challenges and Opportunities for Creating Intelligent Hazard Alerts: The \u201cFloodHippo\u201d Prototype. Journal of the American Water Resources Association, (2018).",
+        "DOI": "10.1111/1752-1688.12645"
+      },
+      {
+        "key": "2316_CR8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Adams, T. III Flood forecasting in the United States NOAA/National Weather Service. in Flood Forecasting 249\u2013310 (Elsevier, 2016).",
+        "DOI": "10.1016/B978-0-12-801884-2.00010-4"
+      },
+      {
+        "key": "2316_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "188",
+        "DOI": "10.1111/j.1365-2427.2009.02379.x",
+        "volume": "55",
+        "author": "TE Grantham",
+        "year": "2010",
+        "unstructured": "Grantham, T. E., Merenlender, A. M. & Resh, V. H. Climatic influences and anthropogenic stressors: an integrated framework for streamflow management in Mediterranean\u2010climate California, USA. Freshwater Biology 55, 188\u2013204 (2010).",
+        "journal-title": "Freshwater Biology"
+      },
+      {
+        "key": "2316_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "56",
+        "DOI": "10.1111/1752-1688.12495",
+        "volume": "53",
+        "author": "L Patterson",
+        "year": "2017",
+        "unstructured": "Patterson, L., Phelan, J., Goudreau, C. & Dykes, R. Flow\u2010Biology Relationships Based on Fish Habitat Guilds in North Carolina. JAWRA Journal of the American Water Resources Association 53, 56\u201366 (2017).",
+        "journal-title": "JAWRA Journal of the American Water Resources Association"
+      },
+      {
+        "key": "2316_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "269",
+        "DOI": "10.1016/0022-1694(88)90188-6",
+        "volume": "100",
+        "author": "C Cunnane",
+        "year": "1988",
+        "unstructured": "Cunnane, C. Methods and merits of regional flood frequency analysis. Journal of Hydrology 100, 269\u2013290 (1988).",
+        "journal-title": "Journal of Hydrology"
+      },
+      {
+        "key": "2316_CR12",
+        "unstructured": "Rao, A. R. & Hamed, K. H. Flood frequency analysis. (CRC press, 2019)."
+      },
+      {
+        "key": "2316_CR13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Krabbenhoft, C. A. et al. Assessing placement bias of the global river gauge network. Nature Sustainability 1\u20137 (2022).",
+        "DOI": "10.1038/s41893-022-00873-0"
+      },
+      {
+        "key": "2316_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "119",
+        "DOI": "10.1007/s12145-008-0015-2",
+        "volume": "1",
+        "author": "B Beran",
+        "year": "2008",
+        "unstructured": "Beran, B. & Piasecki, M. Availability and coverage of hydrologic data in the US geological survey National Water Information System (NWIS) and US Environmental Protection Agency Storage and Retrieval System (STORET). Earth Science Informatics 1, 119\u2013129 (2008).",
+        "journal-title": "Earth Science Informatics"
+      },
+      {
+        "key": "2316_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "54",
+        "DOI": "10.1029/2010WR010090",
+        "volume": "47",
+        "author": "EF Wood",
+        "year": "2011",
+        "unstructured": "Wood, E. F. et al. Hyperresolution global land surface modeling: Meeting a grand challenge for monitoring Earth\u2019s terrestrial water. Water Resources Research 47, 54\u201310 (2011).",
+        "journal-title": "Water Resources Research"
+      },
+      {
+        "key": "2316_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "4923",
+        "DOI": "10.1002/2015WR017173",
+        "volume": "51",
+        "author": "MFP Bierkens",
+        "year": "2015",
+        "unstructured": "Bierkens, M. F. P. Global hydrology 2015: State, trends, and directions. Water Resources Research 51, 4923\u20134947 (2015).",
+        "journal-title": "Water Resources Research"
+      },
+      {
+        "key": "2316_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "10078",
+        "DOI": "10.1002/2015WR017498",
+        "volume": "51",
+        "author": "SA Archfield",
+        "year": "2015",
+        "unstructured": "Archfield, S. A. et al. Accelerating advances in continental domain hydrologic modeling. Water Resources Research 51, 10078\u201310091 (2015).",
+        "journal-title": "Water Resources Research"
+      },
+      {
+        "key": "2316_CR18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Beven, K. J. & Cloke, H. L. Comment on \u201cHyperresolution global land surface modeling: Meeting a grand challenge for monitoring Earth\u2019s terrestrial water\u201d by Eric F. Wood et al. Water Resources Research 48 (2012).",
+        "DOI": "10.1029/2011WR010982"
+      },
+      {
+        "key": "2316_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "25",
+        "DOI": "10.1007/s11430-014-5003-4",
+        "volume": "58",
+        "author": "K Beven",
+        "year": "2015",
+        "unstructured": "Beven, K., Cloke, H., Pappenberger, F., Lamb, R. & Hunter, N. Hyperresolution information and hyperresolution ignorance in modelling the hydrology of the land surface. Science China Earth Sciences 58, 25\u201335 (2015).",
+        "journal-title": "Science China Earth Sciences"
+      },
+      {
+        "key": "2316_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "1923",
+        "DOI": "10.1175/BAMS-D-18-0159.1",
+        "volume": "100",
+        "author": "LW Uccellini",
+        "year": "2019",
+        "unstructured": "Uccellini, L. W. & Ten Hoeve, J. E. Evolving the National Weather Service to Build a Weather-Ready Nation: Connecting Observations, Forecasts, and Warnings to Decision-Makers through Impact-Based Decision Support Services. Bulletin of the American Meteorological Society 100, 1923\u20131942 (2019).",
+        "journal-title": "Bulletin of the American Meteorological Society"
+      },
+      {
+        "key": "2316_CR21",
+        "unstructured": "Office of Water Prediction, N. The National Water Model. (2022)."
+      },
+      {
+        "key": "2316_CR22",
+        "unstructured": "NOAA. Implement National Water Model: New implementation of the NWM. (2016)."
+      },
+      {
+        "key": "2316_CR23",
+        "first-page": "10078",
+        "volume": "51",
+        "author": "FR Salas",
+        "year": "2017",
+        "unstructured": "Salas, F. R. et al. Towards Real-Time Continental Scale Streamflow Simulation in Continuous and Discrete Space. JAWRA Journal of the American Water Resources Association 51, 10078\u201321 (2017).",
+        "journal-title": "JAWRA Journal of the American Water Resources Association"
+      },
+      {
+        "key": "2316_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "1381",
+        "DOI": "10.1029/2010JD015139",
+        "volume": "116",
+        "author": "G-Y Niu",
+        "year": "2011",
+        "unstructured": "Niu, G.-Y. et al. The community Noah land surface model with multiparameterization options (Noah-MP): 1. Model description and evaluation with local-scale measurements. Journal of Geophysical Research 116, 1381\u201319 (2011).",
+        "journal-title": "Journal of Geophysical Research"
+      },
+      {
+        "key": "2316_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "4257",
+        "DOI": "10.1029/2010JD015140",
+        "volume": "116",
+        "author": "Z-L Yang",
+        "year": "2011",
+        "unstructured": "Yang, Z.-L. et al. The community Noah land surface model with multiparameterization options (Noah-MP): 2. Evaluation over global river basins. Journal of Geophysical Research 116, 4257\u201316 (2011).",
+        "journal-title": "Journal of Geophysical Research"
+      },
+      {
+        "key": "2316_CR26",
+        "unstructured": "Gochis, J. & Chen, F. Hydrological enhancements to the community Noah land surface model. (2003)."
+      },
+      {
+        "key": "2316_CR27",
+        "unstructured": "Gochis, D. et al. Technical Description of the National Water Model Implementation of WRF-Hydro. (2016)."
+      },
+      {
+        "key": "2316_CR28",
+        "unstructured": "NOAA. NWM Upgrade: Upgrade to V1.2 of National Water Model. (2018)."
+      },
+      {
+        "key": "2316_CR29",
+        "unstructured": "NOAA. NWM Upgrade: Update to the National Water Model Version 2.0., (2019)."
+      },
+      {
+        "key": "2316_CR30",
+        "unstructured": "NOAA. NWM Upgrade: Upgrade NCEP National Water Model v2.1., (2021)."
+      },
+      {
+        "key": "2316_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "3284",
+        "DOI": "10.3390/rs14143284",
+        "volume": "14",
+        "author": "H Kim",
+        "year": "2022",
+        "unstructured": "Kim, H. & Villarini, G. Evaluation of the Analysis of Record for Calibration (AORC) rainfall across Louisiana. Remote Sensing 14, 3284 (2022).",
+        "journal-title": "Remote Sensing"
+      },
+      {
+        "key": "2316_CR32",
+        "unstructured": "Kitzmiller, D. H., Wu, W., Zhang, Z., Patrick, N. & Tan, X. The analysis of record for calibration: a high-resolution precipitation and surface weather dataset for the united states. in vol. 2018 H41H-06 (2018)."
+      },
+      {
+        "key": "2316_CR33",
+        "unstructured": "Cosgrove, B. A., Gochis, D. J., Clark, E. P. & Flowers, T. NOAA\u2019s National Water Model: A Dynamically Evolving Operational Hydrologic Forecasting Framework. (2020)."
+      },
+      {
+        "key": "2316_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "2002JD003118",
+        "DOI": "10.1029/2002JD003118",
+        "volume": "108",
+        "author": "BA Cosgrove",
+        "year": "2003",
+        "unstructured": "Cosgrove, B. A. et al. Real\u2010time and retrospective forcing in the North American Land Data Assimilation System (NLDAS) project. J. Geophys. Res. 108, 2002JD003118 (2003).",
+        "journal-title": "J. Geophys. Res."
+      },
+      {
+        "key": "2316_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "996",
+        "DOI": "10.1175/JHM-D-11-0132.1",
+        "volume": "13",
+        "author": "KC Mo",
+        "year": "2012",
+        "unstructured": "Mo, K. C., Chen, L.-C., Shukla, S., Bohn, T. J. & Lettenmaier, D. P. Uncertainties in North American Land Data Assimilation Systems over the Contiguous United States. Journal of Hydrometeorology 13, 996\u20131009 (2012).",
+        "journal-title": "Journal of Hydrometeorology"
+      },
+      {
+        "key": "2316_CR36",
+        "first-page": "2",
+        "volume": "108",
+        "author": "AA Berg",
+        "year": "2003",
+        "unstructured": "Berg, A. A. Impact of bias correction to reanalysis products on simulations of North American soil moisture and hydrological fluxes. J. Geophys. Res. 108, 2\u201315 (2003). ACL 2-1-ACL.",
+        "journal-title": "J. Geophys. Res."
+      },
+      {
+        "key": "2316_CR37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jachens, E. R., Hutcheson, H., Thomas, M. B. & Steward, D. R. Effects of Groundwater-Surface Water Exchange Mechanism in the National Water Model over the Northern High Plains Aquifer, USA. JAWRA Journal of the American Water Resources Association (2020).",
+        "DOI": "10.1111/1752-1688.12869"
+      },
+      {
+        "key": "2316_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "964",
+        "DOI": "10.1111/1752-1688.12784",
+        "volume": "55",
+        "author": "C Hansen",
+        "year": "2019",
+        "unstructured": "Hansen, C., Shafiei Shiva, J., McDonald, S. & Nabors, A. Assessing Retrospective National Water Model Streamflow with Respect to Droughts and Low Flows in the Colorado River Basin. JAWRA Journal of the American Water Resources Association 55, 964\u2013975 (2019).",
+        "journal-title": "JAWRA Journal of the American Water Resources Association"
+      },
+      {
+        "key": "2316_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "2897",
+        "DOI": "10.3390/w12102897",
+        "volume": "12",
+        "author": "F Viterbo",
+        "year": "2020",
+        "unstructured": "Viterbo, F. et al. General Assessment of the Operational Utility of National Water Model Reservoir Inflows for the Bureau of Reclamation Facilities. Water 12, 2897 (2020).",
+        "journal-title": "Water"
+      },
+      {
+        "key": "2316_CR40",
+        "doi-asserted-by": "publisher",
+        "first-page": "2405",
+        "DOI": "10.5194/nhess-19-2405-2019",
+        "volume": "19",
+        "author": "JM Johnson",
+        "year": "2019",
+        "unstructured": "Johnson, J. M., Munasinghe, D., Eyelade, D. & Cohen, S. An integrated evaluation of the National Water Model (NWM)\u2013Height Above Nearest Drainage (HAND) flood mapping methodology. Natural Hazards and Earth System Sciences 19, 2405\u20132420 (2019).",
+        "journal-title": "Natural Hazards and Earth System Sciences"
+      },
+      {
+        "key": "2316_CR41",
+        "unstructured": "NOAA National Water Model Reanalysis Model Data on AWS. https://docs.opendata.aws/nwm-archive/readme.html."
+      },
+      {
+        "key": "2316_CR42",
+        "unstructured": "McKay, L. et al. NHDPlus Version 2: User Guide, 2012."
+      },
+      {
+        "key": "2316_CR43",
+        "doi-asserted-by": "publisher",
+        "unstructured": "U.S. Geological Survey. 2023. USGS water data for the Nation: U.S. Geological Survey National Water Information System database, at https://doi.org/10.5066/F7P55KJN accessed 2023-10-05.",
+        "DOI": "10.5066/F7P55KJN"
+      },
+      {
+        "key": "2316_CR44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5066/P9X4L3GE",
+        "author": "LA De Cicco",
+        "year": "2018",
+        "unstructured": "De Cicco, L. A., Lorenz, D., Hirsch, R. M., Watkins, W. & Johnson, M. dataRetrieval: R Packages for Discovering and Retrieving Water Data Available from U.S. Federal Hydrologic Web Services. https://doi.org/10.5066/P9X4L3GE (2018).",
+        "journal-title": "dataRetrieval: R Packages for Discovering and Retrieving Water Data Available from U.S. Federal Hydrologic Web Services."
+      },
+      {
+        "key": "2316_CR45",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Unidata, (2023): NetCDF [software]. Boulder, CO: UCAR/Unidata. https://doi.org/10.5065/D6H70CW6.",
+        "DOI": "10.5065/D6H70CW6"
+      },
+      {
+        "key": "2316_CR46",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Unidata, (2023): THREDDS Data Server [software]. Boulder, CO: UCAR/Unidata. https://doi.org/10.5065/D6N014KG.",
+        "DOI": "10.5065/D6N014KG"
+      },
+      {
+        "key": "2316_CR47",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Unidata, (2023): NetCDF User\u2019s Guide (NUG). Boulder, CO: UCAR/Unidata. https://doi.org/10.26024/nw73-vm64.",
+        "DOI": "10.26024/nw73-vm64"
+      },
+      {
+        "key": "2316_CR48",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Unidata, (2023): NetCDF-Java [software]. Boulder, CO: UCAR/Unidata. https://doi.org/10.5065/DA15-J131.",
+        "DOI": "10.5065/DA15-J131"
+      },
+      {
+        "key": "2316_CR49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rutledge, Glenn K., Jordan Alpert, and Wesley Ebisuzaki. NOMADS: A climate and weather model archive at the National Oceanic and Atmospheric Administration. Bulletin of the American Meteorological Society 87.3, 327\u2013342 (2006).",
+        "DOI": "10.1175/BAMS-87-3-327"
+      },
+      {
+        "key": "2316_CR50",
+        "unstructured": "Blodgett, D. L. NWM V2 Processing Steps. https://code.usgs.gov/water/nwm_subset (2020)."
+      },
+      {
+        "key": "2316_CR51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4211/hs.a1e329ad20654e72b7b423f991bf9251",
+        "author": "JM Johnson",
+        "year": "2023",
+        "unstructured": "Johnson, JM. & Blodgett, DL. NOAA National Water Model Reanalysis Data at RENCI, HydroShare, https://doi.org/10.4211/hs.a1e329ad20654e72b7b423f991bf9251 (2023)."
+      },
+      {
+        "key": "2316_CR52",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Nash, J. E. & Sutcliffe, J. V. River flow forecasting through conceptual models part I \u2014 A discussion of principles. Journal of Hydrology. 10(3), 282\u2013290, https://doi.org/10.1016/0022-1694(70)90255-6 (1970).",
+        "DOI": "10.1016/0022-1694(70)90255-6"
+      },
+      {
+        "key": "2316_CR53",
+        "unstructured": "Nossent, J. & Bauwens, W. Application of a normalized Nash-Sutcliffe efficiency to improve the accuracy of the Sobol\u2019 sensitivity analysis of a hydrological model. EGUGA 237 (2012)."
+      },
+      {
+        "key": "2316_CR54",
+        "unstructured": "Johnson, J. M. nwmTools. https://github.com/mikejohnson51/nwmTools/ (2020)."
+      },
+      {
+        "key": "2316_CR55",
+        "doi-asserted-by": "publisher",
+        "first-page": "29",
+        "DOI": "10.32614/RJ-2013-023",
+        "volume": "5",
+        "author": "P Michna",
+        "year": "2013",
+        "unstructured": "Michna, P. & Woods, M. RNetCDF\u2013A package for reading and writing NetCDF datasets. The R Journal 5, 29\u201336 (2013).",
+        "journal-title": "The R Journal"
+      },
+      {
+        "key": "2316_CR56",
+        "unstructured": "USGS. Network Linked Data Index API. (2022)."
+      },
+      {
+        "key": "2316_CR57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Blodgett, D., Johnson, J. M., Sondheim, M., Wieczorek, M. & Frazier, N. Mainstems: A logical data model implementing mainstem and drainage basin feature types based on WaterML2 Part 3: HY_Features concepts. Environmental Modelling & Software 104927 (2020).",
+        "DOI": "10.1016/j.envsoft.2020.104927"
+      },
+      {
+        "key": "2316_CR58",
+        "unstructured": "Blodgett, D. & Johnson, J. nhdplusTools: Tools for Accessing and Working with the NHDPlus. Avaiable from https://code.usgs.gov/water/nhdplusTools (2018)."
+      },
+      {
+        "key": "2316_CR59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chegini, T., Li, H. Y. & Leung, L. R. HyRiver: Hydroclimate Data Retriever. Journal of Open Source Software, 6(66), 3175 (2021).",
+        "DOI": "10.21105/joss.03175"
+      },
+      {
+        "key": "2316_CR60",
+        "unstructured": "Federal Geographic Data Committee. Open Water Data Initative. (2022)."
+      },
+      {
+        "key": "2316_CR61",
+        "doi-asserted-by": "publisher",
+        "first-page": "1338",
+        "DOI": "10.1016/j.envsoft.2008.03.004",
+        "volume": "23",
+        "author": "CS Zender",
+        "year": "2008",
+        "unstructured": "Zender, C. S. Analysis of self-describing gridded geoscience data with netCDF Operators (NCO). Environmental Modelling & Software 23, 1338\u20131342 (2008).",
+        "journal-title": "Environmental Modelling & Software"
+      }
+    ],
+    "updated-by": [
+      {
+        "DOI": "10.1038/s41597-024-03035-3",
+        "type": "correction",
+        "label": "Correction",
+        "source": "publisher",
+        "updated": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              12
+            ]
+          ],
+          "date-time": "2024-02-12T00:00:00Z",
+          "timestamp": 1707696000000
+        }
+      }
+    ],
+    "container-title": [
+      "Scientific Data"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41597-023-02316-7.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41597-023-02316-7",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41597-023-02316-7.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          16
+        ]
+      ],
+      "date-time": "2024-02-16T13:05:38Z",
+      "timestamp": 1708088738000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41597-023-02316-7"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          20
+        ]
+      ]
+    },
+    "references-count": 61,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "2316"
+    ],
+    "URL": "https://doi.org/10.1038/s41597-023-02316-7",
+    "relation": {
+      "references": [
+        {
+          "id-type": "doi",
+          "id": "10.4211/hs.a1e329ad20654e72b7b423f991bf9251",
+          "asserted-by": "subject"
+        }
+      ],
+      "correction": [
+        {
+          "id-type": "doi",
+          "id": "10.1038/s41597-024-03035-3",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "ISSN": [
+      "2052-4463"
+    ],
+    "issn-type": [
+      {
+        "value": "2052-4463",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          20
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "23 October 2020",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "19 June 2023",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "20 October 2023",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "12 February 2024",
+        "order": 4,
+        "name": "change_date",
+        "label": "Change Date",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "Correction",
+        "order": 5,
+        "name": "change_type",
+        "label": "Change Type",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "A Correction to this paper has been published:",
+        "order": 6,
+        "name": "change_details",
+        "label": "Change Details",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "https://doi.org/10.1038/s41597-024-03035-3",
+        "URL": "https://doi.org/10.1038/s41597-024-03035-3",
+        "order": 7,
+        "name": "change_details",
+        "label": "Change Details",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "725"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1038/s41597-023-02316-7",
+  "original_doi": "10.1038/s41597-023-02316-7"
+}

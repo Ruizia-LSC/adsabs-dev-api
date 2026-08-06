@@ -1,0 +1,664 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          10
+        ]
+      ],
+      "date-time": "2025-04-10T04:31:59Z",
+      "timestamp": 1744259519892,
+      "version": "3.37.3"
+    },
+    "reference-count": 40,
+    "publisher": "IOP Publishing",
+    "issue": "12",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              19
+            ]
+          ],
+          "date-time": "2023-12-19T00:00:00Z",
+          "timestamp": 1702944000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 18,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              19
+            ]
+          ],
+          "date-time": "2023-12-19T00:00:00Z",
+          "timestamp": 1702944000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 18,
+        "URL": "https://iopscience.iop.org/info/page/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "iopscience.iop.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Environ. Res. Commun."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>We explored the complex relations between climate and streamflow in the Mid-Atlantic region of the United States. In 124 watersheds across this region, we quantified spatial and temporal variation in air temperature (AT), precipitation (P), and streamflow (Q) from 1981 through 2020. Upward directional trends in monthly values of AT, P, and Q indicated an increase of 0.27\u20131.9 degrees Celsius, 0.12\u20131.9 millimeters day<jats:sup>\u22121</jats:sup>, and 0.01\u20137.1 cubic meters s<jats:sup>\u22121</jats:sup> day<jats:sup>\u22121</jats:sup>, respectively, over the 40-year period. Comparison of the first 20 years to the last 20 years of data indicated an acceleration in the trend slopes in AT, P, and Q. Changes also were observed in temporal trends in the center of volume (CV) of both P and Q, which generally occurred later in the year; the 7-day mean low flow increased, and the annual day of occurrence of the 7-day mean low flow occurred earlier in the year. Principal components analysis revealed differences in P, Q, CVP, and CVQ trends in watersheds with median elevations greater than and less than 400 meters, as well as by latitude. A seasonal analysis revealed that P increased throughout the study area in spring, summer, and fall but decreased in winter. AT, P, and Q have broadly increased across the region over the 40-year period, and the temporal, spatial, and seasonal changes in P have affected Q. Results highlight the strong couplings between climatic variability and watershed responses.</jats:p>",
+    "DOI": "10.1088/2515-7620/ad13a4",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          19
+        ]
+      ],
+      "date-time": "2023-12-19T10:44:45Z",
+      "timestamp": 1702982685000
+    },
+    "page": "125008",
+    "update-policy": "https://doi.org/10.1088/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Examining the complex relations between climate and streamflow in the mid-atlantic region of the United States"
+    ],
+    "prefix": "10.1088",
+    "volume": "5",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9356-5443",
+        "authenticated-orcid": true,
+        "given": "Karen C",
+        "family": "Rice",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Christopher A",
+        "family": "Mason",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Aaron L",
+        "family": "Mills",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "266",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          19
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ercad13a4bib1",
+        "doi-asserted-by": "publisher",
+        "first-page": "5",
+        "DOI": "10.1029/2019WR025001",
+        "article-title": "Advances in quantifying streamflow variability across continental scales: 1. Identifying natural and anthropogenic controlling factors in the USA using a spatially explicit modelling method",
+        "volume": "5",
+        "author": "Alexander",
+        "year": "2019a",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ercad13a4bib2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR025037",
+        "article-title": "Advances in quantifying streamflow variability across continental scales: 2. Improved model regionalization and prediction uncertainties using hierarchical Bayesian methods",
+        "volume": "55",
+        "author": "Alexander",
+        "year": "2019b",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ercad13a4bib3",
+        "doi-asserted-by": "publisher",
+        "first-page": "228",
+        "DOI": "10.1038/nature01092a",
+        "article-title": "Constraints on future changes in climate and the hydrological cycle.",
+        "volume": "419",
+        "author": "Allen",
+        "year": "2002",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ercad13a4bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1143",
+        "DOI": "10.1111/1752-1688.12562",
+        "article-title": "Modeling summer month hydrological drought probabilities in the United States using antecedent flow conditions",
+        "volume": "53",
+        "author": "Austin",
+        "year": "2017",
+        "journal-title": "J. Am. Water Resour. As."
+      },
+      {
+        "key": "ercad13a4bib5",
+        "doi-asserted-by": "publisher",
+        "first-page": "71",
+        "DOI": "10.1007/s10533-012-9788-y",
+        "article-title": "The interactive effects of excess reactive nitrogen and climate change on aquatic ecosystems and water resources of the United States",
+        "volume": "114",
+        "author": "Baron",
+        "year": "2013",
+        "journal-title": "Biogeochemistry"
+      },
+      {
+        "key": "ercad13a4bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "492",
+        "DOI": "10.1007/s00267-002-2737-0",
+        "article-title": "Basic principles and ecological consequences of altered flow regimes for aquatic biodiversity",
+        "volume": "30",
+        "author": "Bunn",
+        "year": "2002",
+        "journal-title": "Environmental Management"
+      },
+      {
+        "key": "ercad13a4bib7",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2010WR009438",
+        "article-title": "Streamflow responses to past and future projected changes in climate at the hubbard brook experimental forest, new hampshire, United States",
+        "volume": "47",
+        "author": "Campbell",
+        "year": "2011",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "article-title": "Southeast",
+        "year": "2018",
+        "author": "Carter",
+        "key": "ercad13a4bib8"
+      },
+      {
+        "key": "ercad13a4bib9",
+        "doi-asserted-by": "publisher",
+        "first-page": "4335",
+        "DOI": "10.1029/JZ067i011p04335",
+        "article-title": "Measures of streamflow timing",
+        "volume": "67",
+        "author": "Court",
+        "year": "1962",
+        "journal-title": "J. Geophys. Res."
+      },
+      {
+        "key": "ercad13a4bib10",
+        "article-title": "Seasonality of climatic drivers of flood variability in the conterminous United States",
+        "volume": "9",
+        "author": "Dickinson",
+        "year": "2019",
+        "journal-title": "Nature research"
+      },
+      {
+        "key": "ercad13a4bib11",
+        "first-page": "65",
+        "volume": "1441",
+        "author": "Dieter",
+        "year": "2018",
+        "journal-title": "Estimated use of water in the United States in 2015. U.S. Geological Survey Circular"
+      },
+      {
+        "key": "ercad13a4bib12",
+        "doi-asserted-by": "publisher",
+        "first-page": "1167",
+        "DOI": "10.1016/j.envint.2005.03.004",
+        "article-title": "Climate change and changes in global precipitation patterns: what do we know?",
+        "volume": "31",
+        "author": "Dore",
+        "year": "2005",
+        "journal-title": "Environ. Int."
+      },
+      {
+        "key": "ercad13a4bib13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/70046617",
+        "article-title": "GAGES-II: Geospatial attributes of gages for evaluating streamflow",
+        "author": "Falcone",
+        "year": "2011",
+        "unstructured": "Falcone J A 2011 GAGES-II: Geospatial attributes of gages for evaluating streamflow 10.3133/70046617"
+      },
+      {
+        "key": "ercad13a4bib14",
+        "doi-asserted-by": "publisher",
+        "first-page": "64",
+        "DOI": "10.1175/1525-7541(2004)005<0064:CCOTHC>2.0.CO;2",
+        "article-title": "Contemporary changes of the hydrological cycle over the contiguous United States: trends derived from in situ observations",
+        "volume": "5",
+        "author": "Groisman",
+        "year": "2004",
+        "journal-title": "Journal of Hydrometerology"
+      },
+      {
+        "key": "ercad13a4bib15",
+        "doi-asserted-by": "publisher",
+        "first-page": "1159",
+        "DOI": "10.1126/science.aba3996",
+        "article-title": "Globally overved trends in mean and extreme river flow attributed to climate change.",
+        "volume": "371",
+        "author": "Gudmundsson",
+        "year": "2021",
+        "journal-title": "Science"
+      },
+      {
+        "key": "ercad13a4bib16",
+        "doi-asserted-by": "publisher",
+        "first-page": "29",
+        "DOI": "10.1177/0309133314536755",
+        "article-title": "Climate-driven changes in UK river flows: a review of the evidence",
+        "volume": "39",
+        "author": "Hannaford",
+        "year": "2015",
+        "journal-title": "Prog. Phys. Geog."
+      },
+      {
+        "key": "ercad13a4bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "15",
+        "DOI": "10.1007/s10584-021-03289-5",
+        "article-title": "Quantification of impacts between 1.5 and 4 \u00b0C of global warming on flooding risks in six countries",
+        "volume": "170",
+        "author": "He",
+        "year": "2022",
+        "journal-title": "Clim. Change"
+      },
+      {
+        "key": "ercad13a4bib18",
+        "doi-asserted-by": "publisher",
+        "first-page": "e03026",
+        "DOI": "10.1002/ecs2.3026",
+        "article-title": "Fish life history trends indicate increasing flow stachasticity in an unregulated river.",
+        "volume": "11",
+        "author": "Hitt",
+        "year": "2020",
+        "journal-title": "Ecosphere"
+      },
+      {
+        "key": "ercad13a4bib19",
+        "doi-asserted-by": "publisher",
+        "first-page": "244",
+        "DOI": "10.1016/S0022-1694(03)00155-0",
+        "article-title": "Changes in the timing of high river flows in New England over the 20th century",
+        "volume": "278",
+        "author": "Hodgkins",
+        "year": "2003",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "edition": "2nd edn",
+        "year": "2014",
+        "author": "Hornberger",
+        "key": "ercad13a4bib20"
+      },
+      {
+        "year": "2023",
+        "author": "Intergovernmental Panel on Climate Change",
+        "key": "ercad13a4bib21"
+      },
+      {
+        "key": "ercad13a4bib22",
+        "doi-asserted-by": "publisher",
+        "first-page": "346",
+        "DOI": "10.1080/03632415.2016.1186016",
+        "article-title": "Climate change effects on North American inland fish populations and assemblages",
+        "volume": "41",
+        "author": "Lynch",
+        "year": "2016",
+        "journal-title": "Fisheries"
+      },
+      {
+        "key": "ercad13a4bib23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5066/P9ZJ8OLR)",
+        "article-title": "Selected inputs for examining the complex relations between climate and streamflow in the Mid-Atlantic region of the United States",
+        "author": "Mason",
+        "year": "2023",
+        "unstructured": "Mason C A Rice K C Mills A L 2023 Selected inputs for examining the complex relations between climate and streamflow in the Mid-Atlantic region of the United States U.S. Geological Survey Data Release ( https://doi.org/10.5066/P9ZJ8OLR )"
+      },
+      {
+        "key": "ercad13a4bib24",
+        "doi-asserted-by": "publisher",
+        "first-page": "427",
+        "DOI": "10.1175/1520-0477(2000)081<0427:TIEWAC>2.3.CO;2",
+        "article-title": "Trends in extreme weather and climate events: Issues related to modeling extremes in projections of future climate change",
+        "volume": "81",
+        "author": "Meehl",
+        "year": "2000",
+        "journal-title": "Bull. Am. Meteorol. Soc."
+      },
+      {
+        "article-title": "Parameter-elevation regressions on independent slopes model, PRISM climate group, Northwest alliance for computational science & engineering",
+        "year": "2023",
+        "author": "NACSE-PRISM",
+        "key": "ercad13a4bib25"
+      },
+      {
+        "year": "2023",
+        "author": "NCAR",
+        "key": "ercad13a4bib26"
+      },
+      {
+        "key": "ercad13a4bib27",
+        "doi-asserted-by": "publisher",
+        "first-page": "7278",
+        "DOI": "10.1002/2013WR014618",
+        "article-title": "Climate and direct human contributions to changes in mean annual streamflow in the South Atlantic, USA",
+        "volume": "49",
+        "author": "Patterson",
+        "year": "2013",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "ercad13a4bib28",
+        "article-title": "Power comparisons of Shapiro-Wilk, Kolmogorov-Smirnov, Lilliefors and Anderson-Darling tests",
+        "author": "Razali",
+        "year": "2011",
+        "journal-title": "J. Stat. Model"
+      },
+      {
+        "key": "ercad13a4bib29",
+        "first-page": "p 1515",
+        "volume": "vol II",
+        "author": "Reidmiller",
+        "year": "2018"
+      },
+      {
+        "key": "ercad13a4bib30",
+        "doi-asserted-by": "publisher",
+        "first-page": "246",
+        "DOI": "10.1016/j.jenvman.2017.08.057",
+        "article-title": "Riverine discharges to chesapeake bay: analysis of long-term (1927-2014) records and implications for future flows in the chesapeake bay basin",
+        "volume": "204",
+        "author": "Rice",
+        "year": "2017",
+        "journal-title": "J. Environ. Manage."
+      },
+      {
+        "year": "2023",
+        "author": "SAS-JMP",
+        "key": "ercad13a4bib31"
+      },
+      {
+        "key": "ercad13a4bib32",
+        "doi-asserted-by": "publisher",
+        "first-page": "441",
+        "DOI": "10.1038/s41558-022-01329-1",
+        "article-title": "Constraining the increased frequency of global precipitation extremes under warming",
+        "volume": "12",
+        "author": "Thackeray",
+        "year": "2022",
+        "journal-title": "Nat. Clim. Change"
+      },
+      {
+        "key": "ercad13a4bib33",
+        "doi-asserted-by": "publisher",
+        "first-page": "123",
+        "DOI": "10.3354/cr00953",
+        "article-title": "Changes in precipitation with climate change",
+        "volume": "47",
+        "author": "Trenberth",
+        "year": "2011",
+        "journal-title": "Climate Research"
+      },
+      {
+        "key": "ercad13a4bib34",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-94-015-9265-9_18",
+        "article-title": "Conceptual framework for changes of extremes of the hydrological cycle with climate change",
+        "author": "Trenberth",
+        "year": "1999"
+      },
+      {
+        "article-title": "Discharge measurements at gaging stations: U.S. Geological Survey Techniques and Methods book 3",
+        "year": "2010",
+        "author": "Turnipseed",
+        "key": "ercad13a4bib35"
+      },
+      {
+        "year": "2023",
+        "author": "US Census Bureau",
+        "key": "ercad13a4bib36"
+      },
+      {
+        "year": "2022",
+        "author": "USGS",
+        "key": "ercad13a4bib37"
+      },
+      {
+        "year": "2023",
+        "author": "USGS",
+        "key": "ercad13a4bib38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5066/F7P55KJN)"
+      },
+      {
+        "key": "ercad13a4bib39",
+        "doi-asserted-by": "publisher",
+        "first-page": "3547",
+        "DOI": "10.1002/hyp.13278",
+        "article-title": "Systematic variation in evapotranspiration trends and drivers across the northeastern United States",
+        "volume": "32",
+        "author": "Vadeboncoeur",
+        "year": "2018",
+        "journal-title": "Hydrol. Processes"
+      },
+      {
+        "key": "ercad13a4bib40",
+        "doi-asserted-by": "publisher",
+        "first-page": "314",
+        "DOI": "10.1126/science.aaz9600",
+        "article-title": "Large contribution from anthropogenic warming to an emerging North American megadrought",
+        "volume": "368",
+        "author": "Williams",
+        "year": "2020",
+        "journal-title": "Science"
+      }
+    ],
+    "container-title": [
+      "Environmental Research Communications"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/2515-7620/ad13a4",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/2515-7620/ad13a4/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/2515-7620/ad13a4/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1088/2515-7620/ad13a4/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          19
+        ]
+      ],
+      "date-time": "2023-12-19T10:44:51Z",
+      "timestamp": 1702982691000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://iopscience.iop.org/article/10.1088/2515-7620/ad13a4"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          1
+        ]
+      ]
+    },
+    "references-count": 40,
+    "journal-issue": {
+      "issue": "12",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            19
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1088/2515-7620/ad13a4",
+    "relation": {},
+    "ISSN": [
+      "2515-7620"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "2515-7620"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Examining the complex relations between climate and streamflow in the mid-atlantic region of the United States",
+        "name": "article_title",
+        "label": "Article Title"
+      },
+      {
+        "value": "Environmental Research Communications",
+        "name": "journal_title",
+        "label": "Journal Title"
+      },
+      {
+        "value": "paper",
+        "name": "article_type",
+        "label": "Article Type"
+      },
+      {
+        "value": "\u00a9 2023 The Author(s). Published by IOP Publishing Ltd",
+        "name": "copyright_information",
+        "label": "Copyright Information"
+      },
+      {
+        "value": "2023-05-08",
+        "name": "date_received",
+        "label": "Date Received",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "2023-12-08",
+        "name": "date_accepted",
+        "label": "Date Accepted",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "2023-12-19",
+        "name": "date_epub",
+        "label": "Online publication date",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.1088/2515-7620/ad13a4",
+  "original_doi": "10.1088/2515-7620/ad13a4"
+}

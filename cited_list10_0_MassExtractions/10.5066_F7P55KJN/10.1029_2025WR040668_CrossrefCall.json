@@ -1,0 +1,513 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          18
+        ]
+      ],
+      "date-time": "2025-11-18T10:30:29Z",
+      "timestamp": 1763461829950,
+      "version": "3.45.0"
+    },
+    "reference-count": 46,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              28
+            ]
+          ],
+          "date-time": "2025-10-28T00:00:00Z",
+          "timestamp": 1761609600000
+        },
+        "content-version": "am",
+        "delay-in-days": 27,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              28
+            ]
+          ],
+          "date-time": "2025-10-28T00:00:00Z",
+          "timestamp": 1761609600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 27,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "EAR\u20102049687"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "EAR\u20102049687"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Modern integrated hydrologic models (IHMs) are powerful tools for investigating coupled hydrologic system dynamics. The tradeoff for this realism is a high computational burden and large numbers of parameters in each cell, few of which can be specified with a high degree of confidence. These factors combined make uncertainty quantification (UQ) a problem for IHM\u2010based simulations, yet without rigorous UQ, it is not clear how much confidence can be placed on conclusions made with IHMs. Previous work evaluated steady\u2010state cases where the permeability field was a random variable, and a logical continuation is to consider transient conditions. This work assesses the confidence of an IHM representation of a first\u2010order basin in central Idaho, USA, using an ensemble of 250 permeability realizations under three different recharge forcing signals. The results show that surface water is simulated with high confidence across all the permeability realizations, but the groundwater system and changes to it have lower confidence. However, uncertainty in changes to the groundwater system decrease with time since an increase in the recharge, meaning that the farther one gets from a \u201cpeak\u201d in the flow (of any size) the more confident one can be in the response (i.e., smaller inter\u2010quartile range). The ensemble was also used to assess how many realizations were needed to capture expected behaviors of the ensemble and their range of variability. Unsurprisingly, groundwater requires larger ensembles than surface flows, but the size of the ensembles necessary for convergence were smaller than initially expected.</jats:p>",
+    "DOI": "10.1029/2025wr040668",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          28
+        ]
+      ],
+      "date-time": "2025-10-28T14:55:04Z",
+      "timestamp": 1761663304000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Impacts of Uncertain Permeability Fields on the Transient Hydrologic Response in Coupled Surface\u2010Subsurface Simulations of a Headwaters Catchment"
+    ],
+    "prefix": "10.1029",
+    "volume": "61",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7441-6330",
+        "authenticated-orcid": false,
+        "given": "Nicholas B.",
+        "family": "Engdahl",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Civil and Environmental Engineering Washington State University  Pullman WA USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          28
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_10_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eco.1729"
+      },
+      {
+        "key": "e_1_2_10_3_1",
+        "first-page": "1",
+        "article-title": "Uncertainty in water transit time estimation with storage selection functions and tracer data interpolation",
+        "author": "Borriero A.",
+        "year": "2022",
+        "journal-title": "Hydrology and Earth System Sciences Discussions"
+      },
+      {
+        "key": "e_1_2_10_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745\u20106584.2011.00882.x"
+      },
+      {
+        "key": "e_1_2_10_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s44221\u2010024\u201000239\u20100"
+      },
+      {
+        "key": "e_1_2_10_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR026i007p01483"
+      },
+      {
+        "key": "e_1_2_10_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467\u2010020\u201014688\u20100"
+      },
+      {
+        "key": "e_1_2_10_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019wr026010"
+      },
+      {
+        "key": "e_1_2_10_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cageo.2019.01.020"
+      },
+      {
+        "key": "e_1_2_10_10_1",
+        "unstructured": "Coon E. Svyatsky D. Jan A. Kikinzon E. Berndt M. Atchley A. et\u00a0al. (2019).Advanced terrestrial simulator.https://doi.org/10.11578/dc.20190911.1"
+      },
+      {
+        "key": "e_1_2_10_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.11481"
+      },
+      {
+        "key": "e_1_2_10_12_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Engdahl N. B.(2024a).Fourth of July creek ensemble simulation outputs[dataset].Washington State University Research Exchange.https://doi.org/10.7273/000004796",
+        "DOI": "10.7273/000004796"
+      },
+      {
+        "key": "e_1_2_10_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023WR035975"
+      },
+      {
+        "key": "e_1_2_10_14_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Engdahl N. B.(2025).Fourth of July creek transient simulation outputs[dataset].Washington State University Research Exchange.https://doi.org/10.7273/000007134",
+        "DOI": "10.7273/000007134"
+      },
+      {
+        "key": "e_1_2_10_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2014.12.032"
+      },
+      {
+        "key": "e_1_2_10_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1130/l565.1"
+      },
+      {
+        "key": "e_1_2_10_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2009.06.038"
+      },
+      {
+        "key": "e_1_2_10_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201023\u20101931\u20102019"
+      },
+      {
+        "key": "e_1_2_10_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745\u20106584.2007.00316.x"
+      },
+      {
+        "key": "e_1_2_10_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0309\u20101708(00)00075\u20100"
+      },
+      {
+        "key": "e_1_2_10_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2005.08.006"
+      },
+      {
+        "key": "e_1_2_10_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016wr019191"
+      },
+      {
+        "key": "e_1_2_10_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/gmd\u201013\u20101373\u20102020"
+      },
+      {
+        "key": "e_1_2_10_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008jd010969"
+      },
+      {
+        "key": "e_1_2_10_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.10851"
+      },
+      {
+        "key": "e_1_2_10_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2012.10.001"
+      },
+      {
+        "key": "e_1_2_10_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eco.2042"
+      },
+      {
+        "key": "e_1_2_10_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM422.1"
+      },
+      {
+        "key": "e_1_2_10_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2013wr013725"
+      },
+      {
+        "key": "e_1_2_10_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10040-011-0753-y"
+      },
+      {
+        "key": "e_1_2_10_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w13010028"
+      },
+      {
+        "key": "e_1_2_10_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.3955"
+      },
+      {
+        "key": "e_1_2_10_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2014.09.006"
+      },
+      {
+        "key": "e_1_2_10_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR018300"
+      },
+      {
+        "key": "e_1_2_10_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eco.1779"
+      },
+      {
+        "key": "e_1_2_10_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR027714"
+      },
+      {
+        "key": "e_1_2_10_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0959683615571423"
+      },
+      {
+        "key": "e_1_2_10_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022wr033282"
+      },
+      {
+        "key": "e_1_2_10_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR029390"
+      },
+      {
+        "key": "e_1_2_10_40_1",
+        "article-title": "National land cover database (nlcd) 2001 land cover conterminous United States (version 2.0, July 2024)",
+        "author": "USGS",
+        "year": "2024",
+        "journal-title": "U.S. Geological Survey (USGS)"
+      },
+      {
+        "key": "e_1_2_10_41_1",
+        "article-title": "National water information system",
+        "author": "USGS",
+        "year": "2024",
+        "journal-title": "U.S. Geological Survey (USGS)"
+      },
+      {
+        "key": "e_1_2_10_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2018.06.009"
+      },
+      {
+        "key": "e_1_2_10_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/2011JHM1363.1"
+      },
+      {
+        "key": "e_1_2_10_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR025140"
+      },
+      {
+        "key": "e_1_2_10_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017wr020894"
+      },
+      {
+        "key": "e_1_2_10_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2010WR010090"
+      },
+      {
+        "key": "e_1_2_10_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748\u20109326/ab0db3"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025WR040668",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025WR040668",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          18
+        ]
+      ],
+      "date-time": "2025-11-18T10:23:16Z",
+      "timestamp": 1763461396000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025WR040668"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "references-count": 46,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2025WR040668"
+    ],
+    "URL": "https://doi.org/10.1029/2025wr040668",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0043-1397"
+      },
+      {
+        "type": "electronic",
+        "value": "1944-7973"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2025-03-30",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-09-21",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-10-28",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2025WR040668"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2025WR040668",
+  "original_doi": "10.1029/2025WR040668"
+}
