@@ -1,0 +1,822 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          31
+        ]
+      ],
+      "date-time": "2026-07-31T02:54:22Z",
+      "timestamp": 1785466462410,
+      "version": "3.56.0"
+    },
+    "reference-count": 46,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              19
+            ]
+          ],
+          "date-time": "2025-02-19T00:00:00Z",
+          "timestamp": 1739923200000
+        },
+        "content-version": "am",
+        "delay-in-days": 324,
+        "URL": "http://www.elsevier.com/open-access/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000203",
+        "name": "US Geological Survey",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Advances in Water Resources"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.advwatres.2024.104658",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          9
+        ]
+      ],
+      "date-time": "2024-02-09T08:21:30Z",
+      "timestamp": 1707466890000
+    },
+    "page": "104658",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 14,
+    "special_numbering": "C",
+    "title": [
+      "Precipitation uncertainty estimation and rainfall-runoff model calibration using iterative ensemble smoothers"
+    ],
+    "prefix": "10.1016",
+    "volume": "186",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0313-1690",
+        "authenticated-orcid": false,
+        "given": "Davide",
+        "family": "Zoccatelli",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9050-4266",
+        "authenticated-orcid": false,
+        "given": "Daniel B.",
+        "family": "Wright",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jeremy T.",
+        "family": "White",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael N.",
+        "family": "Fienen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6490-7504",
+        "authenticated-orcid": false,
+        "given": "Guo",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0001",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Abbas, S.A., Bailey, R.T., White, J.T., Arnold, J.G., White, M.J., \u010cerkasova, N., Gao, J., 2023. A framework for parameter estimation, sensitivity analysis, and uncertainty analysis for holistic hydrologic modeling using SWAT+ (preprint). Catchment Hydrol./Model. Approaches. 10.5194/hess-2023-127.",
+        "DOI": "10.5194/hess-2023-127"
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0002",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2005WR004745",
+        "article-title": "An integrated hydrologic Bayesian multimodel combination framework: confronting input, parameter, and model structural uncertainty in hydrologic prediction: an integrated bayesian multimodel framework",
+        "volume": "43",
+        "author": "Ajami",
+        "year": "2007",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0003",
+        "doi-asserted-by": "crossref",
+        "first-page": "77",
+        "DOI": "10.5194/hess-12-77-2008",
+        "article-title": "Influence of rainfall observation network on model calibration and application",
+        "volume": "13",
+        "author": "Bardossy",
+        "year": "2008",
+        "journal-title": "Hydrol. Earth. Syst. Sci."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0004",
+        "doi-asserted-by": "crossref",
+        "first-page": "473",
+        "DOI": "10.1175/BAMS-D-17-0138.1",
+        "article-title": "MSWEP V2 global 3-hourly 0.1\u00b0 precipitation: methodology and quantitative assessment",
+        "volume": "100",
+        "author": "Beck",
+        "year": "2019",
+        "journal-title": "Bull. Am. Meteorol. Soc."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0005",
+        "series-title": "Curse-of-Dimensionality Revisited: Collapse of the Particle Filter in Very Large Scale Systems",
+        "first-page": "316",
+        "author": "Bengtsson",
+        "year": "2008"
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0006",
+        "doi-asserted-by": "crossref",
+        "first-page": "689",
+        "DOI": "10.1007/s10596-013-9351-5",
+        "article-title": "Levenberg\u2013Marquardt forms of the iterative ensemble smoother for efficient history matching and uncertainty quantification",
+        "volume": "17",
+        "author": "Chen",
+        "year": "2013",
+        "journal-title": "Comput. Geosci."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0007",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1007/s11004-011-9376-z",
+        "article-title": "Ensemble randomized maximum likelihood method as an iterative ensemble smoother",
+        "volume": "44",
+        "author": "Chen",
+        "year": "2012",
+        "journal-title": "Math. Geosci."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0008",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2020WR029001",
+        "article-title": "The abuse of popular performance metrics in hydrologic modeling",
+        "volume": "57",
+        "author": "Clark",
+        "year": "2021",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0009",
+        "doi-asserted-by": "crossref",
+        "first-page": "L06406",
+        "DOI": "10.1029/2005GL025604",
+        "article-title": "Unraveling uncertainties in hydrologic model calibration: addressing the problem of compensatory parameters",
+        "volume": "33",
+        "author": "Clark",
+        "year": "2006",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "3162",
+        "DOI": "10.1002/2015WR017871",
+        "article-title": "Describing the catchment-averaged precipitation as a stochastic process improves parameter and input estimation: improving input uncertainty quantification",
+        "volume": "52",
+        "author": "Del Giudice",
+        "year": "2016",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0011",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jhydrol.2021.127406",
+        "article-title": "A hybrid approach for integrated surface and subsurface hydrologic simulation of baseflow with Iterative Ensemble Smoother",
+        "volume": "606",
+        "author": "Delottier",
+        "year": "2022",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0012",
+        "unstructured": "Dewitz, J., 2021. National Land Cover Database (NLCD) 2019 Products. 10.5066/P9KZCM54."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0013",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2011WR010763",
+        "article-title": "Use of paired simple and complex models to reduce predictive bias and quantify uncertainty",
+        "volume": "47",
+        "author": "Doherty",
+        "year": "2011",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0014",
+        "unstructured": "Du, J., 2011. NCEP/EMC 4KM Gridded Data (GRIB) Stage IV Data. Version 1.0. UCAR/NCAR - earth observing laboratory. [WWW Document]. URL 10.5065/D6PG1QDD (accessed 6.10.21)."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0015",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Eash, D.A., 2006. Flood of May 23, 2004, in the Turkey and Maquoketa River basins, Northeast Iowa (USGS Numbered Series No. 2006\u20131067), Flood of May 23, 2004, in the Turkey and Maquoketa River basins, Northeast Iowa, Open-File Report. U.S. Geological Survey, Reston, VA. 10.3133/ofr20061067.",
+        "DOI": "10.3133/ofr20061067"
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0016",
+        "doi-asserted-by": "crossref",
+        "first-page": "359",
+        "DOI": "10.1198/016214506000001437",
+        "article-title": "Strictly proper scoring rules, prediction, and estimation",
+        "volume": "102",
+        "author": "Gneiting",
+        "year": "2007",
+        "journal-title": "J. Am. Stat. Assoc."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0017",
+        "doi-asserted-by": "crossref",
+        "first-page": "80",
+        "DOI": "10.1016/j.jhydrol.2009.08.003",
+        "article-title": "Decomposition of the mean squared error and NSE performance criteria: implications for improving hydrological modelling",
+        "volume": "377",
+        "author": "Gupta",
+        "year": "2009",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0018",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2021WR031650",
+        "article-title": "Ensemble representation of satellite precipitation uncertainty using a nonstationary, Anisotropic Autocorrelation Model",
+        "volume": "58",
+        "author": "Hartke",
+        "year": "2022",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0019",
+        "unstructured": "Iowa Flood Center, 2014. Hydrologic assessment of the Turkey River Watershed (No. IIHR Technical Report No)."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0020",
+        "article-title": "Bayesian analysis of input uncertainty in hydrological modeling: 2. Application",
+        "volume": "42",
+        "author": "Kavetski",
+        "year": "2006",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0021",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2020WR027924",
+        "article-title": "Integrated hydrology and operations modeling to evaluate climate change impacts in an agricultural valley irrigated with snowmelt runoff",
+        "volume": "57",
+        "author": "Kitlasten",
+        "year": "2021",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0022",
+        "doi-asserted-by": "crossref",
+        "first-page": "6625",
+        "DOI": "10.1029/2018WR024461",
+        "article-title": "Gradient-based inverse estimation for a rainfall-runoff model",
+        "volume": "55",
+        "author": "Krapu",
+        "year": "2019",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0023",
+        "doi-asserted-by": "crossref",
+        "first-page": "161",
+        "DOI": "10.1016/j.jhydrol.2006.05.010",
+        "article-title": "Towards a Bayesian total error analysis of conceptual rainfall-runoff models: characterising model error using storm-dependent parameters",
+        "volume": "331",
+        "author": "Kuczera",
+        "year": "2006",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0024",
+        "doi-asserted-by": "crossref",
+        "first-page": "129",
+        "DOI": "10.1016/j.envsoft.2015.02.010",
+        "article-title": "Assessment of the different sources of uncertainty in a SWAT model of the River Senne (Belgium)",
+        "volume": "68",
+        "author": "Leta",
+        "year": "2015",
+        "journal-title": "Environ. Model. Softw."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0025",
+        "first-page": "1",
+        "article-title": "Toward a globally-applicable uncertainty quantification framework for satellite multisensor precipitation products based on GPM DPR",
+        "volume": "61",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Geosci. Remote Sens."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0026",
+        "doi-asserted-by": "crossref",
+        "first-page": "272",
+        "DOI": "10.1016/S0022-1694(97)00041-3",
+        "article-title": "Development and test of the distributed HBV-96 hydrological model",
+        "volume": "201",
+        "author": "Lindstr\u00f6m",
+        "year": "1997",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0027",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1002/hyp.14410",
+        "article-title": "Leveraging ensemble meteorological forcing data to improve parameter estimation of hydrologic models",
+        "volume": "35",
+        "author": "Liu",
+        "year": "2021",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0028",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.petrol.2019.106559",
+        "article-title": "Automatic and adaptive localization for ensemble-based history matching",
+        "volume": "184",
+        "author": "Luo",
+        "year": "2020",
+        "journal-title": "J. Pet. Sci. Eng."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0029",
+        "doi-asserted-by": "crossref",
+        "first-page": "897",
+        "DOI": "10.1175/JTECH-D-11-00103.1",
+        "article-title": "An overview of the global historical climatology network-daily database",
+        "volume": "29",
+        "author": "Menne",
+        "year": "2012",
+        "journal-title": "J. Atmosph. Ocean. Technol."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0030",
+        "article-title": "Global historical climatology network - daily (GHCN-Daily), Version 3. [WWW Document]",
+        "author": "Menne",
+        "year": "2012",
+        "journal-title": "NOAA Natl. Clim. Data Cent."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0031",
+        "doi-asserted-by": "crossref",
+        "first-page": "1633",
+        "DOI": "10.5194/hess-11-1633-2007",
+        "article-title": "Updated world map of the K\u00f6ppen-Geiger climate classification",
+        "volume": "11",
+        "author": "Peel",
+        "year": "2007",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0032",
+        "doi-asserted-by": "crossref",
+        "first-page": "3315",
+        "DOI": "10.5194/hess-16-3315-2012",
+        "article-title": "Teaching hydrological modeling with a user-friendly catchment-runoff-model software package",
+        "volume": "16",
+        "author": "Seibert",
+        "year": "2012",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0033",
+        "doi-asserted-by": "crossref",
+        "first-page": "1658",
+        "DOI": "10.1175/JHM-D-14-0169.1",
+        "article-title": "Comparison of single- and dual-polarization\u2013based rainfall estimates using NEXRAD data for the NASA iowa flood studies project",
+        "volume": "16",
+        "author": "Seo",
+        "year": "2015",
+        "journal-title": "J. Hydrometeorol."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0034",
+        "doi-asserted-by": "crossref",
+        "first-page": "1793",
+        "DOI": "10.1175/JHM-D-18-0080.1",
+        "article-title": "Comprehensive evaluation of the IFloodS radar rainfall products for hydrologic applications",
+        "volume": "19",
+        "author": "Seo",
+        "year": "2018",
+        "journal-title": "J. Hydrometeorol."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "1095",
+        "DOI": "10.1016/j.jhydrol.2015.08.061",
+        "article-title": "Significant uncertainty in global scale hydrological modeling from precipitation data errors",
+        "volume": "529",
+        "author": "Sperna Weiland",
+        "year": "2015",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0036",
+        "doi-asserted-by": "crossref",
+        "first-page": "12",
+        "DOI": "10.1016/j.advwatres.2018.10.015",
+        "article-title": "Modelling precipitation uncertainties in a multi-objective Bayesian ecohydrological setting",
+        "volume": "123",
+        "author": "Tang",
+        "year": "2019",
+        "journal-title": "Adv. Water Resour."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0037",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2008WR006825",
+        "article-title": "Critical evaluation of parameter consistency and predictive uncertainty in hydrological modeling: a case study using Bayesian total error analysis",
+        "volume": "45",
+        "author": "Thyer",
+        "year": "2009",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0038",
+        "doi-asserted-by": "crossref",
+        "first-page": "2060",
+        "DOI": "10.1002/grl.50320",
+        "article-title": "Modeling errors in daily precipitation measurements: additive or multiplicative?",
+        "volume": "40",
+        "author": "Tian",
+        "year": "2013",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0039",
+        "doi-asserted-by": "crossref",
+        "first-page": "66",
+        "DOI": "10.1016/j.scitotenv.2016.08.034",
+        "article-title": "Evaluation of precipitation input for SWAT modeling in Alpine catchment: a case study in the Adige river basin (Italy)",
+        "volume": "573",
+        "author": "Tuo",
+        "year": "2016",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0040",
+        "unstructured": "U. S. Geological Survey, 1994. USGS Water Data For the Nation. 10.5066/F7P55KJN."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0041",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2007WR006720",
+        "article-title": "Treatment of input uncertainty in hydrologic modeling: doing hydrology backward with Markov chain Monte Carlo simulation",
+        "volume": "44",
+        "author": "Vrugt",
+        "year": "2008",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0042",
+        "doi-asserted-by": "crossref",
+        "first-page": "1011",
+        "DOI": "10.1007/s00477-008-0274-y",
+        "article-title": "Equifinality of formal (DREAM) and informal (GLUE) Bayesian approaches in hydrologic modeling?",
+        "volume": "23",
+        "author": "Vrugt",
+        "year": "2009",
+        "journal-title": "Stoch. Environ. Res. Risk Assess."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0043",
+        "doi-asserted-by": "crossref",
+        "first-page": "191",
+        "DOI": "10.1016/j.envsoft.2018.06.009",
+        "article-title": "A model-independent iterative ensemble smoother for efficient history-matching and uncertainty quantification in very high dimensions",
+        "volume": "109",
+        "author": "White",
+        "year": "2018",
+        "journal-title": "Environ. Model. Softw."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0044",
+        "series-title": "Techniques and Methods",
+        "author": "White",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0045",
+        "doi-asserted-by": "crossref",
+        "first-page": "2225",
+        "DOI": "10.5194/hess-23-2225-2019",
+        "article-title": "Process-based flood frequency analysis in an agricultural watershed exhibiting nonstationary flood seasonality",
+        "volume": "23",
+        "author": "Yu",
+        "year": "2019",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "key": "10.1016/j.advwatres.2024.104658_bib0046",
+        "doi-asserted-by": "crossref",
+        "first-page": "1716",
+        "DOI": "10.1002/2017WR020906",
+        "article-title": "An Iterative Local Updating Ensemble Smoother for Estimation and Uncertainty Assessment of Hydrologic Model Parameters With Multimodal Distributions",
+        "volume": "54",
+        "author": "Zhang",
+        "year": "2018",
+        "journal-title": "Water Resour. Res."
+      }
+    ],
+    "container-title": [
+      "Advances in Water Resources"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0309170824000459?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0309170824000459?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          7
+        ]
+      ],
+      "date-time": "2025-01-07T17:46:09Z",
+      "timestamp": 1736271969000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0309170824000459"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "references-count": 46,
+    "alternative-id": [
+      "S0309170824000459"
+    ],
+    "URL": "https://doi.org/10.1016/j.advwatres.2024.104658",
+    "relation": {},
+    "ISSN": [
+      "0309-1708"
+    ],
+    "issn-type": [
+      {
+        "value": "0309-1708",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Precipitation uncertainty estimation and rainfall-runoff model calibration using iterative ensemble smoothers",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Advances in Water Resources",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.advwatres.2024.104658",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "\u00a9 2024 Elsevier Ltd. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "104658"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1016/j.advwatres.2024.104658",
+  "original_doi": "10.1016/j.advwatres.2024.104658"
+}

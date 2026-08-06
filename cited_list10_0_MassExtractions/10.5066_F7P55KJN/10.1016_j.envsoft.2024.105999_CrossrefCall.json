@@ -1,0 +1,990 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          20
+        ]
+      ],
+      "date-time": "2026-05-20T17:22:18Z",
+      "timestamp": 1779297738082,
+      "version": "3.51.4"
+    },
+    "reference-count": 73,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2024-05-01T00:00:00Z",
+          "timestamp": 1714521600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2024-05-01T00:00:00Z",
+          "timestamp": 1714521600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2026-04-01T00:00:00Z",
+          "timestamp": 1775001600000
+        },
+        "content-version": "am",
+        "delay-in-days": 700,
+        "URL": "http://www.elsevier.com/open-access/userlicense/1.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Environmental Modelling &amp; Software"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.envsoft.2024.105999",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          12
+        ]
+      ],
+      "date-time": "2024-03-12T05:02:15Z",
+      "timestamp": 1710219735000
+    },
+    "page": "105999",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "special_numbering": "C",
+    "title": [
+      "Design and calibration of a nitrate decision support tool for groundwater wells in Wisconsin, USA"
+    ],
+    "prefix": "10.1016",
+    "volume": "176",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3613-1761",
+        "authenticated-orcid": false,
+        "given": "Paul F.",
+        "family": "Juckem",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Nicholas T.",
+        "family": "Corson-Dosch",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Laura A.",
+        "family": "Schachter",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Christopher T.",
+        "family": "Green",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Kelsie M.",
+        "family": "Ferin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Eric G.",
+        "family": "Booth",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Christopher J.",
+        "family": "Kucharik",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Brian P.",
+        "family": "Austin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Leon J.",
+        "family": "Kauffman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib1",
+        "series-title": "Applied Groundwater Modeling: Simulation of Flow and Advective Transport",
+        "first-page": "564p",
+        "author": "Anderson",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib2",
+        "series-title": "Compiled Age Tracer and Redox Chemistry Data for the State of Wisconsin, 1987-2009",
+        "author": "Baker",
+        "year": "2024"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.envsoft.2024.105999_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "2319",
+        "DOI": "10.1029/95WR01584",
+        "article-title": "Combined use of groundwater dating, chemical, and isotopic analyses to resolve the history and fate of nitrate contamination in two agricultural watersheds, atlantic coastal plain, Maryland",
+        "volume": "31",
+        "author": "B\u00f6hlke",
+        "year": "1995",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib4",
+        "series-title": "County-Level Estimates of Nitrogen and Phosphorus from Commercial Fertilizer for the Conterminous United States, 1987-2012",
+        "author": "Brakebill",
+        "year": "2017"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.envsoft.2024.105999_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1029/2020GB006626",
+        "article-title": "Long-term shifts in U.S. Nitrogen sources and sinks revealed by the new TREND-nitrogen data set (1930\u20132017)",
+        "volume": "34",
+        "author": "Byrnes",
+        "year": "2020",
+        "journal-title": "Global Biogeochem. Cycles"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.envsoft.2024.105999_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "21",
+        "DOI": "10.1111/gwat.13217",
+        "article-title": "Quantifying annual nitrogen loss to groundwater via edge\u2010of\u2010field monitoring: method and application",
+        "volume": "61",
+        "author": "Cardiff",
+        "year": "2022",
+        "journal-title": "Groundwater"
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib7",
+        "article-title": "Determining timescales for groundwater flow and solute transport",
+        "volume": "vols. 1\u201330",
+        "author": "Cook",
+        "year": "2000"
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib8",
+        "series-title": "GIS Files Required to Run the Groundwater Nitrate Decision Support Tool for Wisconsin",
+        "author": "Corson-Dosch",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib9",
+        "series-title": "Parameter Ensemble Files Required to Run the Groundwater Nitrate Decision Support Tool for Wisconsin",
+        "author": "Corson-Dosch",
+        "year": "2024"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.envsoft.2024.105999_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "153",
+        "DOI": "10.2134/agronj2002.1530",
+        "article-title": "Nitrogen management strategies to reduce nitrate leaching in tile-drained midwestern soils",
+        "volume": "94",
+        "author": "Dinnes",
+        "year": "2002",
+        "journal-title": "Agron. J."
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib11",
+        "series-title": "PEST: Model-independent Parameter Estimation User Manual",
+        "author": "Doherty",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib12",
+        "series-title": "Approaches to Highly Parameterized Inversion : Pilot-Point Theory , Guidelines , and Research Directions",
+        "author": "Doherty",
+        "year": "2010"
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib13",
+        "series-title": "Approaches to Highly Parameterized Inversion: A Guide to Using PEST for Groundwater-Model Calibration",
+        "author": "Doherty",
+        "year": "2010"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.envsoft.2024.105999_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "170",
+        "DOI": "10.1111/j.1745-6584.2003.tb02580.x",
+        "article-title": "Ground water model calibration using pilot points and regularization",
+        "volume": "41",
+        "author": "Doherty",
+        "year": "2003",
+        "journal-title": "Ground Water"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.envsoft.2024.105999_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1029/2020WR028207",
+        "article-title": "Machine learning predicted redox conditions in the glacial aquifer system, northern continental United States",
+        "volume": "57",
+        "author": "Erickson",
+        "year": "2021",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.envsoft.2024.105999_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "90",
+        "DOI": "10.1080/07011784.2019.1692697",
+        "article-title": "Evaluation of nutrient beneficial management practices on nitrate loading to groundwater in a southern ontario agricultural landscape",
+        "volume": "45",
+        "author": "Esmaeili",
+        "year": "2020",
+        "journal-title": "Can. Water Resour. J."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.envsoft.2024.105999_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "893",
+        "DOI": "10.1214/06-BA129",
+        "article-title": "Checking for prior-data conflict",
+        "volume": "1",
+        "author": "Evans",
+        "year": "2006",
+        "journal-title": "Bayesian Analysis"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.envsoft.2024.105999_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "71",
+        "DOI": "10.1111/gwat.13129",
+        "article-title": "Risk\u2010based wellhead protection decision support: a repeatable workflow approach",
+        "volume": "60",
+        "author": "Fienen",
+        "year": "2022",
+        "journal-title": "Ground Water"
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib19",
+        "series-title": "\u201cEstimating 1970\u201399 Average Annual Groundwater Recharge in Wisconsin Using Streamflow Data: U.S. Geological Survey Open-File Report 2009\u20131210\u201d Open-File (2009\u20131210): 118",
+        "author": "Gebert",
+        "year": "2011"
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib20",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jhydrol.2021.126908",
+        "article-title": "Machine learning predictions of mean ages of shallow well samples in the Great lakes basin, USA",
+        "author": "Green",
+        "year": "2021",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.envsoft.2024.105999_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "301",
+        "DOI": "10.1002/2017WR022012",
+        "article-title": "Regional variability of nitrate fluxes in the unsaturated zone and groundwater, Wisconsin, USA",
+        "volume": "54",
+        "author": "Green",
+        "year": "2018",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.envsoft.2024.105999_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "994",
+        "DOI": "10.2134/jeq2006.0419",
+        "article-title": "Limited occurrence of denitrification in four shallow aquifers in agricultural areas of the United States",
+        "volume": "37",
+        "author": "Green",
+        "year": "2008",
+        "journal-title": "J. Environ. Qual."
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "6191",
+        "DOI": "10.1002/2014WR015625",
+        "article-title": "Accuracy of travel time distribution (TTD) models as affected by TTD complexity, observation errors, and model and tracer selection",
+        "volume": "50",
+        "author": "Green",
+        "year": "2014",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib24",
+        "series-title": "County-Level Estimates of Nitrogen and Phosphorus from Animal Manure for the Conterminous United States, 2007 and 2012.\u201d Open-File Report",
+        "author": "Gronberg",
+        "year": "2017"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.envsoft.2024.105999_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "127",
+        "DOI": "10.1016/0022-1694(95)02732-5",
+        "article-title": "On the residence time distribution in idealized groundwatersheds",
+        "volume": "172",
+        "author": "Haitjema",
+        "year": "1995",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.envsoft.2024.105999_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "1073",
+        "DOI": "10.1016/j.envsoft.2009.02.014",
+        "article-title": "Assessment of nitrate contamination of groundwater using lumped-parameter models",
+        "volume": "24",
+        "author": "Hajhamad",
+        "year": "2009",
+        "journal-title": "Environ. Model. Software"
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib27",
+        "unstructured": "Jones, E., E. Oliphant, P. Peterson, and And Others. n.d. \u201cScipy--Open Source Scientific Tools for Python.\u201d http://www.scipy.org."
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib28",
+        "series-title": "Data to Support a Groundwater Nitrate Decision Support Tool for Wisconsin",
+        "author": "Juckem",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib29",
+        "series-title": "Multivariate Regression Model for Predicting Oxygen Reduction Rates in Groundwater for the State of Wisconsin",
+        "author": "Juckem",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib30",
+        "series-title": "Histogram-based Gradient Boosted Regression Tree Model of Mean Ages of Shallow Well Samples in the Great Lakes Basin",
+        "author": "Kauffman",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib31",
+        "series-title": "Positioning and Power in Academic Publishing: Players, Agents and Agendas",
+        "first-page": "87",
+        "article-title": "Jupyter notebooks -- a publishing format for reproducible computational workflows",
+        "author": "Kluyver",
+        "year": "2016"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.envsoft.2024.105999_bib32",
+        "doi-asserted-by": "crossref",
+        "first-page": "1657",
+        "DOI": "10.1029/92WR00252",
+        "article-title": "Natural denitrification in the saturated zone: a review",
+        "volume": "28",
+        "author": "Korom",
+        "year": "1992",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib33",
+        "first-page": "207",
+        "volume": "vol. 52",
+        "author": "Kourakos",
+        "year": "2014"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.envsoft.2024.105999_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "41",
+        "DOI": "10.1111/j.1745-6584.2007.00378.x",
+        "article-title": "Agricultural pollutant penetration and steady state in thick aquifers",
+        "volume": "46",
+        "author": "Kraft",
+        "year": "2008",
+        "journal-title": "Ground Water"
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib35",
+        "doi-asserted-by": "crossref",
+        "first-page": "1471",
+        "DOI": "10.1016/0009-2509(78)85196-3",
+        "article-title": "On the physical meaning of the dispersion equation and its solutions for different initial and boundary conditions",
+        "volume": "33",
+        "author": "Kreft",
+        "year": "1978",
+        "journal-title": "Chem. Eng. Sci."
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib36",
+        "doi-asserted-by": "crossref",
+        "first-page": "247",
+        "DOI": "10.2134/jeq2003.2470",
+        "article-title": "Integrated BIosphere simulator (IBIS) yield and nitrate loss predictions for Wisconsin maize receiving varied amounts of nitrogen fertilizer",
+        "volume": "32",
+        "author": "Kucharik",
+        "year": "2003",
+        "journal-title": "J. Environ. Qual."
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib37",
+        "volume": "vol. 26",
+        "author": "Kuhn",
+        "year": "2013"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.envsoft.2024.105999_bib38",
+        "doi-asserted-by": "crossref",
+        "first-page": "8",
+        "DOI": "10.1073/pnas.2101084119",
+        "article-title": "Environmental outcomes of the US renewable fuel standard",
+        "volume": "119",
+        "author": "Lark",
+        "year": "2022",
+        "journal-title": "Proc. Natl. Acad. Sci. USA"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.envsoft.2024.105999_bib39",
+        "doi-asserted-by": "crossref",
+        "first-page": "249",
+        "DOI": "10.1016/S1364-8152(00)00011-6",
+        "article-title": "Integration of a nonpoint source pollution model with a decision support system",
+        "volume": "15",
+        "author": "Le\u00f3n",
+        "year": "2000",
+        "journal-title": "Environ. Model. Software"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.envsoft.2024.105999_bib40",
+        "doi-asserted-by": "crossref",
+        "first-page": "455",
+        "DOI": "10.1080/10643389.2017.1327787",
+        "article-title": "A review of the fate and transport of nitrogen, phosphorus, pathogens, and trace organic chemicals in septic systems",
+        "volume": "47",
+        "author": "Lusk",
+        "year": "2017",
+        "journal-title": "Crit. Rev. Environ. Sci. Technol."
+      },
+      {
+        "issue": "1\u20132",
+        "key": "10.1016/j.envsoft.2024.105999_bib41",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/S0022-1694(98)00112-7",
+        "article-title": "Numerical experiments on the residence time distributions of heterogeneous groundwatersheds",
+        "volume": "207",
+        "author": "Luther",
+        "year": "1998",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.envsoft.2024.105999_bib42",
+        "doi-asserted-by": "crossref",
+        "first-page": "207",
+        "DOI": "10.1016/0022-1694(82)90147-0",
+        "article-title": "Determining the turnover time of groundwater systems with the aid of environmental tracers: 1. Models and their applicability",
+        "volume": "57",
+        "author": "Maloszewski",
+        "year": "1982",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib43",
+        "doi-asserted-by": "crossref",
+        "first-page": "240",
+        "DOI": "10.4236/jep.2014.54028",
+        "article-title": "Long-term drainage and nitrate leaching below well-drained continuous corn agroecosystems and a prairie",
+        "volume": "5",
+        "author": "Masarik",
+        "year": "2014",
+        "journal-title": "J. Environ. Protect."
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib44",
+        "series-title": "Interactive Well Water Quality Viewer Version 4.1",
+        "author": "Mechenich",
+        "year": "2022"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.envsoft.2024.105999_bib45",
+        "doi-asserted-by": "crossref",
+        "first-page": "1468",
+        "DOI": "10.1007/s10021-017-0125-0",
+        "article-title": "The influence of legacy P on lake water quality in a midwestern agricultural watershed",
+        "volume": "20",
+        "author": "Motew",
+        "year": "2017",
+        "journal-title": "Ecosystems"
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib46",
+        "first-page": "1",
+        "author": "Neitsch",
+        "year": "2011"
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib47",
+        "article-title": "MODFLOW-NWT, A Newton formulation for MODFLOW-2005",
+        "volume": "vol. 44",
+        "author": "Niswonger",
+        "year": "2011"
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib48",
+        "series-title": "\u201cNutrients in Shallow Ground Waters beneath Relatively Undeveloped Areas in the Conterminous United States,\u201d U.S. Geological Survey Water-Resources Investigations Report 02-4289",
+        "first-page": "17p",
+        "author": "Nolan",
+        "year": "2003"
+      },
+      {
+        "issue": "24",
+        "key": "10.1016/j.envsoft.2024.105999_bib49",
+        "doi-asserted-by": "crossref",
+        "first-page": "7834",
+        "DOI": "10.1021/es060911u",
+        "article-title": "Vulnerability of shallow groundwater and drinking-water wells to nitrate in the United States",
+        "volume": "40",
+        "author": "Nolan",
+        "year": "2006",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib50",
+        "doi-asserted-by": "crossref",
+        "first-page": "428",
+        "DOI": "10.1016/j.jhydrol.2018.02.029",
+        "article-title": "Metamodeling and mapping of nitrate flux in the unsaturated zone and groundwater, Wisconsin, USA",
+        "volume": "559",
+        "author": "Nolan",
+        "year": "2018",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.envsoft.2024.105999_bib51",
+        "doi-asserted-by": "crossref",
+        "first-page": "234",
+        "DOI": "10.1214/19-STS731",
+        "article-title": "Checking for prior-data conflict using prior-to-posterior divergences",
+        "volume": "35",
+        "author": "Nott",
+        "year": "2020",
+        "journal-title": "Stat. Sci."
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib52",
+        "series-title": "R: A Language and Environment for Statistical Computing",
+        "year": "2019"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.envsoft.2024.105999_bib53",
+        "article-title": "Machine learning predictions of nitrate in groundwater used for drinking supply in the conterminous United States",
+        "volume": "807",
+        "author": "Ransom",
+        "year": "2022",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib54",
+        "doi-asserted-by": "crossref",
+        "first-page": "7458",
+        "DOI": "10.1109/JSTARS.2022.3191544",
+        "article-title": "Mapping industrial poultry operations at scale with deep learning and aerial imagery",
+        "volume": "15",
+        "author": "Robinson",
+        "year": "2022",
+        "journal-title": "IEEE J. Sel. Top. Appl. Earth Obs. Rem. Sens."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.envsoft.2024.105999_bib55",
+        "doi-asserted-by": "crossref",
+        "first-page": "9",
+        "DOI": "10.1038/s41558-020-00973-9",
+        "article-title": "Improving reduced complexity model assessment and usability",
+        "volume": "11",
+        "author": "Sarofim",
+        "year": "2021",
+        "journal-title": "Nat. Clim. Change"
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib56",
+        "series-title": "A Groundwater Nitrate Decision Support Tool (GW-NDST) for the State of Wisconsin, Version 1.1.0",
+        "author": "Schachter",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib57",
+        "series-title": "Calculated Leached Nitrogen from Septic Systems in Wisconsin, 1850-2010",
+        "author": "Schachter",
+        "year": "2024"
+      },
+      {
+        "issue": "May",
+        "key": "10.1016/j.envsoft.2024.105999_bib58",
+        "article-title": "Using remote sensing to identify liquid manure applications in eastern North Carolina",
+        "volume": "317",
+        "author": "Shea",
+        "year": "2022",
+        "journal-title": "J. Environ. Manag."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.envsoft.2024.105999_bib59",
+        "doi-asserted-by": "crossref",
+        "first-page": "141",
+        "DOI": "10.2489/jswc.2023.00048",
+        "article-title": "Nitrate losses from midwest US agroecosystems: impacts of varied management and precipitation",
+        "volume": "78",
+        "author": "Shrestha",
+        "year": "2023",
+        "journal-title": "J. Soil Water Conserv."
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib60",
+        "series-title": "Python-HBRT Model and Groundwater Levels Used for Estimating the Static, Shallow Water Table Depth for the State of Wisconsin",
+        "author": "Smith",
+        "year": "2024"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.envsoft.2024.105999_bib61",
+        "doi-asserted-by": "crossref",
+        "first-page": "7316",
+        "DOI": "10.1002/2016WR020197",
+        "article-title": "Predicting redox-sensitive contaminant concentrations in groundwater using random forest classification",
+        "volume": "53",
+        "author": "Tesoriero",
+        "year": "2017",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.envsoft.2024.105999_bib62",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1029/2011WR010471",
+        "article-title": "O2 reduction and denitrification rates in shallow aquifers",
+        "volume": "47",
+        "author": "Tesoriero",
+        "year": "2011",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib63",
+        "series-title": "Escape from Model Land: How Mathematical Models Can Lead Us Astray and what We Can Do about it",
+        "first-page": "247p",
+        "author": "Thompson",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib64",
+        "series-title": "National Water Information System Data Available on the World Wide Web (USGS Water Data for the Nation)",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib65",
+        "series-title": "Python 3 Reference Manual",
+        "author": "Van Rossum",
+        "year": "2009"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.envsoft.2024.105999_bib66",
+        "doi-asserted-by": "crossref",
+        "first-page": "3271",
+        "DOI": "10.1029/98WR02536",
+        "article-title": "Simulation of groundwater age distributions",
+        "volume": "34",
+        "author": "Varni",
+        "year": "1998",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib67",
+        "series-title": "Proceedings",
+        "article-title": "Isotopes in hydrology",
+        "author": "Vogel",
+        "year": "1967"
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib68",
+        "article-title": "Investigation of groundwater flow with radiocarbon",
+        "volume": "vols. 355\u201368",
+        "author": "Vogel",
+        "year": "1967"
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib69",
+        "volume": "vol. 122",
+        "author": "Wei",
+        "year": "2019"
+      },
+      {
+        "issue": "June",
+        "key": "10.1016/j.envsoft.2024.105999_bib70",
+        "doi-asserted-by": "crossref",
+        "first-page": "191",
+        "DOI": "10.1016/j.envsoft.2018.06.009",
+        "article-title": "A model-independent iterative ensemble smoother for efficient history-matching and uncertainty quantification in very high dimensions",
+        "volume": "109",
+        "author": "White",
+        "year": "2018",
+        "journal-title": "Environ. Model. Software"
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib71",
+        "series-title": "Approaches to Highly Parameterized Inversion: PEST++ Version 5, a Software Suite for Parameter Estimateion, Uncertainty Analysis, Management Optimization and Sensitivity Analysis",
+        "author": "White",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib72",
+        "series-title": "Groundwater Retrieval Network",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.envsoft.2024.105999_bib73",
+        "first-page": "1",
+        "article-title": "Mathematical models for the interpretation of environmental radioisotopes in groundwater systems",
+        "volume": "vol. 2",
+        "author": "Zuber",
+        "year": "1986"
+      }
+    ],
+    "container-title": [
+      "Environmental Modelling &amp; Software"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1364815224000604?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1364815224000604?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          2
+        ]
+      ],
+      "date-time": "2024-06-02T09:25:13Z",
+      "timestamp": 1717320313000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1364815224000604"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          5
+        ]
+      ]
+    },
+    "references-count": 73,
+    "alternative-id": [
+      "S1364815224000604"
+    ],
+    "URL": "https://doi.org/10.1016/j.envsoft.2024.105999",
+    "relation": {},
+    "ISSN": [
+      "1364-8152"
+    ],
+    "issn-type": [
+      {
+        "value": "1364-8152",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          5
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Design and calibration of a nitrate decision support tool for groundwater wells in Wisconsin, USA",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Environmental Modelling & Software",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.envsoft.2024.105999",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "\u00a9 2024 The US Geological Survey. Published by Elsevier Ltd.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "105999"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1016/j.envsoft.2024.105999",
+  "original_doi": "10.1016/j.envsoft.2024.105999"
+}

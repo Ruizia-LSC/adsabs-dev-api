@@ -1,0 +1,722 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          9
+        ]
+      ],
+      "date-time": "2026-07-09T20:51:47Z",
+      "timestamp": 1783630307753,
+      "version": "3.55.0"
+    },
+    "reference-count": 57,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2020-12-01T00:00:00Z",
+          "timestamp": 1606780800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2020-12-01T00:00:00Z",
+          "timestamp": 1606780800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              9
+            ]
+          ],
+          "date-time": "2020-07-09T00:00:00Z",
+          "timestamp": 1594252800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Environmental Modelling &amp; Software"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.envsoft.2020.104758",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          2
+        ]
+      ],
+      "date-time": "2020-07-02T20:34:08Z",
+      "timestamp": 1593722048000
+    },
+    "page": "104758",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 10,
+    "special_numbering": "C",
+    "title": [
+      "Methods to quality assure, plot, summarize, interpolate, and extend groundwater-level information\u2014examples for the Mississippi River Valley alluvial aquifer"
+    ],
+    "prefix": "10.1016",
+    "volume": "134",
+    "author": [
+      {
+        "given": "William H.",
+        "family": "Asquith",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ronald C.",
+        "family": "Seanor",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Virginia L.",
+        "family": "McGuire",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wade H.",
+        "family": "Kress",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib1",
+        "series-title": "Hydrology of the Mississippi River Valley Alluvial Aquifer, South-Central United States\u2014A Preliminary Assessment of the Regional Flow System",
+        "first-page": "56",
+        "author": "Ackerman",
+        "year": "1996"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib2",
+        "series-title": "Thickness of the Upper and Lower Confining Units of the Mississippi River Alluvial Aquifer in Northwestern Mississippi",
+        "first-page": "1",
+        "author": "Arthur",
+        "year": "1994"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib3",
+        "series-title": "Distributional Analysis with L-Moment Statistics Using the R Environment for Statistical Computing",
+        "author": "Asquith",
+        "year": "2011"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib4",
+        "series-title": "lmomco\u2014L-Moments, Censored L-Moments, Trimmed L-Moments, L-Comoments, and Many Distributions",
+        "author": "Asquith",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib5",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jhydrol.2019.124522",
+        "article-title": "The use of support vectors from support vector machines for hydrometeorologic monitoring network analyses",
+        "volume": "583",
+        "author": "Asquith",
+        "year": "2020",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib6",
+        "series-title": "infoGW2visGWDB\u2014An R Groundwater Data-Processing Utility for Manipulating, Checking the Veracity, and Converting an \u2018\u2018infoGW\u2019\u2019 Object to the \u2018\u2018GWmaster\u2019\u2019 Object for the visGWDB Software with Demonstration for the Mississippi River Valley Alluvial Aquifer",
+        "author": "Asquith",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib7",
+        "author": "Asquith",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib8",
+        "series-title": "Source Code in R to Quality Assure, Plot, Summarize, Interpolate, and Extend Groundwater-Level Information, visGWDB\u2014Groundwater-Level Informatics with Demonstration for the Mississippi River Valley Alluvial Aquifer",
+        "author": "Asquith",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib9",
+        "series-title": "Depth of Groundwater in Mississippi River Valley Alluvial Aquifer in Eastern Arkansas",
+        "author": "Ausbrook",
+        "year": "2008"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib10",
+        "first-page": "4",
+        "article-title": "Groundwater quality in the Coastal Lowlands aquifer system, south-central United States",
+        "author": "Barlow",
+        "year": "2016",
+        "journal-title": "U.S. Geol. Surv. Fact Sheet"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib11",
+        "first-page": "14",
+        "article-title": "Simulation of water-use conservation scenarios for the Mississippi Delta using an existing regional groundwater flow model",
+        "author": "Barlow",
+        "year": "2011",
+        "journal-title": "U.S. Geol. Surv. Sci. Investig. Rep."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.envsoft.2020.104758_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "408",
+        "DOI": "10.1061/(ASCE)CP.1943-5487.0000043",
+        "article-title": "Comparative study of SVMs and ANNs in aquifer water level prediction",
+        "volume": "24",
+        "author": "Behzad",
+        "year": "2010",
+        "journal-title": "J. Comput. Civ. Eng."
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib13",
+        "series-title": "Pattern Recognition and Machine Learning",
+        "author": "Bishop",
+        "year": "2006"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib14",
+        "series-title": "benford.analysis\u2014Benford Analysis for Data Validation and Forensic Analytics. R Package Version 0.1.4.1",
+        "author": "Cinelli",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib15",
+        "series-title": "Groundwater Availability of the Mississippi Embayment",
+        "first-page": "62",
+        "author": "Clark",
+        "year": "2011"
+      },
+      {
+        "issue": "368",
+        "key": "10.1016/j.envsoft.2020.104758_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "829",
+        "DOI": "10.1080/01621459.1979.10481038",
+        "article-title": "Robust locally weighted regression and smoothing scatterplots",
+        "volume": "74",
+        "author": "Cleveland",
+        "year": "1979",
+        "journal-title": "J. Am. Stat. Assoc."
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib17",
+        "series-title": "Chapter 8 of Statistical Models in S",
+        "article-title": "Local regression models",
+        "author": "Cleveland",
+        "year": "1992"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.envsoft.2020.104758_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "455",
+        "DOI": "10.1109/TR.2014.2315911",
+        "article-title": "Probabilistic novelty detection with support vector machines",
+        "volume": "63",
+        "author": "Clifton",
+        "year": "2014",
+        "journal-title": "IEEE Trans. Reliab."
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib19",
+        "first-page": "151",
+        "article-title": "Groundwater technical procedures of the U.S. Geological Survey. U.S",
+        "volume": "1\u2013A1",
+        "author": "Cunningham",
+        "year": "2011",
+        "journal-title": "Geol. Surv. Techn. Methods"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.envsoft.2020.104758_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "360",
+        "DOI": "10.1016/j.jhydrol.2015.07.016",
+        "article-title": "Identification of recharge zones in the Lower Mississippi River alluvial aquifer using high-resolution precipitation estimates",
+        "volume": "531",
+        "author": "Dyer",
+        "year": "2015",
+        "journal-title": "J. Hydrol"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib21",
+        "series-title": "Linear Models with R",
+        "author": "Faraway",
+        "year": "2005"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib22",
+        "series-title": "Extending the Linear Model with R\u2014Generalized Linear, Mixed Effects and Nonparametric Regression Models",
+        "author": "Faraway",
+        "year": "2006"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib23",
+        "series-title": "An R Companion to Applied Regression",
+        "author": "Fox",
+        "year": "2011"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "70",
+        "DOI": "10.1214/aos/1176346577",
+        "article-title": "The dip test of unimodality",
+        "volume": "13",
+        "author": "Hartigan",
+        "year": "1985",
+        "journal-title": "Ann. Stat."
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib25",
+        "series-title": "Generalized Additive Models",
+        "author": "Hastie",
+        "year": "1990"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib26",
+        "series-title": "The Elements of Statistical Learning\u2014Data Mining, and Inference and Prediction",
+        "author": "Hastie",
+        "year": "2008"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib27",
+        "series-title": "Statistical Methods in Water Resources",
+        "first-page": "522",
+        "author": "Helsel",
+        "year": "2002"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.envsoft.2020.104758_bib28",
+        "first-page": "1",
+        "article-title": "Support vector machines in R",
+        "volume": "15",
+        "author": "Hornik",
+        "year": "2006",
+        "journal-title": "J. Stat. Software"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib29",
+        "first-page": "40",
+        "article-title": "Documentation for the MODFLOW 6 framework",
+        "volume": "book 6",
+        "author": "Hughes",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "242",
+        "DOI": "10.1016/j.envsoft.2014.01.020",
+        "article-title": "A software tool for the spatiotemporal analysis and reporting of groundwater monitoring data",
+        "volume": "55",
+        "author": "Jones",
+        "year": "2014",
+        "journal-title": "Environ. Model. Software"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib31",
+        "series-title": "kernlab\u2014Kernel-Based Machine Learning Lab. R Package Version 0.9-27",
+        "author": "Karatzoglou",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib32",
+        "series-title": "Estimated and Measured Streamflow and Groundwater-Level Data in the Mississippi Delta",
+        "author": "Killian",
+        "year": "2019"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.envsoft.2020.104758_bib33",
+        "doi-asserted-by": "crossref",
+        "first-page": "2167",
+        "DOI": "10.1007/s10040-019-01981-6",
+        "article-title": "Characterizing groundwater and surface-water interaction using hydrograph-separation techniques and groundwater-level data throughout the Mississippi Delta",
+        "volume": "27",
+        "author": "Killian",
+        "year": "2019",
+        "journal-title": "Hydrogeol. J."
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib34",
+        "series-title": "Water Quality in the Mississippi Embayment, Mississippi, Louisiana, Arkansas, Missouri, Tennessee, and Kentucky, 1995\u201398",
+        "first-page": "36",
+        "volume": "vol. 1208",
+        "author": "Kleiss",
+        "year": "2000"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib35",
+        "series-title": "Applied Predictive Modeling",
+        "author": "Kuhn",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib36",
+        "author": "Ladd"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib37",
+        "series-title": "diptest\u2014Hartigans\u2019 Dip Test Statistic for Unimodality\u2014Corrected, R Package Version 0.75-7",
+        "author": "Maechler",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib38",
+        "series-title": "Hydrology of the Coastal Lowlands Aquifer System in Parts of Alabama, Florida, Louisiana, and Mississippi",
+        "first-page": "51 p",
+        "author": "Martin",
+        "year": "1999"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib39",
+        "first-page": "46",
+        "article-title": "Estimated withdrawals from principal aquifers in the United States, 2000",
+        "volume": "1279",
+        "author": "Maupin",
+        "year": "2005",
+        "journal-title": "US Geol. Surv. Circular"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib40",
+        "first-page": "14",
+        "article-title": "Water-level changes and change in water in storage in the High Plains aquifer, predevelopment to 2013 and 2011\u201313: U.S",
+        "author": "McGuire",
+        "year": "2014",
+        "journal-title": "Geol. Surv. Sci. Investig. Rep."
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib41",
+        "first-page": "14",
+        "article-title": "Potentiometric surface of the Mississippi River Valley alluvial aquifer, spring 2016",
+        "author": "McGuire",
+        "year": "2019",
+        "journal-title": "U.S. Geol. Surv. Sci. Investig. Map"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib42",
+        "first-page": "13",
+        "article-title": "Altitude of the potentiometric surface in the Mississippi River Valley alluvial aquifer, spring 2018",
+        "author": "McGuire",
+        "year": "2020",
+        "journal-title": "U.S. Geol. Surv. Sci. Investig. Map"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib43",
+        "author": "Missouri Department of Natural Resources"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib44",
+        "series-title": "Forensic Analytics\u2014Methods and Techniques for Forensic Accounting Investigations",
+        "author": "Nigrini",
+        "year": "2011"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib45",
+        "series-title": "Mississippi Alluvial Plain Extent, November 2017",
+        "author": "Painter",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib46",
+        "doi-asserted-by": "crossref",
+        "first-page": "215",
+        "DOI": "10.1016/j.sigpro.2013.12.026",
+        "article-title": "A review of novelty detection",
+        "volume": "99",
+        "author": "Pimentel",
+        "year": "2014",
+        "journal-title": "Signal Process."
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib47",
+        "series-title": "R\u2014A Language and Environment for Statistical Computing",
+        "author": "R Development Core Team",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib48",
+        "doi-asserted-by": "crossref",
+        "first-page": "128",
+        "DOI": "10.1111/j.1936-704X.2017.03264.x",
+        "article-title": "Aquifer depletion in the lower Mississippi River basin\u2014challenges and solutions",
+        "volume": "162",
+        "author": "Reba",
+        "year": "2017",
+        "journal-title": "J. Contemp. Wat. Res. Educ."
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib49",
+        "series-title": "Ground Water Atlas of the United States, Segment 5, Arkansas, Louisiana, Mississippi: U.S",
+        "first-page": "28",
+        "author": "Renken",
+        "year": "1998"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib50",
+        "doi-asserted-by": "crossref",
+        "first-page": "3878",
+        "DOI": "10.1002/2016WR019933",
+        "article-title": "Machine learning algorithms for modeling groundwater level changes in agricultural regions of the",
+        "volume": "53",
+        "author": "Sahoo",
+        "year": "2017",
+        "journal-title": "U.S. Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib51",
+        "series-title": "Quality Assurance of Water Levels in the Mississippi River Valley Alluvial Aquifer in Missouri from the Missouri Department of Natural Resource's Well Information Management System (WIMS), U.S",
+        "author": "Smith",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib52",
+        "series-title": "Support Vector Machines",
+        "first-page": "601",
+        "author": "Steinwart",
+        "year": "2008"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib53",
+        "series-title": "Digital Surfaces of the Bottom Altitude and Thickness of the Mississippi River Valley Alluvial Aquifer and Site Data within the Mississippi Alluvial Plain Project Region",
+        "author": "Torak",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib58",
+        "first-page": "54",
+        "article-title": "Approaches in highly parameterized inversion\u2014PEST++ Version 3, a Parameter ESTimation and uncertainty analysis software suite optimized for large environmental models",
+        "volume": "7",
+        "author": "Welter",
+        "year": "2015",
+        "journal-title": "U.S. Geol. Surv. Techn. Methods"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.envsoft.2020.104758_bib59",
+        "doi-asserted-by": "crossref",
+        "first-page": "660",
+        "DOI": "10.1111/gwat.12558",
+        "article-title": "Forecast first\u2014An argument for groundwater modeling in reverse",
+        "volume": "55",
+        "author": "White",
+        "year": "2017",
+        "journal-title": "Groundwater"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib60",
+        "series-title": "Generalized Additive Models\u2014An Introduction with R",
+        "first-page": "476",
+        "author": "Wood",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.envsoft.2020.104758_bib61",
+        "series-title": "mgcv\u2014Mixed GAM Computation Vehicle with Automatic Smoothness Estimation. R Package Version 1.8-28",
+        "author": "Wood",
+        "year": "2019"
+      }
+    ],
+    "container-title": [
+      "Environmental Modelling &amp; Software"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1364815219307558?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1364815219307558?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          23
+        ]
+      ],
+      "date-time": "2025-10-23T23:05:33Z",
+      "timestamp": 1761260733000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1364815219307558"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          12
+        ]
+      ]
+    },
+    "references-count": 57,
+    "alternative-id": [
+      "S1364815219307558"
+    ],
+    "URL": "https://doi.org/10.1016/j.envsoft.2020.104758",
+    "relation": {},
+    "ISSN": [
+      "1364-8152"
+    ],
+    "issn-type": [
+      {
+        "value": "1364-8152",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          12
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Methods to quality assure, plot, summarize, interpolate, and extend groundwater-level information\u2014examples for the Mississippi River Valley alluvial aquifer",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Environmental Modelling & Software",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.envsoft.2020.104758",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "Published by Elsevier Ltd.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "104758"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1016/j.envsoft.2020.104758",
+  "original_doi": "10.1016/j.envsoft.2020.104758"
+}

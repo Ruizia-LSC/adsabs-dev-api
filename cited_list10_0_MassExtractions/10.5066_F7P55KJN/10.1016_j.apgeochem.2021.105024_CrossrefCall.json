@@ -1,0 +1,1400 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          25
+        ]
+      ],
+      "date-time": "2026-06-25T16:32:52Z",
+      "timestamp": 1782405172985,
+      "version": "3.54.5"
+    },
+    "reference-count": 118,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2021-08-01T00:00:00Z",
+          "timestamp": 1627776000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2021-08-01T00:00:00Z",
+          "timestamp": 1627776000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              4
+            ]
+          ],
+          "date-time": "2021-06-04T00:00:00Z",
+          "timestamp": 1622764800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100004814",
+        "name": "California State Water Resources Control Board",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100004814",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Applied Geochemistry"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.apgeochem.2021.105024",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          5
+        ]
+      ],
+      "date-time": "2021-06-05T02:37:19Z",
+      "timestamp": 1622860639000
+    },
+    "page": "105024",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 10,
+    "special_numbering": "C",
+    "title": [
+      "Relative risk of groundwater-quality degradation near California (USA) oil fields estimated from 3H, 14C, and 4He"
+    ],
+    "prefix": "10.1016",
+    "volume": "131",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7452-2379",
+        "authenticated-orcid": false,
+        "given": "Peter B.",
+        "family": "McMahon",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mathew K.",
+        "family": "Landon",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tracy A.",
+        "family": "Davis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0653-6466",
+        "authenticated-orcid": false,
+        "given": "Michael T.",
+        "family": "Wright",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1456-4360",
+        "authenticated-orcid": false,
+        "given": "Celia Z.",
+        "family": "Rosecrans",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert",
+        "family": "Anders",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael T.",
+        "family": "Land",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Justin T.",
+        "family": "Kulongoski",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrew G.",
+        "family": "Hunt",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib1",
+        "author": "Aera Energy Llc"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib2",
+        "author": "Aera Energy Llc"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "2779",
+        "DOI": "10.1029/1999WR900130",
+        "article-title": "Interpretation of dissolved atmospheric noble gases in natural waters",
+        "volume": "35",
+        "author": "Aeschbach-Hertig",
+        "year": "1999",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1040",
+        "DOI": "10.1038/35016542",
+        "article-title": "Paleotemperature reconstruction from noble gases in groundwater taking into account equilibration with entrapped air",
+        "volume": "405",
+        "author": "Aeschbach-Hertig",
+        "year": "2000",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib5",
+        "series-title": "Groundwater Quality Results from the Regional Monitoring Program Study of the Orcutt Oil Field. California State Water Resources Control Board Stakeholder Meeting, Sacramento, California, February 25, 2019",
+        "author": "Anders",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "233",
+        "DOI": "10.1016/0022-1694(79)90064-7",
+        "article-title": "Inert gases in groundwater from the Bunter Sandstone of England as indicators of age and paleoclimatic trends",
+        "volume": "41",
+        "author": "Andrews",
+        "year": "1979",
+        "journal-title": "J. Hydrol"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1533",
+        "DOI": "10.1016/0016-7037(82)90312-X",
+        "article-title": "Radioelements, radiogenic helium and age relationships for groundwaters from the granites at Stripa, Sweden",
+        "volume": "46",
+        "author": "Andrews",
+        "year": "1982",
+        "journal-title": "Geochem. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "2307",
+        "DOI": "10.1029/95WR01271",
+        "article-title": "Estimating 14C groundwater ages in a methanogenic aquifer",
+        "volume": "31",
+        "author": "Aravena",
+        "year": "1995",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "2319",
+        "DOI": "10.1029/95WR01584",
+        "article-title": "Combined use of groundwater dating, chemical, and isotopic analyses to resolve the history and fate of nitrate contamination in two agricultural watersheds, Atlantic coastal plain",
+        "volume": "31",
+        "author": "B\u00f6hlke",
+        "year": "1995",
+        "journal-title": "Maryland. Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib10",
+        "first-page": "2364",
+        "article-title": "Mantle helium along the Newport-Inglewood fault zone, Los Angeles basin, California: a leaking paleo-subduction zone",
+        "author": "Boles",
+        "year": "2015",
+        "journal-title": "G-cubed"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "324",
+        "DOI": "10.1016/j.scitotenv.2019.03.420",
+        "article-title": "Factors affecting 1,2,3-trichloropropane contamination in groundwater in California",
+        "volume": "672",
+        "author": "Burow",
+        "year": "2019",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "289",
+        "DOI": "10.1038/ngeo2919",
+        "article-title": "Mobility and persistence of methane in groundwater in a controlled-release field experiment",
+        "volume": "10",
+        "author": "Cahill",
+        "year": "2017",
+        "journal-title": "Nat. Geosci."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib13",
+        "first-page": "507",
+        "volume": "1",
+        "year": "1998"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib14",
+        "series-title": "Well Finder: Geologic Energy Management Division, Well Finder",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib15",
+        "series-title": "South Belridge Oil Field, South Wastewater Disposal Facility",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib19",
+        "series-title": "Water Quality Data Reports",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib20",
+        "series-title": "WDRS Order No. R5-2006-0073, Aera, Row 4-Lost Hills Ponds, S. Belridge Oil Field",
+        "year": "2006"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib22",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2010WR009370",
+        "article-title": "Groundwater flow, transport, and residence times through topographically-driven basins with exponentially decreasing permeability and porosity",
+        "volume": "46",
+        "author": "Cardenas",
+        "year": "2010",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "2467",
+        "DOI": "10.1029/98WR01957",
+        "article-title": "Noble gases as natural tracers of water circulation in the Paris Basin: 2. Calibration of a groundwater flow model using noble gas isotope data",
+        "volume": "34",
+        "author": "Castro",
+        "year": "1998",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "515",
+        "DOI": "10.1016/0020-708X(76)90082-X",
+        "article-title": "Determination of tritium by mass spectrometric measurement of 3He",
+        "volume": "27",
+        "author": "Clarke",
+        "year": "1976",
+        "journal-title": "Int. J. Appl. Radiat. Isot."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib25",
+        "series-title": "Environmental Impacts of Shale Gas Extraction in Canada",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "321",
+        "DOI": "10.1016/j.gca.2015.09.006",
+        "article-title": "The evolution of Devonian hydrocarbon gases in shallow aquifers of the northern Appalachian Basin: insights from integrating noble gas and hydrocarbon geochemistry",
+        "volume": "170",
+        "author": "Darrah",
+        "year": "2015",
+        "journal-title": "Geochem. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib27",
+        "first-page": "2018",
+        "article-title": "Prioritization of oil and gas fields for regional groundwater monitoring based on a preliminary assessment of petroleum resource development and proximity to California's groundwater resources",
+        "author": "Davis",
+        "year": "2018",
+        "journal-title": "U.S. Geol. Surv. Scientific Invest. Rep."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib28",
+        "series-title": "Water Chemistry Data for Samples Collected at Groundwater and Surface-Water Sites Near the Lost Hills and Belridge Oil Fields, November 2016\u2013September 2017",
+        "author": "Davis",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib29",
+        "series-title": "Groundwater Quality Results from the Regional Monitoring Program Study of the Lost Hills and Belridge Oil Fields. California State Water Resources Control Board Stakeholder Meeting, Sacramento, California, June 12, 2018",
+        "author": "Davis",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib30",
+        "article-title": "Identifying paleowater in California drinking water wells",
+        "author": "de Jong",
+        "year": "2019",
+        "journal-title": "Quat. Int."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib31",
+        "article-title": "Data from exploratory sampling of groundwater in selected oil and gas areas of coastal Los Angeles County and Kern and Kings Counties in southern San Joaquin Valley, 2014\u201315: California oil, gas, and groundwater project",
+        "author": "Dillon",
+        "year": "2016",
+        "journal-title": "U.S. Geol. Surv. Open-File Rep. 2016\u20131181"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib32",
+        "doi-asserted-by": "crossref",
+        "first-page": "135",
+        "DOI": "10.1017/S0033822200040121",
+        "article-title": "Isotope-ratio and background corrections for accelerator mass spectrometry radiocarbon measurements",
+        "volume": "32",
+        "author": "Donahue",
+        "year": "1990",
+        "journal-title": "Radiocarbon"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib33",
+        "doi-asserted-by": "crossref",
+        "first-page": "13184",
+        "DOI": "10.1073/pnas.1511474112",
+        "article-title": "Elevated levels of diesel range organic compounds in groundwater near Marcellus gas operations are derived from surface activities",
+        "volume": "112",
+        "author": "Drollette",
+        "year": "2015",
+        "journal-title": "Proc. Natl. Acad. Sci. U.S.A."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib34",
+        "author": "Eltschlager"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib35",
+        "series-title": "Groundwater Availability of the Central Valley Aquifer",
+        "author": "Faunt",
+        "year": "2009"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib36",
+        "doi-asserted-by": "crossref",
+        "first-page": "301",
+        "DOI": "10.1017/S0033822200064985",
+        "article-title": "AMS-graphite target production methods at the Woods Hole oceanographic institution during 1986\u20131991",
+        "volume": "35",
+        "author": "Gagnon",
+        "year": "1993",
+        "journal-title": "Radiocarbon"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib37",
+        "series-title": "Historical Produced Water Chemistry Data Compiled for the Fruitvale Oilfield",
+        "author": "Gans",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib38",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1002/grl.50599",
+        "article-title": "The location of old groundwater in hydrogeologic basins and layered aquifer systems",
+        "volume": "40",
+        "author": "Gassiat",
+        "year": "2013",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib39",
+        "doi-asserted-by": "crossref",
+        "first-page": "554",
+        "DOI": "10.1016/j.ijggc.2015.09.009",
+        "article-title": "Tracing injected CO2 in the Cranfield enhanced oil recovery field (MS, USA) using He, Ne, and Ar isotopes",
+        "volume": "42",
+        "author": "Gy\u00f6re",
+        "year": "2015",
+        "journal-title": "Internat. J. Greenhouse Gas Control"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib40",
+        "first-page": "2",
+        "article-title": "Simulation of groundwater/surface water flow in the Santa Clara-Calleguas groundwater basin, Ventura County, California",
+        "author": "Hanson",
+        "year": "2003",
+        "journal-title": "U.S. Geol. Surv. Water-Resourc. Invest. Rep."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib41",
+        "series-title": "Barnett and Appalachian Shale Water Management and Reuse Technologies. Research Partnership to Secure Energy for America Rep. 08122\u201305.1.FINAL.1",
+        "author": "Hayes",
+        "year": "2012"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib42",
+        "first-page": "2013",
+        "article-title": "Occurrence of methane in groundwater of south-central New York State, 2012\u2013Systematic evaluation of a glaciated region by hydrogeologic setting",
+        "author": "Heisig",
+        "year": "2013",
+        "journal-title": "U.S. Geol. Surv. Scientific Invest. Rep."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib43",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jconhyd.2019.103525",
+        "article-title": "A geochemical and multi-isotope modeling approach to determine sources and fate of methane in shallow groundwater above unconventional hydrocarbon reservoirs",
+        "volume": "226",
+        "author": "Humez",
+        "year": "2019",
+        "journal-title": "J. Contam. Hydrol."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib44",
+        "article-title": "Noble Gas Laboratory's standard operating procedures for the measurement of dissolved gas in water samples",
+        "volume": "5",
+        "author": "Hunt",
+        "year": "2015",
+        "journal-title": "U.S. Geol. Surv. Tech. Methods, book"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib45",
+        "first-page": "80",
+        "article-title": "Appraisal of groundwater resources in the san Antonio Creek valley, Santa Barbara county, California",
+        "author": "Hutchinson",
+        "year": "1980",
+        "journal-title": "U.S. Geol. Surv. Open-File Rep."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib46",
+        "first-page": "97",
+        "article-title": "Use of isotopic data to evaluate recharge and geologic controls on the movement of groundwater in Las Posas Valley, Ventura County, California",
+        "author": "Izbicki",
+        "year": "1997",
+        "journal-title": "U.S. Geol. Surv.Water-Resourc. Invest. Rep."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib47",
+        "article-title": "Movement and age of groundwater in the western part of the Mojave Desert, southern California",
+        "author": "Izbicki",
+        "year": "2004",
+        "journal-title": "USA. U.S. Geol. Surv. Water-Resour. Invest. Report 03\u20134314"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib48",
+        "doi-asserted-by": "crossref",
+        "first-page": "488",
+        "DOI": "10.1111/gwat.12074",
+        "article-title": "Groundwater protection and unconventional gas extraction: the critical need for field-based hydrogeological research",
+        "volume": "51",
+        "author": "Jackson",
+        "year": "2013",
+        "journal-title": "Ground Water"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib49",
+        "doi-asserted-by": "crossref",
+        "first-page": "11250",
+        "DOI": "10.1073/pnas.1221635110",
+        "article-title": "Increased stray gas abundance in a subset of drinking water wells near Marcellus shale gas extraction",
+        "volume": "110",
+        "author": "Jackson",
+        "year": "2013",
+        "journal-title": "Proc. Natl. Acad. Sci. U.S.A."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib50",
+        "doi-asserted-by": "crossref",
+        "first-page": "8969",
+        "DOI": "10.1021/acs.est.5b01228",
+        "article-title": "The depths of hydraulic fracturing and accompanying water use across the United States",
+        "volume": "49",
+        "author": "Jackson",
+        "year": "2015",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib51",
+        "doi-asserted-by": "crossref",
+        "first-page": "13138",
+        "DOI": "10.1073/pnas.1701682114",
+        "article-title": "Hydraulic fracturing near domestic groundwater wells",
+        "volume": "114",
+        "author": "Jasechko",
+        "year": "2017",
+        "journal-title": "Proc. Natl. Acad. Sci. U.S.A."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib52",
+        "first-page": "197",
+        "article-title": "Geochemistry of Los Angeles basin oil and gas systems",
+        "volume": "52",
+        "author": "Jeffrey",
+        "year": "1991"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib53",
+        "series-title": "The Future of Energy Gases, U.S. Geol. Surv. Prof. Paper 1570",
+        "first-page": "31",
+        "article-title": "Abiogenic hydrocarbons and mantle helium in oil and gas fields",
+        "author": "Jenden",
+        "year": "1993"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib54",
+        "doi-asserted-by": "crossref",
+        "first-page": "159",
+        "DOI": "10.1016/j.rse.2013.01.012",
+        "article-title": "A comprehensive change detection method for updating the National Land Cover Database to circa 2011",
+        "volume": "132",
+        "author": "Jin",
+        "year": "2013",
+        "journal-title": "Rem. Sens. Environ."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib55",
+        "doi-asserted-by": "crossref",
+        "first-page": "913",
+        "DOI": "10.1111/j.1745-6584.2009.00635.x",
+        "article-title": "Effects of groundwater development on uranium: central Valley, California, USA",
+        "volume": "48",
+        "author": "Jurgens",
+        "year": "2010",
+        "journal-title": "Ground Water"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib56",
+        "doi-asserted-by": "crossref",
+        "first-page": "109",
+        "DOI": "10.1016/j.jhydrol.2016.05.011",
+        "article-title": "A partial exponential lumped parameter model to evaluate groundwater age distributions and nitrate trends in long-screened wells",
+        "volume": "543",
+        "author": "Jurgens",
+        "year": "2016",
+        "journal-title": "J. Hydrol"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib57",
+        "series-title": "Data for Tritium Deposition in Precipitation in the United States, 1953\u20132012",
+        "author": "Jurgens",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib58",
+        "series-title": "Environmental Tracers in Subsurface Hydrology",
+        "first-page": "111",
+        "article-title": "Radiocarbon dating of groundwater systems",
+        "author": "Kalin",
+        "year": "2000"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib59",
+        "doi-asserted-by": "crossref",
+        "first-page": "1278",
+        "DOI": "10.1126/science.278.5341.1278",
+        "article-title": "Mantle fluids in the San Andreas fault system, California",
+        "volume": "278",
+        "author": "Kennedy",
+        "year": "1997",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib60",
+        "doi-asserted-by": "crossref",
+        "first-page": "1661",
+        "DOI": "10.1007/s10040-017-1566-4",
+        "article-title": "Fraction of young water as an indicator of aquifer vulnerability along two regional flow paths in the Mississippi embayment aquifer system, southeastern USA",
+        "volume": "25",
+        "author": "Kingsbury",
+        "year": "2017",
+        "journal-title": "Hydrogeol. J."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib61",
+        "first-page": "14",
+        "volume": "7",
+        "author": "Kiser",
+        "year": "1988"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib62",
+        "first-page": "95",
+        "article-title": "Ground-water data-collection protocols and procedures for the National Water-Quality Assessment Program\u2014collection and documentation of water-quality samples and related data",
+        "author": "Koterba",
+        "year": "1995",
+        "journal-title": "U.S. Geol. Surv. Open-File Rep."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib63",
+        "doi-asserted-by": "crossref",
+        "first-page": "225",
+        "DOI": "10.1111/gwat.12638",
+        "article-title": "Structural and hydrogeological controls on hydrocarbon and brine migration into drinking water aquifers in southern New York",
+        "volume": "56",
+        "author": "Kreuzer",
+        "year": "2018",
+        "journal-title": "Ground Water"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib64",
+        "article-title": "Status and understanding of groundwater quality in the north san francisco bay groundwater basins, 2004: California GAMA priority basin project",
+        "author": "Kulongoski",
+        "year": "2010",
+        "journal-title": "U.S. Geol. Surv. Scientific Invest. Rep. 2010\u20135089"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib65",
+        "doi-asserted-by": "crossref",
+        "first-page": "92",
+        "DOI": "10.1016/j.chemgeo.2012.09.007",
+        "article-title": "Volatile fluxes through the Big Bend section of the san Andreas fault, California: helium and carbon-dioxide systematics",
+        "volume": "339",
+        "author": "Kulongoski",
+        "year": "2013",
+        "journal-title": "Chem. Geol."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib66",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1002/2017JG004026",
+        "article-title": "Origin of methane and sources of high concentrations in Los Angeles groundwater",
+        "volume": "123",
+        "author": "Kulongoski",
+        "year": "2018",
+        "journal-title": "J. Geophys. Res., Biogeosci."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib67",
+        "first-page": "2004",
+        "article-title": "Groundwater quality of coastal aquifer systems in the west Coast basin, Los Angeles county, California, 1999\u20132002",
+        "author": "Land",
+        "year": "2004",
+        "journal-title": "U.S. Geol. Surv. Sci. Invest. Rep."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib68",
+        "first-page": "2009",
+        "article-title": "Status and understanding of groundwater quality in the central\u2013eastside san Joaquin basin, 2006: California GAMA priority basin project",
+        "author": "Landon",
+        "year": "2010",
+        "journal-title": "U.S. Geol. Surv. Scientific Invest. Rep."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib69",
+        "doi-asserted-by": "crossref",
+        "first-page": "8689",
+        "DOI": "10.1021/es302024c",
+        "article-title": "Geogenic sources of benzene in aquifers used for public supply, California",
+        "volume": "46",
+        "author": "Landon",
+        "year": "2012",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib70",
+        "doi-asserted-by": "crossref",
+        "first-page": "579",
+        "DOI": "10.1016/j.scitotenv.2016.11.058",
+        "article-title": "Using groundwater age distributions to understand changes in methyl tert-butyl ether (MTBE) concentrations in ambient groundwater, northeastern United States",
+        "volume": "579",
+        "author": "Lindsey",
+        "year": "2017",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib71",
+        "first-page": "2019",
+        "article-title": "Tritium as an indicator of modern, mixed, and premodern groundwater age",
+        "author": "Lindsey",
+        "year": "2019",
+        "journal-title": "U.S. Geol. Surv. Sci. Invest. Rep."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib72",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.1016/0016-7037(86)90043-8",
+        "article-title": "Model for the distribution of sulfate reduction and methanogenesis in freshwater sediments",
+        "volume": "50",
+        "author": "Lovley",
+        "year": "1986",
+        "journal-title": "Geochem. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib73",
+        "series-title": "Helium Isotopes in Nature",
+        "author": "Mamyrin",
+        "year": "1984"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib74",
+        "series-title": "Water Chemistry Data for Samples Collected at Groundwater Sites Near the Fruitvale Oil Field, September 2016\u2013February 2017",
+        "author": "McCarlson",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib75",
+        "series-title": "Water Chemistry Data for Samples Collected at Groundwater Sites Near the Orcutt Oil Field, September 2017\u2013July 2018",
+        "author": "McCarlson",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib76",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2007WR006731",
+        "article-title": "Simulated response of water quality in public supply wells to land use change",
+        "volume": "44",
+        "author": "McMahon",
+        "year": "2008",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib77",
+        "doi-asserted-by": "crossref",
+        "first-page": "13250",
+        "DOI": "10.1021/es402473c",
+        "article-title": "Groundwater ages and mixing in the Piceance Basin natural gas province, Colorado",
+        "volume": "47",
+        "author": "McMahon",
+        "year": "2013",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib78",
+        "doi-asserted-by": "crossref",
+        "first-page": "81",
+        "DOI": "10.1111/gwat.12296",
+        "article-title": "Quality and age of shallow groundwater in the bakken formation production area, williston basin, Montana and north Dakota",
+        "volume": "53",
+        "author": "McMahon",
+        "year": "2015",
+        "journal-title": "Ground Water"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib79",
+        "doi-asserted-by": "crossref",
+        "first-page": "6727",
+        "DOI": "10.1021/acs.est.7b00746",
+        "article-title": "Methane and benzene in drinking-water wells overlying the Eagle Ford, Fayetteville, and Haynesville Shale hydrocarbon production areas",
+        "volume": "51",
+        "author": "McMahon",
+        "year": "2017",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib80",
+        "article-title": "Preliminary results from exploratory sampling of wells for the California Oil, Gas, and Groundwater program, 2014\u201315",
+        "author": "McMahon",
+        "year": "2017",
+        "journal-title": "U.S. Geol. Surv. Open-File Rep. 2016\u20131100"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib81",
+        "doi-asserted-by": "crossref",
+        "first-page": "791",
+        "DOI": "10.1016/j.scitotenv.2018.03.371",
+        "article-title": "Methane in groundwater from a leaking gas well, Piceance Basin, Colorado, USA",
+        "volume": "634",
+        "author": "McMahon",
+        "year": "2018",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib82",
+        "doi-asserted-by": "crossref",
+        "first-page": "127",
+        "DOI": "10.1016/j.apgeochem.2018.09.015",
+        "article-title": "Regional patterns in the geochemistry of oil-field water, southern San Joaquin Valley, California, USA",
+        "volume": "98",
+        "author": "McMahon",
+        "year": "2018",
+        "journal-title": "Appl. Geochem."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib83",
+        "doi-asserted-by": "crossref",
+        "first-page": "8027",
+        "DOI": "10.1021/acs.est.9b01440",
+        "article-title": "Hydrocarbons in upland groundwater, Marcellus Shale region, northeastern Pennsylvania and southern New York, USA",
+        "volume": "53",
+        "author": "McMahon",
+        "year": "2019",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib84",
+        "doi-asserted-by": "crossref",
+        "first-page": "9398",
+        "DOI": "10.1021/acs.est.9b02395",
+        "article-title": "Occurrence and sources of radium in groundwater associated with oil fields in the southern San Joaquin Valley, California",
+        "volume": "53",
+        "author": "McMahon",
+        "year": "2019",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib85",
+        "doi-asserted-by": "crossref",
+        "first-page": "321",
+        "DOI": "10.1017/S0033822200063499",
+        "article-title": "Illumination of a black box\u2014analysis of gas composition during graphite target preparation",
+        "volume": "34",
+        "author": "McNichol",
+        "year": "1992",
+        "journal-title": "Radiocarbon"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib86",
+        "doi-asserted-by": "crossref",
+        "first-page": "237",
+        "DOI": "10.1017/S0033822200040522",
+        "article-title": "The rapid preparation of seawater \u03a3CO2 for radiocarbon analysis at the National Ocean Sciences AMS Facility",
+        "volume": "36",
+        "author": "McNichol",
+        "year": "1994",
+        "journal-title": "Radiocarbon"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib87",
+        "doi-asserted-by": "crossref",
+        "first-page": "656",
+        "DOI": "10.1111/gwat.12401",
+        "article-title": "Environmental factors associated with natural methane occurrence in the Appalachian Basin",
+        "volume": "54",
+        "author": "Molofsky",
+        "year": "2016",
+        "journal-title": "Ground Water"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib88",
+        "author": "National Oceanic"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib89",
+        "series-title": "Field Trip Guidebook 56, Part II: Structure and Stratigraphy, Am. Assoc. Petrol. Geol. Pacific Section, Bakersfield, CA",
+        "article-title": "Stratigraphy, paleoenvironment and depositional setting of Tertiary sediments, southeastern San Joaquin Basin",
+        "author": "Olson",
+        "year": "1986"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib90",
+        "series-title": "OriginPro 2018 Software",
+        "author": "OriginLab Corporation",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib91",
+        "doi-asserted-by": "crossref",
+        "first-page": "456",
+        "DOI": "10.1016/j.apgeochem.2010.01.001",
+        "article-title": "Chemical and isotopic tracers of the contribution of microbial gas in Devonian organic-rich shales and reservoir sandstones, northern Appalachian Basin",
+        "volume": "25",
+        "author": "Osborn",
+        "year": "2010",
+        "journal-title": "Appl. Geochem."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib92",
+        "doi-asserted-by": "crossref",
+        "first-page": "8172",
+        "DOI": "10.1073/pnas.1100682108",
+        "article-title": "Methane contamination of drinking water accompanying gas-well drilling and hydraulic fracturing",
+        "volume": "108",
+        "author": "Osborn",
+        "year": "2011",
+        "journal-title": "Proc. Natl. Acad. Sci. U.S.A."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib93",
+        "series-title": "Proceedings of the International Conference of Low-Radioactivity Measurements and Applications. Slovenske Pedagogicke Nakladatelstvo, Tatransk\u00e1 Lomnica, Slovakia",
+        "first-page": "55",
+        "article-title": "Rapid electrolytic enrichment and gas proportional counting of tritium",
+        "author": "Ostlund",
+        "year": "1977"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib94",
+        "series-title": "Noble Gas Geochemistry",
+        "author": "Ozima",
+        "year": "1983"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib95",
+        "article-title": "National geophysical data grids; gamma-ray, gravity, magnetic, and topographic data for the conterminous United States",
+        "author": "Phillips",
+        "year": "1993",
+        "journal-title": "U.S. Geol. Surv. Digital Data Series DDS-9"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib96",
+        "doi-asserted-by": "crossref",
+        "first-page": "127",
+        "DOI": "10.1007/s100400000121",
+        "article-title": "Radiocarbon dating of dissolved inorganic carbon in groundwater from confined parts of the Upper Floridan aquifer, Florida, USA",
+        "volume": "9",
+        "author": "Plummer",
+        "year": "2001",
+        "journal-title": "Hydrogeol. J."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib97",
+        "doi-asserted-by": "crossref",
+        "first-page": "1152",
+        "DOI": "10.1016/j.scitotenv.2013.09.027",
+        "article-title": "A GIS-based vulnerability assessment of brine contamination to aquatic resources from oil and gas development in eastern Sheridan County, Montana",
+        "volume": "472",
+        "author": "Preston",
+        "year": "2014",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib98",
+        "doi-asserted-by": "crossref",
+        "first-page": "839",
+        "DOI": "10.1021/es1038358",
+        "article-title": "Nitrogen contamination of surficial aquifers \u2013 a growing legacy",
+        "volume": "45",
+        "author": "Puckett",
+        "year": "2011",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib99",
+        "first-page": "4065",
+        "article-title": "Geohydrology, geochemistry, and groundwater simulation-optimization of the central and west coast basins, Los Angeles county, California",
+        "author": "Reichard",
+        "year": "2003",
+        "journal-title": "U.S. Geol. Surv. Water-Resourc. Invest.Rep. 03\u2013"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib100",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.scitotenv.2020.144822",
+        "article-title": "Groundwater quality of aquifers overlying the Oxnard oil field, Ventura County, California",
+        "author": "Rosecrans",
+        "year": "2021",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib101",
+        "series-title": "Water Chemistry Data for Samples Collected at Groundwater Sites Near the Oxnard Oil Field, June 2017\u2013August 2017",
+        "author": "Rosecrans",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib102",
+        "article-title": "Age, distribution, and stratigraphic relationship of rock units in the San Joaquin Basin Province, California",
+        "author": "Scheirer",
+        "year": "2007",
+        "journal-title": "U.S. Geol. Surv"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib103",
+        "doi-asserted-by": "crossref",
+        "first-page": "172",
+        "DOI": "10.1016/0168-583X(94)96000-3",
+        "article-title": "Methods for data screening, flagging and error analysis at the National Ocean Sciences AMS Facility",
+        "volume": "92",
+        "author": "Schneider",
+        "year": "1994",
+        "journal-title": "Nucl. Instrum. Methods Phys. Res. Sect. B Beam Interact. Mater. Atoms"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib104",
+        "doi-asserted-by": "crossref",
+        "first-page": "547",
+        "DOI": "10.1111/gwat.12825",
+        "article-title": "Towards quantifying the likelihood of water resources impacts from unconventional gas development",
+        "volume": "57",
+        "author": "Shanafield",
+        "year": "2019",
+        "journal-title": "Ground Water"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib105",
+        "series-title": "Low-level Volatile Organic Compounds in Active Public Suppl Wells as Groundwater Tracers in the Los Angeles Physiographic Basin, California, 2000",
+        "author": "Shelton",
+        "year": "2001"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib106",
+        "doi-asserted-by": "crossref",
+        "first-page": "2051",
+        "DOI": "10.1016/0016-7037(92)90329-H",
+        "article-title": "Helium in deep circulating groundwater in the Great Hungarian Plain: flow dynamics and crustal and mantle helium fluxes",
+        "volume": "56",
+        "author": "Stute",
+        "year": "1992",
+        "journal-title": "Geochem. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib107",
+        "article-title": "Methods for determination of radioactive substances in water and fluvial sediments",
+        "author": "Thatcher",
+        "year": "1977",
+        "journal-title": "U.S. Geol. Surv. Tech. Water-Resourc. Invest. 05-A5"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib108",
+        "doi-asserted-by": "crossref",
+        "first-page": "1479",
+        "DOI": "10.1029/WR015i006p01479",
+        "article-title": "The geochemistry of the fox hills-basal hell Creek aquifer in north Dakota and northwestern south Dakota",
+        "volume": "15",
+        "author": "Thorstenson",
+        "year": "1979",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib109",
+        "doi-asserted-by": "crossref",
+        "first-page": "2445",
+        "DOI": "10.1016/0016-7037(85)90244-3",
+        "article-title": "Helium accumulation in groundwater. II: a model for the accumulation of crustal 4He degassing flux",
+        "volume": "49",
+        "author": "Torgersen",
+        "year": "1985",
+        "journal-title": "Geochem. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib110",
+        "series-title": "Aquifer Delineation within the Oxnard Forebay Groundwater Basin Using Surface Geophysics. Open-File Report 2013\u201306",
+        "year": "2013"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib111",
+        "series-title": "Hydraulic Fracturing for Oil and Gas: Impacts from the Hydraulic Fracturing Water Cycle on Drinking Water Resources in the United States. EPA-600-R-16-236Fa",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib115",
+        "doi-asserted-by": "crossref",
+        "first-page": "187",
+        "DOI": "10.1111/j.1745-6584.2005.0005.x",
+        "article-title": "Oxidation of fugitive methane in groundwater linked to bacterial sulfate reduction",
+        "volume": "43",
+        "author": "Van Stempvoort",
+        "year": "2005",
+        "journal-title": "Ground Water"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib116",
+        "series-title": "California GAMA Special Study: A Noble Gas Membrane Inlet Mass Spectrometry (NG-MIMS) System for Water and Gas Samples",
+        "author": "Visser",
+        "year": "2012"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib117",
+        "series-title": "Collection and Analysis of Groundwater for Determination of Noble Gas Abundance and Helium Isotopic Composition (SOPNGMS-122 Revision 5)",
+        "author": "Visser",
+        "year": "2013"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib118",
+        "doi-asserted-by": "crossref",
+        "first-page": "323",
+        "DOI": "10.1017/S0033822200043733",
+        "article-title": "14C background levels in an accelerator mass spectrometry system",
+        "volume": "29",
+        "author": "Vogel",
+        "year": "1987",
+        "journal-title": "Radiocarbon"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib119",
+        "doi-asserted-by": "crossref",
+        "first-page": "7149",
+        "DOI": "10.1021/acs.est.8b01123",
+        "article-title": "Big groundwater datasets reveal possible rare contamination amid otherwise improved water quality for some analytes in a region of Marcellus Shale development",
+        "volume": "52",
+        "author": "Wen",
+        "year": "2018",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib120",
+        "doi-asserted-by": "crossref",
+        "first-page": "639",
+        "DOI": "10.1016/0016-7037(86)90346-7",
+        "article-title": "Biogenic methane formation in marine and freshwater environments: CO2 reduction vs acetate fermentation\u2013Isotope evidence",
+        "volume": "50",
+        "author": "Whiticar",
+        "year": "1986",
+        "journal-title": "Geochem. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib121",
+        "doi-asserted-by": "crossref",
+        "first-page": "12349",
+        "DOI": "10.1073/pnas.1809013115",
+        "article-title": "Detecting and explaining why aquifers occasionally become degraded near hydraulically fractured shale gas wells",
+        "volume": "115",
+        "author": "Woda",
+        "year": "2018",
+        "journal-title": "Proc. Natl. Acad. Sci. Unit. States Am."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib122",
+        "series-title": "Groundwater Conditions in the Avenal-McKittrick Area, Kings and Kern Counties",
+        "volume": "1457",
+        "author": "Wood",
+        "year": "1959"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib123",
+        "article-title": "Geology and groundwater resources of the Santa Maria valley area, California",
+        "volume": "1000",
+        "author": "Worts",
+        "year": "1951",
+        "journal-title": "U.S. Geol. Surv. Water-Supply Paper"
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib124",
+        "doi-asserted-by": "crossref",
+        "first-page": "82",
+        "DOI": "10.1016/j.apgeochem.2019.05.003",
+        "article-title": "Groundwater quality of a public supply aquifer in proximity to oil development, Fruitvale oil field, Bakersfield, California",
+        "volume": "106",
+        "author": "Wright",
+        "year": "2019",
+        "journal-title": "Appl. Geochem."
+      },
+      {
+        "key": "10.1016/j.apgeochem.2021.105024_bib125",
+        "series-title": "Petroleum Generation and Occurrence in the Miocene Monterey Formation, California",
+        "first-page": "85",
+        "article-title": "Heavy oil accumulations in the oxnard field, Ventura basin, California",
+        "author": "Yeats",
+        "year": "1983"
+      }
+    ],
+    "container-title": [
+      "Applied Geochemistry"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0883292721001566?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0883292721001566?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T18:09:23Z",
+      "timestamp": 1760119763000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0883292721001566"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          8
+        ]
+      ]
+    },
+    "references-count": 118,
+    "alternative-id": [
+      "S0883292721001566"
+    ],
+    "URL": "https://doi.org/10.1016/j.apgeochem.2021.105024",
+    "relation": {},
+    "ISSN": [
+      "0883-2927"
+    ],
+    "issn-type": [
+      {
+        "value": "0883-2927",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          8
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Relative risk of groundwater-quality degradation near California (USA) oil fields estimated from 3H, 14C, and 4He",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Applied Geochemistry",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.apgeochem.2021.105024",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "Published by Elsevier Ltd.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "105024"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1016/j.apgeochem.2021.105024",
+  "original_doi": "10.1016/j.apgeochem.2021.105024"
+}

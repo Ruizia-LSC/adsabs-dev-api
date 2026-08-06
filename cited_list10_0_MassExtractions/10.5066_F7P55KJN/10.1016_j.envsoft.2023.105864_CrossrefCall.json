@@ -1,0 +1,573 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          3
+        ]
+      ],
+      "date-time": "2026-07-03T17:05:05Z",
+      "timestamp": 1783098305559,
+      "version": "3.54.6"
+    },
+    "reference-count": 39,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2023-12-01T00:00:00Z",
+          "timestamp": 1701388800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2023-12-01T00:00:00Z",
+          "timestamp": 1701388800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              2
+            ]
+          ],
+          "date-time": "2023-11-02T00:00:00Z",
+          "timestamp": 1698883200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Environmental Modelling &amp; Software"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.envsoft.2023.105864",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          28
+        ]
+      ],
+      "date-time": "2023-10-28T04:54:29Z",
+      "timestamp": 1698468869000
+    },
+    "page": "105864",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "special_numbering": "C",
+    "title": [
+      "Leveraging machine learning to automate regression model evaluations for large multi-site water-quality trend studies"
+    ],
+    "prefix": "10.1016",
+    "volume": "170",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0881-0919",
+        "authenticated-orcid": false,
+        "given": "Jennifer",
+        "family": "Murphy",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jeffrey",
+        "family": "Chanat",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib1",
+        "author": "Betton",
+        "year": "1991"
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "3285",
+        "DOI": "10.1016/j.watres.2008.04.006",
+        "article-title": "Spatial analysis of water quality trends in the Han River basin, South Korea",
+        "volume": "42",
+        "author": "Chang",
+        "year": "2008",
+        "journal-title": "Water Res."
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "4875",
+        "DOI": "10.1007/s11270-012-1243-0",
+        "article-title": "Water quality monitoring using remote sensing and an artificial neural network",
+        "volume": "223",
+        "author": "Chebud",
+        "year": "2012",
+        "journal-title": "Water Air Soil Pollut."
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "314",
+        "DOI": "10.1016/j.jhydrol.2018.01.046",
+        "article-title": "Forty-year trends in the flux and concentration of phosphorus in British rivers",
+        "volume": "558",
+        "author": "Civan",
+        "year": "2018",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib5",
+        "article-title": "Water-quality and streamflow datasets used in the Weighted Regressions on Time, Discharge, and Season (WRTDS) models to determine trends in the Nation's rivers and streams, 1972-2012",
+        "author": "De Cicco",
+        "year": "2017",
+        "journal-title": "U.S. Geological Survey data release"
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "127",
+        "DOI": "10.1002/(SICI)1099-1085(199602)10:2<127::AID-HYP354>3.0.CO;2-8",
+        "article-title": "Review of methods for the detection and estimation of trends with emphasis on water quality applications",
+        "volume": "10",
+        "author": "Esterby",
+        "year": "1996",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib7",
+        "series-title": "Comparability of Suspended-Sediment Concentration and Total Suspended Solids Data",
+        "author": "Gray",
+        "year": "2000"
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib8",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.envsoft.2022.105465",
+        "article-title": "Data fusion system for monitoring water quality: application to chlorophyll-a in Baltic sea coast",
+        "volume": "155",
+        "author": "Gunia",
+        "year": "2022",
+        "journal-title": "Environ. Model. Software"
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "5",
+        "DOI": "10.1111/j.1752-1688.2010.00482.x",
+        "article-title": "Weighted regressions on time, discharge, and season (WRTDS), with an application to chesapeake bay river inputs",
+        "volume": "46",
+        "author": "Hirsch",
+        "year": "2010",
+        "journal-title": "J. Am. Water Resour. Assoc."
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib10",
+        "first-page": "6",
+        "article-title": "Large biases in regression-based constituent flux estimates: causes and diagnostic tools",
+        "volume": "50",
+        "author": "Hirsch",
+        "year": "2012",
+        "journal-title": "J. Am. Water Resour. Assoc."
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib11",
+        "article-title": "User guide to Exploration and Graphics for RivEr Trends (EGRET) and dataRetrieval: R packages for hydrologic data",
+        "volume": "4-A10",
+        "author": "Hirsch",
+        "year": "2015",
+        "journal-title": "U.S. Geological Survey Techniques and Methods"
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib12",
+        "series-title": "An Introduction to Statistical Learning with Applications in R",
+        "author": "James",
+        "year": "2013"
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib13",
+        "doi-asserted-by": "crossref",
+        "first-page": "4",
+        "DOI": "10.1073/pnas.1711234115",
+        "article-title": "Freshwater salinization syndrome on a continental scale",
+        "volume": "115",
+        "author": "Kaushal",
+        "year": "2018",
+        "journal-title": "Proc. Natl. Acad. Sci. USA"
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib14",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1080/00288330.2016.1150309",
+        "article-title": "Water quality in New Zealand rivers: current state and trends",
+        "author": "Larned",
+        "year": "2016",
+        "journal-title": "N. Z. J. Mar. Freshw. Res."
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib15",
+        "series-title": "U.S. Geological Survey Scientific Investigations Report 2019\u20135084",
+        "article-title": "An evaluation of methods for computing annual water-quality loads",
+        "author": "Lee",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib16",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.envsoft.2018.05.013",
+        "article-title": "A non-parametric bootstrapping framework embedded in a toolkit for assessing water quality model performance",
+        "volume": "107",
+        "author": "Libera",
+        "year": "2018",
+        "journal-title": "Environ. Model. Software"
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib17",
+        "article-title": "Global trends in water and sediment fluxes of the world's large rivers",
+        "volume": "65",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "Sci. Bull."
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib18",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1088/1748-9326/ac1817",
+        "article-title": "Trends and legacy of freshwater salinization: untangling over 50 years of stream chloride monitoring",
+        "volume": "16",
+        "author": "Mazumder",
+        "year": "2021",
+        "journal-title": "Environ. Res. Lett."
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib19",
+        "series-title": "Data to Support \u201cLeveraging Machine Learning to Automate Regression Model Evaluations for Large Multi-Site Water-Quality Trend Studies\u201d",
+        "author": "Murphy",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib20",
+        "article-title": "Water-quality trends for rivers and streams in the Delaware River Basin using weighted regressions on time, discharge, and season (WRTDS) models, seasonal kendall trend (SKT) tests, and multisource data, water year 1978-2018",
+        "author": "Murphy",
+        "year": "2020",
+        "journal-title": "U.S. Geological Survey data release"
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib21",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.envsoft.2019.03.027",
+        "article-title": "A generalized additive model approach to evaluating water quality: chesapeake Bay case study",
+        "volume": "118",
+        "author": "Murphy",
+        "year": "2019",
+        "journal-title": "Environ. Model. Software"
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib22",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib23",
+        "article-title": "Water-quality trends in the Nation's rivers and streams, 1972\u20132012\u2014data preparation, statistical methods, and trend results",
+        "author": "Oelsner",
+        "year": "2017",
+        "journal-title": "U.S. Geological Survey Scientific Investigations Report 2017\u20135006"
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib24",
+        "series-title": "Remote Sensing for Inland Water Quality Monitoring: A U.S. Army Corps of Engineers Perspective",
+        "author": "Reif",
+        "year": "2011"
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "77",
+        "DOI": "10.1186/1471-2105-12-77",
+        "article-title": "pROC: an open-source package for R and S+ to analyze and compare ROC curves",
+        "volume": "12",
+        "author": "Robin",
+        "year": "2011",
+        "journal-title": "BMC Bioinf."
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib26",
+        "series-title": "Water-quality Trends in New England Rivers during the 20th Century",
+        "author": "Robinson",
+        "year": "2003"
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib27",
+        "series-title": "R: A Language and Environment for Statistical Computing",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib28",
+        "series-title": "RStudio",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib29",
+        "first-page": "1",
+        "article-title": "Integrated water resources trend assessments: state of the science, challenges, and opportunities for advancement",
+        "author": "Stackpoole",
+        "year": "2023",
+        "journal-title": "J. Am. Water Resour. Assoc."
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib30",
+        "article-title": "Water-quality trends in the Delaware River Basin calculated using multisource data and two methods for trend periods ending in 2018",
+        "author": "Shoda",
+        "year": "2022",
+        "journal-title": "U.S. Geological Survey Scientific Investigations Report 2022\u20135097"
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "2314",
+        "DOI": "10.1016/j.scitotenv.2018.09.377",
+        "article-title": "Water-quality trends in U.S. rivers, 2002 to 2012: relations to levels of concern",
+        "volume": "650",
+        "author": "Shoda",
+        "year": "2019",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib32",
+        "doi-asserted-by": "crossref",
+        "first-page": "4336",
+        "DOI": "10.1021/acs.est.9b05344",
+        "article-title": "Landscape drivers of dynamic change in water quality of U.S. rivers",
+        "volume": "54",
+        "author": "Stets",
+        "year": "2020",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib33",
+        "article-title": "GEMStat database of the global environment monitoring system for freshwater (GEMS/water) Programme",
+        "year": "2018",
+        "journal-title": "International Centre for Water Resources and Global Change, Koblenz"
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib34",
+        "series-title": "USGS Water Data for the Nation: U.S. Geological Survey National Water Information System Database",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib35",
+        "series-title": "Modern Applied Statistics with S",
+        "author": "Venables",
+        "year": "2002"
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib36",
+        "series-title": "Dplyr: A Grammar of Data Manipulation",
+        "author": "Wickham",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib37",
+        "series-title": "Tidyr: Tidy Messy Data",
+        "author": "Wickham",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.envsoft.2023.105864_bib38",
+        "series-title": "ggplot2: Elegant Graphics for Data Analysis",
+        "author": "Wickham",
+        "year": "2016"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.envsoft.2023.105864_bib39",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1002/1097-0142(1950)3:1<32::AID-CNCR2820030106>3.0.CO;2-3",
+        "article-title": "Index for rating diagnostic tests",
+        "volume": "3",
+        "author": "Youden",
+        "year": "1950",
+        "journal-title": "Cancer"
+      }
+    ],
+    "container-title": [
+      "Environmental Modelling &amp; Software"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1364815223002505?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1364815223002505?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          23
+        ]
+      ],
+      "date-time": "2025-10-23T23:20:36Z",
+      "timestamp": 1761261636000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1364815223002505"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12
+        ]
+      ]
+    },
+    "references-count": 39,
+    "alternative-id": [
+      "S1364815223002505"
+    ],
+    "URL": "https://doi.org/10.1016/j.envsoft.2023.105864",
+    "relation": {},
+    "ISSN": [
+      "1364-8152"
+    ],
+    "issn-type": [
+      {
+        "value": "1364-8152",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          12
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Leveraging machine learning to automate regression model evaluations for large multi-site water-quality trend studies",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Environmental Modelling & Software",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.envsoft.2023.105864",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "Published by Elsevier Ltd.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "105864"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1016/j.envsoft.2023.105864",
+  "original_doi": "10.1016/j.envsoft.2023.105864"
+}

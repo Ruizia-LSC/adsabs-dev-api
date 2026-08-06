@@ -1,0 +1,494 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          13
+        ]
+      ],
+      "date-time": "2026-06-13T09:49:01Z",
+      "timestamp": 1781344141958,
+      "version": "3.54.1"
+    },
+    "reference-count": 19,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              15
+            ]
+          ],
+          "date-time": "2025-09-15T00:00:00Z",
+          "timestamp": 1757894400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000192",
+        "name": "National Oceanic and Atmospheric Administration",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NA19NOS4730207"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NA19NOS4730207"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000192",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Data in Brief"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.dib.2025.112092",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          23
+        ]
+      ],
+      "date-time": "2025-09-23T07:04:13Z",
+      "timestamp": 1758611053000
+    },
+    "page": "112092",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "special_numbering": "C",
+    "title": [
+      "Non-linear dynamics of United States streamflow dataset"
+    ],
+    "prefix": "10.1016",
+    "volume": "63",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2098-4292",
+        "authenticated-orcid": false,
+        "given": "Krzysztof",
+        "family": "Raczy\u0144ski",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Katarzyna",
+        "family": "Grala",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "John H.",
+        "family": "Cartwright",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.dib.2025.112092_bib0001",
+        "article-title": "Quantification of nonlinear dynamics and chaos in streamflow",
+        "author": "Raczynski",
+        "year": "2025",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.dib.2025.112092_bib0002",
+        "unstructured": "U.S. Geological Survey, 2016, National Water Information System data available on the World Wide Web (USGS Water Data for the Nation), accessed July 3, 2025, at URL http://waterdata.usgs.gov/nwis/, https://doi.org/10.5066/F7P55KJN."
+      },
+      {
+        "key": "10.1016/j.dib.2025.112092_bib0004",
+        "unstructured": "K. Raczynski, 2025. Pyenfra: Python Package for Environmental Fractal Analysis and Chaos Estimation. https://github.com/chrisrac/pyenfra (accessed: 7/03/2025)."
+      },
+      {
+        "issue": "10\u201312",
+        "key": "10.1016/j.dib.2025.112092_bib0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "217",
+        "DOI": "10.1016/S0895-7177(99)00104-1",
+        "article-title": "Estimating long-range dependence in the presence of periodicity: an empirical study",
+        "volume": "29",
+        "author": "Montanari",
+        "year": "1999",
+        "journal-title": "Math. Comput. Model."
+      },
+      {
+        "issue": "D1",
+        "key": "10.1016/j.dib.2025.112092_bib0006",
+        "article-title": "Long-term persistence and multifractality of precipitation and river runoff records",
+        "volume": "111",
+        "author": "Kantelhardt",
+        "year": "2006",
+        "journal-title": "J. Geophys. Res.: Atmos."
+      },
+      {
+        "issue": "1\u20134",
+        "key": "10.1016/j.dib.2025.112092_bib0007",
+        "doi-asserted-by": "crossref",
+        "first-page": "289",
+        "DOI": "10.1016/j.jhydrol.2005.04.004",
+        "article-title": "Recent advances in wavelet analyses: part 2\u2014Amazon, Parana, Orinoco and Congo discharges time scale variability",
+        "volume": "314",
+        "author": "Labat",
+        "year": "2005",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.dib.2025.112092_bib0008",
+        "doi-asserted-by": "crossref",
+        "first-page": "411",
+        "DOI": "10.1142/9789814307987_0009",
+        "article-title": "Nonlinear dynamics and chaos in hydrology",
+        "author": "Sivakumar",
+        "year": "2010",
+        "journal-title": "Adv. Data-Based Approaches Hydrol. Model. Forecast."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.dib.2025.112092_bib0009",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.3390/appliedmath2010001",
+        "article-title": "Non-linear analysis of river system dynamics using recurrence quantification analysis",
+        "volume": "2",
+        "author": "Fragkou",
+        "year": "2022",
+        "journal-title": "AppliedMath"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.dib.2025.112092_bib0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "770",
+        "DOI": "10.1061/TACEAT.0006518",
+        "article-title": "Long-term storage capacity of reservoirs",
+        "volume": "116",
+        "author": "Hurst",
+        "year": "1951",
+        "journal-title": "Trans. Am. Soc. Civ. Eng."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.dib.2025.112092_bib0011",
+        "doi-asserted-by": "crossref",
+        "first-page": "285",
+        "DOI": "10.1016/S0378-4371(02)00961-5",
+        "article-title": "Estimating long-range dependence: finite sample properties and confidence intervals",
+        "volume": "312",
+        "author": "Weron",
+        "year": "2002",
+        "journal-title": "Phys. A: Stat. Mech. Appl."
+      },
+      {
+        "key": "10.1016/j.dib.2025.112092_bib0012",
+        "doi-asserted-by": "crossref",
+        "first-page": "1685",
+        "DOI": "10.1103/PhysRevE.49.1685",
+        "article-title": "Mosaic organization of DNA nucleotides",
+        "volume": "49",
+        "author": "Peng",
+        "year": "1994",
+        "journal-title": "Phys. Rev. E"
+      },
+      {
+        "issue": "1\u20134",
+        "key": "10.1016/j.dib.2025.112092_bib0013",
+        "first-page": "87",
+        "article-title": "Multifractal detrended fluctuation analysis of nonstationary time series",
+        "volume": "316",
+        "author": "Stanley",
+        "year": "2002",
+        "journal-title": "Phys. A"
+      },
+      {
+        "key": "10.1016/j.dib.2025.112092_bib0014",
+        "doi-asserted-by": "crossref",
+        "first-page": "3515",
+        "DOI": "10.1103/PhysRevLett.67.3515",
+        "article-title": "Wavelets and multifractal formalism for singular signals: application to turbulence data",
+        "volume": "67",
+        "author": "Muzy",
+        "year": "1991",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "issue": "1\u20132",
+        "key": "10.1016/j.dib.2025.112092_bib0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "232",
+        "DOI": "10.1016/0378-4371(94)00163-N",
+        "article-title": "The thermodynamics of fractals revisited with wavelets",
+        "volume": "213",
+        "author": "Arneodo",
+        "year": "1995",
+        "journal-title": "Phys. A: Stat. Mech. Appl."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.dib.2025.112092_bib0016",
+        "doi-asserted-by": "crossref",
+        "first-page": "4971",
+        "DOI": "10.1103/PhysRevA.34.4971",
+        "article-title": "Liapunov exponents from time series",
+        "volume": "34",
+        "author": "Eckmann",
+        "year": "1986",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "10.1016/j.dib.2025.112092_bib0017",
+        "doi-asserted-by": "crossref",
+        "first-page": "3403",
+        "DOI": "10.1103/PhysRevA.45.3403",
+        "article-title": "Determining embedding dimension for phase-space reconstruction using a geometrical construction",
+        "volume": "45",
+        "author": "Kennel",
+        "year": "1992",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.dib.2025.112092_bib0018",
+        "doi-asserted-by": "crossref",
+        "first-page": "H2039",
+        "DOI": "10.1152/ajpheart.2000.278.6.H2039",
+        "article-title": "Physiological time-series analysis using approximate entropy and sample entropy",
+        "volume": "278",
+        "author": "Richman",
+        "year": "2000",
+        "journal-title": "Am. J. Physiol.-Heart Circ. Physiol."
+      },
+      {
+        "issue": "3\u20134",
+        "key": "10.1016/j.dib.2025.112092_bib0019",
+        "doi-asserted-by": "crossref",
+        "first-page": "199",
+        "DOI": "10.1016/0375-9601(92)90426-M",
+        "article-title": "Embeddings and delays as derived from quantification of recurrence plots",
+        "volume": "171",
+        "author": "Zbilut",
+        "year": "1992",
+        "journal-title": "Phys. Lett. A"
+      },
+      {
+        "issue": "5\u20136",
+        "key": "10.1016/j.dib.2025.112092_bib0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "237",
+        "DOI": "10.1016/j.physrep.2006.11.001",
+        "article-title": "Recurrence plots for the analysis of complex systems",
+        "volume": "438",
+        "author": "Marwan",
+        "year": "2007",
+        "journal-title": "Phys. Rep."
+      }
+    ],
+    "container-title": [
+      "Data in Brief"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2352340925008145?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2352340925008145?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          10
+        ]
+      ],
+      "date-time": "2026-03-10T16:58:25Z",
+      "timestamp": 1773161905000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2352340925008145"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "references-count": 19,
+    "alternative-id": [
+      "S2352340925008145"
+    ],
+    "URL": "https://doi.org/10.1016/j.dib.2025.112092",
+    "relation": {
+      "is-supplemented-by": [
+        {
+          "id-type": "uri",
+          "id": "https://www.hydroshare.org/resource/44716e97517543889d2197aff6dd2cc3",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "ISSN": [
+      "2352-3409"
+    ],
+    "issn-type": [
+      {
+        "value": "2352-3409",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Non-linear dynamics of United States streamflow dataset",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Data in Brief",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.dib.2025.112092",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.ejrh.2026.103184",
+        "name": "associatedlink",
+        "label": "CrossRef DOI link to the associated document"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "\u00a9 2025 The Author(s). Published by Elsevier Inc.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "112092"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1016/j.dib.2025.112092",
+  "original_doi": "10.1016/j.dib.2025.112092"
+}

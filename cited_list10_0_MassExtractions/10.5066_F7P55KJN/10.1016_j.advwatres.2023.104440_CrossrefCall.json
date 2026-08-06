@@ -1,0 +1,933 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          18
+        ]
+      ],
+      "date-time": "2026-07-18T10:44:41Z",
+      "timestamp": 1784371481792,
+      "version": "3.55.0"
+    },
+    "reference-count": 66,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2023-05-01T00:00:00Z",
+          "timestamp": 1682899200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2023-05-01T00:00:00Z",
+          "timestamp": 1682899200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Advances in Water Resources"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.advwatres.2023.104440",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          8
+        ]
+      ],
+      "date-time": "2023-04-08T10:54:45Z",
+      "timestamp": 1680951285000
+    },
+    "page": "104440",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "special_numbering": "C",
+    "title": [
+      "Predicting baseflow recession characteristics at ungauged stream locations using a physical and machine learning approach"
+    ],
+    "prefix": "10.1016",
+    "volume": "175",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-6838-5849",
+        "authenticated-orcid": false,
+        "given": "Ken",
+        "family": "Eng",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David M.",
+        "family": "Wolock",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0999-5457",
+        "authenticated-orcid": false,
+        "given": "Michael",
+        "family": "Wieczorek",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0001",
+        "doi-asserted-by": "crossref",
+        "first-page": "121",
+        "DOI": "10.1002/joc.3413",
+        "article-title": "Development of gridded surface meteorological data for ecological applications and modelling",
+        "volume": "33",
+        "author": "Abatzoglou",
+        "year": "2013",
+        "journal-title": "Int. J. Climatol."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0002",
+        "series-title": "Proceedings of the Conjunctive Water Use (Proceedings of the Budapest Symposium",
+        "article-title": "Regionalization of parameters by basin geology for use in a groundwater runoff recession equation",
+        "author": "Ando",
+        "year": "1986"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.advwatres.2023.104440_bib0003",
+        "doi-asserted-by": "crossref",
+        "first-page": "73",
+        "DOI": "10.1111/j.1752-1688.1998.tb05961.x",
+        "article-title": "Large area hydrologic modeling and assessment part I\u2014Model development",
+        "volume": "34",
+        "author": "Arnold",
+        "year": "1998",
+        "journal-title": "J. Am. Water Resour. Assoc."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0004",
+        "doi-asserted-by": "crossref",
+        "first-page": "7843",
+        "DOI": "10.1002/2013WR013918",
+        "article-title": "Global patterns in base flow index and recession based on streamflow observations from 3394 catchments",
+        "volume": "49",
+        "author": "Beck",
+        "year": "2013",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0009",
+        "doi-asserted-by": "crossref",
+        "first-page": "L24403",
+        "DOI": "10.1029/2010GL045415",
+        "article-title": "Geomorphological origin of recession curves",
+        "volume": "37",
+        "author": "Biswal",
+        "year": "2010",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.advwatres.2023.104440_bib0007",
+        "doi-asserted-by": "crossref",
+        "first-page": "137",
+        "DOI": "10.4296/cwrj3302137",
+        "article-title": "Impacts of large-scale circulation variability on low streamflows over Canada: a review",
+        "volume": "33",
+        "author": "Bonsal",
+        "year": "2008",
+        "journal-title": "Can. Water Resour. J."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0005",
+        "first-page": "5",
+        "article-title": "Sur un mode simple d'\u00e9coulement des nappes d'eau d'infiltration \u00e0 lit horizontal, avec rebord vertical tout autour, lorsqu'une partie de ce rebord est enlev\u00e9e depuis la surface jusqu'au fond",
+        "volume": "137",
+        "author": "Boussinesq",
+        "year": "1903",
+        "journal-title": "C. R. Hebd. Seanc. Acad. Sci. Paris"
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0006",
+        "first-page": "5",
+        "article-title": "Recherches th\u00e9oriques sur l'\u00e9coulement des nappes d'eau infiltr\u00e9es dans le sol et sur le d\u00e9bit des sources",
+        "volume": "10",
+        "author": "Boussinesq",
+        "year": "1904",
+        "journal-title": "J. Math. Pures Appl. 5th Ser."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0008",
+        "doi-asserted-by": "crossref",
+        "first-page": "5",
+        "DOI": "10.1023/A:1010933404324",
+        "article-title": "Random forests",
+        "volume": "45",
+        "author": "Breiman",
+        "year": "2001",
+        "journal-title": "Mach Learn."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.advwatres.2023.104440_bib0011",
+        "doi-asserted-by": "crossref",
+        "first-page": "233",
+        "DOI": "10.1029/97WR03068",
+        "article-title": "Basin-scale geohydrologic drought flow features of riparian aquifers in the southern Great Plains",
+        "volume": "34",
+        "author": "Brutsaert",
+        "year": "1998",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.advwatres.2023.104440_bib0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "637",
+        "DOI": "10.1029/WR013i003p00637",
+        "article-title": "Regionalized drought flow hydrographs from a mature glaciated plateau",
+        "volume": "13",
+        "author": "Brutsaert",
+        "year": "1977",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0012",
+        "doi-asserted-by": "crossref",
+        "first-page": "W02409",
+        "DOI": "10.1029/2007WR006518",
+        "article-title": "Long-term groundwater storage trends estimated from streamflow records: climatic perspective",
+        "volume": "44",
+        "author": "Brutsaert",
+        "year": "2008",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "issue": "16",
+        "key": "10.1016/j.advwatres.2023.104440_bib0013",
+        "doi-asserted-by": "crossref",
+        "first-page": "2887",
+        "DOI": "10.1080/02626667.2016.1170940",
+        "article-title": "Analysing individual recession events: sensitivity of parameter determination to the calculation procedure",
+        "volume": "61",
+        "author": "Chen",
+        "year": "2016",
+        "journal-title": "Hydrol. Sci. J."
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.advwatres.2023.104440_bib0014",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1061/(ASCE)HE.1943-5584.0001427",
+        "article-title": "Automated selection of pure base flows from regular daily streamflow data: objective algorithm",
+        "volume": "21",
+        "author": "Cheng",
+        "year": "2016",
+        "journal-title": "J. Hydrol. Eng."
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.advwatres.2023.104440_bib0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "2783",
+        "DOI": "10.1890/07-0539.1",
+        "article-title": "Random forests for classification in ecology",
+        "volume": "88",
+        "author": "Cutler",
+        "year": "2007",
+        "journal-title": "Ecology"
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0016",
+        "doi-asserted-by": "crossref",
+        "first-page": "65",
+        "DOI": "10.5194/hess-21-65-2017",
+        "article-title": "Event-scale power law recession analysis: quantifying methodological uncertainty",
+        "volume": "21",
+        "author": "Dralle",
+        "year": "2017",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "issue": "D16",
+        "key": "10.1016/j.advwatres.2023.104440_bib0017",
+        "doi-asserted-by": "crossref",
+        "first-page": "19435",
+        "DOI": "10.1029/1999JD900087",
+        "article-title": "Generality of drought flow characteristics within the Arkansas River basin",
+        "volume": "104",
+        "author": "Eng",
+        "year": "1999",
+        "journal-title": "J. Geophys. Res."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0018",
+        "doi-asserted-by": "crossref",
+        "first-page": "W01201",
+        "DOI": "10.1029/2006WR005293",
+        "article-title": "Relating low-flow characteristics to the base flow recession time constant at partial record stream gauges",
+        "volume": "43",
+        "author": "Eng",
+        "year": "2007",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.advwatres.2023.104440_bib0019",
+        "doi-asserted-by": "crossref",
+        "first-page": "915",
+        "DOI": "10.1086/694912",
+        "article-title": "Predictability and selection of hydrologic metrics in riverine ecohydrology",
+        "volume": "36",
+        "author": "Eng",
+        "year": "2017",
+        "journal-title": "Freshw. Sci."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0020",
+        "series-title": "U.S. Geol. Surv. Data Release",
+        "article-title": "Calculated baseflow recession characteristics for streamflow gauging locations for the western and eastern United States, 1900 to 2018",
+        "author": "Eng",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0021",
+        "doi-asserted-by": "crossref",
+        "first-page": "264",
+        "DOI": "10.1016/j.ecolind.2009.05.005",
+        "article-title": "Quantifying human disturbance in watersheds: variable selection and performance of a GIS-based disturbance index for predicting the biological condition of perennial streams",
+        "volume": "10",
+        "author": "Falcone",
+        "year": "2010",
+        "journal-title": "Ecol. Indic."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0022",
+        "article-title": "GAGES-II\u2014Geospatial attributes of gages for evaluating streamflow",
+        "author": "Falcone",
+        "year": "2011",
+        "journal-title": "U.S. Geol. Surv. Database"
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0023",
+        "doi-asserted-by": "crossref",
+        "first-page": "373",
+        "DOI": "10.1175/1520-0442(1991)004<0373:SDOPSI>2.0.CO;2",
+        "article-title": "Spatial distribution of precipitation seasonality in the United States",
+        "volume": "4",
+        "author": "Finkelstein",
+        "year": "1991",
+        "journal-title": "J. Clim."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0024",
+        "unstructured": "Grandini, M., Bagli, E., & Visani, G., 2020. Metrics for multi-class classification: an overview. arXiv preprint arXiv:2008.05756."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.advwatres.2023.104440_bib0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "973",
+        "DOI": "10.1029/WR004i005p00973",
+        "article-title": "Base flow recessions-a review",
+        "volume": "4",
+        "author": "Hall",
+        "year": "1968",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.advwatres.2023.104440_bib0026",
+        "doi-asserted-by": "crossref",
+        "first-page": "L06402",
+        "DOI": "10.1029/2005GL025593",
+        "article-title": "Changes in the timing of winter-spring streamflows in eastern North America, 1913-2002",
+        "volume": "33",
+        "author": "Hodgkins",
+        "year": "2006",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0028",
+        "doi-asserted-by": "crossref",
+        "first-page": "1159",
+        "DOI": "10.5194/hess-24-1159-2020",
+        "article-title": "Recession analysis revisited: impacts of climate on parameter estimation",
+        "volume": "24",
+        "author": "Jachens",
+        "year": "2020",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.advwatres.2023.104440_bib0029",
+        "doi-asserted-by": "crossref",
+        "first-page": "2491",
+        "DOI": "10.1029/93WR00744",
+        "article-title": "U.S. streamflow patterns in relation to the El Ni\u00f1o/Southern Oscillation",
+        "volume": "29",
+        "author": "Kahya",
+        "year": "1993",
+        "journal-title": "Water Resour Res."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "2377",
+        "DOI": "10.5194/hess-15-2377-2011",
+        "article-title": "Stream recession curves and storage variability in small watersheds",
+        "volume": "15",
+        "author": "Krakauer",
+        "year": "2011",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0031",
+        "first-page": "206",
+        "article-title": "Precipitation-runoff modeling system: user\u2019s manual",
+        "volume": "83-4238",
+        "author": "Leavesley",
+        "year": "1983",
+        "journal-title": "U.S. Geol. Surv. Water-Resour. Invest. Rep."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0032",
+        "unstructured": "Liaw, A., & Wiener, M., 2018. Breiman and Cutler's random forests for classification and regression: r package randomForest ver. 4.6-14, accessed September 28, 2020, at https://www.stat.berkeley.edu/\u223cbreiman/RandomForests/."
+      },
+      {
+        "issue": "B7",
+        "key": "10.1016/j.advwatres.2023.104440_bib0033",
+        "first-page": "158",
+        "article-title": "PRMS-IV, the precipitation-runoff modeling system, version 4",
+        "volume": "6",
+        "author": "Markstrom",
+        "year": "2015",
+        "journal-title": "U.S. Geol. Surv. Tech. Methods"
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0034",
+        "doi-asserted-by": "crossref",
+        "first-page": "3905",
+        "DOI": "10.1175/1520-0442(2003)016<3905:MRSIUS>2.0.CO;2",
+        "article-title": "Multidecadal regime shifts in U.S. streamflow, precipitation, and temperature at the end of the twentieth century",
+        "volume": "16",
+        "author": "Mauget",
+        "year": "2003",
+        "journal-title": "J. Clim."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "6889",
+        "DOI": "10.1002/2014GL061980",
+        "article-title": "Spatial and temporal patterns in conterminous United States streamflow characteristics",
+        "volume": "41",
+        "author": "McCabe",
+        "year": "2014",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0036",
+        "doi-asserted-by": "crossref",
+        "first-page": "203",
+        "DOI": "10.1016/j.jhydrol.2014.12.039",
+        "article-title": "A new approach for continuous estimation of baseflow using discrete water quality data: method description and comparison with baseflow estimates from two existing approaches",
+        "volume": "522",
+        "author": "Miller",
+        "year": "2015",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0027",
+        "doi-asserted-by": "crossref",
+        "first-page": "890",
+        "DOI": "10.1111/1752-1688.12389",
+        "article-title": "The road to NHDPlus-advancements in digital stream networks and associated catchments",
+        "volume": "52",
+        "author": "Moore",
+        "year": "2016",
+        "journal-title": "J. Amer. Water Resour. Assoc."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0037",
+        "doi-asserted-by": "crossref",
+        "first-page": "282",
+        "DOI": "10.1016/0022-1694(70)90255-6",
+        "article-title": "River flow forecasting through conceptual models. Part 1: a discussion of principles",
+        "volume": "10",
+        "author": "Nash",
+        "year": "1970",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0038",
+        "doi-asserted-by": "crossref",
+        "first-page": "85",
+        "DOI": "10.1007/BF00872205",
+        "article-title": "Estimating low flow characteristics in ungauged catchments",
+        "volume": "6",
+        "author": "Nathan",
+        "year": "1992",
+        "journal-title": "Water Resour. Manag."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0039",
+        "doi-asserted-by": "crossref",
+        "first-page": "1214",
+        "DOI": "10.1016/j.ins.2019.10.048",
+        "article-title": "Learning imbalanced datasets based on SMOTE and Gaussian distribution",
+        "volume": "512",
+        "author": "Pan",
+        "year": "2020",
+        "journal-title": "Inf. Sci."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0040",
+        "series-title": "Theory of Groundwater Movement",
+        "first-page": "613",
+        "author": "Polubarinova-Kochina",
+        "year": "1962"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.advwatres.2023.104440_bib0041",
+        "doi-asserted-by": "crossref",
+        "first-page": "181",
+        "DOI": "10.1007/s10021-005-0054-1",
+        "article-title": "Newer classification and regression tree techniques\u2014Bagging and random forests for ecological prediction",
+        "volume": "9",
+        "author": "Prasad",
+        "year": "2006",
+        "journal-title": "Ecosystems"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.advwatres.2023.104440_bib0042",
+        "doi-asserted-by": "crossref",
+        "first-page": "21",
+        "DOI": "10.1080/02626667.2019.1643465",
+        "article-title": "Recession flow prediction in gauged and ungauged basins by just considering past discharge information",
+        "volume": "65",
+        "author": "Reddyvaraprasad",
+        "year": "2020",
+        "journal-title": "Hydrol. Sci. J."
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.advwatres.2023.104440_bib0043",
+        "doi-asserted-by": "crossref",
+        "first-page": "2381",
+        "DOI": "10.1029/91WR00690",
+        "article-title": "Surface climate and streamflow variability in the western United States and their relationship to large-scale circulation indices",
+        "volume": "27",
+        "author": "Redmond",
+        "year": "1991",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0044",
+        "doi-asserted-by": "crossref",
+        "first-page": "29",
+        "DOI": "10.1016/j.advwatres.2017.07.013",
+        "article-title": "Improved streamflow recession parameter estimation with attention to calculation of -dQ/dt",
+        "volume": "108",
+        "author": "Roques",
+        "year": "2017",
+        "journal-title": "Adv. Water Resour."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0045",
+        "doi-asserted-by": "crossref",
+        "first-page": "91",
+        "DOI": "10.1016/j.ejrh.2015.04.008",
+        "article-title": "Regional scale estimates of baseflow and factors influencing baseflow in the Upper colorado river basin",
+        "volume": "4",
+        "author": "Rumsey",
+        "year": "2015",
+        "journal-title": "J. Hydrol. Reg. Stud"
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0046",
+        "doi-asserted-by": "crossref",
+        "first-page": "W11422",
+        "DOI": "10.1029/2005WR004241",
+        "article-title": "Drainage of a horizontal Boussinesq aquifer with a power law hydraulic conductivity profile",
+        "volume": "41",
+        "author": "Rupp",
+        "year": "2005",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.advwatres.2023.104440_bib0047",
+        "doi-asserted-by": "crossref",
+        "first-page": "154",
+        "DOI": "10.1016/j.advwatres.2005.03.019",
+        "article-title": "Information, artifacts, and noise in dQ/dt \u2013 Q recession analysis",
+        "volume": "29",
+        "author": "Rupp",
+        "year": "2005",
+        "journal-title": "Adv. Water Resour."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0048",
+        "doi-asserted-by": "crossref",
+        "first-page": "W12421",
+        "DOI": "10.1029/2006WR005080",
+        "article-title": "On the use of the Boussinesq equation for interpreting recession hydrographs from sloping aquifers",
+        "volume": "42",
+        "author": "Rupp",
+        "year": "2006",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0049",
+        "doi-asserted-by": "crossref",
+        "first-page": "287",
+        "DOI": "10.1007/s10040-014-1191-4",
+        "article-title": "Baseflow recession analysis in the inland Pacific Northwest of the United States",
+        "volume": "23",
+        "author": "S\u00e1nchez-Murillo",
+        "year": "2015",
+        "journal-title": "Hydrogeol. J."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0050",
+        "doi-asserted-by": "crossref",
+        "first-page": "46",
+        "DOI": "10.1016/j.jhydrol.2012.02.034",
+        "article-title": "Examining individual recession events instead of a data cloud: using a modified interpretation of dQ/dt-Q streamflow recession in glaciated watersheds to better inform models of low flow",
+        "volume": "434-435",
+        "author": "Shaw",
+        "year": "2012",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0051",
+        "doi-asserted-by": "crossref",
+        "first-page": "646",
+        "DOI": "10.1016/j.jhydrol.2018.11.025",
+        "article-title": "Towards baseflow index characterisation at national scale in New Zealand",
+        "volume": "568",
+        "author": "Singh",
+        "year": "2019",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0052",
+        "doi-asserted-by": "crossref",
+        "first-page": "817",
+        "DOI": "10.5194/hess-17-817-2013",
+        "article-title": "Are streamflow recession characteristics really characteristic?",
+        "volume": "17",
+        "author": "Stoelzle",
+        "year": "2012",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0053",
+        "doi-asserted-by": "crossref",
+        "first-page": "349",
+        "DOI": "10.1016/0022-1694(94)02540-R",
+        "article-title": "A review of baseflow recession analysis",
+        "volume": "165",
+        "author": "Tallaksen",
+        "year": "1995",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0054",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2019WR025448",
+        "article-title": "An empirical reevaluation of streamflow recession analysis at the continental scale",
+        "volume": "56",
+        "author": "Tashie",
+        "year": "2020",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "102",
+        "DOI": "10.1016/j.jhydrol.2015.03.028",
+        "article-title": "Objective hydrograph baseflow recession analysis",
+        "volume": "525",
+        "author": "Thomas",
+        "year": "2015",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0056",
+        "doi-asserted-by": "crossref",
+        "first-page": "5611",
+        "DOI": "10.1002/2013WR014753",
+        "article-title": "Snowpack regimes of the Western United States",
+        "volume": "50",
+        "author": "Trujillo",
+        "year": "2014",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0057",
+        "unstructured": "U.S. Geological Survey, 2016. National Water Information System data available on the World Wide Web (USGS Water Data for the Nation), accessed [March 26, 2019] [https://waterdata.usgs.gov/nwis/] doi:10.5066/F7P55KJN."
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.advwatres.2023.104440_bib0058",
+        "doi-asserted-by": "crossref",
+        "first-page": "2451",
+        "DOI": "10.1029/92WR01007",
+        "article-title": "Regional geohydrologic-geomorphic relationships for the estimation of low-flow statistics",
+        "volume": "28",
+        "author": "Vogel",
+        "year": "1992",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0059",
+        "series-title": "Proceedings of the Symposium on Water-Use Data for Water Resources Management",
+        "first-page": "239",
+        "article-title": "Effects of regional ground water declines on streamflows in the Oklahoma Panhandle",
+        "author": "Wahl",
+        "year": "1988"
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0060",
+        "first-page": "77",
+        "article-title": "Determining the flow of comal springs at new braunfels, texas",
+        "author": "Wahl",
+        "year": "1995",
+        "journal-title": "Am. Soc. Civ. Eng."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0061",
+        "article-title": "Select attributes for NHDPlus version 2.1 reach catchments and modified network routed upstream watersheds for the conterminous United States (ver. 3.0, January 2021)",
+        "author": "Wieczorek",
+        "year": "2018",
+        "journal-title": "U.S. Geol. Surv. Data Release"
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0062",
+        "doi-asserted-by": "crossref",
+        "first-page": "149",
+        "DOI": "10.3354/cr011149",
+        "article-title": "Explaining spatial variability in the mean annual runoff in the conterminous United States",
+        "volume": "11",
+        "author": "Wolock",
+        "year": "1999",
+        "journal-title": "Clim. Res."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0063",
+        "doi-asserted-by": "crossref",
+        "first-page": "S71",
+        "DOI": "10.1007/s00267-003-5077-9",
+        "article-title": "Delineation and evaluation of hydrologic-landscape regions in the United States using geographic information system tools and multivariate statistical analyses",
+        "volume": "34",
+        "author": "Wolock",
+        "year": "2004",
+        "journal-title": "Environ. Manag."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.advwatres.2023.104440_bib0064",
+        "doi-asserted-by": "crossref",
+        "first-page": "1953",
+        "DOI": "10.3390/w12071953",
+        "article-title": "Extraction method of baseflow recession segments based on second-order derivative of streamflow and comparison with four conventional methods",
+        "volume": "12",
+        "author": "Yang",
+        "year": "2020",
+        "journal-title": "Water"
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "670",
+        "DOI": "10.1016/j.jhydrol.2014.07.017",
+        "article-title": "Regionalization of subsurface stormflow parameters of hydrologic models: derivation from regional analysis of streamflow recession curves",
+        "volume": "519",
+        "author": "Ye",
+        "year": "2014",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.advwatres.2023.104440_bib0066",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.agrformet.2019.107810",
+        "article-title": "Evaluation and comparison of multiple evapotranspiration data models ove the contiguous United States: implications for the next phase of NLDAS (NLDAS-Testbed) development",
+        "volume": "280",
+        "author": "Zhang",
+        "year": "2020",
+        "journal-title": "Agric. For. Meteorol."
+      }
+    ],
+    "container-title": [
+      "Advances in Water Resources"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0309170823000751?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0309170823000751?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          6
+        ]
+      ],
+      "date-time": "2025-10-06T04:18:01Z",
+      "timestamp": 1759724281000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0309170823000751"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          5
+        ]
+      ]
+    },
+    "references-count": 66,
+    "alternative-id": [
+      "S0309170823000751"
+    ],
+    "URL": "https://doi.org/10.1016/j.advwatres.2023.104440",
+    "relation": {},
+    "ISSN": [
+      "0309-1708"
+    ],
+    "issn-type": [
+      {
+        "value": "0309-1708",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          5
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Predicting baseflow recession characteristics at ungauged stream locations using a physical and machine learning approach",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Advances in Water Resources",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.advwatres.2023.104440",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "Published by Elsevier Ltd.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "104440"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1016/j.advwatres.2023.104440",
+  "original_doi": "10.1016/j.advwatres.2023.104440"
+}

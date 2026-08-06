@@ -1,0 +1,998 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          21
+        ]
+      ],
+      "date-time": "2025-02-21T15:41:44Z",
+      "timestamp": 1740152504437,
+      "version": "3.37.3"
+    },
+    "reference-count": 73,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "6",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              24
+            ]
+          ],
+          "date-time": "2024-06-24T00:00:00Z",
+          "timestamp": 1719187200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              24
+            ]
+          ],
+          "date-time": "2024-06-24T00:00:00Z",
+          "timestamp": 1719187200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Estuaries and Coasts"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Nutrient concentrations in many estuaries have increased over the past century due to increases in wastewater discharge and increased agricultural intensity, contributing to multiple environmental problems. Numerous biogeochemical and physical processes in estuaries influence nutrient concentrations during transport, resulting in complex spatial and temporal variability and challenges identifying predominant processes and their rates. Mechanistic models which require these rates to quantify biogeochemical processes become complex and difficult to calibrate as the number of processes and parameters grows, owing to the high dimensionality of the parameter space and the computational cost of simultaneously modeling the transport and transformations of constituents. We developed a modeling approach that decouples transport from transformations, enabling fast, data-driven exploration of the parameter space. The approach extracted information including water age, cumulative exposure to specific habitats, and mean water depth exposure from a hydrodynamic model. Using this information, a biogeochemical model was implemented to predict ammonium and nitrate concentrations in a Lagrangian frame. The model performed each simulation in milliseconds on a laptop computer, allowing the fitting of rate parameters for key transformations by optimization. The optimization used fixed station nitrate observations and the model was then validated against high-resolution mapping observations of ammonium and nitrate. The results suggest that the observed spatial and temporal variation can be largely represented with five transformation processes and their associated rates. Dissolved inorganic nitrogen (DIN) losses occurred only in shallow vegetated areas in the model, highlighting that biogeochemical processes in these areas should be included in DIN models.</jats:p>",
+    "DOI": "10.1007/s12237-024-01381-4",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          24
+        ]
+      ],
+      "date-time": "2024-06-24T14:02:14Z",
+      "timestamp": 1719237734000
+    },
+    "page": "1435-1455",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Estimating Biogeochemical Rates Using a Computationally Efficient Lagrangian Approach"
+    ],
+    "prefix": "10.1007",
+    "volume": "47",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9908-1669",
+        "authenticated-orcid": false,
+        "given": "Edward",
+        "family": "Gross",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Rusty",
+        "family": "Holleman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Wim",
+        "family": "Kimmerer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Tamara",
+        "family": "Kraus",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Brian",
+        "family": "Bergamaschi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Scott",
+        "family": "Burdick-Yahya",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "David",
+        "family": "Senn",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          24
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "1381_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "58",
+        "DOI": "10.1016/j.csr.2017.07.010",
+        "volume": "146",
+        "author": "SW Andrews",
+        "year": "2017",
+        "unstructured": "Andrews, S.W., E.S. Gross, and P.H. Hutton. 2017. Modeling salt intrusion in the San Francisco Estuary prior to anthropogenic influence. Continental Shelf Research 146: 58\u201381. https://doi.org/10.1016/j.csr.2017.07.010.",
+        "journal-title": "Continental Shelf Research"
+      },
+      {
+        "key": "1381_CR2",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Bergamaschi, B. A., T. E. C. Kraus, and B. Downing. 2020. Assessing spatial variability of nutrients and related water quality constituents in the Delta as the landscape scale: High frequency campaigns. U.S. Geological Survey. https://doi.org/10.5066/P9FQEUAL.",
+        "DOI": "10.5066/P9FQEUAL"
+      },
+      {
+        "key": "1381_CR3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15447/sfews.2023v20iss4art2",
+        "author": "K Boyer",
+        "year": "2023",
+        "unstructured": "Boyer, K., S. Safran, S. Khanna, and M. Patten. 2023. Landscape Transformation and Variation in Invasive Species Abundance Drive Change in Primary Production of Aquatic Vegetation in the Sacramento-San Joaquin Delta.\u00a0 San Francisco Estuary and Watershed Science 20. https://doi.org/10.15447/sfews.2023v20iss4art2.",
+        "journal-title": "San Francisco Estuary and Watershed Science"
+      },
+      {
+        "key": "1381_CR4",
+        "unstructured": "Boyer, K., and M. Sutula. 2016. Factors Controlling Submersed and Floating Macrophytes in the Sacramento-San Joaquin Delta. 870. Southern California Coastal Water Research Project."
+      },
+      {
+        "key": "1381_CR5",
+        "unstructured": "California Department of Water Resources. 2024. Chronological reconstructed Sacramento and San Joaquin valley water year hydrologic classification indices. [Available at https://cdec.water.ca.gov/reportapp/javareports?name=wsihist. Accessd 1/26/2024.]."
+      },
+      {
+        "key": "1381_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "441",
+        "DOI": "10.1002/fld.2361",
+        "volume": "67",
+        "author": "V Casulli",
+        "year": "2011",
+        "unstructured": "Casulli, V., and G.S. Stelling. 2011. Semi-implicit subgrid modelling of three-dimensional free-surface flows. International Journal for Numerical Methods in Fluids 67: 441\u2013449. https://doi.org/10.1002/fld.2361.",
+        "journal-title": "International Journal for Numerical Methods in Fluids"
+      },
+      {
+        "key": "1381_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "137",
+        "DOI": "10.1016/j.ocemod.2004.06.007",
+        "volume": "10",
+        "author": "V Casulli",
+        "year": "2005",
+        "unstructured": "Casulli, V., and P. Zanolli. 2005. High resolution methods for multidimensional advection\u2013diffusion problems in free-surface hydrodynamics. Ocean Modelling 10: 137\u2013151. https://doi.org/10.1016/j.ocemod.2004.06.007.",
+        "journal-title": "Ocean Modelling"
+      },
+      {
+        "key": "1381_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "1281",
+        "DOI": "10.1002/lno.11681",
+        "volume": "66",
+        "author": "J-J Chen",
+        "year": "2021",
+        "unstructured": "Chen, J.-J., D.V. Erler, N.S. Wells, J. Huang, D.T. Welsh, and B.D. Eyre. 2021. Denitrification, anammox, and dissimilatory nitrate reduction to ammonium across a mosaic of estuarine benthic habitats. Limnology and Oceanography 66: 1281\u20131297. https://doi.org/10.1002/lno.11681.",
+        "journal-title": "Limnology and Oceanography"
+      },
+      {
+        "key": "1381_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "713",
+        "DOI": "10.4319/lo.2002.47.3.0713",
+        "volume": "47",
+        "author": "JE Cloern",
+        "year": "2002",
+        "unstructured": "Cloern, J.E., E.A. Canuel, and D. Harris. 2002. Stable carbon and nitrogen isotope composition of aquatic and terrestrial plants of the San Francisco Bay estuarine system. Limnology and Oceanography 47: 713\u2013729. https://doi.org/10.4319/lo.2002.47.3.0713.",
+        "journal-title": "Limnology and Oceanography"
+      },
+      {
+        "key": "1381_CR10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011JG001715",
+        "author": "MJ Cohen",
+        "year": "2012",
+        "unstructured": "Cohen, M.J., J.B. Heffernan, A. Albertin, and J.B. Martin. 2012. Inference of riverine nitrogen processing from longitudinal and diel variation in dual nitrate isotopes. Journal of Geophysical Research: Biogeosciences. https://doi.org/10.1029/2011JG001715.",
+        "journal-title": "Journal of Geophysical Research: Biogeosciences"
+      },
+      {
+        "key": "1381_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "1120",
+        "DOI": "10.1007/s12237-013-9755-4",
+        "volume": "37",
+        "author": "JC Cornwell",
+        "year": "2014",
+        "unstructured": "Cornwell, J.C., P.M. Glibert, and M.S. Owens. 2014. Nutrient Fluxes from Sediments in the San Francisco Bay Delta. Estuaries and Coasts 37: 1120\u20131133. https://doi.org/10.1007/s12237-013-9755-4.",
+        "journal-title": "Estuaries and Coasts"
+      },
+      {
+        "key": "1381_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "1272",
+        "DOI": "10.1139/cjfas-2014-0400",
+        "volume": "72",
+        "author": "IF Creed",
+        "year": "2015",
+        "unstructured": "Creed, I.F., D.M. McKnight, B.A. Pellerin, M.B. Green, B.A. Bergamaschi, G.R. Aiken, D.A. Burns, et al. 2015. The river as a chemostat: Fresh perspectives on dissolved organic matter flowing down the river continuum. Edited by Ralph Smith. Canadian Journal of Fisheries and Aquatic Sciences 72: 1272\u20131285. https://doi.org/10.1139/cjfas-2014-0400.",
+        "journal-title": "Canadian Journal of Fisheries and Aquatic Sciences"
+      },
+      {
+        "key": "1381_CR13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15447/sfews.2016v14iss4art4.",
+        "author": "CN Dahm",
+        "year": "2016",
+        "unstructured": "Dahm, C.N., A.E. Parker, A.E. Adelson, M.A. Christman, and B.A. Bergamaschi. 2016. Nutrient dynamics of the delta: effects on primary producers. San Francisco Estuary and Watershed Science 14. https://doi.org/10.15447/sfews.2016v14iss4art4.",
+        "journal-title": "San Francisco Estuary and Watershed Science."
+      },
+      {
+        "key": "1381_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "1504",
+        "DOI": "10.4319/lo.2008.53.4.1504",
+        "volume": "53",
+        "author": "K D\u00e4hnke",
+        "year": "2008",
+        "unstructured": "D\u00e4hnke, K., E. Bahlmann, and K. Emeis. 2008. A nitrate sink in estuaries? An assessment by means of stable nitrate isotopes in the Elbe estuary. Limnology and Oceanography 53: 1504\u20131511. https://doi.org/10.4319/lo.2008.53.4.1504.",
+        "journal-title": "Limnology and Oceanography"
+      },
+      {
+        "key": "1381_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "1050",
+        "DOI": "10.1007/s12237-016-0071-7",
+        "volume": "39",
+        "author": "J Damashek",
+        "year": "2016",
+        "unstructured": "Damashek, J., K.L. Casciotti, and C.A. Francis. 2016. Variable nitrification rates across environmental gradients in turbid, nutrient-rich estuary waters of San Francisco Bay. Estuaries and Coasts 39: 1050\u20131071. https://doi.org/10.1007/s12237-016-0071-7.",
+        "journal-title": "Estuaries and Coasts"
+      },
+      {
+        "key": "1381_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "626",
+        "DOI": "10.1007/s12237-017-0306-2",
+        "volume": "41",
+        "author": "J Damashek",
+        "year": "2018",
+        "unstructured": "Damashek, J., and C.A. Francis. 2018. Microbial Nitrogen Cycling in Estuaries: From Genes to Ecosystem Processes. Estuaries and Coasts 41: 626\u2013660. https://doi.org/10.1007/s12237-017-0306-2.",
+        "journal-title": "Estuaries and Coasts"
+      },
+      {
+        "key": "1381_CR17",
+        "unstructured": "Deleersnijder, E. 2021. On the method for estimating the mean property experienced by a tracer pioneered by Gross et al. (2019)."
+      },
+      {
+        "key": "1381_CR18",
+        "unstructured": "Deleersnijder, E., J.-M. Campin, and E. J. M. Delhez. 2001. The concept of age in marine modelling I. Theory and preliminary model results. Journal of Marine Systems 39."
+      },
+      {
+        "key": "1381_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "279",
+        "DOI": "10.1016/S0924-7963(01)00066-5",
+        "volume": "31",
+        "author": "\u00c9JM Delhez",
+        "year": "2002",
+        "unstructured": "Delhez, \u00c9.J.M., and \u00c9. Deleersnijder. 2002. The concept of age in marine modelling: II. Concentration distribution function in the English Channel and the North Sea. Journal of Marine Systems 31: 279\u2013297. https://doi.org/10.1016/S0924-7963(01)00066-5.",
+        "journal-title": "Journal of Marine Systems"
+      },
+      {
+        "key": "1381_CR20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2021.151592",
+        "volume": "816",
+        "author": "JK Fackrell",
+        "year": "2022",
+        "unstructured": "Fackrell, J.K., T.E.C. Kraus, M.B. Young, C. Kendall, and S. Peek. 2022. Stable isotopes provide insight into sources and cycling of N compounds in the Sacramento-San Joaquin Delta, California, USA. Science of the Total Environment 816: 151592. https://doi.org/10.1016/j.scitotenv.2021.151592.",
+        "journal-title": "Science of the Total Environment"
+      },
+      {
+        "key": "1381_CR21",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Feij\u00f3o, C. 2002. Nutrient Absorption by the Submerged Macrophyte Egeria densa Planch.: Effect of ammonium and phosphorus availability in the water column on growth and nutrient uptake. Limnetica 21: 93\u2013104. https://doi.org/10.23818/limn.21.09.",
+        "DOI": "10.23818/limn.21.09"
+      },
+      {
+        "key": "1381_CR22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fishman, M. J. 1993. Methods of analysis by the U.S. Geological Survey National Water Quality Laboratory-Determination of inorganic and organic constituents in water and fluvial sediments. USGS Numbered Series 93\u2013125. Open-File Report. U.S. Geological Survey.",
+        "DOI": "10.3133/ofr93125"
+      },
+      {
+        "key": "1381_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "311",
+        "DOI": "10.1007/s12237-015-0011-y",
+        "volume": "39",
+        "author": "NK Ganju",
+        "year": "2016",
+        "unstructured": "Ganju, N.K., M.J. Brush, B. Rashleigh, A.L. Aretxabaleta, P. del Barrio, J.S. Grear, L.A. Harris, et al. 2016. Progress and Challenges in Coupled Hydrodynamic-Ecological Estuarine Modeling. Estuaries and Coasts 39: 311\u2013332. https://doi.org/10.1007/s12237-015-0011-y.",
+        "journal-title": "Estuaries and Coasts"
+      },
+      {
+        "key": "1381_CR24",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Ganju, N. K., J. M. Testa, S. E. Suttles, and A. L. Aretxabaleta. 2020. Spatiotemporal variability of light attenuation and net ecosystem metabolism in a back-barrier estuary. Ocean Science 16. Copernicus GmbH: 593\u2013614. https://doi.org/10.5194/os-16-593-2020.",
+        "DOI": "10.5194/os-16-593-2020"
+      },
+      {
+        "key": "1381_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "950",
+        "DOI": "10.1002/lno.11087",
+        "volume": "64",
+        "author": "PM Glibert",
+        "year": "2019",
+        "unstructured": "Glibert PM, Middelburg JJ, McClelland JW, Jake Vander Zanden M. 2019. Stable isotope tracers: Enriching our perspectives and questions on sources, fates, rates, and pathways of major elements in aquatic systems. Limnology and Oceanography 64: 950\u2013981. https://doi.org/10.1002/lno.11087.",
+        "journal-title": "Limnology and Oceanography"
+      },
+      {
+        "key": "1381_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "e2021WR029718",
+        "DOI": "10.1029/2021WR029718",
+        "volume": "57",
+        "author": "AC Gold",
+        "year": "2021",
+        "unstructured": "Gold, A.C., S.P. Thompson, and M.F. Piehler. 2021. Seasonal Variation in Nitrate Removal Mechanisms in Coastal Stormwater Ponds. Water Resources Research 57: e2021WR029718. https://doi.org/10.1029/2021WR029718.",
+        "journal-title": "Water Resources Research"
+      },
+      {
+        "key": "1381_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "2207",
+        "DOI": "10.3390/w11112207",
+        "volume": "11",
+        "author": "E Gross",
+        "year": "2019",
+        "unstructured": "Gross, E., S. Andrews, B. Bergamaschi, B. Downing, R. Holleman, S. Burdick, and J. Durand. 2019. The use of stable isotope-based water age to evaluate a hydrodynamic model. Water 11: 2207. https://doi.org/10.3390/w11112207.",
+        "journal-title": "Water"
+      },
+      {
+        "key": "1381_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "1469",
+        "DOI": "10.3390/w16111469",
+        "volume": "16",
+        "author": "E Gross",
+        "year": "2024",
+        "unstructured": "Gross, E., R. Holleman, E. Deleersnijder, and E.J.M. Delhez. 2024. Estimating effective light exposure by property-tracking tracers. Water 16: 1469. https://doi.org/10.3390/w16111469.",
+        "journal-title": "Water"
+      },
+      {
+        "key": "1381_CR29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w15112097",
+        "volume": "15",
+        "author": "E Gross",
+        "year": "2023",
+        "unstructured": "Gross, E., R. Holleman, W. Kimmerer, S. Munger, S. Burdick, and J. Durand. 2023. Using age tracers to estimate ecological rates in a phytoplankton model. Water 15: 2097. https://doi.org/10.3390/w15112097.",
+        "journal-title": "Water"
+      },
+      {
+        "key": "1381_CR30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1352380",
+        "author": "CS Hopkinson",
+        "year": "1995",
+        "unstructured": "Hopkinson, C. S., and J. J. Vallino. 1995. The relationships among man\u2019s activities in watersheds and estuaries: a model of runoff effects on patterns of estuarine community metabolism. Estuaries 18. Coastal and Estuarine Research Federation: 598\u2013621. https://doi.org/10.2307/1352380.",
+        "journal-title": "Coastal and Estuarine Research Federation"
+      },
+      {
+        "key": "1381_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "18",
+        "DOI": "10.1890/100008",
+        "volume": "9",
+        "author": "R Howarth",
+        "year": "2011",
+        "unstructured": "Howarth, R., F. Chan, D.J. Conley, J. Garnier, S.C. Doney, R. Marino, and G. Billen. 2011. Coupled biogeochemical cycles: Eutrophication and hypoxia in temperate estuaries and coastal marine ecosystems. Frontiers in Ecology and the Environment 9: 18\u201326.",
+        "journal-title": "Frontiers in Ecology and the Environment"
+      },
+      {
+        "key": "1381_CR32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15447/sfews.2008v6iss1art2",
+        "author": "A Jassby",
+        "year": "2008",
+        "unstructured": "Jassby, A. 2008. Phytoplankton in the upper san francisco estuary: recent biomass trends, their causes, and their trophic significance. San Francisco Estuary and Watershed Science. https://doi.org/10.15447/sfews.2008v6iss1art2.",
+        "journal-title": "San Francisco Estuary and Watershed Science"
+      },
+      {
+        "key": "1381_CR33",
+        "unstructured": "Khanna, S., S. Ustin, E. Hestir, M. Santos, M. Andrew, M. Lay, J. Tuil, et al. 2022. The Sacramento\u2013San Joaquin Delta genus and community level classification maps derived from airborne spectroscopy data. Knowledge Network for Biocomplexity."
+      },
+      {
+        "key": "1381_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "2535",
+        "DOI": "10.1002/lno.11771",
+        "volume": "66",
+        "author": "J Kim",
+        "year": "2021",
+        "unstructured": "Kim, J., M.J. Brush, B. Song, and I.C. Anderson. 2021. Reconstructing primary production in a changing estuary: A mass balance modeling approach. Limnology and Oceanography 66: 2535\u20132546. https://doi.org/10.1002/lno.11771.",
+        "journal-title": "Limnology and Oceanography"
+      },
+      {
+        "key": "1381_CR35",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Kimmerer. 2004. Open water processes of the san francisco estuary: from physical forcing to biological responses. San Francisco Estuary and Watershed Science 2. https://doi.org/10.15447/sfews.2004v2iss1art1.",
+        "DOI": "10.15447/sfews.2004v2iss1art1"
+      },
+      {
+        "key": "1381_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "1202",
+        "DOI": "10.1007/s12237-013-9753-6",
+        "volume": "37",
+        "author": "W Kimmerer",
+        "year": "2014",
+        "unstructured": "Kimmerer, W., and J.K. Thompson. 2014. Phytoplankton growth balanced by clam and zooplankton grazing and net transport into the low-salinity zone of the San Francisco estuary. Estuaries and Coasts 37: 1202\u20131218. https://doi.org/10.1007/s12237-013-9753-6.",
+        "journal-title": "Estuaries and Coasts"
+      },
+      {
+        "key": "1381_CR37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15447/sfews.2019v17iss3art2",
+        "author": "W Kimmerer",
+        "year": "2019",
+        "unstructured": "Kimmerer, W., F. Wilkerson, B. Downing, R. Dugdale, E. Gross, K. Kayfetz, S. Khanna, A. Parker, and J. Thompson. 2019. Effects of Drought and the Emergency Drought Barrier on the Ecosystem of the California Delta. San Francisco Estuary and Watershed. Science 17. https://doi.org/10.15447/sfews.2019v17iss3art2.",
+        "journal-title": "Science"
+      },
+      {
+        "key": "1381_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "8423",
+        "DOI": "10.1002/2017WR020670",
+        "volume": "53",
+        "author": "TEC Kraus",
+        "year": "2017",
+        "unstructured": "Kraus, T.E.C., K. O\u2019Donnell, B.D. Downing, J.R. Burau, and B.A. Bergamaschi. 2017. Using paired in situ high frequency nitrate measurements to better understand controls on nitrate concentrations and estimate nitrification rates in a wastewater-impacted river. Water Resources Research 53: 8423\u20138442. https://doi.org/10.1002/2017WR020670.",
+        "journal-title": "Water Resources Research"
+      },
+      {
+        "key": "1381_CR39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kuwabara, J., B. Topping, F. Parchaso, A. Engelstad, and V. Greene. 2009. Benthic flux of nutrients and trace metals in the northern component of San Francisco Bay, California. USGS Numbered Series. Open-File Report. U.S. Geological Survey.",
+        "DOI": "10.3133/ofr20091286"
+      },
+      {
+        "key": "1381_CR40",
+        "doi-asserted-by": "publisher",
+        "first-page": "e2020WR028789",
+        "DOI": "10.1029/2020WR028789",
+        "volume": "57",
+        "author": "JR Lacy",
+        "year": "2021",
+        "unstructured": "Lacy, J.R., M.R. Foster-Martinez, R.M. Allen, and J.Z. Drexler. 2021. Influence of Invasive Submerged Aquatic Vegetation ( E. densa ) on Currents and Sediment Transport in a Freshwater Tidal System. Water Resources Research 57: e2020WR028789. https://doi.org/10.1029/2020WR028789.",
+        "journal-title": "Water Resources Research"
+      },
+      {
+        "key": "1381_CR41",
+        "doi-asserted-by": "publisher",
+        "first-page": "103",
+        "DOI": "10.1086/712932",
+        "volume": "40",
+        "author": "SH Ledford",
+        "year": "2021",
+        "unstructured": "Ledford, S.H., M.J. Kurz, and L. Toran. 2021. Contrasting Raz-Rru stream metabolism and nutrient uptake downstream of urban wastewater effluent sites. Freshwater Science 40: 103\u2013119. https://doi.org/10.1086/712932.",
+        "journal-title": "Freshwater Science"
+      },
+      {
+        "key": "1381_CR42",
+        "doi-asserted-by": "publisher",
+        "first-page": "2127",
+        "DOI": "10.1002/2015GL067334",
+        "volume": "43",
+        "author": "M Li",
+        "year": "2016",
+        "unstructured": "Li, M., Y.J. Lee, J.M. Testa, Y. Li, W. Ni, W.M. Kemp, and D.M. Di Toro. 2016. What drives interannual variability of hypoxia in Chesapeake Bay: Climate forcing versus nutrient loading? Geophysical Research Letters 43: 2127\u20132134. https://doi.org/10.1002/2015GL067334.",
+        "journal-title": "Geophysical Research Letters"
+      },
+      {
+        "key": "1381_CR43",
+        "doi-asserted-by": "publisher",
+        "first-page": "29",
+        "DOI": "10.1016/j.csr.2018.03.008",
+        "volume": "161",
+        "author": "Q Liu",
+        "year": "2018",
+        "unstructured": "Liu, Q., F. Chai, R. Dugdale, Y. Chao, H. Xue, S. Rao, F. Wilkerson, et al. 2018. San Francisco Bay nutrients and plankton dynamics as simulated by a coupled hydrodynamic-ecosystem model. Continental Shelf Research 161: 29\u201348. https://doi.org/10.1016/j.csr.2018.03.008.",
+        "journal-title": "Continental Shelf Research"
+      },
+      {
+        "key": "1381_CR44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w12102717",
+        "volume": "12",
+        "author": "LV Lucas",
+        "year": "2020",
+        "unstructured": "Lucas, L.V., and E. Deleersnijder. 2020. Timescale methods for simplifying, understanding and modeling biophysical and water quality processes in coastal aquatic ecosystems: a review. Water 12: 2717. https://doi.org/10.3390/w12102717.",
+        "journal-title": "Water"
+      },
+      {
+        "key": "1381_CR45",
+        "doi-asserted-by": "publisher",
+        "first-page": "367",
+        "DOI": "10.1007/s10236-016-0922-6",
+        "volume": "66",
+        "author": "A Mouchet",
+        "year": "2016",
+        "unstructured": "Mouchet, A., F. Cornaton, \u00c9. Deleersnijder, and \u00c9.J.M. Delhez. 2016. Partial ages: Diagnosing transport processes by means of multiple clocks. Ocean Dynamics 66: 367\u2013386. https://doi.org/10.1007/s10236-016-0922-6.",
+        "journal-title": "Ocean Dynamics"
+      },
+      {
+        "key": "1381_CR46",
+        "doi-asserted-by": "publisher",
+        "first-page": "809",
+        "DOI": "10.4319/lo.2004.49.3.0809",
+        "volume": "49",
+        "author": "PJ Mulholland",
+        "year": "2004",
+        "unstructured": "Mulholland, P.J., H.M. Valett, J.R. Webster, S.A. Thomas, L.W. Cooper, S.K. Hamilton, and B.J. Peterson. 2004. Stream denitrification and total nitrate uptake rates measured using a field 15N tracer addition approach. Limnology and Oceanography 49: 809\u2013820. https://doi.org/10.4319/lo.2004.49.3.0809.",
+        "journal-title": "Limnology and Oceanography"
+      },
+      {
+        "key": "1381_CR47",
+        "unstructured": "Novick, E., R. Holleman, T. Jabusch, J. Sun, P. Trowbridge, and D. Senn. 2015. Characterizing and quantifying nutrient sources, sinks and transformations in the Delta: synthesis, modeling, and recommendations for monitoring. San Francisco Estuary Institute."
+      },
+      {
+        "key": "1381_CR48",
+        "unstructured": "Nuss, E., Z. Zhang, R. Holleman, A. Chelsky, T. Winchell, J. Wu, and D. Senn. 2018. Hydrodynamic and Water Quality Model Calibration and Application in San Francisco Bay. SFEI."
+      },
+      {
+        "key": "1381_CR49",
+        "doi-asserted-by": "publisher",
+        "first-page": "1394",
+        "DOI": "10.1007/s12237-020-00728-x",
+        "volume": "43",
+        "author": "TA O\u2019Meara",
+        "year": "2020",
+        "unstructured": "O\u2019Meara, T.A., J.E. Hewitt, S.F. Thrush, E.J. Douglas, and A.M. Lohrer. 2020. Denitrification and the role of macrofauna across estuarine gradients in nutrient and sediment loading. Estuaries and Coasts 43: 1394\u20131405. https://doi.org/10.1007/s12237-020-00728-x.",
+        "journal-title": "Estuaries and Coasts"
+      },
+      {
+        "key": "1381_CR50",
+        "doi-asserted-by": "publisher",
+        "first-page": "7411",
+        "DOI": "10.1021/es101789v",
+        "volume": "44",
+        "author": "JM Oakes",
+        "year": "2010",
+        "unstructured": "Oakes, J.M., B.D. Eyre, D.J. Ross, and S.D. Turner. 2010. Stable isotopes trace estuarine transformations of carbon and nitrogen from primary- and secondary-treated paper and pulp mill effluent. Environmental Science & Technology 44: 7411\u20137417. https://doi.org/10.1021/es101789v.",
+        "journal-title": "Environmental Science & Technology"
+      },
+      {
+        "key": "1381_CR51",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1016/j.marchem.2018.09.001",
+        "volume": "206",
+        "author": "HW Paerl",
+        "year": "2018",
+        "unstructured": "Paerl, H.W. 2018. Why does N-limitation persist in the world\u2019s marine waters? Marine Chemistry 206: 1\u20136. https://doi.org/10.1016/j.marchem.2018.09.001.",
+        "journal-title": "Marine Chemistry"
+      },
+      {
+        "key": "1381_CR52",
+        "doi-asserted-by": "publisher",
+        "first-page": "574",
+        "DOI": "10.1016/j.marpolbul.2011.12.016",
+        "volume": "64",
+        "author": "AE Parker",
+        "year": "2012",
+        "unstructured": "Parker, A.E., R.C. Dugdale, and F.P. Wilkerson. 2012. Elevated ammonium concentrations from wastewater discharge depress primary productivity in the Sacramento River and the Northern San Francisco Estuary. Marine Pollution Bulletin 64: 574\u2013586. https://doi.org/10.1016/j.marpolbul.2011.12.016.",
+        "journal-title": "Marine Pollution Bulletin"
+      },
+      {
+        "key": "1381_CR53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Patton, C. J., and J. R. Kryskalla. 2011. Colorimetric determination of nitrate plus nitrite in water by enzymatic reduction, automated discrete analyzer methods. USGS Numbered Series 5B-8. Techniques and Methods. U.S. Geological Survey.",
+        "DOI": "10.3133/tm5B8"
+      },
+      {
+        "key": "1381_CR54",
+        "doi-asserted-by": "publisher",
+        "first-page": "993",
+        "DOI": "10.1111/1752-1688.12386",
+        "volume": "52",
+        "author": "BA Pellerin",
+        "year": "2016",
+        "unstructured": "Pellerin, B.A., B.A. Stauffer, D.A. Young, D.J. Sullivan, S.B. Bricker, M.R. Walbridge, G.A. Clyde, and D.M. Shaw. 2016. Emerging tools for continuous nutrient monitoring networks: sensors advancing science and water resources protection. JAWRA Journal of the American Water Resources Association 52: 993\u20131008. https://doi.org/10.1111/1752-1688.12386.",
+        "journal-title": "JAWRA Journal of the American Water Resources Association"
+      },
+      {
+        "key": "1381_CR55",
+        "unstructured": "Resource Management Associates. 2021. RMA UnTRIM San Francisco Estuary Model Calibration Report - 2018. https://dshm.rmanet.app/overview/rma_calibration_reports/calReport_2018_UnTRIM_CalibrationReport.pdf."
+      },
+      {
+        "key": "1381_CR56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15447/sfews.2021v19iss4art6",
+        "author": "D Saleh",
+        "year": "2021",
+        "unstructured": "Saleh, D., and J. Domagalski. 2021. Concentrations, Loads, and Associated Trends of Nutrients Entering the Sacramento-San Joaquin Delta, California. San Francisco Estuary and Watershed Science 19. https://doi.org/10.15447/sfews.2021v19iss4art6.",
+        "journal-title": "San Francisco Estuary and Watershed Science"
+      },
+      {
+        "key": "1381_CR57",
+        "volume-title": "Environmental modeling: Fate and transport of pollutants in water, air, and soil",
+        "author": "JL Schnoor",
+        "year": "1996",
+        "unstructured": "Schnoor, J.L. 1996. Environmental modeling: Fate and transport of pollutants in water, air, and soil. New York: John Wiley and Sons."
+      },
+      {
+        "key": "1381_CR58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0068104",
+        "volume": "8",
+        "author": "JGC Smits",
+        "year": "2013",
+        "unstructured": "Smits, J.G.C., and J.K.L. van Beek. 2013. ECO: a generic eutrophication model including comprehensive sediment-water interaction. Edited by Vishal Shah. Plos ONE 8: e68104. https://doi.org/10.1371/journal.pone.0068104.",
+        "journal-title": "Plos ONE"
+      },
+      {
+        "key": "1381_CR59",
+        "doi-asserted-by": "publisher",
+        "first-page": "173",
+        "DOI": "10.1016/S0012-8252(00)00004-0",
+        "volume": "51",
+        "author": "K Soetaert",
+        "year": "2000",
+        "unstructured": "Soetaert, K., J.J. Middelburg, P.M.J. Herman, and K. Buis. 2000. On the coupling of benthic and pelagic biogeochemical models. Earth-Science Reviews 51: 173\u2013201. https://doi.org/10.1016/S0012-8252(00)00004-0.",
+        "journal-title": "Earth-Science Reviews"
+      },
+      {
+        "key": "1381_CR60",
+        "doi-asserted-by": "publisher",
+        "first-page": "15",
+        "DOI": "10.1007/s00027-011-0199-2",
+        "volume": "74",
+        "author": "PA Staehr",
+        "year": "2012",
+        "unstructured": "Staehr, P.A., J.M. Testa, W.M. Kemp, J.J. Cole, K. Sand-Jensen, and S.V. Smith. 2012. The metabolism of aquatic ecosystems: History, applications, and future challenges. Aquatic Sciences 74: 15\u201329. https://doi.org/10.1007/s00027-011-0199-2.",
+        "journal-title": "Aquatic Sciences"
+      },
+      {
+        "key": "1381_CR61",
+        "doi-asserted-by": "publisher",
+        "first-page": "341",
+        "DOI": "10.1023/A:1008202821328",
+        "volume": "11",
+        "author": "R Storn",
+        "year": "1997",
+        "unstructured": "Storn, R., and K. Price. 1997. Differential Evolution \u2013 A Simple and Efficient Heuristic for global Optimization over Continuous Spaces. Journal of Global Optimization 11: 341\u2013359. https://doi.org/10.1023/A:1008202821328.",
+        "journal-title": "Journal of Global Optimization"
+      },
+      {
+        "key": "1381_CR62",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Ta, J., L. W. J. Anderson, M. A. Christman, S. Khanna, D. Kratville, J. D. Madsen, P. J. Moran, and J. H. Viers. 2017. Invasive Aquatic Vegetation Management in the Sacramento-San Joaquin River Delta: Status and Recommendations. San Francisco Estuary and Watershed Science 15.\u00a0https://doi.org/10.15447/sfews.2017v15iss4art5.",
+        "DOI": "10.15447/sfews.2017v15iss4art5"
+      },
+      {
+        "key": "1381_CR63",
+        "doi-asserted-by": "publisher",
+        "first-page": "739",
+        "DOI": "10.1002/lno.12037",
+        "volume": "67",
+        "author": "JM Testa",
+        "year": "2022",
+        "unstructured": "Testa, J.M., W.R. Boynton, C.L.S. Hodgkins, A.L. Moore, E.M. Bailey, and J. Rambo. 2022. Biogeochemical states, rates, and exchanges exhibit linear responses to large nutrient load reductions in a shallow, eutrophic urban estuary. Limnology and Oceanography 67: 739\u2013752. https://doi.org/10.1002/lno.12037.",
+        "journal-title": "Limnology and Oceanography"
+      },
+      {
+        "key": "1381_CR64",
+        "doi-asserted-by": "publisher",
+        "first-page": "245",
+        "DOI": "10.1016/j.ecss.2013.06.014",
+        "volume": "131",
+        "author": "JM Testa",
+        "year": "2013",
+        "unstructured": "Testa, J.M., D.C. Brady, D.M. Di Toro, W.R. Boynton, J.C. Cornwell, and W.M. Kemp. 2013. Sediment flux modeling: Simulating nitrogen, phosphorus, and silica cycles. Estuarine, Coastal and Shelf Science 131: 245\u2013263. https://doi.org/10.1016/j.ecss.2013.06.014.",
+        "journal-title": "Estuarine, Coastal and Shelf Science"
+      },
+      {
+        "key": "1381_CR65",
+        "doi-asserted-by": "publisher",
+        "first-page": "14",
+        "DOI": "10.1007/s10021-016-0004-0",
+        "volume": "20",
+        "author": "JM Testa",
+        "year": "2017",
+        "unstructured": "Testa, J.M., W.M. Kemp, L.A. Harris, R.J. Woodland, and W.R. Boynton. 2017. Challenges and Directions for the Advancement of Estuarine Ecosystem Science. Ecosystems 20: 14\u201322. https://doi.org/10.1007/s10021-016-0004-0.",
+        "journal-title": "Ecosystems"
+      },
+      {
+        "key": "1381_CR66",
+        "doi-asserted-by": "publisher",
+        "unstructured": "U.S. Geological Survey. 2023. USGS Water Data for the Nation: U.S. Geological Survey National Water Information System database, accessed June 6 2023 at https://doi.org/10.5066/F7P55KJN.",
+        "DOI": "10.5066/F7P55KJN"
+      },
+      {
+        "key": "1381_CR67",
+        "unstructured": "US Geological Survey. 2023. [USGS] U.S. Geological Survey. Water Quality of San Francisco Bay."
+      },
+      {
+        "key": "1381_CR68",
+        "doi-asserted-by": "publisher",
+        "first-page": "261",
+        "DOI": "10.1038/s41592-019-0686-2",
+        "volume": "17",
+        "author": "P Virtanen",
+        "year": "2020",
+        "unstructured": "Virtanen, P., R. Gommers, T.E. Oliphant, M. Haberland, T. Reddy, D. Cournapeau, E. Burovski, et al. 2020. SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python. Nature Methods 17: 261\u2013272. https://doi.org/10.1038/s41592-019-0686-2.",
+        "journal-title": "Nature Methods"
+      },
+      {
+        "key": "1381_CR69",
+        "unstructured": "Wang, R., E. Ateljevich, T. A. Fregoso, and B. E. Jaffe. 2018. A Revised Continuous Surface Elevation Model for Modeling (Chapter 5). In Methodology for Flow and Salinity Estimates in the Sacramento-San Joaquin Delta and Suisun Marsh, 38th Annual Progress Report to the State Water Resources Control Board. California Department of Water Resources, Bay-Delta Office, Delta Modeling Section."
+      },
+      {
+        "key": "1381_CR70",
+        "doi-asserted-by": "publisher",
+        "first-page": "228",
+        "DOI": "10.1016/j.ecss.2019.04.051",
+        "volume": "224",
+        "author": "Z Wang",
+        "year": "2019",
+        "unstructured": "Wang, Z., H. Wang, J. Shen, F. Ye, Y. Zhang, F. Chai, Z. Liu, and J. Du. 2019. An analytical phytoplankton model and its application in the tidal freshwater James River. Estuarine, Coastal and Shelf Science 224: 228\u2013244. https://doi.org/10.1016/j.ecss.2019.04.051.",
+        "journal-title": "Estuarine, Coastal and Shelf Science"
+      },
+      {
+        "key": "1381_CR71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008JG000729",
+        "author": "SD Wankel",
+        "year": "2009",
+        "unstructured": "Wankel, S.D., C. Kendall, and A. Paytan. 2009. Using nitrate dual isotopic composition (\u03b415N and \u03b418O) as a tool for exploring sources and cycling of nitrate in an estuarine system: Elkhorn Slough. California. Journal of Geophysical Research: Biogeosciences 114. https://doi.org/10.1029/2008JG000729.",
+        "journal-title": "California. Journal of Geophysical Research: Biogeosciences"
+      },
+      {
+        "key": "1381_CR72",
+        "doi-asserted-by": "publisher",
+        "first-page": "81",
+        "DOI": "10.1016/j.ocemod.2003.12.003",
+        "volume": "8",
+        "author": "JC Warner",
+        "year": "2005",
+        "unstructured": "Warner, J.C., C.R. Sherwood, H.G. Arango, and R.P. Signell. 2005. Performance of four turbulence closure models implemented using a generic length scale method. Ocean Modelling 8: 81\u2013113. https://doi.org/10.1016/j.ocemod.2003.12.003.",
+        "journal-title": "Ocean Modelling"
+      },
+      {
+        "key": "1381_CR73",
+        "doi-asserted-by": "publisher",
+        "first-page": "184",
+        "DOI": "10.1080/02723646.1981.10642213",
+        "volume": "2",
+        "author": "CJ Willmott",
+        "year": "1981",
+        "unstructured": "Willmott, C.J. 1981. On the Validation of Models. Physical Geography 2: 184\u2013194. https://doi.org/10.1080/02723646.1981.10642213.",
+        "journal-title": "Physical Geography"
+      }
+    ],
+    "container-title": [
+      "Estuaries and Coasts"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s12237-024-01381-4.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s12237-024-01381-4/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s12237-024-01381-4.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          27
+        ]
+      ],
+      "date-time": "2024-07-27T18:09:35Z",
+      "timestamp": 1722103775000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/s12237-024-01381-4"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          24
+        ]
+      ]
+    },
+    "references-count": 73,
+    "journal-issue": {
+      "issue": "6",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            9
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "1381"
+    ],
+    "URL": "https://doi.org/10.1007/s12237-024-01381-4",
+    "relation": {},
+    "ISSN": [
+      "1559-2723",
+      "1559-2731"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "1559-2723"
+      },
+      {
+        "type": "electronic",
+        "value": "1559-2731"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          24
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "8 November 2023",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "27 May 2024",
+        "order": 2,
+        "name": "revised",
+        "label": "Revised",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "3 June 2024",
+        "order": 3,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "24 June 2024",
+        "order": 4,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.1007/s12237-024-01381-4",
+  "original_doi": "10.1007/s12237-024-01381-4"
+}

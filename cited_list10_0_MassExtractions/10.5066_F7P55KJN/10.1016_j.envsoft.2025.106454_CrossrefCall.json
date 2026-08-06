@@ -1,0 +1,696 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          25
+        ]
+      ],
+      "date-time": "2026-07-25T04:09:45Z",
+      "timestamp": 1784952585806,
+      "version": "3.55.0"
+    },
+    "reference-count": 40,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2025-05-01T00:00:00Z",
+          "timestamp": 1746057600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2025-05-01T00:00:00Z",
+          "timestamp": 1746057600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              16
+            ]
+          ],
+          "date-time": "2025-04-16T00:00:00Z",
+          "timestamp": 1744761600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000192",
+        "name": "NOAA",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NA22NWS4320003"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NA22NWS4320003"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000192",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Environmental Modelling &amp; Software"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.envsoft.2025.106454",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          15
+        ]
+      ],
+      "date-time": "2025-04-15T19:06:59Z",
+      "timestamp": 1744744019000
+    },
+    "page": "106454",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "special_numbering": "C",
+    "title": [
+      "RIce-Net: Integrating ground-based cameras and machine learning for automated river ice detection"
+    ],
+    "prefix": "10.1016",
+    "volume": "190",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5800-9313",
+        "authenticated-orcid": false,
+        "given": "Mahmoud",
+        "family": "Ayyad",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0006-2685",
+        "authenticated-orcid": false,
+        "given": "Marouane",
+        "family": "Temimi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7655-5737",
+        "authenticated-orcid": false,
+        "given": "Mohamed",
+        "family": "Abdelkader",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0003-8367-1212",
+        "authenticated-orcid": false,
+        "given": "Moheb M.R.",
+        "family": "Henein",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4253-2625",
+        "authenticated-orcid": false,
+        "given": "Frank L.",
+        "family": "Engel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5572-9064",
+        "authenticated-orcid": false,
+        "given": "R. Russell",
+        "family": "Lotspeich",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6633-3041",
+        "authenticated-orcid": false,
+        "given": "Jack R.",
+        "family": "Eggleston",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "8",
+        "key": "10.1016/j.envsoft.2025.106454_b1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1368",
+        "DOI": "10.3390/rs16081368",
+        "article-title": "A google earth engine platform to integrate multi-satellite and citizen science data for the monitoring of river ice dynamics",
+        "volume": "16",
+        "author": "Abdelkader",
+        "year": "2024",
+        "journal-title": "Remote. Sens."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.envsoft.2025.106454_b2",
+        "doi-asserted-by": "crossref",
+        "first-page": "60",
+        "DOI": "10.1007/s00382-024-07550-2",
+        "article-title": "Investigating river ice phenology and climatology in the northeast United States and the link with climate oscillations",
+        "volume": "63",
+        "author": "Abdelkader",
+        "year": "2025",
+        "journal-title": "Clim. Dyn."
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b3",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.coldregions.2021.103324",
+        "article-title": "IceMaskNet: River ice detection and characterization using deep learning algorithms applied to aerial photography",
+        "volume": "189",
+        "author": "Ansari",
+        "year": "2021",
+        "journal-title": "Cold Reg. Sci. & Technol."
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b4",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.coldregions.2024.104303",
+        "article-title": "River ice detection and classification using oblique shore-based photography",
+        "author": "Ansari",
+        "year": "2024",
+        "journal-title": "Cold Reg. Sci. & Technol."
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.coldregions.2017.06.011",
+        "article-title": "Automated monitoring of river ice processes using shore-based imagery",
+        "volume": "142",
+        "author": "Ansari",
+        "year": "2017",
+        "journal-title": "Cold Reg. Sci. & Technol."
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b6",
+        "series-title": "RIce-Net dataset, Hydroshare",
+        "author": "Ayyad",
+        "year": "2025"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.envsoft.2025.106454_b7",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2022WR032251",
+        "article-title": "Synthetic river flow videos for evaluating image-based velocimetry methods",
+        "volume": "58",
+        "author": "Bodart",
+        "year": "2022",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b8",
+        "series-title": "Pixel annotation tool",
+        "author": "Br\u00e9h\u00e9ret",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b9",
+        "series-title": "Discharge Measurements at Gaging Stations",
+        "author": "Buchanan",
+        "year": "1969"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.envsoft.2025.106454_b10",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3390/info11020125",
+        "article-title": "Albumentations: Fast and flexible image augmentations",
+        "volume": "11",
+        "author": "Buslaev",
+        "year": "2020",
+        "journal-title": "Information"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.envsoft.2025.106454_b11",
+        "doi-asserted-by": "crossref",
+        "first-page": "62",
+        "DOI": "10.1002/hyp.9548",
+        "article-title": "An automated algorithm for river ice monitoring over the susquehanna river using the MODIS data",
+        "volume": "28",
+        "author": "Chaouch",
+        "year": "2014",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, L.C., Zhu, Y., Papandreou, G., Schroff, F., Adam, H., 2018. Encoder-decoder with atrous separable convolution for semantic image segmentation. In: Proceedings of the European Conference on Computer Vision. ECCV, pp. 801\u2013818.",
+        "DOI": "10.1007/978-3-030-01234-2_49"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.envsoft.2025.106454_b13",
+        "doi-asserted-by": "crossref",
+        "first-page": "8876",
+        "DOI": "10.3390/su15118876",
+        "article-title": "Redistributing power in community and citizen science: Effects on youth science self-efficacy and interest",
+        "volume": "15",
+        "author": "Clement",
+        "year": "2023",
+        "journal-title": "Sustainability"
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b14",
+        "series-title": "Stream-Gaging Procedure, a Manual Describing Methods and Practices of the Geological Survey",
+        "author": "Corbett",
+        "year": "1943"
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b15",
+        "series-title": "2009 IEEE Conference on Computer Vision and Pattern Recognition",
+        "first-page": "248",
+        "article-title": "Imagenet: A large-scale hierarchical image database",
+        "author": "Deng",
+        "year": "2009"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.envsoft.2025.106454_b16",
+        "doi-asserted-by": "crossref",
+        "first-page": "297",
+        "DOI": "10.2307/1932409",
+        "article-title": "Measures of the amount of ecologic association between species",
+        "volume": "26",
+        "author": "Dice",
+        "year": "1945",
+        "journal-title": "Ecology"
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b17",
+        "first-page": "A3",
+        "article-title": "Use of submersible pressure transducers in water-resources investigations",
+        "volume": "8",
+        "author": "Freeman",
+        "year": "2004",
+        "journal-title": "US Geol. Surv. Tech. Water-Resour. Investig."
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, K., Zhang, X., Ren, S., Sun, J., 2016. Deep residual learning for image recognition. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 770\u2013778.",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b19",
+        "series-title": "Segmentation models Pytorch",
+        "author": "Iakubovskii",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b20",
+        "first-page": "547",
+        "article-title": "\u00c9tude comparative de la distribution florale dans une portion des Alpes et des Jura",
+        "volume": "37",
+        "author": "Jaccard",
+        "year": "1901",
+        "journal-title": "Bull. Soc. Vaudoise Sci. Nat."
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b21",
+        "series-title": "Adam: A method for stochastic optimization",
+        "author": "Kingma",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b22",
+        "series-title": "Pyramid attention network for semantic segmentation",
+        "author": "Li",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b23",
+        "series-title": "River Watch Program",
+        "author": "National Weather Service",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b24",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.coldregions.2022.103736",
+        "article-title": "Deep learning based river surface ice quantification using a distant and oblique-viewed public camera",
+        "volume": "206",
+        "author": "Pei",
+        "year": "2023",
+        "journal-title": "Cold Reg. Sci. & Technol."
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b25",
+        "series-title": "Measurement and Computation of Streamflow: Volume 2. Computation of Discharge",
+        "author": "Rantz",
+        "year": "1982"
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b26",
+        "series-title": "Measurement and Computation of Streamflow",
+        "author": "Rantz",
+        "year": "1982"
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b27",
+        "series-title": "Medical Image Computing and Computer-Assisted Intervention\u2013MICCAI 2015: 18th International Conference, Munich, Germany, October 5\u20139, 2015, Proceedings, Part III 18",
+        "first-page": "234",
+        "article-title": "U-net: Convolutional networks for biomedical image segmentation",
+        "author": "Ronneberger",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b28",
+        "series-title": "Stage Measurement at Gaging Stations",
+        "author": "Sauer",
+        "year": "2010"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.envsoft.2025.106454_b29",
+        "doi-asserted-by": "crossref",
+        "first-page": "7570",
+        "DOI": "10.1109/TGRS.2020.2981082",
+        "article-title": "River ice segmentation with deep learning",
+        "volume": "58",
+        "author": "Singh",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Geosci. Remote Sens."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.envsoft.2025.106454_b30",
+        "doi-asserted-by": "crossref",
+        "first-page": "2378",
+        "DOI": "10.3390/rs14102378",
+        "article-title": "Efficient shallow network for river ice segmentation",
+        "volume": "14",
+        "author": "Sola",
+        "year": "2022",
+        "journal-title": "Remote. Sens."
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b31",
+        "first-page": "1",
+        "article-title": "A method of establishing groups of equal amplitude in plant sociology based on similarity of species and its application to analyses of the vegetation on Danish commons",
+        "volume": "5",
+        "author": "S\u00f8rensen",
+        "year": "1948",
+        "journal-title": "Biol Skrifter/K. Dan. Vidensk. Selsk."
+      },
+      {
+        "issue": "20",
+        "key": "10.1016/j.envsoft.2025.106454_b32",
+        "doi-asserted-by": "crossref",
+        "first-page": "4896",
+        "DOI": "10.3390/rs15204896",
+        "article-title": "An automated system to monitor river ice conditions using visible infrared imaging radiometer suite imagery",
+        "volume": "15",
+        "author": "Temimi",
+        "year": "2023",
+        "journal-title": "Remote. Sens."
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b33",
+        "series-title": "The past, present and future of USGS streamgages",
+        "author": "U.S. Geological Survey",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b34",
+        "series-title": "How a rating curve is used to convert gage height to streamflow?",
+        "author": "U.S. Geological Survey",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b35",
+        "series-title": "USGS water data for the nation: U.S. geological survey national water information system database",
+        "author": "U.S. Geological Survey",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b36",
+        "series-title": "502.2 - Fundamental science practices: Planning and conducting data collection and research",
+        "author": "U.S. Geological Survey",
+        "year": "2025"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.envsoft.2025.106454_b37",
+        "doi-asserted-by": "crossref",
+        "first-page": "221",
+        "DOI": "10.3390/rs12020221",
+        "article-title": "ICENET: A semantic segmentation deep network for river ice by fusing positional and channel-wise attentive features",
+        "volume": "12",
+        "author": "Zhang",
+        "year": "2020",
+        "journal-title": "Remote. Sens."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.envsoft.2025.106454_b38",
+        "doi-asserted-by": "crossref",
+        "first-page": "633",
+        "DOI": "10.3390/rs13040633",
+        "article-title": "ICENETv2: A fine-grained river ice semantic segmentation network based on UAV images",
+        "volume": "13",
+        "author": "Zhang",
+        "year": "2021",
+        "journal-title": "Remote. Sens."
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhao, H., Shi, J., Qi, X., Wang, X., Jia, J., 2017. Pyramid scene parsing network. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 2881\u20132890.",
+        "DOI": "10.1109/CVPR.2017.660"
+      },
+      {
+        "key": "10.1016/j.envsoft.2025.106454_b40",
+        "first-page": "3",
+        "article-title": "Unet++: A nested u-net architecture for medical image segmentation",
+        "author": "Zhou",
+        "year": "2018"
+      }
+    ],
+    "container-title": [
+      "Environmental Modelling &amp; Software"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1364815225001380?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1364815225001380?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          5
+        ]
+      ],
+      "date-time": "2025-11-05T20:17:19Z",
+      "timestamp": 1762373839000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1364815225001380"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5
+        ]
+      ]
+    },
+    "references-count": 40,
+    "alternative-id": [
+      "S1364815225001380"
+    ],
+    "URL": "https://doi.org/10.1016/j.envsoft.2025.106454",
+    "relation": {},
+    "ISSN": [
+      "1364-8152"
+    ],
+    "issn-type": [
+      {
+        "value": "1364-8152",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "RIce-Net: Integrating ground-based cameras and machine learning for automated river ice detection",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Environmental Modelling & Software",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.envsoft.2025.106454",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "\u00a9 2025 The Authors. Published by Elsevier Ltd.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "106454"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1016/j.envsoft.2025.106454",
+  "original_doi": "10.1016/j.envsoft.2025.106454"
+}
