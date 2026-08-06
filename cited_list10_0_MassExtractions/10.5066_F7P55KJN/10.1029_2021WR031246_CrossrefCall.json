@@ -1,0 +1,742 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          20
+        ]
+      ],
+      "date-time": "2026-06-20T10:29:45Z",
+      "timestamp": 1781951385692,
+      "version": "3.54.5"
+    },
+    "reference-count": 68,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "8",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              9
+            ]
+          ],
+          "date-time": "2023-08-09T00:00:00Z",
+          "timestamp": 1691539200000
+        },
+        "content-version": "am",
+        "delay-in-days": 373,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#am"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              8,
+              17
+            ]
+          ],
+          "date-time": "2022-08-17T00:00:00Z",
+          "timestamp": 1660694400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 16,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "1805293"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "1805293"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "1823111"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "1823111"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          8
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Flood\u2010frequency curves, critical for water infrastructure design, are typically developed based on a stationary climate assumption. However, climate changes are expected to violate this assumption. Here, we propose a new, climate\u2010informed methodology for estimating flood\u2010frequency curves under non\u2010stationary future climate conditions. The methodology develops an asynchronous, semiparametric local\u2010likelihood regression (ASLLR) model that relates moments of annual maximum flood to climate variables using the generalized linear model. We estimate the first two marginal moments (MM) \u2013 the mean and variance \u2013 of the underlying log\u2010Pearson Type\u20103 distribution from the ASLLR with the monthly rainfall and temperature as predictors. The proposed methodology, ASLLR\u2010MM, is applied to 40 U.S. Geological Survey streamgages covering 18 water resources regions across the conterminous United States. A correction based on the aridity index was applied on the estimated variance, after which the ASLLR\u2010MM approach was evaluated with both historical (1951\u20132005) and projected (2006\u20132035, under RCP4.5 and RCP8.5) monthly precipitation and temperature from eight Global Circulation Models (GCMs) consisting of 39 ensemble members. The estimated flood\u2010frequency quantiles resulting from the ASLLR\u2010MM and GCM members compare well with the flood\u2010frequency quantiles estimated using the historical period of observed climate and flood information for humid basins, whereas the uncertainty in model estimates is higher in arid basins. Considering additional atmospheric and land\u2010surface conditions and a multi\u2010level model structure that includes other basins in a region could further improve the model performance in arid basins.</jats:p>",
+    "DOI": "10.1029/2021wr031246",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          9
+        ]
+      ],
+      "date-time": "2022-08-09T18:19:41Z",
+      "timestamp": 1660069181000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 22,
+    "title": [
+      "Projecting Flood Frequency Curves Under Near\u2010Term Climate Change"
+    ],
+    "prefix": "10.1029",
+    "volume": "58",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9826-5231",
+        "authenticated-orcid": false,
+        "given": "C.",
+        "family": "Awasthi",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Civil, Construction, and Environmental Engineering North Carolina State University  Raleigh NC USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9011-3871",
+        "authenticated-orcid": false,
+        "given": "S. A.",
+        "family": "Archfield",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Reston VA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9834-2046",
+        "authenticated-orcid": false,
+        "given": "K. R.",
+        "family": "Ryberg",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Dakota Water Science Center  Bismarck ND USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0653-4225",
+        "authenticated-orcid": false,
+        "given": "J. E.",
+        "family": "Kiang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Reston VA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7668-1311",
+        "authenticated-orcid": false,
+        "given": "A.",
+        "family": "Sankarasubramanian",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil, Construction, and Environmental Engineering North Carolina State University  Raleigh NC USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          17
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_9_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016ef000485"
+      },
+      {
+        "key": "e_1_2_9_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016gl070590"
+      },
+      {
+        "key": "e_1_2_9_4_1",
+        "article-title": "Changing seasonality of annual maximum floods over the conterminous US",
+        "author": "Basu B.",
+        "year": "2020",
+        "journal-title": "Earth and Space Science Open Archive ESSOAr"
+      },
+      {
+        "key": "e_1_2_9_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2019.123919"
+      },
+      {
+        "key": "e_1_2_9_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/jhm\u2010d\u201016\u20100160.1"
+      },
+      {
+        "key": "e_1_2_9_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10584\u2010014\u20101254\u20105"
+      },
+      {
+        "key": "e_1_2_9_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wrcr.20392"
+      },
+      {
+        "key": "e_1_2_9_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201019\u2010159\u20102015"
+      },
+      {
+        "key": "e_1_2_9_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10584\u2010011\u20100298\u2010z"
+      },
+      {
+        "key": "e_1_2_9_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1467\u20109868.00228"
+      },
+      {
+        "key": "e_1_2_9_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/nhess\u201014\u20101579\u20102014"
+      },
+      {
+        "key": "e_1_2_9_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/tm4B5"
+      },
+      {
+        "key": "e_1_2_9_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-662-26811-7_76"
+      },
+      {
+        "key": "e_1_2_9_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2019.04.068"
+      },
+      {
+        "key": "e_1_2_9_16_1",
+        "volume-title": "Beginning R: The statistical programming language",
+        "author": "Gardener M.",
+        "year": "2012"
+      },
+      {
+        "key": "e_1_2_9_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(asce)0733\u20109496(2009)135:3(188)"
+      },
+      {
+        "key": "e_1_2_9_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(asce)1084\u20100699(2007)12:5(482)"
+      },
+      {
+        "key": "e_1_2_9_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520\u20100477(1989)070<0602:sdoc>2.0.co;2"
+      },
+      {
+        "key": "e_1_2_9_20_1",
+        "volume-title": "Conditional probability and the collective risk model",
+        "author": "Halliwell L. J.",
+        "year": "2011"
+      },
+      {
+        "key": "e_1_2_9_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nclimate1911"
+      },
+      {
+        "key": "e_1_2_9_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752\u20101688.2011.00539.x"
+      },
+      {
+        "key": "e_1_2_9_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626667.2011.621895"
+      },
+      {
+        "key": "e_1_2_9_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2019.03.102"
+      },
+      {
+        "key": "e_1_2_9_25_1",
+        "first-page": "28",
+        "article-title": "Guidelines for determining flood flow frequency, Bulletin 17\u2010B",
+        "author": "Interagency Committee on Water Data (IACWD)",
+        "year": "1982",
+        "journal-title": "Hydrology Subcommittee"
+      },
+      {
+        "key": "e_1_2_9_26_1",
+        "series-title": "Methods of flow frequency analysis bulletin 13",
+        "volume-title": "Hydrology Subcommittee",
+        "author": "Interagency Committee on Water Resources (ICWR)",
+        "year": "1966"
+      },
+      {
+        "key": "e_1_2_9_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2001wr000495"
+      },
+      {
+        "key": "e_1_2_9_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1913643"
+      },
+      {
+        "key": "e_1_2_9_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/jamc\u2010d\u201019\u20100185.1"
+      },
+      {
+        "key": "e_1_2_9_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/95wr02966"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_2_9_31_1",
+        "first-page": "50",
+        "article-title": "Study on the estimation of design value under non\u2010stationary environment",
+        "volume": "14",
+        "author": "Liang Z.",
+        "year": "2016",
+        "journal-title": "South\u2010to\u2010North water transfers water Science Technology"
+      },
+      {
+        "key": "e_1_2_9_32_1",
+        "volume-title": "smwrBase\u2014an R package for managing hydrologic data",
+        "author": "Lorenz D. L.",
+        "year": "2015"
+      },
+      {
+        "key": "e_1_2_9_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016wr019676"
+      },
+      {
+        "key": "e_1_2_9_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018gl081888"
+      },
+      {
+        "key": "e_1_2_9_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467\u20108306.1970.tb00743.x"
+      },
+      {
+        "key": "e_1_2_9_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2002jd002555"
+      },
+      {
+        "key": "e_1_2_9_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015jd023687"
+      },
+      {
+        "key": "e_1_2_9_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520\u20100477(2000)081<0427:tiewac>2.3.co;2"
+      },
+      {
+        "key": "e_1_2_9_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2013jd021152"
+      },
+      {
+        "key": "e_1_2_9_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015wr017408"
+      },
+      {
+        "key": "e_1_2_9_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1151915"
+      },
+      {
+        "key": "e_1_2_9_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201016\u20102285\u20102012"
+      },
+      {
+        "key": "e_1_2_9_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/bams\u2010d\u201012\u201000066.1"
+      },
+      {
+        "key": "e_1_2_9_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017wr021975"
+      },
+      {
+        "key": "e_1_2_9_45_1",
+        "volume-title": "R: A language and environment for statistical computing",
+        "author": "R Core Team",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_9_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015wr017089"
+      },
+      {
+        "key": "e_1_2_9_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wrcr.20425"
+      },
+      {
+        "key": "e_1_2_9_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2019.124307"
+      },
+      {
+        "key": "e_1_2_9_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(asce)he.1943\u20105584.0000820"
+      },
+      {
+        "key": "e_1_2_9_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2002wr001593"
+      },
+      {
+        "key": "e_1_2_9_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s0022\u20101694(99)00018\u20109"
+      },
+      {
+        "key": "e_1_2_9_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2002gl015937"
+      },
+      {
+        "key": "e_1_2_9_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2000wr900330"
+      },
+      {
+        "key": "e_1_2_9_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018wr023209"
+      },
+      {
+        "key": "e_1_2_9_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020gl091824"
+      },
+      {
+        "key": "e_1_2_9_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1515/johh-2016-0032"
+      },
+      {
+        "key": "e_1_2_9_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/joc.3603"
+      },
+      {
+        "key": "e_1_2_9_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/bams\u2010d\u201011\u201000094.1"
+      },
+      {
+        "key": "e_1_2_9_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/joc.947"
+      },
+      {
+        "key": "e_1_2_9_60_1",
+        "volume-title": "Hydrology Committee. Guidelines for determining flood flow frequency",
+        "author": "United States Water Resources Council",
+        "year": "1977"
+      },
+      {
+        "key": "e_1_2_9_61_1",
+        "series-title": "Guidelines for determining flood flow frequency",
+        "volume-title": "Hydrology Committee Bulletin",
+        "author": "United States Water Resources Council (USWRC)",
+        "year": "1967"
+      },
+      {
+        "key": "e_1_2_9_62_1",
+        "volume-title": "USGS water data for the Nation",
+        "author": "U.S. Geological Survey",
+        "year": "2020"
+      },
+      {
+        "key": "e_1_2_9_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10584\u2010011\u20100148\u2010z"
+      },
+      {
+        "key": "e_1_2_9_64_1",
+        "volume-title": "Monthly climate data for selected USGS HCDN sites, 1951\u20101990, R1",
+        "author": "Vogel R. M.",
+        "year": "2015"
+      },
+      {
+        "key": "e_1_2_9_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752\u20101688.2011.00541.x"
+      },
+      {
+        "key": "e_1_2_9_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nclimate2893"
+      },
+      {
+        "key": "e_1_2_9_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/s1355770x17000444"
+      },
+      {
+        "key": "e_1_2_9_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.10965"
+      },
+      {
+        "key": "e_1_2_9_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467\u2010018\u201006765\u20102"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1029/2021WR031246",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1029/2021WR031246",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/am-pdf/10.1029/2021WR031246",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2021WR031246",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          19
+        ]
+      ],
+      "date-time": "2023-08-19T23:40:40Z",
+      "timestamp": 1692488440000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021WR031246"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          8
+        ]
+      ]
+    },
+    "references-count": 68,
+    "journal-issue": {
+      "issue": "8",
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            8
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2021WR031246"
+    ],
+    "URL": "https://doi.org/10.1029/2021wr031246",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          8
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2021-09-18",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2022-08-01",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2022-08-17",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2021WR031246"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2021WR031246",
+  "original_doi": "10.1029/2021WR031246"
+}

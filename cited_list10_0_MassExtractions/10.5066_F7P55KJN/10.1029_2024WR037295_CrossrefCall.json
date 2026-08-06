@@ -1,0 +1,502 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          17
+        ]
+      ],
+      "date-time": "2026-07-17T00:40:52Z",
+      "timestamp": 1784248852624,
+      "version": "3.55.0"
+    },
+    "reference-count": 50,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "7",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              20
+            ]
+          ],
+          "date-time": "2024-07-20T00:00:00Z",
+          "timestamp": 1721433600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 19,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          7
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Remote sensing can be an effective tool for mapping river bathymetry, but the need for direct measurements to calibrate image\u2010derived depth estimates impedes broader application of this approach. One way to circumvent the need for field campaigns dedicated to calibration is to capitalize upon existing data. In this study, we introduce a framework for Bathymetric Mapping using Gage Records and Image Databases (BaMGRID). This workflow involves retrieving depth measurements made during gaging station site visits, downloading archived multispectral images, and then combining these two data sets to establish a relationship between depth and reflectance. We developed a processing chain that involves using application programming interfaces to obtain both depth measurements made during site visits and images centered on the gage and then linking depth to reflectance via an optimal band ratio analysis (OBRA) algorithm modified for small sample sizes. Applying this workflow to selected gages within two river basins indicated that depth retrieval from multispectral satellite images could be highly accurate, but with variable results from one image to the next at a given site. High resolution aerial photography was less conducive to bathymetric mapping in one of the basin considered. Of the four predictors of depth retrieval performance we evaluated (mean and standard deviation of depth, width, and an index of water clarity), only width was consistently significantly correlated with OBRA <jats:italic>R</jats:italic><jats:sup>2</jats:sup> (<jats:italic>p</jats:italic>\u00a0&lt;\u00a00.026). Currently, BaMGRID is best\u2010suited for site\u2010by\u2010site analysis to support practical applications at the reach scale; continuous, basin\u2010wide mapping of river bathymetry will require additional research.</jats:p>",
+    "DOI": "10.1029/2024wr037295",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          20
+        ]
+      ],
+      "date-time": "2024-07-20T12:04:53Z",
+      "timestamp": 1721477093000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Integrating Depth Measurements From Gaging Stations With Image Archives for Spectrally Based Remote Sensing of River Bathymetry"
+    ],
+    "prefix": "10.1029",
+    "volume": "60",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0940-8013",
+        "authenticated-orcid": false,
+        "given": "Carl J.",
+        "family": "Legleiter",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Observing Systems Division  Golden CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7845-6671",
+        "authenticated-orcid": false,
+        "given": "Brandon T.",
+        "family": "Overstreet",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Oregon Water Science Center  Portland OR USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Paul J.",
+        "family": "Kinzel",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Observing Systems Division  Golden CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          20
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s40808\u2010019\u201000609\u20108"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/tafs.10334"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023WR034699"
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.geomorph.2010.09.030"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.3270"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.geomorph.2015.10.025"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rsase.2023.101133"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs15112803"
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2006.07.012"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.2560"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.3773"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs11060665"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR023586"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs10060935"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5066/P1HM9KJS"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.1787"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/tc\u20108\u2010215\u20102014"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1364/AO.17.000379"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.2094"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "unstructured": "Maxar. (2024).Optical imagery. Retrieved fromhttps://www.maxar.com/products/optical\u2010imagery"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "volume-title": "Light and water: Radiative transfer in natural waters",
+        "author": "Mobley C. D.",
+        "year": "1994"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1364/AO.44.003576"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "article-title": "QRev \u2014 Software for computation and quality assurance of acoustic Doppler current profiler moving\u2010boat streamflow measurements \u2014 Technical manual for version 2.8",
+        "author": "Mueller D. S.",
+        "year": "2016",
+        "journal-title": "U S Geological Survey Open\u2010File Report 2016\u20101068"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "volume-title": "GARSS 2021",
+        "author": "NASA EARTHDATA",
+        "year": "2024"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "unstructured": "Natural Earth. (2024).Natural Earth\u2014free vector and raster map data at 1:10m 1:50m and 1:110m scales. Retrieved fromhttps://www.naturalearthdata.com/"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jag.2022.102958"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JSTARS.2022.3187179"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/24705357.2020.1768600"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "volume-title": "Mapping riverscapes using high spatial resolution remote sensing data (Dissertation)",
+        "author": "Overstreet B. T.",
+        "year": "2020"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1364/AO.28.001569"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.4787"
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "unstructured": "Planet Labs. (2023).PlanetScope. Retrieved fromhttps://developers.planet.com/docs/data/planetscope/"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "unstructured": "Planet Labs. (2024).Planet imagery product specifications. Retrieved fromhttps://assets.planet.com/docs/Planet_Combined_Imagery_Product_Specs_letter_screen.pdf"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs13193897"
+      },
+      {
+        "key": "e_1_2_8_36_1",
+        "unstructured": "The MathWorks Inc. (2024).MATLAB R2024a. Retrieved fromhttps://www.mathworks.com/products/matlab.html"
+      },
+      {
+        "key": "e_1_2_8_37_1",
+        "unstructured": "USDA Farm Production and Conservation Business Center. (2024a).2022 Oregon image dates. Retrieved fromhttps://naip\u2010image\u2010dates\u2010usdaonline.hub.arcgis.com/datasets/48cccb201ea24f4f8fc46fba9591cc55_0/explore"
+      },
+      {
+        "key": "e_1_2_8_38_1",
+        "unstructured": "USDA Farm Production and Conservation Business Center. (2024b).National Agricultural Imagery Program (NAIP)\u2014Information sheet. Retrieved fromhttps://www.arcgis.com/home/item.html?id=f2c24dbe58ac4c58a9eadaba89a5b765"
+      },
+      {
+        "key": "e_1_2_8_39_1",
+        "unstructured": "USDA Farm Production and Conservation Business Center. (2024c).National agricultural imagery program\u2014NAIP hub site. Retrieved fromhttps://naip\u2010usdaonline.hub.arcgis.com/"
+      },
+      {
+        "key": "e_1_2_8_40_1",
+        "unstructured": "USGS. (2024a).About site visits. Retrieved fromhttps://help.waterdata.usgs.gov/faq/surface\u2010water/about\u2010site\u2010visits"
+      },
+      {
+        "key": "e_1_2_8_41_1",
+        "unstructured": "USGS. (2024b).About site visits\u2014USGS water data for the nation help system. Retrieved fromhttps://help.waterdata.usgs.gov/faq/surface\u2010water/about\u2010site\u2010visits"
+      },
+      {
+        "key": "e_1_2_8_42_1",
+        "unstructured": "USGS. (2024c).EarthExplorer. Retrieved fromhttps://earthexplorer.usgs.gov/"
+      },
+      {
+        "key": "e_1_2_8_43_1",
+        "unstructured": "USGS. (2024d).Machine to Machine (M2M) API. Retrieved fromhttps://m2m.cr.usgs.gov/"
+      },
+      {
+        "key": "e_1_2_8_44_1",
+        "unstructured": "USGS. (2024e).Next Generation Water Observing System (NGWOS). Retrieved fromhttps://www.usgs.gov/mission\u2010areas/water\u2010resources/science/next\u2010generation\u2010water\u2010observing\u2010system\u2010ngwos"
+      },
+      {
+        "key": "e_1_2_8_45_1",
+        "unstructured": "USGS. (2024f).Qrev\u2014U.S. Geological survey. Retrieved fromhttps://www.usgs.gov/software/qrev\u20104"
+      },
+      {
+        "key": "e_1_2_8_46_1",
+        "unstructured": "USGS. (2024g).USGS national water dashboard. Retrieved fromhttps://dashboard.waterdata.usgs.gov/app/nwd/en/"
+      },
+      {
+        "key": "e_1_2_8_47_1",
+        "unstructured": "USGS. (2024h).USGS selects Willamette River Basin as fourth integrated water science basin. Retrieved fromhttps://www.usgs.gov/news/national\u2010news\u2010release/usgs\u2010selects\u2010willamette\u2010river\u2010basin\u2010fourth\u2010integrated\u2010water\u2010science"
+      },
+      {
+        "key": "e_1_2_8_48_1",
+        "volume-title": "USGS water data for the Nation",
+        "author": "USGS",
+        "year": "2024"
+      },
+      {
+        "key": "e_1_2_8_49_1",
+        "unstructured": "USGS. (2024j).Water services web. Retrieved fromhttps://waterservices.usgs.gov/"
+      },
+      {
+        "key": "e_1_2_8_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2023.113932"
+      },
+      {
+        "key": "e_1_2_8_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(SICI)1099\u20101646(199711/12)13:6<489::AID\u2010RRR471>3.0.CO;2\u2010X"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2024WR037295",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          2
+        ]
+      ],
+      "date-time": "2025-03-02T05:18:11Z",
+      "timestamp": 1740892691000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024WR037295"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          7
+        ]
+      ]
+    },
+    "references-count": 50,
+    "journal-issue": {
+      "issue": "7",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            7
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2024WR037295"
+    ],
+    "URL": "https://doi.org/10.1029/2024wr037295",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          7
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2024-02-05",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-07-01",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-07-20",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2024WR037295"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2024WR037295",
+  "original_doi": "10.1029/2024WR037295"
+}

@@ -1,0 +1,789 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          18
+        ]
+      ],
+      "date-time": "2026-06-18T18:38:45Z",
+      "timestamp": 1781807925928,
+      "version": "3.54.5"
+    },
+    "reference-count": 94,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "6",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              26
+            ]
+          ],
+          "date-time": "2023-06-26T00:00:00Z",
+          "timestamp": 1687737600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 25,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          6
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Evapotranspiration (ET) is the largest component of the water budget, accounting for the majority of the water available from precipitation. ET is challenging to quantify because of the uncertainties associated with the many ET equations currently in use, and because observations of ET are uncertain and sparse. In this study, we combine information provided by available ET data and equations to produce a new monthly data set for ET for the conterminous U.S. (CONUS). These maps are produced from 1895 to 2018 at an 800\u00a0m spatial scale, marking a finer resolution than currently available products over this time period. In our approach, the relative performance of a suite of ET equations is assessed using water balance, flux tower, and remotely sensed ET estimates. At the observation locations, we use error distributions to quantify relative weights for the equations and use these in a modified Bayesian model averaging weighted ensemble approach. The relative weights are spatially generalized using a random forest regression, which is applied to wall\u2010to\u2010wall explanatory variable maps to generate CONUS\u2010wide relative weight maps and ensemble estimates. We assess the performance of the ensemble using a reserved subset of the observations and compare this performance against other national\u2010scale map products for historical to modern ET. The ensemble ET maps are shown to provide an improved accuracy over the alternative comparison products. These ET maps could be useful for a variety of hydrologic modeling and assessment applications that benefit from a long record, such as the study of periods of water scarcity through time.</jats:p>",
+    "DOI": "10.1029/2022wr034012",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          20
+        ]
+      ],
+      "date-time": "2023-06-20T09:29:52Z",
+      "timestamp": 1687253392000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 16,
+    "title": [
+      "Ensemble Estimation of Historical Evapotranspiration for the Conterminous U.S."
+    ],
+    "prefix": "10.1029",
+    "volume": "59",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9519-6103",
+        "authenticated-orcid": false,
+        "given": "M.",
+        "family": "Reitz",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Hydrologic Remote Sensing Branch  Reston VA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6624-0280",
+        "authenticated-orcid": false,
+        "given": "W. E.",
+        "family": "Sanford",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Earth Systems Modeling Branch  Reston VA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1151-8908",
+        "authenticated-orcid": false,
+        "given": "S.",
+        "family": "Saxe",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Analysis and Prediction Branch  Lakewood CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          26
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/joc.3413"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/sdata.2017.191"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(asce)0733-9437(1996)122:2(97)"
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(asce)1084-0699(1997)2:2(56)"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "volume-title": "FAO Irrigation and Drainage Paper no. 56",
+        "author": "Allen R. G.",
+        "year": "1998"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2006jd007506"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "first-page": "44",
+        "volume-title": "Determining water requirements in irrigated areas from climatological and irrigation data",
+        "author": "Blaney H. F.",
+        "year": "1950"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "volume-title": "Irrigation water management: Irrigation water needs. Training manual No. 3",
+        "author": "Brouwer C.",
+        "year": "1986"
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/wr015i002p00443"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "first-page": "255",
+        "volume-title": "The heat balance of the earth\u2019s surface",
+        "author": "Budyko M. I.",
+        "year": "1956"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2016.02.026"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2015.06.059"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/joc.1688"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.agwat.2010.07.006"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/cir1441"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JCLI-D-17-0121.1"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2006.11.014"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2002jd003296"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "volume-title": "Water and energy balances in the soil\u2013plant\u2013 atmosphere continuum",
+        "author": "Evett S. R.",
+        "year": "2012"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/gmd-9-1937-2016"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "volume-title": "GAGES\u2010II: Geospatial attributes of gages for evaluating streamflow",
+        "author": "Falcone J.",
+        "year": "2011"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "unstructured": "Fenneman N. M. &Johnson D. W.(1946).Physiographic divisions of the conterminous U.S.U.S. Geological Survey. Retrieved fromhttp://water.usgs.gov/GIS/metadata/usgswrd/XML/physio.xml"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/06-0922.1"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/insr.12243"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "first-page": "23",
+        "article-title": "On the calculation of the evaporation from land surface (in Chinese)",
+        "volume": "5",
+        "author": "Fu B. P.",
+        "year": "1981",
+        "journal-title": "Scientia Atmospherica Sinica"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.agwat.2007.01.014"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_2_8_28_1",
+        "first-page": "5",
+        "article-title": "The national elevation dataset",
+        "volume": "68",
+        "author": "Gesch D.",
+        "year": "2002",
+        "journal-title": "Photogrammetric Engineering & Remote Sensing"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-1694(89)90249-7"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2009.08.003"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/jyceaj.0000599"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(asce)0733-9437(1985)111:3(265)"
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs12050878"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.agrformet.2003.09.005"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/cir1268"
+      },
+      {
+        "issue": "4",
+        "key": "e_1_2_8_36_1",
+        "first-page": "185",
+        "article-title": "A simple approach for estimating annual evapotranspiration with climate data in Korea",
+        "volume": "5",
+        "author": "Im S.",
+        "year": "2004",
+        "journal-title": "Water Engineering Research"
+      },
+      {
+        "key": "e_1_2_8_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs11242971"
+      },
+      {
+        "key": "e_1_2_8_38_1",
+        "article-title": "Estimated use of water in the United States in 2005",
+        "volume": "1344",
+        "author": "Kenny J. F.",
+        "year": "2009",
+        "journal-title": "US Geological Survey Circular"
+      },
+      {
+        "key": "e_1_2_8_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2009gl040267"
+      },
+      {
+        "key": "e_1_2_8_40_1",
+        "volume-title": "Energy and water balance calculations in the Mosaic LSM",
+        "author": "Koster R. D.",
+        "year": "1996"
+      },
+      {
+        "key": "e_1_2_8_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1127/0941-2948/2006/0130"
+      },
+      {
+        "key": "e_1_2_8_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/94jd00483"
+      },
+      {
+        "key": "e_1_2_8_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/bg-7-301-2010"
+      },
+      {
+        "key": "e_1_2_8_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/jcli-d-12-00508.1"
+      },
+      {
+        "key": "e_1_2_8_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2013wr014581"
+      },
+      {
+        "key": "e_1_2_8_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10546-020-00529-6"
+      },
+      {
+        "key": "e_1_2_8_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/cir1405"
+      },
+      {
+        "key": "e_1_2_8_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1172"
+      },
+      {
+        "key": "e_1_2_8_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/bams-87-3-343"
+      },
+      {
+        "key": "e_1_2_8_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-20-803-2016"
+      },
+      {
+        "key": "e_1_2_8_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-15-453-2011"
+      },
+      {
+        "key": "e_1_2_8_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-20-823-2016"
+      },
+      {
+        "key": "e_1_2_8_53_1",
+        "first-page": "241",
+        "volume-title": "Principles of environmental physics",
+        "author": "Montieth J. L.",
+        "year": "1973"
+      },
+      {
+        "key": "e_1_2_8_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/agronomy9020099"
+      },
+      {
+        "key": "e_1_2_8_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2011.02.019"
+      },
+      {
+        "key": "e_1_2_8_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-1694(70)90255-6"
+      },
+      {
+        "key": "e_1_2_8_57_1",
+        "first-page": "2825",
+        "article-title": "Scikit\u2010learn: Machine learning in Python",
+        "volume": "12",
+        "author": "Pedregosa F.",
+        "year": "2011",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "e_1_2_8_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0309133314522283"
+      },
+      {
+        "key": "e_1_2_8_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0450(1978)017<0390:otuopl>2.0.co;2"
+      },
+      {
+        "key": "e_1_2_8_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-1694(64)90022-8"
+      },
+      {
+        "key": "e_1_2_8_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0493(1972)100<0081:otaosh>2.3.co;2"
+      },
+      {
+        "key": "e_1_2_8_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/mwr2906.1"
+      },
+      {
+        "key": "e_1_2_8_63_1",
+        "first-page": "38",
+        "volume-title": "Description of the national hydrologic model for use with the precipitation\u2010runoff modeling system (PRMS)",
+        "author": "Regan R. S.",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_8_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/jcli-d-16-0720.1"
+      },
+      {
+        "key": "e_1_2_8_65_1",
+        "volume-title": "Historical evapotranspiration for the conterminous U.S",
+        "author": "Reitz M.",
+        "year": "2023"
+      },
+      {
+        "key": "e_1_2_8_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752-1688.12546"
+      },
+      {
+        "key": "e_1_2_8_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jawr.12010"
+      },
+      {
+        "key": "e_1_2_8_68_1",
+        "unstructured": "Save H.(2020).CSR GRACE and GRACE\u2010FO RL06 Mascon Solutions (version 02).https://doi.org/10.15781/cgq9-nh24"
+      },
+      {
+        "key": "e_1_2_8_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016JB013007"
+      },
+      {
+        "key": "e_1_2_8_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-25-1529-2021"
+      },
+      {
+        "key": "e_1_2_8_71_1",
+        "first-page": "441",
+        "article-title": "\u00dcber die Beziehungen zwischen dem Niederschlag und der Wasserf\u00fchrung der Fl\u00fc\u03b2e in Mitteleuropa",
+        "volume": "21",
+        "author": "Schreiber P.",
+        "year": "1904",
+        "journal-title": "Zeitschrift f\u00fcr Meteorologie"
+      },
+      {
+        "key": "e_1_2_8_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jawr.12057"
+      },
+      {
+        "key": "e_1_2_8_73_1",
+        "first-page": "22",
+        "article-title": "Evapotranspiration measurement methods",
+        "volume": "7",
+        "author": "Shuttleworth W. J.",
+        "year": "2008",
+        "journal-title": "Southwest Hydrol"
+      },
+      {
+        "key": "e_1_2_8_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/1747423x.2016.1147619"
+      },
+      {
+        "key": "e_1_2_8_75_1",
+        "volume-title": "Web Soil Survey",
+        "author": "Soil Survey Staff Natural Resources Conservation Service"
+      },
+      {
+        "key": "e_1_2_8_76_1",
+        "article-title": "Estimated use of water in the United States in 1985",
+        "volume": "1004",
+        "author": "Solley W. B.",
+        "year": "1988",
+        "journal-title": "US Geological Survey Circular"
+      },
+      {
+        "key": "e_1_2_8_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/cir1081"
+      },
+      {
+        "key": "e_1_2_8_78_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/cir1200"
+      },
+      {
+        "key": "e_1_2_8_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.agrformet.2012.11.004"
+      },
+      {
+        "key": "e_1_2_8_80_1",
+        "first-page": "297",
+        "article-title": "\u00dcber einige meteorologische Begriffe",
+        "volume": "6",
+        "author": "Tetens O.",
+        "year": "1930",
+        "journal-title": "Zeitschrift f\u00fcr Geophysik"
+      },
+      {
+        "key": "e_1_2_8_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/00010694-194807000-00007"
+      },
+      {
+        "key": "e_1_2_8_82_1",
+        "first-page": "491",
+        "article-title": "Water balance of soils; relationship between precipitation, evapotranspiration and runoff (in French)",
+        "volume": "5",
+        "author": "Turc L.",
+        "year": "1954",
+        "journal-title": "Annales Agronomiques"
+      },
+      {
+        "key": "e_1_2_8_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s0168-1923(00)00123-4"
+      },
+      {
+        "key": "e_1_2_8_84_1",
+        "volume-title": "Agricultural Handbook",
+        "author": "USDA",
+        "year": "2010"
+      },
+      {
+        "key": "e_1_2_8_85_1",
+        "unstructured": "U.S. Geological Survey. (2022).National water information system: U.S. Geological survey web interface.https://doi.org/10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_8_86_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2013.07.013"
+      },
+      {
+        "key": "e_1_2_8_87_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2021.112357"
+      },
+      {
+        "key": "e_1_2_8_88_1",
+        "first-page": "149",
+        "volume-title": "North American terrestrial ecoregions\u2014Level III",
+        "author": "Wiken E.",
+        "year": "2011"
+      },
+      {
+        "key": "e_1_2_8_89_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.agrformet.2004.04.008"
+      },
+      {
+        "key": "e_1_2_8_90_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s0168-1923(00)00199-4"
+      },
+      {
+        "key": "e_1_2_8_91_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011jd016048"
+      },
+      {
+        "key": "e_1_2_8_92_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2004.10.024"
+      },
+      {
+        "key": "e_1_2_8_93_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10661-021-08934-1"
+      },
+      {
+        "key": "e_1_2_8_94_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2003WR002710"
+      },
+      {
+        "key": "e_1_2_8_95_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.10832"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2022WR034012",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          16
+        ]
+      ],
+      "date-time": "2025-10-16T19:34:58Z",
+      "timestamp": 1760643298000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022WR034012"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          6
+        ]
+      ]
+    },
+    "references-count": 94,
+    "journal-issue": {
+      "issue": "6",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            6
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2022WR034012"
+    ],
+    "URL": "https://doi.org/10.1029/2022wr034012",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          6
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2022-11-01",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-05-08",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-06-26",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2022WR034012"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2022WR034012",
+  "original_doi": "10.1029/2022WR034012"
+}

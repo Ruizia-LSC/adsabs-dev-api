@@ -1,0 +1,746 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          3
+        ]
+      ],
+      "date-time": "2026-07-03T18:53:41Z",
+      "timestamp": 1783104821912,
+      "version": "3.54.6"
+    },
+    "reference-count": 71,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "9",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              26
+            ]
+          ],
+          "date-time": "2024-09-26T00:00:00Z",
+          "timestamp": 1727308800000
+        },
+        "content-version": "am",
+        "delay-in-days": 25,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              26
+            ]
+          ],
+          "date-time": "2024-09-26T00:00:00Z",
+          "timestamp": 1727308800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 25,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000936",
+        "name": "Gordon and Betty Moore Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "GMB\u20104555"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "GMB\u20104555"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000936",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>We developed a suite of models using deep learning to make hindcast predictions of the 7\u2010day average backward\u2010looking nitrate concentration at 46 predominantly agricultural sites across the midwestern and eastern United States. The models used daily observations of discharge and meteorological variables and watershed attributes describing anthropogenic modification to hydrology, nitrogen application, climate, groundwater, land use, watershed physiographic attributes, and soils. Across all sites, discharge and watershed soil and physiographic attributes showed a strong influence on model performance. Analysis of drivers across sites revealed considerable regional differences related to controlling processes such as groundwater contributions. We tested several ways to pool data across sites to develop accurate models and make the most effective use of available data. Single\u2010site models, in which models are trained and tested at a single location, showed generally strong predictive performance (median Kling\u2010Gupta Efficiency\u00a0=\u00a00.66), and accuracy at poorly performing sites could be improved by grouping sites with similar characteristics. Developing a single model for all sites reduced performance at several locations with distinct characteristics, suggesting that there is a threshold of dissimilarity beyond which more data does not improve the model. While many deep learning studies have shown that national or even global models can outperform local models, it is not clear that this is true for water quality constituents. This study demonstrates how data can be combined effectively, using deep learning to develop accurate and interpretable models of instream nitrate at sites where varying processes are responsible for changes in nitrate concentration.</jats:p>",
+    "DOI": "10.1029/2023wr036591",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          26
+        ]
+      ],
+      "date-time": "2024-09-26T10:38:48Z",
+      "timestamp": 1727347128000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 10,
+    "title": [
+      "Stream Nitrate Dynamics Driven Primarily by Discharge and Watershed Physical and Soil Characteristics at Intensively Monitored Sites: Insights From Deep Learning"
+    ],
+    "prefix": "10.1029",
+    "volume": "60",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0083-4251",
+        "authenticated-orcid": false,
+        "given": "G.",
+        "family": "Gorski",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Reston VA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7057-5377",
+        "authenticated-orcid": false,
+        "given": "L.",
+        "family": "Larsen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of California Berkeley  Berkeley CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Wingenroth",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of California Berkeley  Berkeley CA USA"
+          },
+          {
+            "name": "Now at Resources for the Future  Washington DC USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6111-5640",
+        "authenticated-orcid": false,
+        "given": "L.",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of California Berkeley  Berkeley CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6701-7507",
+        "authenticated-orcid": false,
+        "given": "D.",
+        "family": "Bellugi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of California Berkeley  Berkeley CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3638-8572",
+        "authenticated-orcid": false,
+        "given": "A. P.",
+        "family": "Appling",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  State College PA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          26
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_9_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/joc.3413"
+      },
+      {
+        "key": "e_1_2_9_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es0716103"
+      },
+      {
+        "key": "e_1_2_9_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752\u20101688.1998.tb05961.x"
+      },
+      {
+        "key": "e_1_2_9_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ecs2.1298"
+      },
+      {
+        "key": "e_1_2_9_6_1",
+        "unstructured": "Becker O. S.(2023).maps: Draw geographical maps. code by R. A. Minka A. R. W. R. version by R. B. E. by T. P. & Deckmyn A. Retrieved fromhttps://CRAN.R\u2010project.org/package=maps"
+      },
+      {
+        "key": "e_1_2_9_7_1",
+        "unstructured": "Blodgett D. &Johnson J. M.(2022).NHDPlus tools. Retrieved fromhttps://doi\u2010usgs.github.io/nhdplusTools/"
+      },
+      {
+        "key": "e_1_2_9_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1010933404324"
+      },
+      {
+        "key": "e_1_2_9_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18637/jss.v025.i04"
+      },
+      {
+        "key": "e_1_2_9_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/etc.3220"
+      },
+      {
+        "key": "e_1_2_9_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1348"
+      },
+      {
+        "key": "e_1_2_9_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2139/ssrn.4322321"
+      },
+      {
+        "key": "e_1_2_9_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/2515\u20107620/abc97a"
+      },
+      {
+        "key": "e_1_2_9_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/cjfas\u20102014\u20100400"
+      },
+      {
+        "key": "e_1_2_9_15_1",
+        "volume-title": "dataRetrieval: R package for discovering and retrieving water data available from U.S. federal hydrologic web services (Version 2.7.13)",
+        "author": "DeCicco L.",
+        "year": "2023"
+      },
+      {
+        "key": "e_1_2_9_16_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Dewitz J.(2019).National Land Cover Database (NLCD) 2016 products (ver. 2.0 July 2020)[Dataset].U.S. Geological Survey.https://doi.org/10.5066/P96HHBIE",
+        "DOI": "10.5066/P96HHBIE"
+      },
+      {
+        "key": "e_1_2_9_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13031/2013.42261"
+      },
+      {
+        "key": "e_1_2_9_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42256\u2010021\u201000343\u2010w"
+      },
+      {
+        "key": "e_1_2_9_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR029583"
+      },
+      {
+        "key": "e_1_2_9_20_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gorski G. Appling A. P. Larsen L. Thompson T. Wingenroth J. Zhang L. &Bellugi D.(2024).Data and model code in support of Stream nitrate dynamics driven primarily by discharge and watershed physical and soil characteristics at intensively monitored sites Insights from deep learning: U.S. Geological Survey data release.https://doi.org/10.5066/P1N6P2QL",
+        "DOI": "10.1029/2023WR036591"
+      },
+      {
+        "key": "e_1_2_9_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2009.08.003"
+      },
+      {
+        "key": "e_1_2_9_22_1",
+        "volume-title": "Hydrogeologic framework for characterization and occurrence of confined and unconfined aquifers in quaternary sediments in the glaciated conterminous United States\u2014A digital map compilation and database (USGS Numbered Series No. 1090)",
+        "author": "Haj A. E.",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_9_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752\u20101688.2010.00482.x"
+      },
+      {
+        "key": "e_1_2_9_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1997.9.8.1735"
+      },
+      {
+        "key": "e_1_2_9_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/1.9781611976700.69"
+      },
+      {
+        "key": "e_1_2_9_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR030185"
+      },
+      {
+        "key": "e_1_2_9_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/su12155942"
+      },
+      {
+        "key": "e_1_2_9_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10533\u2010014\u20109979\u20109"
+      },
+      {
+        "key": "e_1_2_9_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201023\u20104323\u20102019"
+      },
+      {
+        "key": "e_1_2_9_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-2023-275"
+      },
+      {
+        "key": "e_1_2_9_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201022\u20106005\u20102018"
+      },
+      {
+        "key": "e_1_2_9_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2023.163409"
+      },
+      {
+        "key": "e_1_2_9_33_1",
+        "unstructured": "McKay L. Bondelid T. Dewald T. Johnston J. Moore R. &Rea A.(2012).NHDPlus version 2: User guide. Retrieved fromhttps://edap\u2010ow\u2010data\u2010commons.s3.amazonaws.com/NHDPlusV21/Documentation/NHDPlusV2_User_Guide.pdf"
+      },
+      {
+        "key": "e_1_2_9_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/2041\u2010210X.13650"
+      },
+      {
+        "key": "e_1_2_9_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017WR021654"
+      },
+      {
+        "key": "e_1_2_9_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature06686"
+      },
+      {
+        "key": "e_1_2_9_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR028091"
+      },
+      {
+        "key": "e_1_2_9_38_1",
+        "first-page": "37",
+        "volume-title": "Optical techniques for the determination of nitrate in environmental waters: Guidelines for instrument selection, operation, deployment, maintenance, quality assurance, and data reporting",
+        "author": "Pellerin B. A.",
+        "year": "2013"
+      },
+      {
+        "key": "e_1_2_9_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10533\u2010011\u20109589\u20108"
+      },
+      {
+        "key": "e_1_2_9_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752\u20101688.2011.00577.x"
+      },
+      {
+        "key": "e_1_2_9_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748\u20109326/abd501"
+      },
+      {
+        "key": "e_1_2_9_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.14400"
+      },
+      {
+        "key": "e_1_2_9_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2021.151065"
+      },
+      {
+        "key": "e_1_2_9_44_1",
+        "volume-title": "R: A language and environment for statistical computing (version 4.1.2)",
+        "author": "R Core Team",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_9_45_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Robertson D. M. &Saad D. A.(2019).Spatially referenced models of streamflow and nitrogen phosphorus and suspended\u2010sediment loads in streams of the midwestern United States: Scientific Investigations Report 2019\u20135114(p.88). Retrieved fromhttps://pubs.usgs.gov/publication/sir20195114",
+        "DOI": "10.3133/sir20195114"
+      },
+      {
+        "key": "e_1_2_9_46_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ruddy B. C. Lorenz D. L. &Mueller D. K.(2006).County\u2010level estimates of nutrient inputs to the land surface of the conterminous United States 1982\u20132001 (No. Scientific Investigations Report 2006\u20135012). Retrieved fromhttps://pubs.usgs.gov/sir/2006/5012/pdf/sir2006_5012.pdf",
+        "DOI": "10.3133/sir20065012"
+      },
+      {
+        "key": "e_1_2_9_47_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Runkel R. L. Crawford C. G. &Cohn T. A.(2004).Load estimator (LOADEST): A FORTRAN program for estimating constituent loads in streams and rivers (report No. 4\u2010A5).https://doi.org/10.3133/tm4A5",
+        "DOI": "10.3133/tm4A5"
+      },
+      {
+        "key": "e_1_2_9_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.watres.2022.119295"
+      },
+      {
+        "key": "e_1_2_9_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2023.162930"
+      },
+      {
+        "key": "e_1_2_9_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2023.161623"
+      },
+      {
+        "key": "e_1_2_9_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR022643"
+      },
+      {
+        "key": "e_1_2_9_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.9b05344"
+      },
+      {
+        "key": "e_1_2_9_53_1",
+        "volume-title": "Proceedings of the 34th international conference on machine learning",
+        "author": "Sundararajan M.",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_9_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR024908"
+      },
+      {
+        "key": "e_1_2_9_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2021.150200"
+      },
+      {
+        "key": "e_1_2_9_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR033880"
+      },
+      {
+        "key": "e_1_2_9_57_1",
+        "volume-title": "USGS water data for the Nation",
+        "author": "U.S. Geological Survey",
+        "year": "2022"
+      },
+      {
+        "key": "e_1_2_9_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597\u2010020\u201000596\u2010x"
+      },
+      {
+        "key": "e_1_2_9_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748\u20109326/11/3/035014"
+      },
+      {
+        "key": "e_1_2_9_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aar4462"
+      },
+      {
+        "key": "e_1_2_9_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.14565"
+      },
+      {
+        "key": "e_1_2_9_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2020.144057"
+      },
+      {
+        "key": "e_1_2_9_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/ijerph15071557"
+      },
+      {
+        "key": "e_1_2_9_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w14071032"
+      },
+      {
+        "key": "e_1_2_9_65_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Wieczorek M. E. Schwarz G. E. &Jackson S. E.(2018).Select attributes for NHDPlus version 2.1 reach catchments and modified network routed upstream watersheds for the conterminous United States[Dataset].U.S. Geological Survey.https://doi.org/10.5066/F7765D7V",
+        "DOI": "10.5066/F7765D7V"
+      },
+      {
+        "key": "e_1_2_9_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.2c02232"
+      },
+      {
+        "key": "e_1_2_9_67_1",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3133/sir20185091",
+        "volume-title": "Characterization and occurrence of confined and unconfined aquifers in Quaternary sediments in the glaciated conterminous United States",
+        "author": "Yager R. M.",
+        "year": "2019"
+      },
+      {
+        "key": "e_1_2_9_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2017WR022380"
+      },
+      {
+        "key": "e_1_2_9_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR026724"
+      },
+      {
+        "key": "e_1_2_9_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.0c06783"
+      },
+      {
+        "key": "e_1_2_9_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR023478"
+      },
+      {
+        "key": "e_1_2_9_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752\u20101688.13093"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023WR036591",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023WR036591",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          11
+        ]
+      ],
+      "date-time": "2025-04-11T07:12:47Z",
+      "timestamp": 1744355567000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023WR036591"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9
+        ]
+      ]
+    },
+    "references-count": 71,
+    "journal-issue": {
+      "issue": "9",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            9
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2023WR036591"
+    ],
+    "URL": "https://doi.org/10.1029/2023wr036591",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          9
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2023-11-07",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-08-12",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-09-26",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2023WR036591"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2023WR036591",
+  "original_doi": "10.1029/2023WR036591"
+}

@@ -1,0 +1,539 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          31
+        ]
+      ],
+      "date-time": "2026-07-31T16:37:47Z",
+      "timestamp": 1785515867778,
+      "version": "3.56.0"
+    },
+    "reference-count": 53,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              17
+            ]
+          ],
+          "date-time": "2020-01-17T00:00:00Z",
+          "timestamp": 1579219200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 16,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Rainfall\u2010runoff modeling is a complex nonlinear time series problem. While there is still room for improvement, researchers have been developing physical and machine learning models for decades to predict runoff using rainfall data sets. With the advancement of computational hardware resources and algorithms, deep learning methods such as the long short\u2010term memory (LSTM) model and sequence\u2010to\u2010sequence (seq2seq) modeling have shown a good deal of promise in dealing with time series problems by considering long\u2010term dependencies and multiple outputs. This study presents an application of a prediction model based on LSTM and the seq2seq structure to estimate hourly rainfall\u2010runoff. Focusing on two Midwestern watersheds, namely, Clear Creek and Upper Wapsipinicon River in Iowa, these models were used to predict hourly runoff for a 24\u2010hr period using rainfall observation, rainfall forecast, runoff observation, and empirical monthly evapotranspiration data from all stations in these two watersheds. The models were evaluated using the Nash\u2010Sutcliffe efficiency coefficient, the correlation coefficient, statistical bias, and the normalized root\u2010mean\u2010square error. The results show that the LSTM\u2010seq2seq model outperforms linear regression, Lasso regression, Ridge regression, support vector regression, Gaussian processes regression, and LSTM in all stations from these two watersheds. The LSTM\u2010seq2seq model shows sufficient predictive power and could be used to improve forecast accuracy in short\u2010term flood forecast applications. In addition, the seq2seq method was demonstrated to be an effective method for time series predictions in hydrology.</jats:p>",
+    "DOI": "10.1029/2019wr025326",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          3
+        ]
+      ],
+      "date-time": "2020-01-03T09:37:45Z",
+      "timestamp": 1578044265000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 677,
+    "title": [
+      "A Rainfall\u2010Runoff Model With LSTM\u2010Based Sequence\u2010to\u2010Sequence Learning"
+    ],
+    "prefix": "10.1029",
+    "volume": "56",
+    "author": [
+      {
+        "given": "Zhongrun",
+        "family": "Xiang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Civil and Environmental Engineering University of Iowa  Iowa City IA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jun",
+        "family": "Yan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "DHI China  Shanghai China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ibrahim",
+        "family": "Demir",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil and Environmental Engineering University of Iowa  Iowa City IA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          17
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_6_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/9780203024119.ch2"
+      },
+      {
+        "key": "e_1_2_6_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13031/2013.42256"
+      },
+      {
+        "key": "e_1_2_6_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4302-5990-9_4"
+      },
+      {
+        "key": "e_1_2_6_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jenvman.2014.12.014"
+      },
+      {
+        "key": "e_1_2_6_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w10091116"
+      },
+      {
+        "key": "e_1_2_6_7_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cho K. vanMerrienboer B. Gulcehre C. Bahdanau D. Bougares F. Schwenk H.Bengio Y.(2014).Learning phrase representations using RNN Encoder\u2010Decoder for statistical machine translation. Retrieved fromhttps://arxiv.org/abs/1406.1078",
+        "DOI": "10.3115/v1/D14-1179"
+      },
+      {
+        "key": "e_1_2_6_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MAP.2010.5586593"
+      },
+      {
+        "key": "e_1_2_6_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM-D-14-0163.1"
+      },
+      {
+        "key": "e_1_2_6_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016EA000224"
+      },
+      {
+        "key": "e_1_2_6_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/15715124.2017.1411927"
+      },
+      {
+        "key": "e_1_2_6_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.aqpro.2015.02.126"
+      },
+      {
+        "key": "e_1_2_6_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017GL075619"
+      },
+      {
+        "key": "e_1_2_6_14_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fragkiadaki K. Levine S. Felsen P. &Malik J.(2015).Recurrent network models for human dynamics. In 2015 IEEE International Conference on Computer Vision (ICCV) (pp. 4346\u20134354). IEEE.https://doi.org/10.1109/ICCV.2015.494",
+        "DOI": "10.1109/ICCV.2015.494"
+      },
+      {
+        "key": "e_1_2_6_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.aej.2012.01.005"
+      },
+      {
+        "key": "e_1_2_6_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w8030069"
+      },
+      {
+        "key": "e_1_2_6_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1997.9.8.1735"
+      },
+      {
+        "key": "e_1_2_6_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/95WR01955"
+      },
+      {
+        "key": "e_1_2_6_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w10111543"
+      },
+      {
+        "key": "e_1_2_6_20_1",
+        "unstructured": "Iowa Watershed Approach. (2017a).Clear Creek Watershed. Retrieved November 12 2018 fromhttps://www.iowawatershedapproach.org/watersheds/clear\u2010creek/"
+      },
+      {
+        "key": "e_1_2_6_21_1",
+        "unstructured": "Iowa Watershed Approach. (2017b).Upper Wapsipinicon River Watershed. Retrieved November 12 2018 fromhttps://www.iowawatershedapproach.org/watersheds/upper\u2010wapsipinicon\u2010river/"
+      },
+      {
+        "key": "e_1_2_6_22_1",
+        "unstructured": "Johanson R. C. Bicknell B. R. Imhoff J. L. Kittle J. L. &Donigian A. S. J.(1996).Hydrological Simulation Program\u2010FORTRAN user's manual for release 11. Retrieved fromhttp://sdi.odu.edu/mbin/hspf/dos/hspf_v11_entirety.pdf"
+      },
+      {
+        "key": "e_1_2_6_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752-1688.12618"
+      },
+      {
+        "key": "e_1_2_6_24_1",
+        "unstructured": "Keskar N. S. Mudigere D. Nocedal J. Smelyanskiy M. &Tang P. T. P.(2016).On large\u2010batch training for deep learning: Generalization gap and sharp minima. Retrieved fromhttp://arxiv.org/abs/1609.04836"
+      },
+      {
+        "key": "e_1_2_6_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btp139"
+      },
+      {
+        "key": "e_1_2_6_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/BAMS-D-15-00243.1"
+      },
+      {
+        "key": "e_1_2_6_27_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kratzert F. Klotz D. Brenner C. Schulz K. &Herrnegger M.(2018).Rainfall\u2010runoff modelling using long\u2010short\u2010term\u2010memory (LSTM) networks. Hydrology and Earth System Sciences Discussions (May) 1\u201326.https://doi.org/10.17605/OSF.IO/QV5JZ",
+        "DOI": "10.5194/hess-2018-247"
+      },
+      {
+        "key": "e_1_2_6_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/adgeo-5-89-2005"
+      },
+      {
+        "key": "e_1_2_6_29_1",
+        "unstructured": "Kumar A. Irsoy O. Ondruska P. Iyyer M. Bradbury J. Gulrajani I. Zhong V. Paulus R.Socher R.(2016).Ask me anything: Dynamic memory networks for natural language processing. Retrieved fromhttp://proceedings.mlr.press/v48/kumar16.pdf"
+      },
+      {
+        "key": "e_1_2_6_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature14539"
+      },
+      {
+        "key": "e_1_2_6_31_1",
+        "unstructured": "Lin Y.(2011).GCIP/EOP Surface: Precipitation NCEP/EMC 4KM Gridded Data (GRIB) Stage IV data. Version 1.0. UCAR/NCAR \u2010 Earth Observing Laboratory.https://doi.org/https://doi.org/10.5065/D6PG1QDD"
+      },
+      {
+        "key": "e_1_2_6_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2010.02.003"
+      },
+      {
+        "key": "e_1_2_6_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13031/2013.23153"
+      },
+      {
+        "key": "e_1_2_6_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w10111536"
+      },
+      {
+        "key": "e_1_2_6_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/B:WARM.0000024727.94701.12"
+      },
+      {
+        "key": "e_1_2_6_36_1",
+        "unstructured": "Neitsch S. L. Arnold J. G. Kiniry J. R. &Williams J. R.(2011).Soil and Water Assessment Tool theoretical documentation version 2009. Retrieved fromhttp://oaktrust.library.tamu.edu/handle/1969.1/128050"
+      },
+      {
+        "key": "e_1_2_6_37_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nhita F. Saepudin D. Adiwijaya &Wisesty U. N.(2016).Comparative study of moving average on rainfall time series data for rainfall forecasting based on evolving neural network classifier. In Proceedings \u2010 2015 3rd International Symposium on Computational and Business Intelligence ISCBI 2015 (pp. 112\u2013116). IEEE.https://doi.org/10.1109/ISCBI.2015.27",
+        "DOI": "10.1109/ISCBI.2015.27"
+      },
+      {
+        "key": "e_1_2_6_38_1",
+        "unstructured": "Olah C. (2015).Understanding LSTM networks. Retrieved November 12 2018 fromhttp://colah.github.io/posts/2015\u201008\u2010Understanding\u2010LSTMs/"
+      },
+      {
+        "key": "e_1_2_6_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.engappai.2009.09.015"
+      },
+      {
+        "key": "e_1_2_6_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/1099-1646(200009/10)16:5<385::AID-RRR592>3.0.CO;2-W"
+      },
+      {
+        "key": "e_1_2_6_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-019-0912-1"
+      },
+      {
+        "key": "e_1_2_6_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mcm.2004.10.012"
+      },
+      {
+        "key": "e_1_2_6_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0022-1694(98)00273-X"
+      },
+      {
+        "key": "e_1_2_6_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2018.06.003"
+      },
+      {
+        "key": "e_1_2_6_45_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sit M. &Demir I.(2019).Decentralized flood forecasting using deep neural networks. Retrieved fromhttp://arxiv.org/abs/1902.02308",
+        "DOI": "10.31223/OSF.IO/E9XQR"
+      },
+      {
+        "key": "e_1_2_6_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/17538947.2018.1563219"
+      },
+      {
+        "key": "e_1_2_6_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2014.01.023"
+      },
+      {
+        "key": "e_1_2_6_48_1",
+        "unstructured": "Sutskever I. Vinyals O. &Le Q. V.(2014).Sequence to sequence learning with neural networks 3104\u20133112. Retrieved fromhttps://papers.nips.cc/paper/5346\u2010sequence\u2010to\u2010sequence\u2010learning\u2010with\u2010neural\u2010networks"
+      },
+      {
+        "key": "e_1_2_6_49_1",
+        "unstructured": "U.S. Geological Survey. (2016).National Water Information System data available on the World Wide Web (USGS Water Data for the Nation).https://doi.org/https://doi.org/10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_6_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/15715124.2017.1387127"
+      },
+      {
+        "key": "e_1_2_6_51_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wen T.\u2010H. Gasic M. Mrksic N. Su P.\u2010H. Vandyke D.Young S.(2015).Semantically conditioned LSTM\u2010based natural language generation for spoken dialogue systems. Retrieved fromhttp://arxiv.org/abs/1508.01745",
+        "DOI": "10.18653/v1/D15-1199"
+      },
+      {
+        "key": "e_1_2_6_52_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xiang Z. Montas H. Shirmohammadi A. Leisnham P. &Brubaker K.(2018).Impact of climate change on critical source areas in a Chesapeake Bay watershed.2018Detroit Michigan July 29 \u2010 August 1 2018 1.https://doi.org/10.13031/aim.201801831",
+        "DOI": "10.13031/aim.201801831"
+      },
+      {
+        "key": "e_1_2_6_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2166/hydro.2017.175"
+      },
+      {
+        "key": "e_1_2_6_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2018.04.065"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1029%2F2019WR025326",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1029/2019WR025326",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1029/2019WR025326",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2019WR025326",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          25
+        ]
+      ],
+      "date-time": "2023-08-25T19:33:46Z",
+      "timestamp": 1692992026000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019WR025326"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          1
+        ]
+      ]
+    },
+    "references-count": 53,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            1
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2019WR025326"
+    ],
+    "URL": "https://doi.org/10.1029/2019wr025326",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2019-07-16",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-12-28",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2020-01-17",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2019WR025326"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2019WR025326",
+  "original_doi": "10.1029/2019WR025326"
+}

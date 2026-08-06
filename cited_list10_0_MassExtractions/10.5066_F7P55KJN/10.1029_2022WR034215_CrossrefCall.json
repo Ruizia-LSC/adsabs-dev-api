@@ -1,0 +1,700 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          2
+        ]
+      ],
+      "date-time": "2026-08-02T09:09:31Z",
+      "timestamp": 1785661771556,
+      "version": "3.56.0"
+    },
+    "reference-count": 89,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "11",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              9
+            ]
+          ],
+          "date-time": "2023-11-09T00:00:00Z",
+          "timestamp": 1699488000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 8,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          11
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Eutrophication is one of the largest threats to aquatic ecosystems and chlorophyll <jats:italic>a</jats:italic> measurements are relevant indicators of trophic state and algal abundance. Many studies have modeled chlorophyll <jats:italic>a</jats:italic> in rivers but model development and testing has largely occurred at individual sites which hampers creating generalized models capable of making broad\u2010scale predictions. To address this gap, we compiled a large data set of chlorophyll <jats:italic>a</jats:italic> concentrations matched to other water quality, meteorological, and reach characteristic data for a diverse set of 82 streams and rivers across the United States. We used this data set and extreme gradient boosting, a tree\u2010based machine learning algorithm, to predict daily chlorophyll <jats:italic>a</jats:italic> concentrations. Furthermore, we tested several practical considerations of broad\u2010scale models, such as making predictions at sites not included in model training or the utility of in situ water quality data versus universally available remotely estimated model inputs. Predictions were very strongly correlated to observations when compared against a randomly withheld subset of days; however, the model had lower accuracy when applied to completely novel sites withheld from model training. Turbidity and total nitrogen were the two most important variables for predicting chlorophyll <jats:italic>a</jats:italic>. Although in situ variables improved modeled estimates and were identified as more important during model interpretation, using only remote inputs still resulted in highly correlated predictions with small bias. Testing a model across many sites allowed for identification of common variables relevant to chlorophyll <jats:italic>a</jats:italic> and highlighted several challenges for applying data\u2010driven models to new sites or at larger spatial scales.</jats:p>",
+    "DOI": "10.1029/2022wr034215",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          9
+        ]
+      ],
+      "date-time": "2023-11-09T20:53:43Z",
+      "timestamp": 1699563223000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 26,
+    "title": [
+      "Predicting Daily River Chlorophyll Concentrations at a Continental Scale"
+    ],
+    "prefix": "10.1029",
+    "volume": "59",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6075-837X",
+        "authenticated-orcid": false,
+        "given": "Philip",
+        "family": "Savoy",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "New York Water Science Center U.S. Geological Survey  Troy NY USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2654-9873",
+        "authenticated-orcid": false,
+        "given": "Judson W.",
+        "family": "Harvey",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Earth System Processes Division U.S. Geological Survey  Reston VA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          9
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_9_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2018.2870052"
+      },
+      {
+        "key": "e_1_2_9_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsbl.2017.0660"
+      },
+      {
+        "key": "e_1_2_9_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.inffus.2019.12.012"
+      },
+      {
+        "key": "e_1_2_9_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13750-021-00238-8"
+      },
+      {
+        "key": "e_1_2_9_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lno.11786"
+      },
+      {
+        "key": "e_1_2_9_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/bf00007414"
+      },
+      {
+        "key": "e_1_2_9_8_1",
+        "volume-title": "nhdplusTools: Tools for accessing and working with the NHDPlus",
+        "author": "Blodgett D.",
+        "year": "2022"
+      },
+      {
+        "key": "e_1_2_9_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0197669"
+      },
+      {
+        "key": "e_1_2_9_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eap.1871"
+      },
+      {
+        "key": "e_1_2_9_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0002-1571(76)90080-7"
+      },
+      {
+        "key": "e_1_2_9_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "key": "e_1_2_9_13_1",
+        "unstructured": "Chen T. He T. Benesty M. Khotilovich V. Tang Y. Cho H. et\u00a0al. (2022).xgboost: Extreme gradient boosting(Version 1.6.0.1). Retrieved fromhttps://CRAN.R-project.org/package=xgboost"
+      },
+      {
+        "key": "e_1_2_9_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2495/EID180141"
+      },
+      {
+        "key": "e_1_2_9_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0278-4343(87)90042-2"
+      },
+      {
+        "key": "e_1_2_9_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008JG000722"
+      },
+      {
+        "key": "e_1_2_9_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2427.2010.02554.x"
+      },
+      {
+        "key": "e_1_2_9_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lom3.10030"
+      },
+      {
+        "key": "e_1_2_9_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ejrh.2021.100925"
+      },
+      {
+        "key": "e_1_2_9_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1467990"
+      },
+      {
+        "key": "e_1_2_9_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0043-1354(97)00370-9"
+      },
+      {
+        "key": "e_1_2_9_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1468291"
+      },
+      {
+        "issue": "2018",
+        "key": "e_1_2_9_23_1",
+        "first-page": "51",
+        "article-title": "Chlorophyll a and its use as an indicator of eutrophication in the Caloosahatchee Estuary, Florida",
+        "volume": "69",
+        "author": "Doering P.",
+        "year": "2006",
+        "journal-title": "Biological Sciences"
+      },
+      {
+        "key": "e_1_2_9_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecss.2010.12.008"
+      },
+      {
+        "key": "e_1_2_9_25_1",
+        "first-page": "437",
+        "volume-title": "Models in ecosystem science",
+        "author": "Duarte C. M.",
+        "year": "2003"
+      },
+      {
+        "key": "e_1_2_9_26_1",
+        "volume-title": "Straightforward statistics for the behavioral sciences",
+        "author": "Evans J. D.",
+        "year": "1996"
+      },
+      {
+        "key": "e_1_2_9_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0043-1354(00)00360-2"
+      },
+      {
+        "key": "e_1_2_9_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-25-2951-2021"
+      },
+      {
+        "key": "e_1_2_9_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/ES11-00071.1"
+      },
+      {
+        "key": "e_1_2_9_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/09-2243.1"
+      },
+      {
+        "key": "e_1_2_9_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2331838"
+      },
+      {
+        "key": "e_1_2_9_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020GL088946"
+      },
+      {
+        "key": "e_1_2_9_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1467743"
+      },
+      {
+        "key": "e_1_2_9_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lno.10031"
+      },
+      {
+        "key": "e_1_2_9_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/697966"
+      },
+      {
+        "key": "e_1_2_9_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1940936"
+      },
+      {
+        "key": "e_1_2_9_37_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hirsch R. M. &De Cicco L. A.(2015).User guide to Exploration and Graphics for RivEr Trends (EGRET) and dataRetrieval: R packages for hydrologic data(4\u2010A10).https://doi.org/10.3133/tm4A10",
+        "DOI": "10.3133/tm4A10"
+      },
+      {
+        "key": "e_1_2_9_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ecs2.1321"
+      },
+      {
+        "key": "e_1_2_9_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/2041-210X.12970"
+      },
+      {
+        "key": "e_1_2_9_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs13193863"
+      },
+      {
+        "key": "e_1_2_9_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2017.11.128"
+      },
+      {
+        "key": "e_1_2_9_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0304-3800(01)00300-3"
+      },
+      {
+        "key": "e_1_2_9_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/1.9781611975673.63"
+      },
+      {
+        "key": "e_1_2_9_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TKDE.2017.2720168"
+      },
+      {
+        "key": "e_1_2_9_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecolmodel.2019.02.003"
+      },
+      {
+        "key": "e_1_2_9_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhazmat.2020.123066"
+      },
+      {
+        "key": "e_1_2_9_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1051/limn/2016003"
+      },
+      {
+        "key": "e_1_2_9_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s13748-016-0094-0"
+      },
+      {
+        "key": "e_1_2_9_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4319/lo.2004.49.6.2179"
+      },
+      {
+        "key": "e_1_2_9_50_1",
+        "unstructured": "Liu Y. &Just A.(2021).SHAPforxgboost: SHAP plots for \u201cXGBoost\u201d(Version 0.1.1). Retrieved fromhttps://CRAN.R-project.org/package=SHAPforxgboost"
+      },
+      {
+        "key": "e_1_2_9_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4319/lo.1980.25.2.0371"
+      },
+      {
+        "key": "e_1_2_9_52_1",
+        "unstructured": "Lunch C. Laney C. Mietkiewicz N. Sokol E. &Cawley K. &NEON (National Ecological Observatory Network). (2021).neonUtilities: Utilities for working with NEON data. Retrieved fromhttps://cran.r-project.org/package=neonUtilities"
+      },
+      {
+        "key": "e_1_2_9_53_1",
+        "unstructured": "Lundberg S. M. Erion G. G. &Lee S.\u2010I.(2019).Consistent individualized feature attribution for tree ensembles. arXiv. Retrieved fromhttp://arxiv.org/abs/1802.03888"
+      },
+      {
+        "key": "e_1_2_9_54_1",
+        "volume-title": "Advances in neural information processing systems",
+        "author": "Lundberg S. M.",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_9_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2021.149040"
+      },
+      {
+        "key": "e_1_2_9_56_1",
+        "unstructured": "Mayer M.(2022).shapviz: SHAP visualizations(Version 0.2.1). Retrieved fromhttps://CRAN.R-project.org/package=shapviz"
+      },
+      {
+        "key": "e_1_2_9_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1468446"
+      },
+      {
+        "key": "e_1_2_9_58_1",
+        "volume-title": "Continuous discharge (DP4.00130.001)",
+        "author": "NEON",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_9_59_1",
+        "volume-title": "Temperature (PRT) in surface water (DP1.20053.001)",
+        "author": "NEON",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_9_60_1",
+        "volume-title": "Water quality (DP1.20288.001)",
+        "author": "NEON",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_9_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4319/lo.1956.1.2.0102"
+      },
+      {
+        "key": "e_1_2_9_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2022.155070"
+      },
+      {
+        "key": "e_1_2_9_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR028773"
+      },
+      {
+        "key": "e_1_2_9_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2020.112165"
+      },
+      {
+        "key": "e_1_2_9_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016WR019993"
+      },
+      {
+        "key": "e_1_2_9_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR024922"
+      },
+      {
+        "key": "e_1_2_9_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/1099-1085(200011/12)14:16/17<3119::AID-HYP137>3.0.CO;2-6"
+      },
+      {
+        "key": "e_1_2_9_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1312927"
+      },
+      {
+        "key": "e_1_2_9_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR024883"
+      },
+      {
+        "key": "e_1_2_9_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020gl092149"
+      },
+      {
+        "key": "e_1_2_9_71_1",
+        "unstructured": "Savoy P. &Harvey J. W.(2023).Daily estimates of chlorophyll concentration for 82 U.S. rivers: U.S. Geological Survey data release.https://doi.org/10.5066/P92WK0OJ"
+      },
+      {
+        "key": "e_1_2_9_72_1",
+        "volume-title": "NHD\u2010RC: Extension of NHDPlus Version 2.1 with high\u2010resolution river corridor attributes [Csv]",
+        "author": "Schmadel N. M.",
+        "year": "2020"
+      },
+      {
+        "key": "e_1_2_9_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-018-05156-x"
+      },
+      {
+        "key": "e_1_2_9_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00007412"
+      },
+      {
+        "key": "e_1_2_9_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1594/PANGAEA.899168"
+      },
+      {
+        "key": "e_1_2_9_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597-020-0478-7"
+      },
+      {
+        "key": "e_1_2_9_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w12061822"
+      },
+      {
+        "key": "e_1_2_9_78_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1623/hysj.48.6.857.51421"
+      },
+      {
+        "key": "e_1_2_9_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1065/espr2002.12.142"
+      },
+      {
+        "key": "e_1_2_9_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4319/lo.2006.51.1_part_2.0351"
+      },
+      {
+        "key": "e_1_2_9_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1939885"
+      },
+      {
+        "key": "e_1_2_9_82_1",
+        "unstructured": "Thornton M. M. Shrestha R. Wei Y. Thornton P. E. Kao S.\u2010C. &Wilson B. E.(2022).Daymet: Daily surface weather data on a 1\u2010km grid for North America(Version 4).https://doi.org/10.3334/ORNLDAAC/2129"
+      },
+      {
+        "key": "e_1_2_9_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/exsy.12081"
+      },
+      {
+        "key": "e_1_2_9_84_1",
+        "unstructured": "U.S. Geological Survey. (2021).USGS water data for the nation: U.S. Geological Survey National Water Information System database.https://doi.org/10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_9_85_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/f95-166"
+      },
+      {
+        "key": "e_1_2_9_86_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/f80-017"
+      },
+      {
+        "key": "e_1_2_9_87_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2008.01.001"
+      },
+      {
+        "key": "e_1_2_9_88_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Wieczorek M. E. Jackson S. E. &Schwarz G. E.(2018).Select attributes for NHDPlus version 2.1 reach catchments and modified network routed upstream watersheds for the conterminous United States[Dataset]. U.S. Geological Survey.https://doi.org/10.5066/F7765D7V",
+        "DOI": "10.5066/F7765D7V"
+      },
+      {
+        "key": "e_1_2_9_89_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1373"
+      },
+      {
+        "key": "e_1_2_9_90_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011JD016051"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2022WR034215",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          27
+        ]
+      ],
+      "date-time": "2023-12-27T21:34:25Z",
+      "timestamp": 1703712865000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022WR034215"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          11
+        ]
+      ]
+    },
+    "references-count": 89,
+    "journal-issue": {
+      "issue": "11",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            11
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2022WR034215"
+    ],
+    "URL": "https://doi.org/10.1029/2022wr034215",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          11
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2022-11-29",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-10-16",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-11-09",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2022WR034215"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2022WR034215",
+  "original_doi": "10.1029/2022WR034215"
+}

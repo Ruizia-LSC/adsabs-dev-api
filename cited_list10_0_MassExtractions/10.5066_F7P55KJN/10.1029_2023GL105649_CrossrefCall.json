@@ -1,0 +1,483 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          2
+        ]
+      ],
+      "date-time": "2026-07-02T03:07:54Z",
+      "timestamp": 1782961674328,
+      "version": "3.54.5"
+    },
+    "reference-count": 23,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              14
+            ]
+          ],
+          "date-time": "2024-02-14T00:00:00Z",
+          "timestamp": 1707868800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100014573",
+        "name": "Earth Sciences Division",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "19\u2010SMAP19\u20100036"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "19\u2010SMAP19\u20100036"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100014573",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100014573",
+        "name": "Earth Sciences Division",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "19\u2010SMAP19\u20100060"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "19\u2010SMAP19\u20100060"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100014573",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Geophysical Research Letters"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          28
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Using data from the NASA Soil Moisture Active/Passive mission, Koster et\u00a0al. (2023, <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://doi.org/10.1038/s41467-023-39318-3\">https://doi.org/10.1038/s41467\u2010023\u201039318\u20103</jats:ext-link>) conclude that, for medium\u2010scale basins in the contiguous United States, a quarter of interannual variability in springtime streamflow is explained by interannual anomalies in late\u2010fall soil moisture. This lagged relationship can be leveraged for seasonal hydrologic forecasting, but only if effectively captured by existing prediction models. Here, we extend the analysis in Koster et\u00a0al. (2023, <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://doi.org/10.1038/s41467-023-39318-3\">https://doi.org/10.1038/s41467\u2010023\u201039318\u20103</jats:ext-link>) to diagnose systematic errors present in the United States National Water Model (NWM). Results demonstrate that the NWM tends to underestimate both the trans\u2010winter temporal memory of 0\u20131\u00a0m soil moisture as well as the correlation between 0 and 1\u00a0m soil moisture and streamflow\u2014thereby reducing the NWM's ability to leverage vertically averaged soil moisture as a source of hydrologic predictability.</jats:p>",
+    "DOI": "10.1029/2023gl105649",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          15
+        ]
+      ],
+      "date-time": "2024-02-15T03:44:25Z",
+      "timestamp": 1707968665000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Neglect of Potential Seasonal Streamflow Forecasting Skill in the United States National Water Model"
+    ],
+    "prefix": "10.1029",
+    "volume": "51",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8217-261X",
+        "authenticated-orcid": false,
+        "given": "Wade T.",
+        "family": "Crow",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "USDA ARS Hydrology and Remote Sensing Laboratory  Beltsville MD USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6418-6383",
+        "authenticated-orcid": false,
+        "given": "Randal D.",
+        "family": "Koster",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NASA Global Modelling and Assimilation Office Goddard Space Flight Center  Greenbelt MD USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5513-0150",
+        "authenticated-orcid": false,
+        "given": "Rolf H.",
+        "family": "Reichle",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NASA Global Modelling and Assimilation Office Goddard Space Flight Center  Greenbelt MD USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3257-9259",
+        "authenticated-orcid": false,
+        "given": "Fan",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "USDA ARS Hydrology and Remote Sensing Laboratory  Beltsville MD USA"
+          },
+          {
+            "name": "Science Systems and Applications, Inc.  Greenbelt MD USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0789-5818",
+        "authenticated-orcid": false,
+        "given": "Qing",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NASA Global Modelling and Assimilation Office Goddard Space Flight Center  Greenbelt MD USA"
+          },
+          {
+            "name": "Science Systems and Applications, Inc.  Greenbelt MD USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          14
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w15132319"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201012\u20101323\u20102008"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752\u20101688.13184"
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017GL073642"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR025245"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR031565"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015GL065929"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM\u2010D\u201017\u20100152.1"
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2000jd900051"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752\u20101688.12490"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/bmj.c2289"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467\u2010023\u201039318\u20103"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2003JD003517"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "O'Neill P. E. Chan S. Njoku E. G. Jackson T. Bindlish R. Chaubell J. &Colliander A.(2021).SMAP enhanced L3 radiometer global and polar grid daily 9 km EASE\u2010grid soil moisture version 5[Dataset].NASA National Snow and Ice Data Center Distributed Active Archive Center.https://doi.org/10.5067/4DQ54OUIJ9DL",
+        "DOI": "10.5067/4DQ54OUIJ9DL"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Reichle R. De Lannoy G. Koster R. D. Crow W. T. Kimball J. S. Liu Q. &Bechtold M.(2022).SMAP L4 global 3\u2010hourly 9 km EASE\u2010grid surface and root zone soil moisture geophysical data version 7[Dataset].NASA National Snow and Ice Data Center Distributed Active Archive Center.https://doi.org/10.5067/EVKPQZ4AFC4D",
+        "DOI": "10.5067/EVKPQZ4AFC4D"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM\u2010D\u201017\u20100063.1"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "first-page": "87",
+        "volume-title": "Soil moisture active passive (SMAP) project assessment report for version 7 of the L4_SM data product, NASA technical report series on global modeling and data assimilation, NASA/TM\u20102023\u2010104606",
+        "author": "Reichle R. H.",
+        "year": "2023"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w11020296"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR029595"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "USGS. (2016).National water information system data available on the world wide web (USGS water data for the nation)[Dataset].https://doi.org/10.5066/F7P55KJN",
+        "DOI": "10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0034\u20104257(99)00036\u2010Xs"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2020.125404"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011JD016051"
+      }
+    ],
+    "container-title": [
+      "Geophysical Research Letters"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023GL105649",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023GL105649",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          9
+        ]
+      ],
+      "date-time": "2024-07-09T19:00:40Z",
+      "timestamp": 1720551640000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023GL105649"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          14
+        ]
+      ]
+    },
+    "references-count": 23,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            28
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2023GL105649"
+    ],
+    "URL": "https://doi.org/10.1029/2023gl105649",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0094-8276",
+      "1944-8007"
+    ],
+    "issn-type": [
+      {
+        "value": "0094-8276",
+        "type": "print"
+      },
+      {
+        "value": "1944-8007",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          14
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2023-08-24",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-01-29",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-02-14",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2023GL105649"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2023GL105649",
+  "original_doi": "10.1029/2023GL105649"
+}

@@ -1,0 +1,879 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          28
+        ]
+      ],
+      "date-time": "2026-07-28T22:28:38Z",
+      "timestamp": 1785277718643,
+      "version": "3.55.0"
+    },
+    "reference-count": 82,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "11",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              30
+            ]
+          ],
+          "date-time": "2025-10-30T00:00:00Z",
+          "timestamp": 1761782400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2202706"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2202706"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2026431"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2026431"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "EAR\u20102012123"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "EAR\u20102012123"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "EAR\u20102012080"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "EAR\u20102012080"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100005825",
+        "name": "National Institute of Food and Agriculture",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2023\u201067023\u201040216"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2023\u201067023\u201040216"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100005825",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000192",
+        "name": "National Oceanic and Atmospheric Administration",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NA22NWS4320003"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NA22NWS4320003"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000192",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000192",
+        "name": "National Oceanic and Atmospheric Administration",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "A23\u20100238\u2010A02"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "A23\u20100238\u2010A02"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000192",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          11
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>The predictive accuracy of regional hydrologic models often varies across both time and space. Interpreting relationships between watershed characteristics, hydrologic regimes, and model performance can reveal potential areas for model improvement. In this study, we use machine learning to assess model performance of a regional hydrologic model to forecast the occurrence of streamflow drought. We demonstrate our methodology using a regional long short\u2010term memory (LSTM) deep learning model developed by the U.S. Geological Survey (USGS) and data from 384 streamgages across the Colorado River Basin region. Performance was assessed by clustering catchments using: (a) physical and climatological catchment attributes, and (b) streamflow drought signatures time series. We examined the association of USGS LSTM model error measures with clusters generated by both approaches to interpret meaningful spatial and temporal information about LSTM model performance. Clustering static catchment attributes identified elevation, degree of streamflow regulation, baseflow contribution, catchment aridity, and drainage area as the most influential attributes to model performance. Clustering gages by their drought signatures revealed that catchments with significant seasonal peak runoff between January and June generally exhibited better model performance. Additionally, a Random Forest classifier was trained to successfully predict LSTM model performance (F1 score of 0.72) based on physical and climatological catchment attributes. Low degree of flow regulation was identified as a key indicator of better LSTM model performance. These findings point to the opportunities for improving the USGS LSTM model performance in future hydrologic drought prediction efforts across regional and CONUS scales.</jats:p>",
+    "DOI": "10.1029/2024wr039077",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          30
+        ]
+      ],
+      "date-time": "2025-10-30T10:18:24Z",
+      "timestamp": 1761819504000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "A Spatiotemporal Interrogation of Hydrologic Drought Model Performance for Machine Learning Model Interpretability"
+    ],
+    "prefix": "10.1029",
+    "volume": "61",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0861-4926",
+        "authenticated-orcid": false,
+        "given": "Ali",
+        "family": "Dadkhah",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Civil and Environmental Engineering University of Vermont  Burlington VT USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0583-4237",
+        "authenticated-orcid": false,
+        "given": "Scott D.",
+        "family": "Hamshaw",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil and Environmental Engineering University of Vermont  Burlington VT USA"
+          },
+          {
+            "name": "Integrated Modeling &amp; Prediction Division U.S. Geological Survey  Reston VA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ryan",
+        "family": "van der Heijden",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil and Environmental Engineering University of Vermont  Burlington VT USA"
+          },
+          {
+            "name": "Gund Institute for Environment University of Vermont  Burlington VT USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Donna M.",
+        "family": "Rizzo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil and Environmental Engineering University of Vermont  Burlington VT USA"
+          },
+          {
+            "name": "Gund Institute for Environment University of Vermont  Burlington VT USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          30
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_9_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3292500.3330701"
+      },
+      {
+        "key": "e_1_2_9_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748\u20109326/abd2f0"
+      },
+      {
+        "key": "e_1_2_9_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2009.01.008"
+      },
+      {
+        "key": "e_1_2_9_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2020.125376"
+      },
+      {
+        "key": "e_1_2_9_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/001316446002000104"
+      },
+      {
+        "key": "e_1_2_9_7_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Dadkhah A.(2025).Code and datasets used in Water Resources Research Journal paper \u201cA spatiotemporal interrogation of hydrologic drought model performance for machine learning model interpretability\u201d Dadkhah et\u00a0al. (2025)[Dataset].Zenodo.https://doi.org/10.5281/zenodo.15609178",
+        "DOI": "10.5281/zenodo.15609178"
+      },
+      {
+        "key": "e_1_2_9_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR030619"
+      },
+      {
+        "key": "e_1_2_9_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR034193"
+      },
+      {
+        "key": "e_1_2_9_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w16243582"
+      },
+      {
+        "key": "e_1_2_9_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748\u20109326/acf678"
+      },
+      {
+        "key": "e_1_2_9_12_1",
+        "volume-title": "GAGES\u2010II: Geospatial attributes of gages for evaluating streamflow",
+        "author": "Falcone J. A.",
+        "year": "2011"
+      },
+      {
+        "key": "e_1_2_9_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR026793"
+      },
+      {
+        "key": "e_1_2_9_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2166/wcc.2019.236"
+      },
+      {
+        "key": "e_1_2_9_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR033918"
+      },
+      {
+        "key": "e_1_2_9_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201025\u20102045\u20102021"
+      },
+      {
+        "key": "e_1_2_9_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021GB007047"
+      },
+      {
+        "key": "e_1_2_9_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201025\u20101189\u20102021"
+      },
+      {
+        "key": "e_1_2_9_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2009.08.003"
+      },
+      {
+        "key": "e_1_2_9_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/su15076160"
+      },
+      {
+        "key": "e_1_2_9_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2166/wqrj.2018.025"
+      },
+      {
+        "key": "e_1_2_9_22_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hammond J. C. Goodling P. Diaz J. Corson\u2010Dosch H. R. Heldmyer A. Hamshaw S. et\u00a0al. (2025).Machine learning generated streamflow drought forecasts for the conterminous United States (CONUS): Developing and evaluating an operational tool to enhance sub\u2010seasonal to seasonal streamflow drought early warning for gaged locations. Retrieved fromhttps://eartharxiv.org/repository/view/10279/",
+        "DOI": "10.31223/X56X77"
+      },
+      {
+        "key": "e_1_2_9_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR031930"
+      },
+      {
+        "key": "e_1_2_9_24_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Hamshaw S. D. Sando T. R. Goodling P. J. McShane R. R. Watkins W. D. &White E.(2023).Data\u2010driven drought prediction project model outputs for select spatial units within the conterminous United States[Dataset].U.S. Geological Survey.https://doi.org/10.5066/P97NIH7Y",
+        "DOI": "10.5066/P97NIH7Y"
+      },
+      {
+        "key": "e_1_2_9_25_1",
+        "volume-title": "Paper presented at the frontiers in hydrology meeting 2022, San Juan, Puerto Rico",
+        "author": "Hamshaw S. D.",
+        "year": "2022"
+      },
+      {
+        "key": "e_1_2_9_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016RG000549"
+      },
+      {
+        "key": "e_1_2_9_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201022\u20102023\u20102018"
+      },
+      {
+        "key": "e_1_2_9_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2025.132766"
+      },
+      {
+        "key": "e_1_2_9_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.aej.2021.04.100"
+      },
+      {
+        "key": "e_1_2_9_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10618\u2010023\u201000979\u20109"
+      },
+      {
+        "key": "e_1_2_9_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201026\u20101673\u20102022"
+      },
+      {
+        "key": "e_1_2_9_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR025975"
+      },
+      {
+        "key": "e_1_2_9_33_1",
+        "first-page": "1464",
+        "volume-title": "Proceedings of the IEEE",
+        "author": "Kohonen T.",
+        "year": "1990"
+      },
+      {
+        "issue": "4",
+        "key": "e_1_2_9_34_1",
+        "first-page": "179",
+        "article-title": "Self\u2010organizing maps of massive databases",
+        "volume": "9",
+        "author": "Kohonen T.",
+        "year": "2001",
+        "journal-title": "International Journal of Engineering Intelligent Systems for Electrical Engineering and Communications"
+      },
+      {
+        "key": "e_1_2_9_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neunet.2012.09.018"
+      },
+      {
+        "key": "e_1_2_9_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748\u20109326/aba927"
+      },
+      {
+        "key": "e_1_2_9_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201022\u20106005\u20102018"
+      },
+      {
+        "key": "e_1_2_9_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR026065"
+      },
+      {
+        "key": "e_1_2_9_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201023\u20105089\u20102019"
+      },
+      {
+        "key": "e_1_2_9_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/su151310543"
+      },
+      {
+        "key": "e_1_2_9_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201023\u20104011\u20102019"
+      },
+      {
+        "key": "e_1_2_9_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2021.3077703"
+      },
+      {
+        "key": "e_1_2_9_43_1",
+        "unstructured": "Lukas J. Payton L. McAfee S. Wood A. Woodhouse C. Harding B. et\u00a0al. (2020).Colorado river basin climate and hydrology: State of the science."
+      },
+      {
+        "key": "e_1_2_9_44_1",
+        "volume-title": "A unified approach to interpreting model predictions",
+        "author": "Lundberg S. M.",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_9_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.14936"
+      },
+      {
+        "key": "e_1_2_9_46_1",
+        "first-page": "11328",
+        "volume-title": "Proceedings of the national academy of sciences",
+        "author": "Martin J. T.",
+        "year": "2020"
+      },
+      {
+        "key": "e_1_2_9_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.13566"
+      },
+      {
+        "key": "e_1_2_9_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748\u20109326/ad6200"
+      },
+      {
+        "key": "e_1_2_9_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w10111536"
+      },
+      {
+        "key": "e_1_2_9_50_1",
+        "volume-title": "Division on Earth, life studies, water science, technology board, and committee on the scientific bases of Colorado river basin water management. Colorado river basin water management: Evaluating and adjusting to hydroclimatic variability",
+        "author": "National Research Council",
+        "year": "2007"
+      },
+      {
+        "key": "e_1_2_9_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586\u2010024\u201007145\u20101"
+      },
+      {
+        "key": "e_1_2_9_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2023.130141"
+      },
+      {
+        "key": "e_1_2_9_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201027\u20103875\u20102023"
+      },
+      {
+        "key": "e_1_2_9_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2021.126455"
+      },
+      {
+        "key": "e_1_2_9_55_1",
+        "first-page": "2825",
+        "article-title": "Scikit\u2010learn: Machine learning in python",
+        "volume": "12",
+        "author": "Pedregosa F.",
+        "year": "2011",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "e_1_2_9_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016WR019991"
+      },
+      {
+        "key": "e_1_2_9_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR030437"
+      },
+      {
+        "key": "e_1_2_9_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11269\u2010021\u201002937\u2010w"
+      },
+      {
+        "key": "e_1_2_9_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0377\u20100427(87)90125\u20107"
+      },
+      {
+        "key": "e_1_2_9_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.13336"
+      },
+      {
+        "key": "e_1_2_9_61_1",
+        "unstructured": "Sarle W. S.(1983).Cubic clustering criterion. Retrieved fromhttps://cir.nii.ac.jp/crid/1130000796449908480"
+      },
+      {
+        "key": "e_1_2_9_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00500\u2010021\u201005585\u20109"
+      },
+      {
+        "key": "e_1_2_9_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR022643"
+      },
+      {
+        "key": "e_1_2_9_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w16202996"
+      },
+      {
+        "key": "e_1_2_9_65_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Simeone C. E.(2022).Streamflow drought metrics for select United States geological survey streamgages for three different time periods from 1921\u20142020[Dataset].U.S. Geological Survey.https://doi.org/10.5066/P92FAASD",
+        "DOI": "10.5066/P92FAASD"
+      },
+      {
+        "key": "e_1_2_9_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR030394"
+      },
+      {
+        "key": "e_1_2_9_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43247\u2010024\u201001295\u2010w"
+      },
+      {
+        "key": "e_1_2_9_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201025\u20103991\u20102021"
+      },
+      {
+        "key": "e_1_2_9_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598\u2010022\u201006553\u20105"
+      },
+      {
+        "key": "e_1_2_9_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR029544"
+      },
+      {
+        "key": "e_1_2_9_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ejrh.2022.101171"
+      },
+      {
+        "key": "e_1_2_9_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201027\u20101809\u20102023"
+      },
+      {
+        "key": "e_1_2_9_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2023.130458"
+      },
+      {
+        "key": "e_1_2_9_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016WR019638"
+      },
+      {
+        "key": "e_1_2_9_75_1",
+        "volume-title": "USGS 06228000 wind river at Riverton, WY, in USGS water data for the nation",
+        "author": "U.S. Geological Survey",
+        "year": "2024"
+      },
+      {
+        "key": "e_1_2_9_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1085"
+      },
+      {
+        "key": "e_1_2_9_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.14565"
+      },
+      {
+        "key": "e_1_2_9_78_1",
+        "first-page": "586",
+        "volume-title": "IEEE Transactions on Neural Networks",
+        "author": "Vesanto J.",
+        "year": "2000"
+      },
+      {
+        "key": "e_1_2_9_79_1",
+        "unstructured": "Vettigli G.(2018).MiniSom: Minimalistic and NumPy\u2010based implementation of the self organizing map. Retrieved fromhttps://github.com/JustGlowing/minisom/"
+      },
+      {
+        "key": "e_1_2_9_80_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Wieczorek M. E. Jackson S. E. &Schwarz G. E.(2018).Select attributes for NHDPlus version 2.1 reach catchments and modified network routed upstream watersheds for the conterminous United States (ver. 4.0 August 2023)[Dataset].U.S. Geological Survey.https://doi.org/10.5066/F7765D7V",
+        "DOI": "10.5066/F7765D7V"
+      },
+      {
+        "key": "e_1_2_9_81_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Wieczorek M. E. Wolock D. M. &McCarthy P. M.(2021).Dam impact/disturbance metrics for the conterminous United States 1800 to 2018[Dataset].U.S. Geological Survey.https://doi.org/10.5066/P92S9ZX6",
+        "DOI": "10.5066/P92S9ZX6"
+      },
+      {
+        "key": "e_1_2_9_82_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201021\u20105477\u20102017"
+      },
+      {
+        "key": "e_1_2_9_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eehl.2022.06.001"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2024WR039077",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          24
+        ]
+      ],
+      "date-time": "2025-11-24T14:40:10Z",
+      "timestamp": 1763995210000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024WR039077"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          30
+        ]
+      ]
+    },
+    "references-count": 82,
+    "journal-issue": {
+      "issue": "11",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            11
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2024WR039077"
+    ],
+    "URL": "https://doi.org/10.1029/2024wr039077",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          30
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2024-10-22",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-10-15",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-10-30",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2024WR039077"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2024WR039077",
+  "original_doi": "10.1029/2024WR039077"
+}

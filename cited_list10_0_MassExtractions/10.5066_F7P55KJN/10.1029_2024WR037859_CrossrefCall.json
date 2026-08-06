@@ -1,0 +1,709 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          29
+        ]
+      ],
+      "date-time": "2026-07-29T11:01:04Z",
+      "timestamp": 1785322864595,
+      "version": "3.55.0"
+    },
+    "reference-count": 74,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              4
+            ]
+          ],
+          "date-time": "2025-04-04T00:00:00Z",
+          "timestamp": 1743724800000
+        },
+        "content-version": "am",
+        "delay-in-days": 3,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              4
+            ]
+          ],
+          "date-time": "2025-04-04T00:00:00Z",
+          "timestamp": 1743724800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 3,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100006229",
+        "name": "Oak Ridge Institute for Science and Education",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006229",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          4
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Diminishing glaciers affect streamflow, and given the extent of glaciers in Alaska and adjacent Canada, continued glacier mass loss is likely to have profound effects on ecosystems sensitive to runoff. The effects of glacier mass loss on streamflow are likely to vary across the wide ranges of basin size, glacier cover, and precipitation in this region. In this study, we use U.S. Geological Survey (USGS) streamflow data with satellite\u2010based glacier volume change estimates to quantify how glacier mass loss subsidized streamflow over the 2000\u20132019 period for 116 glacierized basins. We examine interannual variability in that subsidy at three USGS\u2010monitored glaciers to explore the ability of the subsidy to buffer streamflow derived solely from precipitation. We found the relative importance of percent glacier cover on streamflow magnitude increases in drier basins. In the driest basins, glaciers produced 40 times greater percent glacier mass loss subsidies to streamflow for the percent glacier cover compared to the wettest basins. While the subsidy from glacier mass loss buffers interannual variability in streamflow to varying degrees, it can also increase streamflow variability. Smaller amounts of percent glacier cover are needed to produce summer\u2010melt\u2010dominated seasonal flow regimes in drier basins than in wetter basins. Decreasing glacier cover will eventually decrease summer streamflow, increasing spring streamflow in drier basins, and attenuating seasonality with increasing spring and autumnal streamflow in wetter basins. Quantifying the downstream effects of continued glacier mass loss without the computational expense of a hydrological model is broadly applicable in this changing climate.</jats:p>",
+    "DOI": "10.1029/2024wr037859",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          5
+        ]
+      ],
+      "date-time": "2025-04-05T11:35:53Z",
+      "timestamp": 1743852953000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "Streamflow Response to Glacier Mass Loss Varies With Basin Precipitation Across Alaska"
+    ],
+    "prefix": "10.1029",
+    "volume": "61",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3899-6275",
+        "authenticated-orcid": false,
+        "given": "Janet H.",
+        "family": "Curran",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Alaska Science Center  Anchorage AK USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0516-7577",
+        "authenticated-orcid": false,
+        "given": "Brianna",
+        "family": "Rick",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Alaska Climate Adaptation Science Center University of Alaska  Fairbanks AK USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5302-8280",
+        "authenticated-orcid": false,
+        "given": "Jeremy S.",
+        "family": "Littell",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Alaska Climate Adaptation Science Center  Anchorage AK USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4677-029X",
+        "authenticated-orcid": false,
+        "given": "Louis C.",
+        "family": "Sass",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Alaska Science Center  Anchorage AK USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          4
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_10_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR033363"
+      },
+      {
+        "key": "e_1_2_10_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2019.04.075"
+      },
+      {
+        "key": "e_1_2_10_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JCLI\u2010D\u201022\u20100434.1"
+      },
+      {
+        "key": "e_1_2_10_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR018457"
+      },
+      {
+        "key": "e_1_2_10_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748\u20109326/acb661"
+      },
+      {
+        "key": "e_1_2_10_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.agrformet.2011.04.008"
+      },
+      {
+        "key": "e_1_2_10_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.13354"
+      },
+      {
+        "key": "e_1_2_10_9_1",
+        "unstructured": "Cogley J. Hock R. Rasmussen L. Arendt A. Bauder A. Braithwaite R. et\u00a0al. (2011).Glossary of glacier mass balance and related terms.https://doi.org/10.5167/uzh\u201053475"
+      },
+      {
+        "key": "e_1_2_10_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3189/172756408784700761"
+      },
+      {
+        "key": "e_1_2_10_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/tc\u201013\u20101597\u20102019"
+      },
+      {
+        "key": "e_1_2_10_12_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Curran J. H.(2024a).Selected basin and streamflow special conditions summary for USGS streamgages in Alaska[Dataset].U.S. Geological Survey data release.https://doi.org/10.5066/P1YZSU8P",
+        "DOI": "10.5066/P1YZSU8P"
+      },
+      {
+        "key": "e_1_2_10_13_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Curran J. H.(2024b).Selected basin boundaries for USGS streamgages in Alaska through 2016[Dataset].U.S. Geological Survey data release.https://doi.org/10.5066/P143KNEJ",
+        "DOI": "10.5066/P143KNEJ"
+      },
+      {
+        "key": "e_1_2_10_14_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Curran J. H.(2024c).Selected boundaries for USGS streamgages in Alaska through 2020[Dataset].U.S. Geological Survey data release.https://doi.org/10.5066/P13TMJUP",
+        "DOI": "10.5066/P13TMJUP"
+      },
+      {
+        "key": "e_1_2_10_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR028425"
+      },
+      {
+        "key": "e_1_2_10_16_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Curran J. H. &Rick B.(2025).Streamgage attributes basin characteristics subsidies from glacier mass loss and streamflow statistics selected streamgages in Alaska 2000\u20102019[Dataset].U.S. Geological Survey data release.https://doi.org/10.5066/P1PDQTDH",
+        "DOI": "10.5066/P1PDQTDH"
+      },
+      {
+        "key": "e_1_2_10_17_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "De Cicco L. A. Hirsch R. M. Lorenz D. Watkins D. &Johnson M.(2023).dataRetrieval: R packages for discovering and retrieving water data available from Federal hydrologic web services v.2.7.13[Computer software].https://doi.org/10.5066/P9X4L3GE",
+        "DOI": "10.5066/P9X4L3GE"
+      },
+      {
+        "key": "e_1_2_10_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lno.12451"
+      },
+      {
+        "key": "e_1_2_10_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3189/172756501781831783"
+      },
+      {
+        "key": "e_1_2_10_20_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "European Space Agency. (2023).Copernicus DEM GLO\u201030: Global 30m digital elevation model[Dataset].Google Earth Engine.https://doi.org/10.5270/ESA\u2010c5d3d65",
+        "DOI": "10.5270/ESA\u2010c5d3d65"
+      },
+      {
+        "key": "e_1_2_10_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lno.12251"
+      },
+      {
+        "key": "e_1_2_10_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.9742"
+      },
+      {
+        "key": "e_1_2_10_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/jog.2023.86"
+      },
+      {
+        "key": "e_1_2_10_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/cir1132"
+      },
+      {
+        "key": "e_1_2_10_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR021i004p00579"
+      },
+      {
+        "key": "e_1_2_10_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2017WR021764"
+      },
+      {
+        "key": "e_1_2_10_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/fsh.10731"
+      },
+      {
+        "key": "e_1_2_10_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epsl.2008.08.028"
+      },
+      {
+        "key": "e_1_2_10_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1004812107"
+      },
+      {
+        "key": "e_1_2_10_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/qj.3803"
+      },
+      {
+        "key": "e_1_2_10_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2009JG000971"
+      },
+      {
+        "key": "e_1_2_10_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586\u2010021\u201003436\u2010z"
+      },
+      {
+        "key": "e_1_2_10_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/tc\u20106\u2010713\u20102012"
+      },
+      {
+        "key": "e_1_2_10_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/tc\u20107\u2010877\u20102013"
+      },
+      {
+        "key": "e_1_2_10_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41558\u2010017\u20100049\u2010x"
+      },
+      {
+        "key": "e_1_2_10_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586\u2010019\u20101822\u2010y"
+      },
+      {
+        "key": "e_1_2_10_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nclimate1435"
+      },
+      {
+        "key": "e_1_2_10_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023GL102954"
+      },
+      {
+        "key": "e_1_2_10_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2166/nh.2014.023"
+      },
+      {
+        "key": "e_1_2_10_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1008162107"
+      },
+      {
+        "key": "e_1_2_10_41_1",
+        "unstructured": "Kassambara A. &Mundt F.(2020).factoextra: Extract and visualize the results of multivariate data analyses [Computer software]. R package version 1.0.7.https://CRAN.R\u2010project.org/package=factoextra"
+      },
+      {
+        "key": "e_1_2_10_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/tc\u201017\u20105007\u20102023"
+      },
+      {
+        "key": "e_1_2_10_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2009.07.045"
+      },
+      {
+        "key": "e_1_2_10_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017GL073834"
+      },
+      {
+        "key": "e_1_2_10_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w10050668"
+      },
+      {
+        "key": "e_1_2_10_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jgrd.50572"
+      },
+      {
+        "key": "e_1_2_10_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021EO154856"
+      },
+      {
+        "key": "e_1_2_10_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1619807114"
+      },
+      {
+        "key": "e_1_2_10_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/feart.2020.00136"
+      },
+      {
+        "key": "e_1_2_10_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/essd\u201013\u20104349\u20102021"
+      },
+      {
+        "key": "e_1_2_10_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.polar.2013.03.003"
+      },
+      {
+        "key": "e_1_2_10_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10584\u2010013\u20101042\u20107"
+      },
+      {
+        "key": "e_1_2_10_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/jog.2019.66"
+      },
+      {
+        "key": "e_1_2_10_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3189/2014JoG13J176"
+      },
+      {
+        "key": "e_1_2_10_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467\u2010021\u201026897\u20102"
+      },
+      {
+        "key": "e_1_2_10_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586\u2010019\u20101240\u20101"
+      },
+      {
+        "key": "e_1_2_10_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10712\u2010013\u20109262\u2010y"
+      },
+      {
+        "key": "e_1_2_10_58_1",
+        "unstructured": "R Core Team. (2024).R: A language and environment for statistical computing[Computer software].R Foundation for Statistical Computing. Retrieved fromhttps://www.R\u2010project.org/"
+      },
+      {
+        "key": "e_1_2_10_59_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "RGI Consortium. (2017).Randolph Glacier inventory\u2014A dataset of global glacier outlines \u00a0version 6[Dataset].https://doi.org/10.7265/4M1F\u2010GD79",
+        "DOI": "10.7265/4M1F\u2010GD79"
+      },
+      {
+        "key": "e_1_2_10_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs14184582"
+      },
+      {
+        "key": "e_1_2_10_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/feart.2018.00020"
+      },
+      {
+        "key": "e_1_2_10_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abo1324"
+      },
+      {
+        "key": "e_1_2_10_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u20102024\u201089"
+      },
+      {
+        "key": "e_1_2_10_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019wr026127"
+      },
+      {
+        "key": "e_1_2_10_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626667.2022.2159411"
+      },
+      {
+        "key": "e_1_2_10_66_1",
+        "first-page": "214",
+        "volume-title": "The climate of Alaska",
+        "author": "Shulski M.",
+        "year": "2007"
+      },
+      {
+        "key": "e_1_2_10_67_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "U.S. Geological Survey. (2024).USGS water data for the nation: National Water Information System database[Dataset].https://doi.org/10.5066/F7P55KJN",
+        "DOI": "10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_10_68_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "U.S. Geological Survey Benchmark Glacier Program. (2016).Glacier\u2010wide mass balance and compiled data inputs (ver. 8.1 February 2024)[Dataset].U.S. Geological Survey data release.https://doi.org/10.5066/F7HD7SRF",
+        "DOI": "10.5066/F7HD7SRF"
+      },
+      {
+        "key": "e_1_2_10_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w10020128"
+      },
+      {
+        "key": "e_1_2_10_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201025\u20103245\u20102021"
+      },
+      {
+        "key": "e_1_2_10_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/fsh.10705"
+      },
+      {
+        "key": "e_1_2_10_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201026\u20105971\u20102022"
+      },
+      {
+        "key": "e_1_2_10_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/jog.2022.61"
+      },
+      {
+        "key": "e_1_2_10_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR027404"
+      },
+      {
+        "key": "e_1_2_10_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586\u2010019\u20101071\u20100"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2024WR037859",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2024WR037859",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          15
+        ]
+      ],
+      "date-time": "2025-05-15T12:27:14Z",
+      "timestamp": 1747312034000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024WR037859"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          4
+        ]
+      ]
+    },
+    "references-count": 74,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            4
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2024WR037859"
+    ],
+    "URL": "https://doi.org/10.1029/2024wr037859",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          4
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2024-04-26",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-03-16",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-04-04",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2024WR037859"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2024WR037859",
+  "original_doi": "10.1029/2024WR037859"
+}

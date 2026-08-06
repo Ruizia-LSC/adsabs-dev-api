@@ -1,0 +1,838 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          21
+        ]
+      ],
+      "date-time": "2026-07-21T11:48:35Z",
+      "timestamp": 1784634515796,
+      "version": "3.55.0"
+    },
+    "reference-count": 99,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "7",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              23
+            ]
+          ],
+          "date-time": "2024-07-23T00:00:00Z",
+          "timestamp": 1721692800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 22,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          7
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Estimating snow conditions is often done using numerical snowpack evolution models at spatial resolutions of 500\u00a0m and greater; however, snow depth in complex terrain often varies on sub\u2010meter scales. This study investigated how the spatial distribution of simulated snow conditions varied across seven model spatial resolutions from 30 to 1,000\u00a0m and over two meteorological data sets, coarser (\u224812\u00a0km) and finer (4\u00a0km). Simulated snow covered area (SCA) was compared to remotely sensed SCA and simulated watershed mean peak snow water equivalent (SWE) was compared to four streamflow statistics representing different water management\u2010relevant aspects of the hydrograph using non\u2010parametric correlations. April 1 SWE tended to increase with model resolution, particularly below 4,000 masl. Finer meteorology simulations produced deeper April 1 SWE than coarser meteorology simulations. Finer resolution snow simulations tended to produce longer snowmelt durations and slower snowmelt rates than coarser resolution simulations. Finer resolution simulations had better agreement with SCA for both meteorology data sets, particularly at high and low elevations. However, finer resolution simulations did not generally outperform coarser simulations in snow versus streamflow statistic correlations. Snow versus streamflow correlations were most sensitive to meteorology, watershed properties, and then resolution. Watershed physiographic properties such as wetness index may increase snow versus streamflow metric correlations while elevation and slope may decrease correlations. At watershed scales, these results suggest that simulation resolution and choice of meteorology is less important than the physiographic properties of the watershed; however, if resolving snow distribution across the landscape is important, finer\u2010resolution simulations are useful.</jats:p>",
+    "DOI": "10.1029/2023wr035982",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          24
+        ]
+      ],
+      "date-time": "2024-07-24T04:41:53Z",
+      "timestamp": 1721796113000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 12,
+    "title": [
+      "Evaluating Distributed Snow Model Resolution and Meteorology Parameterizations Against Streamflow Observations: Finer Is Not Always Better"
+    ],
+    "prefix": "10.1029",
+    "volume": "60",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9682-3217",
+        "authenticated-orcid": false,
+        "given": "Theodore B.",
+        "family": "Barnhart",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Wyoming\u2010Montana Water Science Center  Helena MT USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9424-1707",
+        "authenticated-orcid": false,
+        "given": "Annie L.",
+        "family": "Putman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Utah Water Science Center  West Valley City UT USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8608-4927",
+        "authenticated-orcid": false,
+        "given": "Aaron J.",
+        "family": "Heldmyer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Wyoming\u2010Montana Water Science Center  Cheyenne WY USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2629-365X",
+        "authenticated-orcid": false,
+        "given": "David M.",
+        "family": "Rey",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Hydrologic Remote Sensing Branch, Water Resources Mission Area  Denver CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4935-0736",
+        "authenticated-orcid": false,
+        "given": "John C.",
+        "family": "Hammond",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Maryland\u2010Delaware\u2010D.C. Water Science Center  Catonsville MD USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jessica M.",
+        "family": "Driscoll",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Denver CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8913-0546",
+        "authenticated-orcid": false,
+        "given": "Graham A.",
+        "family": "Sexstone",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Colorado Water Science Center  Denver CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          23
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/sdata.2018.40"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2005WR004387"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature04141"
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016GL069690"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.14416"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626667909491834"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ress.2006.04.015"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM\u2010D\u201016\u20100056.1"
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "unstructured": "Canada Centre for Remote Sensing. (2020).Canada Centre for Mapping and Earth Observation Natural Resources Canada Comisi\u00f3n Nacional para el Conocimiento y Uso de la Biodiversidad Comisi\u00f3n Nacional Forestal Instituto Nacional de Estad\u00edstica y Geograf\u00eda US. Geological Survey 2020: 2010 Land Cover of North America at 30 meters. Verson 2.0. Retrieved fromhttp://www.cec.org/north\u2010american\u2010environmental\u2010atlas/land\u2010cover\u20102010\u2010landsat\u201030m/"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.14653"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "volume-title": "Proceedings of the 74th annual western snow conference. Las Cruces, NM: Western snow conference",
+        "author": "Carroll T.",
+        "year": "2006"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011WR010745"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.9385"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008GL033295"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM487.1"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008GL035545"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "volume-title": "Landsat collection 2 (C2) level 3 (L3) fractional snow covered area (fSCA) algorithm description document (ADD) (No. LSDS\u20102086 version 1.0)",
+        "author": "Engebretson C.",
+        "year": "2022"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2003WR002973"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "unstructured": "Falgout J. T. Gordon J. Davis M. J. &Williams B. &USGS Advanced Research Computing. (2019a).USGS Denali supercomputer.https://doi.org/10.5066/P9PSW367"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "unstructured": "Falgout J. T. Gordon J. Davis M. J. &Williams B. &USGS Advanced Research Computing. (2019b).USGS Tallgrass supercomputer.https://doi.org/10.5066/P9XE7ROJ"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2012.11.013"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/feart.2024.1381323"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.5884351"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "first-page": "83",
+        "volume-title": "The national elevation dataset",
+        "author": "Gesch D. B.",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ejrh.2021.100976"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022EF003092"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR023190"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Heldmyer A. Barnhart T. B. Putman A. L. Hammond J. C. Rey D. M. &Sexstone G. A.(2024).SnowModel simulations for the Fraser River East River and Senator Beck Basin Colorado using multiple spatial resolutions and meteorology datasets[Dataset].US Geological Survey Data Release.https://doi.org/10.5066/P94HCL8G",
+        "DOI": "10.5066/P94HCL8G"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR029395"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "volume-title": "The history of snow Survey and water supply forecasting: Interviews with US. Department of agriculture pioneers",
+        "author": "Helms D.",
+        "year": "2008"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2017.03.008"
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21105/joss.00097"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/15230430.2002.12003493"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5334/jors.148"
+      },
+      {
+        "key": "e_1_2_8_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365\u20102486.2009.01967.x"
+      },
+      {
+        "key": "e_1_2_8_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00382\u2010021\u201005805\u2010w"
+      },
+      {
+        "key": "e_1_2_8_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586\u2010019\u20101822\u2010y"
+      },
+      {
+        "key": "e_1_2_8_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18174/sesmo.18155"
+      },
+      {
+        "key": "e_1_2_8_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biomet/30.1\u20102.81"
+      },
+      {
+        "key": "e_1_2_8_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/tc\u201015\u2010771\u20102021"
+      },
+      {
+        "key": "e_1_2_8_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201026\u20104837\u20102022"
+      },
+      {
+        "key": "e_1_2_8_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017GL073551"
+      },
+      {
+        "key": "e_1_2_8_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520\u20100450\u201034.7.1705"
+      },
+      {
+        "key": "e_1_2_8_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520\u20100442(2004)017<1381:RSSCHI>2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_8_46_1",
+        "unstructured": "Liston G. E.(2020).SnowModel (version 2020_10_02). Retrieved fromftp://gliston.cira.colostate.edu/SnowModel/code/snowmodel_2020_10_02.zip"
+      },
+      {
+        "key": "e_1_2_8_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM548.1"
+      },
+      {
+        "key": "e_1_2_8_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM486.1"
+      },
+      {
+        "key": "e_1_2_8_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3189/172756507782202865"
+      },
+      {
+        "key": "e_1_2_8_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3189/S0022143000016245"
+      },
+      {
+        "key": "e_1_2_8_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019JC015913"
+      },
+      {
+        "key": "e_1_2_8_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3189/S0022143000002021"
+      },
+      {
+        "key": "e_1_2_8_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2015.01.039"
+      },
+      {
+        "key": "e_1_2_8_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JCLI\u2010D\u201012\u201000508.1"
+      },
+      {
+        "key": "e_1_2_8_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.6572"
+      },
+      {
+        "key": "e_1_2_8_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.10245"
+      },
+      {
+        "key": "e_1_2_8_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(SICI)1099\u20101085(199808/09)12:10/11<1671::AID\u2010HYP688>3.0.CO;2\u2010N"
+      },
+      {
+        "key": "e_1_2_8_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/BAMS\u2010D\u201019\u20100001.1"
+      },
+      {
+        "key": "e_1_2_8_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/SP013"
+      },
+      {
+        "key": "e_1_2_8_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR025307"
+      },
+      {
+        "key": "e_1_2_8_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021GL095085"
+      },
+      {
+        "key": "e_1_2_8_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.5586"
+      },
+      {
+        "key": "e_1_2_8_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/BAMS\u201086\u20101\u201039"
+      },
+      {
+        "key": "e_1_2_8_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41612\u2010018\u20100012\u20101"
+      },
+      {
+        "key": "e_1_2_8_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JCLI\u2010D\u201015\u20100229.1"
+      },
+      {
+        "key": "e_1_2_8_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41558\u2010021\u201001014\u20109"
+      },
+      {
+        "key": "e_1_2_8_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nclimate3225"
+      },
+      {
+        "key": "e_1_2_8_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41558\u2010018\u20100236\u20104"
+      },
+      {
+        "key": "e_1_2_8_69_1",
+        "unstructured": "National Resources Conservation Service. (2023).SNOTEL database[Dataset].https://wcc.sc.egov.usda.gov/reportGenerator/"
+      },
+      {
+        "key": "e_1_2_8_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752\u20101688.12863"
+      },
+      {
+        "key": "e_1_2_8_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2489/jswc.64.1.15A"
+      },
+      {
+        "key": "e_1_2_8_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ejor.2012.11.047"
+      },
+      {
+        "key": "e_1_2_8_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201019\u20103153\u20102015"
+      },
+      {
+        "key": "e_1_2_8_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5065/49SN\u20108E08"
+      },
+      {
+        "key": "e_1_2_8_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5065/D6V40SXP"
+      },
+      {
+        "key": "e_1_2_8_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5066/P9PHPK4F"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_2_8_77_1",
+        "first-page": "23",
+        "article-title": "A Terrain Ruggedness Index That Quantifies Topographic Heterogeneity",
+        "volume": "5",
+        "author": "Riley S. J.",
+        "year": "1999",
+        "journal-title": "Intermountain Journal of Sciences"
+      },
+      {
+        "key": "e_1_2_8_78_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR024914"
+      },
+      {
+        "key": "e_1_2_8_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2166/nh.2020.267"
+      },
+      {
+        "key": "e_1_2_8_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.isprsjprs.2016.04.001"
+      },
+      {
+        "key": "e_1_2_8_81_1",
+        "first-page": "76",
+        "volume-title": "Automated approaches for snow and ice cover monitoring using optical remote sensing",
+        "author": "Selkowitz D. J.",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_8_82_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017WR021172"
+      },
+      {
+        "key": "e_1_2_8_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.13735"
+      },
+      {
+        "key": "e_1_2_8_84_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM\u2010D\u201020\u20100077.1"
+      },
+      {
+        "key": "e_1_2_8_85_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43017\u2010021\u201000219\u2010y"
+      },
+      {
+        "key": "e_1_2_8_86_1",
+        "volume-title": "Geocube: Release (0.0.16)",
+        "author": "Snow A. D.",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_8_87_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022GL099324"
+      },
+      {
+        "key": "e_1_2_8_88_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2013WR014753"
+      },
+      {
+        "key": "e_1_2_8_89_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ngeo1571"
+      },
+      {
+        "key": "e_1_2_8_90_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2023.129304"
+      },
+      {
+        "key": "e_1_2_8_91_1",
+        "unstructured": "US Geological Survey. (2021).StreamStats.www.streamstats.usgs.gov"
+      },
+      {
+        "key": "e_1_2_8_92_1",
+        "unstructured": "US Geological Survey. (2022).USGS water data for the nation.https://doi.org/10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_8_93_1",
+        "volume-title": "Comparing downscaled LOCA and BCSD CMIP5 climate and hydrology projections (technical memorandum)",
+        "author": "Vano J.",
+        "year": "2020"
+      },
+      {
+        "key": "e_1_2_8_94_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/tc\u201015\u2010743\u20102021"
+      },
+      {
+        "key": "e_1_2_8_95_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41592\u2010019\u20100686\u20102"
+      },
+      {
+        "key": "e_1_2_8_96_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2006WR005653"
+      },
+      {
+        "key": "e_1_2_8_97_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016GL069769"
+      },
+      {
+        "key": "e_1_2_8_98_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM\u2010D\u201013\u20100169.1"
+      },
+      {
+        "key": "e_1_2_8_99_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011JD016051"
+      },
+      {
+        "key": "e_1_2_8_100_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011JD016048"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023WR035982",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          2
+        ]
+      ],
+      "date-time": "2025-03-02T05:15:27Z",
+      "timestamp": 1740892527000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023WR035982"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          7
+        ]
+      ]
+    },
+    "references-count": 99,
+    "journal-issue": {
+      "issue": "7",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            7
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2023WR035982"
+    ],
+    "URL": "https://doi.org/10.1029/2023wr035982",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          7
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2023-08-02",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-06-18",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-07-23",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2023WR035982"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2023WR035982",
+  "original_doi": "10.1029/2023WR035982"
+}

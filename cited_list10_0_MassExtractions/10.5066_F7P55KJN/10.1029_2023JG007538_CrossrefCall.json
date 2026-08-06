@@ -1,0 +1,828 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          27
+        ]
+      ],
+      "date-time": "2026-07-27T22:48:43Z",
+      "timestamp": 1785192523841,
+      "version": "3.55.0"
+    },
+    "reference-count": 96,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "11",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              15
+            ]
+          ],
+          "date-time": "2023-11-15T00:00:00Z",
+          "timestamp": 1700006400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 14,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "JGR Biogeosciences"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          11
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Mountain headwater streams actively cycle carbon, receiving it from terrestrial landscapes and exporting it through downstream transport and gas exchange with the atmosphere. Although their importance is now widely recognized, aquatic carbon fluxes in headwater streams remain poorly characterized. In this study, aquatic carbon fluxes were measured in 15 mountain headwater streams and were used in a geostatistical analysis to determine how landscape characteristics influence aquatic carbon fluxes. In\u2010stream sensors were used to measure fluorescent dissolved organic matter (fDOM) (a surrogate for dissolved organic carbon (DOC)) at a subset of sites to characterize dynamic responses to hydroclimatic events. Wetlands have a positive influence on aquatic carbon fluxes, whereas perennial snow/ice has the opposite effect, reflecting differences in soil organic matter content in these landscapes. Mean annual temperature (MAT) has a complex influence on DOC, with peak DOC exports in basins with MAT of 0\u20132\u00b0C. Precipitation has a strong positive influence on aquatic carbon fluxes, and declining snowpacks in the western United States may reduce future aquatic carbon exports. fDOM (and by implication DOC) and  showed strong dynamic responses to snowmelt and rain events, with fDOM increasing and  decreasing during events. Combining results from this study with those from a companion study on CO<jats:sub>2</jats:sub> exchange yielded total aquatic carbon fluxes of 7.2\u201315.7\u00a0g\u00a0C\u00a0m<jats:sup>\u22122</jats:sup>\u00a0yr<jats:sup>\u22121</jats:sup> (median\u00a0=\u00a012.22), similar to those from forests and peatlands. Given net ecosystem production (NEP) of similar magnitude, NEP calculations that do not account for losses via the aquatic pathway can substantially overestimate terrestrial carbon sequestration.</jats:p>",
+    "DOI": "10.1029/2023jg007538",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          15
+        ]
+      ],
+      "date-time": "2023-11-15T22:30:25Z",
+      "timestamp": 1700087425000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "Aquatic Carbon Export and Dynamics in Mountain Headwater Streams of the Western U.S."
+    ],
+    "prefix": "10.1029",
+    "volume": "128",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-6183-4824",
+        "authenticated-orcid": false,
+        "given": "D. W.",
+        "family": "Clow",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Denver Federal Center U.S. Geological Survey  Denver CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "G. A.",
+        "family": "Akie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Denver Federal Center U.S. Geological Survey  Denver CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8251-4659",
+        "authenticated-orcid": false,
+        "given": "R. G.",
+        "family": "Striegl",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "C. A.",
+        "family": "Penn",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Denver Federal Center U.S. Geological Survey  Denver CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8913-0546",
+        "authenticated-orcid": false,
+        "given": "G. A.",
+        "family": "Sexstone",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Denver Federal Center U.S. Geological Survey  Denver CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "G. L.",
+        "family": "Keith",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Denver Federal Center U.S. Geological Survey  Denver CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          15
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_7_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0304-4076(81)90071-3"
+      },
+      {
+        "key": "e_1_2_7_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015jg003050"
+      },
+      {
+        "key": "e_1_2_7_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/100014"
+      },
+      {
+        "key": "e_1_2_7_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lol2.10312"
+      },
+      {
+        "key": "e_1_2_7_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ngeo618"
+      },
+      {
+        "key": "e_1_2_7_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2475/ajs.278.9.1235"
+      },
+      {
+        "key": "e_1_2_7_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0016-7037(92)90300-8"
+      },
+      {
+        "key": "e_1_2_7_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2475/ajs.283.7.641"
+      },
+      {
+        "key": "e_1_2_7_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2013JG002551"
+      },
+      {
+        "key": "e_1_2_7_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019gl083424"
+      },
+      {
+        "key": "e_1_2_7_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(sici)1099-1085(19971015)11:12<1635::aid-hyp494>3.0.co;2-h"
+      },
+      {
+        "key": "e_1_2_7_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/1998wr900125"
+      },
+      {
+        "key": "e_1_2_7_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR017878"
+      },
+      {
+        "key": "e_1_2_7_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/NGEO1294"
+      },
+      {
+        "key": "e_1_2_7_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1512651112"
+      },
+      {
+        "key": "e_1_2_7_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-017-09049-9"
+      },
+      {
+        "key": "e_1_2_7_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-023-37232-2"
+      },
+      {
+        "key": "e_1_2_7_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0477(2001)082<0399:citoos>2.3.co;2"
+      },
+      {
+        "key": "e_1_2_7_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2007.09.030"
+      },
+      {
+        "key": "e_1_2_7_21_1",
+        "first-page": "115",
+        "volume-title": "Circular 1173\u2010C",
+        "author": "Clark M. L.",
+        "year": "2000"
+      },
+      {
+        "key": "e_1_2_7_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/2009jcli2951.1"
+      },
+      {
+        "key": "e_1_2_7_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chemgeo.2009.09.014"
+      },
+      {
+        "key": "e_1_2_7_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.13183"
+      },
+      {
+        "key": "e_1_2_7_25_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Clow D. W. Qi S. L. &Akie G. A.(2023).Continuous water\u2010quality data for selected streams in Rocky Mountain National Park Colorado water years 2011\u201019 (ver. 3.0 October 2023): U.S. Geological Survey data release[Dataset].ScienceBase.https://doi.org/10.5066/P9R29VUZ",
+        "DOI": "10.5066/P9R29VUZ"
+      },
+      {
+        "key": "e_1_2_7_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021JG006509"
+      },
+      {
+        "key": "e_1_2_7_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10021-006-9013-8"
+      },
+      {
+        "key": "e_1_2_7_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2014JG002861"
+      },
+      {
+        "key": "e_1_2_7_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00027-016-0511-2"
+      },
+      {
+        "key": "e_1_2_7_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008GB003294"
+      },
+      {
+        "key": "e_1_2_7_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s0022-1694(01)00545-5"
+      },
+      {
+        "key": "e_1_2_7_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ngeo2096"
+      },
+      {
+        "key": "e_1_2_7_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gcb.12209"
+      },
+      {
+        "key": "e_1_2_7_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4319/lom.2012.10.767"
+      },
+      {
+        "key": "e_1_2_7_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5268/IW-2.4.502"
+      },
+      {
+        "key": "e_1_2_7_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lol2.10055"
+      },
+      {
+        "key": "e_1_2_7_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1515/9781501509650-012"
+      },
+      {
+        "key": "e_1_2_7_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10533-010-9452-3"
+      },
+      {
+        "key": "e_1_2_7_39_1",
+        "unstructured": "ESRI. (2023).ArcGIS desktop v. 10.8.1[Software].Environmental Systems Research Institute. Retrieved fromhttps://www.esri.com"
+      },
+      {
+        "key": "e_1_2_7_40_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Falcone J. A.(2011).GAGES\u2010II: Geospatial attributes of gages for evaluating streamflow[Dataset].U.S. Geological Survey.https://doi.org/10.3133/70046617",
+        "DOI": "10.3133/70046617"
+      },
+      {
+        "key": "e_1_2_7_41_1",
+        "first-page": "55",
+        "volume-title": "U.S. Geological Survey approved inorganic and organic methods for the analysis of water and fluvial sediment, 1954\u201094",
+        "author": "Fishman M. J.",
+        "year": "1994"
+      },
+      {
+        "key": "e_1_2_7_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.7315"
+      },
+      {
+        "key": "e_1_2_7_43_1",
+        "first-page": "928",
+        "volume-title": "Multivariate data analysis",
+        "author": "Hair J. F.",
+        "year": "2005"
+      },
+      {
+        "key": "e_1_2_7_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/2009jcli2470.1"
+      },
+      {
+        "key": "e_1_2_7_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/D0EW00150C"
+      },
+      {
+        "key": "e_1_2_7_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019JG005047"
+      },
+      {
+        "key": "e_1_2_7_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-9326/ab5cb8"
+      },
+      {
+        "key": "e_1_2_7_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-12905-z"
+      },
+      {
+        "key": "e_1_2_7_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gcb.12333"
+      },
+      {
+        "key": "e_1_2_7_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eco.95"
+      },
+      {
+        "key": "e_1_2_7_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.5537"
+      },
+      {
+        "key": "e_1_2_7_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2010GB003900"
+      },
+      {
+        "key": "e_1_2_7_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10021-011-9452-8"
+      },
+      {
+        "key": "e_1_2_7_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2012gl053033"
+      },
+      {
+        "key": "e_1_2_7_55_1",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1021/acs.est.6b01604",
+        "volume-title": "Automatic high frequency monitoring for improved lake and reservoir management",
+        "author": "Marc\u00e9 R.",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_7_56_1",
+        "first-page": "114",
+        "volume-title": "Environmental characteristics and water quality of Hydrologic Benchmark Stations in the western United States, 1963\u201095. Circular 1173\u2010D",
+        "author": "Mast M. A.",
+        "year": "2000"
+      },
+      {
+        "key": "e_1_2_7_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-9326/ab9c4e"
+      },
+      {
+        "key": "e_1_2_7_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1659/0276-4741(2001)021[0034:antfma]2.0.co;2"
+      },
+      {
+        "key": "e_1_2_7_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41612-018-0012-1"
+      },
+      {
+        "key": "e_1_2_7_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chemgeo.2010.08.017"
+      },
+      {
+        "key": "e_1_2_7_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2006323117"
+      },
+      {
+        "key": "e_1_2_7_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10533-011-9589-8"
+      },
+      {
+        "key": "e_1_2_7_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2013jg002552"
+      },
+      {
+        "key": "e_1_2_7_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2003WR002805"
+      },
+      {
+        "key": "e_1_2_7_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2012.06.111"
+      },
+      {
+        "key": "e_1_2_7_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-9326/8/2/024040"
+      },
+      {
+        "key": "e_1_2_7_67_1",
+        "first-page": "631",
+        "volume-title": "Water\u2010Supply Paper 2175",
+        "author": "Rantz S. E.",
+        "year": "1982"
+      },
+      {
+        "key": "e_1_2_7_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature12760"
+      },
+      {
+        "key": "e_1_2_7_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2006gb002783"
+      },
+      {
+        "key": "e_1_2_7_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10533-010-9416-7"
+      },
+      {
+        "key": "e_1_2_7_71_1",
+        "unstructured": "R Core Team. (2022).R: A language and environment for statistical computing[Software].R Foundation for Statistical Computing. Retrieved fromhttps://www.r-project.org/"
+      },
+      {
+        "key": "e_1_2_7_72_1",
+        "volume-title": "Sensors in the stream: The high\u2010frequency wave of the present",
+        "author": "Rode M.",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_7_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lom3.10175"
+      },
+      {
+        "key": "e_1_2_7_74_1",
+        "unstructured": "SAS. (2023).JMP v. 17[Software].SAS Institute Inc. Retrieved fromhttps://www.jmp.com"
+      },
+      {
+        "key": "e_1_2_7_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lno.10339"
+      },
+      {
+        "key": "e_1_2_7_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020jg005844"
+      },
+      {
+        "key": "e_1_2_7_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-0-387-73563-4_11"
+      },
+      {
+        "key": "e_1_2_7_78_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5268/iw-2.4.510"
+      },
+      {
+        "key": "e_1_2_7_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.7128"
+      },
+      {
+        "key": "e_1_2_7_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/b:clim.0000013702.22656.e8"
+      },
+      {
+        "key": "e_1_2_7_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2006WE005201"
+      },
+      {
+        "key": "e_1_2_7_82_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/bg-10-905-2013"
+      },
+      {
+        "key": "e_1_2_7_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lol2.10065"
+      },
+      {
+        "key": "e_1_2_7_84_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR018419"
+      },
+      {
+        "key": "e_1_2_7_85_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41561-019-0324-8"
+      },
+      {
+        "key": "e_1_2_7_86_1",
+        "volume-title": "Techniques of Water\u2010Resources Investigations Book 9, Chapters A1\u2010A9",
+        "author": "U.S. Geological Survey",
+        "year": "2023"
+      },
+      {
+        "key": "e_1_2_7_87_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "U.S. Geological Survey. (2023b).USGS water data for the Nation[Dataset].U.S. Geological Survey National Water Information System Database.https://doi.org/10.5066/F7P55KJN",
+        "DOI": "10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_7_88_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2009JG001100"
+      },
+      {
+        "key": "e_1_2_7_89_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2014jg002814"
+      },
+      {
+        "key": "e_1_2_7_90_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10021-018-0284-7"
+      },
+      {
+        "key": "e_1_2_7_91_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0016-7037(95)00078-e"
+      },
+      {
+        "key": "e_1_2_7_92_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s0016-7037(99)00250-1"
+      },
+      {
+        "key": "e_1_2_7_93_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ecs2.3647"
+      },
+      {
+        "key": "e_1_2_7_94_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016wr019724"
+      },
+      {
+        "key": "e_1_2_7_95_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015gl067613"
+      },
+      {
+        "key": "e_1_2_7_96_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017wr022168"
+      },
+      {
+        "key": "e_1_2_7_97_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018gl080005"
+      }
+    ],
+    "container-title": [
+      "Journal of Geophysical Research: Biogeosciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023JG007538",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023JG007538",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          9
+        ]
+      ],
+      "date-time": "2024-02-09T06:47:41Z",
+      "timestamp": 1707461261000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023JG007538"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          11
+        ]
+      ]
+    },
+    "references-count": 96,
+    "journal-issue": {
+      "issue": "11",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            11
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2023JG007538"
+    ],
+    "URL": "https://doi.org/10.1029/2023jg007538",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "2169-8953",
+      "2169-8961"
+    ],
+    "issn-type": [
+      {
+        "value": "2169-8953",
+        "type": "print"
+      },
+      {
+        "value": "2169-8961",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          11
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2023-04-21",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-10-23",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-11-15",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2023JG007538"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2023JG007538",
+  "original_doi": "10.1029/2023JG007538"
+}

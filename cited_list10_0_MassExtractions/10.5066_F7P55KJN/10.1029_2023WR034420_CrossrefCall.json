@@ -1,0 +1,899 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          29
+        ]
+      ],
+      "date-time": "2026-06-29T10:44:00Z",
+      "timestamp": 1782729840822,
+      "version": "3.54.5"
+    },
+    "reference-count": 103,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "12",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              21
+            ]
+          ],
+          "date-time": "2023-12-21T00:00:00Z",
+          "timestamp": 1703116800000
+        },
+        "content-version": "am",
+        "delay-in-days": 20,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              21
+            ]
+          ],
+          "date-time": "2023-12-21T00:00:00Z",
+          "timestamp": 1703116800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 20,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "Water Availability and Use Science Program"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "Water Availability and Use Science Program"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000192",
+        "name": "National Oceanic and Atmospheric Administration",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NA22NWS4320003"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NA22NWS4320003"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000192",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          12
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Although deep learning models for stream temperature (<jats:italic>T</jats:italic><jats:sub>s</jats:sub>) have recently shown exceptional accuracy, they have limited interpretability and cannot output untrained variables. With hybrid differentiable models, neural networks (NNs) can be connected to physically based equations (called structural priors) to output intermediate variables such as water source fractions (specifying what portion of water is groundwater, subsurface, and surface flow). However, it is unclear if such outputs are physically meaningful when only limited physics is imposed, and if structural priors have enough impacts to be identifiable from data. Here, we tested four alternative structural priors describing basin\u2010scale water temperature memory and instream heat processes in a differentiable stream temperature model where NNs freely estimate the water source fractions. We evaluated models\u2019 abilities to predict <jats:italic>T</jats:italic><jats:sub>s</jats:sub> and baseflow ratio. The four priors exhibited noticeably different behaviors in these two metrics and their tradeoffs, with some dominating others. Therefore, the better structural priors can be identified. Moreover, testing different priors yielded valuable insights: having a separate shallow subsurface flow component better matches observations, and a recency\u2010weighted averaging of past air temperature for calculating source water temperature resulted in better <jats:italic>T</jats:italic><jats:sub>s</jats:sub> and baseflow prediction than traditionally employed simple averaging. However, we also highlight the limitations when insufficient physical constraints are implemented: the internal variables (water source fractions) may not be adequately constrained by a single target variable (stream temperature) alone. To ensure the physical significance of the internal fluxes, one can either employ multivariate data for model selection, or include more physical processes in the priors.</jats:p>",
+    "DOI": "10.1029/2023wr034420",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          21
+        ]
+      ],
+      "date-time": "2023-12-21T19:14:50Z",
+      "timestamp": 1703186090000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 23,
+    "title": [
+      "Identifying Structural Priors in a Hybrid Differentiable Model for Stream Water Temperature Modeling"
+    ],
+    "prefix": "10.1029",
+    "volume": "59",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9241-7206",
+        "authenticated-orcid": false,
+        "given": "Farshid",
+        "family": "Rahmani",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Civil and Environmental Engineering Pennsylvania State University  University Park PA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3638-8572",
+        "authenticated-orcid": false,
+        "given": "Alison",
+        "family": "Appling",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Reston VA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5653-6504",
+        "authenticated-orcid": false,
+        "given": "Dapeng",
+        "family": "Feng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Civil and Environmental Engineering Pennsylvania State University  University Park PA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0075-7911",
+        "authenticated-orcid": false,
+        "given": "Kathryn",
+        "family": "Lawson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Civil and Environmental Engineering Pennsylvania State University  University Park PA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0685-1901",
+        "authenticated-orcid": false,
+        "given": "Chaopeng",
+        "family": "Shen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Civil and Environmental Engineering Pennsylvania State University  University Park PA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          21
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_1_2_1",
+        "first-page": "265",
+        "volume-title": "Paper presented at 12th USENIX symposium on operating systems design and implementation (OSDI 16)",
+        "author": "Abadi M.",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_8_1_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/bg-20-2671-2023"
+      },
+      {
+        "key": "e_1_2_8_1_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)IR.1943-4774.0001105"
+      },
+      {
+        "key": "e_1_2_8_1_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-6584.2005.00052.x"
+      },
+      {
+        "key": "e_1_2_8_1_6_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Appling A. P. Oliver S. K. Read J. S. Sadler J. M. &Zwart J.(2022).Machine learning for understanding inland water quantity quality and ecology. Retrieved fromhttps://eartharxiv.org/repository/view/3565/",
+        "DOI": "10.31223/X5964S"
+      },
+      {
+        "key": "e_1_2_8_1_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4296/cwrj3203179"
+      },
+      {
+        "key": "e_1_2_8_1_8_1",
+        "unstructured": "Bezanson J. Karpinski S. Shah V. B. &Edelman A.(2012).Julia: A fast dynamic language for technical computing. ArXiv abs/1209.5145."
+      },
+      {
+        "key": "e_1_2_8_1_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.22541/essoar.168500246.67971832/v1"
+      },
+      {
+        "key": "e_1_2_8_1_10_1",
+        "article-title": "JAX: Autograd and XLA",
+        "author": "Bradbury J.",
+        "year": "2021",
+        "journal-title": "Astrophysics Source Code Library"
+      },
+      {
+        "key": "e_1_2_8_1_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2018.04.344"
+      },
+      {
+        "key": "e_1_2_8_1_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR024146"
+      },
+      {
+        "key": "e_1_2_8_1_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-1694(93)90022-2"
+      },
+      {
+        "key": "e_1_2_8_1_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR018204"
+      },
+      {
+        "key": "e_1_2_8_1_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2013WR015158"
+      },
+      {
+        "key": "e_1_2_8_1_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015wr018349"
+      },
+      {
+        "key": "e_1_2_8_1_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.2517-6161.1995.tb02015.x"
+      },
+      {
+        "key": "e_1_2_8_1_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w12041112"
+      },
+      {
+        "key": "e_1_2_8_1_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2021.127303"
+      },
+      {
+        "key": "e_1_2_8_1_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-12-797-2008"
+      },
+      {
+        "key": "e_1_2_8_1_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.earscirev.2017.10.009"
+      },
+      {
+        "key": "e_1_2_8_1_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR004i005p01137"
+      },
+      {
+        "key": "e_1_2_8_1_23_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Falcone J. A.(2011).GAGES\u2010II: Geospatial attributes of gages for evaluating streamflow[Dataset].USGS Unnumbered Series.https://doi.org/10.3133/70046617",
+        "DOI": "10.3133/70046617"
+      },
+      {
+        "key": "e_1_2_8_1_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TGRS.2018.2872131"
+      },
+      {
+        "key": "e_1_2_8_1_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016WR020283"
+      },
+      {
+        "key": "e_1_2_8_1_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017gl075619"
+      },
+      {
+        "key": "e_1_2_8_1_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-25-2951-2021"
+      },
+      {
+        "key": "e_1_2_8_1_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.9742"
+      },
+      {
+        "key": "e_1_2_8_1_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/gmd-2023-190"
+      },
+      {
+        "key": "e_1_2_8_1_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-27-2357-2023"
+      },
+      {
+        "key": "e_1_2_8_1_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR026793"
+      },
+      {
+        "key": "e_1_2_8_1_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021GL092999"
+      },
+      {
+        "key": "e_1_2_8_1_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR032404"
+      },
+      {
+        "key": "e_1_2_8_1_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10113-009-0104-x"
+      },
+      {
+        "key": "e_1_2_8_1_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/1998WR900047"
+      },
+      {
+        "key": "e_1_2_8_1_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2019.124115"
+      },
+      {
+        "key": "e_1_2_8_1_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2009.08.003"
+      },
+      {
+        "key": "e_1_2_8_1_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-21651-0"
+      },
+      {
+        "key": "e_1_2_8_1_39_1",
+        "unstructured": "Hazewinkel M.(2001).Taylor series.Encyclopedia of Mathematics."
+      },
+      {
+        "key": "e_1_2_8_1_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-0-323-89861-4.00031-2"
+      },
+      {
+        "key": "e_1_2_8_1_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1997.9.8.1735"
+      },
+      {
+        "key": "e_1_2_8_1_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2023.129682"
+      },
+      {
+        "key": "e_1_2_8_1_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-26-1579-2022"
+      },
+      {
+        "key": "e_1_2_8_1_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021GL096847"
+      },
+      {
+        "key": "e_1_2_8_1_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/gmd-13-4399-2020"
+      },
+      {
+        "key": "e_1_2_8_1_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-44234-1"
+      },
+      {
+        "key": "e_1_2_8_1_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-9326/8/3/035006"
+      },
+      {
+        "key": "e_1_2_8_1_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/z01-067"
+      },
+      {
+        "key": "e_1_2_8_1_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/ofr20121116"
+      },
+      {
+        "key": "e_1_2_8_1_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/f2011-154"
+      },
+      {
+        "key": "e_1_2_8_1_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015GL066916"
+      },
+      {
+        "key": "e_1_2_8_1_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1577/1548-8446(1988)013<0002:TROGIT>2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_8_1_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/frwa.2020.574917"
+      },
+      {
+        "key": "e_1_2_8_1_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-24-115-2020"
+      },
+      {
+        "key": "e_1_2_8_1_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0022-1694(99)00034-7"
+      },
+      {
+        "key": "e_1_2_8_1_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)0733-9372(2005)131:1(139)"
+      },
+      {
+        "key": "e_1_2_8_1_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-1694(70)90255-6"
+      },
+      {
+        "key": "e_1_2_8_1_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2014WR015589"
+      },
+      {
+        "key": "e_1_2_8_1_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597-021-00964-1"
+      },
+      {
+        "key": "e_1_2_8_1_60_1",
+        "volume-title": "31st Conference on Neural Information Processing Systems (NIPS 2017)",
+        "author": "Paszke A.",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_8_1_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/hydrology9100185"
+      },
+      {
+        "key": "e_1_2_8_1_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-9326/abd501"
+      },
+      {
+        "key": "e_1_2_8_1_63_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Rahmani F. Shen C. Lawson K. Feng D. &Appling A.(2023).Identifying structural priors in a hybrid differentiable model for stream water temperature modeling at 415 U.S. basin outlets 2010\u20132016[Dataset].U.S. Geological Survey Data Release.https://doi.org/10.5066/P9UDDHVD",
+        "DOI": "10.5066/P9UDDHVD"
+      },
+      {
+        "key": "e_1_2_8_1_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.14400"
+      },
+      {
+        "key": "e_1_2_8_1_65_1",
+        "volume-title": "Precipitation\u2010Runoff Modeling System (PRMS) (Version 5.2.0)",
+        "author": "Regan R. S.",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_8_1_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR031347"
+      },
+      {
+        "key": "e_1_2_8_1_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR030138"
+      },
+      {
+        "key": "e_1_2_8_1_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2023.162930"
+      },
+      {
+        "key": "e_1_2_8_1_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/ijgi9100576"
+      },
+      {
+        "key": "e_1_2_8_1_70_1",
+        "first-page": "28",
+        "volume-title": "Documentation of a daily mean stream temperature module\u2014An enhancement to the Precipitation\u2010Runoff Modeling System",
+        "author": "Sanders M. J.",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_8_1_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018wr022643"
+      },
+      {
+        "key": "e_1_2_8_1_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43017-023-00450-9"
+      },
+      {
+        "key": "e_1_2_8_1_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-22-5639-2018"
+      },
+      {
+        "key": "e_1_2_8_1_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2010.09.002"
+      },
+      {
+        "key": "e_1_2_8_1_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR018086"
+      },
+      {
+        "key": "e_1_2_8_1_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.hydroa.2022.100136"
+      },
+      {
+        "key": "e_1_2_8_1_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.11139"
+      },
+      {
+        "key": "e_1_2_8_1_78_1",
+        "volume-title": "Instream water temperature model",
+        "author": "Theurer F. D.",
+        "year": "1984"
+      },
+      {
+        "key": "e_1_2_8_1_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3334/ORNLDAAC/2129"
+      },
+      {
+        "key": "e_1_2_8_1_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-26107-z"
+      },
+      {
+        "key": "e_1_2_8_1_81_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "U.S. Geological Survey. (2016).USGS water data for the Nation[Dataset].U.S. Geological Survey National Water Information System database.https://doi.org/10.5066/F7P55KJN",
+        "DOI": "10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_8_1_82_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-9326/11/12/124021"
+      },
+      {
+        "key": "e_1_2_8_1_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-9326/8/3/035010"
+      },
+      {
+        "key": "e_1_2_8_1_84_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-26-3315-2022"
+      },
+      {
+        "key": "e_1_2_8_1_85_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR023250"
+      },
+      {
+        "key": "e_1_2_8_1_86_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2017.07.016"
+      },
+      {
+        "key": "e_1_2_8_1_87_1",
+        "first-page": "230",
+        "article-title": "The long\u2010term thermal impact of reservoir operation and some ecological implications",
+        "author": "Webb B.",
+        "year": "1995",
+        "journal-title": "IAHS Publications"
+      },
+      {
+        "key": "e_1_2_8_1_88_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w14071032"
+      },
+      {
+        "key": "e_1_2_8_1_89_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019GC008515"
+      },
+      {
+        "key": "e_1_2_8_1_90_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/96JB00104"
+      },
+      {
+        "key": "e_1_2_8_1_91_1",
+        "volume-title": "Base\u2010flow index grid for the conterminous United States (USGS Numbered Series No. 2003\u2013263)",
+        "author": "Wolock D. M.",
+        "year": "2003"
+      },
+      {
+        "key": "e_1_2_8_1_92_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR025326"
+      },
+      {
+        "key": "e_1_2_8_1_93_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.9795/bullgsj.60.459"
+      },
+      {
+        "key": "e_1_2_8_1_94_1",
+        "unstructured": "Zeiler M. D.(2012).ADADELTA: An adaptive learning rate method.ArXiv Preprint ArXiv:1212.5701(pp.1\u20136). Retrieved fromhttp://arxiv.org/abs/1212.5701"
+      },
+      {
+        "key": "e_1_2_8_1_95_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020GL092337"
+      },
+      {
+        "key": "e_1_2_8_1_96_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.0c06783"
+      },
+      {
+        "key": "e_1_2_8_1_97_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s44221-023-00038-z"
+      },
+      {
+        "key": "e_1_2_8_1_98_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TGRS.2021.3094321"
+      },
+      {
+        "key": "e_1_2_8_1_99_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11600-020-00480-7"
+      },
+      {
+        "key": "e_1_2_8_1_100_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s100400050185"
+      },
+      {
+        "key": "e_1_2_8_1_101_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752-1688.13093"
+      },
+      {
+        "key": "e_1_2_8_2_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2017.06.031"
+      },
+      {
+        "key": "e_1_2_8_2_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/2009EI283.1"
+      },
+      {
+        "key": "e_1_2_8_2_4_1",
+        "volume-title": "Generalized Geologic Map of the Conterminous United State",
+        "author": "Reed J.",
+        "year": "2005"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023WR034420",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023WR034420",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2024-01-16T16:19:36Z",
+      "timestamp": 1705421976000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023WR034420"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12
+        ]
+      ]
+    },
+    "references-count": 103,
+    "journal-issue": {
+      "issue": "12",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2023WR034420"
+    ],
+    "URL": "https://doi.org/10.1029/2023wr034420",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          12
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2023-01-06",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-11-17",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-12-21",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2023WR034420"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2023WR034420",
+  "original_doi": "10.1029/2023WR034420"
+}

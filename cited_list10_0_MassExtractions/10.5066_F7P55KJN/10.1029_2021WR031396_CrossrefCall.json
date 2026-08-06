@@ -1,0 +1,523 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          11
+        ]
+      ],
+      "date-time": "2026-07-11T04:33:06Z",
+      "timestamp": 1783744386295,
+      "version": "3.55.0"
+    },
+    "reference-count": 35,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2022-04-01T00:00:00Z",
+          "timestamp": 1648771200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100000780",
+        "name": "European Commission",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "722028"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "722028"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000780",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100011033",
+        "name": "Agencia Estatal de Investigaci\u00f3n",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "PID2019\u2010106887GB\u2010C31"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "PID2019\u2010106887GB\u2010C31"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100011033",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100011033",
+        "name": "Agencia Estatal de Investigaci\u00f3n",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "PTQ2018\u2010010081"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "PTQ2018\u2010010081"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100011033",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          4
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Understanding dispersion in rivers is critical for numerous applications, such as characterizing larval drift for endangered fish species and responding to spills of hazardous materials. Injecting a visible dye into the river can yield insight on dispersion processes, but conventional field instrumentation yields limited data on variations in dye concentration over time at a few, fixed points. Remote sensing can provide more detailed, spatially distributed information on the dye's motion, but this approach has only been tested in clear\u2010flowing streams. The purpose of this study was to assess the potential of remote sensing to facilitate tracer studies in more turbid rivers. To pursue this objective, we injected Rhodamine WT dye into the Missouri River and collected field spectra from a boat, videos from a small unoccupied aircraft system (sUAS), and orthophotos from an airplane. Applying an optimal band ratio analysis (OBRA) algorithm to the field spectra revealed strong correlations (<jats:italic>R</jats:italic><jats:sup>2</jats:sup>\u00a0=\u00a00.936) between a spectrally based quantity and in situ concentration measurements. OBRA also performed well for broadband RGB (red, green, blue) images extracted from the sUAS\u2010based videos; the resulting concentration maps were used to produce animations that captured movement of the dye pulse. Spectral mixture analysis of repeat orthophoto coverage yielded relative concentration estimates that provided a synoptic perspective on dispersion of the dye throughout the entire 13.8\u00a0km reach over the full 2.5\u2010hr duration of the experiment. The results of this study demonstrate the potential to remotely sense tracer dye concentrations in large, highly turbid rivers.</jats:p>",
+    "DOI": "10.1029/2021wr031396",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          23
+        ]
+      ],
+      "date-time": "2022-03-23T16:45:37Z",
+      "timestamp": 1648053937000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 15,
+    "title": [
+      "Remote Sensing of Visible Dye Concentrations During a Tracer Experiment on a Large, Turbid River"
+    ],
+    "prefix": "10.1029",
+    "volume": "58",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0940-8013",
+        "authenticated-orcid": false,
+        "given": "Carl J.",
+        "family": "Legleiter",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Integrated Modeling and Prediction Division U.S. Geological Survey  Golden CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7999-9547",
+        "authenticated-orcid": false,
+        "given": "Brandon J.",
+        "family": "Sansom",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Columbia Environmental Research Center U.S. Geological Survey  Columbia MO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8368-2064",
+        "authenticated-orcid": false,
+        "given": "Robert B.",
+        "family": "Jacobson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Columbia Environmental Research Center U.S. Geological Survey  Columbia MO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          4
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "first-page": "145",
+        "volume-title": "Remote geochemical analysis: Elemental and mineralogical composition",
+        "author": "Adams J. B.",
+        "year": "1993"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "unstructured": "ASD. (2021).ASD HandHeld 2 Pro: VNIR hand\u2010held spectroradiometer. Retrieved fromhttps://www.malvernpanalytical.com/en/support/product-support/asd-range/fieldspec-range/handheld-2-pro-vnir-hand-held-spectroradiometer/index.html"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/J.ADVWATRES.2019.03.007"
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/etc.3220"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/s21113905"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.hal.2019.04.004"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0038011"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JTECH-D-13-00230.1"
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.3371"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "unstructured": "Fiji. (2021).Fiji: Image J with \u201cbatteries included\u201d. Retrieved fromhttps://fiji.sc/"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs13214415"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "unstructured": "Fischenich J. C. Buenau K. E. Bonneau J. L. Fleming C. A. Marmorek D. R. Nelitz M. A. et\u00a0al. (2018).Science and adaptive management plan appendices and attachments: Missouri River Recovery Program U.S. Army Corps of Engineers ERDC/EL TR\u201018\u2010XX(p.792).http://www.nwo.usace.army.mil/mrrp/mgmt-plan/"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00338-003-0354-x"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/sir20165064"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "unstructured": "Labsphere. (2021).Spectralon targets\u2014labsphere. Retrieved fromhttps://www.labsphere.com/labsphere-products-solutions/materials-coatings-2/targets-standards/test-child/"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs11060665"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR023586"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs12010057"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/24705357.2019.1662339"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2004.12.013"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.1787"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "volume-title": "Remotely sensed data and field measurements for mapping visible dye concentrations during a tracer experiment on the Missouri River near Columbia, MO, May 5, 2021",
+        "author": "Legleiter C.",
+        "year": "2022"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/24705357.2019.1709102"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "volume-title": "Light and water: Radiative transfer in natural waters",
+        "author": "Mobley C. D.",
+        "year": "1994"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1051/e3sconf/20184005052"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "volume-title": "Parrot ANAFI\u2014The compact and resistant drone with a 4K HDR camera",
+        "author": "Parrot",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs10010081"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0034-4257(98)00037-6"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR017201"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JPO-D-16-0020.1"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)HY.1943-7900.0001118"
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "unstructured": "Turner Designs.(2021).C3 submersible fluorometer. Retrieved fromhttps://www.turnerdesigns.com/c3-submersible-fluorometer"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "volume-title": "Searcys bend interception\u2010rearing complex habitat project",
+        "author": "U.S. Army Corps of Engineers",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "unstructured": "U.S. Geological Survey. (2021).USGS water data for the nation: U.S. Geological Survey National water information system database.https://doi.org/10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_8_36_1",
+        "first-page": "97",
+        "article-title": "Fluorescent dyes: A search for new tracers for hydrology",
+        "volume": "17",
+        "author": "Viriot M. L.",
+        "year": "1989",
+        "journal-title": "Analusis"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1029/2021WR031396",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1029/2021WR031396",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2021WR031396",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          20
+        ]
+      ],
+      "date-time": "2023-08-20T23:39:53Z",
+      "timestamp": 1692574793000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021WR031396"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          4
+        ]
+      ]
+    },
+    "references-count": 35,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            4
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2021WR031396"
+    ],
+    "URL": "https://doi.org/10.1029/2021wr031396",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          4
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2021-10-12",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2022-03-15",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2022-04-01",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2021WR031396"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2021WR031396",
+  "original_doi": "10.1029/2021WR031396"
+}

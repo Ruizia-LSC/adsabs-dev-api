@@ -1,0 +1,843 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          15
+        ]
+      ],
+      "date-time": "2026-05-15T06:43:51Z",
+      "timestamp": 1778827431353,
+      "version": "3.51.4"
+    },
+    "reference-count": 87,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              10
+            ]
+          ],
+          "date-time": "2025-03-10T00:00:00Z",
+          "timestamp": 1741564800000
+        },
+        "content-version": "am",
+        "delay-in-days": 9,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              10
+            ]
+          ],
+          "date-time": "2025-03-10T00:00:00Z",
+          "timestamp": 1741564800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 9,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000192",
+        "name": "National Oceanic and Atmospheric Administration",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NA20OAR4310420"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NA20OAR4310420"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000192",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "BCS#2009922"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "BCS#2009922"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "J Adv Model Earth Syst"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    The Ensemble Streamflow Prediction (ESP) framework combines a probabilistic forecast structure with process\u2010based models for water supply predictions. However, process\u2010based models require computationally intensive parameter estimation, increasing uncertainties and limiting usability. Motivated by the strong performance of deep learning models, we seek to assess whether the Long Short\u2010Term Memory (LSTM) model can provide skillful forecasts and replace process\u2010based models within the ESP framework. Given challenges in\n                    <jats:italic>implicitly</jats:italic>\n                    capturing snowpack dynamics within LSTMs for streamflow prediction, we also evaluated the added skill of\n                    <jats:italic>explicitly</jats:italic>\n                    incorporating snowpack information to improve hydrologic memory representation. LSTM\u2010ESPs were evaluated under four different scenarios: one excluding snow and three including snow with varied snowpack representations. The LSTM models were trained using information from 664 GAGES\u2010II basins during WY1983\u20132000. During a testing period, WY2001\u20132010, 80% of basins exhibited Nash\u2010Sutcliffe Efficiency (NSE) above 0.5 with a median NSE of around 0.70, indicating satisfactory utility in simulating seasonal water supply. LSTM\u2010ESP forecasts were then tested during WY2011\u20132020 over 76 western US basins with operational Natural Resources Conservation Services (NRCS) forecasts. A key finding is that in high snow regions, LSTM\u2010ESP forecasts using simplified ablation assumptions performed worse than those excluding snow, highlighting that snow data do not consistently improve LSTM\u2010ESP performance. However, LSTM\u2010ESP forecasts that explicitly incorporated past years' snow accumulation and ablation performed comparably to NRCS forecasts and better than forecasts excluding snow entirely. Overall, integrating deep learning within an ESP framework shows promise and highlights important considerations for including snowpack information in forecasting.\n                  </jats:p>",
+    "DOI": "10.1029/2024ms004582",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          12
+        ]
+      ],
+      "date-time": "2025-03-12T00:27:08Z",
+      "timestamp": 1741739228000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "Using Deep Learning in Ensemble Streamflow Forecasting: Exploring the Predictive Value of Explicit Snowpack Information"
+    ],
+    "prefix": "10.1029",
+    "volume": "17",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3783-6317",
+        "authenticated-orcid": false,
+        "given": "Parthkumar",
+        "family": "Modi",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Civil, Environmental, and Architectural Engineering University of Colorado Boulder  Boulder CO USA"
+          },
+          {
+            "name": "Cooperative Institute for Research in Environmental Sciences (CIRES) University of Colorado Boulder  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4660-1472",
+        "authenticated-orcid": false,
+        "given": "Keith",
+        "family": "Jennings",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Water Resources Institute University of Vermont  Burlington VT USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6344-6478",
+        "authenticated-orcid": false,
+        "given": "Joseph",
+        "family": "Kasprzyk",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil, Environmental, and Architectural Engineering University of Colorado Boulder  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5010-4954",
+        "authenticated-orcid": false,
+        "given": "Eric",
+        "family": "Small",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Geological Sciences University of Colorado Boulder  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Cameron",
+        "family": "Wobus",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "CK Blueshift LLC  Phoenix AZ USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5445-2473",
+        "authenticated-orcid": false,
+        "given": "Ben",
+        "family": "Livneh",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil, Environmental, and Architectural Engineering University of Colorado Boulder  Boulder CO USA"
+          },
+          {
+            "name": "Cooperative Institute for Research in Environmental Sciences (CIRES) University of Colorado Boulder  Boulder CO USA"
+          },
+          {
+            "name": "Western Water Assessment (WWA) University of Colorado Boulder  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          10
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626667.2019.1683182"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201021\u20105293\u20102017"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w10111614"
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201024\u2010535\u20102020"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u20102022\u2010295"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1051/e3sconf/202016301001"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016GL069690"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/72.279181"
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Broxton P. Zeng X. &Dawson N.(2019).Daily 4 km gridded SWE and snow depth from assimilated in\u2010situ and modeled data over the conterminous US version 1[Dataset].NASA National Snow and Ice Data Center Distributed Active Archive Center.https://doi.org/10.5067/0GGPB220EX6A",
+        "DOI": "10.5067/0GGPB220EX6A"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0022\u20101694(02)00292\u20105"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/ARXIV.1409.1259"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "volume-title": "Deep learning with Python",
+        "author": "Chollet F.",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/egusphere\u20102023\u20101675"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201020\u20103601\u20102016"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/1099\u20101085(20001230)14:18<3257::aid\u2010hyp199>3.0.co;2\u2010z"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)0733\u20109496(1985)111:2(157)"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201015\u20103399\u20102011"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "De La Fuente L. A. Ehsani M. R. Gupta H. V. &Condon L. E.(2023).Towards interpretable LSTM\u2010based modelling of hydrological systems.https://doi.org/10.5194/egusphere\u20102023\u2010666",
+        "DOI": "10.5194/hess-2023-252"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "volume-title": "Physical hydrology",
+        "author": "Dingman S. L.",
+        "year": "2002"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "unstructured": "DrivenData. (2023).Water supply forecast Rodeo: Forecast stage. Retrieved fromhttps://www.drivendata.org/competitions/259/reclamation\u2010water\u2010supply\u2010forecast/"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41558\u2010021\u201000996\u2010w"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "unstructured": "Falcone J. A.(2011).GAGES\u2010II: Geospatial attributes of gages for evaluating streamflow. Retrieved fromhttps://water.usgs.gov/GIS/metadata/usgswrd/XML/gagesII_Sept2011.xml"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/09\u20100889.1"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Feng D. Beck H. Lawson K. &Shen C.(2022).The suitability of differentiable learnable hydrologic models for ungauged regions and climate change impact assessment (preprint). Catchment hydrology/Modelling approaches.https://doi.org/10.5194/hess\u20102022\u2010245",
+        "DOI": "10.5194/hess-2022-245"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR032404"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)WR.1943\u20105452.0000571"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2021.126782"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201022\u20101157\u20102018"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201026\u20103377\u20102022"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)0733\u20109496(1992)118:6(654)"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201025\u20101189\u20102021"
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "first-page": "249",
+        "volume-title": "Proceedings of the Thirteenth International Conference on Artificial Intelligence and Statistics",
+        "author": "Glorot X.",
+        "year": "2010"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201022\u20102023\u20102018"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2017.03.008"
+      },
+      {
+        "key": "e_1_2_8_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-40457-3_43-1"
+      },
+      {
+        "key": "e_1_2_8_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1997.9.8.1735"
+      },
+      {
+        "key": "e_1_2_8_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.2101.05186"
+      },
+      {
+        "key": "e_1_2_8_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2024.132003"
+      },
+      {
+        "key": "e_1_2_8_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.aej.2021.04.100"
+      },
+      {
+        "key": "e_1_2_8_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201024\u20103851\u20102020"
+      },
+      {
+        "key": "e_1_2_8_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ngeo944"
+      },
+      {
+        "key": "e_1_2_8_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201022\u20106005\u20102018"
+      },
+      {
+        "key": "e_1_2_8_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR026065"
+      },
+      {
+        "key": "e_1_2_8_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201023\u20105089\u20102019"
+      },
+      {
+        "key": "e_1_2_8_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597\u2010023\u201001975\u2010w"
+      },
+      {
+        "key": "e_1_2_8_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017GL076043"
+      },
+      {
+        "key": "e_1_2_8_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017gl073551"
+      },
+      {
+        "key": "e_1_2_8_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41558\u2010020\u20100754\u20108"
+      },
+      {
+        "key": "e_1_2_8_50_1",
+        "unstructured": "Lukas J. &Payton E.(2020).Colorado river basin climate and hydrology: State of the science.https://doi.org/10.25810/3HCV\u2010W477"
+      },
+      {
+        "key": "e_1_2_8_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201026\u20103537\u20102022"
+      },
+      {
+        "key": "e_1_2_8_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467\u20108306.1970.tb00743.x"
+      },
+      {
+        "key": "e_1_2_8_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/ZENODO.14213154"
+      },
+      {
+        "key": "e_1_2_8_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM\u2010D\u201021\u20100229.1"
+      },
+      {
+        "key": "e_1_2_8_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/joc.2015"
+      },
+      {
+        "key": "e_1_2_8_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41558\u2010021\u201001014\u20109"
+      },
+      {
+        "key": "e_1_2_8_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nclimate3225"
+      },
+      {
+        "key": "e_1_2_8_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR028091"
+      },
+      {
+        "key": "e_1_2_8_59_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Newman A. J. Clark M. P. Sampson K. Wood A. Hay L. E. Bock A. et\u00a0al. (2014).Development of a large\u2010sample watershed\u2010scale hydrometeorological dataset for the contiguous USA: Dataset characteristics and assessment of regional variability in hydrologic model performance (preprint). Catchment hydrology/Modelling approaches.https://doi.org/10.5194/hessd\u201011\u20105599\u20102014",
+        "DOI": "10.5194/hessd-11-5599-2014"
+      },
+      {
+        "key": "e_1_2_8_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2023.130141"
+      },
+      {
+        "key": "e_1_2_8_61_1",
+        "volume-title": "River forecast Centers",
+        "author": "NOAA",
+        "year": "2024"
+      },
+      {
+        "key": "e_1_2_8_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1525\u20107541(2004)005<0896:EOOWUS>2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_8_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752\u20101688.2009.00321.x"
+      },
+      {
+        "key": "e_1_2_8_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/BAMS\u2010D\u201021\u20100326.1"
+      },
+      {
+        "key": "e_1_2_8_65_1",
+        "unstructured": "Restrepo P. Roe J. Dietz C. &Werner M.(2010).Hydrologic forecasting at the US National weather Service in the 21st Century: Transition from the NWS River Forecast System (NWSRFS) to the community hydrologic prediction system (CHPS).https://www.researchgate.net/publication/234395144_Hydrologic_Forecasting_at_the_US_National_Weather_Service_in_the_21st_Century_Transition_from_the_NWS_River_Forecast_System_NWSRFS_to_the_Community_Hydrologic_Prediction_System_CHPS"
+      },
+      {
+        "key": "e_1_2_8_66_1",
+        "unstructured": "Ruder S.(2016).An overview of gradient descent optimization algorithms(Version 2). arXiv.https://doi.org/10.48550/ARXIV.1609.04747"
+      },
+      {
+        "key": "e_1_2_8_67_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shen C. Appling A. P. Gentine P. Bandai T. Gupta H. Tartakovsky A. et\u00a0al. (2023).Differentiable modeling to unify machine learning and physical models and advance Geosciences(Version 2).https://doi.org/10.48550/ARXIV.2301.04027",
+        "DOI": "10.5194/egusphere-egu23-15968"
+      },
+      {
+        "key": "e_1_2_8_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201015\u20103529\u20102011"
+      },
+      {
+        "key": "e_1_2_8_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11269\u2010016\u20101289\u20107"
+      },
+      {
+        "key": "e_1_2_8_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2166/wst.2020.369"
+      },
+      {
+        "key": "e_1_2_8_71_1",
+        "volume-title": "Hydro\u2010climatic data network: A US Geological Survey streamflow data set for the United States for the study of climate variations, 1874\u20131988",
+        "author": "Slack J. R.",
+        "year": "1992"
+      },
+      {
+        "key": "e_1_2_8_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201027\u20101865\u20102023"
+      },
+      {
+        "key": "e_1_2_8_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR028392"
+      },
+      {
+        "key": "e_1_2_8_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2013WR014753"
+      },
+      {
+        "key": "e_1_2_8_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201021\u20104841\u20102017"
+      },
+      {
+        "key": "e_1_2_8_76_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "United States Geological Survey. (2024).USGS water data for the nation[Dataset].U.S. Geological Survey.https://doi.org/10.5066/F7P55KJN",
+        "DOI": "10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_8_77_1",
+        "unstructured": "United States US Department of Agriculture National Resource Conservation Service & National Water and Climate Center. (2024).Air and water database[Dataset].https://nwcc\u2010apps.sc.egov.usda.gov/"
+      },
+      {
+        "key": "e_1_2_8_78_1",
+        "unstructured": "US EPA O.(2015).Level III and IV ecoregions of the continental United States [data and tools]. Retrieved May 30 2024 fromhttps://www.epa.gov/eco\u2010research/level\u2010iii\u2010and\u2010iv\u2010ecoregions\u2010continental\u2010united\u2010states"
+      },
+      {
+        "key": "e_1_2_8_79_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "U. S. Geological Survey. (2023).GAGES\u2010II: Geospatial attributes of gages for evaluating streamflow[Dataset].U.S. Geological Survey.https://doi.org/10.5066/P96CPHOT",
+        "DOI": "10.5066/P96CPHOT"
+      },
+      {
+        "key": "e_1_2_8_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/ARXIV.1706.03762"
+      },
+      {
+        "key": "e_1_2_8_81_1",
+        "unstructured": "Wang Q. Hapuarachchi P. &Pagano T.(2010).Continuous rainfall\u2010runoff model comparison and short\u2010term daily streamflow forecast skill evaluation.https://doi.org/10.4225/08/58542C672DD2C"
+      },
+      {
+        "key": "e_1_2_8_82_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2011.10.038"
+      },
+      {
+        "key": "e_1_2_8_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM\u2010D\u201014\u20100213.1"
+      },
+      {
+        "key": "e_1_2_8_84_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011JD016051"
+      },
+      {
+        "key": "e_1_2_8_85_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Xia Y. NCEP/EMC et\u00a0al. (2009).NLDAS primary forcing data L4 hourly 0.125 x 0.125 degree version 002[Dataset].NASA Goddard Earth Sciences Data and Information Services Center.https://doi.org/10.5067/6J5LHHOHZHN4",
+        "DOI": "10.5067/6J5LHHOHZHN4"
+      },
+      {
+        "key": "e_1_2_8_86_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023WR035876"
+      },
+      {
+        "key": "e_1_2_8_87_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201020\u20102437\u20102016"
+      },
+      {
+        "key": "e_1_2_8_88_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018GL079621"
+      }
+    ],
+    "container-title": [
+      "Journal of Advances in Modeling Earth Systems"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2024MS004582",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2024MS004582",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          7
+        ]
+      ],
+      "date-time": "2025-05-07T01:26:34Z",
+      "timestamp": 1746581194000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024MS004582"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3
+        ]
+      ]
+    },
+    "references-count": 87,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2024MS004582"
+    ],
+    "URL": "https://doi.org/10.1029/2024ms004582",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.22541/essoar.172222576.62134567/v1",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "ISSN": [
+      "1942-2466",
+      "1942-2466"
+    ],
+    "issn-type": [
+      {
+        "value": "1942-2466",
+        "type": "print"
+      },
+      {
+        "value": "1942-2466",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          3
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2024-08-02",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-02-18",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-03-10",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2024MS004582"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2024MS004582",
+  "original_doi": "10.1029/2024MS004582"
+}

@@ -1,0 +1,776 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          12
+        ]
+      ],
+      "date-time": "2026-05-12T19:04:49Z",
+      "timestamp": 1778612689280,
+      "version": "3.51.4"
+    },
+    "reference-count": 85,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              23
+            ]
+          ],
+          "date-time": "2024-02-23T00:00:00Z",
+          "timestamp": 1708646400000
+        },
+        "content-version": "am",
+        "delay-in-days": 22,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              23
+            ]
+          ],
+          "date-time": "2024-02-23T00:00:00Z",
+          "timestamp": 1708646400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 22,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          2
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Urbanization can have substantial effects on water quality due to altered hydrology and introduction of constituents to water bodies. In arid and semi\u2010arid environments, streams are further stressed by dewatering as a result of diversions. We conducted a high\u2010resolution synoptic survey of two streams in Colorado, USA that transition abruptly from granitic/metamorphic forested mountains to sedimentary urbanized plains and are both highly managed for water supply, yet differ in degree of urbanization. A synoptic mass balance approach developed for mine drainage applications was adapted to elucidate effects of urbanization, geology, and diversions on stream chemistry during baseflow conditions. Urbanization was a more important driver of stream concentrations than geology. The urban area was a strong source of bromide, calcium, chloride, and manganese, while lanthanum and dissolved organic carbon were primarily sourced from the mountains. A majority of streamflow was removed by diversions near the mountains/plains interface. Groundwater accounted for 31% of the subsequent flow increase to the urbanized stream, and delivered at least 33% of chloride loading. Constituents that were primarily urban\u2010derived (bromide, calcium, chloride, and manganese) were 2\u20133 times higher in the urban region due to diversions; without diversions, stream water quality would have largely retained characteristics of forested streams through the urban reach. This study provides insights into processes that affect water quality in highly managed streams of the semi\u2010arid western USA.</jats:p>",
+    "DOI": "10.1029/2023wr035633",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          23
+        ]
+      ],
+      "date-time": "2024-02-23T15:15:33Z",
+      "timestamp": 1708701333000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 10,
+    "title": [
+      "Urbanization and Water Management Control Stream Water Quality Along a Mountain to Plains Transition"
+    ],
+    "prefix": "10.1029",
+    "volume": "60",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5481-3635",
+        "authenticated-orcid": false,
+        "given": "S. F.",
+        "family": "Murphy",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Water Resources Mission Area  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3220-481X",
+        "authenticated-orcid": false,
+        "given": "R. L.",
+        "family": "Runkel",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Colorado Water Science Center  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5375-0196",
+        "authenticated-orcid": false,
+        "given": "E. G.",
+        "family": "Stets",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Water Resources Mission Area  Mounds View MN USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "A. J.",
+        "family": "Nolan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Water Resources Mission Area  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7284-1456",
+        "authenticated-orcid": false,
+        "given": "D. A.",
+        "family": "Repert",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Water Resources Mission Area  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          23
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_9_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/ele.12897"
+      },
+      {
+        "key": "e_1_2_9_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es00036a015"
+      },
+      {
+        "key": "e_1_2_9_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/b107322m"
+      },
+      {
+        "key": "e_1_2_9_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(SICI)1099\u20101085(19990615)13:8<1289::AID\u2010HYP766>3.0.CO;2\u2010M"
+      },
+      {
+        "key": "e_1_2_9_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10533\u2010009\u20109348\u20102"
+      },
+      {
+        "key": "e_1_2_9_7_1",
+        "volume-title": "Shallow alluvial aquifer system and the interaction with Boulder Creek, Boulder, Colorado",
+        "author": "Babcock K. P.",
+        "year": "2007"
+      },
+      {
+        "key": "e_1_2_9_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es051270q"
+      },
+      {
+        "key": "e_1_2_9_9_1",
+        "first-page": "255",
+        "volume-title": "Chemical quality of water and the hydrologic cycle",
+        "author": "Bencala K. E.",
+        "year": "1987"
+      },
+      {
+        "key": "e_1_2_9_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lno.10726"
+      },
+      {
+        "key": "e_1_2_9_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.8b03587"
+      },
+      {
+        "key": "e_1_2_9_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1899/04\u2010025.1"
+      },
+      {
+        "key": "e_1_2_9_13_1",
+        "unstructured": "Boulder County. (2023a).Boulder County snow removal information. Retrieved fromhttps://assets.bouldercounty.gov/wp\u2010content/uploads/2019/11/snow\u2010removal\u2010information.pdf"
+      },
+      {
+        "key": "e_1_2_9_14_1",
+        "unstructured": "Boulder County. (2023b).Geospatial open data. Retrieved fromhttps://opendata\u2010bouldercounty.hub.arcgis.com"
+      },
+      {
+        "key": "e_1_2_9_15_1",
+        "volume-title": "Comparative study of ground\u2010water quality, 1976 and 1996, and initial gain\u2010and\u2010loss assessment of Boulder Creek, Boulder County, Colorado",
+        "author": "Bruce B. B.",
+        "year": "1997"
+      },
+      {
+        "key": "e_1_2_9_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11356\u2010017\u20109038\u2010x"
+      },
+      {
+        "key": "e_1_2_9_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/91wr02518"
+      },
+      {
+        "key": "e_1_2_9_18_1",
+        "unstructured": "City of Boulder. (2022).Comprehensive Flood and Stormwater Master Plan. Retrieved fromhttps://bouldercolorado.gov/projects/comprehensive\u2010flood\u2010and\u2010stormwater\u2010master\u2010plan"
+      },
+      {
+        "key": "e_1_2_9_19_1",
+        "unstructured": "City of Boulder. (2023).Snow and Ice Response. Retrieved fromhttps://bouldercolorado.gov/services/snow\u2010and\u2010ice\u2010response"
+      },
+      {
+        "key": "e_1_2_9_20_1",
+        "volume-title": "U.S. Geological Survey Scientific Investigations Map 3039",
+        "author": "Cole J. C.",
+        "year": "2009"
+      },
+      {
+        "key": "e_1_2_9_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.apgeochem.2014.06.012"
+      },
+      {
+        "key": "e_1_2_9_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jenvman.2006.09.023"
+      },
+      {
+        "key": "e_1_2_9_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10533\u2010014\u20109968\u2010z"
+      },
+      {
+        "key": "e_1_2_9_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2014.12.012"
+      },
+      {
+        "key": "e_1_2_9_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00267\u2010004\u20100147\u20101"
+      },
+      {
+        "key": "e_1_2_9_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5876/9781607323822"
+      },
+      {
+        "key": "e_1_2_9_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.apgeochem.2014.05.006"
+      },
+      {
+        "key": "e_1_2_9_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745\u20106584.1998.tb01099.x"
+      },
+      {
+        "key": "e_1_2_9_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745\u20106584.2003.tb02437.x"
+      },
+      {
+        "key": "e_1_2_9_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1306/101801720416"
+      },
+      {
+        "key": "e_1_2_9_31_1",
+        "volume-title": "National Land Cover Database (NLCD) 2019 Products (ver. 2.0, June 2021)",
+        "author": "Dewitz J.",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_9_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/bg\u201012\u20107331\u20102015"
+      },
+      {
+        "key": "e_1_2_9_33_1",
+        "volume-title": "Water in environmental planning",
+        "author": "Dunne T.",
+        "year": "1978"
+      },
+      {
+        "key": "e_1_2_9_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748\u20109326/ab24f4"
+      },
+      {
+        "key": "e_1_2_9_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2010JG001429"
+      },
+      {
+        "key": "e_1_2_9_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/etc.365"
+      },
+      {
+        "key": "e_1_2_9_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/706072"
+      },
+      {
+        "key": "e_1_2_9_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lol2.10066"
+      },
+      {
+        "key": "e_1_2_9_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.7b00271"
+      },
+      {
+        "key": "e_1_2_9_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.apgeochem.2014.05.008"
+      },
+      {
+        "key": "e_1_2_9_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/ofr94358"
+      },
+      {
+        "key": "e_1_2_9_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.58783/cgs.b42.hraz3513"
+      },
+      {
+        "key": "e_1_2_9_43_1",
+        "volume-title": "Boulder Valley Ditches: Anderson Ditch: A History and Guide",
+        "author": "Holleran M.",
+        "year": "2000"
+      },
+      {
+        "key": "e_1_2_9_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lno.11127"
+      },
+      {
+        "key": "e_1_2_9_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10021\u2010020\u201000514\u20107"
+      },
+      {
+        "key": "e_1_2_9_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11252\u2010012\u20100226\u20107"
+      },
+      {
+        "key": "e_1_2_9_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10533\u2010021\u201000784\u2010w"
+      },
+      {
+        "key": "e_1_2_9_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.apgeochem.2020.104632"
+      },
+      {
+        "key": "e_1_2_9_49_1",
+        "volume-title": "U.S. Geological Survey Scientific Investigations Map 3000",
+        "author": "Kellogg K. S.",
+        "year": "2008"
+      },
+      {
+        "key": "e_1_2_9_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s0883\u20102927(02)00017\u20103"
+      },
+      {
+        "key": "e_1_2_9_51_1",
+        "volume-title": "Hydrologic assessment of a riparian section along Boulder Creek near Boulder, Colorado, September 1989\u2013September 1991",
+        "author": "Kimbrough R.",
+        "year": "1995"
+      },
+      {
+        "key": "e_1_2_9_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.watres.2023.120112"
+      },
+      {
+        "key": "e_1_2_9_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1899/04\u2010021.1"
+      },
+      {
+        "key": "e_1_2_9_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.estlett.7b00096"
+      },
+      {
+        "key": "e_1_2_9_55_1",
+        "volume-title": "State of the watershed: Water quality of Boulder Creek, Colorado",
+        "author": "Murphy S. F.",
+        "year": "2006"
+      },
+      {
+        "key": "e_1_2_9_56_1",
+        "volume-title": "Comprehensive water quality of the Boulder Creek Watershed, Colorado, during high\u2010flow and low\u2010flow conditions, 2000",
+        "author": "Murphy S. F.",
+        "year": "2003"
+      },
+      {
+        "key": "e_1_2_9_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748\u20109326/10/8/084007"
+      },
+      {
+        "key": "e_1_2_9_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(asce)0733\u20109372(2009)135:7(505)"
+      },
+      {
+        "key": "e_1_2_9_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1897/07\u2010265.1"
+      },
+      {
+        "key": "e_1_2_9_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2008.07.037"
+      },
+      {
+        "key": "e_1_2_9_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2023.129188"
+      },
+      {
+        "key": "e_1_2_9_62_1",
+        "volume-title": "Paper presented at the Urban Groundwater\u2013Meeting the Challenge Conference",
+        "author": "Paliwal B.",
+        "year": "2007"
+      },
+      {
+        "key": "e_1_2_9_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lno.10060"
+      },
+      {
+        "key": "e_1_2_9_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.ecolsys.32.081501.114040"
+      },
+      {
+        "key": "e_1_2_9_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w13233436"
+      },
+      {
+        "key": "e_1_2_9_66_1",
+        "unstructured": "R Core Team. (2022).R: A language and environment for statistical computing. Retrieved fromhttp://www.R\u2010project.org/"
+      },
+      {
+        "key": "e_1_2_9_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021JG006296"
+      },
+      {
+        "key": "e_1_2_9_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ngeo2984"
+      },
+      {
+        "key": "e_1_2_9_69_1",
+        "volume-title": "Geohydrology of the shallow aquifers in the Boulder\u2010Longmont area, Colorado",
+        "author": "Robson S. G.",
+        "year": "2000"
+      },
+      {
+        "key": "e_1_2_9_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.7427"
+      },
+      {
+        "key": "e_1_2_9_71_1",
+        "volume-title": "Diel and synoptic sampling data from Boulder Creek and South Boulder Creek, near Boulder, Colorado",
+        "author": "Runkel R. L.",
+        "year": "2022"
+      },
+      {
+        "key": "e_1_2_9_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2013.02.031"
+      },
+      {
+        "key": "e_1_2_9_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2007WR005954"
+      },
+      {
+        "key": "e_1_2_9_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018JG004635"
+      },
+      {
+        "key": "e_1_2_9_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.6b01142"
+      },
+      {
+        "key": "e_1_2_9_76_1",
+        "volume-title": "Effects of urban development on stream ecosystems along the Front Range of the Rocky Mountains, Colorado and Wyoming",
+        "author": "Sprague L. A.",
+        "year": "2006"
+      },
+      {
+        "key": "e_1_2_9_77_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sprague L. A. Zuellig R. E. &Dupree J. A.(2006b).Effects of urbanization on stream ecosystems in the South Platte River basin Colorado and Wyoming.https://doi.org/10.3133/sir20065101A",
+        "DOI": "10.3133/sir20065101A"
+      },
+      {
+        "key": "e_1_2_9_78_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10021\u2010014\u20109751\u2010y"
+      },
+      {
+        "key": "e_1_2_9_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2017.07.119"
+      },
+      {
+        "key": "e_1_2_9_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.9b05344"
+      },
+      {
+        "key": "e_1_2_9_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11104\u2010005\u20104888\u20102"
+      },
+      {
+        "key": "e_1_2_9_82_1",
+        "unstructured": "U.S. Geological Survey. (2019).The StreamStats program. Retrieved fromhttps://streamstats.usgs.gov/ss/"
+      },
+      {
+        "key": "e_1_2_9_83_1",
+        "unstructured": "U.S. Geological Survey. (2023).USGS water data for the Nation.https://doi.org/10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_9_84_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1899/04\u2010028.1"
+      },
+      {
+        "key": "e_1_2_9_85_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR031804"
+      },
+      {
+        "key": "e_1_2_9_86_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s0022\u20101694(00)00292\u20104"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/am-pdf/10.1029/2023WR035633",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023WR035633",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023WR035633",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          11
+        ]
+      ],
+      "date-time": "2025-04-11T07:16:35Z",
+      "timestamp": 1744355795000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023WR035633"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          2
+        ]
+      ]
+    },
+    "references-count": 85,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            2
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2023WR035633"
+    ],
+    "URL": "https://doi.org/10.1029/2023wr035633",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          2
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2023-06-21",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-02-04",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-02-23",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2023WR035633"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2023WR035633",
+  "original_doi": "10.1029/2023WR035633"
+}

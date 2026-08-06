@@ -1,0 +1,701 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          6
+        ]
+      ],
+      "date-time": "2026-04-06T11:56:49Z",
+      "timestamp": 1775476609388,
+      "version": "3.50.1"
+    },
+    "reference-count": 49,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "12",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              12,
+              12
+            ]
+          ],
+          "date-time": "2019-12-12T00:00:00Z",
+          "timestamp": 1576108800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 11,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100008982",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "EAR\u20101440596"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "EAR\u20101440596"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100008982",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000104",
+        "name": "National Aeronautics and Space Administration",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NNX14AN24A"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NNX14AN24A"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000104",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000104",
+        "name": "National Aeronautics and Space Administration",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NNX17AL59G"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NNX17AL59G"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000104",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000104",
+        "name": "National Aeronautics and Space Administration",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NNX15AB29G"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NNX15AB29G"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000104",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          12
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Uncooled thermal infrared (TIR) imagers, commonly used on aircraft and small unmanned aircraft systems (UAS, \u201cdrones\u201d), can provide high\u2010resolution surface temperature maps, but their accuracy is dependent on reliable calibration sources. A novel method for correcting surface temperature observations made by uncooled TIR imagers uses observations over melting snow, which provides a constant 0 \u00b0C reference temperature. This bias correction method is applied to remotely sensed surface temperature observations of forests and snow over two mountain study sites: Laret, Davos, Switzerland (27 March 2017) in the Alps, and Sagehen Creek, California, USA (21 April 2017) in the Sierra Nevada. Surface temperature retrieval errors that arise from temperature\u2010induced instrument bias, differences in image resolution, retrieval of mixed pixels, and variable view angles were evaluated for these forest snow scenes. Applying the melting snow\u2010based bias correction decreased the root\u2010mean\u2010square error by about 1 \u00b0C for retrieving snow, water, and forest canopy temperatures from airborne TIR observations. The influence of mixed pixels on surface temperature retrievals over forest snow scenes was found to depend on image resolution and the spatial distribution of forest stands. Airborne observations over the forests at Sagehen showed that near the edges of TIR images, at more than 20\u00b0 from nadir, the snow surface within forest gaps smaller than 10 m was obscured by the surrounding trees. These off\u2010nadir views, with fewer mixed pixels, could allow more accurate airborne and satellite\u2010based observations of canopy surface temperatures.</jats:p>",
+    "DOI": "10.1029/2019wr025699",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          12,
+          11
+        ]
+      ],
+      "date-time": "2019-12-11T13:51:52Z",
+      "timestamp": 1576072312000
+    },
+    "page": "11331-11343",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 18,
+    "title": [
+      "Bias Correction of Airborne Thermal Infrared Observations Over Forests Using Melting Snow"
+    ],
+    "prefix": "10.1029",
+    "volume": "55",
+    "author": [
+      {
+        "given": "Steven",
+        "family": "Pestana",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Civil and Environmental Engineering University of Washington  Seattle WA USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "C. Chris",
+        "family": "Chickadel",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Applied Physics Laboratory University of Washington  Seattle WA USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Adrian",
+        "family": "Harpold",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Natural Resources and Environmental Science University of Nevada, Reno  Reno NV USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Tihomir S.",
+        "family": "Kostadinov",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Liberal Studies California State University San Marcos  San Marcos CA USA"
+          },
+          {
+            "name": "Previously at Division of Hydrologic Sciences Desert Research Institute  Reno NV USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Henry",
+        "family": "Pai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Northwest River Forecast Center, National Weather Service NOAA  Portland OR USA"
+          },
+          {
+            "name": "Peviously at Department of Geological Sciences and Engineering University of Nevada, Reno  Reno NV USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Scott",
+        "family": "Tyler",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Geological Sciences and Engineering University of Nevada, Reno  Reno NV USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Clare",
+        "family": "Webster",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "WSL Swiss Federal Institute for Snow and Avalanche Research SLF  Davos Switzerland"
+          },
+          {
+            "name": "School of GeoSciences University of Edinburgh  Edinburgh UK"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jessica D.",
+        "family": "Lundquist",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil and Environmental Engineering University of Washington  Seattle WA USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          12,
+          12
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_1_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1117/1.OE.57.5.053113"
+      },
+      {
+        "key": "e_1_2_8_1_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015GL065321"
+      },
+      {
+        "key": "e_1_2_8_1_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2019.01.053"
+      },
+      {
+        "key": "e_1_2_8_1_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/9780470976913"
+      },
+      {
+        "key": "e_1_2_8_1_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01431160802609726"
+      },
+      {
+        "key": "e_1_2_8_1_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/014311698214848"
+      },
+      {
+        "key": "e_1_2_8_1_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)HE.1943-5584.0000072"
+      },
+      {
+        "key": "e_1_2_8_1_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0034-4257(81)90021-3"
+      },
+      {
+        "key": "e_1_2_8_1_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR018i005p01424"
+      },
+      {
+        "key": "e_1_2_8_1_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.13395"
+      },
+      {
+        "key": "e_1_2_8_1_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/2007JHM870.1"
+      },
+      {
+        "key": "e_1_2_8_1_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICASSP.1999.757600"
+      },
+      {
+        "key": "e_1_2_8_1_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11119-016-9449-6"
+      },
+      {
+        "key": "e_1_2_8_1_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2005.07.007"
+      },
+      {
+        "key": "e_1_2_8_1_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jvolgeores.2016.06.014"
+      },
+      {
+        "key": "e_1_2_8_1_17_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Henderson B. G. Balick L. K. Rodger A. P. &Pope P. A.(2004).Concurrent measurements of directional reflectance and temperature of a wintertime coniferous forest from space.Ecosystems' Dynamics Agricultural Remote Sensing and Modeling and Site\u2010Specific Agriculture 5153(December 2003) 21.https://doi.org/10.1117/12.506296",
+        "DOI": "10.1117/12.506296"
+      },
+      {
+        "key": "e_1_2_8_1_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JAMC-D-12-0222.1"
+      },
+      {
+        "key": "e_1_2_8_1_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IGARSS.2014.6947013"
+      },
+      {
+        "key": "e_1_2_8_1_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs11050567"
+      },
+      {
+        "key": "e_1_2_8_1_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/feart.2018.00064"
+      },
+      {
+        "key": "e_1_2_8_1_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2014WR016259"
+      },
+      {
+        "key": "e_1_2_8_1_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10661-007-9979-5"
+      },
+      {
+        "key": "e_1_2_8_1_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2006.06.012"
+      },
+      {
+        "key": "e_1_2_8_1_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2006JD007561"
+      },
+      {
+        "key": "e_1_2_8_1_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2018.03.001"
+      },
+      {
+        "key": "e_1_2_8_1_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR024898"
+      },
+      {
+        "key": "e_1_2_8_1_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01431160802036474"
+      },
+      {
+        "key": "e_1_2_8_1_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs10040615"
+      },
+      {
+        "key": "e_1_2_8_1_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3189/002214311796406077"
+      },
+      {
+        "key": "e_1_2_8_1_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0168-1923(95)02259-Z"
+      },
+      {
+        "key": "e_1_2_8_1_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1117/1.OE.52.6.061304"
+      },
+      {
+        "key": "e_1_2_8_1_33_1",
+        "unstructured": "Pai H. Burnett J. Sladek C. Wing M. Feigl K. Selker J. Tyler S. &PoroTomo Team(2016).Analyzing the potential for Unmanned Aerial Systems (UAS) photogrammetry in estimating surface deformations at a geothermal field. In AGU Fall Meeting Abstracts."
+      },
+      {
+        "key": "e_1_2_8_1_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017GL075836"
+      },
+      {
+        "key": "e_1_2_8_1_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/s17102173"
+      },
+      {
+        "key": "e_1_2_8_1_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0034-4257(92)90092-X"
+      },
+      {
+        "key": "e_1_2_8_1_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs61212478"
+      },
+      {
+        "key": "e_1_2_8_1_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/tc-5-55-2011"
+      },
+      {
+        "key": "e_1_2_8_1_39_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sheng H. Chao H. Coopmans C. Han J. McKee M. &Chen Y. Q.(2010).Low\u2010cost UAV\u2010based thermal infrared remote sensing: Platform calibration and applications.Proceedings of 2010 IEEE/ASME International Conference on Mechatronic and Embedded Systems and Applications MESA 2010 38\u201043.https://doi.org/10.1109/MESA.2010.5552031",
+        "DOI": "10.1109/MESA.2010.5552031"
+      },
+      {
+        "key": "e_1_2_8_1_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0034-4257(01)00186-9"
+      },
+      {
+        "key": "e_1_2_8_1_41_1",
+        "unstructured": "U.S. Geological Survey (USGS) (2016).National Water Information System data available on the world wide web(USGS Water Data for the Nation) accessed August 2018 at URLhttps://waterdata.usgs.gov/nwis/inventory?agency_code= USGS&site_no = 10343500https://doi.org/10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_8_1_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011RG000373"
+      },
+      {
+        "key": "e_1_2_8_1_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/RG020i001p00067"
+      },
+      {
+        "key": "e_1_2_8_1_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017JD026581"
+      },
+      {
+        "key": "e_1_2_8_1_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2017.09.033"
+      },
+      {
+        "key": "e_1_2_8_1_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JAM2168.1"
+      },
+      {
+        "key": "e_1_2_8_1_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2018.12.024"
+      },
+      {
+        "key": "e_1_2_8_1_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2011.10.029"
+      },
+      {
+        "key": "e_1_2_8_1_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs8010075"
+      },
+      {
+        "key": "e_1_2_8_2_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2019.05.015"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1029%2F2019WR025699",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1029/2019WR025699",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1029/2019WR025699",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2019WR025699",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          2
+        ]
+      ],
+      "date-time": "2023-09-02T02:04:44Z",
+      "timestamp": 1693620284000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019WR025699"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          12
+        ]
+      ]
+    },
+    "references-count": 49,
+    "journal-issue": {
+      "issue": "12",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2019WR025699"
+    ],
+    "URL": "https://doi.org/10.1029/2019wr025699",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          12
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2019-06-02",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-11-26",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-12-12",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2019WR025699",
+  "original_doi": "10.1029/2019WR025699"
+}

@@ -1,0 +1,758 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          16
+        ]
+      ],
+      "date-time": "2026-07-16T14:39:42Z",
+      "timestamp": 1784212782373,
+      "version": "3.55.0"
+    },
+    "reference-count": 83,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "12",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              12,
+              18
+            ]
+          ],
+          "date-time": "2019-12-18T00:00:00Z",
+          "timestamp": 1576627200000
+        },
+        "content-version": "am",
+        "delay-in-days": 17,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              12,
+              18
+            ]
+          ],
+          "date-time": "2019-12-18T00:00:00Z",
+          "timestamp": 1576627200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 17,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100008321",
+        "name": "Pennsylvania State University",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100008321",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          12
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Despite considerable progress in hydrological modeling, challenges remain in the interpretation and accurate transfer of hydrological information across watersheds and scales. In the conterminous United States (CONUS), these limitations are related to spatial inconsistencies and constraints in hydrological model structures, including a lack of spatially explicit process components (streams, reservoirs, and watershed development) and restricted estimation of model parameters across watersheds. Collectively, such limitations can impede identification of the causes of streamflow variations across the diversity of watershed sizes and land uses in the CONUS and contribute to model imprecision and spatial inconsistencies in prediction uncertainties. We addressed these concerns with a new approach, the first hybrid (statistical\u2010mechanistic) SPARROW (SPAtially Referenced Regression On Watershed attributes) model of long\u2010term mean annual streamflow, applied across diverse environmental settings of the CONUS. The hybrid model coupled previous catchment\u2010scale (1 km) water balance predictions of \u201cnatural\u201d unit area runoff, which are inclusive of major water cycling processes, with additional explanatory variables (e.g., soils, vegetation, land use, topography, water losses in streams, and reservoirs) that account for the effects of natural and cultural water supply and demand processes that operate over large spatial scales and explain streamflow variability across CONUS river basins. Accounting for these statistically unique effects, including a nonlinear surface area\u2010dependent scaling of water loss in river networks, significantly improved the accuracy of mean streamflow predictions in CONUS basins. Our hybrid modeling approach provides new methods for transferring hydrological information to ungauged locations in river networks, especially those in larger and more culturally diverse CONUS watersheds.</jats:p>",
+    "DOI": "10.1029/2019wr025001",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          11,
+          18
+        ]
+      ],
+      "date-time": "2019-11-18T13:20:44Z",
+      "timestamp": 1574083244000
+    },
+    "page": "10893-10917",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 9,
+    "title": [
+      "Advances in Quantifying Streamflow Variability Across Continental Scales: 1. Identifying Natural and Anthropogenic Controlling Factors in the USA Using a Spatially Explicit Modeling Method"
+    ],
+    "prefix": "10.1029",
+    "volume": "55",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9166-0626",
+        "authenticated-orcid": false,
+        "given": "Richard B.",
+        "family": "Alexander",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Reston VA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9239-4566",
+        "authenticated-orcid": false,
+        "given": "Gregory E.",
+        "family": "Schwarz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Reston VA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4369-4201",
+        "authenticated-orcid": false,
+        "given": "Elizabeth W.",
+        "family": "Boyer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ecosystem Science and Management, Pennsylvania State University University Park  PA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          12,
+          18
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_7_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-21-5293-2017"
+      },
+      {
+        "key": "e_1_2_7_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TAC.1974.1100705"
+      },
+      {
+        "key": "e_1_2_7_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2007.00005.x"
+      },
+      {
+        "key": "e_1_2_7_5_1",
+        "unstructured": "Alexander R. B. &Gorman Sanisaca L.(2019).RSPARROW: An R system for SPARROW modeling (Software Release) U.S. Geological Survey.https://doi.org/10.5066/P9UAZ6FO"
+      },
+      {
+        "key": "e_1_2_7_6_1",
+        "unstructured": "Alexander R. B. &Schwarz G. E.(2019).A spatially explicit model of long\u2010term mean annual streamflow for the conterminous United States (Software release). U.S. Geological Survey.https://doi.org/10.5066/P9NT387B"
+      },
+      {
+        "key": "e_1_2_7_7_1",
+        "article-title": "Advances in quantifying streamflow variability across continental scales: 2. Improved model regionalization and prediction uncertainties using hierarchical Bayesian methods",
+        "author": "Alexander R. B.",
+        "year": "2019",
+        "journal-title": "Water Resources Research"
+      },
+      {
+        "key": "e_1_2_7_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/35001562"
+      },
+      {
+        "key": "e_1_2_7_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es0716103"
+      },
+      {
+        "key": "e_1_2_7_10_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Anning D. W. &Flynn M. E.(2014).Dissolved\u2010solids sources loads yields and concentrations in streams of the conterminous United States(U.S. Geological Survey Scientific Investigations Report 2014\u20105012)(p.101). Retrieved fromhttps://doi.org/10.3133/sir20145012",
+        "DOI": "10.3133/sir20145012"
+      },
+      {
+        "key": "e_1_2_7_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR017498"
+      },
+      {
+        "key": "e_1_2_7_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2009WR008481"
+      },
+      {
+        "key": "e_1_2_7_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-2019-111"
+      },
+      {
+        "key": "e_1_2_7_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.1999.tb04192.x"
+      },
+      {
+        "key": "e_1_2_7_15_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ator S. W. Brakebill J. W. &Blomquist J. D.(2011).Sources fate and transport of nitrogen and phosphorus in the Chesapeake Bay watershed: An empirical model(U.S. Geological Survey Scientific Investigations Report 2011\u20105167). Retrieved fromhttp://pubs.usgs.gov/sir/2011/5167/",
+        "DOI": "10.3133/sir20115167"
+      },
+      {
+        "key": "e_1_2_7_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752-1688.12756"
+      },
+      {
+        "key": "e_1_2_7_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR018247"
+      },
+      {
+        "key": "e_1_2_7_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2014WR015692"
+      },
+      {
+        "key": "e_1_2_7_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-5-1-2001"
+      },
+      {
+        "key": "e_1_2_7_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-1694(92)90126-G"
+      },
+      {
+        "key": "e_1_2_7_21_1",
+        "unstructured": "Bivand R. (2015).Package \u201cspdep\u201d: Spatial dependence weighting schemes statistics and models. Retrieved fromhttps://cran.r\u2010project.org/web/packages/spdep/spdep.pdf"
+      },
+      {
+        "key": "e_1_2_7_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9781139235761"
+      },
+      {
+        "key": "e_1_2_7_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-20-2861-2016"
+      },
+      {
+        "key": "e_1_2_7_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/1051-0761(2006)016[2123:MDITAA]2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_7_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2010.00450.x"
+      },
+      {
+        "key": "e_1_2_7_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.7880"
+      },
+      {
+        "key": "e_1_2_7_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-1694(94)02640-W"
+      },
+      {
+        "key": "e_1_2_7_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2000WR900134"
+      },
+      {
+        "key": "e_1_2_7_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2017.10.026"
+      },
+      {
+        "key": "e_1_2_7_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.2565"
+      },
+      {
+        "key": "e_1_2_7_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)1084-0699(2007)12:6(585)"
+      },
+      {
+        "key": "e_1_2_7_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.5b03543"
+      },
+      {
+        "key": "e_1_2_7_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hessd-10-9147-2013"
+      },
+      {
+        "key": "e_1_2_7_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR017617"
+      },
+      {
+        "key": "e_1_2_7_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-15-3539-2011"
+      },
+      {
+        "key": "e_1_2_7_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626667.2013.803183"
+      },
+      {
+        "key": "e_1_2_7_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ejrh.2016.04.002"
+      },
+      {
+        "key": "e_1_2_7_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/93WR00877"
+      },
+      {
+        "key": "e_1_2_7_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-2019-129"
+      },
+      {
+        "key": "e_1_2_7_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2009WR008985"
+      },
+      {
+        "key": "e_1_2_7_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1538-4632.2007.00708.x"
+      },
+      {
+        "key": "e_1_2_7_42_1",
+        "unstructured": "Limbrunner J. F. Vogel R. M. &Chapra S. C.(2005).A parsimonious watershed model. In\u00a0Computer Models of Watershed Hydrology\u00a0(2nd ed.).CRC Press."
+      },
+      {
+        "key": "e_1_2_7_43_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lins H. F.(2012).USGS Hydro\u2010climatic data network 2009 (HCDN\u20102009). U.S. Geological Survey Fact Sheet 2012\u20103047. Retrieved fromhttps://pubs.usgs.gov/fs/2012/3047/pdf/fs2012\u20103047.pdf;https://water.usgs.gov/osw/hcdn\u20102009/HCDN\u20102009_Station_Info.xlsx",
+        "DOI": "10.3133/fs20123047"
+      },
+      {
+        "key": "e_1_2_7_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2006WR005756"
+      },
+      {
+        "key": "e_1_2_7_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2012WR012220"
+      },
+      {
+        "key": "e_1_2_7_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2006WR005467"
+      },
+      {
+        "key": "e_1_2_7_47_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Miller M. P. Buto S. G. Lambert P. M. &Rumsey C. A.(2017).Enhanced and updated spatially referenced statistical assessment of dissolved\u2010solids load sources and transport in streams of the Upper Colorado River Basin(U.S. Geological Survey Scientific Investigations Report 2017\u20105009)(p.23).",
+        "DOI": "10.3133/sir20175009"
+      },
+      {
+        "key": "e_1_2_7_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR017963"
+      },
+      {
+        "key": "e_1_2_7_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/94WR00586"
+      },
+      {
+        "key": "e_1_2_7_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626667.2013.809088"
+      },
+      {
+        "key": "e_1_2_7_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13031/2013.23153"
+      },
+      {
+        "key": "e_1_2_7_52_1",
+        "unstructured": "Nash J. C.(2015 February 20).Package \u201cnlmrt\u201d: Functions for nonlinear least squares solutions. Retrieved fromhttps://cran.r\u2010project.org/web/packages/nlmrt/nlmrt.pdf"
+      },
+      {
+        "key": "e_1_2_7_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-19-209-2015"
+      },
+      {
+        "key": "e_1_2_7_54_1",
+        "volume-title": "Enhanced river reach file 2 (U.S. Geological Survey Open\u2010File Report 02\u201040)",
+        "author": "Nolan J. V.",
+        "year": "2002"
+      },
+      {
+        "key": "e_1_2_7_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2011.00585.x"
+      },
+      {
+        "key": "e_1_2_7_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM-D-15-0054.1"
+      },
+      {
+        "key": "e_1_2_7_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.7766"
+      },
+      {
+        "key": "e_1_2_7_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008WR007327"
+      },
+      {
+        "key": "e_1_2_7_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-018-05156-x"
+      },
+      {
+        "key": "e_1_2_7_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019GL083937"
+      },
+      {
+        "key": "e_1_2_7_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2011.00581.x"
+      },
+      {
+        "key": "e_1_2_7_62_1",
+        "volume-title": "The SPARROW surface water\u2010quality model: Theory, application, and user documentation (U.S. Geological Survey Techniques and Methods Report, Book 6, Chapter B3.)",
+        "author": "Schwarz G. E.",
+        "year": "2006"
+      },
+      {
+        "key": "e_1_2_7_63_1",
+        "first-page": "20",
+        "volume-title": "Hydrologic unit maps (U.S. Geological Survey Water\u2010Supply Paper 2294)",
+        "author": "Seaber P. R.",
+        "year": "1987"
+      },
+      {
+        "issue": "5",
+        "key": "e_1_2_7_64_1",
+        "first-page": "1",
+        "article-title": "Whither the 100th meridian? The once and future physical and human geography of America's arid\u2013humid divide. Part I: The story so far",
+        "volume": "22",
+        "author": "Seager R.",
+        "year": "2018",
+        "journal-title": "Earth Interactions"
+      },
+      {
+        "key": "e_1_2_7_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR022643"
+      },
+      {
+        "key": "e_1_2_7_66_1",
+        "first-page": "22",
+        "volume-title": "An initial SPARROW model of land use and in\u2010stream controls on total organic carbon in streams of the conterminous United States (U.S. Geological Survey Open\u2010File Report 2010\u20101276)",
+        "author": "Shih J.\u2010S.",
+        "year": "2010"
+      },
+      {
+        "key": "e_1_2_7_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1623/hysj.48.6.857.51421"
+      },
+      {
+        "key": "e_1_2_7_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w9090695"
+      },
+      {
+        "key": "e_1_2_7_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/97WR02171"
+      },
+      {
+        "key": "e_1_2_7_70_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stuckey M. Koerkle E. &Ulrich J.(2014).Estimation of basline daily mean streamflows for ungaged locations on Pennsylvania streams water years 1960\u20102008 (U.S. Geological Survey Scientific Investigations Report 2012\u20105142)(p.61).",
+        "DOI": "10.3133/sir20125142"
+      },
+      {
+        "key": "e_1_2_7_71_1",
+        "volume-title": "The water balance",
+        "author": "Thornthwaite C. W.",
+        "year": "1955"
+      },
+      {
+        "key": "e_1_2_7_72_1",
+        "volume-title": "USGS water data for the Nation",
+        "author": "Geological Survey",
+        "year": "1994"
+      },
+      {
+        "key": "e_1_2_7_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.13278"
+      },
+      {
+        "key": "e_1_2_7_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0022-1694(96)03327-6"
+      },
+      {
+        "key": "e_1_2_7_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626660009492342"
+      },
+      {
+        "key": "e_1_2_7_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/98WR02523"
+      },
+      {
+        "key": "e_1_2_7_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)0733-9437(1999)125:3(148)"
+      },
+      {
+        "key": "e_1_2_7_78_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1327"
+      },
+      {
+        "key": "e_1_2_7_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-18-3855-2014"
+      },
+      {
+        "key": "e_1_2_7_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-15-2205-2011"
+      },
+      {
+        "key": "e_1_2_7_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2001.tb00973.x"
+      },
+      {
+        "key": "e_1_2_7_82_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3354/cr011149"
+      },
+      {
+        "key": "e_1_2_7_83_1",
+        "unstructured": "Wolock D. M. &McCabe G. J.(2018).Water balance model inputs and outputs for the conterminous United States 1900\u20102015 (Data release). U.S. Geological Survey.https://doi.org/10.5066/F71V5CWN"
+      },
+      {
+        "issue": "3",
+        "key": "e_1_2_7_84_1",
+        "article-title": "Continental\u2010scale water and energy flux analysis and validation for North American Land Data Assimilation System project phase 2 (NLDAS\u20102): 2. Validation of model\u2010simulated streamflow",
+        "volume": "117",
+        "author": "Xia Y.",
+        "year": "2012",
+        "journal-title": "Journal of Geophysical Research"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1029/2019WR025001",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1029/2019WR025001",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2019WR025001",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2019WR025001",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          2
+        ]
+      ],
+      "date-time": "2023-09-02T02:09:13Z",
+      "timestamp": 1693620553000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019WR025001"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          12
+        ]
+      ]
+    },
+    "references-count": 83,
+    "journal-issue": {
+      "issue": "12",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2019WR025001"
+    ],
+    "URL": "https://doi.org/10.1029/2019wr025001",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          12
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2019-02-21",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-11-12",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-12-18",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2019WR025001",
+  "original_doi": "10.1029/2019WR025001"
+}

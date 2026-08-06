@@ -1,0 +1,906 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          14
+        ]
+      ],
+      "date-time": "2026-06-14T12:52:52Z",
+      "timestamp": 1781441572515,
+      "version": "3.54.1"
+    },
+    "reference-count": 100,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              8
+            ]
+          ],
+          "date-time": "2024-04-08T00:00:00Z",
+          "timestamp": 1712534400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 7,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "1928189"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "1928189"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "1928078"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "1928078"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Water quality and freshwater ecosystems are affected by river discharge and temperature. Models are frequently used to estimate river temperature on large spatial and temporal scales due to limited observations of discharge and temperature. In this study, we use physically based river routing and temperature models to simulate daily discharge and river temperature for rivers in 138 basins in Alaska, including the entire Yukon River basin, from 1990\u20132021. The river temperature model was optimized for ice free months using a surrogate\u2010based model optimization method, improving model performance at uncalibrated river gages. A common statistical model relating local air and water temperature was used as a benchmark. The physically based river temperature model exhibited superior performance compared to the benchmark statistical model after optimization, suggesting river temperature model optimization could become more routine. The river temperature model demonstrated high sensitivity to air temperature and model parameterization, and lower sensitivity to discharge. Validation of the models showed a Kling\u2010Gupta Efficiency of 0.46 for daily river discharge and a root mean square error of 2.04\u00b0C for daily river temperature, improving on the non\u2010optimized physical model and the benchmark statistical model, which had root mean square errors of 3.24 and 2.97\u00b0C, respectively. The simulation shows that rivers in northern Alaska have higher maximum summer temperatures and more variability than rivers in the Central and Southern regions. Furthermore, this framework can be readily adapted for use across models and regions.</jats:p>",
+    "DOI": "10.1029/2023wr036217",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          8
+        ]
+      ],
+      "date-time": "2024-04-08T05:29:56Z",
+      "timestamp": 1712554196000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 9,
+    "title": [
+      "A High\u2010Resolution, Daily Hindcast (1990\u20132021) of Alaskan River Discharge and Temperature From Coupled and Optimized Physical Models"
+    ],
+    "prefix": "10.1029",
+    "volume": "60",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0115-1129",
+        "authenticated-orcid": false,
+        "given": "Dylan",
+        "family": "Blaskey",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Insitute of Arctic and Alpine Research University of Colorado  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4322-8315",
+        "authenticated-orcid": false,
+        "given": "Michael N.",
+        "family": "Gooseff",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Insitute of Arctic and Alpine Research University of Colorado  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5752-9605",
+        "authenticated-orcid": false,
+        "given": "Yifan",
+        "family": "Cheng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Center for Atmospheric Research  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8796-0861",
+        "authenticated-orcid": false,
+        "given": "Andrew J.",
+        "family": "Newman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Center for Atmospheric Research  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7180-6982",
+        "authenticated-orcid": false,
+        "given": "Joshua C.",
+        "family": "Koch",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Alaska Science Center  Anchorage AK USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8394-491X",
+        "authenticated-orcid": false,
+        "given": "Keith N.",
+        "family": "Musselman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Insitute of Arctic and Alpine Research University of Colorado  Boulder CO USA"
+          },
+          {
+            "name": "Department of Geography University of Colorado  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          8
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_1_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2005gl024419"
+      },
+      {
+        "key": "e_1_2_8_1_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2009.10.039"
+      },
+      {
+        "key": "e_1_2_8_1_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/jhm\u2010d\u201014\u20100158.1"
+      },
+      {
+        "key": "e_1_2_8_1_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/jcli\u2010d\u201013\u201000342.1"
+      },
+      {
+        "key": "e_1_2_8_1_6_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Blaskey D.(2023).High\u2010resolution daily hindcast (1990\u20132021) data of Alaskan river discharge and temperature[Dataset].Zenodo.https://doi.org/10.5281/zenodo.8320319",
+        "DOI": "10.5281/zenodo.8320319"
+      },
+      {
+        "key": "e_1_2_8_1_7_1",
+        "unstructured": "Blaskey D.(2024a).RASM\u2010mizuRoute\u2010RBM\u20101.0: January 30 2024. Release (Version 1.0)[Software].Zenodo. Retrieved fromhttps://zenodo.org/doi/10.5281/zenodo.10593447"
+      },
+      {
+        "key": "e_1_2_8_1_8_1",
+        "unstructured": "Blaskey D.(2024b).dblaskey/RBM_Optimization: RBM optimization framework: January 30 2024. Release (Version 1.0) [Software].Zenodo. Retrieved fromhttps://zenodo.org/doi/10.5281/zenodo.10593427"
+      },
+      {
+        "key": "e_1_2_8_1_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748\u20109326/acb661"
+      },
+      {
+        "key": "e_1_2_8_1_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/as\u20102017\u20100053"
+      },
+      {
+        "key": "e_1_2_8_1_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/evco_r_00180"
+      },
+      {
+        "key": "e_1_2_8_1_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ins.2013.02.041"
+      },
+      {
+        "key": "e_1_2_8_1_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.6982"
+      },
+      {
+        "key": "e_1_2_8_1_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.6984"
+      },
+      {
+        "key": "e_1_2_8_1_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365\u20102427.2006.01597.x"
+      },
+      {
+        "key": "e_1_2_8_1_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5751/ES\u201011972\u2010260116"
+      },
+      {
+        "key": "e_1_2_8_1_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022wr032204"
+      },
+      {
+        "key": "e_1_2_8_1_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019wr025784"
+      },
+      {
+        "key": "e_1_2_8_1_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.1311"
+      },
+      {
+        "key": "e_1_2_8_1_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/andp.18501550403"
+      },
+      {
+        "key": "e_1_2_8_1_21_1",
+        "volume-title": "Cheyenne: HPE/SGI ICE XA System (NCAR Community Computing)",
+        "author": "Computational and Information Systems Laboratory",
+        "year": "2019"
+      },
+      {
+        "key": "e_1_2_8_1_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2172/9042"
+      },
+      {
+        "key": "e_1_2_8_1_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wrcr.20410"
+      },
+      {
+        "key": "e_1_2_8_1_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2005.04.012"
+      },
+      {
+        "key": "e_1_2_8_1_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0074054"
+      },
+      {
+        "key": "e_1_2_8_1_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020wr028425"
+      },
+      {
+        "key": "e_1_2_8_1_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.swevo.2015.10.011"
+      },
+      {
+        "key": "e_1_2_8_1_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/4235.996017"
+      },
+      {
+        "key": "e_1_2_8_1_29_1",
+        "unstructured": "DeCicco L. Hirsch R. Lorenz D. Watkins D. &Johnson M.(2023).dataRetrieval: R packages for discovering and retrieving water data available from U.S. federal hydrologic web services.https://doi.org/10.5066/P9X4L3GE"
+      },
+      {
+        "key": "e_1_2_8_1_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2014.12.021"
+      },
+      {
+        "key": "e_1_2_8_1_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.earscirev.2017.10.009"
+      },
+      {
+        "key": "e_1_2_8_1_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365\u20102427.2008.02112.x"
+      },
+      {
+        "key": "e_1_2_8_1_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.13786"
+      },
+      {
+        "key": "e_1_2_8_1_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR023903"
+      },
+      {
+        "key": "e_1_2_8_1_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/07011784.2023.2216454"
+      },
+      {
+        "key": "e_1_2_8_1_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011wr011256"
+      },
+      {
+        "key": "e_1_2_8_1_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/cjfas\u20102017\u20100422"
+      },
+      {
+        "key": "e_1_2_8_1_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018jd030094"
+      },
+      {
+        "key": "e_1_2_8_1_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tevc.2016.2634625"
+      },
+      {
+        "key": "e_1_2_8_1_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626669809492185"
+      },
+      {
+        "key": "e_1_2_8_1_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.agrformet.2012.05.003"
+      },
+      {
+        "key": "e_1_2_8_1_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2009.08.003"
+      },
+      {
+        "key": "e_1_2_8_1_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017wr020969"
+      },
+      {
+        "key": "e_1_2_8_1_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/090037"
+      },
+      {
+        "key": "e_1_2_8_1_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018wr023463"
+      },
+      {
+        "key": "e_1_2_8_1_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748\u20109326/ac5f2d"
+      },
+      {
+        "key": "e_1_2_8_1_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018ms001583"
+      },
+      {
+        "key": "e_1_2_8_1_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1643"
+      },
+      {
+        "key": "e_1_2_8_1_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.7639"
+      },
+      {
+        "key": "e_1_2_8_1_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018wr024236"
+      },
+      {
+        "key": "e_1_2_8_1_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2020.125066"
+      },
+      {
+        "key": "e_1_2_8_1_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41558\u2010019\u20100639\u2010x"
+      },
+      {
+        "key": "e_1_2_8_1_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/pp252"
+      },
+      {
+        "key": "e_1_2_8_1_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022jd036785"
+      },
+      {
+        "key": "e_1_2_8_1_55_1",
+        "unstructured": "Manning R. Griffith J. P. Pigot T. F. &Vernon\u2010Harcourt L. F.(1890).On the flow of water in open channels and pipes."
+      },
+      {
+        "key": "e_1_2_8_1_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10584\u2010010\u20109845\u20102"
+      },
+      {
+        "key": "e_1_2_8_1_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/faf.12808"
+      },
+      {
+        "key": "e_1_2_8_1_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1271432"
+      },
+      {
+        "key": "e_1_2_8_1_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017WR020401"
+      },
+      {
+        "key": "e_1_2_8_1_60_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Mizukami N. Clark M. P. Nijssen B. &Gharari S.(2022).ESCOMP/mizuRoute: v1.2.1: July 17 2022. Release (Version v1.2.2) [Software].Zenodo.https://doi.org/10.5281/zenodo.6851192",
+        "DOI": "10.5281/zenodo.6851192"
+      },
+      {
+        "key": "e_1_2_8_1_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/gmd\u20109\u20102223\u20102016"
+      },
+      {
+        "key": "e_1_2_8_1_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/98wr01877"
+      },
+      {
+        "key": "e_1_2_8_1_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/jamc\u2010d\u201017\u20100161.1"
+      },
+      {
+        "key": "e_1_2_8_1_64_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Mu\u00f1oz Sabater J.(2019).ERA5\u2010Land hourly data from 1950 to present[Dataset].Copernicus Climate Change Service (C3S).https://doi.org/10.24381/cds.e2161bac",
+        "DOI": "10.24381/cds.e2161bac"
+      },
+      {
+        "key": "e_1_2_8_1_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41558\u2010021\u201001014\u20109"
+      },
+      {
+        "key": "e_1_2_8_1_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/jhm\u2010d\u201016\u20100284.1"
+      },
+      {
+        "key": "e_1_2_8_1_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1577/1548\u20108659(1994)123<0613:tspatu>2.3.co;2"
+      },
+      {
+        "key": "e_1_2_8_1_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018wr022615"
+      },
+      {
+        "key": "e_1_2_8_1_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467\u2010020\u201017726\u2010z"
+      },
+      {
+        "key": "e_1_2_8_1_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2018.04.016"
+      },
+      {
+        "key": "e_1_2_8_1_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1163156"
+      },
+      {
+        "key": "e_1_2_8_1_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43247\u2010022\u201000498\u20103"
+      },
+      {
+        "key": "e_1_2_8_1_73_1",
+        "volume-title": "R: A language and environment for statistical computing",
+        "author": "R Core Team",
+        "year": "2022"
+      },
+      {
+        "key": "e_1_2_8_1_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11069\u2010020\u201003916\u2010x"
+      },
+      {
+        "key": "e_1_2_8_1_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1523\u20101739.2012.01897.x"
+      },
+      {
+        "key": "e_1_2_8_1_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020wr027463"
+      },
+      {
+        "key": "e_1_2_8_1_77_1",
+        "unstructured": "Skamarock W. C. Klemp J. B. Dudhia J. Gill D. O. Liu Z. Berner J. et\u00a0al. (2019).A description of the advanced research WRF Version 4. NCAR Tech. Note NCAR/TN\u2010556+STR (pp.145).https://doi.org/10.5065/1dfh\u20106p97"
+      },
+      {
+        "key": "e_1_2_8_1_78_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biosci/bix047"
+      },
+      {
+        "key": "e_1_2_8_1_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.10363"
+      },
+      {
+        "key": "e_1_2_8_1_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019MS001833"
+      },
+      {
+        "key": "e_1_2_8_1_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11269\u2010017\u20101694\u20106"
+      },
+      {
+        "key": "e_1_2_8_1_82_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2012.02.035"
+      },
+      {
+        "key": "e_1_2_8_1_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1643/ci\u201019\u2010256"
+      },
+      {
+        "key": "e_1_2_8_1_84_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.5959"
+      },
+      {
+        "key": "e_1_2_8_1_85_1",
+        "volume-title": "USGS water data for the Nation",
+        "author": "U.S. Geological Survey",
+        "year": "2022"
+      },
+      {
+        "key": "e_1_2_8_1_86_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.gloenvcha.2012.11.002"
+      },
+      {
+        "key": "e_1_2_8_1_87_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2010wr009198"
+      },
+      {
+        "key": "e_1_2_8_1_88_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201016\u20104303\u20102012"
+      },
+      {
+        "key": "e_1_2_8_1_89_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/fsh.10705"
+      },
+      {
+        "key": "e_1_2_8_1_90_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wagner R. J. Boulger Jr R. W. Oblinger C. J. &Smith B. A.(2006).Guidelines and standard procedures for continuous water\u2010quality monitors: Station operation record computation and data reporting(No. 1\u2010D3).",
+        "DOI": "10.3133/tm1D3"
+      },
+      {
+        "key": "e_1_2_8_1_91_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018wr023250"
+      },
+      {
+        "key": "e_1_2_8_1_92_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1108/ec\u201010\u20102012\u20100232"
+      },
+      {
+        "key": "e_1_2_8_1_93_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0309133314542957"
+      },
+      {
+        "key": "e_1_2_8_1_94_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752\u20101688.12707"
+      },
+      {
+        "key": "e_1_2_8_1_95_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019wr024873"
+      },
+      {
+        "key": "e_1_2_8_1_96_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748\u20109326/abf393"
+      },
+      {
+        "key": "e_1_2_8_1_97_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/jog.2020.32"
+      },
+      {
+        "key": "e_1_2_8_1_98_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008wr007629"
+      },
+      {
+        "key": "e_1_2_8_1_99_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011wr011515"
+      },
+      {
+        "key": "e_1_2_8_1_100_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019jf005060"
+      },
+      {
+        "key": "e_1_2_8_2_2_1",
+        "first-page": "121",
+        "volume-title": "Proceedings of the ninth international conference on permafrost",
+        "author": "Jorgenson M. T.",
+        "year": "2008"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023WR036217",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/full-xml/10.1029/2023WR036217",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023WR036217",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023WR036217",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          14
+        ]
+      ],
+      "date-time": "2026-06-14T12:01:04Z",
+      "timestamp": 1781438464000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023WR036217"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "references-count": 100,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            4
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2023WR036217"
+    ],
+    "URL": "https://doi.org/10.1029/2023wr036217",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2023-09-06",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-03-26",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-04-08",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2023WR036217"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2023WR036217",
+  "original_doi": "10.1029/2023WR036217"
+}

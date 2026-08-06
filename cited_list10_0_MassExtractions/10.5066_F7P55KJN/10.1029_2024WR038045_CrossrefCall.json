@@ -1,0 +1,719 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          11
+        ]
+      ],
+      "date-time": "2026-05-11T23:40:41Z",
+      "timestamp": 1778542841798,
+      "version": "3.51.4"
+    },
+    "reference-count": 88,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              16
+            ]
+          ],
+          "date-time": "2025-03-16T00:00:00Z",
+          "timestamp": 1742083200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 15,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Continuous, high\u2010resolution data for characterizing freshwater habitat conditions can support successful management of endangered salmonids. Uncrewed aircraft systems (UAS) make acquiring such fine\u2010scale data along river channels more feasible, but workflows for quantifying reach\u2010scale salmon habitats are lacking. We evaluated the potential for UAS\u2010based mapping of hydraulic habitats using spectrally based depth retrieval and particle image velocimetry (PIV) by comparing these methods to a more well\u2010established flow modeling approach. Our results indicated that estimates of water depth, depth\u2010averaged velocity, and flow direction derived via remote sensing and modeling techniques were comparable and in good agreement with field measurements. Predictions of spring\u2010run Chinook salmon (<jats:italic>Oncorhynchus tshawytscha</jats:italic>) juvenile rearing habitat produced from PIV and model output were similar, with small errors relative to direct field observations. Estimates of hydraulic heterogeneity based on kinetic energy gradients in the flow field were generally consistent between PIV and flow modeling, but errors relative to field measurements were larger. PIV results were sensitive to the velocity index  used to convert surface velocities to depth\u2010averaged velocities. Sun glint precluded PIV analysis along the margins of some images and a large degree of overlap between frames was thus required to obtain continuous coverage of the reach. Similarly, shadows cast by riparian vegetation caused gaps in spectrally based bathymetric maps. Despite these limitations, our results suggest that for sites with sufficient water surface texture, UAS\u2010based PIV can provide detailed hydraulic habitat information at the reach scale, with accuracies comparable to traditional field methods and multidimensional flow modeling.</jats:p>",
+    "DOI": "10.1029/2024wr038045",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          17
+        ]
+      ],
+      "date-time": "2025-03-17T04:19:21Z",
+      "timestamp": 1742185161000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Evaluating the Potential to Quantify Salmon Habitat via UAS\u2010Based Particle Image Velocimetry"
+    ],
+    "prefix": "10.1029",
+    "volume": "61",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5219-9280",
+        "authenticated-orcid": false,
+        "given": "Lee R.",
+        "family": "Harrison",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Southwest Fisheries Science Center National Oceanic and Atmospheric Administration  Santa Cruz CA USA"
+          },
+          {
+            "name": "Earth Research Institute University of California  Santa Barbara CA USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0940-8013",
+        "authenticated-orcid": false,
+        "given": "Carl J.",
+        "family": "Legleiter",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Observing Systems Division U.S. Geological Survey  Golden CO USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7845-6671",
+        "authenticated-orcid": false,
+        "given": "Brandon T.",
+        "family": "Overstreet",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Oregon Water Science Center U.S. Geological Survey  Portland OR USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7255-3785",
+        "authenticated-orcid": false,
+        "given": "James S.",
+        "family": "White",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Oregon Water Science Center U.S. Geological Survey  Portland OR USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          16
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR029925"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "unstructured": "Agisoft. (2024).MicaSense RedEdge MX processing workflow (including reflectance calibration) in Agisoft Metashape Professional. Retrieved fromhttps://agisoft.freshdesk.com/support/solutions/articles/31000148780\u2010micasense\u2010rededge\u2010mx\u2010processing\u2010workflow\u2010including\u2010reflectance\u2010calibration\u2010in\u2010agisoft\u2010metashape\u2010pro"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "unstructured": "Applanix. (2025).Applanix POSPac UAV Software. Retrieved fromhttps://applanix.trimble.com/en/software/applanix\u2010pospac\u2010uav"
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1525/bio.2010.60.3.7"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w15213711"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.3973"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "unstructured": "Blue Marble. (2025).Global mapper software. Retrieved fromhttps://www.bluemarblegeo.com/global\u2010mapper/"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/f00\u2010074"
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0217711"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2021.126438"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "unstructured": "Deltares(2024).Delft3D\u2010flexible mesh suite user manual. Retrieved fromhttps://www.deltares.nl/en/software/delft3d\u2010flexible\u2010mesh\u2010suite/"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs8020097"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.4060"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "unstructured": "DJI. (2025).Matrice 200 series. Retrieved fromhttps://www.dji.com/support/product/matrice\u2010200\u2010series"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/JHEND8.HYENG\u201013591"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TGRS.2013.2277815"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023WR035646"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.5205"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1641/0006\u20103568(2002)052[0483:LTRBTG]2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fenvs.2022.892268"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/9780784408148.ch02"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hansen G. S. Perry R. W. Kock T. J. White J. S. Haner P. V. Plumb J. M. &Wallick J. R.(2023).Assessment of habitat use by Juvenile Chinook salmon (Oncorhynchus tshawytscha) in the Willamette River Basin 2020\u201321 (Report No. 2023\u20101001).https://doi.org/10.3133/ofr20231001",
+        "DOI": "10.3133/ofr20231001"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.3690"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR033097"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecolmodel.2007.04.032"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.geomorph.2015.10.025"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.4042"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.geomorph.2014.01.006"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.2918"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/frwa.2021.709269"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.10277"
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.geomorph.2019.02.017"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.3771"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/faf.12772"
+      },
+      {
+        "key": "e_1_2_8_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs12233868"
+      },
+      {
+        "key": "e_1_2_8_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018wr023586"
+      },
+      {
+        "key": "e_1_2_8_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/frsen.2024.1305991"
+      },
+      {
+        "key": "e_1_2_8_39_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Legleiter C. J. Harrison L. R. &Overstreet B. T.(2024).Remotely sensed data acquired from an Uncrewed Aerial System (UAS) and field measurements of flow depth and velocity from the North Santiam River Oregon collected in July 2022[Dataset].U.S. Geological Survey data release.https://doi.org/10.5066/P1TEZVCA",
+        "DOI": "10.5066/P1TEZVCA"
+      },
+      {
+        "key": "e_1_2_8_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/frwa.2021.652213"
+      },
+      {
+        "key": "e_1_2_8_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.4147"
+      },
+      {
+        "key": "e_1_2_8_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.5878"
+      },
+      {
+        "key": "e_1_2_8_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR033822"
+      },
+      {
+        "key": "e_1_2_8_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.1787"
+      },
+      {
+        "key": "e_1_2_8_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.4816"
+      },
+      {
+        "key": "e_1_2_8_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs12060986"
+      },
+      {
+        "key": "e_1_2_8_47_1",
+        "first-page": "933",
+        "volume-title": "Evaluation of a novel UAV\u2010borne topo\u2010bathymetric laser profiler",
+        "author": "Mandlburger G.",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_8_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.4086"
+      },
+      {
+        "key": "e_1_2_8_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023WR034545"
+      },
+      {
+        "key": "e_1_2_8_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023GL105839"
+      },
+      {
+        "key": "e_1_2_8_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2022.128217"
+      },
+      {
+        "key": "e_1_2_8_52_1",
+        "unstructured": "MicaSense(2022).RedEdge\u2010MX dual camera system. Retrieved fromhttps://support.micasense.com/hc/en\u2010us/articles/360037369993\u2010RedEdge\u2010MX\u2010Dual\u2010Camera\u2010System\u2010Integration\u2010Guide"
+      },
+      {
+        "key": "e_1_2_8_53_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mueller D. S.(2016).QRev\u2014Software for computation and quality assurance of acoustic doppler current profiler moving\u2010boat streamflow measurements\u2014User's manual for version 2.8 (U S Geological Survey Open\u2010File Report No. 2016\u20101052).https://doi.org/10.3133/ofr20161052",
+        "DOI": "10.3133/ofr20161068"
+      },
+      {
+        "key": "e_1_2_8_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008WR006950"
+      },
+      {
+        "key": "e_1_2_8_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/nafm.10411"
+      },
+      {
+        "key": "e_1_2_8_56_1",
+        "unstructured": "National Oceanic and Atmospheric Administration. (2025).Endangered Species Act threatened and endangered species directory. Retrieved fromhttps://www.fisheries.noaa.gov/species\u2010directory/threatened\u2010endangered"
+      },
+      {
+        "key": "e_1_2_8_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/24705357.2020.1768600"
+      },
+      {
+        "key": "e_1_2_8_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.4063"
+      },
+      {
+        "key": "e_1_2_8_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.3367"
+      },
+      {
+        "key": "e_1_2_8_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2005.12.003"
+      },
+      {
+        "key": "e_1_2_8_61_1",
+        "unstructured": "Quantum Systems. (2023a).Trinity F90+. Retrieved fromhttps://quantum\u2010systems.com/wp\u2010content/uploads/2023/01/QS_TrinityF90_Overview_220912.pdf"
+      },
+      {
+        "key": "e_1_2_8_62_1",
+        "unstructured": "Quantum Systems. (2023b).Trinity F90+ Cameras. Retrieved fromhttps://quantum\u2010systems.com/wp\u2010content/uploads/2023/01/QS_Trinity_Overview_Cameras_V01_220711.pdf"
+      },
+      {
+        "key": "e_1_2_8_63_1",
+        "unstructured": "Quantum Systems. (2025).Discover QBase3D\u2014The ultimate drone software solution. Retrieved fromhttps://quantum\u2010systems.com/qbase\u20103d/"
+      },
+      {
+        "key": "e_1_2_8_64_1",
+        "volume-title": "U.S. Geological Survey Water Supply Paper 2175",
+        "author": "Rantz S. E.",
+        "year": "1982"
+      },
+      {
+        "key": "e_1_2_8_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecoinf.2019.100976"
+      },
+      {
+        "key": "e_1_2_8_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.4344"
+      },
+      {
+        "key": "e_1_2_8_67_1",
+        "unstructured": "Seafloor Systems. (2025).Hydrolite. Retrieved fromhttps://www.seafloorsystems.com/singlebeam"
+      },
+      {
+        "key": "e_1_2_8_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2022.128505"
+      },
+      {
+        "key": "e_1_2_8_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-0-323-85283-8.00012-6"
+      },
+      {
+        "key": "e_1_2_8_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.2743"
+      },
+      {
+        "key": "e_1_2_8_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5334/jors.334"
+      },
+      {
+        "key": "e_1_2_8_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5334/jors.bl"
+      },
+      {
+        "key": "e_1_2_8_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biosci/biaa002"
+      },
+      {
+        "key": "e_1_2_8_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.4934"
+      },
+      {
+        "key": "e_1_2_8_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/brv.12810"
+      },
+      {
+        "key": "e_1_2_8_76_1",
+        "volume-title": "USGS water data for the Nation",
+        "author": "U.S. Geological Survey",
+        "year": "2024"
+      },
+      {
+        "key": "e_1_2_8_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature09440"
+      },
+      {
+        "key": "e_1_2_8_78_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.abl5486"
+      },
+      {
+        "key": "e_1_2_8_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/24705357.2021.1938251"
+      },
+      {
+        "key": "e_1_2_8_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR017906"
+      },
+      {
+        "key": "e_1_2_8_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wrcr.20391"
+      },
+      {
+        "key": "e_1_2_8_82_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00348\u2010020\u20102897\u20109"
+      },
+      {
+        "key": "e_1_2_8_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/TR035i006p00951"
+      },
+      {
+        "key": "e_1_2_8_84_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.3613"
+      },
+      {
+        "key": "e_1_2_8_85_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.3047"
+      },
+      {
+        "key": "e_1_2_8_86_1",
+        "unstructured": "Xylem(2025a).Sontek M9. Retrieved fromhttps://www.ysi.com/sontek\u2010m9"
+      },
+      {
+        "key": "e_1_2_8_87_1",
+        "unstructured": "Xylem(2025b).SonTek RiverSurveyor live software. Retrieved fromhttps://www.xylem.com/en\u2010us/products\u2010\u2010services/software/riversurveyor\u2010live\u2010rsl/"
+      },
+      {
+        "key": "e_1_2_8_88_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biosci/biv102"
+      },
+      {
+        "key": "e_1_2_8_89_1",
+        "unstructured": "YellowScan(2025).CloudStation lidar processing software. Retrieved fromhttps://www.yellowscan.com/products/cloudstation/"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2024WR038045",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          10
+        ]
+      ],
+      "date-time": "2025-04-10T04:44:32Z",
+      "timestamp": 1744260272000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024WR038045"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3
+        ]
+      ]
+    },
+    "references-count": 88,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2024WR038045"
+    ],
+    "URL": "https://doi.org/10.1029/2024wr038045",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          3
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2024-05-23",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-03-05",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-03-16",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2024WR038045"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2024WR038045",
+  "original_doi": "10.1029/2024WR038045"
+}

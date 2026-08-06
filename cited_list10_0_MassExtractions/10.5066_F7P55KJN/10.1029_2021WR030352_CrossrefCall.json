@@ -1,0 +1,783 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          2
+        ]
+      ],
+      "date-time": "2026-06-02T16:01:08Z",
+      "timestamp": 1780416068503,
+      "version": "3.54.1"
+    },
+    "reference-count": 80,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              25
+            ]
+          ],
+          "date-time": "2021-10-25T00:00:00Z",
+          "timestamp": 1635120000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 24,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100014802",
+        "name": "University of California Research Initiatives",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "LFR\u201018\u2010548316"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "LFR\u201018\u2010548316"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100014802",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Groundwater depletion is a major threat to agricultural and municipal water supply in California's Central Valley. Recent droughts during 2007\u20132009 and 2012\u20132016 exacerbated chronic groundwater depletion. However, it is unclear how much groundwater storage recovered from drought\u2010related overdrafts during post\u2010drought years, and how climatic conditions and water management affected recovery times. We estimated groundwater storage change in the Central Valley for April 2002 through September 2019 using four methods: GRACE satellite data, a water balance approach, a hydrologic simulation model, and monitoring wells. We also evaluated the sensitivity of drought recovery to different climate scenarios (recent climate\u00a0\u00b1\u00a0droughts and future climate change scenarios: 20 GCMs and 2 RCPs) using water balance method and statistical sampling of historical climate data. Estimated Central Valley groundwater loss during the two droughts ranged from 19\u00a0km<jats:sup>3</jats:sup> (2007\u20132009) to 28\u00a0km<jats:sup>3</jats:sup> (2012\u20132016) (median of four methods). Median aquifer storage recovery was 34% and 19% of the overdraft during the 2010\u20132011 and 2017\u20132019 post\u2010drought years, respectively. Numerical experiments show that recovery times are sensitive to climate forcing, with longer recovery times for a future climate scenario that replicate historical climatology relative to historical forcing with no droughts. Overdraft recovery times decrease by \u223c2\u00d7 with implementation of pumping restrictions (30th to 50th percentiles of historical groundwater depletion) to constrain groundwater depletion relative to no restrictions with a no\u2010drought future climatology. This study highlights the importance of considering water management implications for future drought recoveries within the context of climate change scenarios.</jats:p>",
+    "DOI": "10.1029/2021wr030352",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          8
+        ]
+      ],
+      "date-time": "2021-10-08T00:14:08Z",
+      "timestamp": 1633652048000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 39,
+    "title": [
+      "Post\u2010Drought Groundwater Storage Recovery in California's Central Valley"
+    ],
+    "prefix": "10.1029",
+    "volume": "57",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9592-2782",
+        "authenticated-orcid": false,
+        "given": "Sarfaraz",
+        "family": "Alam",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Civil &amp; Environmental Engineering University of California  Los Angeles CA USA"
+          },
+          {
+            "name": "Now at Department of Geophysics Stanford University  Stanford CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2951-0058",
+        "authenticated-orcid": false,
+        "given": "Mekonnen",
+        "family": "Gebremichael",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil &amp; Environmental Engineering University of California  Los Angeles CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8776-1811",
+        "authenticated-orcid": false,
+        "given": "Zhaoxin",
+        "family": "Ban",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Geography University of California  Los Angeles CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1234-4199",
+        "authenticated-orcid": false,
+        "given": "Bridget R.",
+        "family": "Scanlon",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin  Austin TX USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8810-8539",
+        "authenticated-orcid": false,
+        "given": "Gabriel",
+        "family": "Senay",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Earth Resources Observation and Science (EROS) Center  Fort Collins CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0914-0726",
+        "authenticated-orcid": false,
+        "given": "Dennis P.",
+        "family": "Lettenmaier",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil &amp; Environmental Engineering University of California  Los Angeles CA USA"
+          },
+          {
+            "name": "Department of Geography University of California  Los Angeles CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          25
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2021.144992"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs11141701"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10584-019-02585-5"
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR027244"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017JB014424"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ngeo2869"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "volume-title": "Ground water in the Central Valley, California: A summary report",
+        "author": "Bertoldi G. L.",
+        "year": "1991"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "unstructured": "Bettadpur S.(2012). UTCSR level\u20102 processing standards document for level\u20102 product release 0005. GRACE 327\u2010742."
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-22-6241-2018"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011wr011212"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "volume-title": "Historical rim inflows, surface water diversions and bypass flows for the California Central Valley groundwater\u2010surface water simulation model (C2VSim), version 3.02\u2010CG",
+        "author": "Brush C. F.",
+        "year": "2013"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/sir20045232"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "unstructured": "California State Legislature. (2014). Sustainable groundwater management act. Retrieved fromhttps://www.opr.ca.gov/docs/2014_Sustainable_Groundwater_Management_\u00a0Legislation_092914.pdf"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "volume-title": "Periodic groundwater level measurements",
+        "author": "CASGEM",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "volume-title": "California Data Exchange Center\u2014Reservoirs",
+        "author": "CDEC",
+        "year": "2020"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "volume-title": "California Department of Water Resources and California Natural Resources Agency, and State of California. California\u2019s groundwater update 2013, A Compilation of Enhanced Content for California",
+        "author": "CDWR",
+        "year": "2013"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "volume-title": "California State Water Project Overview",
+        "author": "CDWR",
+        "year": "2014"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "volume-title": "C2VSimFG Version 1.0: Fine Grid California Central Valley Groundwater\u2010Surface Water Simulation Model",
+        "author": "CDWR",
+        "year": "2020"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR022816"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/joc.1688"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "unstructured": "Dayflow. (2020). Delta boundary hydrology available through California Natural Resources Agency. Retrieved fromhttps://data.cnra.ca.gov/dataset/dayflow"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2014.10.021"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "volume-title": "DWR technical memorandum and user\u2019s manual",
+        "author": "Dogrul E. C.",
+        "year": "2015"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2015.12.006"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nclimate2425"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2010GL046442"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "first-page": "59",
+        "article-title": "Region 4, central valley and pacific coast ranges",
+        "author": "Farrar C. D.",
+        "year": "1988",
+        "journal-title": "Hydrogeology Geology of North America"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/pp1766"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10040-015-1339-x"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-6584.2006.00187.x"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10040-019-01936-x"
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs13040650"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10584-017-1899-y"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018wr024069"
+      },
+      {
+        "key": "e_1_2_8_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature11295"
+      },
+      {
+        "key": "e_1_2_8_37_1",
+        "article-title": "Managing California\u2019s water: From conflict to reconciliation",
+        "author": "Hanak E.",
+        "year": "2011",
+        "journal-title": "The Public Policy Institute of California"
+      },
+      {
+        "key": "e_1_2_8_38_1",
+        "first-page": "5",
+        "article-title": "Water stress and a changing San Joaquin Valley",
+        "volume": "1",
+        "author": "Hanak E.",
+        "year": "2017",
+        "journal-title": "The Public Policy Institute of California"
+      },
+      {
+        "key": "e_1_2_8_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011WR010774"
+      },
+      {
+        "key": "e_1_2_8_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018wr024019"
+      },
+      {
+        "key": "e_1_2_8_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2014.09.069"
+      },
+      {
+        "key": "e_1_2_8_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017gl073551"
+      },
+      {
+        "key": "e_1_2_8_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/jcli-d-12-00508.1"
+      },
+      {
+        "key": "e_1_2_8_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/srep24398"
+      },
+      {
+        "key": "e_1_2_8_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2006wr005000"
+      },
+      {
+        "key": "e_1_2_8_46_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Miller N. L. Dale L. L. Brush C. F. Vicuna S. D. Kadir T. N. Dogrul E. C. et\u00a0al. (2009). Drought resilience of the California Central Valley surface\u2010groundwater\u2010conceyabce system 45.https://doi.org/10.1111/j.1752-1688.2009.00329.x",
+        "DOI": "10.1111/j.1752-1688.2009.00329.x"
+      },
+      {
+        "key": "e_1_2_8_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2017WR022250"
+      },
+      {
+        "key": "e_1_2_8_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018jb016083"
+      },
+      {
+        "key": "e_1_2_8_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2020.124943"
+      },
+      {
+        "key": "e_1_2_8_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/grl.50728"
+      },
+      {
+        "key": "e_1_2_8_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011WR010930"
+      },
+      {
+        "key": "e_1_2_8_52_1",
+        "volume-title": "Groundwater atlas of the United States, California, Nevada. HA 730\u2010B",
+        "author": "Planert M.",
+        "year": "1995"
+      },
+      {
+        "key": "e_1_2_8_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nclimate2765"
+      },
+      {
+        "key": "e_1_2_8_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/bams-d-11-00188.1"
+      },
+      {
+        "key": "e_1_2_8_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020wr027556"
+      },
+      {
+        "key": "e_1_2_8_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s0022-1694(02)00060-4"
+      },
+      {
+        "key": "e_1_2_8_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ngeo2883"
+      },
+      {
+        "key": "e_1_2_8_58_1",
+        "volume-title": "CSR GRACE and GRACE\u2010FO RL06 mascon solutions v02",
+        "author": "Save",
+        "year": "2020"
+      },
+      {
+        "key": "e_1_2_8_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016jb013007"
+      },
+      {
+        "key": "e_1_2_8_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1200311109"
+      },
+      {
+        "key": "e_1_2_8_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011wr011312"
+      },
+      {
+        "key": "e_1_2_8_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-9326/11/3/035013"
+      },
+      {
+        "key": "e_1_2_8_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016wr019494"
+      },
+      {
+        "key": "e_1_2_8_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.aav8038"
+      },
+      {
+        "key": "e_1_2_8_65_1",
+        "volume-title": "Climate Change 2013: The physical science basis. contribution of working group I to the fifth assessment report of IPCC the intergovernmental panel on climate change",
+        "author": "Stocker T. F.",
+        "year": "2014"
+      },
+      {
+        "key": "e_1_2_8_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nclimate1744"
+      },
+      {
+        "key": "e_1_2_8_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-019-40155-y"
+      },
+      {
+        "key": "e_1_2_8_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2017.06.026"
+      },
+      {
+        "key": "e_1_2_8_69_1",
+        "volume-title": "Daymet: Daily surface weather data on a 1\u2010km grid for north America, Version 3 ORNL DAAC Oak Ridge Tenn",
+        "author": "Thornton P.",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_8_70_1",
+        "volume-title": "Central Valley Project",
+        "author": "USBR",
+        "year": "2014"
+      },
+      {
+        "key": "e_1_2_8_71_1",
+        "volume-title": "National agricultural statistics service cropland data layer, Published crop\u2010specific data layer",
+        "author": "USDA\u2010NASS",
+        "year": "2020"
+      },
+      {
+        "key": "e_1_2_8_72_1",
+        "volume-title": "USGS water data for the nation, U.S. Geological Survey National Water Information System database available on the world wide web (USGS water data for the nation)",
+        "author": "USGS",
+        "year": "2020"
+      },
+      {
+        "key": "e_1_2_8_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR017349.Received"
+      },
+      {
+        "key": "e_1_2_8_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2010GL044571"
+      },
+      {
+        "key": "e_1_2_8_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/98jb02844"
+      },
+      {
+        "key": "e_1_2_8_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2014jb011547"
+      },
+      {
+        "key": "e_1_2_8_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-9326/abcfe1"
+      },
+      {
+        "key": "e_1_2_8_78_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016wr019344"
+      },
+      {
+        "key": "e_1_2_8_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/pp1401D"
+      },
+      {
+        "key": "e_1_2_8_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-020-17581-y"
+      },
+      {
+        "key": "e_1_2_8_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017gl073333"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1029/2021WR030352",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1029/2021WR030352",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2021WR030352",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          22
+        ]
+      ],
+      "date-time": "2023-08-22T12:13:21Z",
+      "timestamp": 1692706401000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021WR030352"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    },
+    "references-count": 80,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2021WR030352"
+    ],
+    "URL": "https://doi.org/10.1029/2021wr030352",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2021-05-06",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2021-10-02",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2021-10-25",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2021WR030352"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2021WR030352",
+  "original_doi": "10.1029/2021WR030352"
+}

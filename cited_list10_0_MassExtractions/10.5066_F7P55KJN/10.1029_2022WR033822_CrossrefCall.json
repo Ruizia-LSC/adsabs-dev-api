@@ -1,0 +1,542 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          11
+        ]
+      ],
+      "date-time": "2026-05-11T23:40:42Z",
+      "timestamp": 1778542842160,
+      "version": "3.51.4"
+    },
+    "reference-count": 49,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              30
+            ]
+          ],
+          "date-time": "2023-01-30T00:00:00Z",
+          "timestamp": 1675036800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          2
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Information on velocity fields in rivers is critical for designing infrastructure, modeling contaminant transport, and assessing habitat. Although non\u2010contact approaches to measuring flow velocity are well established, these methods assume a stationary imaging platform. This study eliminates this constraint by introducing a framework for moving aircraft river velocimetry (MARV). The workflow takes as input images acquired from an airplane and involves orthorectification, frame overlap analysis, image enhancement, particle image velocimetry (PIV), and aggregation of the resulting velocity vectors onto a prediction grid. We also use new metrics to quantify the agreement between image\u2010derived and field\u2010measured velocity vectors in terms of both orientation and magnitude. The potential of MARV was evaluated using data from two Alaskan rivers: a large, highly turbid channel and its smaller, clearer tributary. Sediment boil vortices on the mainstem provided natural features trackable via PIV and estimated velocities corresponded closely with field measurements (<jats:italic>R</jats:italic><jats:sup>2</jats:sup> up to 0.911). We compared an exhaustive approach that evaluates overlap for all frame combinations to a simpler rolling window implementation and found that the more efficient algorithm did not compromise accuracy. Sensitivity analysis suggested that the method was robust to window parameterization. Comparing PIV output from different flying heights and imaging systems indicated that larger pixels led to higher accuracy and that a more advanced dual\u2010camera system provided superior performance. Results from the tributary were less encouraging, presumably due to a lack of trackable features in visible images. Testing across a range of rivers is needed to assess the generality of MARV.</jats:p>",
+    "DOI": "10.1029/2022wr033822",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          18
+        ]
+      ],
+      "date-time": "2023-01-18T04:02:41Z",
+      "timestamp": 1674014561000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 19,
+    "title": [
+      "Moving Aircraft River Velocimetry (MARV): Framework and Proof\u2010of\u2010Concept on the Tanana River"
+    ],
+    "prefix": "10.1029",
+    "volume": "59",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0940-8013",
+        "authenticated-orcid": false,
+        "given": "Carl J.",
+        "family": "Legleiter",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Observing Systems Division U.S. Geological Survey  Golden CO USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Paul J.",
+        "family": "Kinzel",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Observing Systems Division U.S. Geological Survey  Golden CO USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0280-5083",
+        "authenticated-orcid": false,
+        "given": "Mark",
+        "family": "Laker",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Fish and Wildlife Service Kenai National Wildlife Refuge  Soldotna AK USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jeffrey S.",
+        "family": "Conaway",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Alaska Science Center U.S. Geological Survey  Anchorage AK USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          30
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016GL071577"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "volume-title": "River discharge from surface velocity measurements: A field guide for selecting alpha",
+        "author": "Biggs H.",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2009gl037278"
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fmars.2021.695780"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/fs20193024"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Curran J. H. &Biles F. E.(2020).Streamgage attributes basin characteristics and seasonal flow regimes selected streamgages in Alaska 1914\u20132017.U.S. Geological Survey data release.https://doi.org/10.5066/P90K2Y4R",
+        "DOI": "10.5066/P90K2Y4R"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR027833"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/tc-15-2115-2021"
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TGRS.2013.2277815"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.5205"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-24-1429-2020"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/bf03181465"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2208/prohe.38.733"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/RS12081296"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR028714"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "unstructured": "Hemisphere GNSS. (2022).Hemisphere GNSS A101 smart antenna user guide. Retrieved fromhttps://www.hemispheregnss.com/wp-content/uploads/2019/01/hemispheregnss_a101_userguide_875-0324-000_b1.pdf"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs11192317"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Kinzel P. Legleiter C. Filiano D. &Green C.(2022).Topographic LiDAR surveys of rivers in Alaska[Dataset].U.S. Geological Survey Data Release.https://doi.org/10.5066/P9RUOEH5",
+        "DOI": "10.5066/P9RUOEH5"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lane J. W. Dawson C. B. White E. A. &Fulton J. W.(2020).Non\u2010contact measurement of river bathymetry using sUAS radar: Recent developments and examples from the Northeastern United States. (pp.119\u2013122).https://doi.org/10.1190/iceg2019-031.1",
+        "DOI": "10.1190/iceg2019-031.1"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR023586"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs12081282"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs13224566"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Legleiter C. &Kinzel P.(2021b).Satellite video and field measurements of flow velocity acquired from the Tanana River in Alaska and used for particle image velocimetry (PIV)[Dataset].U.S. Geological Survey Data Release.https://doi.org/10.5066/P9ZY5LK1",
+        "DOI": "10.5066/P9ZY5LK1"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/frwa.2021.652213"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Legleiter C. Kinzel P. Laker M. &Conaway J.(2022).Digital orthophotos and field measurements of flow velocity from the Tanana and Nenana Rivers Alaska from August 2021[Dataset].U.S. Geological Survey Data Release.https://doi.org/10.5066/P968OENT",
+        "DOI": "10.5066/P968OENT"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11004-006-9056-6"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-25-5105-2021"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cageo.2013.02.001"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/ofr20161068"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "volume-title": "QRev\u2014Software for computation and quality assurance of acoustic Doppler current profiler moving\u2010boat streamflow measurements\u2014User's manual for version 2.8",
+        "author": "Mueller D. S.",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008WR006950"
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.3367"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs12020232"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/gmd-2020-187"
+      },
+      {
+        "key": "e_1_2_8_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecolmodel.2008.05.006"
+      },
+      {
+        "key": "e_1_2_8_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-2020-188"
+      },
+      {
+        "key": "e_1_2_8_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR029279"
+      },
+      {
+        "key": "e_1_2_8_39_1",
+        "unstructured": "SimActive. (2022).SimActive | High\u2010end mapping software. Retrieved fromhttps://www.simactive.com/?hsLang=en"
+      },
+      {
+        "key": "e_1_2_8_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/b22619-145"
+      },
+      {
+        "key": "e_1_2_8_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR020i009p01301"
+      },
+      {
+        "key": "e_1_2_8_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs12030384"
+      },
+      {
+        "key": "e_1_2_8_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2012jc008103"
+      },
+      {
+        "key": "e_1_2_8_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2016.06.012"
+      },
+      {
+        "key": "e_1_2_8_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5334/jors.bl"
+      },
+      {
+        "key": "e_1_2_8_46_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Thielicke W. &Stamhuis E. J.(2021).PIVlab \u2010 time\u2010resolved digital particle image velocimetry tool for MATLAB.Figshare Dataset 12.https://doi.org/10.6084/m9.figshare.1092508.v19",
+        "DOI": "10.6084/m9.figshare.1092508.v19"
+      },
+      {
+        "key": "e_1_2_8_47_1",
+        "unstructured": "TRDI. (2022).Teledyne marine RiverRay ADCP. Retrieved fromhttp://www.teledynemarine.com/riverray-adcp?ProductLineID=13"
+      },
+      {
+        "key": "e_1_2_8_48_1",
+        "unstructured": "U.S. Geological Survey. (2022).USGS water data for the nation: U.S. Geological survey national water information system database.https://doi.org/10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_8_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1657/1938-4246-43.4.632"
+      },
+      {
+        "key": "e_1_2_8_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00348-020-2897-9"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1029/2022WR033822",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1029/2022WR033822",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2022WR033822",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          18
+        ]
+      ],
+      "date-time": "2024-06-18T18:16:01Z",
+      "timestamp": 1718734561000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022WR033822"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          30
+        ]
+      ]
+    },
+    "references-count": 49,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            2
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2022WR033822"
+    ],
+    "URL": "https://doi.org/10.1029/2022wr033822",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          30
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2022-10-04",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-01-11",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-01-30",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2022WR033822"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2022WR033822",
+  "original_doi": "10.1029/2022WR033822"
+}

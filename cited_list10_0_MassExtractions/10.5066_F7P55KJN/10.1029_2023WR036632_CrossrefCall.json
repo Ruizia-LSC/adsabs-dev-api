@@ -1,0 +1,864 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          27
+        ]
+      ],
+      "date-time": "2026-06-27T00:57:46Z",
+      "timestamp": 1782521866191,
+      "version": "3.54.5"
+    },
+    "reference-count": 75,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "7",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              9
+            ]
+          ],
+          "date-time": "2024-07-09T00:00:00Z",
+          "timestamp": 1720483200000
+        },
+        "content-version": "am",
+        "delay-in-days": 8,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              9
+            ]
+          ],
+          "date-time": "2024-07-09T00:00:00Z",
+          "timestamp": 1720483200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 8,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          7
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Estimation of human water withdrawals is more important now than ever due to uncertain water supplies, population growth, and climate change. Fourteen percent of the total water withdrawal in the United States is used for public supply, typically including deliveries to domestic, commercial, and occasionally including industrial, irrigation, and thermoelectric water withdrawal. Stewards of water resources in the USA require estimates of water withdrawals to manage and plan for future demands and sustainable water supplies. This study compiled the most comprehensive conterminous United States water withdrawal data set to date and developed a machine learning framework for estimating public supply withdrawals and associated uncertainty for the period 2000\u20132020. The modeling approach provides service area resolution estimates to allow for annual and monthly water withdrawal estimation while incorporating a complex array of driving factors that include hydroclimatic, demographic, socioeconomic, geographic, and land use factors. Model results reveal highly variable and lognormally distributed per\u2010capita water withdrawal, spanning from 30 to 650 gallons per capita per day (GPCD), across community, regional, and national scales, with pronounced seasonal variations. Analysis of estimated withdrawal trends indicates that the national annual average withdrawal experienced a decline at a rate of 0.58 GPCD/year during the period from 2000 to 2020. Model interpretation reveals a complex interplay between public supply withdrawal and key predictors, including population size, warm\u2010season precipitation, counts of large buildings and houses, and areas of urban and commercial land use. The developed models can forecast future public supply driven by various climate, demographic, and socioeconomic scenarios.</jats:p>",
+    "DOI": "10.1029/2023wr036632",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          10
+        ]
+      ],
+      "date-time": "2024-07-10T03:20:22Z",
+      "timestamp": 1720581622000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 16,
+    "title": [
+      "Next Generation Public Supply Water Withdrawal Estimation for the Conterminous United States Using Machine Learning and Operational Frameworks"
+    ],
+    "prefix": "10.1029",
+    "volume": "60",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7576-3449",
+        "authenticated-orcid": false,
+        "given": "Ayman",
+        "family": "Alzraiee",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "California Water Science Center U.S. Geological Survey (USGS)  Sacramento CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6397-2403",
+        "authenticated-orcid": false,
+        "given": "Richard",
+        "family": "Niswonger",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "USGS Water Mission Area  Menlo Park CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Carol",
+        "family": "Luukkonen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "USGS Upper Midwest Water Science Center in Lansing  Lansing MI USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Josh",
+        "family": "Larsen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "California Water Science Center U.S. Geological Survey (USGS)  Sacramento CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8541-133X",
+        "authenticated-orcid": false,
+        "given": "Donald",
+        "family": "Martin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "California Water Science Center U.S. Geological Survey (USGS)  Sacramento CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Deidre",
+        "family": "Herbert",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "California Water Science Center U.S. Geological Survey (USGS)  Sacramento CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Cheryl",
+        "family": "Buchwald",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "USGS Upper Midwest Water Science Center in Lansing  Lansing MI USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5786-4091",
+        "authenticated-orcid": false,
+        "given": "Cheryl",
+        "family": "Dieter",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "USGS Maryland\u2010Delaware\u2010DC Water Science Center  Catonsville MD USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lisa",
+        "family": "Miller",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "USGS Colorado Water Science Center  San Diego CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jana",
+        "family": "Stewart",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "USGS Upper Midwest Water Science Center in Lansing  Lansing MI USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Natalie",
+        "family": "Houston",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "USGS Oklahoma\u2010Texas Water Science Center  Austin TX USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Scott",
+        "family": "Paulinski",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "California Water Science Center U.S. Geological Survey (USGS)  Sacramento CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kristen",
+        "family": "Valseth",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "USGS Oklahoma\u2010Texas Water Science Center  Austin TX USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          9
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/joc.3413"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/SSCI47803.2020.9308260"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/20964471.2018.1524344"
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2024.106133"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "first-page": "35",
+        "volume-title": "A comprehensive assessment of America\u2019s infrastructure",
+        "author": "American Society of Civil Engineers (ASCE)",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jclepro.2018.07.066"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2007WR006722"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/sdata.2018.214"
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "unstructured": "Bradley M.(2017).Guidelines for preparation of state water\u2010use estimates for 2015: USS Geological Survey Open\u2010File Report 2017\u20131029 54.https://pubs.er.usgs.gov/publication/ofr20171029"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "unstructured": "Buchwald C. Houston N. Stewart J. York B. &Valseth K.(2023).Public\u2010supply water service areas within the conterminous United States.https://catalog.data.gov/dataset/public\u2010supply\u2010water\u2010service\u2010areas\u2010within\u2010the\u2010conterminous\u2010united\u2010states\u20102017"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752\u20101688.13210"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752\u20101688.2011.00619.x"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR028627"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "volume-title": "Sampling techniques",
+        "author": "Cochran W. G.",
+        "year": "1977"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "volume-title": "Residential end uses of water, version 2",
+        "author": "DeOreo W. B.",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "article-title": "Estimated use of water in the United States in 2015",
+        "volume": "1441",
+        "author": "Dieter C. A.",
+        "year": "2018",
+        "journal-title": "Circular"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "volume-title": "Water use trends",
+        "author": "Donnelly K.",
+        "year": "2015"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "article-title": "Auto\u2010sklearn 2.0: The next generation",
+        "author": "Feurer M.",
+        "year": "2020",
+        "journal-title": "arXiv preprint arXiv:2007.04074"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/aos/1013203451"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(asce)0733\u20109496(2007)133:4(309)"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.energy.28.040202.122849"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2014GL062433"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021ef002278"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2010.04.005"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/cir1268"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "first-page": "2391",
+        "volume-title": "Climate change 2021: The physical science basis. Contribution of working group I to the sixth assessment report of the intergovernmental panel on climate change",
+        "author": "IPCC",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "article-title": "Key performance indicators for non\u2010revenue water",
+        "author": "Jernigan W.",
+        "year": "2019",
+        "journal-title": "American Water Works Association"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "volume-title": "Evaporative cooler water use. Publication 191045",
+        "author": "Karpisack M.",
+        "year": "1994"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "volume-title": "Estimated use of water in the United States in 2005 (No. 1344)",
+        "author": "Kenny J. F.",
+        "year": "2009"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev\u2010economics\u2010063016\u2010103651"
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s0004\u20103702(97)00043\u2010x"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.atmosres.2013.12.012"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2166/wcc.2018.096"
+      },
+      {
+        "key": "e_1_2_8_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18637/jss.v036.i11"
+      },
+      {
+        "key": "e_1_2_8_37_1",
+        "volume-title": "Proceedings of the AutoML workshop at ICML",
+        "author": "LeDell E.",
+        "year": "2020"
+      },
+      {
+        "key": "e_1_2_8_38_1",
+        "volume-title": "PyData Amsterdam",
+        "author": "Louppe G.",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_8_39_1",
+        "article-title": "A unified approach to interpreting model predictions",
+        "volume": "30",
+        "author": "Lundberg S. M.",
+        "year": "2017",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "e_1_2_8_40_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Luukkonen C. L. Alzraiee A. H. Larsen J. D. Martin D. J. Herbert D. M. Buchwald C. A. et al. (2023).Public supply water use reanalysis for the 2000\u20102020 period by HUC12 month and year for the conterminous United States: U.S[Dataset].Geological Survey Data Release.https://doi.org/10.5066/P9FUL880",
+        "DOI": "10.5066/P9FUL880"
+      },
+      {
+        "key": "e_1_2_8_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0202301"
+      },
+      {
+        "key": "e_1_2_8_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/wr021i004p00425"
+      },
+      {
+        "key": "e_1_2_8_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017wr021923"
+      },
+      {
+        "key": "e_1_2_8_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748\u20109326/ab9d39"
+      },
+      {
+        "key": "e_1_2_8_45_1",
+        "volume-title": "Estimated use of water in the United States in 2010 (No. 1405)",
+        "author": "Maupin M. A.",
+        "year": "2014"
+      },
+      {
+        "key": "e_1_2_8_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21105/joss.00501"
+      },
+      {
+        "key": "e_1_2_8_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR027751"
+      },
+      {
+        "key": "e_1_2_8_48_1",
+        "unstructured": "McNeil M.(2008).WaterSense program: Methodology for national water savings analysis model indoor residential water use."
+      },
+      {
+        "key": "e_1_2_8_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748\u20109326/8/1/015031"
+      },
+      {
+        "key": "e_1_2_8_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(asce)wr.1943\u20105452.0001471"
+      },
+      {
+        "key": "e_1_2_8_51_1",
+        "unstructured": "Microsoft Bing Maps Team. (2018).Computer generated building footprints for the United States. Retrieved fromhttps://github.com/microsoft/USBuildingFootprints"
+      },
+      {
+        "key": "e_1_2_8_52_1",
+        "volume-title": "Interpretable machine learning",
+        "author": "Molnar C.",
+        "year": "2020"
+      },
+      {
+        "key": "e_1_2_8_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5942/jawwa.2013.105.0107"
+      },
+      {
+        "key": "e_1_2_8_54_1",
+        "volume-title": "Estimating water use in the United States: A new paradigm for the national water\u2010use information program",
+        "author": "National Research Council",
+        "year": "2002"
+      },
+      {
+        "key": "e_1_2_8_55_1",
+        "volume-title": "Workshop on automatic machine learning",
+        "author": "Olson R. S.",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_8_56_1",
+        "unstructured": "Pachauri R. K. &Reisinger A.(2008).Climate change 2007. Synthesis report. Contribution of working groups I II and III to the fourth assessment report."
+      },
+      {
+        "key": "e_1_2_8_57_1",
+        "first-page": "2825",
+        "article-title": "Scikit\u2010learn: Machine learning in Python",
+        "volume": "12",
+        "author": "Pedregosa F.",
+        "year": "2011",
+        "journal-title": "The Journal of Machine Learning Research"
+      },
+      {
+        "key": "e_1_2_8_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2139/ssrn.3881402"
+      },
+      {
+        "key": "e_1_2_8_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748\u20109326/abb7ae"
+      },
+      {
+        "key": "e_1_2_8_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es2030774"
+      },
+      {
+        "key": "e_1_2_8_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016ef000511"
+      },
+      {
+        "key": "e_1_2_8_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecolecon.2008.11.012"
+      },
+      {
+        "key": "e_1_2_8_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/geosciences12010027"
+      },
+      {
+        "key": "e_1_2_8_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/jema.2002.0585"
+      },
+      {
+        "key": "e_1_2_8_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1058216"
+      },
+      {
+        "key": "e_1_2_8_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/1540496x.2023.2181663"
+      },
+      {
+        "key": "e_1_2_8_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0094628"
+      },
+      {
+        "key": "e_1_2_8_68_1",
+        "unstructured": "U.S. Census Bureau. (2022).Census Bureau releases estimates of undercount and overcount in the 2020 census. Retrieved fromhttps://www.census.gov/newsroom/press\u2010releases/2022/2020\u2010census\u2010estimates\u2010of\u2010undercount\u2010and\u2010overcount.html"
+      },
+      {
+        "key": "e_1_2_8_69_1",
+        "volume-title": "USGS water data for the Nation",
+        "author": "U.S. Geological Survey [USGS]",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_8_70_1",
+        "first-page": "25",
+        "volume-title": "Demographic turning points for the United States: Population projections for 2020 to 2060",
+        "author": "Vespa J.",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_8_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.289.5477.284"
+      },
+      {
+        "key": "e_1_2_8_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1471082x14561155"
+      },
+      {
+        "key": "e_1_2_8_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jclepro.2011.08.006"
+      },
+      {
+        "key": "e_1_2_8_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR024894"
+      },
+      {
+        "key": "e_1_2_8_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017wr021268"
+      },
+      {
+        "key": "e_1_2_8_76_1",
+        "unstructured": "Zillow Group Inc. (2021).Zillow Transaction and Assessment Dataset (ZTRAX). Retrieved fromhttps://www.zillow.com/ztrax/"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023WR036632",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023WR036632",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          2
+        ]
+      ],
+      "date-time": "2025-03-02T05:15:16Z",
+      "timestamp": 1740892516000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023WR036632"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          7
+        ]
+      ]
+    },
+    "references-count": 75,
+    "journal-issue": {
+      "issue": "7",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            7
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2023WR036632"
+    ],
+    "URL": "https://doi.org/10.1029/2023wr036632",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          7
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2023-11-02",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-06-27",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-07-09",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2023WR036632"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2023WR036632",
+  "original_doi": "10.1029/2023WR036632"
+}

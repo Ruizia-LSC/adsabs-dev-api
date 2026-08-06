@@ -1,0 +1,980 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          21
+        ]
+      ],
+      "date-time": "2026-05-21T06:49:36Z",
+      "timestamp": 1779346176020,
+      "version": "3.51.4"
+    },
+    "reference-count": 120,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "9",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              28
+            ]
+          ],
+          "date-time": "2023-08-28T00:00:00Z",
+          "timestamp": 1693180800000
+        },
+        "content-version": "am",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              28
+            ]
+          ],
+          "date-time": "2023-08-28T00:00:00Z",
+          "timestamp": 1693180800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "1854951"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "1854951"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Accurate soil moisture and streamflow data are an aspirational need of many hydrologically relevant fields. Model simulated soil moisture and streamflow hold promise but models require validation prior to application. Calibration methods are commonly used to improve model fidelity but misrepresentation of the true dynamics remains a challenge. In this study, we leverage soil parameter estimates from the Soil Survey Geographic (SSURGO) database and the probability mapping of SSURGO (POLARIS) to improve the representation of hydrologic processes in the Weather Research and Forecasting Hydrological modeling system (WRF\u2010Hydro) over a central California domain. Our results show WRF\u2010Hydro soil moisture exhibits increased correlation coefficients (\n                    <jats:italic>r</jats:italic>\n                    ), reduced biases, and increased Kling\u2010Gupta Efficiencies (KGEs) across seven in situ soil moisture observing stations after updating the model's soil parameters according to POLARIS. Compared to four well\u2010established soil moisture data sets including Soil Moisture Active Passive data and three Phase 2 North American Land Data Assimilation System land surface models, our POLARIS\u2010adjusted WRF\u2010Hydro simulations produce the highest mean KGE (0.69) across the seven stations. More importantly, WRF\u2010Hydro streamflow fidelity also increases, especially in the case where the model domain is set up with SSURGO\u2010informed total soil thickness. The magnitude and timing of peak flow events are better captured,\n                    <jats:italic>r</jats:italic>\n                    increases across nine United States Geological Survey stream gages, and the mean KGE across seven of the nine gages increases from 0.12 to 0.66. Our pre\u2010calibration parameter estimate approach, which is transferable to other spatially distributed hydrological models, can substantially improve a model's performance, helping reduce calibration efforts and computational costs.\n                  </jats:p>",
+    "DOI": "10.1029/2023wr034431",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          14
+        ]
+      ],
+      "date-time": "2023-08-14T23:24:52Z",
+      "timestamp": 1692055492000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 10,
+    "title": [
+      "Toward Improved Regional Hydrological Model Performance Using State\u2010Of\u2010The\u2010Science Data\u2010Informed Soil Parameters"
+    ],
+    "prefix": "10.1029",
+    "volume": "59",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7759-0377",
+        "authenticated-orcid": false,
+        "given": "Chuxuan",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Earth and Planetary Sciences Northwestern University  Evanston IL USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Guo",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Division of Hydrologic Sciences Desert Research Institute  Las Vegas NV USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8916-4372",
+        "authenticated-orcid": false,
+        "given": "Jiali",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Environmental Science Division Argonne National Laboratory  Lemont IL USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2065-4517",
+        "authenticated-orcid": false,
+        "given": "Daniel E.",
+        "family": "Horton",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Earth and Planetary Sciences Northwestern University  Evanston IL USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          28
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR031020"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsci.2012.01.008"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2017.03.010"
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2005.07.020"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s0022-1694(03)00229-4"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "volume-title": "TRIGRS: A Fortran program for transient rainfall infiltration and grid\u2010based regional slope\u2010stability analysis, version 2.0",
+        "author": "Baum R. L.",
+        "year": "2008"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2019.123944"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Berg A. &Sheffield J.(2018).Climate change and drought: The soil moisture perspective current climate change reports(Vol.4 pp.180\u2013191).https://doi.org/10.1007/s40641-018-0095-0",
+        "DOI": "10.1007/s40641-018-0095-0"
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0493(1997)125<2896:aotlsa>2.0.co;2"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Beven K.(2006).A manifesto for the equifinality thesis(Vol.320 pp.18\u201336).",
+        "DOI": "10.1016/j.jhydrol.2005.07.007"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2023.129176"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "article-title": "Data assimilation for streamflow forecasting using extreme learning machines and multilayer",
+        "volume": "56",
+        "author": "Boucher M. A.",
+        "year": "2020",
+        "journal-title": "perceptrons"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-25-105-2021"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2019.01.046"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "unstructured": "Campbell Scientific INC. (2021a).CS616 and CS625 water content reflectometer instruction manual. Retrieved fromhttps://psl.noaa.gov/data/obs/instruments/SoilWaterContent.pdf"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "unstructured": "Campbell Scientific INC. (2021b).CS615 water content reflectometer instruction manual. Retrieved fromhttps://s.campbellsci.com/documents/us/manuals/cs615.pdf"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jag.2015.06.011"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chaney N. W. Wood E. F. McBratney A. B. Hempel J. W. Nauman T. W. Brungard C. W. &Odgers N. P.(2016).POLARIS: A 30\u2010meter Probabilistic Soil Series Map of the Contiguous United States Geoderma(Vol.274 pp.54\u201367).https://doi.org/10.1016/j.geoderma.2016.03.025",
+        "DOI": "10.1016/j.geoderma.2016.03.025"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2018.05.008"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "first-page": "391",
+        "volume-title": "NCEP mesoscale Eta model",
+        "author": "Chen F.",
+        "year": "1997"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.geomorph.2007.03.017"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/ofr5627"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s40641-018-0093-2"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR020i006p00682"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Crow W. Kumar S. Bolten J. J. H. &Sciences E. S.(2012).On the Utility of Land Surface Models for Agricultural Drought Monitoring(Vol.16 pp.3451\u20133460).",
+        "DOI": "10.5194/hess-16-3451-2012"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Crow W. &Van denBerg M.(2010).An improved approach for estimating observation and model error parameters in soil moisture data assimilation 46.",
+        "DOI": "10.1029/2010WR009402"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Davy P. &Lague D. J.(2009).Fluvial erosion/transport equation of landscape evolution models revisited 114",
+        "DOI": "10.1029/2008JF001146"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "De Santis D. Biondi D. Crow W. Camici S. Modanesi S. Brocca L. &Massari C.(2021).Assimilation of satellite soil moisture products for river flow prediction: An extensive experiment in over 700 catchments throughout Europe 57:e2021WR029643.",
+        "DOI": "10.1029/2021WR029643"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10346-017-0895-7"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dottori F. Salamon P. Bianchi A. Alfieri L. Hirpa F. A. &Luc F.(2016).Development and evaluation of a framework for global flood hazard mapping(Vol.94 pp.87\u2013102).",
+        "DOI": "10.1016/j.advwatres.2016.05.002"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s003820000080"
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2005.07.031"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dy C. Y. &Fung J. C. H.(2016).Updated Global Soil Map for the Weather Research and Forecasting Model and Soil Moisture Initialization for the Noah Land Surface Model(Vol.121 pp.8777\u20138800).",
+        "DOI": "10.1002/2015JD024558"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2020.111914"
+      },
+      {
+        "key": "e_1_2_8_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0442(1999)012<3167:IOISWO>2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_8_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR024039"
+      },
+      {
+        "key": "e_1_2_8_38_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Friend A. D. &Kiang N. Y.(2005).Land Surface Model Development for the GISS GCM: Effects of Improved Canopy Physiology on Simulated Climate(Vol.18 pp.2883\u20132902).",
+        "DOI": "10.1175/JCLI3425.1"
+      },
+      {
+        "key": "e_1_2_8_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.10899"
+      },
+      {
+        "key": "e_1_2_8_40_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gallagher M. Doherty J. &Software. (2007).Parameter estimation and uncertainty analysis for a watershed model(Vol.22 pp.1000\u20131020).",
+        "DOI": "10.1016/j.envsoft.2006.06.007"
+      },
+      {
+        "key": "e_1_2_8_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0266-352X(99)00035-X"
+      },
+      {
+        "key": "e_1_2_8_42_1",
+        "unstructured": "Gochis D. J. Barlage M. Cabell R. Casali M. Dugger A. FitzGerald K. et\u00a0al. (2020).The WRF\u2010Hydro\u00ae modeling system technical description. Retrieved fromhttps://ral.ucar.edu/sites/default/files/public/WRFHydroV511TechnicalDescription.pdf"
+      },
+      {
+        "key": "e_1_2_8_43_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gong G. Wang L. Condon L. Shearman A. &Lall U.(2010).A simple framework for incorporating seasonal streamflow forecasts into existing water resource management practices(Vol.1 46 pp.574\u2013585).",
+        "DOI": "10.1111/j.1752-1688.2010.00435.x"
+      },
+      {
+        "key": "e_1_2_8_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.14332"
+      },
+      {
+        "key": "e_1_2_8_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2009.08.003"
+      },
+      {
+        "key": "e_1_2_8_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-018-38300-0"
+      },
+      {
+        "key": "e_1_2_8_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.8040"
+      },
+      {
+        "key": "e_1_2_8_48_1",
+        "first-page": "609",
+        "volume-title": "Moisture\u2010tension data for selected soils on experimental watersheds",
+        "author": "Holtan H. N.",
+        "year": "1968"
+      },
+      {
+        "key": "e_1_2_8_49_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Johnson K. &Sitar N.(1990).Hydrologic conditions leading to debris\u2010flow Initiation(Vol.27 pp.789\u2013801).",
+        "DOI": "10.1139/t90-092"
+      },
+      {
+        "key": "e_1_2_8_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-9326/11/5/054021"
+      },
+      {
+        "key": "e_1_2_8_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.pnsc.2009.08.001"
+      },
+      {
+        "key": "e_1_2_8_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jgrf.20148"
+      },
+      {
+        "key": "e_1_2_8_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.geoderma.2016.09.022"
+      },
+      {
+        "key": "e_1_2_8_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2012.01.011"
+      },
+      {
+        "key": "e_1_2_8_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WS006p0239"
+      },
+      {
+        "key": "e_1_2_8_56_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Koster R. D.(2004).Realistic initialization of land surface states: Impacts on subseasonal forecast skill(Vol.5).",
+        "DOI": "10.1175/JHM-387.1"
+      },
+      {
+        "key": "e_1_2_8_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/2009JCLI2832"
+      },
+      {
+        "key": "e_1_2_8_58_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Koster R. D. Mahanama S. P. P. Yamada T. J. Balsamo G. Berg A. A. Boisserie M. et\u00a0al. (2010).Contribution of land surface initialization to subseasonal forecast skill: First results from a multi\u2010model experiment.",
+        "DOI": "10.1029/2009GL041677"
+      },
+      {
+        "key": "e_1_2_8_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0309-1708(94)90024-8"
+      },
+      {
+        "key": "e_1_2_8_60_1",
+        "volume-title": "Energy and water balance calculations in the Mosaic LSM",
+        "author": "Koster R. D.",
+        "year": "1996"
+      },
+      {
+        "key": "e_1_2_8_61_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kumar S. V. Dirmeyer P. A. Peters\u2010Lidard C. D. Bindlish R. &Bolten J. E.(2018).Information theoretic evaluation of satellite soil moisture retrievals(pp.392\u2013400).",
+        "DOI": "10.1016/j.rse.2017.10.016"
+      },
+      {
+        "key": "e_1_2_8_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM-D-19-0100.1"
+      },
+      {
+        "key": "e_1_2_8_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/jhm-d-18-0064.1"
+      },
+      {
+        "key": "e_1_2_8_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR029867"
+      },
+      {
+        "key": "e_1_2_8_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2018.05.064"
+      },
+      {
+        "key": "e_1_2_8_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2011.08.012"
+      },
+      {
+        "key": "e_1_2_8_67_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Legates D. R. Mahmood R. Levia D. F. DeLiberty T. L. Quiring S. M. Houser C. &Nelson F. P. G.(2011).Soil moisture: A central and unifying theme in physical geography(Vol.35 pp.65\u201386).",
+        "DOI": "10.1177/0309133310386514"
+      },
+      {
+        "key": "e_1_2_8_68_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Li C.(2022).Data\u2010informed calibration of WRF\u2010Hydro data1[Dataset].https://doi.org/10.5281/zenodo.7487179",
+        "DOI": "10.5281/zenodo.7487179"
+      },
+      {
+        "key": "e_1_2_8_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/nhess-22-2317-2022"
+      },
+      {
+        "key": "e_1_2_8_70_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liang X. Lettenmaier D. P. Wood E. F. &Burges S. G. R. A.(1994).A simple hydrologically based model of land surface water and energy fluxes for general circulation models(Vol.99 pp.14415\u201314428).",
+        "DOI": "10.1029/94JD00483"
+      },
+      {
+        "key": "e_1_2_8_71_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Loizu J. Massari C. Alvarez\u2010Mozos J. Tarpanelli A. Brocca L. &Casali J. J. A. W. R.(2018).On the assimilation set\u2010up of ASCAT soil moisture data for improving streamflow catchment simulation(Vol.111 pp.86\u2013104).",
+        "DOI": "10.1016/j.advwatres.2017.10.034"
+      },
+      {
+        "key": "e_1_2_8_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2019.111215"
+      },
+      {
+        "key": "e_1_2_8_73_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Massari C. Brocca L. Moramarco T. Tramblay Y. &Lescot J.\u2010F. W. R.(2014).Potential of soil moisture observations in flood modelling: Estimating initial conditions and correcting rainfall(Vol.74 pp.44\u201353).",
+        "DOI": "10.1016/j.advwatres.2014.08.004"
+      },
+      {
+        "key": "e_1_2_8_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-14-1773-2010"
+      },
+      {
+        "key": "e_1_2_8_75_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Miller D. A. &White R.(1998).A conterminous United States multilayer soil characteristics dataset for regional climate and hydrology modeling(Vol.2 pp.1\u201326).",
+        "DOI": "10.1175/1087-3562(1998)002<0001:ACUSMS>2.3.CO;2"
+      },
+      {
+        "key": "e_1_2_8_76_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mohanty B. P. Cosh M. H. Lakshmi V. &Montzka C.(2017).Soil Moisture Remote Sensing: State\u2010of\u2010the\u2010Science(Vol.16).https://doi.org/10.2136/vzj2016.10.0105",
+        "DOI": "10.2136/vzj2016.10.0105"
+      },
+      {
+        "key": "e_1_2_8_77_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Narasimhan B. &Srinivasan R.(2005).Development and evaluation of soil moisture deficit index (SMDI) and evapotranspiration deficit index (ETDI) for agricultural drought monitoring (Vol.133(1\u20134) pp.69\u201388).https://doi.org/10.1016/j.agrformet.2005.07.012",
+        "DOI": "10.1016/j.agrformet.2005.07.012"
+      },
+      {
+        "key": "e_1_2_8_78_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "NCEP/EMC(2012).NLDAS Noah land surface model L4 hourly 0.125 x 0.125 degree V002NASA/GSFC/HSL edited by D. Mocko[Dataset].Goddard Earth Sciences Data and Information Services Center (GES DISC).https://doi.org/10.5067/47Z13FNQODKV",
+        "DOI": "10.5067/47Z13FNQODKV"
+      },
+      {
+        "key": "e_1_2_8_79_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "NCEP/EMC(2009).NLDAS mosaic land surface model L4 hourly 0.125 x 0.125 degree V002 NASA/GSFC/HSL edited by D. Mocko[Dataset].Goddard Earth Sciences Data and Information Services Center (GES DISC).https://doi.org/10.5067/EN4MBWTCENE5",
+        "DOI": "10.5067/EN4MBWTCENE5"
+      },
+      {
+        "key": "e_1_2_8_80_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "NCEP/EMC(2014).NLDAS VIC land surface model L4 hourly 0.125 x 0.125 degree V002 NASA/GSFC/HSL edited by D. Mocko[Dataset].Goddard Earth Sciences Data and Information Services Center (GES DISC).https://doi.org/10.5067/ELBDAPAKNGJ9",
+        "DOI": "10.5067/ELBDAPAKNGJ9"
+      },
+      {
+        "key": "e_1_2_8_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2010JD015139"
+      },
+      {
+        "key": "e_1_2_8_82_1",
+        "unstructured": "NOAA Physical Sciences Laboratory (PSL): Surface Meteorology and Physics Data.NOAA[Dataset].https://psl.noaa.gov/data/obs/datadisplay/"
+      },
+      {
+        "key": "e_1_2_8_83_1",
+        "first-page": "110",
+        "volume-title": "Calibration of selected infiltration equations for the Georgia Coastal Plain",
+        "author": "Rawls W.",
+        "year": "1976"
+      },
+      {
+        "key": "e_1_2_8_84_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11069-006-9095-9"
+      },
+      {
+        "key": "e_1_2_8_85_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2012WR013442"
+      },
+      {
+        "key": "e_1_2_8_86_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Reichle R. De Lannoy G. Koster R. D. Crow W. T. Kimball J. S. &Liu Q.(2021).SMAP L4 global 3\u2010hourly 9 km EASE\u2010grid surface and root zone soil moisture Analysis update version 6[Dataset].NASA National Snow and Ice Data Center Distributed Active Archive Center.https://doi.org/10.5067/6P2EV47VMYPC",
+        "DOI": "10.5067/6P2EV47VMYPC"
+      },
+      {
+        "key": "e_1_2_8_87_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Reichle R. De Lannoy G. Koster R. D. Crow W. T. Kimball J. S. Liu Q. &Bechtold M.(2022).SMAP L4 global 3\u2010hourly 9 km EASE\u2010grid surface and root zone soil moisture analysis update version 7[Dataset].NASA National Snow and Ice Data Center Distributed Active Archive Center.https://doi.org/10.5067/LWJ6TF5SZRG3",
+        "DOI": "10.5067/LWJ6TF5SZRG3"
+      },
+      {
+        "key": "e_1_2_8_88_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/jhm-d-17-0063.1"
+      },
+      {
+        "key": "e_1_2_8_89_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rosenzweig C. Tubiello F. N. Goldberg R. Mills E. &Bloomfield J.(2002).Increased crop damage in the US from excess precipitation under climate change(Vol.12).",
+        "DOI": "10.1016/S0959-3780(02)00008-0"
+      },
+      {
+        "key": "e_1_2_8_90_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.earscirev.2010.02.004"
+      },
+      {
+        "key": "e_1_2_8_91_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/grl.50956"
+      },
+      {
+        "key": "e_1_2_8_92_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shangguan W. Dai Y. Duan Q. Liu B. &Yuan H.(2014).A global soil data set for earth system modeling(Vol.6 pp.249\u2013263).https://doi.org/10.1002/2013MS000293",
+        "DOI": "10.1002/2013MS000293"
+      },
+      {
+        "key": "e_1_2_8_93_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2017.01.010"
+      },
+      {
+        "key": "e_1_2_8_94_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2022.128991"
+      },
+      {
+        "key": "e_1_2_8_95_1",
+        "unstructured": "Soil Survey Staff. (2021).Natural resources conservation service[Dataset].United States Department of Agriculture. Web Soil Survey. Retrieved fromhttps://websoilsurvey.nrcs.usda.gov/"
+      },
+      {
+        "key": "e_1_2_8_96_1",
+        "unstructured": "Sweeney D. &Robertson P.(1979).A fundamental approach to slope stability problems in Hong Kong. Hong Kong Engineer."
+      },
+      {
+        "key": "e_1_2_8_97_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019GL083623"
+      },
+      {
+        "key": "e_1_2_8_98_1",
+        "first-page": "1",
+        "volume-title": "ASABE Annual International Meeting",
+        "author": "Tavakol A.",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_8_99_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2019.05.006"
+      },
+      {
+        "key": "e_1_2_8_100_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "U.S. Geological Survey (USGS). (2016).National water information system data[Dataset].USGS Water Data for the Nation USGS.https://doi.org/10.5066/F7P55KJN",
+        "DOI": "10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_8_101_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2020.111740"
+      },
+      {
+        "key": "e_1_2_8_102_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015wr018185"
+      },
+      {
+        "key": "e_1_2_8_103_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2011.10.015"
+      },
+      {
+        "key": "e_1_2_8_104_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/gmd-12-3523-2019"
+      },
+      {
+        "key": "e_1_2_8_105_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/nhess-19-1129-2019"
+      },
+      {
+        "key": "e_1_2_8_106_1",
+        "unstructured": "Western Regional Climate Center. (2021).Current WRCC weather data plots[Dataset]. Retrieved fromhttps://wrcc.dri.edu/weather/"
+      },
+      {
+        "key": "e_1_2_8_107_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13031/2013.34909"
+      },
+      {
+        "key": "e_1_2_8_108_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM-D-14-0096.1"
+      },
+      {
+        "key": "e_1_2_8_109_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011JD016051"
+      },
+      {
+        "key": "e_1_2_8_110_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2014.02.027"
+      },
+      {
+        "key": "e_1_2_8_111_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xiang T. Vivoni E. R. Gochis D. J. &Mascaro G.(2017).On the diurnal cycle of surface energy fluxes in the North American monsoon region using the WRF\u2010Hydro modeling system (Vol.122(17) pp.9024\u20139049).https://doi.org/10.1002/2017JD026472",
+        "DOI": "10.1002/2017JD026472"
+      },
+      {
+        "key": "e_1_2_8_112_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2020.112028"
+      },
+      {
+        "key": "e_1_2_8_113_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0493(1984)112<0474:TEOSMO>2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_8_114_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yu G. Wright D. B. &Li Z.(2020).The upper tail of precipitation in convection\u2010permitting regional climate models and their utility in nonstationary rainfall and flood frequency Analysis(Vol.8).https://doi.org/10.1029/2020EF001613.e2020EF001613",
+        "DOI": "10.1029/2020EF001613"
+      },
+      {
+        "key": "e_1_2_8_115_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2015.01.042"
+      },
+      {
+        "key": "e_1_2_8_116_1",
+        "article-title": "Microbial soil respiration and its dependency on carbon inputs",
+        "volume": "13",
+        "author": "Yuste J.",
+        "year": "2007",
+        "journal-title": "soil temperature, and moisture"
+      },
+      {
+        "key": "e_1_2_8_117_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/BAMS-D-14-00174.1"
+      },
+      {
+        "key": "e_1_2_8_118_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/2011BAMS-D-11-00047.1"
+      },
+      {
+        "key": "e_1_2_8_119_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM-D-13-0163.1"
+      },
+      {
+        "key": "e_1_2_8_120_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2011.12.004"
+      },
+      {
+        "key": "e_1_2_8_121_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11269-015-1011-1"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023WR034431",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023WR034431",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          12
+        ]
+      ],
+      "date-time": "2023-10-12T00:19:17Z",
+      "timestamp": 1697069957000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023WR034431"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          28
+        ]
+      ]
+    },
+    "references-count": 120,
+    "journal-issue": {
+      "issue": "9",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            9
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2023WR034431"
+    ],
+    "URL": "https://doi.org/10.1029/2023wr034431",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.22541/essoar.167340706.60948782/v1",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          28
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2023-01-03",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-08-07",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-08-28",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2023WR034431"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2023WR034431",
+  "original_doi": "10.1029/2023WR034431"
+}

@@ -1,0 +1,708 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          30
+        ]
+      ],
+      "date-time": "2025-07-30T10:34:05Z",
+      "timestamp": 1753871645353,
+      "version": "3.41.2"
+    },
+    "reference-count": 74,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              4,
+              29
+            ]
+          ],
+          "date-time": "2022-04-29T00:00:00Z",
+          "timestamp": 1651190400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001691",
+        "name": "Japan Society for the Promotion of Science",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "JP21K05828",
+          "JP15K07646",
+          "JP23580333"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "JP21K05828",
+              "JP15K07646",
+              "JP23580333"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001691",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Accurate estimates of riverine constituent loads are essential for water pollution control and erosion control in watersheds, but an accurate estimation method for commonly employed water quality monitoring strategies, such as calendar\u2010based sampling with high\u2010flow sampling, has not been established. Therefore, we propose methods for both unbiased load estimation and confidence interval construction for annual riverine loads using the Horvitz\u2010Thompson estimator based on limited samples (12 to 20 per year) collected with commonly used water quality monitoring strategies. In addition, we propose an uncertainty reduction method to calculate efficient confidence intervals using probability resampling based on a simple rating curve due to the small sample sizes. The effectiveness of the proposed method is verified by load estimates based on 150 annual data sets of daily pairs of discharge and concentration observations of six water quality parameters from different watersheds and years. The tested sampling strategies include random sampling over time as a proxy for calendar\u2010based sampling, random sampling with high\u2010flow sampling, and flow\u2010proportional sampling. The results show that the proposed methods provide unbiased load estimates for all the data sets and appropriate confidence intervals. The uncertainty reduction in the confidence interval widths obtained with probability resampling is effective for calendar\u2010based sampling. We also explain the importance of defining proper sampling probabilities for load estimation based on samples with missing observations. The proposed method can be used to evaluate and improve existing water quality monitoring strategies for more efficient load estimation and the retrieval of accurate load estimates from existing data sets.</jats:p>",
+    "DOI": "10.1029/2022wr031941",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          22
+        ]
+      ],
+      "date-time": "2022-04-22T16:10:03Z",
+      "timestamp": 1650643803000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Unbiased Estimates and Confidence Intervals of Riverine Loads for Low\u2010Frequency Water Quality Monitoring Strategies"
+    ],
+    "prefix": "10.1029",
+    "volume": "58",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-4753-4515",
+        "authenticated-orcid": false,
+        "given": "Akio",
+        "family": "Tada",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Graduate School of Agricultural Science Kobe University  Kobe Japan"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1941-7204",
+        "authenticated-orcid": false,
+        "given": "Haruya",
+        "family": "Tanakamaru",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Graduate School of Agricultural Science Kobe University  Kobe Japan"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          29
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_10_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/es14-00517.1"
+      },
+      {
+        "key": "e_1_2_10_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2166/nh.2010.113"
+      },
+      {
+        "key": "e_1_2_10_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-0-12-811848-1.00005-4"
+      },
+      {
+        "key": "e_1_2_10_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2013.09.001"
+      },
+      {
+        "key": "e_1_2_10_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ecs2.1298"
+      },
+      {
+        "key": "e_1_2_10_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.6147"
+      },
+      {
+        "key": "e_1_2_10_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-88-470-1386-5_5"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_2_10_9_1",
+        "first-page": "27",
+        "article-title": "Some uses of computers in operational research",
+        "volume": "31",
+        "author": "Beale E.",
+        "year": "1962",
+        "journal-title": "Industrielle Organisation"
+      },
+      {
+        "key": "e_1_2_10_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-0-387-45528-0"
+      },
+      {
+        "key": "e_1_2_10_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2011.05.020"
+      },
+      {
+        "key": "e_1_2_10_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/sir20155133"
+      },
+      {
+        "volume-title": "Sampling techniques",
+        "year": "1977",
+        "author": "Cochran W. G.",
+        "key": "e_1_2_10_13_1"
+      },
+      {
+        "key": "e_1_2_10_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR025i005p00937"
+      },
+      {
+        "volume-title": "Goodness\u2010of\u2010Fit Techniques",
+        "year": "1986",
+        "author": "D'Agostino R. B.",
+        "key": "e_1_2_10_15_1"
+      },
+      {
+        "issue": "2",
+        "key": "e_1_2_10_16_1",
+        "first-page": "12",
+        "article-title": "Riverine fluxes of pollutants: Monitoring strategy first, calculation methods second",
+        "volume": "4",
+        "author": "De Vries A.",
+        "year": "1994",
+        "journal-title": "European Water Management"
+      },
+      {
+        "key": "e_1_2_10_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.1983.10478017"
+      },
+      {
+        "key": "e_1_2_10_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4899-4541-9"
+      },
+      {
+        "volume-title": "Methods and quality assurance for Chesapeake bay water quality monitoring programs, CBP/TRS\u2010319\u201017",
+        "year": "2017",
+        "author": "Environmental Protection Agency (EP) Chesapeake Bay Program",
+        "key": "e_1_2_10_19_1"
+      },
+      {
+        "key": "e_1_2_10_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR022i001p00074"
+      },
+      {
+        "key": "e_1_2_10_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR022i013p02123"
+      },
+      {
+        "key": "e_1_2_10_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/9780203498880"
+      },
+      {
+        "volume-title": "U.S. Geological Survey techniques of water\u2010resources Investigations",
+        "year": "1970",
+        "author": "Guy H. P.",
+        "key": "e_1_2_10_23_1"
+      },
+      {
+        "key": "e_1_2_10_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-94-009-5819-7"
+      },
+      {
+        "key": "e_1_2_10_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/aoms/1177731356"
+      },
+      {
+        "volume-title": "Heidelberg University National Center for Water Quality Research Tributary data download",
+        "year": "2020",
+        "author": "Heidelberg University.",
+        "key": "e_1_2_10_26_1"
+      },
+      {
+        "key": "e_1_2_10_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jawr.12195"
+      },
+      {
+        "key": "e_1_2_10_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/tm4A10"
+      },
+      {
+        "key": "e_1_2_10_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2010.00482.x"
+      },
+      {
+        "key": "e_1_2_10_30_1",
+        "first-page": "273",
+        "article-title": "The use of instrumentally collected composite samples to estimate the annual fluxes of suspended sediment and sediment associated chemical constituents",
+        "volume": "337",
+        "author": "Horowitz A. J.",
+        "year": "2010",
+        "journal-title": "Sediment Dynamics for a Changing Future"
+      },
+      {
+        "key": "e_1_2_10_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es304058q"
+      },
+      {
+        "key": "e_1_2_10_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/Hyp.10172"
+      },
+      {
+        "key": "e_1_2_10_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.1952.10483446"
+      },
+      {
+        "volume-title": "Quality control handbook for pilot watershed studies",
+        "year": "1977",
+        "author": "International Reference Group on Great Lakes Pollution from Land Use Activities & Whitt, D.M.",
+        "key": "e_1_2_10_34_1"
+      },
+      {
+        "key": "e_1_2_10_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2012.00684.x"
+      },
+      {
+        "key": "e_1_2_10_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10661-020-8223-4"
+      },
+      {
+        "key": "e_1_2_10_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-0-387-93839-4"
+      },
+      {
+        "key": "e_1_2_10_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.1986.tb00744.x"
+      },
+      {
+        "key": "e_1_2_10_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR022i013p02121"
+      },
+      {
+        "key": "e_1_2_10_40_1",
+        "first-page": "133",
+        "article-title": "A method of sample selection providing unbiased ratio estimates",
+        "volume": "33",
+        "author": "Lahiri D. B.",
+        "year": "1951",
+        "journal-title": "Bulletin Institut International de Statistique"
+      },
+      {
+        "key": "e_1_2_10_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/sir20195084"
+      },
+      {
+        "key": "e_1_2_10_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2016.08.059"
+      },
+      {
+        "volume-title": "Methods for computing water\u2010quality loads at sites: U.S. Geological Survey national water quality network Open\u2010File Report",
+        "year": "2017",
+        "author": "Lee C. J.",
+        "key": "e_1_2_10_43_1"
+      },
+      {
+        "key": "e_1_2_10_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2018.12.063"
+      },
+      {
+        "key": "e_1_2_10_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.10574"
+      },
+      {
+        "key": "e_1_2_10_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/9780429298899"
+      },
+      {
+        "key": "e_1_2_10_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/c3em30777h"
+      },
+      {
+        "key": "e_1_2_10_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/272991.272995"
+      },
+      {
+        "key": "e_1_2_10_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.9384"
+      },
+      {
+        "key": "e_1_2_10_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017wr021654"
+      },
+      {
+        "key": "e_1_2_10_51_1",
+        "first-page": "136",
+        "volume-title": "Water\u2010quality trends in the Nation\u2019s rivers and streams, 1972\u20102012\u2014Data preparation, statistical methods, and trend results (ver. 2.0",
+        "author": "Oelsner G. P.",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_10_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4612-2856-1_10"
+      },
+      {
+        "key": "e_1_2_10_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/wr025i006p01379"
+      },
+      {
+        "volume-title": "Sampling theory",
+        "year": "1968",
+        "author": "Raj D.",
+        "key": "e_1_2_10_54_1"
+      },
+      {
+        "key": "e_1_2_10_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-11-863-2007"
+      },
+      {
+        "key": "e_1_2_10_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2289460"
+      },
+      {
+        "key": "e_1_2_10_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/tm4A5"
+      },
+      {
+        "key": "e_1_2_10_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.6057"
+      },
+      {
+        "volume-title": "Daily water quality data sets of the nine U.S. Watersheds",
+        "year": "2021",
+        "author": "Tada A.",
+        "key": "e_1_2_10_59_1"
+      },
+      {
+        "key": "e_1_2_10_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020wr028170"
+      },
+      {
+        "volume-title": "Tools for Statistical Inference",
+        "year": "2006",
+        "author": "Tanner M. A.",
+        "key": "e_1_2_10_61_1"
+      },
+      {
+        "key": "e_1_2_10_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR021i009p01381"
+      },
+      {
+        "key": "e_1_2_10_63_1",
+        "first-page": "315",
+        "article-title": "Measuring sediment yields of storms using PSALT. Sediment Budgets",
+        "volume": "174",
+        "author": "Thomas R. B.",
+        "year": "1988",
+        "journal-title": "IAHS Publ. no."
+      },
+      {
+        "key": "e_1_2_10_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2737/PSW-GTR-114"
+      },
+      {
+        "key": "e_1_2_10_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/92wr02711"
+      },
+      {
+        "key": "e_1_2_10_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-1694(95)02699-p"
+      },
+      {
+        "key": "e_1_2_10_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1907382"
+      },
+      {
+        "volume-title": "Monitoring large rivers in the National stream quality accounting Network (NASQAN). U.S. Geological Survey information Sheet, 2pp",
+        "year": "2009",
+        "author": "U.S. Geological Survey",
+        "key": "e_1_2_10_68_1"
+      },
+      {
+        "volume-title": "National water information system data.available on the World Wide Web (USGS water data for the nation)",
+        "year": "2016",
+        "author": "U.S. Geological Survey",
+        "key": "e_1_2_10_69_1"
+      },
+      {
+        "volume-title": "Methods and glossary (network information) in tracking water quality in U.S. streams and rivers, USGS national water quality network data, water\u2010quality loads, and trends",
+        "year": "2021",
+        "author": "U.S. Geological Survey",
+        "key": "e_1_2_10_70_1"
+      },
+      {
+        "key": "e_1_2_10_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/jeegav.0001047"
+      },
+      {
+        "key": "e_1_2_10_72_1",
+        "first-page": "177",
+        "article-title": "The reliability of suspended sediment load data",
+        "volume": "133",
+        "author": "Walling D. E.",
+        "year": "1981",
+        "journal-title": "Erosion and Sediment Transport Measurement"
+      },
+      {
+        "key": "e_1_2_10_73_1",
+        "article-title": "Common implementation strategy for the water framework directive (2000/60/EC)",
+        "volume": "7",
+        "author": "Water Framework Directive",
+        "year": "2003",
+        "journal-title": "Guidance Document"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_2_10_74_1",
+        "first-page": "1",
+        "article-title": "Comparison of methods for estimating sediment and nitrogen loads from a small agricultural watershed",
+        "volume": "49",
+        "author": "Zamyadi A.",
+        "year": "2007",
+        "journal-title": "Canadian Biosystems Engineering"
+      },
+      {
+        "key": "e_1_2_10_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019wr025338"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1029/2022WR031941",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1029/2022WR031941",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2022WR031941",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          23
+        ]
+      ],
+      "date-time": "2023-08-23T21:21:47Z",
+      "timestamp": 1692825707000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022WR031941"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          29
+        ]
+      ]
+    },
+    "references-count": 74,
+    "journal-issue": {
+      "issue": "5",
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            5
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2022WR031941"
+    ],
+    "URL": "https://doi.org/10.1029/2022wr031941",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0043-1397"
+      },
+      {
+        "type": "electronic",
+        "value": "1944-7973"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          29
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2022-01-05",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2022-04-18",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2022-04-29",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2022WR031941"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2022WR031941",
+  "original_doi": "10.1029/2022WR031941"
+}

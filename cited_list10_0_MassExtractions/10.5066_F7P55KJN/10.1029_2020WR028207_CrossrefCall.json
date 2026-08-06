@@ -1,0 +1,762 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          10
+        ]
+      ],
+      "date-time": "2026-04-10T08:53:23Z",
+      "timestamp": 1775811203721,
+      "version": "3.50.1"
+    },
+    "reference-count": 74,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              26
+            ]
+          ],
+          "date-time": "2021-04-26T00:00:00Z",
+          "timestamp": 1619395200000
+        },
+        "content-version": "am",
+        "delay-in-days": 25,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              26
+            ]
+          ],
+          "date-time": "2021-04-26T00:00:00Z",
+          "timestamp": 1619395200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 25,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          4
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Groundwater supplies 50% of drinking water worldwide and 30% in the United States. Geogenic and anthropogenic contaminants can, however, compromise water quality, thus limiting groundwater availability. Reduction/oxidation (redox) processes and redox conditions affect groundwater quality by influencing the mobility and transport of common geogenic and anthropogenic contaminants. In the glacial aquifer system, northern United States (GLAC, 1.87 million km<jats:sup>2</jats:sup>), groundwater with high arsenic or manganese concentration is associated with reducing conditions and high nitrate with oxidizing conditions. This study uses machine learning to identify the relative influence of drivers of redox conditions (e.g., residence time vs. reactivity) across the glacial landscape. We developed three\u2010dimensional boosted regression tree models to predict redox conditions using the likelihood of low dissolved oxygen or high iron as indicators of anoxic conditions. Results indicate that variation in redox condition is controlled primarily by residence time (e.g., groundwater age and relative depth) and to a lesser extent by geochemical reactivity (e.g., subsurface contact time, soil carbon). Older water and deeper wells, along with more water storage or slower water movement was associated with higher probability of anoxic conditions. Mapped model results illustrate regions where anoxic redox conditions may mobilize geogenic contaminants or oxic conditions may limit denitrification potential. Results may also provide simplified redox input for process or predictive models of, for example, arsenic, manganese, or nitrate. Machine learning modeling methods can lead to improved understanding of contaminant occurrence and what drives redox conditions, and the methods may be transferable to other settings.</jats:p>",
+    "DOI": "10.1029/2020wr028207",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          24
+        ]
+      ],
+      "date-time": "2021-02-24T04:41:18Z",
+      "timestamp": 1614141678000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 35,
+    "title": [
+      "Machine Learning Predicted Redox Conditions in the Glacial Aquifer System, Northern Continental United States"
+    ],
+    "prefix": "10.1029",
+    "volume": "57",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1117-2866",
+        "authenticated-orcid": false,
+        "given": "M. L.",
+        "family": "Erickson",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Mounds View MN USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1414-3024",
+        "authenticated-orcid": false,
+        "given": "S. M.",
+        "family": "Elliott",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Mounds View MN USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3858-3964",
+        "authenticated-orcid": false,
+        "given": "C. J.",
+        "family": "Brown",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  East Hartford CT USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1818-355X",
+        "authenticated-orcid": false,
+        "given": "P. E.",
+        "family": "Stackelberg",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Troy NY USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6195-7699",
+        "authenticated-orcid": false,
+        "given": "K. M.",
+        "family": "Ransom",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Sacramento CA USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6998-7267",
+        "authenticated-orcid": false,
+        "given": "J. E.",
+        "family": "Reddy",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Ithaca NY USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          26
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/sir20085015"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2007WR006000"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/sir20155105"
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR025908"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10040-001-0183-3"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10040-017-1550-z"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/ss/1009213726"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "volume-title": "Classification and regression trees, The Wadsworth statistics/probability series",
+        "author": "Breiman L.",
+        "year": "1984"
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/e79-002"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/94WR02525"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017WR020863"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/sir20085227"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/cir1441"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2656.2008.01390.x"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0206004"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "volume-title": "Groundwater data, predictor variables, and rasters used for predicting redox in the glacial aquifer, northern continental United States: U.S. Geological Survey data release",
+        "author": "Elliott S. M.",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "volume-title": "ArcGIS release 10.5: Redlands, California",
+        "author": "Environmental Systems Research Institute (ESRI).",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-6584.2005.00053.x"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR023106"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2019.04.362"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2019.133735"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/sir20085066"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2015.11.023"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rstb.2003.1380"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/aos/1013203451"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017WR022012"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "volume-title": "Partial dependance plots",
+        "author": "Greenwell B.",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "volume-title": "Gbm: Generalized boosted regression models version 2.1.5",
+        "author": "Greenwell B.",
+        "year": "2019"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/ds1090"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.11181"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Inglett P. W. Reddy K. R. &Corstanje R.(2005).Anaerobic soils. InH.Daniel(Ed.) Encyclopedia of soils in the environment(pp.72\u201378).Oxford UK:Elsevier.",
+        "DOI": "10.1016/B0-12-348530-4/00178-8"
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2006WR005663"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2017.07.018"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/ofr20091004"
+      },
+      {
+        "key": "e_1_2_8_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR023939"
+      },
+      {
+        "key": "e_1_2_8_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/92WR00252"
+      },
+      {
+        "key": "e_1_2_8_38_1",
+        "volume-title": "Caret: Classification and Regression Training. R package version 6.0\u201086",
+        "author": "Kuhn M.",
+        "year": "2020"
+      },
+      {
+        "key": "e_1_2_8_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4614-6849-3"
+      },
+      {
+        "key": "e_1_2_8_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.5b02477"
+      },
+      {
+        "key": "e_1_2_8_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es1032376"
+      },
+      {
+        "key": "e_1_2_8_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es202673n"
+      },
+      {
+        "key": "e_1_2_8_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.8b04055"
+      },
+      {
+        "key": "e_1_2_8_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2007WR006252"
+      },
+      {
+        "key": "e_1_2_8_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-6584.2007.00385.x"
+      },
+      {
+        "key": "e_1_2_8_46_1",
+        "volume-title": "Interpretable machine learning: A guide for making black box models explainable",
+        "author": "Molnar C.",
+        "year": "2020"
+      },
+      {
+        "key": "e_1_2_8_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.gca.2017.05.018"
+      },
+      {
+        "key": "e_1_2_8_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2015.10.025"
+      },
+      {
+        "key": "e_1_2_8_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2018.02.029"
+      },
+      {
+        "key": "e_1_2_8_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1072375"
+      },
+      {
+        "key": "e_1_2_8_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.1700935"
+      },
+      {
+        "key": "e_1_2_8_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2001WR000396"
+      },
+      {
+        "key": "e_1_2_8_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2017.05.192"
+      },
+      {
+        "key": "e_1_2_8_54_1",
+        "volume-title": "Gbm: Generalized boosted regression models. R package version 2.1",
+        "author": "Ridgeway G.",
+        "year": "2013"
+      },
+      {
+        "key": "e_1_2_8_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.watres.2008.07.020"
+      },
+      {
+        "key": "e_1_2_8_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1237484"
+      },
+      {
+        "key": "e_1_2_8_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2017.01.014"
+      },
+      {
+        "key": "e_1_2_8_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0883-2927(02)00018-5"
+      },
+      {
+        "key": "e_1_2_8_59_1",
+        "volume-title": "Map database for surficial materials in the conterminous United States: U.S. Geological Survey data series 425, scale 1:5,000,000",
+        "author": "Soller D. R.",
+        "year": "2009"
+      },
+      {
+        "key": "e_1_2_8_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR027335"
+      },
+      {
+        "key": "e_1_2_8_61_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stollenwerk K. G.(2003).Geochemical processes controlling transport of arsenic in groundwater: A review of adsorption. InA. H.Welch &K. G.Stollenwerk(Eds.) Arsenic in ground water(pp.67\u2013100).Boston MA:Springer.",
+        "DOI": "10.1007/0-306-47956-7_3"
+      },
+      {
+        "key": "e_1_2_8_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016WR020197"
+      },
+      {
+        "key": "e_1_2_8_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011WR010471"
+      },
+      {
+        "key": "e_1_2_8_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.5b01869"
+      },
+      {
+        "key": "e_1_2_8_65_1",
+        "first-page": "25",
+        "volume-title": "The association of arsenic with redox conditions, depth, and ground\u2010water Aage in the glacial aquifer system of the Northern United States",
+        "author": "Thomas M. A.",
+        "year": "2007"
+      },
+      {
+        "key": "e_1_2_8_66_1",
+        "volume-title": "Safe drinking water information system (SDWIS)",
+        "author": "U.S. Environmental Protection Agency.",
+        "year": "2013"
+      },
+      {
+        "key": "e_1_2_8_67_1",
+        "volume-title": "National water information system (NWIS)",
+        "author": "U.S. Geological Survey.",
+        "year": "2019"
+      },
+      {
+        "issue": "5",
+        "key": "e_1_2_8_68_1",
+        "first-page": "360",
+        "article-title": "Understanding interobserver agreement: the kappa statistic",
+        "volume": "37",
+        "author": "Viera A. J.",
+        "year": "2005",
+        "journal-title": "Family Medicine"
+      },
+      {
+        "key": "e_1_2_8_69_1",
+        "article-title": "Water quality in the glacial aquifer system, northern United States, 1993\u20102009",
+        "volume": "1352",
+        "author": "Warner K. L.",
+        "year": "2014",
+        "journal-title": "U.S. Geological Survey Circular"
+      },
+      {
+        "key": "e_1_2_8_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-6584.2000.tb00251.x"
+      },
+      {
+        "key": "e_1_2_8_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.2041-210X.2011.00170.x"
+      },
+      {
+        "key": "e_1_2_8_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ngeo254"
+      },
+      {
+        "key": "e_1_2_8_73_1",
+        "volume-title": "Characterization and occurrence of confined and unconfined aquifers in quaternary sediments in the glaciated conterminous United States: U.S. Geological Survey scientific investigations report 2018\u20135091",
+        "author": "Yager R. M.",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_8_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.7b01121"
+      },
+      {
+        "key": "e_1_2_8_75_1",
+        "volume-title": "Groundwater resources of the world and their use",
+        "author": "Zekster I.",
+        "year": "2004"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1029/2020WR028207",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1029/2020WR028207",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2020WR028207",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2020WR028207",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          29
+        ]
+      ],
+      "date-time": "2023-08-29T19:02:07Z",
+      "timestamp": 1693335727000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020WR028207"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          4
+        ]
+      ]
+    },
+    "references-count": 74,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            4
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2020WR028207"
+    ],
+    "URL": "https://doi.org/10.1029/2020wr028207",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          4
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2020-06-18",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2021-02-14",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2021-04-26",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2020WR028207"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2020WR028207",
+  "original_doi": "10.1029/2020WR028207"
+}

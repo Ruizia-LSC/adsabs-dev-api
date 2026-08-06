@@ -1,0 +1,578 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          22
+        ]
+      ],
+      "date-time": "2026-01-22T16:05:36Z",
+      "timestamp": 1769097936562,
+      "version": "3.49.0"
+    },
+    "reference-count": 43,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "13",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              6
+            ]
+          ],
+          "date-time": "2023-07-06T00:00:00Z",
+          "timestamp": 1688601600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "CBET\u20101805293"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "CBET\u20101805293"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "CBET\u20101823111"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "CBET\u20101823111"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DMS2152887"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DMS2152887"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Geophysical Research Letters"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          16
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Changes in annual maximum flood (AMF), which are usually detected using simple trend tests (e.g., Mann\u2010Kendall test (MKT)), are expected to change design\u2010flood estimates. We propose an alternate framework to detect significant changes in design\u2010flood between two periods and evaluate it for synthetically generated AMF from the Log\u2010Pearson Type\u20103 (LP3) distribution due to changes in moments associated with flood distribution. Synthetic experiments show MKT does not consider changes in all three moments of the LP3 distribution and incorrectly detects changes in design\u2010flood. We applied the framework on 31 river basins spread across the United States. Statistically significant changes in design\u2010flood quantiles were observed even without a significant trend in AMF and basins with statistically significant trend did not necessarily exhibit statistically significant changes in design\u2010flood. We recommend application of the framework for evaluating changes in design\u2010flood estimates considering changes in all the moments as opposed to simple trend tests.</jats:p>",
+    "DOI": "10.1029/2023gl103438",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          7
+        ]
+      ],
+      "date-time": "2023-07-07T05:00:49Z",
+      "timestamp": 1688706049000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "Beyond Simple Trend Tests: Detecting Significant Changes in Design\u2010Flood Quantiles"
+    ],
+    "prefix": "10.1029",
+    "volume": "50",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9826-5231",
+        "authenticated-orcid": false,
+        "given": "C.",
+        "family": "Awasthi",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Civil, Construction, and Environmental Engineering North Carolina State University  Raleigh NC USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9011-3871",
+        "authenticated-orcid": false,
+        "given": "S. A.",
+        "family": "Archfield",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Reston VA USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5473-120X",
+        "authenticated-orcid": false,
+        "given": "B. J.",
+        "family": "Reich",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Statistics North Carolina State University  Raleigh NC USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7668-1311",
+        "authenticated-orcid": false,
+        "given": "A.",
+        "family": "Sankarasubramanian",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil, Construction, and Environmental Engineering North Carolina State University  Raleigh NC USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          6
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_7_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016gl070590"
+      },
+      {
+        "key": "e_1_2_7_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11269-020-02723-0"
+      },
+      {
+        "key": "e_1_2_7_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021wr031246"
+      },
+      {
+        "key": "e_1_2_7_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016wr019064"
+      },
+      {
+        "key": "e_1_2_7_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/jhyeff.heeng-5768"
+      },
+      {
+        "key": "e_1_2_7_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019gl086480"
+      },
+      {
+        "key": "e_1_2_7_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10584-014-1254-5"
+      },
+      {
+        "key": "e_1_2_7_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-19-159-2015"
+      },
+      {
+        "key": "e_1_2_7_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(asce)he.1943-5584.0002091"
+      },
+      {
+        "key": "e_1_2_7_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11069-015-1644-7"
+      },
+      {
+        "key": "e_1_2_7_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2286348"
+      },
+      {
+        "key": "e_1_2_7_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s0022-1694(00)00336-x"
+      },
+      {
+        "key": "e_1_2_7_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/tm4B5"
+      },
+      {
+        "key": "e_1_2_7_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2019.04.068"
+      },
+      {
+        "key": "e_1_2_7_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(asce)1084-0699(2007)12:5(482)"
+      },
+      {
+        "key": "e_1_2_7_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.hydroa.2021.100115"
+      },
+      {
+        "key": "e_1_2_7_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2019.103484"
+      },
+      {
+        "key": "e_1_2_7_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626667.2011.621895"
+      },
+      {
+        "key": "e_1_2_7_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/wr020i006p00727"
+      },
+      {
+        "key": "e_1_2_7_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2019.03.102"
+      },
+      {
+        "key": "e_1_2_7_22_1",
+        "volume-title": "Rank correlation methods",
+        "author": "Kendall M. G.",
+        "year": "1975"
+      },
+      {
+        "key": "e_1_2_7_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1127/metz/4/1992/82"
+      },
+      {
+        "key": "e_1_2_7_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0304-4076(92)90104-y"
+      },
+      {
+        "key": "e_1_2_7_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.sigpro.2005.01.012"
+      },
+      {
+        "key": "e_1_2_7_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1907187"
+      },
+      {
+        "key": "e_1_2_7_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-16-2285-2012"
+      },
+      {
+        "key": "e_1_2_7_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-017-17966-y"
+      },
+      {
+        "key": "e_1_2_7_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2346729"
+      },
+      {
+        "key": "e_1_2_7_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015wr017089"
+      },
+      {
+        "key": "e_1_2_7_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2019.124307"
+      },
+      {
+        "key": "e_1_2_7_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(asce)he.1943-5584.0000820"
+      },
+      {
+        "key": "e_1_2_7_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626667.2018.1426858"
+      },
+      {
+        "key": "e_1_2_7_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-24-1975-2020"
+      },
+      {
+        "key": "e_1_2_7_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2017.11.026"
+      },
+      {
+        "key": "e_1_2_7_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2017.10.015"
+      },
+      {
+        "key": "e_1_2_7_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016gl071199"
+      },
+      {
+        "key": "e_1_2_7_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020gl091824"
+      },
+      {
+        "key": "e_1_2_7_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016wr018981"
+      },
+      {
+        "key": "e_1_2_7_40_1",
+        "unstructured": "U.S. Geological Survey. (2020).USGS water data for the Nation: U.S. Geological Survey National Water Information System database.https://doi.org/10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_7_41_1",
+        "volume-title": "Monthly climate data for selected USGS HCDN sites, 1951\u20131990, R1",
+        "author": "Vogel R. M.",
+        "year": "2015"
+      },
+      {
+        "key": "e_1_2_7_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2011.00541.x"
+      },
+      {
+        "key": "e_1_2_7_43_1",
+        "volume-title": "Proceedings: IWA international conference on water economics, statistics, and finance, Rethymno, Greece",
+        "author": "Wang W.",
+        "year": "2005"
+      },
+      {
+        "key": "e_1_2_7_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022gl098855"
+      }
+    ],
+    "container-title": [
+      "Geophysical Research Letters"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023GL103438",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023GL103438",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          29
+        ]
+      ],
+      "date-time": "2025-04-29T08:37:32Z",
+      "timestamp": 1745915852000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023GL103438"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          6
+        ]
+      ]
+    },
+    "references-count": 43,
+    "journal-issue": {
+      "issue": "13",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            16
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2023GL103438"
+    ],
+    "URL": "https://doi.org/10.1029/2023gl103438",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0094-8276",
+      "1944-8007"
+    ],
+    "issn-type": [
+      {
+        "value": "0094-8276",
+        "type": "print"
+      },
+      {
+        "value": "1944-8007",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          6
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2023-03-01",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-06-27",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-07-06",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2023GL103438"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2023GL103438",
+  "original_doi": "10.1029/2023GL103438"
+}

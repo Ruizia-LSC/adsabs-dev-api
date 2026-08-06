@@ -1,0 +1,661 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          19
+        ]
+      ],
+      "date-time": "2026-05-19T17:14:47Z",
+      "timestamp": 1779210887893,
+      "version": "3.51.4"
+    },
+    "reference-count": 77,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "9",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              9,
+              14
+            ]
+          ],
+          "date-time": "2018-09-14T00:00:00Z",
+          "timestamp": 1536883200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 13,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "U.S. Geological Survey National Water-Quality Assessment"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Groundwater residence\u2010time distributions (RTDs) are critical for assessing susceptibility of water resources to degradation. A novel combination of numerical modeling and statistical methods allows estimation of regional RTDs with unprecedented speed. In this method, particle RTDs are generated in 30 type locales in the northeastern glaciated U.S. by using automated generalized finite\u2010difference groundwater flow and advective transport models. Targets for statistical learning were created from particle RTDs by fitting Weibull, gamma, and inverse Gaussian distributions. Whole\u2010basin flux\u2010weighted RTDs were well fit by one\u2010component Weibull distributions. Flux\u2010weighted RTDs at stressed receptors such as wells often produced more complicated RTDs that required a two\u2010component mixture to fit. A Multitask LASSO regression was trained on the parametric RTDs using hydrogeographic features of the modeled areas as explanatory features. In this way, RTDs are regionalized with mappable physical features such as recharge and aquifer volume. The shape, location, and scale parameters of the parametric RTDs are strongly related to the mean exponential age. The shape parameter of the distribution, which controls deviation from exponential, is additionally a function of aquifer heterogeneity and hydrologic features. Regionalized RTDs provide useful metrics with respect to groundwater lag times and solute loading to streams. The lag time between input and output contained in the RTD is critical to understanding the relation between the land surface and human and ecological receptors.</jats:p>",
+    "DOI": "10.1029/2017wr021531",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          15
+        ]
+      ],
+      "date-time": "2018-06-15T17:20:00Z",
+      "timestamp": 1529083200000
+    },
+    "page": "6357-6373",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 28,
+    "title": [
+      "Regionalization of Groundwater Residence Time Using Metamodeling"
+    ],
+    "prefix": "10.1029",
+    "volume": "54",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5909-0010",
+        "authenticated-orcid": false,
+        "given": "J. J.",
+        "family": "Starn",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S Geological Survey New England Water Science Center  East Hartford CT USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4481-2345",
+        "authenticated-orcid": false,
+        "given": "K.",
+        "family": "Belitz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S Geological Survey  Carlisle MA USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2018,
+          9,
+          14
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_7_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2016.04.071"
+      },
+      {
+        "key": "e_1_2_7_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-1694(95)02880-3"
+      },
+      {
+        "key": "e_1_2_7_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gwat.12413"
+      },
+      {
+        "key": "e_1_2_7_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2012.08.052"
+      },
+      {
+        "key": "e_1_2_7_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017GL074962"
+      },
+      {
+        "key": "e_1_2_7_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.2153-3490.1973.tb01594.x"
+      },
+      {
+        "key": "e_1_2_7_8_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "326",
+        "DOI": "10.1002/9781119183600",
+        "volume-title": "Machine learning in Python: Essential techniques for predictive analysis",
+        "author": "Bowles M.",
+        "year": "2015"
+      },
+      {
+        "key": "e_1_2_7_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2004.04.023"
+      },
+      {
+        "key": "e_1_2_7_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2010WR009370"
+      },
+      {
+        "key": "e_1_2_7_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626666609493481"
+      },
+      {
+        "key": "e_1_2_7_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10040-011-0810-6"
+      },
+      {
+        "key": "e_1_2_7_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2012WR012251"
+      },
+      {
+        "key": "e_1_2_7_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.es.02.110171.000435"
+      },
+      {
+        "key": "e_1_2_7_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2015.11.023"
+      },
+      {
+        "key": "e_1_2_7_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gwat.12339"
+      },
+      {
+        "key": "e_1_2_7_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008WR007135"
+      },
+      {
+        "key": "e_1_2_7_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008WR007668"
+      },
+      {
+        "key": "e_1_2_7_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR002i004p00641"
+      },
+      {
+        "key": "e_1_2_7_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR003i002p00623"
+      },
+      {
+        "key": "e_1_2_7_21_1",
+        "unstructured": "Fullerton D. S. &Richmond G. M.(1983\u20132007) Quaternary geologic atlas of the United States U.S. Geological Survey Miscellaneous Investigations Series Map I\u20101420 33 quadrangles scale 1:1 000 000. Retrieved fromhttps://on.doi.gov/2vwOIXJ"
+      },
+      {
+        "key": "e_1_2_7_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11242-009-9406-1"
+      },
+      {
+        "key": "e_1_2_7_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008WR006848"
+      },
+      {
+        "key": "e_1_2_7_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wrcr.20186"
+      },
+      {
+        "key": "e_1_2_7_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.7677"
+      },
+      {
+        "key": "e_1_2_7_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2009WR008903"
+      },
+      {
+        "key": "e_1_2_7_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2014WR015625"
+      },
+      {
+        "key": "e_1_2_7_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-1694(95)02732-5"
+      },
+      {
+        "key": "e_1_2_7_29_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "745",
+        "DOI": "10.1007/978-0-387-84858-7",
+        "volume-title": "The elements of statistical learning: Data mining, inference, and prediction",
+        "author": "Hastie T.",
+        "year": "2009"
+      },
+      {
+        "key": "e_1_2_7_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2009.01.001"
+      },
+      {
+        "key": "e_1_2_7_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.7922"
+      },
+      {
+        "key": "e_1_2_7_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2010WR009148"
+      },
+      {
+        "key": "e_1_2_7_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1155"
+      },
+      {
+        "key": "e_1_2_7_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ngeo2636"
+      },
+      {
+        "key": "e_1_2_7_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ngeo2943"
+      },
+      {
+        "key": "e_1_2_7_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2010GL042387"
+      },
+      {
+        "key": "e_1_2_7_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2012WR012509"
+      },
+      {
+        "key": "e_1_2_7_38_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jurgens B. C. B\u00f6hlke J. K. &Eberts S. M.(2012).TracerLPM (Version 1): An Excel\u00ae workbook for interpreting groundwater age distributions from environmental tracer data(U.S. Geol. Surv. Tech. Methods 4\u2010F3 60 p.). Reston VA: U.S. Geological Survey.",
+        "DOI": "10.3133/tm4F3"
+      },
+      {
+        "key": "e_1_2_7_39_1",
+        "unstructured": "Khan F. &Zeghlache D.(1997) Effect of cell residence time distribution on the performance of cellular mobile networks. Paper presented at 1997 IEEE 47th Vehicular Technology Conference. Technology in Motion 4\u20137 May 1997."
+      },
+      {
+        "key": "e_1_2_7_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-20-279-2016"
+      },
+      {
+        "key": "e_1_2_7_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0022-1694(01)00487-5"
+      },
+      {
+        "key": "e_1_2_7_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008GL033215"
+      },
+      {
+        "key": "e_1_2_7_43_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "600",
+        "DOI": "10.1007/978-1-4614-6849-3",
+        "volume-title": "Applied predictive modeling",
+        "author": "Kuhn M.",
+        "year": "2013"
+      },
+      {
+        "key": "e_1_2_7_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2016.01.068"
+      },
+      {
+        "key": "e_1_2_7_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0033-295X.102.4.751"
+      },
+      {
+        "key": "e_1_2_7_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-1694(82)90147-0"
+      },
+      {
+        "key": "e_1_2_7_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015GL066916"
+      },
+      {
+        "key": "e_1_2_7_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.7796"
+      },
+      {
+        "key": "e_1_2_7_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2006.04.020"
+      },
+      {
+        "key": "e_1_2_7_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2004WR003657"
+      },
+      {
+        "key": "e_1_2_7_51_1",
+        "unstructured": "Michel R. L.(1989) Tritium deposition in the continental United States 1953\u20131983(Water Resour. Invest. Rep. 89\u20134072). Reston VA: U.S. Geological Survey."
+      },
+      {
+        "key": "e_1_2_7_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752-1688.12389"
+      },
+      {
+        "key": "e_1_2_7_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/JZ064i001p00111"
+      },
+      {
+        "key": "e_1_2_7_54_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Niswonger R. G. Panday S. &Ibaraki M.(2011).MODFLOW\u2010NWT A Newton formulation for MODFLOW\u20102005(U.S. Geol. Surv. Tech. and Methods 6\u2010A37). Reston VA: U.S. Geological Survey.",
+        "DOI": "10.3133/tm6A37"
+      },
+      {
+        "key": "e_1_2_7_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2015.10.025"
+      },
+      {
+        "key": "e_1_2_7_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MCSE.2007.58"
+      },
+      {
+        "key": "e_1_2_7_57_1",
+        "first-page": "2825",
+        "article-title": "Scikit\u2010learn: Machine learning in Python",
+        "volume": "12",
+        "author": "Pedregosa F.",
+        "year": "2011",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "e_1_2_7_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2016.01.079"
+      },
+      {
+        "key": "e_1_2_7_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MCSE.2007.53"
+      },
+      {
+        "key": "e_1_2_7_60_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pollock D. W.(2012).User guide for MODPATH version 6\u2014A particle\u2010tracking model for MODFLOW(U.S. Geol. Surv. Tech. and Methods 6\u2010A41). Reston VA: U.S. Geological Survey.",
+        "DOI": "10.3133/tm6A41"
+      },
+      {
+        "key": "e_1_2_7_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10040-010-0637-6"
+      },
+      {
+        "key": "e_1_2_7_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10040-004-0326-4"
+      },
+      {
+        "key": "e_1_2_7_63_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Soller D. R. &Garrity C. P.(2018).Quaternary sediment thickness and bedrock topography of the glaciated United States east of the Rocky Mountains(U.S. Geol. Surv. Sci. Invest. Map SIM\u20103392). Reston VA: U.S. Geological Survey.https://doi.org/10.3133/sim3392",
+        "DOI": "10.3133/sim3392"
+      },
+      {
+        "key": "e_1_2_7_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2008.10.001"
+      },
+      {
+        "key": "e_1_2_7_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cageo.2012.01.011"
+      },
+      {
+        "key": "e_1_2_7_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10040-013-0967-2"
+      },
+      {
+        "key": "e_1_2_7_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gwat.12230"
+      },
+      {
+        "key": "e_1_2_7_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.7240"
+      },
+      {
+        "key": "e_1_2_7_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wrcr.20499"
+      },
+      {
+        "key": "e_1_2_7_70_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Trost J. J.(2018).Soil\u2010water\u2010balance (SWB) model used to simulate potential groundwater recharge for the glacial aquifer system east of the Rocky Mountains 1980\u20132011. Reston VA: U.S. Geological Survey.https://doi.org/10.5066/F7XW4HRJ.",
+        "DOI": "10.3133/sir20185080"
+      },
+      {
+        "key": "e_1_2_7_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2014.10.056"
+      },
+      {
+        "key": "e_1_2_7_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-1694(70)90186-1"
+      },
+      {
+        "key": "e_1_2_7_73_1",
+        "unstructured": "U.S. Geological Survey(2016).National water information system\u2014Web interface.http://doi.org/10.5066/F7P55KJN accessed 28 September 2016."
+      },
+      {
+        "key": "e_1_2_7_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00542361"
+      },
+      {
+        "key": "e_1_2_7_75_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Westenbroek S. M. Kelson V. A. Dripps W. R. Hunt R. J. &Bradbury K. R.(2010).SWB\u2014A modified Thornthwaite\u2010Mather soil\u2010water\u2010balance code for estimating groundwater recharge(U.S. Geol. Surv. Tech. and Methods 6\u2010A31). Reston VA: U.S. Geological Survey.",
+        "DOI": "10.3133/tm6A31"
+      },
+      {
+        "key": "e_1_2_7_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s100400050178"
+      },
+      {
+        "key": "e_1_2_7_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2007.00003.x"
+      },
+      {
+        "key": "e_1_2_7_78_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017WR021896"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1029%2F2017WR021531",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2017WR021531",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          9
+        ]
+      ],
+      "date-time": "2023-09-09T16:01:19Z",
+      "timestamp": 1694275279000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2017WR021531"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          9
+        ]
+      ]
+    },
+    "references-count": 77,
+    "journal-issue": {
+      "issue": "9",
+      "published-print": {
+        "date-parts": [
+          [
+            2018,
+            9
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2017WR021531"
+    ],
+    "URL": "https://doi.org/10.1029/2017wr021531",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          9
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2017-07-15",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2018-05-14",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2018-09-14",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.1029/2017WR021531",
+  "original_doi": "10.1029/2017WR021531"
+}
