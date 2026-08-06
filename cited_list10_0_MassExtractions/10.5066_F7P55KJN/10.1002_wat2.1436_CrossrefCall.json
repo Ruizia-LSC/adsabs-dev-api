@@ -1,0 +1,1759 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          30
+        ]
+      ],
+      "date-time": "2026-07-30T23:19:34Z",
+      "timestamp": 1785453574727,
+      "version": "3.56.0"
+    },
+    "reference-count": 188,
+    "publisher": "Wiley",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              13
+            ]
+          ],
+          "date-time": "2021-04-13T00:00:00Z",
+          "timestamp": 1618272000000
+        },
+        "content-version": "am",
+        "delay-in-days": 365,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#am"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              4,
+              13
+            ]
+          ],
+          "date-time": "2020-04-13T00:00:00Z",
+          "timestamp": 1586736000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000015",
+        "name": "U.S. Department of Energy",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE\u2010SC0019377"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE\u2010SC0019377"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000015",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000923",
+        "name": "Australian Research Council",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE150100302"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE150100302"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000923",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "wires.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "WIREs Water"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Streamflow observations can be used to understand, predict, and contextualize hydrologic, ecological, and biogeochemical processes and conditions in streams. Stream gages are point measurements along rivers where streamflow is measured, and are often used to infer upstream watershed\u2010scale processes. When stream gages read zero, this may indicate that the stream has dried at this location; however, zero\u2010flow readings can also be caused by a wide range of other factors. Our ability to identify whether or not a zero\u2010flow gage reading indicates a dry fluvial system has far reaching environmental implications. Incorrect identification and interpretation by the data user can lead to inaccurate hydrologic, ecological, and/or biogeochemical predictions from models and analyses. Here, we describe several causes of zero\u2010flow gage readings: frozen surface water, flow reversals, instrument error, and natural or human\u2010driven upstream source losses or bypass flow. For these examples, we discuss the implications of zero\u2010flow interpretations. We also highlight additional methods for determining flow presence, including direct observations, statistical methods, and hydrologic models, which can be applied to interpret causes of zero\u2010flow gage readings and implications for reach\u2010 and watershed\u2010scale dynamics. Such efforts are necessary to improve our ability to understand and predict surface flow activation, cessation, and connectivity across river networks. Developing this integrated understanding of the wide range of possible meanings of zero\u2010flows will only attain greater importance in a more variable and changing hydrologic climate.</jats:p><jats:p>This article is categorized under:<jats:list list-type=\"simple\"><jats:list-item><jats:p>Science of Water &gt; Methods</jats:p></jats:list-item><jats:list-item><jats:p>Science of Water &gt; Hydrological Processes</jats:p></jats:list-item><jats:list-item><jats:p>Water and Life &gt; Conservation, Management, and Awareness</jats:p></jats:list-item></jats:list></jats:p>",
+    "DOI": "10.1002/wat2.1436",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          13
+        ]
+      ],
+      "date-time": "2020-04-13T14:44:16Z",
+      "timestamp": 1586789056000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 110,
+    "title": [
+      "Zero or not? Causes and consequences of zero\u2010flow stream gage readings"
+    ],
+    "prefix": "10.1002",
+    "volume": "7",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8287-1923",
+        "authenticated-orcid": false,
+        "given": "Margaret A.",
+        "family": "Zimmer",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Earth and Planetary Sciences University of California Santa Cruz California USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1773-6236",
+        "authenticated-orcid": false,
+        "given": "Kendra E.",
+        "family": "Kaiser",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Geosciences, Boise State University Boise Idaho USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5122-0829",
+        "authenticated-orcid": false,
+        "given": "Joanna R.",
+        "family": "Blaszczak",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Natural Resources and Environmental Science University of Nevada Reno Nevada USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8735-5757",
+        "authenticated-orcid": false,
+        "given": "Samuel C.",
+        "family": "Zipper",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Kansas Geological Survey University of Kansas Lawrence Kansas USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4935-0736",
+        "authenticated-orcid": false,
+        "given": "John C.",
+        "family": "Hammond",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, MD\u2010DE\u2010DC Water Science Center Baltimore Maryland USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3831-2531",
+        "authenticated-orcid": false,
+        "given": "Ken M.",
+        "family": "Fritz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Office of Research and Development U.S. EPA Cincinnati Ohio USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5706-7439",
+        "authenticated-orcid": false,
+        "given": "Katie H.",
+        "family": "Costigan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Geosciences University of Louisiana Lafayette Louisiana USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2559-0687",
+        "authenticated-orcid": false,
+        "given": "Jacob",
+        "family": "Hosen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Forestry and Natural Resources Purdue University West Lafayette Indiana USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6529-7886",
+        "authenticated-orcid": false,
+        "given": "Sarah E.",
+        "family": "Godsey",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Geosciences Idaho State University Pocatello Idaho USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8301-5301",
+        "authenticated-orcid": false,
+        "given": "George H.",
+        "family": "Allen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Geography Texas A&amp;M University College Station Texas USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8991-2679",
+        "authenticated-orcid": false,
+        "given": "Stephanie",
+        "family": "Kampf",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ecosystem Science and Sustainability Colorado State University Fort Collins Colorado USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3296-1864",
+        "authenticated-orcid": false,
+        "given": "Ryan M.",
+        "family": "Burrows",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Australian Rivers Institute Griffith University Brisbane Queensland Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2630-8287",
+        "authenticated-orcid": false,
+        "given": "Corey A.",
+        "family": "Krabbenhoft",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Arts and Sciences and Research and Education in Energy, Environment and Water (RENEW) Institute University at Buffalo Buffalo New York USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6666-8930",
+        "authenticated-orcid": false,
+        "given": "Walter",
+        "family": "Dodds",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Division of Biology Kansas State University Manhattan Kansas USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3552-3691",
+        "authenticated-orcid": false,
+        "given": "Rebecca",
+        "family": "Hale",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biological Sciences Idaho State University Pocatello Idaho USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2143-1187",
+        "authenticated-orcid": false,
+        "given": "Julian D.",
+        "family": "Olden",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Aquatic and Fishery Sciences University of Washington Seattle Washington USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1710-1548",
+        "authenticated-orcid": false,
+        "given": "Margaret",
+        "family": "Shanafield",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Science and Engineering Flinders University Adelaide South Australia Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4252-5991",
+        "authenticated-orcid": false,
+        "given": "Amanda G.",
+        "family": "DelVecchia",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Flathead Lake Biological Station University of Montana Polson Montana USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6376-0061",
+        "authenticated-orcid": false,
+        "given": "Adam S.",
+        "family": "Ward",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "O'Neill School of Public and Environmental Affairs Indiana University Bloomington Indiana USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0570-988X",
+        "authenticated-orcid": false,
+        "given": "Meryl C.",
+        "family": "Mims",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biological Sciences Virginia Tech Blacksburg Virginia USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1390-6736",
+        "authenticated-orcid": false,
+        "given": "Thibault",
+        "family": "Datry",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "INRAE, UR Riverly, Centre de Lyon\u2010Villeurbanne Villeurbanne Cedex France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8150-8476",
+        "authenticated-orcid": false,
+        "given": "Michael T.",
+        "family": "Bogan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Natural Resources and the Environment University of Arizona Tucson Arizona USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0707-3283",
+        "authenticated-orcid": false,
+        "given": "Kate S.",
+        "family": "Boersma",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biology University of San Diego San Diego California USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4536-3000",
+        "authenticated-orcid": false,
+        "given": "Michelle H.",
+        "family": "Busch",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biology University of Oklahoma Norman Oklahoma USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5804-0510",
+        "authenticated-orcid": false,
+        "given": "C. Nathan",
+        "family": "Jones",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biological Sciences, University of Alabama Tuscaloosa Alabama USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8489-4002",
+        "authenticated-orcid": false,
+        "given": "Amy J.",
+        "family": "Burgin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Kansas and Kansas Biological Survey Lawrence Kansas USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0451-0564",
+        "authenticated-orcid": false,
+        "given": "Daniel C.",
+        "family": "Allen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biology University of Oklahoma Norman Oklahoma USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          13
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_10_1_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1894/N09-FRG-07.1"
+      },
+      {
+        "key": "e_1_2_10_1_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00008269"
+      },
+      {
+        "issue": "3",
+        "key": "e_1_2_10_1_4_1",
+        "first-page": "161",
+        "article-title": "Overwintering of benthic macroinvertebrates in ice and frozen sediment in a North Swedish River",
+        "volume": "4",
+        "author": "Olsson T. I.",
+        "year": "1981",
+        "journal-title": "Holarctic Ecology"
+      },
+      {
+        "key": "e_1_2_10_1_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-6584.1990.tb01729.x"
+      },
+      {
+        "key": "e_1_2_10_1_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.ecolsys.27.1.365"
+      },
+      {
+        "key": "e_1_2_10_2_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1246666"
+      },
+      {
+        "key": "e_1_2_10_2_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1577/T04-089.1"
+      },
+      {
+        "key": "e_1_2_10_2_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2014.04.062"
+      },
+      {
+        "key": "e_1_2_10_2_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/f04-096"
+      },
+      {
+        "key": "e_1_2_10_2_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/684076"
+      },
+      {
+        "key": "e_1_2_10_2_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2001WR000878"
+      },
+      {
+        "key": "e_1_2_10_2_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/701483"
+      },
+      {
+        "key": "e_1_2_10_2_9_1",
+        "unstructured": "Andersen M. Barron O. Bond N. Burrows R. Eberhard S. Emelyanova I. \u2026Pettit N.(2016).Research to inform the assessment of ecohydrological responses to coal seam gas extraction and coal mining. Department of the Environment and Energy Commonwealth of Australia Canberra Australia. Retrieved fromhttp://www.environment.gov.au/water/publications/assessment-ecohydrological-responses"
+      },
+      {
+        "key": "e_1_2_10_2_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.earscirev.2018.12.001"
+      },
+      {
+        "key": "e_1_2_10_2_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00028487.2016.1159611"
+      },
+      {
+        "key": "e_1_2_10_2_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/s19214645"
+      },
+      {
+        "key": "e_1_2_10_2_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR023877"
+      },
+      {
+        "key": "e_1_2_10_2_14_1",
+        "volume-title": "Streamflow depletion by wells\u2014Understanding and managing the effects of groundwater pumping on streamflow (No. Circular 1376, p. 84)",
+        "author": "Barlow P. M.",
+        "year": "2012"
+      },
+      {
+        "key": "e_1_2_10_2_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2015.07.012"
+      },
+      {
+        "key": "e_1_2_10_2_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2005.04.018"
+      },
+      {
+        "key": "e_1_2_10_2_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-22-3033-2018"
+      },
+      {
+        "key": "e_1_2_10_2_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0380-1330(92)71323-9"
+      },
+      {
+        "key": "e_1_2_10_2_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.7165"
+      },
+      {
+        "key": "e_1_2_10_2_20_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "235",
+        "DOI": "10.1002/hyp.7561",
+        "article-title": "Northern hemisphere geography of ice\u2010covered rivers",
+        "volume": "24",
+        "author": "Bennett K. E.",
+        "year": "2009",
+        "journal-title": "Hydrological Processes"
+      },
+      {
+        "key": "e_1_2_10_2_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-15-1009-2011"
+      },
+      {
+        "key": "e_1_2_10_2_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)HE.1943-5584.0001844"
+      },
+      {
+        "key": "e_1_2_10_2_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/009WSA05"
+      },
+      {
+        "key": "e_1_2_10_2_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lno.11081"
+      },
+      {
+        "key": "e_1_2_10_2_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/fwb.12522"
+      },
+      {
+        "key": "e_1_2_10_2_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-0-12-803835-2.00013-9"
+      },
+      {
+        "key": "e_1_2_10_2_27_1",
+        "unstructured": "Boning C. W.(1994). Guidelines for frequency of discharge measurements during ice\u2010effected periods. Retrieved fromhttps://water.usgs.gov/admin/memo/SW/sw94.03.html"
+      },
+      {
+        "key": "e_1_2_10_2_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1365-2427.2003.01084.x"
+      },
+      {
+        "key": "e_1_2_10_2_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.geomorph.2018.03.002"
+      },
+      {
+        "key": "e_1_2_10_2_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-0-12-803835-2.00004-8"
+      },
+      {
+        "key": "e_1_2_10_2_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2006WR005238"
+      },
+      {
+        "key": "e_1_2_10_2_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.resmic.2006.12.012"
+      },
+      {
+        "key": "e_1_2_10_2_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/grl.50238"
+      },
+      {
+        "key": "e_1_2_10_2_34_1",
+        "unstructured": "Brunner G.(2010).HEC\u2010RAS river analysis system: Hydraulic reference manual. US Army Corps of Engineers Institute for Water Resources Hydrologic Engineering Center."
+      },
+      {
+        "key": "e_1_2_10_2_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-017-12957-5"
+      },
+      {
+        "key": "e_1_2_10_2_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2427.1981.tb01263.x"
+      },
+      {
+        "key": "e_1_2_10_2_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4296/cwrj2011-903"
+      },
+      {
+        "key": "e_1_2_10_2_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-6584.2004.t01-12-.x"
+      },
+      {
+        "key": "e_1_2_10_2_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2013GB004685"
+      },
+      {
+        "key": "e_1_2_10_2_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1899/12-188.1"
+      },
+      {
+        "key": "e_1_2_10_2_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4319/lo.2001.46.3.0532"
+      },
+      {
+        "key": "e_1_2_10_2_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1653/0015-4040(2002)085[0650:SAWBIH]2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_10_2_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2013WR015158"
+      },
+      {
+        "key": "e_1_2_10_2_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)1084-0699(2005)10:4(336)"
+      },
+      {
+        "key": "e_1_2_10_2_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.aav4574"
+      },
+      {
+        "key": "e_1_2_10_2_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2000WR900271"
+      },
+      {
+        "key": "e_1_2_10_2_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gcb.13517"
+      },
+      {
+        "key": "e_1_2_10_2_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1525/bio.2013.63.3.6"
+      },
+      {
+        "key": "e_1_2_10_2_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2014.12.031"
+      },
+      {
+        "key": "e_1_2_10_2_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eco.1712"
+      },
+      {
+        "key": "e_1_2_10_2_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-0-12-803835-2.00003-6"
+      },
+      {
+        "key": "e_1_2_10_2_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4039/Ent110667-6"
+      },
+      {
+        "key": "e_1_2_10_2_53_1",
+        "volume-title": "Intermittent rivers and ephemeral streams: Ecology and Management",
+        "author": "Datry T.",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_10_2_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41561-018-0134-4"
+      },
+      {
+        "key": "e_1_2_10_2_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biosci/bit027"
+      },
+      {
+        "key": "e_1_2_10_2_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/fwb.12645"
+      },
+      {
+        "key": "e_1_2_10_2_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/aqc.3270020404"
+      },
+      {
+        "key": "e_1_2_10_2_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.1100"
+      },
+      {
+        "key": "e_1_2_10_2_59_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "DeMarco K. Couvillion B. Brown S. &La Peyre M.(2018).Submerged aquatic vegetation mapping in coastal Louisiana through development of a spatial likelihood occurrence (SLOO) model. Retrieved fromhttps://pubag.nal.usda.gov/catalog/6132203",
+        "DOI": "10.1016/j.aquabot.2018.08.007"
+      },
+      {
+        "key": "e_1_2_10_2_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1641/0006-3568(2004)054[0205:LOTETE]2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_10_2_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.13395"
+      },
+      {
+        "key": "e_1_2_10_2_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR006i002p00478"
+      },
+      {
+        "key": "e_1_2_10_2_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.2939"
+      },
+      {
+        "key": "e_1_2_10_2_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.11433"
+      },
+      {
+        "key": "e_1_2_10_2_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/09-0889.1"
+      },
+      {
+        "key": "e_1_2_10_2_66_1",
+        "first-page": "129",
+        "article-title": "The current status of global river discharge monitoring and potential new technologies complementing traditional discharge measurements",
+        "volume": "309",
+        "author": "Fekete B. M.",
+        "year": "2002",
+        "journal-title": "IAHS Publication"
+      },
+      {
+        "key": "e_1_2_10_2_67_1",
+        "first-page": "137",
+        "volume-title": "Proceedings of the 4th international symposium on Trichoptera",
+        "author": "Fey J. M.",
+        "year": "1983"
+      },
+      {
+        "key": "e_1_2_10_2_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-6584.2006.00190.x"
+      },
+      {
+        "key": "e_1_2_10_2_69_1",
+        "volume-title": "Flow routing in handbook of hydrology",
+        "author": "Fread D.",
+        "year": "1993"
+      },
+      {
+        "key": "e_1_2_10_2_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1468150"
+      },
+      {
+        "key": "e_1_2_10_2_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.14411/eje.2003.069"
+      },
+      {
+        "key": "e_1_2_10_2_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2018.04.073"
+      },
+      {
+        "key": "e_1_2_10_2_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.3185"
+      },
+      {
+        "key": "e_1_2_10_2_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/cjfas-2012-0295"
+      },
+      {
+        "key": "e_1_2_10_2_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.10310"
+      },
+      {
+        "key": "e_1_2_10_2_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/fee.1504"
+      },
+      {
+        "key": "e_1_2_10_2_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10021-016-9963-4"
+      },
+      {
+        "key": "e_1_2_10_2_78_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10533-015-0139-7"
+      },
+      {
+        "key": "e_1_2_10_2_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017WR020390"
+      },
+      {
+        "key": "e_1_2_10_2_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752-1688.12636"
+      },
+      {
+        "key": "e_1_2_10_2_81_1",
+        "volume-title": "Acoustic Doppler current profiler applications used in rivers and estuaries",
+        "author": "Gotvald A.,. J.",
+        "year": "2008"
+      },
+      {
+        "key": "e_1_2_10_2_82_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.9334"
+      },
+      {
+        "key": "e_1_2_10_2_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4296/cwrj3701865"
+      },
+      {
+        "key": "e_1_2_10_2_84_1",
+        "volume-title": "Contiguous US and Global streamflow gages measuring zero flow: U.S. Geological Survey data release",
+        "author": "Hammond J. C.",
+        "year": "2020"
+      },
+      {
+        "key": "e_1_2_10_2_85_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.836"
+      },
+      {
+        "key": "e_1_2_10_2_86_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rrr.3450060104"
+      },
+      {
+        "key": "e_1_2_10_2_87_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017WR022039"
+      },
+      {
+        "key": "e_1_2_10_2_88_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.11519"
+      },
+      {
+        "key": "e_1_2_10_2_89_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/iroh.19860710405"
+      },
+      {
+        "key": "e_1_2_10_2_90_1",
+        "unstructured": "Idaho State Water Plan. (2012). Retrieved fromhttps://idwr.idaho.gov/files/iwrb/2012/2012-State-Water-Plan.pdf"
+      },
+      {
+        "key": "e_1_2_10_2_91_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/z93-015"
+      },
+      {
+        "key": "e_1_2_10_2_92_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/sdata.2018.224"
+      },
+      {
+        "key": "e_1_2_10_2_93_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.1554"
+      },
+      {
+        "key": "e_1_2_10_2_94_1",
+        "first-page": "100005",
+        "article-title": "Probability of streamflow permanence model (PROSPER): A spatially continuous model of annual streamflow permanence throughout the pacific northwest",
+        "volume": "2",
+        "author": "Jaeger K. L.",
+        "year": "2019",
+        "journal-title": "Journal of Hydrology"
+      },
+      {
+        "key": "e_1_2_10_2_95_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10661-019-7373-8"
+      },
+      {
+        "key": "e_1_2_10_2_96_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.1163"
+      },
+      {
+        "key": "e_1_2_10_2_97_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018EO096355"
+      },
+      {
+        "key": "e_1_2_10_2_98_1",
+        "unstructured": "Kansas Department of Health and Environment. (2013).Kansas Surface Water Register. Retrieved fromhttp://www.kdheks.gov/befs/download/Current_Kansas_Surface_Register.pdf"
+      },
+      {
+        "key": "e_1_2_10_2_99_1",
+        "first-page": "1363",
+        "article-title": "Monitoring ephemeral, intermittent and perennial streamflow: A dataset from 182 sites in the Attert catchment",
+        "volume": "12",
+        "author": "Kaplan N. H.",
+        "year": "2019",
+        "journal-title": "Luxembourg."
+      },
+      {
+        "key": "e_1_2_10_2_100_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2018.12.004"
+      },
+      {
+        "key": "e_1_2_10_2_101_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11269-011-9926-7"
+      },
+      {
+        "key": "e_1_2_10_2_102_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2005.08.006"
+      },
+      {
+        "issue": "4",
+        "key": "e_1_2_10_2_103_1",
+        "first-page": "330",
+        "article-title": "Seiches: Transient standing\u2010wave oscillations in water bodies can create hazards to navigation and unexpected changes in water conditions",
+        "volume": "83",
+        "author": "Korgen B. J.",
+        "year": "1995",
+        "journal-title": "American Scientist"
+      },
+      {
+        "key": "e_1_2_10_2_104_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/fwb.12954"
+      },
+      {
+        "key": "e_1_2_10_2_105_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2010.06.045"
+      },
+      {
+        "key": "e_1_2_10_2_106_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1468118"
+      },
+      {
+        "key": "e_1_2_10_2_107_1",
+        "volume-title": "Immersion: The science and mystery of freshwater mussels",
+        "author": "Landis A. G.",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_10_2_108_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2427.2009.02322.x"
+      },
+      {
+        "key": "e_1_2_10_2_109_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eco.126"
+      },
+      {
+        "key": "e_1_2_10_2_110_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00394289"
+      },
+      {
+        "key": "e_1_2_10_2_111_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/11-0963.1"
+      },
+      {
+        "key": "e_1_2_10_2_112_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eco.2093"
+      },
+      {
+        "key": "e_1_2_10_2_113_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2017JC013741"
+      },
+      {
+        "key": "e_1_2_10_2_114_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0089481"
+      },
+      {
+        "key": "e_1_2_10_2_115_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tree.2003.10.002"
+      },
+      {
+        "key": "e_1_2_10_2_116_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2017.07.247"
+      },
+      {
+        "key": "e_1_2_10_2_117_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.9229"
+      },
+      {
+        "key": "e_1_2_10_2_118_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.9384"
+      },
+      {
+        "key": "e_1_2_10_2_119_1",
+        "unstructured": "McShane R. &Sando R.(2017).Streamflow observation points in the Pacific Northwest 1977\u20132016[Data set]. Retrieved fromhttps://doi.org/10.5066/f7bv7fsp"
+      },
+      {
+        "key": "e_1_2_10_2_120_1",
+        "unstructured": "Melcher N. B. &Walker J. F.(1992).Evaluation of selected methods for determining streamflow during periods of ice effect(No. 2378). US Geological Survey."
+      },
+      {
+        "key": "e_1_2_10_2_121_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/PL00001333"
+      },
+      {
+        "key": "e_1_2_10_2_122_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1242/jeb.00647"
+      },
+      {
+        "key": "e_1_2_10_2_123_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/14-0490.1"
+      },
+      {
+        "key": "e_1_2_10_2_124_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2423487"
+      },
+      {
+        "key": "e_1_2_10_2_125_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0380-1330(87)71664-5"
+      },
+      {
+        "key": "e_1_2_10_2_126_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2007.00010.x"
+      },
+      {
+        "key": "e_1_2_10_2_127_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijmst.2016.11.016"
+      },
+      {
+        "key": "e_1_2_10_2_128_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Painter C. C. &Loving B.L.(2015). US Geological Survey quality\u2010assurance plan for surface\u2010water activities in Kansas 2015 (No. 2015\u20101074). US Geological Survey.",
+        "DOI": "10.3133/ofr20151074"
+      },
+      {
+        "key": "e_1_2_10_2_129_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JCLI-D-15-0569.1"
+      },
+      {
+        "key": "e_1_2_10_2_130_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2427.2005.01506.x"
+      },
+      {
+        "key": "e_1_2_10_2_131_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.10136"
+      },
+      {
+        "key": "e_1_2_10_2_132_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/aqc.2501"
+      },
+      {
+        "key": "e_1_2_10_2_133_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.geomorph.2006.06.032"
+      },
+      {
+        "key": "e_1_2_10_2_134_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.902"
+      },
+      {
+        "key": "e_1_2_10_2_135_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10040-018-1725-2"
+      },
+      {
+        "key": "e_1_2_10_2_136_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)0887-381X(2001)15:1(1)"
+      },
+      {
+        "key": "e_1_2_10_2_137_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)0887-381X(2001)15:1(17)"
+      },
+      {
+        "key": "e_1_2_10_2_138_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(SICI)1099-1646(199907/08)15:4<353::AID-RRR551>3.0.CO;2-U"
+      },
+      {
+        "key": "e_1_2_10_2_139_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2005.10.023"
+      },
+      {
+        "key": "e_1_2_10_2_140_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-23-3603-2019"
+      },
+      {
+        "key": "e_1_2_10_2_141_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-018-24057-z"
+      },
+      {
+        "key": "e_1_2_10_2_142_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4319/lo.2005.50.5.1638"
+      },
+      {
+        "key": "e_1_2_10_2_143_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41893-018-0047-7"
+      },
+      {
+        "key": "e_1_2_10_2_144_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ruhl C. A. &Simpson M. R.(2005).Computation of discharge using the indexvelocity method in tidally affected areas(pp. 2005\u20135004 31 p.). U.S. Geological Survey Scientific Investigations Report.",
+        "DOI": "10.3133/sir20055004"
+      },
+      {
+        "key": "e_1_2_10_2_145_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2008.06.019"
+      },
+      {
+        "key": "e_1_2_10_2_146_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752-1688.12586"
+      },
+      {
+        "key": "e_1_2_10_2_147_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecohyd.2015.04.002"
+      },
+      {
+        "key": "e_1_2_10_2_148_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sauer V. B.(2002).Standards for the analysis and processing of surface\u2010water data and information using electronic methods. Water\u2010Resources Investigations Report. Retrieved fromhttps://doi.org/10.3133/wri20014044",
+        "DOI": "10.3133/wri20014044"
+      },
+      {
+        "key": "e_1_2_10_2_149_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/tm3A7"
+      },
+      {
+        "key": "e_1_2_10_2_150_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017WR020576"
+      },
+      {
+        "key": "e_1_2_10_2_151_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2014.01.068"
+      },
+      {
+        "key": "e_1_2_10_2_152_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gcb.14537"
+      },
+      {
+        "key": "e_1_2_10_2_153_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)HE.1943-5584.0000837"
+      },
+      {
+        "key": "e_1_2_10_2_154_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2016.10.015"
+      },
+      {
+        "key": "e_1_2_10_2_155_1",
+        "unstructured": "Slatyer R. O.(1969). Arid lands of Australia. In:Proceedings of a Symposium Held in the Academy of Science. Canberra Australia: Austrian National University Press."
+      },
+      {
+        "key": "e_1_2_10_2_156_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4039/Ent105909-6"
+      },
+      {
+        "key": "e_1_2_10_2_157_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-6592.2011.01346.x"
+      },
+      {
+        "key": "e_1_2_10_2_158_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2008.00264.x"
+      },
+      {
+        "key": "e_1_2_10_2_159_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.10597"
+      },
+      {
+        "key": "e_1_2_10_2_160_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1130/GSAB-21-447"
+      },
+      {
+        "key": "e_1_2_10_2_161_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2426255"
+      },
+      {
+        "issue": "5",
+        "key": "e_1_2_10_2_162_1",
+        "first-page": "24",
+        "article-title": "Effects of surface mining on aquatic resources in north america",
+        "volume": "21",
+        "author": "Starnes L. B.",
+        "year": "1996",
+        "journal-title": "Fisheries"
+      },
+      {
+        "key": "e_1_2_10_2_163_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/110136"
+      },
+      {
+        "key": "e_1_2_10_2_164_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1071/MF11196"
+      },
+      {
+        "key": "e_1_2_10_2_165_1",
+        "unstructured": "Tillery A. C. Phillips J. V. &Capesius J. P.(2001).Potential errors associated with stage\u2010discharge relations for selected streamflow\u2010gaging stations Maricopa County Arizona(USGS Numbered Series No. 2000\u20134224; p. 54). Retrieved fromhttp://pubs.er.usgs.gov/publication/wri004224(U.S. Geological Survey website)."
+      },
+      {
+        "key": "e_1_2_10_2_166_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/fwb.13373"
+      },
+      {
+        "key": "e_1_2_10_2_167_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0278-4343(02)00041-9"
+      },
+      {
+        "key": "e_1_2_10_2_168_1",
+        "unstructured": "U.S. Geological Survey. (2019). USGS water data for the Nation: U.S. Geological Survey National Water Information System database accessed September 26 2019 athttps://doi.org/10.5066/F7P55KJN."
+      },
+      {
+        "key": "e_1_2_10_2_169_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-23-4825-2019"
+      },
+      {
+        "key": "e_1_2_10_2_170_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/683274"
+      },
+      {
+        "key": "e_1_2_10_2_171_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/fwb.12658"
+      },
+      {
+        "key": "e_1_2_10_2_172_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eco.1716"
+      },
+      {
+        "key": "e_1_2_10_2_173_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/eff.12016"
+      },
+      {
+        "key": "e_1_2_10_2_174_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2018.01.018"
+      },
+      {
+        "key": "e_1_2_10_2_175_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1303/aez.2006.15"
+      },
+      {
+        "key": "e_1_2_10_2_176_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/grl.50620"
+      },
+      {
+        "key": "e_1_2_10_2_177_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1209"
+      },
+      {
+        "key": "e_1_2_10_2_178_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1127/1863-9135/2010/0176-0377"
+      },
+      {
+        "key": "e_1_2_10_2_179_1",
+        "unstructured": "World Meteorological Organization 2010. Manual on Stream Gauging WMO\u2010No. 1044. WMO. 2010. Manual on Stream Gauging WMO\u2010No. 1044."
+      },
+      {
+        "key": "e_1_2_10_2_180_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2004.06.003"
+      },
+      {
+        "key": "e_1_2_10_2_181_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-019-1848-1"
+      },
+      {
+        "key": "e_1_2_10_2_182_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2018.03.009"
+      },
+      {
+        "key": "e_1_2_10_2_183_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016WR019742"
+      },
+      {
+        "key": "e_1_2_10_2_184_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2018.08.022"
+      }
+    ],
+    "container-title": [
+      "WIREs Water"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fwat2.1436",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/wat2.1436",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/wat2.1436",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://wires.onlinelibrary.wiley.com/doi/am-pdf/10.1002/wat2.1436",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://wires.onlinelibrary.wiley.com/doi/pdf/10.1002/wat2.1436",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          29
+        ]
+      ],
+      "date-time": "2023-09-29T21:50:16Z",
+      "timestamp": 1696024216000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://wires.onlinelibrary.wiley.com/doi/10.1002/wat2.1436"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          13
+        ]
+      ]
+    },
+    "references-count": 188,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            5
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/wat2.1436"
+    ],
+    "URL": "https://doi.org/10.1002/wat2.1436",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "2049-1948",
+      "2049-1948"
+    ],
+    "issn-type": [
+      {
+        "value": "2049-1948",
+        "type": "print"
+      },
+      {
+        "value": "2049-1948",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          13
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2019-10-09",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2020-03-09",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2020-04-13",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e1436"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1002/wat2.1436",
+  "original_doi": "10.1002/wat2.1436"
+}

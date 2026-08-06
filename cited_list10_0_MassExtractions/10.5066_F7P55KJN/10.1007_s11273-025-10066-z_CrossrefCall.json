@@ -1,0 +1,1618 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          17
+        ]
+      ],
+      "date-time": "2026-07-17T22:53:41Z",
+      "timestamp": 1784328821008,
+      "version": "3.55.0"
+    },
+    "reference-count": 118,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              5
+            ]
+          ],
+          "date-time": "2025-07-05T00:00:00Z",
+          "timestamp": 1751673600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              5
+            ]
+          ],
+          "date-time": "2025-07-05T00:00:00Z",
+          "timestamp": 1751673600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "name": "U.S. EPA, Office of Research and Development",
+        "award": [
+          "DW-014-92569201-0"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DW-014-92569201-0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "U.S. EPA, Office of Research and Development",
+        "award": [
+          "DW-014-92569201-0"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DW-014-92569201-0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "U.S. EPA, Office of Research and Development",
+        "award": [
+          "DW-014-92569201-0"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DW-014-92569201-0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "U.S. EPA, Office of Research and Development",
+        "award": [
+          "DW-014-92569201-0"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DW-014-92569201-0"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Wetlands Ecol Manage"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          8
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n          <jats:p>The retention of surface water in wetlands and lakes can modify the timing, duration, and magnitude of river discharge. However, efforts to characterize the influence of surface water on discharge regimes have been generally limited to small, wetland-dense watersheds. We developed random forest models to explain spatial variability in six hydrologic signatures, reflecting flashiness, high, and low flow conditions, at 72 gaged watersheds with variable water storage capacity across the conterminous United States. In addition to variables representing meteorology and landscape characteristics, we also tested the inclusion of surface water dynamics, derived from Sentinel-1 and Sentinel-2. Models for all six signatures improved with the addition of catchment characteristics, including surface water dynamics, relative to models with only climate variables. Percent improvement in model adjusted R<jats:sup>2</jats:sup>, mean square error, and Akaike information criterion ranged from 4.00 to 14.33%, 5.00 to 20.30%, and 2.75\u20138.14, respectively. Automated variable selection can be indicative of the relative importance of certain variables over others. Using a forward selection process, five of the six signature models selected remotely sensed inundation or wetland variables (<jats:italic>p</jats:italic>\u2009&lt;\u20090.05). For example, the variable semi-permanent and permanent (SP\u2009+\u2009P) floodplain inundation (i.e., lakes along rivers) was associated with lower annual flashiness. Further, SP\u2009+\u2009P non-floodplain waters and geographically isolated wetlands significantly contributed to explaining variability in the low flow signatures. Our findings underscore the capacity of wetlands to stabilize and maintain flows during dry periods. Improved understanding of how surface water dynamics influence hydrologic signatures can inform wetland restoration efforts and facilitate improved resilience to extreme flow conditions.</jats:p>",
+    "DOI": "10.1007/s11273-025-10066-z",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          5
+        ]
+      ],
+      "date-time": "2025-07-05T06:55:24Z",
+      "timestamp": 1751698524000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Relating surface water dynamics in wetlands and lakes to spatial variability in hydrologic signatures"
+    ],
+    "prefix": "10.1007",
+    "volume": "33",
+    "author": [
+      {
+        "given": "Melanie K.",
+        "family": "Vanderhoof",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Peter",
+        "family": "Nieuwlandt",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Heather E.",
+        "family": "Golden",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Charles R.",
+        "family": "Lane",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jay R.",
+        "family": "Christensen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "William",
+        "family": "Keenan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wayana",
+        "family": "Dolan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          5
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "1",
+        "key": "10066_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "121",
+        "DOI": "10.1002/joc.3413",
+        "volume": "33",
+        "author": "JT Abatzoglou",
+        "year": "2013",
+        "unstructured": "Abatzoglou JT (2013) Development of gridded surface meteorological data for ecological applications and modelling. Int J Climatol 33(1):121\u2013131",
+        "journal-title": "Int J Climatol"
+      },
+      {
+        "key": "10066_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "170191",
+        "DOI": "10.1038/sdata.2017.191",
+        "volume": "5",
+        "author": "JT Abatzoglou",
+        "year": "2018",
+        "unstructured": "Abatzoglou JT, Dobrowski SZ, Parks SA, Hegewisch KC (2018) Terraclimate, a high-resolution global dataset of monthly climate and climatic water balance from 1958\u20132015. Sci Data 5:170191",
+        "journal-title": "Sci Data"
+      },
+      {
+        "key": "10066_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "8792",
+        "DOI": "10.1029/2018WR022606",
+        "volume": "54",
+        "author": "N Addor",
+        "year": "2018",
+        "unstructured": "Addor N, Nearing G, Prieto C, Newman AJ, Le Vine N, Clark MP (2018) A ranking of hydrological signatures based on their predictability in space. Water Resour Res 54:8792\u20138812",
+        "journal-title": "Water Resour Res"
+      },
+      {
+        "key": "10066_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "1791",
+        "DOI": "10.5194/hess-21-1791-2017",
+        "volume": "21",
+        "author": "AA Ameli",
+        "year": "2017",
+        "unstructured": "Ameli AA, Creed IF (2017) Quantifying hydrologic connectivity of wetlands to surface water systems. Hydrol Earth Syst Sc 21:1791\u20131808",
+        "journal-title": "Hydrol Earth Syst Sc"
+      },
+      {
+        "key": "10066_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "529",
+        "DOI": "10.1111/1752-1688.12737",
+        "volume": "55",
+        "author": "AA Ameli",
+        "year": "2019",
+        "unstructured": "Ameli AA, Creed IF (2019) Does wetland location matter when managing wetlands for watershed-scale flood and drought resilience? J Am Water Resour Assoc 55:529\u2013542",
+        "journal-title": "J Am Water Resour Assoc"
+      },
+      {
+        "issue": "5",
+        "key": "10066_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "e092200",
+        "DOI": "10.1029/2020GL092200",
+        "volume": "48",
+        "author": "T Apurv",
+        "year": "2021",
+        "unstructured": "Apurv T, Cai X (2021) Regional drought risk in the contiguous United States. Geophys Res Lett 48(5):e092200",
+        "journal-title": "Geophys Res Lett"
+      },
+      {
+        "issue": "6",
+        "key": "10066_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "e14622",
+        "DOI": "10.1002/hyp.14622",
+        "volume": "36",
+        "author": "AJ Baird",
+        "year": "2022",
+        "unstructured": "Baird AJ, Low RG (2022) The water table: Its conceptual basis, its measurement and its usefulness as a hydrological variable. Hydrol Proc 36(6):e14622",
+        "journal-title": "Hydrol Proc"
+      },
+      {
+        "issue": "2",
+        "key": "10066_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "503",
+        "DOI": "10.1111/j.1752-1688.2004.tb01046.x",
+        "volume": "40",
+        "author": "DB Baker",
+        "year": "2004",
+        "unstructured": "Baker DB, Richards RP, Loftus TT, Kramer JW (2004) A new flashiness index: characteristics and applications to midwestern rivers and streams. J Am Water Resour Assoc 40(2):503\u2013522",
+        "journal-title": "J Am Water Resour Assoc"
+      },
+      {
+        "key": "10066_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "7843",
+        "DOI": "10.1002/2013WR013918",
+        "volume": "49",
+        "author": "HE Beck",
+        "year": "2013",
+        "unstructured": "Beck HE, van Dijk AIJM, Miralles DG, de Jeu RAM, Bruijnzeel LA, McVicar TR, Schellekens J (2013) Global patterns in base flow index and recession based on streamflow observations from 3394 catchments. Water Resour Res 49:7843\u20134863",
+        "journal-title": "Water Resour Res"
+      },
+      {
+        "key": "10066_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "1478",
+        "DOI": "10.1175/JHM-D-14-0155.1",
+        "volume": "16",
+        "author": "HE Beck",
+        "year": "2015",
+        "unstructured": "Beck HE, de Roo A, van Dijk AIJM (2015) Global maps of streamflow characteristics based on observations from several thousand catchments. J Hydrometeorol 16:1478\u20131501",
+        "journal-title": "J Hydrometeorol"
+      },
+      {
+        "key": "10066_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "4382",
+        "DOI": "10.1002/2016GL068070",
+        "volume": "43",
+        "author": "WR Berghuijs",
+        "year": "2016",
+        "unstructured": "Berghuijs WR, Woods RA, Hutton CJ, Sivapalan M (2016) Dominant flood generating mechanisms across the United States. Geophys Res Lett 43:4382\u20134390",
+        "journal-title": "Geophys Res Lett"
+      },
+      {
+        "issue": "2",
+        "key": "10066_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "197",
+        "DOI": "10.1016/j.ecolmodel.2005.04.027",
+        "volume": "191",
+        "author": "MG Betts",
+        "year": "2006",
+        "unstructured": "Betts MG, Diamond AW, Forbes GJ, Villard MA, Gunn JS (2006) The importance of spatial autocorrelation, extent and resolution in predicting forest bird occurrence. Ecol Model 191(2):197\u2013224",
+        "journal-title": "Ecol Model"
+      },
+      {
+        "key": "10066_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "448",
+        "DOI": "10.1016/j.jenvman.2018.12.095",
+        "volume": "234",
+        "author": "M Blanchette",
+        "year": "2019",
+        "unstructured": "Blanchette M, Rousseau AN, Foulon \u00c9, Savary S, Poulin M (2019) What would have been the impacts of wetlands on low flow support and high flow attenuation under steady state land cover conditions? J Environ Manag 234:448\u2013457",
+        "journal-title": "J Environ Manag"
+      },
+      {
+        "key": "10066_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "5355",
+        "DOI": "10.5194/hess-25-5355-2021",
+        "volume": "25",
+        "author": "JP Bloomfield",
+        "year": "2021",
+        "unstructured": "Bloomfield JP, Gong M, Marchant BP, Coxon G, Addor N (2021) How is Baseflow Index (BFI) impacted by water resource management practices? Hydrol Earth Syst Sci 25:5355\u20135379",
+        "journal-title": "Hydrol Earth Syst Sci"
+      },
+      {
+        "key": "10066_CR15",
+        "volume-title": "The heat balance of the earth\u2019s surface",
+        "author": "M Budyko",
+        "year": "1958",
+        "unstructured": "Budyko M (1958) The heat balance of the earth\u2019s surface. Springer, Washington"
+      },
+      {
+        "key": "10066_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "358",
+        "DOI": "10.5194/hess-7-358-2003",
+        "volume": "7",
+        "author": "A Bullock",
+        "year": "2003",
+        "unstructured": "Bullock A, Acreman M (2003) The role of wetlands in the hydrological cycle. Hydrol Earth Syst Sc 7:358\u2013389",
+        "journal-title": "Hydrol Earth Syst Sc"
+      },
+      {
+        "issue": "24",
+        "key": "10066_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "5723",
+        "DOI": "10.3390/rs15245723",
+        "volume": "15",
+        "author": "C Cagnina",
+        "year": "2023",
+        "unstructured": "Cagnina C, Marino A, Silva-Perez C, Ruiz-Ramos J, Suarez J (2023) Assessment of the impact of surface water content for temperate forests in SAR data at C-band. Remote Sens 15(24):5723",
+        "journal-title": "Remote Sens"
+      },
+      {
+        "key": "10066_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "756",
+        "DOI": "10.1016/j.jhydrol.2018.08.069",
+        "volume": "566",
+        "author": "C Carlier",
+        "year": "2018",
+        "unstructured": "Carlier C, Wirth SB, Cochand F, Hunkeler D, Brunner P (2018) Geology controls streamflow dynamics. J Hydrol 566:756\u2013769",
+        "journal-title": "J Hydrol"
+      },
+      {
+        "key": "10066_CR19",
+        "first-page": "2079",
+        "volume": "11",
+        "author": "GC Cawley",
+        "year": "2010",
+        "unstructured": "Cawley GC, Talbot NLC (2010) On over-fitting in model selection and subsequent selection bias in performance evaluation. J Mach Learn Res 11:2079\u20132107",
+        "journal-title": "J Mach Learn Res"
+      },
+      {
+        "key": "10066_CR20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5962/bhl.title.4108",
+        "volume-title": "Classification of wetlands and deepwater habitats of the United States",
+        "author": "LM Cowardin",
+        "year": "1979",
+        "unstructured": "Cowardin LM, Carter FC, Golet ET (1979) Classification of wetlands and deepwater habitats of the United States. United States Department of the Interior, Fish and Wildlife Service, Washington"
+      },
+      {
+        "key": "10066_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "51",
+        "DOI": "10.1080/02626667.2010.535002",
+        "volume": "56",
+        "author": "A Daigle",
+        "year": "2011",
+        "unstructured": "Daigle A, St-Hilaire A, Beveridge D, Caissie D, Benyahya L (2011) Multivariate analysis of the low-flow regimes in eastern Canadian rivers. Hydrolog Sci J 56:51\u201367",
+        "journal-title": "Hydrolog Sci J"
+      },
+      {
+        "key": "10066_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "810",
+        "DOI": "10.1038/nclimate3111",
+        "volume": "6",
+        "author": "G Donchyts",
+        "year": "2016",
+        "unstructured": "Donchyts G, Baart F, Winsemius H, Gorelick N, Kwadijk J, van de Giesen N (2016) Earth\u2019s surface water change over the past 30 years. Nat Clim Change 6:810\u2013813",
+        "journal-title": "Nat Clim Change"
+      },
+      {
+        "issue": "6",
+        "key": "10066_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "e02758",
+        "DOI": "10.1002/ecs2.2758",
+        "volume": "10",
+        "author": "JP Donnelly",
+        "year": "2019",
+        "unstructured": "Donnelly JP, Naugle DE, Collins DP, Dugger BD, Allred BW, Tack JD, Dreitz VJ (2019) Synchronizing conservation to seasonal wetland hydrology and waterbird migration in semi-arid landscapes. Ecosphere 10(6):e02758",
+        "journal-title": "Ecosphere"
+      },
+      {
+        "key": "10066_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "360",
+        "DOI": "10.1071/9780643094093",
+        "volume-title": "Ecohydrology: vegetation function, water and resource management",
+        "author": "D Eamus",
+        "year": "2006",
+        "unstructured": "Eamus D, Hatton T, Cook P, Colvin C (2006) Ecohydrology: vegetation function, water and resource management. CSIRO Publishing, Australia, p 360"
+      },
+      {
+        "issue": "1",
+        "key": "10066_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "77",
+        "DOI": "10.1177/0145482X20901378",
+        "volume": "114",
+        "author": "RW Emerson",
+        "year": "2020",
+        "unstructured": "Emerson RW (2020) Bonferroni correction and type I error. J vis Impair Blind 114(1):77\u201378",
+        "journal-title": "J vis Impair Blind"
+      },
+      {
+        "key": "10066_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "240",
+        "DOI": "10.1016/j.jhydrol.2015.07.039",
+        "volume": "529",
+        "author": "GR Evenson",
+        "year": "2015",
+        "unstructured": "Evenson GR, Golden HE, Lane CR, D\u2019Amico E (2015) Geographically isolated wetlands and watershed hydrology: a modified model analysis. J Hydrol 529:240\u2013256",
+        "journal-title": "J Hydrol"
+      },
+      {
+        "key": "10066_CR27",
+        "first-page": "1100002",
+        "volume": "1",
+        "author": "GR Evenson",
+        "year": "2018",
+        "unstructured": "Evenson GR, Jones CN, McLaughlin DL, Golden HE, Lane CR, DeVries B, Alexander LC, Lang MW, McCarty GW, Sharifi A (2018) A watershed-scale model for depressional wetland-rich landscapes. J Hydrol X 1:1100002",
+        "journal-title": "J Hydrol X"
+      },
+      {
+        "key": "10066_CR28",
+        "unstructured": "Falcone, J (2011) GAGES-II: Geospatial attributes of gages for evaluating streamflow. U.S. Geological Survey, Reston, Virginia, https://water.usgs.gov/lookup/getspatial?gagesII_Sept2011. Accessed 1 Apr 2024"
+      },
+      {
+        "key": "10066_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "29766",
+        "DOI": "10.1038/s41598-024-81502-y",
+        "volume": "14",
+        "author": "W Fang",
+        "year": "2024",
+        "unstructured": "Fang W, Ren K, Liu T, Shang J, Jia S, Jiang X, Zhang J (2024) An evaluation of random forest based input variable selection methods for one month ahead streamflow forecasting. Sci Rep 14:29766",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "10066_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "127287",
+        "DOI": "10.1016/j.jhydrol.2021.127287",
+        "volume": "605",
+        "author": "F Fenicia",
+        "year": "2022",
+        "unstructured": "Fenicia F, McDonnell JJ (2022) Modeling streamflow variability at the regional scale: (1) perceptual model development through signature analysis. J Hydro 605:127287",
+        "journal-title": "J Hydro"
+      },
+      {
+        "issue": "2",
+        "key": "10066_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "323",
+        "DOI": "10.1111/1752-1688.12632",
+        "volume": "54",
+        "author": "KM Fritz",
+        "year": "2018",
+        "unstructured": "Fritz KM, Schofield KA, Alexander LC, McManus MG, Golden HE, Lane CR, Kepner WG, LeDuc SD, DeMeester JE, Pollard AI (2018) Physical and chemical connectivity of streams and riparian wetlands to downstream waters: a synthesis. J Am Water Resour as 54(2):323\u2013345",
+        "journal-title": "J Am Water Resour as"
+      },
+      {
+        "issue": "1",
+        "key": "10066_CR32",
+        "first-page": "5",
+        "volume": "68",
+        "author": "D Gesch",
+        "year": "2002",
+        "unstructured": "Gesch D, Oimoen M, Greenlee S, Nelson C, Steuck M, Tyler D (2002) The national elevation dataset. Photogramm Eng Rem Sens 68(1):5\u201311",
+        "journal-title": "Photogramm Eng Rem Sens"
+      },
+      {
+        "key": "10066_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "190",
+        "DOI": "10.1016/j.envsoft.2013.12.004",
+        "volume": "53",
+        "author": "HE Golden",
+        "year": "2014",
+        "unstructured": "Golden HE, Lane CR, Amatya DM, Bandilla KW, Kiperwas HR, Knightes CD, Ssegane H (2014) Hydrologic connectivity between geographically isolated wetlands and surface water systems: a review of select modeling methods. Environ Modell Softw 53:190\u2013206",
+        "journal-title": "Environ Modell Softw"
+      },
+      {
+        "key": "10066_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "091002",
+        "DOI": "10.1088/1748-9326/ac1fbc",
+        "volume": "16",
+        "author": "HE Golden",
+        "year": "2021",
+        "unstructured": "Golden HE, Lane CR, Rajib A, Wu Q (2021) Improving global flood and drought predictions: integrating non-floodplain wetlands into watershed hydrologic models. Environ Res Lett 16:091002",
+        "journal-title": "Environ Res Lett"
+      },
+      {
+        "key": "10066_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "18",
+        "DOI": "10.1016/j.rse.2017.06.031",
+        "volume": "202",
+        "author": "N Gorelick",
+        "year": "2017",
+        "unstructured": "Gorelick N, Hancher M, Dixon M, Ilyushchenko S, Thau D, Moore R (2017) Google earth engine: Planetary-scale geospatial analysis for everyone. Rem Sens Environ 202:18\u201327",
+        "journal-title": "Rem Sens Environ"
+      },
+      {
+        "key": "10066_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "659",
+        "DOI": "10.1007/s11222-016-9646-1",
+        "volume": "27",
+        "author": "B Gregorutti",
+        "year": "2016",
+        "unstructured": "Gregorutti B, Michel B, Saint-Pierre P (2016) Correlation and variable importance in random forests. Stat Comput 27:659\u2013678",
+        "journal-title": "Stat Comput"
+      },
+      {
+        "issue": "4",
+        "key": "10066_CR37",
+        "doi-asserted-by": "publisher",
+        "first-page": "666",
+        "DOI": "10.1080/00224561.1999.12457293",
+        "volume": "54",
+        "author": "GE Griffith",
+        "year": "1999",
+        "unstructured": "Griffith GE, Omernik JM, Woods AJ (1999) Ecoregions, watersheds, basins, and HUCs: how state and federal agencies frame water quality. J Soil Wat Conserv 54(4):666\u2013677",
+        "journal-title": "J Soil Wat Conserv"
+      },
+      {
+        "key": "10066_CR38",
+        "volume-title": "MODIS/Terra Snow Cover Daily L3 Global 500m SIN Grid, Version 6.1",
+        "author": "DK Hall",
+        "year": "2021",
+        "unstructured": "Hall DK, Riggs GA (2021) MODIS/Terra Snow Cover Daily L3 Global 500m SIN Grid, Version 6.1. NASA National Snow and Ice Data Center Distributed Active Archive Center, Boulder"
+      },
+      {
+        "key": "10066_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "1325",
+        "DOI": "10.1002/joc.1643",
+        "volume": "28",
+        "author": "J Hannaford",
+        "year": "2008",
+        "unstructured": "Hannaford J, Marsh T (2008) High-flow and flood trends in a network of undisturbed catchments in the UK. Int J Climatol 28:1325\u20131338",
+        "journal-title": "Int J Climatol"
+      },
+      {
+        "key": "10066_CR40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-0-387-84858-7",
+        "volume-title": "The elements of statistical learning",
+        "author": "T Hastie",
+        "year": "2009",
+        "unstructured": "Hastie T, Tibshirani R, Friedman J (2009) The elements of statistical learning. Springer, New York"
+      },
+      {
+        "issue": "10",
+        "key": "10066_CR41",
+        "doi-asserted-by": "publisher",
+        "first-page": "e2020EF001657",
+        "DOI": "10.1029/2020EF001657",
+        "volume": "8",
+        "author": "H Heidari",
+        "year": "2020",
+        "unstructured": "Heidari H, Arabi M, Warziniack T, Kao SC (2020) Assessing shifts in regional hydroclimatic conditions of U.S. river basins in response to climate change over the 21st century. Earth\u2019s Future 8(10):e2020EF001657",
+        "journal-title": "Earth\u2019s Future"
+      },
+      {
+        "issue": "6",
+        "key": "10066_CR42",
+        "doi-asserted-by": "publisher",
+        "first-page": "2227",
+        "DOI": "10.5194/hess-20-2227-2016",
+        "volume": "20",
+        "author": "V Heimhuber",
+        "year": "2016",
+        "unstructured": "Heimhuber V, Tulbure MG, Broich M (2016) Modeling 25 years of spatio-temporal surface water and inundation dynamics on large river basin scale using time series of Earth observation data. Hydrol Earth Syst Sci 20(6):2227\u20132250",
+        "journal-title": "Hydrol Earth Syst Sci"
+      },
+      {
+        "key": "10066_CR43",
+        "doi-asserted-by": "publisher",
+        "first-page": "3117",
+        "DOI": "10.5194/hess-23-3117-2019",
+        "volume": "23",
+        "author": "A Hendry",
+        "year": "2019",
+        "unstructured": "Hendry A, Haigh ID, Nicholls RJ, Winter H, Neal R, Wahl T, Joly-Laugel A, Darby SE (2019) Assessing the characteristics and drivers of compound flooding events around the UK coast. Hydrol Earth Syst Sci 23:3117\u20133139",
+        "journal-title": "Hydrol Earth Syst Sci"
+      },
+      {
+        "key": "10066_CR44",
+        "doi-asserted-by": "publisher",
+        "first-page": "e5518",
+        "DOI": "10.7717/peerj.5518",
+        "volume": "6",
+        "author": "T Hengl",
+        "year": "2018",
+        "unstructured": "Hengl T, Nussbaum M, Wright MN, Heuvelink GBM, Gr\u00e4ler B (2018) Random forest as a generic framework for predictive modeling of spatial and spatio-temporal variables. PeerJ 6:e5518",
+        "journal-title": "PeerJ"
+      },
+      {
+        "issue": "2",
+        "key": "10066_CR45",
+        "doi-asserted-by": "publisher",
+        "first-page": "e70080",
+        "DOI": "10.1002/hyp.70080",
+        "volume": "39",
+        "author": "A Holt",
+        "year": "2025",
+        "unstructured": "Holt A, McMillan H (2025) New predictors for hydrologic signatures: Wetlands and geologic age across continental scales. Hydrol Proc 39(2):e70080",
+        "journal-title": "Hydrol Proc"
+      },
+      {
+        "key": "10066_CR46",
+        "doi-asserted-by": "publisher",
+        "first-page": "184",
+        "DOI": "10.1016/j.isprsjprs.2020.02.019",
+        "volume": "162",
+        "author": "C Homer",
+        "year": "2020",
+        "unstructured": "Homer C, Dewitz J, Jin S, Xian G, Costello C, Danielson P, Gass L, Funk M, Wickham J, Stehman S, Auch R, Riiters K (2020) (2020) Conterminous United States land cover change patterns 2001\u20132016 from the 2016 National Land Cover Database. ISPRS J Photogramm 162:184\u2013199",
+        "journal-title": "ISPRS J Photogramm"
+      },
+      {
+        "key": "10066_CR47",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1016/j.rse.2019.111629",
+        "volume": "239",
+        "author": "J Hou",
+        "year": "2020",
+        "unstructured": "Hou J, van Dijk A, Beck H (2020) Global satellite-based river gauging and the influence of river morphology on its application. Remote Sens Environ 239:1\u201317",
+        "journal-title": "Remote Sens Environ"
+      },
+      {
+        "issue": "2",
+        "key": "10066_CR48",
+        "doi-asserted-by": "publisher",
+        "first-page": "333",
+        "DOI": "10.1029/2018RG000598",
+        "volume": "56",
+        "author": "C Huang",
+        "year": "2018",
+        "unstructured": "Huang C, Chen Y, Zhang S, Wu J (2018) Detecting, extracting, and monitoring surface water from space using optical sensors: a review. Rev Geophys 56(2):333\u2013360",
+        "journal-title": "Rev Geophys"
+      },
+      {
+        "key": "10066_CR49",
+        "doi-asserted-by": "publisher",
+        "first-page": "114314",
+        "DOI": "10.1016/j.rse.2024.114314",
+        "volume": "311",
+        "author": "C H\u00fcbinger",
+        "year": "2024",
+        "unstructured": "H\u00fcbinger C, Fluet-Chouinard E, Hugelius G, Pe\u00f1a FJ, Jaramillo F (2024) Automating the detection of hydrological barriers and fragmentation in wetlands using deep learning and InSAR. Rem Sens Environ 311:114314",
+        "journal-title": "Rem Sens Environ"
+      },
+      {
+        "issue": "1",
+        "key": "10066_CR50",
+        "doi-asserted-by": "publisher",
+        "first-page": "e2021WR030185",
+        "DOI": "10.1029/2021WR030185",
+        "volume": "58",
+        "author": "S Jiang",
+        "year": "2022",
+        "unstructured": "Jiang S, Zheng Y, Wang C, Babovic V (2022) Uncovering flooding mechanisms across the contiguous United States through interpretive deep learning on representative catchments. Water Resour Res 58(1):e2021WR030185",
+        "journal-title": "Water Resour Res"
+      },
+      {
+        "key": "10066_CR51",
+        "doi-asserted-by": "publisher",
+        "first-page": "559",
+        "DOI": "10.1111/1752-1688.12735",
+        "volume": "55",
+        "author": "NC Jones",
+        "year": "2019",
+        "unstructured": "Jones NC, Ameli A, Neff BP, Evenson GR, McLaughlin DL, Golden HE, Lane CR (2019) Modeling connectivity of non-floodplain wetlands: insights, approaches, and recommendations. J Am Water Resour Assoc 55:559\u2013577",
+        "journal-title": "J Am Water Resour Assoc"
+      },
+      {
+        "key": "10066_CR52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kelly VJ, White S (2016) A method for characterizing late-season low-flow regime in the upper Grand Ronde River Basin, Oregon. U.S. Geological Survey Scientific Investigations Report 2016\u20135041.",
+        "DOI": "10.3133/sir20165041"
+      },
+      {
+        "key": "10066_CR53",
+        "doi-asserted-by": "publisher",
+        "first-page": "137",
+        "DOI": "10.1002/rra.1249",
+        "volume": "26",
+        "author": "MJ Kennard",
+        "year": "2010",
+        "unstructured": "Kennard MJ, Mackay SJ, Pusey BJ, Olden JD, Marsh N (2010) Quantifying uncertainty in estimation of hydrologic metrics for ecohydrological studies. River Res Appl 26:137\u2013156",
+        "journal-title": "River Res Appl"
+      },
+      {
+        "key": "10066_CR54",
+        "first-page": "335",
+        "volume-title": "Predicting species occurrences, issues of accuracy and scale",
+        "author": "D Klute",
+        "year": "2002",
+        "unstructured": "Klute D, Lovallo M, Tzilkowski W (2002) Autologistic regression modeling of American woodcock habitat use with spatially dependent data. In: Scott JM, Heglund PJ, Morrison ML, Haufler JB, Raphael MG, Wall WA, Sampson FB (eds) Predicting species occurrences, issues of accuracy and scale. Island Press, Washington, pp 335\u2013343"
+      },
+      {
+        "key": "10066_CR120",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kratzert F, Klotz D, Herrnegger M, Sampson AK, Hochreiter S, Nearing GS (2019) Toward improved predictions in ungauged basins: Exploiting the power of machine learning. Water Resour Res 55:11344\u201311354",
+        "DOI": "10.1029/2019WR026065"
+      },
+      {
+        "key": "10066_CR55",
+        "doi-asserted-by": "publisher",
+        "first-page": "2863",
+        "DOI": "10.5194/hess-21-2863-2017",
+        "volume": "21",
+        "author": "A Kuentz",
+        "year": "2017",
+        "unstructured": "Kuentz A, Arheimer B, Hundecha Y, Wagener T (2017) Understanding hydrologic variability across Europe through catchment classification. Hydrol Earth Syst Sci 21:2863\u20132879",
+        "journal-title": "Hydrol Earth Syst Sci"
+      },
+      {
+        "key": "10066_CR56",
+        "doi-asserted-by": "publisher",
+        "first-page": "2937",
+        "DOI": "10.1002/2015WR016966",
+        "volume": "51",
+        "author": "S Kuppel",
+        "year": "2015",
+        "unstructured": "Kuppel S, Houspanossian J, Nosetto MD, Jobb\u00e1gy EG (2015) What does it take to flood the Pampas? Lessons from a decade of strong hydrological fluctuations. Water Resour Res 51:2937\u20132950",
+        "journal-title": "Water Resour Res"
+      },
+      {
+        "key": "10066_CR57",
+        "doi-asserted-by": "publisher",
+        "first-page": "705",
+        "DOI": "10.1111/1752-1688.12421",
+        "volume": "52",
+        "author": "CR Lane",
+        "year": "2016",
+        "unstructured": "Lane CR, D\u2019Amico E (2016) Identification of putative geographically isolated wetlands of the conterminous United States. J Am Water Resour Assoc 52:705\u2013722",
+        "journal-title": "J Am Water Resour Assoc"
+      },
+      {
+        "issue": "2",
+        "key": "10066_CR58",
+        "doi-asserted-by": "publisher",
+        "first-page": "346",
+        "DOI": "10.1111/1752-1688.12633",
+        "volume": "54",
+        "author": "CR Lane",
+        "year": "2018",
+        "unstructured": "Lane CR, Leibowitz SG, Autrey BC, LeDuc SD, Alexander LC (2018) Hydrological, physical, and chemical functions and connectivity of non-floodplain wetlands to downstream waters: a review. J Am Water Resour Assoc 54(2):346\u2013371",
+        "journal-title": "J Am Water Resour Assoc"
+      },
+      {
+        "key": "10066_CR59",
+        "first-page": "1",
+        "volume": "26",
+        "author": "CR Lane",
+        "year": "2022",
+        "unstructured": "Lane CR, Creed IF, Golden HE, Leibowitz SG, Mushet DM, Rains MC, Wu Q, D\u2019Amico E, Alexander LC, Ali GA, Basu NB, Bennett MG, Christensen JR, Cohen MJ, Covino TP, DeVries B, Hill RA, Jensco K, Lang MW, McLaughlin D, Rosenberry DO, Rover J, Vanderhoof MK (2022) Vulnerable waters are essential to watershed resilience. Ecology 26:1\u201328",
+        "journal-title": "Ecology"
+      },
+      {
+        "key": "10066_CR60",
+        "doi-asserted-by": "publisher",
+        "first-page": "2210",
+        "DOI": "10.3390/rs11192210",
+        "volume": "11",
+        "author": "G Lefebvre",
+        "year": "2019",
+        "unstructured": "Lefebvre G, Davranche A, Willm L, Campagna J, Redmond L, Merle C, Guelmami A, Poulin B (2019) Introducing WIW for detecting the presence of water in wetlands with Landsat and Sentinel satellites. Remote Sens 11:2210",
+        "journal-title": "Remote Sens"
+      },
+      {
+        "key": "10066_CR61",
+        "doi-asserted-by": "publisher",
+        "first-page": "517",
+        "DOI": "10.1672/0277-5212(2003)023[0517:IWATFA]2.0.CO;2",
+        "volume": "23",
+        "author": "SG Leibowitz",
+        "year": "2003",
+        "unstructured": "Leibowitz SG (2003) Isolated wetlands and their functions: an ecological perspective. Wetlands 23:517\u2013531",
+        "journal-title": "Wetlands"
+      },
+      {
+        "issue": "2",
+        "key": "10066_CR62",
+        "doi-asserted-by": "publisher",
+        "first-page": "298",
+        "DOI": "10.1111/1752-1688.12631",
+        "volume": "54",
+        "author": "SG Leibowitz",
+        "year": "2018",
+        "unstructured": "Leibowitz SG, Wigington PJ Jr, Schofield KA, Alexander LC, Vanderhoof MK, Golden HE (2018) Connectivity of streams and wetlands to downstream waters: an integrated systems framework. J Am Water Resour Assoc 54(2):298\u2013322",
+        "journal-title": "J Am Water Resour Assoc"
+      },
+      {
+        "issue": "39",
+        "key": "10066_CR63",
+        "doi-asserted-by": "publisher",
+        "first-page": "19563",
+        "DOI": "10.1073/pnas.1908057116",
+        "volume": "116",
+        "author": "WH Lowe",
+        "year": "2019",
+        "unstructured": "Lowe WH, Swartz LK, Addis BR, Likens GE (2019) Hydrologic variability contributes to reduced survival through metamorphosis in a stream salamander. Proc Natl Acad Sci 116(39):19563\u201319570",
+        "journal-title": "Proc Natl Acad Sci"
+      },
+      {
+        "key": "10066_CR64",
+        "doi-asserted-by": "publisher",
+        "first-page": "333",
+        "DOI": "10.1016/j.rse.2019.01.017",
+        "volume": "224",
+        "author": "C Ludwig",
+        "year": "2019",
+        "unstructured": "Ludwig C, Walli A, Schleicher C, Weichselbaum J, Riffler M (2019) A highly automated algorithm for wetland detection using multi-temporal optical satellite data. Remote Sens Environ 224:333\u2013351",
+        "journal-title": "Remote Sens Environ"
+      },
+      {
+        "key": "10066_CR65",
+        "first-page": "11",
+        "volume": "30",
+        "author": "SM Lundberg",
+        "year": "2017",
+        "unstructured": "Lundberg SM, Lee SIA (2017) A unified approach to interpreting model predictions. Adv Neural Inf Process Syst 30:11",
+        "journal-title": "Adv Neural Inf Process Syst"
+      },
+      {
+        "key": "10066_CR66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)HE.1943-5584.0000367",
+        "author": "S Manfreda",
+        "year": "2011",
+        "unstructured": "Manfreda S, Di Leo M, Sole A (2011) Detection of flood-prone areas using digital elevation models. J Hydrol Eng. https://doi.org/10.1061/(ASCE)HE.1943-5584.0000367",
+        "journal-title": "J Hydrol Eng"
+      },
+      {
+        "key": "10066_CR67",
+        "doi-asserted-by": "publisher",
+        "first-page": "7153",
+        "DOI": "10.1002/2013WR015002",
+        "volume": "50",
+        "author": "DL McLaughlin",
+        "year": "2014",
+        "unstructured": "McLaughlin DL, Kaplan DA, Cohen MJ (2014) A significant nexus: geographically isolated wetlands influence landscape hydrology. Water Resour Res 50:7153\u20137166",
+        "journal-title": "Water Resour Res"
+      },
+      {
+        "issue": "6",
+        "key": "10066_CR68",
+        "doi-asserted-by": "publisher",
+        "first-page": "1393",
+        "DOI": "10.1002/hyp.13632",
+        "volume": "34",
+        "author": "H McMillan",
+        "year": "2019",
+        "unstructured": "McMillan H (2019) Linking hydrologic signatures to hydrologic processes: a review. Hydrol Process 34(6):1393\u20131409",
+        "journal-title": "Hydrol Process"
+      },
+      {
+        "key": "10066_CR69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1499",
+        "author": "HK McMillan",
+        "year": "2021",
+        "unstructured": "McMillan HK (2021) A review of hydrologic signatures and their applications. Wires Water. https://doi.org/10.1002/wat2.1499",
+        "journal-title": "Wires Water"
+      },
+      {
+        "issue": "14",
+        "key": "10066_CR70",
+        "doi-asserted-by": "publisher",
+        "first-page": "5430",
+        "DOI": "10.1002/joc.5857",
+        "volume": "38",
+        "author": "H Mehdipoor",
+        "year": "2018",
+        "unstructured": "Mehdipoor H, Zurita-Milla R, Izquierdo-Verdiguier E, Betancourt JL (2018) Influence of source and scale of gridded temperature data on modelled spring onset patterns in the conterminous United States. Int J Climatol 38(14):5430\u20135440",
+        "journal-title": "Int J Climatol"
+      },
+      {
+        "key": "10066_CR71",
+        "doi-asserted-by": "publisher",
+        "first-page": "561",
+        "DOI": "10.1111/1752-1688.12408",
+        "volume": "52",
+        "author": "B Mogollon",
+        "year": "2016",
+        "unstructured": "Mogollon B, Frimpong EA, Hoegh AB, Angermeier PL (2016) Recent changes in stream flashiness and flooding, and effects of flood management in North Carolina and Virginia. J Am Water Resour Assoc 52:561\u2013577",
+        "journal-title": "J Am Water Resour Assoc"
+      },
+      {
+        "key": "10066_CR72",
+        "doi-asserted-by": "publisher",
+        "first-page": "252",
+        "DOI": "10.1890/08-0879.1",
+        "volume": "91",
+        "author": "MA Murphy",
+        "year": "2010",
+        "unstructured": "Murphy MA, Evans JS, Storfer A (2010) Quantifying Bufo boreas connectivity in Yellowstone National Park with landscape genetics. Ecology 91:252\u2013261",
+        "journal-title": "Ecology"
+      },
+      {
+        "key": "10066_CR73",
+        "unstructured": "National Atlas of the United States (2006) Major Dams of the United States, Puerto Rico and the US Virgin Islands. Delivered by ArcGIS online. Accessed 6 Sept 2022"
+      },
+      {
+        "key": "10066_CR74",
+        "unstructured": "National River Flow Archive (2024) Derived flow statistics. https://nrfa.ceh.ac.uk/derived-flow-statistics. Accessed 1 Apr 2024"
+      },
+      {
+        "key": "10066_CR75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5065/D6MW2F4D",
+        "author": "A Newman",
+        "year": "2014",
+        "unstructured": "Newman A, Sampson K, Clark MP, Bock A, Viger RJ, Blodgett D (2014) A large-sample watershed-scale hydrometeorological dataset for the contiguous USA. UCAR/NCAR, Boulder, CO. https://doi.org/10.5065/D6MW2F4D",
+        "journal-title": "UCAR/NCAR, Boulder, CO"
+      },
+      {
+        "key": "10066_CR76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.25921/stkw-7w73",
+        "author": "NOAA",
+        "year": "2020",
+        "unstructured": "NOAA (2020) U.S. Billion-dollar weather and climate disasters. National Oceanic and Atmospheric Administration (NOAA). Natl Cent Environ Inform. https://doi.org/10.25921/stkw-7w73",
+        "journal-title": "Natl Cent Environ Inform"
+      },
+      {
+        "key": "10066_CR77",
+        "doi-asserted-by": "publisher",
+        "first-page": "2450",
+        "DOI": "10.1002/hyp.13740",
+        "volume": "34",
+        "author": "H Oppel",
+        "year": "2020",
+        "unstructured": "Oppel H, Schumann AH (2020) Machine learning based identification of dominant controls on runoff dynamics. Hydrol Process 34:2450\u20132465",
+        "journal-title": "Hydrol Process"
+      },
+      {
+        "key": "10066_CR79",
+        "first-page": "2825",
+        "volume": "12",
+        "author": "F Pedregosa",
+        "year": "2011",
+        "unstructured": "Pedregosa F, Varoquaux G, Gramfort A, Michel V, Thirion B, Grisel O, Blondel M, Prettenhofer P, Weiss R, Dubourg V (2011) Scikit-learn: machine learning in python. J Mach Learn Res 12:2825\u20132830",
+        "journal-title": "J Mach Learn Res"
+      },
+      {
+        "key": "10066_CR80",
+        "doi-asserted-by": "publisher",
+        "first-page": "418",
+        "DOI": "10.1038/nature20584",
+        "volume": "540",
+        "author": "J Pekel",
+        "year": "2016",
+        "unstructured": "Pekel J, Cottam A, Gorelick N, Belward A (2016) High-resolution mapping of global surface water and its long-term changes. Nature 540:418\u2013436",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10066_CR81",
+        "doi-asserted-by": "publisher",
+        "first-page": "111792",
+        "DOI": "10.1016/j.rse.2020.111792",
+        "volume": "243",
+        "author": "A Pickens",
+        "year": "2020",
+        "unstructured": "Pickens A, Hansen M, Hancher M, Stehman S, Tyukavina A, Potapov P, Marroquin B, Sherani Z (2020) Mapping and sampling to characterize global inland water dynamics from 1999 to 2018 with full Landsat time-series. Remote Sens Environ 243:111792",
+        "journal-title": "Remote Sens Environ"
+      },
+      {
+        "issue": "3\u20134",
+        "key": "10066_CR82",
+        "doi-asserted-by": "publisher",
+        "first-page": "205",
+        "DOI": "10.1016/0022-1694(82)90035-X",
+        "volume": "58",
+        "author": "DH Pilgrim",
+        "year": "1982",
+        "unstructured": "Pilgrim DH, Cordery I, Baron BC (1982) Effects of catchment size on runoff relationships. J Hydrol 58(3\u20134):205\u2013221",
+        "journal-title": "J Hydrol"
+      },
+      {
+        "issue": "11",
+        "key": "10066_CR83",
+        "doi-asserted-by": "publisher",
+        "first-page": "769",
+        "DOI": "10.2307/1313099",
+        "volume": "47",
+        "author": "NL Poff",
+        "year": "1997",
+        "unstructured": "Poff NL, Allan JD, Bain MB, Karr JR, Prestegaard KL, Richter BD, Sparks RE, Stromberg JC (1997) The natural flow regime. Bioscience 47(11):769\u2013784",
+        "journal-title": "Bioscience"
+      },
+      {
+        "key": "10066_CR84",
+        "first-page": "111",
+        "volume": "5",
+        "author": "S Portet",
+        "year": "2020",
+        "unstructured": "Portet S (2020) A primer on model selection using the Akaike Information Criterion. Infect Dis Model 5:111\u2013128",
+        "journal-title": "Infect Dis Model"
+      },
+      {
+        "key": "10066_CR85",
+        "doi-asserted-by": "publisher",
+        "first-page": "6086",
+        "DOI": "10.1038/s41598-024-56706-x",
+        "volume": "14",
+        "author": "O Rainio",
+        "year": "2024",
+        "unstructured": "Rainio O, Teuho J, Kl\u00e9n R (2024) Evaluation metrics and statistical tests for machine learning. Sci Rep 14:6086",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "issue": "1",
+        "key": "10066_CR86",
+        "doi-asserted-by": "publisher",
+        "first-page": "153",
+        "DOI": "10.1002/hyp.10610",
+        "volume": "30",
+        "author": "MC Rains",
+        "year": "2016",
+        "unstructured": "Rains MC, Leibowitz SG, Cohen MJ, Creed IF, Golden HE, Jawitz JW, Kalla P, Lane CR, Lang MW, McLaughlin DL (2016) Geographically isolated wetlands are part of the hydrological landscape. Hydrol Process 30(1):153\u2013160",
+        "journal-title": "Hydrol Process"
+      },
+      {
+        "key": "10066_CR88",
+        "doi-asserted-by": "publisher",
+        "first-page": "e2019WR026561",
+        "DOI": "10.1029/2019WR026561",
+        "volume": "56",
+        "author": "A Rajib",
+        "year": "2020",
+        "unstructured": "Rajib A, Golden HE, Lane CR, Wu Q (2020) Surface depression and wetland water storage improves major river basin hydrologic predictions. Water Resour Res 56:e2019WR026561",
+        "journal-title": "Water Resour Res"
+      },
+      {
+        "key": "10066_CR89",
+        "doi-asserted-by": "publisher",
+        "first-page": "1163",
+        "DOI": "10.1046/j.1523-1739.1996.10041163.x",
+        "volume": "10",
+        "author": "BD Richter",
+        "year": "1996",
+        "unstructured": "Richter BD, Baumgartner JV, Powell J, Braun DP (1996) A method for assessing hydrologic alteration within ecosystems. Conserv Biol 10:1163\u20131174",
+        "journal-title": "Conserv Biol"
+      },
+      {
+        "key": "10066_CR90",
+        "doi-asserted-by": "publisher",
+        "first-page": "126170",
+        "DOI": "10.1016/j.jhydrol.2021.126170",
+        "volume": "597",
+        "author": "E Sauqet",
+        "year": "2021",
+        "unstructured": "Sauqet E, Shanafield M, Hammond JC, Sefton C, Leigh C, Datry T (2021) Classification and trends in intermittent river flow regimes in Australia, northwestern Europe, and USA: a global perspective. J Hydrol 597:126170",
+        "journal-title": "J Hydrol"
+      },
+      {
+        "key": "10066_CR91",
+        "doi-asserted-by": "publisher",
+        "first-page": "5194",
+        "DOI": "10.1038/s41467-019-13184-4",
+        "volume": "10",
+        "author": "DT Scott",
+        "year": "2019",
+        "unstructured": "Scott DT, Gomez-Velez JD, Jones CN, Harvey JW (2019) Floodplain inundation spectrum across the United States. Nat Commun 10:5194",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "key": "10066_CR92",
+        "doi-asserted-by": "publisher",
+        "first-page": "3147",
+        "DOI": "10.1002/hyp.8390",
+        "volume": "26",
+        "author": "DA Shaw",
+        "year": "2012",
+        "unstructured": "Shaw DA, Vanderkamp G, Conly FM, Pietroniro A, Martz L (2012) The fill-spill hydrology of prairie wetland complexes during drought and deluge. Hydrol Process 26:3147\u20133156",
+        "journal-title": "Hydrol Process"
+      },
+      {
+        "key": "10066_CR93",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5066/P9P81HUR",
+        "author": "BC Sherrouse",
+        "year": "2023",
+        "unstructured": "Sherrouse BC, Hawbaker TJ (2023) HOPS: hyperparameter optimization and predictor selection v1.0. US Geol Surv Softw Release. https://doi.org/10.5066/P9P81HUR",
+        "journal-title": "US Geol Surv Softw Release"
+      },
+      {
+        "issue": "2",
+        "key": "10066_CR94",
+        "doi-asserted-by": "publisher",
+        "first-page": "248",
+        "DOI": "10.1111/1752-1688.12996",
+        "volume": "58",
+        "author": "C Soulard",
+        "year": "2022",
+        "unstructured": "Soulard C, Waller E, Walker J, Petrakis R, Smith B (2022) DSWEMOD \u2013 the production of high-frequency surface water map composites from daily MODIS images. J Am Water Res Assoc 58(2):248\u2013268",
+        "journal-title": "J Am Water Res Assoc"
+      },
+      {
+        "key": "10066_CR95",
+        "doi-asserted-by": "publisher",
+        "first-page": "2915",
+        "DOI": "10.5194/hess-16-2915-2012",
+        "volume": "16",
+        "author": "T Stacke",
+        "year": "2012",
+        "unstructured": "Stacke T, Hagemann S (2012) Development and evaluation of a global dynamical wetlands extent scheme. Hydrol Earth Syst Sc 16:2915\u20132933",
+        "journal-title": "Hydrol Earth Syst Sc"
+      },
+      {
+        "key": "10066_CR96",
+        "doi-asserted-by": "publisher",
+        "first-page": "34",
+        "DOI": "10.1007/s13157-023-01678-3",
+        "volume": "43",
+        "author": "LM Stepchinski",
+        "year": "2023",
+        "unstructured": "Stepchinski LM, Rains MC, Lee LC, Lis RA, Nutter WL, Rains KC, Stewart SR (2023) Hydrologic connectivity and flow generation from California vernal pool, swale, and headwater stream complexes to downstream waters. Wetlands 43:34",
+        "journal-title": "Wetlands"
+      },
+      {
+        "key": "10066_CR97",
+        "first-page": "100054",
+        "volume": "7",
+        "author": "IT Stewart",
+        "year": "2020",
+        "unstructured": "Stewart IT, Rogers J, Graham A (2020) Water security under severe drought and climate change: disparate impacts of the recent severe drought on environmental flows and water supplies in Central California. J Hydrol x 7:100054",
+        "journal-title": "J Hydrol x"
+      },
+      {
+        "issue": "12",
+        "key": "10066_CR98",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0143619",
+        "DOI": "10.1371/journal.pone.0143619",
+        "volume": "10",
+        "author": "DM Theobald",
+        "year": "2015",
+        "unstructured": "Theobald DM, Harrison-Atlas D, Monahan WB, Albano CM (2015) Ecologically-relevant maps of landforms and physiographic diversity for climate adaptation planning. PLoS ONE 10(12):e0143619",
+        "journal-title": "PLoS ONE"
+      },
+      {
+        "key": "10066_CR99",
+        "volume-title": "Daymet: daily surface weather data on a 1-km Grid for North America, Version 4",
+        "author": "MM Thornton",
+        "year": "2020",
+        "unstructured": "Thornton MM, Shrestha R, Wei Y, Thornton PE, Kao S, Wilson BE (2020) Daymet: daily surface weather data on a 1-km Grid for North America, Version 4. ORNL DAAC, Oak Ridge"
+      },
+      {
+        "key": "10066_CR100",
+        "doi-asserted-by": "publisher",
+        "first-page": "e1816",
+        "DOI": "10.1002/eco.1816",
+        "volume": "10",
+        "author": "R Trancoso",
+        "year": "2016",
+        "unstructured": "Trancoso R, Phinn S, McVicar TR, Larsen JR, McAlpine CA (2016) Regional variation in streamflow drivers across a continental climatic gradient. Ecohydrology 10:e1816",
+        "journal-title": "Ecohydrology"
+      },
+      {
+        "key": "10066_CR101",
+        "unstructured": "USFS (2022) U.S. Stream Flow Metric Dataset: Modeled metrics for stream segments in the United States under historical conditions and projected climate change scenarios. Data Guide. Boise, ID, U.S. Department of Agriculture, U.S. Forest Service (USFS), Accessed 6 Sept 2022"
+      },
+      {
+        "key": "10066_CR102",
+        "unstructured": "USFWS (2019) National Wetlands Inventory. U.S. Fish and Wildlife (USFWS) Service.\u00a0https://www.fws.gov/program/national-wetlands-inventory. Accessed 1 Apr 2024"
+      },
+      {
+        "key": "10066_CR103",
+        "unstructured": "USGS (2022) High Resolution, National Hydrography Dataset, U.S. Geological Survey (USGS), The National Map, Hydrography, https://apps.nationalmap.gov/services/ Accessed 14 Aug 2022"
+      },
+      {
+        "key": "10066_CR104",
+        "doi-asserted-by": "publisher",
+        "unstructured": "USGS (2024) U.S. Geological Survey water data for the Nation: U.S. Geological Survey (USGS) National Water Information System database, https://doi.org/10.5066/F7P55KJN. Accessed 1 Apr 2024",
+        "DOI": "10.5066/F7P55KJN"
+      },
+      {
+        "issue": "11",
+        "key": "10066_CR105",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0224365",
+        "DOI": "10.1371/journal.pone.0224365",
+        "volume": "14",
+        "author": "A Vabalas",
+        "year": "2019",
+        "unstructured": "Vabalas A, Gowen E, Poliakoff E, Casson AJ (2019) Machine learning algorithm validation with a limited sample size. PLoS ONE 14(11):e0224365",
+        "journal-title": "PLoS ONE"
+      },
+      {
+        "key": "10066_CR106",
+        "doi-asserted-by": "publisher",
+        "first-page": "159",
+        "DOI": "10.5194/hess-14-159-2010",
+        "volume": "14",
+        "author": "AIJM van Dijk",
+        "year": "2010",
+        "unstructured": "van Dijk AIJM (2010) Climate and terrain factors explaining streamflow response and recession in Australian catchments. Hydrol Earth Syst Sci 14:159\u2013169",
+        "journal-title": "Hydrol Earth Syst Sci"
+      },
+      {
+        "issue": "4",
+        "key": "10066_CR107",
+        "doi-asserted-by": "publisher",
+        "first-page": "805",
+        "DOI": "10.1007/s10980-015-0290-5",
+        "volume": "31",
+        "author": "MK Vanderhoof",
+        "year": "2016",
+        "unstructured": "Vanderhoof MK, Alexander LC, Todd MJ (2016) Temporal and spatial patterns of wetland extent influence variability of surface water connectivity in the Prairie Pothole Region. U. s. Landsc Ecol 31(4):805\u2013824",
+        "journal-title": "U. s. Landsc Ecol"
+      },
+      {
+        "issue": "3",
+        "key": "10066_CR108",
+        "doi-asserted-by": "publisher",
+        "first-page": "1851",
+        "DOI": "10.5194/hess-22-1851-2018",
+        "volume": "22",
+        "author": "MK Vanderhoof",
+        "year": "2018",
+        "unstructured": "Vanderhoof MK, Lane CR, McManus MG, Alexander LC, Christensen JR (2018) Wetlands inform how climate extremes influence surface water expansion and contraction. Hydrol Earth Syst Sci 22(3):1851\u20131873",
+        "journal-title": "Hydrol Earth Syst Sci"
+      },
+      {
+        "key": "10066_CR109",
+        "doi-asserted-by": "publisher",
+        "first-page": "113498",
+        "DOI": "10.1016/j.rse.2023.113498",
+        "volume": "288",
+        "author": "MK Vanderhoof",
+        "year": "2023",
+        "unstructured": "Vanderhoof MK, Alexander L, Christensen J, Solvik K, Nieuwlandt P, Sagehorn M (2023) High-frequency time series comparison of Sentinel-1 and Sentinel-2 for open and vegetated water across the United States (2017\u20132021). Remote Sens Environ 288:113498",
+        "journal-title": "Remote Sens Environ"
+      },
+      {
+        "issue": "2",
+        "key": "10066_CR110",
+        "doi-asserted-by": "publisher",
+        "first-page": "e2023EF004106",
+        "DOI": "10.1029/2023EF004106",
+        "volume": "12",
+        "author": "MK Vanderhoof",
+        "year": "2024",
+        "unstructured": "Vanderhoof MK, Christensen JR, Alexander LC, Lane CR, Golden HE (2024a) Climate change will impact surface water extents across the central United States. Earth\u2019s Future 12(2):e2023EF004106",
+        "journal-title": "Earth\u2019s Future"
+      },
+      {
+        "key": "10066_CR111",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5066/P9RLFMEQ",
+        "author": "MK Vanderhoof",
+        "year": "2024",
+        "unstructured": "Vanderhoof MK, Nieuwlandt P, Golden HE, Lane CR, Christensen JR, Keenan W, Dolan W (2024b) Data release for integrating remotely sensed surface water dynamics in hydrologic signature modelling. US Geol Surv Data Release. https://doi.org/10.5066/P9RLFMEQ",
+        "journal-title": "US Geol Surv Data Release"
+      },
+      {
+        "key": "10066_CR112",
+        "doi-asserted-by": "publisher",
+        "first-page": "3951",
+        "DOI": "10.5194/hess-19-3951-2015",
+        "volume": "19",
+        "author": "IK Westerberg",
+        "year": "2015",
+        "unstructured": "Westerberg IK, McMillan HK (2015) Uncertainty in hydrological signatures. Hydrol Earth Syst Sci 19:3951\u20133968",
+        "journal-title": "Hydrol Earth Syst Sci"
+      },
+      {
+        "key": "10066_CR113",
+        "doi-asserted-by": "publisher",
+        "first-page": "381",
+        "DOI": "10.1038/nclimate2893",
+        "volume": "6",
+        "author": "HC Winsemius",
+        "year": "2016",
+        "unstructured": "Winsemius HC, Aerts JCJH, van Beek LPH, Bierkens MFP, Bouwman A, Jongman B, Kwadijk JCJ, Ligtvoet W, Lucas PL, van Vuuren DP, Ward PJ (2016) Global drivers of future river flood risk. Nat Clim Change 6:381\u2013385",
+        "journal-title": "Nat Clim Change"
+      },
+      {
+        "issue": "2",
+        "key": "10066_CR114",
+        "doi-asserted-by": "publisher",
+        "first-page": "e2020RG000724",
+        "DOI": "10.1029/2020RG000724",
+        "volume": "59",
+        "author": "E Wohl",
+        "year": "2021",
+        "unstructured": "Wohl E (2021) An integrative conceptualization of floodplain storage. Rev Geophy 59(2):e2020RG000724",
+        "journal-title": "Rev Geophy"
+      },
+      {
+        "key": "10066_CR115",
+        "doi-asserted-by": "publisher",
+        "first-page": "942",
+        "DOI": "10.1016/j.scitotenv.2018.07.353",
+        "volume": "647",
+        "author": "SA Woznicki",
+        "year": "2019",
+        "unstructured": "Woznicki SA, Baynes J, Panlasigui S, Mehaffey M, Neale A (2019) Development of a spatially complete floodplain map of the conterminous United States using random forest. Sci Total Environ 647:942\u2013953",
+        "journal-title": "Sci Total Environ"
+      },
+      {
+        "key": "10066_CR116",
+        "doi-asserted-by": "publisher",
+        "first-page": "125012",
+        "DOI": "10.1016/j.jhydrol.2020.125012",
+        "volume": "587",
+        "author": "Y Wu",
+        "year": "2020",
+        "unstructured": "Wu Y, Zhang G, Rousseau AN, Xu YJ, Foulon E (2020) On how wetlands can provide flood resilience in a large river basin: a case study in Nenjiang river Basin. China J Hydrol 587:125012",
+        "journal-title": "China J Hydrol"
+      },
+      {
+        "issue": "3",
+        "key": "10066_CR117",
+        "doi-asserted-by": "publisher",
+        "first-page": "e2021EF002542",
+        "DOI": "10.1029/2021EF002542",
+        "volume": "10",
+        "author": "G Wu",
+        "year": "2022",
+        "unstructured": "Wu G, Chen J, Shi X, Kim JS, Xia J, Zhang L (2022) Impacts of global climate warming on meteorological and hydrological droughts and their propagations. Earth\u2019s Future 10(3):e2021EF002542",
+        "journal-title": "Earth\u2019s Future"
+      },
+      {
+        "key": "10066_CR118",
+        "doi-asserted-by": "publisher",
+        "first-page": "E1064",
+        "DOI": "10.1175/BAMS-D-19-0319.1",
+        "volume": "102",
+        "author": "Q Yang",
+        "year": "2021",
+        "unstructured": "Yang Q, Shen X, Anagnostou EN, Mo C, Eggleston JR, Kettner AJ (2021) A high-resolution flood inundation archive (2016-the present) from Sentinel-1 SAR imagery over CONUS. Bull Am Meteorl Soc 102:E1064\u2013E1079",
+        "journal-title": "Bull Am Meteorl Soc"
+      },
+      {
+        "key": "10066_CR119",
+        "doi-asserted-by": "publisher",
+        "first-page": "125269",
+        "DOI": "10.1016/j.jhydrol.2020.125269",
+        "volume": "590",
+        "author": "L Zeng",
+        "year": "2020",
+        "unstructured": "Zeng L, Shao J, Chu X (2020) Improved hydrologic modeling for depression-dominated areas. J Hydrol 590:125269",
+        "journal-title": "J Hydrol"
+      }
+    ],
+    "container-title": [
+      "Wetlands Ecology and Management"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s11273-025-10066-z.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s11273-025-10066-z/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s11273-025-10066-z.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          7
+        ]
+      ],
+      "date-time": "2025-09-07T01:44:44Z",
+      "timestamp": 1757209484000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/s11273-025-10066-z"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          5
+        ]
+      ]
+    },
+    "references-count": 118,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            8
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10066"
+    ],
+    "URL": "https://doi.org/10.1007/s11273-025-10066-z",
+    "relation": {},
+    "ISSN": [
+      "0923-4861",
+      "1572-9834"
+    ],
+    "issn-type": [
+      {
+        "value": "0923-4861",
+        "type": "print"
+      },
+      {
+        "value": "1572-9834",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          5
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "11 April 2025",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "12 June 2025",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "5 July 2025",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Declarations"
+        }
+      },
+      {
+        "value": "The authors declare no conflicts of interest.",
+        "order": 2,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Conflict of interest"
+        }
+      }
+    ],
+    "article-number": "53"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1007/s11273-025-10066-z",
+  "original_doi": "10.1007/s11273-025-10066-z"
+}

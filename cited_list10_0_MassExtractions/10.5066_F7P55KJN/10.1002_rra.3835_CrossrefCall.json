@@ -1,0 +1,600 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          12
+        ]
+      ],
+      "date-time": "2026-06-12T15:48:41Z",
+      "timestamp": 1781279321575,
+      "version": "3.54.1"
+    },
+    "reference-count": 46,
+    "publisher": "Wiley",
+    "issue": "9",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              7,
+              18
+            ]
+          ],
+          "date-time": "2021-07-18T00:00:00Z",
+          "timestamp": 1626566400000
+        },
+        "content-version": "am",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              7,
+              18
+            ]
+          ],
+          "date-time": "2021-07-18T00:00:00Z",
+          "timestamp": 1626566400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000192",
+        "name": "National Oceanic and Atmospheric Administration",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NA19AANIG0235"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NA19AANIG0235"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000192",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "River Research &amp; Apps"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          11
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>We present a regression model for estimating mean August baseflow per square kilometer of drainage area to help resource managers assess relative amounts of baseflow in Maine streams with Atlantic Salmon habitat. The model was derived from mean August baseflows computed at 31 USGS streamflow gages in Maine. We use an ordinary least squares regression model to estimate mean August baseflow per unit drainage area from two explanatory variables: percentage of the basin underlain by sand and gravel aquifers and mean July precipitation in the basin. This model provides the ability to estimate mean August baseflow in cubic meters per second per square kilometer of basin area on user\u2010selected, ungaged sites throughout Maine south of 46\u00b0 21\u203255\u2033 N latitude. The model has an adjusted R<jats:sup>2</jats:sup>of 0.78 and a mean 95% prediction interval of plus or minus 0.002 cubic meters per second per square kilometer. A map of the Narraguagus watershed in eastern coastal Maine shows reaches color coded by relative amounts of baseflow predicted by the model as an example of how this method could be applied throughout Maine. The map can be used to identify reaches with relatively higher amounts of baseflow during summer low flows for habitat conservation and restoration work. These areas have the potential to be high\u2010quality habitat for Atlantic salmon and other cold\u2010water fish because baseflows are known to moderate stream temperatures in summer low\u2010flow periods.</jats:p>",
+    "DOI": "10.1002/rra.3835",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          19
+        ]
+      ],
+      "date-time": "2021-07-19T01:35:30Z",
+      "timestamp": 1626658530000
+    },
+    "page": "1254-1264",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 11,
+    "title": [
+      "Model estimated baseflow for streams with endangered Atlantic Salmon in Maine,<scp>USA</scp>"
+    ],
+    "prefix": "10.1002",
+    "volume": "37",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0983-1906",
+        "authenticated-orcid": false,
+        "given": "Pamela J.",
+        "family": "Lombard",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Department of Interior U.S. Geological Survey Augusta Maine USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0934-0568",
+        "authenticated-orcid": false,
+        "given": "Robert W.",
+        "family": "Dudley",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Department of Interior U.S. Geological Survey Augusta Maine USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4238-2038",
+        "authenticated-orcid": false,
+        "given": "Mathias J.",
+        "family": "Collins",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Department of Commerce National Oceanic and Atmospheric Administration, National Marine Fisheries Service Gloucester Massachusetts USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rory",
+        "family": "Saunders",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Department of Commerce National Oceanic and Atmospheric Administration, National Marine Fisheries Service, Greater Atlantic Regional Fisheries Office, Maine Field Station Orono Maine USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ernie",
+        "family": "Atkinson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Maine Department of Marine Resources, Division of Sea\u2010run Fisheries Jonesboro Maine USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          18
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1007676325825"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626667.2019.1655148"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "unstructured": "Borggaard D. M. Dick D. Star J. Alexander M. Bernier M. Collins M. \u2026Staudinger M. D.(2019).Atlantic salmon (Salmo salar) climate scenario planning pilot report. Greater Atlantic Region Policy Series.19(5)."
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2656.2011.01828.x"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2018.04.344"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2007WR006518"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_2_8_8_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "15",
+        "DOI": "10.1080/00401706.1977.10489493",
+        "article-title": "Detection of influential observations in linear regression",
+        "volume": "19",
+        "author": "Cook R. D.",
+        "year": "1977",
+        "journal-title": "Technometrics"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752-1688.12673"
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR018349"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dudley R.W.(2004).Estimating monthly annual and low low 7\u2010day 10\u2010year streamflows for ungaged rivers in Maine. US Geological Survey. Scientific Investigations Report 2004\u20135026.",
+        "DOI": "10.3133/sir20045026"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dudley R. W.(2015).Regression equations for monthly and annual mean and selected percentile streamflows for ungaged rivers in Maine U.S. Geological Survey Scientific Investigations Report 2015\u20135151. Retrieved fromhttps://pubs.er.usgs.gov/publication/sir20155151",
+        "DOI": "10.3133/sir20155151"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1095-8649.2010.02762.x"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)1084-0699(2000)5:3(317)"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Farmer W. H. Kiang J. E. Feaster T. D. &Eng K.(2019).Regionalization of surface\u2010water statistics using multiple linear regression: U.S. Geological Survey Techniques and Methods book 4 chap. A12. Retrieved January 2020 fromhttps://doi.org/10.3133/tm4A12",
+        "DOI": "10.3133/tm4A12"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1577/1548-8659(1970)99<297:FISCAS>2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Helsel D. R. Hirsch R. M. Ryberg K. R. Archfield S. A. &Gilroy E. J.(2020).Statistical methods in water resources. U.S. Geological Survey Techniques and Methods book 4 chapter A3.https://doi.org/10.3133/tm4a3",
+        "DOI": "10.3133/tm4A3"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2010WR009109"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jfb.12542"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10584-011-0326-z"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eco.1566"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lombard P. J.(2004).August median streamflow on ungaged streams in Eastern coastal Maine U.S. Geological Survey Scientific Investigations Report 2004\u20135157. Retrieved fromhttps://pubs.usgs.gov/sir/2004/5157/",
+        "DOI": "10.3133/sir20045157"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "LombardP. J.(2010).June and August median streamflows estimated for ungaged streams in Southern Maine. U.S. Geological Survey Scientific Investigations Report 2010\u20135179. Retrieved fromhttps://pubs.usgs.gov/sir/2004/5157/",
+        "DOI": "10.3133/sir20105179"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lombard P. J. &Sturtevant L. P.(2021).Data for model estimated baseflow for streams containing endangered Atlantic salmon in Maine USA. U.S. Geological Survey data release.https://doi.org/10.5066/P94OKX6S",
+        "DOI": "10.1002/rra.3835"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "unstructured": "Maine Geological Survey. (2018).Maine Aquifers Maine Geological Survey data catalog web page. Retrieved May 2020 fromhttps://mgs-maine.opendata.arcgis.com/datasets/maine-aquifers"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10750-007-9271-2"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2012.10.012"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1577/1548-8446(1988)013<0002:TROGIT>2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1024847723344"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Neff B. P. Day S. M. Piggott A. R.&Fuller L. M.(2005).Base flow in the Great Lakes basin. U.S. Geological Survey. Scientific Investigations Report 2005\u20135217.",
+        "DOI": "10.3133/sir20055217"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2012.06.029"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "unstructured": "Pettyjohn W. A. &Henning R.(1979).Preliminary estimate of ground\u2010water recharge rates related streamflow and water quality in Ohio. Ohio State University water resources center project completion report 552."
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/d98-013"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "unstructured": "Poole G. Dunham J. Keenan D. Lockwood J. Materna E. Risley J. \u2026Spalding B. S.(2001).Scientific issues relating to temperature criteria for Salmon trout and char native to the Pacific. U.S. Environmental Protection Agency technical synthesis report EPA 910\u2010R\u201001\u2010007."
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "unstructured": "PRISM Climate Group. (2012).United States average monthly or annual precipitation 1981\u20132010 30 arc\u2010second normal: Oregon State University PRISM Climate Group web page. Retrieved September 16 2013 fromhttp://www.prism.oregonstate.edu"
+      },
+      {
+        "key": "e_1_2_8_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1899/12-002.1"
+      },
+      {
+        "key": "e_1_2_8_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2007.12.018"
+      },
+      {
+        "key": "e_1_2_8_38_1",
+        "unstructured": "Sloto R. A. &Crouse M. Y.(1996).HYSEP \u2010 A computer program for streamflow hydrograph separation and analysis. U.S. Geological Survey Water\u2010Resources Investigations Report 96\u20134040. Retrieved fromhttps://water.usgs.gov/software/HYSEP/code/doc/hysep.pdf"
+      },
+      {
+        "key": "e_1_2_8_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0022-1694(00)00340-1"
+      },
+      {
+        "key": "e_1_2_8_40_1",
+        "unstructured": "Thompson W. B. &Borns H. W.(1985).Surficial geologic map of Maine: Maine Geological Survey Department of Conservation scale 1:5 000 000 Asheville North Carolina."
+      },
+      {
+        "key": "e_1_2_8_41_1",
+        "unstructured": "U.S. Fish and Wildlife Service (USFWS) and National Marine Fisheries Service (NMFS). (2018).Recovery Plan for the Gulf of Maine Distinct Population Segment of Atlantic Salmon (Salmo salar). Retrieved July 2020 fromhttps://atlanticsalmonrestoration.org/resources/documents/atlantic\u2010salmon\u2010recovery\u2010plan\u20102015"
+      },
+      {
+        "key": "e_1_2_8_42_1",
+        "unstructured": "U.S. Geological Survey. (2019).National Hydrography Dataset. Retrieved January 2021 fromhttps://www.usgs.gov/core-science-systems/ngp/national-hydrography/access-national-hydrography-products"
+      },
+      {
+        "key": "e_1_2_8_43_1",
+        "unstructured": "U.S. Geological Survey. (2020).USGS water data for the nation: U.S. Geological Survey National Water Information System Database. Retrieved March 2020 fromhttps://doi.org/10.5066/F7P55KJN."
+      },
+      {
+        "key": "e_1_2_8_44_1",
+        "first-page": "29344\u201329387",
+        "article-title": "Endangered and threatened species; determination of endangered status for the Gulf of Maine distinct population segment of Atlantic salmon, final rule",
+        "volume": "117",
+        "author": "U.S. Office of the Federal Register (USOFR)",
+        "year": "2009",
+        "journal-title": "Federal Register"
+      },
+      {
+        "key": "e_1_2_8_45_1",
+        "first-page": "29300\u201329341",
+        "article-title": "Endangered and threatened species; designation of critical habitat for the Gulf of Maine distinct population segment of Atlantic salmon, final rule",
+        "volume": "117",
+        "author": "U.S. Office of the Federal Register (USOFR)",
+        "year": "2009",
+        "journal-title": "Federal Register"
+      },
+      {
+        "key": "e_1_2_8_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.3570"
+      },
+      {
+        "key": "e_1_2_8_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w5041797"
+      }
+    ],
+    "container-title": [
+      "River Research and Applications"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/rra.3835",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/rra.3835",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/rra.3835",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/rra.3835",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          4
+        ]
+      ],
+      "date-time": "2024-09-04T12:25:36Z",
+      "timestamp": 1725452736000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/rra.3835"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          18
+        ]
+      ]
+    },
+    "references-count": 46,
+    "journal-issue": {
+      "issue": "9",
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            11
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/rra.3835"
+    ],
+    "URL": "https://doi.org/10.1002/rra.3835",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "1535-1459",
+      "1535-1467"
+    ],
+    "issn-type": [
+      {
+        "value": "1535-1459",
+        "type": "print"
+      },
+      {
+        "value": "1535-1467",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          18
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2021-03-15",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2021-06-18",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2021-07-18",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.1002/rra.3835",
+  "original_doi": "10.1002/rra.3835"
+}

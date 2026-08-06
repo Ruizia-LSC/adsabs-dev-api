@@ -1,0 +1,406 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          5
+        ]
+      ],
+      "date-time": "2026-05-05T02:56:53Z",
+      "timestamp": 1777949813681,
+      "version": "3.51.4"
+    },
+    "reference-count": 26,
+    "publisher": "Wiley",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              9
+            ]
+          ],
+          "date-time": "2026-01-09T00:00:00Z",
+          "timestamp": 1767916800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              9
+            ]
+          ],
+          "date-time": "2026-01-09T00:00:00Z",
+          "timestamp": 1767916800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "River Research &amp;amp; Apps"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>\n                    Water resource management requires accurate observations of streamflow but standard field methods for measuring river discharge () can be costly and hazardous for equipment and personnel. Remote sensing has become a viable alternative, but many image\u2010based techniques require field data for calibration, and depth and velocity can seldom be mapped with a single sensor. A new approach based on critical flow theory, in contrast, allows both of these attributes to be inferred from readily available image data. This technique only pertains to sites with standing waves, called undular hydraulic jumps (UHJs), but a recent investigation demonstrated its potential to provide accurate discharge estimates. This paper introduces software designed to facilitate\n                    <jats:styled-content>In</jats:styled-content>\n                    ferring  from\n                    <jats:styled-content>U</jats:styled-content>\n                    HJs\n                    <jats:styled-content>I</jats:styled-content>\n                    dentified in\n                    <jats:styled-content>R</jats:styled-content>\n                    iver\n                    <jats:styled-content>I</jats:styled-content>\n                    mages (InQUIRI). The package includes modules for retrieving data from image servers, making the measurements of wavelength and width required to calculate discharge, inferring a representative wavelength from a profile digitized along a wave train, combining multiple estimates to obtain an ensemble median discharge, and assessing accuracy via comparison to streamgage data from the US Geological Survey. By making these steps easier to implement, InQUIRI enables users to apply the workflow to a variety of UHJ\u2010containing images. Accumulating more case studies, some successful and others less so, would help constrain the range of applicability of the critical flow approach and foster development of refined guidelines for selecting and measuring waves. The software described herein could play a meaningful role in promoting informed use of this new technique for non\u2010contact streamflow measurement.\n                  </jats:p>",
+    "DOI": "10.1002/rra.70110",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          9
+        ]
+      ],
+      "date-time": "2026-01-09T08:26:33Z",
+      "timestamp": 1767947193000
+    },
+    "page": "915-928",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Software to Support Remote Sensing of River Discharge Based on Critical Flow Theory"
+    ],
+    "prefix": "10.1002",
+    "volume": "42",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0940-8013",
+        "authenticated-orcid": false,
+        "given": "Carl J.",
+        "family": "Legleiter",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Observing Systems Division  Golden Colorado USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3942-4110",
+        "authenticated-orcid": false,
+        "given": "Inhyeok",
+        "family": "Bae",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Center for Ecohydraulics Research University of Idaho  Boise Idaho USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          9
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_10_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/esp.70157"
+      },
+      {
+        "key": "e_1_2_10_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.3973"
+      },
+      {
+        "key": "e_1_2_10_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023WR034740"
+      },
+      {
+        "key": "e_1_2_10_5_1",
+        "volume-title": "Time Series Analysis: Forecasting and Control",
+        "author": "Box G. E.",
+        "year": "1994"
+      },
+      {
+        "key": "e_1_2_10_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/fs20193024"
+      },
+      {
+        "key": "e_1_2_10_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR031614"
+      },
+      {
+        "key": "e_1_2_10_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs12071107"
+      },
+      {
+        "key": "e_1_2_10_9_1",
+        "unstructured": "Google.2025a.Earth Versions\u2014Google Earth.https://www.google.com/earth/about/versions/."
+      },
+      {
+        "key": "e_1_2_10_10_1",
+        "unstructured": "Google.2025b.Google Maps Platform|Google for Developers.https://developers.google.com/maps."
+      },
+      {
+        "key": "e_1_2_10_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2017.06.031"
+      },
+      {
+        "key": "e_1_2_10_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.4186"
+      },
+      {
+        "key": "e_1_2_10_13_1",
+        "volume-title": "Open Channel Flow",
+        "author": "Henderson F.",
+        "year": "1966"
+      },
+      {
+        "key": "e_1_2_10_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0022112063000975"
+      },
+      {
+        "key": "e_1_2_10_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR023586"
+      },
+      {
+        "key": "e_1_2_10_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs12081282"
+      },
+      {
+        "key": "e_1_2_10_17_1",
+        "volume-title": "Critflowq (ver 1.0.0, December, 2024)",
+        "author": "Legleiter C. J.",
+        "year": "2024"
+      },
+      {
+        "key": "e_1_2_10_18_1",
+        "volume-title": "InQUIRI (ver 1.0.0, April, 2025)",
+        "author": "Legleiter C. J.",
+        "year": "2025"
+      },
+      {
+        "key": "e_1_2_10_19_1",
+        "volume-title": "Image\u2010Based Measurements and Gage Records Used to Test a Method for Inferring River Discharge From Remotely Sensed Data Based on Critical Flow Theory",
+        "author": "Legleiter C. J.",
+        "year": "2024"
+      },
+      {
+        "key": "e_1_2_10_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2025GL114851"
+      },
+      {
+        "key": "e_1_2_10_21_1",
+        "unstructured": "MathWorks.2025a.fft.https://www.mathworks.com/help/matlab/ref/fft.html."
+      },
+      {
+        "key": "e_1_2_10_22_1",
+        "unstructured": "MathWorks.2025b.islocalmax.https://www.mathworks.com/help/matlab/ref/islocalmax.html."
+      },
+      {
+        "key": "e_1_2_10_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.solener.2003.12.003"
+      },
+      {
+        "key": "e_1_2_10_24_1",
+        "unstructured": "Sofer N.2025.NirCmd\u2014Windows Command Line Tool.https://www.nirsoft.net/utils/nircmd.html."
+      },
+      {
+        "key": "e_1_2_10_25_1",
+        "unstructured": "U.S. Department of Agriculture.2025.National Agricultural Imagery Program\u2014NAIP Hub Site.https://naip\u2010usdaonline.hub.arcgis.com/."
+      },
+      {
+        "key": "e_1_2_10_26_1",
+        "unstructured": "U.S. Geological Survey.2025a.EarthExplorer.https://earthexplorer.usgs.gov/."
+      },
+      {
+        "key": "e_1_2_10_27_1",
+        "volume-title": "USGS Water Data for the Nation",
+        "author": "U.S. Geological Survey",
+        "year": "2025"
+      }
+    ],
+    "container-title": [
+      "River Research and Applications"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/rra.70110",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/rra.70110",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/rra.70110",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          4
+        ]
+      ],
+      "date-time": "2026-05-04T04:40:34Z",
+      "timestamp": 1777869634000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/rra.70110"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          9
+        ]
+      ]
+    },
+    "references-count": 26,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            5
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/rra.70110"
+    ],
+    "URL": "https://doi.org/10.1002/rra.70110",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "1535-1459",
+      "1535-1467"
+    ],
+    "issn-type": [
+      {
+        "value": "1535-1459",
+        "type": "print"
+      },
+      {
+        "value": "1535-1467",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          9
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2025-04-28",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-12-18",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2026-01-09",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.1002/rra.70110",
+  "original_doi": "10.1002/rra.70110"
+}

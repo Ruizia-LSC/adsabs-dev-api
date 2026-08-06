@@ -1,0 +1,709 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          30
+        ]
+      ],
+      "date-time": "2026-07-30T12:02:45Z",
+      "timestamp": 1785412965116,
+      "version": "3.56.0"
+    },
+    "reference-count": 72,
+    "publisher": "Wiley",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              5
+            ]
+          ],
+          "date-time": "2024-04-05T00:00:00Z",
+          "timestamp": 1712275200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "aslopubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Limnology &amp; Oceanography"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Salinity dynamics in the Delaware Bay estuary are a critical water quality concern as elevated salinity can damage infrastructure and threaten drinking water supplies. Current state\u2010of\u2010the\u2010art modeling approaches use hydrodynamic models, which can produce accurate results but are limited by significant computational costs. We developed a machine learning (ML) model to predict the 250\u2009mg\u2009L<jats:sup>\u22121</jats:sup> Cl<jats:sup>\u2212</jats:sup> isochlor, also known as the \u201csalt front,\u201d using daily river discharge, meteorological drivers, and tidal water level data. We use the ML model to predict the location of the salt front, measured in river miles (RM) along the Delaware River, during the period 2001\u20132020, and we compare predictions of the ML model to the hydrodynamic Coupled Ocean\u2013Atmosphere\u2010Wave\u2010Sediment Transport (COAWST) model. The ML model predicts the location of the salt front with greater accuracy (root mean squared error [RMSE]\u2009=\u20092.52 RM) than the COAWST model does (RMSE\u2009=\u20095.36); however, the ML model struggles to predict extreme events. Furthermore, we use functional performance and expected gradients, tools from information theory and explainable artificial intelligence, to show that the ML model learns physically realistic relationships between the salt front location and drivers (particularly discharge and tidal water level). These results demonstrate how an ML modeling approach can provide predictive and functional accuracy at a significantly reduced computational cost compared to process\u2010based models. In addition, these results provide support for using ML models in operational forecasting, scenario testing, management decisions, hindcasting, and resulting opportunities to understand past behavior and develop hypotheses.</jats:p>",
+    "DOI": "10.1002/lno.12549",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          5
+        ]
+      ],
+      "date-time": "2024-04-05T12:55:48Z",
+      "timestamp": 1712321748000
+    },
+    "page": "1070-1085",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 12,
+    "title": [
+      "Deep learning of estuary salinity dynamics is physically accurate at a fraction of hydrodynamic model computational cost"
+    ],
+    "prefix": "10.1002",
+    "volume": "69",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0083-4251",
+        "authenticated-orcid": false,
+        "given": "Galen",
+        "family": "Gorski",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Reston Virginia USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1129-6209",
+        "authenticated-orcid": false,
+        "given": "Salme",
+        "family": "Cook",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Woods Hole Coastal and Marine Science Center  Woods Hole Massachusetts USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3036-7247",
+        "authenticated-orcid": false,
+        "given": "Amelia",
+        "family": "Snyder",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Reston Virginia USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3638-8572",
+        "authenticated-orcid": false,
+        "given": "Alison P.",
+        "family": "Appling",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  State College Pennsylvania USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7373-314X",
+        "authenticated-orcid": false,
+        "given": "Theodore",
+        "family": "Thompson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Lawrenceville New Jersey USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3124-8255",
+        "authenticated-orcid": false,
+        "given": "Jared D.",
+        "family": "Smith",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Reston Virginia USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3734-8903",
+        "authenticated-orcid": false,
+        "given": "John C.",
+        "family": "Warner",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Woods Hole Coastal and Marine Science Center  Woods Hole Massachusetts USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7741-5982",
+        "authenticated-orcid": false,
+        "given": "Simon N.",
+        "family": "Topp",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Reston Virginia USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          5
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_6_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/19942060.2018.1528480"
+      },
+      {
+        "key": "e_1_2_6_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JPO-D-12-0124.1"
+      },
+      {
+        "key": "e_1_2_6_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11831-023-09934-9"
+      },
+      {
+        "key": "e_1_2_6_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1520"
+      },
+      {
+        "key": "e_1_2_6_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4236/cweee.2017.61009"
+      },
+      {
+        "key": "e_1_2_6_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2022.127675"
+      },
+      {
+        "key": "e_1_2_6_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1468-0017.1987.tb00123.x"
+      },
+      {
+        "key": "e_1_2_6_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lom3.10406"
+      },
+      {
+        "key": "e_1_2_6_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecss.2023.108257"
+      },
+      {
+        "key": "e_1_2_6_11_1",
+        "unstructured": "DeCicco L. R.Hirsch D.Lorenz D.Watkins andM.Johnson.2023.dataRetrieval: R package for discovering and retrieving water data. U.S. Federal Hydrologic Web Services."
+      },
+      {
+        "key": "e_1_2_6_12_1",
+        "unstructured": "Delaware River Basin Commission.2019.An overview of drought in the Delaware Basin. Delaware River Basin Commission.https://www.state.nj.us/drbc/library/documents/drought/DRBdrought-overview_feb2019.pdf"
+      },
+      {
+        "key": "e_1_2_6_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42256-021-00343-w"
+      },
+      {
+        "key": "e_1_2_6_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR032404"
+      },
+      {
+        "key": "e_1_2_6_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752-1688.12964"
+      },
+      {
+        "key": "e_1_2_6_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-26-3377-2022"
+      },
+      {
+        "key": "e_1_2_6_17_1",
+        "first-page": "469",
+        "volume-title": "Residual currents and long\u2010term transport",
+        "author": "Galperin B.",
+        "year": "1990"
+      },
+      {
+        "key": "e_1_2_6_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0272-7714(90)90104-Y"
+      },
+      {
+        "key": "e_1_2_6_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0272-7714(05)80110-6"
+      },
+      {
+        "key": "e_1_2_6_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecss.2018.10.016"
+      },
+      {
+        "key": "e_1_2_6_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0377-0265(00)00049-X"
+      },
+      {
+        "key": "e_1_2_6_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jcp.2007.06.016"
+      },
+      {
+        "key": "e_1_2_6_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/qj.3803"
+      },
+      {
+        "key": "e_1_2_6_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1997.9.8.1735"
+      },
+      {
+        "key": "e_1_2_6_25_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hutson S. S. K. S.Linsey B.Reyes andJ. L.Shourds.2016.Estimated use of water in the Delaware River basin in Delaware New Jersey New York and Pennsylvania 2010 (Scientific Investigations Report 2015\u20105142). U.S. Geological Survey. doi:10.3133/sir20155142",
+        "DOI": "10.3133/sir20155142"
+      },
+      {
+        "key": "e_1_2_6_26_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jia X. andothers.2021.Physics\u2010guided recurrent graph model for predicting flow and temperature in river networks. Proceedings of the 2021 SIAM International Conference on Data Mining (SDM): SIAM. doi:10.1137/1.9781611976700.69",
+        "DOI": "10.1137/1.9781611976700.69"
+      },
+      {
+        "key": "e_1_2_6_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR030185"
+      },
+      {
+        "key": "e_1_2_6_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.watres.2022.119295"
+      },
+      {
+        "key": "e_1_2_6_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2005WR004362"
+      },
+      {
+        "key": "e_1_2_6_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR027340"
+      },
+      {
+        "key": "e_1_2_6_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-22-6005-2018"
+      },
+      {
+        "key": "e_1_2_6_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2166/wp.2012.077"
+      },
+      {
+        "key": "e_1_2_6_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)WR.1943-5452.0001260"
+      },
+      {
+        "key": "e_1_2_6_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12237-017-0280-8"
+      },
+      {
+        "key": "e_1_2_6_35_1",
+        "unstructured": "Mukai A. Y. J. J.Westerink R. A.Luettich andD.Mark.2001.Eastcoast 2001 a tidal constituent database for Western North Atlantic Gulf of Mexico and Caribbean Sea (ERDC/CHL TR\u201002\u201024). US Army Corps of Engineers."
+      },
+      {
+        "key": "e_1_2_6_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-1694(70)90255-6"
+      },
+      {
+        "key": "e_1_2_6_37_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Navoy A. S. L. M.Voronin andE.Modica.2005.Vulnerability of production wells in the Potomac\u2010Raritan\u2010Magothy aquifer system to saltwater intrusion from the Delaware River in Camden Gloucester and Salem Counties New Jersey (Scientific Investigations Report 2004\u20105096). U.S. Geological Survey. doi:10.3133/sir20045096",
+        "DOI": "10.3133/sir20045096"
+      },
+      {
+        "key": "e_1_2_6_38_1",
+        "unstructured": "NOAA Center for Operational Oceanographic Products and Services. n.d.NOAA Tide predictions users guide.https://tidesandcurrents.noaa.gov/PageHelp.html"
+      },
+      {
+        "key": "e_1_2_6_39_1",
+        "unstructured": "NOAA National Centers for Environmental Information.2005.Delaware Bay DE/NJ (M090) bathymetric digital elevation model (30 meter resolution) Derived from source hydrographic survey soundings collected by NOAA."
+      },
+      {
+        "key": "e_1_2_6_40_1",
+        "unstructured": "NOAA National Estuarine Research Reserve System (NERRS). n.d.System\u2010wide monitoring program."
+      },
+      {
+        "key": "e_1_2_6_41_1",
+        "unstructured": "NOAA National Ocean Services. n.d.Tides and currents."
+      },
+      {
+        "key": "e_1_2_6_42_1",
+        "unstructured": "Philadelphia Water Department.2015.Green City clean waters: Tidal waters water quality mode\u2013Bacteria and dissolved oxygen."
+      },
+      {
+        "key": "e_1_2_6_43_1",
+        "unstructured": "Philadelphia Water District.2019.PWD water supply planning: Salinity intrusion in the Delaware: Presentation to the regulated flow advisory committee."
+      },
+      {
+        "key": "e_1_2_6_44_1",
+        "unstructured": "Preucil A. andK.Reavy.2020.Description and data source for the flow management snapshot. Delaware River Basin Commission.https://drbc.maps.arcgis.com/apps/dashboards/690464a9958b49e5b49550964641ffd7"
+      },
+      {
+        "key": "e_1_2_6_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w15132482"
+      },
+      {
+        "key": "e_1_2_6_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wrcr.20415"
+      },
+      {
+        "key": "e_1_2_6_47_1",
+        "volume-title": "R: A language and environment for statistical computing",
+        "author": "R Core Team",
+        "year": "2022"
+      },
+      {
+        "key": "e_1_2_6_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-9326/abd501"
+      },
+      {
+        "key": "e_1_2_6_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR024922"
+      },
+      {
+        "key": "e_1_2_6_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecss.2015.01.022"
+      },
+      {
+        "key": "e_1_2_6_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008WR007279"
+      },
+      {
+        "key": "e_1_2_6_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR023692"
+      },
+      {
+        "key": "e_1_2_6_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR030138"
+      },
+      {
+        "key": "e_1_2_6_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.85.461"
+      },
+      {
+        "key": "e_1_2_6_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4319/lo.1982.27.6.1015"
+      },
+      {
+        "key": "e_1_2_6_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1352098"
+      },
+      {
+        "key": "e_1_2_6_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12237-009-9210-8"
+      },
+      {
+        "key": "e_1_2_6_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ocemod.2004.08.002"
+      },
+      {
+        "key": "e_1_2_6_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR024908"
+      },
+      {
+        "key": "e_1_2_6_60_1",
+        "unstructured": "U. S. Geological Survey.2022.USGS Water Data for the Nation: U.S. Geological Survey National Water Information System Database. doi:10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_6_61_1",
+        "unstructured": "U.S. Geological Survey Office of the Delaware River Master.2017.Agreement for a flexible flow management program."
+      },
+      {
+        "key": "e_1_2_6_62_1",
+        "unstructured": "Walker K.2023.Tigris: Load Cenus TIGER/line Shapefiles."
+      },
+      {
+        "key": "e_1_2_6_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cageo.2008.02.012"
+      },
+      {
+        "key": "e_1_2_6_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ocemod.2010.07.010"
+      },
+      {
+        "key": "e_1_2_6_65_1",
+        "unstructured": "Warner J. C. andT. S.Kaira.2022.Collection of COAWST model forecast for the US East Coast and Gulf of Mexico."
+      },
+      {
+        "key": "e_1_2_6_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jenvman.2023.119443"
+      },
+      {
+        "key": "e_1_2_6_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JPO2805.1"
+      },
+      {
+        "key": "e_1_2_6_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/95JC01406"
+      },
+      {
+        "key": "e_1_2_6_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02804887"
+      },
+      {
+        "key": "e_1_2_6_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0278-4343(94)P1813-Q"
+      },
+      {
+        "key": "e_1_2_6_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11356-021-17442-1"
+      },
+      {
+        "key": "e_1_2_6_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.0c06783"
+      },
+      {
+        "key": "e_1_2_6_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecss.2021.107628"
+      }
+    ],
+    "container-title": [
+      "Limnology and Oceanography"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://aslopubs.onlinelibrary.wiley.com/doi/pdf/10.1002/lno.12549",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          14
+        ]
+      ],
+      "date-time": "2024-06-14T14:21:25Z",
+      "timestamp": 1718374885000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lno.12549"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          5
+        ]
+      ]
+    },
+    "references-count": 72,
+    "journal-issue": {
+      "issue": "5",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            5
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/lno.12549"
+    ],
+    "URL": "https://doi.org/10.1002/lno.12549",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0024-3590",
+      "1939-5590"
+    ],
+    "issn-type": [
+      {
+        "value": "0024-3590",
+        "type": "print"
+      },
+      {
+        "value": "1939-5590",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          5
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2023-01-27",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-03-06",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-04-05",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.1002/lno.12549",
+  "original_doi": "10.1002/lno.12549"
+}

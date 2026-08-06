@@ -1,0 +1,984 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          5
+        ]
+      ],
+      "date-time": "2026-07-05T05:33:33Z",
+      "timestamp": 1783229613853,
+      "version": "3.54.6"
+    },
+    "reference-count": 72,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "8",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              14
+            ]
+          ],
+          "date-time": "2020-07-14T00:00:00Z",
+          "timestamp": 1594684800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              14
+            ]
+          ],
+          "date-time": "2020-07-14T00:00:00Z",
+          "timestamp": 1594684800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Ohio Water Development Authority",
+        "award": [
+          "OWDDA 7520"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "OWDDA 7520"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "Cooperative Water Program"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "Cooperative Water Program"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Environ Monit Assess"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          8
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Cyanobacterial harmful algal blooms and the toxins they produce are a global water-quality problem. Monitoring and prediction tools are needed to quickly predict cyanotoxin action-level exceedances in recreational and drinking waters used by the public. To address this need, data were collected at eight locations in Ohio, USA, to identify factors significantly related to observed concentrations of microcystins (a freshwater cyanotoxin) that could be used in two types of site-specific regression models. Real-time models include easily or continuously-measured factors that do not require that a sample be collected; comprehensive models use a combination of discrete sample-based measurements and real-time factors. The study sites included two recreational sites and six water treatment plant sites. Real-time models commonly included variables such as phycocyanin, pH, specific conductance, and streamflow or gage height. Many real-time factors were averages over time periods antecedent to the time the microcystin sample was collected, including water-quality data compiled from continuous monitors. Comprehensive models were useful at some sites with lagged variables for cyanobacterial toxin genes, dissolved nutrients, and (or) nitrogen to phosphorus ratios. Because models can be used for management decisions, important measures of model performance were sensitivity, specificity, and accuracy of estimates above or below the microcystin concentration threshold standard or action level. Sensitivity is how well the predictive tool correctly predicts exceedance of a threshold, an important measure for water-resource managers. Sensitivities &gt; 90% at four Lake Erie water treatment plants indicated that models with continuous monitor data were especially promising. The planned next steps are to collect more data to build larger site-specific datasets and validate models before they can be used for management decisions.</jats:p>",
+    "DOI": "10.1007/s10661-020-08407-x",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          14
+        ]
+      ],
+      "date-time": "2020-07-14T07:02:53Z",
+      "timestamp": 1594710173000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 19,
+    "title": [
+      "Predicting microcystin concentration action-level exceedances resulting from cyanobacterial blooms in selected lake sites in Ohio"
+    ],
+    "prefix": "10.1007",
+    "volume": "192",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9229-3557",
+        "authenticated-orcid": false,
+        "given": "Donna S.",
+        "family": "Francy",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Amie M.G.",
+        "family": "Brady",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Erin A.",
+        "family": "Stelzer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jessica R.",
+        "family": "Cicale",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Courtney",
+        "family": "Hackney",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Harrison D.",
+        "family": "Dalby",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pamela",
+        "family": "Struffolino",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daryl F.",
+        "family": "Dwyer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          14
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "8407_CR1",
+        "unstructured": "American Public Health Association American Water Works Association, W. E. F (1998). Standard methods for the examination of water and wastewater, section 10200--Plankton. 20th Editi. 10.1016/0043-1354(82)90249-4"
+      },
+      {
+        "issue": "1",
+        "key": "8407_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "73",
+        "DOI": "10.2134/jeq2018.03.0108",
+        "volume": "48",
+        "author": "AS Andres",
+        "year": "2019",
+        "unstructured": "Andres, A. S., Main, C. R., Tye Pettay, D., & Ullman, W. J. (2019). Hydrophysical and hydrochemical controls of cyanobacterial blooms in Coursey Pond, Delaware (USA). Journal of Environmental Quality, 48(1), 73\u201382. https://doi.org/10.2134/jeq2018.03.0108.",
+        "journal-title": "Journal of Environmental Quality"
+      },
+      {
+        "issue": "6",
+        "key": "8407_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "607",
+        "DOI": "10.1007/s10811-007-9209-0",
+        "volume": "19",
+        "author": "SF Baldia",
+        "year": "2007",
+        "unstructured": "Baldia, S. F., Evangelista, A. D., Aralar, E. V., & Santiago, A. E. (2007). Nitrogen and phosphorus utilization in the cyanobacterium Microcystis aeruginosa isolated from Laguna de Bay, Philippines. Journal of Applied Phycology, 19(6), 607\u2013613. https://doi.org/10.1007/s10811-007-9209-0.",
+        "journal-title": "Journal of Applied Phycology"
+      },
+      {
+        "issue": "1",
+        "key": "8407_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "173",
+        "DOI": "10.1007/s10750-012-1397-1",
+        "volume": "705",
+        "author": "JR Beaver",
+        "year": "2013",
+        "unstructured": "Beaver, J. R., Jensen, D. E., Casamatta, D. A., Tausz, C. E., Scotese, K. C., Buccier, K. M., Teacher, C. E., Rosati, T. C., Minerovic, A. D., & Renicker, T. R. (2013). Response of phytoplankton and zooplankton communities in six reservoirs of the middle Missouri River (USA) to drought conditions and a major flood event. Hydrobiologia, 705(1), 173\u2013189. https://doi.org/10.1007/s10750-012-1397-1.",
+        "journal-title": "Hydrobiologia"
+      },
+      {
+        "key": "8407_CR5",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Bernard, C., Ballot, A., Thomazeau, S., Maloufi, S., Furey, A., Mankiewicz-Boczek, J., \u2026 Salmaso, N. (2017). Appendix 2: Cyanobacteria associated with the production of cyanotoxins. In Handbook of Cyanobacterial Monitoring and Cyanotoxin Analysis. https://doi.org/10.1002/9781119068761.app2",
+        "DOI": "10.1002/9781119068761.app2"
+      },
+      {
+        "key": "8407_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "294",
+        "DOI": "10.1016/j.scitotenv.2016.10.023",
+        "volume": "575",
+        "author": "I Bertani",
+        "year": "2017",
+        "unstructured": "Bertani, I., Steger, C. E., Obenour, D. R., Fahnenstiel, G. L., Bridgeman, T. B., Johengen, T. H., Sayers, M. J., Shuchman, R. A., & Scavia, D. (2017). Science of the total environment tracking cyanobacteria blooms: do different monitoring approaches tell the same story? Science of the Total Environment, 575, 294\u2013308. https://doi.org/10.1016/j.scitotenv.2016.10.023.",
+        "journal-title": "Science of the Total Environment"
+      },
+      {
+        "issue": "6",
+        "key": "8407_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "445",
+        "DOI": "10.1111/j.1365-2672.1992.tb01858.x",
+        "volume": "72",
+        "author": "WW Carmichael",
+        "year": "1992",
+        "unstructured": "Carmichael, W. W. (1992). Cyanobacteria secondary metabolites\u2014the cyanotoxins. Journal of Applied Bacteriology, 72(6), 445\u2013459. https://doi.org/10.1111/j.1365-2672.1992.tb01858.x.",
+        "journal-title": "Journal of Applied Bacteriology"
+      },
+      {
+        "issue": "3",
+        "key": "8407_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1002/wics.1460",
+        "volume": "11",
+        "author": "JE Cavanaugh",
+        "year": "2019",
+        "unstructured": "Cavanaugh, J. E., & Neath, A. A. (2019). The Akaike information criterion: Background, derivation, properties, application, interpretation, and refinements. Wiley Interdisciplinary Reviews: Computational Statistics, 11(3), 1\u201311. https://doi.org/10.1002/wics.1460.",
+        "journal-title": "Wiley Interdisciplinary Reviews: Computational Statistics"
+      },
+      {
+        "issue": "1",
+        "key": "8407_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "92",
+        "DOI": "10.1016/j.jglr.2010.11.016",
+        "volume": "37",
+        "author": "JD Chaffin",
+        "year": "2011",
+        "unstructured": "Chaffin, J. D., Bridgeman, T. B., Heckathorn, S. A., & Mishra, S. (2011). Assessment of Microcystis growth rate potential and nutrient status across a trophic gradient in western Lake Erie. Journal of Great Lakes Research, 37(1), 92\u2013100. https://doi.org/10.1016/j.jglr.2010.11.016.",
+        "journal-title": "Journal of Great Lakes Research"
+      },
+      {
+        "key": "8407_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "84",
+        "DOI": "10.1016/j.hal.2018.02.001",
+        "volume": "73",
+        "author": "JD Chaffin",
+        "year": "2018",
+        "unstructured": "Chaffin, J. D., Davis, T. W., Smith, D. J., Baer, M. M., & Dick, G. J. (2018a). Interactions between nitrogen form, loading rate, and light intensity on Microcystis and Planktothrix growth and microcystin production. Harmful Algae, 73, 84\u201397. https://doi.org/10.1016/j.hal.2018.02.001.",
+        "journal-title": "Harmful Algae"
+      },
+      {
+        "issue": "25",
+        "key": "8407_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "25175",
+        "DOI": "10.1007/s11356-018-2612-z",
+        "volume": "25",
+        "author": "JD Chaffin",
+        "year": "2018",
+        "unstructured": "Chaffin, J. D., Kane, D. D., Stanislawczyk, K., & Parker, E. M. (2018b). Accuracy of data buoys for measurement of cyanobacteria, chlorophyll, and turbidity in a large lake (Lake Erie, North America): Implications for estimation of cyanobacterial bloom parameters from water quality sonde measurements. Environmental Science and Pollution Research, 25(25), 25175\u201325189. https://doi.org/10.1007/s11356-018-2612-z.",
+        "journal-title": "Environmental Science and Pollution Research"
+      },
+      {
+        "key": "8407_CR12",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Cicale, J.R., Francy, D.S. (2020). Phytoplankton community composition in Western Lake Erie Basin and Northeast Ohio, 2016-18, April 1, 2016 to December 31, 2018. U.S. Geological Survey data release, https://doi.org/10.5066/P9R1NHVO",
+        "DOI": "10.5066/P9R1NHVO"
+      },
+      {
+        "key": "8407_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1016/j.hal.2012.03.006",
+        "volume": "20",
+        "author": "KR Conradie",
+        "year": "2012",
+        "unstructured": "Conradie, K. R., & Barnard, S. (2012). The dynamics of toxic Microcystis strains and microcystin production in two hypertrofic South African reservoirs. Harmful Algae, 20, 1\u201310. https://doi.org/10.1016/j.hal.2012.03.006.",
+        "journal-title": "Harmful Algae"
+      },
+      {
+        "issue": "4",
+        "key": "8407_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "519",
+        "DOI": "10.1016/j.hal.2006.05.007",
+        "volume": "6",
+        "author": "MA Doblin",
+        "year": "2007",
+        "unstructured": "Doblin, M. A., Coyne, K. J., Rinta-Kanto, J. M., Wilhelm, S. W., & Dobbs, F. C. (2007). Dynamics and short-term survival of toxic cyanobacteria species in ballast water from NOBOB vessels transiting the Great Lakes-implications for HAB invasions. Harmful Algae, 6(4), 519\u2013530. https://doi.org/10.1016/j.hal.2006.05.007.",
+        "journal-title": "Harmful Algae"
+      },
+      {
+        "key": "8407_CR15",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Fishman, M. J. (1993). Methods of analysis by the U.S. Geological Survey National Water Quality Laboratory; determination of inorganic and organic constituents in water and fluvial sediments. U.S. Geological Survey Open-File Report 93-125, 217 p. Retrieved from https://doi.org/10.3133/ofr93125",
+        "DOI": "10.3133/ofr93125"
+      },
+      {
+        "key": "8407_CR16",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Francy, D. S., & Darner, R. A. (2006). Procedures for developing models to predict exceedances of recreational water-quality standards at coastal beaches. In U.S. Geological Survey Techniques and Methods 6-B5. Retrieved from https://doi.org/10.3133/tm6B5",
+        "DOI": "10.3133/tm6B5"
+      },
+      {
+        "key": "8407_CR17",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Francy, D. S., Graham, J. L., Stelzer, E. A., Ecker, C. D., Brady, A. M., Struffolino, P., & Loftin, K. A. (2015). Water quality , cyanobacteria , and environmental factors and their relations to microcystin concentrations for use in predictive models at Ohio Lake Erie and Inland Lake recreational sites , 2013\u201314. USGS Scientific Investigations Report 2015-5120, 70 p. https://doi.org/10.3133/sir20155120",
+        "DOI": "10.3133/sir20155120"
+      },
+      {
+        "key": "8407_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "23",
+        "DOI": "10.1016/j.hal.2016.07.003",
+        "volume": "58",
+        "author": "DS Francy",
+        "year": "2016",
+        "unstructured": "Francy, D. S., Brady, A. M. G., Ecker, C. D., Graham, J. L., Stelzer, E. A., Struffolino, P., Dwyer, D. F., & Loftin, K. A. (2016). Estimating microcystin levels at recreational sites in western Lake Erie and Ohio. Harmful Algae, 58, 23\u201334. https://doi.org/10.1016/j.hal.2016.07.003.",
+        "journal-title": "Harmful Algae"
+      },
+      {
+        "key": "8407_CR19",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Francy, D.S., Brady, A.M.G., Dalby, H.D., Stelzer, E.A., Cicale, J.R., & Hackney, C. (2020). Data for multiple linear regression models for predicting microcystin concentration action-level exceedances in selected lakes in Ohio. U.S. Geological Survey data release, https://doi.org/10.5066/P9CDF76E",
+        "DOI": "10.5066/P9CDF76E"
+      },
+      {
+        "key": "8407_CR20",
+        "unstructured": "Genzoli, L., & Kann, J. (2016). Evaluation of phycocyanin probes as a monitoring tool for toxigenic cyanobacteria in the Klamath River below Iron Gate Dam Evaluation of phycocyanin probes as a monitoring tool for toxigenic cyanobacteria in the Klamath River below Iron Gate Dam. Prepared by Aquatic Ecosystem Sciences LLC for the Klamath Tribal Water Quality Consortium, (November), 38 p. plus appendices. 10.13140/RG.2.2.23897.31841"
+      },
+      {
+        "key": "8407_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "87",
+        "DOI": "10.1016/j.hal.2016.01.010",
+        "volume": "54",
+        "author": "CJ Gobler",
+        "year": "2016",
+        "unstructured": "Gobler, C. J., Burkholder, J. M., Davis, T. W., Harke, M. J., Johengen, T., Stow, C. A., & Van de Waal, D. B. (2016). The dual role of nitrogen supply in controlling the growth and toxicity of cyanobacterial blooms. Harmful Algae, 54, 87\u201397. https://doi.org/10.1016/j.hal.2016.01.010.",
+        "journal-title": "Harmful Algae"
+      },
+      {
+        "key": "8407_CR22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Graham, J. L., Foster, G. M., Williams, T. J., Kramer, A. R., & Harris, T. D. (2017). Occurrence of cyanobacteria, microcystin, and taste-and-odor compounds in Cheney Reservoir, Kansas, 2001-16. U.S. Geological Survey Scientific Investigations Report 2017-5016, 57 p. 10.3133/sir20175016",
+        "DOI": "10.3133/sir20175016"
+      },
+      {
+        "key": "8407_CR23",
+        "unstructured": "Great Lakes Observing System--Data Portal (2019) Accessed 16 July 2019 at https://www.glos.us/"
+      },
+      {
+        "key": "8407_CR24",
+        "unstructured": "Guiry, M.D. & Guiry, G.M. (2020) AlgaeBase. World-wide electronic publication, National University of Ireland, Galway. https://www.algaebase.org; searched on 13 February 2020"
+      },
+      {
+        "issue": "1",
+        "key": "8407_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1186/s12864-015-2275-9",
+        "volume": "16",
+        "author": "MJ Harke",
+        "year": "2015",
+        "unstructured": "Harke, M. J., & Gobler, C. J. (2015). Daily transcriptome changes reveal the role of nitrogen in controlling microcystin synthesis and nutrient transport in the toxic cyanobacterium, Microcystis aeruginosa. BMC Genomics, 16(1), 1\u201318. https://doi.org/10.1186/s12864-015-2275-9.",
+        "journal-title": "BMC Genomics"
+      },
+      {
+        "key": "8407_CR26",
+        "unstructured": "Helsel, D. R., & Hirsch, R. M. (2002). Statistical methods in water resources. Techniques of Water-Resources Investigations of the U.S. Geological Survey, Book 4, Chapter A3, 522 p. 10.2307/1269385"
+      },
+      {
+        "issue": "2",
+        "key": "8407_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "403",
+        "DOI": "10.1046/j.1529-8817.1999.3520403.x",
+        "volume": "35",
+        "author": "H Hillebrand",
+        "year": "1999",
+        "unstructured": "Hillebrand, H., D\u00fcrselen, C. D., Kirschtel, D., Pollingher, U., & Zohary, T. (1999). Biovolume calculation for pelagic and benthic microalgae. Journal of Phycology, 35(2), 403\u2013424.",
+        "journal-title": "Journal of Phycology"
+      },
+      {
+        "key": "8407_CR28",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Humbert, J.-F., T\u00f6r\u00f6kn\u00e9, A. (2016) New tools for the monitoring of cyanobacteria in freshwater ecosystems, in: Meriluoto, J., Spoof, L., Codd, G.A. (Eds.), Handbook of cyanobacterial monitoring and cyanotoxin analysis. John Wiley & Sons, Ltd, pp. 84\u201388. https://doi.org/10.1002/9781119068761.ch8",
+        "DOI": "10.1002/9781119068761.ch8"
+      },
+      {
+        "issue": "4",
+        "key": "8407_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "425",
+        "DOI": "10.1002/tox.20128",
+        "volume": "20",
+        "author": "K Izydorczyk",
+        "year": "2005",
+        "unstructured": "Izydorczyk, K., Tarczynska, M., Jurczak, T., Mrowczynski, J., & Zalewski, M. (2005). Measurement of phycocyanin fluorescence as an online early warning system for cyanobacteria in reservoir intake water. Environmental Toxicology, 20(4), 425\u2013430. https://doi.org/10.1002/tox.20128.",
+        "journal-title": "Environmental Toxicology"
+      },
+      {
+        "issue": "1",
+        "key": "8407_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "231",
+        "DOI": "10.1139/f99-234",
+        "volume": "57",
+        "author": "JM Jacoby",
+        "year": "2000",
+        "unstructured": "Jacoby, J. M., Collier, D. C., Welch, E. B., Hardy, F. J., & Crayton, M. (2000). Environmental factors associated with a toxic bloom of Microcystis aeruginosa. Canadian Journal of Fisheries and Aquatic Sciences, 57(1), 231\u2013240. https://doi.org/10.1139/f99-234.",
+        "journal-title": "Canadian Journal of Fisheries and Aquatic Sciences"
+      },
+      {
+        "issue": "2",
+        "key": "8407_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "187",
+        "DOI": "10.5268/IW-5.2.808",
+        "volume": "5",
+        "author": "J Jacoby",
+        "year": "2015",
+        "unstructured": "Jacoby, J., Burghdoff, M., Williams, G., Read, L., & Hardy, F. J. (2015). Dominant factors associated with microcystins in nine midlatitude, maritime lakes. Inland Waters, 5(2), 187\u2013202. https://doi.org/10.5268/IW-5.2.808.",
+        "journal-title": "Inland Waters"
+      },
+      {
+        "issue": "8",
+        "key": "8407_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "9787",
+        "DOI": "10.3390/su7089787",
+        "volume": "7",
+        "author": "S Jetoo",
+        "year": "2015",
+        "unstructured": "Jetoo, S., Grover, V. I., & Krantzberg, G. (2015). The toledo drinking water advisory: Suggested application of the water safety planning approach. Sustainability (Switzerland), 7(8), 9787\u20139808. https://doi.org/10.3390/su7089787.",
+        "journal-title": "Sustainability (Switzerland)"
+      },
+      {
+        "issue": "2",
+        "key": "8407_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "188",
+        "DOI": "10.1016/j.hal.2010.09.005",
+        "volume": "10",
+        "author": "SH Joung",
+        "year": "2011",
+        "unstructured": "Joung, S. H., Oh, H. M., Ko, S. R., & Ahn, C. Y. (2011). Correlations between environmental factors and toxic and non-toxic Microcystis dynamics during bloom in Daechung Reservoir, Korea. Harmful Algae, 10(2), 188\u2013193. https://doi.org/10.1016/j.hal.2010.09.005.",
+        "journal-title": "Harmful Algae"
+      },
+      {
+        "key": "8407_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "318",
+        "DOI": "10.1016/j.ecoenv.2014.05.004",
+        "volume": "114",
+        "author": "TA Lee",
+        "year": "2015",
+        "unstructured": "Lee, T. A., Rollwagen-Bollens, G., Bollens, S. M., & Faber-Hammond, J. J. (2015). Environmental influence on cyanobacteria abundance and microcystin toxin production in a shallow temperate lake. Ecotoxicology and Environmental Safety, 114, 318\u2013325. https://doi.org/10.1016/j.ecoenv.2014.05.004.",
+        "journal-title": "Ecotoxicology and Environmental Safety"
+      },
+      {
+        "issue": "2",
+        "key": "8407_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "143",
+        "DOI": "10.1007/BF00007865",
+        "volume": "11",
+        "author": "JWG Lund",
+        "year": "1958",
+        "unstructured": "Lund, J. W. G., Kipling, C., & Le Cren, E. D. (1958). The inverted microscope method of estimating algal numbers and the statistical basis of estimations by counting. Hydrobiologia, 11(2), 143\u2013170. https://doi.org/10.1007/BF00007865.",
+        "journal-title": "Hydrobiologia"
+      },
+      {
+        "issue": "1",
+        "key": "8407_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "57",
+        "DOI": "10.4319/lo.1960.5.1.0057",
+        "volume": "5",
+        "author": "CD McNabb",
+        "year": "1966",
+        "unstructured": "McNabb, C. D. (1966). Enumeration of freshwater phytoplankton concentrated on the membrane filter. Limnology and Oceanography, 5(1), 57\u201361.",
+        "journal-title": "Limnology and Oceanography"
+      },
+      {
+        "issue": "2",
+        "key": "8407_CR37",
+        "doi-asserted-by": "publisher",
+        "first-page": "455",
+        "DOI": "10.1039/C0EM00163E",
+        "volume": "13",
+        "author": "N McQuaid",
+        "year": "2011",
+        "unstructured": "McQuaid, N., Zamyadi, A., Pr\u00e9vost, M., Bird, D. F., & Dorner, S. (2011). Use of in vivophycocyanin fluorescence to monitor potential microcystin-producing cyanobacterial biovolume in a drinkingwater source. Journal of Environmental Monitoring, 13(2), 455\u2013463. https://doi.org/10.1039/C0EM00163E.",
+        "journal-title": "Journal of Environmental Monitoring"
+      },
+      {
+        "key": "8407_CR38",
+        "unstructured": "National Oceanic and Atmospheric Administration--Great Lakes Environmental Research Laboratory. (2019). Lake Erie harmful algal bloom bulletin. Accessed 16 July 2019 at https://www.glerl.noaa.gov/res/HABs_and_Hypoxia/bulletin.html"
+      },
+      {
+        "key": "8407_CR39",
+        "unstructured": "National Oceanic and Atmospheric Administration--National Centers for Environmental Information. (2019). Accessed 16 July 2019 at https://www.ncdc.noaa.gov/"
+      },
+      {
+        "key": "8407_CR40",
+        "unstructured": "National Oceanic and Atmospheric Administration--Tides and Currents. (2019). Accessed 16 July 2019 at https://tidesandcurrents.noaa.gov/"
+      },
+      {
+        "key": "8407_CR41",
+        "doi-asserted-by": "publisher",
+        "first-page": "313",
+        "DOI": "10.1016/j.hal.2011.10.027",
+        "volume": "14",
+        "author": "JM O\u2019Neil",
+        "year": "2012",
+        "unstructured": "O\u2019Neil, J. M., Davis, T. W., Burford, M. A., & Gobler, C. J. (2012). The rise of harmful cyanobacteria blooms: The potential roles of eutrophication and climate change. Harmful Algae, 14, 313\u2013334. https://doi.org/10.1016/j.hal.2011.10.027.",
+        "journal-title": "Harmful Algae"
+      },
+      {
+        "key": "8407_CR42",
+        "unstructured": "Ohio Enviroinmental Protection Agency. (2015). Ohio EPA Total (Extracellular and Intracellular) Microcystins - ADDA by ELISA Analytical Methodology. Retrieved from https://www.epa.ohio.gov/Portals/28/documents/rules/draft/MYC SOP Version 2.1_Final_Aug2015.pdf"
+      },
+      {
+        "key": "8407_CR43",
+        "unstructured": "Ohio Environmental Protection Agency. (2016). Quantitative polymerase chain reaction (qPCR) for determination of cyanobacterial and cyanotoxin-producing genes. OEPA Division of Environmental Services, Method 705, 1\u20138. Retrieved from https://www.epa.state.oh.us/Portals/28/documents/habs/DES705.0_72016.pdf"
+      },
+      {
+        "key": "8407_CR44",
+        "unstructured": "Ohio Environmental Protection Agency. (2019) Ohio algae information for recreational waters. Accessed 19 July 2019 at https://epa.ohio.gov/habalgae.aspx"
+      },
+      {
+        "issue": "2",
+        "key": "8407_CR45",
+        "doi-asserted-by": "publisher",
+        "first-page": "323",
+        "DOI": "10.1007/s00248-009-9484-1",
+        "volume": "58",
+        "author": "V Ostermaier",
+        "year": "2009",
+        "unstructured": "Ostermaier, V., & Kurmayer, R. (2009). Distribution and abundance of nontoxic mutants of cyanobacteria in lakes of the Alps. Microbial Ecology, 58(2), 323\u2013333. https://doi.org/10.1007/s00248-009-9484-1.",
+        "journal-title": "Microbial Ecology"
+      },
+      {
+        "issue": "6",
+        "key": "8407_CR46",
+        "doi-asserted-by": "publisher",
+        "first-page": "3480",
+        "DOI": "10.1021/es2041288",
+        "volume": "46",
+        "author": "TG Otten",
+        "year": "2012",
+        "unstructured": "Otten, T. G., Xu, H., Qin, B., Zhu, G., & Paerl, H. W. (2012). Spatiotemporal patterns and ecophysiology of toxigenic Microcystis blooms in Lake Taihu, China: Implications for water quality management. Environmental Science & Technology, 46(6), 3480\u20133488. https://doi.org/10.1021/es2041288.",
+        "journal-title": "Environmental Science & Technology"
+      },
+      {
+        "issue": "2",
+        "key": "8407_CR47",
+        "doi-asserted-by": "publisher",
+        "first-page": "154",
+        "DOI": "10.1007/s00248-004-0146-z",
+        "volume": "51",
+        "author": "AJA Ouellette",
+        "year": "2006",
+        "unstructured": "Ouellette, A. J. A., Handy, S. M., & Wilhelm, S. W. (2006). Toxic Microcystis is widespread in Lake Erie: PCR detection of toxin genes and molecular characterization of associated cyanobacterial communities. Microbial Ecology, 51(2), 154\u2013165. https://doi.org/10.1007/s00248-004-0146-z.",
+        "journal-title": "Microbial Ecology"
+      },
+      {
+        "key": "8407_CR48",
+        "doi-asserted-by": "publisher",
+        "first-page": "213",
+        "DOI": "10.1016/j.hal.2015.09.009",
+        "volume": "54",
+        "author": "HW Paerl",
+        "year": "2016",
+        "unstructured": "Paerl, H. W., Gardner, W. S., Havens, K. E., Joyner, A. R., McCarthy, M. J., Newell, S. E., Qin, B., & Scott, J. T. (2016). Mitigating cyanobacterial harmful algal blooms in aquatic ecosystems impacted by climate change and anthropogenic nutrients. Harmful Algae, 54, 213\u2013222. https://doi.org/10.1016/j.hal.2015.09.009.",
+        "journal-title": "Harmful Algae"
+      },
+      {
+        "key": "8407_CR49",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Patton, Charles J., & Kryskalla, J. R. (2003). U.S. Geological Survey National Water Quality Laboratory: Evaluation of alkaline persulfate digestion as an alternative to kjeldahl digestion for determination of total and dissolved nitrogen and phosphorous in water. U.S. Geological Survey Water Resources Investigations Report 03-4174, 33 p. Retrieved from https://doi.org/10.3133/wri034174",
+        "DOI": "10.3133/wri034174"
+      },
+      {
+        "key": "8407_CR50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Patton, C.J., & Kryskalla, J. R. (2011). Colorimetric determination of nitrate plus nitrite in water by enzymatic reduction , automated discrete analyzer methods. U.S. Geological Survey Techniques and Methods, Book 5, Chapter 8, 34 p. Retrieved from https://pubs.usgs.gov/tm/05b08/",
+        "DOI": "10.3133/tm5B8"
+      },
+      {
+        "issue": "24",
+        "key": "8407_CR51",
+        "doi-asserted-by": "publisher",
+        "first-page": "14221",
+        "DOI": "10.1021/acs.est.5b03029",
+        "volume": "49",
+        "author": "SS Qian",
+        "year": "2015",
+        "unstructured": "Qian, S. S., Chaffin, J. D., Dufour, M. R., Sherman, J. J., Golnick, P. C., Collier, C. D., et al. (2015). Quantifying and reducing uncertainty in estimated microcystin concentrations from the ELISA method. Environmental Science and Technology, 49(24), 14221\u201314229. https://doi.org/10.1021/acs.est.5b03029.",
+        "journal-title": "Environmental Science and Technology"
+      },
+      {
+        "issue": "9",
+        "key": "8407_CR52",
+        "doi-asserted-by": "publisher",
+        "first-page": "6101",
+        "DOI": "10.1128/AEM.01058-06",
+        "volume": "72",
+        "author": "A Rantala",
+        "year": "2006",
+        "unstructured": "Rantala, A., Rajaniemi-Wacklin, P., Lyra, C., Lepist\u00f6, L., Rintala, J., Mankiewicz-Boczek, J., & Sivonen, K. (2006). Detection of microcystin-producing cyanobacteria in Finnish lakes with genus-specific microcystin synthetase gene E (mcyE) PCR and associations with environmental factors. Applied and Environmental Microbiology, 72(9), 6101\u20136110. https://doi.org/10.1128/AEM.01058-06.",
+        "journal-title": "Applied and Environmental Microbiology"
+      },
+      {
+        "issue": "11",
+        "key": "8407_CR53",
+        "doi-asserted-by": "publisher",
+        "first-page": "4198",
+        "DOI": "10.1021/es048249u",
+        "volume": "39",
+        "author": "JM Rinta-Kanto",
+        "year": "2005",
+        "unstructured": "Rinta-Kanto, J. M., Ouellette, A. J. A., Boyer, G. L., Twiss, M. R., Bridgeman, T. B., & Wilhelm, S. W. (2005). Quantification of toxic Microcystis spp. during the 2003 and 2004 blooms in western Lake Erie using quantitative real-time PCR. Environmental Science and Technology, 39(11), 4198\u20134205. https://doi.org/10.1021/es048249u.",
+        "journal-title": "Environmental Science and Technology"
+      },
+      {
+        "issue": "8",
+        "key": "8407_CR54",
+        "doi-asserted-by": "publisher",
+        "first-page": "1265",
+        "DOI": "10.1139/cjfas-2012-0490",
+        "volume": "70",
+        "author": "JT Scott",
+        "year": "2013",
+        "unstructured": "Scott, J. T., McCarthy, M. J., Otten, T. G., Steffen, M. M., Baker, B. C., Grantz, E. M., Wilhelm, S. W., & Paerl, H. W. (2013). Comment: An alternative interpretation of the relationship between TN:TP and microcystins in Canadian lakes. Canadian Journal of Fisheries and Aquatic Sciences, 70(8), 1265\u20131268. https://doi.org/10.1139/cjfas-2012-0490.",
+        "journal-title": "Canadian Journal of Fisheries and Aquatic Sciences"
+      },
+      {
+        "issue": "12",
+        "key": "8407_CR55",
+        "doi-asserted-by": "publisher",
+        "first-page": "3797",
+        "DOI": "10.1128/AEM.00452-10",
+        "volume": "76",
+        "author": "H Sipari",
+        "year": "2010",
+        "unstructured": "Sipari, H., Rantala-Ylinen, A., Jokela, J., Oksanen, I., & Sivonen, K. (2010). Development of a chip assay and quantitative PCR for detecting microcystin synthetase E gene expressions. Applied and Environmental Microbiology, 76(12), 3797\u20133805. https://doi.org/10.1128/AEM.00452-10.",
+        "journal-title": "Applied and Environmental Microbiology"
+      },
+      {
+        "issue": "3",
+        "key": "8407_CR56",
+        "doi-asserted-by": "publisher",
+        "first-page": "817",
+        "DOI": "10.1016/j.watres.2011.11.056",
+        "volume": "46",
+        "author": "A Srivastava",
+        "year": "2012",
+        "unstructured": "Srivastava, A., Choi, G. G., Ahn, C. Y., Oh, H. M., Ravi, A. K., & Asthana, R. K. (2012). Dynamics of microcystin production and quantification of potentially toxigenic Microcystis sp. using real-time PCR. Water Research, 46(3), 817\u2013827. https://doi.org/10.1016/j.watres.2011.11.056.",
+        "journal-title": "Water Research"
+      },
+      {
+        "key": "8407_CR57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Srivastava, A., Ko, S. R., Ahn, C. Y., Oh, H. M., Ravi, A. K., & Asthana, R. K. (2016). Microcystin biosynthesis and mcyA expression in geographically distinct microcystis strains under different nitrogen, phosphorus, and boron regimes. BioMed Research International, 2016. 10.1155/2016/5985987",
+        "DOI": "10.1155/2016/5985987"
+      },
+      {
+        "key": "8407_CR58",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Stelzer, E. A., Loftin, K. A., & Struffolino, P. (2013). Relations between DNA- and RNA-based molecular methods for cyanobacteria and microcystin concentration at Maumee Bay State Park Lakeside Beach, Oregon, Ohio, 2012. U.S. Geological Survey Scientific Investigations Report 2013-4189, 9 p. Retrieved from https://doi.org/10.3133/sir20135189",
+        "DOI": "10.3133/sir20135189"
+      },
+      {
+        "key": "8407_CR59",
+        "doi-asserted-by": "publisher",
+        "first-page": "160",
+        "DOI": "10.1016/j.hal.2016.01.005",
+        "volume": "54",
+        "author": "RP Stumpf",
+        "year": "2016",
+        "unstructured": "Stumpf, R. P., Davis, T. W., Wynne, T. T., Graham, J. L., Loftin, K. A., Johengen, T. H., Gossiaux, D., Palladino, D., & Burtner, A. (2016). Challenges for mapping cyanotoxin patterns from remote sensing of cyanobacteria. Harmful Algae, 54, 160\u2013173. https://doi.org/10.1016/j.hal.2016.01.005.",
+        "journal-title": "Harmful Algae"
+      },
+      {
+        "key": "8407_CR60",
+        "unstructured": "The Ohio State University. (2019). Ohio Agricultural Research and Development Center (OARDC) Weather System. Accessed 16 July 2019 at https://www.oardc.ohio-state.edu/weather1/"
+      },
+      {
+        "key": "8407_CR61",
+        "unstructured": "U.S. Environmental Protection Agency. (2014). Cyanobacteria and cyanotoxins: information for drinking water systems. EPA-810F11001, 11 p. Retrieved from https://www.epa.gov/sites/production/files/2014-08/documents/cyanobacteria_factsheet.pdf"
+      },
+      {
+        "key": "8407_CR62",
+        "unstructured": "U.S. Environmental Protection Agency. (2015). Recommendations for public water systems to manage cyanotoxins in drinking water: USEPA Office of Water, EPA 815-R-15-010, 70 p."
+      },
+      {
+        "key": "8407_CR63",
+        "unstructured": "U.S. Environmental Protection Agency. (2016). Human Health Recreational Ambient Water Quality Criteria or Swimming Advisories for Microcystins and Cylindrospermopsin Draft Human Health Recreational Ambient Water Quality Criteria or Swimming Advisories for Microcystins and Cylindrospermopsin. USEPA Office of Water, EPA 822-P-16-002, 185. Retrieved from https://www.epa.gov/sites/production/files/2016-12/documents/draft-hh-rec-ambient-water-swimming-document.pdf"
+      },
+      {
+        "key": "8407_CR64",
+        "unstructured": "U.S. Environmental Protection Agency. (2018). Environmental modeling community of practice; Virtual Beach (VB). Accessed 19 July 2019 at https://www.epa.gov/ceam/virtual-beach-vb"
+      },
+      {
+        "key": "8407_CR65",
+        "doi-asserted-by": "publisher",
+        "unstructured": "U.S. Geological Survey. (2019a). USGS water data for the nation. Accessed 16 July 2019 at. https://doi.org/10.5066/F7P55KJN.",
+        "DOI": "10.5066/F7P55KJN"
+      },
+      {
+        "key": "8407_CR66",
+        "unstructured": "U.S. Geological Survey. (2019b). NowCast status. Accessed 16 July 2019 at https://ny.water.usgs.gov/maps/nowcast/"
+      },
+      {
+        "issue": "12",
+        "key": "8407_CR67",
+        "doi-asserted-by": "publisher",
+        "first-page": "7289",
+        "DOI": "10.1128/AEM.69.12.7289",
+        "volume": "69",
+        "author": "J Vaitomaa",
+        "year": "2003",
+        "unstructured": "Vaitomaa, J., Rantala, A., Halinen, K., Tallberg, P., Mokelke, L., Rouhiainen, L., & Sivonen, K. (2003). Quantitative real-time PCR for determination of microcystin synthetase E copy numbers for Microcystis and Anabaena in lakes. Applied and Environmental Microbiology, 69(12), 7289\u20137297. https://doi.org/10.1128/AEM.69.12.7289.",
+        "journal-title": "Applied and Environmental Microbiology"
+      },
+      {
+        "key": "8407_CR68",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wagner, R.A., Boulger, R.W., Oblinger, C.J., and Smith, B. A. (2006). Guidelines and standard procedures for continuous water-quality monitors: station operation, record computation, and data reporting. U.S. Geological Survey Techniques and Methods 1-D3, 51 p. Retrieved from http://pubs.water.usgs.gov/tm1d3",
+        "DOI": "10.3133/tm1D3"
+      },
+      {
+        "key": "8407_CR69",
+        "unstructured": "Wetzel, R.G. (2001) Limnology: lake and river ecosystems. Academic Press"
+      },
+      {
+        "key": "8407_CR70",
+        "unstructured": "Wilde, F. D. (n.d.). Field measurements. U.S. Geological Survey Techniques of Water-Resources Investigations, book 9(chapter A6), Sec. 6.1, 6.3, and 6.7. Retrieved from https://water.usgs.gov/owq/FieldManual/Chapter6/Ch6_contents.html"
+      },
+      {
+        "key": "8407_CR71",
+        "unstructured": "Wilde, F. D., Radtke, D. B., Gibs, J., & Iwatsubo, R. T. (2002). Processing of water samples (ver. 2.2). U.S. Geological Survey Techniques for Water Resources Investigations, Book 9, Chap. A5. Retrieved from https://water.usgs.gov/owq/FieldManual/chapter5/html/Ch5_contents.html"
+      },
+      {
+        "issue": "1",
+        "key": "8407_CR72",
+        "doi-asserted-by": "publisher",
+        "first-page": "118",
+        "DOI": "10.1111/j.1758-2229.2010.00196.x",
+        "volume": "3",
+        "author": "SA Wood",
+        "year": "2011",
+        "unstructured": "Wood, S. A., Rueckert, A., Hamilton, D. P., Cary, S. C., & Dietrich, D. R. (2011). Switching toxin production on and off: Intermittent microcystin synthesis in a Microcystis bloom. Environmental Microbiology Reports, 3(1), 118\u2013124. https://doi.org/10.1111/j.1758-2229.2010.00196.x.",
+        "journal-title": "Environmental Microbiology Reports"
+      }
+    ],
+    "container-title": [
+      "Environmental Monitoring and Assessment"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s10661-020-08407-x.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s10661-020-08407-x/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s10661-020-08407-x.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          13
+        ]
+      ],
+      "date-time": "2021-07-13T23:45:10Z",
+      "timestamp": 1626219910000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/s10661-020-08407-x"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          14
+        ]
+      ]
+    },
+    "references-count": 72,
+    "journal-issue": {
+      "issue": "8",
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            8
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "8407"
+    ],
+    "URL": "https://doi.org/10.1007/s10661-020-08407-x",
+    "relation": {},
+    "ISSN": [
+      "0167-6369",
+      "1573-2959"
+    ],
+    "issn-type": [
+      {
+        "value": "0167-6369",
+        "type": "print"
+      },
+      {
+        "value": "1573-2959",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          14
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "27 August 2019",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "3 June 2020",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "14 July 2020",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      }
+    ],
+    "article-number": "513"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1007/s10661-020-08407-x",
+  "original_doi": "10.1007/s10661-020-08407-x"
+}
