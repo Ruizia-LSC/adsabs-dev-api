@@ -1,0 +1,899 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          29
+        ]
+      ],
+      "date-time": "2026-07-29T08:10:32Z",
+      "timestamp": 1785312632246,
+      "version": "3.55.0"
+    },
+    "reference-count": 65,
+    "publisher": "Elsevier BV",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2024-08-01T00:00:00Z",
+          "timestamp": 1722470400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2024-08-01T00:00:00Z",
+          "timestamp": 1722470400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              3
+            ]
+          ],
+          "date-time": "2024-06-03T00:00:00Z",
+          "timestamp": 1717372800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000139",
+        "name": "US Environmental Protection Agency",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000139",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Great Lakes Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jglr.2024.102376",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          15
+        ]
+      ],
+      "date-time": "2024-06-15T15:46:26Z",
+      "timestamp": 1718466386000
+    },
+    "page": "102376",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Reproducing age variability in grass carp egg samples from the lower Sandusky River, Ohio, USA, using an egg-drift model"
+    ],
+    "prefix": "10.1016",
+    "volume": "50",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0404-2163",
+        "authenticated-orcid": false,
+        "given": "David T.",
+        "family": "Soong",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P. Ryan",
+        "family": "Jackson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4325-4265",
+        "authenticated-orcid": false,
+        "given": "Patrick M.",
+        "family": "Ko\u010dovsk\u00fd",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lori",
+        "family": "Morrison",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tatiana",
+        "family": "Garcia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Santiago",
+        "family": "Santacruz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0001-7760-7674",
+        "authenticated-orcid": false,
+        "given": "Cindy",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhenduo",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9897-7068",
+        "authenticated-orcid": false,
+        "given": "Holly",
+        "family": "Embke",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0005",
+        "unstructured": "Asian Carp Regional Coordinating Committee, 2016. 2016 Monitoring and response plan for Asian carp in the upper Illinois River and Chicago Area Waterway System. Chicago, Illinois. 200 p., accessed September 25, 2023, at https://invasivecarp.us/Documents/MRP2016.pdf."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "547",
+        "DOI": "10.1016/j.jglr.2013.09.019",
+        "article-title": "First evidence of grass carp recruitment in the Great Lakes Basin",
+        "volume": "39",
+        "author": "Chapman",
+        "year": "2013",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "3",
+        "DOI": "10.1016/j.jglr.2020.07.018",
+        "article-title": "Status of the major aquaculture carps of China in the Laurentian Great Lakes Basin",
+        "volume": "47",
+        "author": "Chapman",
+        "year": "2021",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0020",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chapman, D.C., 2006. Early development of four cyprinids native to the Yangtze River, China. U.S. Geological Survey Data Series 239. Reston, Virginia. 51 p. https://doi.org/10.3133/ds239.",
+        "DOI": "10.3133/ds239"
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "178",
+        "DOI": "10.1016/j.eng.2020.06.013",
+        "article-title": "Inducing flow velocities to manage fish reproduction in regulated rivers",
+        "volume": "7",
+        "author": "Chen",
+        "year": "2021",
+        "journal-title": "Engineering"
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0030",
+        "series-title": "Management and control plan for bighead, black, grass, and silver carps in the United States",
+        "first-page": "223",
+        "author": "Conover",
+        "year": "2007"
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0035",
+        "unstructured": "Cudmore, B., Jones, L.A., Mandrak, N.E., Dettmers, J.M., Chapman, D.C., Kolar, C.S., Conover, G., 2017. Ecological risk assessment of grass carp (Ctenopharyngodon idella) for the Great Lakes Basin. DFO Can. Sci. Advis. Sec. Res. Doc. 2016/118, 115 p., accessed September 21, 2023, at https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/4060116x.pdf."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "617",
+        "DOI": "10.1007/s10641-012-0052-z",
+        "article-title": "Location and timing of Asian carp spawning in the Lower Missouri River",
+        "volume": "96",
+        "author": "Deters",
+        "year": "2013",
+        "journal-title": "Environ. Biol. Fish."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jglr.2024.102376_b0045",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0005451",
+        "article-title": "A tale of four \u201ccarp\u201d: invasion potential and ecological niche modeling",
+        "volume": "4",
+        "author": "DeVaney",
+        "year": "2009",
+        "journal-title": "PLoS ONE"
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0050",
+        "author": "Domanski",
+        "year": "2020",
+        "journal-title": "FluEgg: USGS Software Release"
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "899",
+        "DOI": "10.1016/j.jglr.2016.05.002",
+        "article-title": "First direct confirmation of grass carp spawning in a Great Lakes tributary",
+        "volume": "42",
+        "author": "Embke",
+        "year": "2016",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "597",
+        "DOI": "10.1139/cjfas-2018-0047",
+        "article-title": "Modeling framework to estimate spawning and hatching locations of pelagically spawned eggs",
+        "volume": "76",
+        "author": "Embke",
+        "year": "2019",
+        "journal-title": "Can. J. Fish. Aquat. Sci."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "4897",
+        "DOI": "10.5194/hess-18-4897-2014",
+        "article-title": "Climate change and stream temperature projections in the Columbia River basin: habitat implications of spatial variation in hydrologic drivers",
+        "volume": "18",
+        "author": "Ficklin",
+        "year": "2014",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0070",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ecolmodel.2013.05.005",
+        "article-title": "Development of a fluvial egg drift simulator to evaluate the transport and dispersion of Asian carp eggs in rivers",
+        "volume": "263",
+        "author": "Garcia",
+        "year": "2013",
+        "journal-title": "Ecol. Modell."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0075",
+        "doi-asserted-by": "crossref",
+        "first-page": "374",
+        "DOI": "10.1016/j.jglr.2015.02.003",
+        "article-title": "Application of the FluEgg model to predict transport of Asian carp eggs in the Saint Joseph River (Great Lakes tributary)",
+        "volume": "41",
+        "author": "Garcia",
+        "year": "2015",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0080",
+        "unstructured": "Garcia, M.H., 2008. Sedimentation engineering: processes, measurements, modeling, and practice. In: ASCE Manuals and Reports on Engineering Practice, vol. 110, No. 110. American Society Civil Engineering Publications, Reston, Virginia."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0085",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1371/journal.pone.0119023",
+        "article-title": "Embryonic and larval development and early behavior in grass carp, Ctenopharyngodon idella: Implications for recruitment in rivers",
+        "volume": "10",
+        "author": "George",
+        "year": "2015",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0090",
+        "doi-asserted-by": "crossref",
+        "first-page": "834",
+        "DOI": "10.1080/00028487.2017.1310136",
+        "article-title": "Comparison of size, terminal fall velocity, and density of bighead carp, silver carp, and grass carp eggs for use in drift modeling",
+        "volume": "146",
+        "author": "George",
+        "year": "2017",
+        "journal-title": "Trans. Am. Fish. Soc."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0095",
+        "doi-asserted-by": "crossref",
+        "first-page": "154",
+        "DOI": "10.1002/nafm.10670",
+        "article-title": "Grass carp reproduction in small tributaries of Truman Reservoir, Missouri: implications for establishment in novel habitats",
+        "volume": "43",
+        "author": "Hayer",
+        "year": "2021",
+        "journal-title": "North Am. J. Fish. Manag."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0100",
+        "doi-asserted-by": "crossref",
+        "first-page": "1379",
+        "DOI": "10.1139/cjfas-2019-0344",
+        "article-title": "Modelling grass carp egg transport using a 3-D hydrodynamic river model: the role of egg retention in dead zones on spawning success",
+        "volume": "77",
+        "author": "Heer",
+        "year": "2020",
+        "journal-title": "Can. J. Fish. Aquat. Sci."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0105",
+        "doi-asserted-by": "crossref",
+        "first-page": "37",
+        "DOI": "10.1016/j.jglr.2020.07.007",
+        "article-title": "Asian carp spawning success: Predictions from a 3-D hydrodynamic model for a Laurentian Great Lake tributary",
+        "volume": "47",
+        "author": "Heer",
+        "year": "2021",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "issue": "7.9",
+        "key": "10.1016/j.jglr.2024.102376_b0110",
+        "first-page": "171 p",
+        "article-title": "The ecology of the coastal marshes of Western Lake Erie: a community profile",
+        "volume": "85",
+        "author": "Herdendorf",
+        "year": "1987",
+        "journal-title": "U.S Fish and Wildlife Service Biological Report"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jglr.2024.102376_b0115",
+        "doi-asserted-by": "crossref",
+        "first-page": "102350",
+        "DOI": "10.1016/j.jglr.2024.102350",
+        "article-title": "First documentation of grass carp spawning in Lake Erie\u2019s Central Basin",
+        "volume": "50",
+        "author": "Hilling",
+        "year": "2024",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0120",
+        "unstructured": "Hydrologic Engineering Center (HEC), 2021. Hydrologic Engineering Center River Analysis System (HEC-RAS), accessed September 23, 2023, at https://www.hec.usace.army.mil/software/hec-ras/download.aspx."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0125",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jglr.2024.102347",
+        "article-title": "Reproduction of grass carp (Ctenopharyngodon idella) in the Maumee River, Ohio: Part 1\u2014Spawning area identification using inverse drift modeling",
+        "volume": "50",
+        "author": "Jackson",
+        "year": "2024",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0130",
+        "article-title": "Methods for generating grass carp spawning forecasts in select tributaries to Lake Erie for USGS SpawnCast: U.S",
+        "author": "Jackson",
+        "year": "2023",
+        "journal-title": "Geological Survey SpawnCast Web Page"
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0135",
+        "article-title": "Velocity, discharge, and dye concentrations during a dye tracer study on the lower Sandusky River, Ohio, July 11\u201313, 2017",
+        "author": "Jackson",
+        "year": "2019",
+        "journal-title": "USGS Data Release"
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0140",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jackson, P.R., 2016. Seiche-induced unsteady flows in the Huron-Erie Corridor: Spectral analysis of oscillations in stage and discharge in the St. Clair and Detroit Rivers. Proceedings of the International Conference on Fluvial Hydraulics (River Flows 2016), 978\u20131, 235-241. https://www.researchgate.net/publication/305346511_Seiche-induced_unsteady_flows_in_the_Huron-Erie_Corridor_Spectral_analysis_of_oscillations_in_stage_and_discharge_in_the_St_Clair_and_Detroit_Rivers.",
+        "DOI": "10.1201/9781315644479-41"
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0145",
+        "first-page": "69",
+        "article-title": "Prediction of traveltime and longitudinal dispersion in rivers and streams",
+        "author": "Jobson",
+        "year": "1996",
+        "journal-title": "U.S. Geological Survey Water-Resources Investigations Report 96-4013"
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0150",
+        "first-page": "52",
+        "article-title": "Modelling survival and establishment of grass carp, Ctenopharyngodon idella, in the Great Lakes Basin",
+        "author": "Jones",
+        "year": "2017",
+        "journal-title": "DFO Can. Sci. Advis. Sec. Res. Doc. 2016/101"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jglr.2024.102376_b0155",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0263052",
+        "article-title": "The role of hydraulic and geomorphic complexity in predicting invasive carp spawning potential: St. Croix River, Minnesota and Wisconsin, United States",
+        "volume": "17",
+        "author": "Kasprak",
+        "year": "2022",
+        "journal-title": "PLoS ONE"
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0160",
+        "article-title": "Grass Carp (Ctenopharyngodon idella) egg capture data from tributaries to western Lake Erie, 2015\u20132020",
+        "author": "King",
+        "year": "2021",
+        "journal-title": "USGS Data Release"
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0165",
+        "doi-asserted-by": "crossref",
+        "first-page": "159",
+        "DOI": "10.1016/j.jglr.2011.11.015",
+        "article-title": "Thermal and hydrologic suitability of Lake Erie and its major tributaries for spawning of Asian carps",
+        "volume": "38",
+        "author": "Ko\u010dovsk\u00fd",
+        "year": "2012",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0170",
+        "doi-asserted-by": "crossref",
+        "first-page": "29",
+        "DOI": "10.1016/j.jglr.2020.06.005",
+        "article-title": "Validation of the model-predicted spawning area of grass carp Ctenopharyngodon idella in the Sandusky River",
+        "volume": "47",
+        "author": "Ko\u010dovsk\u00fd",
+        "year": "2021",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0175",
+        "article-title": "Bigheaded carps: A biological synopsis and environmental risk assessment",
+        "author": "Kolar",
+        "year": "2007",
+        "journal-title": "Am. Fish Soc."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0180",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jglr.2024.102345",
+        "article-title": "Reproduction of grass carp (Ctenopharyngodon idella) in the Maumee River, Ohio: Part 2\u2014optimal river conditions for egg and larval drift",
+        "volume": "50",
+        "author": "LeRoy",
+        "year": "2024",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0185",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ecolmodel.2022.110035",
+        "article-title": "A three-dimensional Lagrangian particle tracking model for predicting transport of eggs of rheophilic-spawning carps in turbulent rivers",
+        "volume": "470",
+        "author": "Li",
+        "year": "2022",
+        "journal-title": "Ecol. Modell."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0190",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ecolmodel.2022.110200",
+        "article-title": "Evaluations of Lagrangian egg drift models: from a laboratory flume to large channelized rivers",
+        "volume": "475",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "Ecol. Modell."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0195",
+        "unstructured": "Mandrak, N.E., Cudmore, B., Chapman, P.M., 2011. National detailed-level risk assessment guidelines: assessing the biological risk of aquatic invasive species in Canada. DFO Can. Sci. Advis. Sec. Res. Doc. 2011/092, 23 p., accessed September 23, 2023, at https://publications.gc.ca/collections/collection_2013/mpo-dfo/Fs70-5-2011-092-eng.pdf."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0200",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/S0380-1330(93)71197-1",
+        "article-title": "Exotic species in the Great Lakes: a history of biotic crises and anthropogenic introductions",
+        "volume": "19",
+        "author": "Mills",
+        "year": "1993",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "issue": "1\u20132",
+        "key": "10.1016/j.jglr.2024.102376_b0205",
+        "doi-asserted-by": "crossref",
+        "first-page": "27",
+        "DOI": "10.1016/0925-8574(92)90024-V",
+        "article-title": "Landscape design and the role of created, restored, and natural riparian wetlands in controlling nonpoint source pollution",
+        "volume": "1",
+        "author": "Mitsch",
+        "year": "1992",
+        "journal-title": "Ecol. Eng."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0210",
+        "unstructured": "Montgomery, C., Brazille, J., Boyington, T.M., Baxter, D.S., 2021. Asian carp egg transport modeling in the TVA river system to determine potential habitat areas, in Asian carp final programmatic environmental assessment (Appendix C). Tennessee Valley Authority, Knoxville, Tennessee, 215 p., accessed September 19, 2023, at https://www.tva.com/environment/environmental-stewardship/environmental-reviews/nepa-detail/asian-carp-mitigation."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0215",
+        "first-page": "30",
+        "article-title": "Hydraulic and water-quality data collection for the investigation of Great Lakes Tributaries for Asian carp spawning and egg-transport suitability",
+        "author": "Murphy",
+        "year": "2013",
+        "journal-title": "U.S. Geological Survey Sci. Investig. Rep. 2013\u20135106"
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0220",
+        "first-page": "19",
+        "article-title": "Simulation of hypothetical Asian carp egg and larvae development and transport in the Lockport, Brandon Road, Dresden Island, and Marseilles pools of the Illinois waterway by use of the Fluvial Egg Drift Simulator (FluEgg) model",
+        "author": "Murphy",
+        "year": "2016",
+        "journal-title": "U.S. Geological Survey Open File Report 2016\u20131011"
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0225",
+        "unstructured": "National Oceanic and Atmospheric Administration, 2023a. Tides and Great Lakes water levels, accessed August 1, 2023, at https://tidesandcurrents.noaa.gov/water_level_info.html."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0230",
+        "unstructured": "National Oceanic and Atmospheric Administration, 2023b. What is a seiche?, accessed September 23, 2023, at https://oceanservice.noaa.gov/facts/seiche.html."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0235",
+        "unstructured": "Nico, L.G., Fuller, P.L., Schofield, P.J., Neilson, M.E., Baker, E., Narlock, C., Sturtevant, R., 2023. Ctenopharyngodon idella var. diploid (Valenciennes in Cuvier and Valenciennes, 1844). U.S. Geological Survey, Nonindigenous Aquatic Species Database, Revision Date: 9/12/2019, Gainesville, FL, accessed September 20, 2023, at https://nas.er.usgs.gov/queries/FactSheet.aspx?SpeciesID=2947."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0240",
+        "unstructured": "Ohio Department of Natural Resources [ODNR], 2019. Lake Erie grass carp response strategy: 2019\u20132023. Ohio Department of Natural Resources, Division of Wildlife. Columbus, Ohio. 15 p., accessed September 21, 2023, at https://ohiodnr.gov/static/documents/wildlife/fish-management/Lake_Erie_Grass_Carp_Response_Strategy.pdf."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0245",
+        "first-page": "30",
+        "article-title": "Supporting data and simulation of hypothetical bighead carp egg and larvae development and transport in the Ohio River between Markland Locks and Dam and McAlpine Locks and Dam, Kentucky and Indiana, by use of the Fluvial Egg Drift Simulator",
+        "author": "Ostheimer",
+        "year": "2021",
+        "journal-title": "U.S. Geological Survey Sci. Investig. Rep. 2021\u20135005"
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0250",
+        "series-title": "Turbulent Flows",
+        "author": "Pope",
+        "year": "2000"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jglr.2024.102376_b0255",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1061/(ASCE)0733-9429(2004)130:3(227)",
+        "article-title": "Estimation of the longitudinal dispersion coefficient using the velocity profile in natural streams",
+        "volume": "130",
+        "author": "Seo",
+        "year": "2004",
+        "journal-title": "J. Hydraul. Eng."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0260",
+        "unstructured": "Shireman, J.V. Smith, C.R., 1983. Synopsis of biological data on the grass carp, Ctenopharyngodon idella (Cuvier and Valenciennes, 1844). Food and Aquaculture Organization of the United Nations, Fisheries Synopsis 135, Rome, Italy, 94 p., accessed September 20, 2023, at http://www.fao.org/3/a-ap938e.pdf."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0265",
+        "series-title": "Environmental hydraulics",
+        "author": "Singh",
+        "year": "2013"
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0270",
+        "article-title": "Model archive and hydraulic and fluvial egg drift simulator (FluEgg) results for drifts of grass carp eggs in the lower Sandusky River, Ohio, collected on July 12, 2017",
+        "author": "Soong",
+        "year": "2024",
+        "journal-title": "U.S. Geological Survey Data Release"
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0275",
+        "article-title": "Reproductive requirements and likelihood for naturalization of escaped grass carp in the United States",
+        "volume": "1",
+        "author": "Stanley",
+        "year": "1978",
+        "journal-title": "Trans. Am. Fish. Soc."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0280",
+        "unstructured": "Stantec Consulting Services, 2011. Ballville dam removal feasibility study: City of Fremont, Ohio, October 2011. Stantec Consulting Report, 122 p."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0285",
+        "first-page": "64",
+        "article-title": "A model for evaluating stream temperature response to climate change in Wisconsin",
+        "author": "Stewart",
+        "year": "2014",
+        "journal-title": "U.S. Geological Survey Sci. Investig. Rep. 2014\u20135186"
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0290",
+        "first-page": "26",
+        "article-title": "Preliminary forecast of hydraulic characteristic test of grass, green, silver carp, bighead carp egg incubation conditions in the Three Gorges Reservoir Area",
+        "volume": "4",
+        "author": "Tang",
+        "year": "1989",
+        "journal-title": "Reservoir Fisheries"
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0295",
+        "unstructured": "U.S. Geological Survey, 2019. USGS water data for the Nation: U.S. Geological Survey National Water Information System database, accessed August 1, 2019, at https://doi.org/10.5066/F7P55KJN."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0300",
+        "doi-asserted-by": "crossref",
+        "first-page": "275",
+        "DOI": "10.3354/meps158275",
+        "article-title": "Using random walk models to simulate the vertical distribution of particles in a turbulent water column",
+        "volume": "158",
+        "author": "Visser",
+        "year": "1997",
+        "journal-title": "Mar. Ecol. Prog. Ser."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0305",
+        "doi-asserted-by": "crossref",
+        "first-page": "547",
+        "DOI": "10.3390/fishes8110547",
+        "article-title": "A review of grass carp and related species literature on diet, behavior, toxicology, and physiology focused on informing development of controls for invasive grass carp populations in North America",
+        "volume": "8",
+        "author": "Wildhaber",
+        "year": "2023",
+        "journal-title": "Fishes"
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0310",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yi, B., Liang, Z., Yu, Z., Lin, R., He, M., 1988. A comparative study on the early development of grass carp, black carp, silver carp, and big head of the Yangtze River, chap. 2 of Chapman, D.C., ed., 2006, Early development of four cyprinids native to the Yangtze River, China. U.S. Geological Survey Data Series 239, 51 p. https://doi.org/10.3133/ds239.",
+        "DOI": "10.3133/ds239"
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0315",
+        "doi-asserted-by": "crossref",
+        "first-page": "2147",
+        "DOI": "10.3390/w14142147",
+        "article-title": "Simulating ecological effects of a waterway project in the middle reaches of the Yangtze River based on hydraulic indicators on the spawning habitats of four major Chinese carp species",
+        "volume": "14",
+        "author": "Yin",
+        "year": "2022",
+        "journal-title": "Water"
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0320",
+        "doi-asserted-by": "crossref",
+        "first-page": "53",
+        "DOI": "10.1016/j.ecolmodel.2018.06.003",
+        "article-title": "Using reverse-time egg transport analysis for predicting Asian carp spawning grounds in the Illinois River",
+        "volume": "384",
+        "author": "Zhu",
+        "year": "2018",
+        "journal-title": "Ecol. Modell."
+      },
+      {
+        "key": "10.1016/j.jglr.2024.102376_b0325",
+        "unstructured": "Zhu, Z., 2019. Fluvial egg drift simulator (FluEgg) version 3.1.0, accessed August 1, 2019, at https://github.com/ZhenduoZhu/FluEgg/tree/FluEgg_3.1.0_UB."
+      }
+    ],
+    "container-title": [
+      "Journal of Great Lakes Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0380133024001266?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0380133024001266?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          17
+        ]
+      ],
+      "date-time": "2024-07-17T10:14:20Z",
+      "timestamp": 1721211260000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0380133024001266"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          8
+        ]
+      ]
+    },
+    "references-count": 65,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            8
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S0380133024001266"
+    ],
+    "URL": "https://doi.org/10.1016/j.jglr.2024.102376",
+    "relation": {},
+    "ISSN": [
+      "0380-1330"
+    ],
+    "issn-type": [
+      {
+        "value": "0380-1330",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          8
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Reproducing age variability in grass carp egg samples from the lower Sandusky River, Ohio, USA, using an egg-drift model",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Journal of Great Lakes Research",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.jglr.2024.102376",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "Published by Elsevier B.V. on behalf of International Association for Great Lakes Research.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "102376"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1016/j.jglr.2024.102376",
+  "original_doi": "10.1016/j.jglr.2024.102376"
+}

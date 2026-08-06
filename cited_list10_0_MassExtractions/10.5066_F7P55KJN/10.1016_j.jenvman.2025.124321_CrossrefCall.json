@@ -1,0 +1,977 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          16
+        ]
+      ],
+      "date-time": "2026-07-16T02:36:35Z",
+      "timestamp": 1784169395585,
+      "version": "3.55.0"
+    },
+    "reference-count": 54,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2025-02-01T00:00:00Z",
+          "timestamp": 1738368000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2025-02-01T00:00:00Z",
+          "timestamp": 1738368000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              26
+            ]
+          ],
+          "date-time": "2026-01-26T00:00:00Z",
+          "timestamp": 1769385600000
+        },
+        "content-version": "am",
+        "delay-in-days": 359,
+        "URL": "http://www.elsevier.com/open-access/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2025-02-01T00:00:00Z",
+          "timestamp": 1738368000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2025-02-01T00:00:00Z",
+          "timestamp": 1738368000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2025-02-01T00:00:00Z",
+          "timestamp": 1738368000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2025-02-01T00:00:00Z",
+          "timestamp": 1738368000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2025-02-01T00:00:00Z",
+          "timestamp": 1738368000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100007522",
+        "name": "Office of Integrative Activities",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2019561"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2019561"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100007522",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000192",
+        "name": "National Oceanic and Atmospheric Administration",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NA22NWS4320003"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NA22NWS4320003"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000192",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100011531",
+        "name": "University of Alabama",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100011531",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Environmental Management"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jenvman.2025.124321",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          25
+        ]
+      ],
+      "date-time": "2025-01-25T20:37:51Z",
+      "timestamp": 1737837471000
+    },
+    "page": "124321",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 11,
+    "special_numbering": "C",
+    "title": [
+      "Impact of climate change and land management on nitrate pollution in the high plains aquifer"
+    ],
+    "prefix": "10.1016",
+    "volume": "375",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3534-6007",
+        "authenticated-orcid": false,
+        "given": "Mahlet M.",
+        "family": "Kebede",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3593-0481",
+        "authenticated-orcid": false,
+        "given": "Leigh G.",
+        "family": "Terry",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7878-8139",
+        "authenticated-orcid": false,
+        "given": "T. Prabhakar",
+        "family": "Clement",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3573-9759",
+        "authenticated-orcid": false,
+        "given": "Mesfin M.",
+        "family": "Mekonnen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib1",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.scitotenv.2021.152233",
+        "article-title": "Global diagnosis of nitrate pollution in groundwater and review of removal technologies",
+        "volume": "810",
+        "author": "Abascal",
+        "year": "2022",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "514",
+        "DOI": "10.1016/j.scitotenv.2019.05.417",
+        "article-title": "Prediction of nitrate accumulation and leaching beneath groundwater irrigated corn fields in the Upper Platte basin under a future climate scenario",
+        "volume": "685",
+        "author": "Akbariyeh",
+        "year": "2019",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1133",
+        "DOI": "10.1007/s10653-021-01140-5",
+        "article-title": "Climate change and its effect on groundwater quality",
+        "volume": "45",
+        "author": "Barbieri",
+        "year": "2023",
+        "journal-title": "Environ. Geochem. Health"
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "292",
+        "DOI": "10.1016/j.agee.2005.06.006",
+        "article-title": "Nitrate leaching in intensive agriculture in Northern France: effect of farming practices, soils and crop rotations",
+        "volume": "111",
+        "author": "Beaudoin",
+        "year": "2005",
+        "journal-title": "Agric. Ecosyst. Environ."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "4988",
+        "DOI": "10.1021/es100546y",
+        "article-title": "Nitrate in groundwater of the United States, 1991\u22122003",
+        "volume": "44",
+        "author": "Burow",
+        "year": "2010",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "284",
+        "DOI": "10.1016/j.gloenvcha.2016.06.010",
+        "article-title": "The SSP4: a world of deepening inequality",
+        "volume": "42",
+        "author": "Calvin",
+        "year": "2017",
+        "journal-title": "Global Environ. Change"
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "2031",
+        "DOI": "10.1002/joc.1688",
+        "article-title": "Physiographically sensitive mapping of climatological temperature and precipitation across the conterminous United States",
+        "volume": "28",
+        "author": "Daly",
+        "year": "2008",
+        "journal-title": "Int. J. Climatol.: a Journal of the Royal Meteorological Society"
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib8",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.scitotenv.2023.169241",
+        "article-title": "The impacts of climate change on groundwater quality: a review",
+        "volume": "912",
+        "author": "Dao",
+        "year": "2024",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "122",
+        "DOI": "10.3390/atmos15010122",
+        "article-title": "A critical review of climate change impacts on groundwater resources: a focus on the current status, future possibilities, and role of simulation models",
+        "volume": "15",
+        "author": "Davamani",
+        "year": "2024",
+        "journal-title": "Atmosphere"
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib52",
+        "doi-asserted-by": "crossref",
+        "first-page": "127173",
+        "DOI": "10.1016/j.jhydrol.2021.127173",
+        "article-title": "A meta-modeling approach for hydrological forecasting under uncertainty: Application to groundwater nitrate response to climate change",
+        "volume": "603",
+        "author": "Focaccia",
+        "year": "2021",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "251",
+        "DOI": "10.1016/j.gloenvcha.2016.06.004",
+        "article-title": "The marker quantification of the Shared Socioeconomic Pathway 2: a middle-of-the-road scenario for the 21st century",
+        "volume": "42",
+        "author": "Fricko",
+        "year": "2017",
+        "journal-title": "Global Environ. Change"
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "268",
+        "DOI": "10.1016/j.gloenvcha.2016.06.009",
+        "article-title": "SSP3: AIM implementation of shared socioeconomic pathways",
+        "volume": "42",
+        "author": "Fujimori",
+        "year": "2017",
+        "journal-title": "Global Environ. Change"
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "404",
+        "DOI": "10.1016/j.envsoft.2007.01.005",
+        "article-title": "A first approach to web services for the National Water Information System",
+        "volume": "23",
+        "author": "Goodall",
+        "year": "2008",
+        "journal-title": "Environ. Model. Software"
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib13",
+        "author": "Hirsch",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib14",
+        "first-page": "1",
+        "article-title": "Harmonization of global land-use change and management for the period 850\u20132100 (LUH2) for CMIP6",
+        "volume": "2020",
+        "author": "Hurtt",
+        "year": "2020",
+        "journal-title": "Geosci. Model Dev. Discuss. (GMDD)"
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "250",
+        "DOI": "10.1016/j.jhydrol.2013.06.037",
+        "article-title": "Climate change impacts on groundwater and dependent ecosystems",
+        "volume": "518",
+        "author": "Kl\u00f8ve",
+        "year": "2014",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "1317",
+        "DOI": "10.1016/j.scitotenv.2019.03.045",
+        "article-title": "Large scale prediction of groundwater nitrate concentrations from spatial data using machine learning",
+        "volume": "668",
+        "author": "Knoll",
+        "year": "2019",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "9",
+        "DOI": "10.1186/2193-2697-1-9",
+        "article-title": "Good practice for the usage of climate model simulation results - a discussion paper",
+        "volume": "1",
+        "author": "Kreienkamp",
+        "year": "2012",
+        "journal-title": "Environ Syst Res"
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "297",
+        "DOI": "10.1016/j.gloenvcha.2016.05.015",
+        "article-title": "Fossil-fueled development (SSP5): an energy and resource intensive scenario for the 21st century",
+        "volume": "42",
+        "author": "Kriegler",
+        "year": "2017",
+        "journal-title": "Global Environ. Change"
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "32",
+        "DOI": "10.1016/j.scitotenv.2013.01.011",
+        "article-title": "Modeling vulnerability of groundwater to pollution under future scenarios of climate change and biofuels-related land use change: a case study in North Dakota, USA",
+        "volume": "447",
+        "author": "Li",
+        "year": "2013",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib20",
+        "article-title": "A unified approach to interpreting model predictions",
+        "volume": "30",
+        "author": "Lundberg",
+        "year": "2017",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "2184",
+        "DOI": "10.1007/s11356-018-1859-8",
+        "article-title": "Groundwater nitrate pollution and climate change: learnings from a water balance-based analysis of several aquifers in a western Mediterranean region (Catalonia)",
+        "volume": "26",
+        "author": "Mas-Pla",
+        "year": "2019",
+        "journal-title": "Environ. Sci. Pollut. Res."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib55",
+        "series-title": "Estimated withdrawals from principal aquifers in the United States, 2000",
+        "author": "Maupin",
+        "year": "2005"
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "2965",
+        "DOI": "10.1021/es052229q",
+        "article-title": "Regional patterns in the isotopic composition of natural and anthropogenic nitrate in groundwater, high Plains",
+        "volume": "40",
+        "author": "McMahon",
+        "year": "2006",
+        "journal-title": "U.S.A. Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "5718",
+        "DOI": "10.1002/2015JD024159",
+        "article-title": "A nonstationary bias-correction technique to remove bias in GCM simulations",
+        "volume": "121",
+        "author": "Miao",
+        "year": "2016",
+        "journal-title": "J. Geophys. Res. Atmos."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib24",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.scitotenv.2020.143039",
+        "article-title": "Bias correction of climate model outputs influences watershed model nutrient load predictions",
+        "volume": "759",
+        "author": "Miralha",
+        "year": "2021",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "902",
+        "DOI": "10.1016/j.jhydrol.2015.10.025",
+        "article-title": "A statistical learning framework for groundwater nitrate models of the Central Valley, California, USA",
+        "volume": "531",
+        "author": "Nolan",
+        "year": "2015",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "428",
+        "DOI": "10.1016/j.jhydrol.2018.02.029",
+        "article-title": "Metamodeling and mapping of nitrate flux in the unsaturated zone and groundwater, Wisconsin, USA",
+        "volume": "559",
+        "author": "Nolan",
+        "year": "2018",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib27",
+        "doi-asserted-by": "crossref",
+        "first-page": "3461",
+        "DOI": "10.5194/gmd-9-3461-2016",
+        "article-title": "The scenario model Intercomparison project (ScenarioMIP) for CMIP6",
+        "volume": "9",
+        "author": "O'Neill",
+        "year": "2016",
+        "journal-title": "Geosci. Model Dev. (GMD)"
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib28",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.scitotenv.2020.144463",
+        "article-title": "Forecasting nitrate evolution in an alluvial aquifer under distinct environmental and climate change scenarios (Lower Rhine Embayment, Germany)",
+        "volume": "768",
+        "author": "Ortmeyer",
+        "year": "2021",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "183",
+        "DOI": "10.5194/esd-7-183-2016",
+        "article-title": "Groundwater nitrate concentration evolution under climate change and agricultural adaptation scenarios: prince Edward Island, Canada",
+        "volume": "7",
+        "author": "Paradis",
+        "year": "2016",
+        "journal-title": "Earth System Dynamics"
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "335",
+        "DOI": "10.1093/biomet/75.2.335",
+        "article-title": "Testing for a unit root in time series regression",
+        "volume": "75",
+        "author": "Phillips",
+        "year": "1988",
+        "journal-title": "Biometrika"
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib31",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.scitotenv.2021.151065",
+        "article-title": "Machine learning predictions of nitrate in groundwater used for drinking supply in the conterminous United States",
+        "volume": "807",
+        "author": "Ransom",
+        "year": "2022",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib32",
+        "doi-asserted-by": "crossref",
+        "first-page": "1160",
+        "DOI": "10.1016/j.scitotenv.2017.05.192",
+        "article-title": "A hybrid machine learning model to predict and visualize nitrate concentration throughout the Central Valley aquifer, California, USA",
+        "volume": "601",
+        "author": "Ransom",
+        "year": "2017",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib33",
+        "doi-asserted-by": "crossref",
+        "first-page": "87",
+        "DOI": "10.1038/s43017-022-00378-6",
+        "article-title": "Global water resources and the role of groundwater in a resilient water future",
+        "volume": "4",
+        "author": "Scanlon",
+        "year": "2023",
+        "journal-title": "Nat. Rev. Earth Environ."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "12965",
+        "DOI": "10.1021/acs.est.1c08697",
+        "article-title": "Drivers of spatiotemporal variability in drinking water quality in the United States",
+        "volume": "56",
+        "author": "Scanlon",
+        "year": "2022",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib35",
+        "series-title": "Assessing the Impacts of Agrohydrology on Water Resources in the High Plains Aquifer",
+        "first-page": "H15Q",
+        "author": "Scanlon",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib36",
+        "doi-asserted-by": "crossref",
+        "first-page": "531",
+        "DOI": "10.1002/met.1655",
+        "article-title": "Bias correction of climate models for hydrological modelling\u2013are simple methods still useful?",
+        "volume": "24",
+        "author": "Shrestha",
+        "year": "2017",
+        "journal-title": "Meteorol. Appl."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib37",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.envsci.2016.03.010",
+        "article-title": "Climate change impacts on groundwater resources in Mekong Delta under representative concentration pathways (RCPs) scenarios",
+        "volume": "61",
+        "author": "Shrestha",
+        "year": "2016",
+        "journal-title": "Environ. Sci. Pol."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib38",
+        "doi-asserted-by": "crossref",
+        "first-page": "1863",
+        "DOI": "10.5194/hess-14-1863-2010",
+        "article-title": "Groundwater use for irrigation \u2013 a global inventory",
+        "volume": "14",
+        "author": "Siebert",
+        "year": "2010",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib39",
+        "doi-asserted-by": "crossref",
+        "first-page": "405",
+        "DOI": "10.1126/science.aan2409",
+        "article-title": "Eutrophication will increase during the 21st century as a result of precipitation changes",
+        "volume": "357",
+        "author": "Sinha",
+        "year": "2017",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib40",
+        "doi-asserted-by": "crossref",
+        "first-page": "939",
+        "DOI": "10.1038/s41467-019-08884-w",
+        "article-title": "Societal decisions about climate mitigation will have dramatic impacts on eutrophication in the 21st century",
+        "volume": "10",
+        "author": "Sinha",
+        "year": "2019",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib56",
+        "doi-asserted-by": "crossref",
+        "first-page": "2859",
+        "DOI": "10.1016/j.scitotenv.2011.04.016",
+        "article-title": "A review of the impact of climate change on future nitrate concentrations in groundwater of the UK",
+        "volume": "409",
+        "author": "Stuart",
+        "year": "2011",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib41",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2011GL049863",
+        "article-title": "Mapping model agreement on future climate projections",
+        "volume": "38",
+        "author": "Tebaldi",
+        "year": "2011",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib42",
+        "doi-asserted-by": "crossref",
+        "first-page": "262",
+        "DOI": "10.1038/s41597-022-01393-4",
+        "article-title": "NASA global daily downscaled projections, CMIP6",
+        "volume": "9",
+        "author": "Thrasher",
+        "year": "2022",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib43",
+        "doi-asserted-by": "crossref",
+        "first-page": "748",
+        "DOI": "10.1126/science.ado6638",
+        "article-title": "Predictions of groundwater PFAS occurrence at drinking water supply depths in the United States",
+        "volume": "386",
+        "author": "Tokranov",
+        "year": "2024",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib57",
+        "series-title": "National primary drinking water regulations",
+        "year": "2009"
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib45",
+        "series-title": "Soil Properties",
+        "author": "Walkinshaw",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib46",
+        "series-title": "Unintended Consequences of Biofuels Production? the Effects of Large-Scale Crop Conversion on Water Quality and Quantity",
+        "author": "Welch",
+        "year": "2010"
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib47",
+        "doi-asserted-by": "crossref",
+        "first-page": "481",
+        "DOI": "10.1016/j.scitotenv.2015.07.080",
+        "article-title": "Modeling groundwater nitrate concentrations in private wells in Iowa",
+        "volume": "536",
+        "author": "Wheeler",
+        "year": "2015",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib48",
+        "doi-asserted-by": "crossref",
+        "first-page": "178",
+        "DOI": "10.1016/j.jenvman.2012.06.030",
+        "article-title": "Groundwater nitrate contamination: factors and indicators",
+        "volume": "111",
+        "author": "Wick",
+        "year": "2012",
+        "journal-title": "J. Environ. Manag."
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib49",
+        "first-page": "128",
+        "article-title": "National field manual for the collection of water-quality data",
+        "volume": "9",
+        "author": "Wilde",
+        "year": "1998",
+        "journal-title": "US Geological Survey Techniques of Water-Resources Investigations"
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib50",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0107522",
+        "article-title": "Global agricultural land resources \u2013 a high resolution suitability evaluation and its perspectives until 2100 under climate change conditions",
+        "volume": "9",
+        "author": "Zabel",
+        "year": "2014",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.jenvman.2025.124321_bib51",
+        "doi-asserted-by": "crossref",
+        "first-page": "107",
+        "DOI": "10.1016/j.eehl.2022.06.001",
+        "article-title": "A review of the application of machine learning in water quality evaluation",
+        "volume": "1",
+        "author": "Zhu",
+        "year": "2022",
+        "journal-title": "Eco-Environment & Health"
+      }
+    ],
+    "container-title": [
+      "Journal of Environmental Management"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S030147972500297X?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S030147972500297X?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          21
+        ]
+      ],
+      "date-time": "2025-11-21T00:41:23Z",
+      "timestamp": 1763685683000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S030147972500297X"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2
+        ]
+      ]
+    },
+    "references-count": 54,
+    "alternative-id": [
+      "S030147972500297X"
+    ],
+    "URL": "https://doi.org/10.1016/j.jenvman.2025.124321",
+    "relation": {},
+    "ISSN": [
+      "0301-4797"
+    ],
+    "issn-type": [
+      {
+        "value": "0301-4797",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          2
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Impact of climate change and land management on nitrate pollution in the high plains aquifer",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Journal of Environmental Management",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.jenvman.2025.124321",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "\u00a9 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "124321"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1016/j.jenvman.2025.124321",
+  "original_doi": "10.1016/j.jenvman.2025.124321"
+}

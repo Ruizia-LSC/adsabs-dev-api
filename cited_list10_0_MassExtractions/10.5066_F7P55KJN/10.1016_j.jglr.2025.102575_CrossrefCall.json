@@ -1,0 +1,1395 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          27
+        ]
+      ],
+      "date-time": "2026-02-27T09:17:14Z",
+      "timestamp": 1772183834264,
+      "version": "3.50.1"
+    },
+    "reference-count": 123,
+    "publisher": "Elsevier BV",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2025-06-01T00:00:00Z",
+          "timestamp": 1748736000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2025-06-01T00:00:00Z",
+          "timestamp": 1748736000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              2
+            ]
+          ],
+          "date-time": "2025-04-02T00:00:00Z",
+          "timestamp": 1743552000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100006959",
+        "name": "U.S. Forest Service",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006959",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100019553",
+        "name": "Minnesota Agricultural Experiment Station",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "MN-042"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "MN-042"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100019553",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100023066",
+        "name": "Ohio Department of Natural Resources",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100023066",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Great Lakes Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jglr.2025.102575",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          10
+        ]
+      ],
+      "date-time": "2025-04-10T07:32:22Z",
+      "timestamp": 1744270342000
+    },
+    "page": "102575",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Source and longevity of streambed sediment and phosphorus retention in a lake-plain tributary of the Maumee River"
+    ],
+    "prefix": "10.1016",
+    "volume": "51",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7639-8495",
+        "authenticated-orcid": false,
+        "given": "Tanja N.",
+        "family": "Williamson",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9748-7075",
+        "authenticated-orcid": false,
+        "given": "Faith A.",
+        "family": "Fitzpatrick",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4529-0369",
+        "authenticated-orcid": false,
+        "given": "Diana L.",
+        "family": "Karwan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9295-4156",
+        "authenticated-orcid": false,
+        "given": "Rebecca M.",
+        "family": "Kreiling",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0006-3947",
+        "authenticated-orcid": false,
+        "given": "James D.",
+        "family": "Blount",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2004-3142",
+        "authenticated-orcid": false,
+        "given": "Dayle J.",
+        "family": "Hoefling",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "758",
+        "DOI": "10.1038/35001562",
+        "article-title": "Effect of stream channel size on the delivery of nitrogen to the Gulf of Mexico",
+        "volume": "403",
+        "author": "Alexander",
+        "year": "2000",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0010",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.agwat.2020.106036",
+        "article-title": "Overall results and key findings on the use of UAV visible-color, multispectral, and thermal infrared imagery to map agricultural drainage pipes",
+        "volume": "232",
+        "author": "Allred",
+        "year": "2020",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0015",
+        "unstructured": "Annex 4 Task Team, 2015. Recommended phosphorus loading targets for Lake Erie - Annex 4 Objectives and Targets Task Team Final Report to the Nutrients Annex Subcommittee, U.S. Environmental Protection Agency. https://www.epa.gov/sites/production/files/2015-06/documents/report-recommended-phosphorus-loading-targets-lake-erie-201505.pdf."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "203",
+        "DOI": "10.1016/j.jglr.2019.01.011",
+        "article-title": "Needed: early-term adjustments for Lake Erie phosphorus target loads to address western basin cyanobacterial blooms",
+        "volume": "45",
+        "author": "Baker",
+        "year": "2019",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "503",
+        "DOI": "10.1111/j.1752-1688.2004.tb01046.x",
+        "article-title": "A new flashiness index: characteristics and applications to midwestern rivers and streams",
+        "volume": "40",
+        "author": "Baker",
+        "year": "2004",
+        "journal-title": "J. Am. Water Resour. Assoc."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0030",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Baker, N.T., Stone, W.W., Wilson, J.T., Meyer, M.T., 2006. Occurrence and Transport of Agricultural Chemicals in Leary Weber Ditch Basin, Hancock County, Indiana, 2003-04, U.S. Geological Survey Scientific Investigations Report. https://doi.org/10.3133/sir20065251.",
+        "DOI": "10.3133/sir20065251"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "141",
+        "DOI": "10.1016/j.geoderma.2009.03.021",
+        "article-title": "The content and storage of phosphorus in fine-grained channel bed sediment in contrasting lowland agricultural catchments in the UK",
+        "volume": "151",
+        "author": "Ballantine",
+        "year": "2009",
+        "journal-title": "Geoderma"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "8804",
+        "DOI": "10.1021/es2019109",
+        "article-title": "Large shift in source of fine sediment in the Upper Mississippi River",
+        "volume": "45",
+        "author": "Belmont",
+        "year": "2011",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0045",
+        "doi-asserted-by": "crossref",
+        "first-page": "289",
+        "DOI": "10.1111/j.2517-6161.1995.tb02031.x",
+        "article-title": "Controlling the false discovery rate: a practical and powerful approach to multiple testing",
+        "volume": "57",
+        "author": "Benjamini",
+        "year": "1995",
+        "journal-title": "J. r. Stat. Soc. B"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0050",
+        "doi-asserted-by": "crossref",
+        "first-page": "909",
+        "DOI": "10.1080/10643380801977966",
+        "article-title": "Effects of agricultural drainage on aquatic ecosystems: a review",
+        "volume": "39",
+        "author": "Blann",
+        "year": "2009",
+        "journal-title": "Crit. Rev. Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0055",
+        "article-title": "Stream corridor sources of suspended sediment and phosphorus from an agricultural tributary to the Great Lakes",
+        "author": "Blount",
+        "year": "2022",
+        "journal-title": "Federal Interagency Sedimentation and Hydrologic Modeling Conference."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0060",
+        "unstructured": "Blount, J.D., Fitzpatrick, F.A., Williamson, T.N., 2021. Black Creek Rapid Geomorphic Assessment, Allen County, Indiana. U.S. Geological Survey data release. https://doi.org/10.5066/P9F1LQ6H."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0065",
+        "unstructured": "Blount, J.D., Fitzpatrick, F.A., Williamson, T.N., 2025. Rapid Geomorphic Assessment of Little Flatrock Creek Stream Network, Ohio, 2019. U.S. Geological Survey data release. https://doi.org/10.5066/P9ZFS2OQ."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0070",
+        "doi-asserted-by": "crossref",
+        "first-page": "1536",
+        "DOI": "10.1016/j.jglr.2022.08.024",
+        "article-title": "Stream corridor and upland sources of fluvial sediment and phosphorus from a mixed urban-agricultural tributary to the Great Lakes",
+        "volume": "48",
+        "author": "Blount",
+        "year": "2022",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0075",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bremner, J.M., Tabatabai, M.A., 1971. Use of automated combustion techniques for total carbon, total nitrogen, and total sulfur analysis of soils, in: Walsh, L.M. (Ed.), Instrumental methods for analysis of soils and plant tissue. Soil Science Society of America, pp. 1\u201315.",
+        "DOI": "10.2136/1971.instrumentalmethods.c1"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0080",
+        "unstructured": "Briggs, P.H., Meier, A.L., 2002. The determination of forty-two elements in geological materials by inductively coupled plasma - mass spectrometry, in: Taggart Jr, J.E. (Ed.), Analytical methods for chemical analysis of geologic and other materials, Version 5.0. U.S. Geological Survey. https://doi.org/10.3133/ofr02223/I20NAWQAPlus_M.pdf."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0085",
+        "doi-asserted-by": "crossref",
+        "first-page": "143",
+        "DOI": "10.2489/jswc.73.2.143",
+        "article-title": "Farmer adoption of cover crops in the western Lake Erie basin",
+        "volume": "73",
+        "author": "Burnett",
+        "year": "2018",
+        "journal-title": "J. Soil Water Conserv."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0090",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Capel, P.D., Wolock, D.M., Coupe, R.H., Roth, J.L., 2018. A conceptual framework for effectively anticipating water-quality changes resulting from changes in agricultural activities, U.S. Geological Survey Scientific Investigations Report, Reston, VA. https://doi.org/10.3133/sir20175095.",
+        "DOI": "10.3133/sir20175095"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0095",
+        "doi-asserted-by": "crossref",
+        "first-page": "21",
+        "DOI": "10.1016/j.jglr.2018.11.012",
+        "article-title": "Tracking changes in nutrient delivery to western Lake Erie: approaches to compensate for variability and trends in streamflow",
+        "volume": "45",
+        "author": "Choquette",
+        "year": "2019",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0100",
+        "unstructured": "Civil & Environmental Consultants Inc., 2020. Nine-Element Nonpoint Source Implementation Strategy (NPS-IS) for Little Flatrock Creek HUC-12 (04100007 12 07), Toledo, Ohio. https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/35/nps/Approved%209-Element%20Plans/Little%20Flatrock%20Creek_Ver1.0_3-03-2020.pdf."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0105",
+        "doi-asserted-by": "crossref",
+        "first-page": "4160",
+        "DOI": "10.1007/s11368-020-02755-4",
+        "article-title": "Sediment source fingerprinting: benchmarking recent outputs, remaining challenges and emerging themes",
+        "volume": "20",
+        "author": "Collins",
+        "year": "2020",
+        "journal-title": "J. Soils Sediments"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0110",
+        "doi-asserted-by": "crossref",
+        "first-page": "293",
+        "DOI": "10.1007/s10533-010-9502-x",
+        "article-title": "Storm nitrogen dynamics in tile-drain flow in the US Midwest",
+        "volume": "104",
+        "author": "Cuadra",
+        "year": "2011",
+        "journal-title": "Biogeochemistry"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0115",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dayton, E.A., Shrestha, R.K., Fulford, A.M., Love, K.R., W. Culman, S., Lindsey, L.E., 2020. Soil test phosphorus and phosphorus balance trends: A county-level analysis in Ohio. Agron. J. 112, 1617\u20131624.",
+        "DOI": "10.1002/agj2.20146"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0120",
+        "doi-asserted-by": "crossref",
+        "first-page": "33",
+        "DOI": "10.1002/2016WR019830",
+        "article-title": "The integral suspension pressure method (ISP) for precise particle-size analysis by gravitational sedimentation",
+        "volume": "53",
+        "author": "Durner",
+        "year": "2017",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0125",
+        "doi-asserted-by": "crossref",
+        "first-page": "62",
+        "DOI": "10.18061/ojs.v115i2.4614",
+        "article-title": "Evidence of sequence and age of Ancestral Lake Erie lake-levels, northwest Ohio",
+        "volume": "115",
+        "author": "Fisher",
+        "year": "2015",
+        "journal-title": "Ohio J. Sci."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0130",
+        "series-title": "Federal Interagency Sedimentaton and Hydrologic Modeling Conference",
+        "article-title": "Instream Sources of Suspended Sediment and Phosphorus from an Agricultural Tributary to the Great Lakes",
+        "author": "Fitzpatrick",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0135",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fitzpatrick, F.A., Ellison, C.A., Czuba, C.R., Young, B.M., McCool, M.M., Groten, J.T., 2016. Geomorphic responses of Duluth-area streams to the June 2012 flood, Minnesota, U.S. Geological Survey Scientific Investigations Report, Reston, VA. https://doi.org/10.3133/sir20165104.",
+        "DOI": "10.3133/sir20165104"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0140",
+        "doi-asserted-by": "crossref",
+        "first-page": "1335",
+        "DOI": "10.3390/biology12101335",
+        "article-title": "Prevalence of cobalt in the environment and its role in biological processes",
+        "volume": "12",
+        "author": "Genchi",
+        "year": "2023",
+        "journal-title": "Biology"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0145",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gorman Sanisaca, L.E., Gellis, A.C., Lorenz, D.L., 2017. Determining the sources of fine-grained sediment using the Sediment Source Assessment Tool (Sed_SAT), U.S. Geological Survey Open-File Report, Reston, VA. https://doi.org/10.3133/ofr20171062.",
+        "DOI": "10.3133/ofr20171062"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0150",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Groffman, P.M., Holland, E.A., Myrold, D.D., Robertson, G.P., Zhou, X., 1999. Denitrification, in: Robertson, G.P., Coleman, D.C., Bledsoe, C.S., Sollins, P. (Eds.), Standard soil methods for long-term ecological research. Oxford University Press, New York, NY, pp. 272\u2013288.",
+        "DOI": "10.1093/oso/9780195120837.003.0014"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0155",
+        "doi-asserted-by": "crossref",
+        "first-page": "283",
+        "DOI": "10.1021/acs.est.0c03495",
+        "article-title": "Less agricultural phosphorus applied in 2019 led to less dissolved phosphorus transported to Lake Erie",
+        "volume": "55",
+        "author": "Guo",
+        "year": "2020",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0160",
+        "unstructured": "Hammer-Lester, R., Williamson, T.N., Hoefling, D.J., 2025a. Chemical and physical data for sediment source tracking in Little Flatrock Creek, Ohio - source samples, 2021. U.S. Geological Survey data release. https://doi.org/10.5066/P13AGJZZ."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0165",
+        "unstructured": "Hammer-Lester, R., Williamson, T.N., Hoefling, D.J., 2025b. Chemical and physical data for sediment source tracking in Little Flatrock Creek, Ohio - streambed sediment, 2019. U.S. Geological Survey data release. https://doi.org/10.5066/P132TBUL."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0170",
+        "unstructured": "Hankins, R., 2023. Investigating the use of fallout radionuclides beryllium-7 and excess lead-210 as short-term stream sediment chronometers in the agricultural upper midwest, USA, MS Thesis. University of Minnesota, Saint Paul, USA."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0175",
+        "doi-asserted-by": "crossref",
+        "first-page": "486",
+        "DOI": "10.1016/j.jglr.2020.02.004",
+        "article-title": "Among-site variability in environmental and management characteristics: effect on nutrient loss in agricultural tile drainage",
+        "volume": "46",
+        "author": "Hanrahan",
+        "year": "2020",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0180",
+        "doi-asserted-by": "crossref",
+        "first-page": "231",
+        "DOI": "10.1007/s10705-019-09981-4",
+        "article-title": "Nutrient balances influence hydrologic losses of nitrogen and phosphorus across agricultural fields in northwestern Ohio",
+        "volume": "113",
+        "author": "Hanrahan",
+        "year": "2019",
+        "journal-title": "Nutr. Cycling Agroecosyst."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0185",
+        "doi-asserted-by": "crossref",
+        "first-page": "184",
+        "DOI": "10.1016/j.isprsjprs.2020.02.019",
+        "article-title": "Conterminous United States land cover change patterns 2001\u20132016 from the 2016 National Land Cover Database",
+        "volume": "162",
+        "author": "Homer",
+        "year": "2020",
+        "journal-title": "ISPRS J. Photogramm. Remote Sens."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0190",
+        "series-title": "Soil quality - determination of potential nitrification and inhibition of nitrification - rapid test by ammonium oxidation",
+        "author": "International Organization for Standardization [ISO]",
+        "year": "2012"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0195",
+        "doi-asserted-by": "crossref",
+        "first-page": "1347",
+        "DOI": "10.1002/lno.11120",
+        "article-title": "Deciphering the effects of nitrogen, phosphorus, and temperature on cyanobacterial bloom intensification, diversity, and toxicity in western Lake Erie",
+        "volume": "64",
+        "author": "Jankowiak",
+        "year": "2019",
+        "journal-title": "Limnol. Oceanogr."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0200",
+        "doi-asserted-by": "crossref",
+        "first-page": "13284",
+        "DOI": "10.1021/es303562y",
+        "article-title": "Within-river phosphorus retention: accounting for a missing piece in the watershed phosphorus puzzle",
+        "volume": "46",
+        "author": "Jarvie",
+        "year": "2012",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0205",
+        "doi-asserted-by": "crossref",
+        "first-page": "295",
+        "DOI": "10.2134/jeq2012.0085",
+        "article-title": "Phosphorus mitigation to control river eutrophication: murky waters, inconvenient truths, and \u201cpostnormal\u201d science",
+        "volume": "42",
+        "author": "Jarvie",
+        "year": "2013",
+        "journal-title": "J. Environ. Qual."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0210",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1111/j.1467-8306.1955.tb01481.x",
+        "article-title": "The Black Swamp: a study in historical geography",
+        "volume": "45",
+        "author": "Kaatz",
+        "year": "1955",
+        "journal-title": "Ann. Assoc. Am. Geogr."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0215",
+        "doi-asserted-by": "crossref",
+        "first-page": "4579",
+        "DOI": "10.1029/2017WR021684",
+        "article-title": "Direct channel precipitation and storm characteristics influence short-term fallout radionuclide assessment of sediment source",
+        "volume": "54",
+        "author": "Karwan",
+        "year": "2018",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0220",
+        "doi-asserted-by": "crossref",
+        "first-page": "75",
+        "DOI": "10.1002/hyp.10571",
+        "article-title": "Beryllium-7 wet deposition variation with storm height, synoptic classification, and tree canopy state in the mid-Atlantic USA",
+        "volume": "30",
+        "author": "Karwan",
+        "year": "2016",
+        "journal-title": "Hydrol. Processes"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0225",
+        "unstructured": "Karwan, D.L., Williamson, T.N., 2025. Fallout-radionuclide activity in samples collected from fine-grained, streambed sediment in the Little Flatrock Creek, Ohio stream-channel network, 2019. U.S. Geological Survey data release. https://doi.org/10.5066/P14X7EFJ."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0230",
+        "article-title": "The impact of silver nanoparticles on the growth of plants: the agriculture applications",
+        "volume": "9",
+        "author": "Khan",
+        "year": "2023",
+        "journal-title": "Heliyon"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0235",
+        "doi-asserted-by": "crossref",
+        "first-page": "466",
+        "DOI": "10.2134/jeq2016.11.0434",
+        "article-title": "Phosphorus availability in Western Lake Erie Basin drainage waters: legacy evidence across spatial scales",
+        "volume": "46",
+        "author": "King",
+        "year": "2017",
+        "journal-title": "J. Environ. Qual."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0240",
+        "doi-asserted-by": "crossref",
+        "first-page": "467",
+        "DOI": "10.2134/jeq2014.04.0163",
+        "article-title": "Phosphorus transport in agricultural subsurface drainage: a review",
+        "volume": "44",
+        "author": "King",
+        "year": "2015",
+        "journal-title": "J. Environ. Qual."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0245",
+        "doi-asserted-by": "crossref",
+        "unstructured": "King, W.M., Curless, S.E., Hood, J.M., 2021. River phosphorus cycling constrains lake cyanobacteria blooms. bioRxiv, 2021.2005.2003.442426. https://doi.org/10.1101/2021.05.03.442426.",
+        "DOI": "10.1101/2021.05.03.442426"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0250",
+        "unstructured": "Kreiling, R.M., Bartsch, L.A., Perner, P.M., Breckner, K.J., 2022. Great Lakes Restoration Initiative: nutrient cycling in riverbed sediment in the Maumee River Basin, 2019 and 2021 Data. U.S. Geological Survey data release."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0255",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jglr.2024.102284",
+        "article-title": "Controls on in-stream nitrogen loss in western Lake Erie tributaries",
+        "volume": "50",
+        "author": "Kreiling",
+        "year": "2024",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0260",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.scitotenv.2022.160804",
+        "article-title": "Watershed- and reach-scale drivers of phosphorus retention and release by streambed sediment in a western Lake Erie watershed during summer",
+        "volume": "863",
+        "author": "Kreiling",
+        "year": "2023",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0265",
+        "doi-asserted-by": "crossref",
+        "first-page": "1764",
+        "DOI": "10.1029/2019JG005171",
+        "article-title": "Complex response of sediment phosphorus to land use and management within a river network",
+        "volume": "124",
+        "author": "Kreiling",
+        "year": "2019",
+        "journal-title": "J. Geophys. Res. Biogeosci."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0270",
+        "doi-asserted-by": "crossref",
+        "first-page": "44",
+        "DOI": "10.1016/j.geomorph.2015.02.001",
+        "article-title": "Sources of fine sediment stored in agricultural lowland streams, Midwest, USA",
+        "volume": "236",
+        "author": "Lamba",
+        "year": "2015",
+        "journal-title": "Geomorphology"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0275",
+        "doi-asserted-by": "crossref",
+        "first-page": "3443",
+        "DOI": "10.1002/hyp.1302",
+        "article-title": "Hydromorphological and biological factors influencing sediment and phosphorus loss via bank erosion in small lowland rural streams in Denmark",
+        "volume": "17",
+        "author": "Laubel",
+        "year": "2003",
+        "journal-title": "Hydrol. Processes"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0280",
+        "article-title": "Glacial formations and drainage features of the Erie and Ohio basins",
+        "author": "Leverett",
+        "year": "1902",
+        "journal-title": "Monograph"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0285",
+        "unstructured": "Logan, T.J., Adams, J.R., 1981. The effects of reduced tillage on phosphate transport from agricultural land, Technical Report Series. U.S. Army Corps of Engineers, Buffalo District, Buffalo, NY. https://apps.dtic.mil/sti/pdfs/ADA098278.pdf."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0290",
+        "unstructured": "Lowrance, R., Isenhart, T.M., Gburek, W.J., F.D. Shields, J., P.J. Wigington, J., Dabney, S.M., 2006. Landscape management practices, in: Schnepf, M., Cox, C. (Eds.). Soil and Water Conservation Society, pp. 271\u2013317."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0295",
+        "doi-asserted-by": "crossref",
+        "first-page": "335",
+        "DOI": "10.1016/j.earscirev.2014.06.007",
+        "article-title": "Fallout 210Pb as a soil and sediment tracer in catchment sediment budget investigations: a review",
+        "volume": "138",
+        "author": "Mabit",
+        "year": "2014",
+        "journal-title": "Earth Sci. Rev."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0300",
+        "doi-asserted-by": "crossref",
+        "first-page": "1063",
+        "DOI": "10.1002/jeq2.20514",
+        "article-title": "Streambank erosion and phosphorus loading to surface waters: knowns, unknowns, and implications for nutrient loss reduction research and policy",
+        "volume": "52",
+        "author": "Margenot",
+        "year": "2023",
+        "journal-title": "J. Environ. Qual."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0305",
+        "doi-asserted-by": "crossref",
+        "first-page": "1191",
+        "DOI": "10.1002/esp.1270",
+        "article-title": "The 7Be/210Pbxs ratio as an indicator of suspended sediment age or fraction new sediment in suspension",
+        "volume": "30",
+        "author": "Matisoff",
+        "year": "2005",
+        "journal-title": "Earth Surf. Process. Landforms"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0310",
+        "doi-asserted-by": "crossref",
+        "first-page": "1409",
+        "DOI": "10.1080/00103628409367568",
+        "article-title": "Mehlich 3 soil test extractant: a modification of Mehlich 2 extractant",
+        "volume": "15",
+        "author": "Mehlich",
+        "year": "1984",
+        "journal-title": "Commun. Soil Sci. Plant Anal."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0315",
+        "unstructured": "Menne, M.J., Durre, I., Korzeniewski, B., McNeal, S., Thomas, K., Yin, X., Anthony, S., Ray, R., Vose, R.S., E.Gleason, B., Houston, T.G., 2012. Global Historical Climatology Network - Daily (GHCN-Daily), Version 3. Sites 12-1747, 12-1752, 12-9174, US1INDC0006. https://doi.org/10.7289/V5D21VHZ."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0320",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1002/hyp.14326",
+        "article-title": "Tile drainage causes flashy streamflow response in Ohio watersheds",
+        "volume": "35",
+        "author": "Miller",
+        "year": "2021",
+        "journal-title": "Hydrol. Processes"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0325",
+        "doi-asserted-by": "crossref",
+        "first-page": "28175",
+        "DOI": "10.1073/pnas.2001376117",
+        "article-title": "Outsized nutrient contributions from small tributaries to a Great Lake",
+        "volume": "117",
+        "author": "Mooney",
+        "year": "2020",
+        "journal-title": "Proc. Natl. Acad. Sci. USA"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0330",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.earscirev.2022.104188",
+        "article-title": "Understanding the complexity of sediment residence time in rivers: application of fallout radionuclides (FRNs)",
+        "volume": "233",
+        "author": "Mu\u00f1oz-Arcos",
+        "year": "2022",
+        "journal-title": "Earth Sci. Rev."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0335",
+        "doi-asserted-by": "crossref",
+        "first-page": "6",
+        "DOI": "10.3389/fenvs.2014.00006",
+        "article-title": "Soil phosphorus saturation ratio for risk assessment in land use systems",
+        "volume": "2",
+        "author": "Nair",
+        "year": "2014",
+        "journal-title": "Front. Environ. Sci."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0340",
+        "doi-asserted-by": "crossref",
+        "first-page": "1249",
+        "DOI": "10.2307/1937833",
+        "article-title": "Phosphorus dynamics in a woodland stream ecosystem: a study of nutrient spiralling",
+        "volume": "64",
+        "author": "Newbold",
+        "year": "1983",
+        "journal-title": "Ecology"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0345",
+        "unstructured": "Ohio Department of Agriculture, 2023. Regional Watershed Program - Watershed Plan, Region 1, first. Ohio Department of Agriculture. https://agri.ohio.gov/divisions/soil-and-water-conservation/forms/rwp_1."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0350",
+        "unstructured": "Ohio Division of Geological Survey, 2005. Glacial map of Ohio, in: Ohio Department of Natural Resources. page-size map with text. https://earthjay.com/earthquakes/20190610_ohio/glacial.pdf."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0355",
+        "unstructured": "Ohio Environmental Protection Agency [OEPA] - Division of Surface Water Assessment and Modeling Section, 2023. Maumee Watershed Nutrient - Total Maximum Daily Load,, Ohio EPA Technical Report AMS. https://epa.ohio.gov/static/Portals/35/tmdl/MaumeeNutrient/Maumee-Watershed-Nutrient-TMDL-Final.pdf."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0360",
+        "unstructured": "Ohio Lake Erie Commission [OLEC], 2024. Promoting Clean and Safe Water in Lake Erie: Ohio\u2019s Domestic Action Plan 2023 to Address Nutrients. Ohio Lake Erie Commission. https://lakeerie.ohio.gov/planning-and-priorities/02-domestic-action-plan."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0365",
+        "doi-asserted-by": "crossref",
+        "first-page": "1249",
+        "DOI": "10.1007/s00267-014-0364-1",
+        "article-title": "Ecoregions of the conterminous United States: evolution of a hierarchical spatial framework",
+        "volume": "54",
+        "author": "Omernik",
+        "year": "2014",
+        "journal-title": "Environ. Manag."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0370",
+        "doi-asserted-by": "crossref",
+        "first-page": "241",
+        "DOI": "10.1002/jeq2.20549",
+        "article-title": "New phosphorus losses via tile drainage depend on fertilizer form, placement, and timing",
+        "volume": "53",
+        "author": "Osterholz",
+        "year": "2024",
+        "journal-title": "J. Environ. Qual."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0375",
+        "unstructured": "Palecki, M., Durre, I., Applequist, S., Arguez, A., Lawrimore, J., 2021. U.S. Climate Normals 2020: U.S. Hourly Climate Normals (1991-2020). https://www.weather.gov/wrh/Climate?wfo=iwx."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0380",
+        "doi-asserted-by": "crossref",
+        "first-page": "53",
+        "DOI": "10.1016/j.agee.2009.05.014",
+        "article-title": "Stream-bed phosphorus in paired catchments with different agricultural land use intensity",
+        "volume": "134",
+        "author": "Palmer-Felgate",
+        "year": "2009",
+        "journal-title": "Agric. Ecosyst. Environ."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0385",
+        "unstructured": "Perner, P., Williams, C.O., Williamson, T.N., 2022. Mehlich-III extractable data for sediment source fingerprinting of suspended and bottom sediment in Black Creek, Indiana, tributary to the Maumee River and western Lake Erie - source samples. U.S. Geological Survey data release. https://doi.org/10.5066/P9PRK2OH."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0390",
+        "doi-asserted-by": "crossref",
+        "first-page": "773",
+        "DOI": "10.1002/rra.881",
+        "article-title": "A review of techniques available for delimiting the erodible river corridor: a sustainable approach to managing bank erosion",
+        "volume": "21",
+        "author": "Pi\u00e9gay",
+        "year": "2005",
+        "journal-title": "River Res. Appl."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0395",
+        "series-title": "R: A language and environment for statistical computing",
+        "author": "R Core Team",
+        "year": "2025"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0400",
+        "doi-asserted-by": "crossref",
+        "first-page": "65",
+        "DOI": "10.1016/j.earscirev.2016.04.010",
+        "article-title": "Phosphorus in the river corridor",
+        "volume": "158",
+        "author": "Records",
+        "year": "2016",
+        "journal-title": "Earth Sci. Rev."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0405",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.2134/jeq2002.1700",
+        "article-title": "Trends in agriculture in the LEASEQ watersheds, 1975\u20131995",
+        "volume": "31",
+        "author": "Richards",
+        "year": "2002",
+        "journal-title": "J. Environ. Qual."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0410",
+        "doi-asserted-by": "crossref",
+        "first-page": "1011",
+        "DOI": "10.1111/j.1752-1688.2011.00574.x",
+        "article-title": "Nutrient inputs to the Laurentian Great Lakes by source and watershed estimated using SPARROW watershed models",
+        "volume": "47",
+        "author": "Robertson",
+        "year": "2011",
+        "journal-title": "J. Am. Water Resour. Assoc."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0415",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Robertson, D.M., Saad, D.A., 2019. Spatially referenced models of streamflow and nitrogen, phosphorus, and suspended-sediment loads in streams of the midwestern United States, U.S. Geological Survey Scientific Investigations Report, Reston, VA.",
+        "DOI": "10.3133/sir20195114"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0420",
+        "doi-asserted-by": "crossref",
+        "first-page": "1401",
+        "DOI": "10.1111/1752-1688.12792",
+        "article-title": "Phosphorus and nitrogen transport in the binational Great Lakes basin estimated using SPARROW watershed models",
+        "volume": "55",
+        "author": "Robertson",
+        "year": "2019",
+        "journal-title": "J. Am. Water Resour. Assoc."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0425",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ecolind.2021.107601",
+        "article-title": "Lake Erie tributary nutrient trend evaluation: normalizing concentrations and loads to reduce flow variability",
+        "volume": "125",
+        "author": "Rowland",
+        "year": "2021",
+        "journal-title": "Ecol. Indic."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0430",
+        "doi-asserted-by": "crossref",
+        "first-page": "4497",
+        "DOI": "10.1002/hyp.7052",
+        "article-title": "Effects of subsurface drainage tiles on streamflow in Iowa agricultural watersheds: Exploratory hydrograph analysis",
+        "volume": "22",
+        "author": "Schilling",
+        "year": "2008",
+        "journal-title": "Hydrol. Processes"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0435",
+        "unstructured": "Schoeneberger, P.J., Wysocki, D.A., Benham, E.C., 2012. Field book for describing and sampling soils, Version 3.0. Natural Resources Conservation Service, National Soil Survey Center, Lincoln, NE. https://www.nrcs.usda.gov/resources/guides-and-instructions/field-book-for-describing-and-sampling-soils."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0440",
+        "doi-asserted-by": "crossref",
+        "first-page": "1951",
+        "DOI": "10.1002/hyp.9738",
+        "article-title": "Twentieth century agricultural drainage creates more erosive rivers",
+        "volume": "28",
+        "author": "Schottler",
+        "year": "2014",
+        "journal-title": "Hydrol. Processes"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0445",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Schumm, S.A., 1981. Evolution and response of the fluvial system, sedimentologic implications.",
+        "DOI": "10.2110/pec.81.31.0019"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0450",
+        "doi-asserted-by": "crossref",
+        "first-page": "1308",
+        "DOI": "10.2134/jeq2013.03.0098",
+        "article-title": "Phosphorus legacy: overcoming the effects of past management practices to mitigate future water quality impairment",
+        "volume": "42",
+        "author": "Sharpley",
+        "year": "2013",
+        "journal-title": "J. Environ. Qual."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0455",
+        "doi-asserted-by": "crossref",
+        "first-page": "30",
+        "DOI": "10.2134/jeq1992.00472425002100010003x",
+        "article-title": "The transport of bioavailable phosphorus in agricultural runoff",
+        "volume": "21",
+        "author": "Sharpley",
+        "year": "1992",
+        "journal-title": "J. Environ. Qual."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0460",
+        "doi-asserted-by": "crossref",
+        "first-page": "1117",
+        "DOI": "10.1111/j.1752-1688.2007.00091.x",
+        "article-title": "Critical evaluation of how the rosgen classification and associated \u201cnatural channel design\u201d methods fail to integrate and quantify fluvial processes and channel response",
+        "volume": "43",
+        "author": "Simon",
+        "year": "2007",
+        "journal-title": "J. Am. Water Resour. Assoc."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0465",
+        "doi-asserted-by": "crossref",
+        "first-page": "287",
+        "DOI": "10.1002/jeq2.20202",
+        "article-title": "Sediment phosphorus buffering in streams at baseflow: a meta-analysis",
+        "volume": "50",
+        "author": "Simpson",
+        "year": "2021",
+        "journal-title": "J. Environ. Qual."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0470",
+        "doi-asserted-by": "crossref",
+        "first-page": "495",
+        "DOI": "10.2134/jeq2014.04.0176",
+        "article-title": "Surface runoff and tile drainage transport of phosphorus in the midwestern United States",
+        "volume": "44",
+        "author": "Smith",
+        "year": "2014",
+        "journal-title": "J. Environ. Qual."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0475",
+        "doi-asserted-by": "crossref",
+        "first-page": "1176",
+        "DOI": "10.2134/jeq2019.03.0136",
+        "article-title": "The latitudes, attitudes, and platitudes of watershed phosphorus management in North America",
+        "volume": "48",
+        "author": "Smith",
+        "year": "2019",
+        "journal-title": "J. Environ. Qual."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0480",
+        "doi-asserted-by": "crossref",
+        "first-page": "20562",
+        "DOI": "10.1073/pnas.1903226116",
+        "article-title": "Variable impacts of contemporary versus legacy agricultural phosphorus on US river water quality",
+        "volume": "116",
+        "author": "Stackpoole",
+        "year": "2019",
+        "journal-title": "Proc. Natl. Acad. Sci. USA"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0485",
+        "article-title": "4500-P PHOSPHORUS",
+        "author": "Standard Methods: American Public Health Association, American Water Works Association, Water Environment Federation",
+        "year": "2021",
+        "journal-title": "Standard Methods for the Examination of Water and Wastewater"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0490",
+        "doi-asserted-by": "crossref",
+        "first-page": "913",
+        "DOI": "10.1029/TR038i006p00913",
+        "article-title": "Quantitative analysis of watershed geomorphology",
+        "volume": "38",
+        "author": "Strahler",
+        "year": "1957",
+        "journal-title": "Eos, Transactions American Geophysical Union"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0495",
+        "unstructured": "Sugg, Z., 2007. Assessing U.S. farm drainage: can GIS lead to better estimates of subsurface drainage extent? World Resources Institute. https://files.wri.org/d8/s3fs-public/pdf/assessing_farm_drainage.pdf."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0500",
+        "unstructured": "U.S. Department of Agriculture - National Agricultural Statistics Service Cropland Data Layer [USDA-NASS], 2020. CropScape and Cropland Data Layer [Online]. Washington, DC., https://nassgeodata.gmu.edu/CropScape/."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0505",
+        "unstructured": "U.S. Department of Agriculture - Natural Resource Conservation Service [USDA-NRCS], 2016. Soil Survey Geographic (SSURGO) Database for Allen County, IN., September 13, 2016. Soil Survey Staff, Natural Resources Conservation Service, United States Department of Agriculture. https://websoilsurvey.sc.egov.usda.gov/App/WebSoilSurvey.aspx."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0510",
+        "unstructured": "U.S. Department of Agriculture - Natural Resource Conservation Service [USDA-NRCS], 2017. Conservation practice adoption on cultivated cropland acres: effects on instream nutrient and sediment dynamics and delivery in western Lake Erie Basin, 2003-06 and 2012, Special Study Report. https://www.nrcs.usda.gov/publications/ceap-crop-2017-Nutrient-Sediment-full.pdf."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0515",
+        "unstructured": "U.S. Department of Agriculture - Natural Resources Conservation Service [USDA-NRCS], 2024b. Official Soil Series Descriptions. Soil Survey Staff, Natural Resources Conservation Service, United States Department of Agriculture. http://soils.usda.gov/technical/classification/osd/index.html."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0520",
+        "unstructured": "U.S. Department of Agriculture - Natural Resources Conservation Service [USDA-NRCS], 2024a. Web Soil Survey - gSSURGO. Natural Resources Conservation Service, United States Department of Agriculture. http://websoilsurvey.nrcs.usda.gov/."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0525",
+        "series-title": "Wisconsin Field Office Technical Guide - Section III",
+        "author": "U.S. Department of Agriculture - Natural Resources Conservation Service [USDA-NRCS] Wisconsin",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0530",
+        "unstructured": "U.S. Environmental Protection Agency [USEPA], 1996. Method 6010B, Inductively Couple d Plasma-Atomic Emission Spectrometry. USEPA. https://www.epa.gov/sites/default/files/documents/6010b.pdf."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0535",
+        "unstructured": "U.S. Geological Survey [USGS], 2017. USGS National Geospatial Program National Hydrography Dataset (NHD) Best Resolution. http://nhd.usgs.gov."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0540",
+        "unstructured": "U.S. Geological Survey [USGS], 2023. 1 meter Digital Elevation Models (DEMs). U.S. Geological Survey data release. https://catalog.data.gov/dataset/1-meter-digital-elevation-models-dems-usgs-national-map-3dep-downloadable-data-collection."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0545",
+        "unstructured": "U.S. Geological Survey [USGS], 2025. USGS water data for the Nation: U.S. Geological Survey National Water Information System database. http://dx.doi.org/10.5066/F7P55KJN."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0550",
+        "doi-asserted-by": "crossref",
+        "first-page": "1354",
+        "DOI": "10.1029/WR015i006p01354",
+        "article-title": "Storm travel distance calculations for total phosphorus and suspended materials in rivers",
+        "volume": "15",
+        "author": "Verhoff",
+        "year": "1979",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0555",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.scitotenv.2023.168711",
+        "article-title": "Evaluating the longevity of in-stream phosphorus legacies: A downstream cascade of recovery following point source remediation",
+        "volume": "912",
+        "author": "Wallington",
+        "year": "2024",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0560",
+        "unstructured": "Williamson, T.N., 2025. Particle-size distributions for streambed sediment in two Maumee River tributaries, July 2019. U.S. Geological Survey data release. https://doi.org/10.5066/P13SDCVY."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0565",
+        "doi-asserted-by": "crossref",
+        "first-page": "1624",
+        "DOI": "10.2134/jeq2013.12.0521",
+        "article-title": "Stream sediment sources in midwest agricultural basins with land retirement along channel",
+        "volume": "43",
+        "author": "Williamson",
+        "year": "2014",
+        "journal-title": "J. Environ. Qual."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0570",
+        "doi-asserted-by": "crossref",
+        "first-page": "1307",
+        "DOI": "10.1016/j.jglr.2020.06.011",
+        "article-title": "Monthly suspended-sediment apportionment for a western Lake Erie agricultural tributary",
+        "volume": "46",
+        "author": "Williamson",
+        "year": "2020",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0575",
+        "doi-asserted-by": "crossref",
+        "first-page": "492",
+        "DOI": "10.1002/jeq2.20290",
+        "article-title": "Phosphorus sources, forms, and abundance as a function of streamflow and field conditions in a Maumee River tributary, 2016\u20132019",
+        "volume": "52",
+        "author": "Williamson",
+        "year": "2021",
+        "journal-title": "J. Environ. Qual."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0580",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.2489/jswc.74.1.1",
+        "article-title": "Delineation of tile-drain networks using thermal and multispectral imagery\u2014Implications for water quantity and quality differences from paired edge-of-field sites",
+        "volume": "74",
+        "author": "Williamson",
+        "year": "2019",
+        "journal-title": "J. Soil Water Conserv."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0585",
+        "doi-asserted-by": "crossref",
+        "first-page": "1447",
+        "DOI": "10.1007/s11368-023-03713-6",
+        "article-title": "Sediment budget of a Maumee River headwater tributary: how streambank erosion, streambed-sediment storage, and streambed-sediment source inform our understanding of legacy phosphorus",
+        "volume": "24",
+        "author": "Williamson",
+        "year": "2024",
+        "journal-title": "J. Soils Sediments"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0590",
+        "unstructured": "Williamson, T.N., Hardebeck, M.J., Martin, G.R., 2020b. Chemical and physical data for sediment source fingerprinting of suspended and bottom sediment in Black Creek, Indiana, tributary to the Maumee River and western Lake Erie - source samples. U.S. Geological Survey data release. https://doi.org/10.5066/P9W28HF0."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0595",
+        "unstructured": "Williamson, T.N., Hoefling, D.J., 2023. Chemical and physical data for sediment source tracking of streambed sediment in Black Creek, Indiana, tributary to the Maumee River and western Lake Erie - 2019. U.S. Geological Survey data release."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0600",
+        "doi-asserted-by": "crossref",
+        "first-page": "1726",
+        "DOI": "10.1016/j.jglr.2021.10.004",
+        "article-title": "Nutrient and suspended-sediment concentrations in the Maumee River and tributaries during 2019 rain-induced fallow conditions",
+        "volume": "47",
+        "author": "Williamson",
+        "year": "2021",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0605",
+        "doi-asserted-by": "crossref",
+        "first-page": "379",
+        "DOI": "10.1016/j.scitotenv.2008.08.002",
+        "article-title": "Delivery and cycling of phosphorus in rivers: a review",
+        "volume": "400",
+        "author": "Withers",
+        "year": "2008",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0610",
+        "doi-asserted-by": "crossref",
+        "first-page": "21535",
+        "DOI": "10.1021/acs.est.3c04733",
+        "article-title": "Muddied Waters: The use of \u201cresidual\u201d and \u201clegacy\u201d phosphorus",
+        "volume": "57",
+        "author": "Zhou",
+        "year": "2023",
+        "journal-title": "Environ. Sci. Technol.5"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102575_b0615",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jhydrol.2024.132500",
+        "article-title": "The double-edged sword of agricultural tile drainage effects on stream flashiness: a meta-analysis",
+        "volume": "651",
+        "author": "Zhou",
+        "year": "2025",
+        "journal-title": "J. Hydrol."
+      }
+    ],
+    "container-title": [
+      "Journal of Great Lakes Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0380133025000693?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0380133025000693?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          5
+        ]
+      ],
+      "date-time": "2025-11-05T02:04:41Z",
+      "timestamp": 1762308281000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0380133025000693"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    },
+    "references-count": 123,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S0380133025000693"
+    ],
+    "URL": "https://doi.org/10.1016/j.jglr.2025.102575",
+    "relation": {},
+    "ISSN": [
+      "0380-1330"
+    ],
+    "issn-type": [
+      {
+        "value": "0380-1330",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Source and longevity of streambed sediment and phosphorus retention in a lake-plain tributary of the Maumee River",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Journal of Great Lakes Research",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.jglr.2025.102575",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "\u00a9 2025 The US Geological Survey. Published by Elsevier B.V on behalf of International Association for Great Lakes Research",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "102575"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1016/j.jglr.2025.102575",
+  "original_doi": "10.1016/j.jglr.2025.102575"
+}

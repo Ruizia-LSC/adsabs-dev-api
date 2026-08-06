@@ -1,0 +1,946 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          11
+        ]
+      ],
+      "date-time": "2026-06-11T14:27:06Z",
+      "timestamp": 1781188026473,
+      "version": "3.54.1"
+    },
+    "reference-count": 70,
+    "publisher": "Elsevier BV",
+    "issue": "6",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              18
+            ]
+          ],
+          "date-time": "2025-09-18T00:00:00Z",
+          "timestamp": 1758153600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000139",
+        "name": "US Environmental Protection Agency",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000139",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Great Lakes Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jglr.2025.102669",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          4
+        ]
+      ],
+      "date-time": "2025-10-04T00:37:31Z",
+      "timestamp": 1759538251000
+    },
+    "page": "102669",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Changes in phosphorus concentration and flux from 2011 to 2023 in major U.S. tributaries to the Laurentian Great Lakes"
+    ],
+    "prefix": "10.1016",
+    "volume": "51",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1640-685X",
+        "authenticated-orcid": false,
+        "given": "Dustin W.",
+        "family": "Kincaid",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5164-598X",
+        "authenticated-orcid": false,
+        "given": "Matthew W.",
+        "family": "Diebel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Erin E.",
+        "family": "Bertke",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Donald B.",
+        "family": "Bonville",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0255-2960",
+        "authenticated-orcid": false,
+        "given": "Greg F.",
+        "family": "Koltun",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6799-0596",
+        "authenticated-orcid": false,
+        "given": "Dale M.",
+        "family": "Robertson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Luke C.",
+        "family": "Loken",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "502",
+        "DOI": "10.1016/j.jglr.2014.05.001",
+        "article-title": "Phosphorus loading to Lake Erie from the Maumee, Sandusky and Cuyahoga rivers: the importance of bioavailability",
+        "volume": "40",
+        "author": "Baker",
+        "year": "2014",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "96",
+        "DOI": "10.2134/jeq2002.9600",
+        "article-title": "Phosphorus budgets and riverine phosphorus export in northwestern Ohio watersheds",
+        "volume": "31",
+        "author": "Baker",
+        "year": "2002",
+        "journal-title": "J. Environ. Qual."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0015",
+        "unstructured": "Baston, D., 2023. exactextractr: Fast extraction from raster datasets using polygons. Version 0.10.0. https://cran.r-project.org/web/packages/exactextractr/index.html."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0020",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2021EF002571",
+        "article-title": "A random forest in the Great Lakes: stream nutrient concentrations across the transboundary Great Lakes basin",
+        "volume": "11",
+        "author": "Basu",
+        "year": "2023",
+        "journal-title": "Earth\u2019s Future"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0025",
+        "unstructured": "Bocinsky, R.K., Beaudette, D., Chamberlain, S., Hollister, J., Gustavsen, J., 2024. FedData: Download geospatial data available from several federated data sources. Version 4.2.0. https://cran.r-project.org/web/packages/FedData/index.html."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0030",
+        "unstructured": "Bronaugh, D., Schoeneberg, A., 2023. zyp: Zhang + Yue-Pilon Trends Package. Version 0.11-1. https://cran.r-project.org/web/packages/zyp/index.html."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "1261",
+        "DOI": "10.1016/j.scitotenv.2018.09.063",
+        "article-title": "Effects of 21st century climate change on seasonal flow regimes and hydrologic extremes over the Midwest and Great Lakes region of the US",
+        "volume": "650",
+        "author": "Byun",
+        "year": "2019",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "92",
+        "DOI": "10.1016/j.jglr.2010.11.016",
+        "article-title": "Assessment of Microcystis growth rate potential and nutrient status across a trophic gradient in western Lake Erie",
+        "volume": "37",
+        "author": "Chaffin",
+        "year": "2011",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0045",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chanat, J.G., Moyer, D.L., Blomquist, J.D., Hyer, K.E., Langland, M.J., 2016. Application of a weighted regression model for reporting nutrient and sediment concentrations, fluxes, and trends in concentration and flux for the Chesapeake Bay Nontidal Water-Quality Monitoring Network, results through water year 2012, U.S. Geological Survey Scientific Investigations Report 2015-5133. https://doi.org/10.3133/sir20155133.",
+        "DOI": "10.3133/sir20155133"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0050",
+        "doi-asserted-by": "crossref",
+        "first-page": "21",
+        "DOI": "10.1016/j.jglr.2018.11.012",
+        "article-title": "Tracking changes in nutrient delivery to western Lake Erie: Approaches to compensate for variability and trends in streamflow",
+        "volume": "45",
+        "author": "Choquette",
+        "year": "2019",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "494",
+        "DOI": "10.2134/jeq2000.00472425002900020018x",
+        "article-title": "Anthropogenic inputs of nitrogen and phosphorus and riverine export for Illinois, USA",
+        "volume": "29",
+        "author": "David",
+        "year": "2000",
+        "journal-title": "J. Environ. Qual."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "752",
+        "DOI": "10.1021/es00150a001",
+        "article-title": "Great Lakes water quality improvement",
+        "volume": "20",
+        "author": "De Pinto",
+        "year": "1986",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0065",
+        "unstructured": "DeCicco, L., Hirsch, R., Lorenz, D., Watkins, D., Johnson, M., 2025. dataRetrieval: R packages for discovering and retrieving water data available from U.S. federal hydrologic web services. https://doi.org/10.5066/P9X4L3GE."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0070",
+        "unstructured": "Diebel, M.W., Loken, L.C., Kincaid, D.W., Bonville, D.B., Robertson, D.R., Koltun, G.F., Bertke, E.E., Kula, S.P., Komiskey, M.J., 2025. Phosphorus, nitrogen, chloride, and suspended-sediment loads measured at the Great Lakes Restoration Initiative tributary monitoring network: Water years 2011\u20132023. https://doi.org/10.5066/P1GB55XS."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0075",
+        "doi-asserted-by": "crossref",
+        "first-page": "373",
+        "DOI": "10.1007/s10705-015-9748-8",
+        "article-title": "Conservation practice effectiveness and adoption: unintended consequences and implications for sustainable phosphorus management",
+        "volume": "104",
+        "author": "Dodd",
+        "year": "2016",
+        "journal-title": "Nutr. Cycl. Agroecosyst."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "730",
+        "DOI": "10.1016/j.jglr.2012.10.001",
+        "article-title": "Great Lakes total phosphorus revisited: 1. Loading analysis and update (1994\u20132008)",
+        "volume": "38",
+        "author": "Dolan",
+        "year": "2012",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0085",
+        "doi-asserted-by": "crossref",
+        "first-page": "696",
+        "DOI": "10.1002/lno.10055",
+        "article-title": "Long-term trends of nutrients and trophic response variables for the Great Lakes",
+        "volume": "60",
+        "author": "Dove",
+        "year": "2015",
+        "journal-title": "Limnol. Oceanogr."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0090",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2005WR004222",
+        "article-title": "Effective discharge analysis of ecological processes in streams",
+        "volume": "41",
+        "author": "Doyle",
+        "year": "2005",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0095",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2011JG001782",
+        "article-title": "Phosphorus export across an urban to rural gradient in the Chesapeake Bay watershed",
+        "volume": "117",
+        "author": "Duan",
+        "year": "2012",
+        "journal-title": "J. Geophys. Res. Biogeosc."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0100",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dubrovsky, N.M., Burow, K.R., Clark, G.M., Gronberg, J.M., Hamilton, P.A., Hitt, K.J., Mueller, D.K., Munn, M.D., Nolan, B.T., Puckett, L.J., et al., 2010. The quality of our nation\u2019s waters: Nutrients in the nation\u2019s streams and groundwater, 1992-2004, U.S. Geological Survey Circular 1350.",
+        "DOI": "10.3133/cir1350"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0105",
+        "unstructured": "ECC Canada and US EPA (Environment and Climate Change Canada, U.S. Environmental Protection Agency), 2022. State of the Great Lakes 2022 Technical Report (No. Cat No. En161-3/1E-PDF. EPA 905-R22-004)."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0110",
+        "unstructured": "GLRI (Great Lakes Restoration Initiative), 2010. Great Lakes Restoration Initiative Action Plan I (FY2010-2014), Great Lakes Restoration Initiative Report."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0115",
+        "unstructured": "GLRI (Great Lakes Restoration Initiative), 2024. Great Lakes Restoration Initiative Action Plan IV Draft (FY 2025-2029), Great Lakes Restoration Initiative Report."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0120",
+        "series-title": "Postglacial drainage evolution and stream geometry in the Ontonagon area",
+        "author": "Hack",
+        "year": "1965"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0125",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Helsel, D.R., Hirsch, R.M., Ryberg, K.R., Archfield, S.A., Gilroy, E.J., 2020. Statistical methods in water resources (No. 4-A3), Techniques and Methods. U.S. Geological Survey.",
+        "DOI": "10.3133/tm4A3"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0135",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hirsch, R.M., De Cicco, L.A., 2015. User guide to Exploration and Graphics for RivEr Trends (EGRET) and dataRetrieval: R packages for hydrologic data, U.S. Geological Survey Techniques and Methods 4-A10. Reston, VA. https://doi.org/10.3133/tm4A10.",
+        "DOI": "10.3133/tm4A10"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0140",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hirsch, R.M., Moyer, D.L., Archfield, S.A., 2010. Weighted regressions on time, discharge, and season (WRTDS), with an application to Chesapeake Bay River inputs. J. Am. Water Resour. Assoc. 46, 857\u2013880. https://doi.org/10.1111/j.1752-1688.2010.00482.x.",
+        "DOI": "10.1111/j.1752-1688.2010.00482.x"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0145",
+        "doi-asserted-by": "crossref",
+        "first-page": "1171",
+        "DOI": "10.1016/j.jglr.2019.10.005",
+        "article-title": "Seasonal nutrient export dynamics in a mixed land use subwatershed of the Grand River, Ontario",
+        "volume": "45",
+        "author": "Irvine",
+        "year": "2019",
+        "journal-title": "Canada. J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0150",
+        "doi-asserted-by": "crossref",
+        "first-page": "123",
+        "DOI": "10.2134/jeq2016.07.0248",
+        "article-title": "Increased soluble phosphorus loads to Lake Erie: unintended consequences of conservation practices?",
+        "volume": "46",
+        "author": "Jarvie",
+        "year": "2017",
+        "journal-title": "J. Environ. Qual."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0155",
+        "doi-asserted-by": "crossref",
+        "first-page": "496",
+        "DOI": "10.1016/j.jglr.2014.04.004",
+        "article-title": "Re-eutrophication of Lake Erie: correlations between tributary nutrient loads and phytoplankton biomass",
+        "volume": "40",
+        "author": "Kane",
+        "year": "2014",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0160",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2020WR027361",
+        "article-title": "Land use and season influence event-scale nitrate and soluble reactive phosphorus exports and export stoichiometry from headwater catchments",
+        "volume": "56",
+        "author": "Kincaid",
+        "year": "2020",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0165",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Koltun, G.F., 2021. Estimated total phosphorus loads for selected sites on Great Lakes tributaries, water years 2014\u20132018, U.S. Geological Survey Open-File Report 2020\u20131145.",
+        "DOI": "10.3133/ofr20201145"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0170",
+        "doi-asserted-by": "crossref",
+        "unstructured": "LaFleur, R.G., 1979. Glacial geology and stratigraphy of Western New York Nuclear Service Center and vicinity, Cattaraugus and Erie Counties, New York, U.S. Geological Survey Open-File Report 79-989. https://doi.org/10.3133/ofr79989.",
+        "DOI": "10.3133/ofr79989"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0175",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lee, C.J., Hirsch, R.M., Crawford, C.G., 2019. An evaluation of methods for computing annual water-quality loads, U.S. Geological Survey Scientific Investigations Report 2019\u20135084. https://doi.org/10.3133/sir20195084.",
+        "DOI": "10.3133/sir20195084"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0180",
+        "doi-asserted-by": "crossref",
+        "first-page": "1151",
+        "DOI": "10.1016/j.jglr.2016.08.005",
+        "article-title": "Total and soluble reactive phosphorus loadings to Lake Erie",
+        "volume": "42",
+        "author": "Maccoux",
+        "year": "2016",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0185",
+        "doi-asserted-by": "crossref",
+        "first-page": "529",
+        "DOI": "10.1002/jeq2.20218",
+        "article-title": "One size does not fit all: Toward regional conservation practice guidance to reduce phosphorus loss risk in the Lake Erie watershed",
+        "volume": "50",
+        "author": "Macrae",
+        "year": "2021",
+        "journal-title": "J. Environ. Qual."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0190",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Merriman, K.R., Fisher, B.N., Nystrom, E.A., Bunch, A.R., Welk, R.J., Kappel, W.M., 2024. Monitoring and simulation of hydrology, suspended sediment, and nutrients in selected tributary watersheds of Lake Erie, New York, U.S. Geological Survey Scientific Investigations Report 2024-5022.",
+        "DOI": "10.3133/sir20245022"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0195",
+        "doi-asserted-by": "crossref",
+        "first-page": "6448",
+        "DOI": "10.1073/pnas.1216006110",
+        "article-title": "Record-setting algal bloom in Lake Erie caused by agricultural and meteorological trends consistent with expected future conditions",
+        "volume": "110",
+        "author": "Michalak",
+        "year": "2013",
+        "journal-title": "PNAS"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0200",
+        "doi-asserted-by": "crossref",
+        "first-page": "1891",
+        "DOI": "10.1111/gcb.13498",
+        "article-title": "Unexpected release of phosphate and organic carbon to streams linked to declining nitrogen depositions",
+        "volume": "23",
+        "author": "Musolff",
+        "year": "2017",
+        "journal-title": "Glob. Chang. Biol."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0205",
+        "unstructured": "National Water Quality Monitoring Council, United States Geological Survey (USGS), Environmental Protection Agency (EPA), 2021. Water Quality Portal. https://doi.org/10.5066/P9QRKUVJ."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0210",
+        "doi-asserted-by": "crossref",
+        "first-page": "315",
+        "DOI": "10.4319/lo.2007.52.1.0315",
+        "article-title": "Evidence for phosphorus, nitrogen, and iron colimitation of phytoplankton communities in Lake Erie",
+        "volume": "52",
+        "author": "North",
+        "year": "2007",
+        "journal-title": "Limnol. Oceanogr."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0215",
+        "doi-asserted-by": "crossref",
+        "first-page": "106",
+        "DOI": "10.2134/jeq2017.06.0227",
+        "article-title": "Export of total, particulate, and apatite phosphorus from forested and agricultural watersheds",
+        "volume": "47",
+        "author": "Ostrofsky",
+        "year": "2018",
+        "journal-title": "J. Environ. Qual."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0220",
+        "doi-asserted-by": "crossref",
+        "first-page": "519",
+        "DOI": "10.1016/j.jglr.2020.03.013",
+        "article-title": "Seasonal patterns for Secchi depth, chlorophyll a, total phosphorus, and nutrient limitation differ between nearshore and offshore in Lake Michigan",
+        "volume": "46",
+        "author": "Pothoven",
+        "year": "2020",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0225",
+        "unstructured": "R Core Team, 2024. R: A language and environment for statistical computing. Version 4.2.2. https://www.r-project.org/."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0230",
+        "doi-asserted-by": "crossref",
+        "first-page": "416",
+        "DOI": "10.1016/S0380-1330(97)70923-7",
+        "article-title": "Regionalized loads of sediment and phosphorus to Lakes Michigan and Superior\u2014high flow and long-term average",
+        "volume": "23",
+        "author": "Robertson",
+        "year": "1997",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0235",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Robertson, D.M., Diebel, M.W., Bartlett, S.L., Fermanich, K.J., 2023. Changes in phosphorus and suspended solids loading in the Fox River, northeastern Wisconsin, 1989\u20132021, U.S. Geological Survey Scientific Investigations Report 2023-5112. https://doi.org/10.3133/sir20235112.",
+        "DOI": "10.3133/sir20235112"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0240",
+        "doi-asserted-by": "crossref",
+        "first-page": "26",
+        "DOI": "10.1016/j.jglr.2017.10.003",
+        "article-title": "A surrogate regression approach for computing continuous loads for the tributary nutrient and sediment monitoring program on the Great Lakes",
+        "volume": "44",
+        "author": "Robertson",
+        "year": "2018",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0245",
+        "unstructured": "Robertson, D.M., Kennedy, J.L., 2022. Total phosphorus loads estimated from tributaries and direct drainages to the Great Lakes during 2012-2018 using the model load ratio approach and the unit area load approach. https://doi.org/10.5066/P9L5TWJK."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0250",
+        "doi-asserted-by": "crossref",
+        "first-page": "1011",
+        "DOI": "10.1111/j.1752-1688.2011.00574.x",
+        "article-title": "Nutrient inputs to the Laurentian Great Lakes by source and watershed estimated using SPARROW watershed models",
+        "volume": "47",
+        "author": "Robertson",
+        "year": "2011",
+        "journal-title": "J. Am. Water Resour. Assoc."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0255",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ecolind.2021.107601",
+        "article-title": "Lake Erie tributary nutrient trend evaluation: Normalizing concentrations and loads to reduce flow variability",
+        "volume": "125",
+        "author": "Rowland",
+        "year": "2021",
+        "journal-title": "Ecol. Ind."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0260",
+        "doi-asserted-by": "crossref",
+        "first-page": "4126",
+        "DOI": "10.1021/es052573n",
+        "article-title": "Timing of riverine export of nitrate and phosphorus from agricultural watersheds in Illinois:\u2009Implications for reducing nutrient loading to the Mississippi River",
+        "volume": "40",
+        "author": "Royer",
+        "year": "2006",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0265",
+        "doi-asserted-by": "crossref",
+        "first-page": "226",
+        "DOI": "10.1016/j.jglr.2014.02.004",
+        "article-title": "Assessing and addressing the re-eutrophication of Lake Erie: Central basin hypoxia",
+        "volume": "40",
+        "author": "Scavia",
+        "year": "2014",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0270",
+        "doi-asserted-by": "crossref",
+        "first-page": "287",
+        "DOI": "10.1023/A:1013335814593",
+        "article-title": "Phosphorus loss from land to water: integrating agricultural and environmental management",
+        "volume": "237",
+        "author": "Sharpley",
+        "year": "2001",
+        "journal-title": "Plant and Soil"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0275",
+        "doi-asserted-by": "crossref",
+        "first-page": "893",
+        "DOI": "10.1038/s41561-023-01257-5",
+        "article-title": "Widespread increases in soluble phosphorus concentrations in streams across the transboundary Great Lakes Basin",
+        "volume": "16",
+        "author": "Singh",
+        "year": "2023",
+        "journal-title": "Nat. Geosci."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0280",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Skinner, K.D., Murray, E.M., Murray, D.L., 2024. Point-source nutrient loads to streams of the conterminous United States, 1999-2020. https://doi.org/10.5066/P13DL6P9.",
+        "DOI": "10.3133/ds1101"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0285",
+        "doi-asserted-by": "crossref",
+        "first-page": "201",
+        "DOI": "10.1146/annurev-earth-071420-051746",
+        "article-title": "The Laurentian Great Lakes: a biogeochemical test bed",
+        "volume": "49",
+        "author": "Sterner",
+        "year": "2021",
+        "journal-title": "Annu. Rev. Earth Planet. Sci."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0290",
+        "doi-asserted-by": "crossref",
+        "first-page": "2984",
+        "DOI": "10.1002/lno.11569",
+        "article-title": "A first assessment of cyanobacterial blooms in oligotrophic Lake Superior",
+        "volume": "65",
+        "author": "Sterner",
+        "year": "2020",
+        "journal-title": "Limnol. Oceanogr."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0295",
+        "doi-asserted-by": "crossref",
+        "first-page": "3392",
+        "DOI": "10.1021/es5062648",
+        "article-title": "Long-term and seasonal trend decomposition of Maumee River nutrient inputs to Western Lake Erie",
+        "volume": "49",
+        "author": "Stow",
+        "year": "2015",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0300",
+        "doi-asserted-by": "crossref",
+        "first-page": "1174",
+        "DOI": "10.1016/j.jglr.2016.08.006",
+        "article-title": "Forecasting annual cyanobacterial bloom biomass to inform management decisions in Lake Erie",
+        "volume": "42",
+        "author": "Stumpf",
+        "year": "2016",
+        "journal-title": "J. Great Lakes Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0305",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Turnipseed, D.P., Sauer, V.B., 2010. Discharge measurements at gaging stations. In: U.S. Geological Survey Techniques and Methods Book 3, Chap. A8. U.S. Geological Survey, p. 87. https://doi.org/10.3133/tm3A8.",
+        "DOI": "10.3133/tm3A8"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0310",
+        "unstructured": "U.S. Geological Survey (USGS), 2024. Annual NLCD Collection 1 Science Products: U.S. Geological Survey data release.\u00a0https://doi.org/10.5066/P94UXNTS."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0315",
+        "unstructured": "U.S. Geological Survey (USGS), 2025. USGS water data for the Nation: U.S. Geological Survey National Water Information System database. https://doi.org/10.5066/F7P55KJN."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0320",
+        "doi-asserted-by": "crossref",
+        "first-page": "280",
+        "DOI": "10.2134/jeq1992.00472425002100020021x",
+        "article-title": "The Rhode River watershed: phosphorus distribution and export in forest and agricultural soils",
+        "volume": "21",
+        "author": "Vaithiyanathan",
+        "year": "1992",
+        "journal-title": "J. Environ. Qual."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0325",
+        "first-page": "1",
+        "article-title": "Guidelines and standard procedures for continuous water-quality monitors: Station operation, record computation, and data reporting",
+        "author": "Wagner",
+        "year": "2006",
+        "journal-title": "U.S. Geological Survey Techniques and Methods"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0330",
+        "doi-asserted-by": "crossref",
+        "first-page": "44",
+        "DOI": "10.1016/j.hal.2016.04.010",
+        "article-title": "The re-eutrophication of Lake Erie: harmful algal blooms and hypoxia",
+        "volume": "56",
+        "author": "Watson",
+        "year": "2016",
+        "journal-title": "Harmful Algae"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0335",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wilde, F.D., Radtke, D.B., Gibs, J., Iwatsubo, R.T., 2006. Chapter A4. Collection of water samples (Report No. 09-A4), National Field Manual for the Collection of Water-Quality Data. U.S. Geological Survey Techniques of Water-Resources Investigations 09-A4, Book 9. Reston, VA. https://doi.org/10.3133/twri09A4.",
+        "DOI": "10.3133/twri09A4"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0340",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2019WR025985",
+        "article-title": "Changing rainfall patterns over the Western Lake Erie Basin (1975\u20132017): Effects on tributary discharge and phosphorus load",
+        "volume": "56",
+        "author": "Williams",
+        "year": "2020",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0345",
+        "doi-asserted-by": "crossref",
+        "first-page": "379",
+        "DOI": "10.1016/j.scitotenv.2008.08.002",
+        "article-title": "Delivery and cycling of phosphorus in rivers: a review",
+        "volume": "400",
+        "author": "Withers",
+        "year": "2008",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0350",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yager, R.M., 1996. Study plan for a field experiment to investigate the effects of low-level radioactive-waste burial on flow of water through a saturated, clayey till at West Valley, New York, U.S. Geological Survey Open-File Report 94-117. https://doi.org/10.3133/ofr94117.",
+        "DOI": "10.3133/ofr94117"
+      },
+      {
+        "key": "10.1016/j.jglr.2025.102669_b0355",
+        "doi-asserted-by": "crossref",
+        "first-page": "9705",
+        "DOI": "10.1029/2019WR025338",
+        "article-title": "River water-quality concentration and flux estimation can be improved by accounting for serial correlation through an autoregressive model",
+        "volume": "55",
+        "author": "Zhang",
+        "year": "2019",
+        "journal-title": "Water Resour. Res."
+      }
+    ],
+    "container-title": [
+      "Journal of Great Lakes Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0380133025001637?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0380133025001637?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          10
+        ]
+      ],
+      "date-time": "2026-03-10T10:02:04Z",
+      "timestamp": 1773136924000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0380133025001637"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "references-count": 70,
+    "journal-issue": {
+      "issue": "6",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S0380133025001637"
+    ],
+    "URL": "https://doi.org/10.1016/j.jglr.2025.102669",
+    "relation": {},
+    "ISSN": [
+      "0380-1330"
+    ],
+    "issn-type": [
+      {
+        "value": "0380-1330",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Changes in phosphorus concentration and flux from 2011 to 2023 in major U.S. tributaries to the Laurentian Great Lakes",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Journal of Great Lakes Research",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.jglr.2025.102669",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "Published by Elsevier B.V. on behalf of International Association for Great Lakes Research.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "102669"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1016/j.jglr.2025.102669",
+  "original_doi": "10.1016/j.jglr.2025.102669"
+}

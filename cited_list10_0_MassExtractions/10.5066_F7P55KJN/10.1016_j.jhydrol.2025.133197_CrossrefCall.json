@@ -1,0 +1,893 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          26
+        ]
+      ],
+      "date-time": "2026-04-26T05:27:18Z",
+      "timestamp": 1777181238387,
+      "version": "3.51.4"
+    },
+    "reference-count": 67,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              8
+            ]
+          ],
+          "date-time": "2025-04-08T00:00:00Z",
+          "timestamp": 1744070400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100006752",
+        "name": "U.S. Army Corps of Engineers",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006752",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Hydrology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jhydrol.2025.133197",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          30
+        ]
+      ],
+      "date-time": "2025-03-30T20:30:31Z",
+      "timestamp": 1743366631000
+    },
+    "page": "133197",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "special_numbering": "C",
+    "title": [
+      "Snow model complexity evaluation for real-time streamflow forecasting"
+    ],
+    "prefix": "10.1016",
+    "volume": "659",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2801-5357",
+        "authenticated-orcid": false,
+        "given": "Wyatt",
+        "family": "Reis",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3116-0106",
+        "authenticated-orcid": false,
+        "given": "Jeremy",
+        "family": "Giovando",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0639-8585",
+        "authenticated-orcid": false,
+        "given": "Michael",
+        "family": "Bartles",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2422-3965",
+        "authenticated-orcid": false,
+        "given": "Travis",
+        "family": "Dahl",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Avital",
+        "family": "Breverman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "13",
+        "key": "10.1016/j.jhydrol.2025.133197_b0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "2106",
+        "DOI": "10.1002/hyp.10782",
+        "article-title": "Model complexity and data requirements in snow hydrology: seeking a balance in practical applications",
+        "volume": "30",
+        "author": "Avanzi",
+        "year": "2016",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.jhydrol.2025.133197_b0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "4382",
+        "DOI": "10.1002/2016GL068070",
+        "article-title": "Dominant flood generating mechanisms across the United States",
+        "volume": "43",
+        "author": "Berghuijs",
+        "year": "2016",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0015",
+        "article-title": "Vortex (Version v0.11.15-rc.5) [Computer software]",
+        "author": "Brauer",
+        "year": "2024",
+        "journal-title": "Hydrologic Engineering Center"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0020",
+        "article-title": "Daily 4 km gridded SWE and Snow depth from assimilated in-situ and modeled data over the conterminous US, Version 1",
+        "author": "Broxton",
+        "year": "2019",
+        "journal-title": "NASA National Snow and Ice Data Center Distributed Active Archive Center"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.jhydrol.2025.133197_b0025",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2020WR028126",
+        "article-title": "Extreme value snow water equivalent and snowmelt for infrastructure design over the contiguous United States",
+        "volume": "56",
+        "author": "Cho",
+        "year": "2020",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jhydrol.2025.133197_b0030",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2019WR025813",
+        "article-title": "The value of long\u2010term (40 years) airborne gamma radiation SWE record for evaluating three observation\u2010based gridded SWE data sets by seasonal snow and land cover classifications",
+        "volume": "56",
+        "author": "Cho",
+        "year": "2020",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "issue": "22",
+        "key": "10.1016/j.jhydrol.2025.133197_b0035",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2021GL094985",
+        "article-title": "Future changes in snowpack, snowmelt, and runoff potential extremes over North America",
+        "volume": "48",
+        "author": "Cho",
+        "year": "2021",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0040",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jhydrol.2023.129290",
+        "article-title": "Snowmelt estimation using an empirical radiation model",
+        "volume": "619",
+        "author": "Daly",
+        "year": "2023",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0155",
+        "unstructured": "Dewitz, J., 2024. National Land Cover Database (NLCD) 2019 Products (ver. 3.0, February 2024). U.S. Geological Survey. doi: https://doi.org/10.5066/P9KZCM54."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jhydrol.2025.133197_b0045",
+        "doi-asserted-by": "crossref",
+        "first-page": "1246",
+        "DOI": "10.1111/1752-1688.13143",
+        "article-title": "The Office of Water Prediction's analysis of record for calibration, version 1.1: dataset description and precipitation evaluation",
+        "volume": "59",
+        "author": "Fall",
+        "year": "2023",
+        "journal-title": "JAWRA Journal of the American Water Resources Association"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0050",
+        "doi-asserted-by": "crossref",
+        "first-page": "723",
+        "DOI": "10.1016/j.jhydrol.2015.08.044",
+        "article-title": "A radiation-derived temperature-index snow routine for the GSSHA hydrologic model",
+        "volume": "529",
+        "author": "Follum",
+        "year": "2015",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "issue": "23",
+        "key": "10.1016/j.jhydrol.2025.133197_b0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "3030",
+        "DOI": "10.1002/hyp.13545",
+        "article-title": "A comparison of snowmelt\u2010derived streamflow from temperature\u2010index and modified\u2010temperature\u2010index snow models",
+        "volume": "33",
+        "author": "Follum",
+        "year": "2019",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "issue": "1\u20134",
+        "key": "10.1016/j.jhydrol.2025.133197_b0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "48",
+        "DOI": "10.1016/j.jhydrol.2008.07.013",
+        "article-title": "Operational snow modeling: addressing the challenges of an energy balance model for National Weather Service forecasts",
+        "volume": "360",
+        "author": "Franz",
+        "year": "2008",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.jhydrol.2025.133197_b0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "1886",
+        "DOI": "10.3390/w15101886",
+        "article-title": "Evaluation of temperature-index and energy-balance snow models for hydrological applications in operational water supply forecasts",
+        "volume": "15",
+        "author": "Gan",
+        "year": "2023",
+        "journal-title": "Water"
+      },
+      {
+        "issue": "265",
+        "key": "10.1016/j.jhydrol.2025.133197_b0070",
+        "doi-asserted-by": "crossref",
+        "first-page": "909",
+        "DOI": "10.1017/jog.2021.41",
+        "article-title": "Modeling the impacts of climate change on mass balance and discharge of Eklutna Glacier, Alaska, 1985\u20132019",
+        "volume": "67",
+        "author": "Geck",
+        "year": "2021",
+        "journal-title": "J. Glaciol."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0075",
+        "series-title": "Sedimentation and Hydrologic Modeling 2023 Conference 6D2",
+        "first-page": "247",
+        "article-title": "Monte Carlo Simulation of Post-Fire Flood Hazard Probabilities",
+        "author": "Giovando",
+        "year": "2023"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.jhydrol.2025.133197_b0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "4441",
+        "DOI": "10.5194/hess-24-4441-2020",
+        "article-title": "Assessing the degree of detail of temperature-based snow routines for runoff modelling in mountainous areas in central Europe",
+        "volume": "24",
+        "author": "Girons Lopez",
+        "year": "2020",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jhydrol.2025.133197_b0085",
+        "doi-asserted-by": "crossref",
+        "first-page": "339",
+        "DOI": "10.1061/(ASCE)0733-9496(2007)133:4(339)",
+        "article-title": "Water management applications of climate-based hydrologic forecasts: case study of the Truckee-Carson River Basin",
+        "volume": "133",
+        "author": "Grantz",
+        "year": "2007",
+        "journal-title": "J. Water Resour. Plan. Manag."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jhydrol.2025.133197_b0090",
+        "doi-asserted-by": "crossref",
+        "first-page": "2964",
+        "DOI": "10.1002/2016GL067978",
+        "article-title": "Hydrometeorological characteristics of rain\u2010on\u2010snow events associated with atmospheric rivers",
+        "volume": "43",
+        "author": "Guan",
+        "year": "2016",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jhydrol.2025.133197_b0095",
+        "doi-asserted-by": "crossref",
+        "first-page": "135",
+        "DOI": "10.1061/(ASCE)1084-0699(1999)4:2(135)",
+        "article-title": "Status of automatic calibration for hydrologic models: comparison with multilevel expert calibration",
+        "volume": "4",
+        "author": "Gupta",
+        "year": "1999",
+        "journal-title": "J. Hydrol. Eng."
+      },
+      {
+        "issue": "1\u20132",
+        "key": "10.1016/j.jhydrol.2025.133197_b0100",
+        "doi-asserted-by": "crossref",
+        "first-page": "80",
+        "DOI": "10.1016/j.jhydrol.2009.08.003",
+        "article-title": "Decomposition of the mean squared error and NSE performance criteria: Implications for improving hydrological modelling",
+        "volume": "377",
+        "author": "Gupta",
+        "year": "2009",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jhydrol.2025.133197_b0105",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1093/pnasnexus/pgac295",
+        "article-title": "Watershed memory amplified the Oroville rain-on-snow flood of February 2017",
+        "volume": "2",
+        "author": "Haleakala",
+        "year": "2023",
+        "journal-title": "PNAS Nexus"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0110",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hamill, D.D., Giovando, J.J., Engel, C.S., Dahl, T.A., Bartles, M.D., 2021. Application of a Radiation-Derived Temperature Index Model to the Willow Creek Watershed in Idaho, USA. U.S. Army Engineer Research and Development Center. doi: 10.21079/11681/41360.",
+        "DOI": "10.21079/11681/41360"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jhydrol.2025.133197_b0115",
+        "doi-asserted-by": "crossref",
+        "first-page": "114",
+        "DOI": "10.1016/j.advwatres.2010.10.002",
+        "article-title": "Characterizing parameter sensitivity and uncertainty for a snow model across hydroclimatic regimes",
+        "volume": "34",
+        "author": "He",
+        "year": "2011",
+        "journal-title": "Adv. Water Resour."
+      },
+      {
+        "issue": "730",
+        "key": "10.1016/j.jhydrol.2025.133197_b0120",
+        "doi-asserted-by": "crossref",
+        "first-page": "1999",
+        "DOI": "10.1002/qj.3803",
+        "article-title": "The ERA5 global reanalysis",
+        "volume": "146",
+        "author": "Hersbach",
+        "year": "2020",
+        "journal-title": "Q. J. R. Meteorolog. Soc."
+      },
+      {
+        "issue": "1\u20134",
+        "key": "10.1016/j.jhydrol.2025.133197_b0125",
+        "doi-asserted-by": "crossref",
+        "first-page": "104",
+        "DOI": "10.1016/S0022-1694(03)00257-9",
+        "article-title": "Temperature index melt modelling in mountain areas",
+        "volume": "282",
+        "author": "Hock",
+        "year": "2003",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0130",
+        "unstructured": "Hydrologic Engineering Center, 1980. Modified-Puls Routing in Chuquatonchee Creek. U.S. Army Corps of Engineers."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0135",
+        "unstructured": "Hydrologic Engineering Center, 2024a. HEC-HMS Technical Reference Manual (4.13). Hydrologic Engineering Center. https://www.hec.usace.army.mil/confluence/hmsdocs/hmstrm."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0140",
+        "article-title": "HEC-HMS Users Manual (4.13)",
+        "author": "Hydrologic Engineering Center",
+        "year": "2024",
+        "journal-title": "Hydrologic Engineering Center."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0145",
+        "article-title": "Hydrologic modeling system (Version 4.13) [computer software]",
+        "author": "Hydrologic Engineering Center",
+        "year": "2024",
+        "journal-title": "U.S. Army Corps of Engineers."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0150",
+        "article-title": "Modeling Rain-on-Snow Events (4.13; HEC-HMS Tutorials and Guides)",
+        "author": "Hydrologic Engineering Center",
+        "year": "2024",
+        "journal-title": "Hydrologic Engineering Center."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jhydrol.2025.133197_b0160",
+        "doi-asserted-by": "crossref",
+        "first-page": "539",
+        "DOI": "10.5194/tc-6-539-2012",
+        "article-title": "Sensitivity of a distributed temperature-radiation index melt model based on AWS observations and surface energy balance fluxes, Hurd Peninsula glaciers, Livingston Island Antarctica",
+        "volume": "6",
+        "author": "Jonsell",
+        "year": "2012",
+        "journal-title": "the Cryosphere"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0165",
+        "unstructured": "Katz, L.J., 2021. Snowpack Controls on Hydrologic Response to Extreme Rain-on-Snow Events in the Northern Sierra Nevada [University of Nevada, Reno]. https://www.proquest.com/dissertations-theses/snowpack-controls-on-hydrologic-response-extreme/docview/2581900810/se-2."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.jhydrol.2025.133197_b0170",
+        "doi-asserted-by": "crossref",
+        "first-page": "4323",
+        "DOI": "10.5194/hess-23-4323-2019",
+        "article-title": "Technical note: Inherent benchmark or not? comparing Nash\u2013Sutcliffe and Kling\u2013Gupta efficiency scores",
+        "volume": "23",
+        "author": "Knoben",
+        "year": "2019",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jhydrol.2025.133197_b0175",
+        "doi-asserted-by": "crossref",
+        "first-page": "375",
+        "DOI": "10.1175/1520-0450(1990)029<0375:APMFSS>2.0.CO;2",
+        "article-title": "A prediction model for snowmelt, snow surface temperature and freezing depth using a heat balance method",
+        "volume": "29",
+        "author": "Kondo",
+        "year": "1990",
+        "journal-title": "J. Appl. Meteorol."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jhydrol.2025.133197_b0180",
+        "doi-asserted-by": "crossref",
+        "first-page": "9",
+        "DOI": "10.1061/(ASCE)1084-0699(1998)3:1(9)",
+        "article-title": "Evolution of clark\u2019s unit graph method to spatially distributed runoff",
+        "volume": "3",
+        "author": "Kull",
+        "year": "1998",
+        "journal-title": "J. Hydrol. Eng."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0185",
+        "doi-asserted-by": "crossref",
+        "first-page": "77",
+        "DOI": "10.1016/j.advwatres.2013.03.006",
+        "article-title": "Evaluation of distributed hydrologic impacts of temperature-index and energy-based snow models",
+        "volume": "56",
+        "author": "Kumar",
+        "year": "2013",
+        "journal-title": "Adv. Water Resour."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jhydrol.2025.133197_b0190",
+        "doi-asserted-by": "crossref",
+        "first-page": "233",
+        "DOI": "10.1029/1998WR900018",
+        "article-title": "Evaluating the use of \u201cgoodness\u2010of\u2010fit\u201d measures in hydrologic and hydroclimatic model validation",
+        "volume": "35",
+        "author": "Legates",
+        "year": "1999",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.jhydrol.2025.133197_b0195",
+        "doi-asserted-by": "crossref",
+        "first-page": "8492",
+        "DOI": "10.1029/2019WR024950",
+        "article-title": "The role of rain\u2010on\u2010snow in flooding over the conterminous United States",
+        "volume": "55",
+        "author": "Li",
+        "year": "2019",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0200",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liston, G.E., Elder, K., 2006. A Distributed Snow-Evolution Modeling System (SnowModel).",
+        "DOI": "10.1175/JHM548.1"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jhydrol.2025.133197_b0205",
+        "doi-asserted-by": "crossref",
+        "first-page": "2707",
+        "DOI": "10.1002/2014WR016498",
+        "article-title": "Evaluating snow models with varying process representations for hydrological applications",
+        "volume": "51",
+        "author": "Magnusson",
+        "year": "2015",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "issue": "12\u201313",
+        "key": "10.1016/j.jhydrol.2025.133197_b0210",
+        "doi-asserted-by": "crossref",
+        "first-page": "1935",
+        "DOI": "10.1002/(SICI)1099-1085(199909)13:12/13<1935::AID-HYP868>3.0.CO;2-C",
+        "article-title": "A spatially distributed energy balance snowmelt model for application in mountain basins",
+        "volume": "13",
+        "author": "Marks",
+        "year": "1999",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jhydrol.2025.133197_bib326",
+        "doi-asserted-by": "crossref",
+        "first-page": "4",
+        "DOI": "10.1002/hyp.13566",
+        "article-title": "Identification of factors influencing hydrologic model performance using a top\u2010down approach in a large number of U.S. catchments",
+        "volume": "34",
+        "author": "Massmann",
+        "year": "2019",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jhydrol.2025.133197_b0215",
+        "doi-asserted-by": "crossref",
+        "first-page": "233",
+        "DOI": "10.5194/gmd-16-233-2023",
+        "article-title": "Operational water forecast ability of the HRRR-iSnobal combination: an evaluation to adapt into production environments",
+        "volume": "16",
+        "author": "Meyer",
+        "year": "2023",
+        "journal-title": "Geosci. Model Dev."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0220",
+        "unstructured": "Miller, W.A., Cunge, J.A., 1975. Simplified Equations of Unsteady Flow (In K. Mahmood, V. Yevjevich, Unsteady Flow in Open Channels Volume I). Water Resources Publications."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jhydrol.2025.133197_bib327",
+        "doi-asserted-by": "crossref",
+        "first-page": "885",
+        "DOI": "10.13031/2013.23153",
+        "article-title": "Model Evaluation Guidelines for Systematic Quantification of Accuracy in Watershed Simulations",
+        "volume": "50",
+        "author": "Moriasi",
+        "year": "2007",
+        "journal-title": "ASABE"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.jhydrol.2025.133197_b0225",
+        "doi-asserted-by": "crossref",
+        "first-page": "808",
+        "DOI": "10.1038/s41558-018-0236-4",
+        "article-title": "Projected increases and shifts in rain-on-snow flood risk over western North America",
+        "volume": "8",
+        "author": "Musselman",
+        "year": "2018",
+        "journal-title": "Nat. Clim. Chang."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jhydrol.2025.133197_b0230",
+        "doi-asserted-by": "crossref",
+        "first-page": "282",
+        "DOI": "10.1016/0022-1694(70)90255-6",
+        "article-title": "River flow forecasting through conceptual models part I \u2014 a discussion of principles",
+        "volume": "10",
+        "author": "Nash",
+        "year": "1970",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0235",
+        "unstructured": "NCDC, 2023. Billion-dollar weather and climate disasters: Overview [Dataset]. https://www.ncdc.noaa.gov/billions/."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0240",
+        "unstructured": "Nevada Division of Water Planning, 1997. The Flood of 1997; Final Report: An Analysis of Snowpack Water Content and Precipitation Changes in the Waterbasins of Western Nevada and the Effect on Runoff and Stream Flows. Department of Conservation and Natural Resources."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0245",
+        "article-title": "HEC-HMS snow method comparison model and data",
+        "author": "Reis",
+        "year": "2024",
+        "journal-title": "HydroShare."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jhydrol.2025.133197_b0250",
+        "doi-asserted-by": "crossref",
+        "first-page": "810",
+        "DOI": "10.1080/02626667.2024.2324132",
+        "article-title": "A systematic review of Muskingum flood routing techniques",
+        "volume": "69",
+        "author": "Salvati",
+        "year": "2024",
+        "journal-title": "Hydrol. Sci. J."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0255",
+        "unstructured": "Smith, A.B., 2020. U.S. Billion-dollar Weather and Climate Disasters, 1980\u2014Present (NCEI Accession 0209268) . NOAA National Centers for Environmental Information. doi: 10.25921/STKW-7W73."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0260",
+        "unstructured": "Soil Survey Staff, 2018. Gridded Soil Survey Geographic (gSSURGO) Databases for California and Nevada [Dataset]. https://gdg.sc.egov.usda.gov/."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.jhydrol.2025.133197_b0265",
+        "doi-asserted-by": "crossref",
+        "first-page": "768",
+        "DOI": "10.3390/w9100768",
+        "article-title": "Adapting to variable water supply in the truckee-carson river system Western USA",
+        "volume": "9",
+        "author": "Sterle",
+        "year": "2017",
+        "journal-title": "Water"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.jhydrol.2025.133197_b0270",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2020EF001778",
+        "article-title": "Increased flood exposure due to climate change and population growth in the United States",
+        "volume": "8",
+        "author": "Swain",
+        "year": "2020",
+        "journal-title": "Earth\u2019s Future"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0275",
+        "unstructured": "Tarboton, D.G., Luce, C.H., 1996. Utah Energy Balance Snow Accumulation and Melt Model (UEB) (Computer Model Technical Description and Users Guide)."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0280",
+        "unstructured": "U.S. Army Corps of Engineers, 1956. Snow Hydrology. Summary Report Of The Snow Investigations. North Pacific Division, Corps of Engineers, U.S. Army."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0285",
+        "unstructured": "U.S. Army Corps of Engineers, 1994. Engineering and Design Flood -Runoff Analysis (EM 1110-2-1417). https://www.publications.usace.army.mil/portals/76/publications/engineermanuals/em_1110-2-1417.pdf."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0290",
+        "unstructured": "U.S. Army Corps of Engineers, 1998. Engineer Manual 1110-2-1406 Runoff from Snowmelt. U.S. Army Corps of Engineers."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0295",
+        "unstructured": "U.S. Army Corps of Engineers, 2021. Technical Manual for Corps Water Management Systems Model Development. https://mmc.sec.usace.army.mil/cwms-sop.html."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0300",
+        "unstructured": "U.S. Army Corps of Engineers, 2022. Variable Clark Unit Hydrograph Parameter Regression Equations for California. SEDHYD 2023. https://www.hec.usace.army.mil/confluence/hmsdocs/hmstr/files/76908661/139730202/1/1684268892597/Bartles_Meyersohn_CA_Unit_Hydrograph_Regression_Equations.pdf."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0305",
+        "unstructured": "U.S. Geological Survey, 1954. Floods of November-December 1950 in Western Nevada. U.S. Department of the Interior."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0310",
+        "unstructured": "U.S. Geological Survey, 1963. Floods of December 1955-January 1956 in the Far Western States. U.S. Department of the Interior."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0315",
+        "unstructured": "U.S. Geological Survey, 1997. Flood of January 1997 in the Truckee River Basin, Western Nevada (Fact Sheet FS-123-97). United States Geological Survey."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0320",
+        "unstructured": "U.S. Geological Survey, 2013. 3D Elevation Program 10-Meter Resolution Digital Elevation Model . https://www.usgs.gov/national-hydrography/access-national-hydrography-products."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2025.133197_b0325",
+        "unstructured": "U.S. Geological Survey, 2024. USGS Water Data for the Nation [Dataset]. U.S. Geological Survey. doi: 10.5066/F7P55KJN."
+      }
+    ],
+    "container-title": [
+      "Journal of Hydrology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0022169425005359?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0022169425005359?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          6
+        ]
+      ],
+      "date-time": "2025-06-06T21:04:15Z",
+      "timestamp": 1749243855000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0022169425005359"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "references-count": 67,
+    "alternative-id": [
+      "S0022169425005359"
+    ],
+    "URL": "https://doi.org/10.1016/j.jhydrol.2025.133197",
+    "relation": {},
+    "ISSN": [
+      "0022-1694"
+    ],
+    "issn-type": [
+      {
+        "value": "0022-1694",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Snow model complexity evaluation for real-time streamflow forecasting",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Journal of Hydrology",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.jhydrol.2025.133197",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "Published by Elsevier B.V.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "133197"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1016/j.jhydrol.2025.133197",
+  "original_doi": "10.1016/j.jhydrol.2025.133197"
+}

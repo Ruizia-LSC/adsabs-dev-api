@@ -1,0 +1,965 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          28
+        ]
+      ],
+      "date-time": "2026-07-28T20:22:04Z",
+      "timestamp": 1785270124914,
+      "version": "3.55.0"
+    },
+    "reference-count": 84,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2020-04-01T00:00:00Z",
+          "timestamp": 1585699200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2020-04-01T00:00:00Z",
+          "timestamp": 1585699200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100006285",
+        "name": "Federal Highway Administration",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006285",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Hydrology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jhydrol.2019.124307",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          11,
+          2
+        ]
+      ],
+      "date-time": "2019-11-02T17:03:30Z",
+      "timestamp": 1572714210000
+    },
+    "page": "124307",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 96,
+    "special_numbering": "C",
+    "title": [
+      "Change points in annual peak streamflows: Method comparisons and historical change points in the United States"
+    ],
+    "prefix": "10.1016",
+    "volume": "583",
+    "author": [
+      {
+        "given": "Karen R.",
+        "family": "Ryberg",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Glenn A.",
+        "family": "Hodgkins",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert W.",
+        "family": "Dudley",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0005",
+        "unstructured": "Asquith, W.H., 2001. Effects of regulation on L-moments of annual peak streamflow in Texas (Report No. 01\u20134243), Water-Resources Investigations Report. U.S. Geological Survey, Reston, Virginia."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0010",
+        "unstructured": "Asquith, W.H., 2017. lmomco\u2014L-moments, censored L-moments, trimmed L-moments, L-comoments, and many distributions, R package version 2.2.9, https://CRAN.R-project.org/package=lmomco. Texas Tech University, Lubbock, Texas."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0015",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Baranowski, R., Fryzlewicz, P., 2015. wbs\u2014Wild binary segmentation for multiple change-point detection, R package version 1.3, https://CRAN.R-project.org/package=wbs.",
+        "DOI": "10.32614/CRAN.package.wbs"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "309",
+        "DOI": "10.1080/01621459.1993.10594323",
+        "article-title": "A Bayesian analysis for change point problems",
+        "volume": "35",
+        "author": "Barry",
+        "year": "1993",
+        "journal-title": "J. Am. Stat. Assoc."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "W08410",
+        "DOI": "10.1029/2008WR007501",
+        "article-title": "Intercomparison of homogenization techniques for precipitation data continued\u2014 Comparison of two recent Bayesian change point models",
+        "volume": "45",
+        "author": "Beaulieu",
+        "year": "2009",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0030",
+        "unstructured": "Benson, M.A., 1963. Factors influencing the occurrence of floods in a humid region of diverse terrain (Report No. 1580-B), Water Supply Paper. U.S. Geological Survey, Reston, Virginia."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0035",
+        "series-title": "The History of Large Federal Dams: Planning, Design, and Construction",
+        "author": "Billington",
+        "year": "2005"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.1016/0022-1694(82)90066-X",
+        "article-title": "Some methods for testing the homogeneity of rainfall records",
+        "volume": "58",
+        "author": "Buishand",
+        "year": "1982",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0045",
+        "doi-asserted-by": "crossref",
+        "first-page": "538",
+        "DOI": "10.1034/j.1600-0870.1996.t01-3-00004.x",
+        "article-title": "Changes in the winter precipitation in Romania and its relation to the large-scale circulation",
+        "volume": "48",
+        "author": "Busuioc",
+        "year": "1996",
+        "journal-title": "Tellus A"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0050",
+        "series-title": "TREND\u2014User Guide",
+        "author": "Chiew",
+        "year": "2005"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "L23402",
+        "DOI": "10.1029/2005GL024476",
+        "article-title": "Nature\u2019s Style\u2014Naturally Trendy",
+        "volume": "32",
+        "author": "Cohn",
+        "year": "2005",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0060",
+        "series-title": "Peak-streamflow trends and change-points and basin characteristics for 2,683 U.S. Geological Survey streamgages in the conterminous U.S., Data release",
+        "author": "Dudley",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0065",
+        "series-title": "Climate Science Special Report, Fourth National Climate Assessment",
+        "first-page": "207",
+        "article-title": "Precipitation change in the United States",
+        "author": "Easterling",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0070",
+        "doi-asserted-by": "crossref",
+        "unstructured": "England, Jr., J.F., Cohn, T.A., Faber, B.A., Stedinger, J.R., Thomas Jr., W.O., Veilleux, A.G., Kiang, J.E., Mason, R.R., 2018. Guidelines for Determining Flood Flow Frequency-Bulletin 17C (Report No. book 4, chap. B5), Techniques and Methods. U.S. Geological Survey, Reston, Virginia.",
+        "DOI": "10.3133/tm4B5"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0075",
+        "doi-asserted-by": "crossref",
+        "first-page": "2143",
+        "DOI": "10.1093/bioinformatics/btn404",
+        "article-title": "A fast Bayesian change point analysis for the segmentation of microarray data",
+        "volume": "24",
+        "author": "Erdman",
+        "year": "2008",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.18637/jss.v023.i03",
+        "article-title": "bcp\u2014An R package for performing a Bayesian analysis of change point problems",
+        "volume": "23",
+        "author": "Erdman",
+        "year": "2007",
+        "journal-title": "J. Stat. Softw."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0085",
+        "series-title": "GAGES-II: Geospatial Attributes of Gages for Evaluating Streamflow (USGS)",
+        "author": "Falcone",
+        "year": "2011"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0090",
+        "doi-asserted-by": "crossref",
+        "first-page": "1192",
+        "DOI": "10.1002/rra.1417",
+        "article-title": "The impact of dams on flood flows in the United States",
+        "volume": "27",
+        "author": "FitzHugh",
+        "year": "2011",
+        "journal-title": "River Res. Appl."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0095",
+        "unstructured": "Friedman, D., Schechter, J., Baker, B., Mueller, C., Villarini, G., White, K.D., 2016. US Army Corps of Engineers nonstationarity detection tool user guide. US Army Corps of Engineers, Washington, D.C."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0100",
+        "unstructured": "Friedman, D., Schechter, J., Saint-Miller, A.M., Mueller, C., Villarini, G., White, K.D., Baker, B., 2018. US Army Corps of Engineers nonstationarity detection tool user guide\u2014Version 1.2\u2014May 2016\u2014User manual update\u2014September 2018. US Army Corps of Engineers, Washington, D.C."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0105",
+        "doi-asserted-by": "crossref",
+        "first-page": "2243",
+        "DOI": "10.1214/14-AOS1245",
+        "article-title": "Wild binary segmentation for multiple change-point detection",
+        "volume": "42",
+        "author": "Fryzlewicz",
+        "year": "2014",
+        "journal-title": "Ann. Statistics"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0110",
+        "doi-asserted-by": "crossref",
+        "first-page": "849",
+        "DOI": "10.1093/biomet/91.4.849",
+        "article-title": "A semiparametric changepoint model",
+        "volume": "91",
+        "author": "Guan",
+        "year": "2004",
+        "journal-title": "Biometrika"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0115",
+        "doi-asserted-by": "crossref",
+        "first-page": "391",
+        "DOI": "10.1136/bmj.323.7309.391",
+        "article-title": "Mann-Whitney test is not just a test of medians: differences in spread can be important",
+        "volume": "323",
+        "author": "Hart",
+        "year": "2001",
+        "journal-title": "BMJ: British Med. J."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0120",
+        "doi-asserted-by": "crossref",
+        "first-page": "165",
+        "DOI": "10.1080/00224065.2010.11917814",
+        "article-title": "A nonparametric change-point control chart",
+        "volume": "42",
+        "author": "Hawkins",
+        "year": "2010",
+        "journal-title": "J. Quality Technol."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0125",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Haynes, K., 2016. changepoint.np\u2014Methods for nonparametric changepoint detection, R package version 0.0.2, http://CRAN.R-project.org/package=changepoint.np.",
+        "DOI": "10.32614/CRAN.package.changepoint.np"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0130",
+        "doi-asserted-by": "crossref",
+        "first-page": "1293",
+        "DOI": "10.1007/s11222-016-9687-5",
+        "article-title": "A computationally efficient nonparametric approach for changepoint detection",
+        "volume": "27",
+        "author": "Haynes",
+        "year": "2017",
+        "journal-title": "Statist. Comp."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0135",
+        "series-title": "Statistical Methods in Water Resources",
+        "author": "Helsel",
+        "year": "1992"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0140",
+        "series-title": "Introduction to Modern Nonparametric Statistics",
+        "author": "Higgins",
+        "year": "2003"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0145",
+        "doi-asserted-by": "crossref",
+        "first-page": "148",
+        "DOI": "10.1016/j.envsoft.2015.07.017",
+        "article-title": "A bootstrap method for estimating uncertainty of water quality trends",
+        "volume": "73",
+        "author": "Hirsch",
+        "year": "2015",
+        "journal-title": "Environ. Modell. Software"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0150",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1080/02626667.2011.621895",
+        "article-title": "Has the magnitude of floods across the USA changed with global CO2 levels?",
+        "volume": "57",
+        "author": "Hirsch",
+        "year": "2012",
+        "journal-title": "Hydrol. Sci. J."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0155",
+        "doi-asserted-by": "crossref",
+        "first-page": "697",
+        "DOI": "10.1016/j.jhydrol.2019.03.102",
+        "article-title": "Effects of climate, regulation, and urbanization on historical flood trends in the United States",
+        "volume": "573",
+        "author": "Hodgkins",
+        "year": "2019",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0160",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.18637/jss.v062.i07",
+        "article-title": "ecp: An R package for nonparametric multiple change point analysis of multivariate data",
+        "volume": "62",
+        "author": "James",
+        "year": "2014",
+        "journal-title": "J. Stat. Softw."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0165",
+        "first-page": "1",
+        "article-title": "changepoint\u2014An R package for changepoint analysis",
+        "volume": "1",
+        "author": "Killick",
+        "year": "2014",
+        "journal-title": "J. Stat. Softw."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0170",
+        "doi-asserted-by": "crossref",
+        "first-page": "1590",
+        "DOI": "10.1080/01621459.2012.737745",
+        "article-title": "Optimal detection of changepoints with a linear computational cost",
+        "volume": "107",
+        "author": "Killick",
+        "year": "2012",
+        "journal-title": "J. Am. Stat. Assoc."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0175",
+        "unstructured": "Killick, R., Fearnhead, P., Eckley, I.A., 2016. changepoint\u2014An R package for changepoint analysis, R package version 2.2.1, http://CRAN.R-project.org/package=changepoint."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0180",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kolars, K.A., Vecchia, A.V., Ryberg, K.R., 2016. Stochastic model for simulating Souris River Basin precipitation, evapotranspiration, and natural streamflow (Report No. 2015\u20135185), Scientific Investigations Report. Reston, Virginia.",
+        "DOI": "10.3133/sir20155185"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0185",
+        "doi-asserted-by": "crossref",
+        "first-page": "239",
+        "DOI": "10.1016/j.jhydrol.2005.09.022",
+        "article-title": "Nonstationarity versus scaling in hydrology",
+        "volume": "324",
+        "author": "Koutsoyiannis",
+        "year": "2006",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0190",
+        "doi-asserted-by": "crossref",
+        "first-page": "481",
+        "DOI": "10.1111/j.1752-1688.2011.00543.x",
+        "article-title": "Hurst-Kolmogorov dynamics and uncertainty1",
+        "volume": "47",
+        "author": "Koutsoyiannis",
+        "year": "2011",
+        "journal-title": "JAWRA J. Am. Water Resour. Assoc."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0195",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Leopold, L.B., 1968. Hydrology for urban land planning: A guidebook on the hydrologic effects of urban land use (Report No. 554), Circular. U. S. Geological Survey, Reston, Virginia.",
+        "DOI": "10.3133/cir554"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0200",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lins, H.F., 2012. USGS Hydro-Climatic Data Network 2009 (HCDN\u20132009) (Report No. 2012\u20133047), Fact Sheet. U.S. Geological Survey, Reston, Virginia.",
+        "DOI": "10.3133/fs20123047"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0205",
+        "doi-asserted-by": "crossref",
+        "first-page": "245",
+        "DOI": "10.1080/02626667.2015.1008482",
+        "article-title": "A simulation study to examine the sensitivity of the Pettitt test to detect abrupt changes in mean",
+        "volume": "61",
+        "author": "Mallakpour",
+        "year": "2016",
+        "journal-title": "Hydrol. Sci. J."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0210",
+        "doi-asserted-by": "crossref",
+        "first-page": "345",
+        "DOI": "10.1007/s00704-016-1881-z",
+        "article-title": "Analysis of changes in the magnitude, frequency, and seasonality of heavy precipitation over the contiguous USA",
+        "volume": "130",
+        "author": "Mallakpour",
+        "year": "2017",
+        "journal-title": "Theor. Appl. Climatol."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0215",
+        "doi-asserted-by": "crossref",
+        "first-page": "50",
+        "DOI": "10.1214/aoms/1177730491",
+        "article-title": "On a test of whether one of two random variables is stochastically larger than the other",
+        "volume": "18",
+        "author": "Mann",
+        "year": "1947",
+        "journal-title": "Ann. Math. Statist."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0220",
+        "doi-asserted-by": "crossref",
+        "first-page": "311",
+        "DOI": "10.1061/(ASCE)WR.1943-5452.0000215",
+        "article-title": "Comment on the announced death of stationarity",
+        "volume": "138",
+        "author": "Matalas",
+        "year": "2012",
+        "journal-title": "J. Water Resour. Plann. Manage."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0225",
+        "doi-asserted-by": "crossref",
+        "first-page": "2185",
+        "DOI": "10.1029/2002GL015999",
+        "article-title": "A step increase in streamflow in the conterminous United States",
+        "volume": "29",
+        "author": "McCabe",
+        "year": "2002",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0230",
+        "series-title": "Climate Change Impacts in the United States\u2014The Third National Climate Assessment",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0235",
+        "doi-asserted-by": "crossref",
+        "first-page": "514",
+        "DOI": "10.1214/aoms/1177728719",
+        "article-title": "On the asymptotic efficiency of certain nonparametric two-sample tests",
+        "volume": "25",
+        "author": "Mood",
+        "year": "1954",
+        "journal-title": "Ann. Math. Stat."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0240",
+        "doi-asserted-by": "crossref",
+        "first-page": "451",
+        "DOI": "10.1016/j.jhydrol.2016.01.016",
+        "article-title": "Evaluation of the capability of the Lombard test in detecting abrupt changes in variance",
+        "volume": "534",
+        "author": "Nayak",
+        "year": "2016",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0245",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Oelsner, G.P., Sprague, L.A., Murphy, J.C., Zuellig, R.E., Johnson, H.M., Ryberg, K.R., Falcone, J.A., Stets, E.G., Vecchia, A.V., Riskin, M.L., De Cicco, L.A., Mills, T.J., Farmer, W.H., 2017. Water-quality trends in the nation\u2019s rivers and streams, 1972\u20132012\u2014Data preparation, statistical methods, and trend results (Report No. 2017\u20135006), Scientific Investigations Report. U. S. Geological Survey, Reston, Virginia. https://doi.org/10.3133/sir20175006.",
+        "DOI": "10.3133/sir20175006"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0250",
+        "doi-asserted-by": "crossref",
+        "first-page": "173",
+        "DOI": "10.1175/JHM410.1",
+        "article-title": "A recent increase in western U.S. streamflow variability and persistence",
+        "volume": "6",
+        "author": "Pagano",
+        "year": "2005",
+        "journal-title": "J. Hydrometeor."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0255",
+        "doi-asserted-by": "crossref",
+        "first-page": "523",
+        "DOI": "10.1093/biomet/42.3-4.523",
+        "article-title": "A test for a change in a parameter occurring at an unknown point",
+        "volume": "42",
+        "author": "Page",
+        "year": "1955",
+        "journal-title": "Biometrika"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0260",
+        "doi-asserted-by": "crossref",
+        "first-page": "248",
+        "DOI": "10.1093/biomet/44.1-2.248",
+        "article-title": "On problems in which a change in a parameter occurs at an unknown point",
+        "volume": "44",
+        "author": "Page",
+        "year": "1957",
+        "journal-title": "Biometrika"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0265",
+        "first-page": "126",
+        "article-title": "A non-parametric approach to the change-point problem",
+        "volume": "28",
+        "author": "Pettitt",
+        "year": "1979",
+        "journal-title": "J. R. Statist. Soc. Series C (Applied Statistics)"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0270",
+        "doi-asserted-by": "crossref",
+        "first-page": "769",
+        "DOI": "10.2307/1313099",
+        "article-title": "The natural flow regime",
+        "volume": "47",
+        "author": "Poff",
+        "year": "1997",
+        "journal-title": "Bioscience"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0275",
+        "unstructured": "Pohlert, T., 2018. trend\u2014Non-parametric trend tests and change-point detection, R package version 1.1.0, https://CRAN.R-project.org/package=trend."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0280",
+        "series-title": "R\u2014A Language and Environment for Statistical Computing",
+        "author": "R Core Team",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0285",
+        "doi-asserted-by": "crossref",
+        "first-page": "1813",
+        "DOI": "10.1002/2014WR015696",
+        "article-title": "Toward understanding nonstationarity in climate and hydrology through tree ring proxy records",
+        "volume": "51",
+        "author": "Razavi",
+        "year": "2015",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0300",
+        "unstructured": "Ross, G.J., undated. Parametric and nonparametric sequential change detection in R\u2014The cpm package manual."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0295",
+        "unstructured": "Ross, G.J., 2015a. cpm\u2014Sequential and batch change detection using parametric and nonparametric methods, R package version 2.2, http://CRAN.R-project.org/package=cpm."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0290",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.18637/jss.v066.i03",
+        "article-title": "Parametric and nonparametric sequential change detection in R: The cpm package",
+        "volume": "66",
+        "author": "Ross",
+        "year": "2015",
+        "journal-title": "J. Stat. Softw."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0305",
+        "doi-asserted-by": "crossref",
+        "first-page": "379",
+        "DOI": "10.1198/TECH.2011.10069",
+        "article-title": "Nonparametric monitoring of data streams for changes in location and scale",
+        "volume": "53",
+        "author": "Ross",
+        "year": "2011",
+        "journal-title": "Technometrics"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0310",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ryberg, K.R., 2008. PFReports\u2014A program for systematic checking of annual peaks in NWISWeb (No. 2008\u20131284), Open-File Report. U.S. Geological Survey, Reston, Virginia.",
+        "DOI": "10.3133/ofr20081284"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0315",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ryberg, K.R., Goree, B.B., Williams-Sether, T., Mason, J., Robert R., 2017. The U.S. Geological Survey peak-flow file data verification project, 2008\u20132016 (No. 2017\u20135119), Scientific Investigations Report. U.S. Geological Survey, Reston, Virginia.",
+        "DOI": "10.3133/sir20175119"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0320",
+        "doi-asserted-by": "crossref",
+        "first-page": "148",
+        "DOI": "10.1061/(ASCE)HE.1943-5584.0000775",
+        "article-title": "Impact of climate variability on runoff in the north-central United States",
+        "volume": "19",
+        "author": "Ryberg",
+        "year": "2014",
+        "journal-title": "J. Hydrol. Eng."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0325",
+        "article-title": "Causal factors for pesticide trends in streams of the United States\u2014Atrazine and deethylatrazine",
+        "author": "Ryberg",
+        "year": "2019",
+        "journal-title": "J. Environ. Qual."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0330",
+        "doi-asserted-by": "crossref",
+        "first-page": "412",
+        "DOI": "10.1080/07011784.2016.1164627",
+        "article-title": "Tree-ring-based estimates of long-term seasonal precipitation in the Souris River Region of Saskatchewan, North Dakota and Manitoba",
+        "volume": "41",
+        "author": "Ryberg",
+        "year": "2016",
+        "journal-title": "Canadian Water Resour. J./Revue canadienne des ressources hydriques"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0335",
+        "doi-asserted-by": "crossref",
+        "first-page": "36",
+        "DOI": "10.1016/j.jhydrol.2014.05.002",
+        "article-title": "Evaluating the effect of persistence on long-term trends and analyzing step changes in streamflows of the continental United States",
+        "volume": "517",
+        "author": "Sagarika",
+        "year": "2014",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0340",
+        "doi-asserted-by": "crossref",
+        "first-page": "325",
+        "DOI": "10.1080/02626667.2018.1426858",
+        "article-title": "Techniques for assessing water infrastructure for nonstationary extreme events: a review",
+        "volume": "63",
+        "author": "Salas",
+        "year": "2018",
+        "journal-title": "Hydrol. Sci. J."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0345",
+        "doi-asserted-by": "crossref",
+        "first-page": "507",
+        "DOI": "10.2307/2529204",
+        "article-title": "A cluster analysis method for grouping means in the analysis of variance",
+        "volume": "30",
+        "author": "Scott",
+        "year": "1974",
+        "journal-title": "Biometrics"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0350",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.1016/j.advwatres.2014.12.013",
+        "article-title": "Stationarity is undead: uncertainty dominates the distribution of extremes",
+        "volume": "77",
+        "author": "Serinaldi",
+        "year": "2015",
+        "journal-title": "Adv. Water Resour."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0355",
+        "doi-asserted-by": "crossref",
+        "first-page": "123",
+        "DOI": "10.1007/s40974-016-0011-1",
+        "article-title": "Trend analysis and change point techniques\u2014a survey",
+        "volume": "1",
+        "author": "Sharma",
+        "year": "2016",
+        "journal-title": "Energy, Ecol. Environ."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0360",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Taeger, D., Kuhnt, S., 2014. Tests on scale difference, in: Taeger, D., Kuhnt, S. (Eds.), Statistical Hypothesis Testing with SAS and R. John Wiley & Sons, Ltd., Chichester, United Kingdom, pp. 120\u2013131. https://doi.org/10.1002/9781118762585.ch9.",
+        "DOI": "10.1002/9781118762585.ch9"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0365",
+        "unstructured": "U.S. Army Corps of Engineers, 2010. National Inventory of Dams. [WWW Document]. URL http://crunch.tec.army.mil/nidpublic/webpages/nid.cfm (accessed 8.15.10)."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0370",
+        "unstructured": "U.S. Army Corps of Engineers, 2017. Nonstationarity detection tool (Fact Sheet). U.S. Army Corps of Engineers. URL http://corpsmapu.usace.army.mil/rccinfo/nsd/docs/NSD_CPR_Fact_Sheet.pdf (accessed 1.15.118)."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0375",
+        "unstructured": "U.S. Geological Survey, 2017a. Map Interface User Guide [WWW Document]. Water-Quality Changes in the Nation\u2019s Streams and Rivers. URL https://nawqatrends.wim.usgs.gov/swtrends/ (accessed 1.29.18)."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0380",
+        "unstructured": "U.S. Geological Survey, 2017b. Peak streamflow for the Nation [WWW Document]. URL https://doi.org/10.5066/F7P55KJN (accessed 1.20.17)."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0385",
+        "unstructured": "U.S. Geological Survey, 2018. Annual water data reports [WWW Document]. URL https://wdr.water.usgs.gov/ (accessed 8.5.18)."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0390",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vecchia, A.V., 2008. Climate simulation and flood risk analysis for 2008-40 for Devils Lake, North Dakota (Scientific Investigations Report No. 2008\u20135011). U.S. Geological Survey, Reston, Virginia.",
+        "DOI": "10.3133/sir20085011"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0395",
+        "article-title": "Long-term (105 years) variability in rain erosivity as derived from 10-min rainfall depth data for Ukkel (Brussels, Belgium): Implications for assessing soil erosion rates",
+        "volume": "111",
+        "author": "Verstraeten",
+        "year": "2006",
+        "journal-title": "J. Geophys. Res.: Atmospheres"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0400",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.1029/2008WR007645",
+        "article-title": "On the stationarity of annual flood peaks in the continental United States during the 20th century",
+        "volume": "45",
+        "author": "Villarini",
+        "year": "2009",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0405",
+        "doi-asserted-by": "crossref",
+        "first-page": "W06504",
+        "DOI": "10.1029/2009WR008395",
+        "article-title": "Flood peak distributions for the eastern United States",
+        "volume": "46",
+        "author": "Villarini",
+        "year": "2010",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0410",
+        "unstructured": "Wang, X., Erdman, C., Emerson, J.W., 2015. bcp\u2014Bayesian analysis of change point problems, R package version 4.0.0, https://CRAN.R-project.org/package=bcp."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0415",
+        "doi-asserted-by": "crossref",
+        "first-page": "22",
+        "DOI": "10.1111/j.1541-0420.2006.00662.x",
+        "article-title": "A modified Bayes Information Criterion with applications to the analysis of comparative genomic hybridization data",
+        "volume": "63",
+        "author": "Zhang",
+        "year": "2006",
+        "journal-title": "Biometrics"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.124307_b0420",
+        "doi-asserted-by": "crossref",
+        "first-page": "102",
+        "DOI": "10.1111/1752-1688.12706",
+        "article-title": "Effects of antecedent stream flow and sample timing on trend assessments of fish, invertebrate, and diatom communities",
+        "volume": "55",
+        "author": "Zuellig",
+        "year": "2019",
+        "journal-title": "JAWRA J. Am. Water Resour. Assoc."
+      }
+    ],
+    "container-title": [
+      "Journal of Hydrology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S002216941931042X?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S002216941931042X?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          19
+        ]
+      ],
+      "date-time": "2025-09-19T15:03:46Z",
+      "timestamp": 1758294226000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S002216941931042X"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          4
+        ]
+      ]
+    },
+    "references-count": 84,
+    "alternative-id": [
+      "S002216941931042X"
+    ],
+    "URL": "https://doi.org/10.1016/j.jhydrol.2019.124307",
+    "relation": {},
+    "ISSN": [
+      "0022-1694"
+    ],
+    "issn-type": [
+      {
+        "value": "0022-1694",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          4
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Change points in annual peak streamflows: Method comparisons and historical change points in the United States",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Journal of Hydrology",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.jhydrol.2019.124307",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "Published by Elsevier B.V.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "124307"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1016/j.jhydrol.2019.124307",
+  "original_doi": "10.1016/j.jhydrol.2019.124307"
+}

@@ -1,0 +1,440 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          16
+        ]
+      ],
+      "date-time": "2026-05-16T00:06:24Z",
+      "timestamp": 1778889984255,
+      "version": "3.51.4"
+    },
+    "reference-count": 20,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              10
+            ]
+          ],
+          "date-time": "2024-12-10T00:00:00Z",
+          "timestamp": 1733788800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Hydrology X"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.hydroa.2024.100199",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          12
+        ]
+      ],
+      "date-time": "2024-12-12T07:23:10Z",
+      "timestamp": 1733988190000
+    },
+    "page": "100199",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "special_numbering": "C",
+    "title": [
+      "Practical application of time-lapse camera imagery to develop water-level data for three hydrologic monitoring sites in Wisconsin during water year 2020"
+    ],
+    "prefix": "10.1016",
+    "volume": "26",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1940-4542",
+        "authenticated-orcid": false,
+        "given": "Keegan E.",
+        "family": "Johnson",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Paul C.",
+        "family": "Reneau",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Matthew J.",
+        "family": "Komiskey",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.hydroa.2024.100199_b0005",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pwat.0000032",
+        "article-title": "Field performance of the GaugeCam image-based water level measurement system",
+        "volume": "1",
+        "author": "Birgand",
+        "year": "2022",
+        "journal-title": "PLOS Water"
+      },
+      {
+        "key": "10.1016/j.hydroa.2024.100199_b0010",
+        "unstructured": "Blumer, D., Mader, M., Wood, H., 2022. Lake Redstone 2022-32 9-Key Element Watershed and Lake Management Plan (Wisconsin Department of Natural Resources 9-Key Element Watershed and Lake Management Plan No. WI-DNR WBIC\u00a0: 1286400)."
+      },
+      {
+        "key": "10.1016/j.hydroa.2024.100199_b0015",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2022WR033203",
+        "article-title": "Technical note: open-source software for water-level measurement in images with a calibration target",
+        "volume": "58",
+        "author": "Chapman",
+        "year": "2022",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.hydroa.2024.100199_b0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "10362",
+        "DOI": "10.1029/2018WR023913",
+        "article-title": "Automatic image-based water stage measurement for long-term observations in ungauged catchments",
+        "volume": "54",
+        "author": "Eltner",
+        "year": "2018",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.hydroa.2024.100199_b0025",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2020WR027608",
+        "article-title": "Using deep learning for automatic water stage measurements",
+        "volume": "57",
+        "author": "Eltner",
+        "year": "2021",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.hydroa.2024.100199_b0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "178",
+        "DOI": "10.1016/j.jhydrol.2013.05.011",
+        "article-title": "Source and magnitude of error in an inexpensive image-based water level measurement system",
+        "volume": "496",
+        "author": "Gilmore",
+        "year": "2013",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.hydroa.2024.100199_b0035",
+        "series-title": "Time-Lapse Imagery, Image-Derived Water-Level Data, and Model Archive for Three USGS Streamgages in Wisconsin During Water Year 2020",
+        "author": "Johnson",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.hydroa.2024.100199_b0040",
+        "series-title": "ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences",
+        "first-page": "1",
+        "article-title": "Segmentation of environmental time lapse image sequences for the determination of shore lines captured by hand-held smartphone cameras",
+        "author": "Kr\u00f6hnert",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.hydroa.2024.100199_b0045",
+        "article-title": "Technical note: Stage and water width measurement of a mountain stream using a simple time-lapse camera (preprint)",
+        "author": "Leduc",
+        "year": "2017",
+        "journal-title": "Rivers and Lakes/instruments and Observation Techniques"
+      },
+      {
+        "key": "10.1016/j.hydroa.2024.100199_b0050",
+        "doi-asserted-by": "crossref",
+        "first-page": "167",
+        "DOI": "10.1016/j.measurement.2018.05.100",
+        "article-title": "Automatic water-level detection using single-camera images with varied poses",
+        "volume": "127",
+        "author": "Lin",
+        "year": "2018",
+        "journal-title": "Measurement"
+      },
+      {
+        "key": "10.1016/j.hydroa.2024.100199_b0055",
+        "series-title": "Stream Gaging and Flood Forecasting: A partnership of the US Geological Survey and the National Weather Service (No. 209-95)",
+        "author": "Mason",
+        "year": "1995"
+      },
+      {
+        "key": "10.1016/j.hydroa.2024.100199_b0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "424",
+        "DOI": "10.3390/w14030424",
+        "article-title": "Flow measurements derived from camera footage using an open-source ecosystem",
+        "volume": "14",
+        "author": "Meier",
+        "year": "2022",
+        "journal-title": "Water"
+      },
+      {
+        "key": "10.1016/j.hydroa.2024.100199_b0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "9691",
+        "DOI": "10.3390/app11209691",
+        "article-title": "Deep learning semantic segmentation for water level estimation using surveillance camera",
+        "volume": "11",
+        "author": "Muhadi",
+        "year": "2021",
+        "journal-title": "Appl. Sci."
+      },
+      {
+        "key": "10.1016/j.hydroa.2024.100199_b0070",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.envsoft.2021.105285",
+        "article-title": "Application of image processing and convolutional neural networks for flood image classification and semantic segmentation",
+        "volume": "148",
+        "author": "Pally",
+        "year": "2022",
+        "journal-title": "Environ. Model. Softw."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.hydroa.2024.100199_b0075",
+        "doi-asserted-by": "crossref",
+        "first-page": "370",
+        "DOI": "10.1038/s43247-024-01530-4",
+        "article-title": "Severe droughts reduce river navigability and isolate communities in the Brazilian Amazon",
+        "volume": "5",
+        "author": "Santos de Lima",
+        "year": "2024",
+        "journal-title": "Commun. Earth Environ."
+      },
+      {
+        "key": "10.1016/j.hydroa.2024.100199_b0080",
+        "series-title": "Stage Measurement at Gaging Stations (Techniques and Methods No. 3\u2013A7)",
+        "author": "Sauer",
+        "year": "2010"
+      },
+      {
+        "key": "10.1016/j.hydroa.2024.100199_b0085",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2020WR028183",
+        "article-title": "Estimating reservoir inflow and outflow from water level observations using expert knowledge: dealing with an Ill-posed water balance equation in reservoir management",
+        "volume": "58",
+        "author": "Song",
+        "year": "2022",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.hydroa.2024.100199_b0090",
+        "unstructured": "U.S. Geological Survey, 2024. USGS water data for the Nation: U.S. Geological Survey National Water Information System database, accessed December 5, 2024, at https://doi.org/10.5066/F7P55KJN."
+      },
+      {
+        "key": "10.1016/j.hydroa.2024.100199_b0095",
+        "doi-asserted-by": "crossref",
+        "first-page": "4435",
+        "DOI": "10.5194/hess-25-4435-2021",
+        "article-title": "Deep learning for automated river-level monitoring through river-camera images: an approach based on water segmentation and transfer learning",
+        "volume": "25",
+        "author": "Vandaele",
+        "year": "2021",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "key": "10.1016/j.hydroa.2024.100199_b0100",
+        "doi-asserted-by": "crossref",
+        "first-page": "95",
+        "DOI": "10.1016/j.flowmeasinst.2019.04.004",
+        "article-title": "In-situ water level measurement using NIR-imaging video camera",
+        "volume": "67",
+        "author": "Zhang",
+        "year": "2019",
+        "journal-title": "Flow Meas. Instrum."
+      }
+    ],
+    "container-title": [
+      "Journal of Hydrology X"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2589915524000294?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2589915524000294?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          11
+        ]
+      ],
+      "date-time": "2025-03-11T10:14:21Z",
+      "timestamp": 1741688061000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2589915524000294"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "references-count": 20,
+    "alternative-id": [
+      "S2589915524000294"
+    ],
+    "URL": "https://doi.org/10.1016/j.hydroa.2024.100199",
+    "relation": {},
+    "ISSN": [
+      "2589-9155"
+    ],
+    "issn-type": [
+      {
+        "value": "2589-9155",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Practical application of time-lapse camera imagery to develop water-level data for three hydrologic monitoring sites in Wisconsin during water year 2020",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Journal of Hydrology X",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.hydroa.2024.100199",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "Published by Elsevier B.V.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "100199"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1016/j.hydroa.2024.100199",
+  "original_doi": "10.1016/j.hydroa.2024.100199"
+}

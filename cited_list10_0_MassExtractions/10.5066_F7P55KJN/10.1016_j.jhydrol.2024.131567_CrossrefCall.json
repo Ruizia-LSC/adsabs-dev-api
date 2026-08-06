@@ -1,0 +1,817 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          15
+        ]
+      ],
+      "date-time": "2026-07-15T23:26:11Z",
+      "timestamp": 1784157971687,
+      "version": "3.55.0"
+    },
+    "reference-count": 48,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2024-08-01T00:00:00Z",
+          "timestamp": 1722470400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2024-08-01T00:00:00Z",
+          "timestamp": 1722470400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              20
+            ]
+          ],
+          "date-time": "2024-06-20T00:00:00Z",
+          "timestamp": 1718841600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100005991",
+        "name": "Woods Hole Oceanographic Institution",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100005991",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000203",
+        "name": "US Geological Survey",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "ER21-D1-5237"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "ER21-D1-5237"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100011952",
+        "name": "European Society of Clinical Pharmacy",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100011952",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100013316",
+        "name": "Strategic Environmental Research and Development Program",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100013316",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Hydrology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jhydrol.2024.131567",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          24
+        ]
+      ],
+      "date-time": "2024-06-24T01:56:15Z",
+      "timestamp": 1719194175000
+    },
+    "page": "131567",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 10,
+    "special_numbering": "C",
+    "title": [
+      "Recent advances in vertical temperature profiler instrumentation and flux estimation methods facilitate groundwater \u2013 Surface water exchange studies in environments with strong discharge zones"
+    ],
+    "prefix": "10.1016",
+    "volume": "639",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9050-8603",
+        "authenticated-orcid": false,
+        "given": "Robert A.",
+        "family": "Sohn",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3206-4132",
+        "authenticated-orcid": false,
+        "given": "Martin A.",
+        "family": "Briggs",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2629-365X",
+        "authenticated-orcid": false,
+        "given": "David M.",
+        "family": "Rey",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "2165",
+        "DOI": "10.1002/hyp.7289",
+        "article-title": "Transient or steady-state? Using vertical temperature profiles to quantify groundwater \u2013 surface water exchange",
+        "volume": "23",
+        "author": "Anibas",
+        "year": "2009",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0010",
+        "unstructured": "Barlow, P.M., Hess, K.M. (1993). Simulated hydrologic responses of the Quashnet River stream-aquifer system to proposed groundwater withdrawals, Cape Cod, Massachusetts. U.S. Geological Survey Report 93-4064, p. 51."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "221",
+        "DOI": "10.1016/j.jhydrol.2004.03.025",
+        "article-title": "Estimating flow and flux of ground water discharge using water temperature and velocity",
+        "volume": "296",
+        "author": "Becker",
+        "year": "2004",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jhydrol.2024.131567_b0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "325",
+        "DOI": "10.1029/WR001i002p00325",
+        "article-title": "Rates of vertical groundwater movement estimated from the earth\u2019s thermal profile",
+        "volume": "1",
+        "author": "Bredehoeft",
+        "year": "1965",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0025",
+        "unstructured": "Briggs, M.A., Rey, D., Johnson, C., Moore, H., Marble, K., Slater, L., Iery, R. (2023). Fiber-optic distributed temperature sensing data collected for improved mapping and monitoring of contaminated groundwater discharges along the upper Quashnet River, Mashpee and Falmouth, Massachusetts, USA 2020: U.S. Geological Survey data release, Doi: 10.5066/P96KF0L2."
+      },
+      {
+        "issue": "15",
+        "key": "10.1016/j.jhydrol.2024.131567_b0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "2435",
+        "DOI": "10.1002/hyp.13178",
+        "article-title": "Explicit consideration of preferential groundwater discharges as surface water ecosystem control points",
+        "volume": "32",
+        "author": "Briggs",
+        "year": "2018",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "1739",
+        "DOI": "10.1016/j.jhydrol.2014.09.030",
+        "article-title": "Practical limitations on the use of diurnal temperature signals to quantify groundwater upwelling",
+        "volume": "519",
+        "author": "Briggs",
+        "year": "2014",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "2281",
+        "DOI": "10.1002/hyp.13752",
+        "article-title": "Hillslope groundwater discharges provide localized stream ecosystem buffers from regional pre- and polyfluoroalkyl substances contamination",
+        "volume": "34",
+        "author": "Briggs",
+        "year": "2020",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0045",
+        "doi-asserted-by": "crossref",
+        "first-page": "e14840",
+        "DOI": "10.1002/hyp.14840",
+        "article-title": "Multiple timescales of streambed flux variability in two perennial mountain-front streams",
+        "volume": "37",
+        "author": "Cognac",
+        "year": "2022",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jhydrol.2024.131567_b0050",
+        "doi-asserted-by": "crossref",
+        "first-page": "243",
+        "DOI": "10.1111/j.1745-6584.2004.tb02671.x",
+        "article-title": "Delineating and quantifying ground water discharge zones using streambed temperatures",
+        "volume": "42",
+        "author": "Conant",
+        "year": "2004",
+        "journal-title": "Ground Water"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "729",
+        "DOI": "10.1016/j.chemosphere.2018.10.003",
+        "article-title": "Deep seepage of per- and polyfluoroalkyl substances through the soil of a firefighter training site and subsequent groundwater contamination",
+        "volume": "214",
+        "author": "Dauchy",
+        "year": "2014",
+        "journal-title": "Chemosphere"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jhydrol.2024.131567_b0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "383",
+        "DOI": "10.1002/hyp.10568",
+        "article-title": "Estimating groundwater discharge to surface waters using heat as a tracer in low flux environments: The role of thermal conductivity",
+        "volume": "30",
+        "author": "Duque",
+        "year": "2016",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "W10425",
+        "DOI": "10.1029/2006WR004861",
+        "article-title": "Influence of stream bank seepage during low-flow conditions on riparian zone hydrology",
+        "volume": "42",
+        "author": "Duval",
+        "year": "2006",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jhydrol.2024.131567_b0070",
+        "doi-asserted-by": "crossref",
+        "first-page": "355",
+        "DOI": "10.1111/j.1752-1688.2003.tb04390.x",
+        "article-title": "Cold water patches in warm streams: Physicochemical characteristics and the influence of shading",
+        "volume": "39",
+        "author": "Ebersole",
+        "year": "2003",
+        "journal-title": "J. Amer. Water Resour. Assoc."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0075",
+        "unstructured": "U.S. Geological Survey. USGS Water Data for the Nation: U.S. Geological Survey National Water Information System Database. 2023. Available online: Doi: 10.5066/F7P55KJN (accessed on 15 June 2023)."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "306",
+        "DOI": "10.3390/w13030306",
+        "article-title": "The significance of vertical and lateral groundwater-surface water exchange fluxes in riverbeds and riverbanks: Comparing 1D analytical flux estimates with 3D Groundwater modelling",
+        "volume": "13",
+        "author": "Ghysels",
+        "year": "2021",
+        "journal-title": "Water"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0085",
+        "doi-asserted-by": "crossref",
+        "first-page": "B01106",
+        "DOI": "10.1029/2004JB003419",
+        "article-title": "Thermal response of sediment with vertical fluid flow to periodic temperature variation at the surface",
+        "volume": "110",
+        "author": "Goto",
+        "year": "2005",
+        "journal-title": "J. Geophys. Res."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0090",
+        "doi-asserted-by": "crossref",
+        "first-page": "6031",
+        "DOI": "10.5194/hess-21-6031-2017",
+        "article-title": "Hydrogeological controls on spatial patterns of groundwater discharge in peatlands",
+        "volume": "21",
+        "author": "Hare",
+        "year": "2017",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0095",
+        "doi-asserted-by": "crossref",
+        "first-page": "W10410",
+        "DOI": "10.1029/2005WR004787",
+        "article-title": "Quantifying surface water \u2013 groundwater interactions using time series analysis of streambed thermal records: Method development",
+        "volume": "42",
+        "author": "Hatch",
+        "year": "2006",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0100",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1002/hyp.14939",
+        "article-title": "Shallow and local or deep and regional? Inferring source groundwater characteristics across mainstem riverbank discharge faces",
+        "author": "Haynes",
+        "year": "2023",
+        "journal-title": "Hydrological Processes"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0105",
+        "doi-asserted-by": "crossref",
+        "first-page": "728",
+        "DOI": "10.1016/j.jhydrol.2015.10.054",
+        "article-title": "Experimental evaluation of the applicability of phase, amplitude, and combined methods to determine water flux and thermal diffusivity from temperature time series using VFLUX 2",
+        "volume": "531",
+        "author": "Irvine",
+        "year": "2015",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0110",
+        "doi-asserted-by": "crossref",
+        "first-page": "98",
+        "DOI": "10.2136/vzj2010.0005",
+        "article-title": "Discharge across a streambed: Heat as a tracer",
+        "volume": "10",
+        "author": "Jensen",
+        "year": "2011",
+        "journal-title": "Vadose Zone J."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jhydrol.2024.131567_b0115",
+        "doi-asserted-by": "crossref",
+        "first-page": "2293",
+        "DOI": "10.1002/2013WR014155",
+        "article-title": "Dynamic streambed fluxes during rainfall-runoff events",
+        "volume": "50",
+        "author": "Karan",
+        "year": "2014",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0120",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.jhydrol.2006.12.003",
+        "article-title": "Temporal and spatial variability of groundwater \u2013 surface water fluxes: Development and application of an analytical method using temperature time series",
+        "volume": "336",
+        "author": "Keery",
+        "year": "2007",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jhydrol.2024.131567_b0125",
+        "doi-asserted-by": "crossref",
+        "first-page": "434",
+        "DOI": "10.1111/gwat.12369",
+        "article-title": "1DTempPro V2: New features for inferring groundwater/surface-water exchange",
+        "volume": "54",
+        "author": "Koch",
+        "year": "2016",
+        "journal-title": "Groundwater"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0130",
+        "unstructured": "Lapham, W.W. (1989), Use of temperature profiles beneath streams to determine rates of vertical ground-water flow and vertical hydraulic conductivity (No. 2337), Dept. of the Interior, US Geological Survey Open-File Report."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0135",
+        "doi-asserted-by": "crossref",
+        "first-page": "1223",
+        "DOI": "10.1007/s10040-012-0870-2",
+        "article-title": "Scaling up point-in-space heat tracing of seepage flux using bed temperatures as a quantitative proxy",
+        "volume": "20",
+        "author": "Lautz",
+        "year": "2012",
+        "journal-title": "Hydrogeol. J."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0140",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2020WR027904",
+        "article-title": "Using heat to tracer vertical water fluxes in sediment experiencing concurrent tidal pumping and groundwater discharge",
+        "volume": "57",
+        "author": "LeRoux",
+        "year": "2021",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0145",
+        "doi-asserted-by": "crossref",
+        "first-page": "488",
+        "DOI": "10.1029/2012WR012380",
+        "article-title": "Solutions for the diurnally forced advection-diffusion equation to estimate bulk fluid velocity and diffusivity in streambeds from temperature time series",
+        "volume": "49",
+        "author": "Luce",
+        "year": "2013",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0150",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2021WR030443",
+        "article-title": "Application of recursive estimation to heat tracing for groundwater/surface-water exchange",
+        "volume": "58",
+        "author": "McAliley",
+        "year": "2022",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0155",
+        "doi-asserted-by": "crossref",
+        "first-page": "2713",
+        "DOI": "10.1002/hyp.11198",
+        "article-title": "Estimation of vertical water fluxes from temperature time series by the inverse numerical computer program FLUX-BOT",
+        "volume": "31",
+        "author": "Munz",
+        "year": "2017",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0160",
+        "series-title": "Spectral Analysis for Physical Applications",
+        "author": "Percival",
+        "year": "1993"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.jhydrol.2024.131567_b0165",
+        "doi-asserted-by": "crossref",
+        "first-page": "5848",
+        "DOI": "10.1021/acs.est.0c07978",
+        "article-title": "Per- and Polyfluoroalkyl Substance (PFAS) transport from groundwater to streams near a PFAS manufacturing facility in North Carolina, USA",
+        "volume": "55",
+        "author": "Petre",
+        "year": "2021",
+        "journal-title": "Environ. Sci. Technol."
+      },
+      {
+        "issue": "19",
+        "key": "10.1016/j.jhydrol.2024.131567_b0170",
+        "doi-asserted-by": "crossref",
+        "first-page": "3049",
+        "DOI": "10.1002/hyp.13184",
+        "article-title": "Thermal detection of discrete riparian inflow points (DRIPS) during contrasting hydrological events",
+        "volume": "32",
+        "author": "Ploum",
+        "year": "2018",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0175",
+        "unstructured": "Rey, D., Briggs, M.A., Lind, H., Scordato, P., Leblanc, D., Moore, H., Marble, K., Slater, L., Iery, R., 2024, Groundwater flux estimates from vertical temperature profilers along the upper Quashnet River, Mashpee and Falmouth, Massachusetts, USA 2023: U.S. Geological Survey data release, Doi: 10.5066/P9JY7GP2."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0180",
+        "doi-asserted-by": "crossref",
+        "first-page": "4486",
+        "DOI": "10.1002/2016WR018808",
+        "article-title": "Combined use of thermal methods and seepage meters to efficiently locate, quantify, and monitor focused groundwater discharge to a sand-bed stream",
+        "volume": "52",
+        "author": "Rosenberry",
+        "year": "2016",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.jhydrol.2024.131567_b0185",
+        "doi-asserted-by": "crossref",
+        "first-page": "6596",
+        "DOI": "10.1002/2015WR017453",
+        "article-title": "LPMLE3: A novel 1-D approach to study water flow in streambeds using heat as a tracer",
+        "volume": "52",
+        "author": "Schneidewind",
+        "year": "2016",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0190",
+        "doi-asserted-by": "crossref",
+        "first-page": "5355",
+        "DOI": "10.1002/wrcr.20436",
+        "article-title": "High-resolution distributed temperature sensing to detect seasonal groundwater discharge into Lake Vaeng, Denmark",
+        "volume": "49",
+        "author": "Sebok",
+        "year": "2013",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0195",
+        "doi-asserted-by": "crossref",
+        "first-page": "W03504",
+        "DOI": "10.1029/2010WR009574",
+        "article-title": "Uncertainty in thermal time series analysis estimates of streambed water flux",
+        "volume": "47",
+        "author": "Shanafield",
+        "year": "2011",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0200",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2020WR028430",
+        "article-title": "Spectral analysis of vertical temperature profile time-series data in Yellowstone Lake sediments",
+        "volume": "57",
+        "author": "Sohn",
+        "year": "2021",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0205",
+        "doi-asserted-by": "crossref",
+        "first-page": "W12602",
+        "DOI": "10.1029/2011WR010834",
+        "article-title": "Effects of measurement resolution on the analysis of temperature time series for stream-aquifer flux estimation",
+        "volume": "47",
+        "author": "Soto-Lopez",
+        "year": "2011",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0210",
+        "doi-asserted-by": "crossref",
+        "first-page": "2821",
+        "DOI": "10.1029/JZ070i012p02821",
+        "article-title": "Steady one-dimensional fluid flow in a semi-infinite porous medium with sinusoidal surface temperature",
+        "volume": "70",
+        "author": "Stallman",
+        "year": "1965",
+        "journal-title": "J. Geophys. Res."
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.jhydrol.2024.131567_b0215",
+        "doi-asserted-by": "crossref",
+        "first-page": "2883",
+        "DOI": "10.1029/JZ065i009p02883",
+        "article-title": "Percolation measurements based on heat flow through soil with special reference to paddy fields",
+        "volume": "65",
+        "author": "Suzuki",
+        "year": "1960",
+        "journal-title": "J. Geophys. Res."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0220",
+        "doi-asserted-by": "crossref",
+        "first-page": "1055",
+        "DOI": "10.1109/PROC.1982.12433",
+        "article-title": "Spectrum estimation and harmonic analysis",
+        "volume": "70",
+        "author": "Thomson",
+        "year": "1982",
+        "journal-title": "Proc. IEEE"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0225",
+        "doi-asserted-by": "crossref",
+        "first-page": "1648",
+        "DOI": "10.3390/w11081648",
+        "article-title": "Evaluation of temperature profiling and seepage meter methods for quantifying submarine groundwater discharge to coastal lagoon: Impacts of saltwater intrusion and the associated thermal regime",
+        "volume": "11",
+        "author": "Tirado-Conde",
+        "year": "2019",
+        "journal-title": "Water"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0230",
+        "doi-asserted-by": "crossref",
+        "first-page": "971",
+        "DOI": "10.1111/j.1745-6584.2004.tb02636.x",
+        "article-title": "Tidal effects on ground water discharge through a sandy marine beach",
+        "volume": "42",
+        "author": "Urish",
+        "year": "2004",
+        "journal-title": "Groundwater"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2024.131567_b0235",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2021WR030886",
+        "article-title": "LPMLEn\u2013A frequency domain method to estimate vertical streambed fluxes and sediment thermal properties in semi-infinite and bounded domains",
+        "volume": "58",
+        "author": "van Kampen",
+        "year": "2022",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jhydrol.2024.131567_b0240",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.2136/vzj2016.01.0010",
+        "article-title": "Hydrologic impacts of thawing permafrost \u2013 A review",
+        "volume": "15",
+        "author": "Walvoord",
+        "year": "2016",
+        "journal-title": "Vadose Zone J."
+      }
+    ],
+    "container-title": [
+      "Journal of Hydrology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0022169424009636?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0022169424009636?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          29
+        ]
+      ],
+      "date-time": "2026-04-29T02:53:06Z",
+      "timestamp": 1777431186000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0022169424009636"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          8
+        ]
+      ]
+    },
+    "references-count": 48,
+    "alternative-id": [
+      "S0022169424009636"
+    ],
+    "URL": "https://doi.org/10.1016/j.jhydrol.2024.131567",
+    "relation": {},
+    "ISSN": [
+      "0022-1694"
+    ],
+    "issn-type": [
+      {
+        "value": "0022-1694",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          8
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Recent advances in vertical temperature profiler instrumentation and flux estimation methods facilitate groundwater \u2013 Surface water exchange studies in environments with strong discharge zones",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Journal of Hydrology",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.jhydrol.2024.131567",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "\u00a9 2024 The Author(s). Published by Elsevier B.V.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "131567"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1016/j.jhydrol.2024.131567",
+  "original_doi": "10.1016/j.jhydrol.2024.131567"
+}
