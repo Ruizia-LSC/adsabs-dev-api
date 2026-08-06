@@ -146,8 +146,8 @@ def check_container_found(
       - "null" if both tests are False
       - "null" if canonical_doi is blank
       - "null" if titles are empty/blank
-      - one container string if DOI and title resolve to same container
-      - list of container strings if they resolve to different containers
+      - one raw container (dict or list) if DOI and title resolve to same container
+      - list of raw containers if they resolve to different containers
     """
     # Validation guard: if canonical DOI is blank OR titles are empty/blank,
     # force ContainerFound to "null".
@@ -159,16 +159,16 @@ def check_container_found(
     if not doi_found and not title_found:
         return "null"
 
-    containers: List[str] = []
+    containers: List[Any] = []  # store raw dicts/lists for proper pretty-printing
     seen = set()
 
     if doi_found:
         doi_container = find_container(crossref_data, canonical_doi)
         if doi_container is not None:
-            norm = _normalize_container(doi_container)
+            norm = _normalize_container(doi_container)  # used only for dedup
             if norm not in seen:
                 seen.add(norm)
-                containers.append(norm)
+                containers.append(doi_container)  # append raw object
 
     if title_found:
         title_container_raw = None
@@ -180,24 +180,13 @@ def check_container_found(
             norm = _normalize_container(title_container_raw)
             if norm not in seen:
                 seen.add(norm)
-                containers.append(norm)
+                containers.append(title_container_raw)  # append raw object
 
     if not containers:
         return "null"
     if len(containers) == 1:
         return containers[0]
     return containers
-
-
-def pretty_container_found(value: Any) -> Any:
-    """
-    Pretty-print ContainerFound while preserving its structure.
-    - dict/list values are serialized with indentation
-    - strings are returned unchanged
-    """
-    if isinstance(value, (dict, list)):
-        return json.dumps(value, ensure_ascii=False, indent=2, sort_keys=True)
-    return value
 
 
 # ---------------------------------------------------------------------------
@@ -254,7 +243,7 @@ def process_datacite_file(
             "DOITest": doi_check["DOITest"],
             "TitleTest": title_check["TitleTest"],
             "PreviousTitle": previous_title_flag,
-            "ContainerFound": pretty_container_found(container_found),
+            "ContainerFound": container_found,  # raw object; json.dump handles formatting
         }
         results.append(entry)
 
