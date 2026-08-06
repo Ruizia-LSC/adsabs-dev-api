@@ -1,0 +1,633 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          22
+        ]
+      ],
+      "date-time": "2026-04-22T15:51:20Z",
+      "timestamp": 1776873080160,
+      "version": "3.51.2"
+    },
+    "reference-count": 67,
+    "publisher": "Wiley",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              9,
+              25
+            ]
+          ],
+          "date-time": "2021-09-25T00:00:00Z",
+          "timestamp": 1632528000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "ngwa.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Groundwater"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Environmental water management often benefits from a risk\u2010based approach where information on the area of interest is characterized, assembled, and incorporated into a decision model considering uncertainty. This includes prior information from literature, field measurements, professional interpretation, and data assimilation resulting in a decision tool with a posterior uncertainty assessment accounting for prior understanding and what is learned through model development and data assimilation. Model construction and data assimilation are time consuming and prone to errors, which motivates a repeatable workflow where revisions resulting from new interpretations or discovery of errors can be addressed and the analyses repeated efficiently and rigorously. In this work, motivated by the real world application of delineating risk\u2010based (probabilistic) sources of water to supply wells in a humid temperate climate, a scripted workflow was generated for groundwater model construction, data assimilation, particle\u2010tracking and post\u2010processing. The workflow leverages existing datasets describing hydrogeology, hydrography, water use, recharge, and lateral boundaries. These specific data are available in the United States but the tools can be applied to similar datasets worldwide. The workflow builds the model, performs ensemble\u2010based history matching, and uses a posterior Monte Carlo approach to provide probabilistic capture zones describing source water to wells in a risk\u2010based framework. The water managers can then select areas of varying levels of protection based on their tolerance for risk of potential wrongness of the underlying models. All the tools in this workflow are open\u2010source and free, which facilitates testing of this repeatable and transparent approach to other environmental problems.</jats:p>",
+    "DOI": "10.1111/gwat.13129",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          31
+        ]
+      ],
+      "date-time": "2021-08-31T09:30:44Z",
+      "timestamp": 1630402244000
+    },
+    "page": "71-86",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 21,
+    "title": [
+      "Risk\u2010Based Wellhead Protection Decision Support: A Repeatable Workflow Approach"
+    ],
+    "prefix": "10.1111",
+    "volume": "60",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7756-4651",
+        "authenticated-orcid": false,
+        "given": "Michael N.",
+        "family": "Fienen",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Nicholas T.",
+        "family": "Corson\u2010Dosch",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Upper Midwest Water Science Center  Middleton WI USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jeremy T.",
+        "family": "White",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Intera Inc.  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Andrew T.",
+        "family": "Leaf",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Upper Midwest Water Science Center  Middleton WI USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Randall J.",
+        "family": "Hunt",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Upper Midwest Water Science Center  Middleton WI USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          25
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_17_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10596-019-09889-6"
+      },
+      {
+        "key": "e_1_2_17_3_1",
+        "volume-title": "Applied Groundwater Modeling Simulation of Flow and Advective Transport",
+        "author": "Anderson M.P.",
+        "year": "2015"
+      },
+      {
+        "key": "e_1_2_17_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2019.02.013"
+      },
+      {
+        "key": "e_1_2_17_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gwat.12413"
+      },
+      {
+        "key": "e_1_2_17_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gwat.12661"
+      },
+      {
+        "key": "e_1_2_17_7_1",
+        "unstructured": "Barnett B. L.Townley V.Post R.Evans R.Hunt L.Peeters S.Richardson A.Werner A.Knapton andA.Boronkay.2012.Australian groundwater modelling guidelines. Technical Report 82 Waterlines Report Series Australian National Water Commission Canberra Australia."
+      },
+      {
+        "key": "e_1_2_17_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2020.141045"
+      },
+      {
+        "key": "e_1_2_17_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11269-006-9098-z"
+      },
+      {
+        "key": "e_1_2_17_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11004-011-9376-z"
+      },
+      {
+        "key": "e_1_2_17_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10596-013-9351-5"
+      },
+      {
+        "key": "e_1_2_17_12_1",
+        "unstructured": "Clark B. P.Barlow S.Peterson J.Hughes H.Reeves andR.Viger.2018.National\u2010scale grid to support regional groundwater availability studies and a national hydrogeologic database. U.S. Geological Survey Data Release.https://doi.org/10.5066/F7P84B24"
+      },
+      {
+        "key": "e_1_2_17_13_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Corson\u2010Dosch N.T. M.N.Fienen J.S.Finklestein A.T.Leaf J.T.White J.Woda andJ.H.Williams.2021. Areas contributing recharge to priority wells in valley\u2010fill aquifers in the Neversink and Rondout Basins New York. U.S. Geological Survey Scientific Investigation Report 2021\u20105112.https://doi.org/10.3133/sir20215112",
+        "DOI": "10.3133/sir20215112"
+      },
+      {
+        "key": "e_1_2_17_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2009WR008377"
+      },
+      {
+        "key": "e_1_2_17_15_1",
+        "volume-title": "PEST, Model\u2010independent parameter estimation\u2014User manual",
+        "author": "Doherty J.E.",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_17_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MCSE.2009.15"
+      },
+      {
+        "key": "e_1_2_17_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/06-BA129"
+      },
+      {
+        "key": "e_1_2_17_18_1",
+        "volume-title": "Groundwater Model Archive and Workflow for Neversink/Rondout Basin, New York",
+        "author": "Fienen M.",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_17_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-20-3739-2016"
+      },
+      {
+        "key": "e_1_2_17_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gwat.12320"
+      },
+      {
+        "key": "e_1_2_17_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-6584.1988.tb00399.x"
+      },
+      {
+        "key": "e_1_2_17_22_1",
+        "unstructured": "Gillies S.2020a.The fiona user manual.https://fiona.readthedocs.io/en/latest/manual.html(accessed August 5 2020)."
+      },
+      {
+        "key": "e_1_2_17_23_1",
+        "unstructured": "Gillies S.2020b.Rasterio: Access to geospatial raster data.https://rasterio.readthedocs.io/en/latest/(accessed August 5 2020)."
+      },
+      {
+        "key": "e_1_2_17_24_1",
+        "unstructured": "Gillies S.2020c.The shapley user manual.https://shapely.readthedocs.io/en/latest/manual.html(accessed August 5 2020)."
+      },
+      {
+        "key": "e_1_2_17_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/gb-2010-11-8-r86"
+      },
+      {
+        "key": "e_1_2_17_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-6584.2006.00189.x"
+      },
+      {
+        "key": "e_1_2_17_27_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Harbaugh A. W..2005.MODFLOW\u20102005 the U.S. Geological Survey modular ground\u2010water model\u2014The ground\u2010water flow process. U.S. Geological Survey Techniques and Methods 6\u2010A16.https://doi.org/10.3133/tm6A16",
+        "DOI": "10.3133/tm6A16"
+      },
+      {
+        "key": "e_1_2_17_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2649-2"
+      },
+      {
+        "key": "e_1_2_17_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/feart.2020.565613"
+      },
+      {
+        "key": "e_1_2_17_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gwat.12248"
+      },
+      {
+        "key": "e_1_2_17_31_1",
+        "unstructured": "HTCondor Team.2020. HTCondor version 8.8 manual. Technical report. University of Wisconsin\u2010Madison Online.https://htcondor.readthedocs.io/en/latest/(accessed August 12 2021)."
+      },
+      {
+        "key": "e_1_2_17_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gwat.12604"
+      },
+      {
+        "key": "e_1_2_17_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gwat.12907"
+      },
+      {
+        "key": "e_1_2_17_34_1",
+        "unstructured": "Johansson J..2015.Introduction to scientific computing with Python. Online.https://github.com/jrjohansson/scientific\u2010python\u2010lectures/blob/master/Lecture\u20100\u2010Scientific\u2010Computing\u2010with\u2010Python.ipynb(accessed March 12 2021)."
+      },
+      {
+        "key": "e_1_2_17_35_1",
+        "unstructured": "Jones E. T.Oliphant P.Peterson et al.2001.SciPy: Open source scientific tools for Python. Online.http://www.scipy.org/(accessed August 10 2021)."
+      },
+      {
+        "key": "e_1_2_17_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsci.2020.09.030"
+      },
+      {
+        "key": "e_1_2_17_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3233/978-1-61499-649-1-87"
+      },
+      {
+        "key": "e_1_2_17_38_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Langevin C. J.Hughes E.Banta R.Niswonger S.Panday andA.Provost.2017.Documentation for the MODFLOW 6 groundwater flow model. U.S. Geological Survey Techniques and Methods 6\u2010A55 197.https://doi.org/10.3133/tm6A55",
+        "DOI": "10.3133/tm6A55"
+      },
+      {
+        "key": "e_1_2_17_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gwat.13095"
+      },
+      {
+        "key": "e_1_2_17_40_1",
+        "unstructured": "Leaf A. M.Fienen andH.Reeves.2021b.SFRmaker version 0.7.1. U.S. Geological Survey Software Release.https://doi.org/10.5066/P9U2T031"
+      },
+      {
+        "key": "e_1_2_17_41_1",
+        "unstructured": "McKay L. T.Bondelid T.Dewald J.Johnston R.Moore andA.Rea.2012.NHDPlus version 2: User guide. Technical report."
+      },
+      {
+        "key": "e_1_2_17_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11004-019-09810-y"
+      },
+      {
+        "key": "e_1_2_17_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2004WR003501"
+      },
+      {
+        "key": "e_1_2_17_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2005.07.003"
+      },
+      {
+        "key": "e_1_2_17_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1218263"
+      },
+      {
+        "key": "e_1_2_17_46_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Niswonger R. S.Panday andM.Ibaraki.2011.MODFLOW\u2010NWT a Newton formulation for MODFLOW\u20102005. U.S. Geological Survey Techniques and Methods 6\u2010A37 44.https://doi.org/10.3133/tm6a37",
+        "DOI": "10.3133/tm6A37"
+      },
+      {
+        "key": "e_1_2_17_47_1",
+        "unstructured": "NYDEC and NYDOH.2020. A framework for creating a drinking water source protection program plan: Working draft December 19 2020. Technical report. New York Department of Health and New York Department of Environmental Conservation.https://www.dec.ny.gov/docs/water_pdf/dwsp2draftframework.pdf(accessed February 16 2021)."
+      },
+      {
+        "key": "e_1_2_17_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.petrol.2020.107367"
+      },
+      {
+        "key": "e_1_2_17_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1213847"
+      },
+      {
+        "key": "e_1_2_17_50_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pollock D.W.2016.User guide for MODPATH version 7 particle\u2010tracking model for MODFLOW. U.S. Geological Survey Open\u2010File Report 2016\u20101086.https://doi.org/10.3133/ofr20161086",
+        "DOI": "10.3133/ofr20161086"
+      },
+      {
+        "key": "e_1_2_17_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gwat.12141"
+      },
+      {
+        "key": "e_1_2_17_52_1",
+        "volume-title": "Global Sensitivity Analysis: The Primer",
+        "author": "Saltelli A.",
+        "year": "2008"
+      },
+      {
+        "key": "e_1_2_17_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/1.9780898717921"
+      },
+      {
+        "key": "e_1_2_17_54_1",
+        "unstructured": "The Pandas Development Team.2020. pandas\u2010dev/pandas: Pandas 1.1.0.https://doi.org/10.5281/zenodo.3964380"
+      },
+      {
+        "key": "e_1_2_17_55_1",
+        "unstructured": "U.S. Geological Survey.2016.National Water Information System data available on the World Wide Web (USGS Water Data for the Nation). Online.https://doi.org/10.5066/F7P55KJN.http://waterdata.usgs.gov/nwis/(accessed February 28 2021)"
+      },
+      {
+        "key": "e_1_2_17_56_1",
+        "unstructured": "U.S. Geological Survey.2018.National Hydrography Dataset (ver. NHDPlus High Resolution Beta for Hydrologic Unit (HU) 4\u20100202 and 4\u20100204 (published 20180606)).https://usgs.maps.arcgis.com/apps/MapTools/index.html?appid=41a5c2ca49bd4a83b239450e61022d53(accessed September 4 2020)."
+      },
+      {
+        "key": "e_1_2_17_57_1",
+        "unstructured": "vanRossum G..1995.Python reference manual. Technical report. CWI (Centre for Mathematics and Computer Science) Amsterdam The Netherlands."
+      },
+      {
+        "key": "e_1_2_17_58_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Westenbroek S. V.Kelson W.Dripps R.Hunt andK.Bradbury.2010.SWB\u2013A modified Thornthwaite\u2010Mather soil\u2010water\u2010balance code for estimating groundwater recharge. U.S. Geological Survey Techniques and Methods 6\u2010A31.https://doi.org/10.3133/tm6a31",
+        "DOI": "10.3133/tm6A31"
+      },
+      {
+        "key": "e_1_2_17_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gwat.12558"
+      },
+      {
+        "key": "e_1_2_17_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2018.06.009"
+      },
+      {
+        "key": "e_1_2_17_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2016.08.017"
+      },
+      {
+        "key": "e_1_2_17_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/feart.2020.00050"
+      },
+      {
+        "key": "e_1_2_17_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2021.105022"
+      },
+      {
+        "key": "e_1_2_17_64_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "White J. T. R. J.Hunt M. N.Fienen andJ. E.Doherty.2020b.Approaches to highly parameterized inversion: PEST++ version 5 a parameter estimation and uncertainty analysis software suite optimized for large environmental models. U.S. Geological Survey Techniques and Methods 7\u2010C26.https://doi.org/10.3133/tm7C26",
+        "DOI": "10.3133/tm7C26"
+      },
+      {
+        "key": "e_1_2_17_65_1",
+        "unstructured": "Yager R. L.Kauffman C.Buchwald S.Westenbroek andJ.Reddy.2018.Digital products from a hydrogeologic framework for Quaternary sediments within the glaciated conterminous United States. U.S. Geological Survey Data Release.https://doi.org/10.5066/F7HH6J8X"
+      },
+      {
+        "key": "e_1_2_17_66_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yager R.M. L.J.Kauffman D.R.Soller A.E.Haj P.M.Heisig C.A.Buchwald M.Westenbroek Stephen andJ.E.Reddy.2019.Characterization and occurrence of confined and unconfined aquifers in Quaternary sediments in the glaciated conterminous United States. U.S. Geological Survey Scientific Investigations Report 2018\u20105091.https://doi.org/10.3133/sir20185091",
+        "DOI": "10.3133/sir20185091"
+      },
+      {
+        "key": "e_1_2_17_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR026724"
+      },
+      {
+        "key": "e_1_2_17_68_1",
+        "unstructured": "Zell W. O.andW. E.Sanford.2020b.MODFLOW 6 models used to simulate the long\u2010term average surficial groundwater system for the contiguous United States. U.S. Geological Survey Data Release.https://doi.org/10.5066/P91LFFN1"
+      }
+    ],
+    "container-title": [
+      "Groundwater"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/gwat.13129",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/gwat.13129",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://ngwa.onlinelibrary.wiley.com/doi/pdf/10.1111/gwat.13129",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          2
+        ]
+      ],
+      "date-time": "2025-11-02T11:07:12Z",
+      "timestamp": 1762081632000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ngwa.onlinelibrary.wiley.com/doi/10.1111/gwat.13129"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          25
+        ]
+      ]
+    },
+    "references-count": 67,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            1
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/gwat.13129"
+    ],
+    "URL": "https://doi.org/10.1111/gwat.13129",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0017-467X",
+      "1745-6584"
+    ],
+    "issn-type": [
+      {
+        "value": "0017-467X",
+        "type": "print"
+      },
+      {
+        "value": "1745-6584",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          25
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2021-03-18",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2021-08-18",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2021-09-25",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.1111/gwat.13129",
+  "original_doi": "10.1111/gwat.13129"
+}

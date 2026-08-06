@@ -1,0 +1,749 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          19
+        ]
+      ],
+      "date-time": "2025-12-19T22:14:35Z",
+      "timestamp": 1766182475920,
+      "version": "3.43.0"
+    },
+    "reference-count": 80,
+    "publisher": "Canadian Science Publishing",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://www.nrcresearchpress.com/page/about/CorporateTextAndDataMining"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000203",
+        "name": "US Geological Survey",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "G21AC10038"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "G21AC10038"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "USGS Long Term Resource Monitoring"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "cdnsciencepub.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Can. J. Fish. Aquat. Sci."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p> Availability of suitable overwintering habitat is crucial for the survival of centrarchids in large floodplain rivers. However, there remains uncertainty in the spatiotemporal drivers of suitable conditions. We paired hydrogeomorphic characteristics with environmental data from 1994 to 2018 in individual lentic areas to (1) assess overwintering habitat availability throughout the Upper Mississippi River System using existing habitat suitability indices (HSIs) and (2) explore potential drivers of overall habitat suitability (HSI<jats:sub>O</jats:sub>) and its components (dissolved oxygen, temperature, and flow). We found that flow velocities that exceeded suitable thresholds were independently responsible for 53% of nonsuitable habitats, and connectivity with lotic channels and river discharge increased velocity within lentic habitats. Additionally, colder winter conditions reduced water temperature, reducing availability of highly suitable habitat. Our results indicate that although warmer winters could increase the availability of highly suitable habitat for centrarchids, changes in flow regimes could lead to more connected areas becoming unsuitable. Our results provide critical information on factors that can be prioritized to manage centrarchid habitat, which is especially important in the context of uncertain future climate. </jats:p>",
+    "DOI": "10.1139/cjfas-2024-0164",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          24
+        ]
+      ],
+      "date-time": "2025-04-24T07:16:56Z",
+      "timestamp": 1745479016000
+    },
+    "page": "1-17",
+    "update-policy": "https://doi.org/10.1139/csp-crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Climate and connectivity mediate overwintering habitat suitability for centrarchids in a large floodplain river network"
+    ],
+    "prefix": "10.1139",
+    "volume": "82",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0244-6546",
+        "authenticated-orcid": false,
+        "given": "Robert J.",
+        "family": "Mooney",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Illinois Natural History Survey\u2014Illinois River Biological Station",
+            "place": [
+              "Havana, USA"
+            ]
+          },
+          {
+            "name": "University of Wisconsin\u2013Madison, Center for Limnology",
+            "place": [
+              "Madison, USA"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3292-4182",
+        "authenticated-orcid": false,
+        "given": "Kathi Jo",
+        "family": "Jankowski",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "US Geological Survey, Upper Midwest Environmental Science Center",
+            "place": [
+              "La Crosse, USA"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3295-3132",
+        "authenticated-orcid": false,
+        "given": "Jeffrey N.",
+        "family": "Houser",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "US Geological Survey, Upper Midwest Environmental Science Center",
+            "place": [
+              "La Crosse, USA"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2741-2262",
+        "authenticated-orcid": false,
+        "given": "Madeline R.",
+        "family": "Magee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Wisconsin Department of Natural Resources",
+            "place": [
+              "Madison, USA"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4674-1149",
+        "authenticated-orcid": false,
+        "given": "Hilary A.",
+        "family": "Dugan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Wisconsin\u2013Madison, Center for Limnology",
+            "place": [
+              "Madison, USA"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "155",
+    "reference": [
+      {
+        "key": "refg1/ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.fishres.2024.107161"
+      },
+      {
+        "key": "refg2/ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/CIR1375"
+      },
+      {
+        "key": "refg3/ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/S10641-019-0847-2/FIGURES/7"
+      },
+      {
+        "volume-title": "Standard methods for the examination of water and wastewater",
+        "year": "2018",
+        "author": "American Public Health Association (APHA)",
+        "key": "refg4/ref4"
+      },
+      {
+        "key": "refg5/ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02705060.2017.1319429"
+      },
+      {
+        "key": "refg6/ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/f92-021"
+      },
+      {
+        "key": "refg7/ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5751/ES-10014-230206"
+      },
+      {
+        "key": "refg8/ref8",
+        "first-page": "163",
+        "volume": "25",
+        "author": "Brooks R.P.",
+        "year": "1997",
+        "journal-title": "Wildl. Soc. Bull."
+      },
+      {
+        "key": "refg9/ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1577/03632415.2011.10389052"
+      },
+      {
+        "key": "refg10/ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10021-023-00895-5"
+      },
+      {
+        "key": "refg11/ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lno.11687"
+      },
+      {
+        "key": "refg12/ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/RRA.912"
+      },
+      {
+        "key": "refg13/ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/f95-275"
+      },
+      {
+        "key": "refg14/ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ecy.436"
+      },
+      {
+        "key": "refg15/ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10750-020-04382-z"
+      },
+      {
+        "key": "refg16/ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1899/12-035.1"
+      },
+      {
+        "key": "refg17/ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/OFR20181143"
+      },
+      {
+        "key": "refg18/ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/fsh.10486"
+      },
+      {
+        "key": "refg19/ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/Z90-348"
+      },
+      {
+        "key": "refg20/ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1468321"
+      },
+      {
+        "key": "refg21/ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/S10750-009-0061-X"
+      },
+      {
+        "key": "refg22/ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1577/1548-8675(1995)015<0784:LBRTHA>2.3.CO;2"
+      },
+      {
+        "key": "refg23/ref23",
+        "doi-asserted-by": "crossref",
+        "first-page": "2",
+        "DOI": "10.32614/RJ-2015-018",
+        "volume": "7",
+        "author": "Genuer R.",
+        "year": "2015",
+        "journal-title": "R J."
+      },
+      {
+        "key": "refg24/ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.32614/RJ-2017-016"
+      },
+      {
+        "key": "refg25/ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/RRA.757"
+      },
+      {
+        "key": "refg26/ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/cjfas-2016-0249"
+      },
+      {
+        "key": "refg27/ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ECS2.2737"
+      },
+      {
+        "key": "refg28/ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/686171"
+      },
+      {
+        "key": "refg29/ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10750-010-0282-z"
+      },
+      {
+        "key": "refg30/ref30",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Ickes B., Bowler M., Bartles A., Maxson K. 2022. Ecological status and trends of the Upper Mississippi and Illinois Rivers: U.S. Geological Survey open-file report.\u00a02022\u20131039.\u2009 Edited by Houser J.N. doi:10.3133/ofr20221039.",
+        "DOI": "10.3133/ofr20221039"
+      },
+      {
+        "journal-title": "Fast Unified Random Forests for Survival, Regression, and Classification (RF-SRC)",
+        "year": "2024",
+        "author": "Ishwaran K.",
+        "key": "refg31/ref31"
+      },
+      {
+        "key": "refg33/ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020JG006135"
+      },
+      {
+        "key": "refg34/ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(SICI)1099-1646(1998110)14:6"
+      },
+      {
+        "key": "refg36/ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/fsh.10176"
+      },
+      {
+        "key": "refg37/ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1577/1548-8675(1995)015<0390:robabc>2.3.co;2"
+      },
+      {
+        "key": "refg38/ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1577/1548-8675(1995)015<0390:ROBABC>2.3.CO;2"
+      },
+      {
+        "key": "refg39/ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.geomorph.2006.06.031"
+      },
+      {
+        "key": "refg40/ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1577/T03-089.1"
+      },
+      {
+        "key": "refg42/ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1577/M03-223.1"
+      },
+      {
+        "key": "refg43/ref43",
+        "first-page": "431",
+        "volume": "26",
+        "author": "Louppe G.",
+        "year": "2013",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "refg44/ref44",
+        "first-page": "149",
+        "volume": "31",
+        "author": "Lyons J.",
+        "year": "2002",
+        "journal-title": "Am. Fish. Soc. Symp."
+      },
+      {
+        "volume-title": "Habitat needs assessment-II for the Upper Mississippi River Restoration Program: linking science to management perspectives",
+        "year": "2018",
+        "author": "McCain K.",
+        "key": "refg45/ref45"
+      },
+      {
+        "key": "refg46/ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2014WR016152"
+      },
+      {
+        "key": "refg47/ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1152/AJPREGU.1990.259.2.R191"
+      },
+      {
+        "volume-title": "Impacts of navigation on riverine fish production in the USA. Department of Fisheries and Wildlife Sciences",
+        "year": "1986",
+        "author": "Nielsen L.",
+        "key": "refg48/ref48"
+      },
+      {
+        "volume-title": "Final Model Review Report: Modified Bluegill Habitat Suitability Index Model for Winter Conditions for Upper Mississippi River Backwater Habitats",
+        "year": "2011",
+        "author": "Palardy J.",
+        "key": "refg49/ref49"
+      },
+      {
+        "volume-title": "Modification of the habitat suitability index model for the bluegill for winter conditions in the Upper Mississippi River",
+        "year": "1990",
+        "author": "Palesh G.",
+        "key": "refg50/ref50"
+      },
+      {
+        "volume-title": "R: a language and environment for statistical computing",
+        "year": "2022",
+        "author": "R Core Team",
+        "key": "refg51/ref51"
+      },
+      {
+        "key": "refg52/ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/FME.12578"
+      },
+      {
+        "key": "refg53/ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020JG006065"
+      },
+      {
+        "key": "refg54/ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1577/1548-8675(1997)017"
+      },
+      {
+        "key": "refg55/ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lom3.10523"
+      },
+      {
+        "key": "refg56/ref56",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Rogala J. 2019. Water depth at the 75% exceeded discharge condition for the Upper Mississippi River System (Mississippi River): U.S. Geological Survey data release. doi:10.5066/P92PSPHG.",
+        "DOI": "10.5066/P92PSPHG"
+      },
+      {
+        "key": "refg57/ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02755947.2016.1198285"
+      },
+      {
+        "key": "refg59/ref59",
+        "first-page": "3",
+        "volume": "84",
+        "author": "Schramm H.",
+        "year": "2016",
+        "journal-title": "Am. Fish. Soc. Symp."
+      },
+      {
+        "key": "refg60/ref60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-9326/ac8be5"
+      },
+      {
+        "volume-title": "Winter Habitat Requirements and Overwintering of Riverine Fishes",
+        "year": "1994",
+        "author": "Sheehan R.",
+        "key": "refg61/ref61"
+      },
+      {
+        "key": "refg62/ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41558-018-0393-5"
+      },
+      {
+        "key": "refg63/ref63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/S00027-012-0274-3/TABLES/2"
+      },
+      {
+        "volume-title": "Long Term Resource Monitoring Program Procedures: Water quality monitoring",
+        "year": "2004",
+        "author": "Soballe D.M.",
+        "key": "refg64/ref64"
+      },
+      {
+        "key": "refg65/ref65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/lno.12319"
+      },
+      {
+        "key": "refg66/ref66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eswa.2019.05.028"
+      },
+      {
+        "volume-title": "Habitat suitability index models: bluegill",
+        "year": "1982",
+        "author": "Stuber R.J.",
+        "key": "refg68/ref68"
+      },
+      {
+        "key": "refg69/ref69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/J.1469-7998.2009.00595.X"
+      },
+      {
+        "key": "refg70/ref70",
+        "doi-asserted-by": "crossref",
+        "first-page": "264",
+        "DOI": "10.1002/9781444316032.ch9",
+        "volume-title": "Ecological diversity of centrarchid fishes: basic and applied perspectives",
+        "author": "Suski C.D.",
+        "year": "2009"
+      },
+      {
+        "volume-title": "2015-2025 Strategic Plan Review Report",
+        "year": "2023",
+        "author": "Upper Mississippi River Restoration (UMRR)",
+        "key": "refg71/ref71"
+      },
+      {
+        "key": "refg72/ref72",
+        "unstructured": "U.S. Army Corps of Engineers (USAC). 2000. Ambrough Slough Habitat Rehabilitation and Enhancement Project. Definite Project Report/Environmental Assessment(Sp-23)."
+      },
+      {
+        "volume-title": "Upper Mississippi River Restoration Environmental Management Program Environmental Design Handbook",
+        "year": "2012",
+        "author": "U.S. Army Corps of Engineers (USACE)",
+        "key": "refg73/ref73"
+      },
+      {
+        "key": "refg74/ref74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5066/F7VD6WH8"
+      },
+      {
+        "key": "refg76/ref76",
+        "doi-asserted-by": "publisher",
+        "unstructured": "U.S. Geological Survey (USGS). 2021. USGS water data for the Nation: U.S. Geological Survey National Water Information System database [accessed 10 July 2021]. doi:10.5066/F7P55KJN.",
+        "DOI": "10.5066/F7P55KJN"
+      },
+      {
+        "key": "refg77/ref77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/S13717-023-00460-X"
+      },
+      {
+        "key": "refg78/ref78",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1577/1548-8659(1980)109<659:ARODGS>2.0.CO;2"
+      },
+      {
+        "volume-title": "Wisconsin's changing climate: impacts and solutions for a warmer climate",
+        "year": "2021",
+        "author": "Wisconsin Initiative on Climate Change Impacts (WICCI)",
+        "key": "refg79/ref79"
+      },
+      {
+        "key": "refg80/ref80",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7930/NCA5.2023.CH24"
+      },
+      {
+        "key": "refg81/ref81",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02705060.2020.1806122"
+      },
+      {
+        "key": "refg82/ref82",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rstb.2010.0055"
+      },
+      {
+        "key": "refg83/ref83",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/S10584-019-02465-Y/FIGURES/4"
+      },
+      {
+        "key": "refg84/ref84",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4319/LO.1959.4.2.0195"
+      },
+      {
+        "key": "refg85/ref85",
+        "unstructured": "Wuebbles D., Cardinale B., Cherkauer K., Davidson-Arnott R., Hellman J., Infante D.,  2019. An assessment of the impacts of climate change on the Great Lakes. Environ. Law Policy Cent."
+      },
+      {
+        "key": "refg86/ref86",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/B:MITI.0000038843.73424.DE"
+      }
+    ],
+    "container-title": [
+      "Canadian Journal of Fisheries and Aquatic Sciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://cdnsciencepub.com/doi/full-xml/10.1139/cjfas-2024-0164",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://cdnsciencepub.com/doi/pdf/10.1139/cjfas-2024-0164",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          6
+        ]
+      ],
+      "date-time": "2025-08-06T12:33:16Z",
+      "timestamp": 1754483596000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://cdnsciencepub.com/doi/10.1139/cjfas-2024-0164"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          1
+        ]
+      ]
+    },
+    "references-count": 80,
+    "alternative-id": [
+      "10.1139/cjfas-2024-0164"
+    ],
+    "URL": "https://doi.org/10.1139/cjfas-2024-0164",
+    "relation": {},
+    "ISSN": [
+      "0706-652X",
+      "1205-7533"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0706-652X"
+      },
+      {
+        "type": "electronic",
+        "value": "1205-7533"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2025-03-05",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.1139/cjfas-2024-0164",
+  "original_doi": "10.1139/cjfas-2024-0164"
+}

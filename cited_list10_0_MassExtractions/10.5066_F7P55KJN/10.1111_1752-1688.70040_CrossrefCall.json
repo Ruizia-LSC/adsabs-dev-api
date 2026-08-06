@@ -1,0 +1,718 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          10
+        ]
+      ],
+      "date-time": "2026-03-10T06:59:24Z",
+      "timestamp": 1773125964983,
+      "version": "3.50.1"
+    },
+    "reference-count": 68,
+    "publisher": "Wiley",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              26
+            ]
+          ],
+          "date-time": "2025-08-26T00:00:00Z",
+          "timestamp": 1756166400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 25,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "J American Water Resour Assoc"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          8
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title><jats:p>This study evaluates National Water Model (NWM) performance in low\u2010order montane catchments across the northeastern United States by comparing retrospective simulations to measured observations. To address deficiencies, we develop a machine learning (ML) correction model for selected sites using LightGBM, a different approach from conventional bias correction methods. Montane, low\u2010order streams play a crucial role in water quality and flood generation but pose challenges for streamflow prediction and are under\u2010represented in the national streamgaging network. NWM provides streamflow forecasts across the United States; yet a focused assessment of its performance in these settings has not been comprehensively undertaken. Results indicate NWM performance varied seasonally, with the best performance during the fall and particularly poor performance during snowmelt, spring runoff, and high flow events, with a tendency towards flow underestimation. The ML correction model markedly improved hourly streamflow prediction accuracy based on continuous time series and runoff event\u2010based metrics. Including antecedent water level measurements as input, even from distant sites, greatly improved model performance, demonstrating the potential to improve predictions by deploying supplemental low\u2010cost water level sensors. We demonstrate that NWM performance can be improved in these complex watersheds using ML tools. This approach could be implemented elsewhere to improve NWM streamflow predictions.</jats:p>",
+    "DOI": "10.1111/1752-1688.70040",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          26
+        ]
+      ],
+      "date-time": "2025-08-26T17:56:48Z",
+      "timestamp": 1756231008000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Assessing and Enhancing National Water Model Streamflow Predictions for Montane Catchments in the Northeastern United States"
+    ],
+    "prefix": "10.1111",
+    "volume": "61",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0009-4979-9718",
+        "authenticated-orcid": false,
+        "given": "Mirce",
+        "family": "Morales\u2010Velazquez",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Geography and Geosciences University of Vermont  Burlington Vermont USA"
+          },
+          {
+            "name": "Water Resources Institute University of Vermont  Burlington Vermont USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Beverley",
+        "family": "Wemple",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Geography and Geosciences University of Vermont  Burlington Vermont USA"
+          },
+          {
+            "name": "Water Resources Institute University of Vermont  Burlington Vermont USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "James B.",
+        "family": "Shanley",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Reston Virginia USA"
+          },
+          {
+            "name": "U.S. Geological Survey New England Water Science Center  Montpelier Vermont USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Scott D.",
+        "family": "Hamshaw",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Reston Virginia USA"
+          },
+          {
+            "name": "U.S. Geological Survey Water Resources Mission Area  Reston Virginia USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "John T.",
+        "family": "Kemper",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Geography and Geosciences University of Vermont  Burlington Vermont USA"
+          },
+          {
+            "name": "Department of Watershed Sciences Utah State University  Logan UT USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Donna M.",
+        "family": "Rizzo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Water Resources Institute University of Vermont  Burlington Vermont USA"
+          },
+          {
+            "name": "Department of Civil and Environmental Engineering University of Vermont  Burlington Vermont USA"
+          },
+          {
+            "name": "Department of Computer Science University of Vermont  Burlington Vermont USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Kristen L.",
+        "family": "Underwood",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Water Resources Institute University of Vermont  Burlington Vermont USA"
+          },
+          {
+            "name": "Department of Civil and Environmental Engineering University of Vermont  Burlington Vermont USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Patrick J.",
+        "family": "Clemins",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Water Resources Institute University of Vermont  Burlington Vermont USA"
+          },
+          {
+            "name": "Department of Computer Science University of Vermont  Burlington Vermont USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Andrew W.",
+        "family": "Schroth",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Geography and Geosciences University of Vermont  Burlington Vermont USA"
+          },
+          {
+            "name": "Water Resources Institute University of Vermont  Burlington Vermont USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          26
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_11_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w15132319"
+      },
+      {
+        "key": "e_1_2_11_3_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Akiba T. S.Sano T.Yanase T.Ohta andM.Koyama.2019.\u201cOptuna: A Next\u2010Generation Hyperparameter Optimization Framework. Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining Anchorage AK USA.\u201dhttps://doi.org/10.1145/3292500.3330701.",
+        "DOI": "10.1145/3292500.3330701"
+      },
+      {
+        "key": "e_1_2_11_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-0-12-819166-8.00121-3"
+      },
+      {
+        "key": "e_1_2_11_5_1",
+        "unstructured": "Banacos P.2023.\u201cThe Great Vermont Flood of 10\u201011 July 2023: Preliminary Meteorological Summary.\u201d National Weather Service.https://www.weather.gov/btv/The\u2010Great\u2010Vermont\u2010Flood\u2010of\u201010\u201011\u2010July\u20102023\u2010Preliminary\u2010Meteorological\u2010Summary."
+      },
+      {
+        "key": "e_1_2_11_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JTECH\u2010D\u201019\u20100220.1"
+      },
+      {
+        "key": "e_1_2_11_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2021.127297"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_2_11_8_1",
+        "first-page": "3",
+        "article-title": "STL: A Seasonal\u2010Trend Decomposition Procedure Based on Loess",
+        "volume": "6",
+        "author": "Cleveland R. B.",
+        "year": "1990",
+        "journal-title": "Journal of Official Statistics"
+      },
+      {
+        "key": "e_1_2_11_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752\u20101688.13120"
+      },
+      {
+        "key": "e_1_2_11_10_1",
+        "unstructured": "CoCoRaHs.2024.\u201cCoCoRaHs Mapping System.\u201dhttps://maps.cocorahs.org/."
+      },
+      {
+        "key": "e_1_2_11_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752\u20101688.13184"
+      },
+      {
+        "key": "e_1_2_11_12_1",
+        "unstructured": "Cosgrove B. A. E. P.Clark T.Flowers T. M.Graziano andF. L.Ogden.2024.Advancing NOAA National Water Model Operations With the NextGen Framework Abstract (H21C\u201001) Presented at the AGU Fall Meeting 2024."
+      },
+      {
+        "key": "e_1_2_11_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cageo.2022.105284"
+      },
+      {
+        "key": "e_1_2_11_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/aies\u2010d\u201022\u20100023.1"
+      },
+      {
+        "key": "e_1_2_11_15_1",
+        "unstructured": "Esri.2024.\u201cWorld Hillshade\u201d [Basemap]. Scale Not Given. Data Sourced From Esri USGS and Other Contributors.https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer."
+      },
+      {
+        "key": "e_1_2_11_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752\u20101688.13143"
+      },
+      {
+        "key": "e_1_2_11_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.agwat.2019.105758"
+      },
+      {
+        "key": "e_1_2_11_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR026793"
+      },
+      {
+        "key": "e_1_2_11_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752\u20101688.12964"
+      },
+      {
+        "key": "e_1_2_11_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2017WR022498"
+      },
+      {
+        "key": "e_1_2_11_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.14469"
+      },
+      {
+        "key": "e_1_2_11_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201025\u20102045\u20102021"
+      },
+      {
+        "key": "e_1_2_11_23_1",
+        "unstructured": "Gochis D. J. M.Barlage R.Cabell et\u00a0al.2020.\u201cThe WRF\u2010Hydro Modeling System Technical Description (Version 5.1.1). NCAR Technical Note 108.\u201d"
+      },
+      {
+        "key": "e_1_2_11_24_1",
+        "unstructured": "Goff J. B.Taber andP.Banacos.2024.\u201cThe Significant Flooding and Severe Weather Event of 10\u201011 July 2024.\u201d National Weather Service.https://www.weather.gov/btv/The\u2010Significant\u2010Flooding\u2010and\u2010Severe\u2010Weather\u2010Event\u2010of\u201010\u201011\u2010July\u20102024."
+      },
+      {
+        "key": "e_1_2_11_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1641/0006-3568(2002)052[0905:UPADLO]2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_11_26_1",
+        "unstructured": "Guolin Ke Q. M. T.Finley T.Wang et\u00a0al.2017.\u201cLightGBoM: A Highly Efficient Gradient Boosting Decision Tree 31st Conference on Neural Information Processing Systems (NIPS 2017) \u201d Long Beach CA USA."
+      },
+      {
+        "key": "e_1_2_11_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.70092"
+      },
+      {
+        "key": "e_1_2_11_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2017wr022238"
+      },
+      {
+        "key": "e_1_2_11_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/106365603321828970"
+      },
+      {
+        "key": "e_1_2_11_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/su13073645"
+      },
+      {
+        "key": "e_1_2_11_31_1",
+        "unstructured": "Healy C.2023.\u201cWestern Massachusetts Farms Still Assessing the Damage From Flooding This Week. New England Public Media.\u201dhttps://www.nepm.org/regional\u2010news/2023\u201012\u201020/western\u2010massachusetts\u2010farms\u2010still\u2010assessing\u2010the\u2010damage\u2010from\u2010flooding\u2010this\u2010week."
+      },
+      {
+        "key": "e_1_2_11_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecoser.2013.12.004"
+      },
+      {
+        "key": "e_1_2_11_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021MS002681"
+      },
+      {
+        "key": "e_1_2_11_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/9781009157896.013"
+      },
+      {
+        "key": "e_1_2_11_35_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jia X. J.Zwart J.Sadler et\u00a0al.2021.\u201cPhysics\u2010Guided Recurrent Graph Model for Predicting Flow and Temperature in River Networks.\u201d pp. 612\u2010620.https://doi.org/10.1137/1.9781611976700.69.",
+        "DOI": "10.1137/1.9781611976700.69"
+      },
+      {
+        "key": "e_1_2_11_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023JD038534"
+      },
+      {
+        "key": "e_1_2_11_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201026\u20101673\u20102022"
+      },
+      {
+        "key": "e_1_2_11_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w9060384"
+      },
+      {
+        "key": "e_1_2_11_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008eo100001"
+      },
+      {
+        "key": "e_1_2_11_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2019.124236"
+      },
+      {
+        "key": "e_1_2_11_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2166/nh.2022.004"
+      },
+      {
+        "key": "e_1_2_11_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011WR010630"
+      },
+      {
+        "key": "e_1_2_11_43_1",
+        "unstructured": "McElfresh D. S.Khandagale J.Valverde et\u00a0al.2023.\u201cWhen Do Neural Nets Outperform Boosted Trees on Tabular Data?. Advances in Neural Information Processing Systems 36 76336\u201376369.\u201d"
+      },
+      {
+        "key": "e_1_2_11_44_1",
+        "unstructured": "McKay L. T.Bondelid T.Dewald J.Johnston R.Moore andA.Rea.2012.\u201cNHDPlus Version 2: User Guide (Data Model Version 2.1).\u201d"
+      },
+      {
+        "key": "e_1_2_11_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JTECH\u2010D\u201011\u201000103.1"
+      },
+      {
+        "key": "e_1_2_11_46_1",
+        "first-page": "295",
+        "volume-title": "Proceedings, the 41st Symposium of the British Ecological Society Jointly Sponsored by the Ecological Society of America,10\u201313 April 2000",
+        "author": "Meyer J.",
+        "year": "2001"
+      },
+      {
+        "key": "e_1_2_11_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13031/2013.23153"
+      },
+      {
+        "key": "e_1_2_11_48_1",
+        "unstructured": "MRLC.2021.\u201cNational Land Cover Database (NLCD) for the Conterminous U.S.\u2014NLCD 2021.\u201dhttps://www.mrlc.gov/viewer/."
+      },
+      {
+        "key": "e_1_2_11_49_1",
+        "unstructured": "NCEI.2024a.\u201cBillion\u2010Dollar Weather and Climate Disasters.\u201d Massachusetts Summary. National Centers for Environmental Information. National Oceanic and Atmospheric Administration.https://www.ncei.noaa.gov/access/billions/state\u2010summary/MA."
+      },
+      {
+        "key": "e_1_2_11_50_1",
+        "unstructured": "NCEI.2024b.\u201cBillion\u2010Dollar Weather and Climate Disasters.\u201d Vermont Summary. National Centers for Environmental Information. National Oceanic and Atmospheric Administration.https://www.ncei.noaa.gov/access/billions/state\u2010summary/VT."
+      },
+      {
+        "key": "e_1_2_11_51_1",
+        "unstructured": "NCEI.2024c.\u201cGlobal Historical Climatology Network Daily (GHCNd).\u201d National Centers for Environmental Information. National Oceanic and Atmospheric Administration.https://www.ncei.noaa.gov/products/land\u2010based\u2010station/global\u2010historical\u2010climatology\u2010network\u2010daily."
+      },
+      {
+        "key": "e_1_2_11_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201026\u20105493\u20102022"
+      },
+      {
+        "key": "e_1_2_11_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2010JD015139"
+      },
+      {
+        "key": "e_1_2_11_54_1",
+        "unstructured": "NOAA.2023.\u201cNational Water Model CONUS Retrospective Dataset.\u201dhttps://registry.opendata.aws/nwm\u2010archive."
+      },
+      {
+        "key": "e_1_2_11_55_1",
+        "unstructured": "NWS.2021.\u201cAnalysis of Record for Calibration: Version 1.1. Sources Methods and Verification. National Weather Service. Office of Water Prediction.\u201d"
+      },
+      {
+        "key": "e_1_2_11_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM\u2010D\u201013\u20100188.1"
+      },
+      {
+        "key": "e_1_2_11_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10584\u2010023\u201003545\u2010w"
+      },
+      {
+        "key": "e_1_2_11_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/BAMS\u2010D\u201014\u201000213.1"
+      },
+      {
+        "key": "e_1_2_11_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/WAF\u2010D\u201022\u20100050.1"
+      },
+      {
+        "key": "e_1_2_11_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/9781119646181.ch19"
+      },
+      {
+        "key": "e_1_2_11_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(SICI)1099\u20101085(20000228)14:3<369::AID\u2010HYP943>3.0.CO;2\u2010P"
+      },
+      {
+        "key": "e_1_2_11_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2023.130458"
+      },
+      {
+        "key": "e_1_2_11_63_1",
+        "unstructured": "U.S. Geological Survey.2023.\u201cUSGS Water Data for the Nation: U.S. Geological Survey National Water Information System Database.\u201dhttps://doi.org/10.5066/F7P55KJN."
+      },
+      {
+        "key": "e_1_2_11_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/JHM\u2010D\u201021\u20100226.1"
+      },
+      {
+        "key": "e_1_2_11_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2009.06.019"
+      },
+      {
+        "key": "e_1_2_11_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.14563"
+      },
+      {
+        "key": "e_1_2_11_67_1",
+        "unstructured": "Willard J. C.Varadharajan X.Jia andV.Kumar.2023.Time Series Predictions in Unmonitored Sites: A Survey of Machine Learning Techniques in Water Resources."
+      },
+      {
+        "key": "e_1_2_11_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11707\u2010017\u20100647\u2010y"
+      },
+      {
+        "key": "e_1_2_11_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1432"
+      }
+    ],
+    "container-title": [
+      "JAWRA Journal of the American Water Resources Association"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/1752-1688.70040",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          26
+        ]
+      ],
+      "date-time": "2025-08-26T18:19:26Z",
+      "timestamp": 1756232366000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1111/1752-1688.70040"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8
+        ]
+      ]
+    },
+    "references-count": 68,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            8
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/1752-1688.70040"
+    ],
+    "URL": "https://doi.org/10.1111/1752-1688.70040",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "1093-474X",
+      "1752-1688"
+    ],
+    "issn-type": [
+      {
+        "value": "1093-474X",
+        "type": "print"
+      },
+      {
+        "value": "1752-1688",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          8
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2024-11-01",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-07-29",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-08-26",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e70040"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1111/1752-1688.70040",
+  "original_doi": "10.1111/1752-1688.70040"
+}

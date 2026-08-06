@@ -1,0 +1,733 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          29
+        ]
+      ],
+      "date-time": "2026-07-29T20:09:48Z",
+      "timestamp": 1785355788065,
+      "version": "3.55.0"
+    },
+    "reference-count": 76,
+    "publisher": "Wiley",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              7
+            ]
+          ],
+          "date-time": "2022-01-07T00:00:00Z",
+          "timestamp": 1641513600000
+        },
+        "content-version": "am",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              7
+            ]
+          ],
+          "date-time": "2022-01-07T00:00:00Z",
+          "timestamp": 1641513600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "ngwa.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Groundwater"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Manganese (Mn) concentrations and the probability of arsenic (As) exceeding the drinking\u2010water standard of 10\u00a0\u03bcg/L were predicted in the Mississippi River Valley alluvial aquifer (MRVA) using boosted regression trees (BRT). BRT, a type of ensemble\u2010tree machine\u2010learning model, were created using predictor variables that affect Mn and As distribution in groundwater. These variables included iron (Fe) concentrations and specific conductance predicted from previously developed BRT models, groundwater flux and age estimates from MODFLOW, and hydrologic characteristics. The models also included results from the first airborne geophysical survey conducted in the United States to target an entire aquifer system. Predictions of high Mn and As occurred where Fe was high. Predicted high Mn concentrations were correlated with fraction of young groundwater (less than 65\u2009years) computed from MODFLOW results. High probabilities of As exceedance were predicted where groundwater was relatively old and airborne electromagnetic resistivity was high, typically proximal to streams. Two\u2010variable partial\u2010dependence plots and sensitivity analysis were used to provide insight into the factors controlling Mn and As distribution in groundwater. The maps of predicted Mn concentrations and As exceedance probabilities can be used to identify areas where these constituents may be high, and that could be targeted for further study. This paper shows that incorporation of a selected set of process\u2010informed data, such as MODFLOW results and airborne geophysics, into a machine\u2010learning model improves model interpretability. Incorporation of process\u2010rich information into machine\u2010learning models will likely be useful for addressing a wide range of problems of interest to groundwater hydrologists.</jats:p>",
+    "DOI": "10.1111/gwat.13164",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          24
+        ]
+      ],
+      "date-time": "2021-12-24T06:59:42Z",
+      "timestamp": 1640329182000
+    },
+    "page": "362-376",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 24,
+    "title": [
+      "Mapped Predictions of Manganese and Arsenic\u00a0in an Alluvial Aquifer Using Boosted Regression Trees"
+    ],
+    "prefix": "10.1111",
+    "volume": "60",
+    "author": [
+      {
+        "given": "Katherine J.",
+        "family": "Knierim",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "James A.",
+        "family": "Kingsbury",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Nashville TN USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kenneth",
+        "family": "Belitz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Carlisle MA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Paul E.",
+        "family": "Stackelberg",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Troy NY USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Burke J.",
+        "family": "Minsley",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Denver CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.R.",
+        "family": "Rigby",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Oxford MS USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          7
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alhassan M. C. B.Lawrence S.Richardson andE. J.Pindilli.2019.The Mississippi Alluvial Plain aquifers\u2014An engine for economic activity. U.S. Geological Survey Fact Sheet 2019\u20133003.https://doi.org/10.3133/fs20193003.",
+        "DOI": "10.3133/fs20193003"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es702859e"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.7b02881"
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2007WR006000"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "unstructured": "Bakker M. V.Post C. D.Langevin J. D.Hughes J. T.White J. J.Starn andM. N.Fienen.2021.FloPy v3.3.4\u2014Release candidate. U.S. Geological Survey Software Release.https://doi.org/10.5066/F7BK19FH."
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gwat.12413"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2021.105006"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR025908"
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.apgeochem.2018.10.014"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/94WR02525"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "unstructured": "Clark B. R. K. J.Knierim andL.Duncan.2019.Zonepy: Zonal analysis tools for raster and vector datasets (version 0.0).https://github.com/brclark\u2010usgs/zonepy. (accessed January 5 2021)."
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "unstructured": "Clark B. R. P. M.Barlow S. M.Peterson J. D.Hughes H. W.Reeves andR.Viger.2018.National\u2010scale grid to support regional groundwater availability studies and a national hydrogeologic framework. U.S. Geological Survey Data Release.https://doi.org/10.5066/f7p84b24."
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Clark B. R. andR. M.Hart.2009.The Mississippi Embayment Regional Aquifer Study (MERAS): Documentation of a groundwater\u2010flow model constructed to assess water availability in the Mississippi Embayment. U.S. Geological Survey Scientific Investigations Report 2009\u20135172.https://doi.org/10.3133/sir20095172.",
+        "DOI": "10.3133/sir20095172"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365\u20102656.2008.01390.x"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/07\u2010AOAS148"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/aos/1013203451"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "GDAL/OGR contributors.2019.GDAL/OGR geospatial data abstraction software library. Open Source Geospatial Foundation. (version 2.4).https://gdal.org. (accessed September 18 2020).",
+        "DOI": "10.22224/gistbok/2020.4.1"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598\u2010020\u201062187\u20105"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.32614/RJ-2017-016"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "volume-title": "Causes and Prevention of Emitter Plugging in Microirrigation Systems, University of Florida Institute of Food and Agricultural Sciences Extension BUL258",
+        "author": "Haman D.",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Haugh C. J. C. D.Killian andJ. R. B.Barlow.2020a.MODFLOW\u20102005 model used to evaluate water\u2010management scenarios for the Mississippi Delta. U.S. Geological Survey Data Release.https://doi.org/10.5066/P9906VM5.",
+        "DOI": "10.3133/sir20195116"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Haugh C. J. C. D.Killian andJ. R. B.Barlow.2020b.Simulation of water\u2010management scenarios for the Mississippi Delta. U.S. Geological Survey Scientific Investigations Report 2019\u20135116.https://doi.org/10.3133/sir20195116.",
+        "DOI": "10.3133/sir20195116"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "unstructured": "Haugh C. J. K. J.Knierim andJ. A.Kingsbury.2020c.Simulated groundwater residence times in two principal aquifers of the Mississippi embayment physiographic region. U.S. Geological Survey Data release.https://doi.org/10.5066/P9X513WO."
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Helsel D.R.andR. M.Hirsch 2002.Statistical methods in water resources techniques of water resources investigations Book 4 chapter A3. U.S. Geological Survey. 522 pages.https://doi.org/10.3133/twri04A3.",
+        "DOI": "10.3133/twri04A3"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "unstructured": "James S. R. andB. J.Minsley.2021.Combined results and derivative products of hydrogeologic structure and properties from airborne electromagnetic surveys in the Mississippi Alluvial Plain. U.S. Geological Survey Data Release.https://doi.org/10.5066/P9382RCI."
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2009.02.056"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2382577.2382579"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kingsbury J. A. K. J.Knierim andC. J.Haugh.2020a.Predicted pH of groundwater in the Mississippi River Valley alluvial and Claiborne aquifers south\u2010central United States. U.S. Geological Survey Scientific Investigations Map 3465.https://doi.org/10.3133/sim3465.",
+        "DOI": "10.3133/sim3465"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kingsbury J. A. K. J.Knierim andC. J.Haugh.2020b.Prediction grids of pH for the Mississippi River Valley Alluvial and Claiborne Aquifers. U.S. Geological Survey Data release.https://doi.org/10.5066/P9CXX7LN.",
+        "DOI": "10.3133/sim3465"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kingsbury J. A. J. R.Barlow B. G.Katz H. L.Welch R. W.Tollett andL. S.Fahlquist.2015.The quality of our Nation's waters: Water quality in the Mississippi embayment\u2010Texas coastal uplands aquifer system and Mississippi River Valley alluvial aquifer south\u2010central United States 1994\u20132008. U.S. Geological Survey Circular 1356.https://doi.org/10.3133/cir1356.",
+        "DOI": "10.3133/cir1356"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "unstructured": "Knierim K. J. J. A.Kingsbury andC. J.Haugh.2020a.Machine\u2010learning model predictions and groundwater\u2010quality rasters of specific conductance total dissolved solids and chloride in aquifers of the Mississippi embayment. U.S. Geological Survey Data Release.https://doi.org/10.5066/P9WBFR1T."
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752\u20101688.12879"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Knierim K. J. J. A.Kingsbury andC. J.Haugh.2020c.Machine\u2010learning model predictions and rasters of dissolved oxygen probability iron concentration and redox conditions in groundwater in the Mississippi River Valley alluvial and Claiborne aquifers. U.S. Geological Survey Data release.https://doi.org/10.5066/P9N108JM.",
+        "DOI": "10.3133/sim3468"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "unstructured": "Knierim K. J. J. A.KingsburyandK.M.Ransom.2021a.Machine\u2010learning model predictions and rasters of arsenic and manganese in groundwater in the Mississippi River Valley alluvial aquifer. U.S. Geological Survey Data Release.https://doi.org/10.5066/P9PRLNA3."
+      },
+      {
+        "key": "e_1_2_8_36_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Knierim K. J. J. A.Kingsbury andC. J.Haugh.2021b.Machine\u2010learning predictions of redox conditions in groundwater in the Mississippi River Valley alluvial and Claiborne aquifers south\u2010central United States. U.S. Geological Survey Scientific Investigations Map 3468.https://doi.org/10.3133/sim3468.",
+        "DOI": "10.3133/sim3468"
+      },
+      {
+        "key": "e_1_2_8_37_1",
+        "unstructured": "Knierim K. J. A.Kingsbury andC. J.Haugh.2019.Groundwater withdrawal zones for drinking water from the Mississippi River Valley alluvial aquifer and Mississippi embayment aquifers. U.S. Geological Survey Data release.https://doi.org/10.5066/P9FZV4ED."
+      },
+      {
+        "key": "e_1_2_8_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10653\u2010020\u201000643\u2010x"
+      },
+      {
+        "key": "e_1_2_8_39_1",
+        "unstructured": "Kresse T. andJ.Fazio.2003.Occurrence of arsenic in ground waters of Arkansas and implications for source and release mechanisms. Arkansas Department of Environmental Quality Water Quality Report WQ03\u201003\u201001.https://www.adeq.state.ar.us/water/planning/pdfs/publications/WQ03\u201003\u20101.pdf. (accessed May 30 2018)."
+      },
+      {
+        "key": "e_1_2_8_40_1",
+        "unstructured": "Kuhn M. J.Wing S.Weston A.Williams C.Keefer A.Engelhardt T.Cooper Z.Mayer B.Kenkel the R Core Team M.Benesty R.Lescarbeau A.Ziem L.Scrucca Y.Tang C.Candan andT.Hunt.2019.caret: Classification and Regression Training(version 6.0\u201085) https://cran.r\u2010project.org/web/packages/caret/index.html. (accessed September 20 2020)."
+      },
+      {
+        "key": "e_1_2_8_41_1",
+        "volume-title": "Applied Predictive Modeling",
+        "author": "Kuhn M.",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_8_42_1",
+        "unstructured": "Lee L.2020.NADA package (version 1.6).https://CRAN.R\u2010project.org/package=NADA. (accessed August 20 2020)."
+      },
+      {
+        "key": "e_1_2_8_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.0c05239"
+      },
+      {
+        "key": "e_1_2_8_44_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McGuire V. L. R. C.Seanor W. H.Asquith A. M.Nottmeier S. C.David R. W.Tollett W. H.Kress andK. R.Strauch.2020.Datasets used to map the potentiometric surface Mississippi River Valley alluvial aquifer spring 2018. U.S. Geological Survey Data Release.https://doi.org/10.5066/P992HD1R.",
+        "DOI": "10.3133/sim3453"
+      },
+      {
+        "key": "e_1_2_8_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.8b04055"
+      },
+      {
+        "key": "e_1_2_8_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43247\u2010021\u201000200\u2010z"
+      },
+      {
+        "key": "e_1_2_8_47_1",
+        "unstructured": "Molnar C.2019.Interpretable machine learning.https://christophm.github.io/interpretable\u2010ml\u2010book/. (accessed April 15 2019)."
+      },
+      {
+        "key": "e_1_2_8_48_1",
+        "unstructured": "Moore R. K.Belitz T. L.Arnold J. B.Sharpe andJ. J.Starn.2019.National Multi Order Hydrologic Position (MOHP) predictor data for groundwater and groundwater\u2010quality modeling. U.S. Geological Survey Data release.https://doi.org/10.5066/P9HLU4YY."
+      },
+      {
+        "key": "e_1_2_8_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2015.10.025"
+      },
+      {
+        "key": "e_1_2_8_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR024816"
+      },
+      {
+        "key": "e_1_2_8_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aba1510"
+      },
+      {
+        "key": "e_1_2_8_52_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pollock D. W.2012.User guide for MODPATH version 6\u2014A particle\u2010tracking model for MODFLOW. U.S. Geological Survey Techniques and Methods 6\u2013A41.https://doi.org/10.3133/tm6A41.",
+        "DOI": "10.3133/tm6A41"
+      },
+      {
+        "key": "e_1_2_8_53_1",
+        "first-page": "53",
+        "volume-title": "Electromagnetic Methods in Applied Geophysics: Voume 1, Theory",
+        "author": "Palacky G.J.",
+        "year": "1987"
+      },
+      {
+        "key": "e_1_2_8_54_1",
+        "unstructured": "Python Software Foundation.2019.Python Language Reference v 3.7. Python.Org 2019 https://www.python.org. (accessed June 1 2019)."
+      },
+      {
+        "key": "e_1_2_8_55_1",
+        "volume-title": "R: A Language and Environment for Statistical Computing",
+        "author": "R Core Team",
+        "year": "2019"
+      },
+      {
+        "key": "e_1_2_8_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.0c08065"
+      },
+      {
+        "key": "e_1_2_8_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2021.151065"
+      },
+      {
+        "key": "e_1_2_8_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752\u20101688.12546"
+      },
+      {
+        "key": "e_1_2_8_59_1",
+        "unstructured": "Renken R. A.1998.Ground Water Atlas of the United States: Segment 5 Arkansas Louisiana Mississippi. U.S. Geological Survey Hydrologic Atlas 730\u2010F.10.3133/ha730F."
+      },
+      {
+        "key": "e_1_2_8_60_1",
+        "unstructured": "Ridgeway G.2019.gbm: Generalized boosted regression models(version 2.1.5).https://cran.r\u2010project.org/web/packages/gbm/gbm.pdf. (accessed September 15 2020)."
+      },
+      {
+        "key": "e_1_2_8_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jconhyd.2008.03.001"
+      },
+      {
+        "key": "e_1_2_8_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0883\u20102927(02)00018\u20105"
+      },
+      {
+        "key": "e_1_2_8_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gwat.13063"
+      },
+      {
+        "key": "e_1_2_8_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2017WR021531"
+      },
+      {
+        "key": "e_1_2_8_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2005WR004499"
+      },
+      {
+        "key": "e_1_2_8_66_1",
+        "unstructured": "Toccalino P. L. J. E.Norman andK. M.Schoephoester.2018.Health\u2010based screening levels for evaluating water\u2010quality data. U.S. Geological Survey https://doi.org/10.5066/F71C1TWP."
+      },
+      {
+        "key": "e_1_2_8_67_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Torak L. J. andJ. A.Painter.2019a.Digital surfaces of the bottom altitude and thickness of the Mississippi River Valley alluvial aquifer and site data within the Mississippi Alluvial Plain project region. U.S. Geological Survey Data Release.https://doi.org/10.5066/P9D9XR5F.",
+        "DOI": "10.3133/sim3426"
+      },
+      {
+        "key": "e_1_2_8_68_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Torak L. J. andJ. A.Painter.2019b.Geostatistical estimation of the bottom altitude and thickness of the Mississippi River Valley alluvial aquifer. U.S. Geological Survey Scientific Investigations Map 3426.https://doi.org/10.3133/sim3426.",
+        "DOI": "10.3133/sim3426"
+      },
+      {
+        "key": "e_1_2_8_69_1",
+        "unstructured": "U.S. Environmental Protection Agency.2013.Safe Drinking Water Information System (SDWIS). Data and Tools 2013.https://www.epa.gov/enviro/sdwis\u2010search."
+      },
+      {
+        "key": "e_1_2_8_70_1",
+        "unstructured": "U.S. Environmental Protection Agency.2020a.National Primary Drinking Water Regulations. Overviews and Factsheets.https://www.epa.gov/ground\u2010water\u2010and\u2010drinking\u2010water/national\u2010primary\u2010drinking\u2010water\u2010regulations. (accessed December 12 2020)."
+      },
+      {
+        "key": "e_1_2_8_71_1",
+        "unstructured": "U.S. Environmental Protection Agency.2020b.Secondary Drinking Water Standards: Guidance for nuisance chemicals. 2020.https://www.epa.gov/sdwa/secondary\u2010drinking\u2010water\u2010standards\u2010guidance\u2010nuisance\u2010chemicals#table. (accessed December 12 2020)."
+      },
+      {
+        "key": "e_1_2_8_72_1",
+        "unstructured": "U.S. Geological Survey.2019.USGS water data for the Nation: U.S. Geological Survey National Water Information System database 2019.https://doi.org/10.5066/F7P55KJN."
+      },
+      {
+        "key": "e_1_2_8_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745\u20106584.2000.tb00251.x"
+      },
+      {
+        "key": "e_1_2_8_74_1",
+        "volume-title": "Guidelines for Drinking\u2010Water Quality",
+        "author": "World Health Organization",
+        "year": "2011"
+      },
+      {
+        "key": "e_1_2_8_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es405670g"
+      },
+      {
+        "key": "e_1_2_8_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es702747y"
+      },
+      {
+        "key": "e_1_2_8_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02664763.2011.578621"
+      }
+    ],
+    "container-title": [
+      "Groundwater"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/gwat.13164",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/gwat.13164",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://ngwa.onlinelibrary.wiley.com/doi/pdf/10.1111/gwat.13164",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://ngwa.onlinelibrary.wiley.com/doi/pdf/10.1111/gwat.13164",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          2
+        ]
+      ],
+      "date-time": "2025-11-02T12:05:52Z",
+      "timestamp": 1762085152000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ngwa.onlinelibrary.wiley.com/doi/10.1111/gwat.13164"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          7
+        ]
+      ]
+    },
+    "references-count": 76,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            5
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/gwat.13164"
+    ],
+    "URL": "https://doi.org/10.1111/gwat.13164",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0017-467X",
+      "1745-6584"
+    ],
+    "issn-type": [
+      {
+        "value": "0017-467X",
+        "type": "print"
+      },
+      {
+        "value": "1745-6584",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          7
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2021-09-07",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2021-12-13",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2022-01-07",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.1111/gwat.13164",
+  "original_doi": "10.1111/gwat.13164"
+}

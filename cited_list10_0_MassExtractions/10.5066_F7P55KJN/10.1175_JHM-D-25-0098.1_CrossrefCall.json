@@ -1,0 +1,2556 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          1
+        ]
+      ],
+      "date-time": "2026-06-01T22:56:13Z",
+      "timestamp": 1780354573843,
+      "version": "3.54.1"
+    },
+    "reference-count": 240,
+    "publisher": "American Meteorological Society",
+    "issue": "12",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "http://www.ametsoc.org/PUBSReuseLicenses"
+      }
+    ],
+    "funder": [
+      {
+        "name": "National Science Foundation",
+        "award": [
+          "1749638"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "1749638"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Conventional probable maximum precipitation (PMP) methods face several limitations, including uncertainty in estimating the upper bound, subjectivity in storm maximization, and the assumption of a stationary climate. To address these limitations, we propose a new approach that estimates PMP with specific annual exceedance probabilities (AEPs) across varying climate periods. Our approach integrates a stochastic rainfall generator (StormLab) with a novel nonstationary generalized extreme value (GEV) model and is applied to the upper Red River basin in the south-central United States. StormLab simulated 10\u2009000 years of high-resolution (6 h, 0.03\u00b0) precipitation fields from 1901 to 2100, driven by 50 ensembles of a global climate model (GCM). We then fitted the GEV model to the simulated precipitation annual maxima to derive nonstationary PMP estimates. StormLab was further coupled with a hydrologic model estimate probable maximum flood (PMF) in major tributaries. Our approach estimates PMP for areas ranging from 10 to 20\u2009000 mi\n                    <jats:sup>2</jats:sup>\n                    and durations from 6 to 360 h. Results show a 15%\u201325% increase in PMP (with an AEP of 10\n                    <jats:sup>\u22124</jats:sup>\n                    ) from 2020 to 2100 across various spatial and temporal scales. Higher increases of 35% and 36% are projected for PMF in two major tributaries with the same AEP. This study underscores the value of using stochastic rainfall models and GCM large ensembles to inform PMP and PMF analysis in a changing climate.\n                  </jats:p>",
+    "DOI": "10.1175/jhm-d-25-0098.1",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          26
+        ]
+      ],
+      "date-time": "2025-11-26T14:50:52Z",
+      "timestamp": 1764168652000
+    },
+    "page": "1957-1980",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "A Nonstationary Probabilistic Approach for Probable Maximum Precipitation Estimation Based on Global Climate Model Large Ensembles"
+    ],
+    "prefix": "10.1175",
+    "volume": "26",
+    "author": [
+      {
+        "given": "Yuan",
+        "family": "Liu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Civil and Environmental Engineering, University of Wisconsin\u2013Madison, Madison, Wisconsin"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daniel B.",
+        "family": "Wright",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil and Environmental Engineering, University of Wisconsin\u2013Madison, Madison, Wisconsin"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Felipe",
+        "family": "Quintero",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "IIHR Hydroscience and Engineering, Iowa Flood Center, The University of Iowa, Iowa City, Iowa"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "John F.",
+        "family": "England",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Army Corps of Engineers, Denver, Colorado"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "James A.",
+        "family": "Smith",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil and Environmental Engineering, Princeton University, Princeton, New Jersey"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lei",
+        "family": "Yan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil and Environmental Engineering, University of Wisconsin\u2013Madison, Madison, Wisconsin"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "12",
+    "reference": [
+      {
+        "key": "bib1",
+        "series-title": "Adv. Water Resour.",
+        "first-page": "11",
+        "article-title": "What are the best covariates for developing non-stationary rainfall intensity-duration-frequency relationship?",
+        "volume": "101",
+        "author": "Agilan, V.",
+        "year": "2017",
+        "unstructured": "Agilan, V., and N. V. Umamahesh, 2017: \nWhat are the best covariates for developing non-stationary rainfall intensity-duration-frequency relationship? Adv. Water Resour., 101, 11\u201322, https://doi.org/10.1016/j.advwatres.2016.12.016."
+      },
+      {
+        "key": "bib2",
+        "series-title": "Earth Syst. Environ.",
+        "first-page": "1",
+        "article-title": "Projected changes in temperature and precipitation over the United States, Central America, and the Caribbean in CMIP6 GCMs",
+        "volume": "5",
+        "author": "Almazroui, M.",
+        "year": "2021",
+        "unstructured": "Almazroui, M., and Coauthors, 2021: \nProjected changes in temperature and precipitation over the United States, Central America, and the Caribbean in CMIP6 GCMs. Earth Syst. Environ., 5, 1\u201324, https://doi.org/10.1007/s41748-021-00199-5."
+      },
+      {
+        "key": "bib3",
+        "first-page": "126",
+        "article-title": "Regional probable maximum precipitation study for Oklahoma, Arkansas, Louisiana, and Mississippi Final Report",
+        "year": "2019",
+        "unstructured": "AWA, 2019: \nRegional probable maximum precipitation study for Oklahoma, Arkansas, Louisiana, and Mississippi Final Report. AWA Rep., 126 pp."
+      },
+      {
+        "key": "bib4",
+        "series-title": "Geophys. Res. Lett.",
+        "first-page": "1165",
+        "article-title": "Heavy precipitation in a changing climate: Does short-term summer precipitation increase faster?",
+        "volume": "42",
+        "author": "Ban, N.",
+        "year": "2015",
+        "unstructured": "Ban, N., J. Schmidli, and C. Sch\u00e4r, 2015: \nHeavy precipitation in a changing climate: Does short-term summer precipitation increase faster? Geophys. Res. Lett., 42, 1165\u20131172, https://doi.org/10.1002/2014GL062588."
+      },
+      {
+        "key": "bib5",
+        "series-title": "Environ. Res. Lett.",
+        "first-page": "124065",
+        "article-title": "PHEV! The physically-based extreme value distribution of river flows",
+        "volume": "16",
+        "author": "Basso, S.",
+        "year": "2021",
+        "unstructured": "Basso, S., G. Botter, R. Merz, and A. Miniussi, 2021: \nPHEV! The physically-based extreme value distribution of river flows. Environ. Res. Lett., 16, 124065, https://doi.org/10.1088/1748-9326/ac3d59."
+      },
+      {
+        "key": "bib6",
+        "series-title": "Nat. Geosci.",
+        "first-page": "181",
+        "article-title": "Strong increase in convective precipitation in response to higher temperatures",
+        "volume": "6",
+        "author": "Berg, P.",
+        "year": "2013",
+        "unstructured": "Berg, P., C. Moseley, and J. O. Haerter, 2013: \nStrong increase in convective precipitation in response to higher temperatures. Nat. Geosci., 6, 181\u2013185, https://doi.org/10.1038/ngeo1731."
+      },
+      {
+        "key": "bib7",
+        "series-title": "J. Appl. Meteor. Climatol.",
+        "first-page": "1321",
+        "article-title": "Future hydrologic extremes of the Red River basin",
+        "volume": "57",
+        "author": "Bertrand, D.",
+        "year": "2018",
+        "unstructured": "Bertrand, D., and R. A. McPherson, 2018: \nFuture hydrologic extremes of the Red River basin. J. Appl. Meteor. Climatol., 57, 1321\u20131336, https://doi.org/10.1175/JAMC-D-17-0346.1."
+      },
+      {
+        "key": "bib8",
+        "series-title": "Commun. Stat. - Simul. Comput.",
+        "first-page": "87",
+        "article-title": "Minimum sample size determination for generalized extreme value distribution",
+        "volume": "40",
+        "author": "Cai, Y.",
+        "year": "2010",
+        "unstructured": "Cai, Y., and D. Hames, 2010: \nMinimum sample size determination for generalized extreme value distribution. Commun. Stat. - Simul. Comput., 40, 87\u201398, https://doi.org/10.1080/03610918.2010.530368."
+      },
+      {
+        "key": "bib9",
+        "series-title": "Hydrol. Processes",
+        "first-page": "673",
+        "article-title": "A flexible nonlinear modelling framework for nonstationary generalized extreme value analysis in hydroclimatology",
+        "volume": "24",
+        "author": "Cannon, A. J.",
+        "year": "2010",
+        "unstructured": "Cannon, A. J., 2010: \nA flexible nonlinear modelling framework for nonstationary generalized extreme value analysis in hydroclimatology. Hydrol. Processes, 24, 673\u2013685, https://doi.org/10.1002/hyp.7506."
+      },
+      {
+        "key": "bib10",
+        "series-title": "Geophys. Res. Lett.",
+        "first-page": "1560",
+        "article-title": "The probability distribution of intense daily precipitation",
+        "volume": "42",
+        "author": "Cavanaugh, N. R.",
+        "year": "2015",
+        "unstructured": "Cavanaugh, N. R., A. Gershunov, A. K. Panorska, and T. J. Kozubowski, 2015: \nThe probability distribution of intense daily precipitation. Geophys. Res. Lett., 42, 1560\u20131567, https://doi.org/10.1002/2015GL063238."
+      },
+      {
+        "key": "bib11",
+        "series-title": "17th Conf. on Hydrology",
+        "first-page": "P1.6",
+        "article-title": "The dependence of the moisture maximization in PMP procedures on spatial scale",
+        "author": "Chen, L.-C.",
+        "year": "2003",
+        "unstructured": "Chen, L.-C., and A. A. Bradley Jr., 2003: \nThe dependence of the moisture maximization in PMP procedures on spatial scale. 17th Conf. on Hydrology, Austin, TX, \nAmer. Meteor. Soc., P1.6, https://ams.confex.com/ams/annual2003/webprogram/Paper55153.html."
+      },
+      {
+        "key": "bib12",
+        "series-title": "Water Resour. Res.",
+        "first-page": "9600",
+        "article-title": "Probable maximum precipitation in the U.S. Pacific Northwest in a changing climate",
+        "volume": "53",
+        "author": "Chen, X.",
+        "year": "2017",
+        "unstructured": "Chen, X., F. Hossain, and L. R. Leung, 2017: \nProbable maximum precipitation in the U.S. Pacific Northwest in a changing climate. Water Resour. Res., 53, 9600\u20139622, https://doi.org/10.1002/2017WR021094."
+      },
+      {
+        "key": "bib13",
+        "series-title": "Climatic Change",
+        "first-page": "353",
+        "article-title": "Non-stationary extreme value analysis in a changing climate",
+        "volume": "127",
+        "author": "Cheng, L.",
+        "year": "2014",
+        "unstructured": "Cheng, L., A. AghaKouchak, E. Gilleland, and R. W. Katz, 2014: \nNon-stationary extreme value analysis in a changing climate. Climatic Change, 127, 353\u2013369, https://doi.org/10.1007/s10584-014-1254-5."
+      },
+      {
+        "key": "bib14",
+        "article-title": "Center for high throughput computing",
+        "year": "2006",
+        "unstructured": "CHTC, 2006: \nCenter for high throughput computing. \nUniversity of Wisconsin\u2013Madison, accessed 15 July 2024, https://doi.org/10.21231/GNT1-HW21."
+      },
+      {
+        "key": "bib15",
+        "series-title": "An Introduction to Statistical Modeling of Extreme Values.",
+        "first-page": "224",
+        "author": "Coles, S.",
+        "year": "2001",
+        "unstructured": "Coles, S., 2001: An Introduction to Statistical Modeling of Extreme Values. \nSpringer, 224 pp."
+      },
+      {
+        "key": "bib16",
+        "series-title": "J. Adv. Model. Earth Syst.",
+        "first-page": "e2019MS001916",
+        "article-title": "The Community Earth System Model version 2 (CESM2)",
+        "volume": "12",
+        "author": "Danabasoglu, G.",
+        "year": "2020",
+        "unstructured": "Danabasoglu, G., and Coauthors, 2020: \nThe Community Earth System Model version 2 (CESM2). J. Adv. Model. Earth Syst., 12, e2019MS001916, https://doi.org/10.1029/2019MS001916."
+      },
+      {
+        "key": "bib17",
+        "series-title": "J. Hydraul. Eng.",
+        "first-page": "1041",
+        "article-title": "Initiative for risk-based flood design",
+        "volume": "113",
+        "author": "Dawdy, D. R.",
+        "year": "1987",
+        "unstructured": "Dawdy, D. R., and D. P. Lettenmaier, 1987: \nInitiative for risk-based flood design. J. Hydraul. Eng., 113, 1041\u20131051, https://doi.org/10.1061/(ASCE)0733-9429(1987)113:8(1041)."
+      },
+      {
+        "key": "bib18",
+        "series-title": "Acta Geophys.",
+        "first-page": "863",
+        "article-title": "A comparison of three approaches to non-stationary flood frequency analysis",
+        "volume": "65",
+        "author": "Debele, S. E.",
+        "year": "2017",
+        "unstructured": "Debele, S. E., W. G. Strupczewski, and E. Bogdanowicz, 2017: \nA comparison of three approaches to non-stationary flood frequency analysis. Acta Geophys., 65, 863\u2013883, https://doi.org/10.1007/s11600-017-0071-4."
+      },
+      {
+        "key": "bib19",
+        "series-title": "Water",
+        "first-page": "2322",
+        "article-title": "Advances in deriving the exact distribution of maximum annual daily precipitation",
+        "volume": "11",
+        "author": "De Michele, C.",
+        "year": "2019",
+        "unstructured": "De Michele, C., 2019: \nAdvances in deriving the exact distribution of maximum annual daily precipitation. Water, 11, 2322, https://doi.org/10.3390/w11112322."
+      },
+      {
+        "key": "bib20",
+        "series-title": "J. Geophys. Res.",
+        "first-page": "4067",
+        "article-title": "A generalized Pareto intensity-duration model of storm rainfall exploiting 2-Copulas",
+        "volume": "108",
+        "author": "De Michele, C.",
+        "year": "2003",
+        "unstructured": "De Michele, C., and G. Salvadori, 2003: \nA generalized Pareto intensity-duration model of storm rainfall exploiting 2-Copulas. J. Geophys. Res., 108, 4067, https://doi.org/10.1029/2002JD002534."
+      },
+      {
+        "key": "bib21",
+        "series-title": "J. Hydrometeor.",
+        "first-page": "1172",
+        "article-title": "Floods over the U.S. Midwest: A regional water cycle perspective",
+        "volume": "11",
+        "author": "Dirmeyer, P. A.",
+        "year": "2010",
+        "unstructured": "Dirmeyer, P. A., and J. L. Kinter III, 2010: \nFloods over the U.S. Midwest: A regional water cycle perspective. J. Hydrometeor., 11, 1172\u20131181, https://doi.org/10.1175/2010JHM1196.1."
+      },
+      {
+        "key": "bib22",
+        "series-title": "J. Geophys. Res. Atmos.",
+        "first-page": "e2022JD037537",
+        "article-title": "Future simulated changes in central U.S. mesoscale convective system rainfall caused by changes in convective and stratiform structure",
+        "volume": "128",
+        "author": "Dougherty, E. M.",
+        "year": "2023",
+        "unstructured": "Dougherty, E. M., A. F. Prein, E. D. Gutmann, and A. J. Newman, 2023: \nFuture simulated changes in central U.S. mesoscale convective system rainfall caused by changes in convective and stratiform structure. J. Geophys. Res. Atmos., 128, e2022JD037537, https://doi.org/10.1029/2022JD037537."
+      },
+      {
+        "key": "bib23",
+        "series-title": "J. Hydrol. Eng.",
+        "first-page": "356",
+        "article-title": "Estimation of depth-area relationships using radar-rainfall data",
+        "volume": "7",
+        "author": "Durrans, S. R.",
+        "year": "2002",
+        "unstructured": "Durrans, S. R., L. T. Julian, and M. Yekta, 2002: \nEstimation of depth-area relationships using radar-rainfall data. J. Hydrol. Eng., 7, 356\u2013367, https://doi.org/10.1061/(ASCE)1084-0699(2002)7:5(356)."
+      },
+      {
+        "key": "bib24",
+        "series-title": "Climate Science Special Report: Fourth National Climate Assessment, Volume I",
+        "first-page": "207",
+        "article-title": "Precipitation change in the United States",
+        "author": "Easterling, D. R.",
+        "year": "2017",
+        "unstructured": "Easterling, D. R., and Coauthors, 2017: Precipitation change in the United States. Climate Science Special Report: Fourth National Climate Assessment, Volume I, D. J. Wuebbles et al., Eds., \nU.S. Global Change Research Program, 207\u2013230, https://doi.org/10.7930/J0H993CC."
+      },
+      {
+        "key": "bib25",
+        "series-title": "J. Hydrol.",
+        "first-page": "337",
+        "article-title": "Influence of rainfall spatial variability on rainfall\u2013runoff modelling: Benefit of a simulation approach?",
+        "volume": "531",
+        "author": "Emmanuel, I.",
+        "year": "2015",
+        "unstructured": "Emmanuel, I., H. Andrieu, E. Leblois, N. Janey, and O. Payrastre, 2015: \nInfluence of rainfall spatial variability on rainfall\u2013runoff modelling: Benefit of a simulation approach? J. Hydrol., 531, 337\u2013348, https://doi.org/10.1016/j.jhydrol.2015.04.058."
+      },
+      {
+        "key": "bib26",
+        "first-page": "104",
+        "article-title": "Review of probable maximum precipitation procedures and databases used to develop hydrometeorological reports",
+        "author": "England, J. F., Jr.",
+        "year": "2020",
+        "unstructured": "England, J. F., Jr., V. L. Sankovich, and R. J. Caldwell, 2020: \nReview of probable maximum precipitation procedures and databases used to develop hydrometeorological reports. United States Nuclear Regulatory Commission Tech. Rep. NUREG/CR-7131, 104 pp."
+      },
+      {
+        "key": "bib27",
+        "series-title": "J. Amer. Water Resour. Assoc.",
+        "first-page": "1246",
+        "article-title": "The office of water prediction\u2019s analysis of record for calibration, version 1.1: Dataset description and precipitation evaluation",
+        "volume": "59",
+        "author": "Fall, G.",
+        "year": "2023",
+        "unstructured": "Fall, G., and Coauthors, 2023: \nThe office of water prediction\u2019s analysis of record for calibration, version 1.1: Dataset description and precipitation evaluation. J. Amer. Water Resour. Assoc., 59, 1246\u20131272, https://doi.org/10.1111/1752-1688.13143."
+      },
+      {
+        "key": "bib28",
+        "first-page": "47",
+        "article-title": "Selecting and accommodating inflow design floods for dams",
+        "year": "2013",
+        "unstructured": "FEMA, 2013: \nSelecting and accommodating inflow design floods for dams. Federal Emergency Management Agency Rep. FEMA P-94, 47 pp."
+      },
+      {
+        "key": "bib29",
+        "series-title": "Nat. Climate Change",
+        "first-page": "986",
+        "article-title": "Observed heavy precipitation increase confirms theory and early models",
+        "volume": "6",
+        "author": "Fischer, E. M.",
+        "year": "2016",
+        "unstructured": "Fischer, E. M., and R. Knutti, 2016: \nObserved heavy precipitation increase confirms theory and early models. Nat. Climate Change, 6, 986\u2013991, https://doi.org/10.1038/nclimate3110."
+      },
+      {
+        "key": "bib30",
+        "series-title": "Nat. Rev. Earth Environ.",
+        "first-page": "107",
+        "article-title": "Anthropogenic intensification of short-duration rainfall extremes",
+        "volume": "2",
+        "author": "Fowler, H. J.",
+        "year": "2021",
+        "unstructured": "Fowler, H. J., and Coauthors, 2021: \nAnthropogenic intensification of short-duration rainfall extremes. Nat. Rev. Earth Environ., 2, 107\u2013122, https://doi.org/10.1038/s43017-020-00128-6."
+      },
+      {
+        "key": "bib31",
+        "series-title": "J. Hydrol.",
+        "first-page": "40",
+        "article-title": "A nonstationary flood frequency analysis method to adjust for future climate change and urbanization",
+        "volume": "414\u2013415",
+        "author": "Gilroy, K. L.",
+        "year": "2012",
+        "unstructured": "Gilroy, K. L., and R. H. McCuen, 2012: \nA nonstationary flood frequency analysis method to adjust for future climate change and urbanization. J. Hydrol., 414\u2013415, 40\u201348, https://doi.org/10.1016/j.jhydrol.2011.10.009."
+      },
+      {
+        "key": "bib32",
+        "series-title": "Atmos. Res.",
+        "first-page": "107413",
+        "article-title": "Projected changes in extreme daily precipitation linked to changes in precipitable water and vertical velocity in CMIP6 models",
+        "volume": "304",
+        "author": "Gimeno-Sotelo, L.",
+        "year": "2024",
+        "unstructured": "Gimeno-Sotelo, L., E. Bevacqua, J. C. Fern\u00e1ndez-Alvarez, D. Barriopedro, J. Zscheischler, and L. Gimeno, 2024: \nProjected changes in extreme daily precipitation linked to changes in precipitable water and vertical velocity in CMIP6 models. Atmos. Res., 304, 107413, https://doi.org/10.1016/j.atmosres.2024.107413."
+      },
+      {
+        "key": "bib33",
+        "series-title": "Atmos. Res.",
+        "first-page": "105451",
+        "article-title": "Assessment of CMIP6 in simulating precipitation over arid central Asia",
+        "volume": "252",
+        "author": "Guo, H.",
+        "year": "2021",
+        "unstructured": "Guo, H., A. Bao, T. Chen, G. Zheng, Y. Wang, L. Jiang, and P. De Maeyer, 2021: \nAssessment of CMIP6 in simulating precipitation over arid central Asia. Atmos. Res., 252, 105451, https://doi.org/10.1016/j.atmosres.2021.105451."
+      },
+      {
+        "key": "bib34",
+        "series-title": "Proc. ASME 2018 Int. Design Engineering Technical Conf. and Computers and Information in Engineering Conf. Volume 2A: 44th Design Automation Conf.",
+        "first-page": "V02AT03A048",
+        "article-title": "Managing conflicting water resource goals and uncertainties in a dam-network by exploring the solution space",
+        "author": "Guo, L.",
+        "year": "2018",
+        "unstructured": "Guo, L., H. Zamanisabzi, T. M. Neeson, J. K. Allen, and F. Mistree, 2018: \nManaging conflicting water resource goals and uncertainties in a dam-network by exploring the solution space. Proc. ASME 2018 Int. Design Engineering Technical Conf. and Computers and Information in Engineering Conf. Volume 2A: 44th Design Automation Conf., Quebec City, QC, Canada, \nASME, V02AT03A048, https://doi.org/10.1115/DETC2018-86018."
+      },
+      {
+        "key": "bib35",
+        "series-title": "J. Climate",
+        "first-page": "1587",
+        "article-title": "The relationship between precipitation and precipitable water in CMIP6 simulations and implications for tropical climatology and change",
+        "volume": "34",
+        "author": "Hagos, S. M.",
+        "year": "2021",
+        "unstructured": "Hagos, S. M., L. R. Leung, O. A. Garuba, C. Demott, B. Harrop, J. Lu, and M.-S. Ahn, 2021: \nThe relationship between precipitation and precipitable water in CMIP6 simulations and implications for tropical climatology and change. J. Climate, 34, 1587\u20131600, https://doi.org/10.1175/JCLI-D-20-0211.1."
+      },
+      {
+        "key": "bib36",
+        "first-page": "280",
+        "article-title": "Probable maximum precipitation estimates-United States between the continental divide and the 103rd meridian",
+        "author": "Hansen, E. M.",
+        "year": "1988",
+        "unstructured": "Hansen, E. M., 1988: \nProbable maximum precipitation estimates-United States between the continental divide and the 103rd meridian. Hydrometeorological Rep. 55A, 280 pp."
+      },
+      {
+        "key": "bib37",
+        "first-page": "182",
+        "article-title": "Application of probable maximum precipitation estimates: United States east of the 105th meridian",
+        "author": "Hansen, E. M.",
+        "year": "1982",
+        "unstructured": "Hansen, E. M., L. C. Schreniner, and J. F. Miller, 1982: \nApplication of probable maximum precipitation estimates: United States east of the 105th meridian. NOAA Hydrometeorological Rep. 52, 182 pp."
+      },
+      {
+        "key": "bib38",
+        "first-page": "257",
+        "article-title": "Probable maximum flood analysis for Denison dam",
+        "author": "Harris, S.",
+        "year": "2024",
+        "unstructured": "Harris, S., and S. Woida, 2024: \nProbable maximum flood analysis for Denison dam. \nUSACE, 257 pp."
+      },
+      {
+        "key": "bib39",
+        "series-title": "Eos, Trans. Amer. Geophys. Union",
+        "first-page": "195",
+        "article-title": "Estimating maximum flood-flow as a basis for the design of protective works",
+        "volume": "20",
+        "author": "Hathaway, G. A.",
+        "year": "1939",
+        "unstructured": "Hathaway, G. A., 1939: \nEstimating maximum flood-flow as a basis for the design of protective works. Eos, Trans. Amer. Geophys. Union, 20, 195\u2013203, https://doi.org/10.1029/TR020i002p00195."
+      },
+      {
+        "key": "bib40",
+        "article-title": "ERA5 hourly data on single levels from 1940 to present",
+        "author": "Hersbach, H.",
+        "year": "2023",
+        "unstructured": "Hersbach, H., and Coauthors, 2023: \nERA5 hourly data on single levels from 1940 to present. \nCopernicus Climate Change Service (C3S) Climate Data Store (CDS), accessed 15 July 2024, https://doi.org/10.24381/cds.adbb2d47."
+      },
+      {
+        "key": "bib41",
+        "series-title": "J. Hydrol.",
+        "first-page": "126224",
+        "article-title": "Estimation of long-duration maximum precipitation during a winter season for large basins dominated by atmospheric rivers using a numerical weather model",
+        "volume": "598",
+        "author": "Hiraga, Y.",
+        "year": "2021",
+        "unstructured": "Hiraga, Y., Y. Iseri, M. D. Warner, C. D. Frans, A. M. Duren, J. F. England, and M. L. Kavvas, 2021: \nEstimation of long-duration maximum precipitation during a winter season for large basins dominated by atmospheric rivers using a numerical weather model. J. Hydrol., 598, 126224, https://doi.org/10.1016/j.jhydrol.2021.126224."
+      },
+      {
+        "key": "bib42",
+        "series-title": "Catastrophic Flooding",
+        "first-page": "23",
+        "article-title": "Catastrophic flooding and atmospheric circulation anomalies",
+        "author": "Hirschboeck, K. K.",
+        "year": "1987",
+        "unstructured": "Hirschboeck, K. K., 1987: Catastrophic flooding and atmospheric circulation anomalies. Catastrophic Flooding, D. Nash and L. Mayer, Eds., \nRoutledge, 23\u201356, https://doi.org/10.4324/9781003020325-2."
+      },
+      {
+        "key": "bib43",
+        "series-title": "Sci. Adv.",
+        "first-page": "eaba1323",
+        "article-title": "Future precipitation increase from very high resolution ensemble downscaling of extreme atmospheric river storms in California",
+        "volume": "6",
+        "author": "Huang, X.",
+        "year": "2020",
+        "unstructured": "Huang, X., D. L. Swain, and A. D. Hall, 2020: \nFuture precipitation increase from very high resolution ensemble downscaling of extreme atmospheric river storms in California. Sci. Adv., 6, eaba1323, https://doi.org/10.1126/sciadv.aba1323."
+      },
+      {
+        "key": "bib44",
+        "series-title": "npj Nat. Hazards",
+        "first-page": "27",
+        "article-title": "Increasing dam failure risk in the USA due to compound rainfall clusters as climate changes",
+        "volume": "1",
+        "author": "Hwang, J.",
+        "year": "2024",
+        "unstructured": "Hwang, J., and U. Lall, 2024: \nIncreasing dam failure risk in the USA due to compound rainfall clusters as climate changes. npj Nat. Hazards, 1, 27, https://doi.org/10.1038/s44304-024-00027-6."
+      },
+      {
+        "key": "bib45",
+        "series-title": "J. Hydrometeor.",
+        "first-page": "771",
+        "article-title": "Nonstationarity in extreme precipitation return values along the U.S. Gulf and southeastern coasts",
+        "volume": "25",
+        "author": "Jorgensen, S. K.",
+        "year": "2024",
+        "unstructured": "Jorgensen, S. K., and J. W. Nielsen-Gammon, 2024: \nNonstationarity in extreme precipitation return values along the U.S. Gulf and southeastern coasts. J. Hydrometeor., 25, 771\u2013788, https://doi.org/10.1175/JHM-D-22-0157.1."
+      },
+      {
+        "key": "bib46",
+        "series-title": "J. Hydrol.",
+        "first-page": "374",
+        "article-title": "Bivariate frequency analysis of rainfall intensity and duration for urban stormwater infrastructure design",
+        "volume": "553",
+        "author": "Jun, C.",
+        "year": "2017",
+        "unstructured": "Jun, C., X. Qin, T. Y. Gan, Y.-K. Tung, and C. De Michele, 2017: \nBivariate frequency analysis of rainfall intensity and duration for urban stormwater infrastructure design. J. Hydrol., 553, 374\u2013383, https://doi.org/10.1016/j.jhydrol.2017.08.004."
+      },
+      {
+        "key": "bib47",
+        "series-title": "J. Hydrol.",
+        "first-page": "534",
+        "article-title": "Frequency analysis of a sequence of dependent and/or non-stationary hydro-meteorological observations: A review",
+        "volume": "329",
+        "author": "Khaliq, M. N.",
+        "year": "2006",
+        "unstructured": "Khaliq, M. N., T. B. M. J. Ouarda, J.-C. Ondo, P. Gachon, and B. Bob\u00e9e, 2006: \nFrequency analysis of a sequence of dependent and/or non-stationary hydro-meteorological observations: A review. J. Hydrol., 329, 534\u2013552, https://doi.org/10.1016/j.jhydrol.2006.03.004."
+      },
+      {
+        "key": "bib48",
+        "series-title": "Water Resour. Res.",
+        "first-page": "1313",
+        "article-title": "A probabilistic view of Hershfield\u2019s method for estimating probable maximum precipitation",
+        "volume": "35",
+        "author": "Koutsoyiannis, D.",
+        "year": "1999",
+        "unstructured": "Koutsoyiannis, D., 1999: \nA probabilistic view of Hershfield\u2019s method for estimating probable maximum precipitation. Water Resour. Res., 35, 1313\u20131322, https://doi.org/10.1029/1999WR900002."
+      },
+      {
+        "key": "bib49",
+        "series-title": "Geophys. Res. Lett.",
+        "first-page": "1402",
+        "article-title": "Probable maximum precipitation and climate change",
+        "volume": "40",
+        "author": "Kunkel, K. E.",
+        "year": "2013",
+        "unstructured": "Kunkel, K. E., T. R. Karl, D. R. Easterling, K. Redmond, J. Young, X. Yin, and P. Hennon, 2013: \nProbable maximum precipitation and climate change. Geophys. Res. Lett., 40, 1402\u20131408, https://doi.org/10.1002/grl.50334."
+      },
+      {
+        "key": "bib50",
+        "series-title": "Hydrol. Processes",
+        "first-page": "2171",
+        "article-title": "Global river hydrography and network routing: Baseline data and new approaches to study the world\u2019s large river systems",
+        "volume": "27",
+        "author": "Lehner, B.",
+        "year": "2013",
+        "unstructured": "Lehner, B., and G. Grill, 2013: \nGlobal river hydrography and network routing: Baseline data and new approaches to study the world\u2019s large river systems. Hydrol. Processes, 27, 2171\u20132186, https://doi.org/10.1002/hyp.9740."
+      },
+      {
+        "key": "bib51",
+        "series-title": "Hydrol. Earth Syst. Sci.",
+        "first-page": "3033",
+        "article-title": "Scaling and trends of hourly precipitation extremes in two different climate zones\u2014Hong Kong and the Netherlands",
+        "volume": "15",
+        "author": "Lenderink, G.",
+        "year": "2011",
+        "unstructured": "Lenderink, G., H. Y. Mok, T. C. Lee, and G. J. van Oldenborgh, 2011: \nScaling and trends of hourly precipitation extremes in two different climate zones\u2014Hong Kong and the Netherlands. Hydrol. Earth Syst. Sci., 15, 3033\u20133041, https://doi.org/10.5194/hess-15-3033-2011."
+      },
+      {
+        "key": "bib52",
+        "series-title": "Hydrol. Earth Syst. Sci.",
+        "first-page": "5241",
+        "article-title": "A storm-centered multivariate modeling of extreme precipitation frequency based on atmospheric water balance",
+        "volume": "26",
+        "author": "Liu, Y.",
+        "year": "2022",
+        "unstructured": "Liu, Y., and D. B. Wright, 2022: \nA storm-centered multivariate modeling of extreme precipitation frequency based on atmospheric water balance. Hydrol. Earth Syst. Sci., 26, 5241\u20135267, https://doi.org/10.5194/hess-26-5241-2022."
+      },
+      {
+        "key": "bib53",
+        "series-title": "Water Resour. Res.",
+        "first-page": "e2023WR036826",
+        "article-title": "A nonstationary stochastic rainfall generator conditioned on global climate models for design flood analyses in the Mississippi and other large river basins",
+        "volume": "60",
+        "author": "Liu, Y.",
+        "year": "2024",
+        "unstructured": "Liu, Y., D. B. Wright, and D. J. Lorenz, 2024a: \nA nonstationary stochastic rainfall generator conditioned on global climate models for design flood analyses in the Mississippi and other large river basins. Water Resour. Res., 60, e2023WR036826, https://doi.org/10.1029/2023WR036826."
+      },
+      {
+        "key": "bib54",
+        "article-title": "lorenliu13/StormLab: Space-time nonstationary rainfall model for large area basins",
+        "author": "Liu, Y.",
+        "year": "2024",
+        "unstructured": "Liu, Y., D. Wright, and D. Lorenz, 2024b: \nlorenliu13/StormLab: Space-time nonstationary rainfall model for large area basins. \nZenodo, https://doi.org/10.5281/zenodo.11216883."
+      },
+      {
+        "key": "bib55",
+        "series-title": "Water Resour. Res.",
+        "first-page": "10\u2009405",
+        "article-title": "On the exact distribution of correlated extremes in hydrology",
+        "volume": "55",
+        "author": "Lombardo, F.",
+        "year": "2019",
+        "unstructured": "Lombardo, F., F. Napolitano, F. Russo, and D. Koutsoyiannis, 2019: \nOn the exact distribution of correlated extremes in hydrology. Water Resour. Res., 55, 10\u2009405\u201310\u2009423, https://doi.org/10.1029/2019WR025547."
+      },
+      {
+        "key": "bib56",
+        "series-title": "Tellus",
+        "first-page": "289",
+        "article-title": "The predictability of a flow which possesses many scales of motion",
+        "volume": "21A",
+        "author": "Lorenz, E. N.",
+        "year": "1969",
+        "unstructured": "Lorenz, E. N., 1969: \nThe predictability of a flow which possesses many scales of motion. Tellus, 21A, 289\u2013307, https://doi.org/10.3402/tellusa.v21i3.10086."
+      },
+      {
+        "key": "bib57",
+        "series-title": "Earth Syst. Dyn.",
+        "first-page": "401",
+        "article-title": "Large ensemble climate model simulations: Introduction, overview, and future prospects for utilising multiple types of large ensemble",
+        "volume": "12",
+        "author": "Maher, N.",
+        "year": "2021",
+        "unstructured": "Maher, N., S. Milinski, and R. Ludwig, 2021: \nLarge ensemble climate model simulations: Introduction, overview, and future prospects for utilising multiple types of large ensemble. Earth Syst. Dyn., 12, 401\u2013418, https://doi.org/10.5194/esd-12-401-2021."
+      },
+      {
+        "key": "bib58",
+        "series-title": "Adv. Water Resour.",
+        "first-page": "121",
+        "article-title": "A metastatistical approach to rainfall extremes",
+        "volume": "79",
+        "author": "Marani, M.",
+        "year": "2015",
+        "unstructured": "Marani, M., and M. Ignaccolo, 2015: \nA metastatistical approach to rainfall extremes. Adv. Water Resour., 79, 121\u2013126, https://doi.org/10.1016/j.advwatres.2015.03.001."
+      },
+      {
+        "key": "bib59",
+        "series-title": "Geophys. Res. Lett.",
+        "first-page": "e2023GL105852",
+        "article-title": "Disentangling the sources of uncertainties in the projection of flood risk across the central United States (Iowa)",
+        "volume": "50",
+        "author": "Michalek, A. T.",
+        "year": "2023",
+        "unstructured": "Michalek, A. T., G. Villarini, T. Kim, F. Quintero, and W. F. Krajewski, 2023: \nDisentangling the sources of uncertainties in the projection of flood risk across the central United States (Iowa). Geophys. Res. Lett., 50, e2023GL105852, https://doi.org/10.1029/2023GL105852."
+      },
+      {
+        "key": "bib60",
+        "series-title": "J. Amer. Water Resour. Assoc.",
+        "first-page": "1058",
+        "article-title": "Contiguous United States hydrologic modeling using the hillslope link model TETIS",
+        "volume": "60",
+        "author": "Michalek, A. T.",
+        "year": "2024",
+        "unstructured": "Michalek, A. T., F. Quintero, and G. Villarini, 2024: \nContiguous United States hydrologic modeling using the hillslope link model TETIS. J. Amer. Water Resour. Assoc., 60, 1058\u20131079, https://doi.org/10.1111/1752-1688.13227."
+      },
+      {
+        "key": "bib61",
+        "series-title": "J. Hydrol.",
+        "first-page": "360",
+        "article-title": "Uncertainty analysis for probable maximum precipitation estimates",
+        "volume": "521",
+        "author": "Micovic, Z.",
+        "year": "2015",
+        "unstructured": "Micovic, Z., M. G. Schaefer, and G. H. Taylor, 2015: \nUncertainty analysis for probable maximum precipitation estimates. J. Hydrol., 521, 360\u2013373, https://doi.org/10.1016/j.jhydrol.2014.12.033."
+      },
+      {
+        "key": "bib62",
+        "series-title": "J. Hydrol.",
+        "first-page": "126946",
+        "article-title": "Estimation of extreme daily precipitation return levels at-site and in ungauged locations using the simplified MEV approach",
+        "volume": "603",
+        "author": "Miniussi, A.",
+        "year": "2021",
+        "unstructured": "Miniussi, A., and F. Marra, 2021: \nEstimation of extreme daily precipitation return levels at-site and in ungauged locations using the simplified MEV approach. J. Hydrol., 603, 126946, https://doi.org/10.1016/j.jhydrol.2021.126946."
+      },
+      {
+        "key": "bib63",
+        "series-title": "Adv. Water Resour.",
+        "first-page": "103498",
+        "article-title": "Metastatistical extreme value distribution applied to floods across the continental United States",
+        "volume": "136",
+        "author": "Miniussi, A.",
+        "year": "2020",
+        "unstructured": "Miniussi, A., M. Marani, and G. Villarini, 2020: \nMetastatistical extreme value distribution applied to floods across the continental United States. Adv. Water Resour., 136, 103498, https://doi.org/10.1016/j.advwatres.2019.103498."
+      },
+      {
+        "key": "bib64",
+        "series-title": "Mon. Wea. Rev.",
+        "first-page": "358",
+        "article-title": "Physical processes associated with heavy flooding rainfall in Nashville, Tennessee, and Vicinity during 1\u20132 May 2010: The role of an atmospheric river and mesoscale convective systems",
+        "volume": "140",
+        "author": "Moore, B. J.",
+        "year": "2012",
+        "unstructured": "Moore, B. J., P. J. Neiman, F. M. Ralph, and F. E. Barthold, 2012: \nPhysical processes associated with heavy flooding rainfall in Nashville, Tennessee, and Vicinity during 1\u20132 May 2010: The role of an atmospheric river and mesoscale convective systems. Mon. Wea. Rev., 140, 358\u2013378, https://doi.org/10.1175/MWR-D-11-00126.1."
+      },
+      {
+        "key": "bib65",
+        "series-title": "Modernizing Probable Maximum Precipitation Estimation.",
+        "first-page": "212",
+        "year": "2024",
+        "unstructured": "NASEM, 2024: Modernizing Probable Maximum Precipitation Estimation. \nThe National Academies Press, 212 pp., https://doi.org/10.17226/27460."
+      },
+      {
+        "key": "bib66",
+        "series-title": "Estimating Bounds on Extreme Precipitation Events: A Brief Assessment.",
+        "first-page": "40",
+        "year": "1994",
+        "unstructured": "National Research Council, 1994: Estimating Bounds on Extreme Precipitation Events: A Brief Assessment. \nThe National Academies Press, 40 pp., https://doi.org/10.17226/9195."
+      },
+      {
+        "key": "bib67",
+        "series-title": "J. Hydrol.",
+        "first-page": "127302",
+        "article-title": "Assessing extremes in hydroclimatology: A review on probabilistic methods",
+        "volume": "605",
+        "author": "Nerantzaki, S. D.",
+        "year": "2022",
+        "unstructured": "Nerantzaki, S. D., and S. M. Papalexiou, 2022: \nAssessing extremes in hydroclimatology: A review on probabilistic methods. J. Hydrol., 605, 127302, https://doi.org/10.1016/j.jhydrol.2021.127302."
+      },
+      {
+        "key": "bib68",
+        "series-title": "J. Hydrol. Eng.",
+        "first-page": "351",
+        "article-title": "Physically based estimation of maximum precipitation over American river watershed, California",
+        "volume": "16",
+        "author": "Ohara, N.",
+        "year": "2011",
+        "unstructured": "Ohara, N., M. L. Kavvas, S. Kure, Z. Q. Chen, S. Jang, and E. Tan, 2011: \nPhysically based estimation of maximum precipitation over American river watershed, California. J. Hydrol. Eng., 16, 351\u2013361, https://doi.org/10.1061/(ASCE)HE.1943-5584.0000324."
+      },
+      {
+        "key": "bib69",
+        "series-title": "Adv. Geosci.",
+        "first-page": "51",
+        "article-title": "A probabilistic approach to the concept of probable maximum precipitation",
+        "volume": "7",
+        "author": "Papalexiou, S. M.",
+        "year": "2006",
+        "unstructured": "Papalexiou, S. M., and D. Koutsoyiannis, 2006: \nA probabilistic approach to the concept of probable maximum precipitation. Adv. Geosci., 7, 51\u201354, https://doi.org/10.5194/adgeo-7-51-2006."
+      },
+      {
+        "key": "bib70",
+        "series-title": "Water Resour. Res.",
+        "first-page": "6725",
+        "article-title": "A diagnostic framework for understanding climatology of tails of hourly precipitation extremes in the United States",
+        "volume": "54",
+        "author": "Papalexiou, S. M.",
+        "year": "2018",
+        "unstructured": "Papalexiou, S. M., A. AghaKouchak, and E. Foufoula-Georgiou, 2018: \nA diagnostic framework for understanding climatology of tails of hourly precipitation extremes in the United States. Water Resour. Res., 54, 6725\u20136738, https://doi.org/10.1029/2018WR022732."
+      },
+      {
+        "key": "bib71",
+        "series-title": "Fifth National Climate Assessment",
+        "first-page": "46",
+        "article-title": "Water",
+        "author": "Payton, E. A.",
+        "year": "2023",
+        "unstructured": "Payton, E. A., and Coauthors, 2023: Water. Fifth National Climate Assessment, A. R. Crimmins et al., Eds., \nU.S. Global Change Research Program, 46 pp., https://doi.org/10.7930/NCA5.2023.CH4."
+      },
+      {
+        "key": "bib72",
+        "series-title": "J. Mach. Learn. Res.",
+        "first-page": "2825",
+        "article-title": "Scikit-learn: Machine learning in Python",
+        "volume": "12",
+        "author": "Pedregosa, F.",
+        "year": "2011",
+        "unstructured": "Pedregosa, F., and Coauthors, 2011: \nScikit-learn: Machine learning in Python. J. Mach. Learn. Res., 12, 2825\u20132830."
+      },
+      {
+        "key": "bib73",
+        "first-page": "283",
+        "article-title": "Precipitation-frequency atlas of the United States. Volume 11, version 2.0. Texas",
+        "author": "Perica, S.",
+        "year": "2018",
+        "unstructured": "Perica, S., S. Pavlovic, M. St. Laurent, C. Trypaluk, D. Unruh, and O. Wilhite, 2018: \nPrecipitation-frequency atlas of the United States. Volume 11, version 2.0. Texas. NOAA Atlas 14, 283 pp., https://repository.library.noaa.gov/view/noaa/22619."
+      },
+      {
+        "key": "bib74",
+        "series-title": "Nat. Climate Change",
+        "first-page": "48",
+        "article-title": "The future intensification of hourly precipitation extremes",
+        "volume": "7",
+        "author": "Prein, A. F.",
+        "year": "2017",
+        "unstructured": "Prein, A. F., R. M. Rasmussen, K. Ikeda, C. Liu, M. P. Clark, and G. J. Holland, 2017: \nThe future intensification of hourly precipitation extremes. Nat. Climate Change, 7, 48\u201352, https://doi.org/10.1038/nclimate3168."
+      },
+      {
+        "key": "bib75",
+        "first-page": "207",
+        "article-title": "Denison Dam probable maximum precipitation update",
+        "author": "Price, T.",
+        "year": "2024",
+        "unstructured": "Price, T., and G. Hayes, 2024: \nDenison Dam probable maximum precipitation update. \nUSACE, 207 pp."
+      },
+      {
+        "key": "bib76",
+        "series-title": "J. Appl. Meteor. Climatol.",
+        "first-page": "1325",
+        "article-title": "Analysis of precipitation projections over the climate gradient of the Arkansas Red River basin",
+        "volume": "56",
+        "author": "Qiao, L.",
+        "year": "2017",
+        "unstructured": "Qiao, L., C. B. Zou, C. F. Gait\u00e1n, Y. Hong, and R. A. McPherson, 2017: \nAnalysis of precipitation projections over the climate gradient of the Arkansas Red River basin. J. Appl. Meteor. Climatol., 56, 1325\u20131336, https://doi.org/10.1175/JAMC-D-16-0201.1."
+      },
+      {
+        "key": "bib77",
+        "series-title": "Water",
+        "first-page": "2610",
+        "article-title": "Implementation of TETIS hydrologic model into the hillslope link model framework",
+        "volume": "14",
+        "author": "Quintero, F.",
+        "year": "2022",
+        "unstructured": "Quintero, F., and N. Vel\u00e1squez, 2022: \nImplementation of TETIS hydrologic model into the hillslope link model framework. Water, 14, 2610, https://doi.org/10.3390/w14172610."
+      },
+      {
+        "key": "bib78",
+        "series-title": "J. Hydrol.",
+        "first-page": "124686",
+        "article-title": "Improvement and evaluation of the Iowa Flood Center Hillslope Link Model (HLM) by calibration-free approach",
+        "volume": "584",
+        "author": "Quintero, F.",
+        "year": "2020",
+        "unstructured": "Quintero, F., W. F. Krajewski, B.-C. Seo, and R. Mantilla, 2020: \nImprovement and evaluation of the Iowa Flood Center Hillslope Link Model (HLM) by calibration-free approach. J. Hydrol., 584, 124686, https://doi.org/10.1016/j.jhydrol.2020.124686."
+      },
+      {
+        "key": "bib79",
+        "series-title": "Hydrol. Processes",
+        "first-page": "e14738",
+        "article-title": "Discharge and floods projected to increase more than precipitation extremes",
+        "volume": "36",
+        "author": "Quintero, F.",
+        "year": "2022",
+        "unstructured": "Quintero, F., G. Villarini, A. F. Prein, W. Zhang, and W. F. Krajewski, 2022: \nDischarge and floods projected to increase more than precipitation extremes. Hydrol. Processes, 36, e14738, https://doi.org/10.1002/hyp.14738."
+      },
+      {
+        "key": "bib80",
+        "series-title": "J. Geophys. Res. Atmos.",
+        "first-page": "4808",
+        "article-title": "Effects of climate change on probable maximum precipitation: A sensitivity study over the Alabama-Coosa-Tallapoosa River basin",
+        "volume": "122",
+        "author": "Rastogi, D.",
+        "year": "2017",
+        "unstructured": "Rastogi, D., and Coauthors, 2017: \nEffects of climate change on probable maximum precipitation: A sensitivity study over the Alabama-Coosa-Tallapoosa River basin. J. Geophys. Res. Atmos., 122, 4808\u20134828, https://doi.org/10.1002/2016JD026001."
+      },
+      {
+        "key": "bib81",
+        "series-title": "Earth Syst. Dyn.",
+        "first-page": "1393",
+        "article-title": "Ubiquity of human-induced changes in climate variability",
+        "volume": "12",
+        "author": "Rodgers, K. B.",
+        "year": "2021",
+        "unstructured": "Rodgers, K. B., and Coauthors, 2021: \nUbiquity of human-induced changes in climate variability. Earth Syst. Dyn., 12, 1393\u20131411, https://doi.org/10.5194/esd-12-1393-2021."
+      },
+      {
+        "key": "bib82",
+        "first-page": "50",
+        "article-title": "Application of the Precipitation-Runoff Modeling System (PRMS) to simulate the streamflows and water balance of the Red River Basin, 1980\u20132016",
+        "author": "Roland, V. L., II",
+        "year": "2023",
+        "unstructured": "Roland, V. L., II, 2023: \nApplication of the Precipitation-Runoff Modeling System (PRMS) to simulate the streamflows and water balance of the Red River Basin, 1980\u20132016. U.S. Geological Survey Rep., 50 pp., https://doi.org/10.3133/sir20225105."
+      },
+      {
+        "key": "bib83",
+        "series-title": "J. Hydrometeor.",
+        "first-page": "397",
+        "article-title": "Mapping flash flood severity in the United States",
+        "volume": "18",
+        "author": "Saharia, M.",
+        "year": "2017",
+        "unstructured": "Saharia, M., P.-E. Kirstetter, H. Vergara, J. J. Gourley, Y. Hong, and M. Giroud, 2017: \nMapping flash flood severity in the United States. J. Hydrometeor., 18, 397\u2013411, https://doi.org/10.1175/JHM-D-16-0082.1."
+      },
+      {
+        "key": "bib84",
+        "series-title": "Handbook of Engineering Hydrology (Three-Volume Set)",
+        "first-page": "575",
+        "article-title": "Uncertainty of the PMP and PMF",
+        "author": "Salas, J. D.",
+        "year": "2014",
+        "unstructured": "Salas, J. D., G. Gavilan, F. R. Salas, P. Y. Julien, and J. Abdullah, 2014: Uncertainty of the PMP and PMF. Handbook of Engineering Hydrology (Three-Volume Set), S. Eslamian, Ed., \nCRC Press, 575\u2013603."
+      },
+      {
+        "key": "bib85",
+        "series-title": "J. Hydrol. Eng.",
+        "first-page": "03120002",
+        "article-title": "PMP and climate variability and change: A review",
+        "volume": "25",
+        "author": "Salas, J. D.",
+        "year": "2020",
+        "unstructured": "Salas, J. D., M. L. Anderson, S. M. Papalexiou, and F. Frances, 2020: \nPMP and climate variability and change: A review. J. Hydrol. Eng., 25, 03120002, https://doi.org/10.1061/(ASCE)HE.1943-5584.0002003."
+      },
+      {
+        "key": "bib86",
+        "series-title": "Mon. Wea. Rev.",
+        "first-page": "4578",
+        "article-title": "Statistical postprocessing of ensemble precipitation forecasts by fitting censored, shifted gamma distributions",
+        "volume": "143",
+        "author": "Scheuerer, M.",
+        "year": "2015",
+        "unstructured": "Scheuerer, M., and T. M. Hamill, 2015: \nStatistical postprocessing of ensemble precipitation forecasts by fitting censored, shifted gamma distributions. Mon. Wea. Rev., 143, 4578\u20134596, https://doi.org/10.1175/MWR-D-15-0061.1."
+      },
+      {
+        "key": "bib87",
+        "first-page": "100",
+        "article-title": "Probable maximum precipitation estimates, United States east of the 105th meridian",
+        "author": "Schreiner, L. C.",
+        "year": "1978",
+        "unstructured": "Schreiner, L. C., and J. T. Riedel, 1978: \nProbable maximum precipitation estimates, United States east of the 105th meridian, NOAA Hydrometeorological Rep. 51, 100 pp., https://repository.library.noaa.gov/view/noaa/6499."
+      },
+      {
+        "key": "bib88",
+        "series-title": "Geophys. Res. Lett.",
+        "first-page": "e2023GL105747",
+        "article-title": "Can artificial intelligence-based weather prediction models simulate the butterfly effect?",
+        "volume": "50",
+        "author": "Selz, T.",
+        "year": "2023",
+        "unstructured": "Selz, T., and G. C. Craig, 2023: \nCan artificial intelligence-based weather prediction models simulate the butterfly effect? Geophys. Res. Lett., 50, e2023GL105747, https://doi.org/10.1029/2023GL105747."
+      },
+      {
+        "key": "bib89",
+        "series-title": "Adv. Water Resour.",
+        "first-page": "1",
+        "article-title": "Parsimonious nonstationary flood frequency analysis",
+        "volume": "112",
+        "author": "Serago, J. M.",
+        "year": "2018",
+        "unstructured": "Serago, J. M., and R. M. Vogel, 2018: \nParsimonious nonstationary flood frequency analysis. Adv. Water Resour., 112, 1\u201316, https://doi.org/10.1016/j.advwatres.2017.11.026."
+      },
+      {
+        "key": "bib90",
+        "series-title": "J. Hydrol. Eng.",
+        "first-page": "420",
+        "article-title": "Fully nested 3-copula: Procedure and application on hydrological data",
+        "volume": "12",
+        "author": "Serinaldi, F.",
+        "year": "2007",
+        "unstructured": "Serinaldi, F., and S. Grimaldi, 2007: \nFully nested 3-copula: Procedure and application on hydrological data. J. Hydrol. Eng., 12, 420\u2013430, https://doi.org/10.1061/(ASCE)1084-0699(2007)12:4(420)."
+      },
+      {
+        "key": "bib91",
+        "series-title": "Water Resour. Res.",
+        "first-page": "336",
+        "article-title": "Rainfall extremes: Toward reconciliation after the battle of distributions",
+        "volume": "50",
+        "author": "Serinaldi, F.",
+        "year": "2014",
+        "unstructured": "Serinaldi, F., and C. G. Kilsby, 2014: \nRainfall extremes: Toward reconciliation after the battle of distributions. Water Resour. Res., 50, 336\u2013352, https://doi.org/10.1002/2013WR014211."
+      },
+      {
+        "key": "bib92",
+        "series-title": "J. Hydrometeor.",
+        "first-page": "1111",
+        "article-title": "Multidecadal high-resolution hydrologic modeling of the Arkansas\u2013Red River basin",
+        "volume": "8",
+        "author": "Sharif, H. O.",
+        "year": "2007",
+        "unstructured": "Sharif, H. O., W. Crow, N. L. Miller, and E. F. Wood, 2007: \nMultidecadal high-resolution hydrologic modeling of the Arkansas\u2013Red River basin. J. Hydrometeor., 8, 1111\u20131127, https://doi.org/10.1175/JHM622.1."
+      },
+      {
+        "key": "bib93",
+        "series-title": "Nat. Climate Change",
+        "first-page": "1276",
+        "article-title": "Important distinctiveness of SSP3\u20137.0 for use in impact assessments",
+        "volume": "13",
+        "author": "Shiogama, H.",
+        "year": "2023",
+        "unstructured": "Shiogama, H., and Coauthors, 2023: \nImportant distinctiveness of SSP3\u20137.0 for use in impact assessments. Nat. Climate Change, 13, 1276\u20131278, https://doi.org/10.1038/s41558-023-01883-2."
+      },
+      {
+        "key": "bib94",
+        "series-title": "Water Resour. Res.",
+        "first-page": "e2023WR035640",
+        "article-title": "Rainfall frequency analysis based on long-term high-resolution radar rainfall fields: Spatial heterogeneities and temporal nonstationarities",
+        "volume": "60",
+        "author": "Smith, J. A.",
+        "year": "2024",
+        "unstructured": "Smith, J. A., M. L. Baeck, A. J. Miller, and E. L. Claggett, 2024a: \nRainfall frequency analysis based on long-term high-resolution radar rainfall fields: Spatial heterogeneities and temporal nonstationarities. Water Resour. Res., 60, e2023WR035640, https://doi.org/10.1029/2023WR035640."
+      },
+      {
+        "key": "bib95",
+        "series-title": "Hydrol. Sci. J.",
+        "first-page": "2337",
+        "article-title": "Cloudbursts and the upper tail of short-duration rainfall: Hortonian perspectives",
+        "volume": "69",
+        "author": "Smith, J. A.",
+        "year": "2024",
+        "unstructured": "Smith, J. A., S. Vimal, M. L. Baeck, and A. J. Miller, 2024b: \nCloudbursts and the upper tail of short-duration rainfall: Hortonian perspectives. Hydrol. Sci. J., 69, 2337\u20132355, https://doi.org/10.1080/02626667.2024.2404712."
+      },
+      {
+        "key": "bib96",
+        "series-title": "Ocean Eng.",
+        "first-page": "19",
+        "article-title": "Effects of parameter estimation method and sample size in metocean design conditions",
+        "volume": "169",
+        "author": "Soukissian, T. H.",
+        "year": "2018",
+        "unstructured": "Soukissian, T. H., and C. Tsalis, 2018: \nEffects of parameter estimation method and sample size in metocean design conditions. Ocean Eng., 169, 19\u201337, https://doi.org/10.1016/j.oceaneng.2018.09.017."
+      },
+      {
+        "key": "bib97",
+        "series-title": "Biochem. Med.",
+        "first-page": "12",
+        "article-title": "Understanding logistic regression analysis",
+        "volume": "24",
+        "author": "Sperandei, S.",
+        "year": "2014",
+        "unstructured": "Sperandei, S., 2014: \nUnderstanding logistic regression analysis. Biochem. Med., 24, 12\u201318, https://doi.org/10.11613/BM.2014.003."
+      },
+      {
+        "key": "bib98",
+        "series-title": "J. Hydrometeor.",
+        "first-page": "203",
+        "article-title": "The hydrometeorology of extreme floods in the lower Mississippi River",
+        "volume": "24",
+        "author": "Su, Y.",
+        "year": "2023",
+        "unstructured": "Su, Y., J. A. Smith, and G. Villarini, 2023: \nThe hydrometeorology of extreme floods in the lower Mississippi River. J. Hydrometeor., 24, 203\u2013219, https://doi.org/10.1175/JHM-D-22-0024.1."
+      },
+      {
+        "key": "bib99",
+        "series-title": "J. Climate",
+        "first-page": "243",
+        "article-title": "A global, continental, and regional analysis of changes in extreme precipitation",
+        "volume": "34",
+        "author": "Sun, Q.",
+        "year": "2021",
+        "unstructured": "Sun, Q., X. Zhang, F. Zwiers, S. Westra, and L. V. Alexander, 2021: \nA global, continental, and regional analysis of changes in extreme precipitation. J. Climate, 34, 243\u2013258, https://doi.org/10.1175/JCLI-D-19-0892.1."
+      },
+      {
+        "key": "bib100",
+        "first-page": "41",
+        "article-title": "Denison Dam-Lake Texoma, Red River, Oklahoma and Texas, Dam Safety Assurance Program, Reconnaissance Report",
+        "year": "1982",
+        "unstructured": "USACE, 1982: \nDenison Dam-Lake Texoma, Red River, Oklahoma and Texas, Dam Safety Assurance Program, Reconnaissance Report. Tech. Rep., accessed 24 October 2024, 41 pp."
+      },
+      {
+        "key": "bib101",
+        "first-page": "528",
+        "article-title": "Engineering and design. Safety of dams\u2014Policy and procedures",
+        "year": "2014",
+        "unstructured": "USACE, 2014: \nEngineering and design. Safety of dams\u2014Policy and procedures. U.S. Army Corps of Engineers Tech. Manual ER 1110-2-1156, 528 pp., https://www.publications.usace.army.mil/Portals/76/Publications/EngineerRegulations/er_1110-2-1156.pdf."
+      },
+      {
+        "key": "bib102",
+        "article-title": "National inventory of dams",
+        "year": "2024",
+        "unstructured": "USACE, 2024: \nNational inventory of dams. US Army Corps of Engineers, accessed 27 September 2024, https://catalog.data.gov/dataset/national-inventory-of-dams-nid."
+      },
+      {
+        "key": "bib103",
+        "article-title": "National water information system data available on the World Wide Web",
+        "year": "2016",
+        "unstructured": "USGS, 2016: \nNational water information system data available on the World Wide Web. https://doi.org/10.5066/F7P55KJN."
+      },
+      {
+        "key": "bib104",
+        "series-title": "J. Hydrometeor.",
+        "first-page": "1547",
+        "article-title": "100-year lower Mississippi floods in a global climate model: Characteristics and future changes",
+        "volume": "19",
+        "author": "Van der Wiel, K.",
+        "year": "2018",
+        "unstructured": "Van der Wiel, K., S. B. Kapnick, G. A. Vecchi, J. A. Smith, P. C. D. Milly, and L. Jia, 2018: \n100-year lower Mississippi floods in a global climate model: Characteristics and future changes. J. Hydrometeor., 19, 1547\u20131563, https://doi.org/10.1175/JHM-D-18-0018.1."
+      },
+      {
+        "key": "bib105",
+        "series-title": "Adv. Water Resour.",
+        "first-page": "1255",
+        "article-title": "Flood frequency analysis for nonstationary annual peak records in an urban drainage basin",
+        "volume": "32",
+        "author": "Villarini, G.",
+        "year": "2009",
+        "unstructured": "Villarini, G., J. A. Smith, F. Serinaldi, J. Bales, P. D. Bates, and W. F. Krajewski, 2009: \nFlood frequency analysis for nonstationary annual peak records in an urban drainage basin. Adv. Water Resour., 32, 1255\u20131266, https://doi.org/10.1016/j.advwatres.2009.05.003."
+      },
+      {
+        "key": "bib106",
+        "series-title": "Nat. Methods.",
+        "first-page": "261",
+        "article-title": "SciPy 1.0: Fundamental algorithms for scientific computing in Python",
+        "volume": "17",
+        "author": "Virtanen, P.",
+        "year": "2020",
+        "unstructured": "Virtanen, P., and Coauthors, 2020: \nSciPy 1.0: Fundamental algorithms for scientific computing in Python. Nat. Methods., 17, 261\u2013272, https://doi.org/10.1038/s41592-019-0686-2."
+      },
+      {
+        "key": "bib107",
+        "series-title": "Water Resour. Res.",
+        "first-page": "e2022WR032247",
+        "article-title": "The impact of climate change on operational probable maximum precipitation estimates",
+        "volume": "58",
+        "author": "Visser, J. B.",
+        "year": "2022",
+        "unstructured": "Visser, J. B., S. Kim, C. Wasko, R. Nathan, and A. Sharma, 2022: \nThe impact of climate change on operational probable maximum precipitation estimates. Water Resour. Res., 58, e2022WR032247, https://doi.org/10.1029/2022WR032247."
+      },
+      {
+        "key": "bib108",
+        "series-title": "Hydrol. Earth Syst. Sci.",
+        "first-page": "3175",
+        "article-title": "Multivariate bias adjustment of high-dimensional climate simulations: The rank resampling for distributions and dependences (R2D2) bias correction",
+        "volume": "22",
+        "author": "Vrac, M.",
+        "year": "2018",
+        "unstructured": "Vrac, M., 2018: \nMultivariate bias adjustment of high-dimensional climate simulations: The rank resampling for distributions and dependences (R2D2) bias correction. Hydrol. Earth Syst. Sci., 22, 3175\u20133196, https://doi.org/10.5194/hess-22-3175-2018."
+      },
+      {
+        "key": "bib109",
+        "series-title": "Nat. Hazards Earth Syst. Sci.",
+        "first-page": "2769",
+        "article-title": "Dynamical and statistical downscaling of the French Mediterranean climate: Uncertainty assessment",
+        "volume": "12",
+        "author": "Vrac, M.",
+        "year": "2012",
+        "unstructured": "Vrac, M., P. Drobinski, A. Merlo, M. Herrmann, C. Lavaysse, L. Li, and S. Somot, 2012: \nDynamical and statistical downscaling of the French Mediterranean climate: Uncertainty assessment. Nat. Hazards Earth Syst. Sci., 12, 2769\u20132784, https://doi.org/10.5194/nhess-12-2769-2012."
+      },
+      {
+        "key": "bib110",
+        "series-title": "J. Hydrol.",
+        "first-page": "999",
+        "article-title": "Nonstationary frequency analysis of the recent extreme precipitation events in the United States",
+        "volume": "575",
+        "author": "Vu, T. M.",
+        "year": "2019",
+        "unstructured": "Vu, T. M., and A. K. Mishra, 2019: \nNonstationary frequency analysis of the recent extreme precipitation events in the United States. J. Hydrol., 575, 999\u20131010, https://doi.org/10.1016/j.jhydrol.2019.05.090."
+      },
+      {
+        "key": "bib111",
+        "series-title": "Adv. Water Resour.",
+        "first-page": "104359",
+        "article-title": "Emergence of heavy tails in streamflow distributions: The role of spatial rainfall variability",
+        "volume": "171",
+        "author": "Wang, H.-J.",
+        "year": "2023",
+        "unstructured": "Wang, H.-J., R. Merz, S. Yang, L. Tarasova, and S. Basso, 2023: \nEmergence of heavy tails in streamflow distributions: The role of spatial rainfall variability. Adv. Water Resour., 171, 104359, https://doi.org/10.1016/j.advwatres.2022.104359."
+      },
+      {
+        "key": "bib112",
+        "series-title": "Geophys. Res. Lett.",
+        "first-page": "8140",
+        "article-title": "Role of the strengthened El Ni\u00f1o teleconnection in the May 2015 floods over the southern Great Plains",
+        "volume": "42",
+        "author": "Wang, S.-Y. S.",
+        "year": "2015",
+        "unstructured": "Wang, S.-Y. S., W.-R. Huang, H.-H. Hsu, and R. R. Gillies, 2015: \nRole of the strengthened El Ni\u00f1o teleconnection in the May 2015 floods over the southern Great Plains. Geophys. Res. Lett., 42, 8140\u20138146, https://doi.org/10.1002/2015GL065211."
+      },
+      {
+        "key": "bib113",
+        "first-page": "291",
+        "article-title": "Manual on estimation of probable maximum precipitation (PMP)",
+        "year": "2009",
+        "unstructured": "WMO, 2009: \nManual on estimation of probable maximum precipitation (PMP). Tech. Rep. WMO. 1045, 291 pp."
+      },
+      {
+        "key": "bib114",
+        "series-title": "Generalized Additive Models: An Introduction with R.",
+        "first-page": "496",
+        "author": "Wood, S. N.",
+        "year": "2017",
+        "unstructured": "Wood, S. N., 2017: Generalized Additive Models: An Introduction with R. \nChapman and Hall/CRC, 496 pp."
+      },
+      {
+        "key": "bib115",
+        "series-title": "J. Hydrol.",
+        "first-page": "124816,",
+        "article-title": "Six decades of rainfall and flood frequency analysis using stochastic storm transposition: Review, progress, and prospects",
+        "volume": "585",
+        "author": "Wright, D. B.",
+        "year": "2020",
+        "unstructured": "Wright, D. B., G. Yu, and J. F. England, 2020: \nSix decades of rainfall and flood frequency analysis using stochastic storm transposition: Review, progress, and prospects. J. Hydrol., 585, 124816, https://doi.org/10.1016/j.jhydrol.2020.124816."
+      },
+      {
+        "key": "bib116",
+        "series-title": "Sci. Data",
+        "first-page": "293",
+        "article-title": "Bias-corrected CMIP6 global dataset for dynamical downscaling of the historical and future climate (1979\u20132100)",
+        "volume": "8",
+        "author": "Xu, Z.",
+        "year": "2021",
+        "unstructured": "Xu, Z., Y. Han, C.-Y. Tam, Z.-L. Yang, and C. Fu, 2021: \nBias-corrected CMIP6 global dataset for dynamical downscaling of the historical and future climate (1979\u20132100). Sci. Data, 8, 293, https://doi.org/10.1038/s41597-021-01079-3."
+      },
+      {
+        "key": "bib117",
+        "series-title": "Hydrol. Earth Syst. Sci.",
+        "first-page": "2225",
+        "article-title": "Process-based flood frequency analysis in an agricultural watershed exhibiting nonstationary flood seasonality",
+        "volume": "23",
+        "author": "Yu, G.",
+        "year": "2019",
+        "unstructured": "Yu, G., D. B. Wright, Z. Zhu, C. Smith, and K. D. Holman, 2019: \nProcess-based flood frequency analysis in an agricultural watershed exhibiting nonstationary flood seasonality. Hydrol. Earth Syst. Sci., 23, 2225\u20132243, https://doi.org/10.5194/hess-23-2225-2019."
+      },
+      {
+        "key": "bib118",
+        "series-title": "J. Hydrol.",
+        "first-page": "100638",
+        "article-title": "Comparison of projected water availability and demand reveals future hotspots of water stress in the Red River Basin, USA",
+        "volume": "26",
+        "author": "Zamani Sabzi, H.",
+        "year": "2019",
+        "unstructured": "Zamani Sabzi, H., H. A. Moreno, R. Fovargue, X. Xue, Y. Hong, and T. M. Neeson, 2019: \nComparison of projected water availability and demand reveals future hotspots of water stress in the Red River Basin, USA. J. Hydrol., 26, 100638, https://doi.org/10.1016/j.ejrh.2019.100638."
+      },
+      {
+        "key": "bib119",
+        "series-title": "J. Atmos. Sci.",
+        "first-page": "1077",
+        "article-title": "What is the predictability limit of midlatitude weather?",
+        "volume": "76",
+        "author": "Zhang, F.",
+        "year": "2019",
+        "unstructured": "Zhang, F., Y. Q. Sun, L. Magnusson, R. Buizza, S.-J. Lin, J.-H. Chen, and K. Emanuel, 2019: \nWhat is the predictability limit of midlatitude weather? J. Atmos. Sci., 76, 1077\u20131091, https://doi.org/10.1175/JAS-D-18-0269.1."
+      },
+      {
+        "key": "bib120",
+        "series-title": "Nat. Climate Change",
+        "first-page": "1160",
+        "article-title": "Reconciling disagreement on global river flood changes in a warming climate",
+        "volume": "12",
+        "author": "Zhang, S.",
+        "year": "2022",
+        "unstructured": "Zhang, S., and Coauthors, 2022: \nReconciling disagreement on global river flood changes in a warming climate. Nat. Climate Change, 12, 1160\u20131167, https://doi.org/10.1038/s41558-022-01539-7."
+      },
+      {
+        "key": "bib1",
+        "series-title": "Adv. Water Resour.",
+        "first-page": "11",
+        "article-title": "What are the best covariates for developing non-stationary rainfall intensity-duration-frequency relationship?",
+        "volume": "101",
+        "author": "Agilan, V.",
+        "year": "2017",
+        "unstructured": "Agilan, V., and N. V. Umamahesh, 2017: \nWhat are the best covariates for developing non-stationary rainfall intensity-duration-frequency relationship? Adv. Water Resour., 101, 11\u201322, https://doi.org/10.1016/j.advwatres.2016.12.016."
+      },
+      {
+        "key": "bib2",
+        "series-title": "Earth Syst. Environ.",
+        "first-page": "1",
+        "article-title": "Projected changes in temperature and precipitation over the United States, Central America, and the Caribbean in CMIP6 GCMs",
+        "volume": "5",
+        "author": "Almazroui, M.",
+        "year": "2021",
+        "unstructured": "Almazroui, M., and Coauthors, 2021: \nProjected changes in temperature and precipitation over the United States, Central America, and the Caribbean in CMIP6 GCMs. Earth Syst. Environ., 5, 1\u201324, https://doi.org/10.1007/s41748-021-00199-5."
+      },
+      {
+        "key": "bib3",
+        "first-page": "126",
+        "article-title": "Regional probable maximum precipitation study for Oklahoma, Arkansas, Louisiana, and Mississippi Final Report",
+        "year": "2019",
+        "unstructured": "AWA, 2019: \nRegional probable maximum precipitation study for Oklahoma, Arkansas, Louisiana, and Mississippi Final Report. AWA Rep., 126 pp."
+      },
+      {
+        "key": "bib4",
+        "series-title": "Geophys. Res. Lett.",
+        "first-page": "1165",
+        "article-title": "Heavy precipitation in a changing climate: Does short-term summer precipitation increase faster?",
+        "volume": "42",
+        "author": "Ban, N.",
+        "year": "2015",
+        "unstructured": "Ban, N., J. Schmidli, and C. Sch\u00e4r, 2015: \nHeavy precipitation in a changing climate: Does short-term summer precipitation increase faster? Geophys. Res. Lett., 42, 1165\u20131172, https://doi.org/10.1002/2014GL062588."
+      },
+      {
+        "key": "bib5",
+        "series-title": "Environ. Res. Lett.",
+        "first-page": "124065",
+        "article-title": "PHEV! The physically-based extreme value distribution of river flows",
+        "volume": "16",
+        "author": "Basso, S.",
+        "year": "2021",
+        "unstructured": "Basso, S., G. Botter, R. Merz, and A. Miniussi, 2021: \nPHEV! The physically-based extreme value distribution of river flows. Environ. Res. Lett., 16, 124065, https://doi.org/10.1088/1748-9326/ac3d59."
+      },
+      {
+        "key": "bib6",
+        "series-title": "Nat. Geosci.",
+        "first-page": "181",
+        "article-title": "Strong increase in convective precipitation in response to higher temperatures",
+        "volume": "6",
+        "author": "Berg, P.",
+        "year": "2013",
+        "unstructured": "Berg, P., C. Moseley, and J. O. Haerter, 2013: \nStrong increase in convective precipitation in response to higher temperatures. Nat. Geosci., 6, 181\u2013185, https://doi.org/10.1038/ngeo1731."
+      },
+      {
+        "key": "bib7",
+        "series-title": "J. Appl. Meteor. Climatol.",
+        "first-page": "1321",
+        "article-title": "Future hydrologic extremes of the Red River basin",
+        "volume": "57",
+        "author": "Bertrand, D.",
+        "year": "2018",
+        "unstructured": "Bertrand, D., and R. A. McPherson, 2018: \nFuture hydrologic extremes of the Red River basin. J. Appl. Meteor. Climatol., 57, 1321\u20131336, https://doi.org/10.1175/JAMC-D-17-0346.1."
+      },
+      {
+        "key": "bib8",
+        "series-title": "Commun. Stat. - Simul. Comput.",
+        "first-page": "87",
+        "article-title": "Minimum sample size determination for generalized extreme value distribution",
+        "volume": "40",
+        "author": "Cai, Y.",
+        "year": "2010",
+        "unstructured": "Cai, Y., and D. Hames, 2010: \nMinimum sample size determination for generalized extreme value distribution. Commun. Stat. - Simul. Comput., 40, 87\u201398, https://doi.org/10.1080/03610918.2010.530368."
+      },
+      {
+        "key": "bib9",
+        "series-title": "Hydrol. Processes",
+        "first-page": "673",
+        "article-title": "A flexible nonlinear modelling framework for nonstationary generalized extreme value analysis in hydroclimatology",
+        "volume": "24",
+        "author": "Cannon, A. J.",
+        "year": "2010",
+        "unstructured": "Cannon, A. J., 2010: \nA flexible nonlinear modelling framework for nonstationary generalized extreme value analysis in hydroclimatology. Hydrol. Processes, 24, 673\u2013685, https://doi.org/10.1002/hyp.7506."
+      },
+      {
+        "key": "bib10",
+        "series-title": "Geophys. Res. Lett.",
+        "first-page": "1560",
+        "article-title": "The probability distribution of intense daily precipitation",
+        "volume": "42",
+        "author": "Cavanaugh, N. R.",
+        "year": "2015",
+        "unstructured": "Cavanaugh, N. R., A. Gershunov, A. K. Panorska, and T. J. Kozubowski, 2015: \nThe probability distribution of intense daily precipitation. Geophys. Res. Lett., 42, 1560\u20131567, https://doi.org/10.1002/2015GL063238."
+      },
+      {
+        "key": "bib11",
+        "series-title": "17th Conf. on Hydrology",
+        "first-page": "P1.6",
+        "article-title": "The dependence of the moisture maximization in PMP procedures on spatial scale",
+        "author": "Chen, L.-C.",
+        "year": "2003",
+        "unstructured": "Chen, L.-C., and A. A. Bradley Jr., 2003: \nThe dependence of the moisture maximization in PMP procedures on spatial scale. 17th Conf. on Hydrology, Austin, TX, \nAmer. Meteor. Soc., P1.6, https://ams.confex.com/ams/annual2003/webprogram/Paper55153.html."
+      },
+      {
+        "key": "bib12",
+        "series-title": "Water Resour. Res.",
+        "first-page": "9600",
+        "article-title": "Probable maximum precipitation in the U.S. Pacific Northwest in a changing climate",
+        "volume": "53",
+        "author": "Chen, X.",
+        "year": "2017",
+        "unstructured": "Chen, X., F. Hossain, and L. R. Leung, 2017: \nProbable maximum precipitation in the U.S. Pacific Northwest in a changing climate. Water Resour. Res., 53, 9600\u20139622, https://doi.org/10.1002/2017WR021094."
+      },
+      {
+        "key": "bib13",
+        "series-title": "Climatic Change",
+        "first-page": "353",
+        "article-title": "Non-stationary extreme value analysis in a changing climate",
+        "volume": "127",
+        "author": "Cheng, L.",
+        "year": "2014",
+        "unstructured": "Cheng, L., A. AghaKouchak, E. Gilleland, and R. W. Katz, 2014: \nNon-stationary extreme value analysis in a changing climate. Climatic Change, 127, 353\u2013369, https://doi.org/10.1007/s10584-014-1254-5."
+      },
+      {
+        "key": "bib14",
+        "article-title": "Center for high throughput computing",
+        "year": "2006",
+        "unstructured": "CHTC, 2006: \nCenter for high throughput computing. \nUniversity of Wisconsin\u2013Madison, accessed 15 July 2024, https://doi.org/10.21231/GNT1-HW21."
+      },
+      {
+        "key": "bib15",
+        "series-title": "An Introduction to Statistical Modeling of Extreme Values.",
+        "first-page": "224",
+        "author": "Coles, S.",
+        "year": "2001",
+        "unstructured": "Coles, S., 2001: An Introduction to Statistical Modeling of Extreme Values. \nSpringer, 224 pp."
+      },
+      {
+        "key": "bib16",
+        "series-title": "J. Adv. Model. Earth Syst.",
+        "first-page": "e2019MS001916",
+        "article-title": "The Community Earth System Model version 2 (CESM2)",
+        "volume": "12",
+        "author": "Danabasoglu, G.",
+        "year": "2020",
+        "unstructured": "Danabasoglu, G., and Coauthors, 2020: \nThe Community Earth System Model version 2 (CESM2). J. Adv. Model. Earth Syst., 12, e2019MS001916, https://doi.org/10.1029/2019MS001916."
+      },
+      {
+        "key": "bib17",
+        "series-title": "J. Hydraul. Eng.",
+        "first-page": "1041",
+        "article-title": "Initiative for risk-based flood design",
+        "volume": "113",
+        "author": "Dawdy, D. R.",
+        "year": "1987",
+        "unstructured": "Dawdy, D. R., and D. P. Lettenmaier, 1987: \nInitiative for risk-based flood design. J. Hydraul. Eng., 113, 1041\u20131051, https://doi.org/10.1061/(ASCE)0733-9429(1987)113:8(1041)."
+      },
+      {
+        "key": "bib18",
+        "series-title": "Acta Geophys.",
+        "first-page": "863",
+        "article-title": "A comparison of three approaches to non-stationary flood frequency analysis",
+        "volume": "65",
+        "author": "Debele, S. E.",
+        "year": "2017",
+        "unstructured": "Debele, S. E., W. G. Strupczewski, and E. Bogdanowicz, 2017: \nA comparison of three approaches to non-stationary flood frequency analysis. Acta Geophys., 65, 863\u2013883, https://doi.org/10.1007/s11600-017-0071-4."
+      },
+      {
+        "key": "bib19",
+        "series-title": "Water",
+        "first-page": "2322",
+        "article-title": "Advances in deriving the exact distribution of maximum annual daily precipitation",
+        "volume": "11",
+        "author": "De Michele, C.",
+        "year": "2019",
+        "unstructured": "De Michele, C., 2019: \nAdvances in deriving the exact distribution of maximum annual daily precipitation. Water, 11, 2322, https://doi.org/10.3390/w11112322."
+      },
+      {
+        "key": "bib20",
+        "series-title": "J. Geophys. Res.",
+        "first-page": "4067",
+        "article-title": "A generalized Pareto intensity-duration model of storm rainfall exploiting 2-Copulas",
+        "volume": "108",
+        "author": "De Michele, C.",
+        "year": "2003",
+        "unstructured": "De Michele, C., and G. Salvadori, 2003: \nA generalized Pareto intensity-duration model of storm rainfall exploiting 2-Copulas. J. Geophys. Res., 108, 4067, https://doi.org/10.1029/2002JD002534."
+      },
+      {
+        "key": "bib21",
+        "series-title": "J. Hydrometeor.",
+        "first-page": "1172",
+        "article-title": "Floods over the U.S. Midwest: A regional water cycle perspective",
+        "volume": "11",
+        "author": "Dirmeyer, P. A.",
+        "year": "2010",
+        "unstructured": "Dirmeyer, P. A., and J. L. Kinter III, 2010: \nFloods over the U.S. Midwest: A regional water cycle perspective. J. Hydrometeor., 11, 1172\u20131181, https://doi.org/10.1175/2010JHM1196.1."
+      },
+      {
+        "key": "bib22",
+        "series-title": "J. Geophys. Res. Atmos.",
+        "first-page": "e2022JD037537",
+        "article-title": "Future simulated changes in central U.S. mesoscale convective system rainfall caused by changes in convective and stratiform structure",
+        "volume": "128",
+        "author": "Dougherty, E. M.",
+        "year": "2023",
+        "unstructured": "Dougherty, E. M., A. F. Prein, E. D. Gutmann, and A. J. Newman, 2023: \nFuture simulated changes in central U.S. mesoscale convective system rainfall caused by changes in convective and stratiform structure. J. Geophys. Res. Atmos., 128, e2022JD037537, https://doi.org/10.1029/2022JD037537."
+      },
+      {
+        "key": "bib23",
+        "series-title": "J. Hydrol. Eng.",
+        "first-page": "356",
+        "article-title": "Estimation of depth-area relationships using radar-rainfall data",
+        "volume": "7",
+        "author": "Durrans, S. R.",
+        "year": "2002",
+        "unstructured": "Durrans, S. R., L. T. Julian, and M. Yekta, 2002: \nEstimation of depth-area relationships using radar-rainfall data. J. Hydrol. Eng., 7, 356\u2013367, https://doi.org/10.1061/(ASCE)1084-0699(2002)7:5(356)."
+      },
+      {
+        "key": "bib24",
+        "series-title": "Climate Science Special Report: Fourth National Climate Assessment, Volume I",
+        "first-page": "207",
+        "article-title": "Precipitation change in the United States",
+        "author": "Easterling, D. R.",
+        "year": "2017",
+        "unstructured": "Easterling, D. R., and Coauthors, 2017: Precipitation change in the United States. Climate Science Special Report: Fourth National Climate Assessment, Volume I, D. J. Wuebbles et al., Eds., \nU.S. Global Change Research Program, 207\u2013230, https://doi.org/10.7930/J0H993CC."
+      },
+      {
+        "key": "bib25",
+        "series-title": "J. Hydrol.",
+        "first-page": "337",
+        "article-title": "Influence of rainfall spatial variability on rainfall\u2013runoff modelling: Benefit of a simulation approach?",
+        "volume": "531",
+        "author": "Emmanuel, I.",
+        "year": "2015",
+        "unstructured": "Emmanuel, I., H. Andrieu, E. Leblois, N. Janey, and O. Payrastre, 2015: \nInfluence of rainfall spatial variability on rainfall\u2013runoff modelling: Benefit of a simulation approach? J. Hydrol., 531, 337\u2013348, https://doi.org/10.1016/j.jhydrol.2015.04.058."
+      },
+      {
+        "key": "bib26",
+        "first-page": "104",
+        "article-title": "Review of probable maximum precipitation procedures and databases used to develop hydrometeorological reports",
+        "author": "England, J. F., Jr.",
+        "year": "2020",
+        "unstructured": "England, J. F., Jr., V. L. Sankovich, and R. J. Caldwell, 2020: \nReview of probable maximum precipitation procedures and databases used to develop hydrometeorological reports. United States Nuclear Regulatory Commission Tech. Rep. NUREG/CR-7131, 104 pp."
+      },
+      {
+        "key": "bib27",
+        "series-title": "J. Amer. Water Resour. Assoc.",
+        "first-page": "1246",
+        "article-title": "The office of water prediction\u2019s analysis of record for calibration, version 1.1: Dataset description and precipitation evaluation",
+        "volume": "59",
+        "author": "Fall, G.",
+        "year": "2023",
+        "unstructured": "Fall, G., and Coauthors, 2023: \nThe office of water prediction\u2019s analysis of record for calibration, version 1.1: Dataset description and precipitation evaluation. J. Amer. Water Resour. Assoc., 59, 1246\u20131272, https://doi.org/10.1111/1752-1688.13143."
+      },
+      {
+        "key": "bib28",
+        "first-page": "47",
+        "article-title": "Selecting and accommodating inflow design floods for dams",
+        "year": "2013",
+        "unstructured": "FEMA, 2013: \nSelecting and accommodating inflow design floods for dams. Federal Emergency Management Agency Rep. FEMA P-94, 47 pp."
+      },
+      {
+        "key": "bib29",
+        "series-title": "Nat. Climate Change",
+        "first-page": "986",
+        "article-title": "Observed heavy precipitation increase confirms theory and early models",
+        "volume": "6",
+        "author": "Fischer, E. M.",
+        "year": "2016",
+        "unstructured": "Fischer, E. M., and R. Knutti, 2016: \nObserved heavy precipitation increase confirms theory and early models. Nat. Climate Change, 6, 986\u2013991, https://doi.org/10.1038/nclimate3110."
+      },
+      {
+        "key": "bib30",
+        "series-title": "Nat. Rev. Earth Environ.",
+        "first-page": "107",
+        "article-title": "Anthropogenic intensification of short-duration rainfall extremes",
+        "volume": "2",
+        "author": "Fowler, H. J.",
+        "year": "2021",
+        "unstructured": "Fowler, H. J., and Coauthors, 2021: \nAnthropogenic intensification of short-duration rainfall extremes. Nat. Rev. Earth Environ., 2, 107\u2013122, https://doi.org/10.1038/s43017-020-00128-6."
+      },
+      {
+        "key": "bib31",
+        "series-title": "J. Hydrol.",
+        "first-page": "40",
+        "article-title": "A nonstationary flood frequency analysis method to adjust for future climate change and urbanization",
+        "volume": "414\u2013415",
+        "author": "Gilroy, K. L.",
+        "year": "2012",
+        "unstructured": "Gilroy, K. L., and R. H. McCuen, 2012: \nA nonstationary flood frequency analysis method to adjust for future climate change and urbanization. J. Hydrol., 414\u2013415, 40\u201348, https://doi.org/10.1016/j.jhydrol.2011.10.009."
+      },
+      {
+        "key": "bib32",
+        "series-title": "Atmos. Res.",
+        "first-page": "107413",
+        "article-title": "Projected changes in extreme daily precipitation linked to changes in precipitable water and vertical velocity in CMIP6 models",
+        "volume": "304",
+        "author": "Gimeno-Sotelo, L.",
+        "year": "2024",
+        "unstructured": "Gimeno-Sotelo, L., E. Bevacqua, J. C. Fern\u00e1ndez-Alvarez, D. Barriopedro, J. Zscheischler, and L. Gimeno, 2024: \nProjected changes in extreme daily precipitation linked to changes in precipitable water and vertical velocity in CMIP6 models. Atmos. Res., 304, 107413, https://doi.org/10.1016/j.atmosres.2024.107413."
+      },
+      {
+        "key": "bib33",
+        "series-title": "Atmos. Res.",
+        "first-page": "105451",
+        "article-title": "Assessment of CMIP6 in simulating precipitation over arid central Asia",
+        "volume": "252",
+        "author": "Guo, H.",
+        "year": "2021",
+        "unstructured": "Guo, H., A. Bao, T. Chen, G. Zheng, Y. Wang, L. Jiang, and P. De Maeyer, 2021: \nAssessment of CMIP6 in simulating precipitation over arid central Asia. Atmos. Res., 252, 105451, https://doi.org/10.1016/j.atmosres.2021.105451."
+      },
+      {
+        "key": "bib34",
+        "series-title": "Proc. ASME 2018 Int. Design Engineering Technical Conf. and Computers and Information in Engineering Conf. Volume 2A: 44th Design Automation Conf.",
+        "first-page": "V02AT03A048",
+        "article-title": "Managing conflicting water resource goals and uncertainties in a dam-network by exploring the solution space",
+        "author": "Guo, L.",
+        "year": "2018",
+        "unstructured": "Guo, L., H. Zamanisabzi, T. M. Neeson, J. K. Allen, and F. Mistree, 2018: \nManaging conflicting water resource goals and uncertainties in a dam-network by exploring the solution space. Proc. ASME 2018 Int. Design Engineering Technical Conf. and Computers and Information in Engineering Conf. Volume 2A: 44th Design Automation Conf., Quebec City, QC, Canada, \nASME, V02AT03A048, https://doi.org/10.1115/DETC2018-86018."
+      },
+      {
+        "key": "bib35",
+        "series-title": "J. Climate",
+        "first-page": "1587",
+        "article-title": "The relationship between precipitation and precipitable water in CMIP6 simulations and implications for tropical climatology and change",
+        "volume": "34",
+        "author": "Hagos, S. M.",
+        "year": "2021",
+        "unstructured": "Hagos, S. M., L. R. Leung, O. A. Garuba, C. Demott, B. Harrop, J. Lu, and M.-S. Ahn, 2021: \nThe relationship between precipitation and precipitable water in CMIP6 simulations and implications for tropical climatology and change. J. Climate, 34, 1587\u20131600, https://doi.org/10.1175/JCLI-D-20-0211.1."
+      },
+      {
+        "key": "bib36",
+        "first-page": "280",
+        "article-title": "Probable maximum precipitation estimates-United States between the continental divide and the 103rd meridian",
+        "author": "Hansen, E. M.",
+        "year": "1988",
+        "unstructured": "Hansen, E. M., 1988: \nProbable maximum precipitation estimates-United States between the continental divide and the 103rd meridian. Hydrometeorological Rep. 55A, 280 pp."
+      },
+      {
+        "key": "bib37",
+        "first-page": "182",
+        "article-title": "Application of probable maximum precipitation estimates: United States east of the 105th meridian",
+        "author": "Hansen, E. M.",
+        "year": "1982",
+        "unstructured": "Hansen, E. M., L. C. Schreniner, and J. F. Miller, 1982: \nApplication of probable maximum precipitation estimates: United States east of the 105th meridian. NOAA Hydrometeorological Rep. 52, 182 pp."
+      },
+      {
+        "key": "bib38",
+        "first-page": "257",
+        "article-title": "Probable maximum flood analysis for Denison dam",
+        "author": "Harris, S.",
+        "year": "2024",
+        "unstructured": "Harris, S., and S. Woida, 2024: \nProbable maximum flood analysis for Denison dam. \nUSACE, 257 pp."
+      },
+      {
+        "key": "bib39",
+        "series-title": "Eos, Trans. Amer. Geophys. Union",
+        "first-page": "195",
+        "article-title": "Estimating maximum flood-flow as a basis for the design of protective works",
+        "volume": "20",
+        "author": "Hathaway, G. A.",
+        "year": "1939",
+        "unstructured": "Hathaway, G. A., 1939: \nEstimating maximum flood-flow as a basis for the design of protective works. Eos, Trans. Amer. Geophys. Union, 20, 195\u2013203, https://doi.org/10.1029/TR020i002p00195."
+      },
+      {
+        "key": "bib40",
+        "article-title": "ERA5 hourly data on single levels from 1940 to present",
+        "author": "Hersbach, H.",
+        "year": "2023",
+        "unstructured": "Hersbach, H., and Coauthors, 2023: \nERA5 hourly data on single levels from 1940 to present. \nCopernicus Climate Change Service (C3S) Climate Data Store (CDS), accessed 15 July 2024, https://doi.org/10.24381/cds.adbb2d47."
+      },
+      {
+        "key": "bib41",
+        "series-title": "J. Hydrol.",
+        "first-page": "126224",
+        "article-title": "Estimation of long-duration maximum precipitation during a winter season for large basins dominated by atmospheric rivers using a numerical weather model",
+        "volume": "598",
+        "author": "Hiraga, Y.",
+        "year": "2021",
+        "unstructured": "Hiraga, Y., Y. Iseri, M. D. Warner, C. D. Frans, A. M. Duren, J. F. England, and M. L. Kavvas, 2021: \nEstimation of long-duration maximum precipitation during a winter season for large basins dominated by atmospheric rivers using a numerical weather model. J. Hydrol., 598, 126224, https://doi.org/10.1016/j.jhydrol.2021.126224."
+      },
+      {
+        "key": "bib42",
+        "series-title": "Catastrophic Flooding",
+        "first-page": "23",
+        "article-title": "Catastrophic flooding and atmospheric circulation anomalies",
+        "author": "Hirschboeck, K. K.",
+        "year": "1987",
+        "unstructured": "Hirschboeck, K. K., 1987: Catastrophic flooding and atmospheric circulation anomalies. Catastrophic Flooding, D. Nash and L. Mayer, Eds., \nRoutledge, 23\u201356, https://doi.org/10.4324/9781003020325-2."
+      },
+      {
+        "key": "bib43",
+        "series-title": "Sci. Adv.",
+        "first-page": "eaba1323",
+        "article-title": "Future precipitation increase from very high resolution ensemble downscaling of extreme atmospheric river storms in California",
+        "volume": "6",
+        "author": "Huang, X.",
+        "year": "2020",
+        "unstructured": "Huang, X., D. L. Swain, and A. D. Hall, 2020: \nFuture precipitation increase from very high resolution ensemble downscaling of extreme atmospheric river storms in California. Sci. Adv., 6, eaba1323, https://doi.org/10.1126/sciadv.aba1323."
+      },
+      {
+        "key": "bib44",
+        "series-title": "npj Nat. Hazards",
+        "first-page": "27",
+        "article-title": "Increasing dam failure risk in the USA due to compound rainfall clusters as climate changes",
+        "volume": "1",
+        "author": "Hwang, J.",
+        "year": "2024",
+        "unstructured": "Hwang, J., and U. Lall, 2024: \nIncreasing dam failure risk in the USA due to compound rainfall clusters as climate changes. npj Nat. Hazards, 1, 27, https://doi.org/10.1038/s44304-024-00027-6."
+      },
+      {
+        "key": "bib45",
+        "series-title": "J. Hydrometeor.",
+        "first-page": "771",
+        "article-title": "Nonstationarity in extreme precipitation return values along the U.S. Gulf and southeastern coasts",
+        "volume": "25",
+        "author": "Jorgensen, S. K.",
+        "year": "2024",
+        "unstructured": "Jorgensen, S. K., and J. W. Nielsen-Gammon, 2024: \nNonstationarity in extreme precipitation return values along the U.S. Gulf and southeastern coasts. J. Hydrometeor., 25, 771\u2013788, https://doi.org/10.1175/JHM-D-22-0157.1."
+      },
+      {
+        "key": "bib46",
+        "series-title": "J. Hydrol.",
+        "first-page": "374",
+        "article-title": "Bivariate frequency analysis of rainfall intensity and duration for urban stormwater infrastructure design",
+        "volume": "553",
+        "author": "Jun, C.",
+        "year": "2017",
+        "unstructured": "Jun, C., X. Qin, T. Y. Gan, Y.-K. Tung, and C. De Michele, 2017: \nBivariate frequency analysis of rainfall intensity and duration for urban stormwater infrastructure design. J. Hydrol., 553, 374\u2013383, https://doi.org/10.1016/j.jhydrol.2017.08.004."
+      },
+      {
+        "key": "bib47",
+        "series-title": "J. Hydrol.",
+        "first-page": "534",
+        "article-title": "Frequency analysis of a sequence of dependent and/or non-stationary hydro-meteorological observations: A review",
+        "volume": "329",
+        "author": "Khaliq, M. N.",
+        "year": "2006",
+        "unstructured": "Khaliq, M. N., T. B. M. J. Ouarda, J.-C. Ondo, P. Gachon, and B. Bob\u00e9e, 2006: \nFrequency analysis of a sequence of dependent and/or non-stationary hydro-meteorological observations: A review. J. Hydrol., 329, 534\u2013552, https://doi.org/10.1016/j.jhydrol.2006.03.004."
+      },
+      {
+        "key": "bib48",
+        "series-title": "Water Resour. Res.",
+        "first-page": "1313",
+        "article-title": "A probabilistic view of Hershfield\u2019s method for estimating probable maximum precipitation",
+        "volume": "35",
+        "author": "Koutsoyiannis, D.",
+        "year": "1999",
+        "unstructured": "Koutsoyiannis, D., 1999: \nA probabilistic view of Hershfield\u2019s method for estimating probable maximum precipitation. Water Resour. Res., 35, 1313\u20131322, https://doi.org/10.1029/1999WR900002."
+      },
+      {
+        "key": "bib49",
+        "series-title": "Geophys. Res. Lett.",
+        "first-page": "1402",
+        "article-title": "Probable maximum precipitation and climate change",
+        "volume": "40",
+        "author": "Kunkel, K. E.",
+        "year": "2013",
+        "unstructured": "Kunkel, K. E., T. R. Karl, D. R. Easterling, K. Redmond, J. Young, X. Yin, and P. Hennon, 2013: \nProbable maximum precipitation and climate change. Geophys. Res. Lett., 40, 1402\u20131408, https://doi.org/10.1002/grl.50334."
+      },
+      {
+        "key": "bib50",
+        "series-title": "Hydrol. Processes",
+        "first-page": "2171",
+        "article-title": "Global river hydrography and network routing: Baseline data and new approaches to study the world\u2019s large river systems",
+        "volume": "27",
+        "author": "Lehner, B.",
+        "year": "2013",
+        "unstructured": "Lehner, B., and G. Grill, 2013: \nGlobal river hydrography and network routing: Baseline data and new approaches to study the world\u2019s large river systems. Hydrol. Processes, 27, 2171\u20132186, https://doi.org/10.1002/hyp.9740."
+      },
+      {
+        "key": "bib51",
+        "series-title": "Hydrol. Earth Syst. Sci.",
+        "first-page": "3033",
+        "article-title": "Scaling and trends of hourly precipitation extremes in two different climate zones\u2014Hong Kong and the Netherlands",
+        "volume": "15",
+        "author": "Lenderink, G.",
+        "year": "2011",
+        "unstructured": "Lenderink, G., H. Y. Mok, T. C. Lee, and G. J. van Oldenborgh, 2011: \nScaling and trends of hourly precipitation extremes in two different climate zones\u2014Hong Kong and the Netherlands. Hydrol. Earth Syst. Sci., 15, 3033\u20133041, https://doi.org/10.5194/hess-15-3033-2011."
+      },
+      {
+        "key": "bib52",
+        "series-title": "Hydrol. Earth Syst. Sci.",
+        "first-page": "5241",
+        "article-title": "A storm-centered multivariate modeling of extreme precipitation frequency based on atmospheric water balance",
+        "volume": "26",
+        "author": "Liu, Y.",
+        "year": "2022",
+        "unstructured": "Liu, Y., and D. B. Wright, 2022: \nA storm-centered multivariate modeling of extreme precipitation frequency based on atmospheric water balance. Hydrol. Earth Syst. Sci., 26, 5241\u20135267, https://doi.org/10.5194/hess-26-5241-2022."
+      },
+      {
+        "key": "bib53",
+        "series-title": "Water Resour. Res.",
+        "first-page": "e2023WR036826",
+        "article-title": "A nonstationary stochastic rainfall generator conditioned on global climate models for design flood analyses in the Mississippi and other large river basins",
+        "volume": "60",
+        "author": "Liu, Y.",
+        "year": "2024",
+        "unstructured": "Liu, Y., D. B. Wright, and D. J. Lorenz, 2024a: \nA nonstationary stochastic rainfall generator conditioned on global climate models for design flood analyses in the Mississippi and other large river basins. Water Resour. Res., 60, e2023WR036826, https://doi.org/10.1029/2023WR036826."
+      },
+      {
+        "key": "bib54",
+        "article-title": "lorenliu13/StormLab: Space-time nonstationary rainfall model for large area basins",
+        "author": "Liu, Y.",
+        "year": "2024",
+        "unstructured": "Liu, Y., D. Wright, and D. Lorenz, 2024b: \nlorenliu13/StormLab: Space-time nonstationary rainfall model for large area basins. \nZenodo, https://doi.org/10.5281/zenodo.11216883."
+      },
+      {
+        "key": "bib55",
+        "series-title": "Water Resour. Res.",
+        "first-page": "10\u2009405",
+        "article-title": "On the exact distribution of correlated extremes in hydrology",
+        "volume": "55",
+        "author": "Lombardo, F.",
+        "year": "2019",
+        "unstructured": "Lombardo, F., F. Napolitano, F. Russo, and D. Koutsoyiannis, 2019: \nOn the exact distribution of correlated extremes in hydrology. Water Resour. Res., 55, 10\u2009405\u201310\u2009423, https://doi.org/10.1029/2019WR025547."
+      },
+      {
+        "key": "bib56",
+        "series-title": "Tellus",
+        "first-page": "289",
+        "article-title": "The predictability of a flow which possesses many scales of motion",
+        "volume": "21A",
+        "author": "Lorenz, E. N.",
+        "year": "1969",
+        "unstructured": "Lorenz, E. N., 1969: \nThe predictability of a flow which possesses many scales of motion. Tellus, 21A, 289\u2013307, https://doi.org/10.3402/tellusa.v21i3.10086."
+      },
+      {
+        "key": "bib57",
+        "series-title": "Earth Syst. Dyn.",
+        "first-page": "401",
+        "article-title": "Large ensemble climate model simulations: Introduction, overview, and future prospects for utilising multiple types of large ensemble",
+        "volume": "12",
+        "author": "Maher, N.",
+        "year": "2021",
+        "unstructured": "Maher, N., S. Milinski, and R. Ludwig, 2021: \nLarge ensemble climate model simulations: Introduction, overview, and future prospects for utilising multiple types of large ensemble. Earth Syst. Dyn., 12, 401\u2013418, https://doi.org/10.5194/esd-12-401-2021."
+      },
+      {
+        "key": "bib58",
+        "series-title": "Adv. Water Resour.",
+        "first-page": "121",
+        "article-title": "A metastatistical approach to rainfall extremes",
+        "volume": "79",
+        "author": "Marani, M.",
+        "year": "2015",
+        "unstructured": "Marani, M., and M. Ignaccolo, 2015: \nA metastatistical approach to rainfall extremes. Adv. Water Resour., 79, 121\u2013126, https://doi.org/10.1016/j.advwatres.2015.03.001."
+      },
+      {
+        "key": "bib59",
+        "series-title": "Geophys. Res. Lett.",
+        "first-page": "e2023GL105852",
+        "article-title": "Disentangling the sources of uncertainties in the projection of flood risk across the central United States (Iowa)",
+        "volume": "50",
+        "author": "Michalek, A. T.",
+        "year": "2023",
+        "unstructured": "Michalek, A. T., G. Villarini, T. Kim, F. Quintero, and W. F. Krajewski, 2023: \nDisentangling the sources of uncertainties in the projection of flood risk across the central United States (Iowa). Geophys. Res. Lett., 50, e2023GL105852, https://doi.org/10.1029/2023GL105852."
+      },
+      {
+        "key": "bib60",
+        "series-title": "J. Amer. Water Resour. Assoc.",
+        "first-page": "1058",
+        "article-title": "Contiguous United States hydrologic modeling using the hillslope link model TETIS",
+        "volume": "60",
+        "author": "Michalek, A. T.",
+        "year": "2024",
+        "unstructured": "Michalek, A. T., F. Quintero, and G. Villarini, 2024: \nContiguous United States hydrologic modeling using the hillslope link model TETIS. J. Amer. Water Resour. Assoc., 60, 1058\u20131079, https://doi.org/10.1111/1752-1688.13227."
+      },
+      {
+        "key": "bib61",
+        "series-title": "J. Hydrol.",
+        "first-page": "360",
+        "article-title": "Uncertainty analysis for probable maximum precipitation estimates",
+        "volume": "521",
+        "author": "Micovic, Z.",
+        "year": "2015",
+        "unstructured": "Micovic, Z., M. G. Schaefer, and G. H. Taylor, 2015: \nUncertainty analysis for probable maximum precipitation estimates. J. Hydrol., 521, 360\u2013373, https://doi.org/10.1016/j.jhydrol.2014.12.033."
+      },
+      {
+        "key": "bib62",
+        "series-title": "J. Hydrol.",
+        "first-page": "126946",
+        "article-title": "Estimation of extreme daily precipitation return levels at-site and in ungauged locations using the simplified MEV approach",
+        "volume": "603",
+        "author": "Miniussi, A.",
+        "year": "2021",
+        "unstructured": "Miniussi, A., and F. Marra, 2021: \nEstimation of extreme daily precipitation return levels at-site and in ungauged locations using the simplified MEV approach. J. Hydrol., 603, 126946, https://doi.org/10.1016/j.jhydrol.2021.126946."
+      },
+      {
+        "key": "bib63",
+        "series-title": "Adv. Water Resour.",
+        "first-page": "103498",
+        "article-title": "Metastatistical extreme value distribution applied to floods across the continental United States",
+        "volume": "136",
+        "author": "Miniussi, A.",
+        "year": "2020",
+        "unstructured": "Miniussi, A., M. Marani, and G. Villarini, 2020: \nMetastatistical extreme value distribution applied to floods across the continental United States. Adv. Water Resour., 136, 103498, https://doi.org/10.1016/j.advwatres.2019.103498."
+      },
+      {
+        "key": "bib64",
+        "series-title": "Mon. Wea. Rev.",
+        "first-page": "358",
+        "article-title": "Physical processes associated with heavy flooding rainfall in Nashville, Tennessee, and Vicinity during 1\u20132 May 2010: The role of an atmospheric river and mesoscale convective systems",
+        "volume": "140",
+        "author": "Moore, B. J.",
+        "year": "2012",
+        "unstructured": "Moore, B. J., P. J. Neiman, F. M. Ralph, and F. E. Barthold, 2012: \nPhysical processes associated with heavy flooding rainfall in Nashville, Tennessee, and Vicinity during 1\u20132 May 2010: The role of an atmospheric river and mesoscale convective systems. Mon. Wea. Rev., 140, 358\u2013378, https://doi.org/10.1175/MWR-D-11-00126.1."
+      },
+      {
+        "key": "bib65",
+        "series-title": "Modernizing Probable Maximum Precipitation Estimation.",
+        "first-page": "212",
+        "year": "2024",
+        "unstructured": "NASEM, 2024: Modernizing Probable Maximum Precipitation Estimation. \nThe National Academies Press, 212 pp., https://doi.org/10.17226/27460."
+      },
+      {
+        "key": "bib66",
+        "series-title": "Estimating Bounds on Extreme Precipitation Events: A Brief Assessment.",
+        "first-page": "40",
+        "year": "1994",
+        "unstructured": "National Research Council, 1994: Estimating Bounds on Extreme Precipitation Events: A Brief Assessment. \nThe National Academies Press, 40 pp., https://doi.org/10.17226/9195."
+      },
+      {
+        "key": "bib67",
+        "series-title": "J. Hydrol.",
+        "first-page": "127302",
+        "article-title": "Assessing extremes in hydroclimatology: A review on probabilistic methods",
+        "volume": "605",
+        "author": "Nerantzaki, S. D.",
+        "year": "2022",
+        "unstructured": "Nerantzaki, S. D., and S. M. Papalexiou, 2022: \nAssessing extremes in hydroclimatology: A review on probabilistic methods. J. Hydrol., 605, 127302, https://doi.org/10.1016/j.jhydrol.2021.127302."
+      },
+      {
+        "key": "bib68",
+        "series-title": "J. Hydrol. Eng.",
+        "first-page": "351",
+        "article-title": "Physically based estimation of maximum precipitation over American river watershed, California",
+        "volume": "16",
+        "author": "Ohara, N.",
+        "year": "2011",
+        "unstructured": "Ohara, N., M. L. Kavvas, S. Kure, Z. Q. Chen, S. Jang, and E. Tan, 2011: \nPhysically based estimation of maximum precipitation over American river watershed, California. J. Hydrol. Eng., 16, 351\u2013361, https://doi.org/10.1061/(ASCE)HE.1943-5584.0000324."
+      },
+      {
+        "key": "bib69",
+        "series-title": "Adv. Geosci.",
+        "first-page": "51",
+        "article-title": "A probabilistic approach to the concept of probable maximum precipitation",
+        "volume": "7",
+        "author": "Papalexiou, S. M.",
+        "year": "2006",
+        "unstructured": "Papalexiou, S. M., and D. Koutsoyiannis, 2006: \nA probabilistic approach to the concept of probable maximum precipitation. Adv. Geosci., 7, 51\u201354, https://doi.org/10.5194/adgeo-7-51-2006."
+      },
+      {
+        "key": "bib70",
+        "series-title": "Water Resour. Res.",
+        "first-page": "6725",
+        "article-title": "A diagnostic framework for understanding climatology of tails of hourly precipitation extremes in the United States",
+        "volume": "54",
+        "author": "Papalexiou, S. M.",
+        "year": "2018",
+        "unstructured": "Papalexiou, S. M., A. AghaKouchak, and E. Foufoula-Georgiou, 2018: \nA diagnostic framework for understanding climatology of tails of hourly precipitation extremes in the United States. Water Resour. Res., 54, 6725\u20136738, https://doi.org/10.1029/2018WR022732."
+      },
+      {
+        "key": "bib71",
+        "series-title": "Fifth National Climate Assessment",
+        "first-page": "46",
+        "article-title": "Water",
+        "author": "Payton, E. A.",
+        "year": "2023",
+        "unstructured": "Payton, E. A., and Coauthors, 2023: Water. Fifth National Climate Assessment, A. R. Crimmins et al., Eds., \nU.S. Global Change Research Program, 46 pp., https://doi.org/10.7930/NCA5.2023.CH4."
+      },
+      {
+        "key": "bib72",
+        "series-title": "J. Mach. Learn. Res.",
+        "first-page": "2825",
+        "article-title": "Scikit-learn: Machine learning in Python",
+        "volume": "12",
+        "author": "Pedregosa, F.",
+        "year": "2011",
+        "unstructured": "Pedregosa, F., and Coauthors, 2011: \nScikit-learn: Machine learning in Python. J. Mach. Learn. Res., 12, 2825\u20132830."
+      },
+      {
+        "key": "bib73",
+        "first-page": "283",
+        "article-title": "Precipitation-frequency atlas of the United States. Volume 11, version 2.0. Texas",
+        "author": "Perica, S.",
+        "year": "2018",
+        "unstructured": "Perica, S., S. Pavlovic, M. St. Laurent, C. Trypaluk, D. Unruh, and O. Wilhite, 2018: \nPrecipitation-frequency atlas of the United States. Volume 11, version 2.0. Texas. NOAA Atlas 14, 283 pp., https://repository.library.noaa.gov/view/noaa/22619."
+      },
+      {
+        "key": "bib74",
+        "series-title": "Nat. Climate Change",
+        "first-page": "48",
+        "article-title": "The future intensification of hourly precipitation extremes",
+        "volume": "7",
+        "author": "Prein, A. F.",
+        "year": "2017",
+        "unstructured": "Prein, A. F., R. M. Rasmussen, K. Ikeda, C. Liu, M. P. Clark, and G. J. Holland, 2017: \nThe future intensification of hourly precipitation extremes. Nat. Climate Change, 7, 48\u201352, https://doi.org/10.1038/nclimate3168."
+      },
+      {
+        "key": "bib75",
+        "first-page": "207",
+        "article-title": "Denison Dam probable maximum precipitation update",
+        "author": "Price, T.",
+        "year": "2024",
+        "unstructured": "Price, T., and G. Hayes, 2024: \nDenison Dam probable maximum precipitation update. \nUSACE, 207 pp."
+      },
+      {
+        "key": "bib76",
+        "series-title": "J. Appl. Meteor. Climatol.",
+        "first-page": "1325",
+        "article-title": "Analysis of precipitation projections over the climate gradient of the Arkansas Red River basin",
+        "volume": "56",
+        "author": "Qiao, L.",
+        "year": "2017",
+        "unstructured": "Qiao, L., C. B. Zou, C. F. Gait\u00e1n, Y. Hong, and R. A. McPherson, 2017: \nAnalysis of precipitation projections over the climate gradient of the Arkansas Red River basin. J. Appl. Meteor. Climatol., 56, 1325\u20131336, https://doi.org/10.1175/JAMC-D-16-0201.1."
+      },
+      {
+        "key": "bib77",
+        "series-title": "Water",
+        "first-page": "2610",
+        "article-title": "Implementation of TETIS hydrologic model into the hillslope link model framework",
+        "volume": "14",
+        "author": "Quintero, F.",
+        "year": "2022",
+        "unstructured": "Quintero, F., and N. Vel\u00e1squez, 2022: \nImplementation of TETIS hydrologic model into the hillslope link model framework. Water, 14, 2610, https://doi.org/10.3390/w14172610."
+      },
+      {
+        "key": "bib78",
+        "series-title": "J. Hydrol.",
+        "first-page": "124686",
+        "article-title": "Improvement and evaluation of the Iowa Flood Center Hillslope Link Model (HLM) by calibration-free approach",
+        "volume": "584",
+        "author": "Quintero, F.",
+        "year": "2020",
+        "unstructured": "Quintero, F., W. F. Krajewski, B.-C. Seo, and R. Mantilla, 2020: \nImprovement and evaluation of the Iowa Flood Center Hillslope Link Model (HLM) by calibration-free approach. J. Hydrol., 584, 124686, https://doi.org/10.1016/j.jhydrol.2020.124686."
+      },
+      {
+        "key": "bib79",
+        "series-title": "Hydrol. Processes",
+        "first-page": "e14738",
+        "article-title": "Discharge and floods projected to increase more than precipitation extremes",
+        "volume": "36",
+        "author": "Quintero, F.",
+        "year": "2022",
+        "unstructured": "Quintero, F., G. Villarini, A. F. Prein, W. Zhang, and W. F. Krajewski, 2022: \nDischarge and floods projected to increase more than precipitation extremes. Hydrol. Processes, 36, e14738, https://doi.org/10.1002/hyp.14738."
+      },
+      {
+        "key": "bib80",
+        "series-title": "J. Geophys. Res. Atmos.",
+        "first-page": "4808",
+        "article-title": "Effects of climate change on probable maximum precipitation: A sensitivity study over the Alabama-Coosa-Tallapoosa River basin",
+        "volume": "122",
+        "author": "Rastogi, D.",
+        "year": "2017",
+        "unstructured": "Rastogi, D., and Coauthors, 2017: \nEffects of climate change on probable maximum precipitation: A sensitivity study over the Alabama-Coosa-Tallapoosa River basin. J. Geophys. Res. Atmos., 122, 4808\u20134828, https://doi.org/10.1002/2016JD026001."
+      },
+      {
+        "key": "bib81",
+        "series-title": "Earth Syst. Dyn.",
+        "first-page": "1393",
+        "article-title": "Ubiquity of human-induced changes in climate variability",
+        "volume": "12",
+        "author": "Rodgers, K. B.",
+        "year": "2021",
+        "unstructured": "Rodgers, K. B., and Coauthors, 2021: \nUbiquity of human-induced changes in climate variability. Earth Syst. Dyn., 12, 1393\u20131411, https://doi.org/10.5194/esd-12-1393-2021."
+      },
+      {
+        "key": "bib82",
+        "first-page": "50",
+        "article-title": "Application of the Precipitation-Runoff Modeling System (PRMS) to simulate the streamflows and water balance of the Red River Basin, 1980\u20132016",
+        "author": "Roland, V. L., II",
+        "year": "2023",
+        "unstructured": "Roland, V. L., II, 2023: \nApplication of the Precipitation-Runoff Modeling System (PRMS) to simulate the streamflows and water balance of the Red River Basin, 1980\u20132016. U.S. Geological Survey Rep., 50 pp., https://doi.org/10.3133/sir20225105."
+      },
+      {
+        "key": "bib83",
+        "series-title": "J. Hydrometeor.",
+        "first-page": "397",
+        "article-title": "Mapping flash flood severity in the United States",
+        "volume": "18",
+        "author": "Saharia, M.",
+        "year": "2017",
+        "unstructured": "Saharia, M., P.-E. Kirstetter, H. Vergara, J. J. Gourley, Y. Hong, and M. Giroud, 2017: \nMapping flash flood severity in the United States. J. Hydrometeor., 18, 397\u2013411, https://doi.org/10.1175/JHM-D-16-0082.1."
+      },
+      {
+        "key": "bib84",
+        "series-title": "Handbook of Engineering Hydrology (Three-Volume Set)",
+        "first-page": "575",
+        "article-title": "Uncertainty of the PMP and PMF",
+        "author": "Salas, J. D.",
+        "year": "2014",
+        "unstructured": "Salas, J. D., G. Gavilan, F. R. Salas, P. Y. Julien, and J. Abdullah, 2014: Uncertainty of the PMP and PMF. Handbook of Engineering Hydrology (Three-Volume Set), S. Eslamian, Ed., \nCRC Press, 575\u2013603."
+      },
+      {
+        "key": "bib85",
+        "series-title": "J. Hydrol. Eng.",
+        "first-page": "03120002",
+        "article-title": "PMP and climate variability and change: A review",
+        "volume": "25",
+        "author": "Salas, J. D.",
+        "year": "2020",
+        "unstructured": "Salas, J. D., M. L. Anderson, S. M. Papalexiou, and F. Frances, 2020: \nPMP and climate variability and change: A review. J. Hydrol. Eng., 25, 03120002, https://doi.org/10.1061/(ASCE)HE.1943-5584.0002003."
+      },
+      {
+        "key": "bib86",
+        "series-title": "Mon. Wea. Rev.",
+        "first-page": "4578",
+        "article-title": "Statistical postprocessing of ensemble precipitation forecasts by fitting censored, shifted gamma distributions",
+        "volume": "143",
+        "author": "Scheuerer, M.",
+        "year": "2015",
+        "unstructured": "Scheuerer, M., and T. M. Hamill, 2015: \nStatistical postprocessing of ensemble precipitation forecasts by fitting censored, shifted gamma distributions. Mon. Wea. Rev., 143, 4578\u20134596, https://doi.org/10.1175/MWR-D-15-0061.1."
+      },
+      {
+        "key": "bib87",
+        "first-page": "100",
+        "article-title": "Probable maximum precipitation estimates, United States east of the 105th meridian",
+        "author": "Schreiner, L. C.",
+        "year": "1978",
+        "unstructured": "Schreiner, L. C., and J. T. Riedel, 1978: \nProbable maximum precipitation estimates, United States east of the 105th meridian, NOAA Hydrometeorological Rep. 51, 100 pp., https://repository.library.noaa.gov/view/noaa/6499."
+      },
+      {
+        "key": "bib88",
+        "series-title": "Geophys. Res. Lett.",
+        "first-page": "e2023GL105747",
+        "article-title": "Can artificial intelligence-based weather prediction models simulate the butterfly effect?",
+        "volume": "50",
+        "author": "Selz, T.",
+        "year": "2023",
+        "unstructured": "Selz, T., and G. C. Craig, 2023: \nCan artificial intelligence-based weather prediction models simulate the butterfly effect? Geophys. Res. Lett., 50, e2023GL105747, https://doi.org/10.1029/2023GL105747."
+      },
+      {
+        "key": "bib89",
+        "series-title": "Adv. Water Resour.",
+        "first-page": "1",
+        "article-title": "Parsimonious nonstationary flood frequency analysis",
+        "volume": "112",
+        "author": "Serago, J. M.",
+        "year": "2018",
+        "unstructured": "Serago, J. M., and R. M. Vogel, 2018: \nParsimonious nonstationary flood frequency analysis. Adv. Water Resour., 112, 1\u201316, https://doi.org/10.1016/j.advwatres.2017.11.026."
+      },
+      {
+        "key": "bib90",
+        "series-title": "J. Hydrol. Eng.",
+        "first-page": "420",
+        "article-title": "Fully nested 3-copula: Procedure and application on hydrological data",
+        "volume": "12",
+        "author": "Serinaldi, F.",
+        "year": "2007",
+        "unstructured": "Serinaldi, F., and S. Grimaldi, 2007: \nFully nested 3-copula: Procedure and application on hydrological data. J. Hydrol. Eng., 12, 420\u2013430, https://doi.org/10.1061/(ASCE)1084-0699(2007)12:4(420)."
+      },
+      {
+        "key": "bib91",
+        "series-title": "Water Resour. Res.",
+        "first-page": "336",
+        "article-title": "Rainfall extremes: Toward reconciliation after the battle of distributions",
+        "volume": "50",
+        "author": "Serinaldi, F.",
+        "year": "2014",
+        "unstructured": "Serinaldi, F., and C. G. Kilsby, 2014: \nRainfall extremes: Toward reconciliation after the battle of distributions. Water Resour. Res., 50, 336\u2013352, https://doi.org/10.1002/2013WR014211."
+      },
+      {
+        "key": "bib92",
+        "series-title": "J. Hydrometeor.",
+        "first-page": "1111",
+        "article-title": "Multidecadal high-resolution hydrologic modeling of the Arkansas\u2013Red River basin",
+        "volume": "8",
+        "author": "Sharif, H. O.",
+        "year": "2007",
+        "unstructured": "Sharif, H. O., W. Crow, N. L. Miller, and E. F. Wood, 2007: \nMultidecadal high-resolution hydrologic modeling of the Arkansas\u2013Red River basin. J. Hydrometeor., 8, 1111\u20131127, https://doi.org/10.1175/JHM622.1."
+      },
+      {
+        "key": "bib93",
+        "series-title": "Nat. Climate Change",
+        "first-page": "1276",
+        "article-title": "Important distinctiveness of SSP3\u20137.0 for use in impact assessments",
+        "volume": "13",
+        "author": "Shiogama, H.",
+        "year": "2023",
+        "unstructured": "Shiogama, H., and Coauthors, 2023: \nImportant distinctiveness of SSP3\u20137.0 for use in impact assessments. Nat. Climate Change, 13, 1276\u20131278, https://doi.org/10.1038/s41558-023-01883-2."
+      },
+      {
+        "key": "bib94",
+        "series-title": "Water Resour. Res.",
+        "first-page": "e2023WR035640",
+        "article-title": "Rainfall frequency analysis based on long-term high-resolution radar rainfall fields: Spatial heterogeneities and temporal nonstationarities",
+        "volume": "60",
+        "author": "Smith, J. A.",
+        "year": "2024",
+        "unstructured": "Smith, J. A., M. L. Baeck, A. J. Miller, and E. L. Claggett, 2024a: \nRainfall frequency analysis based on long-term high-resolution radar rainfall fields: Spatial heterogeneities and temporal nonstationarities. Water Resour. Res., 60, e2023WR035640, https://doi.org/10.1029/2023WR035640."
+      },
+      {
+        "key": "bib95",
+        "series-title": "Hydrol. Sci. J.",
+        "first-page": "2337",
+        "article-title": "Cloudbursts and the upper tail of short-duration rainfall: Hortonian perspectives",
+        "volume": "69",
+        "author": "Smith, J. A.",
+        "year": "2024",
+        "unstructured": "Smith, J. A., S. Vimal, M. L. Baeck, and A. J. Miller, 2024b: \nCloudbursts and the upper tail of short-duration rainfall: Hortonian perspectives. Hydrol. Sci. J., 69, 2337\u20132355, https://doi.org/10.1080/02626667.2024.2404712."
+      },
+      {
+        "key": "bib96",
+        "series-title": "Ocean Eng.",
+        "first-page": "19",
+        "article-title": "Effects of parameter estimation method and sample size in metocean design conditions",
+        "volume": "169",
+        "author": "Soukissian, T. H.",
+        "year": "2018",
+        "unstructured": "Soukissian, T. H., and C. Tsalis, 2018: \nEffects of parameter estimation method and sample size in metocean design conditions. Ocean Eng., 169, 19\u201337, https://doi.org/10.1016/j.oceaneng.2018.09.017."
+      },
+      {
+        "key": "bib97",
+        "series-title": "Biochem. Med.",
+        "first-page": "12",
+        "article-title": "Understanding logistic regression analysis",
+        "volume": "24",
+        "author": "Sperandei, S.",
+        "year": "2014",
+        "unstructured": "Sperandei, S., 2014: \nUnderstanding logistic regression analysis. Biochem. Med., 24, 12\u201318, https://doi.org/10.11613/BM.2014.003."
+      },
+      {
+        "key": "bib98",
+        "series-title": "J. Hydrometeor.",
+        "first-page": "203",
+        "article-title": "The hydrometeorology of extreme floods in the lower Mississippi River",
+        "volume": "24",
+        "author": "Su, Y.",
+        "year": "2023",
+        "unstructured": "Su, Y., J. A. Smith, and G. Villarini, 2023: \nThe hydrometeorology of extreme floods in the lower Mississippi River. J. Hydrometeor., 24, 203\u2013219, https://doi.org/10.1175/JHM-D-22-0024.1."
+      },
+      {
+        "key": "bib99",
+        "series-title": "J. Climate",
+        "first-page": "243",
+        "article-title": "A global, continental, and regional analysis of changes in extreme precipitation",
+        "volume": "34",
+        "author": "Sun, Q.",
+        "year": "2021",
+        "unstructured": "Sun, Q., X. Zhang, F. Zwiers, S. Westra, and L. V. Alexander, 2021: \nA global, continental, and regional analysis of changes in extreme precipitation. J. Climate, 34, 243\u2013258, https://doi.org/10.1175/JCLI-D-19-0892.1."
+      },
+      {
+        "key": "bib100",
+        "first-page": "41",
+        "article-title": "Denison Dam-Lake Texoma, Red River, Oklahoma and Texas, Dam Safety Assurance Program, Reconnaissance Report",
+        "year": "1982",
+        "unstructured": "USACE, 1982: \nDenison Dam-Lake Texoma, Red River, Oklahoma and Texas, Dam Safety Assurance Program, Reconnaissance Report. Tech. Rep., accessed 24 October 2024, 41 pp."
+      },
+      {
+        "key": "bib101",
+        "first-page": "528",
+        "article-title": "Engineering and design. Safety of dams\u2014Policy and procedures",
+        "year": "2014",
+        "unstructured": "USACE, 2014: \nEngineering and design. Safety of dams\u2014Policy and procedures. U.S. Army Corps of Engineers Tech. Manual ER 1110-2-1156, 528 pp., https://www.publications.usace.army.mil/Portals/76/Publications/EngineerRegulations/er_1110-2-1156.pdf."
+      },
+      {
+        "key": "bib102",
+        "article-title": "National inventory of dams",
+        "year": "2024",
+        "unstructured": "USACE, 2024: \nNational inventory of dams. US Army Corps of Engineers, accessed 27 September 2024, https://catalog.data.gov/dataset/national-inventory-of-dams-nid."
+      },
+      {
+        "key": "bib103",
+        "article-title": "National water information system data available on the World Wide Web",
+        "year": "2016",
+        "unstructured": "USGS, 2016: \nNational water information system data available on the World Wide Web. https://doi.org/10.5066/F7P55KJN."
+      },
+      {
+        "key": "bib104",
+        "series-title": "J. Hydrometeor.",
+        "first-page": "1547",
+        "article-title": "100-year lower Mississippi floods in a global climate model: Characteristics and future changes",
+        "volume": "19",
+        "author": "Van der Wiel, K.",
+        "year": "2018",
+        "unstructured": "Van der Wiel, K., S. B. Kapnick, G. A. Vecchi, J. A. Smith, P. C. D. Milly, and L. Jia, 2018: \n100-year lower Mississippi floods in a global climate model: Characteristics and future changes. J. Hydrometeor., 19, 1547\u20131563, https://doi.org/10.1175/JHM-D-18-0018.1."
+      },
+      {
+        "key": "bib105",
+        "series-title": "Adv. Water Resour.",
+        "first-page": "1255",
+        "article-title": "Flood frequency analysis for nonstationary annual peak records in an urban drainage basin",
+        "volume": "32",
+        "author": "Villarini, G.",
+        "year": "2009",
+        "unstructured": "Villarini, G., J. A. Smith, F. Serinaldi, J. Bales, P. D. Bates, and W. F. Krajewski, 2009: \nFlood frequency analysis for nonstationary annual peak records in an urban drainage basin. Adv. Water Resour., 32, 1255\u20131266, https://doi.org/10.1016/j.advwatres.2009.05.003."
+      },
+      {
+        "key": "bib106",
+        "series-title": "Nat. Methods.",
+        "first-page": "261",
+        "article-title": "SciPy 1.0: Fundamental algorithms for scientific computing in Python",
+        "volume": "17",
+        "author": "Virtanen, P.",
+        "year": "2020",
+        "unstructured": "Virtanen, P., and Coauthors, 2020: \nSciPy 1.0: Fundamental algorithms for scientific computing in Python. Nat. Methods., 17, 261\u2013272, https://doi.org/10.1038/s41592-019-0686-2."
+      },
+      {
+        "key": "bib107",
+        "series-title": "Water Resour. Res.",
+        "first-page": "e2022WR032247",
+        "article-title": "The impact of climate change on operational probable maximum precipitation estimates",
+        "volume": "58",
+        "author": "Visser, J. B.",
+        "year": "2022",
+        "unstructured": "Visser, J. B., S. Kim, C. Wasko, R. Nathan, and A. Sharma, 2022: \nThe impact of climate change on operational probable maximum precipitation estimates. Water Resour. Res., 58, e2022WR032247, https://doi.org/10.1029/2022WR032247."
+      },
+      {
+        "key": "bib108",
+        "series-title": "Hydrol. Earth Syst. Sci.",
+        "first-page": "3175",
+        "article-title": "Multivariate bias adjustment of high-dimensional climate simulations: The rank resampling for distributions and dependences (R2D2) bias correction",
+        "volume": "22",
+        "author": "Vrac, M.",
+        "year": "2018",
+        "unstructured": "Vrac, M., 2018: \nMultivariate bias adjustment of high-dimensional climate simulations: The rank resampling for distributions and dependences (R2D2) bias correction. Hydrol. Earth Syst. Sci., 22, 3175\u20133196, https://doi.org/10.5194/hess-22-3175-2018."
+      },
+      {
+        "key": "bib109",
+        "series-title": "Nat. Hazards Earth Syst. Sci.",
+        "first-page": "2769",
+        "article-title": "Dynamical and statistical downscaling of the French Mediterranean climate: Uncertainty assessment",
+        "volume": "12",
+        "author": "Vrac, M.",
+        "year": "2012",
+        "unstructured": "Vrac, M., P. Drobinski, A. Merlo, M. Herrmann, C. Lavaysse, L. Li, and S. Somot, 2012: \nDynamical and statistical downscaling of the French Mediterranean climate: Uncertainty assessment. Nat. Hazards Earth Syst. Sci., 12, 2769\u20132784, https://doi.org/10.5194/nhess-12-2769-2012."
+      },
+      {
+        "key": "bib110",
+        "series-title": "J. Hydrol.",
+        "first-page": "999",
+        "article-title": "Nonstationary frequency analysis of the recent extreme precipitation events in the United States",
+        "volume": "575",
+        "author": "Vu, T. M.",
+        "year": "2019",
+        "unstructured": "Vu, T. M., and A. K. Mishra, 2019: \nNonstationary frequency analysis of the recent extreme precipitation events in the United States. J. Hydrol., 575, 999\u20131010, https://doi.org/10.1016/j.jhydrol.2019.05.090."
+      },
+      {
+        "key": "bib111",
+        "series-title": "Adv. Water Resour.",
+        "first-page": "104359",
+        "article-title": "Emergence of heavy tails in streamflow distributions: The role of spatial rainfall variability",
+        "volume": "171",
+        "author": "Wang, H.-J.",
+        "year": "2023",
+        "unstructured": "Wang, H.-J., R. Merz, S. Yang, L. Tarasova, and S. Basso, 2023: \nEmergence of heavy tails in streamflow distributions: The role of spatial rainfall variability. Adv. Water Resour., 171, 104359, https://doi.org/10.1016/j.advwatres.2022.104359."
+      },
+      {
+        "key": "bib112",
+        "series-title": "Geophys. Res. Lett.",
+        "first-page": "8140",
+        "article-title": "Role of the strengthened El Ni\u00f1o teleconnection in the May 2015 floods over the southern Great Plains",
+        "volume": "42",
+        "author": "Wang, S.-Y. S.",
+        "year": "2015",
+        "unstructured": "Wang, S.-Y. S., W.-R. Huang, H.-H. Hsu, and R. R. Gillies, 2015: \nRole of the strengthened El Ni\u00f1o teleconnection in the May 2015 floods over the southern Great Plains. Geophys. Res. Lett., 42, 8140\u20138146, https://doi.org/10.1002/2015GL065211."
+      },
+      {
+        "key": "bib113",
+        "first-page": "291",
+        "article-title": "Manual on estimation of probable maximum precipitation (PMP)",
+        "year": "2009",
+        "unstructured": "WMO, 2009: \nManual on estimation of probable maximum precipitation (PMP). Tech. Rep. WMO. 1045, 291 pp."
+      },
+      {
+        "key": "bib114",
+        "series-title": "Generalized Additive Models: An Introduction with R.",
+        "first-page": "496",
+        "author": "Wood, S. N.",
+        "year": "2017",
+        "unstructured": "Wood, S. N., 2017: Generalized Additive Models: An Introduction with R. \nChapman and Hall/CRC, 496 pp."
+      },
+      {
+        "key": "bib115",
+        "series-title": "J. Hydrol.",
+        "first-page": "124816,",
+        "article-title": "Six decades of rainfall and flood frequency analysis using stochastic storm transposition: Review, progress, and prospects",
+        "volume": "585",
+        "author": "Wright, D. B.",
+        "year": "2020",
+        "unstructured": "Wright, D. B., G. Yu, and J. F. England, 2020: \nSix decades of rainfall and flood frequency analysis using stochastic storm transposition: Review, progress, and prospects. J. Hydrol., 585, 124816, https://doi.org/10.1016/j.jhydrol.2020.124816."
+      },
+      {
+        "key": "bib116",
+        "series-title": "Sci. Data",
+        "first-page": "293",
+        "article-title": "Bias-corrected CMIP6 global dataset for dynamical downscaling of the historical and future climate (1979\u20132100)",
+        "volume": "8",
+        "author": "Xu, Z.",
+        "year": "2021",
+        "unstructured": "Xu, Z., Y. Han, C.-Y. Tam, Z.-L. Yang, and C. Fu, 2021: \nBias-corrected CMIP6 global dataset for dynamical downscaling of the historical and future climate (1979\u20132100). Sci. Data, 8, 293, https://doi.org/10.1038/s41597-021-01079-3."
+      },
+      {
+        "key": "bib117",
+        "series-title": "Hydrol. Earth Syst. Sci.",
+        "first-page": "2225",
+        "article-title": "Process-based flood frequency analysis in an agricultural watershed exhibiting nonstationary flood seasonality",
+        "volume": "23",
+        "author": "Yu, G.",
+        "year": "2019",
+        "unstructured": "Yu, G., D. B. Wright, Z. Zhu, C. Smith, and K. D. Holman, 2019: \nProcess-based flood frequency analysis in an agricultural watershed exhibiting nonstationary flood seasonality. Hydrol. Earth Syst. Sci., 23, 2225\u20132243, https://doi.org/10.5194/hess-23-2225-2019."
+      },
+      {
+        "key": "bib118",
+        "series-title": "J. Hydrol.",
+        "first-page": "100638",
+        "article-title": "Comparison of projected water availability and demand reveals future hotspots of water stress in the Red River Basin, USA",
+        "volume": "26",
+        "author": "Zamani Sabzi, H.",
+        "year": "2019",
+        "unstructured": "Zamani Sabzi, H., H. A. Moreno, R. Fovargue, X. Xue, Y. Hong, and T. M. Neeson, 2019: \nComparison of projected water availability and demand reveals future hotspots of water stress in the Red River Basin, USA. J. Hydrol., 26, 100638, https://doi.org/10.1016/j.ejrh.2019.100638."
+      },
+      {
+        "key": "bib119",
+        "series-title": "J. Atmos. Sci.",
+        "first-page": "1077",
+        "article-title": "What is the predictability limit of midlatitude weather?",
+        "volume": "76",
+        "author": "Zhang, F.",
+        "year": "2019",
+        "unstructured": "Zhang, F., Y. Q. Sun, L. Magnusson, R. Buizza, S.-J. Lin, J.-H. Chen, and K. Emanuel, 2019: \nWhat is the predictability limit of midlatitude weather? J. Atmos. Sci., 76, 1077\u20131091, https://doi.org/10.1175/JAS-D-18-0269.1."
+      },
+      {
+        "key": "bib120",
+        "series-title": "Nat. Climate Change",
+        "first-page": "1160",
+        "article-title": "Reconciling disagreement on global river flood changes in a warming climate",
+        "volume": "12",
+        "author": "Zhang, S.",
+        "year": "2022",
+        "unstructured": "Zhang, S., and Coauthors, 2022: \nReconciling disagreement on global river flood changes in a warming climate. Nat. Climate Change, 12, 1160\u20131167, https://doi.org/10.1038/s41558-022-01539-7."
+      }
+    ],
+    "container-title": [
+      "Journal of Hydrometeorology"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://journals.ametsoc.org/view/journals/hydr/26/12/JHM-D-25-0098.1.xml",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.ametsoc.org/downloadpdf/journals/hydr/26/12/JHM-D-25-0098.1.xml",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://journals.ametsoc.org/downloadpdf/journals/hydr/26/12/JHM-D-25-0098.1.xml",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          20
+        ]
+      ],
+      "date-time": "2025-12-20T08:34:43Z",
+      "timestamp": 1766219683000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://journals.ametsoc.org/view/journals/hydr/26/12/JHM-D-25-0098.1.xml"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "references-count": 240,
+    "journal-issue": {
+      "issue": "12"
+    },
+    "URL": "https://doi.org/10.1175/jhm-d-25-0098.1",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.22541/essoar.173463045.56378203/v1",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.22541/essoar.174086369.99197837/v1",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "ISSN": [
+      "1525-755X",
+      "1525-7541"
+    ],
+    "issn-type": [
+      {
+        "value": "1525-755X",
+        "type": "print"
+      },
+      {
+        "value": "1525-7541",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.1175/JHM-D-25-0098.1",
+  "original_doi": "10.1175/JHM-D-25-0098.1"
+}

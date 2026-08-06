@@ -1,0 +1,621 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          28
+        ]
+      ],
+      "date-time": "2026-07-28T23:00:46Z",
+      "timestamp": 1785279646214,
+      "version": "3.55.0"
+    },
+    "reference-count": 64,
+    "publisher": "Wiley",
+    "issue": "8",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2017,
+              12,
+              27
+            ]
+          ],
+          "date-time": "2017-12-27T00:00:00Z",
+          "timestamp": 1514332800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "S.D. Bechtel Jr. Foundation"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Freshwater Biology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          8
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>\n<jats:list>\n\n<jats:list-item><jats:p>Quantifying the natural flow regime is essential for management of water resources and conservation of aquatic ecosystems. Understanding the degree to which anthropogenic activities have altered flows is critical for developing effective conservation strategies. Assessing flow alteration requires estimates of flows expected in the absence of human influence and under current land use and water management.</jats:p></jats:list-item>\n\n<jats:list-item><jats:p>There are several techniques to predict flows in streams and rivers; however, none have been applied to make predictions of natural flow conditions over large regions and time periods. We utilised machine learning statistical models to predict natural monthly flows (natural streamflows without the influence of water management or anthropogenic land use) in California from 1950 to 2015, using time\u2010dependent and fixed watershed variables from reference stream gages. These models were then used to make estimates of mean, maximum and minimum monthly flows in all streams in the state.</jats:p></jats:list-item>\n\n<jats:list-item><jats:p>We compared observed flows measured at 540 stream gages across the state with expected natural flows at the same locations, to quantify the type, frequency and magnitude of flow alteration over the past 20\u00a0years (1996\u20132015). A gage was considered altered if an observed flow metric (monthly mean, annual maximum, annual minimum) fell outside the 80% prediction interval of the modelled flow estimate.</jats:p></jats:list-item>\n\n<jats:list-item><jats:p>We found that 95% of the 540 stream gages in California had at least 1\u00a0month of altered flows over the past 20\u00a0years, and 11% of gages were frequently altered (over two\u2010thirds of the months recorded had evidence of altered flows). The type of alteration varied across the state with flows being either depleted, inflated or a mix of both at different times of the year. Most altered gages (68%) exhibited both depletion and inflation in monthly flows over the time period. Inflation of monthly mean flows was most prevalent during the summer months, while depletion of monthly flows was evident throughout the year.</jats:p></jats:list-item>\n\n<jats:list-item><jats:p>Type, frequency and magnitude of flow alteration varied by region. Flow depletion was present at &gt;80% of gages in the North Coast and Central Coast, flow inflation was measured at &gt;80% of gages in the South Coast and San Francisco Bay and both depletion and inflation were evident at &gt;80% of gages in the Sacramento River and San Joaquin and Tulare regions. Annual maximum flows were consistently depleted and annual minimum flows were commonly inflated in the Sierra Nevada and Central Valley (Sacramento River and San Joaquin and Tulare regions). This is the first study to comprehensively assess flow alteration at stream gages across California. Understanding the patterns and degree of alteration can aid in prioritising streams for environmental flow assessment and developing conservation strategies for native freshwater biota.</jats:p></jats:list-item>\n</jats:list>\n</jats:p>",
+    "DOI": "10.1111/fwb.13058",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          27
+        ]
+      ],
+      "date-time": "2017-12-27T07:12:42Z",
+      "timestamp": 1514358762000
+    },
+    "page": "859-873",
+    "source": "Crossref",
+    "is-referenced-by-count": 49,
+    "title": [
+      "Patterns and magnitude of flow alteration in California, USA"
+    ],
+    "prefix": "10.1111",
+    "volume": "63",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0834-2158",
+        "authenticated-orcid": false,
+        "given": "Julie K. H.",
+        "family": "Zimmerman",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "The Nature Conservancy Sacramento CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daren M.",
+        "family": "Carlisle",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Water\u2010Quality Assessment Program US Geological Survey Lawrence KS USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jason T.",
+        "family": "May",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "California Water Science Center US Geological Survey Sacramento CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kirk R.",
+        "family": "Klausmeyer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The Nature Conservancy San Francisco CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Theodore E.",
+        "family": "Grantham",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Environmental Science, Policy and Management University of California, Berkeley Berkeley CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Larry R.",
+        "family": "Brown",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "California Water Science Center US Geological Survey Sacramento CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jeanette K.",
+        "family": "Howard",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The Nature Conservancy San Francisco CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          27
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_6_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/1051-0761(2006)016[1311:TCOPEF]2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_6_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1071/MF11128"
+      },
+      {
+        "key": "e_1_2_6_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1007660914155"
+      },
+      {
+        "key": "e_1_2_6_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.1293"
+      },
+      {
+        "key": "e_1_2_6_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.673"
+      },
+      {
+        "key": "e_1_2_6_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00267-002-2737-0"
+      },
+      {
+        "key": "e_1_2_6_8_1",
+        "unstructured": "Ca. Dept. of Water Resources. (2013).California water plan update 2013. Retrieved July 10 2017 fromhttp://www.water.ca.gov/waterplan/cwpu2013/final/index.cfm"
+      },
+      {
+        "key": "e_1_2_6_9_1",
+        "unstructured": "Ca. Dept. of Water Resources. (2017).California data exchange center. Retrieved July 28 2017 fromhttp://cdec.water.ca.gov/cgi-progs/iodir/wsihist"
+      },
+      {
+        "key": "e_1_2_6_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00267-009-9309-5"
+      },
+      {
+        "key": "e_1_2_6_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.1247"
+      },
+      {
+        "key": "e_1_2_6_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eco.1703"
+      },
+      {
+        "key": "e_1_2_6_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/ofr20161189"
+      },
+      {
+        "key": "e_1_2_6_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/100053"
+      },
+      {
+        "key": "e_1_2_6_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/07-0539.1"
+      },
+      {
+        "key": "e_1_2_6_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/joc.1688"
+      },
+      {
+        "key": "e_1_2_6_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2011.00546.x"
+      },
+      {
+        "key": "e_1_2_6_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/694912"
+      },
+      {
+        "key": "e_1_2_6_19_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Falcone J. A.(2015).U.S. conterminous wall\u2010to\u2010wall anthropogenic land use trends (NWALT) 1974\u20132012 (Data Series 948). US Geological Survey National Water\u2010Quality Assessment Program. Retrieved fromhttps://doi.org/10.3133/ds948",
+        "DOI": "10.3133/ds948"
+      },
+      {
+        "key": "e_1_2_6_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/09-0889.1"
+      },
+      {
+        "key": "e_1_2_6_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.ecolsys.30.1.51"
+      },
+      {
+        "key": "e_1_2_6_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biosci/biu159"
+      },
+      {
+        "key": "e_1_2_6_23_1",
+        "volume-title": "Managing California's water: From conflict to reconciliation",
+        "author": "Hanak E.",
+        "year": "2011"
+      },
+      {
+        "key": "e_1_2_6_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016GL071665"
+      },
+      {
+        "key": "e_1_2_6_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2008.07.013"
+      },
+      {
+        "key": "e_1_2_6_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1899/12-009.1"
+      },
+      {
+        "key": "e_1_2_6_27_1",
+        "unstructured": "Horizon Systems. (2015).National hydrography dataset plus: Horizon Systems Corporation. Retrieved June 1 2015 fromhttp://www.horizon-systems.com/nhdplus/"
+      },
+      {
+        "key": "e_1_2_6_28_1",
+        "volume-title": "California freshwater blueprint: Phase I overview",
+        "author": "Howard J. K.",
+        "year": "2015"
+      },
+      {
+        "key": "e_1_2_6_29_1",
+        "volume-title": "A practical guide for environmental\u00a0flows for policy and planning",
+        "author": "Kendy E.",
+        "year": "2012"
+      },
+      {
+        "key": "e_1_2_6_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/11-0480.1"
+      },
+      {
+        "key": "e_1_2_6_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0928-2025(05)80017-3"
+      },
+      {
+        "key": "e_1_2_6_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2427.2008.02024.x"
+      },
+      {
+        "key": "e_1_2_6_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.1524"
+      },
+      {
+        "key": "e_1_2_6_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4614-6849-3"
+      },
+      {
+        "key": "e_1_2_6_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1523-1739.2012.01837.x"
+      },
+      {
+        "key": "e_1_2_6_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752-1688.12504"
+      },
+      {
+        "key": "e_1_2_6_37_1",
+        "unstructured": "Liaw A. &Wiener M.(2015).Package \u201crandomForest\u201d. Retrieved fromftp://ie.freshrpms.net/pub/CRAN/web/packages/randomForest/randomForest.pdf"
+      },
+      {
+        "key": "e_1_2_6_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.geomorph.2004.08.017"
+      },
+      {
+        "key": "e_1_2_6_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011WR010630"
+      },
+      {
+        "key": "e_1_2_6_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2001.tb05530.x"
+      },
+      {
+        "key": "e_1_2_6_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2427.2007.01850.x"
+      },
+      {
+        "key": "e_1_2_6_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13031/2013.23153"
+      },
+      {
+        "key": "e_1_2_6_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0701457104"
+      },
+      {
+        "key": "e_1_2_6_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/130076"
+      },
+      {
+        "key": "e_1_2_6_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.700"
+      },
+      {
+        "key": "e_1_2_6_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1899/12-113.1"
+      },
+      {
+        "key": "e_1_2_6_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-8306.1987.tb00149.x"
+      },
+      {
+        "key": "e_1_2_6_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1313099"
+      },
+      {
+        "key": "e_1_2_6_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0609812104"
+      },
+      {
+        "key": "e_1_2_6_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2427.2009.02204.x"
+      },
+      {
+        "key": "e_1_2_6_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2427.2009.02272.x"
+      },
+      {
+        "key": "e_1_2_6_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1641/0006-3568(2000)050[0807:REOHAO]2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_6_53_1",
+        "volume-title": "R: A language and environment for statistical computing",
+        "author": "R Core Team",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_6_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1899/04-022.1"
+      },
+      {
+        "key": "e_1_2_6_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/1051-0761(2006)016[1267:SEFTEC]2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_6_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.285.5431.1199"
+      },
+      {
+        "key": "e_1_2_6_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-8-25"
+      },
+      {
+        "key": "e_1_2_6_58_1",
+        "unstructured": "University Center for Atmospheric Research. (2017).PRISM high\u2010resolution spatial climate data for the United States. Retrieved February 15 2017 fromhttps://climatedataguide.ucar.edu/climate-data/prism-high-resolution-spatial-climate-data-united-states-maxmin-temp-dewpoint"
+      },
+      {
+        "key": "e_1_2_6_59_1",
+        "unstructured": "US Environmental Protection Agency. (2015).Level III and IV ecoregions of the continental United States. Retrieved February 28 2017 fromhttps://www.epa.gov/eco-research/level-iii-and-iv-ecoregions-continental-united-states"
+      },
+      {
+        "key": "e_1_2_6_60_1",
+        "unstructured": "US Geological Survey. (2016).National water information system\u2014web interface. Retrieved fromhttps://doi.org/10.5066/f7p55kjn"
+      },
+      {
+        "key": "e_1_2_6_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1752-1688.2007.00038.x"
+      },
+      {
+        "key": "e_1_2_6_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.landurbplan.2004.11.015"
+      },
+      {
+        "key": "e_1_2_6_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)0733-9496(2005)131:4(270)"
+      },
+      {
+        "key": "e_1_2_6_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biosci/biv102"
+      },
+      {
+        "key": "e_1_2_6_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/fme.12063"
+      }
+    ],
+    "container-title": [
+      "Freshwater Biology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Ffwb.13058",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/fwb.13058",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          12
+        ]
+      ],
+      "date-time": "2023-09-12T00:49:14Z",
+      "timestamp": 1694479754000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1111/fwb.13058"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          27
+        ]
+      ]
+    },
+    "references-count": 64,
+    "journal-issue": {
+      "issue": "8",
+      "published-print": {
+        "date-parts": [
+          [
+            2018,
+            8
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/fwb.13058"
+    ],
+    "URL": "https://doi.org/10.1111/fwb.13058",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0046-5070",
+      "1365-2427"
+    ],
+    "issn-type": [
+      {
+        "value": "0046-5070",
+        "type": "print"
+      },
+      {
+        "value": "1365-2427",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          27
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.1111/fwb.13058",
+  "original_doi": "10.1111/fwb.13058"
+}

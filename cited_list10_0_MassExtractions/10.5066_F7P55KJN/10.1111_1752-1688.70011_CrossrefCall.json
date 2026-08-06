@@ -1,0 +1,853 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          9
+        ]
+      ],
+      "date-time": "2026-07-09T02:49:58Z",
+      "timestamp": 1783565398781,
+      "version": "3.55.0"
+    },
+    "reference-count": 100,
+    "publisher": "Wiley",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              3
+            ]
+          ],
+          "date-time": "2025-03-03T00:00:00Z",
+          "timestamp": 1740960000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000192",
+        "name": "National Oceanic and Atmospheric Administration",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NA22NWS4320003"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NA22NWS4320003"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000192",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "J American Water Resour Assoc"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          4
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title><jats:p>As high\u2010frequency sensor networks increasingly enhance data\u2010driven models of water quality, process\u2010based models like the U.S. National Water Model (NWM) are generating accessible forecasts of streamflow at increasingly dense scales. There is now an opportunity to combine these products to construct actionable water quality forecasts. To that end, we couple streamflow forecasts from the NWM to a gradient\u2010boosted decision tree algorithm (LightGBM) trained on 5+ years of high\u2010frequency monitoring data to forecast in\u2010stream turbidity levels in the Catskill Mountains, NY, USA. Results indicate LightGBM models are capable of relatively skillful predictions, which enable robust forecasts for 1\u20133\u2009days lead times. LightGBM models offer improvements over a simplified linear model across the entire forecast horizon, and more spatially complex models are more resilient to error at shorter lead times (1\u20133\u2009days). Moreover, interpretation of model features emphasizes high flows as a driver of turbidity in the region. Results suggest that interpretable, flexible, and efficient machine learning algorithms can produce capable water quality forecasts from streamflow forecasts and expand understanding of process dynamics. The use case illustrated here\u2014to our knowledge the first NWM\u2010based water quality forecast\u2014underscores the potential to employ the NWM to expand national water quality forecasting capacity and can overall serve as a guide for similar efforts in basins across the country.</jats:p>",
+    "DOI": "10.1111/1752-1688.70011",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          11
+        ]
+      ],
+      "date-time": "2025-03-11T20:54:02Z",
+      "timestamp": 1741726442000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "Leveraging High\u2010Frequency Sensor Data and U.S. National Water Model Output to Forecast Turbidity in a Drinking Water Supply Basin"
+    ],
+    "prefix": "10.1111",
+    "volume": "61",
+    "author": [
+      {
+        "given": "John T.",
+        "family": "Kemper",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Geography &amp; Geosciences University of Vermont  Burlington Vermont USA"
+          },
+          {
+            "name": "Department of Watershed Sciences Utah State University  Logan UT USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kristen L.",
+        "family": "Underwood",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil &amp; Environmental Engineering University of Vermont  Burlington Vermont USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Scott D.",
+        "family": "Hamshaw",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey Water Resources Mission Area  Reston Virginia USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dany",
+        "family": "Davis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "New York City Department of Environmental Protection  Kingston New York USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jason",
+        "family": "Siemion",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey New York Water Science Center  Troy New York USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "James B.",
+        "family": "Shanley",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey New England Water Science Center  Montpelier Vermont USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrew W.",
+        "family": "Schroth",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Geography &amp; Geosciences University of Vermont  Burlington Vermont USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          3
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_12_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-0-12-801884-2.00010-4"
+      },
+      {
+        "key": "e_1_2_12_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.11402"
+      },
+      {
+        "key": "e_1_2_12_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017WR020381"
+      },
+      {
+        "key": "e_1_2_12_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0022\u20101694(00)00253\u20105"
+      },
+      {
+        "key": "e_1_2_12_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.watres.2008.03.018"
+      },
+      {
+        "key": "e_1_2_12_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.catena.2008.07.006"
+      },
+      {
+        "key": "e_1_2_12_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ldr.2348"
+      },
+      {
+        "key": "e_1_2_12_9_1",
+        "unstructured": "Burnash R. J. C. R. L.Ferral andR. A.McGuire.1973.\u201cA Generalized Streamflow Simulation System: Conceptual Modeling for Digital Computers.\u201dU. S. Dept. of Commerce National Weather Service Sacramento Calif."
+      },
+      {
+        "key": "e_1_2_12_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/1540\u20109295(2003)001[0412:AGITQR]2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_12_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626667.2021.1918695"
+      },
+      {
+        "key": "e_1_2_12_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2017.09.293"
+      },
+      {
+        "key": "e_1_2_12_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR029001"
+      },
+      {
+        "key": "e_1_2_12_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752\u20101688.13184"
+      },
+      {
+        "key": "e_1_2_12_15_1",
+        "unstructured": "Davis D. P. L. K.Knuepfer N.Miller andM.Vian.2009.\u201cFluvial Geomorphology of the Upper Esopus Creek Watershed and Implications for Stream Management.\u201dNew York State Geological Association 81st Annual Meeting Field Trip Guidebook. New York State Geological Society 1\u201320."
+      },
+      {
+        "key": "e_1_2_12_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.catena.2014.09.020"
+      },
+      {
+        "key": "e_1_2_12_17_1",
+        "unstructured": "DeCicco L. R. M.Hirsch D.Lorenz D.Watkins andM.Johnson.2023.\u201cdataRetrieval: R Packages for Discovering and Retrieving Water Data Available From U.S. Federal Hydrologic Web Services.\u201d"
+      },
+      {
+        "key": "e_1_2_12_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.1983.10478017"
+      },
+      {
+        "key": "e_1_2_12_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/07438149809354335"
+      },
+      {
+        "key": "e_1_2_12_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020JF006013"
+      },
+      {
+        "key": "e_1_2_12_21_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Falbel D. A.Damiani R. M.Hogervorst M.Kuhn andS.Couch.2022.\u201cBonsai: Model Wrappers for Tree\u2010Based Models.\u201d",
+        "DOI": "10.32614/CRAN.package.bonsai"
+      },
+      {
+        "key": "e_1_2_12_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752\u20101688.12964"
+      },
+      {
+        "key": "e_1_2_12_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0309133308094849"
+      },
+      {
+        "key": "e_1_2_12_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)0733\u20109372(2007)133:2(139)"
+      },
+      {
+        "key": "e_1_2_12_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)EE.1943\u20107870.0000048"
+      },
+      {
+        "key": "e_1_2_12_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.catena.2012.10.018"
+      },
+      {
+        "key": "e_1_2_12_27_1",
+        "volume-title": "Deep Learning",
+        "author": "Goodfellow I.",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_12_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2009.08.003"
+      },
+      {
+        "key": "e_1_2_12_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2017WR022238"
+      },
+      {
+        "key": "e_1_2_12_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.earscirev.2006.05.001"
+      },
+      {
+        "key": "e_1_2_12_31_1",
+        "volume-title": "Forecasting: Principles and Practice",
+        "author": "Hyndman R. J.",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_12_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2020.125802"
+      },
+      {
+        "key": "e_1_2_12_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597\u2010023\u201002316\u20107"
+      },
+      {
+        "key": "e_1_2_12_34_1",
+        "unstructured": "Johnson M.2023.\u201cnwmTools.\u201d"
+      },
+      {
+        "key": "e_1_2_12_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/B:HYDR.0000025059.82197.35"
+      },
+      {
+        "key": "e_1_2_12_36_1",
+        "unstructured": "Ke G. Q.Meng T.Finley et\u00a0al.2017.\u201cLightGBM: A Highly Efficient Gradient Boosting Decision Tree.\u201dIn: Proceedings of the 31st International Conference on Neural Information Processing Systems NIPS'17. Curran Associates Inc. Red Hook NY USA pp. 3149\u20133157."
+      },
+      {
+        "key": "e_1_2_12_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11368\u2010018\u201002223\u20100"
+      },
+      {
+        "key": "e_1_2_12_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.7940"
+      },
+      {
+        "key": "e_1_2_12_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.geomorph.2019.03.018"
+      },
+      {
+        "key": "e_1_2_12_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2005WR004362"
+      },
+      {
+        "key": "e_1_2_12_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.5537"
+      },
+      {
+        "key": "e_1_2_12_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess\u201023\u20104323\u20102019"
+      },
+      {
+        "key": "e_1_2_12_43_1",
+        "unstructured": "Koenker R.2023.\u201cquantreg: Quantile Regression.\u201d"
+      },
+      {
+        "key": "e_1_2_12_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR026065"
+      },
+      {
+        "key": "e_1_2_12_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(SICI)1099\u20101085(199705)11:6<627::AID\u2010HYP481>3.0.CO;2\u2010E"
+      },
+      {
+        "key": "e_1_2_12_46_1",
+        "unstructured": "Kuhn M. andH.Wickham.2020.\u201cTidymodels: A Collection of Packages for Modeling and Machine Learning Using Tidyverse Principles.\u201d"
+      },
+      {
+        "key": "e_1_2_12_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2005.08.032"
+      },
+      {
+        "key": "e_1_2_12_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41558\u2010023\u201001923\u2010x"
+      },
+      {
+        "key": "e_1_2_12_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2022.105446"
+      },
+      {
+        "key": "e_1_2_12_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eswa.2021.115102"
+      },
+      {
+        "key": "e_1_2_12_51_1",
+        "unstructured": "McElfresh D. S.Khandagale J.Valverde et\u00a0al.2023.\u201cWhen Do Neural Nets Outperform Boosted Trees on Tabular Data?\u201dAdvances in Neural Information Processing Systems 36 76336\u201376369."
+      },
+      {
+        "key": "e_1_2_12_52_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McHale M. R. andJ.Siemion.2014.\u201cTurbidity and Suspended Sediment in the Upper Esopus Creek Watershed Ulster County New York (No. 2014\u20135200) Scientific Investigations Report.\u201dU.S. Geological Survey.https://doi.org/10.3133/sir20145200.",
+        "DOI": "10.3133/sir20145200"
+      },
+      {
+        "key": "e_1_2_12_53_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Messner M. L. M. K.Perkins andA. R.Bunch.2023.\u201cComparison of Turbidity Sensors at U.S. Geological Survey Supergages in Indiana From November 2018 to December 2021 (No. 2023\u20135077) Scientific Investigations Report.\u201dU.S. Geological Survey.https://doi.org/10.3133/sir20235077.",
+        "DOI": "10.3133/sir20235077"
+      },
+      {
+        "key": "e_1_2_12_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2023.129107"
+      },
+      {
+        "key": "e_1_2_12_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13031/2013.23153"
+      },
+      {
+        "key": "e_1_2_12_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13031/trans.58.10715"
+      },
+      {
+        "key": "e_1_2_12_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10661\u2010015\u20104751\u20108"
+      },
+      {
+        "key": "e_1_2_12_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.catena.2013.02.002"
+      },
+      {
+        "key": "e_1_2_12_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.9824"
+      },
+      {
+        "key": "e_1_2_12_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2134/jeq2018.06.0229"
+      },
+      {
+        "key": "e_1_2_12_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.geomorph.2007.09.009"
+      },
+      {
+        "key": "e_1_2_12_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022\u20101694(70)90255\u20106"
+      },
+      {
+        "key": "e_1_2_12_63_1",
+        "volume-title": "Review of the New York City Department of Environmental Protection Operations Support Tool for Water Supply",
+        "author": "National Academies of Sciences, Engineering, and Medicine (NASEM)",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_12_64_1",
+        "volume-title": "Review of the New York City Watershed Protection Program",
+        "author": "National Academies of Sciences, Engineering, and Medicine (NASEM)",
+        "year": "2020"
+      },
+      {
+        "key": "e_1_2_12_65_1",
+        "unstructured": "National Weather Service (NWS).1999.\u201cQuantitative Precipitation Forecast Process Assessment.\u201dNational Oceanic and Atmospheric Administration Silver Spring MD."
+      },
+      {
+        "key": "e_1_2_12_66_1",
+        "unstructured": "NYCDEP.2019.\u201cStream Management Program Stony Clove Watershed Suspended Sediment and Turbidity Study: Turbidity Reduction Project Nomination Report.\u201dNew York City Department of Environmental Protection New York NY."
+      },
+      {
+        "key": "e_1_2_12_67_1",
+        "unstructured": "NYCDEP.2023.\u201cUpper Esopus Creek Watershed Turbidity/Suspended Sediment Monitoring Study: Mid\u2010Term Report.\u201dNew York City Department of Environmental Protection New York NY."
+      },
+      {
+        "key": "e_1_2_12_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11368\u2010012\u20100480\u20106"
+      },
+      {
+        "key": "e_1_2_12_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.watres.2009.02.018"
+      },
+      {
+        "key": "e_1_2_12_70_1",
+        "volume-title": "R: A Language and Environment for Statistical Computing",
+        "author": "R Core Team",
+        "year": "2023"
+      },
+      {
+        "key": "e_1_2_12_71_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rasmussen P. P. J. R.Gray G. D.Glysson andA. C.Ziegler.2009.\u201cGuidelines and Procedures for Computing Time\u2010Series Suspended\u2010Sediment Concentrations and Loads From In\u2010Stream Turbidity\u2010Sensor and Streamflow Data (No. 3\u2010C4) Techniques and Methods.\u201dU.S. Geological Survey.https://doi.org/10.3133/tm3C4.",
+        "DOI": "10.3133/tm3C4"
+      },
+      {
+        "key": "e_1_2_12_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752\u20101688.13134"
+      },
+      {
+        "key": "e_1_2_12_73_1",
+        "volume-title": "Glacial Geology of the Catskills",
+        "author": "Rich J. L.",
+        "year": "1934"
+      },
+      {
+        "key": "e_1_2_12_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.6b02155"
+      },
+      {
+        "key": "e_1_2_12_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-981-19-7100-6_13"
+      },
+      {
+        "key": "e_1_2_12_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2003.10.012"
+      },
+      {
+        "key": "e_1_2_12_77_1",
+        "unstructured": "Shi Y. G.Ke D.Soukhavong et\u00a0al.2023.\u201clightgbm: Light Gradient Boosting Machine.\u201d"
+      },
+      {
+        "key": "e_1_2_12_78_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11269\u2010015\u20100971\u20105"
+      },
+      {
+        "key": "e_1_2_12_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2166/nh.2023.127"
+      },
+      {
+        "key": "e_1_2_12_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2166/nh.2023.068"
+      },
+      {
+        "key": "e_1_2_12_81_1",
+        "unstructured": "Siemion J.2024.\u201cTurbidity Data From the Upper Esopus Creek Watershed New York.\u201dhttps://doi.org/10.5066/P1EXPOFB."
+      },
+      {
+        "key": "e_1_2_12_82_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Siemion J. D. B.Bonville M. R.McHale andM. R.Antidormi.2021.\u201cTurbidity\u2013Suspended\u2010Sediment Concentration Regression Equations for Monitoring Stations in the Upper Esopus Creek Watershed Ulster County New York 2016\u201319 (No. 2021\u20131065) Open\u2010File Report.\u201dU.S. Geological Survey.https://doi.org/10.3133/ofr20211065.",
+        "DOI": "10.3133/ofr20211065"
+      },
+      {
+        "key": "e_1_2_12_83_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Siemion J. M. R.McHale andW. D.Davis.2016.\u201cSuspended\u2010Sediment and Turbidity Responses to Sediment and Turbidity Reduction Projects in the Beaver Kill Stony Clove Creek and Warner Creek Watersheds New York 2010\u201314 (No. 2016\u20135157) Scientific Investigations Report.\u201dU.S. Geological Survey.https://doi.org/10.3133/sir20165157.",
+        "DOI": "10.3133/sir20165157"
+      },
+      {
+        "key": "e_1_2_12_84_1",
+        "unstructured": "Siemion J. W. D.Davis andD. B.Bonville.2023.\u201cEffects of a Large Flood on Sediment and Turbidity Reduction Projects in the Esopus Creek Watershed NY.\u201dIn: Proceedings of SEDHYD2023. Presented at the SEDHYD St. Louis MO p. 16."
+      },
+      {
+        "key": "e_1_2_12_85_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.dss.2019.02.009"
+      },
+      {
+        "key": "e_1_2_12_86_1",
+        "unstructured": "U.S. Geological Survey.2024a.\u201cUSGS WaterWatch: Rating Curve for Esopus Creek at Coldbrook NY [WWW Document].\u201dAccessed March 10 2024.https://waterwatch.usgs.gov/index.php?sno=01362500&btnGo=Go&pw=650&ph=500&fm=0&fmn=10&fmy=&fla=30&yt=1&ymin=&ymax=&xt=1&xmin=&xmax=&m=mkrc&rrm=0."
+      },
+      {
+        "key": "e_1_2_12_87_1",
+        "unstructured": "U.S. Geological Survey.2024b.\u201cUSGS Water Data for the Nation: U.S. Geological Survey National Water Information System Database.\u201dhttps://doi.org/10.5066/F7P55KJN."
+      },
+      {
+        "key": "e_1_2_12_88_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017WR021353"
+      },
+      {
+        "key": "e_1_2_12_89_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/nyas.12221"
+      },
+      {
+        "key": "e_1_2_12_90_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.earscirev.2016.12.016"
+      },
+      {
+        "key": "e_1_2_12_91_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10533\u2010018\u20100423\u20104"
+      },
+      {
+        "key": "e_1_2_12_92_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2023.105866"
+      },
+      {
+        "key": "e_1_2_12_93_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2021WR031863"
+      },
+      {
+        "key": "e_1_2_12_94_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.14351"
+      },
+      {
+        "key": "e_1_2_12_95_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752\u20101688.12906"
+      },
+      {
+        "key": "e_1_2_12_96_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hyp.14563"
+      },
+      {
+        "key": "e_1_2_12_97_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023WR034910"
+      },
+      {
+        "key": "e_1_2_12_98_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022\u20101694(95)02918\u20104"
+      },
+      {
+        "key": "e_1_2_12_99_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.catena.2006.06.007"
+      },
+      {
+        "key": "e_1_2_12_100_1",
+        "unstructured": "Zambrano\u2010Bigiarini M.2020.\u201chydroGOF: Goodness\u2010Of\u2010Fit Functions for Comparison of Simulated and Observed Hydrological Time Series R Package.\u201d"
+      },
+      {
+        "key": "e_1_2_12_101_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.1c01339"
+      }
+    ],
+    "container-title": [
+      "JAWRA Journal of the American Water Resources Association"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/1752-1688.70011",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/1752-1688.70011",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          2
+        ]
+      ],
+      "date-time": "2025-06-02T19:17:11Z",
+      "timestamp": 1748891831000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1111/1752-1688.70011"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          3
+        ]
+      ]
+    },
+    "references-count": 100,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            4
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/1752-1688.70011"
+    ],
+    "URL": "https://doi.org/10.1111/1752-1688.70011",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "1093-474X",
+      "1752-1688"
+    ],
+    "issn-type": [
+      {
+        "value": "1093-474X",
+        "type": "print"
+      },
+      {
+        "value": "1752-1688",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          3
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2024-05-06",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-02-20",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-03-03",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e70011"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1111/1752-1688.70011",
+  "original_doi": "10.1111/1752-1688.70011"
+}

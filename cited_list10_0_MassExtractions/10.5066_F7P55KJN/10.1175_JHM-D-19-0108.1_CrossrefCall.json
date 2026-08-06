@@ -1,0 +1,781 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          20
+        ]
+      ],
+      "date-time": "2026-07-20T13:11:06Z",
+      "timestamp": 1784553066532,
+      "version": "3.55.0"
+    },
+    "reference-count": 47,
+    "publisher": "American Meteorological Society",
+    "issue": "12",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              12,
+              23
+            ]
+          ],
+          "date-time": "2019-12-23T00:00:00Z",
+          "timestamp": 1577059200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 22,
+        "URL": "http://www.ametsoc.org/PUBSReuseLicenses"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100013380",
+        "name": "Global Water Futures",
+        "doi-asserted-by": "crossref",
+        "id": [
+          {
+            "id": "10.13039/501100013380",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          12,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Land models are increasingly used and preferred in terrestrial hydrological prediction applications. One reason for selecting land models over simpler models is that their physically based backbone enables wider application under different conditions. This study evaluates the temporal variability in streamflow simulations in land models. Specifically, we evaluate how the subsurface structure and model parameters control the partitioning of water into different flow paths and the temporal variability in streamflow. Moreover, we use a suite of model diagnostics, typically not used in the land modeling community to clarify model weaknesses and identify a path toward model improvement. Our analyses show that the typical land model structure, and their functions for moisture movement between soil layers (an approximation of Richards equation), has a distinctive signature where flashy runoff is superimposed on slow recessions. This hampers the application of land models in simulating flashier basins and headwater catchments where floods are generated. We demonstrate the added value of the preferential flow in the model simulation by including macropores in both a toy model and the Variable Infiltration Capacity model. We argue that including preferential flow in land models is essential to enable their use for multiple applications across a myriad of temporal and spatial scales.</jats:p>",
+    "DOI": "10.1175/jhm-d-19-0108.1",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          18
+        ]
+      ],
+      "date-time": "2019-10-18T15:26:09Z",
+      "timestamp": 1571412369000
+    },
+    "page": "2401-2418",
+    "source": "Crossref",
+    "is-referenced-by-count": 12,
+    "title": [
+      "Improving the Representation of Subsurface Water Movement in Land Models"
+    ],
+    "prefix": "10.1175",
+    "volume": "20",
+    "author": [
+      {
+        "given": "Shervan",
+        "family": "Gharari",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Saskatchewan Coldwater Laboratory, Canmore, Alberta, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Martyn P.",
+        "family": "Clark",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Saskatchewan Coldwater Laboratory, Canmore, Alberta, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Naoki",
+        "family": "Mizukami",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Center for Atmospheric Research, Boulder, Colorado"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jefferson S.",
+        "family": "Wong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Global Institute for Water Security, University of Saskatchewan, Saskatoon, Saskatchewan, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alain",
+        "family": "Pietroniro",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Environment and Climate Change Canada, Saskatoon, Saskatchewan, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Howard S.",
+        "family": "Wheater",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Global Institute for Water Security, University of Saskatchewan, Saskatoon, Saskatchewan, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "12",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          12,
+          23
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2020062001593622300_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "5293",
+        "DOI": "10.5194/hess-21-5293-2017",
+        "article-title": "The CAMELS data set: Catchment attributes and meteorology for large-sample studies",
+        "volume": "21",
+        "author": "Addor",
+        "year": "2017",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "key": "2020062001593622300_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "10 078",
+        "DOI": "10.1002/2015WR017498",
+        "article-title": "Accelerating advances in continental domain hydrologic modeling",
+        "volume": "51",
+        "author": "Archfield",
+        "year": "2015",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "2020062001593622300_bib3",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.2136/vzj2018.08.0153",
+        "article-title": "A century of denial: preferential and nonequilibrium water flow in soils, 1864-1984",
+        "volume": "17",
+        "author": "Beven",
+        "year": "2018",
+        "journal-title": "Vadose Zone J."
+      },
+      {
+        "key": "2020062001593622300_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "W01801",
+        "DOI": "10.1029/2011WR010982",
+        "article-title": "Comment on \u201cHyperresolution global land surface modeling: Meeting a grand challenge for monitoring Earth\u2019s terrestrial water\u201d by Eric F. Wood et al",
+        "volume": "48",
+        "author": "Beven",
+        "year": "2012",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "2020062001593622300_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1311",
+        "DOI": "10.1029/WR018i005p01311",
+        "article-title": "Macropores and water flow in soils",
+        "volume": "18",
+        "author": "Beven",
+        "year": "1982",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "2020062001593622300_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.1007/s11430-014-5003-4",
+        "article-title": "Hyperresolution information and hyperresolution ignorance in modelling the hydrology of the land surface",
+        "volume": "58",
+        "author": "Beven",
+        "year": "2015",
+        "journal-title": "Sci. China Earth Sci."
+      },
+      {
+        "key": "2020062001593622300_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "161",
+        "DOI": "10.1016/0921-8181(95)00044-5",
+        "article-title": "Issues related to low resolution modeling of soil moisture: Experience with the PLACE model",
+        "volume": "13",
+        "author": "Boone",
+        "year": "1996",
+        "journal-title": "Global Planet. Change"
+      },
+      {
+        "key": "2020062001593622300_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "311",
+        "DOI": "10.1002/hyp.7154",
+        "article-title": "Consistency between hydrological models and field observations: Linking processes at the hillslope scale to hydrological responses at the watershed scale",
+        "volume": "23",
+        "author": "Clark",
+        "year": "2009",
+        "journal-title": "Hydrol. Processes"
+      },
+      {
+        "key": "2020062001593622300_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "5929",
+        "DOI": "10.1002/2015WR017096",
+        "article-title": "Improving the representation of hydrologic processes in Earth system models",
+        "volume": "51",
+        "author": "Clark",
+        "year": "2015",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "2020062001593622300_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "2328",
+        "DOI": "10.1002/hyp.7601",
+        "article-title": "Runoff\u2013infiltration partitioning using an upscaled Green\u2013Ampt solution",
+        "volume": "24",
+        "author": "Craig",
+        "year": "2010",
+        "journal-title": "Hydrol. Processes"
+      },
+      {
+        "key": "2020062001593622300_bib13",
+        "doi-asserted-by": "crossref",
+        "first-page": "10 676",
+        "DOI": "10.1002/2016JD025097",
+        "article-title": "The impact of standard and hard-coded parameters on the hydrologic fluxes in the Noah-MP land surface model",
+        "volume": "121",
+        "author": "Cuntz",
+        "year": "2016",
+        "journal-title": "J. Geophys. Res. Atmos."
+      },
+      {
+        "key": "2020062001593622300_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "4738",
+        "DOI": "10.1002/wrcr.20377",
+        "article-title": "Integrated modeling of flow and residence times at the catchment scale with multiple interacting pathways",
+        "volume": "49",
+        "author": "Davies",
+        "year": "2013",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "2020062001593622300_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "1737",
+        "DOI": "10.1029/2018WR023903",
+        "article-title": "Hillslope hydrology in global change research and Earth system modeling",
+        "volume": "55",
+        "author": "Fan",
+        "year": "2019",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "2020062001593622300_bib16",
+        "author": "Hack",
+        "year": "1957"
+      },
+      {
+        "key": "2020062001593622300_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "3481",
+        "DOI": "10.5194/gmd-11-3481-2018",
+        "article-title": "The Variable Infiltration Capacity model version 5 (VIC-5): Infrastructure improvements for new applications and reproducibility",
+        "volume": "11",
+        "author": "Hamman",
+        "year": "2018",
+        "journal-title": "Geosci. Model Dev."
+      },
+      {
+        "key": "2020062001593622300_bib18",
+        "unstructured": "Hamon, W. R.\n          , 1960: Estimating potential evapotranspiration. B.S. dissertation, Dept. of Civil and Sanitary Engineering, Massachusetts Institute of Technology, 75 pp., https://dspace.mit.edu/handle/1721.1/79479."
+      },
+      {
+        "key": "2020062001593622300_bib19",
+        "first-page": "W09404",
+        "article-title": "Power law catchment-scale recessions arising from heterogeneous linear small-scale dynamics",
+        "volume": "45",
+        "author": "Harman",
+        "year": "2009",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "2020062001593622300_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "8218",
+        "DOI": "10.1002/2014WR016842",
+        "article-title": "A hybrid-3D hillslope hydrological model for use in Earth system models",
+        "volume": "51",
+        "author": "Hazenberg",
+        "year": "2015",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "issue": "12",
+        "key": "2020062001593622300_bib21",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.2136/vzj2016.09.0075",
+        "article-title": "Understanding preferential flow in the vadose zone: Recent advances and future prospects",
+        "volume": "15",
+        "author": "Jarvis",
+        "year": "2016",
+        "journal-title": "Vadose Zone J."
+      },
+      {
+        "key": "2020062001593622300_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "W03S04",
+        "DOI": "10.1029/2005WR004362",
+        "article-title": "Getting the right answers for the right reasons: Linking measurements, analyses, and models to advance the science of hydrology",
+        "volume": "42",
+        "author": "Kirchner",
+        "year": "2006",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "2020062001593622300_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "299",
+        "DOI": "10.1002/hyp.3360060306",
+        "article-title": "Subsurface flow simulation of a small plot at Loch Chon, Scotland",
+        "volume": "6",
+        "author": "Koide",
+        "year": "1992",
+        "journal-title": "Hydrol. Processes"
+      },
+      {
+        "key": "2020062001593622300_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1604",
+        "DOI": "10.1175/JHM-D-12-050.1",
+        "article-title": "Land surface controls on hydroclimatic means and variability",
+        "volume": "13",
+        "author": "Koster",
+        "year": "2012",
+        "journal-title": "J. Hydrometeor."
+      },
+      {
+        "key": "2020062001593622300_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "1578",
+        "DOI": "10.1175/1520-0442(1997)010<1578:TIBTAR>2.0.CO;2",
+        "article-title": "The interplay between transpiration and runoff formulations in land surface schemes used with atmospheric models",
+        "volume": "10",
+        "author": "Koster",
+        "year": "1997",
+        "journal-title": "J. Climate"
+      },
+      {
+        "key": "2020062001593622300_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "27 519",
+        "DOI": "10.1029/1999JD900951",
+        "article-title": "Use of the Richards equation in land surface parameterizations",
+        "volume": "104",
+        "author": "Lee",
+        "year": "1999",
+        "journal-title": "J. Geophys. Res."
+      },
+      {
+        "key": "2020062001593622300_bib27",
+        "doi-asserted-by": "crossref",
+        "first-page": "14 415",
+        "DOI": "10.1029/94JD00483",
+        "article-title": "A simple hydrologically based model of land surface water and energy fluxes for general circulation models",
+        "volume": "99",
+        "author": "Liang",
+        "year": "1994",
+        "journal-title": "J. Geophys. Res."
+      },
+      {
+        "key": "2020062001593622300_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "739",
+        "DOI": "10.1175/1520-0493(1969)097<0739:CATOC>2.3.CO;2",
+        "article-title": "Climate and the ocean circulation: I. The atmospheric circulation and the hydrology of the earth\u2019s surface",
+        "volume": "97",
+        "author": "Manabe",
+        "year": "1969",
+        "journal-title": "Mon. Wea. Rev."
+      },
+      {
+        "key": "2020062001593622300_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "323",
+        "DOI": "10.1002/wat2.1027",
+        "article-title": "The two water worlds hypothesis: Ecohydrological separation of water between streams and trees?",
+        "volume": "1",
+        "author": "McDonnell",
+        "year": "2014",
+        "journal-title": "Wiley Interdiscip. Rev.: Water"
+      },
+      {
+        "key": "2020062001593622300_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "1069",
+        "DOI": "10.5194/hess-20-1069-2016",
+        "article-title": "HESS Opinions: The need for process-based evaluation of large-domain hyper-resolution models",
+        "volume": "20",
+        "author": "Melsen",
+        "year": "2016",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "key": "2020062001593622300_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "716",
+        "DOI": "10.1002/2014WR015820",
+        "article-title": "Are we unnecessarily constraining the agility of complex process-based models?",
+        "volume": "51",
+        "author": "Mendoza",
+        "year": "2015",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "2020062001593622300_bib32",
+        "doi-asserted-by": "crossref",
+        "first-page": "1739",
+        "DOI": "10.1175/JHM-D-13-0162.1",
+        "article-title": "An enhanced model of land water and energy for global hydrologic and earth-system studies",
+        "volume": "15",
+        "author": "Milly",
+        "year": "2014",
+        "journal-title": "J. Hydrometeor."
+      },
+      {
+        "key": "2020062001593622300_bib33",
+        "doi-asserted-by": "crossref",
+        "first-page": "1458",
+        "DOI": "10.1002/wrcr.20141",
+        "article-title": "Balancing practicality and hydrologic realism: A parsimonious approach for simulating rapid groundwater recharge via unsaturated-zone preferential flow",
+        "volume": "49",
+        "author": "Mirus",
+        "year": "2013",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "2020062001593622300_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "W00H10",
+        "DOI": "10.1029/2010WR009906",
+        "article-title": "Assessing the detail needed to capture rainfall-runoff dynamics with physics-based hydrologic response simulation",
+        "volume": "47",
+        "author": "Mirus",
+        "year": "2011",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "2020062001593622300_bib35",
+        "doi-asserted-by": "crossref",
+        "first-page": "8020",
+        "DOI": "10.1002/2017WR020401",
+        "article-title": "Towards seamless large-domain parameter estimation for hydrologic models",
+        "volume": "53",
+        "author": "Mizukami",
+        "year": "2017",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "2020062001593622300_bib36",
+        "doi-asserted-by": "crossref",
+        "first-page": "1151",
+        "DOI": "10.5194/hess-20-1151-2016",
+        "article-title": "The importance of topography-controlled sub-grid process heterogeneity and semi-quantitative prior constraints in distributed hydrological models",
+        "volume": "20",
+        "author": "Nijzink",
+        "year": "2016",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "key": "2020062001593622300_bib37",
+        "doi-asserted-by": "crossref",
+        "first-page": "786",
+        "DOI": "10.1002/hyp.8380",
+        "article-title": "Preferential flow occurs in unsaturated conditions",
+        "volume": "26",
+        "author": "Nimmo",
+        "year": "2012",
+        "journal-title": "Hydrol. Processes"
+      },
+      {
+        "issue": "4",
+        "key": "2020062001593622300_bib38",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.2136/vzj2013.03.0054",
+        "article-title": "Predicting vertically nonsequential wetting patterns with a source-responsive model",
+        "volume": "12",
+        "author": "Nimmo",
+        "year": "2013",
+        "journal-title": "Vadose Zone J."
+      },
+      {
+        "key": "2020062001593622300_bib39",
+        "doi-asserted-by": "crossref",
+        "first-page": "459",
+        "DOI": "10.5194/hess-21-459-2017",
+        "article-title": "Towards a simple representation of chalk hydrology in land surface modelling",
+        "volume": "21",
+        "author": "Rahman",
+        "year": "2017",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "key": "2020062001593622300_bib40",
+        "doi-asserted-by": "crossref",
+        "first-page": "782",
+        "DOI": "10.2136/vzj2007.0074",
+        "article-title": "Modeling nonequilibrium flow and transport processes using HYDRUS",
+        "volume": "7",
+        "author": "\u0160im\u016fnek",
+        "year": "2008",
+        "journal-title": "Vadose Zone J."
+      },
+      {
+        "key": "2020062001593622300_bib41",
+        "doi-asserted-by": "crossref",
+        "first-page": "251",
+        "DOI": "10.1080/07055900.2000.9649648",
+        "article-title": "Towards closing the vertical water balance in Canadian atmospheric models: Coupling of the land surface scheme CLASS with the distributed hydrological model WATFLOOD",
+        "volume": "38",
+        "author": "Soulis",
+        "year": "2000",
+        "journal-title": "Atmos.\u2013Ocean"
+      },
+      {
+        "key": "2020062001593622300_bib49",
+        "author": "USGS",
+        "year": "2019"
+      },
+      {
+        "key": "2020062001593622300_bib42",
+        "doi-asserted-by": "crossref",
+        "first-page": "2451",
+        "DOI": "10.1029/92WR01007",
+        "article-title": "Regional geohydrologic-geomorphic relationships for the estimation of low-flow statistics",
+        "volume": "28",
+        "author": "Vogel",
+        "year": "1992",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "2020062001593622300_bib43",
+        "doi-asserted-by": "crossref",
+        "first-page": "7505",
+        "DOI": "10.1002/2014WR015638",
+        "article-title": "The WFDEI meteorological forcing data set: WATCH Forcing Data methodology applied to ERA-Interim reanalysis data",
+        "volume": "50",
+        "author": "Weedon",
+        "year": "2014",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "2020062001593622300_bib44",
+        "doi-asserted-by": "crossref",
+        "first-page": "359",
+        "DOI": "10.1002/hyp.3360070403",
+        "article-title": "Hydrological flow paths at the Allt a\u2019Mharcaidh catchment: An analysis of plot and catchment scale observations",
+        "volume": "7",
+        "author": "Wheater",
+        "year": "1993",
+        "journal-title": "Hydrol. Processes"
+      },
+      {
+        "key": "2020062001593622300_bib45",
+        "doi-asserted-by": "crossref",
+        "first-page": "2717",
+        "DOI": "10.1029/91JD01786",
+        "article-title": "A land-surface hydrology parameterization with subgrid variability for general circulation models",
+        "volume": "97",
+        "author": "Wood",
+        "year": "1992",
+        "journal-title": "J. Geophys. Res."
+      },
+      {
+        "key": "2020062001593622300_bib46",
+        "doi-asserted-by": "crossref",
+        "first-page": "W05301",
+        "DOI": "10.1029/2010WR010090",
+        "article-title": "Hyperresolution global land surface modeling: Meeting a grand challenge for monitoring Earth\u2019s terrestrial water",
+        "volume": "47",
+        "author": "Wood",
+        "year": "2011",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "2020062001593622300_bib47",
+        "doi-asserted-by": "crossref",
+        "first-page": "W01802",
+        "DOI": "10.1029/2011WR011202",
+        "article-title": "Reply to comment by Keith J. Beven and Hannah L. Cloke on \u201cHyperresolution global land surface modeling: Meeting a grand challenge for monitoring Earth\u2019s terrestrial water\u201d",
+        "volume": "48",
+        "author": "Wood",
+        "year": "2012",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "2020062001593622300_bib48",
+        "first-page": "351",
+        "article-title": "The Xinanjiang model",
+        "volume": "129",
+        "author": "Zhao",
+        "year": "1980",
+        "journal-title": "IAHS Publ"
+      }
+    ],
+    "container-title": [
+      "Journal of Hydrometeorology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://journals.ametsoc.org/jhm/article-pdf/20/12/2401/4842662/jhm-d-19-0108_1.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://journals.ametsoc.org/jhm/article-pdf/20/12/2401/4842662/jhm-d-19-0108_1.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          7
+        ]
+      ],
+      "date-time": "2020-12-07T22:22:02Z",
+      "timestamp": 1607379722000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://journals.ametsoc.org/doi/10.1175/JHM-D-19-0108.1"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          12,
+          1
+        ]
+      ]
+    },
+    "references-count": 47,
+    "journal-issue": {
+      "issue": "12",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            12,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1175/jhm-d-19-0108.1",
+    "relation": {},
+    "ISSN": [
+      "1525-755X",
+      "1525-7541"
+    ],
+    "issn-type": [
+      {
+        "value": "1525-755X",
+        "type": "print"
+      },
+      {
+        "value": "1525-7541",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          12,
+          1
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.1175/JHM-D-19-0108.1",
+  "original_doi": "10.1175/JHM-D-19-0108.1"
+}

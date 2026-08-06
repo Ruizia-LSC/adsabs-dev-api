@@ -1,0 +1,805 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          5
+        ]
+      ],
+      "date-time": "2026-06-05T07:41:31Z",
+      "timestamp": 1780645291295,
+      "version": "3.54.1"
+    },
+    "reference-count": 80,
+    "publisher": "Wiley",
+    "issue": "9",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              11
+            ]
+          ],
+          "date-time": "2022-07-11T00:00:00Z",
+          "timestamp": 1657497600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100006450",
+        "name": "Bureau of Reclamation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006450",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100010229",
+        "name": "New Mexico Department of Game and Fish",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100010229",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000202",
+        "name": "U.S. Fish and Wildlife Service",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000202",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Freshwater Biology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p><jats:list><jats:list-item><jats:p>Dams can be operated to mimic components of the natural flow regime to minimise impacts on downstream ecosystems. However, infrastructure, societal needs, water management, and catchment runoff constrain which and when flow regime attributes can be mimicked.</jats:p></jats:list-item><jats:list-item><jats:p>We compared fish assemblage responses, including native and non\u2010native species, over 2 decades of managed environmental flows to those in a river retaining a relatively unaltered flow regime. Both of these arid\u2010land rivers are within the overallocated Colorado River basin and have experienced declines in catchment runoff over the past 20\u2009years. We predicted that fish\u2013flow relationships would be conserved across time and between managed and unmanaged rivers.</jats:p></jats:list-item><jats:list-item><jats:p>Declines in flow in both rivers coincided with declines in some native fishes, and more native and non\u2010native fish species exhibited declines in the managed river than in the unmanaged river. Our ability to detect previously documented native fish\u2013flow relationships diminished in the managed river system because established environmental flow targets were not met due to water management, but we detected these fish\u2013flow relationships in the unmanaged river.</jats:p></jats:list-item><jats:list-item><jats:p>Our results suggest declining catchment runoff and increased consumptive water use could reduce the effectiveness of environmental flows that have lower priority in most years.</jats:p></jats:list-item></jats:list></jats:p>",
+    "DOI": "10.1111/fwb.13966",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          11
+        ]
+      ],
+      "date-time": "2022-07-11T20:44:47Z",
+      "timestamp": 1657572287000
+    },
+    "page": "1631-1643",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 23,
+    "title": [
+      "Failure to achieve recommended environmental flows coincides with declining fish populations: Long\u2010term trends in regulated and unregulated rivers"
+    ],
+    "prefix": "10.1111",
+    "volume": "67",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3547-6477",
+        "authenticated-orcid": false,
+        "given": "Casey A.",
+        "family": "Pennock",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Watershed Sciences and the Ecology Center Utah State University Logan UT USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lindsey A.",
+        "family": "Bruckerhoff",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey, Oklahoma Cooperative Fish and Wildlife Research Unit Oklahoma State University Stillwater OK USA"
+          },
+          {
+            "name": "Department of Natural Resource Ecology and Management Oklahoma State University Stillwater OK USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4342-161X",
+        "authenticated-orcid": false,
+        "given": "Keith B.",
+        "family": "Gido",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Division of Biology Kansas State University Manhattan KS USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Adam L.",
+        "family": "Barkalow",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "New Mexico Department of Game and Fish Santa Fe NM USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Matthew J.",
+        "family": "Breen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Utah Division of Wildlife Resources Northeastern Regional Office Vernal UT USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Phaedra",
+        "family": "Budy",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Watershed Sciences and the Ecology Center Utah State University Logan UT USA"
+          },
+          {
+            "name": "U.S. Geological Survey, Utah Cooperative Fish and Wildlife Research Unit Utah State University Logan UT USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "William W.",
+        "family": "Macfarlane",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Watershed Sciences and the Ecology Center Utah State University Logan UT USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David L.",
+        "family": "Propst",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biology, Museum of Southwestern Biology University of New\u00a0Mexico Albuquerque NM USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          11
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_9_2_1",
+        "unstructured": "Anderson D. M. Econopouly T. W. Mohrman J. Jones T. Breen M. J. &Chart T. E.(2019).Review of fish studies of the White River Colorado and Utah. Final Report for the Upper Colorado River Endangered Fish Recovery Program and the Colorado Water Conservation Board. Retrieved fromhttps://coloradoriverrecovery.org"
+      },
+      {
+        "key": "e_1_2_9_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/1051-0761(2006)016[1311:TCOPEF]2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_9_4_1",
+        "unstructured": "Bestgen K. R.(2018).Evaluate effects of flow spikes to disrupt reproduction of smallmouth bass in the Green River downstream of Flaming Gorge Dam. Final report to the Upper Colorado River Endangered Fish Recovery Program. Denver Colorado. Department of Fish Wildlife and Conservation Biology Colorado State University Fort Collins. Larval Fish Laboratory Contribution 214. Retrieved fromhttps://coloradoriverrecovery.org/"
+      },
+      {
+        "key": "e_1_2_9_5_1",
+        "unstructured": "Bestgen K. R. Haines G. B. &Hill A. A.(2011).Synthesis of flood plain wetland information: Timing of Razorback Sucker reproduction in the Green River Utah related to stream flow water temperature and flood plain wetland availability. Final Report to the Upper Colorado River Endangered Fish Recovery Program Denver. Larval Fish Laboratory Contribution 163."
+      },
+      {
+        "key": "e_1_2_9_6_1",
+        "volume-title": "Status review of Roundtail Chub Gila robusta, Flannelmouth Sucker Catostomus latipinnis, and Bluehead Sucker Catostomus discobolus in the Colorado River basin",
+        "author": "Bezzerides N.",
+        "year": "2002"
+      },
+      {
+        "key": "e_1_2_9_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2427.2011.02633.x"
+      },
+      {
+        "key": "e_1_2_9_8_1",
+        "volume-title": "Conservation activities for bluehead sucker, flannelmouth sucker, and roundtail chub in four drainages of northeastern Utah",
+        "author": "Breen M. J.",
+        "year": "2010"
+      },
+      {
+        "key": "e_1_2_9_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752\u20101688.13020"
+      },
+      {
+        "key": "e_1_2_9_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/cobi.12513"
+      },
+      {
+        "key": "e_1_2_9_11_1",
+        "volume-title": "Record of decision for the Navajo reservoir operations",
+        "author": "Bureau of Reclamation (BOR)",
+        "year": "2006"
+      },
+      {
+        "key": "e_1_2_9_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/3672140"
+      },
+      {
+        "key": "e_1_2_9_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1071/MF20172"
+      },
+      {
+        "key": "e_1_2_9_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1071/MF13110"
+      },
+      {
+        "key": "e_1_2_9_15_1",
+        "unstructured": "Detlor J. &Breen M.(2020).Northeastern region report. 2019 annual monitoring and survey report for three fish species Bluehead SuckerCatostomus discobolus Flannelmouth SuckerCatostomus latipinnis Roundtail ChubGila robusta. Publication No. 20\u201320.Utah Division of Wildlife Resources. Retrieved fromhttps://digitallibrary.utah.gov/aw\u2010server/rest/product/purl/USL/i/1237ccf1\u2010b639\u201048c1\u201090ab\u2010a99f25ce79d5"
+      },
+      {
+        "key": "e_1_2_9_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cub.2019.08.002"
+      },
+      {
+        "key": "e_1_2_9_17_1",
+        "volume-title": "An R companion to applied regression",
+        "author": "Fox J.",
+        "year": "2019"
+      },
+      {
+        "key": "e_1_2_9_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/03632415.2014.924409"
+      },
+      {
+        "key": "e_1_2_9_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rra.2855"
+      },
+      {
+        "key": "e_1_2_9_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00028487.2012.683471"
+      },
+      {
+        "key": "e_1_2_9_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/cjfas-2012-0441"
+      },
+      {
+        "key": "e_1_2_9_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.geomorph.2020.107438"
+      },
+      {
+        "key": "e_1_2_9_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/rec.12330"
+      },
+      {
+        "key": "e_1_2_9_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(SICI)1098-2256(1997)12:3<195::AID-TOX1>3.0.CO;2-3"
+      },
+      {
+        "key": "e_1_2_9_25_1",
+        "first-page": "S82",
+        "article-title": "Quantifying consumption of native fishes by nonnative Channel Catfish in a desert river",
+        "volume": "41",
+        "author": "Hedden S. C.",
+        "year": "2020",
+        "journal-title": "North American Journal of Fisheries Management"
+      },
+      {
+        "key": "e_1_2_9_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10530\u2010022\u201002777\u20108"
+      },
+      {
+        "key": "e_1_2_9_27_1",
+        "volume-title": "Flow recommendation for the San Juan River",
+        "author": "Holden P.",
+        "year": "1999"
+      },
+      {
+        "key": "e_1_2_9_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biosci/biz087"
+      },
+      {
+        "key": "e_1_2_9_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/cjfas-2018-0138"
+      },
+      {
+        "key": "e_1_2_9_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1672/0277-5212(2003)023[0763:BEAMOE]2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_9_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2427.2009.02307.x"
+      },
+      {
+        "key": "e_1_2_9_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/11-0480.1"
+      },
+      {
+        "key": "e_1_2_9_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00267-015-0456-6"
+      },
+      {
+        "key": "e_1_2_9_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00028487.2011.572015"
+      },
+      {
+        "key": "e_1_2_9_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/fwb.12324"
+      },
+      {
+        "key": "e_1_2_9_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/cjfas-2013-0320"
+      },
+      {
+        "key": "e_1_2_9_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/04-0282"
+      },
+      {
+        "key": "e_1_2_9_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tree.2003.10.002"
+      },
+      {
+        "key": "e_1_2_9_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00267-013-0055-3"
+      },
+      {
+        "key": "e_1_2_9_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aay9187"
+      },
+      {
+        "key": "e_1_2_9_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1577/1548-8446(2005)30[10:PFRANF]2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_9_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/130076"
+      },
+      {
+        "key": "e_1_2_9_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2006323117"
+      },
+      {
+        "key": "e_1_2_9_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecoleng.2019.04.003"
+      },
+      {
+        "key": "e_1_2_9_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/fsh.10703"
+      },
+      {
+        "key": "e_1_2_9_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/nafm.10056"
+      },
+      {
+        "key": "e_1_2_9_47_1",
+        "unstructured": "Pinheiro J. Bates D. DebRoy S. Sarkar D. &RCore Team. (2020).nlme: linear and nonlinear mixed effects models. R package version 3.1\u2010148. Retrieved fromhttps://CRAN.R\u2010project.org/package=nlme"
+      },
+      {
+        "key": "e_1_2_9_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/fwb.13038"
+      },
+      {
+        "key": "e_1_2_9_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1313099"
+      },
+      {
+        "key": "e_1_2_9_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2427.2009.02204.x"
+      },
+      {
+        "key": "e_1_2_9_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aah4926"
+      },
+      {
+        "key": "e_1_2_9_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2427.2009.02272.x"
+      },
+      {
+        "key": "e_1_2_9_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626667.2020.1714051"
+      },
+      {
+        "key": "e_1_2_9_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1577/T03-057.1"
+      },
+      {
+        "key": "e_1_2_9_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/07-1489.1"
+      },
+      {
+        "key": "e_1_2_9_56_1",
+        "volume-title": "R: A language and environment for statistical computing",
+        "author": "R Core Team",
+        "year": "2020"
+      },
+      {
+        "key": "e_1_2_9_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/brv.12480"
+      },
+      {
+        "key": "e_1_2_9_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5751/ES-02014-120112"
+      },
+      {
+        "key": "e_1_2_9_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/fwb.12948"
+      },
+      {
+        "key": "e_1_2_9_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1071/MF21057"
+      },
+      {
+        "key": "e_1_2_9_61_1",
+        "unstructured": "Salehabadi H. Tarboton D. G. Kuhn E. Udall B. Wheeler K. G. Rosenberg D. E. Goeking S. &Schmidt J. C.(2020).The future hydrology of the Colorado River Basin. White Paper 4. Future of the Colorado River Project Center for Colorado River Studies Utah State University 71p. Retrieved fromhttps://qcnr.usu.edu/coloradoriver/futures"
+      },
+      {
+        "key": "e_1_2_9_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1313236"
+      },
+      {
+        "key": "e_1_2_9_63_1",
+        "unstructured": "Schleicher B. J.(2018).Long term monitoring of sub\u2010adult and adult large\u2010bodied fishes in the San Juan River: 2017. Interim Progress report submitted to the San Juan River basin recovery implementation program U.S. Fish and Wildlife Service."
+      },
+      {
+        "key": "e_1_2_9_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eco.1988"
+      },
+      {
+        "key": "e_1_2_9_65_1",
+        "unstructured": "Smith C. Breen M. J. &Logan J.(2020).Smallmouth bass control in the White River. Annual Report to Upper Colorado River Endangered Fish Recovery Program and Bureau of Reclamation. Retrieved fromhttps://coloradoriverrecovery.org/wp\u2010content/uploads/2021/04/167_FY20AR_WhiteRiverBass_508.pdf"
+      },
+      {
+        "key": "e_1_2_9_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02626667.2013.860231"
+      },
+      {
+        "key": "e_1_2_9_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/fwb.13029"
+      },
+      {
+        "key": "e_1_2_9_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biosci/biaa002"
+      },
+      {
+        "key": "e_1_2_9_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1577/1548-8446(2000)025<0017:NFCAEF>2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_9_70_1",
+        "volume-title": "Assessment and review of the San Juan River basin recovery implementation Program's progress toward recovery",
+        "author": "U.S. Fish and Wildlife Service (USFWS)",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_9_71_1",
+        "unstructured": "U.S. Geological Survey (USGS). (2022).USGS water data for the Nation: U.S. Geological Survey National Water Information System database.https://doi.org/10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_2_9_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016WR019638"
+      },
+      {
+        "key": "e_1_2_9_73_1",
+        "unstructured": "Upper Colorado River Commission (UCRC). (2016).Upper Colorado river division states current and future depletion demand schedule. Retrieved fromhttps://www.ucrcommission.com/RepDoc/DepSchedules/CurFutDemandSchedule.pdf"
+      },
+      {
+        "key": "e_1_2_9_74_1",
+        "unstructured": "Urbancyzk K.M. Burch S. &Macfarlane W. W.(2020).2018 riparian land cover classification for the lower White River Utah. Prepared for US Bureau of Land Management Rio Grand Research Center Sul Ross State University Alpine TX and Ecogeomorphology and Topographic Analysis Laboratory Utah State University Logan UT. 35p."
+      },
+      {
+        "key": "e_1_2_9_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/data3040042"
+      },
+      {
+        "key": "e_1_2_9_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1130/B35233.1"
+      },
+      {
+        "key": "e_1_2_9_77_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wheeler K. Kuhn E. Bruckerhoff L. Udall B. Wang J. Gilbert L. Goeking S. Kasprak A. Mihalevich B. Neilson B. Salehabadi H. &Schmidt J. C.(2021).Alternative management paradigms for the future of the Colorado and Green Rivers. White Paper 6. Future of the Colorado River Project Center for Colorado River Studies Utah State University 91p. Retrieved fromhttps://qcnr.usu.edu/coloradoriver/futures",
+        "DOI": "10.4211/hs.59175cf99a58462f901cdf56ec79ddbe"
+      },
+      {
+        "key": "e_1_2_9_78_1",
+        "unstructured": "Wheeler K. G. Schmidt J. C. &Rosenberg D.(2019).Water resources modeling of the Colorado River: Present and future strategies. Future of the Colorado River Project Center for Colorado River Studies Utah State University 47p. Retrieved fromhttps://qcnr.usu.edu/coloradoriver/futures"
+      },
+      {
+        "key": "e_1_2_9_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41558\u2010022\u201001290\u2010z"
+      },
+      {
+        "key": "e_1_2_9_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1565"
+      },
+      {
+        "key": "e_1_2_9_81_1",
+        "first-page": "7",
+        "article-title": "Diagnostic checking in regression relationships",
+        "volume": "2",
+        "author": "Zeileis A.",
+        "year": "2002",
+        "journal-title": "R News"
+      }
+    ],
+    "container-title": [
+      "Freshwater Biology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/fwb.13966",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/fwb.13966",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/fwb.13966",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          28
+        ]
+      ],
+      "date-time": "2024-09-28T22:35:36Z",
+      "timestamp": 1727562936000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1111/fwb.13966"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          11
+        ]
+      ]
+    },
+    "references-count": 80,
+    "journal-issue": {
+      "issue": "9",
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            9
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/fwb.13966"
+    ],
+    "URL": "https://doi.org/10.1111/fwb.13966",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0046-5070",
+      "1365-2427"
+    ],
+    "issn-type": [
+      {
+        "value": "0046-5070",
+        "type": "print"
+      },
+      {
+        "value": "1365-2427",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          11
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2021-11-30",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2022-06-13",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2022-07-11",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.1111/fwb.13966",
+  "original_doi": "10.1111/fwb.13966"
+}

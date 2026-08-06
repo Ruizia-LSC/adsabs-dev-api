@@ -1,0 +1,670 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          31
+        ]
+      ],
+      "date-time": "2025-12-31T11:26:56Z",
+      "timestamp": 1767180416927,
+      "version": "build-2238731810"
+    },
+    "reference-count": 42,
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              21
+            ]
+          ],
+          "date-time": "2022-01-21T00:00:00Z",
+          "timestamp": 1642723200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.plosone.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "PLoS ONE"
+    ],
+    "abstract": "<jats:p>\n                    In mountainous and high latitude regions, migratory animals exploit green waves of emerging vegetation coinciding with rising daily mean temperatures initiating snowmelt across the landscape. Snowmelt also causes rivers and streams draining these regions to swell, a process referred to as to as the \u2018spring pulse.\u2019 Networks of streamgages measuring streamflow in these regions often have long-term and continuous periods of record available in real-time and at the daily time step, and thus produce data with potential to predict temporal migration patterns for species exploiting green waves. We tested the potential of models informed by streamflow data to predict timing of spring migration of mule deer (\n                    <jats:italic>Odocoileus hemionus</jats:italic>\n                    ) herds in a headwater basin of the Colorado River. Models using streamflow data were compared with those informed by traditional temperature-derived measures of the onset of spring. Non-parametric linear-regression techniques were used to test for temporal stationarity in each variable, and logistic-regression models were used to produce probabilities of migration initiation. Our analysis indicates that models using daily streamflow data can perform as well as those using temperature-derived data to predict past-migration patterns, and nearly as well in potential to forecast future migrations. The best performing model was used to generate probabilities of onset of migration for mule deer herds over the 69-year period-of-record from a streamgage. That model indicated spring migration has been trending toward earlier initiations, with modeled median initiations shifting from a Julian day of 123 in the mid 20\n                    <jats:sup>th</jats:sup>\n                    century to Julian day 115 over the most recent two decades. The period of 1960 to 1979 had the latest modeled median initiations with Julian day of 128. The analyses demonstrate promise for merging existing hydrologic and biological data collection platforms in these regions to explore timing of past migration patterns and predict migration onsets in real-time.\n                  </jats:p>",
+    "DOI": "10.1371/journal.pone.0262078",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          21
+        ]
+      ],
+      "date-time": "2022-01-21T14:43:03Z",
+      "timestamp": 1642776183000
+    },
+    "page": "e0262078",
+    "update-policy": "https://doi.org/10.1371/journal.pone.corrections_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Testing the potential of streamflow data to predict spring migration of an ungulate herds"
+    ],
+    "prefix": "10.1371",
+    "volume": "17",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1602-482X",
+        "authenticated-orcid": true,
+        "given": "Jason S.",
+        "family": "Alexander",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Marissa L.",
+        "family": "Murr",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Cheryl A.",
+        "family": "Eddy-Miller",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "340",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          21
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "5",
+        "key": "pone.0262078.ref001",
+        "doi-asserted-by": "crossref",
+        "first-page": "1099",
+        "DOI": "10.1890/15-0554.1",
+        "article-title": "Resource waves: phenological diversity enhances foraging opportunities for mobile consumers",
+        "volume": "97",
+        "author": "JB Armstrong",
+        "year": "2016",
+        "journal-title": "Ecology"
+      },
+      {
+        "issue": "1833",
+        "key": "pone.0262078.ref002",
+        "doi-asserted-by": "crossref",
+        "first-page": "20160456",
+        "DOI": "10.1098/rspb.2016.0456",
+        "article-title": "Large herbivores surf waves of green-up during spring",
+        "volume": "283",
+        "author": "JA Merkle",
+        "year": "2016",
+        "journal-title": "Proceedings of the Royal Society B: Biological Sciences"
+      },
+      {
+        "issue": "6",
+        "key": "pone.0262078.ref003",
+        "doi-asserted-by": "crossref",
+        "first-page": "741",
+        "DOI": "10.1111/ele.12772",
+        "article-title": "The greenscape shapes surfing of resource waves in a large migratory herbivore",
+        "volume": "20",
+        "author": "EO Aikens",
+        "year": "2017",
+        "journal-title": "Ecology Letters"
+      },
+      {
+        "issue": "4",
+        "key": "pone.0262078.ref004",
+        "doi-asserted-by": "crossref",
+        "first-page": "407",
+        "DOI": "10.1086/667590",
+        "article-title": "A migratory northern ungulate in the pursuit of spring: jumping or surfing the green wave?",
+        "volume": "180",
+        "author": "R Bischof",
+        "year": "2012",
+        "journal-title": "The American Naturalist"
+      },
+      {
+        "issue": "3",
+        "key": "pone.0262078.ref005",
+        "first-page": "567",
+        "article-title": "Surfing on a green wave-how plant growth drives spring migration in the Barnacle Goose Branta leucopsis",
+        "volume": "94",
+        "author": "AJ Van der Graaf",
+        "year": "2006",
+        "journal-title": "Ardea-Wageningen"
+      },
+      {
+        "issue": "3",
+        "key": "pone.0262078.ref006",
+        "doi-asserted-by": "crossref",
+        "first-page": "502",
+        "DOI": "10.2307/3545568",
+        "article-title": "Plant phenology and the benefits of migration in a temperate ungulate",
+        "volume": "65",
+        "author": "S.D. Alban",
+        "year": "1992",
+        "journal-title": "Oikos"
+      },
+      {
+        "issue": "3",
+        "key": "pone.0262078.ref007",
+        "doi-asserted-by": "crossref",
+        "first-page": "399",
+        "DOI": "10.1175/1520-0477(2001)082<0399:CITOOS>2.3.CO;2",
+        "article-title": "Changes in the onset of spring in the western United States",
+        "volume": "82",
+        "author": "DR Cayan",
+        "year": "2001",
+        "journal-title": "Bulletin of the American Meteorological Society"
+      },
+      {
+        "issue": "9",
+        "key": "pone.0262078.ref008",
+        "doi-asserted-by": "crossref",
+        "first-page": "1431",
+        "DOI": "10.3732/ajb.1000095",
+        "article-title": "Changes in snowmelt date and summer precipitation affect the flowering phenology of Erythronium grandiflorum (glacier lily; Liliaceae)",
+        "volume": "97",
+        "author": "AM Lambert",
+        "year": "2010",
+        "journal-title": "American journal of botany"
+      },
+      {
+        "issue": "2",
+        "key": "pone.0262078.ref009",
+        "doi-asserted-by": "crossref",
+        "first-page": "307",
+        "DOI": "10.1007/s00442-004-1725-x",
+        "article-title": "The influence of climate on the timing and rate of spring bird migration",
+        "volume": "142",
+        "author": "PP Marra",
+        "year": "2005",
+        "journal-title": "Oecologia"
+      },
+      {
+        "issue": "3",
+        "key": "pone.0262078.ref010",
+        "doi-asserted-by": "crossref",
+        "first-page": "582",
+        "DOI": "10.1111/j.1365-2664.2009.01643.x",
+        "article-title": "Spring Normalized Difference Vegetation Index (NDVI) predicts annual variation in timing of peak faecal crude protein in mountain ungulates",
+        "volume": "46",
+        "author": "S Hamel",
+        "year": "2009",
+        "journal-title": "Journal of Applied Ecology"
+      },
+      {
+        "key": "pone.0262078.ref011",
+        "doi-asserted-by": "crossref",
+        "first-page": "322",
+        "DOI": "10.1016/j.ecolind.2015.06.005",
+        "article-title": "Satellite-versus temperature-derived green wave indices for predicting the timing of spring migration of avian herbivores",
+        "volume": "58",
+        "author": "MS Najafabadi",
+        "year": "2015",
+        "journal-title": "Ecological Indicators"
+      },
+      {
+        "issue": "3",
+        "key": "pone.0262078.ref012",
+        "doi-asserted-by": "crossref",
+        "first-page": "e03268",
+        "DOI": "10.1002/ecy.3268",
+        "article-title": "Tracking snowmelt to jump the green wave: phenological drivers of migration in a northern ungulate",
+        "volume": "102",
+        "author": "MP Laforge",
+        "year": "2021",
+        "journal-title": "Ecology"
+      },
+      {
+        "issue": "5",
+        "key": "pone.0262078.ref013",
+        "doi-asserted-by": "crossref",
+        "first-page": "655",
+        "DOI": "10.1111/j.1600-0706.2011.20083.x",
+        "article-title": "Individually tracked geese follow peaks of temperature acceleration during spring migration",
+        "volume": "121",
+        "author": "RE Van Wijk",
+        "year": "2012",
+        "journal-title": "Oikos"
+      },
+      {
+        "key": "pone.0262078.ref014",
+        "unstructured": "PRISM Climate Group, Oregon State University PRISM Gridded Climate Data accessed August, 2020, at URL [http://prism.oregonstate.edu]."
+      },
+      {
+        "key": "pone.0262078.ref015",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Follansbee R. A history of the Water Resources Branch of the United States Geological Survey: Volume I, From predecessor Surveys to June 30, 1919. U.S. Geological Survey, Denver, Colorado, 1994. https://doi.org/10.3133/7000087",
+        "DOI": "10.3133/7000087"
+      },
+      {
+        "issue": "8",
+        "key": "pone.0262078.ref016",
+        "doi-asserted-by": "crossref",
+        "first-page": "1136",
+        "DOI": "10.1175/JCLI3321.1",
+        "article-title": "Changes toward earlier streamflow timing across western North America",
+        "volume": "18",
+        "author": "IT Stewart",
+        "year": "2005",
+        "journal-title": "Journal of Climate"
+      },
+      {
+        "issue": "4",
+        "key": "pone.0262078.ref017",
+        "doi-asserted-by": "crossref",
+        "first-page": "476",
+        "DOI": "10.1175/JHM428.1",
+        "article-title": "Trends and variability in snowmelt runoff in the western United States",
+        "volume": "6",
+        "author": "GJ McCabe",
+        "year": "2005",
+        "journal-title": "Journal of Hydrometeorology"
+      },
+      {
+        "issue": "9",
+        "key": "pone.0262078.ref018",
+        "doi-asserted-by": "crossref",
+        "first-page": "2293",
+        "DOI": "10.1175/2009JCLI2951.1",
+        "article-title": "Changes in the timing of snowmelt and streamflow in Colorado: a response to recent warming",
+        "volume": "23",
+        "author": "DW Clow",
+        "year": "2010",
+        "journal-title": "Journal of Climate"
+      },
+      {
+        "issue": "15",
+        "key": "pone.0262078.ref019",
+        "doi-asserted-by": "crossref",
+        "first-page": "8006",
+        "DOI": "10.1002/2016GL069690",
+        "article-title": "Snowmelt rate dictates streamflow",
+        "volume": "43",
+        "author": "TB Barnhart",
+        "year": "2016",
+        "journal-title": "Geophysical Research Letters"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0262078.ref020",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2019WR025571",
+        "DOI": "10.1029/2019WR025571",
+        "article-title": "Flood size increases nonlinearly across the western United States in response to lower snow-precipitation ratios",
+        "volume": "56",
+        "author": "FV Davenport",
+        "year": "2020",
+        "journal-title": "Water Resources Research"
+      },
+      {
+        "issue": "1646",
+        "key": "pone.0262078.ref021",
+        "doi-asserted-by": "crossref",
+        "first-page": "2005",
+        "DOI": "10.1098/rspb.2008.0463",
+        "article-title": "Warming, plant phenology and the spatial dimension of trophic mismatch for large herbivores",
+        "volume": "275",
+        "author": "E Post",
+        "year": "2008",
+        "journal-title": "Proceedings of the Royal Society B: Biological Sciences"
+      },
+      {
+        "issue": "1-2",
+        "key": "pone.0262078.ref022",
+        "doi-asserted-by": "crossref",
+        "first-page": "105",
+        "DOI": "10.1007/s10584-009-9546-x",
+        "article-title": "Winter climate change in alpine tundra: plant responses to changes in snow depth and snowmelt timing",
+        "volume": "94",
+        "author": "S Wipf",
+        "year": "2009",
+        "journal-title": "Climatic Change"
+      },
+      {
+        "key": "pone.0262078.ref023",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kauffman M, Copeland H, Berg J, Bergen S, Cole E, Cuzzocreo M, et al. Ungulate migrations of the western United States, Volume 1. US Department of the Interior, U.S. Geological Survey, Scientific Investigations Report 2020-5101. Reston, Virginia, 2020.",
+        "DOI": "10.3133/sir20205101"
+      },
+      {
+        "key": "pone.0262078.ref024",
+        "doi-asserted-by": "crossref",
+        "first-page": "203",
+        "DOI": "10.1144/SP499-2019-250",
+        "article-title": "The Modern Geological Survey; A Model for Research, Innovation, Synthesis A USGS Perspective",
+        "volume": "499",
+        "author": "S Kimball",
+        "year": "2020",
+        "journal-title": "Geological Society, London, Special Publications"
+      },
+      {
+        "issue": "8",
+        "key": "pone.0262078.ref025",
+        "doi-asserted-by": "crossref",
+        "first-page": "2016",
+        "DOI": "10.1890/08-2034.1",
+        "article-title": "Identifying and prioritizing ungulate migration routes for landscape-level conservation",
+        "volume": "19",
+        "author": "H Sawyer",
+        "year": "2009",
+        "journal-title": "Ecological Applications"
+      },
+      {
+        "issue": "5",
+        "key": "pone.0262078.ref026",
+        "doi-asserted-by": "crossref",
+        "first-page": "1078",
+        "DOI": "10.1111/j.1365-2656.2011.01845.x",
+        "article-title": "Stopover ecology of a migratory ungulate",
+        "volume": "80",
+        "author": "H Sawyer",
+        "year": "2011",
+        "journal-title": "Journal of Animal Ecology"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0262078.ref027",
+        "doi-asserted-by": "crossref",
+        "first-page": "68",
+        "DOI": "10.1111/1365-2664.12013",
+        "article-title": "A framework for understanding semi-permeable barrier effects on migratory ungulates",
+        "volume": "50",
+        "author": "H Sawyer",
+        "year": "2013",
+        "journal-title": "Journal of Applied Ecology"
+      },
+      {
+        "issue": "3",
+        "key": "pone.0262078.ref028",
+        "doi-asserted-by": "crossref",
+        "first-page": "450",
+        "DOI": "10.1111/1365-2656.12926",
+        "article-title": "Migratory plasticity is not ubiquitous among large herbivores",
+        "volume": "88",
+        "author": "H Sawyer",
+        "year": "2019",
+        "journal-title": "Journal of Animal Ecology"
+      },
+      {
+        "key": "pone.0262078.ref029",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sawyer H. Final report for the Atlantic Rim Mule Deer Study. Western Ecosystems Technology, Cheyenne, WY, USA. 2007, 28p.",
+        "DOI": "10.5962/bhl.title.110432"
+      },
+      {
+        "issue": "3-4",
+        "key": "pone.0262078.ref030",
+        "doi-asserted-by": "crossref",
+        "first-page": "311",
+        "DOI": "10.1016/0022-1694(80)90084-0",
+        "article-title": "Effective and bankfull discharges of streams in the Yampa River Basin, Colorado and Wyoming",
+        "volume": "46",
+        "author": "ED Andrews",
+        "year": "1980",
+        "journal-title": "Journal of Hydrology"
+      },
+      {
+        "key": "pone.0262078.ref031",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Carr NB, Melcher CP, editors. Wyoming Basin rapid ecoregional assessment. U.S. Geological Survey, Open File Report 2015-1155. Reston, Virginia, 2017.",
+        "DOI": "10.3133/ofr20151155"
+      },
+      {
+        "key": "pone.0262078.ref032",
+        "unstructured": "U.S. Geological Survey National Water Information System data available on the World Wide Web (USGS Water Data for the Nation) accessed August, 2020 [https://doi.org/10.5066/F7P55KJN]."
+      },
+      {
+        "key": "pone.0262078.ref033",
+        "unstructured": "R Core Team. R: a language and environment for statistical computing. Version 3.1. 2 [computer program]. R Foundation for Statistical Computing, Vienna, Austria, 2020. [https://www.R-project.org/]"
+      },
+      {
+        "issue": "2",
+        "key": "pone.0262078.ref034",
+        "doi-asserted-by": "crossref",
+        "first-page": "466",
+        "DOI": "10.1111/j.1365-2656.2010.01776.x",
+        "article-title": "A model-driven approach to quantify migration patterns: individual, regional and yearly differences",
+        "volume": "80",
+        "author": "N Bunnefeld",
+        "year": "2011",
+        "journal-title": "Journal of Animal Ecology"
+      },
+      {
+        "key": "pone.0262078.ref035",
+        "doi-asserted-by": "crossref",
+        "first-page": "81",
+        "DOI": "10.1093/biomet/30.1-2.81",
+        "article-title": "A new measure of rank correlation",
+        "volume": "30",
+        "author": "MG Kendall",
+        "year": "1938",
+        "journal-title": "Biometrika"
+      },
+      {
+        "key": "pone.0262078.ref036",
+        "first-page": "1397",
+        "article-title": "A rank-invariant method of linear and polynomial regression analysis, Part3",
+        "volume": "53",
+        "author": "H Theil",
+        "year": "1950",
+        "journal-title": "Proceedings of Koninalijke Nederlandse Akademie van Weinenschatpen A"
+      },
+      {
+        "key": "pone.0262078.ref037",
+        "unstructured": "Plummer M, Stukalov A, Denwood M, Plummer MM. Bayesian Graphical Models using MCMC http://mcmc-jags.sourceforge.net, 2019, version 4\u201310."
+      },
+      {
+        "issue": "4",
+        "key": "pone.0262078.ref038",
+        "doi-asserted-by": "crossref",
+        "first-page": "583",
+        "DOI": "10.1111/1467-9868.00353",
+        "article-title": "Bayesian measures of model complexity and fit",
+        "volume": "64",
+        "author": "DJ Spiegelhalter",
+        "year": "2002",
+        "journal-title": "Journal of the royal statistical society: Series b (statistical methodology)"
+      },
+      {
+        "issue": "8",
+        "key": "pone.0262078.ref039",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2019WR026634",
+        "DOI": "10.1029/2019WR026634",
+        "article-title": "The counteracting effects of snowmelt rate and timing on runoff",
+        "volume": "56",
+        "author": "TB Barnhart",
+        "year": "2020",
+        "journal-title": "Water Resources Research"
+      },
+      {
+        "issue": "7",
+        "key": "pone.0262078.ref040",
+        "doi-asserted-by": "crossref",
+        "first-page": "1060",
+        "DOI": "10.1111/oik.05227",
+        "article-title": "Green\u2013wave surfing increases fat gain in a migratory ungulate",
+        "volume": "127",
+        "author": "AD Middleton",
+        "year": "2018",
+        "journal-title": "Oikos"
+      },
+      {
+        "issue": "7",
+        "key": "pone.0262078.ref041",
+        "doi-asserted-by": "crossref",
+        "first-page": "1060",
+        "DOI": "10.1111/gcb.14629",
+        "article-title": "Plasticity in elk migration timing is a response to changing environmental conditions",
+        "volume": "25",
+        "author": "GJ Rickbeil",
+        "year": "2019",
+        "journal-title": "Global change biology"
+      },
+      {
+        "key": "pone.0262078.ref042",
+        "first-page": "1",
+        "article-title": "It is time to mate: population-level plasticity of wild boar reproductive timing and synchrony in a changing environment",
+        "author": "R Brogi",
+        "year": "2021",
+        "journal-title": "Current Zoology"
+      }
+    ],
+    "updated-by": [
+      {
+        "DOI": "10.1371/journal.pone.0264402",
+        "type": "correction",
+        "label": "Correction",
+        "source": "publisher",
+        "updated": {
+          "date-parts": [
+            [
+              2022,
+              2,
+              17
+            ]
+          ],
+          "date-time": "2022-02-17T00:00:00Z",
+          "timestamp": 1645056000000
+        }
+      }
+    ],
+    "container-title": [
+      "PLOS ONE"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://dx.plos.org/10.1371/journal.pone.0262078",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          15
+        ]
+      ],
+      "date-time": "2023-11-15T22:13:36Z",
+      "timestamp": 1700086416000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dx.plos.org/10.1371/journal.pone.0262078"
+      }
+    },
+    "subtitle": [],
+    "editor": [
+      {
+        "given": "Stefano",
+        "family": "Grignolio",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "editor",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          21
+        ]
+      ]
+    },
+    "references-count": 42,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            21
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1371/journal.pone.0262078",
+    "relation": {},
+    "ISSN": [
+      "1932-6203"
+    ],
+    "issn-type": [
+      {
+        "value": "1932-6203",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          21
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.1371/journal.pone.0262078",
+  "original_doi": "10.1371/journal.pone.0262078"
+}

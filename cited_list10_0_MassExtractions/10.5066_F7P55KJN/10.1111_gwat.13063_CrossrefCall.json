@@ -1,0 +1,820 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          3
+        ]
+      ],
+      "date-time": "2026-07-03T04:20:06Z",
+      "timestamp": 1783052406765,
+      "version": "3.54.6"
+    },
+    "reference-count": 87,
+    "publisher": "Wiley",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              12,
+              31
+            ]
+          ],
+          "date-time": "2020-12-31T00:00:00Z",
+          "timestamp": 1609372800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "ngwa.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Groundwater"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>A boosted regression tree model was developed to predict pH conditions in three dimensions throughout the glacial aquifer system of the contiguous United States using pH measurements in samples from 18,386 wells and predictor variables that represent aspects of the hydrogeologic setting. Model results indicate that the carbonate content of soils and aquifer materials strongly controls pH and, when coupled with long flowpaths, results in the most alkaline conditions. Conversely, in areas where glacial sediments are thin and carbonate\u2010poor, pH conditions remain acidic. At depths typical of drinking\u2010water supplies, predicted pH &gt;7.5\u2014which is associated with arsenic mobilization\u2014occurs more frequently than predicted pH &lt;6\u2014which is associated with water corrosivity and the mobilization of other trace elements. A novel aspect of this model was the inclusion of numerically based estimates of groundwater flow characteristics (age and flowpath length) as predictor variables. The sensitivity of pH predictions to these variables was consistent with hydrologic understanding of groundwater flow systems and the geochemical evolution of groundwater quality. The model was not developed to provide precise estimates of pH at any given location. Rather, it can be used to more generally identify areas where contaminants may be mobilized into groundwater and where corrosivity issues may be of concern to prioritize areas for future groundwater monitoring.</jats:p>",
+    "DOI": "10.1111/gwat.13063",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          12
+        ]
+      ],
+      "date-time": "2020-12-12T02:47:36Z",
+      "timestamp": 1607741256000
+    },
+    "page": "352-368",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 37,
+    "title": [
+      "Machine Learning Predictions of\n                    <scp>pH</scp>\n                    in the Glacial Aquifer System, Northern\n                    <scp>USA</scp>"
+    ],
+    "prefix": "10.1111",
+    "volume": "59",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1818-355X",
+        "authenticated-orcid": false,
+        "given": "Paul E.",
+        "family": "Stackelberg",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  425 Jordan Road Troy NY 12180 USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kenneth",
+        "family": "Belitz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Carlisle MA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Craig J.",
+        "family": "Brown",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  East Hartford CT USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Melinda L.",
+        "family": "Erickson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Mounds View MN USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sarah M.",
+        "family": "Elliott",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Mounds View MN USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Leon J.",
+        "family": "Kauffman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Lawrenceville NJ USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Katherine M.",
+        "family": "Ransom",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Sacramento CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "James E.",
+        "family": "Reddy",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Ithaca NY USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          31
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_7_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/9781439833544"
+      },
+      {
+        "key": "e_1_2_7_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.6b01914"
+      },
+      {
+        "key": "e_1_2_7_4_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ball J.W. andD.K.Nordstrom.1991.User's manual for WATEQ4F with revised thermodynamic data base and text cases for calculating speciation of major trace and redox elements in natural waters. U.S. Geological Survey Open\u2010File Report 91\u2010183.https://doi.org/10.3133/ofr91183",
+        "DOI": "10.3133/ofr91183"
+      },
+      {
+        "key": "e_1_2_7_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/jnci/djw099"
+      },
+      {
+        "key": "e_1_2_7_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.gca.2003.08.015"
+      },
+      {
+        "key": "e_1_2_7_7_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bayless E.R. L.D.Arihood H.W.Reeves B.J.S.Sperl S.L.Qi V.E.Stipe andA.R.Bunch.2017.Maps and grids of hydrogeologic information created from standardized water\u2010well drillers' records of the glaciated United States. U.S. Geological Survey Scientific Investigiations Report 2015\u20105105.https://doi.org/10.3133/sir20155105",
+        "DOI": "10.3133/sir20155105"
+      },
+      {
+        "key": "e_1_2_7_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR025908"
+      },
+      {
+        "key": "e_1_2_7_9_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Belitz K. B.C.Jurgens andT.D.Johnson.2016.Potential corrosivity of untreated groundwater in the United States. U.S. Geological Survey Scientific Investigations Report 2016\u20105092.https://doi.org/10.3133/sir20165092",
+        "DOI": "10.3133/sir20165092"
+      },
+      {
+        "key": "e_1_2_7_10_1",
+        "unstructured": "Boumans L.J.M. E.J.W.Wattel\u2010Koekkoek andE.van derSwaluw.2014.Changes in rainwater and groundwater quality as a result of atmospheric emission reductions\u2014Acidification and eutrophication 1989\u20132010. National Institute for Public Health and the Environment RIVM Report 680720007/2014:51."
+      },
+      {
+        "key": "e_1_2_7_11_1",
+        "volume-title": "Classification and regression trees",
+        "author": "Breiman L.",
+        "year": "1984"
+      },
+      {
+        "key": "e_1_2_7_12_1",
+        "unstructured": "Brown C.J. K.Belitz M.L.Erickson S.M.Elliott L.J.Kauffman K.M.Ransom J.E.Reddy andP.E.Stackelberg.2020.Data for machine learning predictions of pH in the glacial aquifer system Northern USA. U.S. Geological Survey Data Release.https://doi.org/10.5066/P9RF0R6E"
+      },
+      {
+        "key": "e_1_2_7_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.apgeochem.2018.10.017"
+      },
+      {
+        "key": "e_1_2_7_14_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Brown C.J. J.Rakovan andM.A.A.Schoonen.2000.Heavy minerals and sedimentary organic matter in Pleistocene and Cretaceous sediments on Long Island New York with emphasis on pyrite and marcasite in the Magothy aquifer. U.S. Geological Survey Water\u2010Resources Investigations Report 99\u20104216.https://doi.org/10.3133/wri994216",
+        "DOI": "10.3133/wri994216"
+      },
+      {
+        "key": "e_1_2_7_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0016-7037(95)00231-N"
+      },
+      {
+        "key": "e_1_2_7_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ejrh.2020.100697"
+      },
+      {
+        "key": "e_1_2_7_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2656.2008.01390.x"
+      },
+      {
+        "key": "e_1_2_7_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2019.133735"
+      },
+      {
+        "key": "e_1_2_7_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR023106"
+      },
+      {
+        "key": "e_1_2_7_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2017WR022387"
+      },
+      {
+        "key": "e_1_2_7_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gwat.12339"
+      },
+      {
+        "key": "e_1_2_7_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/aos/1013203451"
+      },
+      {
+        "key": "e_1_2_7_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chemgeo.2010.02.024"
+      },
+      {
+        "key": "e_1_2_7_24_1",
+        "unstructured": "Greenwell B. B.Boehmke J.Cunningham andGBM Developers.2019.gbm: Generalized boosted regression models. R package version 2.1.5.https://CRAN.R\u2010project.org/package=gbm(accessed April 10 2020)."
+      },
+      {
+        "key": "e_1_2_7_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.32614/RJ-2017-016"
+      },
+      {
+        "key": "e_1_2_7_26_1",
+        "first-page": "1",
+        "article-title": "Evaluation of interpolation methods for mapping pH of groundwater",
+        "author": "Gunarathna M.H.J.P.",
+        "year": "2016",
+        "journal-title": "International Journal of Latest Technology in Engineering, Management & Applied Science"
+      },
+      {
+        "key": "e_1_2_7_27_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Haj A.E. D.R.Soller J.E.Reddy L.J.Kauffman R.M.Yager andC.A.Buchwald.2018.Hydrogeologic framework for characterization and occurrence of confined and unconfined aquifers in quaternary sediments in the glaciated conterminous United States\u2014A digital map compilation and database. U.S. Geological Survey Data Series 1090.https://doi.org/10.3133/ds1090",
+        "DOI": "10.3133/ds1090"
+      },
+      {
+        "issue": "654",
+        "key": "e_1_2_7_28_1",
+        "article-title": "Manganese\u2010induced neurotoxicity: New insights into the triad of protein misfolding, mitochondrial impairment, and neuroinflammation",
+        "volume": "13",
+        "author": "Harischandra D.S.",
+        "year": "2019",
+        "journal-title": "Frontiers in Neuroscience"
+      },
+      {
+        "key": "e_1_2_7_29_1",
+        "volume-title": "The Elements of Statistical Learning\u2014Data Mining, Inference, and Prediction",
+        "author": "Hastie T.",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_7_30_1",
+        "unstructured": "Hijmans R.J.2019.raster: Geographic data analysis and modeling. R package version 2.9\u201023.https://cran.r\u2010project.org/web/packages/raster/index.html(accessed May 20 2020)."
+      },
+      {
+        "key": "e_1_2_7_31_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Horton J.D. C.A.San Juan andD.B.Stoeser.2017.The State Geologic Map Compilation (SGMC) geodatabase of the conterminous United States. U.S. Geological Survey Data Series 1052.https://doi.org/10.3133/ds1052",
+        "DOI": "10.3133/ds1052"
+      },
+      {
+        "key": "e_1_2_7_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jaridenv.2011.01.013"
+      },
+      {
+        "key": "e_1_2_7_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2000WR900244"
+      },
+      {
+        "key": "e_1_2_7_34_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kingsbury J.A. K.J.Knierim andC.J.Haugh.2020.Prediction grids of pH for the Mississippi River Valley Alluvial and Claiborne aquifers. U.S. Geological Survey data release.https://doi.org/10.5066/P9CXX7LN",
+        "DOI": "10.3133/sim3465"
+      },
+      {
+        "key": "e_1_2_7_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2019.03.045"
+      },
+      {
+        "key": "e_1_2_7_36_1",
+        "unstructured": "Kuhn M. andH.Wickham.2019.recipes: Preprocessing tools to create design matrices. R package version 0.1.6.https://CRAN.R\u2010project.org/package=recipes(accessed May 8 2020)."
+      },
+      {
+        "key": "e_1_2_7_37_1",
+        "unstructured": "Kuhn M. J.Wing S.Weston A.Williams C.Keefer A.Engelhardt T.Cooper Z.Mayer B.Kenkel the R Core Team M.Benesty R.Lescarbeau A.Ziem L.Scrucca Y.Tang C.Candan andT.Hunt.2019.caret: Classification and regression training. R package version 6.0\u201084.https://CRAN.R\u2010project.org/package=caret(accessed January 15 2020)."
+      },
+      {
+        "key": "e_1_2_7_38_1",
+        "volume-title": "Applied Predictive Modeling",
+        "author": "Kuhn M.",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_7_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10040-011-0750-1"
+      },
+      {
+        "key": "e_1_2_7_40_1",
+        "unstructured": "LeBlanc D.R. J.H.Guswa M.H.Frimpter andC.J.Londquist.1986.Ground\u2010water resources of Cape Cod Massachusetts. U.S. Geological Survey Hydrologic Investigations Atlas HA\u2010692 (4 Sheets)."
+      },
+      {
+        "key": "e_1_2_7_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s13280-011-0207-8"
+      },
+      {
+        "key": "e_1_2_7_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es9608104"
+      },
+      {
+        "key": "e_1_2_7_43_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Masterson J.P.2004.Simulated interaction between freshwater and saltwater and effects of ground\u2010water pumping and sea\u2010level change Lower Cape Cod aquifer system Massachusetts. U.S. Geological Survey Scientific Investigations Report 2004\u20105014.https://doi.org/10.3133/sir20045014",
+        "DOI": "10.3133/sir20045014"
+      },
+      {
+        "key": "e_1_2_7_44_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Maupin M.A. andT.L.Arnold.2010.Estimates for self\u2010supplied domestic withdrawals and population served for selected principal aquifers calendar year 2005. U.S. Geological Survey Open\u2010File Report 2010\u20101223.https://doi.org/10.3133/ofr20101223",
+        "DOI": "10.3133/ofr20101223"
+      },
+      {
+        "key": "e_1_2_7_45_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Maupin M.A. andN.L.Barber.2005.Estimated withdrawals from principal aquifers in the United States 2000. U.S. Geological Survey Circular 1279.https://doi.org/10.3133/cir1279",
+        "DOI": "10.3133/cir1279"
+      },
+      {
+        "key": "e_1_2_7_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/ijd.13318"
+      },
+      {
+        "key": "e_1_2_7_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.8b04055"
+      },
+      {
+        "key": "e_1_2_7_48_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Miller T.S. E.F.Bugliosi K.K.Hetcher\u2010Aguila andD.A.Eckhardt.2007.Hydrogeology of two areas of the Tug Hill glacial\u2010drift aquifer Oswego County New York. U.S. Geological Survey Scientific Investigations Report 2007\u20135169.https://doi.org/10.3133/sir20075169",
+        "DOI": "10.3133/sir20075169"
+      },
+      {
+        "key": "e_1_2_7_49_1",
+        "unstructured": "Molnar C.2020.Interpretable machine learning\u2014A guide for making black box models explainable.https://christophm.github.io/interpretable\u2010ml\u2010book/(accessed June 1 2020)."
+      },
+      {
+        "key": "e_1_2_7_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10661-008-0689-4"
+      },
+      {
+        "key": "e_1_2_7_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-1694(70)90255-6"
+      },
+      {
+        "key": "e_1_2_7_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess-4-295-2000"
+      },
+      {
+        "key": "e_1_2_7_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2015.10.025"
+      },
+      {
+        "key": "e_1_2_7_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/es405452q"
+      },
+      {
+        "key": "e_1_2_7_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-0-08-095975-7.00910-4"
+      },
+      {
+        "key": "e_1_2_7_56_1",
+        "volume-title": "National Research Council: Critical Aspects of EPA's IRIS Assessment of Inorganic Arsenic: Interim Report",
+        "author": "NRC",
+        "year": "2013"
+      },
+      {
+        "key": "e_1_2_7_57_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Parkhurst D.L. andC.A.J.Appelo.2013.Description of input and examples for PHREEQC version 3: A computer program for speciation batch\u2010reaction one\u2010dimensional transport and inverse geochemical calculations. U.S. Geological Survey Techniques and Methods 6\u2010A43.https://doi.org/10.3133/tm6A43",
+        "DOI": "10.3133/tm6A43"
+      },
+      {
+        "key": "e_1_2_7_58_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Parkhurst D.L. K.L.Kipp andS.R.Charlton.2010.PHAST version 2\u2010A program for simulating groundwater flow solute transport and multicomponent geochemical reactions. U.S. Geological Survey Techniques and Methods 6\u2010A35.https://doi.org/10.3133/tm6A35",
+        "DOI": "10.3133/tm6A35"
+      },
+      {
+        "key": "e_1_2_7_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2017.05.192"
+      },
+      {
+        "key": "e_1_2_7_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR024922"
+      },
+      {
+        "key": "e_1_2_7_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-1694(81)90064-0"
+      },
+      {
+        "key": "e_1_2_7_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-6584.1989.tb00483.x"
+      },
+      {
+        "key": "e_1_2_7_63_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rosecrans C.Z. B.T.Nolan andJ.M.Gronberg.2017.Predicted pH at the domestic and public supply drinking water depths Central Valley California. U.S. Geological Survey Scientific Investigations Map 3377.https://doi.org/10.3133/sim3377",
+        "DOI": "10.3133/sim3377"
+      },
+      {
+        "key": "e_1_2_7_64_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Schwarz G.E. A.B.Hoos R.B.Alexander andR.A.Smith.2006.The SPARROW surface water\u2010quality model: Theory application and user documentation. U.S. Geological Survey Techniques and Methods Book 6 Section B Chapter 3.https://doi.org/10.3133/tm6B3",
+        "DOI": "10.3133/tm6B3"
+      },
+      {
+        "key": "e_1_2_7_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/j.1551-8833.1981.tb04802.x"
+      },
+      {
+        "key": "e_1_2_7_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.1347984"
+      },
+      {
+        "key": "e_1_2_7_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12011-009-8415-9"
+      },
+      {
+        "key": "e_1_2_7_68_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stackelberg P.E.2017.Groundwater Quality in the Glacial Aquifer System United States. U.S. Geological Survey Fact Sheet.https://doi.org/10.3133/fs20173055",
+        "DOI": "10.3133/fs20173055"
+      },
+      {
+        "key": "e_1_2_7_69_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Starn J.J. L.J.Kauffman C.S.Carlson J.E.Reddy andM.N.Fienen.2020.Data for three\u2010dimensional distribution of groundwater residence time metrics in the glaciated United States using metamodels trained on general numerical simulation models: U.S. Geological Survey data releasehttps://doi.org/10.5066/P9BNWWCU",
+        "DOI": "10.1029/2020WR027335"
+      },
+      {
+        "key": "e_1_2_7_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2017WR021531"
+      },
+      {
+        "key": "e_1_2_7_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btr597"
+      },
+      {
+        "key": "e_1_2_7_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/0-306-47956-7_3"
+      },
+      {
+        "key": "e_1_2_7_73_1",
+        "volume-title": "Aquatic Chemistry\u2014An Introduction Emphasizing Chemical Equilibria in Natural Waters",
+        "author": "Stumm W.",
+        "year": "1981"
+      },
+      {
+        "key": "e_1_2_7_74_1",
+        "first-page": "729",
+        "article-title": "Occurrence and geochemistry of lead\u2010210 and polonium\u2010210 radionuclides in public\u2010drinking\u2010water supplies from principal aquifers of the United States",
+        "volume": "27",
+        "author": "Szabo Z.",
+        "year": "2020",
+        "journal-title": "Environmental Science & Technology"
+      },
+      {
+        "key": "e_1_2_7_75_1",
+        "unstructured": "USGS.2019.USGS water data for the nation. U.S. Geological Survey National Water Information System Database.https://doi.org/10.5066/F7P55KJN(accessed June 6 2019)."
+      },
+      {
+        "key": "e_1_2_7_76_1",
+        "unstructured": "USEPA.2016.Basic information about lead in drinking water.https://www.epa.gov/your\u2010drinking\u2010water/basic\u2010information\u2010about\u2010lead\u2010drinking\u2010water#getinto(accessed August 8 2020)."
+      },
+      {
+        "key": "e_1_2_7_77_1",
+        "unstructured": "USEPA.2013.Safe drinking water information system (SDWIS).https://www.epa.gov/enviro/sdwis\u2010search(accessed July 12 2020)."
+      },
+      {
+        "key": "e_1_2_7_78_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Walter D.A. andJ.J.Starn.2013.The use of process models to inform and improve statistical models of nitrate occurrence Great Miami River Basin southwestern Ohio. U.S. Geological Survey Scientific Investigations Report 2012\u20105001. doi:http://pubs.usgs.gov/sir/2012/5001",
+        "DOI": "10.3133/sir20125001"
+      },
+      {
+        "key": "e_1_2_7_79_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Walter D.A. J.P.Masterson andK.M.Hess.2004.Ground\u2010water recharge areas and traveltimes to pumped wells ponds streams and coastal water bodies Cape Cod Massachusettes. U.S. Geological Survey Scientific Investigations Map J\u20102857.https://doi.org/10.3133/sim2857",
+        "DOI": "10.3133/sim2857"
+      },
+      {
+        "key": "e_1_2_7_80_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Warner K.L. andJ.D.Ayotte.2015.The quality of our Nation's waters: Water quality in the glacial aquifer system northern United States 1993\u20132009. U.S. Geological Survey Circular 1352.https://doi.org/10.3133/cir1352",
+        "DOI": "10.3133/cir1352"
+      },
+      {
+        "key": "e_1_2_7_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1745-6584.2000.tb00251.x"
+      },
+      {
+        "key": "e_1_2_7_82_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.scitotenv.2015.07.080"
+      },
+      {
+        "key": "e_1_2_7_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0016-7061(75)90068-3"
+      },
+      {
+        "key": "e_1_2_7_84_1",
+        "unstructured": "Wilson J.T. L. J.Kauffman M. L.Erickson andJ.B.Sharpe.2019.Data used to evaluate drinking water quality in the glacial aquifer system Northern USA. U.S. Geological Survey Data Release.https://doi.org/10.5066/P9POL486"
+      },
+      {
+        "key": "e_1_2_7_85_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yager R.M. L.J.Kauffman D.R.Soller A.E.Haj P.M.Heisig C.A.Buchwald S.M.Westenbroek andJ.E.Reddy.2018.Characterization and occurrence of confined and unconfined aquifers in quaternary sediments in the glaciated conterminous United States. U.S. Geological Survey Scientific Investigations Report 2018\u20105091.https://doi.org/10.3133/sir20185091",
+        "DOI": "10.3133/sir20185091"
+      },
+      {
+        "key": "e_1_2_7_86_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR023044"
+      },
+      {
+        "issue": "8",
+        "key": "e_1_2_7_87_1",
+        "first-page": "1",
+        "article-title": "Calibrated simulation of the long\u2010term average surficial groundwater system and derived spatial distributions of its characteristics for the contiguous United States",
+        "volume": "56",
+        "author": "Zell W.O.",
+        "year": "2020",
+        "journal-title": "Water Resouces Research"
+      },
+      {
+        "key": "e_1_2_7_88_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/02664763.2011.578621"
+      }
+    ],
+    "container-title": [
+      "Groundwater"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/gwat.13063",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/gwat.13063",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://ngwa.onlinelibrary.wiley.com/doi/pdf/10.1111/gwat.13063",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          2
+        ]
+      ],
+      "date-time": "2025-11-02T08:13:35Z",
+      "timestamp": 1762071215000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ngwa.onlinelibrary.wiley.com/doi/10.1111/gwat.13063"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          31
+        ]
+      ]
+    },
+    "references-count": 87,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            5
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/gwat.13063"
+    ],
+    "URL": "https://doi.org/10.1111/gwat.13063",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0017-467X",
+      "1745-6584"
+    ],
+    "issn-type": [
+      {
+        "value": "0017-467X",
+        "type": "print"
+      },
+      {
+        "value": "1745-6584",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          31
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2020-09-11",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2020-12-08",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2020-12-31",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.1111/gwat.13063",
+  "original_doi": "10.1111/gwat.13063"
+}

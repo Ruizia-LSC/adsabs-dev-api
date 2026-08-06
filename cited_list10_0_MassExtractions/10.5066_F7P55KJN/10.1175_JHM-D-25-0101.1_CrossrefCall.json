@@ -1,0 +1,2165 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          31
+        ]
+      ],
+      "date-time": "2026-03-31T03:38:53Z",
+      "timestamp": 1774928333706,
+      "version": "3.50.1"
+    },
+    "reference-count": 196,
+    "publisher": "American Meteorological Society",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2026-02-01T00:00:00Z",
+          "timestamp": 1769904000000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "http://www.ametsoc.org/PUBSReuseLicenses"
+      }
+    ],
+    "funder": [
+      {
+        "name": "National Science Foundation",
+        "award": [
+          "2023349393"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2023349393"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "G21AC10645"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "G21AC10645"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Seasonal water supply is largely dependent on interannual snow accumulation in the western United States, where snowmelt comprises the majority of spring runoff. Within the context of seasonal water supply prediction, we investigate whether remotely sensed snow observations may be able to supplement or replace limited in situ monitoring across the West. Across 85 snow-dominated basins, we apply a data-driven regression framework with robust feature selection to explore the skill of remotely sensed snow timing variables, e.g., the day of snow disappearance (DSD), in the prediction of seasonal streamflow for WY1985\u20132021. We construct terrain-informed subdomains using basin aspect, elevation, and slope information to identify where snowpack and streamflow are most strongly linked, comparing lumped and semidistributed forecasts. Models trained on remotely sensed predictors exhibit \u201cvery good\u201d median predictive skill (&lt; \u00b15% bias) for biweekly forecast dates from 1 March to 1 June. When in situ observations of snow are available, the median skill of \u201cremotely sensed\u201d models is comparable with \u201cin situ\u201d models, producing lower bias in approximately 40% of monitored basins. Across western U.S. snow regimes, we find snow timing information is a consistent (i.e., commonly selected) predictor of seasonal streamflow when aggregated over a basin\u2019s highest elevations and is a highly weighted predictor when aggregated over a basin\u2019s north-facing slopes. By quantifying the importance of these subdomains and their skill in forecasting seasonal water supply across the western United States, this analysis offers insights into how remotely sensed snow-cover data can most reliably predict seasonal streamflow in data-scarce regions.</jats:p>\n                  <jats:sec>\n                    <jats:title>Significance Statement</jats:title>\n                    <jats:p>For 85 snow-dominated basins in the western United States, and for a period of record from WY1985\u20132021, we investigate the ability of remotely sensed snow information to predict seasonal water supply. To identify the most important predictors of snowmelt-driven streamflow, we apply an ensemble multiple regression framework with robust feature selection designed to increase model parsimony. We construct terrain-informed subdomains grouped by aspect, elevation, and slope and train predictive models using remotely sensed snow timing information, e.g., the day of snow disappearance, aggregated over these spatially discrete subdomains. This framework exhibits \u201cvery good\u201d predictive skill (&lt;\u00b15% bias) and provides a greater understanding of how basin topography interacts with various climatic factors to inform streamflow forecasting.</jats:p>\n                  </jats:sec>",
+    "DOI": "10.1175/jhm-d-25-0101.1",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          9
+        ]
+      ],
+      "date-time": "2026-02-09T15:12:01Z",
+      "timestamp": 1770649921000
+    },
+    "page": "257-274",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Examining the Potential for Remotely Sensed Snow Information to Predict Seasonal Water Supply across Dimensions of Aspect, Elevation, and Slope"
+    ],
+    "prefix": "10.1175",
+    "volume": "27",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0006-2917-1120",
+        "authenticated-orcid": true,
+        "given": "Kaitlyn",
+        "family": "Bishay",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Civil, Environmental, and Architectural Engineering, University of Colorado Boulder, Boulder, Colorado"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Ben",
+        "family": "Livneh",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil, Environmental, and Architectural Engineering, University of Colorado Boulder, Boulder, Colorado"
+          },
+          {
+            "name": "Cooperative Institute for Research in Environmental Sciences, University of Colorado Boulder, Boulder, Colorado"
+          },
+          {
+            "name": "Western Water Assessment, University of Colorado Boulder, Boulder, Colorado"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Justin",
+        "family": "Pflug",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Earth System Science Interdisciplinary Center, University of Maryland College Park, College Park, Maryland"
+          },
+          {
+            "name": "Hydrological Sciences Laboratory, NASA Goddard Space Flight Center, Greenbelt, Maryland"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Balaji",
+        "family": "Rajagopalan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil, Environmental, and Architectural Engineering, University of Colorado Boulder, Boulder, Colorado"
+          },
+          {
+            "name": "Cooperative Institute for Research in Environmental Sciences, University of Colorado Boulder, Boulder, Colorado"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "12",
+    "reference": [
+      {
+        "key": "bib1",
+        "series-title": "Remote Sens.",
+        "first-page": "1642",
+        "article-title": "Remote sensed and/or global datasets for distributed hydrological modelling: A review",
+        "volume": "15",
+        "author": "Ali, M. H.",
+        "year": "2023",
+        "unstructured": "Ali, M. H., I. Popescu, A. Jonoski, and D. P. Solomatine, 2023: \nRemote sensed and/or global datasets for distributed hydrological modelling: A review. Remote Sens., 15, 1642, https://doi.org/10.3390/rs15061642."
+      },
+      {
+        "key": "bib2",
+        "series-title": "Water Resour. Res.",
+        "first-page": "4545",
+        "article-title": "Insights into the physical processes controlling correlations between snow distribution and terrain properties",
+        "volume": "50",
+        "author": "Anderson, B. T.",
+        "year": "2014",
+        "unstructured": "Anderson, B. T., J. P. McNamara, H. Marshall, and A. N. Flores, 2014: \nInsights into the physical processes controlling correlations between snow distribution and terrain properties. Water Resour. Res., 50, 4545\u20134563, https://doi.org/10.1002/2013WR013714."
+      },
+      {
+        "key": "bib3",
+        "series-title": "Geosci. Instrum. Method. Data Syst.",
+        "first-page": "297",
+        "article-title": "Evaluating methods for reconstructing large gaps in historic snow depth time series",
+        "volume": "10",
+        "author": "Aschauer, J.",
+        "year": "2021",
+        "unstructured": "Aschauer, J., and C. Marty, 2021: \nEvaluating methods for reconstructing large gaps in historic snow depth time series. Geosci. Instrum. Method. Data Syst., 10, 297\u2013312, https://doi.org/10.5194/gi-10-297-2021."
+      },
+      {
+        "key": "bib4",
+        "series-title": "Hydrol. Processes",
+        "first-page": "2106",
+        "article-title": "Model complexity and data requirements in snow hydrology: Seeking a balance in practical applications",
+        "volume": "30",
+        "author": "Avanzi, F.",
+        "year": "2016",
+        "unstructured": "Avanzi, F., C. De Michele, S. Morin, C. M. Carmagnola, A. Ghezzi, and Y. Lejeune, 2016: \nModel complexity and data requirements in snow hydrology: Seeking a balance in practical applications. Hydrol. Processes, 30, 2106\u20132118, https://doi.org/10.1002/hyp.10782."
+      },
+      {
+        "key": "bib5",
+        "series-title": "Environ. Modell. Software",
+        "first-page": "33",
+        "article-title": "Toward creating simpler hydrological models: A LASSO subset selection approach",
+        "volume": "72",
+        "author": "Bardsley, W. E.",
+        "year": "2015",
+        "unstructured": "Bardsley, W. E., V. Vetrova, and S. Liu, 2015: \nToward creating simpler hydrological models: A LASSO subset selection approach. Environ. Modell. Software, 72, 33\u201343, https://doi.org/10.1016/j.envsoft.2015.06.008."
+      },
+      {
+        "key": "bib6",
+        "article-title": "RichDEM: Terrain analysis software",
+        "author": "Barnes, R.",
+        "year": "2016",
+        "unstructured": "Barnes, R., 2016: \nRichDEM: Terrain analysis software. \nGitHub, https://github.com/r-barnes/richdem."
+      },
+      {
+        "key": "bib7",
+        "series-title": "Water Resour. Res.",
+        "first-page": "e2019WR026634",
+        "article-title": "The counteracting effects of snowmelt rate and timing on runoff",
+        "volume": "56",
+        "author": "Barnhart, T. B.",
+        "year": "2020",
+        "unstructured": "Barnhart, T. B., C. L. Tague, and N. P. Molotch, 2020: \nThe counteracting effects of snowmelt rate and timing on runoff. Water Resour. Res., 56, e2019WR026634, https://doi.org/10.1029/2019WR026634."
+      },
+      {
+        "key": "bib8",
+        "series-title": "Water Resour. Res.",
+        "first-page": "e2023WR035982",
+        "article-title": "Evaluating distributed snow model resolution and meteorology parameterizations against streamflow observations: Finer is not always better",
+        "volume": "60",
+        "author": "Barnhart, T. B.",
+        "year": "2024",
+        "unstructured": "Barnhart, T. B., A. L. Putman, A. J. Heldmyer, D. M. Rey, J. C. Hammond, J. M. Driscoll, and G. A. Sexstone, 2024: \nEvaluating distributed snow model resolution and meteorology parameterizations against streamflow observations: Finer is not always better. Water Resour. Res., 60, e2023WR035982, https://doi.org/10.1029/2023WR035982."
+      },
+      {
+        "key": "bib9",
+        "series-title": "Earth\u2019s Future",
+        "first-page": "e2020EF001537",
+        "article-title": "Projections of mountain snowpack loss for wolverine denning elevations in the Rocky Mountains",
+        "volume": "8",
+        "author": "Barsugli, J. J.",
+        "year": "2020",
+        "unstructured": "Barsugli, J. J., A. J. Ray, B. Livneh, C. F. Dewes, A. Heldmyer, I. Rangwala, J. M. Guinotte, and S. Torbit, 2020: \nProjections of mountain snowpack loss for wolverine denning elevations in the Rocky Mountains. Earth\u2019s Future, 8, e2020EF001537, https://doi.org/10.1029/2020EF001537."
+      },
+      {
+        "key": "bib10",
+        "series-title": "J. Climate",
+        "first-page": "1305",
+        "article-title": "Statistical relationships between topography and precipitation patterns",
+        "volume": "7",
+        "author": "Basist, A.",
+        "year": "1994",
+        "unstructured": "Basist, A., G. D. Bell, and V. Meentemeyer, 1994: \nStatistical relationships between topography and precipitation patterns. J. Climate, 7, 1305\u20131315, https://doi.org/10.1175/1520-0442(1994)007<1305:SRBTAP>2.0.CO;2."
+      },
+      {
+        "key": "bib11",
+        "series-title": "Environ. Processes",
+        "first-page": "527",
+        "article-title": "Nonstationarity of hydrological records and recent trends in trend analysis: A state-of-the-art review",
+        "volume": "2",
+        "author": "Bayazit, M.",
+        "year": "2015",
+        "unstructured": "Bayazit, M., 2015: \nNonstationarity of hydrological records and recent trends in trend analysis: A state-of-the-art review. Environ. Processes, 2, 527\u2013542, https://doi.org/10.1007/s40710-015-0081-7."
+      },
+      {
+        "key": "bib12",
+        "series-title": "Hydrol. Earth Syst. Sci.",
+        "first-page": "2439",
+        "article-title": "Using MODIS estimates of fractional snow cover area to improve streamflow forecasts in interior Alaska",
+        "volume": "23",
+        "author": "Bennett, K. E.",
+        "year": "2019",
+        "unstructured": "Bennett, K. E., J. E. Cherry, B. Balk, and S. Lindsey, 2019: \nUsing MODIS estimates of fractional snow cover area to improve streamflow forecasts in interior Alaska. Hydrol. Earth Syst. Sci., 23, 2439\u20132459, https://doi.org/10.5194/hess-23-2439-2019."
+      },
+      {
+        "key": "bib13",
+        "article-title": "Western U.S. gridded snow cover and timing data for WY1985-2021",
+        "author": "Bishay, K.",
+        "year": "2025",
+        "unstructured": "Bishay, K., and B. Livneh, 2025: \nWestern U.S. gridded snow cover and timing data for WY1985-2021. \nZenodo, accessed 29 April 2025, https://doi.org/10.5281/ZENODO.15284150."
+      },
+      {
+        "key": "bib14",
+        "series-title": "Water",
+        "first-page": "1147",
+        "article-title": "Can remotely sensed snow disappearance explain seasonal water supply?",
+        "volume": "15",
+        "author": "Bishay, K.",
+        "year": "2023",
+        "unstructured": "Bishay, K., N. R. Bjarke, P. Modi, J. M. Pflug, and B. Livneh, 2023: \nCan remotely sensed snow disappearance explain seasonal water supply? Water, 15, 1147, https://doi.org/10.3390/w15061147."
+      },
+      {
+        "key": "bib15",
+        "series-title": "Earth\u2019s Future",
+        "article-title": "Storylines for global hydrologic drought within CMIP6",
+        "volume": "12",
+        "author": "Bjarke, N.",
+        "year": "2024",
+        "unstructured": "Bjarke, N., B. Livneh, and J. Barsugli, 2024: \nStorylines for global hydrologic drought within CMIP6. Earth\u2019s Future, 12, e2023EF004117, https://doi.org/10.1029/2023EF004117."
+      },
+      {
+        "key": "bib16",
+        "series-title": "Hydrol. Processes",
+        "first-page": "2149",
+        "article-title": "Scaling issues in snow hydrology",
+        "volume": "13",
+        "author": "Bl\u00f6schl, G.",
+        "year": "1999",
+        "unstructured": "Bl\u00f6schl, G., 1999: \nScaling issues in snow hydrology. Hydrol. Processes, 13, 2149\u20132175, https://doi.org/10.1002/(SICI)1099-1085(199910)13:14/15<2149::AID-HYP847>3.0.CO;2-8."
+      },
+      {
+        "key": "bib17",
+        "series-title": "Developments in Soil Science",
+        "first-page": "195",
+        "article-title": "Land-surface parameters specific to topo-climatology",
+        "volume": "33",
+        "author": "B\u00f6hner, J.",
+        "year": "2009",
+        "unstructured": "B\u00f6hner, J., and O. Antoni\u0107, 2009: Land-surface parameters specific to topo-climatology. Developments in Soil Science, Vol. 33, \nElsevier, 195\u2013226, https://doi.org/10.1016/S0166-2481(08)00008-1."
+      },
+      {
+        "key": "bib18",
+        "series-title": "J. Geophys. Res. Atmos.",
+        "first-page": "4522",
+        "article-title": "Spatial variability of seasonal extreme precipitation in the western United States",
+        "volume": "120",
+        "author": "Bracken, C.",
+        "year": "2015",
+        "unstructured": "Bracken, C., B. Rajagopalan, M. Alexander, and S. Gangopadhyay, 2015: \nSpatial variability of seasonal extreme precipitation in the western United States. J. Geophys. Res. Atmos., 120, 4522\u20134533, https://doi.org/10.1002/2015JD023205."
+      },
+      {
+        "key": "bib19",
+        "series-title": "J. Climate",
+        "first-page": "2293",
+        "article-title": "Changes in the timing of snowmelt and streamflow in Colorado: A response to recent warming",
+        "volume": "23",
+        "author": "Clow, D. W.",
+        "year": "2010",
+        "unstructured": "Clow, D. W., 2010: \nChanges in the timing of snowmelt and streamflow in Colorado: A response to recent warming. J. Climate, 23, 2293\u20132306, https://doi.org/10.1175/2009JCLI2951.1."
+      },
+      {
+        "key": "bib20",
+        "series-title": "Water Resour. Res.",
+        "first-page": "6802",
+        "article-title": "An evaluation of terrain\u2010based downscaling of fractional snow covered area data sets based on LiDAR\u2010derived snow data and orthoimagery",
+        "volume": "53",
+        "author": "Cristea, N. C.",
+        "year": "2017",
+        "unstructured": "Cristea, N. C., I. Breckheimer, M. S. Raleigh, J. HilleRisLambers, and J. D. Lundquist, 2017: \nAn evaluation of terrain\u2010based downscaling of fractional snow covered area data sets based on LiDAR\u2010derived snow data and orthoimagery. Water Resour. Res., 53, 6802\u20136820, https://doi.org/10.1002/2017WR020799."
+      },
+      {
+        "key": "bib21",
+        "series-title": "J. Water Resour. Plann. Manage.",
+        "first-page": "157",
+        "article-title": "Extended streamflow forecasting using NWSRFS",
+        "volume": "111",
+        "author": "Day, G. N.",
+        "year": "1985",
+        "unstructured": "Day, G. N., 1985: \nExtended streamflow forecasting using NWSRFS. J. Water Resour. Plann. Manage., 111, 157\u2013170, https://doi.org/10.1061/(ASCE)0733-9496(1985)111:2(157)."
+      },
+      {
+        "key": "bib22",
+        "series-title": "Fisheries",
+        "first-page": "155",
+        "article-title": "Importance of understanding landscape biases in USGS gage locations: Implications and solutions for managers",
+        "volume": "39",
+        "author": "Deweber, J. T.",
+        "year": "2014",
+        "unstructured": "Deweber, J. T., Y.-P. Tsang, D. M. Krueger, J. B. Whittier, T. Wagner, D. M. Infante, and G. Whelan, 2014: \nImportance of understanding landscape biases in USGS gage locations: Implications and solutions for managers. Fisheries, 39, 155\u2013163, https://doi.org/10.1080/03632415.2014.891503."
+      },
+      {
+        "key": "bib23",
+        "series-title": "J. Hydrol.",
+        "first-page": "208",
+        "article-title": "Trends in snowmelt-related streamflow timing in the conterminous United States",
+        "volume": "547",
+        "author": "Dudley, R. W.",
+        "year": "2017",
+        "unstructured": "Dudley, R. W., G. A. Hodgkins, M. R. McHale, M. J. Kolian, and B. Renard, 2017: \nTrends in snowmelt-related streamflow timing in the conterminous United States. J. Hydrol., 547, 208\u2013221, https://doi.org/10.1016/j.jhydrol.2017.01.051."
+      },
+      {
+        "key": "bib24",
+        "series-title": "J. Geophys. Res.",
+        "first-page": "D18113",
+        "article-title": "Snow depth and streamflow relationships in large North American watersheds",
+        "volume": "113",
+        "author": "Dyer, J.",
+        "year": "2008",
+        "unstructured": "Dyer, J., 2008: \nSnow depth and streamflow relationships in large North American watersheds. J. Geophys. Res., 113, D18113, https://doi.org/10.1029/2008JD010031."
+      },
+      {
+        "key": "bib25",
+        "article-title": "Shuttle Radar Topography Mission (SRTM) 1 arc-second global",
+        "year": "2017",
+        "unstructured": "Earth Resources Observation and Science Center, 2017: \nShuttle Radar Topography Mission (SRTM) 1 arc-second global. \nU.S. Geological survey, accessed 24 May 2023, https://doi.org/10.5066/F7PR7TFT."
+      },
+      {
+        "key": "bib26",
+        "series-title": "An Introduction to the Bootstrap.",
+        "first-page": "456",
+        "author": "Efron, B.",
+        "year": "1994",
+        "unstructured": "Efron, B., and R. J. Tibshirani, 1994: An Introduction to the Bootstrap. \nChapman and Hall/CRC, 456 pp., https://doi.org/10.1201/9780429246593."
+      },
+      {
+        "key": "bib27",
+        "series-title": "Hydrol. Processes",
+        "first-page": "1793",
+        "article-title": "Estimating the spatial distribution of snow water equivalence in a montane watershed",
+        "volume": "12",
+        "author": "Elder, K.",
+        "year": "1998",
+        "unstructured": "Elder, K., W. Rosenthal, and R. E. Davis, 1998: \nEstimating the spatial distribution of snow water equivalence in a montane watershed. Hydrol. Processes, 12, 1793\u20131808, https://doi.org/10.1002/(SICI)1099-1085(199808/09)12:10/11<1793::AID-HYP695>3.0.CO;2-K."
+      },
+      {
+        "key": "bib28",
+        "series-title": "J. Hydrol.",
+        "first-page": "100799",
+        "article-title": "Implications of observed changes in high mountain snow water storage, snowmelt timing and melt window",
+        "volume": "35",
+        "author": "Elias, E.",
+        "year": "2021",
+        "unstructured": "Elias, E., D. James, S. Heimel, C. Steele, H. Steltzer, and C. Dott, 2021: \nImplications of observed changes in high mountain snow water storage, snowmelt timing and melt window. J. Hydrol., 35, 100799, https://doi.org/10.1016/j.ejrh.2021.100799."
+      },
+      {
+        "key": "bib29",
+        "article-title": "GAGES-II: Geospatial Attributes of Gages for Evaluating Streamflow",
+        "author": "Falcone, J. A.",
+        "year": "2011",
+        "unstructured": "Falcone, J. A., 2011: \nGAGES-II: Geospatial Attributes of Gages for Evaluating Streamflow. \nU.S. Geological Survey, accessed 14 December 2022, https://pubs.er.usgs.gov/publication/70046617."
+      },
+      {
+        "key": "bib30",
+        "series-title": "Sci. Data",
+        "first-page": "677",
+        "article-title": "A western United States snow reanalysis dataset over the Landsat era from water years 1985 to 2021",
+        "volume": "9",
+        "author": "Fang, Y.",
+        "year": "2022a",
+        "unstructured": "Fang, Y., Y. Liu, and S. A. Margulis, 2022a: \nA western United States snow reanalysis dataset over the Landsat era from water years 1985 to 2021. Sci. Data, 9, 677, https://doi.org/10.1038/s41597-022-01768-7."
+      },
+      {
+        "key": "bib31",
+        "article-title": "Western United States UCLA daily snow reanalysis",
+        "author": "Fang, Y.",
+        "year": "2022b",
+        "unstructured": "Fang, Y., Y. Liu, and S. A. Margulis, 2022b: \nWestern United States UCLA daily snow reanalysis. \nNASA National Snow and Ice Data Center DAAC, accessed 24 May 2023, https://doi.org/10.5067/PP7T2GBI52I2."
+      },
+      {
+        "key": "bib32",
+        "series-title": "J. Amer. Water Resour. Assoc.",
+        "first-page": "585",
+        "article-title": "SNOTEL, the soil climate analysis network, and water supply forecasting at the natural resources conservation service: Past, present, and future",
+        "volume": "59",
+        "author": "Fleming, S. W.",
+        "year": "2023",
+        "unstructured": "Fleming, S. W., L. Zukiewicz, M. L. Strobel, H. Hofman, and A. G. Goodbody, 2023: \nSNOTEL, the soil climate analysis network, and water supply forecasting at the natural resources conservation service: Past, present, and future. J. Amer. Water Resour. Assoc., 59, 585\u2013599, https://doi.org/10.1111/1752-1688.13104."
+      },
+      {
+        "issue": "1",
+        "key": "bib33",
+        "series-title": "J. Stat. Software",
+        "first-page": "1",
+        "article-title": "Regularization paths for generalized linear models via coordinate descent",
+        "volume": "33",
+        "author": "Friedman, J. H.",
+        "year": "2010",
+        "unstructured": "Friedman, J. H., T. Hastie, and R. Tibshirani, 2010: \nRegularization paths for generalized linear models via coordinate descent. J. Stat. Software, 33 (1), 1\u201322, https://doi.org/10.18637/jss.v033.i01."
+      },
+      {
+        "key": "bib34",
+        "series-title": "J. Hydrometeor.",
+        "first-page": "989",
+        "article-title": "Shifts in western North American snowmelt runoff regimes for the recent warm decades",
+        "volume": "12",
+        "author": "Fritze, H.",
+        "year": "2011",
+        "unstructured": "Fritze, H., I. T. Stewart, and E. Pebesma, 2011: \nShifts in western North American snowmelt runoff regimes for the recent warm decades. J. Hydrometeor., 12, 989\u20131006, https://doi.org/10.1175/2011JHM1360.1."
+      },
+      {
+        "key": "bib35",
+        "series-title": "Cryosphere",
+        "first-page": "2381",
+        "article-title": "Elevation dependency of mountain snow depth",
+        "volume": "8",
+        "author": "Gr\u00fcnewald, T.",
+        "year": "2014",
+        "unstructured": "Gr\u00fcnewald, T., Y. B\u00fchler, and M. Lehning, 2014: \nElevation dependency of mountain snow depth. Cryosphere, 8, 2381\u20132394, https://doi.org/10.5194/tc-8-2381-2014."
+      },
+      {
+        "key": "bib36",
+        "series-title": "Hydrol. Processes",
+        "first-page": "4018",
+        "article-title": "Assessing the performance of a semi\u2010distributed hydrological model under various watershed discretization schemes",
+        "volume": "29",
+        "author": "Haghnegahdar, A.",
+        "year": "2015",
+        "unstructured": "Haghnegahdar, A., B. A. Tolson, J. R. Craig, and K. T. Paya, 2015: \nAssessing the performance of a semi\u2010distributed hydrological model under various watershed discretization schemes. Hydrol. Processes, 29, 4018\u20134031, https://doi.org/10.1002/hyp.10550."
+      },
+      {
+        "key": "bib37",
+        "series-title": "Water Resour. Res.",
+        "first-page": "W11501",
+        "article-title": "Changes in snowpack accumulation and ablation in the intermountain west",
+        "volume": "48",
+        "author": "Harpold, A.",
+        "year": "2012",
+        "unstructured": "Harpold, A., P. Brooks, S. Rajagopal, I. Heidbuchel, A. Jardine, and C. Stielstra, 2012: \nChanges in snowpack accumulation and ablation in the intermountain west. Water Resour. Res., 48, W11501, https://doi.org/10.1029/2012WR011949."
+      },
+      {
+        "key": "bib38",
+        "series-title": "Proc. Natl. Acad. Sci. USA",
+        "first-page": "1215",
+        "article-title": "Humidity determines snowpack ablation under a warming climate",
+        "volume": "115",
+        "author": "Harpold, A. A.",
+        "year": "2018",
+        "unstructured": "Harpold, A. A., and P. D. Brooks, 2018: \nHumidity determines snowpack ablation under a warming climate. Proc. Natl. Acad. Sci. USA, 115, 1215\u20131220, https://doi.org/10.1073/pnas.1716789115."
+      },
+      {
+        "key": "bib39",
+        "series-title": "J. Amer. Water Resour. Assoc.",
+        "first-page": "179",
+        "article-title": "Does including soil moisture observations improve operational streamflow forecasts in snow\u2010dominated watersheds?",
+        "volume": "53",
+        "author": "Harpold, A. A.",
+        "year": "2017",
+        "unstructured": "Harpold, A. A., K. Sutcliffe, J. Clayton, A. Goodbody, and S. Vazquez, 2017: \nDoes including soil moisture observations improve operational streamflow forecasts in snow\u2010dominated watersheds? J. Amer. Water Resour. Assoc., 53, 179\u2013196, https://doi.org/10.1111/1752-1688.12490."
+      },
+      {
+        "key": "bib40",
+        "series-title": "J. Amer. Water Resour. Assoc.",
+        "first-page": "1723",
+        "article-title": "Subwatershed spatial analysis tool: Discretization of a distributed hydrologic model by statistical criteria",
+        "volume": "38",
+        "author": "Haverkamp, S.",
+        "year": "2002",
+        "unstructured": "Haverkamp, S., R. Srinivasan, H. G. Frede, and C. Santhi, 2002: \nSubwatershed spatial analysis tool: Discretization of a distributed hydrologic model by statistical criteria. J. Amer. Water Resour. Assoc., 38, 1723\u20131733, https://doi.org/10.1111/j.1752-1688.2002.tb04377.x."
+      },
+      {
+        "key": "bib41",
+        "article-title": "Annual snow timing index rasters for the western US and Alaska, WY2001-2019",
+        "author": "Heldmyer, A.",
+        "year": "2021",
+        "unstructured": "Heldmyer, A., and B. Livneh, 2021: \nAnnual snow timing index rasters for the western US and Alaska, WY2001-2019. \nZenodo, accessed 20 December 2022, https://doi.org/10.5281/ZENODO.4327643."
+      },
+      {
+        "key": "bib42",
+        "series-title": "Water Resour. Res.",
+        "first-page": "e2020WR029395",
+        "article-title": "Investigating the relationship between peak snow\u2010water equivalent and snow timing indices in the western United States and Alaska",
+        "volume": "57",
+        "author": "Heldmyer, A.",
+        "year": "2021",
+        "unstructured": "Heldmyer, A., B. Livneh, N. Molotch, and B. Rajagopalan, 2021: \nInvestigating the relationship between peak snow\u2010water equivalent and snow timing indices in the western United States and Alaska. Water Resour. Res., 57, e2020WR029395, https://doi.org/10.1029/2020WR029395."
+      },
+      {
+        "key": "bib43",
+        "series-title": "The History of Snow Survey and Water Supply Forecasting: Interviews with U.S. Department of Agriculture Pioneers.",
+        "first-page": "306",
+        "author": "Helms, D.",
+        "year": "2008",
+        "unstructured": "Helms, D., S. E. Phillips, and P. F. Reich, 2008: The History of Snow Survey and Water Supply Forecasting: Interviews with U.S. Department of Agriculture Pioneers. \nU.S. Department of Agriculture, Natural Resources Conservation Service Resource Economics and Social Sciences Division, 306 pp., https://www.nrcs.usda.gov/wps/portal/nrcs/detail/national/about/history/?cid=stelprdb1043978."
+      },
+      {
+        "key": "bib44",
+        "series-title": "Proc. IEEE",
+        "first-page": "14",
+        "article-title": "Hill shading and the reflectance map",
+        "volume": "69",
+        "author": "Horn, B. K. P.",
+        "year": "1981",
+        "unstructured": "Horn, B. K. P., 1981: \nHill shading and the reflectance map. Proc. IEEE, 69, 14\u201347, https://doi.org/10.1109/PROC.1981.11918."
+      },
+      {
+        "key": "bib45",
+        "article-title": "SRTM 90m digital elevation database",
+        "author": "Jarvis, A.",
+        "year": "2007",
+        "unstructured": "Jarvis, A., H. I. Reuter, A. Nelson, and E. Guevara, 2007: \nSRTM 90m digital elevation database. Accessed 28 March 2025, https://srtm.csi.cgiar.org."
+      },
+      {
+        "key": "bib46",
+        "series-title": "Stat. Anal. Data Min.",
+        "first-page": "531",
+        "article-title": "Optimal ratio for data splitting",
+        "volume": "15",
+        "author": "Joseph, V. R.",
+        "year": "2022",
+        "unstructured": "Joseph, V. R., 2022: \nOptimal ratio for data splitting. Stat. Anal. Data Min., 15, 531\u2013538, https://doi.org/10.1002/sam.11583."
+      },
+      {
+        "key": "bib47",
+        "series-title": "IEEE Trans. Geosci. Remote Sens.",
+        "first-page": "3826",
+        "article-title": "Spatial and temporal distribution of clouds observed by MODIS onboard the Terra and Aqua satellites",
+        "volume": "51",
+        "author": "King, M. D.",
+        "year": "2013",
+        "unstructured": "King, M. D., S. Platnick, W. P. Menzel, S. A. Ackerman, and P. A. Hubanks, 2013: \nSpatial and temporal distribution of clouds observed by MODIS onboard the Terra and Aqua satellites. IEEE Trans. Geosci. Remote Sens., 51, 3826\u20133852, https://doi.org/10.1109/TGRS.2012.2227333."
+      },
+      {
+        "key": "bib48",
+        "series-title": "Hydrol. Earth Syst. Sci.",
+        "first-page": "4261",
+        "article-title": "LiDAR measurement of seasonal snow accumulation along an elevation gradient in the southern Sierra Nevada, California",
+        "volume": "18",
+        "author": "Kirchner, P. B.",
+        "year": "2014",
+        "unstructured": "Kirchner, P. B., R. C. Bales, N. P. Molotch, J. Flanagan, and Q. Guo, 2014: \nLiDAR measurement of seasonal snow accumulation along an elevation gradient in the southern Sierra Nevada, California. Hydrol. Earth Syst. Sci., 18, 4261\u20134275, https://doi.org/10.5194/hess-18-4261-2014."
+      },
+      {
+        "key": "bib49",
+        "series-title": "Nat. Geosci.",
+        "first-page": "613",
+        "article-title": "Skill in streamflow forecasts derived from large-scale estimates of soil moisture and snow",
+        "volume": "3",
+        "author": "Koster, R. D.",
+        "year": "2010",
+        "unstructured": "Koster, R. D., S. P. P. Mahanama, B. Livneh, D. P. Lettenmaier, and R. H. Reichle, 2010: \nSkill in streamflow forecasts derived from large-scale estimates of soil moisture and snow. Nat. Geosci., 3, 613\u2013616, https://doi.org/10.1038/ngeo944."
+      },
+      {
+        "key": "bib50",
+        "series-title": "Nat. Commun.",
+        "first-page": "3545",
+        "article-title": "Late-fall satellite-based soil moisture observations show clear connections to subsequent spring streamflow",
+        "volume": "14",
+        "author": "Koster, R. D.",
+        "year": "2023",
+        "unstructured": "Koster, R. D., Q. Liu, W. T. Crow, and R. H. Reichle, 2023: \nLate-fall satellite-based soil moisture observations show clear connections to subsequent spring streamflow. Nat. Commun., 14, 3545, https://doi.org/10.1038/s41467-023-39318-3."
+      },
+      {
+        "key": "bib51",
+        "series-title": "Water",
+        "first-page": "2572",
+        "article-title": "Advanced machine learning techniques to improve hydrological prediction: A comparative analysis of streamflow prediction models",
+        "volume": "15",
+        "author": "Kumar, V.",
+        "year": "2023",
+        "unstructured": "Kumar, V., N. Kedam, K. V. Sharma, D. J. Mehta, and T. Caloiero, 2023: \nAdvanced machine learning techniques to improve hydrological prediction: A comparative analysis of streamflow prediction models. Water, 15, 2572, https://doi.org/10.3390/w15142572."
+      },
+      {
+        "key": "bib52",
+        "series-title": "Hydrol. Earth Syst. Sci.",
+        "first-page": "129",
+        "article-title": "Parsimonious statistical learning models for low-flow estimation",
+        "volume": "26",
+        "author": "Laimighofer, J.",
+        "year": "2022",
+        "unstructured": "Laimighofer, J., M. Melcher, and G. Laaha, 2022: \nParsimonious statistical learning models for low-flow estimation. Hydrol. Earth Syst. Sci., 26, 129\u2013148, https://doi.org/10.5194/hess-26-129-2022."
+      },
+      {
+        "key": "bib53",
+        "series-title": "Ecol. Inf.",
+        "first-page": "102755",
+        "article-title": "Enhancing the streamflow simulation of a process-based hydrological model using machine learning and multi-source data",
+        "volume": "82",
+        "author": "Lei, H.",
+        "year": "2024",
+        "unstructured": "Lei, H., H. Li, and W. Hu, 2024: \nEnhancing the streamflow simulation of a process-based hydrological model using machine learning and multi-source data. Ecol. Inf., 82, 102755, https://doi.org/10.1016/j.ecoinf.2024.102755."
+      },
+      {
+        "key": "bib54",
+        "series-title": "Geophys. Res. Lett.",
+        "first-page": "6163",
+        "article-title": "How much runoff originates as snow in the western United States, and how will that change in the future?",
+        "volume": "44",
+        "author": "Li, D.",
+        "year": "2017",
+        "unstructured": "Li, D., M. L. Wrzesien, M. Durand, J. Adam, and D. P. Lettenmaier, 2017: \nHow much runoff originates as snow in the western United States, and how will that change in the future? Geophys. Res. Lett., 44, 6163\u20136172, https://doi.org/10.1002/2017GL073551."
+      },
+      {
+        "key": "bib55",
+        "series-title": "Nat. Climate Change",
+        "first-page": "452",
+        "article-title": "Drought less predictable under declining future snowpack",
+        "volume": "10",
+        "author": "Livneh, B.",
+        "year": "2020",
+        "unstructured": "Livneh, B., and A. M. Badger, 2020: \nDrought less predictable under declining future snowpack. Nat. Climate Change, 10, 452\u2013458, https://doi.org/10.1038/s41558-020-0754-8."
+      },
+      {
+        "key": "bib56",
+        "series-title": "Theor. Appl. Climatol.",
+        "first-page": "207",
+        "article-title": "The effect of slope aspect on the response of snowpack to climate warming in the Pyrenees",
+        "volume": "117",
+        "author": "L\u00f3pez-Moreno, J. I.",
+        "year": "2014",
+        "unstructured": "L\u00f3pez-Moreno, J. I., and Coauthors, 2014: \nThe effect of slope aspect on the response of snowpack to climate warming in the Pyrenees. Theor. Appl. Climatol., 117, 207\u2013219, https://doi.org/10.1007/s00704-013-0991-0."
+      },
+      {
+        "key": "bib57",
+        "series-title": "Bull. Amer. Meteor. Soc.",
+        "first-page": "2473",
+        "article-title": "Our skill in modeling mountain rain and snow is bypassing the skill of our observational networks",
+        "volume": "100",
+        "author": "Lundquist, J.",
+        "year": "2019",
+        "unstructured": "Lundquist, J., M. R. Abel, E. Gutmann, and S. Kapnick, 2019: \nOur skill in modeling mountain rain and snow is bypassing the skill of our observational networks. Bull. Amer. Meteor. Soc., 100, 2473\u20132490, https://doi.org/10.1175/BAMS-D-19-0001.1."
+      },
+      {
+        "key": "bib58",
+        "series-title": "J. Hydrometeor.",
+        "first-page": "189",
+        "article-title": "Soil moisture, snow, and seasonal streamflow forecasts in the United States",
+        "volume": "13",
+        "author": "Mahanama, S.",
+        "year": "2012",
+        "unstructured": "Mahanama, S., B. Livneh, R. Koster, D. Lettenmaier, and R. Reichle, 2012: \nSoil moisture, snow, and seasonal streamflow forecasts in the United States. J. Hydrometeor., 13, 189\u2013203, https://doi.org/10.1175/JHM-D-11-046.1."
+      },
+      {
+        "key": "bib59",
+        "series-title": "Geophys. Res. Lett.",
+        "first-page": "8882",
+        "article-title": "Projected changes in interannual variability of peak snowpack amount and timing in the western United States",
+        "volume": "46",
+        "author": "Marshall, A. M.",
+        "year": "2019",
+        "unstructured": "Marshall, A. M., J. T. Abatzoglou, T. E. Link, and C. J. Tennant, 2019: \nProjected changes in interannual variability of peak snowpack amount and timing in the western United States. Geophys. Res. Lett., 46, 8882\u20138892, https://doi.org/10.1029/2019GL083770."
+      },
+      {
+        "key": "bib60",
+        "series-title": "J. Amer. Water Resour. Assoc.",
+        "first-page": "1197",
+        "article-title": "Trends in western U.S. snowpack and related upper Colorado River Basin streamflow",
+        "volume": "47",
+        "author": "Miller, W. P.",
+        "year": "2011",
+        "unstructured": "Miller, W. P., and T. C. Piechota, 2011: \nTrends in western U.S. snowpack and related upper Colorado River Basin streamflow. J. Amer. Water Resour. Assoc., 47, 1197\u20131210, https://doi.org/10.1111/j.1752-1688.2011.00565.x."
+      },
+      {
+        "key": "bib61",
+        "series-title": "Science",
+        "first-page": "573",
+        "article-title": "Stationarity is dead: Whither water management?",
+        "volume": "319",
+        "author": "Milly, P. C. D.",
+        "year": "2008",
+        "unstructured": "Milly, P. C. D., J. Betancourt, M. Falkenmark, R. M. Hirsch, Z. W. Kundzewicz, D. P. Lettenmaier, and R. J. Stouffer, 2008: \nStationarity is dead: Whither water management? Science, 319, 573\u2013574, https://doi.org/10.1126/science.1151915."
+      },
+      {
+        "key": "bib62",
+        "series-title": "Bull. Amer. Meteor. Soc.",
+        "first-page": "2367",
+        "article-title": "Snow avalanche climatology of the western United States mountain ranges",
+        "volume": "81",
+        "author": "Mock, C. J.",
+        "year": "2000",
+        "unstructured": "Mock, C. J., and K. W. Birkeland, 2000: \nSnow avalanche climatology of the western United States mountain ranges. Bull. Amer. Meteor. Soc., 81, 2367\u20132392, https://doi.org/10.1175/1520-0477(2000)081<2367:sacotw>2.3.co;2."
+      },
+      {
+        "key": "bib63",
+        "series-title": "J. Hydrometeor.",
+        "first-page": "1607",
+        "article-title": "Investigating the role of snow water equivalent on streamflow predictability during drought",
+        "volume": "23",
+        "author": "Modi, P. A.",
+        "year": "2022",
+        "unstructured": "Modi, P. A., E. E. Small, J. Kasprzyk, and B. Livneh, 2022: \nInvestigating the role of snow water equivalent on streamflow predictability during drought. J. Hydrometeor., 23, 1607\u20131625, https://doi.org/10.1175/JHM-D-21-0229.1."
+      },
+      {
+        "key": "bib64",
+        "series-title": "Hydrol. Processes",
+        "first-page": "1076",
+        "article-title": "Reconstructing snow water equivalent in the Rio Grande headwaters using remotely sensed snow cover data and a spatially distributed snowmelt model",
+        "volume": "23",
+        "author": "Molotch, N. P.",
+        "year": "2009",
+        "unstructured": "Molotch, N. P., 2009: \nReconstructing snow water equivalent in the Rio Grande headwaters using remotely sensed snow cover data and a spatially distributed snowmelt model. Hydrol. Processes, 23, 1076\u20131089, https://doi.org/10.1002/hyp.7206."
+      },
+      {
+        "key": "bib65",
+        "series-title": "Hydrol. Processes",
+        "first-page": "723",
+        "article-title": "SNOTEL representativeness in the Rio Grande headwaters on the basis of physiographics and remotely sensed snow cover persistence",
+        "volume": "20",
+        "author": "Molotch, N. P.",
+        "year": "2006",
+        "unstructured": "Molotch, N. P., and R. C. Bales, 2006: \nSNOTEL representativeness in the Rio Grande headwaters on the basis of physiographics and remotely sensed snow cover persistence. Hydrol. Processes, 20, 723\u2013739, https://doi.org/10.1002/hyp.6128."
+      },
+      {
+        "key": "bib66",
+        "series-title": "Adv. Water Resour.",
+        "first-page": "1503",
+        "article-title": "Estimating the distribution of snow water equivalent using remotely sensed snow cover data and a spatially distributed snowmelt model: A multi-resolution, multi-sensor comparison",
+        "volume": "31",
+        "author": "Molotch, N. P.",
+        "year": "2008",
+        "unstructured": "Molotch, N. P., and S. A. Margulis, 2008: \nEstimating the distribution of snow water equivalent using remotely sensed snow cover data and a spatially distributed snowmelt model: A multi-resolution, multi-sensor comparison. Adv. Water Resour., 31, 1503\u20131514, https://doi.org/10.1016/j.advwatres.2008.07.017."
+      },
+      {
+        "key": "bib67",
+        "series-title": "Trans. ASABE",
+        "first-page": "1763",
+        "article-title": "Hydrologic and water quality models: Performance measures and evaluation criteria",
+        "volume": "58",
+        "author": "Moriasi, D. N.",
+        "year": "2015",
+        "unstructured": "Moriasi, D. N., M. W. Gitau, N. Pai, and P. Daggupati, 2015: \nHydrologic and water quality models: Performance measures and evaluation criteria. Trans. ASABE, 58, 1763\u20131785, https://doi.org/10.13031/trans.58.10715."
+      },
+      {
+        "key": "bib68",
+        "series-title": "Nat. Climate Change",
+        "first-page": "214",
+        "article-title": "Slower snowmelt in a warmer world",
+        "volume": "7",
+        "author": "Musselman, K. N.",
+        "year": "2017",
+        "unstructured": "Musselman, K. N., M. P. Clark, C. Liu, K. Ikeda, and R. Rasmussen, 2017: \nSlower snowmelt in a warmer world. Nat. Climate Change, 7, 214\u2013219, https://doi.org/10.1038/nclimate3225."
+      },
+      {
+        "key": "bib69",
+        "series-title": "Phys. Geogr.",
+        "first-page": "285",
+        "article-title": "Regional trends in snowmelt timing for the western United States throughout the MODIS era",
+        "volume": "43",
+        "author": "O\u2019Leary, D. S., III",
+        "year": "2022",
+        "unstructured": "O\u2019Leary, D. S., III, D. K. Hall, N. E. DiGirolamo, and G. A. Riggs, 2022: \nRegional trends in snowmelt timing for the western United States throughout the MODIS era. Phys. Geogr., 43, 285\u2013307, https://doi.org/10.1080/02723646.2020.1854418."
+      },
+      {
+        "key": "bib70",
+        "series-title": "World Environmental and Water Resources Congress 2008: Ahupua\u2019A",
+        "first-page": "1",
+        "article-title": "Probabilistic seasonal water supply forecasting in an operational environment: The USDA-NRCS perspective",
+        "author": "Pagano, T. C.",
+        "year": "2008",
+        "unstructured": "Pagano, T. C., 2008: \nProbabilistic seasonal water supply forecasting in an operational environment: The USDA-NRCS perspective. World Environmental and Water Resources Congress 2008: Ahupua\u2019A, Honolulu, HI, \nAmerican Society of Civil Engineers, 1\u201310, https://doi.org/10.1061/40976(316)575."
+      },
+      {
+        "key": "bib71",
+        "series-title": "Wea. Climate Soc.",
+        "first-page": "851",
+        "article-title": "The critical role of communities of practice and peer learning in scaling hydroclimatic information adoption",
+        "volume": "11",
+        "author": "Page, R.",
+        "year": "2019",
+        "unstructured": "Page, R., and L. Dilling, 2019: \nThe critical role of communities of practice and peer learning in scaling hydroclimatic information adoption. Wea. Climate Soc., 11, 851\u2013862, https://doi.org/10.1175/WCAS-D-18-0130.1."
+      },
+      {
+        "key": "bib72",
+        "series-title": "Hydrol. Processes",
+        "first-page": "e14581",
+        "article-title": "Inferring watershed\u2010scale mean snowfall magnitude and distribution using multidecadal snow reanalysis patterns and snow pillow observations",
+        "volume": "36",
+        "author": "Pflug, J. M.",
+        "year": "2022",
+        "unstructured": "Pflug, J. M., S. A. Margulis, and J. D. Lundquist, 2022: \nInferring watershed\u2010scale mean snowfall magnitude and distribution using multidecadal snow reanalysis patterns and snow pillow observations. Hydrol. Processes, 36, e14581, https://doi.org/10.1002/hyp.14581."
+      },
+      {
+        "key": "bib73",
+        "series-title": "J. Climate",
+        "first-page": "4148",
+        "article-title": "The uneven response of different snow measures to human-induced climate warming",
+        "volume": "26",
+        "author": "Pierce, D. W.",
+        "year": "2013",
+        "unstructured": "Pierce, D. W., and D. R. Cayan, 2013: \nThe uneven response of different snow measures to human-induced climate warming. J. Climate, 26, 4148\u20134167, https://doi.org/10.1175/JCLI-D-12-00534.1."
+      },
+      {
+        "key": "bib74",
+        "series-title": "Int. J. Geogr. Inf. Sci.",
+        "first-page": "983",
+        "article-title": "An evaluation of void\u2010filling interpolation methods for SRTM data",
+        "volume": "21",
+        "author": "Reuter, H. I.",
+        "year": "2007",
+        "unstructured": "Reuter, H. I., A. Nelson, and A. Jarvis, 2007: \nAn evaluation of void\u2010filling interpolation methods for SRTM data. Int. J. Geogr. Inf. Sci., 21, 983\u20131008, https://doi.org/10.1080/13658810601169899."
+      },
+      {
+        "key": "bib75",
+        "series-title": "Cryosphere",
+        "first-page": "1989",
+        "article-title": "Topographic control of snowpack distribution in a small catchment in the central Spanish Pyrenees: Intra- and inter-annual persistence",
+        "volume": "8",
+        "author": "Revuelto, J.",
+        "year": "2014",
+        "unstructured": "Revuelto, J., J. I. L\u00f3pez-Moreno, C. Azorin-Molina, and S. M. Vicente-Serrano, 2014: \nTopographic control of snowpack distribution in a small catchment in the central Spanish Pyrenees: Intra- and inter-annual persistence. Cryosphere, 8, 1989\u20132006, https://doi.org/10.5194/tc-8-1989-2014."
+      },
+      {
+        "key": "bib76",
+        "series-title": "Remote Sens.",
+        "first-page": "3781",
+        "article-title": "Continuity of MODIS and VIIRS snow cover extent data products for development of an Earth science data record",
+        "volume": "12",
+        "author": "Riggs, G. A.",
+        "year": "2020",
+        "unstructured": "Riggs, G. A., and D. Hall, 2020: \nContinuity of MODIS and VIIRS snow cover extent data products for development of an Earth science data record. Remote Sens., 12, 3781, https://doi.org/10.3390/rs12223781."
+      },
+      {
+        "key": "bib77",
+        "series-title": "Earth Syst. Sci. Data",
+        "first-page": "765",
+        "article-title": "Overview of NASA\u2019s MODIS and Visible Infrared Imaging Radiometer Suite (VIIRS) snow-cover Earth system data records",
+        "volume": "9",
+        "author": "Riggs, G. A.",
+        "year": "2017",
+        "unstructured": "Riggs, G. A., D. K. Hall, and M. O. Rom\u00e1n, 2017: \nOverview of NASA\u2019s MODIS and Visible Infrared Imaging Radiometer Suite (VIIRS) snow-cover Earth system data records. Earth Syst. Sci. Data, 9, 765\u2013777, https://doi.org/10.5194/essd-9-765-2017."
+      },
+      {
+        "key": "bib78",
+        "series-title": "Sci. Total Environ.",
+        "first-page": "S60",
+        "article-title": "Missing (in-situ) snow cover data hampers climate change and runoff studies in the Greater Himalayas",
+        "volume": "468\u2013469",
+        "author": "Rohrer, M.",
+        "year": "2013",
+        "unstructured": "Rohrer, M., N. Salzmann, M. Stoffel, and A. V. Kulkarni, 2013: \nMissing (in-situ) snow cover data hampers climate change and runoff studies in the Greater Himalayas. Sci. Total Environ., 468\u2013469, S60\u2013S70, https://doi.org/10.1016/j.scitotenv.2013.09.056."
+      },
+      {
+        "key": "bib79",
+        "series-title": "Adv. Water Resour.",
+        "first-page": "33",
+        "article-title": "Detecting gradual and abrupt changes in hydrological records",
+        "volume": "53",
+        "author": "Roug\u00e9, C.",
+        "year": "2013",
+        "unstructured": "Roug\u00e9, C., Y. Ge, and X. Cai, 2013: \nDetecting gradual and abrupt changes in hydrological records. Adv. Water Resour., 53, 33\u201344, https://doi.org/10.1016/j.advwatres.2012.09.008."
+      },
+      {
+        "key": "bib80",
+        "series-title": "Water Resour. Res.",
+        "first-page": "7892",
+        "article-title": "Real\u2010time estimation of snow water equivalent in the Upper Colorado River Basin using MODIS\u2010based SWE reconstructions and SNOTEL data",
+        "volume": "52",
+        "author": "Schneider, D.",
+        "year": "2016",
+        "unstructured": "Schneider, D., and N. P. Molotch, 2016: \nReal\u2010time estimation of snow water equivalent in the Upper Colorado River Basin using MODIS\u2010based SWE reconstructions and SNOTEL data. Water Resour. Res., 52, 7892\u20137910, https://doi.org/10.1002/2016WR019067."
+      },
+      {
+        "key": "bib81",
+        "series-title": "Automated Approaches for Snow and Ice Cover Monitoring Using Optical Remote Sensing",
+        "first-page": "76",
+        "article-title": "The USGS Landsat snow covered area products: Methods and preliminary validation",
+        "author": "Selkowitz, D. J.",
+        "year": "2017",
+        "unstructured": "Selkowitz, D. J., T. H. Painter, K. E. Rittger, G. Schmidt, and R. Forster, 2017: The USGS Landsat snow covered area products: Methods and preliminary validation. Automated Approaches for Snow and Ice Cover Monitoring Using Optical Remote Sensing, \nUniversity of Utah, 76\u2013119."
+      },
+      {
+        "key": "bib82",
+        "series-title": "Water Resour. Res.",
+        "first-page": "2145",
+        "article-title": "Characteristics of the western United States snowpack from snowpack telemetry (SNOTEL) data",
+        "volume": "35",
+        "author": "Serreze, M. C.",
+        "year": "1999",
+        "unstructured": "Serreze, M. C., M. P. Clark, R. L. Armstrong, D. A. McGinnis, and R. S. Pulwarty, 1999: \nCharacteristics of the western United States snowpack from snowpack telemetry (SNOTEL) data. Water Resour. Res., 35, 2145\u20132160, https://doi.org/10.1029/1999WR900090."
+      },
+      {
+        "key": "bib83",
+        "series-title": "Adv. Water Resour.",
+        "first-page": "165",
+        "article-title": "Uncertainty in seasonal snow reconstruction: Relative impacts of model forcing and image availability",
+        "volume": "55",
+        "author": "Slater, A. G.",
+        "year": "2013",
+        "unstructured": "Slater, A. G., A. P. Barrett, M. P. Clark, J. D. Lundquist, and M. S. Raleigh, 2013: \nUncertainty in seasonal snow reconstruction: Relative impacts of model forcing and image availability. Adv. Water Resour., 55, 165\u2013177, https://doi.org/10.1016/j.advwatres.2012.07.006."
+      },
+      {
+        "key": "bib84",
+        "series-title": "Front. Earth Sci.",
+        "first-page": "73",
+        "article-title": "Snow in a very steep rock face: Accumulation and redistribution during and after a snowfall event",
+        "volume": "3",
+        "author": "Sommer, C. G.",
+        "year": "2015",
+        "unstructured": "Sommer, C. G., M. Lehning, and R. Mott, 2015: \nSnow in a very steep rock face: Accumulation and redistribution during and after a snowfall event. Front. Earth Sci., 3, 73, https://doi.org/10.3389/feart.2015.00073."
+      },
+      {
+        "key": "bib85",
+        "series-title": "Hydrol. Processes",
+        "first-page": "78",
+        "article-title": "Changes in snowpack and snowmelt runoff for key mountain regions",
+        "volume": "23",
+        "author": "Stewart, I. T.",
+        "year": "2009",
+        "unstructured": "Stewart, I. T., 2009: \nChanges in snowpack and snowmelt runoff for key mountain regions. Hydrol. Processes, 23, 78\u201394, https://doi.org/10.1002/hyp.7128."
+      },
+      {
+        "key": "bib86",
+        "series-title": "Water Resour. Res.",
+        "first-page": "6908",
+        "article-title": "Regional sensitivities of seasonal snowpack to elevation, aspect, and vegetation cover in western North America",
+        "volume": "53",
+        "author": "Tennant, C. J.",
+        "year": "2017",
+        "unstructured": "Tennant, C. J., and Coauthors, 2017: \nRegional sensitivities of seasonal snowpack to elevation, aspect, and vegetation cover in western North America. Water Resour. Res., 53, 6908\u20136926, https://doi.org/10.1002/2016WR019374."
+      },
+      {
+        "key": "bib87",
+        "series-title": "Hydrol. Sci. J.",
+        "first-page": "12",
+        "article-title": "Streamflow naturalization methods: A review",
+        "volume": "66",
+        "author": "Terrier, M.",
+        "year": "2021",
+        "unstructured": "Terrier, M., C. Perrin, A. De Lavenne, V. R\u00e9assian, J. Lerat, and J. Vaze, 2021: \nStreamflow naturalization methods: A review. Hydrol. Sci. J., 66, 12\u201336, https://doi.org/10.1080/02626667.2020.1839080."
+      },
+      {
+        "key": "bib88",
+        "series-title": "Climate Dyn.",
+        "first-page": "8961",
+        "article-title": "Spatial variability and moisture tracks of Indian monsoon rainfall and extremes",
+        "volume": "62",
+        "author": "Thota, S. S. S. P.",
+        "year": "2024",
+        "unstructured": "Thota, S. S. S. P., and B. Rajagopalan, 2024: \nSpatial variability and moisture tracks of Indian monsoon rainfall and extremes. Climate Dyn., 62, 8961\u20138978, https://doi.org/10.1007/s00382-024-07373-1."
+      },
+      {
+        "key": "bib89",
+        "series-title": "J. Roy. Stat. Soc.",
+        "first-page": "267",
+        "article-title": "Regression shrinkage and selection via the lasso",
+        "volume": "58B",
+        "author": "Tibshirani, R.",
+        "year": "1996",
+        "unstructured": "Tibshirani, R., 1996: \nRegression shrinkage and selection via the lasso. J. Roy. Stat. Soc., 58B, 267\u2013288, https://doi.org/10.1111/j.2517-6161.1996.tb02080.x."
+      },
+      {
+        "key": "bib90",
+        "series-title": "Water Resour. Res.",
+        "first-page": "5611",
+        "article-title": "Snowpack regimes of the western United States",
+        "volume": "50",
+        "author": "Trujillo, E.",
+        "year": "2014",
+        "unstructured": "Trujillo, E., and N. P. Molotch, 2014: \nSnowpack regimes of the western United States. Water Resour. Res., 50, 5611\u20135623, https://doi.org/10.1002/2013WR014753."
+      },
+      {
+        "key": "bib91",
+        "first-page": "18",
+        "article-title": "Statistical techniques used in the VIPER water supply forecasting software",
+        "year": "2007",
+        "unstructured": "USDA, 2007: \nStatistical techniques used in the VIPER water supply forecasting software. Tech. Note, 18 pp., https://www.nrcs.usda.gov/sites/default/files/2023-02/Statistical%20Techniques%20Used%20in%20the%20VIPER%20Water%20Supply%20Forecasting%20Software%20-%20Technical%20Note_0.pdf."
+      },
+      {
+        "key": "bib92",
+        "article-title": "USGS water data for the nation",
+        "year": "1994",
+        "unstructured": "USGS, 1994: \nUSGS water data for the nation. \nU.S. Geological Survey, accessed 20 December 2022, https://doi.org/10.5066/F7P55KJN."
+      },
+      {
+        "key": "bib93",
+        "series-title": "J. Hydrometeor.",
+        "first-page": "101",
+        "article-title": "Incorporating medium-range numerical weather model output into the ensemble streamflow prediction system of the National Weather Service",
+        "volume": "6",
+        "author": "Werner, K.",
+        "year": "2005",
+        "unstructured": "Werner, K., D. Brandon, M. Clark, and S. Gangopadhyay, 2005: \nIncorporating medium-range numerical weather model output into the ensemble streamflow prediction system of the National Weather Service. J. Hydrometeor., 6, 101\u2013114, https://doi.org/10.1175/JHM411.1."
+      },
+      {
+        "key": "bib94",
+        "series-title": "Climatic Change",
+        "first-page": "705",
+        "article-title": "Snowpack affects soil microclimate throughout the year",
+        "volume": "163",
+        "author": "Wilson, G.",
+        "year": "2020",
+        "unstructured": "Wilson, G., M. Green, J. Brown, J. Campbell, P. Groffman, J. Dur\u00e1n, and J. Morse, 2020: \nSnowpack affects soil microclimate throughout the year. Climatic Change, 163, 705\u2013722, https://doi.org/10.1007/s10584-020-02943-8."
+      },
+      {
+        "key": "bib95",
+        "series-title": "Remote Sens.",
+        "first-page": "2523",
+        "article-title": "MODIS and VIIRS calibration history and future outlook",
+        "volume": "12",
+        "author": "Xiong, X.",
+        "year": "2020",
+        "unstructured": "Xiong, X., and J. J. Butler, 2020: \nMODIS and VIIRS calibration history and future outlook. Remote Sens., 12, 2523, https://doi.org/10.3390/rs12162523."
+      },
+      {
+        "key": "bib96",
+        "series-title": "Optical Payloads for Space Missions",
+        "first-page": "53",
+        "article-title": "Moderate resolution imaging spectroradiometer on Terra and Aqua missions",
+        "author": "Xiong, X.",
+        "year": "2015",
+        "unstructured": "Xiong, X., and Coauthors, 2015: Moderate resolution imaging spectroradiometer on Terra and Aqua missions. Optical Payloads for Space Missions, S.-E. Qian, Ed., \nWiley, 53\u201389, https://doi.org/10.1002/9781118945179.ch3."
+      },
+      {
+        "key": "bib97",
+        "series-title": "J. Arid Land",
+        "first-page": "285",
+        "article-title": "Uncertainties of snow cover extraction caused by the nature of topography and underlying surface",
+        "volume": "7",
+        "author": "Zhao, J.",
+        "year": "2015",
+        "unstructured": "Zhao, J., Y. Shi, Y. Huang, and J. Fu, 2015: \nUncertainties of snow cover extraction caused by the nature of topography and underlying surface. J. Arid Land, 7, 285\u2013295, https://doi.org/10.1007/s40333-015-0044-x."
+      },
+      {
+        "key": "bib98",
+        "series-title": "IEEE Signal Process. Mag.",
+        "first-page": "10",
+        "article-title": "Bootstrap methods and applications",
+        "volume": "24",
+        "author": "Zoubir, A. M.",
+        "year": "2007",
+        "unstructured": "Zoubir, A. M., and D. R. Iskandler, 2007: \nBootstrap methods and applications. IEEE Signal Process. Mag., 24, 10\u201319, https://doi.org/10.1109/MSP.2007.4286560."
+      },
+      {
+        "key": "bib1",
+        "series-title": "Remote Sens.",
+        "first-page": "1642",
+        "article-title": "Remote sensed and/or global datasets for distributed hydrological modelling: A review",
+        "volume": "15",
+        "author": "Ali, M. H.",
+        "year": "2023",
+        "unstructured": "Ali, M. H., I. Popescu, A. Jonoski, and D. P. Solomatine, 2023: \nRemote sensed and/or global datasets for distributed hydrological modelling: A review. Remote Sens., 15, 1642, https://doi.org/10.3390/rs15061642."
+      },
+      {
+        "key": "bib2",
+        "series-title": "Water Resour. Res.",
+        "first-page": "4545",
+        "article-title": "Insights into the physical processes controlling correlations between snow distribution and terrain properties",
+        "volume": "50",
+        "author": "Anderson, B. T.",
+        "year": "2014",
+        "unstructured": "Anderson, B. T., J. P. McNamara, H. Marshall, and A. N. Flores, 2014: \nInsights into the physical processes controlling correlations between snow distribution and terrain properties. Water Resour. Res., 50, 4545\u20134563, https://doi.org/10.1002/2013WR013714."
+      },
+      {
+        "key": "bib3",
+        "series-title": "Geosci. Instrum. Method. Data Syst.",
+        "first-page": "297",
+        "article-title": "Evaluating methods for reconstructing large gaps in historic snow depth time series",
+        "volume": "10",
+        "author": "Aschauer, J.",
+        "year": "2021",
+        "unstructured": "Aschauer, J., and C. Marty, 2021: \nEvaluating methods for reconstructing large gaps in historic snow depth time series. Geosci. Instrum. Method. Data Syst., 10, 297\u2013312, https://doi.org/10.5194/gi-10-297-2021."
+      },
+      {
+        "key": "bib4",
+        "series-title": "Hydrol. Processes",
+        "first-page": "2106",
+        "article-title": "Model complexity and data requirements in snow hydrology: Seeking a balance in practical applications",
+        "volume": "30",
+        "author": "Avanzi, F.",
+        "year": "2016",
+        "unstructured": "Avanzi, F., C. De Michele, S. Morin, C. M. Carmagnola, A. Ghezzi, and Y. Lejeune, 2016: \nModel complexity and data requirements in snow hydrology: Seeking a balance in practical applications. Hydrol. Processes, 30, 2106\u20132118, https://doi.org/10.1002/hyp.10782."
+      },
+      {
+        "key": "bib5",
+        "series-title": "Environ. Modell. Software",
+        "first-page": "33",
+        "article-title": "Toward creating simpler hydrological models: A LASSO subset selection approach",
+        "volume": "72",
+        "author": "Bardsley, W. E.",
+        "year": "2015",
+        "unstructured": "Bardsley, W. E., V. Vetrova, and S. Liu, 2015: \nToward creating simpler hydrological models: A LASSO subset selection approach. Environ. Modell. Software, 72, 33\u201343, https://doi.org/10.1016/j.envsoft.2015.06.008."
+      },
+      {
+        "key": "bib6",
+        "article-title": "RichDEM: Terrain analysis software",
+        "author": "Barnes, R.",
+        "year": "2016",
+        "unstructured": "Barnes, R., 2016: \nRichDEM: Terrain analysis software. \nGitHub, https://github.com/r-barnes/richdem."
+      },
+      {
+        "key": "bib7",
+        "series-title": "Water Resour. Res.",
+        "first-page": "e2019WR026634",
+        "article-title": "The counteracting effects of snowmelt rate and timing on runoff",
+        "volume": "56",
+        "author": "Barnhart, T. B.",
+        "year": "2020",
+        "unstructured": "Barnhart, T. B., C. L. Tague, and N. P. Molotch, 2020: \nThe counteracting effects of snowmelt rate and timing on runoff. Water Resour. Res., 56, e2019WR026634, https://doi.org/10.1029/2019WR026634."
+      },
+      {
+        "key": "bib8",
+        "series-title": "Water Resour. Res.",
+        "first-page": "e2023WR035982",
+        "article-title": "Evaluating distributed snow model resolution and meteorology parameterizations against streamflow observations: Finer is not always better",
+        "volume": "60",
+        "author": "Barnhart, T. B.",
+        "year": "2024",
+        "unstructured": "Barnhart, T. B., A. L. Putman, A. J. Heldmyer, D. M. Rey, J. C. Hammond, J. M. Driscoll, and G. A. Sexstone, 2024: \nEvaluating distributed snow model resolution and meteorology parameterizations against streamflow observations: Finer is not always better. Water Resour. Res., 60, e2023WR035982, https://doi.org/10.1029/2023WR035982."
+      },
+      {
+        "key": "bib9",
+        "series-title": "Earth\u2019s Future",
+        "first-page": "e2020EF001537",
+        "article-title": "Projections of mountain snowpack loss for wolverine denning elevations in the Rocky Mountains",
+        "volume": "8",
+        "author": "Barsugli, J. J.",
+        "year": "2020",
+        "unstructured": "Barsugli, J. J., A. J. Ray, B. Livneh, C. F. Dewes, A. Heldmyer, I. Rangwala, J. M. Guinotte, and S. Torbit, 2020: \nProjections of mountain snowpack loss for wolverine denning elevations in the Rocky Mountains. Earth\u2019s Future, 8, e2020EF001537, https://doi.org/10.1029/2020EF001537."
+      },
+      {
+        "key": "bib10",
+        "series-title": "J. Climate",
+        "first-page": "1305",
+        "article-title": "Statistical relationships between topography and precipitation patterns",
+        "volume": "7",
+        "author": "Basist, A.",
+        "year": "1994",
+        "unstructured": "Basist, A., G. D. Bell, and V. Meentemeyer, 1994: \nStatistical relationships between topography and precipitation patterns. J. Climate, 7, 1305\u20131315, https://doi.org/10.1175/1520-0442(1994)007<1305:SRBTAP>2.0.CO;2."
+      },
+      {
+        "key": "bib11",
+        "series-title": "Environ. Processes",
+        "first-page": "527",
+        "article-title": "Nonstationarity of hydrological records and recent trends in trend analysis: A state-of-the-art review",
+        "volume": "2",
+        "author": "Bayazit, M.",
+        "year": "2015",
+        "unstructured": "Bayazit, M., 2015: \nNonstationarity of hydrological records and recent trends in trend analysis: A state-of-the-art review. Environ. Processes, 2, 527\u2013542, https://doi.org/10.1007/s40710-015-0081-7."
+      },
+      {
+        "key": "bib12",
+        "series-title": "Hydrol. Earth Syst. Sci.",
+        "first-page": "2439",
+        "article-title": "Using MODIS estimates of fractional snow cover area to improve streamflow forecasts in interior Alaska",
+        "volume": "23",
+        "author": "Bennett, K. E.",
+        "year": "2019",
+        "unstructured": "Bennett, K. E., J. E. Cherry, B. Balk, and S. Lindsey, 2019: \nUsing MODIS estimates of fractional snow cover area to improve streamflow forecasts in interior Alaska. Hydrol. Earth Syst. Sci., 23, 2439\u20132459, https://doi.org/10.5194/hess-23-2439-2019."
+      },
+      {
+        "key": "bib13",
+        "article-title": "Western U.S. gridded snow cover and timing data for WY1985-2021",
+        "author": "Bishay, K.",
+        "year": "2025",
+        "unstructured": "Bishay, K., and B. Livneh, 2025: \nWestern U.S. gridded snow cover and timing data for WY1985-2021. \nZenodo, accessed 29 April 2025, https://doi.org/10.5281/ZENODO.15284150."
+      },
+      {
+        "key": "bib14",
+        "series-title": "Water",
+        "first-page": "1147",
+        "article-title": "Can remotely sensed snow disappearance explain seasonal water supply?",
+        "volume": "15",
+        "author": "Bishay, K.",
+        "year": "2023",
+        "unstructured": "Bishay, K., N. R. Bjarke, P. Modi, J. M. Pflug, and B. Livneh, 2023: \nCan remotely sensed snow disappearance explain seasonal water supply? Water, 15, 1147, https://doi.org/10.3390/w15061147."
+      },
+      {
+        "key": "bib15",
+        "series-title": "Earth\u2019s Future",
+        "article-title": "Storylines for global hydrologic drought within CMIP6",
+        "volume": "12",
+        "author": "Bjarke, N.",
+        "year": "2024",
+        "unstructured": "Bjarke, N., B. Livneh, and J. Barsugli, 2024: \nStorylines for global hydrologic drought within CMIP6. Earth\u2019s Future, 12, e2023EF004117, https://doi.org/10.1029/2023EF004117."
+      },
+      {
+        "key": "bib16",
+        "series-title": "Hydrol. Processes",
+        "first-page": "2149",
+        "article-title": "Scaling issues in snow hydrology",
+        "volume": "13",
+        "author": "Bl\u00f6schl, G.",
+        "year": "1999",
+        "unstructured": "Bl\u00f6schl, G., 1999: \nScaling issues in snow hydrology. Hydrol. Processes, 13, 2149\u20132175, https://doi.org/10.1002/(SICI)1099-1085(199910)13:14/15<2149::AID-HYP847>3.0.CO;2-8."
+      },
+      {
+        "key": "bib17",
+        "series-title": "Developments in Soil Science",
+        "first-page": "195",
+        "article-title": "Land-surface parameters specific to topo-climatology",
+        "volume": "33",
+        "author": "B\u00f6hner, J.",
+        "year": "2009",
+        "unstructured": "B\u00f6hner, J., and O. Antoni\u0107, 2009: Land-surface parameters specific to topo-climatology. Developments in Soil Science, Vol. 33, \nElsevier, 195\u2013226, https://doi.org/10.1016/S0166-2481(08)00008-1."
+      },
+      {
+        "key": "bib18",
+        "series-title": "J. Geophys. Res. Atmos.",
+        "first-page": "4522",
+        "article-title": "Spatial variability of seasonal extreme precipitation in the western United States",
+        "volume": "120",
+        "author": "Bracken, C.",
+        "year": "2015",
+        "unstructured": "Bracken, C., B. Rajagopalan, M. Alexander, and S. Gangopadhyay, 2015: \nSpatial variability of seasonal extreme precipitation in the western United States. J. Geophys. Res. Atmos., 120, 4522\u20134533, https://doi.org/10.1002/2015JD023205."
+      },
+      {
+        "key": "bib19",
+        "series-title": "J. Climate",
+        "first-page": "2293",
+        "article-title": "Changes in the timing of snowmelt and streamflow in Colorado: A response to recent warming",
+        "volume": "23",
+        "author": "Clow, D. W.",
+        "year": "2010",
+        "unstructured": "Clow, D. W., 2010: \nChanges in the timing of snowmelt and streamflow in Colorado: A response to recent warming. J. Climate, 23, 2293\u20132306, https://doi.org/10.1175/2009JCLI2951.1."
+      },
+      {
+        "key": "bib20",
+        "series-title": "Water Resour. Res.",
+        "first-page": "6802",
+        "article-title": "An evaluation of terrain\u2010based downscaling of fractional snow covered area data sets based on LiDAR\u2010derived snow data and orthoimagery",
+        "volume": "53",
+        "author": "Cristea, N. C.",
+        "year": "2017",
+        "unstructured": "Cristea, N. C., I. Breckheimer, M. S. Raleigh, J. HilleRisLambers, and J. D. Lundquist, 2017: \nAn evaluation of terrain\u2010based downscaling of fractional snow covered area data sets based on LiDAR\u2010derived snow data and orthoimagery. Water Resour. Res., 53, 6802\u20136820, https://doi.org/10.1002/2017WR020799."
+      },
+      {
+        "key": "bib21",
+        "series-title": "J. Water Resour. Plann. Manage.",
+        "first-page": "157",
+        "article-title": "Extended streamflow forecasting using NWSRFS",
+        "volume": "111",
+        "author": "Day, G. N.",
+        "year": "1985",
+        "unstructured": "Day, G. N., 1985: \nExtended streamflow forecasting using NWSRFS. J. Water Resour. Plann. Manage., 111, 157\u2013170, https://doi.org/10.1061/(ASCE)0733-9496(1985)111:2(157)."
+      },
+      {
+        "key": "bib22",
+        "series-title": "Fisheries",
+        "first-page": "155",
+        "article-title": "Importance of understanding landscape biases in USGS gage locations: Implications and solutions for managers",
+        "volume": "39",
+        "author": "Deweber, J. T.",
+        "year": "2014",
+        "unstructured": "Deweber, J. T., Y.-P. Tsang, D. M. Krueger, J. B. Whittier, T. Wagner, D. M. Infante, and G. Whelan, 2014: \nImportance of understanding landscape biases in USGS gage locations: Implications and solutions for managers. Fisheries, 39, 155\u2013163, https://doi.org/10.1080/03632415.2014.891503."
+      },
+      {
+        "key": "bib23",
+        "series-title": "J. Hydrol.",
+        "first-page": "208",
+        "article-title": "Trends in snowmelt-related streamflow timing in the conterminous United States",
+        "volume": "547",
+        "author": "Dudley, R. W.",
+        "year": "2017",
+        "unstructured": "Dudley, R. W., G. A. Hodgkins, M. R. McHale, M. J. Kolian, and B. Renard, 2017: \nTrends in snowmelt-related streamflow timing in the conterminous United States. J. Hydrol., 547, 208\u2013221, https://doi.org/10.1016/j.jhydrol.2017.01.051."
+      },
+      {
+        "key": "bib24",
+        "series-title": "J. Geophys. Res.",
+        "first-page": "D18113",
+        "article-title": "Snow depth and streamflow relationships in large North American watersheds",
+        "volume": "113",
+        "author": "Dyer, J.",
+        "year": "2008",
+        "unstructured": "Dyer, J., 2008: \nSnow depth and streamflow relationships in large North American watersheds. J. Geophys. Res., 113, D18113, https://doi.org/10.1029/2008JD010031."
+      },
+      {
+        "key": "bib25",
+        "article-title": "Shuttle Radar Topography Mission (SRTM) 1 arc-second global",
+        "year": "2017",
+        "unstructured": "Earth Resources Observation and Science Center, 2017: \nShuttle Radar Topography Mission (SRTM) 1 arc-second global. \nU.S. Geological survey, accessed 24 May 2023, https://doi.org/10.5066/F7PR7TFT."
+      },
+      {
+        "key": "bib26",
+        "series-title": "An Introduction to the Bootstrap.",
+        "first-page": "456",
+        "author": "Efron, B.",
+        "year": "1994",
+        "unstructured": "Efron, B., and R. J. Tibshirani, 1994: An Introduction to the Bootstrap. \nChapman and Hall/CRC, 456 pp., https://doi.org/10.1201/9780429246593."
+      },
+      {
+        "key": "bib27",
+        "series-title": "Hydrol. Processes",
+        "first-page": "1793",
+        "article-title": "Estimating the spatial distribution of snow water equivalence in a montane watershed",
+        "volume": "12",
+        "author": "Elder, K.",
+        "year": "1998",
+        "unstructured": "Elder, K., W. Rosenthal, and R. E. Davis, 1998: \nEstimating the spatial distribution of snow water equivalence in a montane watershed. Hydrol. Processes, 12, 1793\u20131808, https://doi.org/10.1002/(SICI)1099-1085(199808/09)12:10/11<1793::AID-HYP695>3.0.CO;2-K."
+      },
+      {
+        "key": "bib28",
+        "series-title": "J. Hydrol.",
+        "first-page": "100799",
+        "article-title": "Implications of observed changes in high mountain snow water storage, snowmelt timing and melt window",
+        "volume": "35",
+        "author": "Elias, E.",
+        "year": "2021",
+        "unstructured": "Elias, E., D. James, S. Heimel, C. Steele, H. Steltzer, and C. Dott, 2021: \nImplications of observed changes in high mountain snow water storage, snowmelt timing and melt window. J. Hydrol., 35, 100799, https://doi.org/10.1016/j.ejrh.2021.100799."
+      },
+      {
+        "key": "bib29",
+        "article-title": "GAGES-II: Geospatial Attributes of Gages for Evaluating Streamflow",
+        "author": "Falcone, J. A.",
+        "year": "2011",
+        "unstructured": "Falcone, J. A., 2011: \nGAGES-II: Geospatial Attributes of Gages for Evaluating Streamflow. \nU.S. Geological Survey, accessed 14 December 2022, https://pubs.er.usgs.gov/publication/70046617."
+      },
+      {
+        "key": "bib30",
+        "series-title": "Sci. Data",
+        "first-page": "677",
+        "article-title": "A western United States snow reanalysis dataset over the Landsat era from water years 1985 to 2021",
+        "volume": "9",
+        "author": "Fang, Y.",
+        "year": "2022a",
+        "unstructured": "Fang, Y., Y. Liu, and S. A. Margulis, 2022a: \nA western United States snow reanalysis dataset over the Landsat era from water years 1985 to 2021. Sci. Data, 9, 677, https://doi.org/10.1038/s41597-022-01768-7."
+      },
+      {
+        "key": "bib31",
+        "article-title": "Western United States UCLA daily snow reanalysis",
+        "author": "Fang, Y.",
+        "year": "2022b",
+        "unstructured": "Fang, Y., Y. Liu, and S. A. Margulis, 2022b: \nWestern United States UCLA daily snow reanalysis. \nNASA National Snow and Ice Data Center DAAC, accessed 24 May 2023, https://doi.org/10.5067/PP7T2GBI52I2."
+      },
+      {
+        "key": "bib32",
+        "series-title": "J. Amer. Water Resour. Assoc.",
+        "first-page": "585",
+        "article-title": "SNOTEL, the soil climate analysis network, and water supply forecasting at the natural resources conservation service: Past, present, and future",
+        "volume": "59",
+        "author": "Fleming, S. W.",
+        "year": "2023",
+        "unstructured": "Fleming, S. W., L. Zukiewicz, M. L. Strobel, H. Hofman, and A. G. Goodbody, 2023: \nSNOTEL, the soil climate analysis network, and water supply forecasting at the natural resources conservation service: Past, present, and future. J. Amer. Water Resour. Assoc., 59, 585\u2013599, https://doi.org/10.1111/1752-1688.13104."
+      },
+      {
+        "issue": "1",
+        "key": "bib33",
+        "series-title": "J. Stat. Software",
+        "first-page": "1",
+        "article-title": "Regularization paths for generalized linear models via coordinate descent",
+        "volume": "33",
+        "author": "Friedman, J. H.",
+        "year": "2010",
+        "unstructured": "Friedman, J. H., T. Hastie, and R. Tibshirani, 2010: \nRegularization paths for generalized linear models via coordinate descent. J. Stat. Software, 33 (1), 1\u201322, https://doi.org/10.18637/jss.v033.i01."
+      },
+      {
+        "key": "bib34",
+        "series-title": "J. Hydrometeor.",
+        "first-page": "989",
+        "article-title": "Shifts in western North American snowmelt runoff regimes for the recent warm decades",
+        "volume": "12",
+        "author": "Fritze, H.",
+        "year": "2011",
+        "unstructured": "Fritze, H., I. T. Stewart, and E. Pebesma, 2011: \nShifts in western North American snowmelt runoff regimes for the recent warm decades. J. Hydrometeor., 12, 989\u20131006, https://doi.org/10.1175/2011JHM1360.1."
+      },
+      {
+        "key": "bib35",
+        "series-title": "Cryosphere",
+        "first-page": "2381",
+        "article-title": "Elevation dependency of mountain snow depth",
+        "volume": "8",
+        "author": "Gr\u00fcnewald, T.",
+        "year": "2014",
+        "unstructured": "Gr\u00fcnewald, T., Y. B\u00fchler, and M. Lehning, 2014: \nElevation dependency of mountain snow depth. Cryosphere, 8, 2381\u20132394, https://doi.org/10.5194/tc-8-2381-2014."
+      },
+      {
+        "key": "bib36",
+        "series-title": "Hydrol. Processes",
+        "first-page": "4018",
+        "article-title": "Assessing the performance of a semi\u2010distributed hydrological model under various watershed discretization schemes",
+        "volume": "29",
+        "author": "Haghnegahdar, A.",
+        "year": "2015",
+        "unstructured": "Haghnegahdar, A., B. A. Tolson, J. R. Craig, and K. T. Paya, 2015: \nAssessing the performance of a semi\u2010distributed hydrological model under various watershed discretization schemes. Hydrol. Processes, 29, 4018\u20134031, https://doi.org/10.1002/hyp.10550."
+      },
+      {
+        "key": "bib37",
+        "series-title": "Water Resour. Res.",
+        "first-page": "W11501",
+        "article-title": "Changes in snowpack accumulation and ablation in the intermountain west",
+        "volume": "48",
+        "author": "Harpold, A.",
+        "year": "2012",
+        "unstructured": "Harpold, A., P. Brooks, S. Rajagopal, I. Heidbuchel, A. Jardine, and C. Stielstra, 2012: \nChanges in snowpack accumulation and ablation in the intermountain west. Water Resour. Res., 48, W11501, https://doi.org/10.1029/2012WR011949."
+      },
+      {
+        "key": "bib38",
+        "series-title": "Proc. Natl. Acad. Sci. USA",
+        "first-page": "1215",
+        "article-title": "Humidity determines snowpack ablation under a warming climate",
+        "volume": "115",
+        "author": "Harpold, A. A.",
+        "year": "2018",
+        "unstructured": "Harpold, A. A., and P. D. Brooks, 2018: \nHumidity determines snowpack ablation under a warming climate. Proc. Natl. Acad. Sci. USA, 115, 1215\u20131220, https://doi.org/10.1073/pnas.1716789115."
+      },
+      {
+        "key": "bib39",
+        "series-title": "J. Amer. Water Resour. Assoc.",
+        "first-page": "179",
+        "article-title": "Does including soil moisture observations improve operational streamflow forecasts in snow\u2010dominated watersheds?",
+        "volume": "53",
+        "author": "Harpold, A. A.",
+        "year": "2017",
+        "unstructured": "Harpold, A. A., K. Sutcliffe, J. Clayton, A. Goodbody, and S. Vazquez, 2017: \nDoes including soil moisture observations improve operational streamflow forecasts in snow\u2010dominated watersheds? J. Amer. Water Resour. Assoc., 53, 179\u2013196, https://doi.org/10.1111/1752-1688.12490."
+      },
+      {
+        "key": "bib40",
+        "series-title": "J. Amer. Water Resour. Assoc.",
+        "first-page": "1723",
+        "article-title": "Subwatershed spatial analysis tool: Discretization of a distributed hydrologic model by statistical criteria",
+        "volume": "38",
+        "author": "Haverkamp, S.",
+        "year": "2002",
+        "unstructured": "Haverkamp, S., R. Srinivasan, H. G. Frede, and C. Santhi, 2002: \nSubwatershed spatial analysis tool: Discretization of a distributed hydrologic model by statistical criteria. J. Amer. Water Resour. Assoc., 38, 1723\u20131733, https://doi.org/10.1111/j.1752-1688.2002.tb04377.x."
+      },
+      {
+        "key": "bib41",
+        "article-title": "Annual snow timing index rasters for the western US and Alaska, WY2001-2019",
+        "author": "Heldmyer, A.",
+        "year": "2021",
+        "unstructured": "Heldmyer, A., and B. Livneh, 2021: \nAnnual snow timing index rasters for the western US and Alaska, WY2001-2019. \nZenodo, accessed 20 December 2022, https://doi.org/10.5281/ZENODO.4327643."
+      },
+      {
+        "key": "bib42",
+        "series-title": "Water Resour. Res.",
+        "first-page": "e2020WR029395",
+        "article-title": "Investigating the relationship between peak snow\u2010water equivalent and snow timing indices in the western United States and Alaska",
+        "volume": "57",
+        "author": "Heldmyer, A.",
+        "year": "2021",
+        "unstructured": "Heldmyer, A., B. Livneh, N. Molotch, and B. Rajagopalan, 2021: \nInvestigating the relationship between peak snow\u2010water equivalent and snow timing indices in the western United States and Alaska. Water Resour. Res., 57, e2020WR029395, https://doi.org/10.1029/2020WR029395."
+      },
+      {
+        "key": "bib43",
+        "series-title": "The History of Snow Survey and Water Supply Forecasting: Interviews with U.S. Department of Agriculture Pioneers.",
+        "first-page": "306",
+        "author": "Helms, D.",
+        "year": "2008",
+        "unstructured": "Helms, D., S. E. Phillips, and P. F. Reich, 2008: The History of Snow Survey and Water Supply Forecasting: Interviews with U.S. Department of Agriculture Pioneers. \nU.S. Department of Agriculture, Natural Resources Conservation Service Resource Economics and Social Sciences Division, 306 pp., https://www.nrcs.usda.gov/wps/portal/nrcs/detail/national/about/history/?cid=stelprdb1043978."
+      },
+      {
+        "key": "bib44",
+        "series-title": "Proc. IEEE",
+        "first-page": "14",
+        "article-title": "Hill shading and the reflectance map",
+        "volume": "69",
+        "author": "Horn, B. K. P.",
+        "year": "1981",
+        "unstructured": "Horn, B. K. P., 1981: \nHill shading and the reflectance map. Proc. IEEE, 69, 14\u201347, https://doi.org/10.1109/PROC.1981.11918."
+      },
+      {
+        "key": "bib45",
+        "article-title": "SRTM 90m digital elevation database",
+        "author": "Jarvis, A.",
+        "year": "2007",
+        "unstructured": "Jarvis, A., H. I. Reuter, A. Nelson, and E. Guevara, 2007: \nSRTM 90m digital elevation database. Accessed 28 March 2025, https://srtm.csi.cgiar.org."
+      },
+      {
+        "key": "bib46",
+        "series-title": "Stat. Anal. Data Min.",
+        "first-page": "531",
+        "article-title": "Optimal ratio for data splitting",
+        "volume": "15",
+        "author": "Joseph, V. R.",
+        "year": "2022",
+        "unstructured": "Joseph, V. R., 2022: \nOptimal ratio for data splitting. Stat. Anal. Data Min., 15, 531\u2013538, https://doi.org/10.1002/sam.11583."
+      },
+      {
+        "key": "bib47",
+        "series-title": "IEEE Trans. Geosci. Remote Sens.",
+        "first-page": "3826",
+        "article-title": "Spatial and temporal distribution of clouds observed by MODIS onboard the Terra and Aqua satellites",
+        "volume": "51",
+        "author": "King, M. D.",
+        "year": "2013",
+        "unstructured": "King, M. D., S. Platnick, W. P. Menzel, S. A. Ackerman, and P. A. Hubanks, 2013: \nSpatial and temporal distribution of clouds observed by MODIS onboard the Terra and Aqua satellites. IEEE Trans. Geosci. Remote Sens., 51, 3826\u20133852, https://doi.org/10.1109/TGRS.2012.2227333."
+      },
+      {
+        "key": "bib48",
+        "series-title": "Hydrol. Earth Syst. Sci.",
+        "first-page": "4261",
+        "article-title": "LiDAR measurement of seasonal snow accumulation along an elevation gradient in the southern Sierra Nevada, California",
+        "volume": "18",
+        "author": "Kirchner, P. B.",
+        "year": "2014",
+        "unstructured": "Kirchner, P. B., R. C. Bales, N. P. Molotch, J. Flanagan, and Q. Guo, 2014: \nLiDAR measurement of seasonal snow accumulation along an elevation gradient in the southern Sierra Nevada, California. Hydrol. Earth Syst. Sci., 18, 4261\u20134275, https://doi.org/10.5194/hess-18-4261-2014."
+      },
+      {
+        "key": "bib49",
+        "series-title": "Nat. Geosci.",
+        "first-page": "613",
+        "article-title": "Skill in streamflow forecasts derived from large-scale estimates of soil moisture and snow",
+        "volume": "3",
+        "author": "Koster, R. D.",
+        "year": "2010",
+        "unstructured": "Koster, R. D., S. P. P. Mahanama, B. Livneh, D. P. Lettenmaier, and R. H. Reichle, 2010: \nSkill in streamflow forecasts derived from large-scale estimates of soil moisture and snow. Nat. Geosci., 3, 613\u2013616, https://doi.org/10.1038/ngeo944."
+      },
+      {
+        "key": "bib50",
+        "series-title": "Nat. Commun.",
+        "first-page": "3545",
+        "article-title": "Late-fall satellite-based soil moisture observations show clear connections to subsequent spring streamflow",
+        "volume": "14",
+        "author": "Koster, R. D.",
+        "year": "2023",
+        "unstructured": "Koster, R. D., Q. Liu, W. T. Crow, and R. H. Reichle, 2023: \nLate-fall satellite-based soil moisture observations show clear connections to subsequent spring streamflow. Nat. Commun., 14, 3545, https://doi.org/10.1038/s41467-023-39318-3."
+      },
+      {
+        "key": "bib51",
+        "series-title": "Water",
+        "first-page": "2572",
+        "article-title": "Advanced machine learning techniques to improve hydrological prediction: A comparative analysis of streamflow prediction models",
+        "volume": "15",
+        "author": "Kumar, V.",
+        "year": "2023",
+        "unstructured": "Kumar, V., N. Kedam, K. V. Sharma, D. J. Mehta, and T. Caloiero, 2023: \nAdvanced machine learning techniques to improve hydrological prediction: A comparative analysis of streamflow prediction models. Water, 15, 2572, https://doi.org/10.3390/w15142572."
+      },
+      {
+        "key": "bib52",
+        "series-title": "Hydrol. Earth Syst. Sci.",
+        "first-page": "129",
+        "article-title": "Parsimonious statistical learning models for low-flow estimation",
+        "volume": "26",
+        "author": "Laimighofer, J.",
+        "year": "2022",
+        "unstructured": "Laimighofer, J., M. Melcher, and G. Laaha, 2022: \nParsimonious statistical learning models for low-flow estimation. Hydrol. Earth Syst. Sci., 26, 129\u2013148, https://doi.org/10.5194/hess-26-129-2022."
+      },
+      {
+        "key": "bib53",
+        "series-title": "Ecol. Inf.",
+        "first-page": "102755",
+        "article-title": "Enhancing the streamflow simulation of a process-based hydrological model using machine learning and multi-source data",
+        "volume": "82",
+        "author": "Lei, H.",
+        "year": "2024",
+        "unstructured": "Lei, H., H. Li, and W. Hu, 2024: \nEnhancing the streamflow simulation of a process-based hydrological model using machine learning and multi-source data. Ecol. Inf., 82, 102755, https://doi.org/10.1016/j.ecoinf.2024.102755."
+      },
+      {
+        "key": "bib54",
+        "series-title": "Geophys. Res. Lett.",
+        "first-page": "6163",
+        "article-title": "How much runoff originates as snow in the western United States, and how will that change in the future?",
+        "volume": "44",
+        "author": "Li, D.",
+        "year": "2017",
+        "unstructured": "Li, D., M. L. Wrzesien, M. Durand, J. Adam, and D. P. Lettenmaier, 2017: \nHow much runoff originates as snow in the western United States, and how will that change in the future? Geophys. Res. Lett., 44, 6163\u20136172, https://doi.org/10.1002/2017GL073551."
+      },
+      {
+        "key": "bib55",
+        "series-title": "Nat. Climate Change",
+        "first-page": "452",
+        "article-title": "Drought less predictable under declining future snowpack",
+        "volume": "10",
+        "author": "Livneh, B.",
+        "year": "2020",
+        "unstructured": "Livneh, B., and A. M. Badger, 2020: \nDrought less predictable under declining future snowpack. Nat. Climate Change, 10, 452\u2013458, https://doi.org/10.1038/s41558-020-0754-8."
+      },
+      {
+        "key": "bib56",
+        "series-title": "Theor. Appl. Climatol.",
+        "first-page": "207",
+        "article-title": "The effect of slope aspect on the response of snowpack to climate warming in the Pyrenees",
+        "volume": "117",
+        "author": "L\u00f3pez-Moreno, J. I.",
+        "year": "2014",
+        "unstructured": "L\u00f3pez-Moreno, J. I., and Coauthors, 2014: \nThe effect of slope aspect on the response of snowpack to climate warming in the Pyrenees. Theor. Appl. Climatol., 117, 207\u2013219, https://doi.org/10.1007/s00704-013-0991-0."
+      },
+      {
+        "key": "bib57",
+        "series-title": "Bull. Amer. Meteor. Soc.",
+        "first-page": "2473",
+        "article-title": "Our skill in modeling mountain rain and snow is bypassing the skill of our observational networks",
+        "volume": "100",
+        "author": "Lundquist, J.",
+        "year": "2019",
+        "unstructured": "Lundquist, J., M. R. Abel, E. Gutmann, and S. Kapnick, 2019: \nOur skill in modeling mountain rain and snow is bypassing the skill of our observational networks. Bull. Amer. Meteor. Soc., 100, 2473\u20132490, https://doi.org/10.1175/BAMS-D-19-0001.1."
+      },
+      {
+        "key": "bib58",
+        "series-title": "J. Hydrometeor.",
+        "first-page": "189",
+        "article-title": "Soil moisture, snow, and seasonal streamflow forecasts in the United States",
+        "volume": "13",
+        "author": "Mahanama, S.",
+        "year": "2012",
+        "unstructured": "Mahanama, S., B. Livneh, R. Koster, D. Lettenmaier, and R. Reichle, 2012: \nSoil moisture, snow, and seasonal streamflow forecasts in the United States. J. Hydrometeor., 13, 189\u2013203, https://doi.org/10.1175/JHM-D-11-046.1."
+      },
+      {
+        "key": "bib59",
+        "series-title": "Geophys. Res. Lett.",
+        "first-page": "8882",
+        "article-title": "Projected changes in interannual variability of peak snowpack amount and timing in the western United States",
+        "volume": "46",
+        "author": "Marshall, A. M.",
+        "year": "2019",
+        "unstructured": "Marshall, A. M., J. T. Abatzoglou, T. E. Link, and C. J. Tennant, 2019: \nProjected changes in interannual variability of peak snowpack amount and timing in the western United States. Geophys. Res. Lett., 46, 8882\u20138892, https://doi.org/10.1029/2019GL083770."
+      },
+      {
+        "key": "bib60",
+        "series-title": "J. Amer. Water Resour. Assoc.",
+        "first-page": "1197",
+        "article-title": "Trends in western U.S. snowpack and related upper Colorado River Basin streamflow",
+        "volume": "47",
+        "author": "Miller, W. P.",
+        "year": "2011",
+        "unstructured": "Miller, W. P., and T. C. Piechota, 2011: \nTrends in western U.S. snowpack and related upper Colorado River Basin streamflow. J. Amer. Water Resour. Assoc., 47, 1197\u20131210, https://doi.org/10.1111/j.1752-1688.2011.00565.x."
+      },
+      {
+        "key": "bib61",
+        "series-title": "Science",
+        "first-page": "573",
+        "article-title": "Stationarity is dead: Whither water management?",
+        "volume": "319",
+        "author": "Milly, P. C. D.",
+        "year": "2008",
+        "unstructured": "Milly, P. C. D., J. Betancourt, M. Falkenmark, R. M. Hirsch, Z. W. Kundzewicz, D. P. Lettenmaier, and R. J. Stouffer, 2008: \nStationarity is dead: Whither water management? Science, 319, 573\u2013574, https://doi.org/10.1126/science.1151915."
+      },
+      {
+        "key": "bib62",
+        "series-title": "Bull. Amer. Meteor. Soc.",
+        "first-page": "2367",
+        "article-title": "Snow avalanche climatology of the western United States mountain ranges",
+        "volume": "81",
+        "author": "Mock, C. J.",
+        "year": "2000",
+        "unstructured": "Mock, C. J., and K. W. Birkeland, 2000: \nSnow avalanche climatology of the western United States mountain ranges. Bull. Amer. Meteor. Soc., 81, 2367\u20132392, https://doi.org/10.1175/1520-0477(2000)081<2367:sacotw>2.3.co;2."
+      },
+      {
+        "key": "bib63",
+        "series-title": "J. Hydrometeor.",
+        "first-page": "1607",
+        "article-title": "Investigating the role of snow water equivalent on streamflow predictability during drought",
+        "volume": "23",
+        "author": "Modi, P. A.",
+        "year": "2022",
+        "unstructured": "Modi, P. A., E. E. Small, J. Kasprzyk, and B. Livneh, 2022: \nInvestigating the role of snow water equivalent on streamflow predictability during drought. J. Hydrometeor., 23, 1607\u20131625, https://doi.org/10.1175/JHM-D-21-0229.1."
+      },
+      {
+        "key": "bib64",
+        "series-title": "Hydrol. Processes",
+        "first-page": "1076",
+        "article-title": "Reconstructing snow water equivalent in the Rio Grande headwaters using remotely sensed snow cover data and a spatially distributed snowmelt model",
+        "volume": "23",
+        "author": "Molotch, N. P.",
+        "year": "2009",
+        "unstructured": "Molotch, N. P., 2009: \nReconstructing snow water equivalent in the Rio Grande headwaters using remotely sensed snow cover data and a spatially distributed snowmelt model. Hydrol. Processes, 23, 1076\u20131089, https://doi.org/10.1002/hyp.7206."
+      },
+      {
+        "key": "bib65",
+        "series-title": "Hydrol. Processes",
+        "first-page": "723",
+        "article-title": "SNOTEL representativeness in the Rio Grande headwaters on the basis of physiographics and remotely sensed snow cover persistence",
+        "volume": "20",
+        "author": "Molotch, N. P.",
+        "year": "2006",
+        "unstructured": "Molotch, N. P., and R. C. Bales, 2006: \nSNOTEL representativeness in the Rio Grande headwaters on the basis of physiographics and remotely sensed snow cover persistence. Hydrol. Processes, 20, 723\u2013739, https://doi.org/10.1002/hyp.6128."
+      },
+      {
+        "key": "bib66",
+        "series-title": "Adv. Water Resour.",
+        "first-page": "1503",
+        "article-title": "Estimating the distribution of snow water equivalent using remotely sensed snow cover data and a spatially distributed snowmelt model: A multi-resolution, multi-sensor comparison",
+        "volume": "31",
+        "author": "Molotch, N. P.",
+        "year": "2008",
+        "unstructured": "Molotch, N. P., and S. A. Margulis, 2008: \nEstimating the distribution of snow water equivalent using remotely sensed snow cover data and a spatially distributed snowmelt model: A multi-resolution, multi-sensor comparison. Adv. Water Resour., 31, 1503\u20131514, https://doi.org/10.1016/j.advwatres.2008.07.017."
+      },
+      {
+        "key": "bib67",
+        "series-title": "Trans. ASABE",
+        "first-page": "1763",
+        "article-title": "Hydrologic and water quality models: Performance measures and evaluation criteria",
+        "volume": "58",
+        "author": "Moriasi, D. N.",
+        "year": "2015",
+        "unstructured": "Moriasi, D. N., M. W. Gitau, N. Pai, and P. Daggupati, 2015: \nHydrologic and water quality models: Performance measures and evaluation criteria. Trans. ASABE, 58, 1763\u20131785, https://doi.org/10.13031/trans.58.10715."
+      },
+      {
+        "key": "bib68",
+        "series-title": "Nat. Climate Change",
+        "first-page": "214",
+        "article-title": "Slower snowmelt in a warmer world",
+        "volume": "7",
+        "author": "Musselman, K. N.",
+        "year": "2017",
+        "unstructured": "Musselman, K. N., M. P. Clark, C. Liu, K. Ikeda, and R. Rasmussen, 2017: \nSlower snowmelt in a warmer world. Nat. Climate Change, 7, 214\u2013219, https://doi.org/10.1038/nclimate3225."
+      },
+      {
+        "key": "bib69",
+        "series-title": "Phys. Geogr.",
+        "first-page": "285",
+        "article-title": "Regional trends in snowmelt timing for the western United States throughout the MODIS era",
+        "volume": "43",
+        "author": "O\u2019Leary, D. S., III",
+        "year": "2022",
+        "unstructured": "O\u2019Leary, D. S., III, D. K. Hall, N. E. DiGirolamo, and G. A. Riggs, 2022: \nRegional trends in snowmelt timing for the western United States throughout the MODIS era. Phys. Geogr., 43, 285\u2013307, https://doi.org/10.1080/02723646.2020.1854418."
+      },
+      {
+        "key": "bib70",
+        "series-title": "World Environmental and Water Resources Congress 2008: Ahupua\u2019A",
+        "first-page": "1",
+        "article-title": "Probabilistic seasonal water supply forecasting in an operational environment: The USDA-NRCS perspective",
+        "author": "Pagano, T. C.",
+        "year": "2008",
+        "unstructured": "Pagano, T. C., 2008: \nProbabilistic seasonal water supply forecasting in an operational environment: The USDA-NRCS perspective. World Environmental and Water Resources Congress 2008: Ahupua\u2019A, Honolulu, HI, \nAmerican Society of Civil Engineers, 1\u201310, https://doi.org/10.1061/40976(316)575."
+      },
+      {
+        "key": "bib71",
+        "series-title": "Wea. Climate Soc.",
+        "first-page": "851",
+        "article-title": "The critical role of communities of practice and peer learning in scaling hydroclimatic information adoption",
+        "volume": "11",
+        "author": "Page, R.",
+        "year": "2019",
+        "unstructured": "Page, R., and L. Dilling, 2019: \nThe critical role of communities of practice and peer learning in scaling hydroclimatic information adoption. Wea. Climate Soc., 11, 851\u2013862, https://doi.org/10.1175/WCAS-D-18-0130.1."
+      },
+      {
+        "key": "bib72",
+        "series-title": "Hydrol. Processes",
+        "first-page": "e14581",
+        "article-title": "Inferring watershed\u2010scale mean snowfall magnitude and distribution using multidecadal snow reanalysis patterns and snow pillow observations",
+        "volume": "36",
+        "author": "Pflug, J. M.",
+        "year": "2022",
+        "unstructured": "Pflug, J. M., S. A. Margulis, and J. D. Lundquist, 2022: \nInferring watershed\u2010scale mean snowfall magnitude and distribution using multidecadal snow reanalysis patterns and snow pillow observations. Hydrol. Processes, 36, e14581, https://doi.org/10.1002/hyp.14581."
+      },
+      {
+        "key": "bib73",
+        "series-title": "J. Climate",
+        "first-page": "4148",
+        "article-title": "The uneven response of different snow measures to human-induced climate warming",
+        "volume": "26",
+        "author": "Pierce, D. W.",
+        "year": "2013",
+        "unstructured": "Pierce, D. W., and D. R. Cayan, 2013: \nThe uneven response of different snow measures to human-induced climate warming. J. Climate, 26, 4148\u20134167, https://doi.org/10.1175/JCLI-D-12-00534.1."
+      },
+      {
+        "key": "bib74",
+        "series-title": "Int. J. Geogr. Inf. Sci.",
+        "first-page": "983",
+        "article-title": "An evaluation of void\u2010filling interpolation methods for SRTM data",
+        "volume": "21",
+        "author": "Reuter, H. I.",
+        "year": "2007",
+        "unstructured": "Reuter, H. I., A. Nelson, and A. Jarvis, 2007: \nAn evaluation of void\u2010filling interpolation methods for SRTM data. Int. J. Geogr. Inf. Sci., 21, 983\u20131008, https://doi.org/10.1080/13658810601169899."
+      },
+      {
+        "key": "bib75",
+        "series-title": "Cryosphere",
+        "first-page": "1989",
+        "article-title": "Topographic control of snowpack distribution in a small catchment in the central Spanish Pyrenees: Intra- and inter-annual persistence",
+        "volume": "8",
+        "author": "Revuelto, J.",
+        "year": "2014",
+        "unstructured": "Revuelto, J., J. I. L\u00f3pez-Moreno, C. Azorin-Molina, and S. M. Vicente-Serrano, 2014: \nTopographic control of snowpack distribution in a small catchment in the central Spanish Pyrenees: Intra- and inter-annual persistence. Cryosphere, 8, 1989\u20132006, https://doi.org/10.5194/tc-8-1989-2014."
+      },
+      {
+        "key": "bib76",
+        "series-title": "Remote Sens.",
+        "first-page": "3781",
+        "article-title": "Continuity of MODIS and VIIRS snow cover extent data products for development of an Earth science data record",
+        "volume": "12",
+        "author": "Riggs, G. A.",
+        "year": "2020",
+        "unstructured": "Riggs, G. A., and D. Hall, 2020: \nContinuity of MODIS and VIIRS snow cover extent data products for development of an Earth science data record. Remote Sens., 12, 3781, https://doi.org/10.3390/rs12223781."
+      },
+      {
+        "key": "bib77",
+        "series-title": "Earth Syst. Sci. Data",
+        "first-page": "765",
+        "article-title": "Overview of NASA\u2019s MODIS and Visible Infrared Imaging Radiometer Suite (VIIRS) snow-cover Earth system data records",
+        "volume": "9",
+        "author": "Riggs, G. A.",
+        "year": "2017",
+        "unstructured": "Riggs, G. A., D. K. Hall, and M. O. Rom\u00e1n, 2017: \nOverview of NASA\u2019s MODIS and Visible Infrared Imaging Radiometer Suite (VIIRS) snow-cover Earth system data records. Earth Syst. Sci. Data, 9, 765\u2013777, https://doi.org/10.5194/essd-9-765-2017."
+      },
+      {
+        "key": "bib78",
+        "series-title": "Sci. Total Environ.",
+        "first-page": "S60",
+        "article-title": "Missing (in-situ) snow cover data hampers climate change and runoff studies in the Greater Himalayas",
+        "volume": "468\u2013469",
+        "author": "Rohrer, M.",
+        "year": "2013",
+        "unstructured": "Rohrer, M., N. Salzmann, M. Stoffel, and A. V. Kulkarni, 2013: \nMissing (in-situ) snow cover data hampers climate change and runoff studies in the Greater Himalayas. Sci. Total Environ., 468\u2013469, S60\u2013S70, https://doi.org/10.1016/j.scitotenv.2013.09.056."
+      },
+      {
+        "key": "bib79",
+        "series-title": "Adv. Water Resour.",
+        "first-page": "33",
+        "article-title": "Detecting gradual and abrupt changes in hydrological records",
+        "volume": "53",
+        "author": "Roug\u00e9, C.",
+        "year": "2013",
+        "unstructured": "Roug\u00e9, C., Y. Ge, and X. Cai, 2013: \nDetecting gradual and abrupt changes in hydrological records. Adv. Water Resour., 53, 33\u201344, https://doi.org/10.1016/j.advwatres.2012.09.008."
+      },
+      {
+        "key": "bib80",
+        "series-title": "Water Resour. Res.",
+        "first-page": "7892",
+        "article-title": "Real\u2010time estimation of snow water equivalent in the Upper Colorado River Basin using MODIS\u2010based SWE reconstructions and SNOTEL data",
+        "volume": "52",
+        "author": "Schneider, D.",
+        "year": "2016",
+        "unstructured": "Schneider, D., and N. P. Molotch, 2016: \nReal\u2010time estimation of snow water equivalent in the Upper Colorado River Basin using MODIS\u2010based SWE reconstructions and SNOTEL data. Water Resour. Res., 52, 7892\u20137910, https://doi.org/10.1002/2016WR019067."
+      },
+      {
+        "key": "bib81",
+        "series-title": "Automated Approaches for Snow and Ice Cover Monitoring Using Optical Remote Sensing",
+        "first-page": "76",
+        "article-title": "The USGS Landsat snow covered area products: Methods and preliminary validation",
+        "author": "Selkowitz, D. J.",
+        "year": "2017",
+        "unstructured": "Selkowitz, D. J., T. H. Painter, K. E. Rittger, G. Schmidt, and R. Forster, 2017: The USGS Landsat snow covered area products: Methods and preliminary validation. Automated Approaches for Snow and Ice Cover Monitoring Using Optical Remote Sensing, \nUniversity of Utah, 76\u2013119."
+      },
+      {
+        "key": "bib82",
+        "series-title": "Water Resour. Res.",
+        "first-page": "2145",
+        "article-title": "Characteristics of the western United States snowpack from snowpack telemetry (SNOTEL) data",
+        "volume": "35",
+        "author": "Serreze, M. C.",
+        "year": "1999",
+        "unstructured": "Serreze, M. C., M. P. Clark, R. L. Armstrong, D. A. McGinnis, and R. S. Pulwarty, 1999: \nCharacteristics of the western United States snowpack from snowpack telemetry (SNOTEL) data. Water Resour. Res., 35, 2145\u20132160, https://doi.org/10.1029/1999WR900090."
+      },
+      {
+        "key": "bib83",
+        "series-title": "Adv. Water Resour.",
+        "first-page": "165",
+        "article-title": "Uncertainty in seasonal snow reconstruction: Relative impacts of model forcing and image availability",
+        "volume": "55",
+        "author": "Slater, A. G.",
+        "year": "2013",
+        "unstructured": "Slater, A. G., A. P. Barrett, M. P. Clark, J. D. Lundquist, and M. S. Raleigh, 2013: \nUncertainty in seasonal snow reconstruction: Relative impacts of model forcing and image availability. Adv. Water Resour., 55, 165\u2013177, https://doi.org/10.1016/j.advwatres.2012.07.006."
+      },
+      {
+        "key": "bib84",
+        "series-title": "Front. Earth Sci.",
+        "first-page": "73",
+        "article-title": "Snow in a very steep rock face: Accumulation and redistribution during and after a snowfall event",
+        "volume": "3",
+        "author": "Sommer, C. G.",
+        "year": "2015",
+        "unstructured": "Sommer, C. G., M. Lehning, and R. Mott, 2015: \nSnow in a very steep rock face: Accumulation and redistribution during and after a snowfall event. Front. Earth Sci., 3, 73, https://doi.org/10.3389/feart.2015.00073."
+      },
+      {
+        "key": "bib85",
+        "series-title": "Hydrol. Processes",
+        "first-page": "78",
+        "article-title": "Changes in snowpack and snowmelt runoff for key mountain regions",
+        "volume": "23",
+        "author": "Stewart, I. T.",
+        "year": "2009",
+        "unstructured": "Stewart, I. T., 2009: \nChanges in snowpack and snowmelt runoff for key mountain regions. Hydrol. Processes, 23, 78\u201394, https://doi.org/10.1002/hyp.7128."
+      },
+      {
+        "key": "bib86",
+        "series-title": "Water Resour. Res.",
+        "first-page": "6908",
+        "article-title": "Regional sensitivities of seasonal snowpack to elevation, aspect, and vegetation cover in western North America",
+        "volume": "53",
+        "author": "Tennant, C. J.",
+        "year": "2017",
+        "unstructured": "Tennant, C. J., and Coauthors, 2017: \nRegional sensitivities of seasonal snowpack to elevation, aspect, and vegetation cover in western North America. Water Resour. Res., 53, 6908\u20136926, https://doi.org/10.1002/2016WR019374."
+      },
+      {
+        "key": "bib87",
+        "series-title": "Hydrol. Sci. J.",
+        "first-page": "12",
+        "article-title": "Streamflow naturalization methods: A review",
+        "volume": "66",
+        "author": "Terrier, M.",
+        "year": "2021",
+        "unstructured": "Terrier, M., C. Perrin, A. De Lavenne, V. R\u00e9assian, J. Lerat, and J. Vaze, 2021: \nStreamflow naturalization methods: A review. Hydrol. Sci. J., 66, 12\u201336, https://doi.org/10.1080/02626667.2020.1839080."
+      },
+      {
+        "key": "bib88",
+        "series-title": "Climate Dyn.",
+        "first-page": "8961",
+        "article-title": "Spatial variability and moisture tracks of Indian monsoon rainfall and extremes",
+        "volume": "62",
+        "author": "Thota, S. S. S. P.",
+        "year": "2024",
+        "unstructured": "Thota, S. S. S. P., and B. Rajagopalan, 2024: \nSpatial variability and moisture tracks of Indian monsoon rainfall and extremes. Climate Dyn., 62, 8961\u20138978, https://doi.org/10.1007/s00382-024-07373-1."
+      },
+      {
+        "key": "bib89",
+        "series-title": "J. Roy. Stat. Soc.",
+        "first-page": "267",
+        "article-title": "Regression shrinkage and selection via the lasso",
+        "volume": "58B",
+        "author": "Tibshirani, R.",
+        "year": "1996",
+        "unstructured": "Tibshirani, R., 1996: \nRegression shrinkage and selection via the lasso. J. Roy. Stat. Soc., 58B, 267\u2013288, https://doi.org/10.1111/j.2517-6161.1996.tb02080.x."
+      },
+      {
+        "key": "bib90",
+        "series-title": "Water Resour. Res.",
+        "first-page": "5611",
+        "article-title": "Snowpack regimes of the western United States",
+        "volume": "50",
+        "author": "Trujillo, E.",
+        "year": "2014",
+        "unstructured": "Trujillo, E., and N. P. Molotch, 2014: \nSnowpack regimes of the western United States. Water Resour. Res., 50, 5611\u20135623, https://doi.org/10.1002/2013WR014753."
+      },
+      {
+        "key": "bib91",
+        "first-page": "18",
+        "article-title": "Statistical techniques used in the VIPER water supply forecasting software",
+        "year": "2007",
+        "unstructured": "USDA, 2007: \nStatistical techniques used in the VIPER water supply forecasting software. Tech. Note, 18 pp., https://www.nrcs.usda.gov/sites/default/files/2023-02/Statistical%20Techniques%20Used%20in%20the%20VIPER%20Water%20Supply%20Forecasting%20Software%20-%20Technical%20Note_0.pdf."
+      },
+      {
+        "key": "bib92",
+        "article-title": "USGS water data for the nation",
+        "year": "1994",
+        "unstructured": "USGS, 1994: \nUSGS water data for the nation. \nU.S. Geological Survey, accessed 20 December 2022, https://doi.org/10.5066/F7P55KJN."
+      },
+      {
+        "key": "bib93",
+        "series-title": "J. Hydrometeor.",
+        "first-page": "101",
+        "article-title": "Incorporating medium-range numerical weather model output into the ensemble streamflow prediction system of the National Weather Service",
+        "volume": "6",
+        "author": "Werner, K.",
+        "year": "2005",
+        "unstructured": "Werner, K., D. Brandon, M. Clark, and S. Gangopadhyay, 2005: \nIncorporating medium-range numerical weather model output into the ensemble streamflow prediction system of the National Weather Service. J. Hydrometeor., 6, 101\u2013114, https://doi.org/10.1175/JHM411.1."
+      },
+      {
+        "key": "bib94",
+        "series-title": "Climatic Change",
+        "first-page": "705",
+        "article-title": "Snowpack affects soil microclimate throughout the year",
+        "volume": "163",
+        "author": "Wilson, G.",
+        "year": "2020",
+        "unstructured": "Wilson, G., M. Green, J. Brown, J. Campbell, P. Groffman, J. Dur\u00e1n, and J. Morse, 2020: \nSnowpack affects soil microclimate throughout the year. Climatic Change, 163, 705\u2013722, https://doi.org/10.1007/s10584-020-02943-8."
+      },
+      {
+        "key": "bib95",
+        "series-title": "Remote Sens.",
+        "first-page": "2523",
+        "article-title": "MODIS and VIIRS calibration history and future outlook",
+        "volume": "12",
+        "author": "Xiong, X.",
+        "year": "2020",
+        "unstructured": "Xiong, X., and J. J. Butler, 2020: \nMODIS and VIIRS calibration history and future outlook. Remote Sens., 12, 2523, https://doi.org/10.3390/rs12162523."
+      },
+      {
+        "key": "bib96",
+        "series-title": "Optical Payloads for Space Missions",
+        "first-page": "53",
+        "article-title": "Moderate resolution imaging spectroradiometer on Terra and Aqua missions",
+        "author": "Xiong, X.",
+        "year": "2015",
+        "unstructured": "Xiong, X., and Coauthors, 2015: Moderate resolution imaging spectroradiometer on Terra and Aqua missions. Optical Payloads for Space Missions, S.-E. Qian, Ed., \nWiley, 53\u201389, https://doi.org/10.1002/9781118945179.ch3."
+      },
+      {
+        "key": "bib97",
+        "series-title": "J. Arid Land",
+        "first-page": "285",
+        "article-title": "Uncertainties of snow cover extraction caused by the nature of topography and underlying surface",
+        "volume": "7",
+        "author": "Zhao, J.",
+        "year": "2015",
+        "unstructured": "Zhao, J., Y. Shi, Y. Huang, and J. Fu, 2015: \nUncertainties of snow cover extraction caused by the nature of topography and underlying surface. J. Arid Land, 7, 285\u2013295, https://doi.org/10.1007/s40333-015-0044-x."
+      },
+      {
+        "key": "bib98",
+        "series-title": "IEEE Signal Process. Mag.",
+        "first-page": "10",
+        "article-title": "Bootstrap methods and applications",
+        "volume": "24",
+        "author": "Zoubir, A. M.",
+        "year": "2007",
+        "unstructured": "Zoubir, A. M., and D. R. Iskandler, 2007: \nBootstrap methods and applications. IEEE Signal Process. Mag., 24, 10\u201319, https://doi.org/10.1109/MSP.2007.4286560."
+      }
+    ],
+    "container-title": [
+      "Journal of Hydrometeorology"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://journals.ametsoc.org/view/journals/hydr/27/2/JHM-D-25-0101.1.xml",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.ametsoc.org/downloadpdf/journals/hydr/27/2/JHM-D-25-0101.1.xml",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://journals.ametsoc.org/downloadpdf/journals/hydr/27/2/JHM-D-25-0101.1.xml",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          31
+        ]
+      ],
+      "date-time": "2026-03-31T02:32:42Z",
+      "timestamp": 1774924362000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://journals.ametsoc.org/view/journals/hydr/27/2/JHM-D-25-0101.1.xml"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "references-count": 196,
+    "journal-issue": {
+      "issue": "2"
+    },
+    "URL": "https://doi.org/10.1175/jhm-d-25-0101.1",
+    "relation": {},
+    "ISSN": [
+      "1525-755X",
+      "1525-7541"
+    ],
+    "issn-type": [
+      {
+        "value": "1525-755X",
+        "type": "print"
+      },
+      {
+        "value": "1525-7541",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    }
+  },
+  "queried_url": "https://api.crossref.org/works/10.1175/JHM-D-25-0101.1",
+  "original_doi": "10.1175/JHM-D-25-0101.1"
+}

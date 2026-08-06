@@ -1,0 +1,861 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          20
+        ]
+      ],
+      "date-time": "2026-07-20T04:01:42Z",
+      "timestamp": 1784520102866,
+      "version": "3.55.0"
+    },
+    "reference-count": 78,
+    "publisher": "Geological Society of London",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2026-02-01T00:00:00Z",
+          "timestamp": 1769904000000
+        },
+        "content-version": "am",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Southern Ute Indian Tribe"
+      },
+      {
+        "DOI": "10.13039/100000139",
+        "name": "U.S. Environmental Protection Agency",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000139",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100024592",
+        "name": "New Mexico Environment Department",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100024592",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.lyellcollection.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "GEEA"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "abstract": "<jats:p>\n                    The Florida River in southwestern Colorado, USA, flows through the Southern Ute Reservation and is a cultural and water resource to Tribal and non-Tribal communities. High concentrations of total Al, up to 16\u2009400\u2005\u00b5g\u2005l\n                    <jats:sup>\u20131</jats:sup>\n                    , have been detected in the Florida River. Elevated Al concentrations in water may affect aquatic organisms\u2019 ability to regulate ions and inhibit respiratory functions. Water chemistry collected during three sampling events in 2022 from the Florida River and two of its tributaries are used here to better understand the spatial distribution, seasonality, and sources of Al concentrations in the Florida River. Streambed sediment and rock chemistry is also used to infer geologic sources of Al in the watershed. A five-stage sequential extraction was performed on streambed sediment and rock samples to help determine Al transport processes. We assessed relations between major and trace elements in water using a principal component analysis, finding that high Al concentrations in the Florida River (&gt;3500\u2005\u00b5g\u2005l\n                    <jats:sup>\u20131</jats:sup>\n                    total Al) are caused by the erosion of Al-laden sediments. We used a stepwise multiple linear regression to investigate the relationship between land use and Al concentrations. Land use did not reliably predict Al concentration, though increased streamflow connected to reservoir releases \u2013 particularly in the Salt Creek tributary \u2013 were found to contribute Al to the Florida River during the irrigation season. In this study, we demonstrate that successful metal source appropriation may be achieved through limited field sampling when performed with sufficient water chemistry analysis, sequential chemical extraction of stream sediments, and statistical and land-use analysis.\n                  </jats:p>",
+    "DOI": "10.1144/geochem2025-007",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          18
+        ]
+      ],
+      "date-time": "2025-12-18T13:21:08Z",
+      "timestamp": 1766064068000
+    },
+    "update-policy": "https://doi.org/10.1144/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Using sediment chemical fractions and multivariate statistics on water to identify sources, mobility, and bioavailability of aluminum in the Florida River near Durango, Colorado"
+    ],
+    "prefix": "10.1144",
+    "volume": "26",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3945-6393",
+        "authenticated-orcid": true,
+        "given": "Erin L.",
+        "family": "Gray",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey",
+            "place": [
+              "Albuquerque, USA"
+            ]
+          },
+          {
+            "name": "New Mexico Water Science Center",
+            "place": [
+              "Albuquerque, USA"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2994-3355",
+        "authenticated-orcid": false,
+        "given": "Zachary M.",
+        "family": "Shephard",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey",
+            "place": [
+              "Albuquerque, USA"
+            ]
+          },
+          {
+            "name": "New Mexico Water Science Center",
+            "place": [
+              "Albuquerque, USA"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0846-6430",
+        "authenticated-orcid": false,
+        "given": "Justin R.",
+        "family": "Nichols",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey",
+            "place": [
+              "Albuquerque, USA"
+            ]
+          },
+          {
+            "name": "New Mexico Water Science Center",
+            "place": [
+              "Albuquerque, USA"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0003-6229-7954",
+        "authenticated-orcid": false,
+        "given": "Jillian",
+        "family": "Kugle",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Environmental Programs Department",
+            "place": [
+              "Ignacio, USA"
+            ]
+          },
+          {
+            "name": "Southern Ute Indian Tribe",
+            "place": [
+              "Ignacio, USA"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0001-4808-1634",
+        "authenticated-orcid": false,
+        "given": "James",
+        "family": "Evangelisti",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Environmental Programs Department",
+            "place": [
+              "Ignacio, USA"
+            ]
+          },
+          {
+            "name": "Southern Ute Indian Tribe",
+            "place": [
+              "Ignacio, USA"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0004-7043-8910",
+        "authenticated-orcid": false,
+        "given": "Taryn",
+        "family": "Chaya",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Soil, Water, and Ecosystem Sciences",
+            "place": [
+              "Gainesville, USA"
+            ]
+          },
+          {
+            "name": "University of Florida",
+            "place": [
+              "Gainesville, USA"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9478-7558",
+        "authenticated-orcid": false,
+        "given": "Benjamin S.",
+        "family": "Linhoff",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey",
+            "place": [
+              "Santa Fe, USA"
+            ]
+          },
+          {
+            "name": "Water Resources Mission Area",
+            "place": [
+              "Santa Fe, USA"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1881",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          23
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_3_7_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/pp1625B"
+      },
+      {
+        "key": "e_1_3_7_3_1",
+        "volume-title": "Toxicological Profile for Aluminum",
+        "author": "Agency for Toxic Substances and Disease Registry",
+        "year": "2008",
+        "unstructured": "Agency for Toxic Substances and Disease Registry 2008. Toxicological Profile for Aluminum, https://www.ncbi.nlm.nih.gov/books/NBK597308/ [last accessed 27 August 2024]."
+      },
+      {
+        "key": "e_1_3_7_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.est.6b00428"
+      },
+      {
+        "key": "e_1_3_7_5_1",
+        "first-page": "1163",
+        "volume-title": "Standard Methods for the Examination of Water and Wastewater",
+        "author": "American Public Health Association and American Water Works Association",
+        "year": "2018",
+        "unstructured": "American Public Health Association and American Water Works Association 2018a. 9223 enzyme substrate coliform test. In: Lipps, W.C., Baxter T.E., and Braun-Howland, E. (eds) Standard Methods for the Examination of Water and Wastewater. 23rd edn. American Public Health Association, Washington, D.C., 1163\u20131167, https://www.standardmethods.org/doi/abs/10.2105/SMWW.2882.194 [last accessed 20 January 2026].",
+        "edition": "23"
+      },
+      {
+        "key": "e_1_3_7_6_1",
+        "first-page": "549",
+        "volume-title": "Standard Methods for the Examination of Water and Wastewater",
+        "author": "American Public Health Association and American Water Works Association",
+        "year": "2018",
+        "unstructured": "American Public Health Association and American Water Works Association 2018b. 5310 total organic carbon. In: Lipps, W.C., Baxter T.E., and Braun-Howland, E. (eds) Standard Methods for the Examination of Water and Wastewater. 23rd edn. American Public Health Association, Washington, D.C., 549\u2013561, https://www-standardmethods-org.usgslibrary.idm.oclc.org/doi/10.2105/SMWW.2882.104 [last accessed 20 January 2026].",
+        "edition": "23"
+      },
+      {
+        "key": "e_1_3_7_7_1",
+        "first-page": "309",
+        "volume-title": "Standard Methods for the Examination of Water and Wastewater",
+        "author": "American Public Health Association and American Water Works Association",
+        "year": "2018",
+        "unstructured": "American Public Health Association and American Water Works Association 2018c. 4110 determination of anions by ion chromatography. In: Lipps, W.C., Baxter T.E., and Braun-Howland, E. (eds) Standard Methods for the Examination of Water and Wastewater. 23rd edn. American Public Health Association, Washington, D.C., 309\u2013316, https://www-standardmethods-org.usgslibrary.idm.oclc.org/doi/10.2105/SMWW.2882.070 [last accessed 20 January 2026].",
+        "edition": "23"
+      },
+      {
+        "key": "e_1_3_7_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/C3AY41907J"
+      },
+      {
+        "key": "e_1_3_7_9_1",
+        "volume-title": "Projects & facilities: Lemon Dam",
+        "author": "Bureau of Reclamation",
+        "year": "2024",
+        "unstructured": "Bureau of Reclamation 2024. Projects & facilities: Lemon Dam, https://www.usbr.gov/projects/index.php?id=163 [last accessed 27 September 2024]."
+      },
+      {
+        "key": "e_1_3_7_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1004930710902"
+      },
+      {
+        "key": "e_1_3_7_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0016-7037(97)00172-5"
+      },
+      {
+        "key": "e_1_3_7_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecoenv.2018.08.009"
+      },
+      {
+        "key": "e_1_3_7_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/etc.3901"
+      },
+      {
+        "key": "e_1_3_7_14_1",
+        "volume-title": "\u2018Ecoregions of Colorado\u2019, 1:1,200,000",
+        "author": "Chapman S.S.",
+        "year": "2006",
+        "unstructured": "Chapman, S.S., Griffith, G.E., Omernik, J.M., Price, A.B., Freeouf, J. and Schrupp, D.L. 2006. \u2018Ecoregions of Colorado\u2019, 1:1,200,000, https://dmap-prod-oms-edc.s3.us-east-1.amazonaws.com/ORD/Ecoregions/co/co_front.pdf [last accessed 12 June 2024]."
+      },
+      {
+        "key": "e_1_3_7_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1130/2007.4017(04)"
+      },
+      {
+        "key": "e_1_3_7_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/b18347"
+      },
+      {
+        "key": "e_1_3_7_17_1",
+        "unstructured": "Colorado Oil and Gas Conservation Commission 2024. Colorado Oil and Gas Information System \u2013 Oil and gas location data (updated daily) https://cogcc.state.co.us/documents/data/downloads/gis/OIL_AND_GAS_LOCATIONS_SHP.ZIP [last accessed 22 September 2023]."
+      },
+      {
+        "key": "e_1_3_7_18_1",
+        "unstructured": "[Colorado] Water Quality Control Commission 2023. The basic standards and methodologies for surface water. regulation no. 31 of Code of Colorado Regulations 5 CCR 1002-31 https://www.coloradosos.gov/CCR/NumericalCCRDocList.do?deptID=16&agencyID=132 [last accessed 19 August 2024]."
+      },
+      {
+        "key": "e_1_3_7_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR023i005p00859"
+      },
+      {
+        "key": "e_1_3_7_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/b843"
+      },
+      {
+        "key": "e_1_3_7_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/etc.3922"
+      },
+      {
+        "key": "e_1_3_7_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5066/P9JZ7AO3"
+      },
+      {
+        "key": "e_1_3_7_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF01734046"
+      },
+      {
+        "key": "e_1_3_7_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s13157-019-01258-4"
+      },
+      {
+        "key": "e_1_3_7_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1130/DNAG-GNA-P2.357"
+      },
+      {
+        "key": "e_1_3_7_26_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fishman M.J. 1993. Methods of Analysis by the U.S. Geological Survey National Water Quality Laboratory \u2013 Determination of Inorganic and Organic Constituents in Water and Fluvial Sediments. U.S. Geological Survey Open-File Report 93-125 doi: 10.3133/ofr9312510.3133/ofr93125",
+        "DOI": "10.3133/ofr93125"
+      },
+      {
+        "key": "e_1_3_7_27_1",
+        "volume-title": "Florida Ditch Company \u2013 About",
+        "author": "Florida Consolidated Ditch Company",
+        "year": "2024",
+        "unstructured": "Florida Consolidated Ditch Company 2024. Florida Ditch Company \u2013 About, https://floridaditch.com/about/ [last accessed 20 August 2024]."
+      },
+      {
+        "key": "e_1_3_7_28_1",
+        "unstructured": "Forest Service 2024. Your watersheds https://www.fs.usda.gov/detail/sanjuan/landmanagement/resourcemanagement/?cid=fseprd637932 [last accessed 27 September 2024]."
+      },
+      {
+        "key": "e_1_3_7_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00022470.1978.10470594"
+      },
+      {
+        "key": "e_1_3_7_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/10643389991259245"
+      },
+      {
+        "key": "e_1_3_7_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/etc.3920"
+      },
+      {
+        "key": "e_1_3_7_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0165-9936(02)00603-9"
+      },
+      {
+        "key": "e_1_3_7_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5066/P94HCVQF"
+      },
+      {
+        "key": "e_1_3_7_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chemgeo.2019.119294"
+      },
+      {
+        "key": "e_1_3_7_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/9780203738535"
+      },
+      {
+        "key": "e_1_3_7_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2136/sssaj1964.03615995002800040020x"
+      },
+      {
+        "key": "e_1_3_7_37_1",
+        "unstructured": "Hjulstr\u00f6m F. 1935. Studies of the Morphological Activity of Rivers as Illustrated by the River Fyris. PhD thesis Uppsala University https://paleoarchive.com/literature/Hjulstrom1935-MorphologicalActivityRiversRiverFyris.pdf [last accessed 27 September 2024]."
+      },
+      {
+        "key": "e_1_3_7_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/wsp2277"
+      },
+      {
+        "key": "e_1_3_7_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsta.2015.0202"
+      },
+      {
+        "key": "e_1_3_7_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ecoenv.2007.09.004"
+      },
+      {
+        "key": "e_1_3_7_41_1",
+        "unstructured": "Leib K.J. Mast M.A. and Wright W.G. 2003. Using Water-Quality Profiles to Characterize Seasonal Water Quality and Loading in the Upper Animas River Basin Southwestern Colorado. U.S. Geological Survey Water-Resources Investigations Report 2002-4230 doi: 10.3133/wri02423010.3133/wri024230"
+      },
+      {
+        "key": "e_1_3_7_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-0-444-63787-1.00003-2"
+      },
+      {
+        "key": "e_1_3_7_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/9781119413332.ch9"
+      },
+      {
+        "key": "e_1_3_7_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/j.1551-8833.1988.tb03020.x"
+      },
+      {
+        "key": "e_1_3_7_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.apgeochem.2013.07.002"
+      },
+      {
+        "key": "e_1_3_7_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023WR036062"
+      },
+      {
+        "key": "e_1_3_7_47_1",
+        "first-page": "111",
+        "volume-title": "More People, More Food, Worse Water? A Global Review of Water Pollution from Agriculture",
+        "author": "Mateo-Sagasta J.",
+        "year": "2018",
+        "unstructured": "Mateo-Sagasta, J. and Albers, J. 2018. Sediment. In: Mateo-Sagasta, J., Zadeh, S.M. and Turral, H. (eds) More People, More Food, Worse Water? A Global Review of Water Pollution from Agriculture. The Food and Agriculture Organization of the United Nations and the International Water Management Institute, Rome, Italy, 111\u2013123."
+      },
+      {
+        "key": "e_1_3_7_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0016-7037(79)90224-2"
+      },
+      {
+        "key": "e_1_3_7_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0611508104"
+      },
+      {
+        "key": "e_1_3_7_50_1",
+        "volume-title": "Lower Animas River Watershed Based Plan",
+        "author": "Mountain Studies Institute",
+        "year": "2016",
+        "unstructured": "Mountain Studies Institute 2016. Lower Animas River Watershed Based Plan, https://www.env.nm.gov/wp-content/uploads/sites/25/2019/12/LowerAnimasWBP_Aug2016.pdf [last accessed 15 October 2024]."
+      },
+      {
+        "key": "e_1_3_7_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/twri09A7.1"
+      },
+      {
+        "key": "e_1_3_7_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5066/P9QRKUVJ"
+      },
+      {
+        "key": "e_1_3_7_53_1",
+        "unstructured": "New Mexico Environment Department 2023. Comprehensive Assessment and Listing Methodology (CALM): Procedures for Assessing Water Quality Standards Attainment for the State of New Mexico CWA \u00a7303(d)/\u00a7305(b) Integrated Report https://www.env.nm.gov/surface-water-quality/wp-content/uploads/sites/18/2023/08/2023-CALM_FINAL_all-appendices.pdf [last accessed 24 May 2024]."
+      },
+      {
+        "key": "e_1_3_7_54_1",
+        "unstructured": "[New Mexico] Water Quality Control Commission 2020. Standards for interstate and intrastate surface waters. part 4 of Water Quality chap. 6 of Environmental Protection title 20 in New Mexico Administrative Code https://www.srca.nm.gov/parts/title20/20.006.0004.html [last accessed 22 June 2022]."
+      },
+      {
+        "key": "e_1_3_7_55_1",
+        "unstructured": "Palecki M. Durre I. Applequist S. Arguez A. and Lawrimore J. 2021. U.S. Climate Normals 2020: U.S. Hourly Climate Normals (1991\u20132020) at Lemon Dam USC00054934 and Durango La Plata County Airport USW00093005 https://www.ncei.noaa.gov/access/search/data-search/normals-annualseasonal-1991-2020 [last accessed 21 August 2024]."
+      },
+      {
+        "key": "e_1_3_7_56_1",
+        "unstructured": "R Core Team 2024. R: a language and environment for statistical computing https://www.R-project.org [last accessed 20 June 2024]."
+      },
+      {
+        "key": "e_1_3_7_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/twri09A6.6"
+      },
+      {
+        "key": "e_1_3_7_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ieam.4177"
+      },
+      {
+        "key": "e_1_3_7_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/etc.4020"
+      },
+      {
+        "key": "e_1_3_7_60_1",
+        "volume-title": "Southern Ute Indian Tribe: History",
+        "author": "SUIT",
+        "year": "2024",
+        "unstructured": "SUIT 2024. Southern Ute Indian Tribe: History, https://www.southernute-nsn.gov/history/ [last accessed 5 September 2025]."
+      },
+      {
+        "key": "e_1_3_7_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-74206-4_29"
+      },
+      {
+        "key": "e_1_3_7_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ac50043a017"
+      },
+      {
+        "key": "e_1_3_7_63_1",
+        "volume-title": "Geologic Map of Colorado: Colorado Geological Survey, 1:500,000",
+        "author": "Tweto O.",
+        "year": "1979",
+        "unstructured": "Tweto, O. 1979. Geologic Map of Colorado: Colorado Geological Survey, 1:500,000, https://coloradogeologicalsurvey.org/publications/tweto-geologic-map-colorado-1979 [last accessed 9 July 2024]."
+      },
+      {
+        "key": "e_1_3_7_64_1",
+        "unstructured": "U.S. Army Corps of Engineers Sacramento District 1974. Lemon Reservoir Florida River Colorado: Report on Reservoir Regulation for Flood Control https://water.usace.army.mil/cda/documents/wc/3129/Lemon2002WCManual[R].pdf [last accessed 5 September 2025]."
+      },
+      {
+        "key": "e_1_3_7_65_1",
+        "unstructured": "U.S. Department of the Interior Bureau of Reclamation and Ten Tribes Partnership 2018. Colorado River Basin Ten Tribes Partnership Tribal water study: Study Report https://tentribespartnership.org/wp-content/uploads/2019/12/WaterStudy.pdf [last accessed 30 September 2025]."
+      },
+      {
+        "key": "e_1_3_7_66_1",
+        "unstructured": "U.S. EPA 1994a. Determination of metals and trace metals in water and wastes by inductively coupled plasma\u2013mass spectrometry. U.S. EPA method 200.8 rev. 5.4 https://www.epa.gov/esam/epa-method-2008-determination-trace-elements-waters-and-wastes-inductively-coupled-plasma-mass [last accessed 5 September 2025]."
+      },
+      {
+        "key": "e_1_3_7_67_1",
+        "unstructured": "U.S. EPA 1994b. Determination of metals and trace metals in water and wastes by inductively coupled plasma\u2013optical emission spectrometry. U.S. EPA method 200.7 rev. 4.4 https://www.epa.gov/esam/method-2007-determination-metals-and-trace-elements-water-and-wastes-inductively-coupled [last accessed 19 February 2024]."
+      },
+      {
+        "key": "e_1_3_7_68_1",
+        "unstructured": "U.S. EPA 1998. Method 6020A (SW-846): Inductively coupled plasma-mass spectrometry. U.S. EPA method 6020S rev. 1 https://19january2017snapshot.epa.gov/homeland-security-research/epa-method-6020a-sw-846-inductively-coupled-plasma-mass-spectrometry_.html [last accessed 30 September 2025]."
+      },
+      {
+        "key": "e_1_3_7_69_1",
+        "volume-title": "Final Aquatic Life Ambient Water Quality Criteria for Aluminum: 2018",
+        "author": "U.S. EPA",
+        "year": "2018",
+        "unstructured": "U.S. EPA 2018. Final Aquatic Life Ambient Water Quality Criteria for Aluminum: 2018. EPA-822-R-18-001, https://www.epa.gov/wqc/2018-final-aquatic-life-criteria-aluminum-freshwater [last accessed 3 November 2023]."
+      },
+      {
+        "key": "e_1_3_7_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/twri09A5"
+      },
+      {
+        "key": "e_1_3_7_71_1",
+        "unstructured": "USGS 2005. Mineral resources data system https://mrdata.usgs.gov/mrds/ [last accessed 1 May 2024]."
+      },
+      {
+        "key": "e_1_3_7_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3133/twri09A4"
+      },
+      {
+        "key": "e_1_3_7_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5066/F7P55KJN"
+      },
+      {
+        "key": "e_1_3_7_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023WR035044"
+      },
+      {
+        "key": "e_1_3_7_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1546-5098(11)31024-2"
+      },
+      {
+        "key": "e_1_3_7_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jenvman.2005.12.009"
+      },
+      {
+        "key": "e_1_3_7_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0883-2927(88)90094-7"
+      },
+      {
+        "key": "e_1_3_7_78_1",
+        "first-page": "183",
+        "volume-title": "Geology and Coal-Bed Methane Resources of the Northern San Juan Basin, Colorado and New Mexico",
+        "author": "Zimpfer G.L.",
+        "year": "1988",
+        "unstructured": "Zimpfer, G.L., Harmon, E.J. and Boyce, B.C. 1988. Disposal of production waters from oil and gas wells in the Northern San Juan Basin, Colorado. In: Fasset, J.E. (ed.) Geology and Coal-Bed Methane Resources of the Northern San Juan Basin, Colorado and New Mexico. Rocky Mountain Association of Geologists, Denver, Colorado, 183\u2013198."
+      },
+      {
+        "key": "e_1_3_7_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0048-9697(00)00740-3"
+      }
+    ],
+    "container-title": [
+      "Geochemistry: Exploration, Environment, Analysis"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.lyellcollection.org/doi/pdf/10.1144/geochem2025-007",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          20
+        ]
+      ],
+      "date-time": "2026-07-20T03:03:33Z",
+      "timestamp": 1784516613000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.lyellcollection.org/doi/10.1144/geochem2025-007"
+      },
+      "secondary": [
+        {
+          "URL": "https://pubs.geoscienceworld.org/geea/article/26/1/geochem2025-007/723660/using-sediment-chemical-fractions-and-multivariate",
+          "label": "geoscienceworld"
+        }
+      ]
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "references-count": 78,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            9
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            2
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1144/geochem2025-007"
+    ],
+    "URL": "https://doi.org/10.1144/geochem2025-007",
+    "relation": {},
+    "ISSN": [
+      "1467-7873",
+      "2041-4943"
+    ],
+    "issn-type": [
+      {
+        "value": "1467-7873",
+        "type": "print"
+      },
+      {
+        "value": "2041-4943",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2025-02-01",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-10-01",
+        "order": 1,
+        "name": "revised",
+        "label": "Revised",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-10-03",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2026-02-23",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "geochem2025-007"
+  },
+  "queried_url": "https://api.crossref.org/works/10.1144/geochem2025-007",
+  "original_doi": "10.1144/geochem2025-007"
+}

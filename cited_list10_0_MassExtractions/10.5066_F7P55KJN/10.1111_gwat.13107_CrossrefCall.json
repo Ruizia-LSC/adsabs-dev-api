@@ -1,0 +1,579 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          13
+        ]
+      ],
+      "date-time": "2026-03-13T15:34:42Z",
+      "timestamp": 1773416082961,
+      "version": "3.50.1"
+    },
+    "reference-count": 44,
+    "publisher": "Wiley",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              4,
+              26
+            ]
+          ],
+          "date-time": "2022-04-26T00:00:00Z",
+          "timestamp": 1650931200000
+        },
+        "content-version": "am",
+        "delay-in-days": 348,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#am"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              5,
+              13
+            ]
+          ],
+          "date-time": "2021-05-13T00:00:00Z",
+          "timestamp": 1620864000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000203",
+        "name": "U.S. Geological Survey",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000203",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "ngwa.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Groundwater"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          7
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>A numerical surface\u2010water/groundwater model was developed for the lower San Antonio River Basin to evaluate the responses of low base flows and groundwater levels within the basin under conditions of reduced recharge and increased groundwater withdrawals. Batch data assimilation through history matching used a simulation of historical conditions (2006\u20102013); this process included history\u2010matching to groundwater levels and base\u2010flow estimates at several gages, and was completed in a high\u2010dimensional (highly parameterized) framework. The model was developed in an uncertainty framework such that parameters, observations, and scenarios of interest are envisioned stochastically as distributions of potential values. Results indicate that groundwater contributions to surface water during periods of low flow may be reduced from 6% to 25% with a corresponding 25% reduction in recharge and a 25% increase in groundwater pumping over an 8\u2010year planning period. Furthermore, results indicate groundwater\u2010level reductions in some hydrostratigraphic units are more likely than in other hydrostratigraphic units over an 8\u2010year period under drought conditions with the higher groundwater withdrawal scenario.</jats:p>",
+    "DOI": "10.1111/gwat.13107",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          26
+        ]
+      ],
+      "date-time": "2021-04-26T15:08:50Z",
+      "timestamp": 1619449730000
+    },
+    "page": "581-596",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 13,
+    "title": [
+      "Risk\u2010Based Decision\u2010Support Groundwater Modeling for the Lower San Antonio River Basin, Texas,\n                    <scp>USA</scp>"
+    ],
+    "prefix": "10.1111",
+    "volume": "59",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7373-7017",
+        "authenticated-orcid": false,
+        "given": "Linzy K.",
+        "family": "Foster",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4950-1469",
+        "authenticated-orcid": false,
+        "given": "Jeremy T.",
+        "family": "White",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Oklahoma\u2010Texas Water Science Center, U.S. Geological Survey, 1505 Ferguson Lane  Austin TX 78754 USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8784-4924",
+        "authenticated-orcid": false,
+        "given": "Andrew T.",
+        "family": "Leaf",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Intera Inc.  Austin TX USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6071-4545",
+        "authenticated-orcid": false,
+        "given": "Natalie A.",
+        "family": "Houston",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Geological Survey  Middleton MI USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3239-1459",
+        "authenticated-orcid": false,
+        "given": "Aarin",
+        "family": "Teague",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "San Antonio River Authority  San Antonio TX USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          13
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "first-page": "564",
+        "volume-title": "Applied Groundwater Modeling: Simulation of Flow and Advective Transport",
+        "author": "Anderson M.P.",
+        "year": "2015"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "unstructured": "Ashworth J.B.andJ.Hopkins.1995.Aquifers of Texas Texas Water Development Board Report 345 69 p https://www.twdb.texas.gov/publications/reports/numbered_reports/doc/r345/r345complete.pdf."
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "unstructured": "Baker Jr. E.T.1979.Stratigraphic and hydrogeologic framework of part of the coastal plain of Texas: Texas Department of Water Resources Report 236 43 p."
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Banta J.R.andD.J.Ockerman.2014.Simulation of hydrologic conditions and suspended\u2010sediment loads in the San Antonio River Basin downstream from San Antonio Texas 2000\u201012: U.S. Geological Survey Scientific Investigations Report 2014\u20105182 46 p http://doi.org/10.3133/sir20145182.",
+        "DOI": "10.3133/sir20145182"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Barlow P.M.andS.A.Leake.2012.Streamflow depletion by wells\u2014Understanding and managing the effects of groundwater pumping on streamflow U.S. Geological Survey Circular 1376 84 p. https://doi.org/10.3133/cir1376.",
+        "DOI": "10.3133/cir1376"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Barlow P.M. Cunningham W.L. Zhai T. andM.Gray.2015.U.S. Geological Survey Groundwater Toolbox a graphical and mapping interface for analysis of hydrologic data (version 1.0): User guide for estimation of base flow runoff and groundwater recharge from streamflow data: U.S. Geological Survey Techniques and Methods 3\u2010B10 27p. https://doi.org/10.3133/tm3b10.",
+        "DOI": "10.3133/tm3B10"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0266-5611/25/1/015015"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "unstructured": "Chowdhury A.H. Wade S. Mace R.E. andC.Ridgeway.2004.Groundwater availability model of the central Gulf Coast aquifer system: Numerical simulations through 1999 Texas Water Development Board 114 p. https://www.twdb.texas.gov/groundwater/models/gam/glfc_c/twdb_recalibration_report.pdf."
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Clark B.R.andR.M.Hart.2009.The Mississippi Embayment Regional Aquifer Study (MERAS): Documentation of a groundwater\u2010flow model constructed to assess water availability in the Mississippi Embayment: U.S. Geological Survey Scientific Investigations Report 2009\u20105172 61p.",
+        "DOI": "10.3133/sir20095172"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "unstructured": "Deeds N.E. Yan T. Singh A. Jones T. Kelley V. Knox P. andS.Young.2010.Final report groundwater availability model for the Yegua\u2010Jackson Aquifer Texas Water Development Board 582p. http://www.twdb.texas.gov/groundwater/models/gam/ygjk/ygjk_model_report.pdf."
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "first-page": "366",
+        "volume-title": "Pest and its Utility Support Software, Theory",
+        "author": "Doherty J.E.",
+        "year": "2015"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gwat.12969"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2009WR008377"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Doherty J.E. Fienen M.N. andM.J.Tonkin.2010a.Approaches to highly parameterized inversion: Pilot\u2010point theory guidelines and research directions U.S. Geological Survey Scientific Investigations Report 2010\u20105168 https://doi.org/10.3133/sir20105168.",
+        "DOI": "10.3133/sir20105168"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Doherty J.E. Hunt R.J. andM.J.Tonkin.2010b.Approaches to highly parameterized inversion: A guide to using pest for model\u2010parameter and predictive\u2010uncertainty analysis U.S. Geological Survey Scientific Investigations Report 2010\u20105211 71 p. http://pubs.usgs.gov/sir/2010/5211.",
+        "DOI": "10.3133/sir20105211"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "unstructured": "Dutton A.R.2004.Pumping metadata associated with conceptualization and simulation of the Edwards aquifer San Antonio Texas.Technical report Bureau of Economic Geology."
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "volume-title": "Groundwater availability model for the central part of the Carrizo\u2010Wilcox aquifer in Texas",
+        "author": "Dutton A.R.",
+        "year": "2003"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Foster L.K.2020.MODFLOW\u2010NWT model for risk\u2010based decision\u2010support groundwater modeling for the lower San Antonio River Basin Texas USA U.S. Geological Survey Data Release https://doi.org/10.5066/p9051rut.",
+        "DOI": "10.1111/gwat.13107"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "unstructured": "Ground Water Protection Council and Interstate Oil and Gas Compact Commission (IOGCC).2017.FracFocus Chemical Disclosure Registry v 2.0.https://fracfocus.org/."
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "unstructured": "Kelley V. N.Deeds D.Fryar andJ.Nicot.2004.Groundwater availability models for the Queen City and Sparta aquifers: Contract report to the Texas Water Development Board 867."
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advwatres.2019.04.010"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liz\u00e1rraga J.S.andD.J.Ockerman.2010.Simulation of streamflow evapotranspiration and groundwater recharge in the lower San Antonio River watershed south\u2010central Texas 2000\u20102007: U.S. Geological Survey Scientific Investigations Report 2010\u20105027 41 p. https://doi.org/10.3133/sir20105027.",
+        "DOI": "10.3133/sir20105027"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liz\u00e1rraga J.S.andL.L.Wehmeyer.2012.Estimation of streamflow gains and losses in the lower San Antonio River watershed south\u2010central Texas 2006\u201010: U.S. Geological Survey Scientific Investigations Report 2012\u20105073 34 p. https://doi.org/10.3133/sir20125073.",
+        "DOI": "10.3133/sir20125073"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "unstructured": "Mace R. Davidson S. Angle E. andW.Mullican.2006.Aquifers of the Gulf Coast of Texas Texas Water Development Board Report 365 312 p."
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Maupin M.A. Kenny J.F. Hutson S.S. Lovelace J.K. Barber N.L. andK.S.Linsey.2014.Estimated use of water in the United States in 2010 U.S. Geological Survey Circular 1405 56 p. https://doi.org/10.3133/cir1405.",
+        "DOI": "10.3133/sir1405"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "volume-title": "NHDPlus Version 2: User guide",
+        "author": "McKay L.",
+        "year": "2012"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "volume-title": "Geophysical Data Analysis: Discrete Inverse Theory",
+        "author": "Menke W.",
+        "year": "1989"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Niswonger R.andD.Prudic.2005.Documentation of the Streamflow\u2010Routing (SFR2) Package to include unsaturated flow beneath streams\u2014A modification to SFR1 U.S. Geological Survey Techniques and Methods 6\u2010A13 50p. https://doi.org/10.3133/tm6a13.",
+        "DOI": "10.3133/tm6A13"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Niswonger R. Panday S. andM.Ibaraki.2011.MODFLOW\u2010NWT A Newton formulation for MODFLOW\u20102005 U.S. Geological Survey Techniques and Methods 6\u2010A37 44p. https://doi.org/10.3133/tm6a37.",
+        "DOI": "10.3133/tm6A37"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511535642"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "unstructured": "Railroad Commission of Texas.2019.Texas Eagle Ford shale drilling permits issued 2008 through November 2019 https://www.rrc.state.tx.us/media/55433/eagle\u2010ford\u2010drilling\u2010permits\u2010nov\u20102019.pdf."
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752-1688.12546"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "unstructured": "Ryder P.1996.Ground Water Atlas of the United States: Oklahoma Texas U.S. Geological Survey Hydrologic Atlas 730\u2010E 32 p.https://doi.org/10.3133/ha730e(accessed December 15 2020)"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "unstructured": "South Central Texas Regional Water Planning Group.2015.2016 South Central Texas Regional Water Plan\u2014Volume 1: Executive Summary and Regional Water Plan. Technical report."
+      },
+      {
+        "key": "e_1_2_8_36_1",
+        "unstructured": "Texas Water Development Board.2018a.Groundwater database reports.http://www.twdb.texas.gov/groundwater/data/gwdbrpt.asp."
+      },
+      {
+        "key": "e_1_2_8_37_1",
+        "unstructured": "Texas Water Development Board.2018b.Historical water use estimates.http://www.twdb.texas.gov/waterplanning/waterusesurvey/estimates/index.asp."
+      },
+      {
+        "key": "e_1_2_8_38_1",
+        "volume-title": "Solutions of Ill\u2010Posed Problems",
+        "author": "Tikhonov A.N.",
+        "year": "1977"
+      },
+      {
+        "key": "e_1_2_8_39_1",
+        "unstructured": "U.S. Geological Survey.2019.National Water Information System data available on the World Wide Web (UGSS Water Data for the Nation).http://doi.org/10.5066/f7p55kjn(accessed October 20 2019)."
+      },
+      {
+        "issue": "6",
+        "key": "e_1_2_8_40_1",
+        "first-page": "16",
+        "article-title": "Determining the flow of Comal Springs at New Braunfels, Texas",
+        "volume": "95",
+        "author": "Wahl K.L.",
+        "year": "1995",
+        "journal-title": "Proceedings of Texas Water"
+      },
+      {
+        "key": "e_1_2_8_41_1",
+        "unstructured": "Waterstone P.2003.Groundwater availability of the central Gulf Coast Aquifer\u2014Numerical simulations to 2050 Central Gulf Coast Texas Contract draft report subbmitted to Texas Water Development Board Austin Texas (variously paginated)."
+      },
+      {
+        "key": "e_1_2_8_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2013WR014767"
+      },
+      {
+        "key": "e_1_2_8_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2016.08.017"
+      },
+      {
+        "key": "e_1_2_8_44_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "White J.T. Hunt R.J. Fienen M.N. andJ.E.Doherty.2020.PEST++ version 5: a software suite for parameter estimation uncertainty analysis management optimization and sensitivity analysis U.S. Geological Survey Techniques and Methods 7C26 52p. https://doi.org/10.3133/tm7c26.",
+        "DOI": "10.3133/tm7C26"
+      },
+      {
+        "key": "e_1_2_8_45_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Winters K.E.2013.A historical perspective on precipitation drought severity and streamflow in Texas during 1951\u201056 and 2011 U.S. Geological Survey Scientific Investigations Report 2013\u20105113.https://doi.org/10.3133/sir20135113(accessed December 15 2020).",
+        "DOI": "10.3133/sir20135113"
+      }
+    ],
+    "container-title": [
+      "Groundwater"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/gwat.13107",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/gwat.13107",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://ngwa.onlinelibrary.wiley.com/doi/am-pdf/10.1111/gwat.13107",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://ngwa.onlinelibrary.wiley.com/doi/pdf/10.1111/gwat.13107",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          2
+        ]
+      ],
+      "date-time": "2025-11-02T10:59:07Z",
+      "timestamp": 1762081147000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ngwa.onlinelibrary.wiley.com/doi/10.1111/gwat.13107"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          13
+        ]
+      ]
+    },
+    "references-count": 44,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            7
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/gwat.13107"
+    ],
+    "URL": "https://doi.org/10.1111/gwat.13107",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0017-467X",
+      "1745-6584"
+    ],
+    "issn-type": [
+      {
+        "value": "0017-467X",
+        "type": "print"
+      },
+      {
+        "value": "1745-6584",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          13
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2020-05-01",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2021-04-22",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2021-05-13",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "queried_url": "https://api.crossref.org/works/10.1111/gwat.13107",
+  "original_doi": "10.1111/gwat.13107"
+}
