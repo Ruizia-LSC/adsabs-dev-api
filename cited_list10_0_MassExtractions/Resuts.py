@@ -21,12 +21,142 @@ Checks (per Crossref file):
 
 Output is written to
   cited_list10_0_MassExtractions/CrossCheckResults/
+
+GitHub API pagination
+---------------------
+When running against a GitHub repository via the API, directories with many
+files (300+) require paginated requests.  Set the environment variables
+  GITHUB_TOKEN  – a personal-access token (needed for private repos or higher
+                  rate limits; optional for public repos)
+  GITHUB_OWNER  – repository owner / organisation (e.g. "Ruizia-LSC")
+  GITHUB_REPO   – repository name (e.g. "adsabs-dev-api")
+  GITHUB_REF    – git ref to read from (branch / tag / SHA; default "main")
+and the script will fetch all JSON files via the GitHub Contents API with
+full pagination support instead of reading from the local filesystem.
 """
 
 import json
+import os
 import sys
+import urllib.request
+import urllib.error
 from pathlib import Path
 from typing import Any, Dict, List, Optional
+
+
+# ---------------------------------------------------------------------------
+# GitHub API helpers (pagination)
+# ---------------------------------------------------------------------------
+
+_GITHUB_API = "https://api.github.com"
+
+
+def _github_token() -> Optional[str]:
+    """Return the GitHub token from the environment, or None."""
+    return os.environ.get("GITHUB_TOKEN")
+
+
+def _github_request(url: str) -> Any:
+    """
+    Perform a single authenticated GET request to *url* and return the parsed
+    JSON body.  Raises ``urllib.error.URLError`` / ``urllib.error.HTTPError``
+    on failure.
+    """
+    req = urllib.request.Request(url)
+    req.add_header("Accept", "application/vnd.github+json")
+    req.add_header("X-GitHub-Api-Version", "2022-11-28")
+    token = _github_token()
+    if token:
+        req.add_header("Authorization", "Bearer " + token)
+    with urllib.request.urlopen(req) as resp:  # noqa: S310
+        return json.loads(resp.read().decode("utf-8"))
+
+
+def list_github_json_files(
+    owner: str,
+    repo: str,
+    path: str,
+    ref: str = "main",
+) -> List[str]:
+    """
+    Return the download URLs of all JSON files found at *path* in the given
+    GitHub repository, handling API pagination automatically.
+
+    The GitHub Contents API returns at most 1 000 entries per page when
+    accessed via the ``?per_page=100`` parameter (the actual cap is 1 000
+    items but using 100-item pages keeps the responses manageable).
+
+    Parameters
+    ----------
+    owner : str
+        Repository owner / organisation.
+    repo : str
+        Repository name.
+    path : str
+        Directory path inside the repository (e.g. "cited_list10_0_MassExtractions/10.5066_F7P55KJN").
+    ref : str
+        Git ref (branch, tag, or commit SHA) to read from.
+
+    Returns
+    -------
+    list of str
+        Sorted list of raw-content download URLs for every ``.json`` file in
+        the directory.
+    """
+    download_urls: List[str] = []
+    page = 1
+    per_page = 100  # GitHub max per page for Contents API
+
+    while True:
+        url = (
+            f"{_GITHUB_API}/repos/{owner}/{repo}/contents/{path}"
+            f"?ref={ref}&per_page={per_page}&page={page}"
+        )
+        try:
+            entries = _github_request(url)
+        except urllib.error.HTTPError as exc:
+            print(f"WARNING: GitHub API error for {url}: {exc}")
+            break
+        except urllib.error.URLError as exc:
+            print(f"WARNING: Network error for {url}: {exc}")
+            break
+
+        if not isinstance(entries, list):
+            # Might be a single-file response or an error dict
+            break
+
+        json_entries = [
+            e["download_url"]
+            for e in entries
+            if isinstance(e, dict)
+            and e.get("type") == "file"
+            and e.get("name", "").lower().endswith(".json")
+            and e.get("download_url")
+        ]
+        download_urls.extend(json_entries)
+
+        # Stop when the API returns an empty page or fewer entries than
+        # requested (last page).  We check *both* conditions so that a full
+        # page of non-JSON entries does not cause an infinite loop.
+        if not entries or len(entries) < per_page:
+            break
+        page += 1
+
+    return sorted(download_urls)
+
+
+def load_json_from_url(url: str) -> Optional[Any]:
+    """Download a JSON file from *url* and return the parsed content."""
+    try:
+        req = urllib.request.Request(url)
+        token = _github_token()
+        if token:
+            req.add_header("Authorization", "Bearer " + token)
+        with urllib.request.urlopen(req) as resp:  # noqa: S310
+            return json.loads(resp.read().decode("utf-8"))
+    except (urllib.error.URLError, json.JSONDecodeError, OSError) as exc:
+        print(f"WARNING: Could not fetch {url}: {exc}")
+        return None
 
 
 # ---------------------------------------------------------------------------
@@ -228,8 +358,12 @@ def process_datacite_file(
 
     previous_title_flag = check_previous_title(history)
     results: List[Dict[str, Any]] = []
+    total = len(crossref_files)
 
-    for cf_path in sorted(crossref_files):
+    for idx, cf_path in enumerate(sorted(crossref_files), start=1):
+        if idx % 100 == 0 or idx == total:
+            print(f"  Processing file {idx}/{total} …", flush=True)
+
         crossref_data = load_json(cf_path)
         if crossref_data is None:
             continue
@@ -269,6 +403,71 @@ def process_datacite_file(
     }
 
 
+def _process_via_urls(
+    datacite_path: Path,
+    download_urls: List[str],
+) -> Dict[str, Any]:
+    """
+    Like :func:`process_datacite_file` but loads Crossref data from remote
+    download URLs (GitHub raw content) instead of local ``Path`` objects.
+    """
+    datacite_data = load_json(datacite_path)
+    if datacite_data is None:
+        return {"error": f"Could not load {datacite_path.name}"}
+
+    canonical_doi: str = datacite_data.get("canonical_doi", "")
+    current: Dict[str, Any] = datacite_data.get("current", {})
+    history: List[Dict[str, Any]] = datacite_data.get("history", [])
+    current_titles: List[str] = current.get("titles", [])
+
+    previous_title_flag = check_previous_title(history)
+    results: List[Dict[str, Any]] = []
+    total = len(download_urls)
+
+    for idx, url in enumerate(download_urls, start=1):
+        if idx % 100 == 0 or idx == total:
+            print(f"  Processing file {idx}/{total} …", flush=True)
+
+        crossref_data = load_json_from_url(url)
+        if crossref_data is None:
+            continue
+
+        original_doi: str = (
+            crossref_data.get("original_doi", "")
+            if isinstance(crossref_data, dict)
+            else ""
+        )
+        if not original_doi:
+            # Derive from the last path segment of the URL
+            filename = url.rstrip("/").split("/")[-1]
+            stem = filename[: filename.rfind(".")] if "." in filename else filename
+            original_doi = stem.replace("_CrossrefCall", "").replace("_", "/")
+
+        doi_check = check_doi(crossref_data, canonical_doi)
+        title_check = check_title(crossref_data, current_titles)
+        container_found = check_container_found(
+            crossref_data,
+            canonical_doi,
+            current_titles,
+            doi_check["DOITest"],
+            title_check["TitleTest"],
+        )
+
+        results.append({
+            "Publication DOI": original_doi,
+            "DOITest": doi_check["DOITest"],
+            "TitleTest": title_check["TitleTest"],
+            "PreviousTitle": previous_title_flag,
+            "ContainerFound": container_found,
+        })
+
+    return {
+        "datasetDOI": canonical_doi,
+        "datasetTitle": current_titles,
+        "results": results,
+    }
+
+
 # ---------------------------------------------------------------------------
 # Entry point
 # ---------------------------------------------------------------------------
@@ -279,28 +478,79 @@ def main() -> None:
         print(f"ERROR: DataciteResult file not found:\n  {DATACITE_FILE}")
         return
 
-    if not CROSSREF_DIR.is_dir():
-        print(f"ERROR: Sibling Crossref folder not found:\n  {CROSSREF_DIR}")
-        return
-
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Collect all Crossref-call JSON files from the sibling folder
-    crossref_files: List[Path] = sorted(
-        p for p in CROSSREF_DIR.iterdir()
-        if p.is_file() and p.suffix.lower() == ".json"
-    )
-    if not crossref_files:
-        print(f"No Crossref files found in {CROSSREF_DIR}")
-        return
+    # ------------------------------------------------------------------
+    # Determine whether to use local filesystem or GitHub API
+    # ------------------------------------------------------------------
+    gh_owner = os.environ.get("GITHUB_OWNER", "").strip()
+    gh_repo = os.environ.get("GITHUB_REPO", "").strip()
+    gh_ref = os.environ.get("GITHUB_REF", "main").strip()
 
-    print(
-        f"DataciteResult : {DATACITE_FILE.name}\n"
-        f"Crossref folder: {CROSSREF_DIR.name}/  ({len(crossref_files)} file(s))\n"
-    )
+    use_github_api = bool(gh_owner and gh_repo)
 
-    # Process the single pair
-    output = process_datacite_file(DATACITE_FILE, crossref_files)
+    if use_github_api:
+        # Allow an explicit override via GITHUB_PATH env var.
+        gh_path_override = os.environ.get("GITHUB_PATH", "").strip()
+        if gh_path_override:
+            github_path = gh_path_override
+        else:
+            # Derive the repository-relative path from the local filesystem:
+            # resolve CROSSREF_DIR relative to the current working directory
+            # (assumed to be the repository root when running in CI).
+            try:
+                repo_relative = CROSSREF_DIR.resolve().relative_to(Path.cwd().resolve())
+                github_path = repo_relative.as_posix()
+            except ValueError:
+                print(
+                    "ERROR: Cannot determine the repository-relative path for the "
+                    "Crossref folder.\n"
+                    "  Set the GITHUB_PATH environment variable to the path of the "
+                    "Crossref folder inside the repository.\n"
+                    f"  Example: export GITHUB_PATH=\"cited_list10_0_MassExtractions/{CROSSREF_DIR.name}\""
+                )
+                return
+
+        print(
+            f"Mode           : GitHub API  (owner={gh_owner} repo={gh_repo} ref={gh_ref})\n"
+            f"DataciteResult : {DATACITE_FILE.name}\n"
+            f"Crossref path  : {github_path}  (fetching file list…)"
+        )
+
+        download_urls = list_github_json_files(gh_owner, gh_repo, github_path, gh_ref)
+
+        if not download_urls:
+            print(f"No Crossref JSON files found via GitHub API at: {github_path}")
+            return
+
+        total_files = len(download_urls)
+        print(f"Crossref files : {total_files} file(s) found\n")
+
+        # Process using URL-based loading
+        output = _process_via_urls(DATACITE_FILE, download_urls)
+
+    else:
+        # Local filesystem mode
+        if not CROSSREF_DIR.is_dir():
+            print(f"ERROR: Sibling Crossref folder not found:\n  {CROSSREF_DIR}")
+            return
+
+        crossref_files: List[Path] = sorted(
+            p for p in CROSSREF_DIR.iterdir()
+            if p.is_file() and p.suffix.lower() == ".json"
+        )
+        if not crossref_files:
+            print(f"No Crossref JSON files found in {CROSSREF_DIR}")
+            return
+
+        total_files = len(crossref_files)
+        print(
+            f"Mode           : local filesystem\n"
+            f"DataciteResult : {DATACITE_FILE.name}\n"
+            f"Crossref folder: {CROSSREF_DIR.name}/  ({total_files} file(s))\n"
+        )
+
+        output = process_datacite_file(DATACITE_FILE, crossref_files)
 
     # Name the output after the DataciteResult stem
     # e.g. "10.7927_NQ55-CR83_DataciteResult" -> "10.7927_NQ55-CR83_CrossCheckResult.json"
