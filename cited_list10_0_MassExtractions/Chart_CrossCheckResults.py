@@ -259,14 +259,17 @@ def draw_centered_text(
     color: Color = BLACK,
     scale: int = 2,
 ) -> None:
-    text_width = 0
-    for index, raw_char in enumerate(text):
-        glyph_width = len(FONT.get(raw_char.upper(), FONT[" "])[0]) * scale
-        text_width += glyph_width
-        if index < len(text) - 1:
-            text_width += scale
+    text_width = measure_text(text, scale=scale)
     start_x = x + max(0, (width - text_width) // 2)
     canvas.draw_text(start_x, y, text, color=color, scale=scale)
+
+
+def measure_text(text: str, scale: int = 2) -> int:
+    width = 0
+    for raw_char in text:
+        glyph_width = len(FONT.get(raw_char.upper(), FONT[" "])[0])
+        width += (glyph_width + 1) * scale
+    return max(0, width - scale) if text else 0
 
 
 def draw_legend(canvas: Canvas, x: int, y: int, items: Sequence[Tuple[str, Color]]) -> None:
@@ -275,7 +278,7 @@ def draw_legend(canvas: Canvas, x: int, y: int, items: Sequence[Tuple[str, Color
         canvas.fill_rect(cursor_x, y + 6, 18, 18, color)
         canvas.draw_rect_outline(cursor_x, y + 6, 18, 18, BLACK)
         canvas.draw_text(cursor_x + 28, y, label, BLACK, scale=2)
-        cursor_x += 28 + len(label) * 12 + 36
+        cursor_x += 28 + measure_text(label, scale=2) + 36
 
 
 def draw_grouped_test_chart(
