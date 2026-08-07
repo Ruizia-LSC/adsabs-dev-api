@@ -24,7 +24,7 @@ import struct
 import sys
 import zlib
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
+from typing import Any, Dict, List, Optional, Sequence, Tuple
 
 
 SCRIPT_DIR = Path(__file__).parent
@@ -205,7 +205,7 @@ def format_test_label(name: str) -> str:
     )
 
 
-def collect_test_names(results: Iterable[Dict[str, Any]]) -> List[str]:
+def collect_test_names(results: Sequence[Dict[str, Any]]) -> List[str]:
     preferred = ["DOITest", "TitleTest", "UnstructuredTest"]
     discovered = {
         key
@@ -259,7 +259,12 @@ def draw_centered_text(
     color: Color = BLACK,
     scale: int = 2,
 ) -> None:
-    text_width = 0 if not text else ((len(text) - 1) * 6 + 5) * scale
+    text_width = 0
+    for index, raw_char in enumerate(text):
+        glyph_width = len(FONT.get(raw_char.upper(), FONT[" "])[0]) * scale
+        text_width += glyph_width
+        if index < len(text) - 1:
+            text_width += scale
     start_x = x + max(0, (width - text_width) // 2)
     canvas.draw_text(start_x, y, text, color=color, scale=scale)
 
@@ -300,7 +305,7 @@ def draw_grouped_test_chart(
     for step in range(tick_count + 1):
         value = round(max_value * step / max(tick_count, 1))
         y_pos = plot_bottom - int(plot_height * step / max(tick_count, 1))
-        canvas.draw_line(plot_left - 4, y_pos, plot_right, y_pos, LIGHT_GRAY if step else BLACK)
+        canvas.draw_line(plot_left - 4, y_pos, plot_right, y_pos, LIGHT_GRAY if step != 0 else BLACK)
         canvas.draw_text(x + 8, y_pos - 7, str(value), BLACK, scale=2)
 
     group_count = max(1, len(test_counts))
@@ -349,7 +354,7 @@ def draw_single_bar_chart(
     for step in range(tick_count + 1):
         value = round(max_value * step / max(tick_count, 1))
         y_pos = plot_bottom - int(plot_height * step / max(tick_count, 1))
-        canvas.draw_line(plot_left - 4, y_pos, plot_right, y_pos, LIGHT_GRAY if step else BLACK)
+        canvas.draw_line(plot_left - 4, y_pos, plot_right, y_pos, LIGHT_GRAY if step != 0 else BLACK)
         canvas.draw_text(x + 8, y_pos - 7, str(value), BLACK, scale=2)
 
     bar_slot = plot_width // max(1, len(counts))
