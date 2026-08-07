@@ -225,12 +225,15 @@ def count_test_values(results: Sequence[Dict[str, Any]], test_name: str) -> Tupl
 
 
 def contains_unstructured(value: Any) -> bool:
-    if isinstance(value, dict):
-        if "unstructured" in value:
-            return True
-        return any(contains_unstructured(child) for child in value.values())
-    if isinstance(value, list):
-        return any(contains_unstructured(item) for item in value)
+    stack = [value]
+    while stack:
+        current = stack.pop()
+        if isinstance(current, dict):
+            if "unstructured" in current:
+                return True
+            stack.extend(current.values())
+        elif isinstance(current, list):
+            stack.extend(current)
     return False
 
 
@@ -303,6 +306,10 @@ def draw_grouped_test_chart(
     canvas.draw_line(plot_left, plot_top, plot_left, plot_bottom, BLACK)
     canvas.draw_line(plot_left, plot_bottom, plot_right, plot_bottom, BLACK)
 
+    if not test_counts:
+        draw_centered_text(canvas, plot_left, plot_top + (plot_height // 2) - 12, plot_width, "NO TEST DATA", scale=3)
+        return
+
     max_value = max([1] + [max(true_count, false_count) for _, true_count, false_count in test_counts])
     tick_count = min(5, max_value)
     for step in range(tick_count + 1):
@@ -340,7 +347,7 @@ def draw_single_bar_chart(
     counts: Sequence[Tuple[str, int, Color]],
 ) -> None:
     canvas.draw_rect_outline(x, y, width, height, LIGHT_GRAY)
-    draw_centered_text(canvas, x, y + 16, width, "CONTAINERFOUND UNSTRUCTURED", scale=3)
+    draw_centered_text(canvas, x, y + 16, width, "CONTAINER FOUND UNSTRUCTURED", scale=3)
 
     plot_left = x + 70
     plot_top = y + 80
