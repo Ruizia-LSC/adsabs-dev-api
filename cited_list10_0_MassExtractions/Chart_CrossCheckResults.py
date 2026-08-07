@@ -19,6 +19,7 @@ python Chart_CrossCheckResults.py /path/to/file_CrossCheckResult.json
 from __future__ import annotations
 
 import json
+import re
 import struct
 import sys
 import zlib
@@ -90,7 +91,7 @@ class Canvas:
     def __init__(self, width: int, height: int, background: Color = WHITE) -> None:
         self.width = width
         self.height = height
-        self.pixels = bytearray(background * width * height)
+        self.pixels = bytearray(bytes(background) * (width * height))
 
     def set_pixel(self, x: int, y: int, color: Color) -> None:
         if 0 <= x < self.width and 0 <= y < self.height:
@@ -197,17 +198,11 @@ def iter_crosscheck_files(path: Path) -> List[Path]:
 
 
 def format_test_label(name: str) -> str:
-    chunks: List[str] = []
-    current = ""
-    for char in name:
-        if current and char.isupper() and not current[-1].isupper():
-            chunks.append(current)
-            current = char
-        else:
-            current += char
-    if current:
-        chunks.append(current)
-    return " ".join(chunks)
+    return re.sub(
+        r"(?<=[a-z])(?=[A-Z])|(?<=[A-Z])(?=[A-Z][a-z])",
+        " ",
+        name,
+    )
 
 
 def collect_test_names(results: Iterable[Dict[str, Any]]) -> List[str]:
@@ -264,7 +259,7 @@ def draw_centered_text(
     color: Color = BLACK,
     scale: int = 2,
 ) -> None:
-    text_width = len(text) * 6 * scale
+    text_width = 0 if not text else ((len(text) - 1) * 6 + 5) * scale
     start_x = x + max(0, (width - text_width) // 2)
     canvas.draw_text(start_x, y, text, color=color, scale=scale)
 
