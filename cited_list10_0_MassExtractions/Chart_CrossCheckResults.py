@@ -198,6 +198,7 @@ def iter_crosscheck_files(path: Path) -> List[Path]:
 
 
 def format_test_label(name: str) -> str:
+    """Convert compact test names like ``DOITest`` into ``DOI Test``."""
     return re.sub(
         r"(?<=[a-z])(?=[A-Z])|(?<=[A-Z])(?=[A-Z][a-z])",
         " ",
@@ -284,6 +285,24 @@ def draw_legend(canvas: Canvas, x: int, y: int, items: Sequence[Tuple[str, Color
         cursor_x += 28 + measure_text(label, scale=2) + 36
 
 
+def draw_y_axis_ticks(
+    canvas: Canvas,
+    chart_x: int,
+    plot_left: int,
+    plot_top: int,
+    plot_right: int,
+    plot_bottom: int,
+    plot_height: int,
+    max_value: int,
+) -> None:
+    tick_count = min(5, max_value)
+    for step in range(tick_count + 1):
+        value = round(max_value * step / max(tick_count, 1))
+        y_pos = plot_bottom - int(plot_height * step / max(tick_count, 1))
+        canvas.draw_line(plot_left - 4, y_pos, plot_right, y_pos, LIGHT_GRAY if step != 0 else BLACK)
+        canvas.draw_text(chart_x + 8, y_pos - 7, str(value), BLACK, scale=2)
+
+
 def draw_grouped_test_chart(
     canvas: Canvas,
     x: int,
@@ -311,12 +330,9 @@ def draw_grouped_test_chart(
         return
 
     max_value = max([1] + [max(true_count, false_count) for _, true_count, false_count in test_counts])
-    tick_count = min(5, max_value)
-    for step in range(tick_count + 1):
-        value = round(max_value * step / max(tick_count, 1))
-        y_pos = plot_bottom - int(plot_height * step / max(tick_count, 1))
-        canvas.draw_line(plot_left - 4, y_pos, plot_right, y_pos, LIGHT_GRAY if step != 0 else BLACK)
-        canvas.draw_text(x + 8, y_pos - 7, str(value), BLACK, scale=2)
+    draw_y_axis_ticks(
+        canvas, x, plot_left, plot_top, plot_right, plot_bottom, plot_height, max_value
+    )
 
     group_count = max(1, len(test_counts))
     group_width = plot_width // group_count
@@ -360,12 +376,9 @@ def draw_single_bar_chart(
     canvas.draw_line(plot_left, plot_bottom, plot_right, plot_bottom, BLACK)
 
     max_value = max([1] + [count for _, count, _ in counts])
-    tick_count = min(5, max_value)
-    for step in range(tick_count + 1):
-        value = round(max_value * step / max(tick_count, 1))
-        y_pos = plot_bottom - int(plot_height * step / max(tick_count, 1))
-        canvas.draw_line(plot_left - 4, y_pos, plot_right, y_pos, LIGHT_GRAY if step != 0 else BLACK)
-        canvas.draw_text(x + 8, y_pos - 7, str(value), BLACK, scale=2)
+    draw_y_axis_ticks(
+        canvas, x, plot_left, plot_top, plot_right, plot_bottom, plot_height, max_value
+    )
 
     bar_slot = plot_width // max(1, len(counts))
     bar_width = max(40, min(100, bar_slot // 2))
