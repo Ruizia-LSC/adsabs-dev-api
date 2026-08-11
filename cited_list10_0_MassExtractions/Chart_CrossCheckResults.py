@@ -1,187 +1,41 @@
-"""
-Create one PNG summary chart per CrossCheckResult JSON file.
-
-The top chart counts True/False values for every boolean "*Test" field found in
-the JSON's "results" entries. The bottom chart classifies "ContainerFound"
-values as:
-  - TRUE  : an "unstructured" field was found inside the container
-  - FALSE : a non-null container exists but has no "unstructured" field
-  - NULL  : the container value is the literal "null" (or missing / None)
-
-Usage
------
-python Chart_CrossCheckResults.py
-python Chart_CrossCheckResults.py /path/to/CrossCheckResults
-python Chart_CrossCheckResults.py /path/to/CrossCheckResults /path/to/output_dir
-python Chart_CrossCheckResults.py /path/to/file_CrossCheckResult.json
-"""
-
 from __future__ import annotations
 
 import json
-import re
-import struct
+import logging
 import sys
-import zlib
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Sequence, Tuple
+from typing import Any, Dict, List, Tuple
+
+import matplotlib.pyplot as plt
 
 
-SCRIPT_DIR = Path(__file__).parent
-DEFAULT_INPUT = SCRIPT_DIR / "CrossCheckResults"
+SCRIPT_DIR = Path(__file__).resolve().parent
+DEFAULT_INPUT = SCRIPT_DIR / "CrossCheckResults(2)"
 DEFAULT_OUTPUT = SCRIPT_DIR / "CrossCheckResultsCharts"
+DEFAULT_CITED_LIST = SCRIPT_DIR.parent / "cited_list10_0.json"
 
-Color = Tuple[int, int, int]
+plt.rcParams["font.family"] = "serif"
+plt.rcParams["font.serif"] = ["Times New Roman", "Times", "Nimbus Roman", "DejaVu Serif"]
+logging.getLogger("matplotlib.font_manager").setLevel(logging.ERROR)
 
-WHITE: Color = (255, 255, 255)
-BLACK: Color = (0, 0, 0)
-BLUE: Color = (66, 133, 244)
-GREEN: Color = (52, 168, 83)
-RED: Color = (234, 67, 53)
-GRAY: Color = (120, 120, 120)
-LIGHT_GRAY: Color = (220, 220, 220)
+COMBO_LABELS = [
+    "DOITest=True\nTitleTest=True",
+    "DOITest=False\nTitleTest=False",
+    "DOITest=True\nTitleTest=False",
+    "DOITest=False\nTitleTest=True",
+]
+COMBO_KEYS = ["TT", "FF", "TF", "FT"]
+COMBO_COLORS = ["#1f77b4", "#ff7f0e", "#9467bd", "#17becf"]
 
-FONT: Dict[str, Sequence[str]] = {
-    " ": ("00000", "00000", "00000", "00000", "00000", "00000", "00000"),
-    "-": ("00000", "00000", "00000", "11111", "00000", "00000", "00000"),
-    ".": ("00000", "00000", "00000", "00000", "00000", "01100", "01100"),
-    ":": ("00000", "01100", "01100", "00000", "01100", "01100", "00000"),
-    "/": ("00001", "00010", "00100", "01000", "10000", "00000", "00000"),
-    "_": ("00000", "00000", "00000", "00000", "00000", "00000", "11111"),
-    "0": ("01110", "10001", "10011", "10101", "11001", "10001", "01110"),
-    "1": ("00100", "01100", "00100", "00100", "00100", "00100", "01110"),
-    "2": ("01110", "10001", "00001", "00010", "00100", "01000", "11111"),
-    "3": ("11110", "00001", "00001", "01110", "00001", "00001", "11110"),
-    "4": ("00010", "00110", "01010", "10010", "11111", "00010", "00010"),
-    "5": ("11111", "10000", "10000", "11110", "00001", "00001", "11110"),
-    "6": ("01110", "10000", "10000", "11110", "10001", "10001", "01110"),
-    "7": ("11111", "00001", "00010", "00100", "01000", "01000", "01000"),
-    "8": ("01110", "10001", "10001", "01110", "10001", "10001", "01110"),
-    "9": ("01110", "10001", "10001", "01111", "00001", "00001", "01110"),
-    "A": ("01110", "10001", "10001", "11111", "10001", "10001", "10001"),
-    "B": ("11110", "10001", "10001", "11110", "10001", "10001", "11110"),
-    "C": ("01110", "10001", "10000", "10000", "10000", "10001", "01110"),
-    "D": ("11100", "10010", "10001", "10001", "10001", "10010", "11100"),
-    "E": ("11111", "10000", "10000", "11110", "10000", "10000", "11111"),
-    "F": ("11111", "10000", "10000", "11110", "10000", "10000", "10000"),
-    "G": ("01110", "10001", "10000", "10111", "10001", "10001", "01110"),
-    "H": ("10001", "10001", "10001", "11111", "10001", "10001", "10001"),
-    "I": ("01110", "00100", "00100", "00100", "00100", "00100", "01110"),
-    "J": ("00111", "00010", "00010", "00010", "10010", "10010", "01100"),
-    "K": ("10001", "10010", "10100", "11000", "10100", "10010", "10001"),
-    "L": ("10000", "10000", "10000", "10000", "10000", "10000", "11111"),
-    "M": ("10001", "11011", "10101", "10101", "10001", "10001", "10001"),
-    "N": ("10001", "11001", "10101", "10011", "10001", "10001", "10001"),
-    "O": ("01110", "10001", "10001", "10001", "10001", "10001", "01110"),
-    "P": ("11110", "10001", "10001", "11110", "10000", "10000", "10000"),
-    "Q": ("01110", "10001", "10001", "10001", "10101", "10010", "01101"),
-    "R": ("11110", "10001", "10001", "11110", "10100", "10010", "10001"),
-    "S": ("01111", "10000", "10000", "01110", "00001", "00001", "11110"),
-    "T": ("11111", "00100", "00100", "00100", "00100", "00100", "00100"),
-    "U": ("10001", "10001", "10001", "10001", "10001", "10001", "01110"),
-    "V": ("10001", "10001", "10001", "10001", "10001", "01010", "00100"),
-    "W": ("10001", "10001", "10001", "10101", "10101", "10101", "01010"),
-    "X": ("10001", "10001", "01010", "00100", "01010", "10001", "10001"),
-    "Y": ("10001", "10001", "01010", "00100", "00100", "00100", "00100"),
-    "Z": ("11111", "00001", "00010", "00100", "01000", "10000", "11111"),
-}
+CONTAINER_KEYS = ["TRUE", "FALSE", "NULL"]
+CONTAINER_COLORS = ["#4c78a8", "#f58518", "#b279a2"]
 
 
-class Canvas:
-    def __init__(self, width: int, height: int, background: Color = WHITE) -> None:
-        self.width = width
-        self.height = height
-        self.pixels = bytearray(bytes(background) * (width * height))
-
-    def set_pixel(self, x: int, y: int, color: Color) -> None:
-        if 0 <= x < self.width and 0 <= y < self.height:
-            idx = (y * self.width + x) * 3
-            self.pixels[idx:idx + 3] = bytes(color)
-
-    def fill_rect(self, x: int, y: int, width: int, height: int, color: Color) -> None:
-        x0 = max(0, x)
-        y0 = max(0, y)
-        x1 = min(self.width, x + width)
-        y1 = min(self.height, y + height)
-        for row in range(y0, y1):
-            start = (row * self.width + x0) * 3
-            end = (row * self.width + x1) * 3
-            self.pixels[start:end] = bytes(color) * (x1 - x0)
-
-    def draw_rect_outline(self, x: int, y: int, width: int, height: int, color: Color) -> None:
-        self.fill_rect(x, y, width, 1, color)
-        self.fill_rect(x, y + height - 1, width, 1, color)
-        self.fill_rect(x, y, 1, height, color)
-        self.fill_rect(x + width - 1, y, 1, height, color)
-
-    def draw_line(self, x1: int, y1: int, x2: int, y2: int, color: Color) -> None:
-        dx = abs(x2 - x1)
-        dy = -abs(y2 - y1)
-        sx = 1 if x1 < x2 else -1
-        sy = 1 if y1 < y2 else -1
-        err = dx + dy
-        while True:
-            self.set_pixel(x1, y1, color)
-            if x1 == x2 and y1 == y2:
-                break
-            e2 = 2 * err
-            if e2 >= dy:
-                err += dy
-                x1 += sx
-            if e2 <= dx:
-                err += dx
-                y1 += sy
-
-    def draw_text(self, x: int, y: int, text: str, color: Color = BLACK, scale: int = 2) -> None:
-        cursor_x = x
-        for raw_char in text:
-            char = raw_char.upper()
-            glyph = FONT.get(char, FONT[" "])
-            for row_index, row in enumerate(glyph):
-                for col_index, bit in enumerate(row):
-                    if bit == "1":
-                        self.fill_rect(
-                            cursor_x + col_index * scale,
-                            y + row_index * scale,
-                            scale,
-                            scale,
-                            color,
-                        )
-            cursor_x += (len(glyph[0]) + 1) * scale
-
-    def save_png(self, path: Path) -> None:
-        raw = bytearray()
-        row_length = self.width * 3
-        for y in range(self.height):
-            raw.append(0)
-            start = y * row_length
-            raw.extend(self.pixels[start:start + row_length])
-
-        def chunk(tag: bytes, data: bytes) -> bytes:
-            return (
-                struct.pack("!I", len(data))
-                + tag
-                + data
-                + struct.pack("!I", zlib.crc32(tag + data) & 0xFFFFFFFF)
-            )
-
-        ihdr = struct.pack("!IIBBBBB", self.width, self.height, 8, 2, 0, 0, 0)
-        png = b"".join(
-            [
-                b"\x89PNG\r\n\x1a\n",
-                chunk(b"IHDR", ihdr),
-                chunk(b"IDAT", zlib.compress(bytes(raw), level=9)),
-                chunk(b"IEND", b""),
-            ]
-        )
-        path.write_bytes(png)
-
-
-def load_json(path: Path) -> Optional[Dict[str, Any]]:
+def load_json(path: Path) -> Dict[str, Any] | None:
     try:
-        with open(path, encoding="utf-8") as handle:
-            data = json.load(handle)
-        return data if isinstance(data, dict) else None
+        with path.open("r", encoding="utf-8") as handle:
+            payload = json.load(handle)
+        return payload if isinstance(payload, dict) else None
     except (OSError, json.JSONDecodeError):
         return None
 
@@ -191,38 +45,9 @@ def iter_crosscheck_files(path: Path) -> List[Path]:
         return [path]
     if path.is_dir():
         return sorted(
-            candidate for candidate in path.iterdir()
-            if candidate.is_file() and candidate.suffix.lower() == ".json"
+            item for item in path.iterdir() if item.is_file() and item.suffix.lower() == ".json"
         )
     return []
-
-
-def format_test_label(name: str) -> str:
-    """Convert compact test names like ``DOITest`` into ``DOI Test``."""
-    return re.sub(
-        r"(?<=[a-z])(?=[A-Z])|(?<=[A-Z])(?=[A-Z][a-z])",
-        " ",
-        name,
-    )
-
-
-def collect_test_names(results: Sequence[Dict[str, Any]]) -> List[str]:
-    preferred = ["DOITest", "TitleTest", "UnstructuredTest"]
-    discovered = {
-        key
-        for result in results
-        for key, value in result.items()
-        if key.endswith("Test") and isinstance(value, bool)
-    }
-    ordered = [name for name in preferred if name in discovered]
-    ordered.extend(sorted(discovered - set(ordered)))
-    return ordered
-
-
-def count_test_values(results: Sequence[Dict[str, Any]], test_name: str) -> Tuple[int, int]:
-    true_count = sum(1 for result in results if result.get(test_name) is True)
-    false_count = sum(1 for result in results if result.get(test_name) is False)
-    return true_count, false_count
 
 
 def contains_unstructured(value: Any) -> bool:
@@ -246,216 +71,280 @@ def classify_container_found(value: Any) -> str:
     return "TRUE" if contains_unstructured(value) else "FALSE"
 
 
-def count_container_found(results: Sequence[Dict[str, Any]]) -> Dict[str, int]:
-    counts = {"TRUE": 0, "FALSE": 0, "NULL": 0}
+def summarize_results(results: List[Dict[str, Any]]) -> Tuple[Dict[str, int], Dict[str, int], int]:
+    combo_counts = {key: 0 for key in COMBO_KEYS}
+    container_counts = {key: 0 for key in CONTAINER_KEYS}
+
     for result in results:
-        status = classify_container_found(result.get("ContainerFound"))
-        counts[status] += 1
-    return counts
+        doi_test = result.get("DOITest")
+        title_test = result.get("TitleTest")
+        if doi_test is True and title_test is True:
+            combo_counts["TT"] += 1
+        elif doi_test is False and title_test is False:
+            combo_counts["FF"] += 1
+        elif doi_test is True and title_test is False:
+            combo_counts["TF"] += 1
+        elif doi_test is False and title_test is True:
+            combo_counts["FT"] += 1
+
+        container_status = classify_container_found(result.get("ContainerFound"))
+        container_counts[container_status] += 1
+
+    return combo_counts, container_counts, len(results)
 
 
-def draw_centered_text(
-    canvas: Canvas,
-    x: int,
-    y: int,
-    width: int,
-    text: str,
-    color: Color = BLACK,
-    scale: int = 2,
+def to_percentage(count: int, total: int) -> float:
+    return (count / total * 100.0) if total else 0.0
+
+
+def make_dataset_label(dataset_doi: str, dataset_title: str) -> str:
+    short_title = (dataset_title[:38] + "...") if len(dataset_title) > 41 else dataset_title
+    return f"{dataset_doi}\n{short_title}"
+
+
+def first_title(dataset_title: Any) -> str:
+    if isinstance(dataset_title, list) and dataset_title:
+        return str(dataset_title[0])
+    if isinstance(dataset_title, str):
+        return dataset_title
+    return ""
+
+
+def create_individual_chart(
+    output_path: Path,
+    dataset_doi: str,
+    dataset_title: str,
+    combo_counts: Dict[str, int],
+    container_counts: Dict[str, int],
+    total_publication_dois: int,
 ) -> None:
-    text_width = measure_text(text, scale=scale)
-    start_x = x + max(0, (width - text_width) // 2)
-    canvas.draw_text(start_x, y, text, color=color, scale=scale)
+    fig, (ax_pie, ax_bar) = plt.subplots(1, 2, figsize=(16, 8), constrained_layout=True)
 
+    combo_values = [combo_counts[key] for key in COMBO_KEYS]
+    pie_labels = [f"{label} ({value})" for label, value in zip(COMBO_LABELS, combo_values)]
 
-def measure_text(text: str, scale: int = 2) -> int:
-    width = 0
-    for raw_char in text:
-        glyph_width = len(FONT.get(raw_char.upper(), FONT[" "])[0])
-        width += (glyph_width + 1) * scale
-    return max(0, width - scale) if text else 0
+    ax_pie.pie(
+        combo_values,
+        labels=pie_labels,
+        colors=COMBO_COLORS,
+        autopct="%1.1f%%",
+        startangle=90,
+        textprops={"fontsize": 10},
+    )
+    ax_pie.axis("equal")
+    ax_pie.set_title("DOITest vs TitleTest", fontsize=14, pad=12)
 
-
-def draw_legend(canvas: Canvas, x: int, y: int, items: Sequence[Tuple[str, Color]]) -> None:
-    cursor_x = x
-    for label, color in items:
-        canvas.fill_rect(cursor_x, y + 6, 18, 18, color)
-        canvas.draw_rect_outline(cursor_x, y + 6, 18, 18, BLACK)
-        canvas.draw_text(cursor_x + 28, y, label, BLACK, scale=2)
-        cursor_x += 28 + measure_text(label, scale=2) + 36
-
-
-def draw_y_axis_ticks(
-    canvas: Canvas,
-    chart_x: int,
-    plot_left: int,
-    plot_top: int,
-    plot_right: int,
-    plot_bottom: int,
-    plot_height: int,
-    max_value: int,
-) -> None:
-    tick_count = min(5, max_value)
-    for step in range(tick_count + 1):
-        value = round(max_value * step / max(tick_count, 1))
-        y_pos = plot_bottom - int(plot_height * step / max(tick_count, 1))
-        canvas.draw_line(plot_left - 4, y_pos, plot_right, y_pos, LIGHT_GRAY if step != 0 else BLACK)
-        canvas.draw_text(chart_x + 8, y_pos - 7, str(value), BLACK, scale=2)
-
-
-def draw_grouped_test_chart(
-    canvas: Canvas,
-    x: int,
-    y: int,
-    width: int,
-    height: int,
-    test_counts: Sequence[Tuple[str, int, int]],
-) -> None:
-    canvas.draw_rect_outline(x, y, width, height, LIGHT_GRAY)
-    draw_centered_text(canvas, x, y + 16, width, "TEST COUNTS", scale=3)
-    draw_legend(canvas, x + 24, y + 58, [("TRUE", GREEN), ("FALSE", RED)])
-
-    plot_left = x + 70
-    plot_top = y + 110
-    plot_right = x + width - 30
-    plot_bottom = y + height - 70
-    plot_width = plot_right - plot_left
-    plot_height = plot_bottom - plot_top
-
-    canvas.draw_line(plot_left, plot_top, plot_left, plot_bottom, BLACK)
-    canvas.draw_line(plot_left, plot_bottom, plot_right, plot_bottom, BLACK)
-
-    if not test_counts:
-        draw_centered_text(canvas, plot_left, plot_top + (plot_height // 2) - 12, plot_width, "NO TEST DATA", scale=3)
-        return
-
-    max_value = max([1] + [max(true_count, false_count) for _, true_count, false_count in test_counts])
-    draw_y_axis_ticks(
-        canvas, x, plot_left, plot_top, plot_right, plot_bottom, plot_height, max_value
+    ax_pie.text(
+        0.5,
+        -0.12,
+        f"Total Publication DOIs: {total_publication_dois}",
+        transform=ax_pie.transAxes,
+        ha="center",
+        va="center",
+        fontsize=12,
     )
 
-    group_count = max(1, len(test_counts))
-    group_width = plot_width // group_count
-    bar_width = max(24, min(64, (group_width - 36) // 2))
+    true_count = container_counts["TRUE"]
+    false_count = container_counts["FALSE"]
+    null_count = container_counts["NULL"]
 
-    for index, (test_name, true_count, false_count) in enumerate(test_counts):
-        group_start = plot_left + index * group_width
-        center_x = group_start + group_width // 2
-        bars = [("TRUE", true_count, GREEN), ("FALSE", false_count, RED)]
-        for offset, (_, count, color) in enumerate(bars):
-            bar_x = center_x - bar_width - 8 if offset == 0 else center_x + 8
-            bar_height = int((count / max_value) * (plot_height - 10)) if max_value else 0
-            bar_y = plot_bottom - bar_height
-            canvas.fill_rect(bar_x, bar_y, bar_width, bar_height, color)
-            canvas.draw_rect_outline(bar_x, bar_y, bar_width, max(1, bar_height), BLACK)
-            draw_centered_text(canvas, bar_x, bar_y - 24, bar_width, str(count), scale=2)
+    bottom = 0
+    for label, value, color in [
+        ("True", true_count, CONTAINER_COLORS[0]),
+        ("False", false_count, CONTAINER_COLORS[1]),
+        ("Null", null_count, CONTAINER_COLORS[2]),
+    ]:
+        ax_bar.bar(["ContainerFound"], [value], bottom=[bottom], label=f"{label} ({value})", color=color)
+        bottom += value
 
-        label = format_test_label(test_name)
-        draw_centered_text(canvas, group_start, plot_bottom + 16, group_width, label, scale=2)
+    ax_bar.set_title('ContainerFound "unstructured" Counts', fontsize=14, pad=12)
+    ax_bar.set_ylabel("Count")
+    ax_bar.legend(loc="upper right")
+
+    fig.suptitle(f"{dataset_doi} | {dataset_title}", fontsize=14)
+    fig.savefig(output_path, dpi=200)
+    plt.close(fig)
 
 
-def draw_single_bar_chart(
-    canvas: Canvas,
-    x: int,
-    y: int,
-    width: int,
-    height: int,
-    counts: Sequence[Tuple[str, int, Color]],
+def load_cited_summary(cited_list_path: Path) -> Dict[str, Dict[str, int]]:
+    summary: Dict[str, Dict[str, int]] = {}
+    try:
+        with cited_list_path.open("r", encoding="utf-8") as handle:
+            payload = json.load(handle)
+    except (OSError, json.JSONDecodeError):
+        return summary
+
+    if not isinstance(payload, list):
+        return summary
+
+    for entry in payload:
+        if not isinstance(entry, dict):
+            continue
+        dois = entry.get("doi")
+        citation_count = entry.get("citation_count", 0)
+        citation_dois = entry.get("citation_doi") or entry.get("Citation_doi") or []
+        if not isinstance(citation_dois, list):
+            citation_dois = []
+
+        if isinstance(dois, list):
+            for doi in dois:
+                if isinstance(doi, str):
+                    summary[doi.strip().lower()] = {
+                        "citation_count": int(citation_count) if isinstance(citation_count, int) else 0,
+                        "citation_doi_count": len(citation_dois),
+                    }
+    return summary
+
+
+def create_comparison_chart(
+    output_path: Path,
+    dataset_rows: List[Dict[str, Any]],
+    cited_summary: Dict[str, Dict[str, int]],
 ) -> None:
-    canvas.draw_rect_outline(x, y, width, height, LIGHT_GRAY)
-    draw_centered_text(canvas, x, y + 16, width, "CONTAINER FOUND UNSTRUCTURED", scale=3)
+    labels = [row["dataset_label"] for row in dataset_rows]
 
-    plot_left = x + 70
-    plot_top = y + 80
-    plot_right = x + width - 30
-    plot_bottom = y + height - 70
-    plot_width = plot_right - plot_left
-    plot_height = plot_bottom - plot_top
+    combo_pct = {
+        key: [to_percentage(row["combo_counts"][key], row["total"]) for row in dataset_rows]
+        for key in COMBO_KEYS
+    }
+    container_pct = {
+        key: [to_percentage(row["container_counts"][key], row["total"]) for row in dataset_rows]
+        for key in CONTAINER_KEYS
+    }
 
-    canvas.draw_line(plot_left, plot_top, plot_left, plot_bottom, BLACK)
-    canvas.draw_line(plot_left, plot_bottom, plot_right, plot_bottom, BLACK)
+    fig = plt.figure(figsize=(24, 18), constrained_layout=True)
+    grid = fig.add_gridspec(4, 1, height_ratios=[1.3, 1.6, 1.8, 1.8])
 
-    max_value = max([1] + [count for _, count, _ in counts])
-    draw_y_axis_ticks(
-        canvas, x, plot_left, plot_top, plot_right, plot_bottom, plot_height, max_value
-    )
+    ax_text = fig.add_subplot(grid[0])
+    ax_compare = fig.add_subplot(grid[1])
+    ax_combo = fig.add_subplot(grid[2])
+    ax_container = fig.add_subplot(grid[3])
 
-    bar_slot = plot_width // max(1, len(counts))
-    bar_width = max(40, min(100, bar_slot // 2))
-    for index, (label, count, color) in enumerate(counts):
-        center_x = plot_left + index * bar_slot + bar_slot // 2
-        bar_x = center_x - bar_width // 2
-        bar_height = int((count / max_value) * (plot_height - 10)) if max_value else 0
-        bar_y = plot_bottom - bar_height
-        canvas.fill_rect(bar_x, bar_y, bar_width, bar_height, color)
-        canvas.draw_rect_outline(bar_x, bar_y, bar_width, max(1, bar_height), BLACK)
-        draw_centered_text(canvas, bar_x, bar_y - 24, bar_width, str(count), scale=2)
-        draw_centered_text(canvas, center_x - bar_slot // 2, plot_bottom + 16, bar_slot, label, scale=2)
+    text_lines = ["cited_list10_0.json citation summary per DOI"]
+    for row in dataset_rows:
+        key = row["dataset_doi"].strip().lower()
+        summary = cited_summary.get(key)
+        if summary:
+            text_lines.append(
+                f"{row['dataset_doi']}: citation_count={summary['citation_count']}, "
+                f"Citation_doi={summary['citation_doi_count']}"
+            )
+        else:
+            text_lines.append(f"{row['dataset_doi']}: citation_count=0, Citation_doi=0 (not found)")
+
+    ax_text.axis("off")
+    ax_text.text(0.0, 1.0, "\n".join(text_lines), va="top", ha="left", fontsize=12)
+
+    x = list(range(len(labels)))
+    width = 0.2
+    ax_compare.bar([v - 1.5 * width for v in x], combo_pct["TT"], width=width, label="True/True", color=COMBO_COLORS[0])
+    ax_compare.bar([v - 0.5 * width for v in x], combo_pct["FF"], width=width, label="False/False", color=COMBO_COLORS[1])
+    ax_compare.bar([v + 0.5 * width for v in x], combo_pct["TF"], width=width, label="True/False", color=COMBO_COLORS[2])
+    ax_compare.bar([v + 1.5 * width for v in x], combo_pct["FT"], width=width, label="False/True", color=COMBO_COLORS[3])
+    ax_compare.set_title("Dataset Comparison")
+    ax_compare.set_ylabel("Percentages")
+    ax_compare.set_ylim(0, 100)
+    ax_compare.set_yticks(range(0, 101, 10))
+    ax_compare.set_xticks(x)
+    ax_compare.set_xticklabels(labels, rotation=35, ha="right")
+    ax_compare.legend(ncol=2)
+
+    ax_combo.plot(x, combo_pct["TT"], linestyle="-", marker="o", color=COMBO_COLORS[0], label="DOITest=True & TitleTest=True")
+    ax_combo.plot(x, combo_pct["FF"], linestyle="--", marker="s", color=COMBO_COLORS[1], label="DOITest=False & TitleTest=False")
+    ax_combo.plot(x, combo_pct["TF"], linestyle=":", marker="^", color=COMBO_COLORS[2], label="DOITest=True & TitleTest=False")
+    ax_combo.plot(x, combo_pct["FT"], linestyle="-.", marker="d", color=COMBO_COLORS[3], label="DOITest=False & TitleTest=True")
+    ax_combo.set_ylabel("Percentages")
+    ax_combo.set_xlabel("Datasets")
+    ax_combo.set_ylim(0, 100)
+    ax_combo.set_yticks(range(0, 101, 10))
+    ax_combo.set_xticks(x)
+    ax_combo.set_xticklabels(labels, rotation=35, ha="right")
+    ax_combo.grid(axis="y", linestyle="--", alpha=0.4)
+    ax_combo.legend(loc="upper right", fontsize=9)
+
+    ax_container.plot(x, container_pct["TRUE"], linestyle="-", marker="o", color=CONTAINER_COLORS[0], label="True")
+    ax_container.plot(x, container_pct["FALSE"], linestyle="--", marker="s", color=CONTAINER_COLORS[1], label="False")
+    ax_container.plot(x, container_pct["NULL"], linestyle=":", marker="^", color=CONTAINER_COLORS[2], label="Null")
+    ax_container.set_ylabel("Percentages")
+    ax_container.set_xlabel("Datasets")
+    ax_container.set_ylim(0, 100)
+    ax_container.set_yticks(range(0, 101, 10))
+    ax_container.set_xticks(x)
+    ax_container.set_xticklabels(labels, rotation=35, ha="right")
+    ax_container.grid(axis="y", linestyle="--", alpha=0.4)
+    ax_container.legend(loc="upper right")
+
+    fig.savefig(output_path, dpi=200)
+    plt.close(fig)
 
 
-def create_chart(image_path: Path, source_name: str, results: Sequence[Dict[str, Any]]) -> None:
-    test_names = collect_test_names(results)
-    test_counts = [
-        (test_name, *count_test_values(results, test_name))
-        for test_name in test_names
-    ]
-    container_counts = count_container_found(results)
+def process_all(input_path: Path, output_dir: Path, cited_list_path: Path) -> int:
+    files = iter_crosscheck_files(input_path)
+    if not files:
+        print(f"No CrossCheckResult JSON files found at {input_path}")
+        return 0
 
-    canvas = Canvas(width=1200, height=900, background=WHITE)
-    draw_centered_text(canvas, 0, 18, canvas.width, "CROSSCHECK RESULTS SUMMARY", scale=4)
-    draw_centered_text(canvas, 0, 60, canvas.width, source_name.replace("_", " "), scale=2)
-    canvas.draw_text(36, 108, f"RESULTS: {len(results)}", BLACK, scale=2)
+    output_dir.mkdir(parents=True, exist_ok=True)
 
-    draw_grouped_test_chart(canvas, 30, 140, 1140, 420, test_counts)
-    draw_single_bar_chart(
-        canvas,
-        30,
-        590,
-        1140,
-        280,
-        [
-            ("TRUE", container_counts["TRUE"], GREEN),
-            ("FALSE", container_counts["FALSE"], BLUE),
-            ("NULL", container_counts["NULL"], GRAY),
-        ],
-    )
-    canvas.save_png(image_path)
+    dataset_rows: List[Dict[str, Any]] = []
+    written = 0
 
+    for json_file in files:
+        payload = load_json(json_file)
+        if payload is None:
+            print(f"Skipping unreadable JSON: {json_file}")
+            continue
 
-def process_file(json_path: Path, output_dir: Path) -> bool:
-    payload = load_json(json_path)
-    if payload is None:
-        print(f"Skipping unreadable JSON: {json_path}")
-        return False
+        results_raw = payload.get("results")
+        if not isinstance(results_raw, list):
+            print(f"Skipping JSON without a valid results list: {json_file}")
+            continue
 
-    results = payload.get("results", [])
-    if not isinstance(results, list):
-        print(f"Skipping JSON without a valid results list: {json_path}")
-        return False
+        results = [entry for entry in results_raw if isinstance(entry, dict)]
+        combo_counts, container_counts, total = summarize_results(results)
 
-    output_path = output_dir / f"{json_path.stem}.png"
-    create_chart(output_path, json_path.stem, [item for item in results if isinstance(item, dict)])
-    print(f"Wrote {output_path}")
-    return True
+        dataset_doi = str(payload.get("datasetDOI", json_file.stem))
+        dataset_title = first_title(payload.get("datasetTitle"))
+
+        image_path = output_dir / f"{json_file.stem}.png"
+        create_individual_chart(
+            image_path,
+            dataset_doi,
+            dataset_title,
+            combo_counts,
+            container_counts,
+            total,
+        )
+        written += 1
+        print(f"Wrote {image_path}")
+
+        dataset_rows.append(
+            {
+                "dataset_doi": dataset_doi,
+                "dataset_title": dataset_title,
+                "dataset_label": make_dataset_label(dataset_doi, dataset_title),
+                "combo_counts": combo_counts,
+                "container_counts": container_counts,
+                "total": total,
+            }
+        )
+
+    if dataset_rows:
+        cited_summary = load_cited_summary(cited_list_path)
+        comparison_path = output_dir / "Dataset_Comparison.png"
+        create_comparison_chart(comparison_path, dataset_rows, cited_summary)
+        print(f"Wrote {comparison_path}")
+
+    return written
 
 
 def main() -> None:
     input_path = Path(sys.argv[1]).expanduser() if len(sys.argv) > 1 else DEFAULT_INPUT
     output_dir = Path(sys.argv[2]).expanduser() if len(sys.argv) > 2 else DEFAULT_OUTPUT
+    cited_list_path = Path(sys.argv[3]).expanduser() if len(sys.argv) > 3 else DEFAULT_CITED_LIST
 
-    files = iter_crosscheck_files(input_path)
-    if not files:
-        print(f"No CrossCheckResult JSON files found at {input_path}")
-        return
-
-    output_dir.mkdir(parents=True, exist_ok=True)
-
-    written = 0
-    for json_file in files:
-        if process_file(json_file, output_dir):
-            written += 1
-
-    print(f"Done. Created {written} PNG file(s) in {output_dir}")
+    written = process_all(input_path, output_dir, cited_list_path)
+    print(f"Done. Created {written} individual PNG file(s) in {output_dir}")
 
 
 if __name__ == "__main__":
