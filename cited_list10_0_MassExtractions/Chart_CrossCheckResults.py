@@ -98,7 +98,7 @@ def to_percentage(count: int, total: int) -> float:
 
 
 def make_dataset_label(dataset_doi: str, dataset_title: str) -> str:
-    short_title = (dataset_title[:38] + "...") if len(dataset_title) > 41 else dataset_title
+    short_title = (dataset_title[:38] + "...") if len(dataset_title) > 38 else dataset_title
     return f"{dataset_doi}\n{short_title}"
 
 
@@ -123,15 +123,19 @@ def create_individual_chart(
     combo_values = [combo_counts[key] for key in COMBO_KEYS]
     pie_labels = [f"{label} ({value})" for label, value in zip(COMBO_LABELS, combo_values)]
 
-    ax_pie.pie(
-        combo_values,
-        labels=pie_labels,
-        colors=COMBO_COLORS,
-        autopct="%1.1f%%",
-        startangle=90,
-        textprops={"fontsize": 10},
-    )
-    ax_pie.axis("equal")
+    if sum(combo_values) == 0:
+        ax_pie.axis("off")
+        ax_pie.text(0.5, 0.5, "No DOITest/TitleTest results", ha="center", va="center", fontsize=12)
+    else:
+        ax_pie.pie(
+            combo_values,
+            labels=pie_labels,
+            colors=COMBO_COLORS,
+            autopct="%1.1f%%",
+            startangle=90,
+            textprops={"fontsize": 10},
+        )
+        ax_pie.axis("equal")
     ax_pie.set_title("DOITest vs TitleTest", fontsize=14, pad=12)
 
     ax_pie.text(
@@ -185,12 +189,16 @@ def load_cited_summary(cited_list_path: Path) -> Dict[str, Dict[str, int]]:
         citation_dois = entry.get("citation_doi") or entry.get("Citation_doi") or []
         if not isinstance(citation_dois, list):
             citation_dois = []
+        try:
+            normalized_citation_count = int(citation_count)
+        except (TypeError, ValueError):
+            normalized_citation_count = 0
 
         if isinstance(dois, list):
             for doi in dois:
                 if isinstance(doi, str):
                     summary[doi.strip().lower()] = {
-                        "citation_count": int(citation_count) if isinstance(citation_count, int) else 0,
+                        "citation_count": normalized_citation_count,
                         "citation_doi_count": len(citation_dois),
                     }
     return summary
