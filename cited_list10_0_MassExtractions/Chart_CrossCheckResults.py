@@ -296,7 +296,14 @@ def create_comparison_chart(
         success_rate_pct.append(to_percentage(row["doi_or_title_true_count"], citation_doi_count))
         scix_detected_pct.append(to_percentage(citation_doi_count, citation_count))
 
-    ax_success.plot(x, success_rate_pct, linestyle="-", marker="o", color="#2ca02c", label="Success Rate ((DOITest=True or Structured_Test=True) / citation_DOIs)")
+    ax_success.plot(
+        x,
+        success_rate_pct,
+        linestyle="-",
+        marker="o",
+        color="#2ca02c",
+        label="Success Rate ((DOITest=True or TitleTest=True) / citation_DOIs)",
+    )
     ax_success.plot(x, scix_detected_pct, linestyle="--", marker="s", color="#d62728", label="SciX DOI Detected (citation_DOIs / citation_count)")
     ax_success.set_title("Success and SciX DOI Detection", fontsize=16, pad=10)
     ax_success.set_ylabel("Percentages", fontsize=13)
