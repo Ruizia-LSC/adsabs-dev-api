@@ -1,0 +1,1 @@
+Beta testing different individual search structures to learn how to run the fully structured search. It was used on an old SciX pull, but the same principles still apply. The fully fleshed-out structure can be found in cited_list10_0_MassExtractions. These could be added later on for validation checks. 
