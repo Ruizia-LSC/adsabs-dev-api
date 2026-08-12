@@ -1,0 +1,1 @@
+Beta testing different structures to run the full search outputs. Was used on an old SciX pull, but the same principles still apply. A fully fleshed-out structure can be found in cited_list10_0_MassExtractions.
