@@ -71,9 +71,11 @@ def classify_container_found(value: Any) -> str:
     return "TRUE" if contains_unstructured(value) else "FALSE"
 
 
-def summarize_results(results: List[Dict[str, Any]]) -> Tuple[Dict[str, int], Dict[str, int], int]:
+def summarize_results(results: List[Dict[str, Any]]) -> Tuple[Dict[str, int], Dict[str, int], int, int, int]:
     combo_counts = {key: 0 for key in COMBO_KEYS}
     container_counts = {key: 0 for key in CONTAINER_KEYS}
+    doi_and_unstructured_true_count = 0
+    doi_or_title_true_count = 0
 
     for result in results:
         doi_test = result.get("DOITest")
@@ -89,8 +91,12 @@ def summarize_results(results: List[Dict[str, Any]]) -> Tuple[Dict[str, int], Di
 
         container_status = classify_container_found(result.get("ContainerFound"))
         container_counts[container_status] += 1
+        if doi_test is True or title_test is True:
+            doi_or_title_true_count += 1
+        if doi_test is True and container_status == "TRUE":
+            doi_and_unstructured_true_count += 1
 
-    return combo_counts, container_counts, len(results)
+    return combo_counts, container_counts, len(results), doi_and_unstructured_true_count, doi_or_title_true_count
 
 
 def to_percentage(count: int, total: int) -> float:
@@ -117,55 +123,68 @@ def create_individual_chart(
     combo_counts: Dict[str, int],
     container_counts: Dict[str, int],
     total_publication_dois: int,
+    doi_and_unstructured_true_count: int,
 ) -> None:
     fig, (ax_pie, ax_bar) = plt.subplots(1, 2, figsize=(16, 8), constrained_layout=True)
 
-    combo_values = [combo_counts[key] for key in COMBO_KEYS]
-    pie_labels = [f"{label} ({value})" for label, value in zip(COMBO_LABELS, combo_values)]
+    combo_data = [
+        (label, combo_counts[key], color) for label, key, color in zip(COMBO_LABELS, COMBO_KEYS, COMBO_COLORS) if combo_counts[key] > 0
+    ]
+    combo_values = [item[1] for item in combo_data]
+    pie_labels = [f"{item[0]} ({item[1]})" for item in combo_data]
+    pie_colors = [item[2] for item in combo_data]
 
     if sum(combo_values) == 0:
         ax_pie.axis("off")
-        ax_pie.text(0.5, 0.5, "No DOITest/TitleTest results", ha="center", va="center", fontsize=12)
+        ax_pie.text(0.5, 0.5, "No DOITest/TitleTest results", ha="center", va="center", fontsize=14)
     else:
         ax_pie.pie(
             combo_values,
             labels=pie_labels,
-            colors=COMBO_COLORS,
+            colors=pie_colors,
             autopct="%1.1f%%",
             startangle=90,
-            textprops={"fontsize": 10},
+            textprops={"fontsize": 12},
         )
         ax_pie.axis("equal")
-    ax_pie.set_title("DOITest vs TitleTest", fontsize=14, pad=12)
+    ax_pie.set_title("DOITest vs TitleTest", fontsize=16, pad=12)
 
     ax_pie.text(
         0.5,
-        -0.12,
-        f"Total Publication DOIs: {total_publication_dois}",
+        -0.14,
+        (
+            f"Total Publication DOIs: {total_publication_dois}\n"
+            f'DOITest=TRUE and "unstructured"=TRUE: {doi_and_unstructured_true_count}'
+        ),
         transform=ax_pie.transAxes,
         ha="center",
         va="center",
-        fontsize=12,
+        fontsize=13,
     )
 
     true_count = container_counts["TRUE"]
     false_count = container_counts["FALSE"]
     null_count = container_counts["NULL"]
 
-    bottom = 0
-    for label, value, color in [
-        ("True", true_count, CONTAINER_COLORS[0]),
-        ("False", false_count, CONTAINER_COLORS[1]),
-        ("Null", null_count, CONTAINER_COLORS[2]),
-    ]:
-        ax_bar.bar(["ContainerFound"], [value], bottom=[bottom], label=f"{label} ({value})", color=color)
-        bottom += value
+    bar_labels = ["True", "False", "Null"]
+    bar_values = [true_count, false_count, null_count]
+    bars = ax_bar.bar(bar_labels, bar_values, color=CONTAINER_COLORS)
+    for bar, value in zip(bars, bar_values):
+        ax_bar.text(
+            bar.get_x() + bar.get_width() / 2,
+            bar.get_height() + 0.5,
+            str(value),
+            ha="center",
+            va="bottom",
+            fontsize=12,
+        )
 
-    ax_bar.set_title('ContainerFound "unstructured" Counts', fontsize=14, pad=12)
-    ax_bar.set_ylabel("Count")
-    ax_bar.legend(loc="upper right")
+    ax_bar.set_title('ContainerFound "unstructured" Counts', fontsize=16, pad=12)
+    ax_bar.set_ylabel("Count", fontsize=13)
+    ax_bar.tick_params(axis="both", labelsize=12)
+    ax_bar.set_ylim(0, max(bar_values + [1]) * 1.15)
 
-    fig.suptitle(f"{dataset_doi} | {dataset_title}", fontsize=14)
+    fig.suptitle(f"{dataset_doi} | {dataset_title}", fontsize=17)
     fig.savefig(output_path, dpi=200)
     plt.close(fig)
 
@@ -220,13 +239,13 @@ def create_comparison_chart(
         for key in CONTAINER_KEYS
     }
 
-    fig = plt.figure(figsize=(24, 18), constrained_layout=True)
-    grid = fig.add_gridspec(4, 1, height_ratios=[1.3, 1.6, 1.8, 1.8])
+    fig = plt.figure(figsize=(24, 20), constrained_layout=True)
+    grid = fig.add_gridspec(4, 1, height_ratios=[1.5, 1.5, 1.5, 1.2])
 
-    ax_text = fig.add_subplot(grid[0])
-    ax_compare = fig.add_subplot(grid[1])
-    ax_combo = fig.add_subplot(grid[2])
-    ax_container = fig.add_subplot(grid[3])
+    ax_combo = fig.add_subplot(grid[0])
+    ax_container = fig.add_subplot(grid[1], sharex=ax_combo)
+    ax_success = fig.add_subplot(grid[2], sharex=ax_combo)
+    ax_text = fig.add_subplot(grid[3])
 
     text_lines = ["cited_list10_0.json citation summary per DOI"]
     for row in dataset_rows:
@@ -240,47 +259,58 @@ def create_comparison_chart(
         else:
             text_lines.append(f"{row['dataset_doi']}: citation_count=0, Citation_doi=0 (not found)")
 
-    ax_text.axis("off")
-    ax_text.text(0.0, 1.0, "\n".join(text_lines), va="top", ha="left", fontsize=12)
-
     x = list(range(len(labels)))
-    width = 0.2
-    ax_compare.bar([v - 1.5 * width for v in x], combo_pct["TT"], width=width, label="True/True", color=COMBO_COLORS[0])
-    ax_compare.bar([v - 0.5 * width for v in x], combo_pct["FF"], width=width, label="False/False", color=COMBO_COLORS[1])
-    ax_compare.bar([v + 0.5 * width for v in x], combo_pct["TF"], width=width, label="True/False", color=COMBO_COLORS[2])
-    ax_compare.bar([v + 1.5 * width for v in x], combo_pct["FT"], width=width, label="False/True", color=COMBO_COLORS[3])
-    ax_compare.set_title("Dataset Comparison")
-    ax_compare.set_ylabel("Percentages")
-    ax_compare.set_ylim(0, 100)
-    ax_compare.set_yticks(range(0, 101, 10))
-    ax_compare.set_xticks(x)
-    ax_compare.set_xticklabels(labels, rotation=35, ha="right")
-    ax_compare.legend(ncol=2)
 
     ax_combo.plot(x, combo_pct["TT"], linestyle="-", marker="o", color=COMBO_COLORS[0], label="DOITest=True & TitleTest=True")
     ax_combo.plot(x, combo_pct["FF"], linestyle="--", marker="s", color=COMBO_COLORS[1], label="DOITest=False & TitleTest=False")
     ax_combo.plot(x, combo_pct["TF"], linestyle=":", marker="^", color=COMBO_COLORS[2], label="DOITest=True & TitleTest=False")
     ax_combo.plot(x, combo_pct["FT"], linestyle="-.", marker="d", color=COMBO_COLORS[3], label="DOITest=False & TitleTest=True")
-    ax_combo.set_ylabel("Percentages")
-    ax_combo.set_xlabel("Datasets")
+    ax_combo.set_title("DOI and Title Test", fontsize=16, pad=10)
+    ax_combo.set_ylabel("Percentages", fontsize=13)
     ax_combo.set_ylim(0, 100)
     ax_combo.set_yticks(range(0, 101, 10))
-    ax_combo.set_xticks(x)
-    ax_combo.set_xticklabels(labels, rotation=35, ha="right")
+    ax_combo.tick_params(axis="both", labelsize=12)
     ax_combo.grid(axis="y", linestyle="--", alpha=0.4)
-    ax_combo.legend(loc="upper right", fontsize=9)
+    ax_combo.legend(loc="upper right", fontsize=11)
+    ax_combo.tick_params(labelbottom=False)
 
     ax_container.plot(x, container_pct["TRUE"], linestyle="-", marker="o", color=CONTAINER_COLORS[0], label="True")
     ax_container.plot(x, container_pct["FALSE"], linestyle="--", marker="s", color=CONTAINER_COLORS[1], label="False")
     ax_container.plot(x, container_pct["NULL"], linestyle=":", marker="^", color=CONTAINER_COLORS[2], label="Null")
-    ax_container.set_ylabel("Percentages")
-    ax_container.set_xlabel("Datasets")
+    ax_container.set_title("Unstructured Test", fontsize=16, pad=10)
+    ax_container.set_ylabel("Percentages", fontsize=13)
     ax_container.set_ylim(0, 100)
     ax_container.set_yticks(range(0, 101, 10))
-    ax_container.set_xticks(x)
-    ax_container.set_xticklabels(labels, rotation=35, ha="right")
+    ax_container.tick_params(axis="both", labelsize=12)
     ax_container.grid(axis="y", linestyle="--", alpha=0.4)
-    ax_container.legend(loc="upper right")
+    ax_container.legend(loc="upper right", fontsize=11)
+    ax_container.tick_params(labelbottom=False)
+
+    success_rate_pct = []
+    scix_detected_pct = []
+    for row in dataset_rows:
+        key = row["dataset_doi"].strip().lower()
+        summary = cited_summary.get(key, {})
+        citation_doi_count = int(summary.get("citation_doi_count", 0) or 0)
+        citation_count = int(summary.get("citation_count", 0) or 0)
+        success_rate_pct.append(to_percentage(row["doi_or_title_true_count"], citation_doi_count))
+        scix_detected_pct.append(to_percentage(citation_doi_count, citation_count))
+
+    ax_success.plot(x, success_rate_pct, linestyle="-", marker="o", color="#2ca02c", label="Success Rate ((DOITest=True or Structured_Test=True) / citation_DOIs)")
+    ax_success.plot(x, scix_detected_pct, linestyle="--", marker="s", color="#d62728", label="SciX DOI Detected (citation_DOIs / citation_count)")
+    ax_success.set_title("Success and SciX DOI Detection", fontsize=16, pad=10)
+    ax_success.set_ylabel("Percentages", fontsize=13)
+    ax_success.set_xlabel("Datasets", fontsize=13)
+    ax_success.set_ylim(0, 100)
+    ax_success.set_yticks(range(0, 101, 10))
+    ax_success.set_xticks(x)
+    ax_success.set_xticklabels(labels, rotation=35, ha="right")
+    ax_success.tick_params(axis="both", labelsize=12)
+    ax_success.grid(axis="y", linestyle="--", alpha=0.4)
+    ax_success.legend(loc="upper right", fontsize=10)
+
+    ax_text.axis("off")
+    ax_text.text(0.0, 1.0, "\n".join(text_lines), va="top", ha="left", fontsize=13)
 
     fig.savefig(output_path, dpi=200)
     plt.close(fig)
@@ -309,7 +339,7 @@ def process_all(input_path: Path, output_dir: Path, cited_list_path: Path) -> in
             continue
 
         results = [entry for entry in results_raw if isinstance(entry, dict)]
-        combo_counts, container_counts, total = summarize_results(results)
+        combo_counts, container_counts, total, doi_and_unstructured_true_count, doi_or_title_true_count = summarize_results(results)
 
         dataset_doi = str(payload.get("datasetDOI", json_file.stem))
         dataset_title = first_title(payload.get("datasetTitle"))
@@ -322,6 +352,7 @@ def process_all(input_path: Path, output_dir: Path, cited_list_path: Path) -> in
             combo_counts,
             container_counts,
             total,
+            doi_and_unstructured_true_count,
         )
         written += 1
         print(f"Wrote {image_path}")
@@ -334,6 +365,7 @@ def process_all(input_path: Path, output_dir: Path, cited_list_path: Path) -> in
                 "combo_counts": combo_counts,
                 "container_counts": container_counts,
                 "total": total,
+                "doi_or_title_true_count": doi_or_title_true_count,
             }
         )
 
