@@ -239,25 +239,12 @@ def create_comparison_chart(
         for key in CONTAINER_KEYS
     }
 
-    fig = plt.figure(figsize=(24, 20), constrained_layout=True)
-    grid = fig.add_gridspec(4, 1, height_ratios=[1.5, 1.5, 1.5, 1.2])
+    fig = plt.figure(figsize=(24, 18), constrained_layout=True)
+    grid = fig.add_gridspec(3, 1, height_ratios=[1.5, 1.5, 1.5])
 
     ax_combo = fig.add_subplot(grid[0])
     ax_container = fig.add_subplot(grid[1], sharex=ax_combo)
     ax_success = fig.add_subplot(grid[2], sharex=ax_combo)
-    ax_text = fig.add_subplot(grid[3])
-
-    text_lines = ["cited_list10_0.json citation summary per DOI"]
-    for row in dataset_rows:
-        key = row["dataset_doi"].strip().lower()
-        summary = cited_summary.get(key)
-        if summary:
-            text_lines.append(
-                f"{row['dataset_doi']}: citation_count={summary['citation_count']}, "
-                f"Citation_doi={summary['citation_doi_count']}"
-            )
-        else:
-            text_lines.append(f"{row['dataset_doi']}: citation_count=0, Citation_doi=0 (not found)")
 
     x = list(range(len(labels)))
 
@@ -269,6 +256,7 @@ def create_comparison_chart(
     ax_combo.set_ylabel("Percentages", fontsize=13)
     ax_combo.set_ylim(0, 100)
     ax_combo.set_yticks(range(0, 101, 10))
+    ax_combo.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"{int(v)}%"))
     ax_combo.tick_params(axis="both", labelsize=12)
     ax_combo.grid(axis="y", linestyle="--", alpha=0.4)
     ax_combo.legend(loc="upper right", fontsize=11)
@@ -278,9 +266,9 @@ def create_comparison_chart(
     ax_container.plot(x, container_pct["FALSE"], linestyle="--", marker="s", color=CONTAINER_COLORS[1], label="False")
     ax_container.plot(x, container_pct["NULL"], linestyle=":", marker="^", color=CONTAINER_COLORS[2], label="Null")
     ax_container.set_title("Unstructured Test", fontsize=16, pad=10)
-    ax_container.set_ylabel("Percentages", fontsize=13)
     ax_container.set_ylim(0, 100)
     ax_container.set_yticks(range(0, 101, 10))
+    ax_container.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"{int(v)}%"))
     ax_container.tick_params(axis="both", labelsize=12)
     ax_container.grid(axis="y", linestyle="--", alpha=0.4)
     ax_container.legend(loc="upper right", fontsize=11)
@@ -293,7 +281,7 @@ def create_comparison_chart(
         summary = cited_summary.get(key, {})
         citation_doi_count = int(summary.get("citation_doi_count", 0) or 0)
         citation_count = int(summary.get("citation_count", 0) or 0)
-        success_rate_pct.append(to_percentage(row["doi_or_title_true_count"], citation_doi_count))
+        success_rate_pct.append(to_percentage(row["doi_and_unstructured_true_count"], citation_doi_count))
         scix_detected_pct.append(to_percentage(citation_doi_count, citation_count))
 
     ax_success.plot(
@@ -302,22 +290,45 @@ def create_comparison_chart(
         linestyle="-",
         marker="o",
         color="#2ca02c",
-        label="Success Rate ((DOITest=True or TitleTest=True) / citation_DOIs)",
+        label="Success Rate ((DOITest=True and UnstructuredTest=True) / citation_DOIs)",
     )
     ax_success.plot(x, scix_detected_pct, linestyle="--", marker="s", color="#d62728", label="SciX DOI Detected (citation_DOIs / citation_count)")
+
+    # Annotate citation_count and Citation_doi on their corresponding points
+    for xi, row in enumerate(dataset_rows):
+        key = row["dataset_doi"].strip().lower()
+        summary = cited_summary.get(key, {})
+        citation_doi_count = int(summary.get("citation_doi_count", 0) or 0)
+        citation_count = int(summary.get("citation_count", 0) or 0)
+        ax_success.annotate(
+            f"Citation_doi={citation_doi_count}",
+            xy=(xi, scix_detected_pct[xi]),
+            xytext=(0, -18),
+            textcoords="offset points",
+            ha="center",
+            fontsize=11,
+            color="black",
+        )
+        ax_success.annotate(
+            f"citation_count={citation_count}",
+            xy=(xi, scix_detected_pct[xi]),
+            xytext=(0, -32),
+            textcoords="offset points",
+            ha="center",
+            fontsize=11,
+            color="black",
+        )
     ax_success.set_title("Success and SciX DOI Detection", fontsize=16, pad=10)
     ax_success.set_ylabel("Percentages", fontsize=13)
     ax_success.set_xlabel("Datasets", fontsize=13)
     ax_success.set_ylim(0, 100)
     ax_success.set_yticks(range(0, 101, 10))
+    ax_success.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"{int(v)}%"))
     ax_success.set_xticks(x)
     ax_success.set_xticklabels(labels, rotation=35, ha="right")
     ax_success.tick_params(axis="both", labelsize=12)
     ax_success.grid(axis="y", linestyle="--", alpha=0.4)
-    ax_success.legend(loc="upper right", fontsize=10)
-
-    ax_text.axis("off")
-    ax_text.text(0.0, 1.0, "\n".join(text_lines), va="top", ha="left", fontsize=13)
+    ax_success.legend(loc="best", fontsize=10)
 
     fig.savefig(output_path, dpi=200)
     plt.close(fig)
@@ -372,7 +383,7 @@ def process_all(input_path: Path, output_dir: Path, cited_list_path: Path) -> in
                 "combo_counts": combo_counts,
                 "container_counts": container_counts,
                 "total": total,
-                "doi_or_title_true_count": doi_or_title_true_count,
+                "doi_and_unstructured_true_count": doi_and_unstructured_true_count,
             }
         )
 
