@@ -302,20 +302,20 @@ def create_comparison_chart(
         ax_success.annotate(
             f"Citation_doi={citation_doi_count}",
             xy=(xi, scix_detected_pct[xi]),
-            xytext=(0, 8),
+            xytext=(0, -18),
             textcoords="offset points",
             ha="center",
-            fontsize=8,
-            color="#d62728",
+            fontsize=11,
+            color="black",
         )
         ax_success.annotate(
             f"citation_count={citation_count}",
             xy=(xi, scix_detected_pct[xi]),
-            xytext=(0, -14),
+            xytext=(0, -32),
             textcoords="offset points",
             ha="center",
-            fontsize=8,
-            color="#d62728",
+            fontsize=11,
+            color="black",
         )
     ax_success.set_title("Success and SciX DOI Detection", fontsize=16, pad=10)
     ax_success.set_ylabel("Percentages", fontsize=13)
