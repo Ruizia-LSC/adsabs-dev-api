@@ -328,7 +328,7 @@ def create_comparison_chart(
     ax_success.set_xticklabels(labels, rotation=35, ha="right")
     ax_success.tick_params(axis="both", labelsize=12)
     ax_success.grid(axis="y", linestyle="--", alpha=0.4)
-    ax_success.legend(loc="upper center", bbox_to_anchor=(0.5, -0.35), ncol=1, fontsize=10)
+    ax_success.legend(loc="best", fontsize=10)
 
     fig.savefig(output_path, dpi=200)
     plt.close(fig)
