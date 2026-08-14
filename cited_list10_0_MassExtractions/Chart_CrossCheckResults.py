@@ -159,7 +159,7 @@ def create_individual_chart(
         transform=ax_pie.transAxes,
         ha="center",
         va="center",
-        fontsize=13,
+        fontsize=14,
     )
 
     true_count = container_counts["TRUE"]
@@ -176,7 +176,7 @@ def create_individual_chart(
             str(value),
             ha="center",
             va="bottom",
-            fontsize=12,
+            fontsize=14,
         )
 
     ax_bar.set_title('ContainerFound "unstructured" Counts', fontsize=16, pad=12)
@@ -253,13 +253,13 @@ def create_comparison_chart(
     ax_combo.plot(x, combo_pct["TF"], linestyle=":", marker="^", color=COMBO_COLORS[2], label="DOITest=True & TitleTest=False")
     ax_combo.plot(x, combo_pct["FT"], linestyle="-.", marker="d", color=COMBO_COLORS[3], label="DOITest=False & TitleTest=True")
     ax_combo.set_title("DOI and Title Test", fontsize=16, pad=10)
-    ax_combo.set_ylabel("Percentages", fontsize=13)
+    ax_combo.set_ylabel("Percentages", fontsize=14)
     ax_combo.set_ylim(0, 100)
-    ax_combo.set_yticks(range(0, 101, 10))
+    ax_combo.set_yticks(range(0, 101, 5))
     ax_combo.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"{int(v)}%"))
-    ax_combo.tick_params(axis="both", labelsize=12)
+    ax_combo.tick_params(axis="both", labelsize=14)
     ax_combo.grid(axis="y", linestyle="--", alpha=0.4)
-    ax_combo.legend(loc="upper right", fontsize=11)
+    ax_combo.legend(loc="upper right", fontsize=14)
     ax_combo.tick_params(labelbottom=False)
 
     ax_container.plot(x, container_pct["TRUE"], linestyle="-", marker="o", color=CONTAINER_COLORS[0], label="True")
@@ -267,11 +267,11 @@ def create_comparison_chart(
     ax_container.plot(x, container_pct["NULL"], linestyle=":", marker="^", color=CONTAINER_COLORS[2], label="Null")
     ax_container.set_title("Unstructured Test", fontsize=16, pad=10)
     ax_container.set_ylim(0, 100)
-    ax_container.set_yticks(range(0, 101, 10))
+    ax_container.set_yticks(range(0, 101, 5))
     ax_container.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"{int(v)}%"))
-    ax_container.tick_params(axis="both", labelsize=12)
+    ax_container.tick_params(axis="both", labelsize=14)
     ax_container.grid(axis="y", linestyle="--", alpha=0.4)
-    ax_container.legend(loc="upper right", fontsize=11)
+    ax_container.legend(loc="upper right", fontsize=14)
     ax_container.tick_params(labelbottom=False)
 
     success_rate_pct = []
@@ -322,13 +322,13 @@ def create_comparison_chart(
     ax_success.set_ylabel("Percentages", fontsize=13)
     ax_success.set_xlabel("Datasets", fontsize=13)
     ax_success.set_ylim(0, 100)
-    ax_success.set_yticks(range(0, 101, 10))
+    ax_success.set_yticks(range(0, 101, 5))
     ax_success.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"{int(v)}%"))
     ax_success.set_xticks(x)
     ax_success.set_xticklabels(labels, rotation=35, ha="right")
-    ax_success.tick_params(axis="both", labelsize=12)
+    ax_success.tick_params(axis="both", labelsize=14)
     ax_success.grid(axis="y", linestyle="--", alpha=0.4)
-    ax_success.legend(loc="best", fontsize=10)
+    ax_success.legend(loc="best", fontsize=14)
 
     fig.savefig(output_path, dpi=200)
     plt.close(fig)
