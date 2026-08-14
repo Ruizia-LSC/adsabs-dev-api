@@ -248,10 +248,10 @@ def create_comparison_chart(
 
     x = list(range(len(labels)))
 
-    ax_combo.plot(x, combo_pct["TT"], linestyle="-", marker="o", color=COMBO_COLORS[0], label="DOITest=True & TitleTest=True")
-    ax_combo.plot(x, combo_pct["FF"], linestyle="--", marker="s", color=COMBO_COLORS[1], label="DOITest=False & TitleTest=False")
-    ax_combo.plot(x, combo_pct["TF"], linestyle=":", marker="^", color=COMBO_COLORS[2], label="DOITest=True & TitleTest=False")
-    ax_combo.plot(x, combo_pct["FT"], linestyle="-.", marker="d", color=COMBO_COLORS[3], label="DOITest=False & TitleTest=True")
+    ax_combo.plot(x, combo_pct["TT"], linestyle="-", marker="o", color=COMBO_COLORS[0], label="DOITest=True & TitleTest=True", markersize=12)
+    ax_combo.plot(x, combo_pct["FF"], linestyle="--", marker="s", color=COMBO_COLORS[1], label="DOITest=False & TitleTest=False", markersize=12)
+    ax_combo.plot(x, combo_pct["TF"], linestyle=":", marker="^", color=COMBO_COLORS[2], label="DOITest=True & TitleTest=False", markersize=12)
+    ax_combo.plot(x, combo_pct["FT"], linestyle="-.", marker="d", color=COMBO_COLORS[3], label="DOITest=False & TitleTest=True", markersize=12)
     ax_combo.set_title("DOI and Title Test", fontsize=16, pad=10)
     ax_combo.set_ylabel("Percentages", fontsize=14)
     ax_combo.set_ylim(0, 100)
@@ -262,9 +262,9 @@ def create_comparison_chart(
     ax_combo.legend(loc="upper right", fontsize=14)
     ax_combo.tick_params(labelbottom=False)
 
-    ax_container.plot(x, container_pct["TRUE"], linestyle="-", marker="o", color=CONTAINER_COLORS[0], label="True")
-    ax_container.plot(x, container_pct["FALSE"], linestyle="--", marker="s", color=CONTAINER_COLORS[1], label="False")
-    ax_container.plot(x, container_pct["NULL"], linestyle=":", marker="^", color=CONTAINER_COLORS[2], label="Null")
+    ax_container.plot(x, container_pct["TRUE"], linestyle="-", marker="o", color=CONTAINER_COLORS[0], label="True", markersize=12)
+    ax_container.plot(x, container_pct["FALSE"], linestyle="--", marker="s", color=CONTAINER_COLORS[1], label="False", markersize=12)
+    ax_container.plot(x, container_pct["NULL"], linestyle=":", marker="^", color=CONTAINER_COLORS[2], label="Null", markersize=12)
     ax_container.set_title("Unstructured Test", fontsize=16, pad=10)
     ax_container.set_ylim(0, 100)
     ax_container.set_yticks(range(0, 101, 5))
