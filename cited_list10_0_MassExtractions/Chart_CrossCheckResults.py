@@ -255,7 +255,7 @@ def create_comparison_chart(
     ax_combo.set_title("DOI and Title Test", fontsize=16, pad=10)
     ax_combo.set_ylabel("Percentages", fontsize=14)
     ax_combo.set_ylim(0, 100)
-    ax_combo.set_yticks(range(0, 101, 5))
+    ax_combo.set_yticks(range(0, 101, 20))
     ax_combo.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"{int(v)}%"))
     ax_combo.tick_params(axis="both", labelsize=14)
     ax_combo.grid(axis="y", linestyle="--", alpha=0.4)
@@ -267,7 +267,7 @@ def create_comparison_chart(
     ax_container.plot(x, container_pct["NULL"], linestyle=":", marker="^", color=CONTAINER_COLORS[2], label="Null", markersize=12)
     ax_container.set_title("Unstructured Test", fontsize=16, pad=10)
     ax_container.set_ylim(0, 100)
-    ax_container.set_yticks(range(0, 101, 5))
+    ax_container.set_yticks(range(0, 101, 20))
     ax_container.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"{int(v)}%"))
     ax_container.tick_params(axis="both", labelsize=14)
     ax_container.grid(axis="y", linestyle="--", alpha=0.4)
@@ -290,9 +290,9 @@ def create_comparison_chart(
         linestyle="-",
         marker="o",
         color="#2ca02c",
-        label="Success Rate ((DOITest=True and UnstructuredTest=True) / citation_DOIs)",
+        label="Success Rate ((DOITest=True and UnstructuredTest=True) / citation_DOIs)", markersize=12
     )
-    ax_success.plot(x, scix_detected_pct, linestyle="--", marker="s", color="#d62728", label="SciX DOI Detected (citation_DOIs / citation_count)")
+    ax_success.plot(x, scix_detected_pct, linestyle="--", marker="s", color="#d62728", label="SciX DOI Detected (citation_DOIs / citation_count)", markersize=12)
 
     # Annotate citation_count and Citation_doi on their corresponding points
     for xi, row in enumerate(dataset_rows):
@@ -322,7 +322,7 @@ def create_comparison_chart(
     ax_success.set_ylabel("Percentages", fontsize=13)
     ax_success.set_xlabel("Datasets", fontsize=13)
     ax_success.set_ylim(0, 100)
-    ax_success.set_yticks(range(0, 101, 5))
+    ax_success.set_yticks(range(0, 101, 20))
     ax_success.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"{int(v)}%"))
     ax_success.set_xticks(x)
     ax_success.set_xticklabels(labels, rotation=35, ha="right")
